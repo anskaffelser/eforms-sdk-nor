@@ -1,0 +1,14 @@
+dec-exa:
+  name: Weight (decimal, exact)
+dec-mid:
+  name: Weight (decimal, middle of a range)
+ord-imp:
+  name: Order of importance
+per-exa:
+  name: Weight (percentage, exact)
+per-mid:
+  name: Weight (percentage, middle of a range)
+poi-exa:
+  name: Weight (points, exact)
+poi-mid:
+  name: Weight (points, middle of a range)

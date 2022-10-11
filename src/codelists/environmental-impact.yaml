@@ -1,0 +1,24 @@
+biodiv-eco:
+  name: The protection and restoration of biodiversity and ecosystems
+circ-econ:
+  name: The transition to a circular economy
+clim-adapt:
+  name: Climate change adaptation
+clim-mitig:
+  name: Climate change mitigation
+emas-com:
+  name: Requesting compliance with the eco-management and audit scheme (EMAS), established by Regulation (EC) No 1221/2009
+ene-ef-com:
+  name: Requesting compliance with the highest energy efficiency class (as defined by various legislation such as, for example, Regulation (EU) 626/2011 on air conditioners)
+iso-14001-com:
+  name: Requesting compliance with an ISO 14001 environmental management system, other than the eco-management and audit scheme (EMAS) established by Regulation (EC) No 1221/2009
+iso-14024-com:
+  name: Requesting compliance with an ISO 14024 Type I environmental label
+other:
+  name: Other
+pollu-prev:
+  name: Pollution prevention and control
+reg-834-2007-com:
+  name: Requesting, for the majority of the relevant purchase, the compliance with Regulation (EC) 834/2007 on organic production and labelling of organic products
+water-mar:
+  name: The sustainable use and protection of water and marine resources

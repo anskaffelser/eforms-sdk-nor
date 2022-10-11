@@ -1,0 +1,48 @@
+BUL:
+  name: Bulgarian
+CES:
+  name: Czech
+DAN:
+  name: Danish
+DEU:
+  name: German
+ELL:
+  name: Greek
+ENG:
+  name: English
+EST:
+  name: Estonian
+FIN:
+  name: Finnish
+FRA:
+  name: French
+GLE:
+  name: Irish
+HRV:
+  name: Croatian
+HUN:
+  name: Hungarian
+ITA:
+  name: Italian
+LAV:
+  name: Latvian
+LIT:
+  name: Lithuanian
+MLT:
+  name: Maltese
+NLD:
+  name: Dutch
+POL:
+  name: Polish
+POR:
+  name: Portuguese
+RON:
+  name: Romanian
+SLK:
+  name: Slovak
+SLV:
+  name: Slovenian
+SPA:
+  name: Spanish
+SWE:
+  name: Swedish

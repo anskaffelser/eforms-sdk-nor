@@ -1,0 +1,12 @@
+EE001:
+  name: Põhja-Eesti
+EE004:
+  name: Lääne-Eesti
+EE008:
+  name: Lõuna-Eesti
+EE009:
+  name: Kesk-Eesti
+EE00A:
+  name: Kirde-Eesti
+EEZZZ:
+  name: Extra-Regio NUTS 3

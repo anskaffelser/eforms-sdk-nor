@@ -1,0 +1,6 @@
+clos-nw:
+  name: No winner was chosen and the competition is closed.
+open-nw:
+  name: The winner was not yet chosen, but the competition is still ongoing.
+selec-w:
+  name: At least one winner was chosen.

@@ -1,0 +1,814 @@
+expression|name|1:
+  name: the value chosen for the indicator of BT-740-Procedure-Buyer is 'NO'
+expression|name|100:
+  name: BT-541-Lot is present and BT-5421-Lot is not present and BT-5423-Lot is not present
+expression|name|101:
+  name: BT-541-Lot is present and BT-5421-Lot is not present and BT-5422-Lot is not present
+expression|name|102:
+  name: BT-541-LotsGroup is present and BT-5421-LotsGroup is not present and BT-5423-LotsGroup is not present
+expression|name|103:
+  name: BT-541-LotsGroup is present and BT-5421-LotsGroup is not present and BT-5422-LotsGroup is not present
+expression|name|104:
+  name: BT-543-Lots is not present
+expression|name|105:
+  name: BT-543-LotsGroup is not present
+expression|name|106:
+  name: BT-36-Lot or BT-537-Lot is present
+expression|name|107:
+  name: BT-36-Lot or BT-538-Lot is present
+expression|name|108:
+  name: BT-537-Lot or BT-538-Lot is present
+expression|name|109:
+  name: Procedure Type (BT-105) value is not equal to "Direct award"
+expression|name|11:
+  name: BT-536-Part is empty
+expression|name|110:
+  name: (Procedure Type (BT-105) value is equal to "Open") or (Procedure Type (BT-105) value is equal to "Other single stage procedure" and Deadline Receipt Requests (BT-1311) is not present) or (Procedure Type (BT-105) value is equal to "Other multiple stage procedure" and Deadline Receipt Requests (BT-1311) is not present)
+expression|name|111:
+  name: (Procedure Type (BT-105) value is equal to "Other single stage procedure" and Deadline Receipt Tenders (BT-131) is not present) or (Procedure Type (BT-105) value is equal to "Other multiple stage procedure" and Deadline Receipt Tenders (BT-131) is not present)
+expression|name|112:
+  name: Deadline receipt Tenders date (BT-131(d)-Lot) is not present
+expression|name|113:
+  name: Deadline receipt Requests date (BT-1311(d)-Lot) is not present
+expression|name|114:
+  name: Deadline receipt Tenders date (BT-131(d)-Lot) is present
+expression|name|115:
+  name: Deadline receipt Requests date (BT-1311(d)-Lot) is present
+expression|name|116:
+  name: Procedure Type (BT-105) is equal to "Open", "Other single stage procedure" or "Negotiated without prior call for competition"
+expression|name|117:
+  name: BT-747-Lot is not present
+expression|name|118:
+  name: Place Performance Street (BT-5101(a)-Lot) is not present
+expression|name|119:
+  name: Place Performance Street (BT-5101(a)-Part) is not present
+expression|name|12:
+  name: the value chosen for BT-11 Procedure Buyer is either 'Body governed by public law', 'Body governed by public law, controlled by a central government authority', 'Body governed by public law, controlled by a local authority', 'Body governed by public law, controlled by a regional authority', 'Central government authority', 'Defence contractor', 'EU institution, body or agency', 'European Institution/Agency or International Organisation', 'International organisation', 'Local authority', 'Organisation awarding a contract subsidised by a central government authority', 'Organisation awarding a contract subsidised by a local authority', 'Organisation awarding a contract subsidised by a regional authority', 'Public undertaking', 'Public undertaking, controlled by a central government authority', 'Public undertaking, controlled by a local authority', 'Public undertaking, controlled by a regional authority', 'Regional authority' or 'Regional or local authority'
+expression|name|120:
+  name: Place Performance Street (BT-5101(a)-Procedure) is not present
+expression|name|121:
+  name: Place Performance Street (BT-5101(b)-Lot) is not present
+expression|name|122:
+  name: Place Performance Street (BT-5101(b)-Part) is not present
+expression|name|123:
+  name: Place Performance Street (BT-5101(b)-Procedure) is not present
+expression|name|127:
+  name: Place Performance Services Other (BT-727) is present or Place Performance Country Code (BT-5141) does not exist
+expression|name|128:
+  name: Place Performance Services Other (BT-727) is present or Place Performance Country Code (BT-5141) does not exists
+expression|name|129:
+  name: Place Performance Services Other (BT-727) is present or Place Performance Country Code (BT-5141) does not exist
+expression|name|13:
+  name: BT-14-Part is restricted
+expression|name|130:
+  name: Place Performance City (BT-5131) is not present
+expression|name|131:
+  name: Place Performance City (BT-5131) is not present
+expression|name|132:
+  name: Place Performance City (BT-5131) is not present
+expression|name|133:
+  name: Place Performance Services Other (BT-727) does not exist, and the Place Performance Country (BT-5141) has NUTS codes
+expression|name|134:
+  name: Place Performance Services Other (BT-727) does not exist, and the Place Performance Country (BT-5141) has NUTS codes
+expression|name|135:
+  name: Place Performance Services Other (BT-727) does not exist, and the Place Performance Country (BT-5141) has NUTS codes
+expression|name|136:
+  name: the Place Performance Country (BT-5141) is part of the countries requiring post codes, and Place Performance Street (BT-5101(a)) exists
+expression|name|137:
+  name: the Place Performance Country (BT-5141) is part of the countries requiring post codes, and Place Performance Street (BT-5101(a)) exists
+expression|name|138:
+  name: the Place Performance Country (BT-5141) is part of the countries requiring post codes, and Place Performance Street (BT-5101(a)) exists
+expression|name|139:
+  name: Place Performance Services Other (BT-727) and Place Performance Country Code (BT-5141) are not present
+expression|name|14:
+  name: BT-14-Part is not present
+expression|name|140:
+  name: Place Performance Services Other (BT-727) and Place Performance Country Code (BT-5141) are not present
+expression|name|141:
+  name: Place Performance Services Other (BT-727) and Place Performance Country Code (BT-5141) are not present
+expression|name|142:
+  name: Ultimate Beneficial Owner Nationality (BT-706) is not present
+expression|name|143:
+  name: Ultimate Beneficial Owner name (BT-500-UBO) is not present
+expression|name|144:
+  name: UBO residence country (BT-514-UBO) is not a country with NUTS codes
+expression|name|145:
+  name: UBO residence country (BT-514-UBO) is not a country with post codes
+expression|name|146:
+  name: UBO residence Streetname (BT-510(a)-UBO) is not present
+expression|name|147:
+  name: UBO residence AdditionalStreetname (BT-510(b)-UBO) is not present
+expression|name|148:
+  name: Selection Criteria Second Stage Invite (BT-40) value is not “true” or Selection Criteria Second Stage Invite Number Threshold (BT-7532) is present
+expression|name|149:
+  name: Selection Criteria Second Stage Invite (BT-40) value is not “true” or Selection Criteria Second Stage Invite Number Weight (BT-7531) is present
+expression|name|15:
+  name: BT-14-Part is not restricted
+expression|name|150:
+  name: Award Criterion Description (BT-540-Lot) is not present
+expression|name|151:
+  name: Award Criterion Description (BT-540-LotsGroup) is not present
+expression|name|152:
+  name: Award Criterion Number (BT-541) is not present or Award Criterion Number Fixed (BT-5422) is present or Award Criterion Number Threshold (BT-5423) is present
+expression|name|153:
+  name: Award Criterion Number (BT-541) is not present or Award Criterion Number Fixed (BT-5422) is present or Award Criterion Number Threshold (BT-5423) is present
+expression|name|154:
+  name: Award Criterion Number (BT-541) is not present or Award Criterion Number Weight (BT-5421) is present or Award Criterion Number Threshold (BT-5423) is present or Award Criterion Type (BT-539) is equal to 'Quality'
+expression|name|155:
+  name: Award Criterion Number (BT-541) is not present or Award Criterion Number Weight (BT-5421) is present or Award Criterion Number Threshold (BT-5423) is present or Award Criterion Type (BT-539) is equal to 'Quality'
+expression|name|156:
+  name: Award Criterion Number (BT-541) is not present or Award Criterion Number Fixed (BT-5422) is present or Award Criterion Number Weight (BT-5421) is present
+expression|name|157:
+  name: Award Criterion Number (BT-541) is not present or Award Criterion Number Fixed (BT-5422) is present or Award Criterion Number Weight (BT-5421) is present
+expression|name|158:
+  name: Lots All Required (BT-763) is true
+expression|name|159:
+  name: Lots All Required (BT-763) is true or there is more than a Lot in the notice
+expression|name|16:
+  name: BT-541-Lot is empty
+expression|name|160:
+  name: there are not multiple lots
+expression|name|161:
+  name: Main Classification Code (BT-262-Lot) is not present
+expression|name|162:
+  name: Main Classification Code (BT-262-Part) is not present
+expression|name|163:
+  name: Main Classification Code (BT-262-Procedure) is not present
+expression|name|164:
+  name: Additional Classification Code (BT-263-Lot) is not present
+expression|name|165:
+  name: Additional Classification Code (BT-263-Part) is not present
+expression|name|166:
+  name: Additional Classification Code (BT-263-Procedure) is not present
+expression|name|167:
+  name: Street (BT-510(a)-Organization-Company) is not present
+expression|name|168:
+  name: Streetline 1 (BT-510(b)-Organization-Company) is not present
+expression|name|169:
+  name: Street (BT-510(a)-Organization-TouchPoint) is not present
+expression|name|17:
+  name: BT-541-Lot is not empty
+expression|name|170:
+  name: Streetline 1 (BT-510(b)-Organization-TouchPoint) is not present
+expression|name|171:
+  name: Organisation City (BT-513-Organization-Company) is not present
+expression|name|172:
+  name: City (BT-513-Organization-TouchPoint) is not present
+expression|name|173:
+  name: Main Nature (BT-23-Procedure) is not present
+expression|name|174:
+  name: Main Nature (BT-23-Lot) is not present
+expression|name|175:
+  name: Main Nature (BT-23-Part) is not present
+expression|name|176:
+  name: Deadline Receipt Tenders (BT-131(d)-Lot) or Deadline Receipt Requests (BT-1311(d)-Lot) exists
+expression|name|177:
+  name: a Tender (OPT-321-Tender) exists
+expression|name|178:
+  name: a Tenderer (OPT-300-Tenderer) exists
+expression|name|179:
+  name: a Main Contractor (OPT-301-Tenderer-MainCont) is not present
+expression|name|18:
+  name: BT-541-LotsGroup is empty
+expression|name|180:
+  name: Company Organization Name (BT-500-Organization-Company) is not present
+expression|name|181:
+  name: TouchPoint Name (BT-500-Organization-TouchPoint) is not present
+expression|name|182:
+  name: Organization country (BT-514-Organization-Company) is not a country with NUTS codes
+expression|name|183:
+  name: TouchPoint country (BT-514-Organization-TouchPoint) is not a country with NUTS codes
+expression|name|184:
+  name: Organisation country (BT-514-Organization-Company) is not a country with post codes
+expression|name|185:
+  name: TouchPoint country (BT-514-Organization-TouchPoint) is a country with post codes
+expression|name|186:
+  name: the organisation (OPT-200-Organization-Company) is a Buyer (OPT-300-Procedure-Buyer)
+expression|name|187:
+  name: URL to Fiscal Legislation (OPT-110-Lot-FiscalLegis) exists
+expression|name|188:
+  name: URL to Fiscal Legislation (OPT-110-Part-FiscalLegis) exists
+expression|name|189:
+  name: URL to Environmental Legislation (OPT-120-Lot-EnvironLegis) exists
+expression|name|19:
+  name: BT-541-LotsGroup is not empty
+expression|name|190:
+  name: URL to Environmental Legislation (OPT-120-Part-EnvironLegis) exists
+expression|name|191:
+  name: URL to Employment Legislation (OPT-130-Lot-EmployLegis) exists
+expression|name|192:
+  name: URL to Employment Legislation (OPT-130-Part-EmployLegis) exists
+expression|name|193:
+  name: Review Remedy Type (BT-792-Review) does not equal "alt-penalty" or "damage"
+expression|name|194:
+  name: Review Remedy Type (BT-792-Review) equals "damage"
+expression|name|195:
+  name: Review Request Withdrawn (BT-796-Review) is not "true".
+expression|name|196:
+  name: Review Identifier (BT-784-Review) is not present
+expression|name|197:
+  name: Previous Planning Identifier (BT-125(i)-Lot) is not present
+expression|name|198:
+  name: Previous Planning Identifier (BT-125(i)-Part) exists
+expression|name|199:
+  name: Duration Period (BT-36-Lot) and Duration End Date (BT-537-Lot) are not present
+expression|name|2:
+  name: the value chosen for the indicator of BT-740-Procedure-Buyer is 'YES'
+expression|name|20:
+  name: BT-5141-Lot is not empty
+expression|name|200:
+  name: Duration End Date (BT-537-Lot) exists
+expression|name|201:
+  name: Following Contract (BT-41-Lot) is not set to 'true'
+expression|name|202:
+  name: Review Deadline Description (BT-99-Lot) exists
+expression|name|203:
+  name: no lot has been awarded
+expression|name|204:
+  name: BT-3202-Contract is not present
+expression|name|205:
+  name: Procedure Type (BT-105-Procedure) value is different from "Negotiated without prior call for competition" and Procedure Legal Basis (BT-01-notice) value is different from "Financial regulation" and there is at least one Contract Tender Identified (BT-3202-Contract)
+expression|name|206:
+  name: Contract does not occur within a Contract Framework Agreement (BT-768-Contract)
+expression|name|207:
+  name: Tender Identifier (BT-3201-Tender) exists
+expression|name|208:
+  name: the notice is not of "Change" form type (BT-03-notice)
+expression|name|209:
+  name: Change Notice Version Identifier (BT-758-notice) is not present
+expression|name|21:
+  name: BT-5071-Lot is present
+expression|name|210:
+  name: Change Previous Notice Section Identifier (BT-13716-notice) is not present
+expression|name|211:
+  name: the indicator Change Procurement Documents (BT-718-notice) is not set to "true"
+expression|name|212:
+  name: Change Reason Code (BT-140-notice) is not present
+expression|name|213:
+  name: it applies to the EU Registration
+expression|name|214:
+  name: Cross Border Law (BT-09(b)-Procedure) is not present
+expression|name|215:
+  name: Procedure Type (BT-105-Procedure) is not present
+expression|name|216:
+  name: Procedure Accelerated (BT-106-Procedure) is not present
+expression|name|217:
+  name: Notice Framework Value (BT-118-NoticeResult) is not present
+expression|name|218:
+  name: Direct Award Justification Previous Procedure Identifier (BT-1252-Procedure) is not present
+expression|name|219:
+  name: Direct Award Justification Text (BT-135-Procedure) is not present
+expression|name|22:
+  name: BT-536-Lot is not empty
+expression|name|220:
+  name: Procedure Accelerated Justification (BT-1351-Procedure) is not present
+expression|name|221:
+  name: Direct Award Justification Code (BT-136-Procedure) is not present
+expression|name|222:
+  name: Winner Chosen (BT-142-LotResult) is not present
+expression|name|223:
+  name: Not Awarded Reason (BT-144-LotResult) is not present
+expression|name|224:
+  name: Group Framework Value (BT-156-NoticeResult) is not present
+expression|name|225:
+  name: Concession Revenue Buyer (BT-160-Tender) is not present
+expression|name|226:
+  name: Notice Value (BT-161-NoticeResult) is not present
+expression|name|227:
+  name: Concession Revenue User (BT-162-Tender) is not present
+expression|name|228:
+  name: Concession Value Description (BT-163-Tender) is not present
+expression|name|229:
+  name: Tender Rank (BT-171-Tender) is not present
+expression|name|23:
+  name: BT-536-Lot is empty
+expression|name|230:
+  name: Country Origin (BT-191-Tender) is not present
+expression|name|231:
+  name: Tender Variant (BT-193-Tender) is not present
+expression|name|232:
+  name: Award Criterion Type (BT-539-Lot) is not present
+expression|name|233:
+  name: Award Criterion Type (BT-539-LotsGroup) is not present
+expression|name|234:
+  name: Award Criterion Description (BT-540-Lot) is not present
+expression|name|235:
+  name: Award Criterion Description (BT-540-LotsGroup) is not present
+expression|name|236:
+  name: Award Criterion Number (BT-541-Lot) is not present
+expression|name|237:
+  name: Award Criterion Number (BT-541-LotsGroup) is not present
+expression|name|238:
+  name: Award Criterion Number Weight (BT-5421-Lot) is not present
+expression|name|239:
+  name: Award Criterion Number Weight (BT-5421-LotsGroup) is not present
+expression|name|24:
+  name: BT-536-Lot is empty
+expression|name|240:
+  name: Award Criterion Number Fixed (BT-5422-Lot) is not present
+expression|name|241:
+  name: Award Criterion Number Fixed (BT-5422-LotsGroup) is not present
+expression|name|242:
+  name: Award Criterion Number Threshold (BT-5423-Lot) is not present
+expression|name|243:
+  name: Award Criterion Number Threshold (BT-5423-LotsGroup) is not present
+expression|name|244:
+  name: Award Criteria Complicated (BT-543-Lot) is not present
+expression|name|245:
+  name: Award Criteria Complicated (BT-543-LotsGroup) is not present
+expression|name|246:
+  name: Subcontracting Value (BT-553-Tender) is not present
+expression|name|247:
+  name: Subcontracting Description (BT-554-Tender) is not present
+expression|name|248:
+  name: Subcontracting Percentage (BT-555-Tender) is not present
+expression|name|249:
+  name: Group Framework Value Lot Identifier (BT-556-NoticeResult) is not present
+expression|name|25:
+  name: BT-58-Lot is not greater than zero
+expression|name|250:
+  name: Framework Maximum Value (BT-709-LotResult) is not present
+expression|name|251:
+  name: Tender Value Lowest (BT-710-LotResult) is not present
+expression|name|252:
+  name: Tender Value Highest (BT-711-LotResult) is not present
+expression|name|253:
+  name: Buyer Review Complainants (Code) (BT-712(a)-LotResult) is not present
+expression|name|254:
+  name: Tender Value (BT-720-Tender) is not present
+expression|name|255:
+  name: Subcontracting Value Known (BT-730-Tender) is not present
+expression|name|256:
+  name: Subcontracting Percentage Known (BT-731-Tender) is not present
+expression|name|257:
+  name: Award Criteria Order Justification (BT-733-Lot) is not present
+expression|name|258:
+  name: Award Criteria Order Justification (BT-733-LotsGroup) is not present
+expression|name|259:
+  name: Award Criterion Name (BT-734-Lot) is not present
+expression|name|26:
+  name: the value chosen for BT-23-Lot is not equal to 'Services'
+expression|name|260:
+  name: Award Criterion Name (BT-734-LotsGroup) is not present
+expression|name|261:
+  name: Received Submissions Count (BT-759-LotResult) is not present
+expression|name|262:
+  name: Received Submissions Type (BT-760-LotResult) is not present
+expression|name|263:
+  name: Subcontracting (BT-773-Tender) is not present
+expression|name|264:
+  name: Procedure Features (BT-88-Procedure) is not present
+expression|name|265:
+  name: Unpublished Identifier (BT-195(BT-09)-Procedure) is not present
+expression|name|266:
+  name: Unpublished Identifier (BT-195(BT-105)-Procedure) is not present
+expression|name|267:
+  name: Unpublished Identifier (BT-195(BT-106)-Procedure) is not present
+expression|name|268:
+  name: Unpublished Identifier (BT-195(BT-118)-NoticeResult) is not present
+expression|name|269:
+  name: Unpublished Identifier (BT-195(BT-1252)-Procedure) is not present
+expression|name|27:
+  name: 'the value chosen for BT-11 Procedure Buyer is not equal to: ''Body governed by public law'', ''Body governed by public law, controlled by a central government authority'', ''Body governed by public law, controlled by a local authority'', ''Body governed by public law, controlled by a regional authority'', ''Central government authority'', ''Defence contractor'', ''EU institution, body or agency'', ''European Institution/Agency or International Organisation'', ''International organisation'', ''Local authority'', ''Organisation awarding a contract subsidised by a central government authority'', ''Organisation awarding a contract subsidised by a local authority'', ''Organisation awarding a contract subsidised by a regional authority'', ''Public undertaking'', ''Public undertaking, controlled by a central government authority'', ''Public undertaking, controlled by a local authority'', ''Public undertaking, controlled by a regional authority'', ''Regional authority'' or ''Regional or local authority'''
+expression|name|270:
+  name: Unpublished Identifier (BT-195(BT-135)-Procedure) is not present
+expression|name|271:
+  name: Unpublished Identifier (BT-195(BT-1351)-Procedure) is not present
+expression|name|272:
+  name: Unpublished Identifier (BT-195(BT-136)-Procedure) is not present
+expression|name|273:
+  name: Unpublished Identifier (BT-195(BT-142)-LotResult) is not present
+expression|name|274:
+  name: Unpublished Identifier (BT-195(BT-144)-LotResult) is not present
+expression|name|275:
+  name: Unpublished Identifier (BT-195(BT-156)-NoticeResult) is not present
+expression|name|276:
+  name: Unpublished Identifier (BT-195(BT-160)-Tender) is not present
+expression|name|277:
+  name: Unpublished Identifier (BT-195(BT-161)-NoticeResult) is not present
+expression|name|278:
+  name: Unpublished Identifier (BT-195(BT-162)-Tender) is not present
+expression|name|279:
+  name: Unpublished Identifier (BT-195(BT-163)-Tender) is not present
+expression|name|28:
+  name: 'the value chosen for BT-748-Lot is: ''Used'''
+expression|name|280:
+  name: Unpublished Identifier (BT-195(BT-171)-Tender) is not present
+expression|name|281:
+  name: Unpublished Identifier (BT-195(BT-191)-Tender) is not present
+expression|name|282:
+  name: Unpublished Identifier (BT-195(BT-193)-Tender) is not present
+expression|name|283:
+  name: Unpublished Identifier (BT-195(BT-539)-Lot) is not present
+expression|name|284:
+  name: Unpublished Identifier (BT-195(BT-539)-LotsGroup) is not present
+expression|name|285:
+  name: Unpublished Identifier (BT-195(BT-540)-Lot) is not present
+expression|name|286:
+  name: Unpublished Identifier (BT-195(BT-540)-LotsGroup) is not present
+expression|name|287:
+  name: Unpublished Identifier (BT-195(BT-541)-Lot) is not present
+expression|name|288:
+  name: Unpublished Identifier (BT-195(BT-541)-LotsGroup) is not present
+expression|name|289:
+  name: Unpublished Identifier (BT-195(BT-5421)-Lot) is not present
+expression|name|29:
+  name: the value chosen for BT-105-Procedure is either 'Competitive dialogue', 'Innovation partnership', 'Negotiated with prior publication of a call for competition competitive with negotiation', 'Other multiple stage procedure' or 'Restricted'
+expression|name|290:
+  name: Unpublished Identifier (BT-195(BT-5421)-LotsGroup) is not present
+expression|name|291:
+  name: Unpublished Identifier (BT-195(BT-5422)-Lot) is not present
+expression|name|292:
+  name: Unpublished Identifier (BT-195(BT-5422)-LotsGroup) is not present
+expression|name|293:
+  name: Unpublished Identifier (BT-195(BT-5423)-Lot) is not present
+expression|name|294:
+  name: Unpublished Identifier (BT-195(BT-5423)-LotsGroup) is not present
+expression|name|295:
+  name: Unpublished Identifier (BT-195(BT-543)-Lot) is not present
+expression|name|296:
+  name: Unpublished Identifier (BT-195(BT-543)-LotsGroup) is not present
+expression|name|297:
+  name: Unpublished Identifier (BT-195(BT-553)-Tender) is not present
+expression|name|298:
+  name: Unpublished Identifier (BT-195(BT-554)-Tender) is not present
+expression|name|299:
+  name: Unpublished Identifier (BT-195(BT-555)-Tender) is not present
+expression|name|3:
+  name: the value chosen for BT-105-Procedure is not 'Open', 'Restricted' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'
+expression|name|30:
+  name: the indicator Selection Criteria Second Stage Invite (BT-40) is not equal to 'TRUE'
+expression|name|300:
+  name: Unpublished Identifier (BT-195(BT-556)-NoticeResult) is not present
+expression|name|301:
+  name: Unpublished Identifier (BT-195(BT-709)-LotResult) is not present
+expression|name|302:
+  name: Unpublished Identifier (BT-195(BT-710)-LotResult) is not present
+expression|name|303:
+  name: Unpublished Identifier (BT-195(BT-711)-LotResult) is not present
+expression|name|304:
+  name: Unpublished Identifier (BT-195(BT-712)-LotResult) is not present
+expression|name|305:
+  name: Unpublished Identifier (BT-195(BT-720)-Tender) is not present
+expression|name|306:
+  name: Unpublished Identifier (BT-195(BT-730)-Tender) is not present
+expression|name|307:
+  name: Unpublished Identifier (BT-195(BT-731)-Tender) is not present
+expression|name|308:
+  name: Unpublished Identifier (BT-195(BT-733)-Lot) is not present
+expression|name|309:
+  name: Unpublished Identifier (BT-195(BT-733)-LotsGroup) is not present
+expression|name|31:
+  name: BT-752-Lot is not empty
+expression|name|310:
+  name: Unpublished Identifier (BT-195(BT-734)-Lot) is not present
+expression|name|311:
+  name: Unpublished Identifier (BT-195(BT-734)-LotsGroup) is not present
+expression|name|312:
+  name: Unpublished Identifier (BT-195(BT-759)-LotResult) is not present
+expression|name|313:
+  name: Unpublished Identifier (BT-195(BT-760)-LotResult) is not present
+expression|name|314:
+  name: Unpublished Identifier (BT-195(BT-773)-Tender) is not present
+expression|name|315:
+  name: Unpublished Identifier (BT-195(BT-88)-Procedure) is not present
+expression|name|316:
+  name: There is more than one lot
+expression|name|317:
+  name: Recurrence (BT-94-Lot) is not 'true'
+expression|name|318:
+  name: the value chosen for BT-105-Lot is equal to 'Open'
+expression|name|319:
+  name: OPT-301-Lot-ReviewInfo does not exists
+expression|name|32:
+  name: BT-752-Lot is not empty
+expression|name|320:
+  name: Electronic Auction indicator (BT-767-Lot) is not 'true'
+expression|name|321:
+  name: Procedure Type (BT-105) value is not "Restricted"
+expression|name|322:
+  name: Vehicle Type (OPT-155-LotResult) is not present
+expression|name|323:
+  name: the value chosen for BT-142-LotResult is equal to 'The winner was not yet chosen, but the competition is still ongoing'
+expression|name|324:
+  name: BT-142-LotResult is equal to 'The winner was not yet chosen, but the competition is still ongoing' or no tenders were received or the framework value (BT-709, BT-660) is specified
+expression|name|325:
+  name: the value chosen for BT-142-LotResult equals to “No winner was chosen and the competition is closed.” (BT-142-LotResult = “clos-nw”), tenders were received and no framework value (BT-709, BT-660) is specified.
+expression|name|326:
+  name: Tender Value Highest (BT-711-LotResult) is not present
+expression|name|327:
+  name: 'the value chosen for the field BT-136-Procedure is equal to one of the following: "New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive""No suitable tenders, requests to participate, or applications were received in response to a previous notice""Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive""Service contract to be awarded to the winner or one of winners under the rules of a design contest"'
+expression|name|328:
+  name: Submission Electronic (BT-17-Lot) is equal to 'not-allowed'
+expression|name|329:
+  name: Submission Electronic (BT-17-Lot) is not equal to 'not-allowed'
+expression|name|33:
+  name: BT-661-Lot is not equal to 'TRUE'
+expression|name|330:
+  name: Buyer Legal Type (BT-11-Procedure-Buyer) is not "Public undertaking", "Public undertaking, controlled by a central government authority", "Public undertaking, controlled by a local authority", "Public undertaking, controlled by a regional authority" or "Entity with special or exclusive rights".
+expression|name|331:
+  name: Buyer Legal Type (BT-11-Procedure-Buyer) is not "Body governed by public law", "Body governed by public law, controlled by a central government authority", "Body governed by public law, controlled by a local authority", "Body governed by public law, controlled by a regional authority", "Central government authority", "Defence contractor", "EU institution, body or agency", "European Institution/Agency or International Organisation", "Group of public authorities", "International organisation", "Local authority", "Organisation awarding a contract subsidised by a contracting authority", "Organisation awarding a contract subsidised by a central government authority", "Organisation awarding a contract subsidised by a local authority", "Organisation awarding a contract subsidised by a regional authority", "Regional authority" or "Regional or local authority"
+expression|name|332:
+  name: the procedure for the lot is over and has not been awarded.
+expression|name|333:
+  name: the tender was submitted for a lot which has been awarded, it led to a contract and neither Tender Value Lowest/Highest, nor Framework Maximum/Estimated Value are specified.
+expression|name|334:
+  name: No framework agreement is involved or no winner was chosen
+expression|name|335:
+  name: the value chosen for Framework Agreement (BT-765-Lot) is equal to one of the following:"Framework agreement, partly without reopening and partly with reopening of competition";"Framework agreement, with reopening of competition";"Framework agreement, without reopening of competition",and the value chosen for Winner Chosen (BT-142-LotResult) is equal to "At least one winner was chosen." and Framework Maximum Value (BT-709-LotResult) does not exist.
+expression|name|336:
+  name: the value chosen for Framework Agreement (BT-765-Lot) is equal to one of the following:"Framework agreement, partly without reopening and partly with reopening of competition";"Framework agreement, with reopening of competition";"Framework agreement, without reopening of competition",and the value chosen for Winner Chosen (BT-142-LotResult) is equal to "At least one winner was chosen." and Framework Maximum Value (BT-660-LotResult) does not exist.
+expression|name|337:
+  name: no framework agreement is involved or both Framework Maximum Value (BT-709-LotResult) and Framework Estimated Value (BT-660-LotResult) are not present
+expression|name|338:
+  name: no winner was chosen or no framework agreement was involved or both Framework Maximum Value (BT-709-LotResult) and Framework Estimated Value (BT-660-LotResult) are not present
+expression|name|339:
+  name: no winner was selected or a framework agreement is involved
+expression|name|34:
+  name: the value chosen for BT-105-Procedure is either 'Competitive dialogue', 'Innovation partnership' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'
+expression|name|340:
+  name: no dynamic purchasing system is involved
+expression|name|341:
+  name: the Organization is a not a main contractor (OPT-300-Tenderer) and not a subcontractor (OPT-301-Tenderer-SubCont))
+expression|name|342:
+  name: the Organization is a Winner (i.e. an organization (OPT-200-Organization-Company) identified as a main contractor (OPT-300-Tenderer) or a subcontractor (OPT-301-Tenderer-SubCont) within a tendering party (OPT-210-Tenderer) that submitted a tender (OPT-310-Tender), which (OPT-321-Tender) led to a contract (BT-3202-Contract))
+expression|name|343:
+  name: the Beneficial Owner Technical Identifier (OPT-202-UBO) is not present
+expression|name|345:
+  name: the organization is not a Buyer
+expression|name|346:
+  name: the organization is a Buyer, and the Dynamic Purchasing System is 'also usable by buyers not listed in this notice', and the Legal Basis differs from 'other', and Acquiring CPB Buyer Indicator (OPP-052-Organization) is not present
+expression|name|347:
+  name: the Organization is a buyer, and the Dynamic Purchasing System is '(also usable by buyers not listed in this notice', and the Legal Basis differs from 'other', and Awarding CPB Buyer Indicator (OPP-051-Organization) is not present
+expression|name|348:
+  name: Successive Reduction (BT-52-Lot) is not 'true' or Procedure Type (BT-105-Procedure) is not "Competitive dialogue", "Innovation partnership", "Negotiated with prior publication of a call for competition / competitive with negotiation", "Other multiple stage procedure" or "Restricted"
+expression|name|349:
+  name: a framework agreement is involved
+expression|name|35:
+  name: the value chosen for BT-105-Procedure is not 'Negotiated with prior publication of a call for competition / competitive with negotiation'
+expression|name|350:
+  name: the Organization is not involved in a tendering party, or is a natural person (BT-633-Organization), or is listed on a regulated market (BT-746-Organization)
+expression|name|351:
+  name: the Organization (OPT-200-Organization-Company) is involved in a winning tender as a main (OPT-300-Tenderer) or sub (OPT-301-Tenderer-SubCont) contractor (i.e. belongs to a tendering party that submitted a tender that led to a contract), is not a natural person (BT-633-Organization) and is not listed on a regulated market (BT-746-Organization)
+expression|name|352:
+  name: there is at least one organization with a reference to a UBO (OPT-302-Organization)
+expression|name|353:
+  name: Procedure Type (BT-105) value is equal to ("Open" or "Restricted")
+expression|name|354:
+  name: Procedure Type (BT-105) value is equal to ("Restricted" or "Negotiated with prior publication of a call for competition / competitive with negotiation")
+expression|name|355:
+  name: Organization is not a buyer or there is only one buyer
+expression|name|356:
+  name: there are two different buyers from two different countries
+expression|name|357:
+  name: Procedure Legal Basis (BT-01) value is equal to "Directive 2014/23/EU" and Procedure Type (BT-105) value is equal to ("Negotiated without prior call for competition" or "Other single stage procedure" or "Other multiple stage procedure")
+expression|name|358:
+  name: Buyer Review Requests Irregularity Type (BT-636-LotResult) is not present
+expression|name|359:
+  name: Buyer Review Complainants (Code) (BT-712(a)-LotResult) is not present
+expression|name|360:
+  name: the Tendering Party is composed of only one Main Tenderer
+expression|name|361:
+  name: the lot does not involve a Framework Agreement or its duration is not greater than 4 years
+expression|name|362:
+  name: the lot does not involve a Framework Agreement or its duration is not greater than 7 years
+expression|name|363:
+  name: the lot does not involve a Framework Agreement or its duration is not greater than 8 years
+expression|name|364:
+  name: the lot does not concern a strategic procurement
+expression|name|365:
+  name: accessibility criteria are included or the procurement is not intended for use by natural persons.
+expression|name|366:
+  name: security clearance is not required
+expression|name|367:
+  name: Late Tenderer Information provision is not allowed
+expression|name|368:
+  name: some Late Tenderer Information provision is allowed
+expression|name|369:
+  name: Electronic Submission is required
+expression|name|370:
+  name: no electronic submission may take place
+expression|name|371:
+  name: the group of lots has one or less lots
+expression|name|372:
+  name: Selection Criteria Type (BT-747-Lot) is not present
+expression|name|373:
+  name: the Group of lots is composed of Lots for which a framework agreement is not involved
+expression|name|374:
+  name: subcontracting Obligation (BT-65) is not present
+expression|name|375:
+  name: BT-537-Part or BT-538-Part is present
+expression|name|376:
+  name: Duration Period (BT-36-Part) and Duration End Date (BT-537-Part) are not present
+expression|name|377:
+  name: BT-36-Part or BT-538-Part is present
+expression|name|378:
+  name: BT-36-Part or BT-537-Part is present
+expression|name|379:
+  name: the organization is not a Service Provider, and is not a Tenderer or Subcontractor which is not on a regulated market.
+expression|name|380:
+  name: the Organization is not a Service Provider
+expression|name|381:
+  name: Exclusion Grounds Code (BT-67(a)-Procedure) is not present
+expression|name|382:
+  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist
+expression|name|383:
+  name: Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist
+expression|name|384:
+  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist
+expression|name|385:
+  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist
+expression|name|386:
+  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist
+expression|name|387:
+  name: Organization Country Code (BT-514-Organization-TouchPoint) is not present
+expression|name|388:
+  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) do not exist
+expression|name|389:
+  name: the Business Country (BT-514-Business) is not a Country with NUTS codes
+expression|name|390:
+  name: Business City (BT-513-Business) is not present
+expression|name|391:
+  name: Business address line (BT-510(a)-Business) is not present
+expression|name|392:
+  name: Business address line (BT-510(b)-Business) is not present
+expression|name|393:
+  name: the Business Country (BT-514-Business) is not a Country with postcodes
+expression|name|394:
+  name: Business Country Code (BT-514-Business) is not present
+expression|name|395:
+  name: Cross Border Law (BT-09(a)-Procedure) is not present
+expression|name|4:
+  name: the value chosen for the indicator of BT-106-Procedure is not 'YES'
+expression|name|40:
+  name: BT-14-Lot is not restricted
+expression|name|405:
+  name: not all the lots belonging to the group of lots have been awarded or there is not more than one lot in the group of lots for which a framework agreement is involved
+expression|name|406:
+  name: the Group Framework Value Lot Identifier (BT-556) is not present
+expression|name|41:
+  name: BT-14-Lot is not present
+expression|name|42:
+  name: BT-14-Lot is restricted
+expression|name|43:
+  name: BT-751-Lot is not equal to 'TRUE'
+expression|name|44:
+  name: BT-105-Lot is either 'Competitive dialogue', 'Innovation partnership', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Negotiated without prior call for competition', 'Other multiple stage procedure', 'Other single stage procedure' or 'Restricted'
+expression|name|45:
+  name: the value chosen for BT-105-Lot is equal to 'Open'
+expression|name|46:
+  name: the value chosen for BT-105-Lot is equal to 'Open'
+expression|name|47:
+  name: the value chosen for BT-105-Lot is equal to 'Open'
+expression|name|48:
+  name: the value chosen for BT-105-Lot is not equal to 'Open'
+expression|name|49:
+  name: the value chosen for BT-105-Lot is not equal to 'Open'
+expression|name|5:
+  name: there is a value chosen for BT-5141-Procedure
+expression|name|50:
+  name: the value chosen for BT-105-Lot is not equal to 'Open'
+expression|name|500:
+  name: The Description is relative to a Legislation for which no identifier is known
+expression|name|501:
+  name: Lot Award Criterion Type (BT-539-Lot) exists
+expression|name|502:
+  name: LotsGroup Award Criterion Type (BT-539-LotsGroup) exists
+expression|name|503:
+  name: Buyer Review Requests Count (BT-635-LotResult) is not present
+expression|name|504:
+  name: Buyer Review Requests Irregularity Type (BT-636-LotResult) is not present
+expression|name|505:
+  name: Unpublished Identifier (BT-195(BT-635)-LotResult) is not present
+expression|name|506:
+  name: Unpublished Identifier (BT-195(BT-636)-LotResult) is not present
+expression|name|507:
+  name: Procedure Type (BT-105) is not 'innovation partnership' or 'competitive dialogue'
+expression|name|509:
+  name: Procedure Type (BT-105) is not 'innovation partnership' or 'competitive dialogue' or Value Prize (BT-644) does not exists
+expression|name|51:
+  name: the value chosen for BT-105-Lot is not equal to 'Open'
+expression|name|510:
+  name: Notice Dispatch Date eSender (BT-803(d)-notice) is not present
+expression|name|511:
+  name: Non Disclosure Agreement is not required
+expression|name|512:
+  name: Contract EU Funds Identifier (BT-5011) and Contract EU Funds Name (BT-722) are not present
+expression|name|513:
+  name: EU Funds Financing Identifier (BT-5010) and EU Funds Programme (BT-7220) are not present
+expression|name|514:
+  name: Clean Vehicles Directive (BT-717) is not true
+expression|name|515:
+  name: Clean Vehicles Directive (BT-717) is not true for the given Lot, or the Lot has not been awarded
+expression|name|516:
+  name: CVD Contract Type (BT-735-LotResult) is not present
+expression|name|517:
+  name: Vehicle Category (BT-723-LotResult) is not present
+expression|name|518:
+  name: Clean Vehicles Directive (BT-717) is not true for the given Lot
+expression|name|52:
+  name: BT-761-Lot is not equal to 'TRUE'
+expression|name|520:
+  name: Award Criterion Number Weight (BT-5421) value is not equal to "Order of importance"
+expression|name|523:
+  name: Place Performance Services Other (BT-727) does not exist, and Place Performance Country Subdivision (BT-5071) does not exist, and Place Performance City (BT-5131) does not exist
+expression|name|524:
+  name: Place Performance Services Other (BT-727) does not exist, and Place Performance Country Subdivision (BT-5071) does not exist, and Place Performance City (BT-5131) does not exist
+expression|name|525:
+  name: Place Performance Services Other (BT-727) does not exist, and Place Performance Country Subdivision (BT-5071) does not exist, and Place Performance City (BT-5131) does not exist
+expression|name|528:
+  name: TouchPoint country (BT-514-Organization-TouchPoint) is not a country with post codes
+expression|name|529:
+  name: Review Deadline Description (BT-99-Lot) is not present
+expression|name|53:
+  name: the value chosen for BT-65_Lot is not equal to 'The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC
+expression|name|530:
+  name: there is no organization with a reference to a UBO (OPT-302-Organization)
+expression|name|531:
+  name: Company Technical Identifier (OPT-200-Organization-Company) does not exist
+expression|name|532:
+  name: Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) does not exist
+expression|name|54:
+  name: the value chosen for BT-65_Lot is not equal to 'The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC
+expression|name|55:
+  name: 'the value chosen for BT-765-Lot is not equal to one of the following: ''Framework agreement, partly without reopening and partly with reopening of competition'', ''Framework agreement, with reopening of competition'', ''Frame$work agreement, without reopening of competition'''
+expression|name|56:
+  name: the value chosen for BT-766-Lot is either 'Dynamic purchasing system, also usable by buyers not listed in this notice' or 'Dynamic purchasing system, only usable by buyers listed in this notice'
+expression|name|57:
+  name: BT-765-Lot is equal to 'None'
+expression|name|58:
+  name: The value chosen for the field BT-765-Lot is either 'Framework agreement, partly without reopening and partly with reopening of competition', 'Framework agreement, with reopening of competition' or 'Framework agreement, without reopening of competition'
+expression|name|59:
+  name: the value chosen for the field BT-105-Procedure is not 'Negotiated without prior call for competition'
+expression|name|6:
+  name: BT-5071-Procedure is present
+expression|name|60:
+  name: the field BT-136-Result is empty
+expression|name|61:
+  name: 'BT-136-Procedure is not equal to one of the following: ''Only irregular or unacceptable tenders were received in response to a previous notice. All and only those tenderers of the previous procedure which have satisfied the selection criteria, have not fulfilled the exclusion grounds and have satisfied formal requirements, were included in the negotiations'', ''Need for additional works or services by the original contractor'', ''New works or services, constituting a repetition of existing works or ervices and ordered in accordance with the strict conditions stated in the Directive'', ''No suitable tenders, requests to participate, or applications were received in response to a previous notice'', ''Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive'' or ''Service contract to be awarded to the winner or one of winners under the rules of a design contest'''
+expression|name|62:
+  name: the value chosen for BT-142-LotResult is not equal to 'No winner was chosen and the competition is closed'
+expression|name|63:
+  name: the value chosen for BT-765-Lot is either 'Framework agreement, partly without reopening and partly with reopening of competition', 'Framework agreement, with reopening of competition', 'Framework agreement, without reopening of competition and the value of BT-142-LotResult is 'At least one winner was chosen'
+expression|name|64:
+  name: the value chosen for BT-765-Lot is either 'Framework agreement, partly without reopening and partly with reopening of competition', 'Framework agreement, with reopening of competition', 'Framework agreement, without reopening of competition and the value of BT-142-LotResult is 'At least one winner was chosen'
+expression|name|65:
+  name: the value chosen for BT-142-LotResult is 'At least one winner was chosen'
+expression|name|66:
+  name: the value chosen for BT-142-LotResult is not 'At least one winner was chosen'
+expression|name|67:
+  name: the value chosen for BT-773-Tender is not equal to 'YES'
+expression|name|68:
+  name: the value chosen for BT-730-Tender is not equal to 'TRUE'
+expression|name|69:
+  name: the value chosen for BT-773-Tender is not equal to 'YES'
+expression|name|7:
+  name: BT-5141-Part is not empty
+expression|name|70:
+  name: Subcontracting Percentage Known (BT-731-Tender) is not equal to 'TRUE'
+expression|name|71:
+  name: the value chosen for BT-773-Tender is equal to 'YES'
+expression|name|72:
+  name: no winner is selected or the value of BT-765-Lot does not correspond to framework agreement
+expression|name|74:
+  name: the value chosen for BT-02-Notice is not equal to 'Change notice'
+expression|name|76:
+  name: BT-644-Lot is not present
+expression|name|77:
+  name: the value chosen for BT-105-Procedure is either 'Competitive dialogue', 'Innovation partnership', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Other multiple stage procedure', 'Restricted'
+expression|name|78:
+  name: the value chosen for BT-105-Procedure is not 'Negotiated with prior publication of a call for competition / competitive with negotiation'
+expression|name|79:
+  name: BT-630(d)-Lot is not present
+expression|name|8:
+  name: BT-5071-Part is present
+expression|name|80:
+  name: BT-105-Lot is either 'Competitive dialogue', 'Innovation partnership', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Other multiple stage procedure' or 'Restricted'
+expression|name|82:
+  name: the value chosen for BT-02-Notice is equal to 'Change notice'
+expression|name|83:
+  name: BT-779-Tender is not present
+expression|name|84:
+  name: OPP-020-Contract is not equal to 'TRUE'
+expression|name|85:
+  name: OPP-020-Contract is not equal to 'TRUE'
+expression|name|86:
+  name: OPP-020-Contract is not equal to 'TRUE'
+expression|name|87:
+  name: BT-736-Lot is not equal to 'TRUE'
+expression|name|89:
+  name: OPT-315-LotResult is not empty
+expression|name|90:
+  name: the value chosen for BT-142-LotResult is 'At least one winner was chosen'
+expression|name|91:
+  name: BT-3201-Tender is not present
+expression|name|93:
+  name: the value chosen for BT-727-Lot is 'Anywhere' or 'Anywhere in the European Economic Area'
+expression|name|94:
+  name: the value chosen for BT-727-Part is 'Anywhere' or 'Anywhere in the European Economic Area'
+expression|name|95:
+  name: the value chosen for BT-727-Procedure is 'Anywhere' or 'Anywhere in the European Economic Area'
+expression|name|96:
+  name: BT-541-Lot is present and BT-5422-Lot is not present and BT-5423-Lot is not present
+expression|name|97:
+  name: BT-541-LotsGroup is present and BT-5422-LotsGroup is not present and BT-5423-LotsGroup is not present

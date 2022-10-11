@@ -1,0 +1,46 @@
+#!/usr/bin/env ruby
+
+require 'nokogiri'
+require 'slop'
+require 'fileutils'
+require 'YAML'
+
+opts = Slop.parse do |o|
+  o.string '-i', '--input-folder', default: 'target/eforms-sdk/translations'
+  o.string '-o', '--output-folder', default: 'src/translations'
+end
+
+Dir["#{opts[:input_folder]}/*_en.xml"].sort.each do |source|
+  ident = File.basename(source).sub('_en.xml', '')
+  target = File.expand_path "#{ident}.yaml", opts[:output_folder]
+
+  puts "Parsing #{File.basename source}"
+
+  map = File.exists?(target) ? YAML.load_file(target) : Hash::new
+
+  xml = Nokogiri::XML File.read source
+  xml.xpath("//entry").each do |row|
+    code = row.xpath("@key").to_s
+    name = row.xpath("text()").to_s
+
+    if !map.key?(code)
+      map[code] = Hash::new
+    end
+
+    if !map[code].key?('name')
+      map[code]['name'] = name
+    elsif map[code]['name'] != name
+      map[code]['name'] = name
+
+      map[code].keys.delete_if { |key| key == 'name' || key.end_with?('_verify') } .each do |key|
+        map[code]["#{key}_verify"] = true
+      end
+    end
+  end
+
+  FileUtils.mkdir_p File.dirname target
+  File.open(target, 'w') do |f|
+    f.write map.to_yaml(options = {:line_width => -1})[4..-1]
+  end
+
+end

@@ -1,0 +1,8 @@
+none:
+  name: None
+subc-chng:
+  name: The contractor must indicate any change of subcontractors during the execution of the contract.
+subc-min:
+  name: The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC.
+subc-oblig-2009-81:
+  name: The buyer may oblige the contractor to award all or certain subcontracts through the procedure set out in Title III of Directive 2009/81/EC.

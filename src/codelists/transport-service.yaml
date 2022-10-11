@@ -1,0 +1,18 @@
+bus-s:
+  name: Bus transport services (urban/regional)
+coach-s:
+  name: Coach transport services (long-distance)
+lrail-s:
+  name: Light rail transport services
+metro-s:
+  name: Metro transport services
+other:
+  name: Other transport services
+port-s:
+  name: Inland waterway and maritime transport services
+rail-s:
+  name: Rail transport services
+tram-s:
+  name: Tram transport services
+trolley-s:
+  name: Trolleybus transport services

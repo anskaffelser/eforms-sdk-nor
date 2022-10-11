@@ -1,0 +1,20 @@
+airport:
+  name: Airport-related activities
+electricity:
+  name: Electricity-related activities
+gas-heat:
+  name: Production, transport or distribution of gas or heat
+gas-oil:
+  name: Extraction of gas or oil
+port:
+  name: Port-related activities
+post:
+  name: Postal services
+rail:
+  name: Railway services
+solid-fuel:
+  name: Exploration or extraction of coal or other solid fuels
+urttb:
+  name: Urban railway, tramway, trolleybus or bus services
+water:
+  name: Water-related activities

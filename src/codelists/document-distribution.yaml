@@ -1,0 +1,4 @@
+non-restricted-document:
+  name: Not Restricted Document
+restricted-document:
+  name: Restricted Document

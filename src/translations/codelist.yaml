@@ -1,0 +1,340 @@
+codelist|name|accelerated-procedure:
+  name: List of codes to specify whether a procedure is accelerated or not.
+codelist|name|accessibility:
+  name: This table provides a list of options for the use of accessibility criteria for person with disabilities in the technical specifications within the domain of public procurement.
+codelist|name|applicability:
+  name: This table provides a list of the options pertinent to be chosen for a matter concerning the applicability of predefined fields. It is designed for but not restricted to the context of public procurement.
+codelist|name|authority-activity:
+  name: List of Main Activity codes allowed for a Contracting Authority
+codelist|name|award-criterion-type:
+  name: List of award criterion codes for award decisions within public procurement procedures.
+codelist|name|bri:
+  name: List of allowed Notice Type codes for a Business Register Information document
+codelist|name|brin-ecs:
+  name: List of allowed Notice Subtype codes for a notice concerning a European Company or a European Cooperative Society registration processing.
+codelist|name|brin-eeig:
+  name: List of allowed Notice Subtype codes for a notice concerning a European Economic Interest Grouping registration procesing.
+codelist|name|buyer-categories:
+  name: List of codes used to characterize the buyers for the subsequent contracts of a given Framework Agreement.
+codelist|name|buyer-contracting-type:
+  name: List of codes to specify whether a Buyer is a Contracting Entity or not.
+codelist|name|buyer-legal-type:
+  name: This table provides a list of the the type of procuring authorities within the domain of public procurement according to legislation.
+codelist|name|can-desg:
+  name: List of allowed Notice Subtype codes for a notice of CAN Design Notice Type.
+codelist|name|can-modif:
+  name: List of allowed Notice Subtype codes for a notice of Contract Modification Notice Type .
+codelist|name|can-social:
+  name: List of allowed Notice Subtype codes for a notice of CAN Social Notice Type .
+codelist|name|can-standard:
+  name: List of allowed Notice Subtype codes for a notice of CAN Standard Notice Type .
+codelist|name|can-tran:
+  name: List of allowed Notice Subtype codes for a notice of CAN Public Transport Service Notice Type .
+codelist|name|change:
+  name: List of allowed Notice Subtype codes for a notice of Change Notice Type .
+codelist|name|change-corrig-justification:
+  name: This table provides the codes and values used in case of justification of correcions applied to a notice within the context of public procurement.
+codelist|name|classification-type:
+  name: List of commodity classifications
+codelist|name|cn-desg:
+  name: List of allowed Notice Subtype codes for a notice of CN Design Notice Type.
+codelist|name|cn-social:
+  name: List of allowed Notice Subtype codes for a notice of CN Social Notice Type.
+codelist|name|cn-standard:
+  name: List of allowed Notice Subtype codes for a notice of CN Standard Design Notice Type.
+codelist|name|communication-justification:
+  name: This table provides the justification for restricting access rights to resources within the context of public procurement.
+codelist|name|competition:
+  name: List of allowed Notice Type codes for a notice of Competition Form Type
+codelist|name|conditions:
+  name: Codes for conditions
+codelist|name|cont-modif:
+  name: List of allowed Notice Type codes for a notice of Contract Modification Form Type
+codelist|name|contract-detail:
+  name: This table provides a framework to represent data relating to procurement.
+codelist|name|contract-nature:
+  name: List of codes used to specify the main and additional natures of a purchase
+codelist|name|corr:
+  name: List of allowed Notice Subtype codes for a notice of CN Design Notice Type.
+codelist|name|country:
+  name: List of three characters country codes, correlated with the ISO 3166 international standard and additional authority codes for some countries without assigned ISO code.
+codelist|name|cpv:
+  name: List of codes for an improved description, based on the Common Procurement Vocabulary (CPV), of what is actually being purchased.
+codelist|name|criterion:
+  name: This table provides criteria used for public procurement procedures.
+codelist|name|currency:
+  name: List of currency codes
+codelist|name|customer-service:
+  name: This table provides a list of customer services.
+codelist|name|cvd-contract-type:
+  name: The type of contract of the procurement procedure within the scope of Clean Vehicles Directive 2009/33/EC.
+codelist|name|cvd-scope:
+  name: List of codes to specify whether the procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD).
+codelist|name|dir-awa-pre:
+  name: List of allowed Notice Type codes for a Direct Award Preannouncement Form Type
+codelist|name|direct-award-justification:
+  name: This table provides the list of reasons for using a procedure which allows awarding contracts directly without the requirement of publishing a call for competition in the Official Journal of the European Union.
+codelist|name|document-distribution:
+  name: List of codes to specify whether the document distribution is restricted or not.
+codelist|name|document-status:
+  name: List of codes to specify whether a document has or not a legal status.
+codelist|name|dps-usage:
+  name: This table provides a list wether a dynamic purchasing system is involved in a procurement and, in case of central purchasing bodies, whether it can be used by buyers not listed in the notice of the Official Journal of the European Union.
+codelist|name|duration:
+  name: List of codes for undefined duration
+codelist|name|duration-unit:
+  name: List of codes for eforms allowed duration unit of measure
+codelist|name|ecatalog-submission:
+  name: List of codes to specify whether the submission of electronic catalogues is allowed or not.
+codelist|name|economic-operator-size:
+  name: This table provides the different categories in which the tenderers to whom a contract can be awarded are classified, according to their size (using as criteria the number of employees).
+codelist|name|eea-country:
+  name: List of codes of the European Economic Area countries
+codelist|name|eforms-contract-nature:
+  name: List of eforms allowed codes to specify the main and additional natures of a purchase
+codelist|name|eforms-country:
+  name: List of country codes allowed in eforms
+codelist|name|eforms-language:
+  name: List of language codes allowed in eforms
+codelist|name|eforms-legal-basis:
+  name: List of Legal Basis codes allowed in eForms
+codelist|name|einvoicing:
+  name: List of codes to specify whether the use of electronic invoicing is allowed or not.
+codelist|name|entity-activity:
+  name: List of Main Activity codes allowed for a Contracting Entity
+codelist|name|environmental-impact:
+  name: This table provides the information about whether a procurement includes (and how) an approach to reducing the environmental impacts of the work, supply or service used in the technical specifications, award criteria, selection criteria or contract perfor
+codelist|name|eppn-country:
+  name: List of codes for the European Plant Phenotyping Network countries
+codelist|name|esignature-submission:
+  name: List of codes to dpecify whether electronic signature may be used or not.
+codelist|name|esubmission:
+  name: List of codes to specify whether the electronic submission is allowed or not.
+codelist|name|eu-country:
+  name: List of codes of the EU countries
+codelist|name|eu-funded:
+  name: List of codes to specify whether a procurement would be financed using EU funds.
+codelist|name|eu-official-language:
+  name: List of codes of the EU official languages
+codelist|name|eu-programme:
+  name: List of codes for programmes created and coordinated by the European Union and financially supported by the European Union or, in a few cases, by the contributions from the Member States.
+codelist|name|exclusion-ground:
+  name: List of codes for Exclusion Ground identification
+codelist|name|form-type:
+  name: This table provides the codes and values used for the type of forms published on TED.
+codelist|name|framework-agreement:
+  name: This table provides the list of codes to distinguish the different type framework agreement involved in a tender.
+codelist|name|indicator:
+  name: List of eforms allowed indicator values
+codelist|name|innovative-acquisition:
+  name: This table provides the codes and values used for the type of innovative works, supplies or services being procured within the context of public procurement.
+codelist|name|irregularity-type:
+  name: This code list refers generally to the types of irregularities described in Section 2 of the Annex to the Commission Decision C(2019) 3452.
+codelist|name|language:
+  name: List of three characters language codes correlated with the ISO 639 international standard with additional codes for some languages without assigned ISO code.
+codelist|name|lawful-country:
+  name: List of countries for which there is a legal basis for publication in the Supplement to the Official Journal of the European Union
+codelist|name|legal-basis:
+  name: This table provides the legal basis based on the legal acts used for a given public procurement procedure. The table is provided by the Publications Office.
+codelist|name|linguistic-status:
+  name: List of codes to specify whether a linguistic version has or not a legal status.
+codelist|name|main-activity:
+  name: List of codes for the main activities of the buyers.
+codelist|name|measurement-unit:
+  name: List of codes for the most commonly used Unit of Measures in international trades.
+codelist|name|missing-info-submission:
+  name: This table provides the list of codes indicating wether tenderer-related information (complete or parcial) can be supplemented even after the submission deadline.
+codelist|name|modification-justification:
+  name: This table provides the main reasons for modifying a contract within the domain of public procurement.
+codelist|name|nda:
+  name: List of codes to specify whether a non-disclosure agreement is required.
+codelist|name|no-esubmission-justification:
+  name: List of codes to justify the impossibility to submit electronically
+codelist|name|non-award-justification:
+  name: This table provides the list of reasons of the buyer for not choosing a winner in the procurement procedure.
+codelist|name|non-publication-identifier:
+  name: List of codes for the identification of the information whose publication shall be delayed.
+codelist|name|non-publication-justification:
+  name: This table provides codes and values for the main reasons for not immediately publishing a notice within the context of public procurement.
+codelist|name|notice-purpose:
+  name: List of codes to specify the purpose of the Business Register Information Notice
+codelist|name|notice-subtype:
+  name: List of possible Notice Subtype codes for a Notice of type Business Registration Information Notice.
+codelist|name|notice-type:
+  name: This table provides a list of public procurement notices according to procurement legislation published once a project is approved.
+codelist|name|number-fixed:
+  name: This table provides the codes linked to fix values within the context of public procurement.
+codelist|name|number-threshold:
+  name: This table provides the codes linked to the type of threshold values within the context of public procurement.
+codelist|name|number-weight:
+  name: This table provides the codes linked to the type of weight values used in award criteria within the context of public procurement.
+codelist|name|nuts:
+  name: List of codes for the geographical nomenclature subdivision of the economic territory of the European Union (EU) into regions at three different levels (NUTS 1, 2 and 3 respectively, moving from larger to smaller territorial units).
+codelist|name|nuts-alb-lvl3:
+  name: List of level 3 NUTS codes for Albania
+codelist|name|nuts-aut-lvl3:
+  name: List of level 3 NUTS codes for Austria
+codelist|name|nuts-bel-lvl3:
+  name: List of level 3 NUTS codes for Belgium
+codelist|name|nuts-bgr-lvl3:
+  name: List of level 3 NUTS codes for Bulgaria
+codelist|name|nuts-che-lvl3:
+  name: List of level 3 NUTS codes for Switzerland
+codelist|name|nuts-country:
+  name: List of codes for Countries having NUTS codes
+codelist|name|nuts-cyp-lvl3:
+  name: List of level 3 NUTS codes for Cyprus
+codelist|name|nuts-cze-lvl3:
+  name: List of level 3 NUTS codes for Czech Republic
+codelist|name|nuts-deu-lvl3:
+  name: List of level 3 NUTS codes for Germany
+codelist|name|nuts-dnk-lvl3:
+  name: List of level 3 NUTS codes for Denmark
+codelist|name|nuts-esp-lvl3:
+  name: List of level 3 NUTS codes for Spain
+codelist|name|nuts-est-lvl3:
+  name: List of level 3 NUTS codes for Estonia
+codelist|name|nuts-fin-lvl3:
+  name: List of level 3 NUTS codes for Finland
+codelist|name|nuts-fra-lvl3:
+  name: List of level 3 NUTS codes for France
+codelist|name|nuts-gbr-lvl3:
+  name: List of level 3 NUTS codes for United Kingdom
+codelist|name|nuts-grc-lvl3:
+  name: List of level 3 NUTS codes for Greece
+codelist|name|nuts-hrv-lvl3:
+  name: List of level 3 NUTS codes for Croatia
+codelist|name|nuts-hun-lvl3:
+  name: List of level 3 NUTS codes for Hungary
+codelist|name|nuts-irl-lvl3:
+  name: List of level 3 NUTS codes for Ireland
+codelist|name|nuts-isl-lvl3:
+  name: List of level 3 NUTS codes for Iceland
+codelist|name|nuts-ita-lvl3:
+  name: List of level 3 NUTS codes for Italy
+codelist|name|nuts-lie-lvl3:
+  name: List of level 3 NUTS codes for Lichtenstein
+codelist|name|nuts-ltu-lvl3:
+  name: List of level 3 NUTS codes for Lithuania
+codelist|name|nuts-lux-lvl3:
+  name: List of level 3 NUTS codes for Luxembourg
+codelist|name|nuts-lva-lvl3:
+  name: List of level 3 NUTS codes for Latvia
+codelist|name|nuts-lvl3:
+  name: List of all level 3 NUTS codes
+codelist|name|nuts-mkd-lvl3:
+  name: List of level 3 NUTS codes for Former Yugoslav Republic of Macedonia
+codelist|name|nuts-mlt-lvl3:
+  name: List of level 3 NUTS codes for Malta
+codelist|name|nuts-mne-lvl3:
+  name: List of level 3 NUTS codes for Montenegro
+codelist|name|nuts-nld-lvl3:
+  name: List of level 3 NUTS codes for Netherlands
+codelist|name|nuts-nor-lvl3:
+  name: List of level 3 NUTS codes for Norway
+codelist|name|nuts-pol-lvl3:
+  name: List of level 3 NUTS codes for Poland
+codelist|name|nuts-prt-lvl3:
+  name: List of level 3 NUTS codes for Portugal
+codelist|name|nuts-rou-lvl3:
+  name: List of level 3 NUTS codes for Romania
+codelist|name|nuts-srb-lvl3:
+  name: List of level 3 NUTS codes for Serbia
+codelist|name|nuts-svk-lvl3:
+  name: List of level 3 NUTS codes for Slovakia
+codelist|name|nuts-svn-lvl3:
+  name: List of level 3 NUTS codes for Slovenia
+codelist|name|nuts-swe-lvl3:
+  name: List of level 3 NUTS codes for Sweden
+codelist|name|nuts-tur-lvl3:
+  name: List of level 3 NUTS codes for Turkey
+codelist|name|organisation-role:
+  name: This table provides the list of the different functions of the organisations in a procurement procedure.
+codelist|name|organisation-role-service:
+  name: List of possible service codes for Procurement Service Providers
+codelist|name|other-place-service:
+  name: This table provides the broad geopolitical areas linked to the location of works and the place of performance or delivery within the context of public procurement.
+codelist|name|permission:
+  name: This table provides the codes linked to the different values of permission and/or obligation.
+codelist|name|pin-buyer:
+  name: List of allowed Notice Subtype codes for a notice of PIN Buyer Notice Type.
+codelist|name|pin-cfc-social:
+  name: List of allowed Notice Subtype codes for a notice of PIN Call for Competition Social Notice Type.
+codelist|name|pin-cfc-standard:
+  name: List of allowed Notice Subtype codes for a notice of PIN Call for Competition Standard Notice Type.
+codelist|name|pin-only:
+  name: List of allowed Notice Subtype codes for a notice of PIN Only Notice Type.
+codelist|name|pin-rtl:
+  name: List of allowed Notice Subtype codes for a notice of PIN Reduced Time Limit Notice Type.
+codelist|name|pin-tran:
+  name: List of allowed Notice Subtype codes for a notice of PIN for Public Transportation Service Contract Notice Type.
+codelist|name|planning:
+  name: List of allowed Notice Type codes for a Planning Form Type
+codelist|name|postcode-country:
+  name: List of country codes for countries having postcodes and requiring their use
+codelist|name|procurement-procedure-type:
+  name: This table provides a list of activities leading to the conclusion of public contracts used in public procurement according to the legislation.
+codelist|name|qu-sy:
+  name: List of allowed Notice Subtype codes for a notice of Qualification System Notice Type.
+codelist|name|received-submission-type:
+  name: This table provides the list of relevant categories used to classify tenders or requests to participate received within the context of public procurement.
+codelist|name|remedy-type:
+  name: This table describes the measures taken following a review.
+codelist|name|required:
+  name: List of codes to specify whether the associated requirement applies or not.
+codelist|name|requirement-stage:
+  name: This table describes when and whether a given requirement must be provided in a procedure.
+codelist|name|reserved-execution:
+  name: List of codes to express whether a contract execution is reserved or not.
+codelist|name|reserved-procurement:
+  name: List of codes to specify whether participation is reserved or not.
+codelist|name|result:
+  name: List of allowed Notice Type codes for a Result Form Type
+codelist|name|review-body-type:
+  name: This table covers the list of organisations providing the review of a given procedure.
+codelist|name|review-decision-type:
+  name: This table describes the decision made a review body.
+codelist|name|review-requester-type:
+  name: Category of Stakeholders that requested a review
+codelist|name|review-status:
+  name: List of codes for the status of a given review request.
+codelist|name|review-type:
+  name: List of codes for the identification of the type of review requester
+codelist|name|rewards-penalties:
+  name: List of codes for rewards and penalties associated to a Public Transportation Service.
+codelist|name|selection-criterion:
+  name: List of codes to express condictions that are concerned for evaluation purposes. This codelist is a subset of the ESPD codelist CriterionTaxonomy.
+codelist|name|social-objective:
+  name: List of codes for values linked to any social objective promoted by the specifications, award / selection criteria or contract performance conditions included in a procurement.
+codelist|name|social-service-cpv:
+  name: Codes for social service of CPV
+codelist|name|strategic-procurement:
+  name: This table provides the values linked to any social objective promoted by the technical specifications, award criteria, selection criteria or contract performance conditions included in a procurement.
+codelist|name|subco:
+  name: List of allowed Notice Subtype codes for a notice of Subcontracting Notice Type.
+codelist|name|subcontracting-allowed:
+  name: List of codes to specify whether subcontracting is allowed or not.
+codelist|name|subcontracting-indication:
+  name: This table provides the list of codes and values used to indicate information regarding the share of parts of a contract to third parties. The share may refer to the portion of work, services or supplies and/or to the subject matter being subcontracted.
+codelist|name|subcontracting-obligation:
+  name: This table provides the list of codes and values used for the obligation of the economic operator of sharing parts of the original contract to third parties. The share may refer to the portion of work, services or supplies.
+codelist|name|tender-guarantee-required:
+  name: List of codes to specify whether a Tender Guarantee is required or not.
+codelist|name|tenderlot-presentation:
+  name: List of codes to specify whether the submission should deal with all the defined lots.
+codelist|name|timeperiod:
+  name: List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.
+codelist|name|timeperiods:
+  name: List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.
+codelist|name|transport-service:
+  name: This table provides a list of transport services.
+codelist|name|usage:
+  name: List of codes to indicate whether the associated concept should be used or not.
+codelist|name|veat:
+  name: List of allowed Notice Subtype codes for a notice of Voluntary ex-ante Transparency Notice Type.
+codelist|name|vehicle-category:
+  name: The category of vehicle falling within the scope of Directive 2009/33/EC.
+codelist|name|vehicles:
+  name: List of codes for vehicle categories.
+codelist|name|winner-selection-status:
+  name: This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and wether the competiotion is open.

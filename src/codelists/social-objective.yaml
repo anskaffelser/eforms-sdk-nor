@@ -1,0 +1,14 @@
+acc-all:
+  name: Accessibility for all
+et-eq:
+  name: Ethnic equality
+gen-eq:
+  name: Gender equality
+hum-right:
+  name: Human rights due diligence in global supply chains
+opp:
+  name: Employment opportunities for the long-term unemployed, disadvantaged and/or for persons with disabilities
+other:
+  name: Other
+work-cond:
+  name: Fair working conditions

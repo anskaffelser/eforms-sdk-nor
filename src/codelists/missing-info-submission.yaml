@@ -1,0 +1,6 @@
+late-all:
+  name: At the discretion of the buyer, all missing tenderer-related documents may be submitted later.
+late-none:
+  name: No documents can be submitted later.
+late-some:
+  name: At the discretion of the buyer, some missing tenderer-related documents may be submitted later.

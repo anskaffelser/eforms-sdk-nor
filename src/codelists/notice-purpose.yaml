@@ -1,0 +1,12 @@
+del:
+  name: Deletion
+for:
+  name: Formation
+liq:
+  name: Completion of the liquidation
+reg:
+  name: Registration
+tra-del:
+  name: Transfer-deletion
+tra-reg:
+  name: Transfer-registration

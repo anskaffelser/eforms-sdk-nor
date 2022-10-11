@@ -1,0 +1,482 @@
+business-term|name|BG-125:
+  name: Information about previous notices
+business-term|name|BG-310:
+  name: Contract information
+business-term|name|BG-320:
+  name: Tender
+business-term|name|BG-36:
+  name: Duration
+business-term|name|BG-38:
+  name: Award criterion
+business-term|name|BG-611:
+  name: Information about European Union funds used to finance the contract
+business-term|name|BG-612:
+  name: Summary of the review requests the buyer received
+business-term|name|BG-703:
+  name: Organisation whose budget is used to pay for the contract
+business-term|name|BG-706:
+  name: Techniques
+business-term|name|BG-712:
+  name: Received tenders or requests to participate
+business-term|name|BG-72:
+  name: Number of candidates selected for second stage
+business-term|name|BG-77:
+  name: Modification
+business-term|name|BT-01:
+  name: Legal basis of the procedure
+business-term|name|BT-02:
+  name: Notice type
+business-term|name|BT-03:
+  name: Form type
+business-term|name|BT-04:
+  name: Procedure identifier
+business-term|name|BT-05:
+  name: Notice dispatch date
+business-term|name|BT-06:
+  name: Aim of strategic procurement
+business-term|name|BT-08:
+  name: Role of the organisation
+business-term|name|BT-10:
+  name: Activity of the contracting authority
+business-term|name|BT-105:
+  name: Type of the procedure
+business-term|name|BT-106:
+  name: The procedure is accelerated.
+business-term|name|BT-109:
+  name: Justification for the duration of framework agreement
+business-term|name|BT-11:
+  name: Legal type of the buyer
+business-term|name|BT-111:
+  name: Additional buyer coverage
+business-term|name|BT-113:
+  name: Maximum number of participants
+business-term|name|BT-118:
+  name: Estimated value of the framework agreements in this procedure
+business-term|name|BT-119:
+  name: The dynamic purchasing system is terminated.
+business-term|name|BT-120:
+  name: The buyer reserves the right to award the contract on the basis of the initial tenders without any further negotiations.
+business-term|name|BT-122:
+  name: Description
+business-term|name|BT-123:
+  name: An electronic auction at the following address is used
+business-term|name|BT-124:
+  name: URL
+business-term|name|BT-125:
+  name: Identifier of previous notice
+business-term|name|BT-1251:
+  name: Identifier of the part of the previous notice
+business-term|name|BT-1252:
+  name: Identifier of the previous procedure that justifies direct award
+business-term|name|BT-127:
+  name: Estimated date of publication of a contract notice within this procedure
+business-term|name|BT-13:
+  name: Deadline for requesting additional information
+business-term|name|BT-130:
+  name: Estimated date of dispatch of the invitations to submit tenders
+business-term|name|BT-131:
+  name: Deadline for receipt of tenders
+business-term|name|BT-1311:
+  name: Deadline for receipt of requests to participate
+business-term|name|BT-132:
+  name: Date / time
+business-term|name|BT-133:
+  name: Place
+business-term|name|BT-134:
+  name: Additional information
+business-term|name|BT-135:
+  name: Other justification
+business-term|name|BT-1351:
+  name: Justification for the accelerated procedure
+business-term|name|BT-136:
+  name: Justification for direct award
+business-term|name|BT-137:
+  name: Lot
+business-term|name|BT-13714:
+  name: Identifier of lot or group of lots
+business-term|name|BT-13716:
+  name: Section to which the change applies
+business-term|name|BT-1375:
+  name: Lots included
+business-term|name|BT-14:
+  name: Documents Restricted
+business-term|name|BT-140:
+  name: Main reason for change
+business-term|name|BT-141:
+  name: Description of changes
+business-term|name|BT-142:
+  name: A winner was chosen
+business-term|name|BT-144:
+  name: The reason why a winner was not chosen
+business-term|name|BT-145:
+  name: Date of the conclusion of the contract
+business-term|name|BT-1451:
+  name: Date of the decision of choosing the winner
+business-term|name|BT-15:
+  name: Address of the procurement documents (URL)
+business-term|name|BT-150:
+  name: Identifier of the contract
+business-term|name|BT-1501:
+  name: Identifier of the section to be modified in a previous notice
+business-term|name|BT-151:
+  name: Address of the contract (URL)
+business-term|name|BT-156:
+  name: Estimated value of the framework agreements in the group of lots
+business-term|name|BT-157:
+  name: Maximum value of the framework agreement within the group of lots
+business-term|name|BT-16:
+  name: Department
+business-term|name|BT-160:
+  name: Estimated revenue coming from the buyer who granted the concession
+business-term|name|BT-161:
+  name: Value of all contracts awarded in this procedure
+business-term|name|BT-162:
+  name: Estimated revenue coming from the users of the concession
+business-term|name|BT-163:
+  name: Method used for calculating the estimated value of the concession
+business-term|name|BT-165:
+  name: Size of the economic operator
+business-term|name|BT-17:
+  name: Electronic submission
+business-term|name|BT-171:
+  name: Rank in the list of winners
+business-term|name|BT-18:
+  name: Address for submission (URL)
+business-term|name|BT-19:
+  name: Justification for why electronic submission is not possible
+business-term|name|BT-191:
+  name: Country of origin of the product or the service
+business-term|name|BT-193:
+  name: The tender is a variant.
+business-term|name|BT-200:
+  name: Reason for modification
+business-term|name|BT-201:
+  name: Description
+business-term|name|BT-202:
+  name: Description of modifications
+business-term|name|BT-21:
+  name: Title
+business-term|name|BT-22:
+  name: Internal identifier
+business-term|name|BT-23:
+  name: Nature of the contract
+business-term|name|BT-24:
+  name: Description
+business-term|name|BT-25:
+  name: Quantity
+business-term|name|BT-262:
+  name: Main classification
+business-term|name|BT-263:
+  name: Additional classification
+business-term|name|BT-27:
+  name: Estimated value excluding VAT
+business-term|name|BT-300:
+  name: Additional information
+business-term|name|BT-31:
+  name: Maximum number of lots for which one tenderer can submit tenders
+business-term|name|BT-3201:
+  name: Tender identifier
+business-term|name|BT-33:
+  name: Maximum number of lots for which contracts can be awarded to one tenderer
+business-term|name|BT-330:
+  name: Group of lots
+business-term|name|BT-36:
+  name: Period
+business-term|name|BT-40:
+  name: The criteria will be used to select the candidates to be invited for the second stage of the procedure.
+business-term|name|BT-41:
+  name: Any service contract following the contest will be awarded to one of the winners of the contest
+business-term|name|BT-42:
+  name: The decision of the jury is binding on the buyer.
+business-term|name|BT-44:
+  name: Place receiving the prize
+business-term|name|BT-45:
+  name: Additional information
+business-term|name|BT-46:
+  name: Members of the jury
+business-term|name|BT-47:
+  name: Participants already selected
+business-term|name|BT-50:
+  name: Minimum number of candidates to be invited for the second stage of the procedure
+business-term|name|BT-500:
+  name: Official name
+business-term|name|BT-501:
+  name: Identifier of the organisation
+business-term|name|BT-5011:
+  name: Identifier of EU funds
+business-term|name|BT-502:
+  name: Contact point
+business-term|name|BT-503:
+  name: Telephone
+business-term|name|BT-505:
+  name: Internet address
+business-term|name|BT-506:
+  name: E-mail
+business-term|name|BT-507:
+  name: Country subentity
+business-term|name|BT-5071:
+  name: Country subentity
+business-term|name|BT-508:
+  name: Buyer profile (URL)
+business-term|name|BT-509:
+  name: Information exchange endpoint (URL)
+business-term|name|BT-51:
+  name: Maximum number of candidates to be invited for the second stage of the procedure
+business-term|name|BT-510:
+  name: Postal address
+business-term|name|BT-5101:
+  name: Postal address
+business-term|name|BT-512:
+  name: Postal code
+business-term|name|BT-5121:
+  name: Postal code
+business-term|name|BT-513:
+  name: Town
+business-term|name|BT-5131:
+  name: Town
+business-term|name|BT-514:
+  name: Country
+business-term|name|BT-5141:
+  name: Country
+business-term|name|BT-52:
+  name: The procedure will take place in successive stages. In each stage, some participants may be eliminated.
+business-term|name|BT-531:
+  name: Additional nature of the contract
+business-term|name|BT-536:
+  name: Start date
+business-term|name|BT-537:
+  name: End date
+business-term|name|BT-539:
+  name: Type
+business-term|name|BT-54:
+  name: The buyer reserves the right for additional purchases, described here, from the contractor
+business-term|name|BT-540:
+  name: Description
+business-term|name|BT-541:
+  name: Number
+business-term|name|BT-5421:
+  name: Type of weight
+business-term|name|BT-5422:
+  name: Criterion is a fixed value
+business-term|name|BT-5423:
+  name: Type of threshold
+business-term|name|BT-543:
+  name: Description of the method to be used if weighing cannot be expressed by criteria
+business-term|name|BT-553:
+  name: Estimated value of the part of the contract that the contractor will subcontract to third parties
+business-term|name|BT-554:
+  name: Description
+business-term|name|BT-555:
+  name: Estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract
+business-term|name|BT-57:
+  name: Description
+business-term|name|BT-578:
+  name: A security clearance is required.
+business-term|name|BT-58:
+  name: Maximum renewals
+business-term|name|BT-610:
+  name: Activity of the contracting entity
+business-term|name|BT-615:
+  name: Information about restricted documents is available at
+business-term|name|BT-625:
+  name: Unit
+business-term|name|BT-63:
+  name: Variants
+business-term|name|BT-630:
+  name: Deadline for receipt of expressions of interest
+business-term|name|BT-631:
+  name: Estimated date of dispatch of the invitations to confirm interest
+business-term|name|BT-632:
+  name: Name
+business-term|name|BT-633:
+  name: The organisation is a natural person.
+business-term|name|BT-634:
+  name: This cancelled or unsuccessful procedure or lot will be relaunched.
+business-term|name|BT-635:
+  name: Artificial splitting of contracts
+business-term|name|BT-636:
+  name: Type of alleged irregularity
+business-term|name|BT-64:
+  name: Minimum percentage of the contract value that the contractor must subcontract
+business-term|name|BT-644:
+  name: Value of the prize
+business-term|name|BT-65:
+  name: Obligatory information about subcontracting
+business-term|name|BT-651:
+  name: Obligatory indication of subcontracting
+business-term|name|BT-660:
+  name: Estimated value of the framework agreement
+business-term|name|BT-661:
+  name: There is a maximum number of candidates to be invited for the second stage of the procedure.
+business-term|name|BT-67:
+  name: Description
+business-term|name|BT-70:
+  name: Conditions of performance of the contract
+business-term|name|BT-701:
+  name: Notice identifier / version
+business-term|name|BT-702:
+  name: Languages in which this notice is officially available
+business-term|name|BT-706:
+  name: Nationality of the owner
+business-term|name|BT-707:
+  name: Justification for restricting access to certain procurement documents
+business-term|name|BT-708:
+  name: Languages in which procurement documents are officially available
+business-term|name|BT-709:
+  name: Maximum value of the framework agreement
+business-term|name|BT-71:
+  name: Reserved participation
+business-term|name|BT-710:
+  name: Value of the lowest admissible tender
+business-term|name|BT-711:
+  name: Value of the highest admissible tender
+business-term|name|BT-712:
+  name: Number of complainants
+business-term|name|BT-715:
+  name: Total number of vehicles
+business-term|name|BT-716:
+  name: Number of clean vehicles
+business-term|name|BT-718:
+  name: The procurement documents have been changed on
+business-term|name|BT-719:
+  name: Date of change of the documents
+business-term|name|BT-720:
+  name: Value of the result
+business-term|name|BT-721:
+  name: Title
+business-term|name|BT-722:
+  name: Name of EU-financed project or programme
+business-term|name|BT-725:
+  name: Number of zero-emission heavy-duty vehicles
+business-term|name|BT-726:
+  name: This procurement is also suitable for small and medium enterprises (SMEs).
+business-term|name|BT-727:
+  name: Restrictions on the place of performance
+business-term|name|BT-728:
+  name: Additional information
+business-term|name|BT-729:
+  name: Maximum percentage of the contract value that the contractor must subcontract
+business-term|name|BT-730:
+  name: The buyer knows at least the estimated value of the part of the contract that the contractor will subcontract to third parties.
+business-term|name|BT-731:
+  name: The buyer knows at least the estimated percentage of the contract that the contractor will subcontract to third parties compared to the whole contract.
+business-term|name|BT-732:
+  name: Description
+business-term|name|BT-733:
+  name: Justification for not indicating the weighing of the award criteria
+business-term|name|BT-734:
+  name: Name
+business-term|name|BT-736:
+  name: The execution of the contract must be performed in the framework of sheltered employment programmes
+business-term|name|BT-737:
+  name: Languages in which the procurement documents (or their parts) are unofficially available
+business-term|name|BT-739:
+  name: Fax
+business-term|name|BT-740:
+  name: The buyer is a contracting entity.
+business-term|name|BT-743:
+  name: Electronic invoicing
+business-term|name|BT-744:
+  name: Advanced or qualified electronic signature or seal (as defined in Regulation (EU) No 910/2014) is required.
+business-term|name|BT-745:
+  name: Description
+business-term|name|BT-746:
+  name: The winner is listed on a regulated market.
+business-term|name|BT-747:
+  name: Type
+business-term|name|BT-748:
+  name: Use of this criterion
+business-term|name|BT-749:
+  name: Name
+business-term|name|BT-75:
+  name: Description of the financial guarantee
+business-term|name|BT-750:
+  name: Description
+business-term|name|BT-751:
+  name: A guarantee is required
+business-term|name|BT-752:
+  name: Selection Criteria Second Stage Invite Number
+business-term|name|BT-7531:
+  name: Type of weight
+business-term|name|BT-7532:
+  name: Type of threshold
+business-term|name|BT-755:
+  name: Justification
+business-term|name|BT-756:
+  name: Call for competition is terminated.
+business-term|name|BT-758:
+  name: Version of the previous notice to be changed
+business-term|name|BT-759:
+  name: Number of tenders or requests to participate received
+business-term|name|BT-76:
+  name: Legal form that must be taken by a group of tenderers that is awarded a contract
+business-term|name|BT-760:
+  name: Type of tenders or requests to participate received
+business-term|name|BT-761:
+  name: Legal form that must be taken by a group of tenderers that is awarded a contract
+business-term|name|BT-762:
+  name: Description
+business-term|name|BT-763:
+  name: The tenderer must submit tenders for all lots.
+business-term|name|BT-764:
+  name: Electronic catalogue
+business-term|name|BT-765:
+  name: Framework agreement
+business-term|name|BT-766:
+  name: Information about dynamic purchasing system
+business-term|name|BT-767:
+  name: An electronic auction is used.
+business-term|name|BT-768:
+  name: The contract is awarded within a framework agreement.
+business-term|name|BT-769:
+  name: Tenderers may submit more than one tender.
+business-term|name|BT-77:
+  name: Financial arrangement
+business-term|name|BT-770:
+  name: Subrole of the organisation
+business-term|name|BT-771:
+  name: Information that can be supplemented after the submission deadline
+business-term|name|BT-772:
+  name: Additional information
+business-term|name|BT-773:
+  name: Subcontracting
+business-term|name|BT-774:
+  name: Approach to reducing environmental impacts
+business-term|name|BT-775:
+  name: Social objective promoted
+business-term|name|BT-776:
+  name: Innovative objective
+business-term|name|BT-777:
+  name: Description
+business-term|name|BT-78:
+  name: Deadline for obtaining a security clearance
+business-term|name|BT-79:
+  name: Names and professional qualifications of the staff assigned to perform the contract must be given
+business-term|name|BT-796:
+  name: The review request was withdrawn.
+business-term|name|BT-88:
+  name: Description of the procedure
+business-term|name|BT-92:
+  name: Electronic ordering will be used
+business-term|name|BT-93:
+  name: Electronic payment will be used
+business-term|name|BT-94:
+  name: Recurrence
+business-term|name|BT-95:
+  name: Description
+business-term|name|BT-97:
+  name: Languages in which tenders, requests to participate, or expressions of interest may be submitted
+business-term|name|BT-98:
+  name: Deadline until which the tender must remain valid
+business-term|name|BT-99:
+  name: Information about review deadlines
+business-term|name|OPP-010:
+  name: Notice publication number
+business-term|name|OPP-011:
+  name: OJ S issue number
+business-term|name|OPP-012:
+  name: Publication date
+business-term|name|OPP-130:
+  name: Additional information
+business-term|name|OPT-150:
+  name: Official name

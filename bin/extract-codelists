@@ -1,0 +1,49 @@
+#!/usr/bin/env ruby
+
+require 'nokogiri'
+require 'json'
+require 'slop'
+require 'fileutils'
+require 'YAML'
+
+opts = Slop.parse do |o|
+  o.string '-i', '--index-file', default: 'target/eforms-sdk/codelists/codelists.json'
+  o.string '-o', '--output-folder', default: 'src/codelists'
+end
+
+index = JSON.parse File.read opts[:index_file]
+
+index['codelists'].each do |cl|
+  source = File.expand_path cl['filename'], File.dirname(opts[:index_file])
+  target = File.expand_path cl['filename'].sub('.gc', '.yaml'), opts[:output_folder]
+
+  puts "Parsing #{cl['filename']}"
+
+  map = File.exists?(target) ? YAML.load_file(target) : Hash::new
+
+  xml = Nokogiri::XML File.read source
+  xml.xpath("//Row[normalize-space(Value[@ColumnRef='Name'])]").each do |row|
+    code = row.xpath("Value[@ColumnRef='code']/SimpleValue/text()").to_s
+    name = row.xpath("Value[@ColumnRef='Name']/SimpleValue/text()").to_s
+
+    if !map.key?(code)
+      map[code] = Hash::new
+    end
+
+    if !map[code].key?('name')
+      map[code]['name'] = name
+    elsif map[code]['name'] != name
+      map[code]['name'] = name
+
+      map[code].keys.delete_if { |key| key == 'name' || key.end_with?('_verify') } .each do |key|
+        map[code]["#{key}_verify"] = true
+      end
+    end
+  end
+
+  FileUtils.mkdir_p File.dirname target
+  File.open(target, 'w') do |f|
+    f.write map.to_yaml(options = {:line_width => -1})[4..-1]
+  end
+
+end

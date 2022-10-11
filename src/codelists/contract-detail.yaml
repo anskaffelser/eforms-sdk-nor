@@ -1,0 +1,12 @@
+all-rev-tic:
+  name: Allocation of revenues of sales from tickets
+cost-comp:
+  name: Cost parameters for compensation payments
+exc-right:
+  name: Exclusive rights are granted
+other:
+  name: Other particular conditions
+publ-ser-obl:
+  name: Public service obligations
+soc-stand:
+  name: Social standards

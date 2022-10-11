@@ -1,0 +1,44 @@
+body-pl:
+  name: Body governed by public law
+body-pl-cga:
+  name: Body governed by public law, controlled by a central government authority
+body-pl-la:
+  name: Body governed by public law, controlled by a local authority
+body-pl-ra:
+  name: Body governed by public law, controlled by a regional authority
+cga:
+  name: Central government authority
+def-cont:
+  name: Defence contractor
+eu-ins-bod-ag:
+  name: EU institution, body or agency
+eu-int-org:
+  name: European Institution/Agency or International Organisation
+grp-p-aut:
+  name: Group of public authorities
+int-org:
+  name: International organisation
+la:
+  name: Local authority
+org-sub:
+  name: Organisation awarding a contract subsidised by a contracting authority
+org-sub-cga:
+  name: Organisation awarding a contract subsidised by a central government authority
+org-sub-la:
+  name: Organisation awarding a contract subsidised by a local authority
+org-sub-ra:
+  name: Organisation awarding a contract subsidised by a regional authority
+pub-undert:
+  name: Public undertaking
+pub-undert-cga:
+  name: Public undertaking, controlled by a central government authority
+pub-undert-la:
+  name: Public undertaking, controlled by a local authority
+pub-undert-ra:
+  name: Public undertaking, controlled by a regional authority
+ra:
+  name: Regional authority
+rl-aut:
+  name: Regional or local authority
+spec-rights-entity:
+  name: Entity with special or exclusive rights

@@ -1,0 +1,54 @@
+CH011:
+  name: Vaud
+CH012:
+  name: Valais/Wallis
+CH013:
+  name: Genève
+CH021:
+  name: Bern/Berne
+CH022:
+  name: Fribourg/Freiburg
+CH023:
+  name: Solothurn
+CH024:
+  name: Neuchâtel
+CH025:
+  name: Jura
+CH031:
+  name: Basel-Stadt
+CH032:
+  name: Basel-Landschaft
+CH033:
+  name: Aargau
+CH040:
+  name: Zürich
+CH051:
+  name: Glarus
+CH052:
+  name: Schaffhausen
+CH053:
+  name: Appenzell Ausserrhoden
+CH054:
+  name: Appenzell Innerrhoden
+CH055:
+  name: St. Gallen
+CH056:
+  name: Graubünden/Grigioni/Grischun
+CH057:
+  name: Thurgau
+CH061:
+  name: Luzern
+CH062:
+  name: Uri
+CH063:
+  name: Schwyz
+CH064:
+  name: Obwalden
+CH065:
+  name: Nidwalden
+CH066:
+  name: Zug
+CH070:
+  name: Ticino
+CHZZZ:
+  name: Extra-Regio NUTS 3

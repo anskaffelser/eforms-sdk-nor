@@ -1,0 +1,6 @@
+oth-serv-contr:
+  name: Other service contract
+pass-tran-serv:
+  name: Passenger road transport services
+veh-acq:
+  name: Vehicle purchase, lease or rent

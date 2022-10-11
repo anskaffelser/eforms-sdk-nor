@@ -1,0 +1,8 @@
+pin-buyer:
+  name: Notice of the publication of a prior information notice or a periodic information notice on a buyer profile
+pin-only:
+  name: Prior information notice or a periodic indicative notice used only for information
+pin-rtl:
+  name: Prior information notice or a periodic indicative notice used to shorten time limits for receipt of tenders
+pin-tran:
+  name: Prior information notice for public passenger transport services

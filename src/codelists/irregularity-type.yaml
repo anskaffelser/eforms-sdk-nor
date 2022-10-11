@@ -1,0 +1,66 @@
+ab-low:
+  name: Unjustified rejection of abnormally low tenders
+ar-split:
+  name: Artificial splitting of contracts
+bid-rigging:
+  name: Bid-rigging (established by a competition / anti-cartel office, a court or other competent body)
+change-eval:
+  name: Negotiation during the award procedure, including modification of the winning tender during evaluation
+conf-int:
+  name: Conflict of interest with impact on the outcome of the procurement procedure
+cp-mod-cond:
+  name: Competitive procedure with negotiation, with substantial modification of the conditions set out in the contract notice or tender specifications
+elem-mod:
+  name: Modifications of the contract elements set out in the contract notice or tender specifications, not in compliance with the relevant rules
+eva-add-crit:
+  name: Evaluation using additional award criteria that were not published
+eva-diff-crit:
+  name: Evaluation of tenders using award criteria that are different from the ones stated in the contract notice or tender specifications
+formal:
+  name: Formal
+ins-audit:
+  name: Insufficient audit trail for the award of the contract
+insuf-timl:
+  name: Insufficient time for potential tenderers/candidates to obtain the procurement documents
+irr-involv:
+  name: Irregular prior involvement of candidates or tenderers with the buyer
+mod-inco:
+  name: Selection criteria or technical specifications were modified after opening of tenders or were incorrectly applied
+nc-proc-eap:
+  name: Non-compliance with the procedure established in the Directive for electronic and aggregated procurement
+nc-timl:
+  name: Non-compliance with time limits for receipt of tenders or time limits for receipt of requests to participate
+ncompl-awcrit:
+  name: Failure to describe in sufficient detail the award criteria and their weighting
+ncompl-cn:
+  name: Failure to publish in the contract notice the technical specifications, selection criteria, award criteria (and their weighing), or contract performance conditions
+ncompl-com:
+  name: Failure to communicate and/or publish clarifications and/or additional information
+ncompl-sub:
+  name: Insufficient or imprecise definition of the subject matter of the contract
+no-notice:
+  name: Lack of publication of contract notice or unjustified direct award
+noex-addinfo:
+  name: Failure to extend time limits for receipt of tenders or requests to participate where additional information, although requested by the economic operator in good time, is not supplied at the latest six days before the time limit
+noex-timl:
+  name: Failure to extend time limits for receipt of tenders or requests to participate where significant changes are made to the procurement documents
+nojust-nolots:
+  name: Lack of justification for not subdividing contract into lots
+npub-limit:
+  name: Lack of publication of extended time limits for receipt of tenders or requests to participate
+other:
+  name: Other
+restr-not-tlim:
+  name: Restrictions to obtaining the procurement documents, other than insufficient time
+unj-comp-pro:
+  name: Unjustified use of competitive procedure with negotiation, competitive dialogue or innovative partnership
+unj-excl:
+  name: Unjustified exclusion of tenderers or candidates
+unj-lim-subc:
+  name: Unjustified limitation of subcontracting
+unj-na-ppr:
+  name: Unjustified non-application of public procurement rules
+unj-nrl:
+  name: Use of technical specification, selection criterion, award criterion, exclusion criterion, or contract performance condition that are discriminatory because of unjustified national, regional or local preferences
+unj-nrl-other:
+  name: Use of technical specifications, selection criteria, award criteria, exclusion criteria, or contract performance conditions that are discriminatory (i.e. restrict access for economic operators) for other reasons than unjustified national, regional or local preferences

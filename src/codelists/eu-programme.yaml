@@ -1,0 +1,288 @@
+AFIS2020:
+  name: Anti Fraud Information System (AFIS)
+AGR:
+  name: European Agricultural Guarantee Fund (after transfers between EAGF and EAFRD)
+AGRNET:
+  name: Net transfer between EAGF and EAFRD
+AMF:
+  name: Asylum, Migration and Integration Fund (AMF)
+AMIF:
+  name: Asylum and Migration Fund (AMIF)
+ANTIFRAUD:
+  name: EU Anti-Fraud Programme
+BMVI:
+  name: Integrated Border Management Fund (IBMF) – instrument for border management and visa (BMVi)
+CCEI:
+  name: Integrated Border Management Fund (IBMF) – Instrument for financial support for customs control equipment (CCEi)
+CDF2020:
+  name: Rights, equality and citizenship programme
+CEF:
+  name: Connecting Europe Facility (CEF)
+CEF_2021:
+  name: Connecting Europe Facility (CEF)
+CERV:
+  name: Citizens, Equality, Rights and Values
+CF:
+  name: Cohesion Fund (CF)
+CF_2021:
+  name: Cohesion Fund (CF)
+CF_DET:
+  name: Contribution from the Cohesion Fund to the CEF programme
+CFSP_2021:
+  name: Common Foreign and Security Policy (CFSP)
+CFSP2020:
+  name: Common foreign and security policy (CFSP)
+CIFP_07_13:
+  name: Competitiveness and Innovation Framework Programme
+CIT2020:
+  name: Europe for Citizens
+COMPREG:
+  name: Competitiveness (more developed regions)
+CONS:
+  name: Consumer programme
+COPERNICUS:
+  name: European Earth Observation Programme (Copernicus)
+COSME:
+  name: Programme for the competitiveness of enterprises and small and medium-sized enterprises (COSME)
+CPM_H3:
+  name: Union Civil Protection Mechanism — Member States
+CPM_H4:
+  name: Union Civil Protection Mechanism — Outside EU
+CREA:
+  name: Creative Europe programme
+CREATIVEEU:
+  name: Creative Europe
+CUST2020:
+  name: Action programme for customs in the European Union (Customs 2020)
+CUSTOMS:
+  name: Cooperation in the field of customs (CUSTOMS)
+DCI2020:
+  name: Development Cooperation Instrument (DCI)
+DIGITALEU:
+  name: Digital Europe Programme
+E4A:
+  name: The Union programme for education, training, youth and sport (Erasmus+)
+EAFRD:
+  name: European Agricultural Fund for Rural Development (after transfers between EAGF and EAFRD)
+EAFRD_2021:
+  name: European Agricultural Fund for Rural Development (EAFRD)
+EAFRD2020:
+  name: European Agricultural Fund for Rural Development (EAFRD)
+EAGF_2021:
+  name: European Agricultural Guarantee Fund (EAGF)
+EAGF2020:
+  name: European Agricultural Guarantee Fund (EAGF)
+EAR2020:
+  name: Emergency Aid Reserve (EAR)
+EDF:
+  name: European Defence Fund (EDF)
+EDIDP:
+  name: European Defence Industrial Development Programme
+EERP:
+  name: Energy projects to aid economic recovery (EERP)
+EFSD:
+  name: European Fund for Sustainable Development (EFSD)
+EFSI:
+  name: European Fund for Strategic Investments (EFSI)
+EGF_2021:
+  name: European Globalisation Adjustment Fund (EGF)
+EGF2020:
+  name: European Globalisation Adjustment Fund (EGF)
+EIDHR2020:
+  name: European Instrument for Democracy and Human Rights (EIDHR)
+EINS:
+  name: European Instrument for Nuclear Safety (EINS)
+EMFAF:
+  name: European Maritime, Fisheries and Aquaculture Fund (EMFAF)
+EMFF_2021:
+  name: European Maritime and Fisheries Fund (EMFF)
+EMFF2020:
+  name: European Maritime and Fisheries Fund (EMFF)
+ENI:
+  name: European Neighbourhood Instrument (ENI)
+EPF:
+  name: European Peace Facility
+ERASMUS_PLUS:
+  name: Erasmus+
+ERDF:
+  name: European Regional Development Fund (ERDF)
+ERDF_2021:
+  name: European Regional Development Fund (ERDF)
+ESC:
+  name: European Solidarity Corps (ESC)
+ESC_2021:
+  name: European Solidarity Corps (ESC)
+ESF:
+  name: European Social Fund (ESF)
+ESF_PLUS:
+  name: European Social Fund Plus (ESF+)
+ESI_2021:
+  name: Instrument for emergency support within the Union (ESI)
+ESP2017:
+  name: European statistical programme (ESP)
+ESP2020:
+  name: European statistical programme (ESP)
+EU4HEALTH:
+  name: EU4Health Programme
+EUAV:
+  name: EU Aid Volunteers initiative (EUAV)
+EURATOM:
+  name: Euratom research and training programme
+EURATOM_07_13:
+  name: Euratom Research and Training Programme (2007–2013)
+EURATOM_19_20:
+  name: Euratom Research and Training Programme (2019–2020)
+EURATOM_21_27:
+  name: Euratom Research and Training Programme
+EURI:
+  name: European Union Recovery Instrument (EURI)
+EURODAC2020:
+  name: Comparison of fingerprints for the effective application of the Dublin Convention (EURODAC)
+EUSF_2021:
+  name: European Union Solidarity Fund (EUSF)
+EUSF_H3:
+  name: European Union Solidarity Fund (EUSF) — Member States
+EUSF_H4:
+  name: European Union Solidarity Fund (EUSF) — Countries negotiating for accession
+EUSF2020:
+  name: European Union Solidarity Fund (EUSF)
+FEAD:
+  name: Fund for European Aid to the Most Deprived (FEAD)
+FF2020:
+  name: Food and feed
+FINSER2020:
+  name: Specific activities in the field of financial reporting and auditing
+FISC2020:
+  name: Action programme for taxation in the European Union (Fiscalis 2020)
+FISCALIS:
+  name: Cooperation in the field of taxation (FISCALIS)
+FP6:
+  name: Sixth Framework Programme for Research and Innovation
+FP7:
+  name: Seventh Framework Programme for Research and Innovation
+GAL2014:
+  name: Implementation and exploitation of European satellite navigation systems (EGNOS and Galileo)
+GRLD2020:
+  name: EU cooperation with Greenland
+H2020:
+  name: The framework programme for research and innovation (Horizon 2020)
+HEALTH:
+  name: Union's action in the field of health (Health programme)
+HERC3:
+  name: Programme to promote activities in the field of the protection of the European Union's financial interests (Hercule III)
+HFR_09_11:
+  name: Supplementary High Flux Reactor (HFR) programmes
+HFR_16_19:
+  name: Supplementary High Flux Reactor (HFR) programmes (2016–2019)
+HFR_20_23:
+  name: Supplementary High Flux Reactor (HFR) programmes (2020–2023)
+HFR2015:
+  name: Supplementary high flux reactor (HFR) programmes
+HORIZONEU:
+  name: Horizon Europe – the Framework Programme for Research and Innovation
+HUMA_2021:
+  name: Humanitarian Aid (HUMA)
+HUMA2020:
+  name: Humanitarian aid
+ICFS:
+  name: Enhancing consumers involvement in EU policy making in the field of financial services
+IES:
+  name: Instrument for emergency support within the Union
+IF:
+  name: Innovation Fund (IF))
+IFS2020:
+  name: Instrument contributing to Stability and Peace (IcSP)
+INSC2020:
+  name: Instrument for Nuclear Safety Cooperation (INSC)
+INVESTEU:
+  name: InvestEU Programme
+IPA2:
+  name: Instrument for Pre-accession Assistance (IPA II)
+IPAIII:
+  name: Instrument for Pre-accession assistance (IPA III)
+ISA2015:
+  name: Interoperability Solutions for European Public Administrations (ISA)
+ISA2020:
+  name: Interoperability Solutions for European public administrations, businesses and citizens (ISA2)
+ISF:
+  name: Internal Security Fund (ISF)
+ISF_2021:
+  name: Internal Security Fund (ISF)
+ITER:
+  name: International thermonuclear experimental reactor (ITER)
+ITER_19_20:
+  name: International Thermonuclear Experimental Reactor (ITER)
+ITER_2021:
+  name: International Thermonuclear Experimental Reactor (ITER)
+JTF:
+  name: Just Transition Fund
+JUST:
+  name: Justice programme
+JUSTICE:
+  name: Justice Programme
+LIFE_2021:
+  name: Programme for the Environment and Climate Action (LIFE)
+LIFE2020:
+  name: Programme for the Environment and Climate Action (LIFE)
+LOAN2020:
+  name: Guarantee Fund for external actions
+MFA:
+  name: Macro financial assistance (MFA)
+MM_2021:
+  name: Military mobility
+ND:
+  name: Nuclear decommissioning assistance programmes in Bulgaria, Lithuania and Slovakia
+ND_LITH:
+  name: Nuclear decommissioning assistance programmes (Lithuania)
+ND_OTHER:
+  name: Nuclear Safety and decommissioning (incl. for Bulgaria and Slovakia)
+NDICI:
+  name: Neighbourhood, Development and International Cooperation Instrument (NDICI)
+OCT:
+  name: Overseas Countries and Territories (OCT) (including Greenland)
+OUTREG:
+  name: Outermost and sparsely populated regions
+PERI2020:
+  name: Exchange, assistance and training programme for the protection of the euro against counterfeiting (Pericles 2020)
+PERICLES:
+  name: Protection of the euro against counterfeiting (the ‘Pericles IV programme’)
+PI:
+  name: Partnership instrument for cooperation with third countries (PI)
+PSCI:
+  name: European Union programme for employment and social innovation (EaSI)
+PSLF_JTM2021:
+  name: Public sector loan facility under the Just Transition Mechanism (JTM)
+REGCONV:
+  name: Regional convergence (less developed regions)
+RESCEU:
+  name: Union Civil Protection Mechanism (rescEU)
+RFMOs:
+  name: Compulsory contributions to regional fisheries management organisations (RFMOs) and to other international organisations
+RIGHTS_2021:
+  name: Rights and Values Programme
+RRF:
+  name: European Recovery and Resilience Facility (incl. Technical Support Instrument)
+SEAR_2021:
+  name: Solidarity and Emergency Aid Reserve (SEAR)
+SFAs:
+  name: Sustainable Fisheries Partnership Agreements (SFPAs)
+SINGLEMKT:
+  name: Single Market Programme, including COSME, ISA2, ESP, consumer involvement in fin. Services, financial reporting, Health, Food and Feed, consumer programme
+SIS2020:
+  name: Schengen Information System (SIS)
+SPACE:
+  name: European Space Programme
+TA_IA:
+  name: Technical assistance and innovative actions
+TCC:
+  name: Instrument of financial support for encouraging the economic development of the Turkish Cypriot community (TCC)
+TCC_2021:
+  name: Support to the Turkish Cypriot Community
+TERRCOOP:
+  name: European territorial cooperation
+TRANSREG:
+  name: Transition regions
+VIS2020:
+  name: Visa Information System (VIS)
+YEI:
+  name: Youth employment initiative (specific top-up allocation)

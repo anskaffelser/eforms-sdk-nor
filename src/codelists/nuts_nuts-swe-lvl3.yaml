@@ -1,0 +1,44 @@
+SE110:
+  name: Stockholms län
+SE121:
+  name: Uppsala län
+SE122:
+  name: Södermanlands län
+SE123:
+  name: Östergötlands län
+SE124:
+  name: Örebro län
+SE125:
+  name: Västmanlands län
+SE211:
+  name: Jönköpings län
+SE212:
+  name: Kronobergs län
+SE213:
+  name: Kalmar län
+SE214:
+  name: Gotlands län
+SE221:
+  name: Blekinge län
+SE224:
+  name: Skåne län
+SE231:
+  name: Hallands län
+SE232:
+  name: Västra Götalands län
+SE311:
+  name: Värmlands län
+SE312:
+  name: Dalarnas län
+SE313:
+  name: Gävleborgs län
+SE321:
+  name: Västernorrlands län
+SE322:
+  name: Jämtlands län
+SE331:
+  name: Västerbottens län
+SE332:
+  name: Norrbottens län
+SEZZZ:
+  name: Extra-Regio NUTS 3

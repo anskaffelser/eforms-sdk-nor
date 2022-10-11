@@ -1,0 +1,316 @@
+1A0:
+  name: Kosovo
+AFG:
+  name: Afghanistan
+ALA:
+  name: Åland Islands
+ALB:
+  name: Albania
+AND:
+  name: Andorra
+ARG:
+  name: Argentina
+ARM:
+  name: Armenia
+AUS:
+  name: Australia
+AUT:
+  name: Austria
+AZE:
+  name: Azerbaijan
+BEL:
+  name: Belgium
+BGD:
+  name: Bangladesh
+BGR:
+  name: Bulgaria
+BHR:
+  name: Bahrain
+BIH:
+  name: Bosnia and Herzegovina
+BLM:
+  name: Saint Barthélemy
+BLR:
+  name: Belarus
+BMU:
+  name: Bermuda
+BRA:
+  name: Brazil
+BRB:
+  name: Barbados
+BRN:
+  name: Brunei
+BTN:
+  name: Bhutan
+CAN:
+  name: Canada
+CHE:
+  name: Switzerland
+CHL:
+  name: Chile
+CHN:
+  name: China
+COL:
+  name: Colombia
+CPT:
+  name: Clipperton
+CPV:
+  name: Cabo Verde
+CRI:
+  name: Costa Rica
+CUB:
+  name: Cuba
+CYM:
+  name: Cayman Islands
+CYP:
+  name: Cyprus
+CZE:
+  name: Czech Republic
+DEU:
+  name: Germany
+DJI:
+  name: Djibouti
+DNK:
+  name: Denmark
+DOM:
+  name: Dominican Republic
+DZA:
+  name: Algeria
+ECU:
+  name: Ecuador
+EGY:
+  name: Egypt
+ESP:
+  name: Spain
+EST:
+  name: Estonia
+ETH:
+  name: Ethiopia
+FIN:
+  name: Finland
+FRA:
+  name: France
+FRO:
+  name: Faroes
+FSM:
+  name: Micronesia
+GBR:
+  name: United Kingdom
+GEO:
+  name: Georgia
+GGY:
+  name: Guernsey
+GIN:
+  name: Guinea
+GNB:
+  name: Guinea-Bissau
+GRC:
+  name: Greece
+GRL:
+  name: Greenland
+GTM:
+  name: Guatemala
+GUM:
+  name: Guam
+HND:
+  name: Honduras
+HRV:
+  name: Croatia
+HTI:
+  name: Haiti
+HUN:
+  name: Hungary
+IDN:
+  name: Indonesia
+IMN:
+  name: Isle of Man
+IND:
+  name: India
+IRN:
+  name: Iran
+IRQ:
+  name: Iraq
+ISL:
+  name: Iceland
+ISR:
+  name: Israel
+ITA:
+  name: Italy
+JEY:
+  name: Jersey
+JOR:
+  name: Jordan
+JPN:
+  name: Japan
+KAZ:
+  name: Kazakhstan
+KEN:
+  name: Kenya
+KGZ:
+  name: Kyrgyzstan
+KHM:
+  name: Cambodia
+KIR:
+  name: Kiribati
+KOR:
+  name: South Korea
+KWT:
+  name: Kuwait
+LAO:
+  name: Laos
+LBN:
+  name: Lebanon
+LIE:
+  name: Liechtenstein
+LKA:
+  name: Sri Lanka
+LSO:
+  name: Lesotho
+LTU:
+  name: Lithuania
+LUX:
+  name: Luxembourg
+LVA:
+  name: Latvia
+MAF:
+  name: Saint Martin
+MAR:
+  name: Morocco
+MCO:
+  name: Monaco
+MDA:
+  name: Moldova
+MDG:
+  name: Madagascar
+MDV:
+  name: Maldives
+MEX:
+  name: Mexico
+MHL:
+  name: Marshall Islands
+MLT:
+  name: Malta
+MMR:
+  name: Myanmar
+MNE:
+  name: Montenegro
+MNG:
+  name: Mongolia
+MOZ:
+  name: Mozambique
+MSR:
+  name: Montserrat
+MUS:
+  name: Mauritius
+MWI:
+  name: Malawi
+MYS:
+  name: Malaysia
+NAM:
+  name: Namibia
+NCL:
+  name: New Caledonia
+NER:
+  name: Niger
+NGA:
+  name: Nigeria
+NIC:
+  name: Nicaragua
+NLD:
+  name: Netherlands
+NOR:
+  name: Norway
+NPL:
+  name: Nepal
+NRU:
+  name: Nauru
+NZL:
+  name: New Zealand
+OMN:
+  name: Oman
+PAK:
+  name: Pakistan
+PER:
+  name: Peru
+PHL:
+  name: Philippines
+PNG:
+  name: Papua New Guinea
+POL:
+  name: Poland
+PRI:
+  name: Puerto Rico
+PRT:
+  name: Portugal
+PRY:
+  name: Paraguay
+PSE:
+  name: Palestine
+PYF:
+  name: French Polynesia
+ROU:
+  name: Romania
+RUS:
+  name: Russia
+SAU:
+  name: Saudi Arabia
+SDN:
+  name: Sudan
+SEN:
+  name: Senegal
+SGP:
+  name: Singapore
+SJM:
+  name: Svalbard and Jan Mayen
+SLV:
+  name: El Salvador
+SMR:
+  name: San Marino
+SPM:
+  name: Saint Pierre and Miquelon
+SRB:
+  name: Serbia
+SVK:
+  name: Slovakia
+SVN:
+  name: Slovenia
+SWE:
+  name: Sweden
+SWZ:
+  name: Swaziland
+THA:
+  name: Thailand
+TJK:
+  name: Tajikistan
+TKM:
+  name: Turkmenistan
+TLS:
+  name: Timor-Leste
+TTO:
+  name: Trinidad and Tobago
+TUN:
+  name: Tunisia
+TUR:
+  name: Turkey
+UKR:
+  name: Ukraine
+URY:
+  name: Uruguay
+USA:
+  name: United States
+UZB:
+  name: Uzbekistan
+VCT:
+  name: Saint Vincent and the Grenadines
+VEN:
+  name: Venezuela
+VGB:
+  name: British Virgin Islands
+VIR:
+  name: US Virgin Islands
+VNM:
+  name: Vietnam
+WLF:
+  name: Wallis and Futuna
+ZAF:
+  name: South Africa

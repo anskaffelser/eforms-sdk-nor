@@ -1,0 +1,176 @@
+auxiliary|text|accessibility:
+  name: Accessibility criteria
+auxiliary|text|additional-role:
+  name: Additional roles
+auxiliary|text|adhoc-communication:
+  name: Ad hoc communication channel
+auxiliary|text|award-criteria:
+  name: Award criteria
+auxiliary|text|beneficial-owner:
+  name: Beneficial owner
+auxiliary|text|buyer:
+  name: Buyer
+auxiliary|text|change:
+  name: Change
+auxiliary|text|concession-value:
+  name: Concession
+auxiliary|text|contract-information:
+  name: Contract information
+auxiliary|text|contract-terms:
+  name: Terms of contract
+auxiliary|text|contractor-legal-form:
+  name: Legal form of the contractor
+auxiliary|text|criterion:
+  name: Criterion
+auxiliary|text|cross-border-law:
+  name: Applicable cross-border law
+auxiliary|text|design-contest-terms:
+  name: Terms of the design contest regime
+auxiliary|text|direct-award:
+  name: Direct award
+auxiliary|text|duration:
+  name: Duration
+auxiliary|text|dynamic-purchasing-system:
+  name: Information about dynamic purchasing system
+auxiliary|text|electronic-auction:
+  name: Electronic auction
+auxiliary|text|estimated-duration:
+  name: Estimated duration
+auxiliary|text|eu-funds-used:
+  name: Information about European Union funds used to finance the contract
+auxiliary|text|exclusion-grounds:
+  name: Grounds for exclusion
+auxiliary|text|framework-agreement:
+  name: Framework agreement
+  nob: Rammeavtale
+auxiliary|text|general-information:
+  name: General information
+  nob: Generell informasjon
+auxiliary|text|group-framework-value:
+  name: Estimated value of the framework agreements in the group of lots
+auxiliary|text|group-of-lots:
+  name: Group of lots
+auxiliary|text|information-employment:
+  name: Information about employment legislation is available at
+auxiliary|text|information-fiscal:
+  name: Information about fiscal legislation is available at
+auxiliary|text|late-tenderer-info:
+  name: Information that can be supplemented after the submission deadline
+auxiliary|text|legal-basis:
+  name: Legal basis
+auxiliary|text|lot:
+  name: Lot
+auxiliary|text|modification:
+  name: Modification
+auxiliary|text|non-winning-tender:
+  name: Non-winning tenderers
+auxiliary|text|notice-information:
+  name: Notice information
+auxiliary|text|options:
+  name: Options
+auxiliary|text|organisation-cpb-acquiring:
+  name: Central purchasing body acquiring supplies and/or services intended for other buyers
+auxiliary|text|organisation-cpb-awarding:
+  name: Central purchasing body awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers
+auxiliary|text|organisation-esender:
+  name: eSender
+auxiliary|text|organisation-financing:
+  name: Organisation whose budget is used to pay for the contract
+auxiliary|text|organisation-group-leader:
+  name: Leader of the group
+auxiliary|text|organisation-mediation:
+  name: Mediation organisation
+auxiliary|text|organisation-paying:
+  name: Organisation executing the payment
+auxiliary|text|organisation-processing-tenders:
+  name: Organisation processing tenders / requests to participate
+auxiliary|text|organisation-providing-docs:
+  name: Organisation providing offline access to the procurement documents
+auxiliary|text|organisation-providing-info-employment:
+  name: Employment legislation information provider
+auxiliary|text|organisation-providing-info-environment:
+  name: Environment legislation information provider
+auxiliary|text|organisation-providing-info-procedure:
+  name: Organisation providing additional information about the procurement procedure
+auxiliary|text|organisation-providing-info-review:
+  name: Organisation providing information on the appeal procedures
+auxiliary|text|organisation-providing-info-taxes:
+  name: Organisation providing information concerning the general regulatory framework for taxes applicable in the place where the contract is to be performed
+auxiliary|text|organisation-providing-procurement-service:
+  name: Procurement service provider
+auxiliary|text|organisation-review:
+  name: Review organisation
+auxiliary|text|organisation-review-timelimit:
+  name: Organisation providing information on the time limits for review procedures
+auxiliary|text|organisation-signing-contract:
+  name: Organisation signing the contract
+auxiliary|text|organisation-tender-evaluation:
+  name: Organisation evaluating the tenders
+auxiliary|text|organisation-tender-recipient:
+  name: Organisation receiving requests to participate / tenders
+auxiliary|text|organisations:
+  name: Organisations
+auxiliary|text|other-contact-point:
+  name: Other contact points
+auxiliary|text|part:
+  name: Part
+auxiliary|text|place-performance:
+  name: Place of performance
+auxiliary|text|previous-planning:
+  name: Previous planning
+auxiliary|text|procedure:
+  name: Procedure
+auxiliary|text|procedure-terms:
+  name: Terms of the procedure
+auxiliary|text|procurement-documents:
+  name: Procurement documents
+auxiliary|text|procurement-terms:
+  name: Terms of procurement
+auxiliary|text|public-opening:
+  name: Information about public opening
+auxiliary|text|publication-information:
+  name: Publication information
+auxiliary|text|purpose:
+  name: Purpose
+auxiliary|text|range-tenders:
+  name: Range of tenders
+auxiliary|text|received-submissions:
+  name: Received tenders or requests to participate
+auxiliary|text|renewal:
+  name: Renewal
+auxiliary|text|results:
+  name: Results
+auxiliary|text|results-procurement-procedure:
+  name: Result of the procurement procedure
+auxiliary|text|review-requests-irregularity-type:
+  name: Type of alleged irregularity
+auxiliary|text|review-requests-summary:
+  name: Summary of the review requests the buyer received
+auxiliary|text|second-stage:
+  name: Information about the second stage of a two-stage procedure
+auxiliary|text|selection-criteria:
+  name: Selection criteria
+auxiliary|text|statistical-information:
+  name: Statistical information
+auxiliary|text|statistics-strategic:
+  name: Statistics about strategic procurement
+auxiliary|text|strategic-procurement:
+  name: Strategic procurement
+auxiliary|text|subcontracting-terms:
+  name: Subcontracting
+auxiliary|text|submission-terms:
+  name: Terms of submission
+auxiliary|text|techniques:
+  name: Techniques
+auxiliary|text|tender:
+  name: Tender
+auxiliary|text|touchpoint:
+  name: Specific contact point
+auxiliary|text|value:
+  name: Value
+auxiliary|text|winner:
+  name: Winning tenders
+auxiliary|text|winner-info:
+  name: Information about winners
+auxiliary|text|winner-subcontractor:
+  name: Subcontractors of the winner

@@ -1,0 +1,8 @@
+fa-mix:
+  name: Framework agreement, partly without reopening and partly with reopening of competition
+fa-w-rc:
+  name: Framework agreement, with reopening of competition
+fa-wo-rc:
+  name: Framework agreement, without reopening of competition
+none:
+  name: None

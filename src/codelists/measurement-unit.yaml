@@ -1,0 +1,100 @@
+2N:
+  name: decibel
+3C:
+  name: manmonth
+AD:
+  name: byte
+AMP:
+  name: ampere
+BAR:
+  name: bar
+BIT:
+  name: bit
+BQL:
+  name: becquerel
+C34:
+  name: mole
+C45:
+  name: nanometre
+CDL:
+  name: candela
+CEL:
+  name: degree Celsius
+CMK:
+  name: square centimetre
+CMQ:
+  name: cubic centimetre
+CMT:
+  name: centimetre
+D30:
+  name: terajoule
+E34:
+  name: gigabyte
+GRM:
+  name: gram
+GTE:
+  name: gross tonnage
+GWH:
+  name: gigawatt-hour
+HAR:
+  name: hectare
+HLT:
+  name: hectolitre
+HTZ:
+  name: hertz
+HUR:
+  name: hour
+JOU:
+  name: joule
+KEL:
+  name: kelvin
+KGM:
+  name: kilogram
+KMH:
+  name: kilometre per hour
+KMK:
+  name: square kilometre
+KTM:
+  name: kilometre
+KWH:
+  name: kilowatt-hour
+KWT:
+  name: kilowatt
+LH:
+  name: labour hour
+LTR:
+  name: litre
+MAW:
+  name: megawatt
+MC:
+  name: microgram
+MGM:
+  name: milligram
+MIN:
+  name: minute
+MLT:
+  name: millilitre
+MMT:
+  name: millimetre
+MTK:
+  name: square metre
+MTR:
+  name: metre
+MTS:
+  name: metre per second
+NEW:
+  name: newton
+PAL:
+  name: pascal
+SEC:
+  name: second
+TKM:
+  name: tonne-kilometre
+TNE:
+  name: tonne
+TOE:
+  name: tonne of oil equivalent
+VLT:
+  name: volt
+WTT:
+  name: watt

@@ -1,0 +1,586 @@
+1A0:
+  name: Kosovo
+ABW:
+  name: Aruba
+AFG:
+  name: Afghanistan
+AFI:
+  name: French Afar and Issas
+AGO:
+  name: Angola
+AIA:
+  name: Anguilla
+ALA:
+  name: Åland Islands
+ALB:
+  name: Albania
+AND:
+  name: Andorra
+ANT:
+  name: Netherlands Antilles
+ARE:
+  name: United Arab Emirates
+ARG:
+  name: Argentina
+ARM:
+  name: Armenia
+ASM:
+  name: American Samoa
+ATA:
+  name: Antarctica
+ATB:
+  name: British Antarctic Territory
+ATF:
+  name: French Southern Lands
+ATG:
+  name: Antigua and Barbuda
+ATN:
+  name: Dronning Maud Land
+AUS:
+  name: Australia
+AUT:
+  name: Austria
+  nob: Østerrike
+AZE:
+  name: Azerbaijan
+BDI:
+  name: Burundi
+BEL:
+  name: Belgium
+BEN:
+  name: Benin
+BES:
+  name: Bonaire, Sint Eustatius and Saba
+BFA:
+  name: Burkina Faso
+BGD:
+  name: Bangladesh
+BGR:
+  name: Bulgaria
+BHR:
+  name: Bahrain
+BHS:
+  name: Bahamas
+BIH:
+  name: Bosnia and Herzegovina
+BLM:
+  name: Saint Barthélemy
+BLR:
+  name: Belarus
+BLZ:
+  name: Belize
+BMU:
+  name: Bermuda
+BOL:
+  name: Bolivia
+BRA:
+  name: Brazil
+BRB:
+  name: Barbados
+BRN:
+  name: Brunei
+BTN:
+  name: Bhutan
+BUR:
+  name: Burma
+BVT:
+  name: Bouvet Island
+BWA:
+  name: Botswana
+BYS:
+  name: Belarus
+CAF:
+  name: Central African Republic
+CAN:
+  name: Canada
+CCK:
+  name: Cocos (Keeling) Islands
+CHE:
+  name: Switzerland
+CHL:
+  name: Chile
+CHN:
+  name: China
+CIV:
+  name: Côte d’Ivoire
+CMR:
+  name: Cameroon
+COD:
+  name: Democratic Republic of the Congo
+COG:
+  name: Congo
+COK:
+  name: Cook Islands
+COL:
+  name: Colombia
+COM:
+  name: Comoros
+CPT:
+  name: Clipperton
+CPV:
+  name: Cabo Verde
+CRI:
+  name: Costa Rica
+CSK:
+  name: Czechoslovakia
+CTE:
+  name: Canton and Enderbury Islands
+CUB:
+  name: Cuba
+CUW:
+  name: Curaçao
+CXR:
+  name: Christmas Island
+CYM:
+  name: Cayman Islands
+CYP:
+  name: Cyprus
+CZE:
+  name: Czech Republic
+DDR:
+  name: East Germany
+DEU:
+  name: Germany
+  nob: Tyskland
+DHY:
+  name: Dahomey
+DJI:
+  name: Djibouti
+DMA:
+  name: Dominica
+DNK:
+  name: Denmark
+  nob: Danmark
+DOM:
+  name: Dominican Republic
+DZA:
+  name: Algeria
+ECU:
+  name: Ecuador
+EGY:
+  name: Egypt
+ERI:
+  name: Eritrea
+ESH:
+  name: Western Sahara
+ESP:
+  name: Spain
+EST:
+  name: Estonia
+ETH:
+  name: Ethiopia
+EUR:
+  name: European Union
+FIN:
+  name: Finland
+FJI:
+  name: Fiji
+FLK:
+  name: Falkland Islands
+FQ0:
+  name: French Southern and Antarctic Lands
+FRA:
+  name: France
+  nob: Frankrike
+FRO:
+  name: Faroes
+FSM:
+  name: Micronesia
+FXX:
+  name: Metropolitan France
+GAB:
+  name: Gabon
+GBR:
+  name: United Kingdom
+GEL:
+  name: Gilbert and Ellice Islands
+GEO:
+  name: Georgia
+GGY:
+  name: Guernsey
+GHA:
+  name: Ghana
+GIB:
+  name: Gibraltar
+GIN:
+  name: Guinea
+GLP:
+  name: Guadeloupe
+GMB:
+  name: The Gambia
+GNB:
+  name: Guinea-Bissau
+GNQ:
+  name: Equatorial Guinea
+GRC:
+  name: Greece
+  nob: Hellas
+GRD:
+  name: Grenada
+GRL:
+  name: Greenland
+GTM:
+  name: Guatemala
+GUF:
+  name: French Guiana
+GUM:
+  name: Guam
+GUY:
+  name: Guyana
+HKG:
+  name: Hong Kong
+HMD:
+  name: Heard Island and McDonald Islands
+HND:
+  name: Honduras
+HRV:
+  name: Croatia
+HTI:
+  name: Haiti
+HUN:
+  name: Hungary
+HVO:
+  name: Upper Volta
+IDN:
+  name: Indonesia
+IMN:
+  name: Isle of Man
+IND:
+  name: India
+IOT:
+  name: British Indian Ocean Territory
+IRL:
+  name: Ireland
+  nob: Irland
+IRN:
+  name: Iran
+  nob: Iran
+IRQ:
+  name: Iraq
+  nob: Irak
+ISL:
+  name: Iceland
+  nob: Island
+ISR:
+  name: Israel
+ITA:
+  name: Italy
+JAM:
+  name: Jamaica
+JEY:
+  name: Jersey
+JOR:
+  name: Jordan
+JPN:
+  name: Japan
+JTN:
+  name: Johnston Island
+KAZ:
+  name: Kazakhstan
+KEN:
+  name: Kenya
+KGZ:
+  name: Kyrgyzstan
+KHM:
+  name: Cambodia
+KIR:
+  name: Kiribati
+KNA:
+  name: Saint Kitts and Nevis
+KOR:
+  name: South Korea
+KWT:
+  name: Kuwait
+LAO:
+  name: Laos
+LBN:
+  name: Lebanon
+LBR:
+  name: Liberia
+LBY:
+  name: Libya
+LCA:
+  name: Saint Lucia
+LIE:
+  name: Liechtenstein
+LKA:
+  name: Sri Lanka
+LSO:
+  name: Lesotho
+LTU:
+  name: Lithuania
+LUX:
+  name: Luxembourg
+LVA:
+  name: Latvia
+MAC:
+  name: Macau
+MAF:
+  name: Saint Martin
+MAR:
+  name: Morocco
+MCO:
+  name: Monaco
+MDA:
+  name: Moldova
+MDG:
+  name: Madagascar
+MDV:
+  name: Maldives
+MEX:
+  name: Mexico
+MHL:
+  name: Marshall Islands
+MID:
+  name: Midway Islands
+MKD:
+  name: Former Yugoslav Republic of Macedonia
+MLI:
+  name: Mali
+MLT:
+  name: Malta
+  nob: Malta
+MMR:
+  name: Myanmar
+MNE:
+  name: Montenegro
+MNG:
+  name: Mongolia
+MNP:
+  name: Northern Mariana Islands
+MOZ:
+  name: Mozambique
+MRT:
+  name: Mauritania
+MSR:
+  name: Montserrat
+MTQ:
+  name: Martinique
+MUS:
+  name: Mauritius
+MWI:
+  name: Malawi
+MYS:
+  name: Malaysia
+MYT:
+  name: Mayotte
+NAM:
+  name: Namibia
+NCL:
+  name: New Caledonia
+NER:
+  name: Niger
+NFK:
+  name: Norfolk Island
+NGA:
+  name: Nigeria
+NHB:
+  name: New Hebrides
+NIC:
+  name: Nicaragua
+NIU:
+  name: Niue
+NLD:
+  name: Netherlands
+NOR:
+  name: Norway
+  nno: Noreg
+  nob: Norge
+NPL:
+  name: Nepal
+NRU:
+  name: Nauru
+NTZ:
+  name: Neutral Zone
+NZL:
+  name: New Zealand
+OMN:
+  name: Oman
+PAK:
+  name: Pakistan
+  nob: Pakistan
+PAN:
+  name: Panama
+PCI:
+  name: Trust Territory of the Pacific Islands
+PCN:
+  name: Pitcairn Islands
+PCZ:
+  name: Panama Canal Zone
+PER:
+  name: Peru
+  nob: Peru
+PHL:
+  name: Philippines
+PLW:
+  name: Palau
+PNG:
+  name: Papua New Guinea
+POL:
+  name: Poland
+  nob: Polen
+PRI:
+  name: Puerto Rico
+PRK:
+  name: North Korea
+PRT:
+  name: Portugal
+PRY:
+  name: Paraguay
+PSE:
+  name: Palestine
+PUS:
+  name: US Miscellaneous Pacific Islands
+PYF:
+  name: French Polynesia
+QAT:
+  name: Qatar
+REU:
+  name: Réunion
+RHO:
+  name: Southern Rhodesia
+ROU:
+  name: Romania
+RUS:
+  name: Russia
+RWA:
+  name: Rwanda
+SAU:
+  name: Saudi Arabia
+SCG:
+  name: Serbia and Montenegro
+SDN:
+  name: Sudan
+SEN:
+  name: Senegal
+SGP:
+  name: Singapore
+SGS:
+  name: South Georgia and the South Sandwich Islands
+SHN:
+  name: Saint Helena
+SJM:
+  name: Svalbard and Jan Mayen
+SKM:
+  name: Sikkim
+SLB:
+  name: Solomon Islands
+SLE:
+  name: Sierra Leone
+SLV:
+  name: El Salvador
+SMR:
+  name: San Marino
+SOM:
+  name: Somalia
+  nob: Somalia
+SPM:
+  name: Saint Pierre and Miquelon
+SRB:
+  name: Serbia
+SSD:
+  name: South Sudan
+STP:
+  name: São Tomé and Príncipe
+SUN:
+  name: Soviet Union
+SUR:
+  name: Suriname
+SVK:
+  name: Slovakia
+  nob: Slovakia
+SVN:
+  name: Slovenia
+  nob: Slovenia
+SWE:
+  name: Sweden
+  nob: Sverige
+SWZ:
+  name: Swaziland
+SXM:
+  name: Sint Maarten
+SYC:
+  name: Seychelles
+SYR:
+  name: Syria
+  nob: Syria
+TCA:
+  name: Turks and Caicos Islands
+TCD:
+  name: Chad
+TGO:
+  name: Togo
+THA:
+  name: Thailand
+TJK:
+  name: Tajikistan
+TKL:
+  name: Tokelau
+TKM:
+  name: Turkmenistan
+TLS:
+  name: Timor-Leste
+TMP:
+  name: East Timor
+TON:
+  name: Tonga
+TTO:
+  name: Trinidad and Tobago
+TUN:
+  name: Tunisia
+TUR:
+  name: Turkey
+TUV:
+  name: Tuvalu
+TWN:
+  name: Taiwan
+TZA:
+  name: Tanzania
+UGA:
+  name: Uganda
+UKR:
+  name: Ukraine
+UMI:
+  name: United States Minor Outlying Islands
+URY:
+  name: Uruguay
+USA:
+  name: United States
+UZB:
+  name: Uzbekistan
+VAT:
+  name: Vatican City State
+VCT:
+  name: Saint Vincent and the Grenadines
+VDR:
+  name: Democratic Republic of Vietnam
+VEN:
+  name: Venezuela
+VGB:
+  name: British Virgin Islands
+VIR:
+  name: US Virgin Islands
+VNM:
+  name: Vietnam
+VUT:
+  name: Vanuatu
+WAK:
+  name: Wake Island
+WLF:
+  name: Wallis and Futuna
+WSM:
+  name: Samoa
+YEM:
+  name: South Yemen
+YMD:
+  name: North Yemen
+YUG:
+  name: Yugoslavia
+ZAF:
+  name: South Africa
+ZMB:
+  name: Zambia
+ZR0:
+  name: Zaire
+ZWE:
+  name: Zimbabwe

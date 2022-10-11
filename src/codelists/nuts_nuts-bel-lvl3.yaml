@@ -1,0 +1,90 @@
+BE100:
+  name: Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad
+BE211:
+  name: Arr. Antwerpen
+BE212:
+  name: Arr. Mechelen
+BE213:
+  name: Arr. Turnhout
+BE223:
+  name: Arr. Tongeren
+BE224:
+  name: Arr. Hasselt
+BE225:
+  name: Arr. Maaseik
+BE231:
+  name: Arr. Aalst
+BE232:
+  name: Arr. Dendermonde
+BE233:
+  name: Arr. Eeklo
+BE234:
+  name: Arr. Gent
+BE235:
+  name: Arr. Oudenaarde
+BE236:
+  name: Arr. Sint-Niklaas
+BE241:
+  name: Arr. Halle-Vilvoorde
+BE242:
+  name: Arr. Leuven
+BE251:
+  name: Arr. Brugge
+BE252:
+  name: Arr. Diksmuide
+BE253:
+  name: Arr. Ieper
+BE254:
+  name: Arr. Kortrijk
+BE255:
+  name: Arr. Oostende
+BE256:
+  name: Arr. Roeselare
+BE257:
+  name: Arr. Tielt
+BE258:
+  name: Arr. Veurne
+BE310:
+  name: Arr. Nivelles
+BE323:
+  name: Arr. Mons
+BE328:
+  name: Arr. Tournai-Mouscron
+BE329:
+  name: Arr. La Louvière
+BE32A:
+  name: Arr. Ath
+BE32B:
+  name: Arr. Charleroi
+BE32C:
+  name: Arr. Soignies
+BE32D:
+  name: Arr. Thuin
+BE331:
+  name: Arr. Huy
+BE332:
+  name: Arr. Liège
+BE334:
+  name: Arr. Waremme
+BE335:
+  name: Arr. Verviers - communes francophones
+BE336:
+  name: Bezirk Verviers - Deutschsprachige Gemeinschaft
+BE341:
+  name: Arr. Arlon
+BE342:
+  name: Arr. Bastogne
+BE343:
+  name: Arr. Marche-en-Famenne
+BE344:
+  name: Arr. Neufchâteau
+BE345:
+  name: Arr. Virton
+BE351:
+  name: Arr. Dinant
+BE352:
+  name: Arr. Namur
+BE353:
+  name: Arr. Philippeville
+BEZZZ:
+  name: Extra-Regio NUTS 3

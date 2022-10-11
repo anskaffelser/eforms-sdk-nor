@@ -1,0 +1,106 @@
+EL301:
+  name: Βόρειος Τομέας Αθηνών (Voreios Tomeas Athinon)
+EL302:
+  name: Δυτικός Τομέας Αθηνών (Dytikos Tomeas Athinon)
+EL303:
+  name: Κεντρικός Τομέας Αθηνών (Kentrikos Tomeas Athinon)
+EL304:
+  name: Νότιος Τομέας Αθηνών (Notios Tomeas Athinon)
+EL305:
+  name: Ανατολική Αττική (Anatoliki Attiki)
+EL306:
+  name: Δυτική Αττική (Dytiki Attiki)
+EL307:
+  name: Πειραιάς, Νήσοι (Peiraias, Nisoi)
+EL411:
+  name: Λέσβος, Λήμνος (Lesvos, Limnos)
+EL412:
+  name: Ικαρία, Σάμος (Ikaria, Samos)
+EL413:
+  name: Χίος (Chios)
+EL421:
+  name: Κάλυμνος, Κάρπαθος - Ηρωική Νήσος Κάσος, Κως, Ρόδος (Kalymnos, Karpathos, Kasos, Kos, Rodos)
+EL422:
+  name: Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος (Andros, Thira, Kea, Milos, Mykonos, Naxos, Paros, Syros, Tinos)
+EL431:
+  name: Ηράκλειο (Irakleio)
+EL432:
+  name: Λασίθι (Lasithi)
+EL433:
+  name: Ρεθύμνη (Rethymni)
+EL434:
+  name: Χανιά (Chania)
+EL511:
+  name: Έβρος (Evros)
+EL512:
+  name: Ξάνθη (Xanthi)
+EL513:
+  name: Ροδόπη (Rodopi)
+EL514:
+  name: Δράμα (Drama)
+EL515:
+  name: Θάσος, Καβάλα (Thasos, Kavala)
+EL521:
+  name: Ημαθία (Imathia)
+EL522:
+  name: Θεσσαλονίκη (Thessaloniki)
+EL523:
+  name: Κιλκίς (Kilkis)
+EL524:
+  name: Πέλλα (Pella)
+EL525:
+  name: Πιερία (Pieria)
+EL526:
+  name: Σέρρες (Serres)
+EL527:
+  name: Χαλκιδική (Chalkidiki)
+EL531:
+  name: Γρεβενά, Κοζάνη (Grevena, Kozani)
+EL532:
+  name: Καστοριά (Kastoria)
+EL533:
+  name: Φλώρινα (Florina)
+EL541:
+  name: Άρτα, Πρέβεζα (Arta, Preveza)
+EL542:
+  name: Θεσπρωτία (Thesprotia)
+EL543:
+  name: Ιωάννινα (Ioannina)
+EL611:
+  name: Καρδίτσα, Τρίκαλα (Karditsa, Trikala)
+EL612:
+  name: Λάρισα (Larisa)
+EL613:
+  name: Μαγνησία, Σποράδες (Magnisia, Sporades)
+EL621:
+  name: Ζάκυνθος (Zakynthos)
+EL622:
+  name: Κέρκυρα (Kerkyra)
+EL623:
+  name: Ιθάκη, Κεφαλληνία (Ithaki, Kefallinia)
+EL624:
+  name: Λευκάδα (Lefkada)
+EL631:
+  name: Αιτωλοακαρνανία (Aitoloakarnania)
+EL632:
+  name: Αχαΐα (Achaia)
+EL633:
+  name: Ηλεία (Ileia)
+EL641:
+  name: Βοιωτία (Voiotia)
+EL642:
+  name: Εύβοια (Evvoia)
+EL643:
+  name: Ευρυτανία (Evrytania)
+EL644:
+  name: Φθιώτιδα (Fthiotida)
+EL645:
+  name: Φωκίδα (Fokida)
+EL651:
+  name: Αργολίδα, Αρκαδία (Argolida, Arkadia)
+EL652:
+  name: Κορινθία (Korinthia)
+EL653:
+  name: Λακωνία, Μεσσηνία (Lakonia, Messinia)
+ELZZZ:
+  name: Extra-Regio NUTS 3

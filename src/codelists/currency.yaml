@@ -1,0 +1,572 @@
+ADF:
+  name: Andorran francs
+ADP:
+  name: Andorran peseta
+AED:
+  name: UAE dirham
+AFA:
+  name: Afghani
+AFN:
+  name: Afghani
+ALK:
+  name: Lek
+ALL:
+  name: Lek
+AMD:
+  name: Dram
+ANG:
+  name: Netherlands Antillean guilder
+AOA:
+  name: Kwanza
+AON:
+  name: New Angolan kwanza
+AOR:
+  name: Angolan kwanza readjustado
+ARA:
+  name: Argentine austral
+ARL:
+  name: Argentine peso ley
+ARM:
+  name: Argentine peso moneda nacional
+ARP:
+  name: Argentine peso argentino
+ARS:
+  name: Argentine peso
+ATS:
+  name: Austrian schilling
+AUD:
+  name: Australian dollar
+AWG:
+  name: Aruban guilder
+AZM:
+  name: Azerbaijani manat
+AZN:
+  name: Azerbaijan manat
+BAM:
+  name: Convertible mark
+BBD:
+  name: Barbados dollar
+BDT:
+  name: Taka
+BEF:
+  name: Belgian franc
+BGJ:
+  name: Lev
+BGK:
+  name: Lev
+BGL:
+  name: Lev
+BGN:
+  name: Lev
+BHD:
+  name: Bahraini dinar
+BIF:
+  name: Burundi franc
+BMD:
+  name: Bermuda dollar
+BND:
+  name: Brunei dollar
+BOB:
+  name: Boliviano
+BOP:
+  name: Bolivian peso
+BOV:
+  name: Mvdol
+BRB:
+  name: Cruzeiro novo
+BRC:
+  name: Cruzado
+BRE:
+  name: Cruzeiro
+BRL:
+  name: Real
+BRN:
+  name: Cruzado novo
+BRR:
+  name: Cruzeiro real
+BRZ:
+  name: Cruzeiro
+BSD:
+  name: Bahamian dollar
+BTN:
+  name: Ngultrum
+BWP:
+  name: Pula
+BYN:
+  name: Belarusian rouble
+BYR:
+  name: Belarusian rouble
+BZD:
+  name: Belize dollar
+CAD:
+  name: Canadian dollar
+CDF:
+  name: Congolese franc
+CHE:
+  name: WIR Euro
+CHF:
+  name: Swiss franc
+CHW:
+  name: WIR Franc
+CLE:
+  name: Chilean escudo
+CLF:
+  name: Unidad de Fomento
+CLP:
+  name: Chilean peso
+CNY:
+  name: Renminbi-yuan
+COP:
+  name: Colombian peso
+COU:
+  name: Unidad de Valor Real
+CRC:
+  name: Costa Rican colon
+CSJ:
+  name: Czechoslovak koruna
+CSK:
+  name: Czechoslovak koruna
+CUC:
+  name: Convertible peso
+CUP:
+  name: Cuban peso
+CVE:
+  name: Cabo Verde escudo
+CYP:
+  name: Cypriot pound
+CZK:
+  name: Czech koruna
+DDM:
+  name: East-German Mark
+DEM:
+  name: German mark
+DJF:
+  name: Djibouti franc
+DKK:
+  name: Danish krone
+DOP:
+  name: Dominican peso
+DZD:
+  name: Algerian dinar
+ECS:
+  name: Ecuadorian sucre
+EEK:
+  name: Estonian kroon
+EGP:
+  name: Egyptian pound
+ERN:
+  name: Nakfa
+ESP:
+  name: Peseta
+ETB:
+  name: Birr
+EUR:
+  name: Euro
+FIM:
+  name: Finnish markka
+FJD:
+  name: Fiji dollar
+FKP:
+  name: Falkland Islands pound
+FRF:
+  name: French franc
+GBP:
+  name: Pound sterling
+GEL:
+  name: Lari
+GHC:
+  name: Cedi
+GHS:
+  name: Ghana cedi
+GIP:
+  name: Gibraltar pound
+GMD:
+  name: Dalasi
+GNE:
+  name: Syli
+GNF:
+  name: Guinean franc
+GQE:
+  name: Ekwele
+GRD:
+  name: Drachma
+GTQ:
+  name: Quetzal
+GWP:
+  name: Guinea-Bissau peso
+GYD:
+  name: Guyana dollar
+HKD:
+  name: Hong Kong dollar
+HNL:
+  name: Lempira
+HRK:
+  name: Kuna
+HTG:
+  name: Gourde
+HUF:
+  name: Forint
+IDR:
+  name: Rupiah
+IEP:
+  name: Irish pound
+ILP:
+  name: Israeli lira
+ILR:
+  name: Shekel
+ILS:
+  name: Shekel
+INR:
+  name: Indian rupee
+IQD:
+  name: Iraqi dinar
+IRR:
+  name: Iranian rial
+ISJ:
+  name: Icelandic old króna
+ISK:
+  name: Iceland króna
+ITL:
+  name: Italian lira
+JMD:
+  name: Jamaica dollar
+JOD:
+  name: Jordanian dinar
+JPY:
+  name: Yen
+KES:
+  name: Kenyan shilling
+KGS:
+  name: Som
+KHR:
+  name: Riel
+KMF:
+  name: Comorian franc
+KPW:
+  name: North Korean won
+KRW:
+  name: South Korean won
+KWD:
+  name: Kuwaiti dinar
+KYD:
+  name: Cayman Islands dollar
+KZT:
+  name: Tenge
+LAJ:
+  name: Kip
+LAK:
+  name: Kip
+LBP:
+  name: Lebanese pound
+LKR:
+  name: Sri Lankan rupee
+LRD:
+  name: Liberian dollar
+LSL:
+  name: Loti
+LTL:
+  name: Litas
+LUF:
+  name: Luxembourg franc
+LVL:
+  name: Lats
+LYD:
+  name: Libyan dinar
+MAD:
+  name: Moroccan dirham
+MCF:
+  name: Monegasque francs
+MDL:
+  name: Moldovan leu
+MGA:
+  name: Ariary
+MGF:
+  name: Malagasy franc
+MKD:
+  name: Denar
+MKN:
+  name: Denars A/93
+MLF:
+  name: Mali franc
+MMK:
+  name: Kyat
+MNT:
+  name: Tugrik
+MOP:
+  name: Pataca
+MRO:
+  name: Ouguiya
+MRU:
+  name: Ouguiya
+MTL:
+  name: Maltese lira
+MTP:
+  name: Maltese pound
+MUR:
+  name: Mauritian rupee
+MVQ:
+  name: Maldive rupee
+MVR:
+  name: Rufiyaa
+MWK:
+  name: Malawian kwacha
+MXN:
+  name: Mexican peso
+MXP:
+  name: Mexican peso
+MXV:
+  name: Mexican Unidad de Inversion
+MYR:
+  name: Ringgit
+MZM:
+  name: Metical
+MZN:
+  name: Metical
+NAD:
+  name: Namibian dollar
+NFD:
+  name: Newfoundland dollar
+NGN:
+  name: Naira
+NIO:
+  name: Córdoba oro
+NLG:
+  name: Netherlands guilder
+NOK:
+  name: Norwegian krone
+NPR:
+  name: Nepalese rupee
+NZD:
+  name: New Zealand dollar
+OMR:
+  name: Omani rial
+PAB:
+  name: Balboa
+PEH:
+  name: Sol
+PEI:
+  name: Inti
+PEN:
+  name: Nuevo sol
+PGK:
+  name: Kina
+PHP:
+  name: Philippine peso
+PKR:
+  name: Pakistani rupee
+PLN:
+  name: Zloty
+PLZ:
+  name: Zloty
+PTE:
+  name: Portuguese escudo
+PYG:
+  name: Guaraní
+QAR:
+  name: Qatari rial
+ROL:
+  name: Romanian leu
+RON:
+  name: Romanian leu
+RSD:
+  name: Serbian dinar
+RUB:
+  name: Russian rouble
+RUR:
+  name: Russian rouble
+RWF:
+  name: Rwandese franc
+SAR:
+  name: Saudi riyal
+SBD:
+  name: Solomon Islands dollar
+SCR:
+  name: Seychelles rupee
+SDD:
+  name: Sudanese dinar
+SDG:
+  name: Sudanese pound
+SEK:
+  name: Swedish krona
+SGD:
+  name: Singapore dollar
+SHP:
+  name: Saint Helena pound
+SIT:
+  name: Slovenian tolar
+SKK:
+  name: Slovak koruna
+SLL:
+  name: Leone
+SML:
+  name: San Marinese lira
+SOS:
+  name: Somali shilling
+SQS:
+  name: Somaliland shillings
+SRD:
+  name: Surinamese dollar
+SRG:
+  name: Suriname guilder
+SSP:
+  name: South Sudanese pound
+STD:
+  name: Dobra
+STN:
+  name: Dobra
+SUR:
+  name: Soviet Union rouble
+SVC:
+  name: Salvadorian colón
+SYP:
+  name: Syrian pound
+SZL:
+  name: Lilangeni
+THB:
+  name: Baht
+TJR:
+  name: Tajikistani rouble
+TJS:
+  name: Somoni
+TMM:
+  name: Turkmen manat
+TMT:
+  name: Turkmen manat
+TND:
+  name: Tunisian dinar
+TOP:
+  name: Pa’anga
+TPE:
+  name: Portuguese Timorese escudo
+TRL:
+  name: Turkish lira
+TRY:
+  name: Turkish lira
+TTD:
+  name: Trinidad and Tobago dollar
+TVD:
+  name: Tuvaluan dollars
+TWD:
+  name: New Taiwan dollar
+TZS:
+  name: Tanzanian shilling
+UAH:
+  name: Hryvnia
+UAK:
+  name: Karbovanets
+UGS:
+  name: Uganda shilling
+UGX:
+  name: Uganda shilling
+USD:
+  name: US dollar
+USN:
+  name: US dollar
+USS:
+  name: US dollar
+UYI:
+  name: Uruguay Peso en Unidades Indexadas
+UYN:
+  name: Uruguay old peso
+UYU:
+  name: Uruguayan peso
+UYW:
+  name: Unidad Previsional
+UZS:
+  name: Sum
+VAL:
+  name: Vatican lira
+VEB:
+  name: Bolívar fuerte
+VED:
+  name: Bolívar digital
+VEF:
+  name: Bolívar
+VES:
+  name: Bolívar soberano
+VNC:
+  name: Old dong
+VND:
+  name: Dong
+VUV:
+  name: Vatu
+WST:
+  name: Tala
+XAF:
+  name: CFA franc (BEAC)
+XAG:
+  name: Silver
+XAU:
+  name: Gold
+XBA:
+  name: Bond Markets Unit European Composite Unit (EURCO)
+XBB:
+  name: Bond Markets Unit European Monetary Unit (E.M.U.-6)
+XBC:
+  name: Bond Markets Unit European Unit of Account 9 (E.U.A.-9)
+XBD:
+  name: Bond Markets Unit European Unit of Account 17 (E.U.A.-17)
+XBT:
+  name: Bitcoin
+XCD:
+  name: East Caribbean dollar
+XDR:
+  name: SDR (Special Drawing Right)
+XEU:
+  name: European Currency Unit
+XOF:
+  name: CFA Franc (BCEAO)
+XPD:
+  name: Palladium
+XPF:
+  name: CFP franc
+XPT:
+  name: Platinum
+XSU:
+  name: Sucre
+XTS:
+  name: Code reserved for testing purposes
+XUA:
+  name: ADB Unit of Account
+XXX:
+  name: No currency
+YDD:
+  name: South Yemeni dinar
+YER:
+  name: Yemeni rial
+YUD:
+  name: Yugoslav dinar
+YUF:
+  name: Yugoslav dinar
+YUG:
+  name: Yugoslav dinars
+YUM:
+  name: Yugoslav dinar
+YUN:
+  name: Yugoslav dinar
+YUO:
+  name: Yugoslav dinars
+YUR:
+  name: Yugoslav dinars
+YUS:
+  name: Yugoslav dinar
+ZAR:
+  name: Rand
+ZMK:
+  name: Zambian kwacha
+ZMW:
+  name: Zambian kwacha
+ZRN:
+  name: Zaïrean new zaïre
+ZRZ:
+  name: Zaïrean zaïre
+ZWC:
+  name: Rhodesian dollar
+ZWD:
+  name: Zimbabwe dollar
+ZWL:
+  name: Zimbabwe dollar
+ZWN:
+  name: Zimbabwe dollar
+ZWR:
+  name: Zimbabwe dollar

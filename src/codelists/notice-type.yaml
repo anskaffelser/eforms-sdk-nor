@@ -1,0 +1,40 @@
+brin-ecs:
+  name: European Company / European Cooperative Society notice
+brin-eeig:
+  name: European Economic Interest Grouping notice
+can-desg:
+  name: Design contest result notice
+can-modif:
+  name: Contract modification notice
+can-social:
+  name: Contract or concession award notice – light regime
+can-standard:
+  name: Contract or concession award notice – standard regime
+can-tran:
+  name: Contract award notice for public passenger transport services
+cn-desg:
+  name: Design contest notice
+cn-social:
+  name: Contract notice – light regime
+cn-standard:
+  name: Contract or concession notice – standard regime
+corr:
+  name: Change notice
+pin-buyer:
+  name: Notice of the publication of a prior information notice or a periodic information notice on a buyer profile
+pin-cfc-social:
+  name: Prior information notice or a periodic indicative notice used as a call for competition – light regime
+pin-cfc-standard:
+  name: Prior information notice or a periodic indicative notice used as a call for competition – standard regime
+pin-only:
+  name: Prior information notice or a periodic indicative notice used only for information
+pin-rtl:
+  name: Prior information notice or a periodic indicative notice used to shorten time limits for receipt of tenders
+pin-tran:
+  name: Prior information notice for public passenger transport services
+qu-sy:
+  name: Notice on the existence of a qualification system
+subco:
+  name: Subcontracting notice
+veat:
+  name: Voluntary ex-ante transparency notice

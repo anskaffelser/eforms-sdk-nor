@@ -1,0 +1,18 @@
+IE041:
+  name: Border
+IE042:
+  name: West
+IE051:
+  name: Mid-West
+IE052:
+  name: South-East
+IE053:
+  name: South-West
+IE061:
+  name: Dublin
+IE062:
+  name: Mid-East
+IE063:
+  name: Midland
+IEZZZ:
+  name: Extra-Regio NUTS 3

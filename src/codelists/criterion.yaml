@@ -1,0 +1,124 @@
+autorisation:
+  name: 'For service contracts: authorisation of particular organisation needed'
+aver-year-to:
+  name: Average yearly turnover
+bankr-nat:
+  name: Analogous situation like bankruptcy under national law
+bankruptcy:
+  name: Bankruptcy
+chain-manage:
+  name: Supply chain management
+corruption:
+  name: Corruption
+cred-arran:
+  name: Arrangement with creditors
+crime-org:
+  name: Participation in a criminal organisation
+distorsion:
+  name: Agreements with other economic operators aimed at distorting competition
+envir-certif-indep:
+  name: Certificates by independent bodies about environmental management systems or standards
+envir-law:
+  name: Breaching of obligations in the fields of environmental law
+envir-measure:
+  name: Environmental management measures
+eo-group:
+  name: Economic operator together with others
+finan-laund:
+  name: Money laundering or terrorist financing
+finan-rat:
+  name: Financial ratio
+finan-requ:
+  name: Other economic or financial requirements
+fraud:
+  name: Fraud
+gen-year-to:
+  name: General yearly turnover
+human-traffic:
+  name: Child labour and other forms of trafficking in human beings
+indem-insu:
+  name: Professional risk indemnity insurance
+insolvency:
+  name: Insolvency
+labour-law:
+  name: Breaching of obligations in the fields of labour law
+liq-admin:
+  name: Assets being administered by liquidator
+manage-staff:
+  name: Number of managerial staff
+membership:
+  name: 'For service contracts: membership of particular organisation needed'
+misinterpr:
+  name: Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure
+nati-ground:
+  name: Purely national exclusion grounds
+partic-confl:
+  name: Conflict of interest due to its participation in the procurement procedure
+prep-confl:
+  name: Direct or indirect involvement in the preparation of this procurement procedure
+prof-misconduct:
+  name: Guilty of grave professional misconduct
+prof-regist:
+  name: Enrolment in a relevant professional register
+qa-certif-inst:
+  name: 'For supply contracts: certificates by quality control institutes'
+qu-certif-indep:
+  name: Certificates by independent bodies about quality assurance standards
+qual-cont-tech:
+  name: Technicians or technical bodies for quality control
+qual-facil:
+  name: Technical facilities and measures for ensuring quality
+qualification:
+  name: Educational and professional qualifications
+registered:
+  name: Economic operator registered in a pre qualification system
+relied:
+  name: Relied on entities
+research-fac:
+  name: Study and research facilities
+sanction:
+  name: Early termination, damages or other comparable sanctions
+service-perform:
+  name: 'For service contracts: performance of services of the specified type'
+shelt-worksh:
+  name: Economic operator is a sheltered workshop
+sme:
+  name: Economic operator micro, small or medium-sized enterprise
+socsec-law:
+  name: Breaching of obligations in the fields of social law
+socsec-pay:
+  name: Payment of social security contributions
+spec-aver-to:
+  name: Specific average turnover
+spec-req-check:
+  name: Special requierements check
+spec-year-to:
+  name: Specific yearly turnover
+staff-red:
+  name: Reduction of the number of qualified candidates
+subco-ent:
+  name: Subcontracted entities
+suncont-port:
+  name: Subcontracting proportion
+supply-perform:
+  name: 'For supply contracts: performance of deliveries of the specified type'
+susp-act:
+  name: Business activities are suspended
+tax-pay:
+  name: Payment of taxes
+tech-equip:
+  name: Tools, plant or technical equipment
+terr-offence:
+  name: Terrorist offences or offences linked to terrorist activities
+trade-regist:
+  name: Enrolment in a trade register
+w-autent:
+  name: 'For supply contracts: samples, descriptions or photographs with certification of authenticity'
+wo-autent:
+  name: 'For supply contracts: samples, descriptions or photographs without certification of authenticity'
+work-perform:
+  name: 'For works contracts: performance of works of the specified type'
+work-tech:
+  name: 'For works contracts: technicians or technical bodies to carry out the work'
+year-manpower:
+  name: Average annual manpower

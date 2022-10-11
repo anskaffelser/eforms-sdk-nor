@@ -1,0 +1,10 @@
+large:
+  name: Large
+medium:
+  name: Medium
+micro:
+  name: Micro
+small:
+  name: Small
+sme:
+  name: Micro, small, or medium

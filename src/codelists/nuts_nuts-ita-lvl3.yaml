@@ -1,0 +1,216 @@
+ITC11:
+  name: Torino
+ITC12:
+  name: Vercelli
+ITC13:
+  name: Biella
+ITC14:
+  name: Verbano-Cusio-Ossola
+ITC15:
+  name: Novara
+ITC16:
+  name: Cuneo
+ITC17:
+  name: Asti
+ITC18:
+  name: Alessandria
+ITC20:
+  name: Valle d’Aosta/Vallée d’Aoste
+ITC31:
+  name: Imperia
+ITC32:
+  name: Savona
+ITC33:
+  name: Genova
+ITC34:
+  name: La Spezia
+ITC41:
+  name: Varese
+ITC42:
+  name: Como
+ITC43:
+  name: Lecco
+ITC44:
+  name: Sondrio
+ITC46:
+  name: Bergamo
+ITC47:
+  name: Brescia
+ITC48:
+  name: Pavia
+ITC49:
+  name: Lodi
+ITC4A:
+  name: Cremona
+ITC4B:
+  name: Mantova
+ITC4C:
+  name: Milano
+ITC4D:
+  name: Monza e della Brianza
+ITF11:
+  name: L’Aquila
+ITF12:
+  name: Teramo
+ITF13:
+  name: Pescara
+ITF14:
+  name: Chieti
+ITF21:
+  name: Isernia
+ITF22:
+  name: Campobasso
+ITF31:
+  name: Caserta
+ITF32:
+  name: Benevento
+ITF33:
+  name: Napoli
+ITF34:
+  name: Avellino
+ITF35:
+  name: Salerno
+ITF43:
+  name: Taranto
+ITF44:
+  name: Brindisi
+ITF45:
+  name: Lecce
+ITF46:
+  name: Foggia
+ITF47:
+  name: Bari
+ITF48:
+  name: Barletta-Andria-Trani
+ITF51:
+  name: Potenza
+ITF52:
+  name: Matera
+ITF61:
+  name: Cosenza
+ITF62:
+  name: Crotone
+ITF63:
+  name: Catanzaro
+ITF64:
+  name: Vibo Valentia
+ITF65:
+  name: Reggio di Calabria
+ITG11:
+  name: Trapani
+ITG12:
+  name: Palermo
+ITG13:
+  name: Messina
+ITG14:
+  name: Agrigento
+ITG15:
+  name: Caltanissetta
+ITG16:
+  name: Enna
+ITG17:
+  name: Catania
+ITG18:
+  name: Ragusa
+ITG19:
+  name: Siracusa
+ITG2D:
+  name: Sassari
+ITG2E:
+  name: Nuoro
+ITG2F:
+  name: Cagliari
+ITG2G:
+  name: Oristano
+ITG2H:
+  name: Sud Sardegna
+ITH10:
+  name: Bolzano-Bozen
+ITH20:
+  name: Trento
+ITH31:
+  name: Verona
+ITH32:
+  name: Vicenza
+ITH33:
+  name: Belluno
+ITH34:
+  name: Treviso
+ITH35:
+  name: Venezia
+ITH36:
+  name: Padova
+ITH37:
+  name: Rovigo
+ITH41:
+  name: Pordenone
+ITH42:
+  name: Udine
+ITH43:
+  name: Gorizia
+ITH44:
+  name: Trieste
+ITH51:
+  name: Piacenza
+ITH52:
+  name: Parma
+ITH53:
+  name: Reggio nell’Emilia
+ITH54:
+  name: Modena
+ITH55:
+  name: Bologna
+ITH56:
+  name: Ferrara
+ITH57:
+  name: Ravenna
+ITH58:
+  name: Forlì-Cesena
+ITH59:
+  name: Rimini
+ITI11:
+  name: Massa-Carrara
+ITI12:
+  name: Lucca
+ITI13:
+  name: Pistoia
+ITI14:
+  name: Firenze
+ITI15:
+  name: Prato
+ITI16:
+  name: Livorno
+ITI17:
+  name: Pisa
+ITI18:
+  name: Arezzo
+ITI19:
+  name: Siena
+ITI1A:
+  name: Grosseto
+ITI21:
+  name: Perugia
+ITI22:
+  name: Terni
+ITI31:
+  name: Pesaro e Urbino
+ITI32:
+  name: Ancona
+ITI33:
+  name: Macerata
+ITI34:
+  name: Ascoli Piceno
+ITI35:
+  name: Fermo
+ITI41:
+  name: Viterbo
+ITI42:
+  name: Rieti
+ITI43:
+  name: Roma
+ITI44:
+  name: Latina
+ITI45:
+  name: Frosinone
+ITZZZ:
+  name: Extra-Regio NUTS 3

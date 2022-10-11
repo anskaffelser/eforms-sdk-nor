@@ -1,0 +1,4 @@
+fix-tot:
+  name: Fixed value (total)
+fix-unit:
+  name: Fixed value (per unit)

@@ -1,0 +1,40 @@
+FI193:
+  name: Keski-Suomi
+FI194:
+  name: Etelä-Pohjanmaa
+FI195:
+  name: Pohjanmaa
+FI196:
+  name: Satakunta
+FI197:
+  name: Pirkanmaa
+FI1B1:
+  name: Helsinki-Uusimaa
+FI1C1:
+  name: Varsinais-Suomi
+FI1C2:
+  name: Kanta-Häme
+FI1C3:
+  name: Päijät-Häme
+FI1C4:
+  name: Kymenlaakso
+FI1C5:
+  name: Etelä-Karjala
+FI1D1:
+  name: Etelä-Savo
+FI1D2:
+  name: Pohjois-Savo
+FI1D3:
+  name: Pohjois-Karjala
+FI1D5:
+  name: Keski-Pohjanmaa
+FI1D7:
+  name: Lappi
+FI1D8:
+  name: Kainuu
+FI1D9:
+  name: Pohjois-Pohjanmaa
+FI200:
+  name: Åland
+FIZZZ:
+  name: Extra-Regio NUTS 3

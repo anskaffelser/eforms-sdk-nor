@@ -1,0 +1,8 @@
+combined:
+  name: Combined
+services:
+  name: Services
+supplies:
+  name: Supplies
+works:
+  name: Works

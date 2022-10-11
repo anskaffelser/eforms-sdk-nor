@@ -1,0 +1,18 @@
+comp-dial:
+  name: Competitive dialogue
+comp-tend:
+  name: Competitive tendering
+innovation:
+  name: Innovation partnership
+neg-w-call:
+  name: Negotiated with prior publication of a call for competition / competitive with negotiation
+neg-wo-call:
+  name: Negotiated without prior call for competition
+open:
+  name: Open
+oth-mult:
+  name: Other multiple stage procedure
+oth-single:
+  name: Other single stage procedure
+restricted:
+  name: Restricted

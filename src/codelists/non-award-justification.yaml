@@ -1,0 +1,20 @@
+all-rej:
+  name: All tenders, requests to participate or projects were withdrawn or found inadmissible
+chan-need:
+  name: Decision of the buyer, because of a change in needs
+ins-fund:
+  name: Decision of the buyer, because of insufficient funds
+no-rece:
+  name: No tenders, requests to participate or projects were received
+no-signed:
+  name: The highest ranked tenderer(s) refused to sign the contract.
+one-admis:
+  name: Only one admissible tender, request to participate or project was received.
+other:
+  name: Other
+rev-body:
+  name: Decision of a review body or another judicial body
+rev-buyer:
+  name: Decision of the buyer following a tenderer's request to review the award
+tch-pr-error:
+  name: Decision of the buyer, not following a tenderer's request to review the award, because of technical or procedural errors

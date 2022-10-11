@@ -1,0 +1,14 @@
+1-inst:
+  name: First instance
+2-inst:
+  name: Second instance
+3-inst:
+  name: Third instance
+4-inst:
+  name: Fourth instance
+5-inst:
+  name: Fifth instance
+buyer:
+  name: Buyer
+other:
+  name: Other

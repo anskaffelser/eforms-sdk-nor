@@ -1,0 +1,52 @@
+RS110:
+  name: Београдска област (Beogradska oblast)
+RS121:
+  name: Западнобачка област (Zapadnobačka oblast)
+RS122:
+  name: Јужнобанатска област (Južnobanatska oblast)
+RS123:
+  name: Јужнобачка област (Južnobačka oblast)
+RS124:
+  name: Севернобанатска област (Severnobanatska oblast)
+RS125:
+  name: Севернобачка област (Severnobačka oblast)
+RS126:
+  name: Средњобанатска област (Srednjobanatska oblast)
+RS127:
+  name: Сремска област (Sremska oblast)
+RS211:
+  name: Златиборска област (Zlatiborska oblast)
+RS212:
+  name: Колубарска област (Kolubarska oblast)
+RS213:
+  name: Мачванска област (Mačvanska oblast)
+RS214:
+  name: Моравичка област (Moravička oblast)
+RS215:
+  name: Поморавска област (Pomoravska oblast)
+RS216:
+  name: Расинска област (Rasinska oblast)
+RS217:
+  name: Рашка област (Raška oblast)
+RS218:
+  name: Шумадијска област (Šumadijska oblast)
+RS221:
+  name: Борска област (Borska oblast)
+RS222:
+  name: Браничевска област (Braničevska oblast)
+RS223:
+  name: Зајечарска област (Zaječarska oblast)
+RS224:
+  name: Јабланичка област (Jablanička oblast)
+RS225:
+  name: Нишавска област (Nišavska oblast)
+RS226:
+  name: Пиротска област (Pirotska oblast)
+RS227:
+  name: Подунавска област (Podunavska oblast)
+RS228:
+  name: Пчињска област (Pčinjska oblast)
+RS229:
+  name: Топличка област (Toplička oblast)
+RSZZZ:
+  name: Extra-Regio NUTS 3

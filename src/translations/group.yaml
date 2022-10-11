@@ -1,0 +1,471 @@
+group|name|GR-132001:
+  name: Information about Recurrence
+group|name|GR-Business-Address:
+  name: Address
+group|name|GR-Business-Contact:
+  name: Contact
+group|name|GR-Business-Party:
+  name: Business Party
+group|name|GR-Business-Publication:
+  name: Publication
+group|name|GR-Business-Section:
+  name: Notice
+group|name|GR-Change:
+  name: Change
+group|name|GR-Company:
+  name: Company
+group|name|GR-Company-Address:
+  name: Company Address
+group|name|GR-Company-BuyerExclusive:
+  name: Buyer Exclusive
+group|name|GR-Company-Contact:
+  name: Company Contact
+group|name|GR-Company-EconomicOperatorExclusive:
+  name: Economic Operator Exclusive
+group|name|GR-Content:
+  name: Content
+group|name|GR-ContractingAuthority:
+  name: Contracting Authority
+group|name|GR-Lot-AddInfo:
+  name: Additional Information Providing Organisation
+group|name|GR-Lot-AdditionalInformation:
+  name: Additional Information
+group|name|GR-Lot-AuctionTerms:
+  name: Auction Terms
+group|name|GR-Lot-AwardingConsequences:
+  name: Awarding Consequences
+group|name|GR-Lot-Candidates:
+  name: Candidates
+group|name|GR-Lot-ContractExecutionRequirements:
+  name: Contract Execution Requirements
+group|name|GR-Lot-ContractExtension:
+  name: Contract Extension
+group|name|GR-Lot-ContractingSystem:
+  name: Contracting System / Technique
+group|name|GR-Lot-Deadline:
+  name: Review Deadlines
+group|name|GR-Lot-Deadlines1:
+  name: Deadlines I
+group|name|GR-Lot-Deadlines2:
+  name: Deadlines II
+group|name|GR-Lot-Description:
+  name: Description
+group|name|GR-Lot-DocProvider:
+  name: Documents Providing Organisation
+group|name|GR-Lot-EUFunds:
+  name: EU Funds Availability
+group|name|GR-Lot-EconomicOperatorShortlist:
+  name: Economic Operator Shortlist
+group|name|GR-Lot-ElectronicCatalog:
+  name: Electronic Catalog
+group|name|GR-Lot-ElectronicSignatureRequired:
+  name: Electronic Signature Required
+group|name|GR-Lot-EmployLegis:
+  name: Employment Legislation
+group|name|GR-Lot-EnvironLegis:
+  name: Environmental Legislation
+group|name|GR-Lot-FinancialGuarantee:
+  name: Financial Guarantee
+group|name|GR-Lot-FinancialTerms:
+  name: Financial Terms
+group|name|GR-Lot-FiscalLegis:
+  name: Fiscal Legislation
+group|name|GR-Lot-FrameworkAgreement:
+  name: Framework Agreement
+group|name|GR-Lot-GpaAgreement:
+  name: GPA Agreement
+group|name|GR-Lot-Mediator:
+  name: Mediation Organisation
+group|name|GR-Lot-PlannedDuration:
+  name: Planned Duration
+group|name|GR-Lot-PlannedDuration-Dates:
+  name: Duration Dates
+group|name|GR-Lot-PlannedDuration-Period:
+  name: Duration Period
+group|name|GR-Lot-PostAwardProcess:
+  name: Post Award Process
+group|name|GR-Lot-Procedure:
+  name: Procedure
+group|name|GR-Lot-ProcurementDocuments:
+  name: Procurement Documents
+group|name|GR-Lot-ProcurementType:
+  name: Procurement Type
+group|name|GR-Lot-ProcurementType-Accessibility:
+  name: Accessibility
+group|name|GR-Lot-ProcurementType-Strategic:
+  name: Strategic Procurement
+group|name|GR-Lot-PublicOpeningEvent:
+  name: Public Opening Event
+group|name|GR-Lot-Purpose:
+  name: Purpose
+group|name|GR-Lot-QualityTarget:
+  name: Quality Target
+group|name|GR-Lot-Requirements2SecurityClearance1:
+  name: Requirements II / Security Clearance I
+group|name|GR-Lot-Review:
+  name: Review
+group|name|GR-Lot-ReviewInfo:
+  name: Review Information Providing Organisation
+group|name|GR-Lot-ReviewOrg:
+  name: Review Organisation
+group|name|GR-Lot-Scope:
+  name: Scope
+group|name|GR-Lot-Scope-MainClassification:
+  name: Main Classification
+group|name|GR-Lot-SecurityClearance2:
+  name: Security Clearance II
+group|name|GR-Lot-SelectionCriteria-SecondStageInvite:
+  name: Selection Criteria Second Stage Invite
+group|name|GR-Lot-SubcontractRequest:
+  name: Subcontract Request
+group|name|GR-Lot-SubcontractTerms:
+  name: Subcontract Terms
+group|name|GR-Lot-Submission Language:
+  name: Submission Language
+group|name|GR-Lot-SubmissionInfo:
+  name: Submission Info
+group|name|GR-Lot-SubmissionMethod:
+  name: Submission Method
+group|name|GR-Lot-SubmissionTool:
+  name: Submission Tool
+group|name|GR-Lot-TenderEval:
+  name: Tender Evaluation Organisation
+group|name|GR-Lot-TenderReceipt:
+  name: Tender Recipient Organisation
+group|name|GR-Lot-TenderValidity:
+  name: Tender Validity
+group|name|GR-Lot-TendererQualification:
+  name: Tenderer Qualification
+group|name|GR-Lot-TenderingTerms:
+  name: Tendering Terms
+group|name|GR-Lot-Variants:
+  name: Variants
+group|name|GR-LotResult-1:
+  name: LotResult 1
+group|name|GR-LotResult-2:
+  name: LotResult 2
+group|name|GR-LotResult-Parties:
+  name: Parties
+group|name|GR-LotResult-Section:
+  name: Lot Results
+group|name|GR-LotResult-TenderValue:
+  name: Tender Value
+group|name|GR-LotTender-1:
+  name: LotTender 1
+group|name|GR-LotTender-2:
+  name: LotTender 2
+group|name|GR-LotTender-3:
+  name: LotTender 3
+group|name|GR-LotTender-Section:
+  name: Lot Tenders
+group|name|GR-LotTender-Subcontracting:
+  name: Subcontracting
+group|name|GR-LotsGroup-AdditionalInformation:
+  name: Additional Information
+group|name|GR-LotsGroup-Description:
+  name: Description
+group|name|GR-LotsGroup-FrameworkAgreement:
+  name: Framework Agreement
+group|name|GR-LotsGroup-LotDistribution:
+  name: Lot Distribution
+group|name|GR-LotsGroup-Purpose:
+  name: Purpose
+group|name|GR-LotsGroup-Scope:
+  name: Scope
+group|name|GR-LotsGroup-TenderingTerms:
+  name: Tendering Terms
+group|name|GR-Metadata:
+  name: Metadata
+  nob: Metadata
+group|name|GR-NoticeResult-Section:
+  name: Notice Result
+group|name|GR-Organisations-Section:
+  name: Organisations
+  nno: Organisasjonar
+  nob: Organisasjoner
+group|name|GR-Organisations-Subsection:
+  name: Organisations
+  nno: Organisasjonar
+  nob: Organisasjoner
+group|name|GR-Part-AddInfo:
+  name: Additional Information Providing Organisation
+group|name|GR-Part-AdditionalInformation:
+  name: Additional Information
+group|name|GR-Part-ContractExecutionRequirements:
+  name: Contract Execution Requirements
+group|name|GR-Part-ContractingSystem:
+  name: Contracting System / Technique
+group|name|GR-Part-Deadlines:
+  name: Deadlines
+group|name|GR-Part-Description:
+  name: Description
+group|name|GR-Part-DocProvider:
+  name: Documents Providing Organisation
+group|name|GR-Part-EmployLegis:
+  name: Employment Legislation
+group|name|GR-Part-EnvironLegis:
+  name: Environmental Legislation
+group|name|GR-Part-FiscalLegis:
+  name: Fiscal Legislation
+group|name|GR-Part-GpaAgreement:
+  name: GPA Agreement
+group|name|GR-Part-Mediator:
+  name: Mediation Organisation
+group|name|GR-Part-PlannedDuration:
+  name: Planned Duration
+group|name|GR-Part-PlannedDuration-Dates:
+  name: Duration Dates
+group|name|GR-Part-PlannedDuration-Period:
+  name: Duration Period
+group|name|GR-Part-ProcurementDocuments:
+  name: Procurement Documents
+group|name|GR-Part-Purpose:
+  name: Purpose
+group|name|GR-Part-Review:
+  name: Review
+group|name|GR-Part-ReviewInfo:
+  name: Review Information Providing Organisation
+group|name|GR-Part-ReviewOrg:
+  name: Review Organisation
+group|name|GR-Part-Scope:
+  name: Scope
+group|name|GR-Part-Scope-MainClassification:
+  name: Main Classification
+group|name|GR-Part-SubmissionInfo:
+  name: Submission Info
+group|name|GR-Part-SubmissionTool:
+  name: Submission Tool
+group|name|GR-Part-TenderEval:
+  name: Tender Evaluation Organisation
+group|name|GR-Part-TenderReceipt:
+  name: Tender Recipient Organisation
+group|name|GR-Part-TendererQualification:
+  name: Tenderer Qualification
+group|name|GR-Part-TenderingTerms:
+  name: Tendering Terms
+group|name|GR-Procedure:
+  name: Procedure
+group|name|GR-Procedure-AdditionalInformation:
+  name: Additional Information
+group|name|GR-Procedure-CrossBorderLaw:
+  name: Cross Border Law
+group|name|GR-Procedure-Description:
+  name: Description
+group|name|GR-Procedure-DirectAward:
+  name: Direct Award
+group|name|GR-Procedure-LocalCrossBorderLaw:
+  name: Local Law
+group|name|GR-Procedure-MainLegalBasis:
+  name: Main Legal Basis
+group|name|GR-Procedure-MaxLots:
+  name: Max Lots
+group|name|GR-Procedure-PinTerminated:
+  name: PIN Terminated
+group|name|GR-Procedure-Procedure:
+  name: Procedure
+group|name|GR-Procedure-Procedure-subsection:
+  name: Procedure
+group|name|GR-Procedure-Purpose:
+  name: Purpose
+group|name|GR-Procedure-Scope:
+  name: Scope
+group|name|GR-Procedure-Scope-MainClassification:
+  name: Main Classification
+group|name|GR-Procedure-TenderingTerms:
+  name: Tendering Terms
+group|name|GR-Result:
+  name: Result
+group|name|GR-SettledContract-1:
+  name: SettledContract 1
+group|name|GR-SettledContract-2:
+  name: SettledContract 2
+group|name|GR-SettledContract-3:
+  name: SettledContract 3
+group|name|GR-SettledContract-Section:
+  name: Settled Contracts
+group|name|GR-Tender:
+  name: Tender
+group|name|GR-TenderingParty-Section:
+  name: Tendering Parties
+group|name|GR-TouchPoint-Address:
+  name: TouchPoint Address
+group|name|GR-TouchPoint-Contact:
+  name: TouchPoint Contact
+group|name|GR-UBO-Subsection:
+  name: Ultimate Beneficial Owner
+group|name|GR-UBO-Winner:
+  name: TBD Winner
+group|name|GR-Unpublish-BT-09:
+  name: Unpublish - BT-09
+group|name|GR-Unpublish-BT-105:
+  name: Unpublish - BT-105
+group|name|GR-Unpublish-BT-106:
+  name: Unpublish - BT-106
+group|name|GR-Unpublish-BT-118:
+  name: Unpublish - BT-118
+group|name|GR-Unpublish-BT-1252:
+  name: Unpublish - BT-1252
+group|name|GR-Unpublish-BT-135:
+  name: Unpublish - BT-135
+group|name|GR-Unpublish-BT-1351:
+  name: Unpublish - BT-1351
+group|name|GR-Unpublish-BT-136:
+  name: Unpublish - BT-136
+group|name|GR-Unpublish-BT-142:
+  name: Unpublish - BT-142
+group|name|GR-Unpublish-BT-144:
+  name: Unpublish - BT-144
+group|name|GR-Unpublish-BT-156:
+  name: Unpublish - BT-156
+group|name|GR-Unpublish-BT-160:
+  name: Unpublish - BT-160
+group|name|GR-Unpublish-BT-161:
+  name: Unpublish - BT-161
+group|name|GR-Unpublish-BT-162:
+  name: Unpublish - BT-162
+group|name|GR-Unpublish-BT-163:
+  name: Unpublish - BT-163
+group|name|GR-Unpublish-BT-171:
+  name: Unpublish - BT-171
+group|name|GR-Unpublish-BT-191:
+  name: Unpublish - BT-191
+group|name|GR-Unpublish-BT-193:
+  name: Unpublish - BT-193
+group|name|GR-Unpublish-BT-539:
+  name: Unpublish - BT-539
+group|name|GR-Unpublish-BT-539-LotsGroup:
+  name: Unpublish - BT-539
+group|name|GR-Unpublish-BT-540:
+  name: Unpublish - BT-540
+group|name|GR-Unpublish-BT-540-LotsGroup:
+  name: Unpublish - BT-540
+group|name|GR-Unpublish-BT-541:
+  name: Unpublish - BT-541
+group|name|GR-Unpublish-BT-541-LotsGroup:
+  name: Unpublish - BT-541
+group|name|GR-Unpublish-BT-5421:
+  name: Unpublish - BT-5421
+group|name|GR-Unpublish-BT-5421-LotsGroup:
+  name: Unpublish - BT-5421
+group|name|GR-Unpublish-BT-5422:
+  name: Unpublish - BT-5422
+group|name|GR-Unpublish-BT-5422-LotsGroup:
+  name: Unpublish - BT-5422
+group|name|GR-Unpublish-BT-5423:
+  name: Unpublish - BT-5423
+group|name|GR-Unpublish-BT-5423-LotsGroup:
+  name: Unpublish - BT-5423
+group|name|GR-Unpublish-BT-543:
+  name: Unpublish - BT-543
+group|name|GR-Unpublish-BT-543-LotsGroup:
+  name: Unpublish - BT-543
+group|name|GR-Unpublish-BT-553:
+  name: Unpublish - BT-553
+group|name|GR-Unpublish-BT-554:
+  name: Unpublish - BT-554
+group|name|GR-Unpublish-BT-555:
+  name: Unpublish - BT-555
+group|name|GR-Unpublish-BT-556:
+  name: Unpublish - BT-556
+group|name|GR-Unpublish-BT-709:
+  name: Unpublish - BT-709
+group|name|GR-Unpublish-BT-710:
+  name: Unpublish - BT-710
+group|name|GR-Unpublish-BT-711:
+  name: Unpublish - BT-711
+group|name|GR-Unpublish-BT-712:
+  name: Unpublish - BT-712
+group|name|GR-Unpublish-BT-720:
+  name: Unpublish - BT-720
+group|name|GR-Unpublish-BT-730:
+  name: Unpublish - BT-730
+group|name|GR-Unpublish-BT-731:
+  name: Unpublish - BT-731
+group|name|GR-Unpublish-BT-733:
+  name: Unpublish - BT-733
+group|name|GR-Unpublish-BT-733-Lot:
+  name: Unpublish - BT-733
+group|name|GR-Unpublish-BT-733-LotsGroup:
+  name: Unpublish - BT-733
+group|name|GR-Unpublish-BT-734:
+  name: Unpublish - BT-734
+group|name|GR-Unpublish-BT-734-LotsGroup:
+  name: Unpublish - BT-734
+group|name|GR-Unpublish-BT-759:
+  name: Unpublish - BT-759
+group|name|GR-Unpublish-BT-760:
+  name: Unpublish - BT-760
+group|name|GR-Unpublish-BT-773:
+  name: Unpublish - BT-773
+group|name|GR-Unpublish-BT-88:
+  name: Unpublish - BT-88
+group|name|GR-Winner:
+  name: Winner
+group|name|ND-BuyerReviewComplainants:
+  name: Statistics regarding the number of Organizations requesting review for a given Irregularity Type (Number &amp; Code)
+group|name|ND-Change:
+  name: Information associated to a single Change (Section, Description &amp; Procurement Documents)
+group|name|ND-ContractingParty:
+  name: Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)
+group|name|ND-ExclusionGrounds:
+  name: Exclusion Grounds (Code &amp; Description)
+group|name|ND-Lot:
+  name: Lot related information covering Tendering Terms, Tendering Process and Purpose
+group|name|ND-LotAdditionalClassification:
+  name: Classification for an Additional Commodity of a Lot
+group|name|ND-LotAwardCriteria:
+  name: Award Criteria related information (Description, Justification, Individual Criterion …) for a Lot
+group|name|ND-LotAwardCriterion:
+  name: Award Criterion related information (Description, Name, Parameter, Code …) for a Lot
+group|name|ND-LotPlacePerformance:
+  name: A location where the Procurement, for the Lot, should take place
+group|name|ND-LotPreviousPlanning:
+  name: Lot Previous Planning Reference
+group|name|ND-LotResult:
+  name: Outcome of the Procurement Procedure for a given Lot
+group|name|ND-LotTender:
+  name: Tender (or fragment of a Tender) submitted for a given Lot
+group|name|ND-LotsGroup:
+  name: LotsGroup related information covering Tendering Terms, Tendering Process and Purpose
+group|name|ND-LotsGroupAwardCriteria:
+  name: Award Criteria related information (Description, Justification, Individual Criterion …) for a Group of Lots
+group|name|ND-LotsGroupAwardCriterion:
+  name: Award Criterion related information (Description, Name, Parameter, Code …) for a Group of Lots
+group|name|ND-Modification:
+  name: Contract Modification (Section and Description)
+group|name|ND-NoticeResultGroupFA:
+  name: Maximal Value and the associated awarded Group of Lots of the Result Notice
+group|name|ND-Organization:
+  name: A Party involved in the Competition from either side (Buyer or Tenderer) with a Legal Entity (Company) and possibly additional Contact Points (touchpoints)
+group|name|ND-Part:
+  name: Part related information covering Tendering Terms, Tendering Process and Purpose
+group|name|ND-PartAdditionalClassification:
+  name: Classification for an Additional Commodity of a Part
+group|name|ND-PartPlacePerformance:
+  name: A location where the Procurement, for the Part, should take place
+group|name|ND-PartPreviousPlanning:
+  name: Part Previous Planning Reference
+group|name|ND-Prize:
+  name: Prize related information
+group|name|ND-ProcedureAdditionalCommodityClassification:
+  name: Classification for the Additional Commodity of the Procedure
+group|name|ND-ProcedurePlacePerformanceAdditionalInformation:
+  name: Additional Information about the location where the Procurement, for the Procedure as a whole, should take place
+group|name|ND-RewardsPenalties:
+  name: Information (Description) about applicable Rewards or Penalties
+group|name|ND-SelectionCriteria:
+  name: Selection Criteria including the ones for 2nd stage (Type, Name, Description, Use, Parameters)
+group|name|ND-ServiceProviderParty:
+  name: Provided Service (code) and Provider (Reference to Organization)
+group|name|ND-SettledContract:
+  name: Contract settled (or about to be settled) between a Contracting Party and a Tendering Party to satisfy the requirements expressed as part of the Procurement Procedure
+group|name|ND-Tenderer:
+  name: One of the member of the Tendering Party
+group|name|ND-TenderingParty:
+  name: Party formed of one or more organizations than jointly submitted a Tender
+group|name|ND-Touchpoint:
+  name: Contact details associated to a given role
+group|name|ND-UBO:
+  name: Ultimate Beneficial Owner
+group|name|Root:
+  name: The root node

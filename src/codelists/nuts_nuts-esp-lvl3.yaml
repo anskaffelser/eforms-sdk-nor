@@ -1,0 +1,120 @@
+ES111:
+  name: A Coruña
+ES112:
+  name: Lugo
+ES113:
+  name: Ourense
+ES114:
+  name: Pontevedra
+ES120:
+  name: Asturias
+ES130:
+  name: Cantabria
+ES211:
+  name: Araba/Álava
+ES212:
+  name: Gipuzkoa
+ES213:
+  name: Bizkaia
+ES220:
+  name: Navarra
+ES230:
+  name: La Rioja
+ES241:
+  name: Huesca
+ES242:
+  name: Teruel
+ES243:
+  name: Zaragoza
+ES300:
+  name: Madrid
+ES411:
+  name: Ávila
+ES412:
+  name: Burgos
+ES413:
+  name: León
+ES414:
+  name: Palencia
+ES415:
+  name: Salamanca
+ES416:
+  name: Segovia
+ES417:
+  name: Soria
+ES418:
+  name: Valladolid
+ES419:
+  name: Zamora
+ES421:
+  name: Albacete
+ES422:
+  name: Ciudad Real
+ES423:
+  name: Cuenca
+ES424:
+  name: Guadalajara
+ES425:
+  name: Toledo
+ES431:
+  name: Badajoz
+ES432:
+  name: Cáceres
+ES511:
+  name: Barcelona
+ES512:
+  name: Girona
+ES513:
+  name: Lleida
+ES514:
+  name: Tarragona
+ES521:
+  name: Alicante/Alacant
+ES522:
+  name: Castellón/Castelló
+ES523:
+  name: Valencia/València
+ES531:
+  name: Eivissa y Formentera
+ES532:
+  name: Mallorca
+ES533:
+  name: Menorca
+ES611:
+  name: Almería
+ES612:
+  name: Cádiz
+ES613:
+  name: Córdoba
+ES614:
+  name: Granada
+ES615:
+  name: Huelva
+ES616:
+  name: Jaén
+ES617:
+  name: Málaga
+ES618:
+  name: Sevilla
+ES620:
+  name: Murcia
+ES630:
+  name: Ceuta
+ES640:
+  name: Melilla
+ES703:
+  name: El Hierro
+ES704:
+  name: Fuerteventura
+ES705:
+  name: Gran Canaria
+ES706:
+  name: La Gomera
+ES707:
+  name: La Palma
+ES708:
+  name: Lanzarote
+ES709:
+  name: Tenerife
+ESZZZ:
+  name: Extra-Regio NUTS 3

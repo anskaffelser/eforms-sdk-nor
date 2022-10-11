@@ -1,0 +1,86 @@
+RO111:
+  name: Bihor
+RO112:
+  name: Bistriţa-Năsăud
+RO113:
+  name: Cluj
+RO114:
+  name: Maramureş
+RO115:
+  name: Satu Mare
+RO116:
+  name: Sălaj
+RO121:
+  name: Alba
+RO122:
+  name: Braşov
+RO123:
+  name: Covasna
+RO124:
+  name: Harghita
+RO125:
+  name: Mureş
+RO126:
+  name: Sibiu
+RO211:
+  name: Bacău
+RO212:
+  name: Botoşani
+RO213:
+  name: Iaşi
+RO214:
+  name: Neamţ
+RO215:
+  name: Suceava
+RO216:
+  name: Vaslui
+RO221:
+  name: Brăila
+RO222:
+  name: Buzău
+RO223:
+  name: Constanţa
+RO224:
+  name: Galaţi
+RO225:
+  name: Tulcea
+RO226:
+  name: Vrancea
+RO311:
+  name: Argeş
+RO312:
+  name: Călăraşi
+RO313:
+  name: Dâmboviţa
+RO314:
+  name: Giurgiu
+RO315:
+  name: Ialomiţa
+RO316:
+  name: Prahova
+RO317:
+  name: Teleorman
+RO321:
+  name: Bucureşti
+RO322:
+  name: Ilfov
+RO411:
+  name: Dolj
+RO412:
+  name: Gorj
+RO413:
+  name: Mehedinţi
+RO414:
+  name: Olt
+RO415:
+  name: Vâlcea
+RO421:
+  name: Arad
+RO422:
+  name: Caraş-Severin
+RO423:
+  name: Hunedoara
+RO424:
+  name: Timiş
+ROZZZ:
+  name: Extra-Regio NUTS 3

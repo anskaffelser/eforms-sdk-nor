@@ -1,0 +1,88 @@
+awa-cri-com:
+  name: Award Criteria Complicated (BT-543)
+awa-cri-des:
+  name: Award Criterion Description (BT-540)
+awa-cri-fix:
+  name: Award Criterion Number Fixed (BT-5422)
+awa-cri-nam:
+  name: Award Criterion Name (BT-734)
+awa-cri-num:
+  name: Award Criterion Number (BT-541)
+awa-cri-ord:
+  name: Award Criteria Order Justification (BT-733)
+awa-cri-thr:
+  name: Award Criterion Number Threshold (BT-5423)
+awa-cri-typ:
+  name: Award Criterion Type (BT-539)
+awa-cri-wei:
+  name: Award Criterion Number Weight (BT-5421)
+con-rev-buy:
+  name: Concession Revenue Buyer (BT-160)
+con-rev-use:
+  name: Concession Revenue User (BT-162)
+cou-ori:
+  name: Country Origin (BT-191)
+cro-bor-law:
+  name: Cross Border Law (BT-09)
+dir-awa-jus:
+  name: Direct Award Justification Code (BT-136)
+dir-awa-pre:
+  name: Direct Award Justification Previous (BT-1252)
+dir-awa-tex:
+  name: Direct Award Justification Text (BT-135)
+gro-max-ide:
+  name: Group Maximum Value Lot Identifier (BT-556)
+gro-max-val:
+  name: Group Maximum Value (BT-156)
+max-val:
+  name: Maximum Value (BT-709)
+no-awa-rea:
+  name: Not Awarded Reason (BT-144)
+not-dis-dat:
+  name: Notice Dispatch Date (BT-05)
+not-max-val:
+  name: Notice Maximum Value (BT-118)
+not-pub-dat:
+  name: Notice Publication Date Preferred (BT-738)
+not-val:
+  name: Notice Value (BT-161)
+pro-acc:
+  name: Procedure Accelerated (BT-106)
+pro-acc-jus:
+  name: Procedure Accelerated Justification (BT-1351)
+pro-fea:
+  name: Procedure Features (BT-88)
+pro-typ:
+  name: Procedure Type (BT-105)
+rec-sub-cou:
+  name: Received Submissions Count (BT-759)
+rec-sub-typ:
+  name: Received Submissions Type (BT-760)
+rev-req:
+  name: Review Requests (BT-712)
+sub-con:
+  name: Subcontracting (BT-773)
+sub-des:
+  name: Subcontracting Description (BT-554)
+sub-per:
+  name: Subcontracting Percentage (BT-555)
+sub-per-kno:
+  name: Subcontracting Percentage Known (BT-731)
+sub-val:
+  name: Subcontracting Value (BT-553)
+sub-val-kno:
+  name: Subcontracting Value Known (BT-730)
+ten-ran:
+  name: Tender Rank (BT-171)
+ten-val-hig:
+  name: Tender Value Highest (BT-711)
+ten-val-low:
+  name: Tender Value Lowest (BT-710)
+val-con-des:
+  name: Value Concession Description (BT-163)
+win-cho:
+  name: Winner Chosen (BT-142)
+win-ten-val:
+  name: Winning Tender Value (BT-720)
+win-ten-var:
+  name: Winning Tender Variant (BT-193)

@@ -1,0 +1,14 @@
+add-wss:
+  name: Need for additional works, services or supplies by the original contractor.
+mod-cir:
+  name: Need for modifications because of circumstances which a diligent buyer could not predict.
+mod-minv:
+  name: Modifications under a minimal value ("de minimis").
+mod-nons:
+  name: Modifications that are not substantial.
+mod-repl:
+  name: Modifications where a new contractor replaces an old contractor because of succession or when the buyer assumes the contractor’s obligations towards its subcontractors.
+mod-rev:
+  name: Modifications based on review clauses or options.
+other:
+  name: Other

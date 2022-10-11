@@ -1,0 +1,6 @@
+nno:
+  name: norsk (nynorsk)
+  fallback:
+    - nob
+nob:
+  name: norsk (bokmål)

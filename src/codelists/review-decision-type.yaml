@@ -1,0 +1,18 @@
+accepted:
+  name: Accepted
+other:
+  name: Other
+rej-dl-passed:
+  name: Rejected, because the complainant does not have legal standing, as the deadline for submitting a review request has already passed
+rej-ncomp:
+  name: Rejected, because the review body does not have the competence to conduct the review
+rej-nirreg:
+  name: Rejected for no irregularities
+rej-npaid:
+  name: Rejected, because the fee was not paid
+rej-other:
+  name: Rejected, because the complainant does not have legal standing, for other reasons than the deadline for submitting a review request has already passed
+rej-resolv:
+  name: Rejected, because the problem has already been resolved
+rej-signed:
+  name: Rejected, because the contract has already been signed

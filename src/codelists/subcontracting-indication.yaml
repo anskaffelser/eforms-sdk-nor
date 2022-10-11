@@ -1,0 +1,12 @@
+none:
+  name: None
+shar-subc:
+  name: The share of the contract that the tenderer intends to subcontract
+subc-noblig:
+  name: The proposed subcontractor(s) above any obligation to subcontract a minimum percentage of the contract
+subc-oblig:
+  name: The proposed subcontractor(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract
+subj-noblig:
+  name: The subject-matter of the subcontract(s) above any obligation to subcontract a minimum percentage of the contract
+subj-oblig:
+  name: The subject-matter of the subcontract(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract

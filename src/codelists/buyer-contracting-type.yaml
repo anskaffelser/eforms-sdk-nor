@@ -1,0 +1,4 @@
+cont-ent:
+  name: Contracting Entity
+not-cont-ent:
+  name: Not Contracting Entity

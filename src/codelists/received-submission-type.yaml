@@ -1,0 +1,24 @@
+part-req:
+  name: Requests to participate
+t-esubm:
+  name: Tenders submitted electronically
+t-med:
+  name: Tenders from medium tenderers
+t-micro:
+  name: Tenders from micro tenderers
+t-no-eea:
+  name: Tenders from tenders registered in countries outside of the European Economic Area
+t-no-verif:
+  name: Tenders for which it has not been verified if they are admissible or inadmissible
+t-oth-eea:
+  name: Tenders from tenderers registered in other European Economic Area countries than the country of the buyer
+t-small:
+  name: Tenders from small tenderers
+t-sme:
+  name: Tenders from micro, small or medium tenderers
+t-verif-inad:
+  name: Tenders verified and inadmissible
+t-verif-inad-low:
+  name: Tenders verified and inadmissible because of an abnormally low price or cost
+tenders:
+  name: Tenders

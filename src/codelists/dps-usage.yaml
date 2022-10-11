@@ -1,0 +1,6 @@
+dps-list:
+  name: Dynamic purchasing system, only usable by buyers listed in this notice
+dps-nlist:
+  name: Dynamic purchasing system, also usable by buyers not listed in this notice
+none:
+  name: None

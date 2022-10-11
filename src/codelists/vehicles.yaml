@@ -1,0 +1,6 @@
+vehicles:
+  name: Vehicles
+vehicles-clean:
+  name: Vehicles clean
+vehicles-zero-emission:
+  name: Vehicles zero emission

@@ -1,0 +1,42 @@
+HU110:
+  name: Budapest
+HU120:
+  name: Pest
+HU211:
+  name: Fejér
+HU212:
+  name: Komárom-Esztergom
+HU213:
+  name: Veszprém
+HU221:
+  name: Győr-Moson-Sopron
+HU222:
+  name: Vas
+HU223:
+  name: Zala
+HU231:
+  name: Baranya
+HU232:
+  name: Somogy
+HU233:
+  name: Tolna
+HU311:
+  name: Borsod-Abaúj-Zemplén
+HU312:
+  name: Heves
+HU313:
+  name: Nógrád
+HU321:
+  name: Hajdú-Bihar
+HU322:
+  name: Jász-Nagykun-Szolnok
+HU323:
+  name: Szabolcs-Szatmár-Bereg
+HU331:
+  name: Bács-Kiskun
+HU332:
+  name: Békés
+HU333:
+  name: Csongrád
+HUZZZ:
+  name: Extra-Regio NUTS 3

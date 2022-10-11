@@ -1,0 +1,14 @@
+LV003:
+  name: Kurzeme
+LV005:
+  name: Latgale
+LV006:
+  name: Rīga
+LV007:
+  name: Pierīga
+LV008:
+  name: Vidzeme
+LV009:
+  name: Zemgale
+LVZZZ:
+  name: Extra-Regio NUTS 3

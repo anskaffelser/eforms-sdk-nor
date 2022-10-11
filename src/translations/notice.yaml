@@ -1,0 +1,90 @@
+notice|name|1:
+  name: Notice of the publication of a prior information notice on a buyer profile - general directive
+notice|name|10:
+  name: Prior information notice used as a call for competition - general directive, standard regime
+notice|name|11:
+  name: Periodic indicative notice used as a call for competition - sectoral directive, standard regime
+notice|name|12:
+  name: Prior information notice used as a call for competition - general directive, light regime
+notice|name|13:
+  name: Periodic indicative notice used as a call for competition - sectoral directive, light regime
+notice|name|14:
+  name: Prior information notice used as a call for competition - concessions directive, light regime
+notice|name|15:
+  name: Notice on the existence of a qualification system – sectoral directive
+notice|name|16:
+  name: Contract notice – general directive, standard regime
+notice|name|17:
+  name: Contract notice – sectoral directive, standard regime
+notice|name|18:
+  name: Contract notice – defence directive, standard regime
+notice|name|19:
+  name: Concession notice – concessions directive, standard regime
+notice|name|2:
+  name: Notice of the publication of a periodic indicative notice on a buyer profile - sectoral directive
+notice|name|20:
+  name: Contract notice – general directive, light regime
+notice|name|21:
+  name: Contract notice – sectoral directive, light regime
+notice|name|22:
+  name: Subcontract notice – defence directive
+notice|name|23:
+  name: Design contest notice – general directive, design
+notice|name|24:
+  name: Design contest notice – sectoral directive, design
+notice|name|25:
+  name: Voluntary ex-ante transparency notice – general directive
+notice|name|26:
+  name: Voluntary ex-ante transparency notice – sectoral directive
+notice|name|27:
+  name: Voluntary ex-ante transparency notice – defence directive
+notice|name|28:
+  name: Voluntary ex-ante transparency notice – concession directive
+notice|name|29:
+  name: Contract award notice – general directive, standard regime
+notice|name|3:
+  name: Notice of the publication of a prior information notice on a buyer profile - defence directive
+notice|name|30:
+  name: Contract award notice – sectoral directive, standard regime
+notice|name|31:
+  name: Contract award notice – defence directive, standard regime
+notice|name|32:
+  name: Concession award notice – concession directive, standard regime
+notice|name|33:
+  name: Contract award notice – general directive, light regime
+notice|name|34:
+  name: Contract award notice – sectoral directive, light regime
+notice|name|35:
+  name: Concession award notice – concessions directive, light regime
+notice|name|36:
+  name: Design contest result notice – general directive, design
+notice|name|37:
+  name: Design contest result notice – sectoral directive, design
+notice|name|38:
+  name: Contract modification notice – general directive
+notice|name|39:
+  name: Contract modification notice – sectoral directive
+notice|name|4:
+  name: Prior information notice used only for information – general directive
+notice|name|40:
+  name: Contract modification notice – concessions directive
+notice|name|5:
+  name: Periodic indicative notice used only for information – sectoral directive
+notice|name|6:
+  name: Prior information notice used only for information – defence directive
+notice|name|7:
+  name: Prior information notice used to shorten time limits for receipt of tenders – general directive
+notice|name|8:
+  name: Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive
+notice|name|9:
+  name: Prior information notice used to shorten time limits for receipt of tenders – defence directive
+notice|name|CEI:
+  name: Call for expressions of interest
+notice|name|T01:
+  name: ''
+notice|name|T02:
+  name: ''
+notice|name|X01:
+  name: ''
+notice|name|X02:
+  name: ''

@@ -1,0 +1,72 @@
+AT111:
+  name: Mittelburgenland
+AT112:
+  name: Nordburgenland
+AT113:
+  name: Südburgenland
+AT121:
+  name: Mostviertel-Eisenwurzen
+AT122:
+  name: Niederösterreich-Süd
+AT123:
+  name: Sankt Pölten
+AT124:
+  name: Waldviertel
+AT125:
+  name: Weinviertel
+AT126:
+  name: Wiener Umland/Nordteil
+AT127:
+  name: Wiener Umland/Südteil
+AT130:
+  name: Wien
+AT211:
+  name: Klagenfurt-Villach
+AT212:
+  name: Oberkärnten
+AT213:
+  name: Unterkärnten
+AT221:
+  name: Graz
+AT222:
+  name: Liezen
+AT223:
+  name: Östliche Obersteiermark
+AT224:
+  name: Oststeiermark
+AT225:
+  name: West- und Südsteiermark
+AT226:
+  name: Westliche Obersteiermark
+AT311:
+  name: Innviertel
+AT312:
+  name: Linz-Wels
+AT313:
+  name: Mühlviertel
+AT314:
+  name: Steyr-Kirchdorf
+AT315:
+  name: Traunviertel
+AT321:
+  name: Lungau
+AT322:
+  name: Pinzgau-Pongau
+AT323:
+  name: Salzburg und Umgebung
+AT331:
+  name: Außerfern
+AT332:
+  name: Innsbruck
+AT333:
+  name: Osttirol
+AT334:
+  name: Tiroler Oberland
+AT335:
+  name: Tiroler Unterland
+AT341:
+  name: Bludenz-Bregenzer Wald
+AT342:
+  name: Rheintal-Bodenseegebiet
+ATZZZ:
+  name: Extra-Regio NUTS 3

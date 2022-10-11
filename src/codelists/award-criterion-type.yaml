@@ -1,0 +1,6 @@
+cost:
+  name: Cost
+price:
+  name: Price
+quality:
+  name: Quality

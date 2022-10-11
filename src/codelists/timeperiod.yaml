@@ -1,0 +1,72 @@
+APR:
+  name: April
+AUG:
+  name: August
+AUTUMN:
+  name: Autumn
+CALENDAR_DAY:
+  name: Calendar day
+DAY:
+  name: Day
+DEC:
+  name: December
+FEB:
+  name: February
+FRI:
+  name: Friday
+HOUR:
+  name: Hour
+JAN:
+  name: January
+JUL:
+  name: July
+JUN:
+  name: June
+MAR:
+  name: March
+MAY:
+  name: May
+MIN:
+  name: Minute
+MON:
+  name: Monday
+MONTH:
+  name: Month
+NOV:
+  name: November
+OCT:
+  name: October
+QUARTER:
+  name: Quarter
+SAT:
+  name: Saturday
+SEC:
+  name: Second
+SEP:
+  name: September
+SPRING:
+  name: Spring
+SUMMER:
+  name: Summer
+SUN:
+  name: Sunday
+THU:
+  name: Thursday
+TUE:
+  name: Tuesday
+UNKNOWN:
+  name: Unknown
+UNLIMITED:
+  name: Unlimited
+WED:
+  name: Wednesday
+WEEK:
+  name: Week
+WINTER:
+  name: Winter
+WORKING_DAY:
+  name: Working day
+YEAR:
+  name: Year
+YEAR_HALF:
+  name: Half year

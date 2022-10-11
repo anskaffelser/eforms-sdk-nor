@@ -1,0 +1,14 @@
+cancel:
+  name: Notice cancelled
+cancel-intent:
+  name: Cancellation intention
+cor-buy:
+  name: Buyer correction
+cor-esen:
+  name: eSender correction
+cor-pub:
+  name: Publisher correction
+info-release:
+  name: Information now available
+update-add:
+  name: Information updated

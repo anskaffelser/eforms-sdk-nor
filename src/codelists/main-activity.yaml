@@ -1,0 +1,40 @@
+airport:
+  name: Airport-related activities
+defence:
+  name: Defence
+econ-aff:
+  name: Economic affairs
+education:
+  name: Education
+electricity:
+  name: Electricity-related activities
+env-pro:
+  name: Environmental protection
+gas-heat:
+  name: Production, transport or distribution of gas or heat
+gas-oil:
+  name: Extraction of gas or oil
+gen-pub:
+  name: General public services
+hc-am:
+  name: Housing and community amenities
+health:
+  name: Health
+port:
+  name: Port-related activities
+post:
+  name: Postal services
+pub-os:
+  name: Public order and safety
+rail:
+  name: Railway services
+rcr:
+  name: Recreation, culture and religion
+soc-pro:
+  name: Social protection
+solid-fuel:
+  name: Exploration or extraction of coal or other solid fuels
+urttb:
+  name: Urban railway, tramway, trolleybus or bus services
+water:
+  name: Water-related activities

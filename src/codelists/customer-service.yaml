@@ -1,0 +1,18 @@
+assistance:
+  name: Assistance for persons with reduced mobility
+cancel:
+  name: Cancellations of services
+clean:
+  name: Cleanliness of rolling stock and station facilities
+complaint:
+  name: Complaint handling
+info:
+  name: Information
+other:
+  name: Other quality targets
+reliability:
+  name: Punctuality and reliability
+sat-surv:
+  name: Customer Satisfaction Survey
+ticket:
+  name: Tickets

@@ -1,0 +1,4 @@
+decided:
+  name: Decision has been made by the Review Body regarding the current request.
+requested:
+  name: Review has been requested and is still under process

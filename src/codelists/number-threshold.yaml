@@ -1,0 +1,4 @@
+max-pass:
+  name: Maximum number of tenders passing
+min-score:
+  name: Minimum score
