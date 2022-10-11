@@ -26,7 +26,7 @@ target/eforms-sdk:
 
 target/vendor:
 	@echo "* Install dependencies"
-	@bundle install
+	@bundle install --path=target/vendor
 
 target/eforms-sdk-nor: \
 	target/eforms-sdk-nor/efx-grammar \

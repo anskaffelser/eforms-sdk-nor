@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "schema/languages.json": "src/languages.yaml",
+        "schema/translation.json": ["src/codelists/*.yaml", "src/translations/*.yaml"],
+    }
+}
