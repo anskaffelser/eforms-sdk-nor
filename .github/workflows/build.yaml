@@ -23,6 +23,9 @@ jobs:
         with:
           ruby-version: '2.7'
 
+      - name: Fetch Ruby dependencies
+        run: make target/vendor
+
       - name: Fetch eForms SDK
         run: make target/eforms-sdk
 

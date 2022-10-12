@@ -4,7 +4,7 @@ require 'bundler/setup'
 require 'nokogiri'
 require 'slop'
 require 'fileutils'
-require 'YAML'
+require 'yaml'
 
 opts = Slop.parse do |o|
   o.string '-i', '--input-folder', default: 'target/eforms-sdk/translations'

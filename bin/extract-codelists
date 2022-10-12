@@ -5,7 +5,7 @@ require 'nokogiri'
 require 'json'
 require 'slop'
 require 'fileutils'
-require 'YAML'
+require 'yaml'
 
 opts = Slop.parse do |o|
   o.string '-i', '--index-file', default: 'target/eforms-sdk/codelists/codelists.json'

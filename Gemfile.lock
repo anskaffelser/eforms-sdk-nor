@@ -13,6 +13,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.17)
   nokogiri (~> 1.13)
   slop (~> 4.9)
   yaml (~> 0.2.0)
