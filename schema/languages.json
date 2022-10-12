@@ -18,6 +18,7 @@
                 "fallback": {
                     "title": "Prioritized list of languages to use for fallback",
                     "type": "array",
+                    "default": [],
                     "items": {
                         "type": "string",
                         "pattern": "^[a-z]{3}$"

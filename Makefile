@@ -16,6 +16,9 @@ extract: target/vendor target/eforms-sdk
 	@./bin/extract-codelists
 	@./bin/extract-translations
 
+status: target/vendor
+	@./bin/translation-status src/codelists src/translations
+
 target/eforms-sdk:
 	@echo "* Downloading eForms SDK"
 	@mkdir -p target

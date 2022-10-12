@@ -1,0 +1,82 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'slop'
+require 'YAML'
+
+opts = Slop.parse do |o|
+  o.string '-l', '--languages-file', default: 'src/languages.yaml'
+end
+
+$languages = YAML.load_file opts[:languages_file]
+$languages.each do |key,value|
+  value['fallback'] = value.fetch('fallback', [])
+end
+
+$totals = {}
+
+puts "#{''.ljust 80} | #{"Total".ljust 10} | #{"Codes".ljust 10} | #{"Fallback".ljust 10} | #{"Unverified".ljust 10}"
+
+def print_status(stats, title)
+  puts "---"
+  puts "#{title.ljust 80} | #{stats['codes'].to_s.rjust 10} | #{"-".rjust 10} | #{"-".rjust 10} | #{"-".rjust 10}"
+
+  $languages.each do |lang,langdata|
+    puts "#{langdata['name'].ljust 80} | #{(stats.fetch(lang, 0)+stats.fetch("#{lang}_fallback", 0)).to_s.rjust 10} | #{stats.fetch(lang, 0).to_s.rjust 10} | #{stats.fetch("#{lang}_fallback", 0).to_s.rjust 10} | #{stats.fetch("#{lang}_verify", 0).to_s.rjust 10}"
+  end
+end
+
+def load_status(path)
+  if File.directory? path
+    Dir[File.join(path, '*.yaml')].sort.each { |path| load_status(path) }
+    return
+  end
+
+  if !File.exists? path
+    puts "Not found: #{path}"
+    return
+  end
+
+  content = YAML.load_file path
+
+  stats = {}
+
+  content.each do |key,value|
+    stats['codes'] = stats.fetch('codes', 0) + 1
+
+    $languages.each do |lang,langdata|
+      if value.key? lang
+        stats[lang] = stats.fetch(lang, 0) + 1
+        if value.fetch("#{lang}_verify", false)
+          stats["#{lang}_verify"] = stats.fetch("#{lang}_verify", 0) + 1
+        end
+      else
+        filtered = langdata['fallback'].select { |key| value.key? key }
+        if filtered.size > 0
+          stats["#{lang}_fallback"] = stats.fetch("#{lang}_fallback", 0) + 1
+
+          if value.fetch("#{filtered[0]}_verify", false)
+            stats["#{lang}_fallback_verify"] = stats.fetch("#{lang}_fallback_verify", 0) + 1
+          end
+        end
+      end
+    end
+  end
+
+  print_status stats, path
+
+  puts "---"
+  puts "#{path.ljust 80} | #{stats['codes'].to_s.rjust 10} | #{"-".rjust 10} | #{"-".rjust 10} | #{"-".rjust 10}"
+  
+  $languages.each do |lang,langdata|
+    puts "#{langdata['name'].ljust 80} | #{(stats.fetch(lang, 0)+stats.fetch("#{lang}_fallback", 0)).to_s.rjust 10} | #{stats.fetch(lang, 0).to_s.rjust 10} | #{stats.fetch("#{lang}_fallback", 0).to_s.rjust 10} | #{stats.fetch("#{lang}_verify", 0).to_s.rjust 10}"
+  end
+
+  stats.each do |key,value|
+    $totals[key] = $totals.fetch(key, 0) + value
+  end
+end
+
+opts.arguments.sort.each { |path| load_status path }
+
+print_status $totals, 'Total'

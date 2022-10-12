@@ -22,7 +22,8 @@
                 },
                 "^[a-z]{3}_verify$": {
                     "title": "Indication of verification needed",
-                    "type": "boolean"
+                    "type": "boolean",
+                    "default": false
                 }
             }
         }
