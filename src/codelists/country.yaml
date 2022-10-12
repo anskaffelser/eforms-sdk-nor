@@ -1,29 +1,37 @@
 1A0:
   name: Kosovo
+  nob: Kosovo
 ABW:
   name: Aruba
 AFG:
   name: Afghanistan
+  nob: Afganistan
 AFI:
   name: French Afar and Issas
 AGO:
   name: Angola
+  nob: Angola
 AIA:
   name: Anguilla
 ALA:
   name: Åland Islands
+  nob: Åland
 ALB:
   name: Albania
+  nob: Albania
 AND:
   name: Andorra
+  nob: Andorra
 ANT:
   name: Netherlands Antilles
 ARE:
   name: United Arab Emirates
 ARG:
   name: Argentina
+  nob: Argentina
 ARM:
   name: Armenia
+  nob: Armenia
 ASM:
   name: American Samoa
 ATA:
@@ -36,8 +44,10 @@ ATG:
   name: Antigua and Barbuda
 ATN:
   name: Dronning Maud Land
+  nob: Dronning Maud Land
 AUS:
   name: Australia
+  nob: Australia
 AUT:
   name: Austria
   nob: Østerrike
@@ -47,34 +57,42 @@ BDI:
   name: Burundi
 BEL:
   name: Belgium
+  nob: Belgia
 BEN:
   name: Benin
 BES:
   name: Bonaire, Sint Eustatius and Saba
 BFA:
   name: Burkina Faso
+  nob: Burkina Faso
 BGD:
   name: Bangladesh
 BGR:
   name: Bulgaria
+  nob: Bulgaria
 BHR:
   name: Bahrain
 BHS:
   name: Bahamas
+  nob: Bahamas
 BIH:
   name: Bosnia and Herzegovina
 BLM:
   name: Saint Barthélemy
 BLR:
   name: Belarus
+  nob: Belarus
 BLZ:
   name: Belize
 BMU:
   name: Bermuda
+  nob: Bermuda
 BOL:
   name: Bolivia
+  nob: Bolivia
 BRA:
   name: Brazil
+  nob: Brasil
 BRB:
   name: Barbados
 BRN:
@@ -89,26 +107,33 @@ BWA:
   name: Botswana
 BYS:
   name: Belarus
+  nob: Belarus
 CAF:
   name: Central African Republic
+  nob: Den sentralafrikanske republikk
 CAN:
   name: Canada
+  nob: Canada
 CCK:
   name: Cocos (Keeling) Islands
 CHE:
   name: Switzerland
+  nob: Sveits
 CHL:
   name: Chile
+  nob: Chile
 CHN:
   name: China
 CIV:
   name: Côte d’Ivoire
 CMR:
   name: Cameroon
+  nob: Kamerun
 COD:
   name: Democratic Republic of the Congo
 COG:
   name: Congo
+  nob: Kongo
 COK:
   name: Cook Islands
 COL:
@@ -127,18 +152,23 @@ CTE:
   name: Canton and Enderbury Islands
 CUB:
   name: Cuba
+  nob: Cuba
 CUW:
   name: Curaçao
 CXR:
   name: Christmas Island
 CYM:
   name: Cayman Islands
+  nob: Caymanøyene
 CYP:
   name: Cyprus
+  nob: Kypros
 CZE:
   name: Czech Republic
+  nob: Tsjekkia
 DDR:
   name: East Germany
+  nob: Øst-Tyskland
 DEU:
   name: Germany
   nob: Tyskland
@@ -155,28 +185,39 @@ DOM:
   name: Dominican Republic
 DZA:
   name: Algeria
+  nob: Algeria
 ECU:
   name: Ecuador
 EGY:
   name: Egypt
+  nob: Egypt
 ERI:
   name: Eritrea
+  nob: Eritrea
 ESH:
   name: Western Sahara
+  nob: Vest-Sahara
 ESP:
   name: Spain
+  nob: Spania
 EST:
   name: Estonia
+  nob: Estland
 ETH:
   name: Ethiopia
+  nob: Etiopia
 EUR:
   name: European Union
+  nob: Den europeiske union
 FIN:
   name: Finland
+  nob: Finland
 FJI:
   name: Fiji
+  nob: Fiji
 FLK:
   name: Falkland Islands
+  nob: Falklandsøyene
 FQ0:
   name: French Southern and Antarctic Lands
 FRA:
@@ -190,18 +231,23 @@ FXX:
   name: Metropolitan France
 GAB:
   name: Gabon
+  nob: Gabon
 GBR:
   name: United Kingdom
+  nob: Storbritania
 GEL:
   name: Gilbert and Ellice Islands
 GEO:
   name: Georgia
+  nob: Georgia
 GGY:
   name: Guernsey
 GHA:
   name: Ghana
+  nob: Ghana
 GIB:
   name: Gibraltar
+  nob: Gibraltar
 GIN:
   name: Guinea
 GLP:
@@ -219,6 +265,7 @@ GRD:
   name: Grenada
 GRL:
   name: Greenland
+  nob: Grønland
 GTM:
   name: Guatemala
 GUF:
@@ -237,16 +284,20 @@ HRV:
   name: Croatia
 HTI:
   name: Haiti
+  nob: Haiti
 HUN:
   name: Hungary
+  nob: Ungarn
 HVO:
   name: Upper Volta
+  nob: Republikken Øvre Volta
 IDN:
   name: Indonesia
 IMN:
   name: Isle of Man
 IND:
   name: India
+  nob: India
 IOT:
   name: British Indian Ocean Territory
 IRL:
@@ -263,16 +314,20 @@ ISL:
   nob: Island
 ISR:
   name: Israel
+  nob: Israel
 ITA:
   name: Italy
+  nob: Italia
 JAM:
   name: Jamaica
 JEY:
   name: Jersey
 JOR:
   name: Jordan
+  nob: Jordan
 JPN:
   name: Japan
+  nob: Japan
 JTN:
   name: Johnston Island
 KAZ:
@@ -295,6 +350,7 @@ LAO:
   name: Laos
 LBN:
   name: Lebanon
+  nob: Libanon
 LBR:
   name: Liberia
 LBY:
@@ -309,10 +365,13 @@ LSO:
   name: Lesotho
 LTU:
   name: Lithuania
+  nob: Litauen
 LUX:
   name: Luxembourg
+  nob: Luxemburg
 LVA:
   name: Latvia
+  nob: Latvia
 MAC:
   name: Macau
 MAF:
@@ -321,6 +380,7 @@ MAR:
   name: Morocco
 MCO:
   name: Monaco
+  nob: Monaco
 MDA:
   name: Moldova
 MDG:
@@ -366,6 +426,7 @@ MYT:
   name: Mayotte
 NAM:
   name: Namibia
+  nob: Namibia
 NCL:
   name: New Caledonia
 NER:
@@ -374,6 +435,7 @@ NFK:
   name: Norfolk Island
 NGA:
   name: Nigeria
+  nob: Nigeria
 NHB:
   name: New Hebrides
 NIC:
@@ -382,6 +444,7 @@ NIU:
   name: Niue
 NLD:
   name: Netherlands
+  nob: Nederland
 NOR:
   name: Norway
   nno: Noreg
@@ -401,6 +464,7 @@ PAK:
   nob: Pakistan
 PAN:
   name: Panama
+  nob: Panama
 PCI:
   name: Trust Territory of the Pacific Islands
 PCN:
@@ -423,12 +487,15 @@ PRI:
   name: Puerto Rico
 PRK:
   name: North Korea
+  nob: Nord-Korea
 PRT:
   name: Portugal
+  nob: Portugal
 PRY:
   name: Paraguay
 PSE:
   name: Palestine
+  nob: Palestina
 PUS:
   name: US Miscellaneous Pacific Islands
 PYF:
@@ -441,8 +508,10 @@ RHO:
   name: Southern Rhodesia
 ROU:
   name: Romania
+  nob: Romania
 RUS:
   name: Russia
+  nob: Russland
 RWA:
   name: Rwanda
 SAU:
@@ -451,6 +520,7 @@ SCG:
   name: Serbia and Montenegro
 SDN:
   name: Sudan
+  nob: Sudan
 SEN:
   name: Senegal
 SGP:
@@ -461,6 +531,7 @@ SHN:
   name: Saint Helena
 SJM:
   name: Svalbard and Jan Mayen
+  nob: Svalbard og Jan Mayen
 SKM:
   name: Sikkim
 SLB:
@@ -471,6 +542,7 @@ SLV:
   name: El Salvador
 SMR:
   name: San Marino
+  nob: San Marino
 SOM:
   name: Somalia
   nob: Somalia
@@ -478,12 +550,15 @@ SPM:
   name: Saint Pierre and Miquelon
 SRB:
   name: Serbia
+  nob: Serbia
 SSD:
   name: South Sudan
+  nob: Sør-Sudan
 STP:
   name: São Tomé and Príncipe
 SUN:
   name: Soviet Union
+  nob: Sovjetunionen
 SUR:
   name: Suriname
 SVK:
@@ -530,6 +605,7 @@ TUN:
   name: Tunisia
 TUR:
   name: Turkey
+  nob: Tyrkia
 TUV:
   name: Tuvalu
 TWN:
@@ -540,6 +616,7 @@ UGA:
   name: Uganda
 UKR:
   name: Ukraine
+  nob: Ukraina
 UMI:
   name: United States Minor Outlying Islands
 URY:
@@ -550,18 +627,21 @@ UZB:
   name: Uzbekistan
 VAT:
   name: Vatican City State
+  nob: Vatikanstaten
 VCT:
   name: Saint Vincent and the Grenadines
 VDR:
   name: Democratic Republic of Vietnam
 VEN:
   name: Venezuela
+  nob: Venezuela
 VGB:
   name: British Virgin Islands
 VIR:
   name: US Virgin Islands
 VNM:
   name: Vietnam
+  nob: Vietnam
 VUT:
   name: Vanuatu
 WAK:
@@ -578,6 +658,7 @@ YUG:
   name: Yugoslavia
 ZAF:
   name: South Africa
+  nob: Sør-Afrika
 ZMB:
   name: Zambia
 ZR0:

@@ -1,6 +1,9 @@
 allowed:
   name: Allowed
+  nob: Tillatt
 not-allowed:
   name: Not allowed
+  nob: Ikke tillatt
 required:
   name: Required
+  nob: Obligatorisk

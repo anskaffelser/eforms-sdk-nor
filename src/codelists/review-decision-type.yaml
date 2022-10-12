@@ -1,7 +1,9 @@
 accepted:
   name: Accepted
+  nob: Akseptert
 other:
   name: Other
+  nob: Annet
 rej-dl-passed:
   name: Rejected, because the complainant does not have legal standing, as the deadline for submitting a review request has already passed
 rej-ncomp:

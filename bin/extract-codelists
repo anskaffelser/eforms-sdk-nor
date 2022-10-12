@@ -14,7 +14,7 @@ end
 
 index = JSON.parse File.read opts[:index_file]
 
-index['codelists'].each do |cl|
+index['codelists'].select { |cl| !cl.key? 'parentId' }.each do |cl|
   source = File.expand_path cl['filename'], File.dirname(opts[:index_file])
   target = File.expand_path cl['filename'].sub('.gc', '.yaml'), opts[:output_folder]
 

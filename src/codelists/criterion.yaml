@@ -32,6 +32,7 @@ finan-requ:
   name: Other economic or financial requirements
 fraud:
   name: Fraud
+  nob: Svindel
 gen-year-to:
   name: General yearly turnover
 human-traffic:

@@ -2,6 +2,7 @@ airport:
   name: Airport-related activities
 defence:
   name: Defence
+  nob: Forsvar
 econ-aff:
   name: Economic affairs
 education:
@@ -20,6 +21,7 @@ hc-am:
   name: Housing and community amenities
 health:
   name: Health
+  nob: Helse
 port:
   name: Port-related activities
 post:

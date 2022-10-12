@@ -22,7 +22,7 @@ def print_status(stats, title)
   puts "#{title.ljust 80} | #{stats['codes'].to_s.rjust 10} | #{"-".rjust 10} | #{"-".rjust 10} | #{"-".rjust 10}"
 
   $languages.each do |lang,langdata|
-    puts "#{langdata['name'].ljust 80} | #{(stats.fetch(lang, 0)+stats.fetch("#{lang}_fallback", 0)).to_s.rjust 10} | #{stats.fetch(lang, 0).to_s.rjust 10} | #{stats.fetch("#{lang}_fallback", 0).to_s.rjust 10} | #{stats.fetch("#{lang}_verify", 0).to_s.rjust 10}"
+    puts "#{[lang, langdata['name']].join(' - ').ljust 80} | #{(stats.fetch(lang, 0)+stats.fetch("#{lang}_fallback", 0)).to_s.rjust 10} | #{stats.fetch(lang, 0).to_s.rjust 10} | #{stats.fetch("#{lang}_fallback", 0).to_s.rjust 10} | #{stats.fetch("#{lang}_verify", 0).to_s.rjust 10}"
   end
 end
 

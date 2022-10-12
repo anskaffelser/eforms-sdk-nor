@@ -1,6 +1,8 @@
 'no':
   name: 'No'
+  nob: Nei
 not-known:
   name: Not yet known
 'yes':
   name: 'Yes'
+  nob: Ja

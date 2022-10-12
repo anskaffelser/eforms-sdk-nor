@@ -1,6 +1,0 @@
-allowed:
-  name: Allowed
-not-allowed:
-  name: Not allowed
-required:
-  name: Required
