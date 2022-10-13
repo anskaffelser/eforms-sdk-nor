@@ -18,6 +18,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Prepare version labels
+        uses: k15g/action-version-labels@v1
+        with:
+          prefix: project
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -34,3 +39,20 @@ jobs:
 
       - name: Build folder
         run: make build
+
+      - name: Package
+        run: make package
+
+      - name: Upload bundle (artifact)
+        uses: actions/upload-artifact@v2
+        with:
+          path: target/*.tar.gz
+          name: eforms-sdk-nor-resources-${{ env.PROJECT_VERSION }}
+          retention-days: 3
+
+      - name: Upload bundle (artifact)
+        uses: actions/upload-artifact@v2
+        with:
+          path: target/*.zip
+          name: eforms-sdk-nor-resources-${{ env.PROJECT_VERSION }}
+          retention-days: 3

@@ -1,0 +1,49 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'nokogiri'
+require 'slop'
+require 'fileutils'
+require 'yaml'
+
+opts = Slop.parse do |o|
+  o.string '-s', '--source', default: 'src/translations'
+  o.string '-t', '--target', default: 'target/eforms-sdk-nor/translations'
+  o.string '-l', '--languages', default: 'src/languages.yaml'
+end
+
+header = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE properties SYSTEM \"http://java.sun.com/dtd/properties.dtd\">"
+
+languages = YAML.load File.open(opts[:languages], "r:UTF-8")
+
+Dir[File.join(opts[:source], '*.yaml')].each do |source_file|
+  source = YAML.load File.open(source_file, "r:UTF-8")
+  source_code = File.basename(source_file).sub('.yaml', '')
+
+  puts "Creating translation for #{source_code}"
+
+  languages.sort.each do |lang,langdata|
+    acceptable = [lang] + langdata.fetch('fallback', [])
+
+    result = Nokogiri::XML::Builder.new do |xml|
+      xml.properties do |xml|
+        xml.comment_ "#{source_code} in #{langdata['name']}."
+
+        source.each do |key,translations|
+          hit = translations.select { |k,v| acceptable.include? k }.first
+
+          if hit != nil
+            xml.entry(key: key) do |entry|
+              entry.text hit[1]
+            end
+          end
+        end
+      end
+    end
+
+    target_file = File.join opts[:target], "#{source_code}_#{langdata['alt']}.xml"
+    File.open(target_file, "w:UTF-8") do |f| 
+      f.write header + result.to_xml(encoding: 'UTF-8')["<?xml version='1.0' encoding='UTF-8'?>".size..-1].gsub("\n  ", "\n")
+    end 
+  end
+end

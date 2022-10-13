@@ -1,0 +1,78 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'nokogiri'
+require 'slop'
+require 'fileutils'
+require 'yaml'
+require 'json'
+
+opts = Slop.parse do |o|
+  o.string '-o', '--original', default: 'target/eforms-sdk/codelists/codelists.json'
+  o.string '-s', '--source', default: 'src/codelists'
+  o.string '-t', '--target', default: 'target/eforms-sdk-nor/codelists'
+  o.string '-l', '--languages', default: 'src/languages.yaml'
+end
+
+languages = YAML.load_file opts[:languages]
+
+FileUtils.mkdir_p opts[:target]
+FileUtils.cp(opts[:original], File.join(opts[:target], 'codelists.json'))
+
+JSON.parse(File.read opts[:original])['codelists'].each do |cl|
+
+  original = File.join File.dirname(opts[:original]), cl['filename']
+  source = File.join opts[:source], "#{cl.fetch('parentId', cl['id'])}.yaml"
+  target = File.join opts[:target], cl['filename']
+
+  puts "Creating codelist for #{cl['id']}"
+
+  xml = Nokogiri::XML File.open original
+  translations = YAML.load_file source
+
+  # Add column definitions
+  columnset = xml.xpath("//ColumnSet").first
+  languages.each do |lang,_|
+    column = Nokogiri::XML::Builder.new do |xml|
+      xml.Column(Id: "#{lang}_label", Use: 'optional') do |xml|
+        xml.ShortName "#{lang}Label"
+        xml.Data(Lang: lang, Type: 'string')
+      end
+    end
+    columnset.add_child "   " + column.to_xml(indent: 3).rstrip['<?xml version="1.0"?>'.size+1..-1].gsub("\n", "\n      ") + "\n   "
+  end
+
+  # Update rows
+  xml.xpath('//Row').each do |row|
+    code = row.xpath("Value[@ColumnRef='code']/SimpleValue/text()").to_s.strip
+
+    if translations.key? code
+      translation = translations[code]
+
+      languages.each do |lang,langdata|
+        translated = nil
+        
+        if translation.key? lang
+          translated = translation[lang]
+        else
+          f = langdata.fetch('fallback', []).select { |l|  translation.key? l }.first
+          if f != nil
+            translated = translation[f]
+          end
+        end
+
+        if translated != nil
+          value = Nokogiri::XML::Builder.new do |xml|
+            xml.Value(ColumnRef: "#{lang}_label") do |xml|
+              xml.SimpleValue translated
+            end
+          end
+
+          row.add_child "   " + value.to_xml(indent: 3).rstrip['<?xml version="1.0"?>'.size+1..-1].gsub("\n", "\n         ") + "\n      "
+        end
+      end
+    end
+  end
+
+  File.write target, xml.to_xml
+end

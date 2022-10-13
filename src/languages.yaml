@@ -1,6 +1,8 @@
 nno:
   name: norsk (nynorsk)
+  alt: nn
   fallback:
     - nob
 nob:
   name: norsk (bokmål)
+  alt: nb

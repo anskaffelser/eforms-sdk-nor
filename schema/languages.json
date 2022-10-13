@@ -8,12 +8,18 @@
             "type": "object",
             "additionalProperties": false,
             "required": [
-                "name"
+                "name",
+                "alt"
             ],
             "properties": {
                 "name": {
                     "title": "Language name",
                     "type": "string"
+                },
+                "alt": {
+                    "title": "Alternative 2-letter code",
+                    "type": "string",
+                    "pattern": "^[a-z]{2}$"
                 },
                 "fallback": {
                     "title": "Prioritized list of languages to use for fallback",

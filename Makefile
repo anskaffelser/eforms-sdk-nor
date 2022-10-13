@@ -2,6 +2,8 @@ EFORMS_MINOR=1.2
 EFORMS_PATCH=0
 EFORMS_VERSION=$(EFORMS_MINOR).$(EFORMS_PATCH)
 
+VERSION := $(shell echo -n $${PROJECT_VERSION:-dev-$$(date -u +%Y%m%d-%H%M%Sz)})
+
 default: clean-light build
 
 clean-light:
@@ -11,6 +13,8 @@ clean:
 	@rm -rf target .bundle/vendor
 
 build: target/eforms-sdk-nor
+	@./bin/create-codelists
+	@./bin/create-translations
 
 extract: .bundle/vendor target/eforms-sdk
 	@./bin/extract-codelists
@@ -18,10 +22,19 @@ extract: .bundle/vendor target/eforms-sdk
 
 update-code: .bundle/vendor
 	@./bin/update-code
-	
 
 status: .bundle/vendor
 	@./bin/translation-status src/codelists src/translations
+
+package: package-tgz package-zip
+
+package-tgz:
+	@rm -f target/eforms-sdk-nor-*.tar.gz
+	@cd target/eforms-sdk-nor && tar -czf ../eforms-sdk-nor-$(VERSION).tar.gz *
+
+package-zip:
+	@rm -f target/eforms-sdk-nor-*.zip
+	@cd target/eforms-sdk-nor && zip -q9r ../eforms-sdk-nor-$(VERSION).zip *
 
 target/eforms-sdk:
 	@echo "* Downloading eForms SDK"
