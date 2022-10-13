@@ -8,15 +8,19 @@ clean-light:
 	@rm -rf target/eforms-sdk-nor
 
 clean:
-	@rm -rf target
+	@rm -rf target .bundle/vendor
 
 build: target/eforms-sdk-nor
 
-extract: target/vendor target/eforms-sdk
+extract: .bundle/vendor target/eforms-sdk
 	@./bin/extract-codelists
 	@./bin/extract-translations
 
-status: target/vendor
+update-code: .bundle/vendor
+	@./bin/update-code
+	
+
+status: .bundle/vendor
 	@./bin/translation-status src/codelists src/translations
 
 target/eforms-sdk:
@@ -27,9 +31,9 @@ target/eforms-sdk:
 	@mv target/eForms-SDK-$(EFORMS_VERSION) target/eforms-sdk
 	@rm -rf target/eforms-sdk.zip
 
-target/vendor:
+.bundle/vendor:
 	@echo "* Install dependencies"
-	@bundle install --path=target/vendor
+	@bundle install --path=.bundle/vendor
 
 target/eforms-sdk-nor: \
 	target/eforms-sdk-nor/efx-grammar \

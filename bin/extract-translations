@@ -20,7 +20,7 @@ Dir["#{opts[:input_folder]}/*_en.xml"].sort.each do |source|
   map = File.exists?(target) ? YAML.load_file(target) : Hash::new
 
   xml = Nokogiri::XML File.read source
-  xml.xpath("//entry").each do |row|
+  xml.xpath("//entry[normalize-space(text())]").each do |row|
     code = row.xpath("@key").to_s
     name = row.xpath("text()").to_s
 
