@@ -1,0 +1,30 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'slop'
+require 'yaml'
+
+opts = Slop.parse do |o|
+  o.string '-f', '--file', default: 'src/translations/code.yaml'
+  o.string '-t', '--translations', default: 'src/codelists'
+end
+
+target = YAML.load_file opts[:file]
+
+Dir[File.join(opts[:translations], '*.yaml')].sort.each do |input|
+  key = File.basename(input).sub('.yaml', '')
+
+  YAML.load_file(input).each do |code, obj|
+    code = "code|name|#{key}.#{code}"
+
+    obj.select { |k| k.size == 3 }.each do |lang,value|
+      if target.key? code
+        target[code][lang] = value
+      else
+        puts "Unknown code: #{code}"
+      end
+    end
+  end
+end
+
+File.write opts[:file], target.to_yaml(options = {:line_width => -1})[4..-1]
