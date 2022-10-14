@@ -19,6 +19,7 @@ build: target/eforms-sdk-nor
 extract: .bundle/vendor target/eforms-sdk
 	@./bin/extract-codelists
 	@./bin/extract-translations
+	@rm src/translations/rule.yaml
 
 update-code: .bundle/vendor
 	@./bin/update-code

@@ -20,6 +20,8 @@ Dir[File.join(opts[:source], '*.yaml')].each do |source_file|
   source = YAML.load File.open(source_file, "r:UTF-8")
   source_code = File.basename(source_file).sub('.yaml', '')
 
+  write = false
+
   puts "Creating translation for #{source_code}"
 
   languages.sort.each do |lang,langdata|
@@ -33,6 +35,7 @@ Dir[File.join(opts[:source], '*.yaml')].each do |source_file|
           hit = translations.select { |k,v| acceptable.include? k }.first
 
           if hit != nil
+            write = true
             xml.entry(key: key) do |entry|
               entry.text hit[1]
             end
@@ -41,9 +44,11 @@ Dir[File.join(opts[:source], '*.yaml')].each do |source_file|
       end
     end
 
-    target_file = File.join opts[:target], "#{source_code}_#{langdata['alt']}.xml"
-    File.open(target_file, "w:UTF-8") do |f| 
-      f.write header + result.to_xml(encoding: 'UTF-8')["<?xml version='1.0' encoding='UTF-8'?>".size..-1].gsub("\n  ", "\n")
-    end 
+    if write
+      target_file = File.join opts[:target], "#{source_code}_#{langdata['alt']}.xml"
+      File.open(target_file, "w:UTF-8") do |f| 
+        f.write header + result.to_xml(encoding: 'UTF-8')["<?xml version='1.0' encoding='UTF-8'?>".size..-1].gsub("\n  ", "\n")
+      end
+    end
   end
 end
