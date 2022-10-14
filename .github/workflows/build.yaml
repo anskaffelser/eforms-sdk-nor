@@ -56,3 +56,21 @@ jobs:
           path: target/*.zip
           name: eforms-sdk-nor-resources-${{ env.PROJECT_VERSION }}
           retention-days: 3
+
+      - name: Upload publishing.tar.gz
+        uses: k15g/action-github-asset-upload@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          file: target/eforms-sdk-nor-${{ env.PROJECT_VERSION }}.tar.gz
+          name: eforms-sdk-nor-${{ env.PROJECT_VERSION }}.tar.gz
+          label: eForms SDK NOR ${{ env.PROJECT_VERSION }} (tar.gz)
+
+      - name: Upload publishing.zip
+        uses: k15g/action-github-asset-upload@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          file: target/eforms-sdk-nor-${{ env.PROJECT_VERSION }}.zip
+          name: eforms-sdk-nor-${{ env.PROJECT_VERSION }}.zip
+          label: eForms SDK NOR ${{ env.PROJECT_VERSION }} (zip)
