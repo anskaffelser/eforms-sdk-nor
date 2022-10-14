@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "sdk_minor"
+    ],
+    "properties": {
+        "sdk_minor": {
+            "type": "string"
+        },
+        "sdk_patch": {
+            "type": "string"
+        }
+    }
+}

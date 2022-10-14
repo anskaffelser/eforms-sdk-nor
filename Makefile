@@ -1,5 +1,5 @@
-EFORMS_MINOR=1.2
-EFORMS_PATCH=0
+EFORMS_MINOR=$$(./bin/property -p sdk_minor)
+EFORMS_PATCH=$$(./bin/property -p sdk_patch)
 EFORMS_VERSION=$(EFORMS_MINOR).$(EFORMS_PATCH)
 
 VERSION := $(shell echo -n $${PROJECT_VERSION:-dev-$$(date -u +%Y%m%d-%H%M%Sz)})
@@ -13,19 +13,19 @@ clean:
 	@rm -rf target .bundle/vendor
 
 build: target/eforms-sdk-nor
-	@./bin/create-codelists
-	@./bin/create-translations
+	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/create-codelists
+	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/create-translations
 
 extract: .bundle/vendor target/eforms-sdk
-	@./bin/extract-codelists
-	@./bin/extract-translations
+	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/extract-codelists
+	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/extract-translations
 	@rm src/translations/rule.yaml
 
 update-code: .bundle/vendor
-	@./bin/update-code
+	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/update-code
 
 status: .bundle/vendor
-	@./bin/translation-status src/codelists src/translations
+	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/translation-status src/codelists src/translations
 
 package: package-tgz package-zip
 
@@ -37,9 +37,10 @@ package-zip:
 	@rm -f target/eforms-sdk-nor-*.zip
 	@cd target/eforms-sdk-nor && zip -q9r ../eforms-sdk-nor-$(VERSION).zip *
 
-target/eforms-sdk:
+target/eforms-sdk: .bundle/vendor
 	@echo "* Downloading eForms SDK"
 	@mkdir -p target
+	@rm -rf target/eforms-sdk
 	@wget -q https://github.com/OP-TED/eForms-SDK/archive/refs/tags/$(EFORMS_VERSION).zip -O target/eforms-sdk.zip
 	@unzip -qo target/eforms-sdk.zip -d target
 	@mv target/eForms-SDK-$(EFORMS_VERSION) target/eforms-sdk

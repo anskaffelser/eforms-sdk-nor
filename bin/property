@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'slop'
+require 'yaml'
+
+opts = Slop.parse do |o|
+  o.string '-f', '--file', default: 'src/properties.yaml'
+  o.string '-p', '--property', required: true
+  o.string '-d', '--default', default: ''
+end
+
+properties = YAML.load_file opts[:file]
+
+puts properties.fetch(opts[:property], opts[:default])

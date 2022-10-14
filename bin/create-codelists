@@ -15,6 +15,12 @@ opts = Slop.parse do |o|
 end
 
 languages = YAML.load_file opts[:languages]
+comment = <<-EOS
+<!--
+  This file is a modified variant of the equivalent file found in eForms SDK #{ENV.fetch('EFORMS_VERSION', '[unknown version]')}.
+  Modifications are limitied to adding support for extra language#{languages.size > 1 ? 's' : ''}.
+-->
+EOS
 
 FileUtils.mkdir_p opts[:target]
 FileUtils.cp(opts[:original], File.join(opts[:target], 'codelists.json'))
@@ -74,5 +80,5 @@ JSON.parse(File.read opts[:original])['codelists'].each do |cl|
     end
   end
 
-  File.write target, xml.to_xml
+  File.write target, xml.to_xml.sub('?>', "?>\n#{comment.strip}")
 end
