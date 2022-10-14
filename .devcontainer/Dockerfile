@@ -10,3 +10,6 @@ FROM mcr.microsoft.com/vscode/devcontainers/ruby:0-${VARIANT}
 
 # [Optional] Uncomment this line to install additional gems.
 # RUN gem install <your-gem-names-here>
+
+RUN apt update \
+ && apt install gettext-base
