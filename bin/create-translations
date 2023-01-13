@@ -16,7 +16,7 @@ header = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE properties SYSTE
 
 languages = YAML.load File.open(opts[:languages], "r:UTF-8")
 
-Dir[File.join(opts[:source], '*.yaml')].each do |source_file|
+Dir[File.join(opts[:source], '*.yaml')].sort.each do |source_file|
   source = YAML.load File.open(source_file, "r:UTF-8")
   source_code = File.basename(source_file).sub('.yaml', '')
 

@@ -11,6 +11,12 @@
         },
         "sdk_patch": {
             "type": "string"
+        },
+        "versions": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
         }
     }
 }

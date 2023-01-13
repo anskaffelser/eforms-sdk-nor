@@ -12,6 +12,10 @@ clean-light:
 clean:
 	@rm -rf target .bundle/vendor
 
+versions:
+	@echo -n "::set-output name=matrix::"
+	@./bin/versions
+
 build: target/eforms-sdk-nor
 	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/create-codelists
 	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/create-translations
@@ -38,7 +42,7 @@ package-zip:
 	@cd target/eforms-sdk-nor && zip -q9r ../eforms-sdk-nor-$(VERSION).zip *
 
 target/eforms-sdk: .bundle/vendor
-	@echo "* Downloading eForms SDK"
+	@echo "* Downloading eForms SDK $(EFORMS_VERSION)"
 	@mkdir -p target
 	@rm -rf target/eforms-sdk
 	@wget -q https://github.com/OP-TED/eForms-SDK/archive/refs/tags/$(EFORMS_VERSION).zip -O target/eforms-sdk.zip

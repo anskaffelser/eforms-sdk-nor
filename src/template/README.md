@@ -1,4 +1,4 @@
-# eForms SDK NOR (Norway) ${VERSION}
+# eForms SDK ${EFORMS_VERSION} NOR (Norway) ${VERSION}
 
 This package is modified variant of the [official eForms SDK](https://github.com/OP-TED/eForms-SDK) ${EFORMS_VERSION}.
 
@@ -17,6 +17,6 @@ Please see the [information on Anskaffelser.no](https://anskaffelser.no/dfos-arb
 
 ## Licensing
 
-eForms SDK is licensed under the [European Union Public License, version 1.2 (EUPL-1.2)](https://opensource.org/licenses/EUPL-1.2) until version 1.2.1, versions after 1.2.1 is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+eForms SDK is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 Additions made available in this package is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).

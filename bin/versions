@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'json'
+require 'slop'
+require 'yaml'
+
+opts = Slop.parse do |o|
+  o.string '-f', '--file', default: 'src/properties.yaml'
+end
+
+properties = YAML.load_file opts[:file]
+
+puts properties.fetch('versions', [])
+  .map { |v| {'EFORMS_MINOR': v.rpartition('.').first, 'EFORMS_PATCH': v.rpartition('.').last} }
+  .to_json
