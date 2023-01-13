@@ -5,6 +5,7 @@ require 'json'
 require 'slop'
 require 'yaml'
 
+
 opts = Slop.parse do |o|
   o.string '-f', '--file', default: 'src/properties.yaml'
 end

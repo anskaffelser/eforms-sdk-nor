@@ -15,20 +15,24 @@ jobs:
     runs-on: ubuntu-latest
 
     outputs:
-      result: ${{ steps.set-matrix.outputs.matrix }}
+      matrix: ${{ env.MATRIX }}
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '2.7'
 
+      - name: Fetch Ruby dependencies
+        run: make .bundle/vendor
+
       - name: Fetch versions
-        id: set-matrix
-        run: make versions
+        run: |
+          make versions
+          make versions >> $GITHUB_ENV
 
 
   build:
@@ -37,11 +41,16 @@ jobs:
     needs: versions
 
     strategy:
-      matrix: ${{fromJSON(needs.versions.outputs.matrix)}}
+      matrix: 
+        include: ${{fromJSON(needs.versions.outputs.matrix)}}
+
+    env:
+      EFORMS_MINOR: ${{ matrix.EFORMS_MINOR }}
+      EFORMS_PATCH: ${{ matrix.EFORMS_PATCH }}
   
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Prepare version labels
         uses: k15g/action-version-labels@v1

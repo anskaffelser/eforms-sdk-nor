@@ -1,6 +1,6 @@
-EFORMS_MINOR=$$(./bin/property -p sdk_minor)
-EFORMS_PATCH=$$(./bin/property -p sdk_patch)
-EFORMS_VERSION=$(EFORMS_MINOR).$(EFORMS_PATCH)
+EFORMS_MINOR ?= $$(./bin/property -p sdk_minor)
+EFORMS_PATCH ?= $$(./bin/property -p sdk_patch)
+EFORMS_VERSION = $(EFORMS_MINOR).$(EFORMS_PATCH)
 
 VERSION := $(shell echo -n $${PROJECT_VERSION:-dev-$$(date -u +%Y%m%d-%H%M%Sz)})
 
@@ -12,8 +12,11 @@ clean-light:
 clean:
 	@rm -rf target .bundle/vendor
 
+version:
+	@echo $(EFORMS_VERSION)
+
 versions:
-	@echo -n "::set-output name=matrix::"
+	@echo -n "MATRIX="
 	@./bin/versions
 
 build: target/eforms-sdk-nor
