@@ -34,7 +34,13 @@ JSON.parse(File.read opts[:original])['codelists'].each do |cl|
   puts "Creating codelist for #{cl['id']}"
 
   xml = Nokogiri::XML File.open original
-  translations = YAML.load_file source
+  
+  translations = {}
+  if File.exists? source
+    translations = YAML.load_file source
+  else
+    puts "[WARNING] Missing translation: #{source}"
+  end
 
   # Add column definitions
   columnset = xml.xpath("//ColumnSet").first
