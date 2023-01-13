@@ -282,7 +282,7 @@ code|name|country.CYP:
   name: Cyprus
   nob: Kypros
 code|name|country.CZE:
-  name: Czech Republic
+  name: Czechia
   nob: Tsjekkia
 code|name|country.DDR:
   name: East Germany
@@ -512,14 +512,14 @@ code|name|country.MHL:
 code|name|country.MID:
   name: Midway Islands
 code|name|country.MKD:
-  name: Former Yugoslav Republic of Macedonia
+  name: North Macedonia
 code|name|country.MLI:
   name: Mali
 code|name|country.MLT:
   name: Malta
   nob: Malta
 code|name|country.MMR:
-  name: Myanmar
+  name: Myanmar/Burma
 code|name|country.MNE:
   name: Montenegro
 code|name|country.MNG:
@@ -646,7 +646,7 @@ code|name|country.SGP:
 code|name|country.SGS:
   name: South Georgia and the South Sandwich Islands
 code|name|country.SHN:
-  name: Saint Helena
+  name: Saint Helena, Ascension and Tristan da Cunha
 code|name|country.SJM:
   name: Svalbard and Jan Mayen
   nob: Svalbard og Jan Mayen
@@ -689,7 +689,7 @@ code|name|country.SWE:
   name: Sweden
   nob: Sverige
 code|name|country.SWZ:
-  name: Swaziland
+  name: Eswatini
 code|name|country.SXM:
   name: Sint Maarten
 code|name|country.SYC:
@@ -722,8 +722,9 @@ code|name|country.TTO:
 code|name|country.TUN:
   name: Tunisia
 code|name|country.TUR:
-  name: Turkey
+  name: Türkiye
   nob: Tyrkia
+  nob_verify: true
 code|name|country.TUV:
   name: Tuvalu
 code|name|country.TWN:
@@ -769,7 +770,7 @@ code|name|country.WLF:
 code|name|country.WSM:
   name: Samoa
 code|name|country.YEM:
-  name: South Yemen
+  name: Yemen
 code|name|country.YMD:
   name: North Yemen
 code|name|country.YUG:
@@ -29997,7 +29998,7 @@ code|name|environmental-impact.reg-834-2007-com:
 code|name|environmental-impact.water-mar:
   name: The sustainable use and protection of water and marine resources
 code|name|eu-funded.eu-funds:
-  name: Procurement Project partly financed with EU Funds.
+  name: Procurement Project fully or partially financed with EU Funds.
 code|name|eu-funded.no-eu-funds:
   name: Procurement Project not financed with EU Funds.
 code|name|eu-programme.AFIS2020:
@@ -37170,3 +37171,19 @@ code|name|winner-selection-status.open-nw:
   name: The winner was not yet chosen, but the competition is still ongoing.
 code|name|winner-selection-status.selec-w:
   name: At least one winner was chosen.
+code|name|gpp-criteria.eu:
+  name: EU GPP criteria
+code|name|gpp-criteria.national:
+  name: National GPP criteria
+code|name|gpp-criteria.none:
+  name: No GPP criteria
+code|name|gpp-criteria.other:
+  name: Other GPP criteria
+code|name|non-publication-identifier.buy-rev-cou:
+  name: Buyer Review Requests Count (BT-635)
+code|name|non-publication-identifier.buy-rev-typ:
+  name: Buyer Review Requests Irregularity Type (BT-636)
+code|name|non-publication-identifier.not-app-val:
+  name: Notice Framework Approximate Value (BT-1118)
+code|name|non-publication-identifier.not-ree-val:
+  name: Group Framework Re-estimated Value (BT-1561)

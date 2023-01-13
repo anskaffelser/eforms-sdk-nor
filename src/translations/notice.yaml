@@ -1,15 +1,15 @@
 notice|name|1:
-  name: Notice of the publication of a prior information notice on a buyer profile - general directive
+  name: Notice of the publication of a prior information notice on a buyer profile – general directive
 notice|name|10:
-  name: Prior information notice used as a call for competition - general directive, standard regime
+  name: Prior information notice used as a call for competition – general directive, standard regime
 notice|name|11:
-  name: Periodic indicative notice used as a call for competition - sectoral directive, standard regime
+  name: Periodic indicative notice used as a call for competition – sectoral directive, standard regime
 notice|name|12:
-  name: Prior information notice used as a call for competition - general directive, light regime
+  name: Prior information notice used as a call for competition – general directive, light regime
 notice|name|13:
-  name: Periodic indicative notice used as a call for competition - sectoral directive, light regime
+  name: Periodic indicative notice used as a call for competition – sectoral directive, light regime
 notice|name|14:
-  name: Prior information notice used as a call for competition - concessions directive, light regime
+  name: Prior information notice used as a call for competition – concessions directive, light regime
 notice|name|15:
   name: Notice on the existence of a qualification system – sectoral directive
 notice|name|16:
@@ -21,7 +21,7 @@ notice|name|18:
 notice|name|19:
   name: Concession notice – concessions directive, standard regime
 notice|name|2:
-  name: Notice of the publication of a periodic indicative notice on a buyer profile - sectoral directive
+  name: Notice of the publication of a periodic indicative notice on a buyer profile – sectoral directive
 notice|name|20:
   name: Contract notice – general directive, light regime
 notice|name|21:
@@ -43,7 +43,7 @@ notice|name|28:
 notice|name|29:
   name: Contract award notice – general directive, standard regime
 notice|name|3:
-  name: Notice of the publication of a prior information notice on a buyer profile - defence directive
+  name: Notice of the publication of a prior information notice on a buyer profile – defence directive
 notice|name|30:
   name: Contract award notice – sectoral directive, standard regime
 notice|name|31:
@@ -81,10 +81,20 @@ notice|name|9:
 notice|name|CEI:
   name: Call for expressions of interest
 notice|name|T01:
-  name: ''
+  name: Prior information notice for public service contract
 notice|name|T02:
-  name: ''
+  name: Information notice for award of public service contract
 notice|name|X01:
-  name: ''
+  name: European Economic Interest Grouping
 notice|name|X02:
-  name: ''
+  name: European Company / European Cooperative Society
+notice|name|E1:
+  name: Preliminary market consultation notice
+notice|name|E2:
+  name: Below Threshold Prior Information Notice (PIN) Only
+notice|name|E3:
+  name: Below Threshold Contract Notice (CN) general
+notice|name|E4:
+  name: Below Threshold Contract Award Notice (CAN) general
+notice|name|E5:
+  name: Contract Completion Notice

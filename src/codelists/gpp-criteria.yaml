@@ -1,0 +1,8 @@
+eu:
+  name: EU GPP criteria
+national:
+  name: National GPP criteria
+none:
+  name: No GPP criteria
+other:
+  name: Other GPP criteria

@@ -86,3 +86,11 @@ win-ten-val:
   name: Winning Tender Value (BT-720)
 win-ten-var:
   name: Winning Tender Variant (BT-193)
+buy-rev-cou:
+  name: Buyer Review Requests Count (BT-635)
+buy-rev-typ:
+  name: Buyer Review Requests Irregularity Type (BT-636)
+not-app-val:
+  name: Notice Framework Approximate Value (BT-1118)
+not-ree-val:
+  name: Group Framework Re-estimated Value (BT-1561)

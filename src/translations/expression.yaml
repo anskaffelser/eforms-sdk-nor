@@ -812,3 +812,49 @@ expression|name|96:
   name: BT-541-Lot is present and BT-5422-Lot is not present and BT-5423-Lot is not present
 expression|name|97:
   name: BT-541-LotsGroup is present and BT-5422-LotsGroup is not present and BT-5423-LotsGroup is not present
+expression|name|534:
+  name: Tender Ranked (BT-1711) is set to "false" or does not exist
+expression|name|535:
+  name: The lot does not involve a Framework agreement
+expression|name|537:
+  name: no lot involves a framework agreement
+expression|name|538:
+  name: There is no lot in the group for which a framework agreement is defined
+expression|name|539:
+  name: no framework agreement is involved or Framework Estimated Value (BT-660-LotResult) is not present
+expression|name|540:
+  name: no winner was chosen or no framework agreement was involved or Framework Estimated Value (BT-660-LotResult) is not present
+expression|name|542:
+  name: the Group Framework Value Lot Identifier (BT-556) is present and the Group Framework Re-estimated Value is not present
+expression|name|543:
+  name: the Group Framework Value Lot Identifier (BT-556) is present and the Group Framework Value is not present
+expression|name|544:
+  name: Notice Framework Approximate Value (BT-1118-NoticeResult) is not present
+expression|name|545:
+  name: Unpublished Identifier (BT-195(BT-1118)-NoticeResult) is not present
+expression|name|546:
+  name: Group Framework Re-estimated Value (BT-1561-NoticeResult) is not present
+expression|name|547:
+  name: Unpublished Identifier (BT-195(BT-1561)-NoticeResult) is not present
+expression|name|548:
+  name: no lot has been awarded and there is no other non-awarding reason than "no received tenders".
+expression|name|549:
+  name: there is at least one awarded lot
+expression|name|550:
+  name: Tender Technical ID (OPT-321-Tender) does not exist
+expression|name|551:
+  name: no tender exists
+expression|name|552:
+  name: LotResult Technical ID (OPT-322) does not exist
+expression|name|553:
+  name: there is no LotResult, or there is no Tender for the Lot covered by the LotResult and no Tender for any Group of Lot that would contain the Lot of the LotResult, or there is no tender and no lot is specified for the LotResult, or the competition is ongoing
+expression|name|554:
+  name: no lot has been awarded
+expression|name|555:
+  name: Contract Technical ID (OPT-316-Contract) does not exist or there is no Tender (OPT-321-Tender)
+expression|name|556:
+  name: Contract Technical ID (OPT-316-Contract) does not exist
+expression|name|557:
+  name: LotsGroup Purpose Lot ID is not present
+expression|name|558:
+  name: the Service Provider is not identified

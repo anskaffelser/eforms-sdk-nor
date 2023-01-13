@@ -338,3 +338,185 @@ codelist|name|vehicles:
   name: List of codes for vehicle categories.
 codelist|name|winner-selection-status:
   name: This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and wether the competiotion is open.
+codelist|name|eforms-buyer-legal-type:
+  name: List of buyer-legal-type codes allowed in eforms
+codelist|name|eforms-currency:
+  name: List of currency codes allowed in eforms
+codelist|name|gpp-criteria:
+  name: Green Public Procurement Criteria
+codelist|name|legal-basis-1:
+  name: Allowed Legal Basis values for notice subtype 1
+codelist|name|legal-basis-10:
+  name: Allowed Legal Basis values for notice subtype 10
+codelist|name|legal-basis-11:
+  name: Allowed Legal Basis values for notice subtype 11
+codelist|name|legal-basis-12:
+  name: Allowed Legal Basis values for notice subtype 12
+codelist|name|legal-basis-13:
+  name: Allowed Legal Basis values for notice subtype 13
+codelist|name|legal-basis-14:
+  name: Allowed Legal Basis values for notice subtype 14
+codelist|name|legal-basis-15:
+  name: Allowed Legal Basis values for notice subtype 15
+codelist|name|legal-basis-16:
+  name: Allowed Legal Basis values for notice subtype 16
+codelist|name|legal-basis-17:
+  name: Allowed Legal Basis values for notice subtype 17
+codelist|name|legal-basis-18:
+  name: Allowed Legal Basis values for notice subtype 18
+codelist|name|legal-basis-19:
+  name: Allowed Legal Basis values for notice subtype 19
+codelist|name|legal-basis-2:
+  name: Allowed Legal Basis values for notice subtype 2
+codelist|name|legal-basis-20:
+  name: Allowed Legal Basis values for notice subtype 20
+codelist|name|legal-basis-21:
+  name: Allowed Legal Basis values for notice subtype 21
+codelist|name|legal-basis-22:
+  name: Allowed Legal Basis values for notice subtype 22
+codelist|name|legal-basis-23:
+  name: Allowed Legal Basis values for notice subtype 23
+codelist|name|legal-basis-24:
+  name: Allowed Legal Basis values for notice subtype 24
+codelist|name|legal-basis-25:
+  name: Allowed Legal Basis values for notice subtype 25
+codelist|name|legal-basis-26:
+  name: Allowed Legal Basis values for notice subtype 26
+codelist|name|legal-basis-27:
+  name: Allowed Legal Basis values for notice subtype 27
+codelist|name|legal-basis-28:
+  name: Allowed Legal Basis values for notice subtype 28
+codelist|name|legal-basis-29:
+  name: Allowed Legal Basis values for notice subtype 29
+codelist|name|legal-basis-3:
+  name: Allowed Legal Basis values for notice subtype 3
+codelist|name|legal-basis-30:
+  name: Allowed Legal Basis values for notice subtype 30
+codelist|name|legal-basis-31:
+  name: Allowed Legal Basis values for notice subtype 31
+codelist|name|legal-basis-32:
+  name: Allowed Legal Basis values for notice subtype 32
+codelist|name|legal-basis-33:
+  name: Allowed Legal Basis values for notice subtype 33
+codelist|name|legal-basis-34:
+  name: Allowed Legal Basis values for notice subtype 34
+codelist|name|legal-basis-35:
+  name: Allowed Legal Basis values for notice subtype 35
+codelist|name|legal-basis-36:
+  name: Allowed Legal Basis values for notice subtype 36
+codelist|name|legal-basis-37:
+  name: Allowed Legal Basis values for notice subtype 37
+codelist|name|legal-basis-38:
+  name: Allowed Legal Basis values for notice subtype 38
+codelist|name|legal-basis-39:
+  name: Allowed Legal Basis values for notice subtype 39
+codelist|name|legal-basis-4:
+  name: Allowed Legal Basis values for notice subtype 4
+codelist|name|legal-basis-40:
+  name: Allowed Legal Basis values for notice subtype 40
+codelist|name|legal-basis-5:
+  name: Allowed Legal Basis values for notice subtype 5
+codelist|name|legal-basis-6:
+  name: Allowed Legal Basis values for notice subtype 6
+codelist|name|legal-basis-7:
+  name: Allowed Legal Basis values for notice subtype 7
+codelist|name|legal-basis-8:
+  name: Allowed Legal Basis values for notice subtype 8
+codelist|name|legal-basis-9:
+  name: Allowed Legal Basis values for notice subtype 9
+codelist|name|legal-basis-cei:
+  name: Allowed Legal Basis values for notice subtype CEI
+codelist|name|legal-basis-e1:
+  name: Allowed Legal Basis values for notice subtype E1
+codelist|name|legal-basis-e2:
+  name: Allowed Legal Basis values for notice subtype E2
+codelist|name|legal-basis-e3:
+  name: Allowed Legal Basis values for notice subtype E3
+codelist|name|legal-basis-e4:
+  name: Allowed Legal Basis values for notice subtype E4
+codelist|name|legal-basis-e5:
+  name: Allowed Legal Basis values for notice subtype E5
+codelist|name|legal-basis-t01:
+  name: Allowed Legal Basis values for notice subtype T01
+codelist|name|legal-basis-t02:
+  name: Allowed Legal Basis values for notice subtype T02
+codelist|name|legal-basis-x01:
+  name: Allowed Legal Basis values for notice subtype X01
+codelist|name|legal-basis-x02:
+  name: Allowed Legal Basis values for notice subtype X02
+codelist|name|procedure-type-10:
+  name: Allowed procedure type for notice subtype 10
+codelist|name|procedure-type-11:
+  name: Allowed procedure type for notice subtype 11
+codelist|name|procedure-type-12:
+  name: Allowed procedure type for notice subtype 12
+codelist|name|procedure-type-13:
+  name: Allowed procedure type for notice subtype 13
+codelist|name|procedure-type-14:
+  name: Allowed procedure type for notice subtype 14
+codelist|name|procedure-type-16:
+  name: Allowed procedure type for notice subtype 16
+codelist|name|procedure-type-17:
+  name: Allowed procedure type for notice subtype 17
+codelist|name|procedure-type-18:
+  name: Allowed procedure type for notice subtype 18
+codelist|name|procedure-type-19:
+  name: Allowed procedure type for notice subtype 19
+codelist|name|procedure-type-20:
+  name: Allowed procedure type for notice subtype 20
+codelist|name|procedure-type-21:
+  name: Allowed procedure type for notice subtype 21
+codelist|name|procedure-type-22:
+  name: Allowed procedure type for notice subtype 22
+codelist|name|procedure-type-23:
+  name: Allowed procedure type for notice subtype 23
+codelist|name|procedure-type-24:
+  name: Allowed procedure type for notice subtype 24
+codelist|name|procedure-type-25:
+  name: Allowed procedure type for notice subtype 25
+codelist|name|procedure-type-26:
+  name: Allowed procedure type for notice subtype 26
+codelist|name|procedure-type-27:
+  name: Allowed procedure type for notice subtype 27
+codelist|name|procedure-type-28:
+  name: Allowed procedure type for notice subtype 28
+codelist|name|procedure-type-29:
+  name: Allowed procedure type for notice subtype 29
+codelist|name|procedure-type-30:
+  name: Allowed procedure type for notice subtype 30
+codelist|name|procedure-type-31:
+  name: Allowed procedure type for notice subtype 31
+codelist|name|procedure-type-32:
+  name: Allowed procedure type for notice subtype 32
+codelist|name|procedure-type-33:
+  name: Allowed procedure type for notice subtype 33
+codelist|name|procedure-type-34:
+  name: Allowed procedure type for notice subtype 34
+codelist|name|procedure-type-35:
+  name: Allowed procedure type for notice subtype 35
+codelist|name|procedure-type-36:
+  name: Allowed procedure type for notice subtype 36
+codelist|name|procedure-type-37:
+  name: Allowed procedure type for notice subtype 37
+codelist|name|procedure-type-7:
+  name: Allowed procedure type for notice subtype 7
+codelist|name|procedure-type-8:
+  name: Allowed procedure type for notice subtype 8
+codelist|name|procedure-type-9:
+  name: Allowed procedure type for notice subtype 9
+codelist|name|procedure-type-cei:
+  name: Allowed procedure type for notice subtype CEI
+codelist|name|procedure-type-e1:
+  name: Allowed procedure type for notice subtype E1
+codelist|name|procedure-type-e2:
+  name: Allowed procedure type for notice subtype E2
+codelist|name|procedure-type-e3:
+  name: Allowed procedure type for notice subtype E3
+codelist|name|procedure-type-e4:
+  name: Allowed procedure type for notice subtype E4
+codelist|name|procedure-type-e5:
+  name: Allowed procedure type for notice subtype E5
+codelist|name|procedure-type-t01:
+  name: Allowed procedure type for notice subtype T01
+codelist|name|procedure-type-t02:
+  name: Allowed procedure type for notice subtype T02

@@ -164,7 +164,7 @@ CYP:
   name: Cyprus
   nob: Kypros
 CZE:
-  name: Czech Republic
+  name: Czechia
   nob: Tsjekkia
 DDR:
   name: East Germany
@@ -394,14 +394,14 @@ MHL:
 MID:
   name: Midway Islands
 MKD:
-  name: Former Yugoslav Republic of Macedonia
+  name: North Macedonia
 MLI:
   name: Mali
 MLT:
   name: Malta
   nob: Malta
 MMR:
-  name: Myanmar
+  name: Myanmar/Burma
 MNE:
   name: Montenegro
 MNG:
@@ -528,7 +528,7 @@ SGP:
 SGS:
   name: South Georgia and the South Sandwich Islands
 SHN:
-  name: Saint Helena
+  name: Saint Helena, Ascension and Tristan da Cunha
 SJM:
   name: Svalbard and Jan Mayen
   nob: Svalbard og Jan Mayen
@@ -571,7 +571,7 @@ SWE:
   name: Sweden
   nob: Sverige
 SWZ:
-  name: Swaziland
+  name: Eswatini
 SXM:
   name: Sint Maarten
 SYC:
@@ -604,7 +604,7 @@ TTO:
 TUN:
   name: Tunisia
 TUR:
-  name: Turkey
+  name: Türkiye
   nob: Tyrkia
 TUV:
   name: Tuvalu
@@ -651,7 +651,7 @@ WLF:
 WSM:
   name: Samoa
 YEM:
-  name: South Yemen
+  name: Yemen
 YMD:
   name: North Yemen
 YUG:

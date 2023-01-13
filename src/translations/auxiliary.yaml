@@ -31,7 +31,7 @@ auxiliary|text|direct-award:
 auxiliary|text|duration:
   name: Duration
 auxiliary|text|dynamic-purchasing-system:
-  name: Information about dynamic purchasing system
+  name: Information about the dynamic purchasing system
 auxiliary|text|electronic-auction:
   name: Electronic auction
 auxiliary|text|estimated-duration:
@@ -73,7 +73,7 @@ auxiliary|text|organisation-cpb-acquiring:
 auxiliary|text|organisation-cpb-awarding:
   name: Central purchasing body awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers
 auxiliary|text|organisation-esender:
-  name: eSender
+  name: TED eSender
 auxiliary|text|organisation-financing:
   name: Organisation whose budget is used to pay for the contract
 auxiliary|text|organisation-group-leader:
@@ -83,17 +83,17 @@ auxiliary|text|organisation-mediation:
 auxiliary|text|organisation-paying:
   name: Organisation executing the payment
 auxiliary|text|organisation-processing-tenders:
-  name: Organisation processing tenders / requests to participate
+  name: Organisation processing tenders
 auxiliary|text|organisation-providing-docs:
   name: Organisation providing offline access to the procurement documents
 auxiliary|text|organisation-providing-info-employment:
-  name: Employment legislation information provider
+  name: Organisation providing information concerning the general regulatory framework for employment protection and working conditions applicable in the place where the contract is to be performed
 auxiliary|text|organisation-providing-info-environment:
-  name: Environment legislation information provider
+  name: Organisation providing information concerning the general regulatory framework for environmental protection applicable in the place where the contract is to be performed
 auxiliary|text|organisation-providing-info-procedure:
   name: Organisation providing additional information about the procurement procedure
 auxiliary|text|organisation-providing-info-review:
-  name: Organisation providing information on the appeal procedures
+  name: Organisation providing more information on the review procedures
 auxiliary|text|organisation-providing-info-taxes:
   name: Organisation providing information concerning the general regulatory framework for taxes applicable in the place where the contract is to be performed
 auxiliary|text|organisation-providing-procurement-service:
@@ -101,13 +101,13 @@ auxiliary|text|organisation-providing-procurement-service:
 auxiliary|text|organisation-review:
   name: Review organisation
 auxiliary|text|organisation-review-timelimit:
-  name: Organisation providing information on the time limits for review procedures
+  name: Organisation providing more information on the time limits for review procedures
 auxiliary|text|organisation-signing-contract:
   name: Organisation signing the contract
 auxiliary|text|organisation-tender-evaluation:
   name: Organisation evaluating the tenders
 auxiliary|text|organisation-tender-recipient:
-  name: Organisation receiving requests to participate / tenders
+  name: Organisation receiving requests to participate
 auxiliary|text|organisations:
   name: Organisations
 auxiliary|text|other-contact-point:
@@ -117,7 +117,7 @@ auxiliary|text|part:
 auxiliary|text|place-performance:
   name: Place of performance
 auxiliary|text|previous-planning:
-  name: Previous planning
+  name: Information about previous notices
 auxiliary|text|procedure:
   name: Procedure
 auxiliary|text|procedure-terms:
@@ -169,8 +169,68 @@ auxiliary|text|touchpoint:
 auxiliary|text|value:
   name: Value
 auxiliary|text|winner:
-  name: Winning tenders
+  name: Winner
 auxiliary|text|winner-info:
   name: Information about winners
 auxiliary|text|winner-subcontractor:
   name: Subcontractors of the winner
+auxiliary|text|BT-01:
+  name: Legal basis
+auxiliary|text|BT-08:
+  name: Role of organisation
+auxiliary|text|BT-36:
+  name: Duration
+auxiliary|text|buyer-competent:
+  name: Competent authority
+auxiliary|text|company:
+  name: Name and address of the company/society
+auxiliary|text|conditions-contract:
+  name: Conditions relating to the contract
+auxiliary|text|conditions-participation:
+  name: Conditions for participation
+auxiliary|text|cross-border-description:
+  name: Description
+auxiliary|text|duration-call-expressions-interest:
+  name: Duration of the call for expressions of interest
+auxiliary|text|envisaged-start-duration-contract:
+  name: Envisaged start date and duration of the contract
+auxiliary|text|essential-assets:
+  name: Essential assets
+auxiliary|text|further-info:
+  name: Further information, mediation and review
+auxiliary|text|grouping:
+  name: Name of the grouping
+auxiliary|text|info-rewards-penalties:
+  name: Information on rewards and penalties
+auxiliary|text|language-expressions:
+  name: Languages in which the expressions of interest may be submitted
+auxiliary|text|legaltype-competent:
+  name: Legal type of the competent authority
+auxiliary|text|name:
+  name: Name
+auxiliary|text|object:
+  name: Object
+auxiliary|text|organisation-processing-requests-participate:
+  name: Organisation processing requests to participate
+auxiliary|text|organisation-receiving-tenders:
+  name: Organisation receiving tenders
+auxiliary|text|organisation-requesting-review:
+  name: Organisation (or person) requesting review that has or has had an interest in a contract and who has been or risks being harmed by an alleged infringement
+auxiliary|text|organisation-roles:
+  name: Roles of organisations
+auxiliary|text|organisation-subcontractor:
+  name: Subcontractor
+auxiliary|text|organisation-tenderer:
+  name: Tenderer
+auxiliary|text|place-registration:
+  name: Place of registration
+auxiliary|text|publication-gazette:
+  name: Publication in the official gazette
+auxiliary|text|quality-targets:
+  name: Quality targets
+auxiliary|text|roles:
+  name: Roles of this organisation
+auxiliary|text|start-duration-contract:
+  name: Start date and duration of the contract
+auxiliary|text|winner-lots:
+  name: Winner of these lots

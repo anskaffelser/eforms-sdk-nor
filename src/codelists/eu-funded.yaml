@@ -1,4 +1,4 @@
 eu-funds:
-  name: Procurement Project partly financed with EU Funds.
+  name: Procurement Project fully or partially financed with EU Funds.
 no-eu-funds:
   name: Procurement Project not financed with EU Funds.
