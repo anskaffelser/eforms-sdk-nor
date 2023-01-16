@@ -10,6 +10,7 @@ opts = Slop.parse do |o|
   o.string '-s', '--source', default: 'src/translations'
   o.string '-t', '--target', default: 'target/eforms-sdk-nor/translations'
   o.string '-l', '--languages', default: 'src/languages.yaml'
+  o.bool '--complete', default: false
 end
 
 header = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE properties SYSTEM \"http://java.sun.com/dtd/properties.dtd\">"
@@ -19,8 +20,6 @@ languages = YAML.load File.open(opts[:languages], "r:UTF-8")
 Dir[File.join(opts[:source], '*.yaml')].sort.each do |source_file|
   source = YAML.load File.open(source_file, "r:UTF-8")
   source_code = File.basename(source_file).sub('.yaml', '')
-
-  write = false
 
   puts "Creating translation for #{source_code}"
 
@@ -35,20 +34,21 @@ Dir[File.join(opts[:source], '*.yaml')].sort.each do |source_file|
           hit = translations.select { |k,v| acceptable.include? k }.first
 
           if hit != nil
-            write = true
             xml.entry(key: key) do |entry|
               entry.text hit[1]
+            end
+          elsif opts[:complete]
+            xml.entry(key: key) do |entry|
+              entry.text translations.fetch('name')
             end
           end
         end
       end
     end
 
-    if write
-      target_file = File.join opts[:target], "#{source_code}_#{langdata['alt']}.xml"
-      File.open(target_file, "w:UTF-8") do |f| 
-        f.write header + result.to_xml(encoding: 'UTF-8')["<?xml version='1.0' encoding='UTF-8'?>".size..-1].gsub("\n  ", "\n")
-      end
+    target_file = File.join opts[:target], "#{source_code}_#{langdata['alt']}#{opts[:complete] ? '_complete' : ''}.xml"
+    File.open(target_file, "w:UTF-8") do |f| 
+      f.write header + result.to_xml(encoding: 'UTF-8')["<?xml version='1.0' encoding='UTF-8'?>".size..-1].gsub("\n  ", "\n")
     end
   end
 end

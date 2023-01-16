@@ -22,6 +22,7 @@ versions:
 build: target/eforms-sdk-nor
 	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/create-codelists
 	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/create-translations
+	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/create-translations --complete
 
 extract: .bundle/vendor target/eforms-sdk
 	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/extract-codelists
