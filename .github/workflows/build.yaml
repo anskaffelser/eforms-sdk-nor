@@ -16,10 +16,16 @@ jobs:
 
     outputs:
       matrix: ${{ env.MATRIX }}
+      version: ${{ env.PROJECT_VERSION }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
+      - name: Prepare version labels
+        uses: k15g/action-version-labels@v1
+        with:
+          prefix: project
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -47,15 +53,16 @@ jobs:
     env:
       EFORMS_MINOR: ${{ matrix.EFORMS_MINOR }}
       EFORMS_PATCH: ${{ matrix.EFORMS_PATCH }}
+      PROJECT_VERSION: ${{needs.versions.outputs.version}}
   
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Prepare version labels
-        uses: k15g/action-version-labels@v1
-        with:
-          prefix: project
+      #- name: Prepare version labels
+      #  uses: k15g/action-version-labels@v1
+      #  with:
+      #    prefix: project
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
