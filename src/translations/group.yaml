@@ -653,3 +653,9 @@ group|name|ND-WinningTenderValueUnpublish:
   name: Not Immediately Published (WinningTenderValue)
 group|name|ND-WinningTenderVariantUnpublish:
   name: Not Immediately Published (WinningTenderVariant)
+group|name|ND-LateTendererInformation:
+  name: Information about late provision of information by the tenderer (possibility and description of the information)
+group|name|ND-ReceivedSubmissions:
+  name: Container for Received Submissions Statististics Numeric value and associated code.
+group|name|ND-ReviewRequestsStatistics:
+  name: Statistics about Review Requests (number and code)

@@ -37187,3 +37187,7 @@ code|name|non-publication-identifier.not-app-val:
   name: Notice Framework Approximate Value (BT-1118)
 code|name|non-publication-identifier.not-ree-val:
   name: Group Framework Re-estimated Value (BT-1561)
+code|name|innovative-acquisition.proc-innov:
+  name: The procured works, supplies, or services entail process innovation.
+code|name|innovative-acquisition.prod-innov:
+  name: The procured works, supplies, or services entail product innovation.

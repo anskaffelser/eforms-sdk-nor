@@ -10,3 +10,7 @@ other:
   name: Other
 rd-act:
   name: The procured works, supplies or services involve research and development activities.
+proc-innov:
+  name: The procured works, supplies, or services entail process innovation
+prod-innov:
+  name: The procured works, supplies, or services entail product innovation
