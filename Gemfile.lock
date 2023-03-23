@@ -1,22 +1,20 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    mini_portile2 (2.8.0)
-    nokogiri (1.13.8)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.14.2)
       racc (~> 1.4)
-    racc (1.6.0)
-    slop (4.9.3)
-    yaml (0.2.0)
+    racc (1.6.2)
+    slop (4.10.1)
+    yaml (0.2.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.17)
+  bundler (~> 2.4)
   nokogiri (~> 1.13)
   slop (~> 4.9)
   yaml (~> 0.2.0)
 
 BUNDLED WITH
-   1.17.2
+   2.4.6

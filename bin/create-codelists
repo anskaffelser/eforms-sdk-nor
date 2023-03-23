@@ -36,7 +36,7 @@ JSON.parse(File.read opts[:original])['codelists'].each do |cl|
   xml = Nokogiri::XML File.open original
   
   translations = {}
-  if File.exists? source
+  if File.exist? source
     translations = YAML.load_file source
   else
     puts "[WARNING] Missing translation: #{source}"
