@@ -56,7 +56,7 @@ target/eforms-sdk: .bundle/vendor
 
 .bundle/vendor:
 	@echo "* Install dependencies"
-	@bundle install --path=.bundle/vendor
+	@bundler install --path=.bundle/vendor
 
 target/eforms-sdk-nor: \
 	target/eforms-sdk-nor/efx-grammar \
@@ -87,9 +87,17 @@ target/eforms-sdk-nor/schemas: target/eforms-sdk
 	@mkdir -p target/eforms-sdk-nor
 	@cp -r target/eforms-sdk/schemas target/eforms-sdk-nor/schemas
 
-target/eforms-sdk-nor/schematrons: target/eforms-sdk
-	@mkdir -p target/eforms-sdk-nor
-	@cp -r target/eforms-sdk/schematrons target/eforms-sdk-nor/schematrons
+target/eforms-sdk-nor/schematrons: \
+	target/eforms-sdk-nor/schematrons/dynamic.sch \
+	target/eforms-sdk-nor/schematrons/static.sch
+
+target/eforms-sdk-nor/schematrons/dynamic.sch: target/eforms-sdk target/saxon
+	@mkdir -p target/eforms-sdk-nor/schematrons
+	@java -jar target/saxon/saxon-he-12.1.jar -s:target/eforms-sdk/schematrons/dynamic/complete-validation.sch -xsl:bin/xslt/sch-include.xslt -o:target/eforms-sdk-nor/schematrons/dynamic.sch
+
+target/eforms-sdk-nor/schematrons/static.sch: target/eforms-sdk target/saxon
+	@mkdir -p target/eforms-sdk-nor/schematrons
+	@java -jar target/saxon/saxon-he-12.1.jar -s:target/eforms-sdk/schematrons/static/complete-validation.sch -xsl:bin/xslt/sch-include.xslt -o:target/eforms-sdk-nor/schematrons/static.sch
 
 target/eforms-sdk-nor/translations: target/eforms-sdk
 	@mkdir -p target/eforms-sdk-nor
@@ -104,7 +112,7 @@ target/eforms-sdk-nor/xslt: target/eforms-sdk
 
 target/eforms-sdk-nor/README.md: src/template/README.md
 	@mkdir -p target/eforms-sdk-nor
-	@cat src/template/README.md | VERSION=$(VERSION) EFORMS_VERSION=$(EFORMS_VERSION) envsubst > target/eforms-sdk-nor/README.md
+	@cat src/template/README.md | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" envsubst > target/eforms-sdk-nor/README.md
 
 target/eforms-sdk-nor/LICENSE-eForms-SDK: target/eforms-sdk/LICENSE
 	@mkdir -p target/eforms-sdk-nor
@@ -115,7 +123,8 @@ target/eforms-sdk-nor/LICENSE-eForms-SDK-NOR: src/template/LICENSE
 	@cp src/template/LICENSE target/eforms-sdk-nor/LICENSE-eForms-SDK-NOR
 
 target/saxon:
+	@echo "Download Saxon"
 	@mkdir -p target
-	@wget "https://github.com/Saxonica/Saxon-HE/raw/main/12/Java/SaxonHE12-1J.zip" -O target/saxon.zip
+	@wget -q "https://github.com/Saxonica/Saxon-HE/raw/main/12/Java/SaxonHE12-1J.zip" -O target/saxon.zip
 	@unzip target/saxon.zip -d target/saxon
 	@rm target/saxon.zip

@@ -8,7 +8,12 @@ This package is modified variant of the [official eForms SDK](https://github.com
 The following folders contains modified content:
 
     * `codelists` - Translations are added to existing code list files
+    * `schematrons` - WORK IN PROGRESS
     * `translations` - Additional translation files are added
+
+The following folders contains new content:
+
+    * `xslt` - Stylesheet to modify Norwegian notices into notices accepted by TED
 
 The rest of the files in this package contains no modifications.
 
