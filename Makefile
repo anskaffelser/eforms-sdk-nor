@@ -66,6 +66,7 @@ target/eforms-sdk-nor: \
 	target/eforms-sdk-nor/schematrons \
 	target/eforms-sdk-nor/translations \
 	target/eforms-sdk-nor/view-templates \
+	target/eforms-sdk-nor/xslt \
 	target/eforms-sdk-nor/README.md \
 	target/eforms-sdk-nor/LICENSE-eForms-SDK \
 	target/eforms-sdk-nor/LICENSE-eForms-SDK-NOR
@@ -98,6 +99,9 @@ target/eforms-sdk-nor/view-templates: target/eforms-sdk
 	@mkdir -p target/eforms-sdk-nor
 	@cp -r target/eforms-sdk/view-templates target/eforms-sdk-nor/view-templates
 
+target/eforms-sdk-nor/xslt: target/eforms-sdk
+	@cp -r src/xslt target/eforms-sdk-nor/xslt
+
 target/eforms-sdk-nor/README.md: src/template/README.md
 	@mkdir -p target/eforms-sdk-nor
 	@cat src/template/README.md | VERSION=$(VERSION) EFORMS_VERSION=$(EFORMS_VERSION) envsubst > target/eforms-sdk-nor/README.md
@@ -109,3 +113,9 @@ target/eforms-sdk-nor/LICENSE-eForms-SDK: target/eforms-sdk/LICENSE
 target/eforms-sdk-nor/LICENSE-eForms-SDK-NOR: src/template/LICENSE
 	@mkdir -p target/eforms-sdk-nor
 	@cp src/template/LICENSE target/eforms-sdk-nor/LICENSE-eForms-SDK-NOR
+
+target/saxon:
+	@mkdir -p target
+	@wget "https://github.com/Saxonica/Saxon-HE/raw/main/12/Java/SaxonHE12-1J.zip" -O target/saxon.zip
+	@unzip target/saxon.zip -d target/saxon
+	@rm target/saxon.zip
