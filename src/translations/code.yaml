@@ -29620,7 +29620,7 @@ code|name|currency.PEH:
 code|name|currency.PEI:
   name: Inti
 code|name|currency.PEN:
-  name: Nuevo sol
+  name: Sol
 code|name|currency.PGK:
   name: Kina
 code|name|currency.PHP:
@@ -29676,7 +29676,7 @@ code|name|currency.SML:
 code|name|currency.SOS:
   name: Somali shilling
 code|name|currency.SQS:
-  name: Somaliland shillings
+  name: Somaliland shilling
 code|name|currency.SRD:
   name: Surinamese dollar
 code|name|currency.SRG:
@@ -29718,7 +29718,7 @@ code|name|currency.TRY:
 code|name|currency.TTD:
   name: Trinidad and Tobago dollar
 code|name|currency.TVD:
-  name: Tuvaluan dollars
+  name: Tuvaluan dollar
 code|name|currency.TWD:
   name: New Taiwan dollar
 code|name|currency.TZS:
@@ -30020,9 +30020,9 @@ code|name|eu-programme.CCEI:
 code|name|eu-programme.CDF2020:
   name: Rights, equality and citizenship programme
 code|name|eu-programme.CEF:
-  name: Connecting Europe Facility (CEF)
+  name: Connecting Europe Facility (CEF 2014–2020)
 code|name|eu-programme.CEF_2021:
-  name: Connecting Europe Facility (CEF)
+  name: Connecting Europe Facility (CEF 2021)
 code|name|eu-programme.CERV:
   name: Citizens, Equality, Rights and Values
 code|name|eu-programme.CF:
@@ -32341,9 +32341,9 @@ code|name|non-award-justification.ins-fund:
 code|name|non-award-justification.no-rece:
   name: No tenders, requests to participate or projects were received
 code|name|non-award-justification.no-signed:
-  name: The highest ranked tenderer(s) refused to sign the contract.
+  name: The highest ranked tenderer(s) refused to sign the contract
 code|name|non-award-justification.one-admis:
-  name: Only one admissible tender, request to participate or project was received.
+  name: Only one admissible tender, request to participate or project was received
 code|name|non-award-justification.other:
   name: Other
 code|name|non-award-justification.rev-body:
@@ -37191,3 +37191,7 @@ code|name|innovative-acquisition.proc-innov:
   name: The procured works, supplies, or services entail process innovation.
 code|name|innovative-acquisition.prod-innov:
   name: The procured works, supplies, or services entail product innovation.
+code|name|currency.OP_DATPRO:
+  name: Provisional data
+code|name|eu-programme.OP_DATPRO:
+  name: Provisional data

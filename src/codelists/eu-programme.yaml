@@ -17,9 +17,9 @@ CCEI:
 CDF2020:
   name: Rights, equality and citizenship programme
 CEF:
-  name: Connecting Europe Facility (CEF)
+  name: Connecting Europe Facility (CEF 2014–2020)
 CEF_2021:
-  name: Connecting Europe Facility (CEF)
+  name: Connecting Europe Facility (CEF 2021)
 CERV:
   name: Citizens, Equality, Rights and Values
 CF:
@@ -286,3 +286,5 @@ VIS2020:
   name: Visa Information System (VIS)
 YEI:
   name: Youth employment initiative (specific top-up allocation)
+OP_DATPRO:
+  name: Provisional data

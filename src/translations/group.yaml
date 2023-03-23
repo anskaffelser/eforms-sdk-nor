@@ -402,15 +402,15 @@ group|name|GR-Unpublish-BT-88:
 group|name|GR-Winner:
   name: Winner
 group|name|ND-BuyerReviewComplainants:
-  name: Requests to review decisions
+  name: Requests to review
 group|name|ND-Change:
-  name: Information about the change
+  name: Change
 group|name|ND-ContractingParty:
   name: Buyer
 group|name|ND-ExclusionGrounds:
   name: Exclusion grounds
 group|name|ND-Lot:
-  name: Information about the lot
+  name: Lot
 group|name|ND-LotAdditionalClassification:
   name: Additional classification
 group|name|ND-LotAwardCriteria:
@@ -422,11 +422,11 @@ group|name|ND-LotPlacePerformance:
 group|name|ND-LotPreviousPlanning:
   name: Reference to previous planning
 group|name|ND-LotResult:
-  name: Result of the lot
+  name: Result
 group|name|ND-LotTender:
   name: Submitted tender
 group|name|ND-LotsGroup:
-  name: Information about groups of lots
+  name: Groups of lots
 group|name|ND-LotsGroupAwardCriteria:
   name: Award criteria
 group|name|ND-LotsGroupAwardCriterion:
@@ -438,7 +438,7 @@ group|name|ND-NoticeResultGroupFA:
 group|name|ND-Organization:
   name: Organisations mentioned in the notice
 group|name|ND-Part:
-  name: Information about the part
+  name: Part
 group|name|ND-PartAdditionalClassification:
   name: Additional classification
 group|name|ND-PartPlacePerformance:
@@ -452,7 +452,7 @@ group|name|ND-ProcedureAdditionalCommodityClassification:
 group|name|ND-ProcedurePlacePerformanceAdditionalInformation:
   name: Additional information about place of performance
 group|name|ND-RewardsPenalties:
-  name: Information on rewards and penalties
+  name: Rewards and penalties
 group|name|ND-SelectionCriteria:
   name: Selection criteria
 group|name|ND-ServiceProviderParty:
@@ -530,7 +530,7 @@ group|name|ND-ConcessionRevenueUserUnpublish:
 group|name|ND-ContractEUFunds:
   name: EU funds used in the contract
 group|name|ND-ContractModification:
-  name: Information about the modification
+  name: Modification
 group|name|ND-CrossBorderLaw:
   name: Cross-border law
 group|name|ND-DirectAwardJustificationCodeUnpublish:
@@ -546,7 +546,7 @@ group|name|ND-GroupMaximumValueUnpublish:
 group|name|ND-GroupReestimatedValueUnpublish:
   name: Not Immediately Published (GroupReestimatedValue)
 group|name|ND-LocalLegalBasisNoID:
-  name: Legislation impacting the procurement and for which no ID is known
+  name: Other legal basis without a known identifier
 group|name|ND-LocalLegalBasisWithID:
   name: Other legal basis with an identifier
 group|name|ND-LotAwardCriteriaNameUnpublish:
@@ -566,13 +566,13 @@ group|name|ND-LotAwardCriterionNumberUnpublish:
 group|name|ND-LotAwardCriterionNumberWeightUnpublish:
   name: Not Immediately Published (LotAwardCriterionNumberWeight)
 group|name|ND-LotAwardCriterionParameter:
-  name: Award criterion
+  name: Award criterion Parameter
 group|name|ND-LotAwardCriterionParameters:
-  name: Award criteria
+  name: Award criteria Parameters
 group|name|ND-LotAwardCriterionTypeUnpublish:
   name: Not Immediately Published (LotAwardCriterionType)
 group|name|ND-LotProcurementDocument:
-  name: Procurement Document information for a Lot, independent from the restricted aspect
+  name: Procurement Documents information
 group|name|ND-LotReservedProcurement:
   name: Reserved Procurement
 group|name|ND-LotsGroupAwardCriteriaNameUnpublish:
@@ -592,9 +592,9 @@ group|name|ND-LotsGroupAwardCriterionNumberUnpublish:
 group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish:
   name: Not Immediately Published (LotsGroupAwardCriterionNumberWeight)
 group|name|ND-LotsGroupAwardCriterionParameter:
-  name: Group of Lots Award Criterion Parameter (Value and associated Code)
+  name: Award Criterion Parameter
 group|name|ND-LotsGroupAwardCriterionParameters:
-  name: Non UBL Native Subordinate Award Criteria elements for a Group of Lots
+  name: Award Criterion Parameters
 group|name|ND-LotsGroupAwardCriterionTypeUnpublish:
   name: Not Immediately Published (LotsGroupAwardCriterionType)
 group|name|ND-MaximalValueUnpublish:
@@ -630,7 +630,7 @@ group|name|ND-ReviewRequestsStatisticsCountUnpublish:
 group|name|ND-ReviewRequestsStatisticsTypeUnpublish:
   name: Not Immediately Published (RevewRequests irregularity type )
 group|name|ND-StrategicProcurementType:
-  name: Information (Description) about Strategic Procurement Type
+  name: Strategic Procurement
 group|name|ND-SubcontractingDescriptionUnpublish:
   name: Not Immediately Published (SubcontractingDescription)
 group|name|ND-SubcontractingPercentageKnownUnpublish:
@@ -654,8 +654,30 @@ group|name|ND-WinningTenderValueUnpublish:
 group|name|ND-WinningTenderVariantUnpublish:
   name: Not Immediately Published (WinningTenderVariant)
 group|name|ND-LateTendererInformation:
-  name: Information about late provision of information by the tenderer (possibility and description of the information)
+  name: Late Tenderer Information
 group|name|ND-ReceivedSubmissions:
-  name: Container for Received Submissions Statististics Numeric value and associated code.
+  name: Received Submissions Statististics
 group|name|ND-ReviewRequestsStatistics:
-  name: Statistics about Review Requests (number and code)
+  name: Statistics about Review Requests
+group|name|ND-GroupComposition:
+  name: Composition of a given Group of lots
+group|name|ND-LotDistribution:
+  name: Lots Distribution Information
+group|name|ND-LotMainClassification:
+  name: Classification for the Main Commodity of a Lot
+group|name|ND-LotTenderingProcess:
+  name: Tendering Procedure information
+group|name|ND-NoticeResult:
+  name: Result
+group|name|ND-OtherContractExecutionConditions:
+  name: Conditions other than Revenue Allocation
+group|name|ND-PartMainClassification:
+  name: Classification for the Main Commodity of a Part
+group|name|ND-ProcedureMainClassification:
+  name: Main Classification
+group|name|ND-ProcedureProcurementScope:
+  name: Tendering Terms
+group|name|ND-ProcedureTenderingProcess:
+  name: Purpose
+group|name|ND-SubContractor:
+  name: Subcontractor

@@ -347,7 +347,7 @@ PEH:
 PEI:
   name: Inti
 PEN:
-  name: Nuevo sol
+  name: Sol
 PGK:
   name: Kina
 PHP:
@@ -403,7 +403,7 @@ SML:
 SOS:
   name: Somali shilling
 SQS:
-  name: Somaliland shillings
+  name: Somaliland shilling
 SRD:
   name: Surinamese dollar
 SRG:
@@ -445,7 +445,7 @@ TRY:
 TTD:
   name: Trinidad and Tobago dollar
 TVD:
-  name: Tuvaluan dollars
+  name: Tuvaluan dollar
 TWD:
   name: New Taiwan dollar
 TZS:
@@ -570,3 +570,5 @@ ZWN:
   name: Zimbabwe dollar
 ZWR:
   name: Zimbabwe dollar
+OP_DATPRO:
+  name: Provisional data

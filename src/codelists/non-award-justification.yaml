@@ -7,9 +7,9 @@ ins-fund:
 no-rece:
   name: No tenders, requests to participate or projects were received
 no-signed:
-  name: The highest ranked tenderer(s) refused to sign the contract.
+  name: The highest ranked tenderer(s) refused to sign the contract
 one-admis:
-  name: Only one admissible tender, request to participate or project was received.
+  name: Only one admissible tender, request to participate or project was received
 other:
   name: Other
 rev-body:

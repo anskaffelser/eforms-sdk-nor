@@ -13,7 +13,7 @@ codelist|name|bri:
 codelist|name|brin-ecs:
   name: List of allowed Notice Subtype codes for a notice concerning a European Company or a European Cooperative Society registration processing.
 codelist|name|brin-eeig:
-  name: List of allowed Notice Subtype codes for a notice concerning a European Economic Interest Grouping registration procesing.
+  name: List of allowed Notice Subtype codes for a notice concerning a European Economic Interest Grouping registration processing.
 codelist|name|buyer-categories:
   name: List of codes used to characterize the buyers for the subsequent contracts of a given Framework Agreement.
 codelist|name|buyer-contracting-type:
@@ -33,7 +33,7 @@ codelist|name|can-tran:
 codelist|name|change:
   name: List of allowed Notice Subtype codes for a notice of Change Notice Type .
 codelist|name|change-corrig-justification:
-  name: This table provides the codes and values used in case of justification of correcions applied to a notice within the context of public procurement.
+  name: This table provides the codes and values used in case of justification of corrections applied to a notice within the context of public procurement.
 codelist|name|classification-type:
   name: List of commodity classifications
 codelist|name|cn-desg:
@@ -79,7 +79,7 @@ codelist|name|document-distribution:
 codelist|name|document-status:
   name: List of codes to specify whether a document has or not a legal status.
 codelist|name|dps-usage:
-  name: This table provides a list wether a dynamic purchasing system is involved in a procurement and, in case of central purchasing bodies, whether it can be used by buyers not listed in the notice of the Official Journal of the European Union.
+  name: This table provides a list whether a dynamic purchasing system is involved in a procurement and, in case of central purchasing bodies, whether it can be used by buyers not listed in the notice of the Official Journal of the European Union.
 codelist|name|duration:
   name: List of codes for undefined duration
 codelist|name|duration-unit:
@@ -143,7 +143,7 @@ codelist|name|main-activity:
 codelist|name|measurement-unit:
   name: List of codes for the most commonly used Unit of Measures in international trades.
 codelist|name|missing-info-submission:
-  name: This table provides the list of codes indicating wether tenderer-related information (complete or parcial) can be supplemented even after the submission deadline.
+  name: This table provides the list of codes indicating whether tenderer-related information (complete or partial) can be supplemented even after the submission deadline.
 codelist|name|modification-justification:
   name: This table provides the main reasons for modifying a contract within the domain of public procurement.
 codelist|name|nda:
@@ -303,7 +303,7 @@ codelist|name|review-type:
 codelist|name|rewards-penalties:
   name: List of codes for rewards and penalties associated to a Public Transportation Service.
 codelist|name|selection-criterion:
-  name: List of codes to express condictions that are concerned for evaluation purposes. This codelist is a subset of the ESPD codelist CriterionTaxonomy.
+  name: List of codes to express conditions that are concerned for evaluation purposes. This codelist is a subset of the ESPD codelist CriterionTaxonomy.
 codelist|name|social-objective:
   name: List of codes for values linked to any social objective promoted by the specifications, award / selection criteria or contract performance conditions included in a procurement.
 codelist|name|social-service-cpv:
@@ -337,7 +337,7 @@ codelist|name|vehicle-category:
 codelist|name|vehicles:
   name: List of codes for vehicle categories.
 codelist|name|winner-selection-status:
-  name: This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and wether the competiotion is open.
+  name: This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and whether the competition is open.
 codelist|name|eforms-buyer-legal-type:
   name: List of buyer-legal-type codes allowed in eforms
 codelist|name|eforms-currency:
