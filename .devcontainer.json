@@ -1,0 +1,10 @@
+{
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rebornix.ruby",
+        "redhat.vscode-yaml"
+      ]
+    }
+  }
+}
