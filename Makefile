@@ -102,16 +102,18 @@ target/eforms-sdk-nor/schemas: target/eforms-sdk
 	@cp -r target/eforms-sdk/schemas target/eforms-sdk-nor/schemas
 
 target/eforms-sdk-nor/schematrons: \
-	target/eforms-sdk-nor/schematrons/dynamic.sch \
-	target/eforms-sdk-nor/schematrons/static.sch
+	target/eforms-sdk-nor/schematrons/eforms-dynamic.sch \
+	target/eforms-sdk-nor/schematrons/eforms-static.sch
 
-target/eforms-sdk-nor/schematrons/dynamic.sch: target/eforms-sdk target/saxon
+target/eforms-sdk-nor/schematrons/eforms-dynamic.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup.xslt
 	@mkdir -p target/eforms-sdk-nor/schematrons
-	@java -jar target/saxon/saxon-he-12.1.jar -s:target/eforms-sdk/schematrons/dynamic/complete-validation.sch -xsl:bin/xslt/sch-include.xslt -o:target/eforms-sdk-nor/schematrons/dynamic.sch
+	@java -jar target/saxon/saxon-he-12.1.jar -s:target/eforms-sdk/schematrons/dynamic/complete-validation.sch -xsl:bin/xslt/sch-include.xslt \
+	| java -jar target/saxon/saxon-he-12.1.jar -s:- -xsl:src/xslt/sch-cleanup.xslt -o:target/eforms-sdk-nor/schematrons/eforms-dynamic.sch
 
-target/eforms-sdk-nor/schematrons/static.sch: target/eforms-sdk target/saxon
+target/eforms-sdk-nor/schematrons/eforms-static.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup.xslt
 	@mkdir -p target/eforms-sdk-nor/schematrons
-	@java -jar target/saxon/saxon-he-12.1.jar -s:target/eforms-sdk/schematrons/static/complete-validation.sch -xsl:bin/xslt/sch-include.xslt -o:target/eforms-sdk-nor/schematrons/static.sch
+	@java -jar target/saxon/saxon-he-12.1.jar -s:target/eforms-sdk/schematrons/static/complete-validation.sch -xsl:bin/xslt/sch-include.xslt \
+	| java -jar target/saxon/saxon-he-12.1.jar -s:- -xsl:src/xslt/sch-cleanup.xslt -o:target/eforms-sdk-nor/schematrons/eforms-static.sch
 
 target/eforms-sdk-nor/translations: target/eforms-sdk
 	@mkdir -p target/eforms-sdk-nor
@@ -121,8 +123,12 @@ target/eforms-sdk-nor/view-templates: target/eforms-sdk
 	@mkdir -p target/eforms-sdk-nor
 	@cp -r target/eforms-sdk/view-templates target/eforms-sdk-nor/view-templates
 
-target/eforms-sdk-nor/xslt: target/eforms-sdk
-	@cp -r src/xslt target/eforms-sdk-nor/xslt
+target/eforms-sdk-nor/xslt: \
+	target/eforms-sdk-nor/xslt/nor-to-eforms.xslt
+
+target/eforms-sdk-nor/xslt/nor-to-eforms.xslt:
+	@mkdir -p target/eforms-sdk-nor/xslt
+	@cp src/xslt/nor-to-eforms.xslt target/eforms-sdk-nor/xslt/nor-to-eforms.xslt
 
 target/eforms-sdk-nor/README.md: src/template/README.md
 	@mkdir -p target/eforms-sdk-nor

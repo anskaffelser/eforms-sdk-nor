@@ -36,6 +36,17 @@ if config.has_key? 'noticeTypes'
   end
 end
 
+# Updating fields
+config.fetch('fields', {}).each do |id, field|
+
+  # Handle updated pattern
+  if field.has_key? 'pattern'
+    fields[id]['pattern']['value'] = field['pattern']['value']
+  end
+
+  pp fields[id]
+end
+
 # Write result
 File.write opts[:output_file], JSON.pretty_generate(source, array_nl: '')
   .gsub(/\[\s+/, "[ ")

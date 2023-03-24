@@ -1,7 +1,38 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
     "type": "object",
+    "additionalProperties": false,
     "properties": {
+        "noticeTypes": {
+            "$ref": "#/definitions/noticeTypes"
+        },
+        "fields": {
+            "type": "object",
+            "patternProperties": {
+                ".+": {
+                    "$ref": "#/definitions/field"
+                }
+            }
+        }
+    },
+    "definitions": {
+        "field": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "pattern": {
+                    "type": "object",
+                    "required": [
+                        "value"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
         "noticeTypes": {
             "type": "array",
             "items": {
