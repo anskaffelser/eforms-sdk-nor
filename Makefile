@@ -103,7 +103,9 @@ target/eforms-sdk-nor/schemas: target/eforms-sdk
 
 target/eforms-sdk-nor/schematrons: \
 	target/eforms-sdk-nor/schematrons/eforms-dynamic.sch \
-	target/eforms-sdk-nor/schematrons/eforms-static.sch
+	target/eforms-sdk-nor/schematrons/eforms-static.sch \
+	target/eforms-sdk-nor/schematrons/norway-above.sch \
+	target/eforms-sdk-nor/schematrons/norway-below.sch
 
 target/eforms-sdk-nor/schematrons/eforms-dynamic.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup.xslt
 	@mkdir -p target/eforms-sdk-nor/schematrons
@@ -114,6 +116,18 @@ target/eforms-sdk-nor/schematrons/eforms-static.sch: target/eforms-sdk target/sa
 	@mkdir -p target/eforms-sdk-nor/schematrons
 	@java -jar target/saxon/saxon-he-12.1.jar -s:target/eforms-sdk/schematrons/static/complete-validation.sch -xsl:bin/xslt/sch-include.xslt \
 	| java -jar target/saxon/saxon-he-12.1.jar -s:- -xsl:src/xslt/sch-cleanup.xslt -o:target/eforms-sdk-nor/schematrons/eforms-static.sch
+
+target/eforms-sdk-nor/schematrons/norway-above.sch: target/saxon target/sch/above
+	@java -jar target/saxon/saxon-he-12.1.jar \
+		-s:target/sch/above/main.sch \
+		-xsl:bin/xslt/sch-include.xslt \
+		-o:target/eforms-sdk-nor/schematrons/norway-above.sch
+
+target/eforms-sdk-nor/schematrons/norway-below.sch: target/saxon target/sch/below
+	@java -jar target/saxon/saxon-he-12.1.jar \
+		-s:target/sch/below/main.sch \
+		-xsl:bin/xslt/sch-include.xslt \
+		-o:target/eforms-sdk-nor/schematrons/norway-below.sch
 
 target/eforms-sdk-nor/translations: target/eforms-sdk
 	@mkdir -p target/eforms-sdk-nor
@@ -148,3 +162,21 @@ target/saxon:
 	@wget -q "https://github.com/Saxonica/Saxon-HE/raw/main/12/Java/SaxonHE12-1J.zip" -O target/saxon.zip
 	@unzip target/saxon.zip -d target/saxon
 	@rm target/saxon.zip
+
+target/sch: \
+	target/sch/above \
+	target/sch/below
+
+target/sch/above: \
+	target/sch/above/main.sch
+
+target/sch/above/main.sch: src/template/main.sch
+	@mkdir -p target/sch/above
+	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="above" envsubst > target/sch/above/main.sch
+
+target/sch/below: \
+	target/sch/below/main.sch
+
+target/sch/below/main.sch: src/template/main.sch
+	@mkdir -p target/sch/below
+	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="below" envsubst > target/sch/below/main.sch

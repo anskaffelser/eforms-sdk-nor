@@ -44,7 +44,6 @@ config.fetch('fields', {}).each do |id, field|
     fields[id]['pattern']['value'] = field['pattern']['value']
   end
 
-  pp fields[id]
 end
 
 # Write result
