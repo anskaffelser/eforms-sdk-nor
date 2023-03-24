@@ -1,0 +1,44 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'json'
+require 'slop'
+require 'yaml'
+
+opts = Slop.parse do |o|
+  o.string '-c', '--config-file', default: 'src/fields/above.yaml'
+  o.string '-i', '--input-file', default: 'target/eforms-sdk/fields/fields.json'
+  o.string '-o', '--output-file', default: 'target/eforms-sdk-nor/fields/fields.json'
+end
+
+# Loading configuration
+config = YAML.load_file opts[:config_file]
+
+# Loading source
+source = JSON.parse File.read opts[:input_file]
+groups = source['xmlStructure'].to_h {|o| [o['id'], o]}
+fields = source['fields'].to_h {|o| [o['id'], o]}
+
+# Remove references to notice types not used
+if config.has_key? 'noticeTypes'
+  noticeTypes = config['noticeTypes'].map { |v| v.to_s }
+
+  fields.each do |i, field|
+    ['forbidden', 'mandatory'].each do |kind|
+      constraints = field.fetch(kind, {}).fetch('constraints', [])
+      constraints.filter { |c| c.has_key? 'noticeTypes' }.each do |constraint|
+        constraint['noticeTypes'] = constraint['noticeTypes'].filter { |nt| noticeTypes.include? nt }
+        constraints.delete(constraint) if constraint['noticeTypes'].size == 0
+      end
+
+      field.delete(kind) if constraints.size == 0
+    end
+  end
+end
+
+# Write result
+File.write opts[:output_file], JSON.pretty_generate(source, array_nl: '')
+  .gsub(/\[\s+/, "[ ")
+  .gsub(/\}\s+/, "} ")
+  .gsub(/\",[ ]+\"/, '", "')
+  .gsub(/\"\s+\]+/, '"]')

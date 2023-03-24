@@ -75,9 +75,23 @@ target/eforms-sdk-nor/efx-grammar: target/eforms-sdk
 	@mkdir -p target/eforms-sdk-nor
 	@cp -r target/eforms-sdk/efx-grammar target/eforms-sdk-nor/efx-grammar
 
-target/eforms-sdk-nor/fields: target/eforms-sdk
-	@mkdir -p target/eforms-sdk-nor
-	@cp -r target/eforms-sdk/fields target/eforms-sdk-nor/fields
+target/eforms-sdk-nor/fields: \
+	target/eforms-sdk-nor/fields/above.json \
+	target/eforms-sdk-nor/fields/below.json
+
+target/eforms-sdk-nor/fields/above.json: target/eforms-sdk bin/process-fields
+	@mkdir -p target/eforms-sdk-nor/fields
+	@ruby bin/process-fields \
+		-i target/eforms-sdk-nor/fields/fields.json \
+		-c src/fields/above.yaml \
+		-o target/eforms-sdk-nor/fields/above.json
+
+target/eforms-sdk-nor/fields/below.json: target/eforms-sdk bin/process-fields
+	@mkdir -p target/eforms-sdk-nor/fields
+	@ruby bin/process-fields \
+		-i target/eforms-sdk-nor/fields/fields.json \
+		-c src/fields/below.yaml \
+		-o target/eforms-sdk-nor/fields/below.json
 
 target/eforms-sdk-nor/notice-types: target/eforms-sdk
 	@mkdir -p target/eforms-sdk-nor

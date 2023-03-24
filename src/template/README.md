@@ -8,6 +8,7 @@ This package is modified variant of the [official eForms SDK](https://github.com
 The following folders contains modified content:
 
     * `codelists` - Translations are added to existing code list files
+    * `fields` - Field definitions used above and below thresholds
     * `schematrons` - WORK IN PROGRESS
     * `translations` - Additional translation files are added
 
