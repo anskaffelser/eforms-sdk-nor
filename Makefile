@@ -45,7 +45,9 @@ package-zip:
 	@rm -f target/eforms-sdk-nor-*.zip
 	@cd target/eforms-sdk-nor && zip -q9r ../eforms-sdk-nor-$(VERSION).zip *
 
-target/eforms-sdk: .bundle/vendor
+target/eforms-sdk: .bundle/vendor target/eforms-sdk/README.md
+
+target/eforms-sdk/README.md:
 	@echo "* Downloading eForms SDK $(EFORMS_VERSION)"
 	@mkdir -p target
 	@rm -rf target/eforms-sdk

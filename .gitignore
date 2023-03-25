@@ -1,3 +1,4 @@
 /.bundle/vendor
 /.idea
 /target
+.DS_Store
