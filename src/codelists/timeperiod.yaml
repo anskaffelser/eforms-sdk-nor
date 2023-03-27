@@ -1,72 +1,114 @@
 APR:
   name: April
+  nob: April
 AUG:
   name: August
+  nob: August
 AUTUMN:
   name: Autumn
+  nob: Høst
 CALENDAR_DAY:
   name: Calendar day
+  nob: Kalenderdag
 DAY:
   name: Day
+  nob: Dag
 DEC:
   name: December
+  nob: Desember
 FEB:
   name: February
+  nob: Februar
 FRI:
   name: Friday
+  nob: Fredag
 HOUR:
   name: Hour
+  nob: Time
 JAN:
   name: January
+  nob: Januar
 JUL:
   name: July
+  nob: Juli
 JUN:
   name: June
+  nob: Juni
 MAR:
   name: March
+  nob: Mars
 MAY:
   name: May
+  nob: Mai
 MIN:
   name: Minute
+  nob: Minutt
 MON:
   name: Monday
+  nob: Mandag
+  nno: Måndag
 MONTH:
   name: Month
+  nob: Måned
+  nno: Nånad
 NOV:
   name: November
+  nob: November
 OCT:
   name: October
+  nob: Oktober
 QUARTER:
   name: Quarter
+  nob: Kvartal
 SAT:
   name: Saturday
+  nob: Lørdag
+  nno: Laurdag
 SEC:
   name: Second
+  nob: Sekund
 SEP:
   name: September
+  nob: September
 SPRING:
   name: Spring
+  nob: Vår
 SUMMER:
   name: Summer
+  nob: Sommer
 SUN:
   name: Sunday
+  nob: Søndag
+  nno: Sundag
 THU:
   name: Thursday
+  nob: Torsdag
 TUE:
   name: Tuesday
+  nob: Tirsdag
+  nno: Tysdag
 UNKNOWN:
   name: Unknown
+  nob: Ukjent
 UNLIMITED:
   name: Unlimited
+  nob: Ubegrenset
 WED:
   name: Wednesday
+  nob: Onsdag
 WEEK:
   name: Week
+  nob: Uke
+  nno: Veke
 WINTER:
   name: Winter
+  nob: Vinter
 WORKING_DAY:
   name: Working day
+  nob: Arbeidsdag
 YEAR:
   name: Year
+  nob: År
 YEAR_HALF:
   name: Half year
+  nob: Halvår
