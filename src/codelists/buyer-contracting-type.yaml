@@ -1,4 +1,6 @@
 cont-ent:
   name: Contracting Entity
+  nob: Oppdragsgiver
 not-cont-ent:
   name: Not Contracting Entity
+  nob: Ikke oppdragsgiver
