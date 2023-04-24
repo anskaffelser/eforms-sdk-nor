@@ -1,8 +1,12 @@
 combined:
   name: Combined
+  nob: Kombinert
 services:
   name: Services
+  nob: Tjenester
 supplies:
   name: Supplies
+  nob: Varer
 works:
   name: Works
+  nob: Bygge- og anleggsarbeid
