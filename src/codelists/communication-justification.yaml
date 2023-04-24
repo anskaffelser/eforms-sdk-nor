@@ -1,10 +1,15 @@
 ipr-iss:
   name: Intellectual property right issues
+  nob: Spørsmål om immaterielle rettigheter
 phy-mod:
   name: Inclusion of a physical model
+  nob: Fysisk modell er inkludert
 sen-info:
   name: Protection of particularly sensitive information
+  nob: Beskyttelse av sensitiv informasjon
 sp-of-eq:
   name: Buyer would need specialised office equipment
+  nob: Kjøper vil trenge spesialisert kontorutstyr
 tdf-non-av:
   name: Tools, devices, or file formats not generally available
+  nob: Verktøy, løsninger eller filformater som ikke er alminnelig tilgjengelig 
