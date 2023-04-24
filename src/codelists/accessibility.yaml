@@ -1,6 +1,9 @@
 inc:
   name: Accessibility criteria for persons with disabilities are included
+  nob: Tilgjengelighetskriterier for personer med nedsatt funksjonsevne er inkludert
 n-inc:
   name: Accessibility criteria for persons with disabilities are not included because the procurement is not intended for use by natural persons
+  nob: Tilgjengelighetskriterier for personer med nedsatt funksjonsevne er ikke inkludert, fordi anskaffelsen ikke er beregnet til å bli anvendt av fysiske personer
 n-inc-just:
   name: Accessibility criteria for persons with disabilities are not included with the following justification
+  nob: Tilgjengelighetskriterier for personer med nedsatt funksjonsevne er ikke inkludert med følgende begrunnelse
