@@ -1,25 +1,34 @@
 body-pl:
   name: Body governed by public law
+  nob: Offentligrettslig organ
 body-pl-cga:
   name: Body governed by public law, controlled by a central government authority
+  nob: Statlige myndigheter
 body-pl-la:
   name: Body governed by public law, controlled by a local authority
+  nob: Kommunale myndigheter
 body-pl-ra:
   name: Body governed by public law, controlled by a regional authority
+  nob: Fylkeskommunale myndigheter
 cga:
   name: Central government authority
+  nob: Sentral statlig myndighet
 def-cont:
   name: Defence contractor
 eu-ins-bod-ag:
   name: EU institution, body or agency
+  nob: EU institusjon eller internasjonal organisasjon
 eu-int-org:
   name: European Institution/Agency or International Organisation
 grp-p-aut:
   name: Group of public authorities
+  nob: Sammenslutning av offenltige myndigheter
 int-org:
   name: International organisation
+  nob: Internasjonal organisasjon
 la:
   name: Local authority
+  nob: lokal styresmakt
 org-sub:
   name: Organisation awarding a contract subsidised by a contracting authority
 org-sub-cga:
