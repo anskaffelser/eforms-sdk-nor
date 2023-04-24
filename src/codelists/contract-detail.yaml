@@ -1,12 +1,18 @@
 all-rev-tic:
   name: Allocation of revenues of sales from tickets
+  nob: Fordeling av inntekter fra billettsalg
 cost-comp:
   name: Cost parameters for compensation payments
+  nob: Kostnadsparametere for erstatningsutbetalinger
 exc-right:
   name: Exclusive rights are granted
+  nob: Eksklusive rettighter beviljes 
 other:
   name: Other particular conditions
+  nob: Andre spesielle forhold
 publ-ser-obl:
   name: Public service obligations
+  nob: Forpliktelser vedrørende offentlige tjenester
 soc-stand:
   name: Social standards
+  nob: Sosiale standarder 
