@@ -1,64 +1,93 @@
 autorisation:
   name: 'For service contracts: authorisation of particular organisation needed'
+  nob: For tjenestekontrakter: autorisasjon fra spesifikk organisasjon nødvendig
 aver-year-to:
   name: Average yearly turnover
+  nob: Gjennomsnittlig årlig omsetning
 bankr-nat:
   name: Analogous situation like bankruptcy under national law
+  nob: Analog situasjon som konkurs etter nasjonal lov
 bankruptcy:
   name: Bankruptcy
+  nob: Konkurs
 chain-manage:
   name: Supply chain management
+  nob: Ledelse av forkyningskjede
 corruption:
   name: Corruption
+  nob: Korrupsjon 
 cred-arran:
   name: Arrangement with creditors
+  nob: Avtale med kreditorer
 crime-org:
   name: Participation in a criminal organisation
+  nob: Deltakelse i en kriminell organisasjon
 distorsion:
   name: Agreements with other economic operators aimed at distorting competition
+  nob: Avtaler med andre økonomiske aktører som har til hensikt å forvrenge konkurransen
 envir-certif-indep:
   name: Certificates by independent bodies about environmental management systems or standards
+  nob: Sertifikater fra uavhengige organisasjoner om miljøstyringssystemer eller standarder
 envir-law:
   name: Breaching of obligations in the fields of environmental law
+  nob: Brudd på forpliktelser innenfor miljølovgivning
 envir-measure:
   name: Environmental management measures
+  nob: Miljøstyringstiltak
 eo-group:
   name: Economic operator together with others
+  nob: Økonomisk aktør sammen med andre
 finan-laund:
   name: Money laundering or terrorist financing
+  nob: Hvitevasking eller terrorfinansiering
 finan-rat:
   name: Financial ratio
+  nob: Økonomisk forholdstall
 finan-requ:
   name: Other economic or financial requirements
+  nob: Andre økonomiske eller finansielle krav
 fraud:
   name: Fraud
   nob: Svindel
 gen-year-to:
   name: General yearly turnover
+  nob: Generell årlig omsetning
 human-traffic:
   name: Child labour and other forms of trafficking in human beings
+  nob: Barnearbeid og andre former for menneskehandel
 indem-insu:
   name: Professional risk indemnity insurance
+  nob: Profesjonsansvarsforsikring
 insolvency:
   name: Insolvency
+  nob: Insolvens 
 labour-law:
   name: Breaching of obligations in the fields of labour law
+  nob: Brudd på forpliktelser innenfor arbeidsretten
 liq-admin:
   name: Assets being administered by liquidator
+  nob: Eiendeler administreres av likvidator
 manage-staff:
   name: Number of managerial staff
+  nob: Antall lederansatte
 membership:
   name: 'For service contracts: membership of particular organisation needed'
+  nob: For tjenestekontrakter: medlemskap i spesifikk organisasjon nødvendig
 misinterpr:
   name: Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure
+  nob: Skyldig i feiltolkning, tilbakeholdt informasjon, manglende evne til å gi nødvendig dokumenter og oppnådde konfidensiell informasjon i denne prosedyren
 nati-ground:
   name: Purely national exclusion grounds
+  nob: Kun nasjonale eksklusjonsgrunnlag
 partic-confl:
   name: Conflict of interest due to its participation in the procurement procedure
+  nob: Interessekonflikt på grunn av deltakelse i anskaffelsesprosedyren
 prep-confl:
   name: Direct or indirect involvement in the preparation of this procurement procedure
+  nob: Direkte eller indirekte involvering i forberedelsen av denne anskaffelsesprosedyren
 prof-misconduct:
   name: Guilty of grave professional misconduct
+  nob: Skyld for grov yrkesmessig forseelse
 prof-regist:
   name: Enrolment in a relevant professional register
 qa-certif-inst:
