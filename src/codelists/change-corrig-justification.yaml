@@ -1,14 +1,21 @@
 cancel:
   name: Notice cancelled
+  nob: Avlysning kunngjøring
 cancel-intent:
   name: Cancellation intention
+  nob: Avlysning intensjon
 cor-buy:
   name: Buyer correction
+  nob: Korreksjon kjøper
 cor-esen:
   name: eSender correction
+  nob: Korreksjon eSender 
 cor-pub:
   name: Publisher correction
+  nob: Korreksjon offentliggjøring
 info-release:
   name: Information now available
+  nob: Informasjon nå tilgjengelig
 update-add:
   name: Information updated
+  nob: Informasjon oppdatert
