@@ -1,6 +1,9 @@
 cost:
   name: Cost
+  nob: Kostnad
 price:
   name: Price
+  nob: Pris
 quality:
   name: Quality
+  nob: Kvalitet
