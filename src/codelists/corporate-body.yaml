@@ -1,0 +1,176 @@
+ACER:
+  name: European Union Agency for the Cooperation of Energy Regulators
+BERD:
+  name: European Bank for Reconstruction and Development
+BEREC_OFFICE:
+  name: Agency for Support for BEREC
+CAJU:
+  name: Clean Aviation Joint Undertaking
+CBEJU:
+  name: Circular Bio-based Europe Joint Undertaking
+CDT:
+  name: Translation Centre
+CEDEFOP:
+  name: Cedefop
+CEPOL:
+  name: European Union Agency for Law Enforcement Training
+CERN:
+  name: CERN
+CERT:
+  name: Computer Emergency Response Team for the EU institutions, bodies and agencies
+CFCA:
+  name: European Fisheries Control Agency
+CHJU:
+  name: Clean Hydrogen Joint Undertaking
+CINEA:
+  name: European Climate, Infrastructure and Environment Executive Agency
+COM:
+  name: European Commission
+CONSIL:
+  name: Council of the European Union
+COR:
+  name: European Committee of the Regions
+COU_EUR:
+  name: Council of Europe
+COU_EUR_DB:
+  name: Council of Europe Development Bank
+CPVO:
+  name: Community Plant Variety Office
+CURIA:
+  name: Court of Justice of the European Union
+EACEA:
+  name: European Education and Culture Executive Agency
+EASA:
+  name: European Union Aviation Safety Agency
+EBA:
+  name: European Banking Authority
+ECA:
+  name: European Court of Auditors
+ECB:
+  name: European Central Bank
+ECDC:
+  name: European Centre for Disease Prevention and Control
+ECHA:
+  name: European Chemicals Agency
+ECHR:
+  name: European Court of Human Rights
+EDA:
+  name: European Defence Agency
+EDPS:
+  name: European Data Protection Supervisor
+EEA:
+  name: European Environment Agency
+EEAS:
+  name: European External Action Service
+EESC:
+  name: European Economic and Social Committee
+EFSA:
+  name: European Food Safety Authority
+EFTA:
+  name: European Free Trade Association
+EIB:
+  name: European Investment Bank
+EIF:
+  name: European Investment Fund
+EIGE:
+  name: European Institute for Gender Equality
+EIOPA:
+  name: European Insurance and Occupational Pensions Authority
+EISMEA:
+  name: European Innovation Council and SMEs Executive Agency
+EIT:
+  name: European Institute of Innovation and Technology
+ELA:
+  name: European Labour Authority
+EMCDDA:
+  name: European Monitoring Centre for Drugs and Drug Addiction
+EMEA:
+  name: European Medicines Agency
+EMSA:
+  name: European Maritime Safety Agency
+ENISA:
+  name: European Union Agency for Cybersecurity
+EP:
+  name: European Parliament
+EPORG:
+  name: European Patent Organisation
+EPPO:
+  name: European Public Prosecutor’s Office
+EPSO:
+  name: European Personnel Selection Office
+ERA:
+  name: European Union Agency for Railways
+ERC:
+  name: European Research Council Executive Agency
+ESA:
+  name: European Space Agency
+ESM:
+  name: European Stability Mechanism
+ESMA:
+  name: European Securities and Markets Authority
+ETF:
+  name: European Training Foundation
+EUAA:
+  name: European Union Agency for Asylum
+EUISS:
+  name: European Union Institute for Security Studies
+EURAIL:
+  name: Europe’s Rail Joint Undertaking
+EURATOM:
+  name: Euratom Supply Agency
+EUROCONTROL:
+  name: Eurocontrol
+EUROFOUND:
+  name: Eurofound
+EUROHPC:
+  name: European High-Performance Computing Joint Undertaking
+EUROJUST:
+  name: European Union Agency for Criminal Justice Cooperation
+EUROPOL:
+  name: Europol
+EURSCHOOL:
+  name: European schools
+EUSC:
+  name: European Union Satellite Centre
+EUSPA:
+  name: European Union Agency for the Space Programme
+FAO:
+  name: Food and Agriculture Organization
+FRA:
+  name: European Union Agency for Fundamental Rights
+FRONTEX:
+  name: Frontex
+FUSEN:
+  name: Fusion for Energy Joint Undertaking
+HERA:
+  name: Health Emergency Preparedness and Response Authority
+IEA:
+  name: International Energy Agency
+IHIJU:
+  name: Innovative Health Initiative Joint Undertaking
+ILO:
+  name: International Labour Organization
+INTERPOL:
+  name: Interpol
+KDTJU:
+  name: Key Digital Technologies Joint Undertaking
+LISA:
+  name: European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice
+NATO:
+  name: North Atlantic Treaty Organization
+OAMI:
+  name: European Union Intellectual Property Office
+OECD:
+  name: Organisation for Economic Co-operation and Development
+OMB:
+  name: European Ombudsman
+OSHA:
+  name: European Agency for Safety and Health at Work
+PUBL:
+  name: Publications Office of the European Union
+REA:
+  name: European Research Executive Agency
+SESAR:
+  name: Single European Sky ATM Research 3 Joint Undertaking
+SRB:
+  name: Single Resolution Board

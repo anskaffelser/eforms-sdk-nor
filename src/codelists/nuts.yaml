@@ -139,7 +139,7 @@ ATZZZ:
 BE1:
   name: Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest
 BE10:
-  name: Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest
+  name: Région de Bruxelles-Capitale / Brussels Hoofdstedelijk Gewest
 BE100:
   name: Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad
 BE2:
@@ -229,9 +229,9 @@ BE332:
 BE334:
   name: Arr. Waremme
 BE335:
-  name: Arr. Verviers - communes francophones
+  name: Arr. Verviers — communes francophones
 BE336:
-  name: Bezirk Verviers - Deutschsprachige Gemeinschaft
+  name: Bezirk Verviers — Deutschsprachige Gemeinschaft
 BE34:
   name: Prov. Luxembourg (BE)
 BE341:
@@ -259,77 +259,77 @@ BEZZ:
 BEZZZ:
   name: Extra-Regio NUTS 3
 BG3:
-  name: Северна и югоизточна България (Severna I Yugoiztochna Bulgaria)
+  name: Северна и Югоизточна България
 BG31:
-  name: Северозападен (Severozapaden)
+  name: Северозападен
 BG311:
-  name: Видин (Vidin)
+  name: Видин
 BG312:
-  name: Монтана (Montana)
+  name: Монтана
 BG313:
-  name: Враца (Vratsa)
+  name: Враца
 BG314:
-  name: Плевен (Pleven)
+  name: Плевен
 BG315:
-  name: Ловеч (Lovech)
+  name: Ловеч
 BG32:
-  name: Северен централен (Severen tsentralen)
+  name: Северен централен
 BG321:
-  name: Велико Търново (Veliko Tarnovo)
+  name: Велико Търново
 BG322:
-  name: Габрово (Gabrovo)
+  name: Габрово
 BG323:
-  name: Русе (Ruse)
+  name: Русе
 BG324:
-  name: Разград (Razgrad)
+  name: Разград
 BG325:
-  name: Силистра (Silistra)
+  name: Силистра
 BG33:
-  name: Североизточен (Severoiztochen)
+  name: Североизточен
 BG331:
-  name: Варна (Varna)
+  name: Варна
 BG332:
-  name: Добрич (Dobrich)
+  name: Добрич
 BG333:
-  name: Шумен (Shumen)
+  name: Шумен
 BG334:
-  name: Търговище (Targovishte)
+  name: Търговище
 BG34:
-  name: Югоизточен (Yugoiztochen)
+  name: Югоизточен
 BG341:
-  name: Бургас (Burgas)
+  name: Бургас
 BG342:
-  name: Сливен (Sliven)
+  name: Сливен
 BG343:
-  name: Ямбол (Yambol)
+  name: Ямбол
 BG344:
-  name: Стара Загора (Stara Zagora)
+  name: Стара Загора
 BG4:
-  name: Югозападна и южна централна България (Yugozapadna I Yuzhna Tsentralna Bulgaria)
+  name: Югозападна и Южна централна България
 BG41:
-  name: Югозападен (Yugozapaden)
+  name: Югозападен
 BG411:
-  name: София (столица) (Sofia (stolitsa))
+  name: София (столица)
 BG412:
-  name: София (Sofia)
+  name: София
 BG413:
-  name: Благоевград (Blagoevgrad)
+  name: Благоевград
 BG414:
-  name: Перник (Pernik)
+  name: Перник
 BG415:
-  name: Кюстендил (Kyustendil)
+  name: Кюстендил
 BG42:
-  name: Южен централен (Yuzhen tsentralen)
+  name: Южен централен
 BG421:
-  name: Пловдив (Plovdiv)
+  name: Пловдив
 BG422:
-  name: Хасково (Haskovo)
+  name: Хасково
 BG423:
-  name: Пазарджик (Pazardzhik)
+  name: Пазарджик
 BG424:
-  name: Смолян (Smolyan)
+  name: Смолян
 BG425:
-  name: Кърджали (Kardzhali)
+  name: Кърджали
 BGZ:
   name: Extra-Regio NUTS 1
 BGZZ:
@@ -343,15 +343,15 @@ CH01:
 CH011:
   name: Vaud
 CH012:
-  name: Valais/Wallis
+  name: Valais / Wallis
 CH013:
   name: Genève
 CH02:
   name: Espace Mittelland
 CH021:
-  name: Bern/Berne
+  name: Bern / Berne
 CH022:
-  name: Fribourg/Freiburg
+  name: Fribourg / Freiburg
 CH023:
   name: Solothurn
 CH024:
@@ -383,7 +383,7 @@ CH054:
 CH055:
   name: St. Gallen
 CH056:
-  name: Graubünden/Grigioni/Grischun
+  name: Graubünden / Grigioni / Grischun
 CH057:
   name: Thurgau
 CH06:
@@ -411,11 +411,11 @@ CHZZ:
 CHZZZ:
   name: Extra-Regio NUTS 3
 CY0:
-  name: Κύπρος (Kypros)
+  name: Κύπρος
 CY00:
-  name: Κύπρος (Kypros)
+  name: Κύπρος
 CY000:
-  name: Κύπρος (Kypros)
+  name: Κύπρος
 CYZ:
   name: Extra-Regio NUTS 1
 CYZZ:
@@ -1451,143 +1451,143 @@ EEZZ:
 EEZZZ:
   name: Extra-Regio NUTS 3
 EL3:
-  name: Αττική (Attiki)
+  name: Αττική
 EL30:
-  name: Aττική (Attiki)
+  name: Aττική
 EL301:
-  name: Βόρειος Τομέας Αθηνών (Voreios Tomeas Athinon)
+  name: Βόρειος Τομέας Αθηνών
 EL302:
-  name: Δυτικός Τομέας Αθηνών (Dytikos Tomeas Athinon)
+  name: Δυτικός Τομέας Αθηνών
 EL303:
-  name: Κεντρικός Τομέας Αθηνών (Kentrikos Tomeas Athinon)
+  name: Κεντρικός Τομέας Αθηνών
 EL304:
-  name: Νότιος Τομέας Αθηνών (Notios Tomeas Athinon)
+  name: Νότιος Τομέας Αθηνών
 EL305:
-  name: Ανατολική Αττική (Anatoliki Attiki)
+  name: Ανατολική Αττική
 EL306:
-  name: Δυτική Αττική (Dytiki Attiki)
+  name: Δυτική Αττική
 EL307:
-  name: Πειραιάς, Νήσοι (Peiraias, Nisoi)
+  name: Πειραιάς, Νήσοι
 EL4:
-  name: Νησιά Αιγαίου, Κρήτη (Nisia Aigaiou, Kriti)
+  name: Νησιά Αιγαίου, Κρήτη
 EL41:
-  name: Βόρειο Αιγαίο (Voreio Aigaio)
+  name: Βόρειο Αιγαίο
 EL411:
-  name: Λέσβος, Λήμνος (Lesvos, Limnos)
+  name: Λέσβος, Λήμνος
 EL412:
-  name: Ικαρία, Σάμος (Ikaria, Samos)
+  name: Ικαρία, Σάμος
 EL413:
-  name: Χίος (Chios)
+  name: Χίος
 EL42:
-  name: Νότιο Αιγαίο (Notio Aigaio)
+  name: Νότιο Αιγαίο
 EL421:
-  name: Κάλυμνος, Κάρπαθος - Ηρωική Νήσος Κάσος, Κως, Ρόδος (Kalymnos, Karpathos, Kasos, Kos, Rodos)
+  name: Κάλυμνος, Κάρπαθος – Ηρωική Νήσος Κάσος, Κως, Ρόδος
 EL422:
-  name: Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος (Andros, Thira, Kea, Milos, Mykonos, Naxos, Paros, Syros, Tinos)
+  name: Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος
 EL43:
-  name: Κρήτη (Kriti)
+  name: Κρήτη
 EL431:
-  name: Ηράκλειο (Irakleio)
+  name: Ηράκλειο
 EL432:
-  name: Λασίθι (Lasithi)
+  name: Λασίθι
 EL433:
-  name: Ρεθύμνη (Rethymni)
+  name: Ρέθυμνο
 EL434:
-  name: Χανιά (Chania)
+  name: Χανιά
 EL5:
-  name: Βόρεια Ελλάδα (Voreia Ellada)
+  name: Βόρεια Ελλάδα
 EL51:
-  name: Aνατολική Μακεδονία, Θράκη (Anatoliki Makedonia, Thraki)
+  name: Aνατολική Μακεδονία, Θράκη
 EL511:
-  name: Έβρος (Evros)
+  name: Έβρος
 EL512:
-  name: Ξάνθη (Xanthi)
+  name: Ξάνθη
 EL513:
-  name: Ροδόπη (Rodopi)
+  name: Ροδόπη
 EL514:
-  name: Δράμα (Drama)
+  name: Δράμα
 EL515:
-  name: Θάσος, Καβάλα (Thasos, Kavala)
+  name: Θάσος, Καβάλα
 EL52:
-  name: Κεντρική Μακεδονία (Kentriki Makedonia)
+  name: Κεντρική Μακεδονία
 EL521:
-  name: Ημαθία (Imathia)
+  name: Ημαθία
 EL522:
-  name: Θεσσαλονίκη (Thessaloniki)
+  name: Θεσσαλονίκη
 EL523:
-  name: Κιλκίς (Kilkis)
+  name: Κιλκίς
 EL524:
-  name: Πέλλα (Pella)
+  name: Πέλλα
 EL525:
-  name: Πιερία (Pieria)
+  name: Πιερία
 EL526:
-  name: Σέρρες (Serres)
+  name: Σέρρες
 EL527:
-  name: Χαλκιδική (Chalkidiki)
+  name: Χαλκιδική
 EL53:
-  name: Δυτική Μακεδονία (Dytiki Makedonia)
+  name: Δυτική Μακεδονία
 EL531:
-  name: Γρεβενά, Κοζάνη (Grevena, Kozani)
+  name: Γρεβενά, Κοζάνη
 EL532:
-  name: Καστοριά (Kastoria)
+  name: Καστοριά
 EL533:
-  name: Φλώρινα (Florina)
+  name: Φλώρινα
 EL54:
-  name: Ήπειρος (Ipeiros)
+  name: Ήπειρος
 EL541:
-  name: Άρτα, Πρέβεζα (Arta, Preveza)
+  name: Άρτα, Πρέβεζα
 EL542:
-  name: Θεσπρωτία (Thesprotia)
+  name: Θεσπρωτία
 EL543:
-  name: Ιωάννινα (Ioannina)
+  name: Ιωάννινα
 EL6:
-  name: Κεντρική Ελλάδα (Kentriki Ellada)
+  name: Κεντρική Ελλάδα
 EL61:
-  name: Θεσσαλία (Thessalia)
+  name: Θεσσαλία
 EL611:
-  name: Καρδίτσα, Τρίκαλα (Karditsa, Trikala)
+  name: Καρδίτσα, Τρίκαλα
 EL612:
-  name: Λάρισα (Larisa)
+  name: Λάρισα
 EL613:
-  name: Μαγνησία, Σποράδες (Magnisia, Sporades)
+  name: Μαγνησία, Σποράδες
 EL62:
-  name: Ιόνια Νησιά (Ionia Nisia)
+  name: Ιόνια Νησιά
 EL621:
-  name: Ζάκυνθος (Zakynthos)
+  name: Ζάκυνθος
 EL622:
-  name: Κέρκυρα (Kerkyra)
+  name: Κέρκυρα
 EL623:
-  name: Ιθάκη, Κεφαλληνία (Ithaki, Kefallinia)
+  name: Ιθάκη, Κεφαλληνία
 EL624:
-  name: Λευκάδα (Lefkada)
+  name: Λευκάδα
 EL63:
-  name: Δυτική Ελλάδα (Dytiki Ellada)
+  name: Δυτική Ελλάδα
 EL631:
-  name: Αιτωλοακαρνανία (Aitoloakarnania)
+  name: Αιτωλοακαρνανία
 EL632:
-  name: Αχαΐα (Achaia)
+  name: Αχαΐα
 EL633:
-  name: Ηλεία (Ileia)
+  name: Ηλεία
 EL64:
-  name: Στερεά Ελλάδα (Sterea Ellada)
+  name: Στερεά Ελλάδα
 EL641:
-  name: Βοιωτία (Voiotia)
+  name: Βοιωτία
 EL642:
-  name: Εύβοια (Evvoia)
+  name: Εύβοια
 EL643:
-  name: Ευρυτανία (Evrytania)
+  name: Ευρυτανία
 EL644:
-  name: Φθιώτιδα (Fthiotida)
+  name: Φθιώτιδα
 EL645:
-  name: Φωκίδα (Fokida)
+  name: Φωκίδα
 EL65:
-  name: Πελοπόννησος (Peloponnisos)
+  name: Πελοπόννησος
 EL651:
-  name: Αργολίδα, Αρκαδία (Argolida, Arkadia)
+  name: Αργολίδα, Αρκαδία
 EL652:
-  name: Κορινθία (Korinthia)
+  name: Κορινθία
 EL653:
-  name: Λακωνία, Μεσσηνία (Lakonia, Messinia)
+  name: Λακωνία, Μεσσηνία
 ELZ:
   name: Extra-Regio NUTS 1
 ELZZ:
@@ -1701,11 +1701,11 @@ ES514:
 ES52:
   name: Comunitat Valenciana
 ES521:
-  name: Alicante/Alacant
+  name: Alicante / Alacant
 ES522:
-  name: Castellón/Castelló
+  name: Castellón / Castelló
 ES523:
-  name: Valencia/València
+  name: Valencia / València
 ES53:
   name: Illes Balears
 ES531:
@@ -1831,7 +1831,7 @@ FIZZZ:
 FR1:
   name: Ile-de-France
 FR10:
-  name: Ile-de-France
+  name: Île de France
 FR101:
   name: Paris
 FR102:
@@ -1849,9 +1849,9 @@ FR107:
 FR108:
   name: Val-d’Oise
 FRB:
-  name: Centre - Val de Loire
+  name: Centre — Val de Loire
 FRB0:
-  name: Centre - Val de Loire
+  name: Centre — Val de Loire
 FRB01:
   name: Cher
 FRB02:
@@ -2091,7 +2091,7 @@ FRM01:
 FRM02:
   name: Haute-Corse
 FRY:
-  name: RUP FR - Régions Ultrapériphériques Françaises
+  name: RUP FR — Régions Ultrapériphériques Françaises
 FRY1:
   name: Guadeloupe
 FRY10:
@@ -2639,11 +2639,11 @@ LVZZ:
 LVZZZ:
   name: Extra-Regio NUTS 3
 ME0:
-  name: Црна Гора (Crna Gora)
+  name: Црна Гора
 ME00:
-  name: Црна Гора (Crna Gora)
+  name: Црна Гора
 ME000:
-  name: Црна Гора (Crna Gora)
+  name: Црна Гора
 MEZ:
   name: Extra-Regio NUTS 1
 MEZZ:
@@ -2651,25 +2651,25 @@ MEZZ:
 MEZZZ:
   name: Extra-Regio NUTS 3
 MK0:
-  name: Северна Македонија (Severna Makedonija)
+  name: Северна Македонија
 MK00:
-  name: Северна Македонија (Severna Makedonija)
+  name: Северна Македонија
 MK001:
-  name: Вардарски (Vardarski)
+  name: Вардарски
 MK002:
-  name: Источен (Istočen)
+  name: Источен
 MK003:
-  name: Југозападен (Jugozapaden)
+  name: Југозападен
 MK004:
-  name: Југоисточен (Jugoistočen)
+  name: Југоисточен
 MK005:
-  name: Пелагониски (Pelagoniski)
+  name: Пелагониски
 MK006:
-  name: Полошки (Pološki)
+  name: Полошки
 MK007:
-  name: Североисточен (Severoistočen)
+  name: Североисточен
 MK008:
-  name: Скопски (Skopski)
+  name: Скопски
 MKZ:
   name: Extra-Regio NUTS 1
 MKZZ:
@@ -2683,7 +2683,7 @@ MT00:
 MT001:
   name: Malta
 MT002:
-  name: Gozo and Comino/Għawdex u Kemmuna
+  name: Gozo and Comino / Għawdex u Kemmuna
 MTZ:
   name: Extra-Regio NUTS 1
 MTZZ:
@@ -2845,7 +2845,7 @@ NO0A2:
 NO0A3:
   name: Møre og Romsdal
 NO0B:
-  name: Jan Mayen and Svalbard
+  name: Svalbard og Jan Mayen
 NO0B1:
   name: Jan Mayen
 NO0B2:
@@ -2931,7 +2931,7 @@ PL514:
 PL515:
   name: Jeleniogórski
 PL516:
-  name: Legnicko-głogowski
+  name: Legnicko-Głogowski
 PL517:
   name: Wałbrzyski
 PL518:
@@ -2945,9 +2945,9 @@ PL524:
 PL6:
   name: Makroregion północny
 PL61:
-  name: Kujawsko-pomorskie
+  name: Kujawsko-Pomorskie
 PL613:
-  name: Bydgosko-toruński
+  name: Bydgosko-Toruński
 PL616:
   name: Grudziądzki
 PL617:
@@ -2957,7 +2957,7 @@ PL618:
 PL619:
   name: Włocławski
 PL62:
-  name: Warmińsko-mazurskie
+  name: Warmińsko-Mazurskie
 PL621:
   name: Elbląski
 PL622:
@@ -3247,67 +3247,67 @@ ROZZ:
 ROZZZ:
   name: Extra-Regio NUTS 3
 RS1:
-  name: Србија - север (Serbia - Sever)
+  name: Србија - север
 RS11:
-  name: Београдски регион (Beogradski region)
+  name: Београдски регион
 RS110:
-  name: Београдска област (Beogradska oblast)
+  name: Београдска област
 RS12:
-  name: Регион Војводине (Region Vojvodine)
+  name: Регион Војводине
 RS121:
-  name: Западнобачка област (Zapadnobačka oblast)
+  name: Западнобачка област
 RS122:
-  name: Јужнобанатска област (Južnobanatska oblast)
+  name: Јужнобанатска област
 RS123:
-  name: Јужнобачка област (Južnobačka oblast)
+  name: Јужнобачка област
 RS124:
-  name: Севернобанатска област (Severnobanatska oblast)
+  name: Севернобанатска област
 RS125:
-  name: Севернобачка област (Severnobačka oblast)
+  name: Севернобачка област
 RS126:
-  name: Средњобанатска област (Srednjobanatska oblast)
+  name: Средњобанатска област
 RS127:
-  name: Сремска област (Sremska oblast)
+  name: Сремска област
 RS2:
-  name: Србија - jуг (Serbia - jug)
+  name: Србија - југ
 RS21:
-  name: Регион Шумадије и Западне Србије (Region Šumadije i Zapadne Srbije)
+  name: Регион Шумадије и Западне Србије
 RS211:
-  name: Златиборска област (Zlatiborska oblast)
+  name: Златиборска област
 RS212:
-  name: Колубарска област (Kolubarska oblast)
+  name: Колубарска област
 RS213:
-  name: Мачванска област (Mačvanska oblast)
+  name: Мачванска област
 RS214:
-  name: Моравичка област (Moravička oblast)
+  name: Моравичка област
 RS215:
-  name: Поморавска област (Pomoravska oblast)
+  name: Поморавска област
 RS216:
-  name: Расинска област (Rasinska oblast)
+  name: Расинска област
 RS217:
-  name: Рашка област (Raška oblast)
+  name: Рашка област
 RS218:
-  name: Шумадијска област (Šumadijska oblast)
+  name: Шумадијска област
 RS22:
-  name: Регион Јужне и Источне Србије (Region Južne i Istočne Srbije)
+  name: Регион Јужне и Источне Србије
 RS221:
-  name: Борска област (Borska oblast)
+  name: Борска област
 RS222:
-  name: Браничевска област (Braničevska oblast)
+  name: Браничевска област
 RS223:
-  name: Зајечарска област (Zaječarska oblast)
+  name: Зајечарска област
 RS224:
-  name: Јабланичка област (Jablanička oblast)
+  name: Јабланичка област
 RS225:
-  name: Нишавска област (Nišavska oblast)
+  name: Нишавска област
 RS226:
-  name: Пиротска област (Pirotska oblast)
+  name: Пиротска област
 RS227:
-  name: Подунавска област (Podunavska oblast)
+  name: Подунавска област
 RS228:
-  name: Пчињска област (Pčinjska oblast)
+  name: Пчињска област
 RS229:
-  name: Топличка област (Toplička oblast)
+  name: Топличка област
 RSZ:
   name: Extra-Regio NUTS 1
 RSZZ:
@@ -4166,3 +4166,77 @@ UKZZ:
   name: Extra-Regio NUTS 2
 UKZZZ:
   name: Extra-Regio NUTS 3
+AL:
+  name: Shqipëria
+AT:
+  name: Österreich
+BE:
+  name: Belgique/België
+BG:
+  name: България 
+CH:
+  name: Schweiz/Suisse/Svizzera
+CY:
+  name: Κύπρος 
+CZ:
+  name: Česko
+DE:
+  name: Deutschland
+DK:
+  name: Danmark
+EE:
+  name: Eesti
+EL:
+  name: Ελλάδα 
+ES:
+  name: España
+FI:
+  name: Suomi/Finland
+FR:
+  name: France
+HR:
+  name: Hrvatska
+HU:
+  name: Magyarország
+IE:
+  name: Éire/Ireland
+IS:
+  name: Ísland
+IT:
+  name: Italia
+LI:
+  name: Liechtenstein
+LT:
+  name: Lietuva
+LU:
+  name: Luxembourg
+LV:
+  name: Latvija
+ME:
+  name: Црна Гора
+MK:
+  name: Северна Македонија
+MT:
+  name: Malta
+NL:
+  name: Nederland
+'NO':
+  name: Norge
+PL:
+  name: Polska
+PT:
+  name: Portugal
+RO:
+  name: România
+RS:
+  name: Srbija/Сpбија
+SE:
+  name: Sverige
+SI:
+  name: Slovenija
+SK:
+  name: Slovensko
+TR:
+  name: Türkiye
+UK:
+  name: United Kingdom

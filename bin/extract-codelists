@@ -20,7 +20,7 @@ index['codelists'].select { |cl| !cl.key? 'parentId' }.each do |cl|
 
   puts "Parsing #{cl['filename']}"
 
-  map = File.exists?(target) ? YAML.load_file(target) : Hash::new
+  map = File.exist?(target) ? YAML.load_file(target) : Hash::new
 
   xml = Nokogiri::XML File.read source
   xml.xpath("//Row[normalize-space(Value[@ColumnRef='Name'])]").each do |row|

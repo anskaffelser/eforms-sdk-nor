@@ -19,11 +19,11 @@ code|name|award-criterion-type.price:
 code|name|award-criterion-type.quality:
   name: Quality
 code|name|buyer-categories.buyer-categories:
-  name: Buyer Categories
+  name: Buyer categories
 code|name|buyer-contracting-type.cont-ent:
-  name: Contracting Entity
+  name: The buyer is a contracting entity
 code|name|buyer-contracting-type.not-cont-ent:
-  name: Not Contracting Entity
+  name: The buyer is not a contracting entity
 code|name|buyer-legal-type.body-pl:
   name: Body governed by public law
 code|name|buyer-legal-type.body-pl-cga:
@@ -83,7 +83,7 @@ code|name|change-corrig-justification.info-release:
 code|name|change-corrig-justification.update-add:
   name: Information updated
 code|name|classification-type.cpv:
-  name: Common Procurement Vocabulary
+  name: Common procurement vocabulary
 code|name|communication-justification.ipr-iss:
   name: Intellectual property right issues
 code|name|communication-justification.phy-mod:
@@ -29950,13 +29950,13 @@ code|name|direct-award-justification.urgency:
 code|name|direct-award-justification.water-purch:
   name: Contracts awarded for the purchase of water
 code|name|document-distribution.non-restricted-document:
-  name: Not Restricted Document
+  name: No restrictions to access documents
 code|name|document-distribution.restricted-document:
-  name: Restricted Document
+  name: Access to certain procurement documents is restricted
 code|name|document-status.non-official:
-  name: Non-official linguistic version
+  name: Unofficial language version
 code|name|document-status.official:
-  name: Official linguistic version
+  name: Official language version
 code|name|dps-usage.dps-list:
   name: Dynamic purchasing system, only usable by buyers listed in this notice
 code|name|dps-usage.dps-nlist:
@@ -30008,9 +30008,9 @@ code|name|eu-programme.AGR:
 code|name|eu-programme.AGRNET:
   name: Net transfer between EAGF and EAFRD
 code|name|eu-programme.AMF:
-  name: Asylum, Migration and Integration Fund (AMF)
+  name: Asylum and Migration Fund (AMF)
 code|name|eu-programme.AMIF:
-  name: Asylum and Migration Fund (AMIF)
+  name: Asylum, Migration and Integration Fund (AMIF)
 code|name|eu-programme.ANTIFRAUD:
   name: EU Anti-Fraud Programme
 code|name|eu-programme.BMVI:
@@ -30224,9 +30224,9 @@ code|name|eu-programme.JUST:
 code|name|eu-programme.JUSTICE:
   name: Justice Programme
 code|name|eu-programme.LIFE2020:
-  name: Programme for the Environment and Climate Action (LIFE)
+  name: Programme for the Environment and Climate Action (LIFE 2014–2020)
 code|name|eu-programme.LIFE_2021:
-  name: Programme for the Environment and Climate Action (LIFE)
+  name: Programme for the Environment and Climate Action (LIFE 2021)
 code|name|eu-programme.LOAN2020:
   name: Guarantee Fund for external actions
 code|name|eu-programme.MFA:
@@ -30312,9 +30312,9 @@ code|name|framework-agreement.fa-wo-rc:
 code|name|framework-agreement.none:
   name: None
 code|name|indicator.false:
-  name: 'False'
+  name: 'no'
 code|name|indicator.true:
-  name: 'True'
+  name: 'yes'
 code|name|innovative-acquisition.buy-eff:
   name: The procured works, supplies or services are likely to make the work of the buyer more effective.
 code|name|innovative-acquisition.fp-requ:
@@ -32353,93 +32353,93 @@ code|name|non-award-justification.rev-buyer:
 code|name|non-award-justification.tch-pr-error:
   name: Decision of the buyer, not following a tenderer's request to review the award, because of technical or procedural errors
 code|name|non-publication-identifier.awa-cri-com:
-  name: Award Criteria Complicated (BT-543)
+  name: Description of the method to be used if weighting cannot be expressed by criteria (BT-543)
 code|name|non-publication-identifier.awa-cri-des:
-  name: Award Criterion Description (BT-540)
+  name: Award criterion – Description (BT-540)
 code|name|non-publication-identifier.awa-cri-fix:
-  name: Award Criterion Number Fixed (BT-5422)
+  name: Award criterion – Number is a fixed value (BT-5422)
 code|name|non-publication-identifier.awa-cri-nam:
-  name: Award Criterion Name (BT-734)
+  name: Award criterion – Name (BT-734)
 code|name|non-publication-identifier.awa-cri-num:
-  name: Award Criterion Number (BT-541)
+  name: Award criterion number (BT-541)
 code|name|non-publication-identifier.awa-cri-ord:
-  name: Award Criteria Order Justification (BT-733)
+  name: Justification for not indicating the weighting of the award criteria (BT-733)
 code|name|non-publication-identifier.awa-cri-thr:
-  name: Award Criterion Number Threshold (BT-5423)
+  name: Award criterion – Number is a type of threshold (BT-5423)
 code|name|non-publication-identifier.awa-cri-typ:
-  name: Award Criterion Type (BT-539)
+  name: Award criterion – Type (BT-539)
 code|name|non-publication-identifier.awa-cri-wei:
-  name: Award Criterion Number Weight (BT-5421)
+  name: Award criterion – Number is a type of weight (BT-5421)
 code|name|non-publication-identifier.con-rev-buy:
-  name: Concession Revenue Buyer (BT-160)
+  name: Estimated revenue coming from the buyer who granted the concession (BT-160)
 code|name|non-publication-identifier.con-rev-use:
-  name: Concession Revenue User (BT-162)
+  name: Estimated revenue coming from the users of the concession (BT-162)
 code|name|non-publication-identifier.cou-ori:
-  name: Country Origin (BT-191)
+  name: Country of origin of the product or the service (BT-191)
 code|name|non-publication-identifier.cro-bor-law:
-  name: Cross Border Law (BT-09)
+  name: Applicable cross-border law (BT-09)
 code|name|non-publication-identifier.dir-awa-jus:
-  name: Direct Award Justification Code (BT-136)
+  name: Justification for direct award (BT-136)
 code|name|non-publication-identifier.dir-awa-pre:
-  name: Direct Award Justification Previous (BT-1252)
+  name: Identifier of the previous procedure that justifies direct award (BT-1252)
 code|name|non-publication-identifier.dir-awa-tex:
-  name: Direct Award Justification Text (BT-135)
+  name: Direct award – Other justification (BT-135)
 code|name|non-publication-identifier.gro-max-ide:
-  name: Group Maximum Value Lot Identifier (BT-556)
+  name: Group Framework Value Lot Identifier (BT-556)
 code|name|non-publication-identifier.gro-max-val:
-  name: Group Maximum Value (BT-156)
+  name: Estimated value of the framework agreements in the group of lots (BT-156)
 code|name|non-publication-identifier.max-val:
-  name: Maximum Value (BT-709)
+  name: Maximum value of the framework agreement (BT-709)
 code|name|non-publication-identifier.no-awa-rea:
-  name: Not Awarded Reason (BT-144)
+  name: The reason why a winner was not chosen (BT-144)
 code|name|non-publication-identifier.not-dis-dat:
-  name: Notice Dispatch Date (BT-05)
+  name: Notice dispatch date (BT-05)
 code|name|non-publication-identifier.not-max-val:
-  name: Notice Maximum Value (BT-118)
+  name: Estimated value of the framework agreements in this procedure (BT-118)
 code|name|non-publication-identifier.not-pub-dat:
-  name: Notice Publication Date Preferred (BT-738)
+  name: Preferred publication date (BT-738)
 code|name|non-publication-identifier.not-val:
-  name: Notice Value (BT-161)
+  name: Value of all contracts awarded in this procedure (BT-161)
 code|name|non-publication-identifier.pro-acc:
-  name: Procedure Accelerated (BT-106)
+  name: The procedure is accelerated (BT-106)
 code|name|non-publication-identifier.pro-acc-jus:
-  name: Procedure Accelerated Justification (BT-1351)
+  name: Justification for the accelerated procedure (BT-1351)
 code|name|non-publication-identifier.pro-fea:
-  name: Procedure Features (BT-88)
+  name: Main features of the procedure (BT-88)
 code|name|non-publication-identifier.pro-typ:
-  name: Procedure Type (BT-105)
+  name: Type of procedure (BT-105)
 code|name|non-publication-identifier.rec-sub-cou:
-  name: Received Submissions Count (BT-759)
+  name: Number of tenders or requests to participate received (BT-759)
 code|name|non-publication-identifier.rec-sub-typ:
-  name: Received Submissions Type (BT-760)
+  name: Type of received submissions (BT-760)
 code|name|non-publication-identifier.rev-req:
-  name: Review Requests (BT-712)
+  name: Number of complainants (BT-712)
 code|name|non-publication-identifier.sub-con:
   name: Subcontracting (BT-773)
 code|name|non-publication-identifier.sub-des:
-  name: Subcontracting Description (BT-554)
+  name: Subcontracting – Description (BT-554)
 code|name|non-publication-identifier.sub-per:
-  name: Subcontracting Percentage (BT-555)
+  name: Percentage of subcontracting (BT-555)
 code|name|non-publication-identifier.sub-per-kno:
-  name: Subcontracting Percentage Known (BT-731)
+  name: Estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract (BT-731)
 code|name|non-publication-identifier.sub-val:
-  name: Subcontracting Value (BT-553)
+  name: Value of subcontracting (BT-553)
 code|name|non-publication-identifier.sub-val-kno:
-  name: Subcontracting Value Known (BT-730)
+  name: Estimated value of the part of the contract that the contractor will subcontract to third parties (BT-730)
 code|name|non-publication-identifier.ten-ran:
-  name: Tender Rank (BT-171)
+  name: Rank in the list of winners (BT-171)
 code|name|non-publication-identifier.ten-val-hig:
-  name: Tender Value Highest (BT-711)
+  name: Value of the highest admissible tender (BT-711)
 code|name|non-publication-identifier.ten-val-low:
-  name: Tender Value Lowest (BT-710)
+  name: Value of the lowest admissible tender (BT-710)
 code|name|non-publication-identifier.val-con-des:
-  name: Value Concession Description (BT-163)
+  name: Method used for calculating the estimated value of the concession (BT-163)
 code|name|non-publication-identifier.win-cho:
-  name: Winner Chosen (BT-142)
+  name: Winner selection status (BT-142)
 code|name|non-publication-identifier.win-ten-val:
-  name: Winning Tender Value (BT-720)
+  name: Value of the result (BT-720)
 code|name|non-publication-identifier.win-ten-var:
-  name: Winning Tender Variant (BT-193)
+  name: The tender is a variant (BT-193)
 code|name|non-publication-justification.eo-int:
   name: Commercial interests of an economic operator
 code|name|non-publication-justification.fair-comp:
@@ -32463,155 +32463,205 @@ code|name|notice-purpose.tra-del:
 code|name|notice-purpose.tra-reg:
   name: Transfer-registration
 code|name|notice-subtype.1:
-  name: '1'
+  name: Notice of the publication of a prior information notice on a buyer profile – general directive
   nob: '1'
+  nob_verify: true
 code|name|notice-subtype.10:
-  name: '10'
+  name: Prior information notice used as a call for competition – general directive, standard regime
   nob: '10'
+  nob_verify: true
 code|name|notice-subtype.11:
-  name: '11'
+  name: Periodic indicative notice used as a call for competition – sectoral directive, standard regime
   nob: '11'
+  nob_verify: true
 code|name|notice-subtype.12:
-  name: '12'
+  name: Prior information notice used as a call for competition – general directive, light regime
   nob: '12'
+  nob_verify: true
 code|name|notice-subtype.13:
-  name: '13'
+  name: Periodic indicative notice used as a call for competition – sectoral directive, light regime
   nob: '13'
+  nob_verify: true
 code|name|notice-subtype.14:
-  name: '14'
+  name: Prior information notice used as a call for competition – concessions directive, light regime
   nob: '14'
+  nob_verify: true
 code|name|notice-subtype.15:
-  name: '15'
+  name: Notice on the existence of a qualification system – sectoral directive
   nob: '15'
+  nob_verify: true
 code|name|notice-subtype.16:
-  name: '16'
+  name: Contract notice – general directive, standard regime
   nob: '16'
+  nob_verify: true
 code|name|notice-subtype.17:
-  name: '17'
+  name: Contract notice – sectoral directive, standard regime
   nob: '17'
+  nob_verify: true
 code|name|notice-subtype.18:
-  name: '18'
+  name: Contract notice – defence directive, standard regime
   nob: '18'
+  nob_verify: true
 code|name|notice-subtype.19:
-  name: '19'
+  name: Concession notice – concessions directive, standard regime
   nob: '19'
+  nob_verify: true
 code|name|notice-subtype.2:
-  name: '2'
+  name: Notice of the publication of a periodic indicative notice on a buyer profile – sectoral directive
   nob: '2'
+  nob_verify: true
 code|name|notice-subtype.20:
-  name: '20'
+  name: Contract notice – general directive, light regime
   nob: '20'
+  nob_verify: true
 code|name|notice-subtype.21:
-  name: '21'
+  name: Contract notice – sectoral directive, light regime
   nob: '21'
+  nob_verify: true
 code|name|notice-subtype.22:
-  name: '22'
+  name: Subcontract notice – defence directive
   nob: '22'
+  nob_verify: true
 code|name|notice-subtype.23:
-  name: '23'
+  name: Design contest notice – general directive, design
   nob: '23'
+  nob_verify: true
 code|name|notice-subtype.24:
-  name: '24'
+  name: Design contest notice – sectoral directive, design
   nob: '24'
+  nob_verify: true
 code|name|notice-subtype.25:
-  name: '25'
+  name: Voluntary ex-ante transparency notice – general directive
   nob: '25'
+  nob_verify: true
 code|name|notice-subtype.26:
-  name: '26'
+  name: Voluntary ex-ante transparency notice – sectoral directive
   nob: '26'
+  nob_verify: true
 code|name|notice-subtype.27:
-  name: '27'
+  name: Voluntary ex-ante transparency notice – defence directive
   nob: '27'
+  nob_verify: true
 code|name|notice-subtype.28:
-  name: '28'
+  name: Voluntary ex-ante transparency notice – concession directive
   nob: '28'
+  nob_verify: true
 code|name|notice-subtype.29:
-  name: '29'
+  name: Contract award notice – general directive, standard regime
   nob: '29'
+  nob_verify: true
 code|name|notice-subtype.3:
-  name: '3'
+  name: Notice of the publication of a prior information notice on a buyer profile – defence directive
   nob: '3'
+  nob_verify: true
 code|name|notice-subtype.30:
-  name: '30'
+  name: Contract award notice – sectoral directive, standard regime
   nob: '30'
+  nob_verify: true
 code|name|notice-subtype.31:
-  name: '31'
+  name: Contract award notice – defence directive, standard regime
   nob: '31'
+  nob_verify: true
 code|name|notice-subtype.32:
-  name: '32'
+  name: Concession award notice – concession directive, standard regime
   nob: '32'
+  nob_verify: true
 code|name|notice-subtype.33:
-  name: '33'
+  name: Contract award notice – general directive, light regime
   nob: '33'
+  nob_verify: true
 code|name|notice-subtype.34:
-  name: '34'
+  name: Contract award notice – sectoral directive, light regime
   nob: '34'
+  nob_verify: true
 code|name|notice-subtype.35:
-  name: '35'
+  name: Concession award notice – concessions directive, light regime
   nob: '35'
+  nob_verify: true
 code|name|notice-subtype.36:
-  name: '36'
+  name: Design contest result notice – general directive, design
   nob: '36'
+  nob_verify: true
 code|name|notice-subtype.37:
-  name: '37'
+  name: Design contest result notice – sectoral directive, design
   nob: '37'
+  nob_verify: true
 code|name|notice-subtype.38:
-  name: '38'
+  name: Contract modification notice – general directive
   nob: '38'
+  nob_verify: true
 code|name|notice-subtype.39:
-  name: '39'
+  name: Contract modification notice – sectoral directive
   nob: '39'
+  nob_verify: true
 code|name|notice-subtype.4:
-  name: '4'
+  name: Prior information notice used only for information – general directive
   nob: '4'
+  nob_verify: true
 code|name|notice-subtype.40:
-  name: '40'
+  name: Contract modification notice – concessions directive
   nob: '40'
+  nob_verify: true
 code|name|notice-subtype.5:
-  name: '5'
+  name: Periodic indicative notice used only for information – sectoral directive
   nob: '5'
+  nob_verify: true
 code|name|notice-subtype.6:
-  name: '6'
+  name: Prior information notice used only for information – defence directive
   nob: '6'
+  nob_verify: true
 code|name|notice-subtype.7:
-  name: '7'
+  name: Prior information notice used to shorten time limits for receipt of tenders – general directive
   nob: '7'
+  nob_verify: true
 code|name|notice-subtype.8:
-  name: '8'
+  name: Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive
   nob: '8'
+  nob_verify: true
 code|name|notice-subtype.9:
-  name: '9'
+  name: Prior information notice used to shorten time limits for receipt of tenders – defence directive
   nob: '9'
+  nob_verify: true
 code|name|notice-subtype.CEI:
-  name: CEI
+  name: Call for expressions of interest
   nob: CEI
+  nob_verify: true
 code|name|notice-subtype.E1:
-  name: E1
+  name: Preliminary market consultation notice
   nob: E1
+  nob_verify: true
 code|name|notice-subtype.E2:
-  name: E2
+  name: Below threshold prior information notice (PIN) only
   nob: E2
+  nob_verify: true
 code|name|notice-subtype.E3:
-  name: E3
+  name: Below threshold contract notice (CN) general
   nob: E3
+  nob_verify: true
 code|name|notice-subtype.E4:
-  name: E4
+  name: Below threshold contract award notice (CAN) general
   nob: E4
+  nob_verify: true
 code|name|notice-subtype.E5:
-  name: E5
+  name: Contract completion notice
   nob: E5
+  nob_verify: true
 code|name|notice-subtype.T01:
-  name: T01
+  name: Prior information notice for public service contract
   nob: T01
+  nob_verify: true
 code|name|notice-subtype.T02:
-  name: T02
+  name: Information notice for award of public service contract
   nob: T02
+  nob_verify: true
 code|name|notice-subtype.X01:
-  name: X01
+  name: European Economic Interest Grouping
   nob: X01
+  nob_verify: true
 code|name|notice-subtype.X02:
-  name: X02
+  name: European Company / European Cooperative Society
   nob: X02
+  nob_verify: true
 code|name|notice-type.brin-ecs:
   name: European Company / European Cooperative Society notice
 code|name|notice-type.brin-eeig:
@@ -32815,7 +32865,7 @@ code|name|nuts.ATZZZ:
 code|name|nuts.BE1:
   name: Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest
 code|name|nuts.BE10:
-  name: Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest
+  name: Région de Bruxelles-Capitale / Brussels Hoofdstedelijk Gewest
 code|name|nuts.BE100:
   name: Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad
 code|name|nuts.BE2:
@@ -32905,9 +32955,9 @@ code|name|nuts.BE332:
 code|name|nuts.BE334:
   name: Arr. Waremme
 code|name|nuts.BE335:
-  name: Arr. Verviers - communes francophones
+  name: Arr. Verviers — communes francophones
 code|name|nuts.BE336:
-  name: Bezirk Verviers - Deutschsprachige Gemeinschaft
+  name: Bezirk Verviers — Deutschsprachige Gemeinschaft
 code|name|nuts.BE34:
   name: Prov. Luxembourg (BE)
 code|name|nuts.BE341:
@@ -32935,77 +32985,77 @@ code|name|nuts.BEZZ:
 code|name|nuts.BEZZZ:
   name: Extra-Regio NUTS 3
 code|name|nuts.BG3:
-  name: Северна и югоизточна България (Severna I Yugoiztochna Bulgaria)
+  name: Северна и Югоизточна България
 code|name|nuts.BG31:
-  name: Северозападен (Severozapaden)
+  name: Северозападен
 code|name|nuts.BG311:
-  name: Видин (Vidin)
+  name: Видин
 code|name|nuts.BG312:
-  name: Монтана (Montana)
+  name: Монтана
 code|name|nuts.BG313:
-  name: Враца (Vratsa)
+  name: Враца
 code|name|nuts.BG314:
-  name: Плевен (Pleven)
+  name: Плевен
 code|name|nuts.BG315:
-  name: Ловеч (Lovech)
+  name: Ловеч
 code|name|nuts.BG32:
-  name: Северен централен (Severen tsentralen)
+  name: Северен централен
 code|name|nuts.BG321:
-  name: Велико Търново (Veliko Tarnovo)
+  name: Велико Търново
 code|name|nuts.BG322:
-  name: Габрово (Gabrovo)
+  name: Габрово
 code|name|nuts.BG323:
-  name: Русе (Ruse)
+  name: Русе
 code|name|nuts.BG324:
-  name: Разград (Razgrad)
+  name: Разград
 code|name|nuts.BG325:
-  name: Силистра (Silistra)
+  name: Силистра
 code|name|nuts.BG33:
-  name: Североизточен (Severoiztochen)
+  name: Североизточен
 code|name|nuts.BG331:
-  name: Варна (Varna)
+  name: Варна
 code|name|nuts.BG332:
-  name: Добрич (Dobrich)
+  name: Добрич
 code|name|nuts.BG333:
-  name: Шумен (Shumen)
+  name: Шумен
 code|name|nuts.BG334:
-  name: Търговище (Targovishte)
+  name: Търговище
 code|name|nuts.BG34:
-  name: Югоизточен (Yugoiztochen)
+  name: Югоизточен
 code|name|nuts.BG341:
-  name: Бургас (Burgas)
+  name: Бургас
 code|name|nuts.BG342:
-  name: Сливен (Sliven)
+  name: Сливен
 code|name|nuts.BG343:
-  name: Ямбол (Yambol)
+  name: Ямбол
 code|name|nuts.BG344:
-  name: Стара Загора (Stara Zagora)
+  name: Стара Загора
 code|name|nuts.BG4:
-  name: Югозападна и южна централна България (Yugozapadna I Yuzhna Tsentralna Bulgaria)
+  name: Югозападна и Южна централна България
 code|name|nuts.BG41:
-  name: Югозападен (Yugozapaden)
+  name: Югозападен
 code|name|nuts.BG411:
-  name: София (столица) (Sofia (stolitsa))
+  name: София (столица)
 code|name|nuts.BG412:
-  name: София (Sofia)
+  name: София
 code|name|nuts.BG413:
-  name: Благоевград (Blagoevgrad)
+  name: Благоевград
 code|name|nuts.BG414:
-  name: Перник (Pernik)
+  name: Перник
 code|name|nuts.BG415:
-  name: Кюстендил (Kyustendil)
+  name: Кюстендил
 code|name|nuts.BG42:
-  name: Южен централен (Yuzhen tsentralen)
+  name: Южен централен
 code|name|nuts.BG421:
-  name: Пловдив (Plovdiv)
+  name: Пловдив
 code|name|nuts.BG422:
-  name: Хасково (Haskovo)
+  name: Хасково
 code|name|nuts.BG423:
-  name: Пазарджик (Pazardzhik)
+  name: Пазарджик
 code|name|nuts.BG424:
-  name: Смолян (Smolyan)
+  name: Смолян
 code|name|nuts.BG425:
-  name: Кърджали (Kardzhali)
+  name: Кърджали
 code|name|nuts.BGZ:
   name: Extra-Regio NUTS 1
 code|name|nuts.BGZZ:
@@ -33019,15 +33069,15 @@ code|name|nuts.CH01:
 code|name|nuts.CH011:
   name: Vaud
 code|name|nuts.CH012:
-  name: Valais/Wallis
+  name: Valais / Wallis
 code|name|nuts.CH013:
   name: Genève
 code|name|nuts.CH02:
   name: Espace Mittelland
 code|name|nuts.CH021:
-  name: Bern/Berne
+  name: Bern / Berne
 code|name|nuts.CH022:
-  name: Fribourg/Freiburg
+  name: Fribourg / Freiburg
 code|name|nuts.CH023:
   name: Solothurn
 code|name|nuts.CH024:
@@ -33059,7 +33109,7 @@ code|name|nuts.CH054:
 code|name|nuts.CH055:
   name: St. Gallen
 code|name|nuts.CH056:
-  name: Graubünden/Grigioni/Grischun
+  name: Graubünden / Grigioni / Grischun
 code|name|nuts.CH057:
   name: Thurgau
 code|name|nuts.CH06:
@@ -33087,11 +33137,11 @@ code|name|nuts.CHZZ:
 code|name|nuts.CHZZZ:
   name: Extra-Regio NUTS 3
 code|name|nuts.CY0:
-  name: Κύπρος (Kypros)
+  name: Κύπρος
 code|name|nuts.CY00:
-  name: Κύπρος (Kypros)
+  name: Κύπρος
 code|name|nuts.CY000:
-  name: Κύπρος (Kypros)
+  name: Κύπρος
 code|name|nuts.CYZ:
   name: Extra-Regio NUTS 1
 code|name|nuts.CYZZ:
@@ -34127,143 +34177,143 @@ code|name|nuts.EEZZ:
 code|name|nuts.EEZZZ:
   name: Extra-Regio NUTS 3
 code|name|nuts.EL3:
-  name: Αττική (Attiki)
+  name: Αττική
 code|name|nuts.EL30:
-  name: Aττική (Attiki)
+  name: Aττική
 code|name|nuts.EL301:
-  name: Βόρειος Τομέας Αθηνών (Voreios Tomeas Athinon)
+  name: Βόρειος Τομέας Αθηνών
 code|name|nuts.EL302:
-  name: Δυτικός Τομέας Αθηνών (Dytikos Tomeas Athinon)
+  name: Δυτικός Τομέας Αθηνών
 code|name|nuts.EL303:
-  name: Κεντρικός Τομέας Αθηνών (Kentrikos Tomeas Athinon)
+  name: Κεντρικός Τομέας Αθηνών
 code|name|nuts.EL304:
-  name: Νότιος Τομέας Αθηνών (Notios Tomeas Athinon)
+  name: Νότιος Τομέας Αθηνών
 code|name|nuts.EL305:
-  name: Ανατολική Αττική (Anatoliki Attiki)
+  name: Ανατολική Αττική
 code|name|nuts.EL306:
-  name: Δυτική Αττική (Dytiki Attiki)
+  name: Δυτική Αττική
 code|name|nuts.EL307:
-  name: Πειραιάς, Νήσοι (Peiraias, Nisoi)
+  name: Πειραιάς, Νήσοι
 code|name|nuts.EL4:
-  name: Νησιά Αιγαίου, Κρήτη (Nisia Aigaiou, Kriti)
+  name: Νησιά Αιγαίου, Κρήτη
 code|name|nuts.EL41:
-  name: Βόρειο Αιγαίο (Voreio Aigaio)
+  name: Βόρειο Αιγαίο
 code|name|nuts.EL411:
-  name: Λέσβος, Λήμνος (Lesvos, Limnos)
+  name: Λέσβος, Λήμνος
 code|name|nuts.EL412:
-  name: Ικαρία, Σάμος (Ikaria, Samos)
+  name: Ικαρία, Σάμος
 code|name|nuts.EL413:
-  name: Χίος (Chios)
+  name: Χίος
 code|name|nuts.EL42:
-  name: Νότιο Αιγαίο (Notio Aigaio)
+  name: Νότιο Αιγαίο
 code|name|nuts.EL421:
-  name: Κάλυμνος, Κάρπαθος - Ηρωική Νήσος Κάσος, Κως, Ρόδος (Kalymnos, Karpathos, Kasos, Kos, Rodos)
+  name: Κάλυμνος, Κάρπαθος – Ηρωική Νήσος Κάσος, Κως, Ρόδος
 code|name|nuts.EL422:
-  name: Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος (Andros, Thira, Kea, Milos, Mykonos, Naxos, Paros, Syros, Tinos)
+  name: Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος
 code|name|nuts.EL43:
-  name: Κρήτη (Kriti)
+  name: Κρήτη
 code|name|nuts.EL431:
-  name: Ηράκλειο (Irakleio)
+  name: Ηράκλειο
 code|name|nuts.EL432:
-  name: Λασίθι (Lasithi)
+  name: Λασίθι
 code|name|nuts.EL433:
-  name: Ρεθύμνη (Rethymni)
+  name: Ρέθυμνο
 code|name|nuts.EL434:
-  name: Χανιά (Chania)
+  name: Χανιά
 code|name|nuts.EL5:
-  name: Βόρεια Ελλάδα (Voreia Ellada)
+  name: Βόρεια Ελλάδα
 code|name|nuts.EL51:
-  name: Aνατολική Μακεδονία, Θράκη (Anatoliki Makedonia, Thraki)
+  name: Aνατολική Μακεδονία, Θράκη
 code|name|nuts.EL511:
-  name: Έβρος (Evros)
+  name: Έβρος
 code|name|nuts.EL512:
-  name: Ξάνθη (Xanthi)
+  name: Ξάνθη
 code|name|nuts.EL513:
-  name: Ροδόπη (Rodopi)
+  name: Ροδόπη
 code|name|nuts.EL514:
-  name: Δράμα (Drama)
+  name: Δράμα
 code|name|nuts.EL515:
-  name: Θάσος, Καβάλα (Thasos, Kavala)
+  name: Θάσος, Καβάλα
 code|name|nuts.EL52:
-  name: Κεντρική Μακεδονία (Kentriki Makedonia)
+  name: Κεντρική Μακεδονία
 code|name|nuts.EL521:
-  name: Ημαθία (Imathia)
+  name: Ημαθία
 code|name|nuts.EL522:
-  name: Θεσσαλονίκη (Thessaloniki)
+  name: Θεσσαλονίκη
 code|name|nuts.EL523:
-  name: Κιλκίς (Kilkis)
+  name: Κιλκίς
 code|name|nuts.EL524:
-  name: Πέλλα (Pella)
+  name: Πέλλα
 code|name|nuts.EL525:
-  name: Πιερία (Pieria)
+  name: Πιερία
 code|name|nuts.EL526:
-  name: Σέρρες (Serres)
+  name: Σέρρες
 code|name|nuts.EL527:
-  name: Χαλκιδική (Chalkidiki)
+  name: Χαλκιδική
 code|name|nuts.EL53:
-  name: Δυτική Μακεδονία (Dytiki Makedonia)
+  name: Δυτική Μακεδονία
 code|name|nuts.EL531:
-  name: Γρεβενά, Κοζάνη (Grevena, Kozani)
+  name: Γρεβενά, Κοζάνη
 code|name|nuts.EL532:
-  name: Καστοριά (Kastoria)
+  name: Καστοριά
 code|name|nuts.EL533:
-  name: Φλώρινα (Florina)
+  name: Φλώρινα
 code|name|nuts.EL54:
-  name: Ήπειρος (Ipeiros)
+  name: Ήπειρος
 code|name|nuts.EL541:
-  name: Άρτα, Πρέβεζα (Arta, Preveza)
+  name: Άρτα, Πρέβεζα
 code|name|nuts.EL542:
-  name: Θεσπρωτία (Thesprotia)
+  name: Θεσπρωτία
 code|name|nuts.EL543:
-  name: Ιωάννινα (Ioannina)
+  name: Ιωάννινα
 code|name|nuts.EL6:
-  name: Κεντρική Ελλάδα (Kentriki Ellada)
+  name: Κεντρική Ελλάδα
 code|name|nuts.EL61:
-  name: Θεσσαλία (Thessalia)
+  name: Θεσσαλία
 code|name|nuts.EL611:
-  name: Καρδίτσα, Τρίκαλα (Karditsa, Trikala)
+  name: Καρδίτσα, Τρίκαλα
 code|name|nuts.EL612:
-  name: Λάρισα (Larisa)
+  name: Λάρισα
 code|name|nuts.EL613:
-  name: Μαγνησία, Σποράδες (Magnisia, Sporades)
+  name: Μαγνησία, Σποράδες
 code|name|nuts.EL62:
-  name: Ιόνια Νησιά (Ionia Nisia)
+  name: Ιόνια Νησιά
 code|name|nuts.EL621:
-  name: Ζάκυνθος (Zakynthos)
+  name: Ζάκυνθος
 code|name|nuts.EL622:
-  name: Κέρκυρα (Kerkyra)
+  name: Κέρκυρα
 code|name|nuts.EL623:
-  name: Ιθάκη, Κεφαλληνία (Ithaki, Kefallinia)
+  name: Ιθάκη, Κεφαλληνία
 code|name|nuts.EL624:
-  name: Λευκάδα (Lefkada)
+  name: Λευκάδα
 code|name|nuts.EL63:
-  name: Δυτική Ελλάδα (Dytiki Ellada)
+  name: Δυτική Ελλάδα
 code|name|nuts.EL631:
-  name: Αιτωλοακαρνανία (Aitoloakarnania)
+  name: Αιτωλοακαρνανία
 code|name|nuts.EL632:
-  name: Αχαΐα (Achaia)
+  name: Αχαΐα
 code|name|nuts.EL633:
-  name: Ηλεία (Ileia)
+  name: Ηλεία
 code|name|nuts.EL64:
-  name: Στερεά Ελλάδα (Sterea Ellada)
+  name: Στερεά Ελλάδα
 code|name|nuts.EL641:
-  name: Βοιωτία (Voiotia)
+  name: Βοιωτία
 code|name|nuts.EL642:
-  name: Εύβοια (Evvoia)
+  name: Εύβοια
 code|name|nuts.EL643:
-  name: Ευρυτανία (Evrytania)
+  name: Ευρυτανία
 code|name|nuts.EL644:
-  name: Φθιώτιδα (Fthiotida)
+  name: Φθιώτιδα
 code|name|nuts.EL645:
-  name: Φωκίδα (Fokida)
+  name: Φωκίδα
 code|name|nuts.EL65:
-  name: Πελοπόννησος (Peloponnisos)
+  name: Πελοπόννησος
 code|name|nuts.EL651:
-  name: Αργολίδα, Αρκαδία (Argolida, Arkadia)
+  name: Αργολίδα, Αρκαδία
 code|name|nuts.EL652:
-  name: Κορινθία (Korinthia)
+  name: Κορινθία
 code|name|nuts.EL653:
-  name: Λακωνία, Μεσσηνία (Lakonia, Messinia)
+  name: Λακωνία, Μεσσηνία
 code|name|nuts.ELZ:
   name: Extra-Regio NUTS 1
 code|name|nuts.ELZZ:
@@ -34377,11 +34427,11 @@ code|name|nuts.ES514:
 code|name|nuts.ES52:
   name: Comunitat Valenciana
 code|name|nuts.ES521:
-  name: Alicante/Alacant
+  name: Alicante / Alacant
 code|name|nuts.ES522:
-  name: Castellón/Castelló
+  name: Castellón / Castelló
 code|name|nuts.ES523:
-  name: Valencia/València
+  name: Valencia / València
 code|name|nuts.ES53:
   name: Illes Balears
 code|name|nuts.ES531:
@@ -34507,7 +34557,7 @@ code|name|nuts.FIZZZ:
 code|name|nuts.FR1:
   name: Ile-de-France
 code|name|nuts.FR10:
-  name: Ile-de-France
+  name: Île de France
 code|name|nuts.FR101:
   name: Paris
 code|name|nuts.FR102:
@@ -34525,9 +34575,9 @@ code|name|nuts.FR107:
 code|name|nuts.FR108:
   name: Val-d’Oise
 code|name|nuts.FRB:
-  name: Centre - Val de Loire
+  name: Centre — Val de Loire
 code|name|nuts.FRB0:
-  name: Centre - Val de Loire
+  name: Centre — Val de Loire
 code|name|nuts.FRB01:
   name: Cher
 code|name|nuts.FRB02:
@@ -34767,7 +34817,7 @@ code|name|nuts.FRM01:
 code|name|nuts.FRM02:
   name: Haute-Corse
 code|name|nuts.FRY:
-  name: RUP FR - Régions Ultrapériphériques Françaises
+  name: RUP FR — Régions Ultrapériphériques Françaises
 code|name|nuts.FRY1:
   name: Guadeloupe
 code|name|nuts.FRY10:
@@ -35315,11 +35365,11 @@ code|name|nuts.LVZZ:
 code|name|nuts.LVZZZ:
   name: Extra-Regio NUTS 3
 code|name|nuts.ME0:
-  name: Црна Гора (Crna Gora)
+  name: Црна Гора
 code|name|nuts.ME00:
-  name: Црна Гора (Crna Gora)
+  name: Црна Гора
 code|name|nuts.ME000:
-  name: Црна Гора (Crna Gora)
+  name: Црна Гора
 code|name|nuts.MEZ:
   name: Extra-Regio NUTS 1
 code|name|nuts.MEZZ:
@@ -35327,25 +35377,25 @@ code|name|nuts.MEZZ:
 code|name|nuts.MEZZZ:
   name: Extra-Regio NUTS 3
 code|name|nuts.MK0:
-  name: Северна Македонија (Severna Makedonija)
+  name: Северна Македонија
 code|name|nuts.MK00:
-  name: Северна Македонија (Severna Makedonija)
+  name: Северна Македонија
 code|name|nuts.MK001:
-  name: Вардарски (Vardarski)
+  name: Вардарски
 code|name|nuts.MK002:
-  name: Источен (Istočen)
+  name: Источен
 code|name|nuts.MK003:
-  name: Југозападен (Jugozapaden)
+  name: Југозападен
 code|name|nuts.MK004:
-  name: Југоисточен (Jugoistočen)
+  name: Југоисточен
 code|name|nuts.MK005:
-  name: Пелагониски (Pelagoniski)
+  name: Пелагониски
 code|name|nuts.MK006:
-  name: Полошки (Pološki)
+  name: Полошки
 code|name|nuts.MK007:
-  name: Североисточен (Severoistočen)
+  name: Североисточен
 code|name|nuts.MK008:
-  name: Скопски (Skopski)
+  name: Скопски
 code|name|nuts.MKZ:
   name: Extra-Regio NUTS 1
 code|name|nuts.MKZZ:
@@ -35359,7 +35409,7 @@ code|name|nuts.MT00:
 code|name|nuts.MT001:
   name: Malta
 code|name|nuts.MT002:
-  name: Gozo and Comino/Għawdex u Kemmuna
+  name: Gozo and Comino / Għawdex u Kemmuna
 code|name|nuts.MTZ:
   name: Extra-Regio NUTS 1
 code|name|nuts.MTZZ:
@@ -35521,7 +35571,7 @@ code|name|nuts.NO0A2:
 code|name|nuts.NO0A3:
   name: Møre og Romsdal
 code|name|nuts.NO0B:
-  name: Jan Mayen and Svalbard
+  name: Svalbard og Jan Mayen
 code|name|nuts.NO0B1:
   name: Jan Mayen
 code|name|nuts.NO0B2:
@@ -35607,7 +35657,7 @@ code|name|nuts.PL514:
 code|name|nuts.PL515:
   name: Jeleniogórski
 code|name|nuts.PL516:
-  name: Legnicko-głogowski
+  name: Legnicko-Głogowski
 code|name|nuts.PL517:
   name: Wałbrzyski
 code|name|nuts.PL518:
@@ -35621,9 +35671,9 @@ code|name|nuts.PL524:
 code|name|nuts.PL6:
   name: Makroregion północny
 code|name|nuts.PL61:
-  name: Kujawsko-pomorskie
+  name: Kujawsko-Pomorskie
 code|name|nuts.PL613:
-  name: Bydgosko-toruński
+  name: Bydgosko-Toruński
 code|name|nuts.PL616:
   name: Grudziądzki
 code|name|nuts.PL617:
@@ -35633,7 +35683,7 @@ code|name|nuts.PL618:
 code|name|nuts.PL619:
   name: Włocławski
 code|name|nuts.PL62:
-  name: Warmińsko-mazurskie
+  name: Warmińsko-Mazurskie
 code|name|nuts.PL621:
   name: Elbląski
 code|name|nuts.PL622:
@@ -35923,67 +35973,67 @@ code|name|nuts.ROZZ:
 code|name|nuts.ROZZZ:
   name: Extra-Regio NUTS 3
 code|name|nuts.RS1:
-  name: Србија - север (Serbia - Sever)
+  name: Србија - север
 code|name|nuts.RS11:
-  name: Београдски регион (Beogradski region)
+  name: Београдски регион
 code|name|nuts.RS110:
-  name: Београдска област (Beogradska oblast)
+  name: Београдска област
 code|name|nuts.RS12:
-  name: Регион Војводине (Region Vojvodine)
+  name: Регион Војводине
 code|name|nuts.RS121:
-  name: Западнобачка област (Zapadnobačka oblast)
+  name: Западнобачка област
 code|name|nuts.RS122:
-  name: Јужнобанатска област (Južnobanatska oblast)
+  name: Јужнобанатска област
 code|name|nuts.RS123:
-  name: Јужнобачка област (Južnobačka oblast)
+  name: Јужнобачка област
 code|name|nuts.RS124:
-  name: Севернобанатска област (Severnobanatska oblast)
+  name: Севернобанатска област
 code|name|nuts.RS125:
-  name: Севернобачка област (Severnobačka oblast)
+  name: Севернобачка област
 code|name|nuts.RS126:
-  name: Средњобанатска област (Srednjobanatska oblast)
+  name: Средњобанатска област
 code|name|nuts.RS127:
-  name: Сремска област (Sremska oblast)
+  name: Сремска област
 code|name|nuts.RS2:
-  name: Србија - jуг (Serbia - jug)
+  name: Србија - југ
 code|name|nuts.RS21:
-  name: Регион Шумадије и Западне Србије (Region Šumadije i Zapadne Srbije)
+  name: Регион Шумадије и Западне Србије
 code|name|nuts.RS211:
-  name: Златиборска област (Zlatiborska oblast)
+  name: Златиборска област
 code|name|nuts.RS212:
-  name: Колубарска област (Kolubarska oblast)
+  name: Колубарска област
 code|name|nuts.RS213:
-  name: Мачванска област (Mačvanska oblast)
+  name: Мачванска област
 code|name|nuts.RS214:
-  name: Моравичка област (Moravička oblast)
+  name: Моравичка област
 code|name|nuts.RS215:
-  name: Поморавска област (Pomoravska oblast)
+  name: Поморавска област
 code|name|nuts.RS216:
-  name: Расинска област (Rasinska oblast)
+  name: Расинска област
 code|name|nuts.RS217:
-  name: Рашка област (Raška oblast)
+  name: Рашка област
 code|name|nuts.RS218:
-  name: Шумадијска област (Šumadijska oblast)
+  name: Шумадијска област
 code|name|nuts.RS22:
-  name: Регион Јужне и Источне Србије (Region Južne i Istočne Srbije)
+  name: Регион Јужне и Источне Србије
 code|name|nuts.RS221:
-  name: Борска област (Borska oblast)
+  name: Борска област
 code|name|nuts.RS222:
-  name: Браничевска област (Braničevska oblast)
+  name: Браничевска област
 code|name|nuts.RS223:
-  name: Зајечарска област (Zaječarska oblast)
+  name: Зајечарска област
 code|name|nuts.RS224:
-  name: Јабланичка област (Jablanička oblast)
+  name: Јабланичка област
 code|name|nuts.RS225:
-  name: Нишавска област (Nišavska oblast)
+  name: Нишавска област
 code|name|nuts.RS226:
-  name: Пиротска област (Pirotska oblast)
+  name: Пиротска област
 code|name|nuts.RS227:
-  name: Подунавска област (Podunavska oblast)
+  name: Подунавска област
 code|name|nuts.RS228:
-  name: Пчињска област (Pčinjska oblast)
+  name: Пчињска област
 code|name|nuts.RS229:
-  name: Топличка област (Toplička oblast)
+  name: Топличка област
 code|name|nuts.RSZ:
   name: Extra-Regio NUTS 1
 code|name|nuts.RSZZ:
@@ -36988,13 +37038,13 @@ code|name|review-decision-type.rej-resolv:
 code|name|review-decision-type.rej-signed:
   name: Rejected, because the contract has already been signed
 code|name|review-status.decided:
-  name: Decision has been made by the Review Body regarding the current request.
+  name: Decision has been made by the review body regarding the current request
 code|name|review-status.requested:
   name: Review has been requested and is still under process
 code|name|review-type.complainants:
   name: Complainants
 code|name|rewards-penalties.rew-pen:
-  name: Rewards and penalties
+  name: Information on rewards and penalties
 code|name|selection-criterion.ef-stand:
   name: Economic and financial standing
 code|name|selection-criterion.other:
@@ -37046,7 +37096,7 @@ code|name|subcontracting-obligation.subc-min:
 code|name|subcontracting-obligation.subc-oblig-2009-81:
   name: The buyer may oblige the contractor to award all or certain subcontracts through the procedure set out in Title III of Directive 2009/81/EC.
 code|name|tenderlot-presentation.all:
-  name: Tenders shall be submitted for all lots
+  name: The tenderer must submit tenders for all lots
 code|name|timeperiod.APR:
   name: April
 code|name|timeperiod.AUG:
@@ -37120,7 +37170,7 @@ code|name|timeperiod.YEAR:
 code|name|timeperiod.YEAR_HALF:
   name: Half year
 code|name|transport-service.bus-s:
-  name: Bus transport services (urban/regional)
+  name: Bus transport services (urban / regional)
 code|name|transport-service.coach-s:
   name: Coach transport services (long-distance)
 code|name|transport-service.lrail-s:
@@ -37160,11 +37210,11 @@ code|name|vehicle-category.n2-n3:
 code|name|vehicle-category.n3:
   name: N3
 code|name|vehicles.vehicles:
-  name: Vehicles
+  name: The number of all vehicles falling within the scope of the CVD directive
 code|name|vehicles.vehicles-clean:
-  name: Vehicles clean
+  name: The number of clean vehicles
 code|name|vehicles.vehicles-zero-emission:
-  name: Vehicles zero emission
+  name: The number of zero-emission heavy-duty vehicles
 code|name|winner-selection-status.clos-nw:
   name: No winner was chosen and the competition is closed.
 code|name|winner-selection-status.open-nw:
@@ -37172,26 +37222,284 @@ code|name|winner-selection-status.open-nw:
 code|name|winner-selection-status.selec-w:
   name: At least one winner was chosen.
 code|name|gpp-criteria.eu:
-  name: EU GPP criteria
+  name: EU Green Public Procurement criteria
 code|name|gpp-criteria.national:
-  name: National GPP criteria
+  name: National Green Public Procurement criteria
 code|name|gpp-criteria.none:
-  name: No GPP criteria
+  name: No Green Public Procurement criteria
 code|name|gpp-criteria.other:
-  name: Other GPP criteria
+  name: Other Green Public Procurement criteria
 code|name|non-publication-identifier.buy-rev-cou:
-  name: Buyer Review Requests Count (BT-635)
+  name: Number of buyer review requests (BT-635)
 code|name|non-publication-identifier.buy-rev-typ:
-  name: Buyer Review Requests Irregularity Type (BT-636)
+  name: Type of alleged irregularity (BT-636)
 code|name|non-publication-identifier.not-app-val:
-  name: Notice Framework Approximate Value (BT-1118)
+  name: Approximate value of the framework agreements (BT-1118)
 code|name|non-publication-identifier.not-ree-val:
-  name: Group Framework Re-estimated Value (BT-1561)
+  name: Re-estimated value of the framework agreements within a group of lots (BT-1561)
 code|name|innovative-acquisition.proc-innov:
-  name: The procured works, supplies, or services entail process innovation.
+  name: The procured works, supplies, or services entail process innovation
 code|name|innovative-acquisition.prod-innov:
-  name: The procured works, supplies, or services entail product innovation.
+  name: The procured works, supplies, or services entail product innovation
 code|name|currency.OP_DATPRO:
   name: Provisional data
 code|name|eu-programme.OP_DATPRO:
   name: Provisional data
+code|name|corporate-body.ACER:
+  name: European Union Agency for the Cooperation of Energy Regulators
+code|name|corporate-body.BERD:
+  name: European Bank for Reconstruction and Development
+code|name|corporate-body.BEREC_OFFICE:
+  name: Agency for Support for BEREC
+code|name|corporate-body.CAJU:
+  name: Clean Aviation Joint Undertaking
+code|name|corporate-body.CBEJU:
+  name: Circular Bio-based Europe Joint Undertaking
+code|name|corporate-body.CDT:
+  name: Translation Centre
+code|name|corporate-body.CEDEFOP:
+  name: Cedefop
+code|name|corporate-body.CEPOL:
+  name: European Union Agency for Law Enforcement Training
+code|name|corporate-body.CERN:
+  name: CERN
+code|name|corporate-body.CERT:
+  name: Computer Emergency Response Team for the EU institutions, bodies and agencies
+code|name|corporate-body.CFCA:
+  name: European Fisheries Control Agency
+code|name|corporate-body.CHJU:
+  name: Clean Hydrogen Joint Undertaking
+code|name|corporate-body.CINEA:
+  name: European Climate, Infrastructure and Environment Executive Agency
+code|name|corporate-body.COM:
+  name: European Commission
+code|name|corporate-body.CONSIL:
+  name: Council of the European Union
+code|name|corporate-body.COR:
+  name: European Committee of the Regions
+code|name|corporate-body.COU_EUR:
+  name: Council of Europe
+code|name|corporate-body.COU_EUR_DB:
+  name: Council of Europe Development Bank
+code|name|corporate-body.CPVO:
+  name: Community Plant Variety Office
+code|name|corporate-body.CURIA:
+  name: Court of Justice of the European Union
+code|name|corporate-body.EACEA:
+  name: European Education and Culture Executive Agency
+code|name|corporate-body.EASA:
+  name: European Union Aviation Safety Agency
+code|name|corporate-body.EBA:
+  name: European Banking Authority
+code|name|corporate-body.ECA:
+  name: European Court of Auditors
+code|name|corporate-body.ECB:
+  name: European Central Bank
+code|name|corporate-body.ECDC:
+  name: European Centre for Disease Prevention and Control
+code|name|corporate-body.ECHA:
+  name: European Chemicals Agency
+code|name|corporate-body.ECHR:
+  name: European Court of Human Rights
+code|name|corporate-body.EDA:
+  name: European Defence Agency
+code|name|corporate-body.EDPS:
+  name: European Data Protection Supervisor
+code|name|corporate-body.EEA:
+  name: European Environment Agency
+code|name|corporate-body.EEAS:
+  name: European External Action Service
+code|name|corporate-body.EESC:
+  name: European Economic and Social Committee
+code|name|corporate-body.EFSA:
+  name: European Food Safety Authority
+code|name|corporate-body.EFTA:
+  name: European Free Trade Association
+code|name|corporate-body.EIB:
+  name: European Investment Bank
+code|name|corporate-body.EIF:
+  name: European Investment Fund
+code|name|corporate-body.EIGE:
+  name: European Institute for Gender Equality
+code|name|corporate-body.EIOPA:
+  name: European Insurance and Occupational Pensions Authority
+code|name|corporate-body.EISMEA:
+  name: European Innovation Council and SMEs Executive Agency
+code|name|corporate-body.EIT:
+  name: European Institute of Innovation and Technology
+code|name|corporate-body.ELA:
+  name: European Labour Authority
+code|name|corporate-body.EMCDDA:
+  name: European Monitoring Centre for Drugs and Drug Addiction
+code|name|corporate-body.EMEA:
+  name: European Medicines Agency
+code|name|corporate-body.EMSA:
+  name: European Maritime Safety Agency
+code|name|corporate-body.ENISA:
+  name: European Union Agency for Cybersecurity
+code|name|corporate-body.EP:
+  name: European Parliament
+code|name|corporate-body.EPORG:
+  name: European Patent Organisation
+code|name|corporate-body.EPPO:
+  name: European Public Prosecutor’s Office
+code|name|corporate-body.EPSO:
+  name: European Personnel Selection Office
+code|name|corporate-body.ERA:
+  name: European Union Agency for Railways
+code|name|corporate-body.ERC:
+  name: European Research Council Executive Agency
+code|name|corporate-body.ESA:
+  name: European Space Agency
+code|name|corporate-body.ESM:
+  name: European Stability Mechanism
+code|name|corporate-body.ESMA:
+  name: European Securities and Markets Authority
+code|name|corporate-body.ETF:
+  name: European Training Foundation
+code|name|corporate-body.EUAA:
+  name: European Union Agency for Asylum
+code|name|corporate-body.EUISS:
+  name: European Union Institute for Security Studies
+code|name|corporate-body.EURAIL:
+  name: Europe’s Rail Joint Undertaking
+code|name|corporate-body.EURATOM:
+  name: Euratom Supply Agency
+code|name|corporate-body.EUROCONTROL:
+  name: Eurocontrol
+code|name|corporate-body.EUROFOUND:
+  name: Eurofound
+code|name|corporate-body.EUROHPC:
+  name: European High-Performance Computing Joint Undertaking
+code|name|corporate-body.EUROJUST:
+  name: European Union Agency for Criminal Justice Cooperation
+code|name|corporate-body.EUROPOL:
+  name: Europol
+code|name|corporate-body.EURSCHOOL:
+  name: European schools
+code|name|corporate-body.EUSC:
+  name: European Union Satellite Centre
+code|name|corporate-body.EUSPA:
+  name: European Union Agency for the Space Programme
+code|name|corporate-body.FAO:
+  name: Food and Agriculture Organization
+code|name|corporate-body.FRA:
+  name: European Union Agency for Fundamental Rights
+code|name|corporate-body.FRONTEX:
+  name: Frontex
+code|name|corporate-body.FUSEN:
+  name: Fusion for Energy Joint Undertaking
+code|name|corporate-body.HERA:
+  name: Health Emergency Preparedness and Response Authority
+code|name|corporate-body.IEA:
+  name: International Energy Agency
+code|name|corporate-body.IHIJU:
+  name: Innovative Health Initiative Joint Undertaking
+code|name|corporate-body.ILO:
+  name: International Labour Organization
+code|name|corporate-body.INTERPOL:
+  name: Interpol
+code|name|corporate-body.KDTJU:
+  name: Key Digital Technologies Joint Undertaking
+code|name|corporate-body.LISA:
+  name: European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice
+code|name|corporate-body.NATO:
+  name: North Atlantic Treaty Organization
+code|name|corporate-body.OAMI:
+  name: European Union Intellectual Property Office
+code|name|corporate-body.OECD:
+  name: Organisation for Economic Co-operation and Development
+code|name|corporate-body.OMB:
+  name: European Ombudsman
+code|name|corporate-body.OSHA:
+  name: European Agency for Safety and Health at Work
+code|name|corporate-body.PUBL:
+  name: Publications Office of the European Union
+code|name|corporate-body.REA:
+  name: European Research Executive Agency
+code|name|corporate-body.SESAR:
+  name: Single European Sky ATM Research 3 Joint Undertaking
+code|name|corporate-body.SRB:
+  name: Single Resolution Board
+code|name|criterion.misrepresent:
+  name: Guilty of misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure
+code|name|currency.SLE:
+  name: Leone
+code|name|non-publication-identifier.gro-ree-val:
+  name: Group Framework Re-estimated Value (BT-1561)
+code|name|non-publication-identifier.ree-val:
+  name: Framework Re-estimated Value (BT-660)
+code|name|nuts.AL:
+  name: Shqipëria
+code|name|nuts.AT:
+  name: Österreich
+code|name|nuts.BE:
+  name: Belgique/België
+code|name|nuts.BG:
+  name: България 
+code|name|nuts.CH:
+  name: Schweiz/Suisse/Svizzera
+code|name|nuts.CY:
+  name: Κύπρος 
+code|name|nuts.CZ:
+  name: Česko
+code|name|nuts.DE:
+  name: Deutschland
+code|name|nuts.DK:
+  name: Danmark
+code|name|nuts.EE:
+  name: Eesti
+code|name|nuts.EL:
+  name: Ελλάδα 
+code|name|nuts.ES:
+  name: España
+code|name|nuts.FI:
+  name: Suomi/Finland
+code|name|nuts.FR:
+  name: France
+code|name|nuts.HR:
+  name: Hrvatska
+code|name|nuts.HU:
+  name: Magyarország
+code|name|nuts.IE:
+  name: Éire/Ireland
+code|name|nuts.IS:
+  name: Ísland
+code|name|nuts.IT:
+  name: Italia
+code|name|nuts.LI:
+  name: Liechtenstein
+code|name|nuts.LT:
+  name: Lietuva
+code|name|nuts.LU:
+  name: Luxembourg
+code|name|nuts.LV:
+  name: Latvija
+code|name|nuts.ME:
+  name: Црна Гора
+code|name|nuts.MK:
+  name: Северна Македонија
+code|name|nuts.MT:
+  name: Malta
+code|name|nuts.NL:
+  name: Nederland
+code|name|nuts.NO:
+  name: Norge
+code|name|nuts.PL:
+  name: Polska
+code|name|nuts.PT:
+  name: Portugal
+code|name|nuts.RO:
+  name: România
+code|name|nuts.RS:
+  name: Srbija/Сpбија
+code|name|nuts.SE:
+  name: Sverige
+code|name|nuts.SI:
+  name: Slovenija
+code|name|nuts.SK:
+  name: Slovensko
+code|name|nuts.TR:
+  name: Türkiye
+code|name|nuts.UK:
+  name: United Kingdom

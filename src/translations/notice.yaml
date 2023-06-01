@@ -91,10 +91,10 @@ notice|name|X02:
 notice|name|E1:
   name: Preliminary market consultation notice
 notice|name|E2:
-  name: Below Threshold Prior Information Notice (PIN) Only
+  name: Below threshold prior information notice (PIN) only
 notice|name|E3:
-  name: Below Threshold Contract Notice (CN) general
+  name: Below threshold contract notice (CN) general
 notice|name|E4:
-  name: Below Threshold Contract Award Notice (CAN) general
+  name: Below threshold contract award notice (CAN) general
 notice|name|E5:
-  name: Contract Completion Notice
+  name: Contract completion notice

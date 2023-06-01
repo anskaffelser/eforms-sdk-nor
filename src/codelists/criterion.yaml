@@ -1,6 +1,6 @@
 autorisation:
   name: 'For service contracts: authorisation of particular organisation needed'
-  nob: For tjenestekontrakter: autorisasjon fra spesifikk organisasjon nødvendig
+  nob: 'For tjenestekontrakter: autorisasjon fra spesifikk organisasjon nødvendig'
 aver-year-to:
   name: Average yearly turnover
   nob: Gjennomsnittlig årlig omsetning
@@ -15,7 +15,7 @@ chain-manage:
   nob: Ledelse av forkyningskjede
 corruption:
   name: Corruption
-  nob: Korrupsjon 
+  nob: Korrupsjon
 cred-arran:
   name: Arrangement with creditors
   nob: Avtale med kreditorer
@@ -60,7 +60,7 @@ indem-insu:
   nob: Profesjonsansvarsforsikring
 insolvency:
   name: Insolvency
-  nob: Insolvens 
+  nob: Insolvens
 labour-law:
   name: Breaching of obligations in the fields of labour law
   nob: Brudd på forpliktelser innenfor arbeidsretten
@@ -72,7 +72,7 @@ manage-staff:
   nob: Antall lederansatte
 membership:
   name: 'For service contracts: membership of particular organisation needed'
-  nob: For tjenestekontrakter: medlemskap i spesifikk organisasjon nødvendig
+  nob: 'For tjenestekontrakter: medlemskap i spesifikk organisasjon nødvendig'
 misinterpr:
   name: Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure
   nob: Skyldig i feiltolkning, tilbakeholdt informasjon, manglende evne til å gi nødvendig dokumenter og oppnådde konfidensiell informasjon i denne prosedyren
@@ -152,3 +152,5 @@ work-tech:
   name: 'For works contracts: technicians or technical bodies to carry out the work'
 year-manpower:
   name: Average annual manpower
+misrepresent:
+  name: Guilty of misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure

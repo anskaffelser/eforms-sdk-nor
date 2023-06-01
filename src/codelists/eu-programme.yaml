@@ -5,9 +5,9 @@ AGR:
 AGRNET:
   name: Net transfer between EAGF and EAFRD
 AMF:
-  name: Asylum, Migration and Integration Fund (AMF)
+  name: Asylum and Migration Fund (AMF)
 AMIF:
-  name: Asylum and Migration Fund (AMIF)
+  name: Asylum, Migration and Integration Fund (AMIF)
 ANTIFRAUD:
   name: EU Anti-Fraud Programme
 BMVI:
@@ -221,9 +221,9 @@ JUST:
 JUSTICE:
   name: Justice Programme
 LIFE_2021:
-  name: Programme for the Environment and Climate Action (LIFE)
+  name: Programme for the Environment and Climate Action (LIFE 2021)
 LIFE2020:
-  name: Programme for the Environment and Climate Action (LIFE)
+  name: Programme for the Environment and Climate Action (LIFE 2014–2020)
 LOAN2020:
   name: Guarantee Fund for external actions
 MFA:

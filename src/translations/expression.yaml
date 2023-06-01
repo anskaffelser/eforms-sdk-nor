@@ -125,7 +125,7 @@ expression|name|158:
 expression|name|159:
   name: Lots All Required (BT-763) is true or there is more than a Lot in the notice
 expression|name|16:
-  name: BT-541-Lot is empty
+  name: BT-541-Lot is not empty
 expression|name|160:
   name: there are not multiple lots
 expression|name|161:
@@ -163,13 +163,13 @@ expression|name|175:
 expression|name|176:
   name: Deadline Receipt Tenders (BT-131(d)-Lot) or Deadline Receipt Requests (BT-1311(d)-Lot) exists
 expression|name|177:
-  name: a Tender (OPT-321-Tender) exists
+  name: no Tender (OPT-321-Tender) exists
 expression|name|178:
-  name: a Tenderer (OPT-300-Tenderer) exists
+  name: no Tenderer (OPT-300-Tenderer) exist
 expression|name|179:
   name: a Main Contractor (OPT-301-Tenderer-MainCont) is not present
 expression|name|18:
-  name: BT-541-LotsGroup is empty
+  name: BT-541-LotsGroup is not empty
 expression|name|180:
   name: Company Organization Name (BT-500-Organization-Company) is not present
 expression|name|181:
@@ -209,7 +209,7 @@ expression|name|196:
 expression|name|197:
   name: Previous Planning Identifier (BT-125(i)-Lot) is not present
 expression|name|198:
-  name: Previous Planning Identifier (BT-125(i)-Part) exists
+  name: Previous Planning Identifier (BT-125(i)-Part) does not exist
 expression|name|199:
   name: Duration Period (BT-36-Lot) and Duration End Date (BT-537-Lot) are not present
 expression|name|2:
@@ -369,7 +369,7 @@ expression|name|268:
 expression|name|269:
   name: Unpublished Identifier (BT-195(BT-1252)-Procedure) is not present
 expression|name|27:
-  name: 'the value chosen for BT-11 Procedure Buyer is not equal to: ''Body governed by public law'', ''Body governed by public law, controlled by a central government authority'', ''Body governed by public law, controlled by a local authority'', ''Body governed by public law, controlled by a regional authority'', ''Central government authority'', ''Defence contractor'', ''EU institution, body or agency'', ''European Institution/Agency or International Organisation'', ''International organisation'', ''Local authority'', ''Organisation awarding a contract subsidised by a central government authority'', ''Organisation awarding a contract subsidised by a local authority'', ''Organisation awarding a contract subsidised by a regional authority'', ''Public undertaking'', ''Public undertaking, controlled by a central government authority'', ''Public undertaking, controlled by a local authority'', ''Public undertaking, controlled by a regional authority'', ''Regional authority'' or ''Regional or local authority'''
+  name: 'the value chosen for BT-11 Procedure Buyer is not equal to: ''Body governed by public law'', ''Body governed by public law, controlled by a central government authority'', ''Body governed by public law, controlled by a local authority'', ''Body governed by public law, controlled by a regional authority'', ''Central government authority'', ''Defence contractor'', ''EU institution, body or agency'', ''International organisation'', ''Local authority'', ''Organisation awarding a contract subsidised by a central government authority'', ''Organisation awarding a contract subsidised by a local authority'', ''Organisation awarding a contract subsidised by a regional authority'', ''Public undertaking'', ''Public undertaking, controlled by a central government authority'', ''Public undertaking, controlled by a local authority'', ''Public undertaking, controlled by a regional authority'' or ''Regional authority'''
 expression|name|270:
   name: Unpublished Identifier (BT-195(BT-135)-Procedure) is not present
 expression|name|271:
@@ -507,7 +507,7 @@ expression|name|33:
 expression|name|330:
   name: Buyer Legal Type (BT-11-Procedure-Buyer) is not "Public undertaking", "Public undertaking, controlled by a central government authority", "Public undertaking, controlled by a local authority", "Public undertaking, controlled by a regional authority" or "Entity with special or exclusive rights".
 expression|name|331:
-  name: Buyer Legal Type (BT-11-Procedure-Buyer) is not "Body governed by public law", "Body governed by public law, controlled by a central government authority", "Body governed by public law, controlled by a local authority", "Body governed by public law, controlled by a regional authority", "Central government authority", "Defence contractor", "EU institution, body or agency", "European Institution/Agency or International Organisation", "Group of public authorities", "International organisation", "Local authority", "Organisation awarding a contract subsidised by a contracting authority", "Organisation awarding a contract subsidised by a central government authority", "Organisation awarding a contract subsidised by a local authority", "Organisation awarding a contract subsidised by a regional authority", "Regional authority" or "Regional or local authority"
+  name: Buyer Legal Type (BT-11-Procedure-Buyer) is not "Body governed by public law", "Body governed by public law, controlled by a central government authority", "Body governed by public law, controlled by a local authority", "Body governed by public law, controlled by a regional authority", "Central government authority", "Defence contractor", "EU institution, body or agency", "Group of public authorities", "International organisation", "Local authority", "Organisation awarding a contract subsidised by a contracting authority", "Organisation awarding a contract subsidised by a central government authority", "Organisation awarding a contract subsidised by a local authority", "Organisation awarding a contract subsidised by a regional authority" or "Regional authority"
 expression|name|332:
   name: the procedure for the lot is over and has not been awarded.
 expression|name|333:
@@ -519,9 +519,9 @@ expression|name|335:
 expression|name|336:
   name: the value chosen for Framework Agreement (BT-765-Lot) is equal to one of the following:"Framework agreement, partly without reopening and partly with reopening of competition";"Framework agreement, with reopening of competition";"Framework agreement, without reopening of competition",and the value chosen for Winner Chosen (BT-142-LotResult) is equal to "At least one winner was chosen." and Framework Maximum Value (BT-660-LotResult) does not exist.
 expression|name|337:
-  name: no framework agreement is involved or both Framework Maximum Value (BT-709-LotResult) and Framework Estimated Value (BT-660-LotResult) are not present
+  name: no framework agreement is involved or Framework Maximum Value (BT-709-LotResult) is not present
 expression|name|338:
-  name: no winner was chosen or no framework agreement was involved or both Framework Maximum Value (BT-709-LotResult) and Framework Estimated Value (BT-660-LotResult) are not present
+  name: no winner was chosen or no framework agreement was involved, or Framework Maximum Value (BT-709-LotResult) is not present
 expression|name|339:
   name: no winner was selected or a framework agreement is involved
 expression|name|34:
@@ -611,19 +611,19 @@ expression|name|380:
 expression|name|381:
   name: Exclusion Grounds Code (BT-67(a)-Procedure) is not present
 expression|name|382:
-  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist
+  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist and Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) exists
 expression|name|383:
-  name: Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist
+  name: Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist and Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) exists
 expression|name|384:
-  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist
+  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist and Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) exists
 expression|name|385:
-  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist
+  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist and Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) exists
 expression|name|386:
-  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist
+  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) and eDelivery Gateway (BT-509-Organization-TouchPoint) do not exist and Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) exists
 expression|name|387:
   name: Organization Country Code (BT-514-Organization-TouchPoint) is not present
 expression|name|388:
-  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) do not exist
+  name: Organisation Contact Email Address (BT-506-Organization-TouchPoint) and Organisation Contact Telephone Number (BT-503-Organization-TouchPoint) and Organisation Contact Fax (BT-739-Organization-TouchPoint) and Organisation Name (BT-500-Organization-TouchPoint) and Touchpoint Organization Internet Address (BT-505-Organization-TouchPoint) do not exist and Touchpoint Technical Identifier (OPT-201-Organization-TouchPoint) exists
 expression|name|389:
   name: the Business Country (BT-514-Business) is not a Country with NUTS codes
 expression|name|390:
@@ -669,11 +669,11 @@ expression|name|5:
 expression|name|50:
   name: the value chosen for BT-105-Lot is not equal to 'Open'
 expression|name|500:
-  name: The Description is relative to a Legislation for which no identifier is known
+  name: BT-01(e)-Procedure does not exist
 expression|name|501:
-  name: Lot Award Criterion Type (BT-539-Lot) exists
+  name: Lot Award Criterion Type (BT-539-Lot) does not exist
 expression|name|502:
-  name: LotsGroup Award Criterion Type (BT-539-LotsGroup) exists
+  name: LotsGroup Award Criterion Type (BT-539-LotsGroup) does not exist
 expression|name|503:
   name: Buyer Review Requests Count (BT-635-LotResult) is not present
 expression|name|504:
@@ -755,7 +755,7 @@ expression|name|64:
 expression|name|65:
   name: the value chosen for BT-142-LotResult is 'At least one winner was chosen'
 expression|name|66:
-  name: the value chosen for BT-142-LotResult is not 'At least one winner was chosen'
+  name: the value chosen for BT-142-LotResult is not 'At least one winner was chosen' or LotResult Technical ID (OPT-322) does not exist
 expression|name|67:
   name: the value chosen for BT-773-Tender is not equal to 'YES'
 expression|name|68:
@@ -771,7 +771,7 @@ expression|name|71:
 expression|name|72:
   name: no winner is selected or the value of BT-765-Lot does not correspond to framework agreement
 expression|name|74:
-  name: the value chosen for BT-02-Notice is not equal to 'Change notice'
+  name: there is no reference to a changed notice (BT-758-notice)
 expression|name|76:
   name: BT-644-Lot is not present
 expression|name|77:
@@ -858,3 +858,9 @@ expression|name|557:
   name: LotsGroup Purpose Lot ID is not present
 expression|name|558:
   name: the Service Provider is not identified
+expression|name|560:
+  name: Framework Reestimated Value (BT-660-LotResult) is not present
+expression|name|561:
+  name: Unpublished Identifier (BT-195(BT-660)-LotResult) is not present
+expression|name|568:
+  name: OPT-060-Lot is not present

@@ -6,9 +6,9 @@ require 'slop'
 require 'yaml'
 
 opts = Slop.parse do |o|
-  o.string '-c', '--config-file', default: 'src/fields/above.yaml'
+  o.string '-c', '--config-file', default: 'src/fields/eu.yaml'
   o.string '-i', '--input-file', default: 'target/eforms-sdk/fields/fields.json'
-  o.string '-o', '--output-file', default: 'target/eforms-sdk-nor/fields/fields.json'
+  o.string '-o', '--output-file', default: 'target/eforms-sdk-nor/fields/eu.json'
 end
 
 # Loading configuration
@@ -38,12 +38,23 @@ end
 
 # Updating fields
 config.fetch('fields', {}).each do |id, field|
-
   # Handle updated pattern
   if field.has_key? 'pattern'
     fields[id]['pattern']['value'] = field['pattern']['value']
   end
+end
 
+# Rules: Make sure both Norwegian and English is provided
+counter = 0
+fields.each do |i, field|
+  if field['type'] == "text-multilingual"
+    field['schematron'] = field.fetch('schematron', Array::new).append({
+      'id' => "EFORMS-NOR-T%03d" % counter += 1,
+      'context' => "#{field['xpathAbsolute'][..0-field['xpathRelative'].length-2]}[#{field['xpathRelative']}]",
+      'test' => "#{field['xpathRelative']}[@lang = 'ENG'] and #{field['xpathRelative']}[@lang = ('NOR', 'NNO', 'NOB')]",
+      'message' => 'Multilingual fields must be available in minimum Norwegian and English when used.',
+    })
+  end
 end
 
 # Write result

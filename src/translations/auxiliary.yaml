@@ -13,7 +13,7 @@ auxiliary|text|buyer:
 auxiliary|text|change:
   name: Change
 auxiliary|text|concession-value:
-  name: Concession
+  name: Concession value
 auxiliary|text|contract-information:
   name: Contract information
 auxiliary|text|contract-terms:
@@ -37,7 +37,7 @@ auxiliary|text|electronic-auction:
 auxiliary|text|estimated-duration:
   name: Estimated duration
 auxiliary|text|eu-funds-used:
-  name: Information about European Union funds used to finance the contract
+  name: Information about European Union funds
 auxiliary|text|exclusion-grounds:
   name: Grounds for exclusion
 auxiliary|text|framework-agreement:

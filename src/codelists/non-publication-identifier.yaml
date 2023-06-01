@@ -94,3 +94,7 @@ not-app-val:
   name: Notice Framework Approximate Value (BT-1118)
 not-ree-val:
   name: Group Framework Re-estimated Value (BT-1561)
+gro-ree-val:
+  name: Group Framework Re-estimated Value (BT-1561)
+ree-val:
+  name: Framework Re-estimated Value (BT-660)

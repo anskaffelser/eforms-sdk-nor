@@ -5,7 +5,7 @@ EFORMS_VERSION = $(EFORMS_MINOR).$(EFORMS_PATCH)
 VERSION := $(shell echo -n $${PROJECT_VERSION:-dev-$$(date -u +%Y%m%d-%H%M%Sz)})
 
 SAXON_MAJOR ?= 12
-SAXON_MINOR ?= 1
+SAXON_MINOR ?= 2
 
 default: clean-light build
 
@@ -24,7 +24,7 @@ versions:
 
 build: target/eforms-sdk-nor
 
-extract: .bundle/vendor target/eforms-sdk extract-codelists extract-translations
+extract: .bundle/vendor target/eforms-sdk
 	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/extract-codelists
 	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/extract-translations
 	@rm src/translations/rule.yaml
@@ -83,24 +83,24 @@ target/eforms-sdk-nor/efx-grammar: target/eforms-sdk
 	@cp -r target/eforms-sdk/efx-grammar target/eforms-sdk-nor/efx-grammar
 
 target/eforms-sdk-nor/fields: \
-	target/eforms-sdk-nor/fields/above.json \
-	target/eforms-sdk-nor/fields/below.json
+	target/eforms-sdk-nor/fields/eu.json \
+	target/eforms-sdk-nor/fields/national.json
 
-target/eforms-sdk-nor/fields/above.json: target/eforms-sdk bin/process-fields
-	@echo "* Create fields subset (above)"
+target/eforms-sdk-nor/fields/eu.json: target/eforms-sdk bin/process-fields
+	@echo "* Create fields subset (eu)"
 	@mkdir -p target/eforms-sdk-nor/fields
 	@ruby bin/process-fields \
 		-i target/eforms-sdk/fields/fields.json \
-		-c src/fields/above.yaml \
-		-o target/eforms-sdk-nor/fields/above.json
+		-c src/fields/eu.yaml \
+		-o target/eforms-sdk-nor/fields/eu.json
 
-target/eforms-sdk-nor/fields/below.json: target/eforms-sdk bin/process-fields
-	@echo "* Create fields subset (below)"
+target/eforms-sdk-nor/fields/national.json: target/eforms-sdk bin/process-fields
+	@echo "* Create fields subset (national)"
 	@mkdir -p target/eforms-sdk-nor/fields
 	@ruby bin/process-fields \
 		-i target/eforms-sdk/fields/fields.json \
-		-c src/fields/below.yaml \
-		-o target/eforms-sdk-nor/fields/below.json
+		-c src/fields/national.yaml \
+		-o target/eforms-sdk-nor/fields/national.json
 
 target/eforms-sdk-nor/notice-types: target/eforms-sdk
 	@echo "* Copy notice types"
@@ -115,8 +115,8 @@ target/eforms-sdk-nor/schemas: target/eforms-sdk
 target/eforms-sdk-nor/schematrons: \
 	target/eforms-sdk-nor/schematrons/eforms-dynamic.sch \
 	target/eforms-sdk-nor/schematrons/eforms-static.sch \
-	target/eforms-sdk-nor/schematrons/norway-above.sch \
-	target/eforms-sdk-nor/schematrons/norway-below.sch
+	target/eforms-sdk-nor/schematrons/norway-eu.sch \
+	target/eforms-sdk-nor/schematrons/norway-national.sch
 
 target/eforms-sdk-nor/schematrons/eforms-dynamic.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup.xslt
 	@echo "* Preparing Schematron: eforms-dynamic.sch"
@@ -130,19 +130,19 @@ target/eforms-sdk-nor/schematrons/eforms-static.sch: target/eforms-sdk target/sa
 	@java -jar target/saxon/saxon.jar -s:target/eforms-sdk/schematrons/static/complete-validation.sch -xsl:bin/xslt/sch-include.xslt \
 	| java -jar target/saxon/saxon.jar -s:- -xsl:src/xslt/sch-cleanup.xslt -o:target/eforms-sdk-nor/schematrons/eforms-static.sch
 
-target/eforms-sdk-nor/schematrons/norway-above.sch: target/saxon target/sch/above
-	@echo "* Preparing Schematron: norway-above.sch"
-	@java -jar target/saxon/saxon-he-12.1.jar \
-		-s:target/sch/above/main.sch \
+target/eforms-sdk-nor/schematrons/norway-eu.sch: target/saxon target/sch/eu
+	@echo "* Preparing Schematron: norway-eu.sch"
+	@java -jar target/saxon/saxon-he-12.2.jar \
+		-s:target/sch/eu/main.sch \
 		-xsl:bin/xslt/sch-include.xslt \
-		-o:target/eforms-sdk-nor/schematrons/norway-above.sch
+		-o:target/eforms-sdk-nor/schematrons/norway-eu.sch
 
-target/eforms-sdk-nor/schematrons/norway-below.sch: target/saxon target/sch/below
-	@echo "* Preparing Schematron: norway-below.sch"
-	@java -jar target/saxon/saxon-he-12.1.jar \
-		-s:target/sch/below/main.sch \
+target/eforms-sdk-nor/schematrons/norway-national.sch: target/saxon target/sch/national
+	@echo "* Preparing Schematron: norway-national.sch"
+	@java -jar target/saxon/saxon-he-12.2.jar \
+		-s:target/sch/national/main.sch \
 		-xsl:bin/xslt/sch-include.xslt \
-		-o:target/eforms-sdk-nor/schematrons/norway-below.sch
+		-o:target/eforms-sdk-nor/schematrons/norway-national.sch
 
 target/eforms-sdk-nor/translations: \
 	target/eforms-sdk-nor/translations/business-term_en.xml \
@@ -196,21 +196,31 @@ target/saxon:
 
 
 target/sch: \
-	target/sch/above \
-	target/sch/below
+	target/sch/eu \
+	target/sch/national
 
-target/sch/above: \
-	target/sch/above/main.sch
-	@touch target/sch/above
+target/sch/eu: \
+	target/sch/eu/main.sch
+	@touch target/sch/eu
 
-target/sch/above/main.sch: src/template/main.sch
-	@mkdir -p target/sch/above
-	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="above" envsubst > target/sch/above/main.sch
+target/sch/eu/main.sch: src/template/main.sch
+	@mkdir -p target/sch/eu
+	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="eu" envsubst > target/sch/eu/main.sch
 
-target/sch/below: \
-	target/sch/below/main.sch
-	@touch target/sch/below
+target/sch/national: \
+	target/sch/national/main.sch
+	@touch target/sch/national
 
-target/sch/below/main.sch: src/template/main.sch
-	@mkdir -p target/sch/below
-	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="below" envsubst > target/sch/below/main.sch
+target/sch/national/main.sch: src/template/main.sch
+	@mkdir -p target/sch/national
+	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="national" envsubst > target/sch/national/main.sch
+
+target/schxslt:
+	@mkdir -p target
+	@wget -q https://github.com/schxslt/schxslt/releases/download/v1.9.5/schxslt-1.9.5-xslt-only.zip -O target/schxslt.zip
+	@unzip -qo target/schxslt.zip -d target
+	@rm target/schxslt.zip
+	@mv target/schxslt* target/schxslt
+
+sch-to-xslt:
+	@java -jar target/saxon/saxon.jar -s:$(src) -xsl:target/schxslt/2.0/pipeline-for-svrl.xsl -o:$(src).xslt
