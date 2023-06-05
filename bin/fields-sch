@@ -1,0 +1,41 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'json'
+require 'slop'
+require 'nokogiri'
+
+opts = Slop.parse do |o|
+  o.string '-i', '--input-file', default: 'target/eforms-sdk-nor/fields/eu.json'
+  o.string '-o', '--output-file', default: 'target/sch/eu/fields.sch'
+end
+
+rules = {}
+
+# Loading source
+source = JSON.parse File.read opts[:input_file]
+
+# Loading validation rules
+[source['xmlStructure'], source['fields']].each do |kind|
+  kind.each do |block|
+    block.fetch('schematron', []).each do |rule|
+      rules[rule['context']] = rules.fetch('context', []).append rule
+    end
+  end
+end
+
+# Create Schematron pattern
+doc = Nokogiri::XML::Builder.new do |xml|
+  xml.pattern(:xmlns => 'http://purl.oclc.org/dsdl/schematron') do |xml|
+    rules.keys.sort.each do |context|
+      xml.rule(:context => context) do |xml|
+        rules[context].each do |rule|
+          xml.assert rule['message'], :id => rule['id'], :test => rule['test']
+        end
+      end
+    end
+  end
+end
+
+# Write to file
+File.write opts[:output_file], doc.to_xml

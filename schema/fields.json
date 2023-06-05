@@ -13,6 +13,17 @@
                     "$ref": "#/definitions/field"
                 }
             }
+        },
+        "rules":{
+            "type": "object",
+            "patternProperties": {
+                ".+": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/rule"
+                    }
+                }
+            }
         }
     },
     "definitions": {
@@ -44,6 +55,24 @@
                         "type": "string"
                     }
                 ]
+            }
+        },
+        "rule": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "context": {
+                    "type": "string"
+                },
+                "test": {
+                    "type": "string"
+                },
+                "message": {
+                    "type": "string"
+                }
             }
         }
     }

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildConfigurations xmlns="http://difi.no/xsd/vefa/validator/1.0">
+
+    <package>eForms ${EFORMS_MINOR} NOR</package>
+
+    <include path="eforms-sdk/schemas/common"/>
+    <include path="eforms-sdk/schemas/maindoc"/>
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-eu</identifier>
+        <title>eForms ${EFORMS_MINOR} NOR (eu)</title>
+        <declaration type="xml.ubl">eforms-sdk-${EFORMS_MINOR}#extended#urn:fdc:anskaffelser.no:2023:eforms:eu</declaration>
+        <inherit>eforms-${EFORMS_MINOR}-xsd</inherit>
+        <file type="sch.xslt" path="sch/eu-eforms-static.xslt" />
+        <file type="sch.xslt" path="sch/eu-norway.xslt" />
+    </configuration>
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-national</identifier>
+        <title>eForms ${EFORMS_MINOR} NOR (national)</title>
+        <declaration type="xml.ubl">eforms-sdk-${EFORMS_MINOR}#extended#urn:fdc:anskaffelser.no:2023:eforms:national</declaration>
+        <inherit>eforms-${EFORMS_MINOR}-xsd</inherit>
+        <file type="sch.xslt" path="sch/national-eforms-static.xslt" />
+        <file type="sch.xslt" path="sch/national-norway.xslt" />
+    </configuration>
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-xsd</identifier>
+        <file path="eforms-sdk/schemas/all.xsd"/>
+    </configuration>
+
+</buildConfigurations>

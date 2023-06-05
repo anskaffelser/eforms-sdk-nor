@@ -4,3 +4,10 @@ fields:
   OPT-002-notice:
     pattern:
       value: ^eforms-sdk-\d\.\d#extended#urn:fdc:anskaffelser.no:2023:eforms:eu$
+
+rules:
+  # /*/cbc:CustomizationID
+  OPT-002-notice:
+    - id: EFORMS-NOR-R001
+      test: matches(normalize-space(.),'^eforms-sdk-\d\.\d#extended#urn:fdc:anskaffelser.no:2023:eforms:eu$')
+      message: ...

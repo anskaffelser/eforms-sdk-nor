@@ -18,6 +18,8 @@ config = YAML.load_file opts[:config_file]
 source = JSON.parse File.read opts[:input_file]
 groups = source['xmlStructure'].to_h {|o| [o['id'], o]}
 fields = source['fields'].to_h {|o| [o['id'], o]}
+all = Hash::new.merge(groups).merge(fields)
+
 
 # Remove references to notice types not used
 if config.has_key? 'noticeTypes'
@@ -44,14 +46,26 @@ config.fetch('fields', {}).each do |id, field|
   end
 end
 
+# Include rules
+config.fetch('rules', {}).each do |field, rules|
+  rules.each do |rule|
+    all[field]['schematron'] = all[field].fetch('schematron', []).append({
+      'id' => rule['id'],
+      'context' => rule.fetch('context', all[field]['xpathAbsolute']),
+      'test' => rule['test'],
+      'message' => rule['message'],
+    })
+  end
+end
+
 # Rules: Make sure both Norwegian and English is provided
 counter = 0
 fields.each do |i, field|
   if field['type'] == "text-multilingual"
-    field['schematron'] = field.fetch('schematron', Array::new).append({
+    field['schematron'] = field.fetch('schematron', []).append({
       'id' => "EFORMS-NOR-T%03d" % counter += 1,
-      'context' => "#{field['xpathAbsolute'][..0-field['xpathRelative'].length-2]}[#{field['xpathRelative']}]",
-      'test' => "#{field['xpathRelative']}[@lang = 'ENG'] and #{field['xpathRelative']}[@lang = ('NOR', 'NNO', 'NOB')]",
+      'context' => "#{field['xpathAbsolute'][..0-field['xpathRelative'].length-2]}",
+      'test' => "not(#{field['xpathRelative']}) or (#{field['xpathRelative']}[@lang = 'ENG'] and #{field['xpathRelative']}[@lang = ('NOR', 'NNO', 'NOB')])",
       'message' => 'Multilingual fields must be available in minimum Norwegian and English when used.',
     })
   end

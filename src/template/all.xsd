@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="dummy">
+    <xs:import schemaLocation="maindoc/EFORMS-BusinessRegistrationInformationNotice.xsd" namespace="http://data.europa.eu/p27/eforms-business-registration-information-notice/1"/>
+    <xs:import schemaLocation="maindoc/UBL-ContractAwardNotice-2.3.xsd" namespace="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2"/>
+    <xs:import schemaLocation="maindoc/UBL-ContractNotice-2.3.xsd" namespace="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"/>
+    <xs:import schemaLocation="maindoc/UBL-PriorInformationNotice-2.3.xsd" namespace="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2"/>
+</xs:schema>

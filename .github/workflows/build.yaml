@@ -76,6 +76,9 @@ jobs:
       - name: Build folder
         run: make build
 
+      - name: Build validator
+        run: make validator
+
       - name: Package
         run: make package
 
@@ -90,6 +93,13 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           path: target/*.zip
+          name: eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}
+          retention-days: 3
+
+      - name: Upload bundle (artifact)
+        uses: actions/upload-artifact@v3
+        with:
+          path: target/*.asice
           name: eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}
           retention-days: 3
 
@@ -110,3 +120,12 @@ jobs:
           file: target/eforms-sdk-nor-${{ env.PROJECT_VERSION }}.zip
           name: eforms-sdk-${{ matrix.EFORMS_MINOR }}-nor-${{ env.PROJECT_VERSION }}.zip
           label: eForms SDK NOR ${{ env.PROJECT_VERSION }} for ${{ matrix.EFORMS_MINOR }} (zip)
+
+      - name: Upload validation
+        uses: k15g/action-github-asset-upload@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          file: target/dev.anskaffelser.eforms.sdk-nor.asice
+          name: dev.anskaffelser.eforms.sdk-${{ matrix.EFORMS_MINOR }}-nor-${{ env.EFORMS_PATCH }}.asice.zip
+          label: Validaton for eForms SDK ${{ matrix.EFORMS_MINOR }} NOR

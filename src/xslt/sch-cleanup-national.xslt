@@ -13,14 +13,16 @@
 
     <!-- Things to remove -->
 
-    <!-- Remove validation of CustomizationID -->
+    <!-- Remove validation of specific fields -->
     <xsl:template match="sch:rule[@context = '/*/cbc:CustomizationID']" />
+    <xsl:template match="sch:rule[@context = '/*/cbc:NoticeLanguageCode']" />
+    <xsl:template match="sch:rule[@context = '/*/cac:AdditionalNoticeLanguage/cbc:ID']" />
 
     <!-- Remove role -->
     <xsl:template match="@role"/>
 
     <!-- Remove diagnostics -->
-    <xsl:template match="@diagnostics" />
+    <!-- <xsl:template match="@diagnostics" /> -->
     <xsl:template match="sch:diagnostics" />
 
 

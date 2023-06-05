@@ -10,7 +10,7 @@ SAXON_MINOR ?= 2
 default: clean-light build
 
 clean-light:
-	@rm -rf target/eforms-sdk-nor
+	@rm -rf target/eforms-sdk-nor target/sch target/*.asice target/buildconfig.xml target/eforms-sdk/schemas/all.xsd
 
 clean:
 	@rm -rf target .bundle/vendor
@@ -78,7 +78,7 @@ target/eforms-sdk-nor/codelists: target/eforms-sdk bin/create-codelists src/prop
 	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/create-codelists
 
 target/eforms-sdk-nor/efx-grammar: target/eforms-sdk
-	@echo "* Copy EHX grammar"
+	@echo "* Copy EFX grammar"
 	@mkdir -p target/eforms-sdk-nor
 	@cp -r target/eforms-sdk/efx-grammar target/eforms-sdk-nor/efx-grammar
 
@@ -113,36 +113,50 @@ target/eforms-sdk-nor/schemas: target/eforms-sdk
 	@cp -r target/eforms-sdk/schemas target/eforms-sdk-nor/schemas
 
 target/eforms-sdk-nor/schematrons: \
-	target/eforms-sdk-nor/schematrons/eforms-dynamic.sch \
-	target/eforms-sdk-nor/schematrons/eforms-static.sch \
-	target/eforms-sdk-nor/schematrons/norway-eu.sch \
-	target/eforms-sdk-nor/schematrons/norway-national.sch
+	target/eforms-sdk-nor/schematrons/eu-eforms-dynamic.sch \
+	target/eforms-sdk-nor/schematrons/eu-eforms-static.sch \
+	target/eforms-sdk-nor/schematrons/national-eforms-dynamic.sch \
+	target/eforms-sdk-nor/schematrons/national-eforms-static.sch \
+	target/eforms-sdk-nor/schematrons/eu-norway.sch \
+	target/eforms-sdk-nor/schematrons/national-norway.sch
 
-target/eforms-sdk-nor/schematrons/eforms-dynamic.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup.xslt
-	@echo "* Preparing Schematron: eforms-dynamic.sch"
+target/eforms-sdk-nor/schematrons/eu-eforms-dynamic.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup-eu.xslt
+	@echo "* Preparing Schematron: eu-eforms-dynamic.sch"
 	@mkdir -p target/eforms-sdk-nor/schematrons
 	@java -jar target/saxon/saxon.jar -s:target/eforms-sdk/schematrons/dynamic/complete-validation.sch -xsl:bin/xslt/sch-include.xslt \
-	| java -jar target/saxon/saxon.jar -s:- -xsl:src/xslt/sch-cleanup.xslt -o:target/eforms-sdk-nor/schematrons/eforms-dynamic.sch
+	| java -jar target/saxon/saxon.jar -s:- -xsl:src/xslt/sch-cleanup-eu.xslt -o:target/eforms-sdk-nor/schematrons/eu-eforms-dynamic.sch
 
-target/eforms-sdk-nor/schematrons/eforms-static.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup.xslt
-	@echo "* Preparing Schematron: eforms-static.sch"
+target/eforms-sdk-nor/schematrons/eu-eforms-static.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup-eu.xslt
+	@echo "* Preparing Schematron: eu-eforms-static.sch"
+	@mkdir -p target/eforms-sdk-nor/schematron
+	@java -jar target/saxon/saxon.jar -s:target/eforms-sdk/schematrons/static/complete-validation.sch -xsl:bin/xslt/sch-include.xslt \
+	| java -jar target/saxon/saxon.jar -s:- -xsl:src/xslt/sch-cleanup-eu.xslt -o:target/eforms-sdk-nor/schematrons/eu-eforms-static.sch
+
+target/eforms-sdk-nor/schematrons/national-eforms-dynamic.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup-national.xslt
+	@echo "* Preparing Schematron: national-eforms-dynamic.sch"
+	@mkdir -p target/eforms-sdk-nor/schematrons
+	@java -jar target/saxon/saxon.jar -s:target/eforms-sdk/schematrons/dynamic/complete-validation.sch -xsl:bin/xslt/sch-include.xslt \
+	| java -jar target/saxon/saxon.jar -s:- -xsl:src/xslt/sch-cleanup-national.xslt -o:target/eforms-sdk-nor/schematrons/national-eforms-dynamic.sch
+
+target/eforms-sdk-nor/schematrons/national-eforms-static.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup-national.xslt
+	@echo "* Preparing Schematron: national-eforms-static.sch"
 	@mkdir -p target/eforms-sdk-nor/schematrons
 	@java -jar target/saxon/saxon.jar -s:target/eforms-sdk/schematrons/static/complete-validation.sch -xsl:bin/xslt/sch-include.xslt \
-	| java -jar target/saxon/saxon.jar -s:- -xsl:src/xslt/sch-cleanup.xslt -o:target/eforms-sdk-nor/schematrons/eforms-static.sch
+	| java -jar target/saxon/saxon.jar -s:- -xsl:src/xslt/sch-cleanup-national.xslt -o:target/eforms-sdk-nor/schematrons/national-eforms-static.sch
 
-target/eforms-sdk-nor/schematrons/norway-eu.sch: target/saxon target/sch/eu
-	@echo "* Preparing Schematron: norway-eu.sch"
-	@java -jar target/saxon/saxon-he-12.2.jar \
+target/eforms-sdk-nor/schematrons/eu-norway.sch: target/saxon target/sch/eu/main.sch
+	@echo "* Preparing Schematron: eu-norway.sch"
+	@java -jar target/saxon/saxon.jar \
 		-s:target/sch/eu/main.sch \
 		-xsl:bin/xslt/sch-include.xslt \
-		-o:target/eforms-sdk-nor/schematrons/norway-eu.sch
+		-o:target/eforms-sdk-nor/schematrons/eu-norway.sch
 
-target/eforms-sdk-nor/schematrons/norway-national.sch: target/saxon target/sch/national
-	@echo "* Preparing Schematron: norway-national.sch"
-	@java -jar target/saxon/saxon-he-12.2.jar \
+target/eforms-sdk-nor/schematrons/national-norway.sch: target/saxon target/sch/national/main.sch
+	@echo "* Preparing Schematron: national-norway.sch"
+	@java -jar target/saxon/saxon.jar \
 		-s:target/sch/national/main.sch \
 		-xsl:bin/xslt/sch-include.xslt \
-		-o:target/eforms-sdk-nor/schematrons/norway-national.sch
+		-o:target/eforms-sdk-nor/schematrons/national-norway.sch
 
 target/eforms-sdk-nor/translations: \
 	target/eforms-sdk-nor/translations/business-term_en.xml \
@@ -195,25 +209,23 @@ target/saxon:
 	@rm target/saxon.zip
 
 
-target/sch: \
-	target/sch/eu \
-	target/sch/national
+target/sch: target/sch/eu/main.sch target/sch/national/main.sch
 
-target/sch/eu: \
-	target/sch/eu/main.sch
-	@touch target/sch/eu
-
-target/sch/eu/main.sch: src/template/main.sch
+target/sch/eu/main.sch: target/sch/eu/fields.sch src/template/main.sch
 	@mkdir -p target/sch/eu
 	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="eu" envsubst > target/sch/eu/main.sch
 
-target/sch/national: \
-	target/sch/national/main.sch
-	@touch target/sch/national
+target/sch/eu/fields.sch: target/eforms-sdk-nor/fields/eu.json
+	@mkdir -p target/sch/eu
+	@./bin/fields-sch -i target/eforms-sdk-nor/fields/eu.json -o target/sch/eu/fields.sch
 
-target/sch/national/main.sch: src/template/main.sch
+target/sch/national/main.sch: target/sch/national/fields.sch src/template/main.sch
 	@mkdir -p target/sch/national
 	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="national" envsubst > target/sch/national/main.sch
+
+target/sch/national/fields.sch: target/eforms-sdk-nor/fields/national.json
+	@mkdir -p target/sch/national
+	@./bin/fields-sch -i target/eforms-sdk-nor/fields/national.json -o target/sch/national/fields.sch
 
 target/schxslt:
 	@mkdir -p target
@@ -222,5 +234,55 @@ target/schxslt:
 	@rm target/schxslt.zip
 	@mv target/schxslt* target/schxslt
 
-sch-to-xslt:
-	@java -jar target/saxon/saxon.jar -s:$(src) -xsl:target/schxslt/2.0/pipeline-for-svrl.xsl -o:$(src).xslt
+target/buildconfig.xml: \
+	target/sch/eu-eforms-static.xslt \
+	target/sch/eu-norway.xslt \
+	target/sch/national-eforms-static.xslt \
+	target/sch/national-norway.xslt \
+	target/eforms-sdk/schemas/all.xsd \
+	src/template/buildconfig.xml
+	@mkdir -p target
+	@cat src/template/buildconfig.xml | EFORMS_MINOR="$(EFORMS_MINOR)" envsubst > target/buildconfig.xml
+
+target/sch/eu-eforms-static.xslt: target/schxslt target/eforms-sdk-nor/schematrons/eu-eforms-static.sch
+	@mkdir -p target/sch
+	@java -jar target/saxon/saxon.jar \
+		-xsl:target/schxslt/2.0/pipeline-for-svrl.xsl \
+		-s:target/eforms-sdk-nor/schematrons/eu-eforms-static.sch \
+		-o:target/sch/eu-eforms-static.xslt
+
+target/sch/national-eforms-static.xslt: target/schxslt target/eforms-sdk-nor/schematrons/national-eforms-static.sch
+	@mkdir -p target/sch
+	@java -jar target/saxon/saxon.jar \
+		-xsl:target/schxslt/2.0/pipeline-for-svrl.xsl \
+		-s:target/eforms-sdk-nor/schematrons/national-eforms-static.sch \
+		-o:target/sch/national-eforms-static.xslt
+	
+target/sch/eu-norway.xslt: target/schxslt target/eforms-sdk-nor/schematrons/eu-norway.sch
+	@mkdir -p target/sch
+	@java -jar target/saxon/saxon.jar \
+		-xsl:target/schxslt/2.0/pipeline-for-svrl.xsl \
+		-s:target/eforms-sdk-nor/schematrons/eu-norway.sch \
+		-o:target/sch/eu-norway.xslt
+
+target/sch/national-norway.xslt: target/schxslt target/eforms-sdk-nor/schematrons/national-norway.sch
+	@mkdir -p target/sch
+	@java -jar target/saxon/saxon.jar \
+		-xsl:target/schxslt/2.0/pipeline-for-svrl.xsl \
+		-s:target/eforms-sdk-nor/schematrons/national-norway.sch \
+		-o:target/sch/national-norway.xslt
+
+target/eforms-sdk/schemas/all.xsd: target/eforms-sdk src/template/all.xsd
+	@cp src/template/all.xsd target/eforms-sdk/schemas/all.xsd
+
+target/dev.anskaffelser.eforms.sdk-nor.asice: target/buildconfig.xml
+	@echo "* Build and test for validator"
+	@docker run --rm -i \
+		-v $$(pwd)/target:/src \
+		-u $$(id -u):$$(id -g) \
+		anskaffelser/validator:edge build \
+		 -x -t -n dev.anskaffelser.eforms.sdk-nor-$(EFORMS_MINOR) -b $(EFORMS_PATCH) -target validator-target /src || true
+	@mv target/validator-target/dev.anskaffelser.eforms.sdk-nor-$(EFORMS_MINOR)-0.asice target/dev.anskaffelser.eforms.sdk-nor.asice
+	@rm -rf target/validator-target
+
+validator: target/dev.anskaffelser.eforms.sdk-nor.asice

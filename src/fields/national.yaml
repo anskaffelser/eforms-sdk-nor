@@ -4,3 +4,22 @@ fields:
   OPT-002-notice:
     pattern:
       value: ^eforms-sdk-\d\.\d#extended#urn:fdc:anskaffelser.no:2023:eforms:national$
+
+rules:
+  # /*/cbc:CustomizationID
+  OPT-002-notice:
+    - id: EFORMS-NOR-R001
+      test: matches(normalize-space(.),'^eforms-sdk-\d\.\d#extended#urn:fdc:anskaffelser.no:2023:eforms:national$')
+      message: ...
+
+  # /*/cbc:NoticeLanguageCode
+  BT-702(a)-notice: [] 
+    # TODO Language validation
+
+  # /*/cac:AdditionalNoticeLanguage/cbc:ID
+  BT-702(b)-notice: [] 
+    # TODO Language validation
+
+  # /*
+  ND-Root: [] 
+    # TODO Assert any language is decleared only once
