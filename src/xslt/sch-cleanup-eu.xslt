@@ -23,6 +23,13 @@
     <!-- <xsl:template match="@diagnostics" /> -->
     <xsl:template match="sch:diagnostics" />
 
+    <!-- Remove schema types -->
+    <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''CEI''')]" priority="100"/>
+    <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''T01''')]" priority="100"/>
+    <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''T02''')]" priority="100"/>
+    <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''X01''')]" priority="100"/>
+    <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''X02''')]" priority="100"/>
+
 
     <!-- Things to fix -->
 
@@ -56,8 +63,12 @@
                     <xsl:attribute name="context" select="concat('/pin:PriorInformationNotice', $selector, substring($context, 3))"/>
                 </xsl:when>
                 <!-- ContractNotice -->
-                <xsl:when test="$document = ('16', '17', '18', '19', '20', '21')">
+                <xsl:when test="$document = ('16', '17', '18', '19', '20', '21', '22', '23', '24')">
                     <xsl:attribute name="context" select="concat('/cn:ContractNotice', $selector, substring($context, 3))"/>
+                </xsl:when>
+                <xsl:when test="$document = ('25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40')">
+                <!-- ContractAwardNotice -->
+                <xsl:attribute name="context" select="concat('/can:ContractAwardNotice', $selector, substring($context, 3))"/>
                 </xsl:when>
                 <!-- Fallback -->
                 <xsl:otherwise>

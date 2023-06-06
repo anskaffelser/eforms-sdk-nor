@@ -6,6 +6,8 @@
     <include path="eforms-sdk/schemas/common"/>
     <include path="eforms-sdk/schemas/maindoc"/>
 
+    <testfolder>tests</testfolder>
+
     <configuration>
         <identifier>eforms-${EFORMS_MINOR}-eu</identifier>
         <title>eForms ${EFORMS_MINOR} NOR (eu)</title>

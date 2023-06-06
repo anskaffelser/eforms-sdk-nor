@@ -16,7 +16,7 @@
 
     <title>Norwegian tailoring (${KIND}) for eForms ${EFORMS_VERSION}</title>
 
-    <let name="noticeSubType" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-text()"/>
+    <let name="noticeSubType" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space()"/>
 
     <include href="fields.sch"/>
 

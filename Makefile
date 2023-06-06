@@ -10,7 +10,7 @@ SAXON_MINOR ?= 2
 default: clean-light build
 
 clean-light:
-	@rm -rf target/eforms-sdk-nor target/sch target/*.asice target/buildconfig.xml target/eforms-sdk/schemas/all.xsd
+	@rm -rf target/eforms-sdk-nor target/sch target/*.asice target/buildconfig.xml target/eforms-sdk/schemas/all.xsd target/tests
 
 clean:
 	@rm -rf target .bundle/vendor
@@ -86,7 +86,7 @@ target/eforms-sdk-nor/fields: \
 	target/eforms-sdk-nor/fields/eu.json \
 	target/eforms-sdk-nor/fields/national.json
 
-target/eforms-sdk-nor/fields/eu.json: target/eforms-sdk bin/process-fields
+target/eforms-sdk-nor/fields/eu.json: target/eforms-sdk bin/process-fields src/fields/eu.yaml
 	@echo "* Create fields subset (eu)"
 	@mkdir -p target/eforms-sdk-nor/fields
 	@ruby bin/process-fields \
@@ -94,7 +94,7 @@ target/eforms-sdk-nor/fields/eu.json: target/eforms-sdk bin/process-fields
 		-c src/fields/eu.yaml \
 		-o target/eforms-sdk-nor/fields/eu.json
 
-target/eforms-sdk-nor/fields/national.json: target/eforms-sdk bin/process-fields
+target/eforms-sdk-nor/fields/national.json: target/eforms-sdk bin/process-fields src/fields/national.yaml
 	@echo "* Create fields subset (national)"
 	@mkdir -p target/eforms-sdk-nor/fields
 	@ruby bin/process-fields \
@@ -120,42 +120,50 @@ target/eforms-sdk-nor/schematrons: \
 	target/eforms-sdk-nor/schematrons/eu-norway.sch \
 	target/eforms-sdk-nor/schematrons/national-norway.sch
 
-target/eforms-sdk-nor/schematrons/eu-eforms-dynamic.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup-eu.xslt
+target/sch-eforms/eforms-dynamic.sch: target/eforms-sdk target/saxon src/xslt/sch-switch-message.xslt
+	@echo "* Preparing Schematron: eforms-dynamic.sch"
+	@mkdir -p target/sch-eforms
+	@java -jar target/saxon/saxon.jar -s:target/eforms-sdk/schematrons/dynamic/complete-validation.sch -xsl:src/xslt/sch-include.xslt \
+	| java -jar target/saxon/saxon.jar -s:- -xsl:src/xslt/sch-switch-message.xslt -o:target/sch-eforms/eforms-dynamic.sch
+
+target/sch-eforms/eforms-static.sch: target/eforms-sdk target/saxon src/xslt/sch-switch-message.xslt
+	@echo "* Preparing Schematron: eforms-static.sch"
+	@mkdir -p target/sch-eforms
+	@java -jar target/saxon/saxon.jar -s:target/eforms-sdk/schematrons/static/complete-validation.sch -xsl:src/xslt/sch-include.xslt \
+	| java -jar target/saxon/saxon.jar -s:- -xsl:src/xslt/sch-switch-message.xslt -o:target/sch-eforms/eforms-static.sch
+
+target/eforms-sdk-nor/schematrons/eu-eforms-dynamic.sch: target/sch-eforms/eforms-dynamic.sch src/xslt/sch-cleanup-eu.xslt
 	@echo "* Preparing Schematron: eu-eforms-dynamic.sch"
 	@mkdir -p target/eforms-sdk-nor/schematrons
-	@java -jar target/saxon/saxon.jar -s:target/eforms-sdk/schematrons/dynamic/complete-validation.sch -xsl:bin/xslt/sch-include.xslt \
-	| java -jar target/saxon/saxon.jar -s:- -xsl:src/xslt/sch-cleanup-eu.xslt -o:target/eforms-sdk-nor/schematrons/eu-eforms-dynamic.sch
+	@java -jar target/saxon/saxon.jar -s:target/sch-eforms/eforms-dynamic.sch -xsl:src/xslt/sch-cleanup-eu.xslt -o:target/eforms-sdk-nor/schematrons/eu-eforms-dynamic.sch
 
-target/eforms-sdk-nor/schematrons/eu-eforms-static.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup-eu.xslt
+target/eforms-sdk-nor/schematrons/eu-eforms-static.sch: target/sch-eforms/eforms-static.sch src/xslt/sch-cleanup-eu.xslt
 	@echo "* Preparing Schematron: eu-eforms-static.sch"
-	@mkdir -p target/eforms-sdk-nor/schematron
-	@java -jar target/saxon/saxon.jar -s:target/eforms-sdk/schematrons/static/complete-validation.sch -xsl:bin/xslt/sch-include.xslt \
-	| java -jar target/saxon/saxon.jar -s:- -xsl:src/xslt/sch-cleanup-eu.xslt -o:target/eforms-sdk-nor/schematrons/eu-eforms-static.sch
+	@mkdir -p target/eforms-sdk-nor/schematrons
+	@java -jar target/saxon/saxon.jar -s:target/sch-eforms/eforms-static.sch -xsl:src/xslt/sch-cleanup-eu.xslt -o:target/eforms-sdk-nor/schematrons/eu-eforms-static.sch
 
-target/eforms-sdk-nor/schematrons/national-eforms-dynamic.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup-national.xslt
+target/eforms-sdk-nor/schematrons/national-eforms-dynamic.sch: target/sch-eforms/eforms-dynamic.sch src/xslt/sch-cleanup-national.xslt
 	@echo "* Preparing Schematron: national-eforms-dynamic.sch"
 	@mkdir -p target/eforms-sdk-nor/schematrons
-	@java -jar target/saxon/saxon.jar -s:target/eforms-sdk/schematrons/dynamic/complete-validation.sch -xsl:bin/xslt/sch-include.xslt \
-	| java -jar target/saxon/saxon.jar -s:- -xsl:src/xslt/sch-cleanup-national.xslt -o:target/eforms-sdk-nor/schematrons/national-eforms-dynamic.sch
+	@java -jar target/saxon/saxon.jar -s:target/sch-eforms/eforms-dynamic.sch -xsl:src/xslt/sch-cleanup-national.xslt -o:target/eforms-sdk-nor/schematrons/national-eforms-dynamic.sch
 
-target/eforms-sdk-nor/schematrons/national-eforms-static.sch: target/eforms-sdk target/saxon src/xslt/sch-cleanup-national.xslt
+target/eforms-sdk-nor/schematrons/national-eforms-static.sch: target/sch-eforms/eforms-static.sch src/xslt/sch-cleanup-national.xslt
 	@echo "* Preparing Schematron: national-eforms-static.sch"
 	@mkdir -p target/eforms-sdk-nor/schematrons
-	@java -jar target/saxon/saxon.jar -s:target/eforms-sdk/schematrons/static/complete-validation.sch -xsl:bin/xslt/sch-include.xslt \
-	| java -jar target/saxon/saxon.jar -s:- -xsl:src/xslt/sch-cleanup-national.xslt -o:target/eforms-sdk-nor/schematrons/national-eforms-static.sch
+	@java -jar target/saxon/saxon.jar -s:target/sch-eforms/eforms-static.sch -xsl:src/xslt/sch-cleanup-national.xslt -o:target/eforms-sdk-nor/schematrons/national-eforms-static.sch
 
 target/eforms-sdk-nor/schematrons/eu-norway.sch: target/saxon target/sch/eu/main.sch
 	@echo "* Preparing Schematron: eu-norway.sch"
 	@java -jar target/saxon/saxon.jar \
 		-s:target/sch/eu/main.sch \
-		-xsl:bin/xslt/sch-include.xslt \
-		-o:target/eforms-sdk-nor/schematrons/eu-norway.sch
+		-xsl:src/xslt/sch-include.xslt \
+		-o:target/eforms-sdk-nor/schematrons/eu-norway.sch 
 
 target/eforms-sdk-nor/schematrons/national-norway.sch: target/saxon target/sch/national/main.sch
 	@echo "* Preparing Schematron: national-norway.sch"
 	@java -jar target/saxon/saxon.jar \
 		-s:target/sch/national/main.sch \
-		-xsl:bin/xslt/sch-include.xslt \
+		-xsl:src/xslt/sch-include.xslt \
 		-o:target/eforms-sdk-nor/schematrons/national-norway.sch
 
 target/eforms-sdk-nor/translations: \
@@ -215,7 +223,7 @@ target/sch/eu/main.sch: target/sch/eu/fields.sch src/template/main.sch
 	@mkdir -p target/sch/eu
 	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="eu" envsubst > target/sch/eu/main.sch
 
-target/sch/eu/fields.sch: target/eforms-sdk-nor/fields/eu.json
+target/sch/eu/fields.sch: target/eforms-sdk-nor/fields/eu.json bin/fields-sch
 	@mkdir -p target/sch/eu
 	@./bin/fields-sch -i target/eforms-sdk-nor/fields/eu.json -o target/sch/eu/fields.sch
 
@@ -223,7 +231,7 @@ target/sch/national/main.sch: target/sch/national/fields.sch src/template/main.s
 	@mkdir -p target/sch/national
 	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="national" envsubst > target/sch/national/main.sch
 
-target/sch/national/fields.sch: target/eforms-sdk-nor/fields/national.json
+target/sch/national/fields.sch: target/eforms-sdk-nor/fields/national.json bin/fields-sch
 	@mkdir -p target/sch/national
 	@./bin/fields-sch -i target/eforms-sdk-nor/fields/national.json -o target/sch/national/fields.sch
 
@@ -275,14 +283,16 @@ target/sch/national-norway.xslt: target/schxslt target/eforms-sdk-nor/schematron
 target/eforms-sdk/schemas/all.xsd: target/eforms-sdk src/template/all.xsd
 	@cp src/template/all.xsd target/eforms-sdk/schemas/all.xsd
 
-target/dev.anskaffelser.eforms.sdk-nor.asice: target/buildconfig.xml
+target/dev.anskaffelser.eforms.sdk-nor.asice: target/buildconfig.xml # $$(find src/tests -type f)
 	@echo "* Build and test for validator"
+	@rm -rf target/tests
+	@for f in $$(find src/tests -type f); do file=$$(echo $$f | cut -d'/' -f2-); mkdir -p target/$$(dirname $$file); cat $$f | EFORMS_MINOR="$(EFORMS_MINOR)" envsubst > target/$$file; done
 	@docker run --rm -i \
 		-v $$(pwd)/target:/src \
 		-u $$(id -u):$$(id -g) \
 		anskaffelser/validator:edge build \
 		 -x -t -n dev.anskaffelser.eforms.sdk-nor-$(EFORMS_MINOR) -b $(EFORMS_PATCH) -target validator-target /src || true
-	@mv target/validator-target/dev.anskaffelser.eforms.sdk-nor-$(EFORMS_MINOR)-0.asice target/dev.anskaffelser.eforms.sdk-nor.asice
+	@mv target/validator-target/dev.anskaffelser.eforms.sdk-nor-$(EFORMS_MINOR)-$(EFORMS_PATCH).asice target/dev.anskaffelser.eforms.sdk-nor.asice
 	@rm -rf target/validator-target
 
 validator: target/dev.anskaffelser.eforms.sdk-nor.asice
