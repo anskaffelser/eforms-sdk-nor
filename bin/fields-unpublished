@@ -1,0 +1,64 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'json'
+require 'slop'
+require 'nokogiri'
+
+opts = Slop.parse do |o|
+  o.string '-i', '--input-file', default: 'target/eforms-sdk/fields/fields.json'
+  o.string '-o', '--output-file', default: 'target/eforms-sdk-nor/xslt/filter-unpublished.xslt'
+end
+
+# Loading source
+source = JSON.parse File.read opts[:input_file]
+fields = source['fields'].to_h {|o| [o['id'], o]}
+
+NS = {
+  'xmlns:xsl' => 'http://www.w3.org/1999/XSL/Transform',
+  'version' => '2.0'
+}
+
+doc = Nokogiri::XML::Builder.new do |xml|
+  xml.comment ' Stylesheet used to remove fields not supposed to be published (yet) '
+  xml['xsl'].stylesheet (NS) do |xml|
+
+    # Copy functionality
+    xml.comment ' Copy source content '
+    xml.template(:match => '@* | node()') do |xml|
+      xml.copy do |xml|
+        xml.send 'apply-templates', :select => '@* | node()'
+      end
+    end
+
+    # Loop through fields to find those with privacy conserns
+    fields.each do |id,field|
+      if field.has_key? 'privacy'
+        xml.comment " #{id}: #{field['name']} "
+
+        parent = field['xpathAbsolute'][..0-field['xpathRelative'].length - 2]
+        ufid = fields[field['privacy']['unpublishedFieldId']]['xpathAbsolute']
+
+        if ufid.start_with?("#{parent}/efac:FieldsPrivacy") || ufid.start_with?("#{parent}/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy")
+          # Remove the field in question when a reason is provided (too simple!)
+          xml.comment " #{field['xpathRelative']} "
+          xml.template :match => "#{field['xpathAbsolute']}[#{ufid}]"
+          
+          # Remove reason code and description, preserve indication of privacy and potential publication date
+          xml.template :match => fields[field['privacy']['reasonCodeFieldId']]['xpathAbsolute']
+          xml.template :match => fields[field['privacy']['reasonDescriptionFieldId']]['xpathAbsolute']
+        else
+
+          puts "#{id}: #{field['name']}"
+          puts field['xpathAbsolute'][..0-field['xpathRelative'].length - 2] + " -> " + field['xpathRelative']
+          puts fields[field['privacy']['unpublishedFieldId']]['xpathAbsolute']
+          puts
+  
+        end
+      end
+    end
+
+  end
+end
+
+File.write opts[:output_file], doc.to_xml
