@@ -4,6 +4,7 @@ require 'bundler/setup'
 require 'json'
 require 'slop'
 require 'yaml'
+require 'deep_merge'
 
 opts = Slop.parse do |o|
   o.string '-c', '--config-file', default: 'src/fields/eu.yaml'
@@ -40,10 +41,14 @@ end
 
 # Updating fields
 config.fetch('fields', {}).each do |id, field|
-  # Handle updated pattern
-  if field.has_key? 'pattern'
-    fields[id]['pattern']['value'] = field['pattern']['value']
+  if !fields.has_key? id
+    fields[id] = {
+      'id' => id,
+    }
+    all[id] = fields[id]
+    source['fields'].append(fields[id])
   end
+  fields[id].deep_merge!(field)
 end
 
 # Include rules
@@ -59,15 +64,17 @@ config.fetch('rules', {}).each do |field, rules|
 end
 
 # Rules: Make sure both Norwegian and English is provided
-counter = 0
-fields.each do |i, field|
-  if field['type'] == "text-multilingual"
-    field['schematron'] = field.fetch('schematron', []).append({
-      'id' => "EFORMS-NOR-T%03d" % counter += 1,
-      'context' => "#{field['xpathAbsolute'][..0-field['xpathRelative'].length-2]}",
-      'test' => "not(#{field['xpathRelative']}) or (#{field['xpathRelative']}[@lang = 'ENG'] and #{field['xpathRelative']}[@lang = ('NOR', 'NNO', 'NOB')])",
-      'message' => 'Multilingual fields must be available in minimum Norwegian and English when used.',
-    })
+if config.has_key? 'languages'
+  counter = 0
+  fields.each do |i, field|
+    if field['type'] == 'text-multilingual'
+      field['schematron'] = field.fetch('schematron', []).append({
+        'id' => "EFORMS-NOR-T%03d" % counter += 1,
+        'context' => "#{field['xpathAbsolute'][..0-field['xpathRelative'].length-2]}",
+        'test' => "not(#{field['xpathRelative']}) or (#{field['xpathRelative']}[@languageID = ('ENG')] and #{field['xpathRelative']}[@languageID = ('NOR', 'NNO', 'NOB')])",
+        'message' => config['languages']['message'],
+      })
+    end
   end
 end
 

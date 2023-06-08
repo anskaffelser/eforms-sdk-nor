@@ -4,10 +4,44 @@ fields:
   OPT-002-notice:
     pattern:
       value: ^eforms-sdk-\d\.\d#extended#urn:fdc:anskaffelser.no:2023:eforms:eu$
+  
+  NOR-OPT-001-notice:
+    parentNodeId: ND-Root
+    name: Unofficial language
+    btId: NOR-OPT-001
+    xpathAbsolute: /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID
+    xpathRelative: cac:Language/cbc:ID
+    type: code
+    presetValue: NOR
+    repeatable: true
+    mandatory:
+      value: false
+      severity: ERROR
+      constraints:
+        noticeTypes: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40"]
+        value: true
+        severity: ERROR
+    codeList:
+      value:
+        id: CODELIST-ID
+        type: flat
+      severity: ERROR
 
 rules:
   # /*/cbc:CustomizationID
   OPT-002-notice:
     - id: EFORMS-NOR-R001
       test: matches(normalize-space(.),'^eforms-sdk-\d\.\d#extended#urn:fdc:anskaffelser.no:2023:eforms:eu$')
-      message: ...
+      message: Customization identifier must match the Norwegian accepted identifier
+
+  # /*
+  ND-Root:
+    - id: EFORMS-NOR-R006
+      test: /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID
+      message: Minimum one Norwegian language must be provided as unofficial language
+  
+  # /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID
+  NOR-OPT-001-notice:
+    - id: EFORMS-NOR-R005
+      test: normalize-space() = ('NOR', 'NOB', 'NNO')
+      message: Only Norwegian languages are allowed as unofficial languages

@@ -55,6 +55,7 @@ target/eforms-sdk/README.md:
 	@unzip -qo target/eforms-sdk.zip -d target
 	@mv target/eForms-SDK-$(EFORMS_VERSION) target/eforms-sdk
 	@rm -rf target/eforms-sdk.zip
+	@test ! -d src/patch/$(EFORMS_MINOR) || patch --directory=target/eforms-sdk -p1 < $$(ls src/patch/$(EFORMS_MINOR)/*.patch)
 
 .bundle/vendor:
 	@echo "* Install dependencies"

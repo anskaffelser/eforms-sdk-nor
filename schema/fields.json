@@ -14,7 +14,7 @@
                 }
             }
         },
-        "rules":{
+        "rules": {
             "type": "object",
             "patternProperties": {
                 ".+": {
@@ -29,13 +29,9 @@
     "definitions": {
         "field": {
             "type": "object",
-            "additionalProperties": false,
             "properties": {
                 "pattern": {
                     "type": "object",
-                    "required": [
-                        "value"
-                    ],
                     "properties": {
                         "value": {
                             "type": "string"

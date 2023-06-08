@@ -1,0 +1,55 @@
+diff --git a/schemas/common/EFORMS-ExtensionAggregateComponents-2.3.xsd b/schemas/common/EFORMS-ExtensionAggregateComponents-2.3.xsd
+index e13e75e0..a3460b77 100644
+--- a/schemas/common/EFORMS-ExtensionAggregateComponents-2.3.xsd
++++ b/schemas/common/EFORMS-ExtensionAggregateComponents-2.3.xsd
+@@ -52,9 +52,11 @@
+ 	<xsd:element name="LotTender" type="LotTenderType"/>
+ 	<xsd:element name="MainContractor" type="MainContractorType"/>
+ 	<xsd:element name="Nationality" type="NationalityType"/>
++	<xsd:element name="NonOfficialLanguages" type="NonOfficialLanguagesType"/>
+ 	<xsd:element name="NoticePurpose" type="NoticePurposeType"/>
+ 	<xsd:element name="NoticeResult" type="NoticeResultType"/>
+ 	<xsd:element name="NoticeSubType" type="NoticeSubTypeType"/>
++	<xsd:element name="OfficialLanguages" type="OfficialLanguagesType"/>
+ 	<xsd:element name="Organization" type="OrganizationType"/>
+ 	<xsd:element name="Organizations" type="OrganizationsType"/>
+ 	<xsd:element name="Origin" type="OriginType"/>
+@@ -359,6 +361,11 @@
+ 			<xsd:element ref="cbc:NationalityID" minOccurs="1" maxOccurs="1"/>
+ 		</xsd:sequence>
+ 	</xsd:complexType>
++	<xsd:complexType name="NonOfficialLanguagesType">
++		<xsd:sequence>
++			<xsd:element ref="cac:Language" minOccurs="0" maxOccurs="unbounded"/>
++		</xsd:sequence>
++	</xsd:complexType>
+ 	<xsd:complexType name="NoticeSubTypeType">
+ 		<xsd:sequence>
+ 			<xsd:element ref="cbc:SubTypeCode" minOccurs="0" maxOccurs="1"/>
+@@ -384,6 +391,11 @@
+ 			<xsd:element ref="efac:TenderingParty" minOccurs="0" maxOccurs="unbounded"/>
+ 		</xsd:sequence>
+ 	</xsd:complexType>
++	<xsd:complexType name="OfficialLanguagesType">
++		<xsd:sequence>
++			<xsd:element ref="cac:Language" minOccurs="0" maxOccurs="unbounded"/>
++		</xsd:sequence>
++	</xsd:complexType>
+ 	<xsd:complexType name="OrganizationType">
+ 		<xsd:sequence>
+ 			<xsd:element ref="efbc:GroupLeadIndicator" minOccurs="0" maxOccurs="1"/>
+diff --git a/schemas/common/EFORMS-ExtensionApex-2.3.xsd b/schemas/common/EFORMS-ExtensionApex-2.3.xsd
+index 805dc165..bdfffa7d 100644
+--- a/schemas/common/EFORMS-ExtensionApex-2.3.xsd
++++ b/schemas/common/EFORMS-ExtensionApex-2.3.xsd
+@@ -42,8 +42,10 @@
+ 				<xsd:element ref="efac:FieldsPrivacy" minOccurs="0" maxOccurs="unbounded"/>
+ 				<xsd:element ref="efac:Funding" minOccurs="0" maxOccurs="unbounded"/>
+ 				<xsd:element ref="efac:InterestExpressionReceptionPeriod" minOccurs="0" maxOccurs="1"/>
++				<xsd:element ref="efac:NonOfficialLanguages" minOccurs="0" maxOccurs="1"/>
+ 				<xsd:element ref="efac:NoticeResult" minOccurs="0" maxOccurs="1"/>
+ 				<xsd:element ref="efac:NoticeSubType" minOccurs="0" maxOccurs="1"/>
++				<xsd:element ref="efac:OfficialLanguages" minOccurs="0" maxOccurs="1"/>
+ 				<xsd:element ref="efac:Organizations" minOccurs="0" maxOccurs="1"/>
+ 				<xsd:element ref="efac:Publication" minOccurs="0" maxOccurs="1"/>
+ 				<xsd:element ref="efac:SelectionCriteria" minOccurs="0" maxOccurs="unbounded"/>
