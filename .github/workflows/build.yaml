@@ -126,6 +126,6 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          file: target/dev.anskaffelser.eforms.sdk-nor.asice
+          file: target/dev.anskaffelser.eforms.sdk-${{ matrix.EFORMS_MINOR }}-nor-${{ env.PROJECT_VERSION }}.asice
           name: dev.anskaffelser.eforms.sdk-${{ matrix.EFORMS_MINOR }}-nor-${{ env.PROJECT_VERSION }}.asice.zip
           label: Validaton for eForms SDK ${{ matrix.EFORMS_MINOR }} NOR
