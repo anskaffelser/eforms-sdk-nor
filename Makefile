@@ -3,6 +3,7 @@ EFORMS_PATCH ?= $$(./bin/property -p sdk_patch)
 EFORMS_VERSION = $(EFORMS_MINOR).$(EFORMS_PATCH)
 
 VERSION := $(shell echo -n $${PROJECT_VERSION:-dev-$$(date -u +%Y%m%d-%H%M%Sz)})
+PROJECT_VERSION := dev
 
 SAXON_MAJOR ?= 12
 SAXON_MINOR ?= 2
@@ -292,8 +293,8 @@ target/dev.anskaffelser.eforms.sdk-nor.asice: target/buildconfig.xml # $$(find s
 		-v $$(pwd)/target:/src \
 		-u $$(id -u):$$(id -g) \
 		anskaffelser/validator:edge build \
-		 -x -t -n dev.anskaffelser.eforms.sdk-nor-$(EFORMS_MINOR) -b $(EFORMS_PATCH) -target validator-target /src || true
-	@mv target/validator-target/dev.anskaffelser.eforms.sdk-nor-$(EFORMS_MINOR)-$(EFORMS_PATCH).asice target/dev.anskaffelser.eforms.sdk-nor.asice
+		 -x -t -n dev.anskaffelser.eforms.sdk-$(EFORMS_MINOR)-nor -b $(PROJECT_VERSION) -target validator-target /src || true
+	@mv target/validator-target/dev.anskaffelser.eforms.sdk-$(EFORMS_MINOR)-nor-$(PROJECT_VERSION).asice target/dev.anskaffelser.eforms.sdk-nor.asice
 	@rm -rf target/validator-target
 
 validator: target/dev.anskaffelser.eforms.sdk-nor.asice
