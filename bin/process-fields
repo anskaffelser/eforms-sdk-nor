@@ -64,17 +64,19 @@ config.fetch('rules', {}).each do |field, rules|
 end
 
 # Rules: Make sure both Norwegian and English is provided
-if config.has_key? 'languages'
-  counter = 0
-  fields.each do |i, field|
-    if field['type'] == 'text-multilingual'
-      field['schematron'] = field.fetch('schematron', []).append({
-        'id' => "EFORMS-NOR-T%03d" % counter += 1,
-        'context' => "#{field['xpathAbsolute'][..0-field['xpathRelative'].length-2]}",
-        'test' => "not(#{field['xpathRelative']}) or (#{field['xpathRelative']}[@languageID = ('ENG')] and #{field['xpathRelative']}[@languageID = ('NOR', 'NNO', 'NOB')])",
-        'message' => config['languages']['message'],
-      })
-    end
+fields.each do |i, field|
+  if field['type'] == 'text-multilingual'
+    field['schematron'] = field.fetch('schematron', []).append({
+      'id' => "EFORMS-NOR-#{field['id'].gsub(/[\(\)]/, '_')}_B",
+      'context' => "#{field['xpathAbsolute'][..0-field['xpathRelative'].length-2]}",
+      'test' => "not(#{field['xpathRelative']}) or (every $lg in (/*/cbc:NoticeLanguageCode/normalize-space(), /*/cac:AdditionalNoticeLanguage/cbc:ID/normalize-space(), /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID/normalize-space()) satisfies #{field['xpathRelative']}/@languageID = $lg)",
+      'message' => "#{field['id']} must be present in all official languages of the notice",
+    }).append({
+      'id' => "EFORMS-NOR-#{field['id'].gsub(/[\(\)]/, '_')}_C",
+      'context' => "#{field['xpathAbsolute'][..0-field['xpathRelative'].length-2]}",
+      'test' => "not(#{field['xpathRelative']}) or (every $lg in (#{field['xpathRelative']}/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode/normalize-space(), /*/cac:AdditionalNoticeLanguage/cbc:ID/normalize-space(), /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID/normalize-space()))",
+      'message' => "#{field['id']} can only be in the official languages of the notice",
+    })
   end
 end
 

@@ -19,7 +19,7 @@ source = JSON.parse File.read opts[:input_file]
 [source['xmlStructure'], source['fields']].each do |kind|
   kind.each do |block|
     block.fetch('schematron', []).each do |rule|
-      rules[rule['context']] = rules.fetch(rule['context'], []).append rule
+      rules[rule['context']] = rules.fetch(rule['context'], []).append({**rule, 'diagnostics' => block['id']})
     end
   end
 end
@@ -30,7 +30,7 @@ doc = Nokogiri::XML::Builder.new do |xml|
     rules.keys.sort.each do |context|
       xml.rule(:context => context) do |xml|
         rules[context].each do |rule|
-          xml.assert rule['message'], :id => rule['id'], :test => rule['test']
+          xml.assert rule['message'], :id => rule['id'], :diagnostics => rule['diagnostics'], :test => rule['test']
         end
       end
     end
