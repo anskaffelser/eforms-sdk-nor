@@ -23,7 +23,7 @@
 
     <!-- Remove diagnostics -->
     <!-- <xsl:template match="@diagnostics" /> -->
-    <xsl:template match="sch:diagnostics" />
+    <!-- <xsl:template match="sch:diagnostics" /> -->
 
     <!-- Remove schema types -->
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''1''')]" priority="100"/>

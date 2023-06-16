@@ -2,7 +2,7 @@ EFORMS_MINOR ?= $$(./bin/property -p sdk_minor)
 EFORMS_PATCH ?= $$(./bin/property -p sdk_patch)
 EFORMS_VERSION = $(EFORMS_MINOR).$(EFORMS_PATCH)
 
-VERSION := $(shell echo -n $${PROJECT_VERSION:-dev-$$(date -u +%Y%m%d-%H%M%Sz)})
+VERSION := $(shell echo $${PROJECT_VERSION:-dev-$$(date -u +%Y%m%d-%H%M%Sz)})
 
 SAXON_MAJOR ?= 12
 SAXON_MINOR ?= 2
@@ -243,6 +243,11 @@ target/schxslt:
 	@rm target/schxslt.zip
 	@mv target/schxslt* target/schxslt
 
+target/iso-schematron:
+	@mkdir -p target
+	@wget -q https://github.com/Schematron/schematron/releases/download/2020-10-01/iso-schematron-xslt2.zip -O target/iso-schematron.zip
+	@unzip -qo target/iso-schematron.zip -d target/iso-schematron
+
 target/buildconfig.xml: \
 	target/sch/eu-eforms-static.xslt \
 	target/sch/eu-norway.xslt \
@@ -253,31 +258,31 @@ target/buildconfig.xml: \
 	@mkdir -p target
 	@cat src/template/buildconfig.xml | EFORMS_MINOR="$(EFORMS_MINOR)" envsubst > target/buildconfig.xml
 
-target/sch/eu-eforms-static.xslt: target/schxslt target/eforms-sdk-nor/schematrons/eu-eforms-static.sch
+target/sch/eu-eforms-static.xslt: target/iso-schematron target/eforms-sdk-nor/schematrons/eu-eforms-static.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \
-		-xsl:target/schxslt/2.0/pipeline-for-svrl.xsl \
+		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
 		-s:target/eforms-sdk-nor/schematrons/eu-eforms-static.sch \
 		-o:target/sch/eu-eforms-static.xslt
 
-target/sch/national-eforms-static.xslt: target/schxslt target/eforms-sdk-nor/schematrons/national-eforms-static.sch
+target/sch/national-eforms-static.xslt: target/iso-schematron target/eforms-sdk-nor/schematrons/national-eforms-static.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \
-		-xsl:target/schxslt/2.0/pipeline-for-svrl.xsl \
+		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
 		-s:target/eforms-sdk-nor/schematrons/national-eforms-static.sch \
 		-o:target/sch/national-eforms-static.xslt
 	
-target/sch/eu-norway.xslt: target/schxslt target/eforms-sdk-nor/schematrons/eu-norway.sch
+target/sch/eu-norway.xslt: target/iso-schematron target/eforms-sdk-nor/schematrons/eu-norway.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \
-		-xsl:target/schxslt/2.0/pipeline-for-svrl.xsl \
+		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
 		-s:target/eforms-sdk-nor/schematrons/eu-norway.sch \
 		-o:target/sch/eu-norway.xslt
 
-target/sch/national-norway.xslt: target/schxslt target/eforms-sdk-nor/schematrons/national-norway.sch
+target/sch/national-norway.xslt: target/iso-schematron target/eforms-sdk-nor/schematrons/national-norway.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \
-		-xsl:target/schxslt/2.0/pipeline-for-svrl.xsl \
+		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
 		-s:target/eforms-sdk-nor/schematrons/national-norway.sch \
 		-o:target/sch/national-norway.xslt
 
@@ -293,7 +298,6 @@ target/dev.anskaffelser.eforms.sdk-nor.asice: target/buildconfig.xml # $$(find s
 		-u $$(id -u):$$(id -g) \
 		anskaffelser/validator:edge build \
 		 -x -t -n dev.anskaffelser.eforms.sdk-$(EFORMS_MINOR)-nor -b $(VERSION) -target validator-target /src || true
-#	@mv target/validator-target/dev.anskaffelser.eforms.sdk-$(EFORMS_MINOR)-nor-$(PROJECT_VERSION).asice target/dev.anskaffelser.eforms.sdk-nor.asice
 	@mv target/validator-target/dev.anskaffelser.eforms.sdk-$(EFORMS_MINOR)-nor-$(VERSION).asice target/
 	@rm -rf target/validator-target
 
