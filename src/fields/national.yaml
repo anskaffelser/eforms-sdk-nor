@@ -30,4 +30,6 @@ rules:
       test: normalize-space(cbc:NoticeLanguageCode) = ('NOR', 'NOB', 'NNO') or (some $l in cac:AdditionalNoticeLanguage/cbc:ID satisfies normalize-space($l) = ('NOR', 'NOB', 'NNO')) # then true() else false())
       message: At least one of the official lingustic versions must be in Norwegian.
 
-    # TODO Assert any language is decleared only once
+    - id: EFORMS-NOR-R007
+      test: not(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages)
+      message: Non-official languages are not used for national notices.

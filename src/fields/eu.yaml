@@ -13,7 +13,9 @@ fields:
     xpathRelative: cac:Language/cbc:ID
     type: code
     presetValue: NOR
-    repeatable: true
+    repeatable:
+      value: true
+      severity: ERROR
     mandatory:
       value: false
       severity: ERROR
