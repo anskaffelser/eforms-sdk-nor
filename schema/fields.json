@@ -29,12 +29,120 @@
     "definitions": {
         "field": {
             "type": "object",
+            "additionalProperties": false,
             "properties": {
                 "pattern": {
                     "type": "object",
+                    "additionalProperties": false,
                     "properties": {
                         "value": {
                             "type": "string"
+                        }
+                    }
+                },
+                "parentNodeId": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "value": {
+                    "type": "string"
+                },
+                "btId": {
+                    "type": "string"
+                },
+                "xpathAbsolute": {
+                    "type": "string"
+                },
+                "xpathRelative": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "presetValue": {
+                    "type": "string"
+                },
+                "repeatable": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                        "value",
+                        "severity"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": "boolean"
+                        },
+                        "severity": {
+                            "type": "string",
+                            "enum": [
+                                "ERROR"
+                            ]
+                        }
+                    }
+                },
+                "mandatory": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "value": {
+                            "type": "boolean"
+                        },
+                        "severity": {
+                            "type": "string",
+                            "enum": [
+                                "ERROR"
+                            ]
+                        },
+                        "constraints": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "noticeTypes": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "value": {
+                                        "type": "boolean"
+                                    },
+                                    "severity": {
+                                        "type": "string",
+                                        "enum": [
+                                            "ERROR"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "codeList": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "value": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "id": {
+                                    "type": "string"
+                                },
+                                "type": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "severity": {
+                            "type": "string",
+                            "enum": [
+                                "ERROR"
+                            ]
                         }
                     }
                 }
