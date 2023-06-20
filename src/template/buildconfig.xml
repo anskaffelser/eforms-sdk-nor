@@ -3,32 +3,115 @@
 
     <package>eForms ${EFORMS_MINOR} NOR</package>
 
-    <include path="eforms-sdk/schemas/common"/>
-    <include path="eforms-sdk/schemas/maindoc"/>
-
     <testfolder>tests</testfolder>
 
+    <!-- Adjusted EU notices -->
+
     <configuration>
-        <identifier>eforms-${EFORMS_MINOR}-eu</identifier>
+        <identifier>eforms-${EFORMS_MINOR}-eu-can</identifier>
         <title>eForms ${EFORMS_MINOR} NOR (eu)</title>
-        <declaration type="xml.ubl">eforms-sdk-${EFORMS_MINOR}#extended#urn:fdc:anskaffelser.no:2023:eforms:eu</declaration>
-        <inherit>eforms-${EFORMS_MINOR}-xsd</inherit>
-        <file type="sch.xslt" path="sch/eu-eforms-static.xslt" />
+        <declaration type="xml.ubl">ContractAwardNotice::eforms-sdk-${EFORMS_MINOR}#extended#urn:fdc:anskaffelser.no:2023:eforms:eu</declaration>
+        <inherit>eforms-${EFORMS_MINOR}-xsd-can</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-eu-eforms-static-can</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-eu-norway</inherit>
+    </configuration>
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-eu-cn</identifier>
+        <title>eForms ${EFORMS_MINOR} NOR (eu)</title>
+        <declaration type="xml.ubl">ContractNotice::eforms-sdk-${EFORMS_MINOR}#extended#urn:fdc:anskaffelser.no:2023:eforms:eu</declaration>
+        <inherit>eforms-${EFORMS_MINOR}-xsd-cn</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-eu-eforms-static-cn</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-eu-norway</inherit>
+    </configuration>
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-eu-pin</identifier>
+        <title>eForms ${EFORMS_MINOR} NOR (eu)</title>
+        <declaration type="xml.ubl">PriorInformationNotice::eforms-sdk-${EFORMS_MINOR}#extended#urn:fdc:anskaffelser.no:2023:eforms:eu</declaration>
+        <inherit>eforms-${EFORMS_MINOR}-xsd-pin</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-eu-eforms-static-pin</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-eu-norway</inherit>
+    </configuration>
+
+    <!-- National notices -->
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-national-can</identifier>
+        <title>eForms ${EFORMS_MINOR} NOR (national)</title>
+        <declaration type="xml.ubl">ContractAwardNotice::eforms-sdk-${EFORMS_MINOR}#extended#urn:fdc:anskaffelser.no:2023:eforms:national</declaration>
+        <inherit>eforms-${EFORMS_MINOR}-xsd-can</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-national-eforms-static</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-national-norway</inherit>
+    </configuration>
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-national-cn</identifier>
+        <title>eForms ${EFORMS_MINOR} NOR (national)</title>
+        <declaration type="xml.ubl">ContractNotice::eforms-sdk-${EFORMS_MINOR}#extended#urn:fdc:anskaffelser.no:2023:eforms:national</declaration>
+        <inherit>eforms-${EFORMS_MINOR}-xsd-cn</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-national-eforms-static</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-national-norway</inherit>
+    </configuration>
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-national-pin</identifier>
+        <title>eForms ${EFORMS_MINOR} NOR (national)</title>
+        <declaration type="xml.ubl">PriorInformationNotice::eforms-sdk-${EFORMS_MINOR}#extended#urn:fdc:anskaffelser.no:2023:eforms:national</declaration>
+        <inherit>eforms-${EFORMS_MINOR}-xsd-pin</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-national-eforms-static</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-national-norway</inherit>
+    </configuration>
+
+    <!-- XSD -->
+
+    <include path="eforms-sdk/schemas/common"/>
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-xsd-can</identifier>
+        <file path="eforms-sdk/schemas/maindoc/UBL-ContractAwardNotice-2.3.xsd"/>
+    </configuration>
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-xsd-cn</identifier>
+        <file path="eforms-sdk/schemas/maindoc/UBL-ContractNotice-2.3.xsd"/>
+    </configuration>
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-xsd-pin</identifier>
+        <file path="eforms-sdk/schemas/maindoc/UBL-PriorInformationNotice-2.3.xsd"/>
+    </configuration>
+
+    <!-- Schematron -->
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-sch-eu-eforms-static-can</identifier>
+        <file type="sch.xslt" path="sch/eu-eforms-static-can.xslt" />
+    </configuration>
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-sch-eu-eforms-static-cn</identifier>
+        <file type="sch.xslt" path="sch/eu-eforms-static-cn.xslt" />
+    </configuration>
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-sch-eu-eforms-static-pin</identifier>
+        <file type="sch.xslt" path="sch/eu-eforms-static-pin.xslt" />
+    </configuration>
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-sch-eu-norway</identifier>
         <file type="sch.xslt" path="sch/eu-norway.xslt" />
     </configuration>
 
     <configuration>
-        <identifier>eforms-${EFORMS_MINOR}-national</identifier>
-        <title>eForms ${EFORMS_MINOR} NOR (national)</title>
-        <declaration type="xml.ubl">eforms-sdk-${EFORMS_MINOR}#extended#urn:fdc:anskaffelser.no:2023:eforms:national</declaration>
-        <inherit>eforms-${EFORMS_MINOR}-xsd</inherit>
+        <identifier>eforms-${EFORMS_MINOR}-sch-national-eforms-static</identifier>
         <file type="sch.xslt" path="sch/national-eforms-static.xslt" />
-        <file type="sch.xslt" path="sch/national-norway.xslt" />
     </configuration>
 
     <configuration>
-        <identifier>eforms-${EFORMS_MINOR}-xsd</identifier>
-        <file path="eforms-sdk/schemas/all.xsd"/>
+        <identifier>eforms-${EFORMS_MINOR}-sch-national-norway</identifier>
+        <file type="sch.xslt" path="sch/national-norway.xslt" />
     </configuration>
 
 </buildConfigurations>

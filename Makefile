@@ -249,21 +249,62 @@ target/iso-schematron:
 	@unzip -qo target/iso-schematron.zip -d target/iso-schematron
 
 target/buildconfig.xml: \
-	target/sch/eu-eforms-static.xslt \
+	target/sch/eu-eforms-static-can.xslt \
+	target/sch/eu-eforms-static-cn.xslt \
+	target/sch/eu-eforms-static-pin.xslt \
 	target/sch/eu-norway.xslt \
 	target/sch/national-eforms-static.xslt \
 	target/sch/national-norway.xslt \
-	target/eforms-sdk/schemas/all.xsd \
 	src/template/buildconfig.xml
 	@mkdir -p target
 	@cat src/template/buildconfig.xml | EFORMS_MINOR="$(EFORMS_MINOR)" envsubst > target/buildconfig.xml
 
-target/sch/eu-eforms-static.xslt: target/iso-schematron target/eforms-sdk-nor/schematrons/eu-eforms-static.sch
+
+target/sch/eu-eforms-static-can.sch: src/xslt/sch-splitter.xslt target/eforms-sdk-nor/schematrons/eu-eforms-static.sch
+	@mkdir -p target/sch
+	@java -jar target/saxon/saxon.jar \
+		-xsl:src/xslt/sch-splitter.xslt \
+		-s:target/eforms-sdk-nor/schematrons/eu-eforms-static.sch \
+		-o:target/sch/eu-eforms-static-can.sch \
+		target=can
+
+target/sch/eu-eforms-static-cn.sch: src/xslt/sch-splitter.xslt target/eforms-sdk-nor/schematrons/eu-eforms-static.sch
+	@mkdir -p target/sch
+	@java -jar target/saxon/saxon.jar \
+		-xsl:src/xslt/sch-splitter.xslt \
+		-s:target/eforms-sdk-nor/schematrons/eu-eforms-static.sch \
+		-o:target/sch/eu-eforms-static-cn.sch \
+		target=cn
+
+target/sch/eu-eforms-static-pin.sch: src/xslt/sch-splitter.xslt target/eforms-sdk-nor/schematrons/eu-eforms-static.sch
+	@mkdir -p target/sch
+	@java -jar target/saxon/saxon.jar \
+		-xsl:src/xslt/sch-splitter.xslt \
+		-s:target/eforms-sdk-nor/schematrons/eu-eforms-static.sch \
+		-o:target/sch/eu-eforms-static-pin.sch \
+		target=pin
+
+
+target/sch/eu-eforms-static-can.xslt: target/iso-schematron target/sch/eu-eforms-static-can.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \
 		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
-		-s:target/eforms-sdk-nor/schematrons/eu-eforms-static.sch \
-		-o:target/sch/eu-eforms-static.xslt
+		-s:target/sch/eu-eforms-static-can.sch \
+		-o:target/sch/eu-eforms-static-can.xslt
+
+target/sch/eu-eforms-static-cn.xslt: target/iso-schematron target/sch/eu-eforms-static-cn.sch
+	@mkdir -p target/sch
+	@java -jar target/saxon/saxon.jar \
+		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-s:target/sch/eu-eforms-static-cn.sch \
+		-o:target/sch/eu-eforms-static-cn.xslt
+
+target/sch/eu-eforms-static-pin.xslt: target/iso-schematron target/sch/eu-eforms-static-pin.sch
+	@mkdir -p target/sch
+	@java -jar target/saxon/saxon.jar \
+		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-s:target/sch/eu-eforms-static-pin.sch \
+		-o:target/sch/eu-eforms-static-pin.xslt
 
 target/sch/national-eforms-static.xslt: target/iso-schematron target/eforms-sdk-nor/schematrons/national-eforms-static.sch
 	@mkdir -p target/sch
@@ -285,9 +326,6 @@ target/sch/national-norway.xslt: target/iso-schematron target/eforms-sdk-nor/sch
 		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
 		-s:target/eforms-sdk-nor/schematrons/national-norway.sch \
 		-o:target/sch/national-norway.xslt
-
-target/eforms-sdk/schemas/all.xsd: target/eforms-sdk src/template/all.xsd
-	@cp src/template/all.xsd target/eforms-sdk/schemas/all.xsd
 
 target/dev.anskaffelser.eforms.sdk-nor.asice: target/buildconfig.xml # $$(find src/tests -type f)
 	@echo "* Build and test for validator"
