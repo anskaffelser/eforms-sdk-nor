@@ -17,7 +17,7 @@
         <xsl:attribute name="role" select="current()"/>
         
         <xsl:choose>
-            <xsl:when test="normalize-space() = 'WARN'">
+            <xsl:when test="normalize-space() = ('WARN', 'WARNING')">
                 <xsl:attribute name="flag" select="'warning'"/>
             </xsl:when>
             <xsl:otherwise>

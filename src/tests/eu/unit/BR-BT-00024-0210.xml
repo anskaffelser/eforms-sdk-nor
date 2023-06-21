@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSet xmlns="http://difi.no/xsd/vefa/validator/1.0" configuration="eforms-${EFORMS_MINOR}-eu-cn">
+	<assert>
+		<scope>BR-BT-00024-0210</scope>
+	</assert>
+	<test>
+		<assert>
+            <description>Without sale</description>
+			<success>BR-BT-00024-0210</success>
+		</assert>
+		<ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"
+            xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+			xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+			
+            <cac:ProcurementProject>
+				<cbc:Description languageID="ENG">Some text here</cbc:Description>
+			</cac:ProcurementProject>
+			
+		</ContractNotice>
+	</test>
+	<test>
+		<assert>
+            <description>With sale</description>
+			<warning>BR-BT-00024-0210</warning>
+		</assert>
+		<ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"
+            xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+			xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+			
+            <cac:ProcurementProject>
+				<cbc:Description languageID="ENG">Some sale text here</cbc:Description>
+			</cac:ProcurementProject>
+			
+		</ContractNotice>
+	</test>
+</testSet>
