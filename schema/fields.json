@@ -176,6 +176,11 @@
                 },
                 "message": {
                     "type": "string"
+                },
+                "role": {
+                    "type": "string",
+                    "enum": ["ERROR", "WARN"],
+                    "default": "ERROR"
                 }
             }
         }

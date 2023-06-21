@@ -285,51 +285,69 @@ target/sch/eu-eforms-static-pin.sch: src/xslt/sch-splitter.xslt target/eforms-sd
 		target=pin
 
 
-target/sch/eu-eforms-static-can.xslt: target/iso-schematron target/sch/eu-eforms-static-can.sch
+target/sch/eu-eforms-static-can.xslt: target/iso-schematron src/xslt/prepare-validator.xslt target/sch/eu-eforms-static-can.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \
-		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-xsl:src/xslt/prepare-validator.xslt \
 		-s:target/sch/eu-eforms-static-can.sch \
+	| java -jar target/saxon/saxon.jar \
+		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-s:- \
 		-o:target/sch/eu-eforms-static-can.xslt
 
-target/sch/eu-eforms-static-cn.xslt: target/iso-schematron target/sch/eu-eforms-static-cn.sch
+target/sch/eu-eforms-static-cn.xslt: target/iso-schematron src/xslt/prepare-validator.xslt target/sch/eu-eforms-static-cn.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \
-		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-xsl:src/xslt/prepare-validator.xslt \
 		-s:target/sch/eu-eforms-static-cn.sch \
+	| java -jar target/saxon/saxon.jar \
+		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-s:- \
 		-o:target/sch/eu-eforms-static-cn.xslt
 
-target/sch/eu-eforms-static-pin.xslt: target/iso-schematron target/sch/eu-eforms-static-pin.sch
+target/sch/eu-eforms-static-pin.xslt: target/iso-schematron src/xslt/prepare-validator.xslt target/sch/eu-eforms-static-pin.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \
-		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-xsl:src/xslt/prepare-validator.xslt \
 		-s:target/sch/eu-eforms-static-pin.sch \
+	| java -jar target/saxon/saxon.jar \
+		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-s:- \
 		-o:target/sch/eu-eforms-static-pin.xslt
 
-target/sch/national-eforms-static.xslt: target/iso-schematron target/eforms-sdk-nor/schematrons/national-eforms-static.sch
+target/sch/national-eforms-static.xslt: target/iso-schematron src/xslt/prepare-validator.xslt target/eforms-sdk-nor/schematrons/national-eforms-static.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \
-		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-xsl:src/xslt/prepare-validator.xslt \
 		-s:target/eforms-sdk-nor/schematrons/national-eforms-static.sch \
+	| java -jar target/saxon/saxon.jar \
+		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-s:- \
 		-o:target/sch/national-eforms-static.xslt
 	
-target/sch/eu-norway.xslt: target/iso-schematron target/eforms-sdk-nor/schematrons/eu-norway.sch
+target/sch/eu-norway.xslt: target/iso-schematron src/xslt/prepare-validator.xslt target/eforms-sdk-nor/schematrons/eu-norway.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \
-		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-xsl:src/xslt/prepare-validator.xslt \
 		-s:target/eforms-sdk-nor/schematrons/eu-norway.sch \
+	| java -jar target/saxon/saxon.jar \
+		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-s:- \
 		-o:target/sch/eu-norway.xslt
 
-target/sch/national-norway.xslt: target/iso-schematron target/eforms-sdk-nor/schematrons/national-norway.sch
+target/sch/national-norway.xslt: target/iso-schematron src/xslt/prepare-validator.xslt target/eforms-sdk-nor/schematrons/national-norway.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \
-		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-xsl:src/xslt/prepare-validator.xslt \
 		-s:target/eforms-sdk-nor/schematrons/national-norway.sch \
+	| java -jar target/saxon/saxon.jar \
+		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
+		-s:- \
 		-o:target/sch/national-norway.xslt
 
 target/dev.anskaffelser.eforms.sdk-nor.asice: target/buildconfig.xml # $$(find src/tests -type f)
 	@echo "* Build and test for validator"
-	@rm -rf target/tests
+	@rm -rf target/tests target/*.asice
 	@for f in $$(find src/tests -type f); do file=$$(echo $$f | cut -d'/' -f2-); mkdir -p target/$$(dirname $$file); cat $$f | EFORMS_MINOR="$(EFORMS_MINOR)" envsubst > target/$$file; done
 	@docker run --rm -i \
 		-v $$(pwd)/target:/src \

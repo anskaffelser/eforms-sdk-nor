@@ -20,13 +20,6 @@
     <!-- Remove validation of specific fields -->
     <xsl:template match="sch:rule[@context = '/*/cbc:CustomizationID']" />
 
-    <!-- Remove role -->
-    <xsl:template match="@role"/>
-
-    <!-- Remove diagnostics -->
-    <!-- <xsl:template match="@diagnostics" /> -->
-    <!-- <xsl:template match="sch:diagnostics" /> -->
-
     <!-- Remove schema types -->
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''CEI''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''T01''')]" priority="100"/>
@@ -34,26 +27,6 @@
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''X01''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''X02''')]" priority="100"/>
 
-
-    <!-- Things to fix -->
-
-    <!-- Make sure flag is set correctly -->
-    <xsl:template match="sch:assert">
-        <xsl:copy>
-            <xsl:if test="not(@flag)">
-                <xsl:choose>
-                    <xsl:when test="@role = 'ERROR'">
-                        <xsl:attribute name="flag" select="'fatal'"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:attribute name="flag" select="@role"/>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:if>
-
-            <xsl:apply-templates select="@* | node()"/>
-        </xsl:copy>
-    </xsl:template>
 
     <!-- Testing out method to make validation faster -->
     <xsl:template match="sch:rule[contains(@context, '[$noticeSubType =')]">

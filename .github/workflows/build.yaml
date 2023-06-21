@@ -127,5 +127,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           file: target/dev.anskaffelser.eforms.sdk-${{ matrix.EFORMS_MINOR }}-nor-${{ env.PROJECT_VERSION }}.asice
-          name: dev.anskaffelser.eforms.sdk-${{ matrix.EFORMS_MINOR }}-nor-${{ env.PROJECT_VERSION }}.asice.zip
-          label: Validaton for eForms SDK ${{ matrix.EFORMS_MINOR }} NOR
+          name: dev.anskaffelser.eforms.sdk-${{ matrix.EFORMS_MINOR }}-nor-${{ env.PROJECT_VERSION }}.asice
+          label: Validaton for eForms SDK NOR ${{ env.PROJECT_VERSION }} for ${{ matrix.EFORMS_MINOR }}
