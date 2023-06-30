@@ -1,12 +1,13 @@
+ï»¿# encoding: utf-8
 not-requ:
   name: Not required
   nob: Ikke obligatorisk
 nyk:
   name: Not yet known
-  nob: Foreløpig ukjent
+  nob: ForelÃ¸pig ukjent
 par-requ:
   name: Request to participate requirement
-  nob: Krav til forespørsel om  deltakelse
+  nob: Krav til forespÃ¸rsel om  deltakelse
 t-requ:
   name: Tender requirement
   nob: Krav til tilbud

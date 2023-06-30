@@ -1,12 +1,13 @@
+ï»¿# encoding: utf-8
 fa-mix:
   name: Framework agreement, partly without reopening and partly with reopening of competition
-  nob: Rammeavtale. delvis uten gjenåpning og delvis med gjenåpning av konkurransen
+  nob: Rammeavtale. delvis uten gjenÃ¥pning og delvis med gjenÃ¥pning av konkurransen
 fa-w-rc:
   name: Framework agreement, with reopening of competition
-  nob: Rammeavtale med gjenåpning av konkurransen
+  nob: Rammeavtale med gjenÃ¥pning av konkurransen
 fa-wo-rc:
   name: Framework agreement, without reopening of competition
-  nob: Rammeavtale uten gjenåpning av konkurransen
+  nob: Rammeavtale uten gjenÃ¥pning av konkurransen
 none:
   name: None
   nob: Ingen/nei

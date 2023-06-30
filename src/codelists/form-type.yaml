@@ -1,3 +1,4 @@
+ï»¿# encoding: utf-8
 bri:
   name: Business registration information
   nob: Informasjon om virksomhetens registreringer
@@ -12,7 +13,7 @@ cont-modif:
   nob: Endring i kontrakt
 dir-awa-pre:
   name: Direct award preannouncement
-  nob: Forhåndskunngjøring av direkte tildeling
+  nob: ForhÃ¥ndskunngjÃ¸ring av direkte tildeling
 planning:
   name: Planning
   nob: Planlegging

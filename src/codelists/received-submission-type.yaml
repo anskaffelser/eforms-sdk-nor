@@ -1,3 +1,4 @@
+ï»¿# encoding: utf-8
 t-esubm:
   name: Tenders submitted electronically
   nob: Tilbud er levert elektronisk
@@ -9,25 +10,25 @@ t-micro:
   nob: Tilbud fra mikrotilbydere/mikrobedrifter
 t-no-eea:
   name: Tenders from tenders registered in countries outside of the European Economic Area
-  nob: Tilbud fra tilbydere/leverandører registrert utenfor EU/EØS
+  nob: Tilbud fra tilbydere/leverandÃ¸rer registrert utenfor EU/EÃ˜S
 t-no-verif:
   name: Tenders for which it has not been verified if they are admissible or inadmissible
   nob: Tilbud som ikke er verifisert som gyldige/akseptert
 t-oth-eea:
   name: Tenders from tenderers registered in other European Economic Area countries than the country of the buyer
-  nob: Tilbud fra tilbydere/leverandører registrert i et annet EU/EØS-land enn kjøper
+  nob: Tilbud fra tilbydere/leverandÃ¸rer registrert i et annet EU/EÃ˜S-land enn kjÃ¸per
 t-small:
   name: Tenders from small tenderers
-  nob: Tilbud fra små tilbydere/bedrifter
+  nob: Tilbud fra smÃ¥ tilbydere/bedrifter
 t-sme:
   name: Tenders from micro, small or medium tenderers
-  nob: Tilbud fra mikro-, små- eller mellomstore tilbydere/bedrifter
+  nob: Tilbud fra mikro-, smÃ¥- eller mellomstore tilbydere/bedrifter
 t-verif-inad:
   name: Tenders verified and inadmissible
   nob: Tilbud  verifisert og ugyldig/ikke akseptert
 t-verif-inad-low:
   name: Tenders verified and inadmissible because of an abnormally low price or cost
-  nob: Tilbud er verifisert og ikke akseptert på grunn av unormalt lave priser/kostnader
+  nob: Tilbud er verifisert og ikke akseptert pÃ¥ grunn av unormalt lave priser/kostnader
 tenders:
   name: Tenders
   nob: Tilbud

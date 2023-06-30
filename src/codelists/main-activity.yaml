@@ -1,3 +1,4 @@
+ï»¿# encoding: utf-8
 airport:
   name: Airport-related activities
   nob: 
@@ -6,16 +7,16 @@ defence:
   nob: Forsvar
 econ-aff:
   name: Economic affairs
-  nob: Næringsøkonomiske formål
+  nob: NÃ¦ringsÃ¸konomiske formÃ¥l
 education:
   name: Education
   nob: Utdanning
 electricity:
   name: Electricity-related activities
-  nob: Elektrisitets-/strømrelaterte aktiviteter
+  nob: Elektrisitets-/strÃ¸mrelaterte aktiviteter
 env-pro:
   name: Environmental protection
-  nob: Miljøvern
+  nob: MiljÃ¸vern
 gas-heat:
   name: Production, transport or distribution of gas or heat
   nob: Produksjon, transport eller distribusjon av gass eller varme
@@ -27,7 +28,7 @@ gen-pub:
   nob: Alminnelig offentlig tjenesteyting
 hc-am:
   name: Housing and community amenities
-  nob: Bolig og nærmiljø
+  nob: Bolig og nÃ¦rmiljÃ¸
 health:
   name: Health
   nob: Helse

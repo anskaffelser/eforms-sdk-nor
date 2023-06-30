@@ -1,12 +1,13 @@
+ï»¿# encoding: utf-8
 eo-int:
   name: Commercial interests of an economic operator
-  nob: Kommersielle interesser til en leverandør
+  nob: Kommersielle interesser til en leverandÃ¸r
 fair-comp:
   name: Fair competition
   nob: Rettferdig konkurranse
 law-enf:
   name: Law enforcement
-  nob: (Retts)håndhevelse/ Retts- eller politimyndighetene
+  nob: (Retts)hÃ¥ndhevelse/ Retts- eller politimyndighetene
 oth-int:
   name: Other public interest
   nob: Annen offentlig/allmenn interesse

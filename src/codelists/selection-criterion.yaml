@@ -1,6 +1,7 @@
+﻿# encoding: utf-8
 ef-stand:
   name: Economic and financial standing
-  nob: �konomisk og finansiell kapasitet
+  nob: Økonomisk og finansiell kapasitet
 other:
   name: Other
   nob: Annet 

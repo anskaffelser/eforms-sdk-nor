@@ -1,18 +1,19 @@
+ï»¿# encoding: utf-8
 buy-eff:
   name: The procured works, supplies or services are likely to make the work of the buyer more effective.
-  nob: Anskaffet  bygg og anleggsarbeid, vareleveranser eller tjenesteytelser vil sannsynligvis gjøre kjøperens arbeid mer effektivt
+  nob: Anskaffet  bygg og anleggsarbeid, vareleveranser eller tjenesteytelser vil sannsynligvis gjÃ¸re kjÃ¸perens arbeid mer effektivt
 fp-requ:
   name: The technical specifications are primarily based on functional and performance requirements, not on describing the technical solution.
-  nob: Kravspesifikasjoner er primært basert på funksjonelle og ytelseskrav og ikke en bekrivelse av en teknisk løsning
+  nob: Kravspesifikasjoner er primÃ¦rt basert pÃ¥ funksjonelle og ytelseskrav og ikke en bekrivelse av en teknisk lÃ¸sning
 mar-nov:
   name: The procured works, supplies or services are novel for the whole market.
-  nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for hele markedet
+  nob: KjÃ¸pte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for hele markedet
 org-nov:
   name: The procured works, supplies or services are novel for the organisation.
-  nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for organisasjonen
+  nob: KjÃ¸pte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for organisasjonen
 other:
   name: Other
   nob: Annet
 rd-act:
   name: The procured works, supplies or services involve research and development activities.
-  nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene relateres til forsknings- og utviklingsaktiviteter
+  nob: KjÃ¸pte bygge- og anleggsarbeidene, vareleveransene eller tjenestene relateres til forsknings- og utviklingsaktiviteter

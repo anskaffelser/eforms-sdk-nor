@@ -1,6 +1,7 @@
+ï»¿# encoding: utf-8
 ab-low:
   name: Unjustified rejection of abnormally low tenders
-  nob: Grunnløs avvisning av unormalt lave tilbud
+  nob: GrunnlÃ¸s avvisning av unormalt lave tilbud
 ar-split:
   name: Artificial splitting of contracts
   nob: Kunstig oppdeling av kontrakter
@@ -12,13 +13,13 @@ change-eval:
   nob: Forhandlinger i tildelingsfasen, inkludert endring av vinnende tilbud under evaluering
 conf-int:
   name: Conflict of interest with impact on the outcome of the procurement procedure
-  nob: Interessekonflikt/habilitetskonflikt med påvirkning på anskaffelsens utfall
+  nob: Interessekonflikt/habilitetskonflikt med pÃ¥virkning pÃ¥ anskaffelsens utfall
 cp-mod-cond:
   name: Competitive procedure with negotiation, with substantial modification of the conditions set out in the contract notice or tender specifications
-  nob: Konkurranse med forhandling, med betydelig endring av vilkårene i kunngjøringen eller kravspesifikasjonen/konkurransen
+  nob: Konkurranse med forhandling, med betydelig endring av vilkÃ¥rene i kunngjÃ¸ringen eller kravspesifikasjonen/konkurransen
 elem-mod:
   name: Modifications of the contract elements set out in the contract notice or tender specifications, not in compliance with the relevant rules
-  nob: Endringer i kontraktselementene i kunngjøringen eller kravspesifikasjonen, er ikke i samsvar med regelverket
+  nob: Endringer i kontraktselementene i kunngjÃ¸ringen eller kravspesifikasjonen, er ikke i samsvar med regelverket
 eva-add-crit:
   name: Evaluation using additional award criteria that were not published
   nob: Evaluering med tildelingskriterier som ikke var kunngjort
@@ -33,25 +34,25 @@ ins-audit:
   nob: Utilstrekkelige revisjonsspor for tildeling av kontrakt
 insuf-timl:
   name: Insufficient time for potential tenderers/candidates to obtain the procurement documents
-  nob: utilstrekkelig tid for potensielle tilbydere/kandidater til å få tilgang til anskaffelsesdokumentene
+  nob: utilstrekkelig tid for potensielle tilbydere/kandidater til Ã¥ fÃ¥ tilgang til anskaffelsesdokumentene
 irr-involv:
   name: Irregular prior involvement of candidates or tenderers with the buyer
-  nob: Uvanlig involvering mellom kandidater eller tilbydere og kjøper i forkant (av anskaffelsen)
+  nob: Uvanlig involvering mellom kandidater eller tilbydere og kjÃ¸per i forkant (av anskaffelsen)
 mod-inco:
   name: Selection criteria or technical specifications were modified after opening of tenders or were incorrectly applied
-  nob: Kvalifikasjonskrav og teknisk spesifikasjon ble endret etter tilbudsåpning eller brukt på feil måte
+  nob: Kvalifikasjonskrav og teknisk spesifikasjon ble endret etter tilbudsÃ¥pning eller brukt pÃ¥ feil mÃ¥te
 nc-proc-eap:
   name: Non-compliance with the procedure established in the Directive for electronic and aggregated procurement
   nob: Manglende overholdelse av prosedyren fastsatt i direktivet for elektroniske og aggregerte anskaffelser
 nc-timl:
   name: Non-compliance with time limits for receipt of tenders or time limits for receipt of requests to participate
-  nob: Manglende overholdelse av frister for mottak av tilbud eller frister for mottak av forespørsler om å delta
+  nob: Manglende overholdelse av frister for mottak av tilbud eller frister for mottak av forespÃ¸rsler om Ã¥ delta
 ncompl-awcrit:
   name: Failure to describe in sufficient detail the award criteria and their weighting
-  nob: Unnlatelse av å beskrive tildelingskriteriene og vektingen i tilstrekkelig detalj/ Tildelingskriterier og vektingen er ikke beskrevet tilstrekkelig detaljert
+  nob: Unnlatelse av Ã¥ beskrive tildelingskriteriene og vektingen i tilstrekkelig detalj/ Tildelingskriterier og vektingen er ikke beskrevet tilstrekkelig detaljert
 ncompl-cn:
   name: Failure to publish in the contract notice the technical specifications, selection criteria, award criteria (and their weighing), or contract performance conditions
-  nob: Tekniske spesifikasjoner, kvalifikasjonskrav, tildelingskriterier (og vekt) eller kontraktskravene er ikke publisert i kunngjøringen av konkurransen
+  nob: Tekniske spesifikasjoner, kvalifikasjonskrav, tildelingskriterier (og vekt) eller kontraktskravene er ikke publisert i kunngjÃ¸ringen av konkurransen
 ncompl-com:
   name: Failure to communicate and/or publish clarifications and/or additional information
   nob: Avklaringer og/eller tilleggsinformasjon er ikke kommunisert og/eller publisert
@@ -60,19 +61,19 @@ ncompl-sub:
   nob: Anskaffelsens art og omfang/Anskaffelsens gjenstand er ikke beskrevet tilstrekkelig 
 no-notice:
   name: Lack of publication of contract notice or unjustified direct award
-  nob: Unnlatelse av å kunngjøre konkurranse eller ulovlig direkteanskaffelse
+  nob: Unnlatelse av Ã¥ kunngjÃ¸re konkurranse eller ulovlig direkteanskaffelse
 noex-addinfo:
   name: Failure to extend time limits for receipt of tenders or requests to participate where additional information, although requested by the economic operator in good time, is not supplied at the latest six days before the time limit
-  nob: Unnlatelse av å forlenge frister/Manglende forlengelse av frist for mottak av tilbud eller forespørsler om å delta der tilleggsopplysninger, selv om leverandøren ber om det i god tid, ikke er gitt senest seks dager før fristen
+  nob: Unnlatelse av Ã¥ forlenge frister/Manglende forlengelse av frist for mottak av tilbud eller forespÃ¸rsler om Ã¥ delta der tilleggsopplysninger, selv om leverandÃ¸ren ber om det i god tid, ikke er gitt senest seks dager fÃ¸r fristen
 noex-timl:
   name: Failure to extend time limits for receipt of tenders or requests to participate where significant changes are made to the procurement documents
-  nob: Unnlatelse av å forlenge frister/Manglende forlengelse av frister for mottak av tilbud eller forespørsler om å delta der det gjøres vesentlige endringer i anskaffelsesdokumentene
+  nob: Unnlatelse av Ã¥ forlenge frister/Manglende forlengelse av frister for mottak av tilbud eller forespÃ¸rsler om Ã¥ delta der det gjÃ¸res vesentlige endringer i anskaffelsesdokumentene
 nojust-nolots:
   name: Lack of justification for not subdividing contract into lots
-  nob: Manglende begrunnelse for å ikke dele opp kontrakten
+  nob: Manglende begrunnelse for Ã¥ ikke dele opp kontrakten
 npub-limit:
   name: Lack of publication of extended time limits for receipt of tenders or requests to participate
-  nob: Manglende publisering av utvidede frister for mottak av tilbud eller forespørsler om å delta
+  nob: Manglende publisering av utvidede frister for mottak av tilbud eller forespÃ¸rsler om Ã¥ delta
 other:
   name: Other
   nob: Annet
@@ -87,13 +88,13 @@ unj-excl:
   nob: Ulovlig avvisning av tilbud eller kandidater
 unj-lim-subc:
   name: Unjustified limitation of subcontracting
-  nob: Ulovlig begrensning i bruk av underleverandører
+  nob: Ulovlig begrensning i bruk av underleverandÃ¸rer
 unj-na-ppr:
   name: Unjustified non-application of public procurement rules
-  nob: Ulovlig omgåelse av anskaffelsesregelverket 
+  nob: Ulovlig omgÃ¥else av anskaffelsesregelverket 
 unj-nrl:
   name: Use of technical specification, selection criterion, award criterion, exclusion criterion, or contract performance condition that are discriminatory because of unjustified national, regional or local preferences
-  nob: Bruk av teknisk spesifikasjon, tildelingskriterier, kvalifikasjonskrav, avvisningsgrunner eller kontraktskrav som er diskriminerende på grunn av nasjonale, regionale eller lokale preferanser.
+  nob: Bruk av teknisk spesifikasjon, tildelingskriterier, kvalifikasjonskrav, avvisningsgrunner eller kontraktskrav som er diskriminerende pÃ¥ grunn av nasjonale, regionale eller lokale preferanser.
 unj-nrl-other:
   name: Use of technical specifications, selection criteria, award criteria, exclusion criteria, or contract performance conditions that are discriminatory (i.e. restrict access for economic operators) for other reasons than unjustified national, regional or local preferences
-  nob: Bruk av teknisk spesifikasjon, tildelingskriterier, kvalifikasjonskrav, avvisningsgrunner eller kontraktskrav som er diskriminerende (begrenser tilgang for leverandører) av andre årsaker enn grunnløse nasjonale, regionale eller lokale preferanser.
+  nob: Bruk av teknisk spesifikasjon, tildelingskriterier, kvalifikasjonskrav, avvisningsgrunner eller kontraktskrav som er diskriminerende (begrenser tilgang for leverandÃ¸rer) av andre Ã¥rsaker enn grunnlÃ¸se nasjonale, regionale eller lokale preferanser.

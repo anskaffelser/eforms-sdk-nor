@@ -1,18 +1,19 @@
+ï»¿# encoding: utf-8
 none:
   name: None
   nob: Ingen
 shar-subc:
   name: The share of the contract that the tenderer intends to subcontract
-  nob: Andelen av kontrakten som tilbyder har til hensikt å gi til underleverandør/ Andelen av kontrakten som skal utføres av underleverandør
+  nob: Andelen av kontrakten som tilbyder har til hensikt Ã¥ gi til underleverandÃ¸r/ Andelen av kontrakten som skal utfÃ¸res av underleverandÃ¸r
 subc-noblig:
   name: The proposed subcontractor(s) above any obligation to subcontract a minimum percentage of the contract
-  nob: Den eller de foreslåtte underleverandørene som ikke er forpliktet til å la underleverandør utføre en minimumsprosent av kontrakten
+  nob: Den eller de foreslÃ¥tte underleverandÃ¸rene som ikke er forpliktet til Ã¥ la underleverandÃ¸r utfÃ¸re en minimumsprosent av kontrakten
 subc-oblig:
   name: The proposed subcontractor(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract
-  nob: Den eller de foreslåtte underleverandørene som er nødvendige for å oppfylle forpliktelsen om at ut en minimumsprosent av kontrakten skal utføres av underleverandører
+  nob: Den eller de foreslÃ¥tte underleverandÃ¸rene som er nÃ¸dvendige for Ã¥ oppfylle forpliktelsen om at ut en minimumsprosent av kontrakten skal utfÃ¸res av underleverandÃ¸rer
 subj-noblig:
   name: The subject-matter of the subcontract(s) above any obligation to subcontract a minimum percentage of the contract
-  nob: Innholdet i delkontraktene som skal utføres av underleverandører der det ikke foreligger forpliktelse om at en minimumsprosent av kontrakten skal utføres av underleverandører.
+  nob: Innholdet i delkontraktene som skal utfÃ¸res av underleverandÃ¸rer der det ikke foreligger forpliktelse om at en minimumsprosent av kontrakten skal utfÃ¸res av underleverandÃ¸rer.
 subj-oblig:
   name: The subject-matter of the subcontract(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract
-  nob: Innholdet i delkontraktene som skal utføres av underleverandører der det foreligger en forpliktelse om at en minimumsprosent av kontrakten skal utføres av underleverandører.
+  nob: Innholdet i delkontraktene som skal utfÃ¸res av underleverandÃ¸rer der det foreligger en forpliktelse om at en minimumsprosent av kontrakten skal utfÃ¸res av underleverandÃ¸rer.

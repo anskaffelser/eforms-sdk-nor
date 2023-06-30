@@ -1,12 +1,13 @@
+ï»¿# encoding: utf-8
 env-imp:
   name: Reduction of environmental impacts
-  nob: Reduksjon av miljøpåvirkning
+  nob: Reduksjon av miljÃ¸pÃ¥virkning
 inn-pur:
   name: Innovative purchase
-  nob: Innovativt innkjøp /Innovativ anskaffelse
+  nob: Innovativt innkjÃ¸p /Innovativ anskaffelse
 none:
   name: None
   nob: Ingen
 soc-obj:
   name: Fulfilment of social objectives
-  nob: Oppfyllelse av sosiale formål/mål
+  nob: Oppfyllelse av sosiale formÃ¥l/mÃ¥l

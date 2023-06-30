@@ -1,6 +1,7 @@
+ï»¿# encoding: utf-8
 open-nw:
   name: The winner was not yet chosen, but the competition is still ongoing.
-  nob: Vinneren er ennå ikke kåret, men konkurransen pågår fortsatt.
+  nob: Vinneren er ennÃ¥ ikke kÃ¥ret, men konkurransen pÃ¥gÃ¥r fortsatt.
 selec-w:
   name: At least one winner was chosen.
-  nob: Minst en vinner ble kåret
+  nob: Minst en vinner ble kÃ¥ret

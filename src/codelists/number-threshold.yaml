@@ -1,6 +1,7 @@
+﻿# encoding: utf-8
 max-pass:
   name: Maximum number of tenders passing
-  nob: �vre grense for antall tilbud som kan delta i konkurransen
+  nob: Øvre grense for antall tilbud som kan delta i konkurransen
 min-score:
   name: Minimum score
   nob: Laveste poengsum

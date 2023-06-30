@@ -1,15 +1,16 @@
+ï»¿# encoding: utf-8
 mod-cir:
   name: Need for modifications because of circumstances which a diligent buyer could not predict.
-  nob: Endringer som er nødvendige som følge av omstendigheter som en aktsom oppdragsgiver ikke kunne forutse
+  nob: Endringer som er nÃ¸dvendige som fÃ¸lge av omstendigheter som en aktsom oppdragsgiver ikke kunne forutse
 mod-minv:
   name: Modifications under a minimal value ("de minimis").
-  nob: endringer som gir en prisøkning som er lavere enn …
+  nob: endringer som gir en prisÃ¸kning som er lavere enn â€¦
 mod-nons:
   name: Modifications that are not substantial.
   nob: Endringer er ikke vesentlige
 mod-repl:
-  name: Modifications where a new contractor replaces an old contractor because of succession or when the buyer assumes the contractor’s obligations towards its subcontractors.
-  nob: Endringer gjelder skifte av leverandøren ved at en ny leverandør helt eller delvis trer inn i den eksisterende leverandørens rettigheter og plikter som følge av en omstrukturering, for eksempel ved overtakelse, fusjon, oppkjøp eller konkurs. 
+  name: Modifications where a new contractor replaces an old contractor because of succession or when the buyer assumes the contractorâ€™s obligations towards its subcontractors.
+  nob: Endringer gjelder skifte av leverandÃ¸ren ved at en ny leverandÃ¸r helt eller delvis trer inn i den eksisterende leverandÃ¸rens rettigheter og plikter som fÃ¸lge av en omstrukturering, for eksempel ved overtakelse, fusjon, oppkjÃ¸p eller konkurs.Â 
 mod-rev:
   name: Modifications based on review clauses or options.
   nob: Endringer som foretas etter en endringsklausuler eller opsjoner

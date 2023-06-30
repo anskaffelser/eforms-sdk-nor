@@ -1,3 +1,4 @@
+ï»¿# encoding: utf-8
 brin-eeig:
   name: European Economic Interest Grouping notice
   nob: 
@@ -6,36 +7,36 @@ can-desg:
   nob: Resultat av plan- og designkonkurranse
 can-modif:
   name: Contract modification notice
-  nob: Kunngjøring av kontraktsendring
+  nob: KunngjÃ¸ring av kontraktsendring
 can-social:
-  name: Contract or concession award notice – light regime
+  name: Contract or concession award notice â€“ light regime
   nob: 
 can-standard:
-  name: Contract or concession award notice – standard regime
+  name: Contract or concession award notice â€“ standard regime
   nob: 
 can-tran:
   name: Contract award notice for public passenger transport services
   nob: 
 cn-desg:
   name: Design contest notice
-  nob: Kunngjøring om plan- og designkonkurranse
+  nob: KunngjÃ¸ring om plan- og designkonkurranse
 cn-social:
-  name: Contract notice – light regime
+  name: Contract notice â€“ light regime
   nob: 
 cn-standard:
-  name: Contract or concession notice – standard regime
+  name: Contract or concession notice â€“ standard regime
   nob: 
 corr:
   name: Change notice
-  nob:  Endringskunngjøring
+  nob: Â EndringskunngjÃ¸ring
 pin-buyer:
   name: Notice of the publication of a prior information notice or a periodic information notice on a buyer profile
   nob: 
 pin-cfc-social:
-  name: Prior information notice or a periodic indicative notice used as a call for competition – light regime
+  name: Prior information notice or a periodic indicative notice used as a call for competition â€“ light regime
   nob: 
 pin-cfc-standard:
-  name: Prior information notice or a periodic indicative notice used as a call for competition – standard regime
+  name: Prior information notice or a periodic indicative notice used as a call for competition â€“ standard regime
   nob: 
 pin-only:
   name: Prior information notice or a periodic indicative notice used only for information
@@ -48,10 +49,10 @@ pin-tran:
   nob: 
 qu-sy:
   name: Notice on the existence of a qualification system
-  nob: Kunngjøring om at det foreligger en kvalifikasjonsordning
+  nob: KunngjÃ¸ring om at det foreligger en kvalifikasjonsordning
 subco:
   name: Subcontracting notice
   nob: 
 veat:
   name: Voluntary ex-ante transparency notice
-  nob: Frivillig intensjonskunngjøring
+  nob: Frivillig intensjonskunngjÃ¸ring

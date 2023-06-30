@@ -1,9 +1,10 @@
+ï»¿# encoding: utf-8
 dps-list:
   name: Dynamic purchasing system, only usable by buyers listed in this notice
-  nob: Dynamisk innkjøpsordning kun tilgjerngelig for kjøpere oppført i denne kunngjøringen
+  nob: Dynamisk innkjÃ¸psordning kun tilgjerngelig for kjÃ¸pere oppfÃ¸rt i denne kunngjÃ¸ringen
 dps-nlist:
   name: Dynamic purchasing system, also usable by buyers not listed in this notice
-  nob: Dynamisk innkjøpsordning er også tilgjengelig for kjøpere som ikke er oppført i denne kunngjøringen
+  nob: Dynamisk innkjÃ¸psordning er ogsÃ¥ tilgjengelig for kjÃ¸pere som ikke er oppfÃ¸rt i denne kunngjÃ¸ringen
 none:
   name: None
   nob: Ingen

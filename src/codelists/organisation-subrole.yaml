@@ -1,3 +1,4 @@
+﻿# encoding: utf-8
 exec-pay:
   name: Organisation executing the payment
   nob: 

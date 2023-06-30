@@ -1,21 +1,22 @@
+ï»¿# encoding: utf-8
 2N:
   name: decibel
   nob: desibel
 3C:
   name: manmonth
-  nob: Andelen av kontrakten som tilbyder har til hensikt å gi til underleverandør/ Andelen av kontrakten som skal utføres av underleverandør
+  nob: Andelen av kontrakten som tilbyder har til hensikt Ã¥ gi til underleverandÃ¸r/ Andelen av kontrakten som skal utfÃ¸res av underleverandÃ¸r
 AD:
   name: byte
-  nob: Den eller de foreslåtte underleverandørene som ikke er forpliktet til å la underleverandør utføre en minimumsprosent av kontrakten
+  nob: Den eller de foreslÃ¥tte underleverandÃ¸rene som ikke er forpliktet til Ã¥ la underleverandÃ¸r utfÃ¸re en minimumsprosent av kontrakten
 AMP:
   name: ampere
-  nob: Den eller de foreslåtte underleverandørene som er nødvendige for å oppfylle forpliktelsen om at ut en minimumsprosent av kontrakten skal utføres av underleverandører
+  nob: Den eller de foreslÃ¥tte underleverandÃ¸rene som er nÃ¸dvendige for Ã¥ oppfylle forpliktelsen om at ut en minimumsprosent av kontrakten skal utfÃ¸res av underleverandÃ¸rer
 BAR:
   name: bar
-  nob: Innholdet i delkontraktene som skal utføres av underleverandører der det ikke foreligger forpliktelse om at en minimumsprosent av kontrakten skal utføres av underleverandører.
+  nob: Innholdet i delkontraktene som skal utfÃ¸res av underleverandÃ¸rer der det ikke foreligger forpliktelse om at en minimumsprosent av kontrakten skal utfÃ¸res av underleverandÃ¸rer.
 BIT:
   name: bit
-  nob: Innholdet i delkontraktene som skal utføres av underleverandører der det foreligger en forpliktelse om at en minimumsprosent av kontrakten skal utføres av underleverandører.
+  nob: Innholdet i delkontraktene som skal utfÃ¸res av underleverandÃ¸rer der det foreligger en forpliktelse om at en minimumsprosent av kontrakten skal utfÃ¸res av underleverandÃ¸rer.
 BQL:
   name: becquerel
   nob: becquerel

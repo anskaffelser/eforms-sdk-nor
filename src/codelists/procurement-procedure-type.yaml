@@ -1,3 +1,4 @@
+ï»¿# encoding: utf-8
 comp-tend:
   name: Competitive tendering
   nob: ?? Anskaffelse
@@ -6,13 +7,13 @@ innovation:
   nob: Innovasjonspartnerskap
 neg-w-call:
   name: Negotiated with prior publication of a call for competition / competitive with negotiation
-  nob: Konkurranse med forhandling med  forhåndskunngjøring/ konkurranse med forhandling
+  nob: Konkurranse med forhandling med  forhÃ¥ndskunngjÃ¸ring/ konkurranse med forhandling
 neg-wo-call:
   name: Negotiated without prior call for competition
-  nob: Konkurranse med fohandling uten forutgående kunngjøring
+  nob: Konkurranse med fohandling uten forutgÃ¥ende kunngjÃ¸ring
 open:
   name: Open
-  nob: Åpen
+  nob: Ã…pen
 oth-mult:
   name: Other multiple stage procedure
   nob: andre flertrinnsprosedyrer

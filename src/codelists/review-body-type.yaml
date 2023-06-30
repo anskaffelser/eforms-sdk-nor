@@ -1,6 +1,7 @@
+ï»¿# encoding: utf-8
 1-inst:
   name: First instance
-  nob: Førsteinstans
+  nob: FÃ¸rsteinstans
 2-inst:
   name: Second instance
   nob: Andreinstans
@@ -15,7 +16,7 @@
   nob: Femteinstans
 buyer:
   name: Buyer
-  nob: Kjøper
+  nob: KjÃ¸per
 other:
   name: Other
   nob: Andre 

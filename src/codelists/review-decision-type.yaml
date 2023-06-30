@@ -1,3 +1,4 @@
+ï»¿# encoding: utf-8
 accepted:
   name: Accepted
   nob: Akseptert
@@ -9,10 +10,10 @@ rej-dl-passed:
   nob: avvist, fordi klager ikke har rettslig klageinteresse, fordi fristen for innsendig av klage er oversittet/ fristen for innsending av klage er oversittet, og klager har derfor ikke rettslig klageinteresse
 rej-ncomp:
   name: Rejected, because the review body does not have the competence to conduct the review
-  nob: Avvist fordi klageorganet ikke har kompetanse til å prøve klagen.
+  nob: Avvist fordi klageorganet ikke har kompetanse til Ã¥ prÃ¸ve klagen.
 rej-nirreg:
   name: Rejected for no irregularities
-  nob: Avvist fordi klagen var åpenbart ubegrunnet
+  nob: Avvist fordi klagen var Ã¥penbart ubegrunnet
 rej-npaid:
   name: Rejected, because the fee was not paid
   nob: Avvist fordi klagegebyr ikke er betalt
@@ -21,7 +22,7 @@ rej-other:
   nob: Avvist fordi klager ikke har rettslig klageinteresse av andre grunner enn oversittelse av klagefrist.
 rej-resolv:
   name: Rejected, because the problem has already been resolved
-  nob: Avvist fordi grunnlaget for klagen er falt bort/Avvist fordi problemet er løst
+  nob: Avvist fordi grunnlaget for klagen er falt bort/Avvist fordi problemet er lÃ¸st
 rej-signed:
   name: Rejected, because the contract has already been signed
   nob: Avvist fordi kontrakten allerede er signert. 

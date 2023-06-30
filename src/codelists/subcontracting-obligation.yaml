@@ -1,9 +1,10 @@
+ï»¿# encoding: utf-8
 subc-chng:
   name: The contractor must indicate any change of subcontractors during the execution of the contract.
-  nob: Leverandøren må angi endringer i underleverandører underveis i kontraktsgjennomføringen
+  nob: LeverandÃ¸ren mÃ¥ angi endringer i underleverandÃ¸rer underveis i kontraktsgjennomfÃ¸ringen
 subc-min:
   name: The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC.
-  nob: Leverandøren/entreprenøren må bruke underleverandør på en minimumsprosent av kontrakten og bruke prosedyren angitt i tittel III i direktiv 2009/81/EF.
+  nob: LeverandÃ¸ren/entreprenÃ¸ren mÃ¥ bruke underleverandÃ¸r pÃ¥ en minimumsprosent av kontrakten og bruke prosedyren angitt i tittel III i direktiv 2009/81/EF.
 subc-oblig-2009-81:
   name: The buyer may oblige the contractor to award all or certain subcontracts through the procedure set out in Title III of Directive 2009/81/EC.
-  nob: Kjøperen kan forplikte entreprenøren til å tildele alle eller visse underentrepriser gjennom prosedyren angitt i tittel III i direktiv 2009/81/EF.
+  nob: KjÃ¸peren kan forplikte entreprenÃ¸ren til Ã¥ tildele alle eller visse underentrepriser gjennom prosedyren angitt i tittel III i direktiv 2009/81/EF.

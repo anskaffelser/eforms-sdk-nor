@@ -1,21 +1,22 @@
+ï»¿# encoding: utf-8
 cancel:
   name: Cancellation Notice cancelled
-  nob: Avlysning kunngjøring 
+  nob: Avlysning kunngjÃ¸ring 
 cancel-intent:
   name: Cancellation intention
   nob: Avlysning intensjon
 cor-buy:
   name: Buyer correction
-  nob: Korreksjon kjøper
+  nob: Korreksjon kjÃ¸per
 cor-esen:
   name: eSender correction
   nob: Korreksjon eSender 
 cor-pub:
   name: Publisher correction
-  nob: Korreksjon offentliggjøring
+  nob: Korreksjon offentliggjÃ¸ring
 info-release:
   name: Availability information Information now avalible 
-  nob: Tilgjengelighetsinformasjon Informasjon nå tilgjengelig
+  nob: Tilgjengelighetsinformasjon Informasjon nÃ¥ tilgjengelig
 update-add:
   name: Information updated
   nob: Informasjon oppdatert

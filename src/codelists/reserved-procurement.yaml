@@ -1,9 +1,10 @@
+ï»¿# encoding: utf-8
 none:
   name: None
   nob: Ingen
 res-pub-ser:
   name: Participation is reserved to organisations pursuing a public service mission and fulfilling other relevant conditions in the legislation.
-  nob: Deltakelse er reservert for/forbeholdt organisasjoner/virksomheter med offentlig tjenesteoppdrag eller andre relevante vilkår i lovverk.
+  nob: Deltakelse er reservert for/forbeholdt organisasjoner/virksomheter med offentlig tjenesteoppdrag eller andre relevante vilkÃ¥r i lovverk.
 res-ws:
   name: Participation is reserved to sheltered workshops and economic operators aiming at the social and professional integration of disabled or disadvantaged persons.
-  nob: Deltakelse er reservert for/forbeholdt vernede bedrifter og virksomheter som har sosial og faglig integrasjon av funksjonshemmede eller vanskeligstilte personer til formål.
+  nob: Deltakelse er reservert for/forbeholdt vernede bedrifter og virksomheter som har sosial og faglig integrasjon av funksjonshemmede eller vanskeligstilte personer til formÃ¥l.
