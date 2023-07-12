@@ -30,7 +30,8 @@ doc = Nokogiri::XML::Builder.new do |xml|
     rules.keys.sort.each do |context|
       xml.rule(:context => context) do |xml|
         rules[context].each do |rule|
-          xml.assert rule['message'], :role => rule.fetch('role', 'ERROR'), :id => rule['id'], :diagnostics => rule['diagnostics'], :test => rule['test']
+          attributes = {:role => rule.fetch('role', 'ERROR'), :flag => rule.fetch('flag', nil), :id => rule['id'], :diagnostics => rule['diagnostics'], :test => rule['test']}.compact
+          xml.assert rule['message'], attributes
         end
       end
     end

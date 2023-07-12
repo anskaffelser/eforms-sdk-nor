@@ -16,7 +16,9 @@
 
     <title>Norwegian tailoring (${KIND}) for eForms ${EFORMS_VERSION}</title>
 
+    <!-- Variables -->
     <let name="noticeSubType" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/normalize-space()"/>
+    <let name="official_languages" value="('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')"/>
 
     <include href="fields.sch"/>
 

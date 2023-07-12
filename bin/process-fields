@@ -59,7 +59,9 @@ config.fetch('rules', {}).each do |field, rules|
       'context' => rule.fetch('context', all[field]['xpathAbsolute']),
       'test' => rule['test'],
       'message' => rule['message'],
-    })
+      'role' => rule.fetch('role', 'ERROR'),
+      'flag' => rule.fetch('flag', nil),
+    }.compact)
   end
 end
 

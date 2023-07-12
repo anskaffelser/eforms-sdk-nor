@@ -16,6 +16,8 @@
     <!-- Remove specific rules -->
     <xsl:template match="sch:assert[ends-with(@id, '_B') and contains(@test, 'NoticeLanguageCode')]"/>
     <xsl:template match="sch:assert[ends-with(@id, '_C') and contains(@test, 'NoticeLanguageCode')]"/>
+    <xsl:template match="sch:assert[@id='BR-BT-00702-0102']"/>
+    <xsl:template match="sch:assert[@id='BR-BT-00702-0103']"/>
 
     <!-- Remove validation of specific fields -->
     <xsl:template match="sch:rule[@context = '/*/cbc:CustomizationID']" />

@@ -39,11 +39,34 @@ rules:
   # /*
   ND-Root:
     - id: EFORMS-NOR-R006
-      test: /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID
+      # test: /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID[normalize-space() = ('NOR', 'NOB', 'NNO')]
+      test: /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID[normalize-space() = ('NOR', 'NOB', 'NNO')] || /*/cbc:NoticeLanguageCode[normalize-space() = ('NOR', 'NOB', 'NNO')] || /*/cac:AdditionalNoticeLanguage/cbc:ID[normalize-space() = ('NOR', 'NOB', 'NNO')]
       message: Minimum one Norwegian language must be provided as unofficial language
   
   # /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID
   NOR-OPT-001-notice:
     - id: EFORMS-NOR-R005
-      test: normalize-space() = ('NOR', 'NOB', 'NNO')
+      test: normalize-space() = ('NOR', 'NOB', 'NNO', 'SME', 'SMI')
       message: Only Norwegian languages are allowed as unofficial languages
+
+  # /*/cbc:NoticeLanguageCode
+  BT-702(a)-notice:
+    - id: EFORMS-NOR-R900
+      test: normalize-space() = $official_languages or normalize-space() = ('NOR', 'NNO', 'NOB')
+      message: Only official languages are allowed
+    - id: EFORMS-NOR-R901
+      test: normalize-space() = $official_languages
+      message: Specified language is not an official EU language and must not be interpreted as an legally valid translation of this notice. - please use NOR-OPT-001-notice for non-official languages
+      role: WARN
+      flag: deprecation
+
+  # /*/cac:AdditionalNoticeLanguage/cbc:ID
+  BT-702(b)-notice:
+    - id: EFORMS-NOR-R902
+      test: normalize-space() = $official_languages or normalize-space() = ('NOR', 'NNO', 'NOB')
+      message: Only official languages are allowed
+    - id: EFORMS-NOR-R903
+      test: normalize-space() = $official_languages
+      message: Specified language is not an official EU language and must not be interpreted as an legally valid translation of this notice - please use NOR-OPT-001-notice for non-official languages
+      role: WARN
+      flag: deprecation

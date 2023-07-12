@@ -181,6 +181,9 @@
                     "type": "string",
                     "enum": ["ERROR", "WARN"],
                     "default": "ERROR"
+                },
+                "flag": {
+                    "type": "string"
                 }
             }
         }
