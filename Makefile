@@ -104,9 +104,9 @@ target/eforms-sdk-nor/fields/national.json: target/eforms-sdk bin/process-fields
 		-o target/eforms-sdk-nor/fields/national.json
 
 target/eforms-sdk-nor/notice-types: target/eforms-sdk
-	@echo "* Copy notice types"
+	@echo "* Create notice types"
 	@mkdir -p target/eforms-sdk-nor
-	@cp -r target/eforms-sdk/notice-types target/eforms-sdk-nor/notice-types
+	@./bin/notice-types
 
 target/eforms-sdk-nor/schemas: target/eforms-sdk
 	@echo "* Copy schemas (XSD)"
@@ -186,11 +186,17 @@ target/eforms-sdk-nor/view-templates: target/eforms-sdk
 
 target/eforms-sdk-nor/xslt: \
 	target/eforms-sdk-nor/xslt/nor-to-eforms.xslt
+#	target/eforms-sdk-nor/xslt/filter-unpublished.xslt
 
 target/eforms-sdk-nor/xslt/nor-to-eforms.xslt:
 	@echo "* Copy XSLT: nor-to-eforms"
 	@mkdir -p target/eforms-sdk-nor/xslt
 	@cp src/xslt/nor-to-eforms.xslt target/eforms-sdk-nor/xslt/nor-to-eforms.xslt
+
+target/eforms-sdk-nor/xslt/filter-unpublished.xslt:
+	@echo "* Generate unpublished XSLT"
+	@mkdir -p target/eforms-sdk-nor/xslt
+	@./bin/fields-unpublished
 
 target/eforms-sdk-nor/README.md: src/template/README.md
 	@echo "* Create README"
@@ -247,6 +253,7 @@ target/iso-schematron:
 	@mkdir -p target
 	@wget -q https://github.com/Schematron/schematron/releases/download/2020-10-01/iso-schematron-xslt2.zip -O target/iso-schematron.zip
 	@unzip -qo target/iso-schematron.zip -d target/iso-schematron
+	@rm target/iso-schematron.zip
 
 target/buildconfig.xml: \
 	target/sch/eu-eforms-static-can.xslt \

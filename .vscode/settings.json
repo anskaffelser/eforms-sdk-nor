@@ -2,6 +2,7 @@
     "yaml.schemas": {
         "schema/fields.json": "src/fields/*.yaml",
         "schema/languages.json": "src/languages.yaml",
+        "schema/notice-type.json": "src/notice-types/*.yaml",
         "schema/properties.json": "src/properties.yaml",
         "schema/translation.json": ["src/codelists/*.yaml", "src/translations/*.yaml"],
     }

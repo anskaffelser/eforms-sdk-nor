@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$ref": "#/definitions/document",
+    "definitions": {
+        "document": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "id",
+                "base",
+                "kind"
+            ],
+            "properties": {
+                "id": {
+                    "title": "Notice identifier",
+                    "oneOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ]
+                },
+                "base": {
+                    "title": "Notice type source",
+                    "oneOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ]
+                },
+                "kind": {
+                    "type": "string",
+                    "enum": [
+                        "eu",
+                        "national"
+                    ]
+                }
+            }
+        }
+    }
+}

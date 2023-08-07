@@ -1,0 +1,57 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'json'
+require 'slop'
+require 'yaml'
+require 'deep_merge'
+
+opts = Slop.parse do |o|
+  o.string '-c', '--config-folder', default: 'src/notice-types'
+  o.string '-i', '--input-folder', default: 'target/eforms-sdk/notice-types'
+  o.string '-o', '--output-folder', default: 'target/eforms-sdk-nor/notice-types'
+end
+
+listing = JSON.parse File.read File.join(opts[:input_folder], 'notice-types.json')
+listingMap = listing['noticeSubTypes'].to_h { |nt| [nt['subTypeId'], nt] }
+
+maps = Hash::new
+
+Dir[File.join(opts[:config_folder], '*.yaml')].each do |filename|
+  # Read files
+  config = YAML.load_file filename
+  doc = JSON.parse File.read File.join(opts[:input_folder], "#{config['base']}.json")
+
+  # Update noticeId
+  doc['noticeId'] = config['id'].to_s
+
+  # Write result
+  FileUtils.mkdir_p opts[:output_folder]
+  File.write File.join(opts[:output_folder], "#{doc['noticeId']}.json"), JSON.pretty_generate(doc, array_nl: '')
+    .gsub(/\[\s+/, "[ ")
+    .gsub(/\}\s+/, "} ")
+    .gsub(/\",[ ]+\"/, '", "')
+    .gsub(/\"\s+\]+/, '"]')
+    .gsub(/},\s+{/, '}, {')
+
+  if !maps.has_key? config['kind']
+    maps[config['kind']] = {}.merge.deep_merge(listing)
+    maps[config['kind']]['noticeSubTypes'] = []
+  end
+
+  maps[config['kind']]['noticeSubTypes'].append listingMap[config['base'].to_s].merge({
+    'subTypeId' => doc['noticeId'] 
+  })
+end
+
+maps.each do |kind, content|
+  documentTypes = content['noticeSubTypes'].map { |nst| nst['documentType'] }.uniq
+  content['documentTypes'] = content['documentTypes'].filter { |dt| documentTypes.include? dt['id'] }
+
+  File.write File.join(opts[:output_folder], "notice-types-#{kind}.json"), JSON.pretty_generate(content, array_nl: '')
+    .gsub(/\[\s+/, "[ ")
+    .gsub(/\}\s+/, "} ")
+    .gsub(/\",[ ]+\"/, '", "')
+    .gsub(/\"\s+\]+/, '"]')
+    .gsub(/},\s+{/, '}, {')
+end
