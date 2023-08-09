@@ -21,6 +21,7 @@
     <!-- Remove specific rules -->
     <xsl:template match="sch:assert[@id='BR-OPP-00070-0052']"/>
     <xsl:template match="sch:assert[@id='BR-OPP-00070-0105']"/>
+    <xsl:template match="sch:assert[@id='BR-OPP-00070-0109']"/>
 
     <!-- Remove schema types -->
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''1''')]" priority="100"/>

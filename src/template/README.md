@@ -9,7 +9,8 @@ The following folders contains modified content:
 
     * `codelists` - Translations are added to existing code list files
     * `fields` - Field definitions used above and below thresholds
-    * `schemas` - Modified XSDs for Norwegian notices (applies to only 1.6 and 1.7)
+    * `notice-types` - Modified notice types
+    * `schemas` - Modified XSDs for Norwegian notices
     * `schematrons` - Additional files for Norwegian notices and modified editions of the original files
     * `translations` - Additional translation files are added
 
