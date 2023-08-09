@@ -1,4 +1,3 @@
-﻿# encoding: utf-8
 mod-cir:
   name: Need for modifications because of circumstances which a diligent buyer could not predict.
   nob: Endringer som er nødvendige som følge av omstendigheter som en aktsom oppdragsgiver ikke kunne forutse
@@ -17,3 +16,5 @@ mod-rev:
 other:
   name: Other
   nob: Annet
+add-wss:
+  name: Need for additional works, services or supplies by the original contractor.

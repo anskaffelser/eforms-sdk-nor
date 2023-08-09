@@ -1,7 +1,8 @@
-﻿# encoding: utf-8
 anyw-cou:
   name: Anywhere in the given country
   nob: Hvor som helst i det gitte landet
 anyw-eea:
   name: Anywhere in the European Economic Area
   nob: Hvor som helst i EØS-området
+anyw:
+  name: Anywhere

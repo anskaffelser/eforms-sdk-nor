@@ -2764,3 +2764,139 @@ field|name|BT-198(BT-660)-LotResult:
   name: Date of when this will be published
 field|name|OPT-060-Lot:
   name: Execution requirement code
+field|description|BT-195(BT-541)-Lot-Fixed:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-541)-Lot-Threshold:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-541)-Lot-Weight:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-541)-LotsGroup-Fixed:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-541)-LotsGroup-Threshold:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-541)-LotsGroup-Weight:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-196(BT-541)-Lot-Fixed:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-541)-Lot-Threshold:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-541)-Lot-Weight:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-541)-LotsGroup-Fixed:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-541)-LotsGroup-Threshold:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-541)-LotsGroup-Weight:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-197(BT-541)-Lot-Fixed:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-541)-Lot-Threshold:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-541)-Lot-Weight:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-541)-LotsGroup-Fixed:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-541)-LotsGroup-Threshold:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-541)-LotsGroup-Weight:
+  name: The justification for not immediately publishing a field.
+field|description|BT-198(BT-541)-Lot-Fixed:
+  name: The later date at which the originally unpublished field shall be published.
+field|description|BT-198(BT-541)-Lot-Threshold:
+  name: The later date at which the originally unpublished field shall be published.
+field|description|BT-198(BT-541)-Lot-Weight:
+  name: The later date at which the originally unpublished field shall be published.
+field|description|BT-198(BT-541)-LotsGroup-Fixed:
+  name: The later date at which the originally unpublished field shall be published.
+field|description|BT-198(BT-541)-LotsGroup-Threshold:
+  name: The later date at which the originally unpublished field shall be published.
+field|description|BT-198(BT-541)-LotsGroup-Weight:
+  name: The later date at which the originally unpublished field shall be published.
+field|description|BT-541-Lot-FixedNumber:
+  name: A number linked to an award criterion.
+field|description|BT-541-Lot-ThresholdNumber:
+  name: A number linked to an award criterion.
+field|description|BT-541-Lot-WeightNumber:
+  name: A number linked to an award criterion.
+field|description|BT-541-LotsGroup-FixedNumber:
+  name: A number linked to an award criterion.
+field|description|BT-541-LotsGroup-ThresholdNumber:
+  name: A number linked to an award criterion.
+field|description|BT-541-LotsGroup-WeightNumber:
+  name: A number linked to an award criterion.
+field|description|OPA-36-Lot-Unit:
+  name: The (estimated) period from the start to the end of the contract, framework agreement, dynamic purchasing system or qualification system. This shall include any options and renewals.
+field|description|OPA-36-Part-Unit:
+  name: The (estimated) period from the start to the end of the contract, framework agreement, dynamic purchasing system or qualification system. This shall include any options and renewals.
+field|description|OPA-98-Lot-Unit:
+  name: The period, from the tender submission deadline, for which tenders must remain valid.
+field|hint|OPA-36-Lot-Unit:
+  name: Fill in either the duration dates OR the duration period
+field|hint|OPA-36-Part-Unit:
+  name: Fill in either the duration dates OR the duration period
+field|name|BT-195(BT-541)-Lot-Fixed:
+  name: Field to publish later
+field|name|BT-195(BT-541)-Lot-Threshold:
+  name: Field to publish later
+field|name|BT-195(BT-541)-Lot-Weight:
+  name: Field to publish later
+field|name|BT-195(BT-541)-LotsGroup-Fixed:
+  name: Field to publish later
+field|name|BT-195(BT-541)-LotsGroup-Threshold:
+  name: Field to publish later
+field|name|BT-195(BT-541)-LotsGroup-Weight:
+  name: Field to publish later
+field|name|BT-196(BT-541)-Lot-Fixed:
+  name: Justification for publishing later
+field|name|BT-196(BT-541)-Lot-Threshold:
+  name: Justification for publishing later
+field|name|BT-196(BT-541)-Lot-Weight:
+  name: Justification for publishing later
+field|name|BT-196(BT-541)-LotsGroup-Fixed:
+  name: Justification for publishing later
+field|name|BT-196(BT-541)-LotsGroup-Threshold:
+  name: Justification for publishing later
+field|name|BT-196(BT-541)-LotsGroup-Weight:
+  name: Justification for publishing later
+field|name|BT-197(BT-541)-Lot-Fixed:
+  name: Justification code
+field|name|BT-197(BT-541)-Lot-Threshold:
+  name: Justification code
+field|name|BT-197(BT-541)-Lot-Weight:
+  name: Justification code
+field|name|BT-197(BT-541)-LotsGroup-Fixed:
+  name: Justification code
+field|name|BT-197(BT-541)-LotsGroup-Threshold:
+  name: Justification code
+field|name|BT-197(BT-541)-LotsGroup-Weight:
+  name: Justification code
+field|name|BT-198(BT-541)-Lot-Fixed:
+  name: Date of when this will be published
+field|name|BT-198(BT-541)-Lot-Threshold:
+  name: Date of when this will be published
+field|name|BT-198(BT-541)-Lot-Weight:
+  name: Date of when this will be published
+field|name|BT-198(BT-541)-LotsGroup-Fixed:
+  name: Date of when this will be published
+field|name|BT-198(BT-541)-LotsGroup-Threshold:
+  name: Date of when this will be published
+field|name|BT-198(BT-541)-LotsGroup-Weight:
+  name: Date of when this will be published
+field|name|BT-541-Lot-FixedNumber:
+  name: Award criterion number
+field|name|BT-541-Lot-ThresholdNumber:
+  name: Award criterion number
+field|name|BT-541-Lot-WeightNumber:
+  name: Award criterion number
+field|name|BT-541-LotsGroup-FixedNumber:
+  name: Award criterion number
+field|name|BT-541-LotsGroup-ThresholdNumber:
+  name: Award criterion number
+field|name|BT-541-LotsGroup-WeightNumber:
+  name: Award criterion number
+field|name|OPA-36-Lot-Unit:
+  name: Duration
+field|name|OPA-36-Part-Unit:
+  name: Duration
+field|name|OPA-98-Lot-Unit:
+  name: Deadline until which the tender must remain valid

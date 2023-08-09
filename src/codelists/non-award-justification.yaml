@@ -1,4 +1,3 @@
-﻿# encoding: utf-8
 all-rej:
   name: All tenders, requests to participate or projects were withdrawn or found inadmissible
   nob: Alle tilbud, forespørsler å delta eller prosjekter ble trukket tilbake eller funnet "inadmissible" (?)
@@ -12,11 +11,13 @@ no-rece:
   name: No tenders, requests to participate or projects were received
   nob: Ingen tilbud, forespørsler å delta eller prosjekter er mottatt
 no-signed:
-  name: The highest ranked tenderer(s) refused to sign the contract.
+  name: The highest ranked tenderer(s) refused to sign the contract
   nob: Høyest rangert tilbuder(e) signerte ikke kontrakt
+  nob_verify: true
 one-admis:
-  name: Only one admissible tender, request to participate or project was received.
+  name: Only one admissible tender, request to participate or project was received
   nob: Kun ett "admissible" tilbud, forespørsel å delta eller prosjekt er mottatt
+  nob_verify: true
 other:
   name: Other
   nob: Annet
@@ -25,7 +26,7 @@ rev-body:
   nob: Beslutning av en klage- eller en annen jurisisk organ
 rev-buyer:
   name: Decision of the buyer following a tenderer's request to review the award
-  nob: Beslutning av oppdragsgiveren som følge at klage på tildeling av kontrakten fra en tilbyder/levarandør 
+  nob: Beslutning av oppdragsgiveren som følge at klage på tildeling av kontrakten fra en tilbyder/levarandør
 tch-pr-error:
   name: Decision of the buyer, not following a tenderer's request to review the award, because of technical or procedural errors
   nob: Besluttning av oppdragsgiveren, ikke som følge av klage på tildeling fra en tilbyder/leverandør, på grunn av tekniske eller  prosessfeil

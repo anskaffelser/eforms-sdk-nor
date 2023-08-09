@@ -1,109 +1,108 @@
-﻿# encoding: utf-8
 APR:
   name: April
-  nob: 
+  nob:
 AUG:
   name: August
-  nob: 
+  nob:
 AUTUMN:
   name: Autumn
-  nob: 
+  nob:
 CALENDAR_DAY:
   name: Calendar day
-  nob: 
+  nob:
 DAY:
   name: Day
-  nob: 
+  nob:
 DEC:
   name: December
-  nob: 
+  nob:
 FEB:
   name: February
-  nob: 
+  nob:
 FRI:
   name: Friday
-  nob: 
+  nob:
 HOUR:
   name: Hour
-  nob: 
+  nob:
 JAN:
   name: January
-  nob: 
+  nob:
 JUL:
   name: July
-  nob: 
+  nob:
 JUN:
   name: June
-  nob: 
+  nob:
 MAR:
   name: March
-  nob: 
+  nob:
 MAY:
   name: May
-  nob: 
+  nob:
 MIN:
   name: Minute
-  nob: 
+  nob:
 MON:
   name: Monday
-  nob: 
+  nob:
 MONTH:
   name: Month
-  nob: 
+  nob:
 NOV:
   name: November
-  nob: 
+  nob:
 OCT:
   name: October
-  nob: 
+  nob:
 QUARTER:
   name: Quarter
-  nob: 
+  nob:
 SAT:
   name: Saturday
-  nob: 
+  nob:
 SEC:
   name: Second
-  nob: 
+  nob:
 SEP:
   name: September
-  nob: 
+  nob:
 SPRING:
   name: Spring
-  nob: 
+  nob:
 SUMMER:
   name: Summer
-  nob: 
+  nob:
 SUN:
   name: Sunday
-  nob: 
+  nob:
 THU:
   name: Thursday
-  nob: 
+  nob:
 TUE:
   name: Tuesday
-  nob: 
+  nob:
 UNKNOWN:
   name: Unknown
-  nob: 
+  nob:
 UNLIMITED:
   name: Unlimited
-  nob: 
+  nob:
 WED:
   name: Wednesday
-  nob: 
+  nob:
 WEEK:
   name: Week
-  nob: 
+  nob:
 WINTER:
   name: Winter
-  nob: 
+  nob:
 WORKING_DAY:
   name: Working day
-  nob: 
+  nob:
 YEAR:
   name: Year
-  nob: 
+  nob:
 YEAR_HALF:
   name: Half year
-  nob: 
+  nob:

@@ -1,4 +1,3 @@
-﻿# encoding: utf-8
 t-esubm:
   name: Tenders submitted electronically
   nob: Tilbud er levert elektronisk
@@ -32,3 +31,5 @@ t-verif-inad-low:
 tenders:
   name: Tenders
   nob: Tilbud
+part-req:
+  name: Requests to participate

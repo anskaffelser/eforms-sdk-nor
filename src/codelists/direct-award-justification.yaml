@@ -1,124 +1,123 @@
-﻿# encoding: utf-8
 additional:
   name: Need for additional works or services by the original contractor
-  nob: 
+  nob:
 artistic:
   name: The contract can be provided only by a particular economic operator because of creation or acquisition of a unique work of art or artistic performance
-  nob: 
+  nob:
 bargain:
   name: Bargain purchase taking advantage of a particularly advantageous opportunity available for a very short time at a price considerably lower than market prices
-  nob: 
+  nob:
 below-thres:
   name: Contracts with estimated value below the procurement thresholds
-  nob: 
+  nob:
 below-thres-sme:
   name: Small scale contract to a small and medium sized enterprise
-  nob: 
+  nob:
 closure:
   name: Purchase on particularly advantageous terms from an economic operator which is definitely winding up its business activities
-  nob: 
+  nob:
 commodity:
   name: Procurement of supplies quoted and purchased on a commodity market
-  nob: 
+  nob:
 contest:
   name: Service contract to be awarded to the winner or one of winners under the rules of a design contest
-  nob: 
+  nob:
 crisis:
   name: The periods for the restricted procedure and the negotiated procedure with prior publication of a contract notice are incompatible with the urgency resulting from a crisis
-  nob: 
+  nob:
 defse-excl:
   name: Defence-specific and security-specific exclusions
-  nob: 
+  nob:
 dir24-list:
   name: Contracts listed in Directive 2014/24/EU Art. 7, but not falling within the scope of Directive 2014/25/EU
-  nob: 
+  nob:
 dir81-annexii:
   name: The contract falls within the services listed in Annex II of the Directive 2009/81/EC
-  nob: 
+  nob:
 dir81-transport:
   name: Contract related to the provision of air and maritime transport services for the armed forces of a Member State deployed or to be deployed abroad, under the strict conditions stated in the Directive
-  nob: 
+  nob:
 ecom-excl:
   name: Specific exclusion in the field of electronic communications
-  nob: 
+  nob:
 energy-supply:
   name: Contracts awarded for the supply of energy or of fuels for the production of energy
-  nob: 
+  nob:
 exclusive:
   name: The contract can be provided only by a particular economic operator because of exclusive rights, including intellectual property rights
-  nob: 
+  nob:
 existing:
   name: Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive
-  nob: 
+  nob:
 in-house:
   name: Public contract between organisations within the public sector ('in-house'), contracts awarded to affiliated undertakings, or contracts awarded to a joint venture or within a joint venture
-  nob: 
+  nob:
 int-oper:
   name: Internal operator
-  nob: 
+  nob:
 int-rules:
   name: Procedure according to international rules
-  nob: 
+  nob:
 irregular:
   name: Only irregular or unacceptable tenders were received in response to a previous notice. All and only those tenderers of the previous procedure which have satisfied the selection criteria, have not fulfilled the exclusion grounds and have satisfied formal requirements, were included in the negotiations
-  nob: 
+  nob:
 liquidator:
   name: Purchase on particularly advantageous terms from the liquidator in an insolvency procedure, an arrangement with creditors or a similar procedure under national laws and regulations
-  nob: 
+  nob:
 non-buyer-aw:
   name: Contract awarded by parties that are not buyers
-  nob: 
+  nob:
 non-contr:
   name: Certain cases of non-contractual nature
-  nob: 
+  nob:
 non-p-int:
   name: Contracts for non-pecuniary interest
-  nob: 
+  nob:
 not-wss:
   name: Contracts whose purpose is not the execution of works, the supply of products and the provision of services
-  nob: 
+  nob:
 other-activity:
   name: Contracts awarded for purposes other than the pursuit of a covered activity or for the pursuit of such an activity in a third country
-  nob: 
+  nob:
 other-exclusive:
   name: The contract can be provided only by a particular economic operator because of protection of other exclusive rights, including intellectual property rights, other than those defined in Directive 2014/23/EU Art. 5(10)
-  nob: 
+  nob:
 rail:
   name: Railway transport
-  nob: 
+  nob:
 rd:
   name: The contract concerns research and development services other than those referred to in Directive 2009/81/EC Art. 13
-  nob: 
+  nob:
 repetition:
   name: New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive
-  nob: 
+  nob:
 resd:
   name: Purpose of the contract is purely research, experiment, study or development under the conditions stated in the Directive
-  nob: 
+  nob:
 rl-third:
   name: Contracts awarded for purposes of resale or lease to third parties
-  nob: 
+  nob:
 sc-right:
   name: Service contract awarded on the basis of an exclusive right
-  nob: 
+  nob:
 serv-excl:
   name: Specific exclusions for service contracts
-  nob: 
+  nob:
 spe-arrang:
   name: Activities directly exposed to competition and contracts subject to special arrangements
-  nob: 
+  nob:
 technical:
   name: The contract can be provided only by a particular economic operator because of an absence of competition for technical reasons
-  nob: 
+  nob:
 tra-ser:
   name: Concessions for air transport services based on the granting of an operating licence within the meaning of Regulation (EC) No 1008/2008 or for public passenger transport services within the meaning of Regulation (EC) No 1370/2007
-  nob: 
+  nob:
 unsuitable:
   name: No suitable tenders, requests to participate, or applications were received in response to a previous notice
-  nob: 
+  nob:
 urgency:
   name: Extreme urgency brought about by events unforeseeable for the buyer
-  nob: 
+  nob:
 water-purch:
   name: Contracts awarded for the purchase of water
-  nob: 
+  nob:

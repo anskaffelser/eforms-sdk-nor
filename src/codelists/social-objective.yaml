@@ -1,4 +1,3 @@
-﻿# encoding: utf-8
 acc-all:
   name: Accessibility for all
   nob: Tilgjengelighet for alle
@@ -7,7 +6,7 @@ et-eq:
   nob: etnisk likestilling
 gen-eq:
   name: Gender equality
-  nob: Likestilling mellom kjønnene 
+  nob: Likestilling mellom kjønnene
 hum-right:
   name: Human rights due diligence in global supply chains
   nob: Aktsomhetsvurderinger for (å identifisere risiko og forhindre brudd på) menneskerettigheter i globale leverandørkjeder

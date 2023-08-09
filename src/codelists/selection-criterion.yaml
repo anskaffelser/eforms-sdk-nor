@@ -1,10 +1,9 @@
-﻿# encoding: utf-8
 ef-stand:
   name: Economic and financial standing
   nob: Økonomisk og finansiell kapasitet
 other:
   name: Other
-  nob: Annet 
+  nob: Annet
 sui-act:
   name: Suitability to pursue the professional activity
   nob: Egnethet

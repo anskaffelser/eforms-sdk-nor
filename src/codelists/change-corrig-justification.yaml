@@ -1,7 +1,7 @@
-﻿# encoding: utf-8
 cancel:
-  name: Cancellation Notice cancelled
-  nob: Avlysning kunngjøring 
+  name: Notice cancelled
+  nob: Avlysning kunngjøring
+  nob_verify: true
 cancel-intent:
   name: Cancellation intention
   nob: Avlysning intensjon
@@ -10,13 +10,14 @@ cor-buy:
   nob: Korreksjon kjøper
 cor-esen:
   name: eSender correction
-  nob: Korreksjon eSender 
+  nob: Korreksjon eSender
 cor-pub:
   name: Publisher correction
   nob: Korreksjon offentliggjøring
 info-release:
-  name: Availability information Information now avalible 
+  name: Information now available
   nob: Tilgjengelighetsinformasjon Informasjon nå tilgjengelig
+  nob_verify: true
 update-add:
   name: Information updated
   nob: Informasjon oppdatert

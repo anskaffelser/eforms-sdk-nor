@@ -1,10 +1,11 @@
-﻿# encoding: utf-8
 late-all:
-  name: All missing tenderer-related documents can be submitted later.
-  nob: 
+  name: At the discretion of the buyer, all missing tenderer-related documents may be submitted later.
+  nob:
+  nob_verify: true
 late-none:
   name: No documents can be submitted later.
-  nob: 
+  nob:
 late-some:
-  name: Some missing tenderer-related documents can be submitted later.
-  nob: 
+  name: At the discretion of the buyer, some missing tenderer-related documents may be submitted later.
+  nob:
+  nob_verify: true

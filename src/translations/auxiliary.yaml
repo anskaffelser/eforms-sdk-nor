@@ -234,3 +234,5 @@ auxiliary|text|start-duration-contract:
   name: Start date and duration of the contract
 auxiliary|text|winner-lots:
   name: Winner of these lots
+auxiliary|text|unpublished:
+  name: unpublished

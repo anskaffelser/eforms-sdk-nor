@@ -1,4 +1,3 @@
-﻿# encoding: utf-8
 ab-low:
   name: Unjustified rejection of abnormally low tenders
   nob: Grunnløs avvisning av unormalt lave tilbud
@@ -7,7 +6,7 @@ ar-split:
   nob: Kunstig oppdeling av kontrakter
 bid-rigging:
   name: Bid-rigging (established by a competition / anti-cartel office, a court or other competent body)
-  nob: 
+  nob:
 change-eval:
   name: Negotiation during the award procedure, including modification of the winning tender during evaluation
   nob: Forhandlinger i tildelingsfasen, inkludert endring av vinnende tilbud under evaluering
@@ -58,7 +57,7 @@ ncompl-com:
   nob: Avklaringer og/eller tilleggsinformasjon er ikke kommunisert og/eller publisert
 ncompl-sub:
   name: Insufficient or imprecise definition of the subject matter of the contract
-  nob: Anskaffelsens art og omfang/Anskaffelsens gjenstand er ikke beskrevet tilstrekkelig 
+  nob: Anskaffelsens art og omfang/Anskaffelsens gjenstand er ikke beskrevet tilstrekkelig
 no-notice:
   name: Lack of publication of contract notice or unjustified direct award
   nob: Unnlatelse av å kunngjøre konkurranse eller ulovlig direkteanskaffelse
@@ -91,7 +90,7 @@ unj-lim-subc:
   nob: Ulovlig begrensning i bruk av underleverandører
 unj-na-ppr:
   name: Unjustified non-application of public procurement rules
-  nob: Ulovlig omgåelse av anskaffelsesregelverket 
+  nob: Ulovlig omgåelse av anskaffelsesregelverket
 unj-nrl:
   name: Use of technical specification, selection criterion, award criterion, exclusion criterion, or contract performance condition that are discriminatory because of unjustified national, regional or local preferences
   nob: Bruk av teknisk spesifikasjon, tildelingskriterier, kvalifikasjonskrav, avvisningsgrunner eller kontraktskrav som er diskriminerende på grunn av nasjonale, regionale eller lokale preferanser.

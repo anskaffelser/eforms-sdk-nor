@@ -1,4 +1,3 @@
-﻿# encoding: utf-8
 2N:
   name: decibel
   nob: desibel
@@ -91,7 +90,7 @@ KWH:
   nob: kilowattime
 KWT:
   name: kilowatt
-  nob: 
+  nob:
 LH:
   name: labour hour
   nob: arbeidstime

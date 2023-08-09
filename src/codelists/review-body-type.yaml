@@ -1,4 +1,3 @@
-﻿# encoding: utf-8
 1-inst:
   name: First instance
   nob: Førsteinstans
@@ -19,4 +18,4 @@ buyer:
   nob: Kjøper
 other:
   name: Other
-  nob: Andre 
+  nob: Andre

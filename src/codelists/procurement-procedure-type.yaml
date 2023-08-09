@@ -1,7 +1,6 @@
-﻿# encoding: utf-8
 comp-tend:
   name: Competitive tendering
-  nob: ?? Anskaffelse
+  nob: "?? Anskaffelse"
 innovation:
   name: Innovation partnership
   nob: Innovasjonspartnerskap
@@ -22,4 +21,6 @@ oth-single:
   nob: andre ett-trinnsprosedyrer
 restricted:
   name: Restricted
-  nob: Begrenset 
+  nob: Begrenset
+comp-dial:
+  name: Competitive dialogue

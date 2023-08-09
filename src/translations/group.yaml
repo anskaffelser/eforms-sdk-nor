@@ -719,3 +719,81 @@ group|name|ND-ChangedSection:
   name: Section subject to change
 group|name|ND-ModifiedSection:
   name: Section subject to modification
+group|name|ND-AwardingTermsJuryMember:
+  name: Jury member
+group|name|ND-BusinessCapability:
+  name: Business capability
+group|name|ND-CompanyLegalEntity:
+  name: Company legal identifier
+group|name|ND-ContractSignatory:
+  name: Contract signatory
+group|name|ND-CountryOriginUnpublish:
+  name: Not Immediately Published (CountryOrigin)
+group|name|ND-FinancingParty:
+  name: Financing party
+group|name|ND-GroupCompositionLotReference:
+  name: Lot belonging to the Group
+group|name|ND-LotAwardCriterionFixNumberUnpublish:
+  name: Not Immediately Published (LotAwardCriterionFixNumber)
+group|name|ND-LotAwardCriterionThresholdNumberUnpublish:
+  name: Not Immediately Published (LotAwardCriterionThresholdNumber)
+group|name|ND-LotAwardCriterionWeightNumberUnpublish:
+  name: Not Immediately Published (LotAwardCriterionWeightNumber)
+group|name|ND-LotAwardFixedCriterionParameter:
+  name: Lot Award Fixed Criterion Parameter (Value and associated Code)
+group|name|ND-LotAwardThresholdCriterionParameter:
+  name: Lot Award Threshold Criterion Parameter (Value and associated Code)
+group|name|ND-LotAwardWeightCriterionParameter:
+  name: Lot Award Weight Criterion Parameter (Value and associated Code)
+group|name|ND-LotContractAdditionalNature:
+  name: Additional contract nature for the Lot
+group|name|ND-LotEnvironmentalImpactType:
+  name: Environmental impact procurement type
+group|name|ND-LotInnovativeAcquisitionType:
+  name: Innovative acquisition procurement type
+group|name|ND-LotResultContractReference:
+  name: Contract following an award decision
+group|name|ND-LotResultTenderReference:
+  name: Tender considered for the award decision
+group|name|ND-LotSocialObjectiveType:
+  name: Social objective procurement type
+group|name|ND-LotSubmissionLanguage:
+  name: Submission language
+group|name|ND-LotTenderOriginCountry:
+  name: Origin country of the product or service
+group|name|ND-LotsGroupAwardCriterionFixNumberUnpublish:
+  name: Not Immediately Published (LotsGroupAwardCriterionFixNumber)
+group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish:
+  name: Not Immediately Published (LotsGroupAwardCriterionThresholdNumber)
+group|name|ND-LotsGroupAwardCriterionWeightNumberUnpublish:
+  name: Not Immediately Published (LotsGroupAwardCriterionWeightNumber)
+group|name|ND-LotsGroupAwardFixedCriterionParameter:
+  name: Group of Lots Award Fixed Criterion Parameter (Value and associated Code)
+group|name|ND-LotsGroupAwardThresholdCriterionParameter:
+  name: Group of Lots Award Threshold Criterion Parameter (Value and associated Code)
+group|name|ND-LotsGroupAwardWeightCriterionParameter:
+  name: Group of Lots Award Weight Criterion Parameter (Value and associated Code)
+group|name|ND-OrganizationUboReference:
+  name: Organization UBO
+group|name|ND-PartContractAdditionalNature:
+  name: Additional contract nature for the Part
+group|name|ND-PayerParty:
+  name: Payer party
+group|name|ND-PreselectedParticipant:
+  name: Preselected party
+group|name|ND-PreviousNoticeReference:
+  name: Previous notice reference
+group|name|ND-ProcedureContractAdditionalNature:
+  name: Additional contract nature for the Procedure
+group|name|ND-ProcedureTransportServiceType:
+  name: Transport service type
+group|name|ND-SecondStageCriterionParameter:
+  name: Parameter (Number &amp; Code) for a Second Stage Criterion
+group|name|ND-SettledContractTenderReference:
+  name: Tender leading to the contract
+group|name|ND-SubContractorTakerReference:
+  name: Subcontractor taker
+group|name|ND-SubcontractingIndication:
+  name: Tender subcontracting indication
+group|name|ND-UBONationality:
+  name: UBO nationality

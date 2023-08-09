@@ -1,7 +1,8 @@
-﻿# encoding: utf-8
 open-nw:
   name: The winner was not yet chosen, but the competition is still ongoing.
   nob: Vinneren er ennå ikke kåret, men konkurransen pågår fortsatt.
 selec-w:
   name: At least one winner was chosen.
   nob: Minst en vinner ble kåret
+clos-nw:
+  name: No winner was chosen and the competition is closed.

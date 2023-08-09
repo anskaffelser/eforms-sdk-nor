@@ -1,4 +1,3 @@
-﻿# encoding: utf-8
 bri:
   name: Business registration information
   nob: Informasjon om virksomhetens registreringer
@@ -19,4 +18,4 @@ planning:
   nob: Planlegging
 result:
   name: Result
-  nob: Resultat 
+  nob: Resultat

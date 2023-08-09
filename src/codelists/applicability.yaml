@@ -1,10 +1,15 @@
-﻿# encoding: utf-8
-no:
-  name: No
+false:
+  name: 'false'
   nob: Nei
 not-known:
   name: Not yet known
   nob: Enda ikke kjent
-yes:
-  name: Yes
+true:
+  name: 'true'
+  nob: Ja
+'no':
+  name: 'No'
+  nob: Nei
+'yes':
+  name: 'Yes'
   nob: Ja

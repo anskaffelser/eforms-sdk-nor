@@ -1,7 +1,6 @@
-﻿# encoding: utf-8
 airport:
   name: Airport-related activities
-  nob: 
+  nob:
 defence:
   name: Defence
   nob: Forsvar

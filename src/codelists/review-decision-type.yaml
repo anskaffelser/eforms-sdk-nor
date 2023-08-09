@@ -1,10 +1,9 @@
-﻿# encoding: utf-8
 accepted:
   name: Accepted
   nob: Akseptert
 other:
   name: Other
-  nob: 
+  nob:
 rej-dl-passed:
   name: Rejected, because the complainant does not have legal standing, as the deadline for submitting a review request has already passed
   nob: avvist, fordi klager ikke har rettslig klageinteresse, fordi fristen for innsendig av klage er oversittet/ fristen for innsending av klage er oversittet, og klager har derfor ikke rettslig klageinteresse
@@ -25,4 +24,4 @@ rej-resolv:
   nob: Avvist fordi grunnlaget for klagen er falt bort/Avvist fordi problemet er løst
 rej-signed:
   name: Rejected, because the contract has already been signed
-  nob: Avvist fordi kontrakten allerede er signert. 
+  nob: Avvist fordi kontrakten allerede er signert.

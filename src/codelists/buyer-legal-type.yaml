@@ -1,4 +1,3 @@
-﻿# encoding: utf-8
 body-pl:
   name: Body governed by public law
   nob: Offentligrettslig organ
@@ -16,13 +15,11 @@ cga:
   nob: Sentral statlig myndighet
 def-cont:
   name: Defence contractor
-  nob: 
 eu-ins-bod-ag:
   name: EU institution, body or agency
   nob: EU institusjon eller internasjonal organisasjon
 eu-int-org:
   name: European Institution/Agency or International Organisation
-  nob: 
 grp-p-aut:
   name: Group of public authorities
   nob: Sammenslutning av offenltige myndigheter
@@ -34,34 +31,23 @@ la:
   nob: lokal styresmakt
 org-sub:
   name: Organisation awarding a contract subsidised by a contracting authority
-  nob: 
 org-sub-cga:
   name: Organisation awarding a contract subsidised by a central government authority
-  nob: 
 org-sub-la:
   name: Organisation awarding a contract subsidised by a local authority
-  nob: 
 org-sub-ra:
   name: Organisation awarding a contract subsidised by a regional authority
-  nob: 
 pub-undert:
   name: Public undertaking
-  nob: 
 pub-undert-cga:
   name: Public undertaking, controlled by a central government authority
-  nob: 
 pub-undert-la:
   name: Public undertaking, controlled by a local authority
-  nob: 
 pub-undert-ra:
   name: Public undertaking, controlled by a regional authority
-  nob: 
 ra:
   name: Regional authority
-  nob: 
 rl-aut:
   name: Regional or local authority
-  nob: 
 spec-rights-entity:
   name: Entity with special or exclusive rights
-  nob: 

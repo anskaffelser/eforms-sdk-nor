@@ -1,4 +1,6 @@
-﻿# encoding: utf-8
 fix-unit:
-  name: Fixed (per unit)
+  name: Fixed value (per unit)
   nob: Fast (per enhet)
+  nob_verify: true
+fix-tot:
+  name: Fixed value (total)
