@@ -6,6 +6,21 @@
         "noticeTypes": {
             "$ref": "#/definitions/noticeTypes"
         },
+        "aliases": {
+            "type": "object",
+            "patternProperties": {
+                "^.+$": {
+                    "oneOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ]
+                }
+            }
+        },
         "fields": {
             "type": "object",
             "patternProperties": {
@@ -179,7 +194,10 @@
                 },
                 "role": {
                     "type": "string",
-                    "enum": ["ERROR", "WARN"],
+                    "enum": [
+                        "ERROR",
+                        "WARN"
+                    ],
                     "default": "ERROR"
                 },
                 "flag": {

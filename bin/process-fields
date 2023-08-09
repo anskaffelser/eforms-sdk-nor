@@ -21,6 +21,8 @@ groups = source['xmlStructure'].to_h {|o| [o['id'], o]}
 fields = source['fields'].to_h {|o| [o['id'], o]}
 all = Hash::new.merge(groups).merge(fields)
 
+# Aliases
+aliases = config.fetch('aliases', {}).to_h { |k,v| [k.to_s, v.to_s] }
 
 # Remove references to notice types not used
 if config.has_key? 'noticeTypes'
@@ -30,6 +32,14 @@ if config.has_key? 'noticeTypes'
     ['forbidden', 'mandatory'].each do |kind|
       constraints = field.fetch(kind, {}).fetch('constraints', [])
       constraints.filter { |c| c.has_key? 'noticeTypes' }.each do |constraint|
+        # Apply aliases
+        aliases.each do |a,source|
+          if constraint.fetch('noticeTypes').include? source
+            constraint['noticeTypes'].append a
+          end
+        end
+
+        # Filter notice types
         constraint['noticeTypes'] = constraint['noticeTypes'].filter { |nt| noticeTypes.include? nt }
         constraints.delete(constraint) if constraint['noticeTypes'].size == 0
       end

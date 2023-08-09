@@ -1,4 +1,8 @@
-noticeTypes: [16, 30]
+noticeTypes: [N16, N30]
+
+aliases:
+  N16: 16
+  N30: 30
 
 fields:
   OPT-002-notice:
@@ -23,6 +27,12 @@ rules:
     - id: EFORMS-NOR-R003
       test: normalize-space() = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE', 'NOR', 'NOB', 'NNO')
       message: ...
+
+  # /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode
+  OPP-070-notice:
+    - id: EFORMS-NOR-R010
+      test: normalize-space() = ('N16', 'N30')
+
 
   # /*
   ND-Root:

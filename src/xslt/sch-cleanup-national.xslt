@@ -18,6 +18,10 @@
     <xsl:template match="sch:rule[@context = '/*/cbc:NoticeLanguageCode']" />
     <xsl:template match="sch:rule[@context = '/*/cac:AdditionalNoticeLanguage/cbc:ID']" />
 
+    <!-- Remove specific rules -->
+    <xsl:template match="sch:assert[@id='BR-OPP-00070-0052']"/>
+    <xsl:template match="sch:assert[@id='BR-OPP-00070-0105']"/>
+
     <!-- Remove schema types -->
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''1''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''2''')]" priority="100"/>
