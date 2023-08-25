@@ -1,4 +1,5 @@
 /.bundle/vendor
 /.idea
 /target
+/src/tests/*/local
 .DS_Store

@@ -80,3 +80,13 @@ rules:
     - id: EFORMS-NOR-R801
       test: ((current-date() - xs:date(text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(text())) ge xs:dayTimeDuration('-P1D'))
       message: Notice Dispatch Date must be between 0 and 24 hours before the current date.
+
+  BT-131(d)-Lot:
+    - id: EFORMS-NOR-R200
+      test: normalize-space() = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndDate[1]/normalize-space()
+      message: All lots must have same deadline
+    
+  BT-131(t)-Lot:
+    - id: EFORMS-NOR-R201
+      test: normalize-space() = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndTime[1]/normalize-space()
+      message: All lots must have same deadline
