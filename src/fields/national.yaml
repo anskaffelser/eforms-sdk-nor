@@ -33,7 +33,6 @@ rules:
     - id: EFORMS-NOR-R010
       test: normalize-space() = ('N16', 'N30')
 
-
   # /*
   ND-Root:
     - id: EFORMS-NOR-R004
@@ -43,3 +42,10 @@ rules:
     - id: EFORMS-NOR-R007
       test: not(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages)
       message: Non-official languages are not used for national notices.
+
+  # /*/cbc:IssueDate
+  BT-05(a)-notice:
+    # Copied from stage 6b
+    - id: EFORMS-NOR-R801
+      test: ((current-date() - xs:date(text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(text())) ge xs:dayTimeDuration('-P1D'))
+      message: Notice Dispatch Date must be between 0 and 24 hours before the current date.

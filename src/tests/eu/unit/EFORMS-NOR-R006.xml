@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSet xmlns="http://difi.no/xsd/vefa/validator/1.0" configuration="eforms-${EFORMS_MINOR}-eu-cn">
+	<assert>
+		<scope>EFORMS-NOR-R006</scope>
+	</assert>
+	<test>
+		<assert>
+            <description>Only English</description>
+			<error>EFORMS-NOR-R006</error>
+		</assert>
+		<ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"
+            xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+			xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+			
+            <cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
+			
+		</ContractNotice>
+	</test>
+	<test>
+		<assert>
+            <description>Norwegian in addition to English</description>
+			<success>EFORMS-NOR-R006</success>
+		</assert>
+		<ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"
+            xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+			xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+			
+            <cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
+            <cac:AdditionalNoticeLanguage>
+                <cbc:ID>NOR</cbc:ID>
+            </cac:AdditionalNoticeLanguage>
+			
+		</ContractNotice>
+	</test>
+	<test>
+		<assert>
+            <description>Only Norwegian</description>
+			<success>EFORMS-NOR-R006</success>
+		</assert>
+		<ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"
+            xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+			xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+			
+            <cbc:NoticeLanguageCode>NOR</cbc:NoticeLanguageCode>
+
+		</ContractNotice>
+	</test>
+</testSet>
