@@ -20,8 +20,6 @@
 
     <!-- Remove specific rules -->
     <xsl:template match="sch:assert[@id='BR-OPP-00070-0052']"/>
-    <xsl:template match="sch:assert[@id='BR-OPP-00070-0105']"/>
-    <xsl:template match="sch:assert[@id='BR-OPP-00070-0109']"/>
 
     <!-- Remove schema types -->
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''1''')]" priority="100"/>
@@ -69,6 +67,10 @@
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''X02''')]" priority="100"/>
         
 
+    <xsl:template match="sch:assert/@test[contains(current(), 'efac:NoticeSubType/cbc:SubTypeCode')]">
+        <xsl:attribute name="test" select="replace(current(), '''([0-9]{1,2})''', '''N$1''')" />
+    </xsl:template>
+
     <!-- Testing out method to make validation faster -->
     <xsl:template match="sch:rule[contains(@context, '[$noticeSubType =')]">
         <xsl:copy>
@@ -97,6 +99,5 @@
             <xsl:apply-templates select="node()"/>
         </xsl:copy>
     </xsl:template>
-
 
 </xsl:stylesheet>
