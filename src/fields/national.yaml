@@ -1,6 +1,7 @@
-noticeTypes: [N16, N30]
+noticeTypes: [N4, N16, N30]
 
 aliases:
+  N4: 4
   N16: 16
   N30: 30
 
@@ -31,7 +32,7 @@ rules:
   # /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode
   OPP-070-notice:
     - id: EFORMS-NOR-R010
-      test: normalize-space() = ('N16', 'N30')
+      test: normalize-space() = ('N4', 'N16', 'N30')
 
   # /*
   ND-Root:

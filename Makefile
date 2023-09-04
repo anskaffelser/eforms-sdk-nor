@@ -183,6 +183,7 @@ target/eforms-sdk-nor/translations/business-term_nb.xml: target/eforms-sdk src/p
 target/eforms-sdk-nor/view-templates: target/eforms-sdk
 	@mkdir -p target/eforms-sdk-nor
 	@cp -r target/eforms-sdk/view-templates target/eforms-sdk-nor/view-templates
+	@cp -r target/eforms-sdk/view-templates/4.efx target/eforms-sdk-nor/view-templates/N4.efx
 	@cp -r target/eforms-sdk/view-templates/16.efx target/eforms-sdk-nor/view-templates/N16.efx
 	@cp -r target/eforms-sdk/view-templates/30.efx target/eforms-sdk-nor/view-templates/N30.efx
 
