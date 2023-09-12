@@ -70,6 +70,9 @@ jobs:
       - name: Fetch eForms SDK
         run: make target/eforms-sdk
 
+      - name: Fetch Saxon
+        run: make target/saxon
+
       - name: Status
         run: make status
 

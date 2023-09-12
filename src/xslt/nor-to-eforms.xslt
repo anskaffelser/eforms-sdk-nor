@@ -29,7 +29,7 @@ Stylesheet used to convert eForms notifications created according to Norwegian r
 
     <!-- Remove traces of non-official EU languages -->
     <xsl:template match="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages"/>
-    <xsl:template match="cbc:*[@languageID != $official_languages]"/>
+    <xsl:template match="cbc:*[@languageID][not(@languageID = $official_languages)]"/>
 
     <!-- Rebuild BT-702 (DEPRECATED) -->
     <xsl:template match="/*/cac:AdditionalNoticeLanguage"/>
