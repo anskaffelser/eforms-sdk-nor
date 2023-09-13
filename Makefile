@@ -185,7 +185,7 @@ target/eforms-sdk-nor/view-templates: target/eforms-sdk
 	@cp -r target/eforms-sdk/view-templates target/eforms-sdk-nor/view-templates
 	@cp -r target/eforms-sdk/view-templates/4.efx target/eforms-sdk-nor/view-templates/N4.efx
 	@cp -r target/eforms-sdk/view-templates/16.efx target/eforms-sdk-nor/view-templates/N16.efx
-	@cp -r target/eforms-sdk/view-templates/30.efx target/eforms-sdk-nor/view-templates/N30.efx
+	@cp -r target/eforms-sdk/view-templates/29.efx target/eforms-sdk-nor/view-templates/N29.efx
 
 target/eforms-sdk-nor/xslt: \
 	target/eforms-sdk-nor/xslt/nor-to-eforms.xslt

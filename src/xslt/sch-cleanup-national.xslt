@@ -25,7 +25,7 @@
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''1''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''2''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''3''')]" priority="100"/>
-    <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''4''')]" priority="100"/>
+
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''5''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''6''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''7''')]" priority="100"/>
@@ -37,6 +37,7 @@
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''13''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''14''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''15''')]" priority="100"/>
+
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''17''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''18''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''19''')]" priority="100"/>
@@ -49,7 +50,8 @@
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''26''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''27''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''28''')]" priority="100"/>
-    <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''29''')]" priority="100"/>
+
+    <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''30''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''31''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''32''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''33''')]" priority="100"/>
