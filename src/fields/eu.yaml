@@ -40,10 +40,10 @@ rules:
   ND-Root:
     - id: EFORMS-NOR-R006
       # test: /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID[normalize-space() = ('NOR', 'NOB', 'NNO')]
-      test: /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID[normalize-space() = ('NOR', 'NOB', 'NNO')] or /*/cbc:NoticeLanguageCode[normalize-space() = ('NOR', 'NOB', 'NNO')] or /*/cac:AdditionalNoticeLanguage/cbc:ID[normalize-space() = ('NOR', 'NOB', 'NNO')]
+      test: ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID[normalize-space() = ('NOR', 'NOB', 'NNO')] or cbc:NoticeLanguageCode[normalize-space() = ('NOR', 'NOB', 'NNO')] or cac:AdditionalNoticeLanguage/cbc:ID[normalize-space() = ('NOR', 'NOB', 'NNO')]
       message: Minimum one Norwegian language must be provided as unofficial language
     - id: EFORMS-NOR-R008
-      test: /*/cbc:NoticeLanguageCode[normalize-space() = $official_languages] or /*/cac:AdditionalNoticeLanguage/cbc:ID[normalize-space() = $official_languages]
+      test: cbc:NoticeLanguageCode[normalize-space() = $official_languages] or cac:AdditionalNoticeLanguage/cbc:ID[normalize-space() = $official_languages]
       message: Minimum one of the official languages must be provided
   
   # /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID

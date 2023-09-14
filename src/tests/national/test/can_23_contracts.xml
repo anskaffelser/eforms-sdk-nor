@@ -132,7 +132,7 @@ EFORMS-NOR-R801
 						</efac:TenderingParty>
 					</efac:NoticeResult>
 					<efac:NoticeSubType>
-						<cbc:SubTypeCode listName="notice-subtype">N30</cbc:SubTypeCode>
+						<cbc:SubTypeCode listName="notice-subtype">N29</cbc:SubTypeCode>
 					</efac:NoticeSubType>
 					<efac:Organizations>
 						<efac:Organization>

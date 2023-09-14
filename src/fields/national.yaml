@@ -21,18 +21,19 @@ rules:
   BT-702(a)-notice:
     - id: EFORMS-NOR-R002
       test: normalize-space() = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE', 'NOR', 'NOB', 'NNO')
-      message: ...
+      message: Main language must be Norwegian or one of the official languages.
 
   # /*/cac:AdditionalNoticeLanguage/cbc:ID
   BT-702(b)-notice:
     - id: EFORMS-NOR-R003
       test: normalize-space() = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE', 'NOR', 'NOB', 'NNO')
-      message: ...
+      message: Additional language must be Norwegian or one of the official languages.
 
   # /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode
   OPP-070-notice:
     - id: EFORMS-NOR-R010
       test: normalize-space() = ('N4', 'N16', 'N29')
+      message: Notice type must be N4, N16 or N29.
 
   # /*
   ND-Root:

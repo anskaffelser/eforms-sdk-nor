@@ -18,6 +18,22 @@
 	</test>
 	<test>
 		<assert>
+            <description>English in addition to Norwegian</description>
+			<success>EFORMS-NOR-R008</success>
+		</assert>
+		<ContractNotice xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2"
+            xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+			xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+			
+			<cbc:NoticeLanguageCode>NOR</cbc:NoticeLanguageCode>
+			<cac:AdditionalNoticeLanguage>
+				<cbc:ID>ENG</cbc:ID>
+			</cac:AdditionalNoticeLanguage>
+			
+		</ContractNotice>
+	</test>
+	<test>
+		<assert>
             <description>Norwegian in addition to English</description>
 			<success>EFORMS-NOR-R008</success>
 		</assert>
