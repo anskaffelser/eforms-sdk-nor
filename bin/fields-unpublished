@@ -45,8 +45,8 @@ doc = Nokogiri::XML::Builder.new do |xml|
           xml.template :match => "#{field['xpathAbsolute']}[#{ufid}]"
           
           # Remove reason code and description, preserve indication of privacy and potential publication date
-          xml.template :match => fields[field['privacy']['reasonCodeFieldId']]['xpathAbsolute']
-          xml.template :match => fields[field['privacy']['reasonDescriptionFieldId']]['xpathAbsolute']
+          #xml.template :match => fields[field['privacy']['reasonCodeFieldId']]['xpathAbsolute']
+          #xml.template :match => fields[field['privacy']['reasonDescriptionFieldId']]['xpathAbsolute']
         else
 
           puts "#{id}: #{field['name']}"

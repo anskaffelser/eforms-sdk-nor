@@ -189,14 +189,14 @@ target/eforms-sdk-nor/view-templates: target/eforms-sdk
 
 target/eforms-sdk-nor/xslt: \
 	target/eforms-sdk-nor/xslt/nor-to-eforms.xslt
-#	target/eforms-sdk-nor/xslt/filter-unpublished.xslt
+	target/eforms-sdk-nor/xslt/filter-unpublished.xslt
 
 target/eforms-sdk-nor/xslt/nor-to-eforms.xslt:
 	@echo "* Copy XSLT: nor-to-eforms"
 	@mkdir -p target/eforms-sdk-nor/xslt
 	@cp src/xslt/nor-to-eforms.xslt target/eforms-sdk-nor/xslt/nor-to-eforms.xslt
 
-target/eforms-sdk-nor/xslt/filter-unpublished.xslt:
+target/eforms-sdk-nor/xslt/filter-unpublished.xslt: bin/fields-unpublished
 	@echo "* Generate unpublished XSLT"
 	@mkdir -p target/eforms-sdk-nor/xslt
 	@./bin/fields-unpublished
