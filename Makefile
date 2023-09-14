@@ -188,7 +188,7 @@ target/eforms-sdk-nor/view-templates: target/eforms-sdk
 	@cp -r target/eforms-sdk/view-templates/29.efx target/eforms-sdk-nor/view-templates/N29.efx
 
 target/eforms-sdk-nor/xslt: \
-	target/eforms-sdk-nor/xslt/nor-to-eforms.xslt
+	target/eforms-sdk-nor/xslt/nor-to-eforms.xslt \
 	target/eforms-sdk-nor/xslt/filter-unpublished.xslt
 
 target/eforms-sdk-nor/xslt/nor-to-eforms.xslt:
