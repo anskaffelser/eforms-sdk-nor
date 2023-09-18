@@ -16,7 +16,7 @@ This SDK completes the official SDK with two extensions needed for the Norwegian
 This SDK is not [tailoring of eForms](https://op.europa.eu/en/publication-detail/-/publication/73a78487-cc8b-11ea-adf7-01aa75ed71a1) for Norway (changing the content in eForms). For now, we have opted not to do any tailoring.
 
 
-## How to use?
+## How to identify Norwegian eForms?
 
 To indicate that you are submitting Norwegian eForms to us please extend the content in your CustomizationID-element where you indicate which version of eForms you are submitting with one of the following two constants:
 
@@ -33,10 +33,17 @@ Example:
 
 ## Testing with the new Doffin API
 
-The new Doffin API mimics the [TED API](https://docs.ted.europa.eu/api/index.html) as closely as possible. For now we are not returning any validation results. Please make sure that you are using valid and well-formed eForms messages before testing the integration. To test for validity and well-formness please use our online [validator tool] (https://anskaffelser.dev/service/validator/) or a local validator service. The latter is recommended if you want to do realtime validation in production.  
+You can use the [beta version of the new Doffin API](https://dof-notices-dev-api.developer.azure-api.net/) to test the use of the new Doffin. We provide two API-endpoints:
+* [Notices API](https://dof-notices-dev-api.developer.azure-api.net/api-details#api=eform-api&operation=645cce8e4ffd2d6d5768181e) used to submit, stop, validate and translate notices. This API mimics the [TED API](https://docs.ted.europa.eu/api/index.html) as closely as possible.
+* [Public API](https://dof-notices-dev-api.developer.azure-api.net/api-details#api=public-api&operation=65015b9b566f983bdcfcaee7) used to search for and download published notices.
+
+To start using using the API's you first have to [sign up](https://dof-notices-dev-api.developer.azure-api.net/signup) as a user, log in and [create one or more subscriptions](https://dof-notices-dev-api.developer.azure-api.net/profile).
+
+### Important regarding the Notices API
+For now we are not returning any validation results. Please make sure that you are using valid and well-formed eForms messages before testing the integration. To test for validity and well-formness please use our online [validator tool] (https://anskaffelser.dev/service/validator/) or a local validator service. The latter is recommended if you want to do realtime validation in production.  
 
 Please note that eForms messages using these extensions will fail validation in TED unless you pre-process with using the xslt-filter provided in this repository. 
 
-The Doffin API-endpoint supports the eForms-versions included in the newest release of this repository. 
+The endpoint supports the eForms-versions included in the newest release of this repository. 
 
-Please contact us on [doffin@dfo.no](mailto:doffin@dfo.no) to get access to the Doffin API. 
+Once you have created a subscription for the Notices API please contact us on [doffin@dfo.no](mailto:doffin@dfo.no) to get the subscription approved. 
