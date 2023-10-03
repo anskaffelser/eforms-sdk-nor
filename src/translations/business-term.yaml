@@ -950,8 +950,9 @@ business-term|name|BT-196:
   nob: Beskrivelse av begrunnelse for å ikke publisere
 business-term|name|BT-198:
   name:   Unpublished Accessibility Date Unpublished Access Date
-  nob: Ikke publisert - Dato for tilgjengeliggjøring
-Upublisert tilgangsdato
+  nob: |
+    Ikke publisert - Dato for tilgjengeliggjøring
+    Upublisert tilgangsdato
 business-term|name|BG-77:
   name: Modification
   nob: Endring av kontrakt
@@ -1029,7 +1030,6 @@ business-term|description|BG-125:
   nob: Informasjon om en veiledende eller tilsvarende kunngjøring tilknyttet denne kunngjøringen. Denne informasjonen kan variere per del. Ved en veiledende kunngjøring som bare er brukt til informasjon, kan denne informasjonen variere per del av kunngjøringen som senere kan bli en delkontrakt eller en selvstendig anskaffelse.
 business-term|description|BT-1371:
   name: An identifier of one or more lots. In case of a prior information notice used only for information, the identifier of a part of the notice that may later become a lot or a self-standing procedure. The information in the previous planning section refers to this lot (or part) or these lots (or parts).  
-  nob:
 business-term|description|BT-125:
   name: The identifier of a prior information notice or another similar notice related to this notice.
   nob: Identifikator for en forhåndskunngjøring- eller annen kunngjøring med tilknytning til denne kunngjøringen
@@ -1089,7 +1089,7 @@ business-term|description|BT-633:
   nob: Virksomheten er en fysisk person, f.eks. et enkeltpersonforetak.
 business-term|description|BT-08:
   name: The role of the organisation in the procurement procedure (e.g. buyer, winner). A notice shall must contain all organisations in the procedure that have the role of a buyer, a winner, a review body, a buyer acquiring supplies and/or services intended for other buyers, a buyer awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers.
-  nob: Rollen virksomheten har i anskaffelsen (f.eks. kjøper, vinner,). En kunngjøring må skal inneholde alle virksomhetene i anskaffelsen som har en av følgende roller: kjøper, vinner, klageorgan, kjøper som anskaffer varer og/eller tjenester på vegne av andre kjøpere, en kjøper som tildeler offentlige konrakter eller inngår rammeavaler om bygg- og anleggarbeider, varer eller tjenester på vegne av andre kjøpere.
+  nob: "Rollen virksomheten har i anskaffelsen (f.eks. kjøper, vinner,). En kunngjøring må skal inneholde alle virksomhetene i anskaffelsen som har en av følgende roller: kjøper, vinner, klageorgan, kjøper som anskaffer varer og/eller tjenester på vegne av andre kjøpere, en kjøper som tildeler offentlige konrakter eller inngår rammeavaler om bygg- og anleggarbeider, varer eller tjenester på vegne av andre kjøpere."
 business-term|description|BT-770:
   name: The sub-role of the organisation in the procurement procedure (e.g. group leader, organisation providing additional information about the procurement procedure).
   nob: Virksomhetens funksjon i anskaffelsen (f.eks. gruppelder, virksomhet som gir supplerende opplysninger om anskaffelsen)
@@ -1164,9 +1164,9 @@ business-term|description|BT-557:
   nob: Identifikatorer for delkontrakter. En identifikator for en delkontrakt i denne anskaffelsen som er med i en gruppe delkontrakter der den maksimale verdien er lavere enn summen av individuelt estimerte maksverdier for alle delkontraktene sammenlagt, f.eks. når det samme budsjettet deles av flere delkontrakter.
 business-term|description|BT-157:
   name: The estimated maximum value which can may be spent in a framework agreement within a group of lots. This information can be provided when the estimated maximum value of a group of lots is lower than the sum of estimated maximum values of individual lots in this group (e.g. when the same budget is shared for several lots). Estimated refers to estimation at the time of launching the call for competition. Maximum value means a value covering all contracts to be awarded within a framework agreement over its whole duration, including options and renewals.
-  nob: Den anslåtte maksimale verdien som kan brukes for en gruppe delkontrakter i en rammeavtale. Disse opplysningene kan oppgis når den anslåtte maksimale verdien for en gruppe av delkontrakter er lavere enn summen av anslåtte verdier for de enkelte delkontraktene i gruppen (for eksempel når samme budsjett brukes for flere delkontrakter).
-
- "Anslått" henviser til den skjønnsmessige vurderingen som foretas på tidspunktet for kunngjøringen av konkurransen. Maksimale verdi betyr verdien av alle kontrakter som skal tildeles i en rammeavtale, i  hele avtaleperioden, inkludert opsjoner og fornyelse.
+  nob: |
+    Den anslåtte maksimale verdien som kan brukes for en gruppe delkontrakter i en rammeavtale. Disse opplysningene kan oppgis når den anslåtte maksimale verdien for en gruppe av delkontrakter er lavere enn summen av anslåtte verdier for de enkelte delkontraktene i gruppen (for eksempel når samme budsjett brukes for flere delkontrakter).
+    "Anslått" henviser til den skjønnsmessige vurderingen som foretas på tidspunktet for kunngjøringen av konkurransen. Maksimale verdi betyr verdien av alle kontrakter som skal tildeles i en rammeavtale, i  hele avtaleperioden, inkludert opsjoner og fornyelse.
 business-term|description|BG-261:
   name: Information about the classification(s) describing the purchase. The common procurement vocabulary (CPV) classification type shall must be used. Additionally, other classifications may be added in the future. (e.g. the World Health Organisation's anatomical therapeutic chemical (ATC) classification for pharmaceuticals; the medical devices nomenclature under the Regulation (EU) 2017/745) may, if made available by the Publications Office of the EU, be used.)
   nob: Informasjon om det eller de klassifiseringssystem som beskriver anskaffelsen. Klassifiseringstypene i felles anskaffelsvokabular (CPV) skal benyttes. I tillegg  kan andre klassifiseringssystemer benyttes i fremtiden, for eksempel Verdens Helseorganisasjons anatomiske, terapeutiske og kjemiske klassifiseringssystem (ATC-systemet) for legemidler, nomenklaturet for medisinsk utstyrt i henhold til forordning (EU) 2017/745 hvis disse er offentliggjort av EUs publikasjonskontor.
@@ -1193,8 +1193,7 @@ business-term|description|BT-54:
   nob: Beskrivelsen av opsjoner
 business-term|description|BT-94:
   name: Procurement whose purpose is likely to also be included in another procedure in the foreseeable future. (For example, a regularly re-tendered municipal service. This does not include awarding multiple contracts within a single qualification system, framework agreement, or a dynamic purchasing system.)
-  nob: Anskaffelse hvis formål sannsynligvis vil bli inkludert i en anskaffelse i overskuelig fremtid. For eksempel en tjenesteytelse som regelmessig anskaffes. Dette omfatter ikke tildeling av flere kontrakter innenfor en og samme kvalifiseringsordning, rammeavtale
-eller den samme dynamiske innkjøpsordning.
+  nob: Anskaffelse hvis formål sannsynligvis vil bli inkludert i en anskaffelse i overskuelig fremtid. For eksempel en tjenesteytelse som regelmessig anskaffes. Dette omfatter ikke tildeling av flere kontrakter innenfor en og samme kvalifiseringsordning, rammeavtale eller den samme dynamiske innkjøpsordning.
 business-term|description|BT-95:
   name: Any additional information about recurrence (e.g. estimated timing).
   nob: Ytterligere informasjon om gjentakelse. Eksempelvis tidsestimater
@@ -1203,7 +1202,6 @@ business-term|description|BG-708:
   nob: Informasjon om hvor oppdraget i hovedsak skal utføres ved en bygg- og anleggskontrakt, eller hvor tjenesten eller varen i skal leveres. Oppgi alle relevante koder, selv der stedet dekker flere NUTS 3 koder for eksempel en motorvei, et nettverk av kontorer. Informasjonen kan varierer pr delkontrakt. I forhåndskunngjøringer som kun er benyttet til informasjonsformål kan denne informasjonen være ulik i hver del av kunngjøringen som senere kan bli en delkontrakt eller en selvstendig anskaffelse.
 business-term|description|BT-1372:
   name: An identifier of one or more lots. In case of PINs used only for information, the identifier of one or more parts of the notice that may later become lots or a self-standing procedures. The information in the place of performance section refers to this lot (or part) or these lots (or parts).
-  nob:
 business-term|description|BT-5101:
   name: The name of the street, road, avenue, etc., of the place of performance and further identification (e.g. building number).
   nob: Navnet på den gate, vei, etc .for gjennomføringsstedet, samt ytterligere informasjon (slik som husnummer).
@@ -1230,7 +1228,6 @@ business-term|description|BG-36:
   nob: informasjon om varigheten av kontrakten, rammeavtalen, den dynamiske innkjøpsordningen eller kvalifikasjonsordningen. Dette inkluderer eventuelle opsjoner og fornyelser. Informasjonen kan være ulik for hver delkontrakt. I forbindelseI med en forhåndskunngjøringer som kun er benyttet til informasjonsformål kan denne informasjonen være ulik i hver del av kunngjøringen som senere kan bli en delkontrakt eller en selvstendig anskaffelse.
 business-term|description|BT-1373:
   name: An identifier of one or more lots. In case of PINs used only for information, the identifier of one or more parts of the notice that may later become lots or a self-standing procedures.  The information in the duration section refers to this lot (or part) or these lots (or parts)
-  nob:
 business-term|description|BT-536:
   name: The (estimated) date when the contract, framework agreement, dynamic purchasing system or qualification system will start.
   nob: Den (anslåtte) startdatoen for kontrakten rammeavtale, dynamisk innkjøpsordning eller kvalifikasjonsordning.
@@ -1413,7 +1410,6 @@ business-term|description|BG-705:
   nob: Informasjon om eventuelle andre krav for deltakelse i konkurransen og vilkår som gjelder for den fremtidige kontrakten. Kravene skal inkludere en beskrivelse av metoden for vurdering av kravene. Denne informasjonen kan være ulik for ulike delkontrakter. Ved veiledende kunngjøring kan denne informasjonen variere per del av kunngjøringen som senere kan bli en delkontrakt eller en selvstendig anskaffelse.
 business-term|description|BT-1379:
   name: An identifier of one or more lots. In case of PINs used only for information, the identifier of one or more parts of the notice that may later become lots or a self-standing procedures. The information in the other requirements section refer this lot (or part) or these lots (or parts).
-  nob:
 business-term|description|BT-71:
   name: Whether participation is reserved for specific organisations (e.g. sheltered workshops, organisations pursuing a public service mission).
   nob: Hvorvidt kontrakten er reservert for spesifikke organiasjoner (for eksempel vernede bedrifter, virksomheter som har sosial og faglig integrasjon av funksjonshemmede eller vanskeligstilte personer til formål).
@@ -1518,7 +1514,6 @@ business-term|description|BG-706:
   nob: Informasjon om bruk av teknikker som rammeavtaler uten gjenåpning av konkurransen, dynamiske innkjøpsordninger og elektroniske auksjoner. Denne informasjonen kan være ulik per delkontrakt. I en veiledende kunngjøring som kun brukes til informasjon, kan denne informasjonen variere per del av kunngjøringen som senere kan bli en delkontrakt eller en selvstendig anskaffelse.
 business-term|description|BT-13711:
   name: An identifier of one or more lots. In case of PINs used only for information, the identifier of one or more parts of the notice that may later become lots or a self-standing procedures.  The information in the techniques section refers to this lot (or part) or these lots (or parts).
-  nob:
 business-term|description|BT-765:
   name: Whether a framework agreement with, without, or with and without the reopening of competition is involved.
   nob: Hvorvidt det gjelder en rammeavtale med, uten eller både med og uten gjenåpning av konkurranse.
@@ -1554,7 +1549,6 @@ business-term|description|BG-100:
   nob: Generell informasjon om kommunikasjon med kjøper. Denne informasjonen kan være forskjellig per delkontrakt.  I en veiledende kunngjøring som kun brukes til informasjon, kan denne informasjonen variere per del av kunngjøringen som senere kan bli en delkontrakt eller en selvstendig anskaffelse.
 business-term|description|BT-13712:
   name: An identifier of one or more lots. In case of PINs used only for information, the identifier of one or more parts of the notice that may later become lots or a self-standing procedures.  The information in the communication section refers to this lot (or part) or these lots (or parts).
-  nob:
 business-term|description|BT-632:
   name: The name of the electronic tool or device used for electronic communication.
   nob: Navnet på det elektroniske verktøyet eller løsningen som skal brukes til elektronisk kommunikasjon.
@@ -1581,7 +1575,6 @@ business-term|description|BG-101:
   nob: Informasjon om anskaffelsesdokumentene/konkurransegrunnlaget. Denne informasjonen kan være ulik per delkontrakt. I en veiledende kunngjøring som kun brukes til informasjon, kan denne informasjonen variere per del av kunngjøringen som senere kan bli en delkontrakt eller en selvstendig anskaffelse.
 business-term|description|BT-13718:
   name: An identifier of one or more lots. In case of PINs used only for information, the identifier of one or more parts of the notice that may later become lots or a self-standing procedures.  The information in the procurement documents section refers to this lot (or part) or these lots (or parts).
-  nob:
 business-term|description|BT-15:
   name: The internet address for accessing (the non-restricted part of) the procurement documents. For all notices except prior information notices, the address shall must give access that is direct (i.e. the exact webpage with the documents, not a general website), unrestricted (e.g. no registration), full (i.e. the procurement documents are must be complete) and free of charge and the documents shall must be available already at the time of the publication of the notice.
   nob: Internettadressen som gir tilgang til de anskaffelsesdokumentene som ikke er begrenset. For alle kunngjøringer unntatt forhåndskunngjøringer, skal adressen gi direkte (selve internettsiden med dokumentene og ikke generelt nettsted), ubegrenset (uten registrering), full (anskaffelsesdokumentene er skal være fullstendige) og gratis tilgang. Dokumentene skal må være tilgjengelige på tidspunktet for publisering av kunngjøringen.
@@ -1608,7 +1601,6 @@ business-term|description|BG-102:
   nob: Informasjon om vilkår for innlevering av tilbud, forespørsel om å delta eller melde interesse. Denne informasjonen kan være ulik per delkontrakt.
 business-term|description|BT-13719:
   name: An identifier of one or more lots. The information in the submission terms section refers to this lot or these lots.
-  nob:
 business-term|description|BT-17:
   name: Whether economic operators are required, allowed or not allowed to submit tenders, requests to participate, or expressions of interest electronically.
   nob: Hvorvidt det er obligatorisk, valgfritt eller ikke mulig for leverandører å levere tilbud, forespørsel om å delta eller melde interesse elektronisk.
@@ -1629,8 +1621,7 @@ business-term|description|BT-764:
   nob: Hvorvidt det er obligatorisk, tillatt eller ikke tillatt å levere inn (deler av) tilbud som elektronisk katalog.
 business-term|description|BT-744:
   name: Advanced or qualified electronic signature or seal (as defined in European Parliament and Council Regulation (EU) No 910/2014) is required.
-  nob: Avansert eller kvalifisert elektronisk signatur eller segl (jfr. Forordning (EU) nr 910/2014) er obligatorisk.  
-(som definert i Europaparlaments- og Rådsforordning (EU) nr. 910/2014) er påkrevd.
+  nob: Avansert eller kvalifisert elektronisk signatur eller segl (som definert i Europaparlaments- og Rådsforordning (EU) nr. 910/2014) er påkrevd.
 business-term|description|BT-63:
   name: Whether tenderers are required, allowed or not allowed to submit tenders which fulfil the buyer's needs differently than as proposed in the procurement documents. Further conditions for submitting variant tenders are in the procurement documents.
   nob: Hvorvidt det er obligatorisk, tillatt eller ikke tillatt å levere inn tilbud som dekker kjøperens behov på annen måte enn angitt i anskaffelsesdokumentene. Nærmere betingelser for innlevering av alternative tilbud finnes i anskaffelsesdokumentene.
@@ -1765,8 +1756,7 @@ business-term|description|BT-782:
   nob: Verdien på alle sanksjoner betalt av vinneren som et resultat av sen eller mangelfull utførelse av kontrakten eller annet resultat.
 business-term|description|BT-171:
   name: The position of the tender (i.e. whether the tender ended up first, second, third, etc.) in a design contest, some framework agreements with multiple winners (e.g. cascades) or an innovation partnership. The position of the tender (i.e. whether the tender ended up first, second, third, etc.) in a design contest, a framework agreement with multiple winners (e.g. cascades), an innovation partnership, a competitive dialogue, or another procedure.
-  nob: Hvilken plassering tilbudet fikk (for eksempel om tilbudet kom på første, andre, tredje plass etc.) i en plan og design konkurranse, rammeavtale med flere vinnere (for eksempel fossefallsfordeling) eller et innovasjonspartnerskap.
-Tilbudets plassering (dvs. om tilbudet havnet først, andre, tredje osv.) i en plan- og designkonkurranse, rammeavtale med flere vinnere (for eksempel fossefallsfordeling), et innovasjonspartnerskap, en konkurransepreget dialog, eller en annen prosedyre.
+  nob: Hvilken plassering tilbudet fikk (for eksempel om tilbudet kom på første, andre, tredje plass etc.) i en plan og design konkurranse, rammeavtale med flere vinnere (for eksempel fossefallsfordeling) eller et innovasjonspartnerskap. Tilbudets plassering (dvs. om tilbudet havnet først, andre, tredje osv.) i en plan- og designkonkurranse, rammeavtale med flere vinnere (for eksempel fossefallsfordeling), et innovasjonspartnerskap, en konkurransepreget dialog, eller en annen prosedyre.
 business-term|description|BT-162:
   name: The estimated revenue coming from the users of the concession (e.g. fees and fines).
   nob: Anslåtte inntekter fra brukerne av konsesjonen, f.eks. gebyr og bøter.
@@ -1891,8 +1881,8 @@ business-term|description|BG7141:
   name: Details about the vehicles in the scope of the CVD
   nob: Detaljer om kjøretøyene innenfor virkeområdet til direktivet om fremme av renere og mer energieffektive kjøretøy til veitransport.
 business-term|description|BT-723:
-  name: The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3.
-  nob: Kjøretøygruppe som faller innenfor virkeområdet til direktivet om fremme av rener og mer energieffektive kjøretøy til veitransport 2009/33/EF, inkludert: lette kjøretøy (M1, M2, N1); buss (M3); lastebil (N2, N3); M1; M2; N1; N2; N3.
+  name: "The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3."
+  nob: "Kjøretøygruppe som faller innenfor virkeområdet til direktivet om fremme av rener og mer energieffektive kjøretøy til veitransport 2009/33/EF, inkludert: lette kjøretøy (M1, M2, N1); buss (M3); lastebil (N2, N3); M1; M2; N1; N2; N3."
 business-term|description|BG-612:
   name: Summary information about the requests the buyer received to review any of its decisions (e.g. the technical specifications, award decision), as set out in Art. 1(5) of Council Directive 89/665/EEC and Council Directive 92/13/EEC, and about the complainants that submitted the requests. This information may differ per lot.
   nob: Sammendrag av klager som oppdragsgiver har mottatt knyttet til noen av beslutningene (for eksempel kravspesifikasjon eller beslutning om tildeling) som fastsatt i artikkel 1(5) i direktiv 89/665/EØF og direktiv 92/13/EØF, og om de klagere som har levert forespørslene. Denne informasjonen kan variere per delkontrakt.
