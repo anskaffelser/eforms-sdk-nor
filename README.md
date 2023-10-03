@@ -40,7 +40,11 @@ You can use the [beta version of the new Doffin API](https://dof-notices-dev-api
 To start using using the API's you first have to [sign up](https://dof-notices-dev-api.developer.azure-api.net/signup) as a user, log in and [create one or more subscriptions](https://dof-notices-dev-api.developer.azure-api.net/profile).
 
 ### Important regarding the Notices API
-For now we are not returning any validation results. Please make sure that you are using valid and well-formed eForms messages before testing the integration. To test for validity and well-formness please use our online [validator tool] (https://anskaffelser.dev/service/validator/) or a local validator service. The latter is recommended if you want to do realtime validation in production.  
+For now we are not returning any validation results. Please make sure that you are using valid and well-formed eForms messages before testing the integration. To test for validity and well-formness during development please use:
+* our online [validator tool] (https://anskaffelser.dev/service/validator/)
+  For development and production environments we strongly recommend:
+* the validation function in the Notices API
+* or a local validator service, i.e. [based on our code](https://github.com/anskaffelser/vefa-validator).  
 
 Please note that eForms messages using these extensions will fail validation in TED unless you pre-process with using the xslt-filter provided in this repository. 
 
