@@ -1,83 +1,123 @@
 notice|name|1:
   name: Notice of the publication of a prior information notice on a buyer profile – general directive
+  nob: Kunngjøring av publisering av en veiledende kunngjøring på kjøperprofil - generelt direktiv
 notice|name|10:
   name: Prior information notice used as a call for competition – general directive, standard regime
+  nob: Forhåndskunngjøring brukt til kunngjøring av konkurranse – generelt direktiv, standard regime
 notice|name|11:
   name: Periodic indicative notice used as a call for competition – sectoral directive, standard regime
+  nob: Periodisk veiledende kunngjøring brukt til kunngjøring av konkurranse — sektordirektivet, standard regime
 notice|name|12:
   name: Prior information notice used as a call for competition – general directive, light regime
+  nob: Forhåndskunngjøring brukt til kunngjøring av konkurranse — generelt direktiv, enkelt regime
 notice|name|13:
   name: Periodic indicative notice used as a call for competition – sectoral directive, light regime
+  nob: Periodisk veiledende kunngjøring brukt til kunngjøring av konkurranse — sektordirektivet, enkelt regime
 notice|name|14:
   name: Prior information notice used as a call for competition – concessions directive, light regime
+  nob: Forhåndskunngjøring brukt til kunngjøring av konkurranse — konsesjonsdirektivet, enkelt regime
 notice|name|15:
   name: Notice on the existence of a qualification system – sectoral directive
+  nob: Kunngjøring av en etablert kvalifikasjonsordning — sektordirektivet
 notice|name|16:
   name: Contract notice – general directive, standard regime
+  nob: Kontraktskunngjøring — generelt direktiv, standard regime
 notice|name|17:
   name: Contract notice – sectoral directive, standard regime
+  nob: Kontraktskunngjøring — sektordirektivet, standard regime
 notice|name|18:
   name: Contract notice – defence directive, standard regime
+  nob: Kontraktskunngjøring — forsvarsdirektivet, standard regime
 notice|name|19:
   name: Concession notice – concessions directive, standard regime
+  nob: Konsesjonskunngjøring — konsesjonsdirektiv, standardregime
 notice|name|2:
   name: Notice of the publication of a periodic indicative notice on a buyer profile – sectoral directive
+  nob: Kunngjøring av publisering av periodisk veiledende kunngjøring på kjøperprofil - sektordirektivet
 notice|name|20:
   name: Contract notice – general directive, light regime
+  nob: Kontraktskunngjøring — generelt direktiv, enkelt regime
 notice|name|21:
   name: Contract notice – sectoral directive, light regime
+  nob: Kontraktskunngjøring — sektordirektivet, enkelt regime
 notice|name|22:
   name: Subcontract notice – defence directive
+  nob: Kunngjøring av delkontrak - forsvaresdirektivet 
 notice|name|23:
   name: Design contest notice – general directive, design
+  nob: Kunngjøring av plan- og designkonkurranse – generelt direktiv, design
 notice|name|24:
   name: Design contest notice – sectoral directive, design
+  nob: Kunngjøring av plan- og designkonkurranse – sektordirektivet, design
 notice|name|25:
   name: Voluntary ex-ante transparency notice – general directive
+  nob: Frivillig intensjonskunngjøring - generelt direktiv
 notice|name|26:
   name: Voluntary ex-ante transparency notice – sectoral directive
+  nob: Frivillig intensjonskunngjøring - sektordirektivet
 notice|name|27:
   name: Voluntary ex-ante transparency notice – defence directive
+  nob: Frivillig intensjonskunngjøring - forsvarsdirektivet
 notice|name|28:
   name: Voluntary ex-ante transparency notice – concession directive
+  nob: Intensjonskunngjøring - konsesjonsdirektivet
 notice|name|29:
   name: Contract award notice – general directive, standard regime
+  nob: Kunngjøring av kontraktsinngåelse - generelt direktiv, standard regime
 notice|name|3:
   name: Notice of the publication of a prior information notice on a buyer profile – defence directive
+  nob: Kunngjøring av publisering av periodisk veiledende kunngjøring på kjøperprofil - forsvarsdirektivet
 notice|name|30:
   name: Contract award notice – sectoral directive, standard regime
+  nob: Kunngjøring av kontraktsinngåelse - sektordirektivet, standard regime
 notice|name|31:
   name: Contract award notice – defence directive, standard regime
+  nob: Kunngjøring av kontraktsinngåelse - forsvarsdirektivet, standard regime
 notice|name|32:
   name: Concession award notice – concession directive, standard regime
+  nob: Kunngjøring av konsesjonskontraktsinngåelse - konsesjonsdirektivet, standard regime
 notice|name|33:
   name: Contract award notice – general directive, light regime
+  nob: Kunngjøring av kontraktsinngåelse - generelt direktiv, enkelt regime
 notice|name|34:
   name: Contract award notice – sectoral directive, light regime
+  nob: Kunngjøring av kontraktsinngåelse - sektordirektivet, enkelt regime
 notice|name|35:
   name: Concession award notice – concessions directive, light regime
+  nob: Kunngjøring av konsesjonskontraktsinngåelse - konsesjonsdirektivet, enkelt regime
 notice|name|36:
   name: Design contest result notice – general directive, design
+  nob: Kunngjøring av resultat av plan- og designkonkurranse - generelt direktiv, design
 notice|name|37:
   name: Design contest result notice – sectoral directive, design
+  nob: Kunngjøring av resultat av plan- og designkonkurranse - sektordirektivet, design
 notice|name|38:
   name: Contract modification notice – general directive
+  nob: Kunngjøring av kontraktsendring - generelt direktiv
 notice|name|39:
   name: Contract modification notice – sectoral directive
+  nob: Kunngjøring av kontraktsendring - sektordirektivet
 notice|name|4:
   name: Prior information notice used only for information – general directive
+  name: Forhåndskunngjøring til informasjon - generelt direktiv
 notice|name|40:
   name: Contract modification notice – concessions directive
+  nob: Kunngjøring av kontraktsendring - forsvarsdirektivet
 notice|name|5:
   name: Periodic indicative notice used only for information – sectoral directive
+  nob: Forhåndskunngjøring til informasjon - sektordirektivet
 notice|name|6:
   name: Prior information notice used only for information – defence directive
+  nob: Forhåndskunngjøring til informasjon - forsvarsdirektivet
 notice|name|7:
   name: Prior information notice used to shorten time limits for receipt of tenders – general directive
+  nob: Forhåndskunngjøring til å forkorte tilbudsfrist - generelt direktiv
 notice|name|8:
   name: Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive
+  nob: Periodisk veiledende kunngjøring til å forkorte tilbudsfrit - sektordrektivet
 notice|name|9:
   name: Prior information notice used to shorten time limits for receipt of tenders – defence directive
+  nob: Forhåndskunngjøring til å forkorte tilbudsfrist - forsvarsdirektivet
 notice|name|CEI:
   name: Call for expressions of interest
 notice|name|T01:
