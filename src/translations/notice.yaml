@@ -21,13 +21,13 @@ notice|name|15:
   nob: Kunngjøring av en etablert kvalifikasjonsordning — sektordirektivet
 notice|name|16:
   name: Contract notice – general directive, standard regime
-  nob: Kontraktskunngjøring — generelt direktiv, standard regime
+  nob: Kunngjøring av konkurranse — generelt direktiv, standard regime
 notice|name|17:
   name: Contract notice – sectoral directive, standard regime
-  nob: Kontraktskunngjøring — sektordirektivet, standard regime
+  nob: Kunngjøring av konkurranse — sektordirektivet, standard regime
 notice|name|18:
   name: Contract notice – defence directive, standard regime
-  nob: Kontraktskunngjøring — forsvarsdirektivet, standard regime
+  nob: Kunngjøring av konkurranse — forsvarsdirektivet, standard regime
 notice|name|19:
   name: Concession notice – concessions directive, standard regime
   nob: Konsesjonskunngjøring — konsesjonsdirektiv, standardregime
@@ -36,10 +36,10 @@ notice|name|2:
   nob: Kunngjøring av publisering av periodisk veiledende kunngjøring på kjøperprofil - sektordirektivet
 notice|name|20:
   name: Contract notice – general directive, light regime
-  nob: Kontraktskunngjøring — generelt direktiv, enkelt regime
+  nob: Kunngjøring av konkurranse — generelt direktiv, enkelt regime
 notice|name|21:
   name: Contract notice – sectoral directive, light regime
-  nob: Kontraktskunngjøring — sektordirektivet, enkelt regime
+  nob: Kunngjøring av konkurranse — sektordirektivet, enkelt regime
 notice|name|22:
   name: Subcontract notice – defence directive
   nob: Kunngjøring av delkontrak - forsvaresdirektivet 
@@ -51,16 +51,16 @@ notice|name|24:
   nob: Kunngjøring av plan- og designkonkurranse – sektordirektivet, design
 notice|name|25:
   name: Voluntary ex-ante transparency notice – general directive
-  nob: Frivillig intensjonskunngjøring - generelt direktiv
+  nob: Intensjonskunngjøring - generelt direktiv
 notice|name|26:
   name: Voluntary ex-ante transparency notice – sectoral directive
-  nob: Frivillig intensjonskunngjøring - sektordirektivet
+  nob: Intensjonskunngjøring - sektordirektivet
 notice|name|27:
   name: Voluntary ex-ante transparency notice – defence directive
-  nob: Frivillig intensjonskunngjøring - forsvarsdirektivet
+  nob: Intensjonskunngjøring - forsvarsdirektivet
 notice|name|28:
   name: Voluntary ex-ante transparency notice – concession directive
-  nob: Frivillig intensjonskunngjøring - konsesjonsdirektivet
+  nob: Intensjonskunngjøring - konsesjonsdirektivet
 notice|name|29:
   name: Contract award notice – general directive, standard regime
   nob: Kunngjøring av kontraktsinngåelse - generelt direktiv, standard regime
@@ -99,7 +99,7 @@ notice|name|39:
   nob: Kunngjøring av kontraktsendring - sektordirektivet
 notice|name|4:
   name: Prior information notice used only for information – general directive
-  name: Forhåndskunngjøring til informasjon - generelt direktiv
+  nob: Forhåndskunngjøring til informasjon - generelt direktiv
 notice|name|40:
   name: Contract modification notice – concessions directive
   nob: Kunngjøring av kontraktsendring - forsvarsdirektivet
@@ -138,3 +138,12 @@ notice|name|E4:
   name: Below threshold contract award notice (CAN) general
 notice|name|E5:
   name: Contract completion notice
+notice|name|N4:
+  name: Norwegian prior information notice used only for information
+  nob: Nasjonal forhåndskunngjøring
+notice|name|N16:
+  name: Norwegian contract notice
+  nob: Nasjonal kunngjøring av konkurranse
+notice|name|N29:
+  name: Norwegian Contract award notice
+  nob: Nasjonal kunngjøring av kontraktsinngåelse
