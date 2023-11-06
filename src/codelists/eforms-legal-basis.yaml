@@ -1,0 +1,40 @@
+31985R2137:
+  name: Regulation (EEC) No 2137/85
+  history: []
+  nob_verify: false
+32001R2157:
+  name: Regulation (EC) No 2157/2001
+  history: []
+  nob_verify: false
+32003R1435:
+  name: Regulation (EC) No 1435/2003
+  history: []
+  nob_verify: false
+32007R1370:
+  name: Regulation (EC) No 1370/2007
+  history: []
+  nob_verify: false
+32009L0081:
+  name: Directive 2009/81/EC
+  history: []
+  nob_verify: false
+32014L0023:
+  name: Directive 2014/23/EU
+  history: []
+  nob_verify: false
+32014L0024:
+  name: Directive 2014/24/EU
+  history: []
+  nob_verify: false
+32014L0025:
+  name: Directive 2014/25/EU
+  history: []
+  nob_verify: false
+32018R1046:
+  name: Regulation (EU, Euratom) 2018/1046
+  history: []
+  nob_verify: false
+other:
+  name: Other
+  history: []
+  nob_verify: false

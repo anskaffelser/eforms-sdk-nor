@@ -1,6 +1,16 @@
 cont-ent:
-  name: Contracting Entity
+  name: The buyer is a contracting entity
   nob: Oppdragsgiver
+  history:
+  - name: The buyer is a contracting entity
+    history: []
+    nob_verify: false
+  nob_verify: false
 not-cont-ent:
-  name: Not Contracting Entity
+  name: The buyer is not a contracting entity
   nob: Ikke oppdragsgiver
+  history:
+  - name: The buyer is not a contracting entity
+    history: []
+    nob_verify: false
+  nob_verify: false

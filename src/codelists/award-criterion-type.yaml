@@ -1,9 +1,24 @@
 cost:
   name: Cost
   nob: Kostnad
+  history:
+  - name: Cost
+    history: []
+    nob_verify: false
+  nob_verify: false
 price:
   name: Price
   nob: Pris
+  history:
+  - name: Price
+    history: []
+    nob_verify: false
+  nob_verify: false
 quality:
   name: Quality
   nob: Kvalitet
+  history:
+  - name: Quality
+    history: []
+    nob_verify: false
+  nob_verify: false

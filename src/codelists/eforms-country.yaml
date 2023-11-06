@@ -1,0 +1,976 @@
+1A0:
+  name: Kosovo
+  history: []
+  nob_verify: false
+ABW:
+  name: Aruba
+  history: []
+  nob_verify: false
+AFG:
+  name: Afghanistan
+  history: []
+  nob_verify: false
+AGO:
+  name: Angola
+  history: []
+  nob_verify: false
+AIA:
+  name: Anguilla
+  history: []
+  nob_verify: false
+ALA:
+  name: Åland Islands
+  history: []
+  nob_verify: false
+ALB:
+  name: Albania
+  history: []
+  nob_verify: false
+AND:
+  name: Andorra
+  history: []
+  nob_verify: false
+ARE:
+  name: United Arab Emirates
+  history: []
+  nob_verify: false
+ARG:
+  name: Argentina
+  history: []
+  nob_verify: false
+ARM:
+  name: Armenia
+  history: []
+  nob_verify: false
+ASM:
+  name: American Samoa
+  history: []
+  nob_verify: false
+ATA:
+  name: Antarctica
+  history: []
+  nob_verify: false
+ATG:
+  name: Antigua and Barbuda
+  history: []
+  nob_verify: false
+AUS:
+  name: Australia
+  history: []
+  nob_verify: false
+AUT:
+  name: Austria
+  history: []
+  nob_verify: false
+AZE:
+  name: Azerbaijan
+  history: []
+  nob_verify: false
+BDI:
+  name: Burundi
+  history: []
+  nob_verify: false
+BEL:
+  name: Belgium
+  history: []
+  nob_verify: false
+BEN:
+  name: Benin
+  history: []
+  nob_verify: false
+BES:
+  name: Bonaire, Sint Eustatius and Saba
+  history: []
+  nob_verify: false
+BFA:
+  name: Burkina Faso
+  history: []
+  nob_verify: false
+BGD:
+  name: Bangladesh
+  history: []
+  nob_verify: false
+BGR:
+  name: Bulgaria
+  history: []
+  nob_verify: false
+BHR:
+  name: Bahrain
+  history: []
+  nob_verify: false
+BHS:
+  name: Bahamas
+  history: []
+  nob_verify: false
+BIH:
+  name: Bosnia and Herzegovina
+  history: []
+  nob_verify: false
+BLM:
+  name: Saint Barthélemy
+  history: []
+  nob_verify: false
+BLR:
+  name: Belarus
+  history: []
+  nob_verify: false
+BLZ:
+  name: Belize
+  history: []
+  nob_verify: false
+BMU:
+  name: Bermuda
+  history: []
+  nob_verify: false
+BOL:
+  name: Bolivia
+  history: []
+  nob_verify: false
+BRA:
+  name: Brazil
+  history: []
+  nob_verify: false
+BRB:
+  name: Barbados
+  history: []
+  nob_verify: false
+BRN:
+  name: Brunei
+  history: []
+  nob_verify: false
+BTN:
+  name: Bhutan
+  history: []
+  nob_verify: false
+BVT:
+  name: Bouvet Island
+  history: []
+  nob_verify: false
+BWA:
+  name: Botswana
+  history: []
+  nob_verify: false
+CAF:
+  name: Central African Republic
+  history: []
+  nob_verify: false
+CAN:
+  name: Canada
+  history: []
+  nob_verify: false
+CCK:
+  name: Cocos (Keeling) Islands
+  history: []
+  nob_verify: false
+CHE:
+  name: Switzerland
+  history: []
+  nob_verify: false
+CHL:
+  name: Chile
+  history: []
+  nob_verify: false
+CHN:
+  name: China
+  history: []
+  nob_verify: false
+CIV:
+  name: Côte d’Ivoire
+  history: []
+  nob_verify: false
+CMR:
+  name: Cameroon
+  history: []
+  nob_verify: false
+COD:
+  name: Democratic Republic of the Congo
+  history: []
+  nob_verify: false
+COG:
+  name: Congo
+  history: []
+  nob_verify: false
+COK:
+  name: Cook Islands
+  history: []
+  nob_verify: false
+COL:
+  name: Colombia
+  history: []
+  nob_verify: false
+COM:
+  name: Comoros
+  history: []
+  nob_verify: false
+CPT:
+  name: Clipperton
+  history: []
+  nob_verify: false
+CPV:
+  name: Cabo Verde
+  history: []
+  nob_verify: false
+CRI:
+  name: Costa Rica
+  history: []
+  nob_verify: false
+CUB:
+  name: Cuba
+  history: []
+  nob_verify: false
+CUW:
+  name: Curaçao
+  history: []
+  nob_verify: false
+CXR:
+  name: Christmas Island
+  history: []
+  nob_verify: false
+CYM:
+  name: Cayman Islands
+  history: []
+  nob_verify: false
+CYP:
+  name: Cyprus
+  history: []
+  nob_verify: false
+CZE:
+  name: Czechia
+  history: []
+  nob_verify: false
+DEU:
+  name: Germany
+  history: []
+  nob_verify: false
+DJI:
+  name: Djibouti
+  history: []
+  nob_verify: false
+DMA:
+  name: Dominica
+  history: []
+  nob_verify: false
+DNK:
+  name: Denmark
+  history: []
+  nob_verify: false
+DOM:
+  name: Dominican Republic
+  history: []
+  nob_verify: false
+DZA:
+  name: Algeria
+  history: []
+  nob_verify: false
+ECU:
+  name: Ecuador
+  history: []
+  nob_verify: false
+EGY:
+  name: Egypt
+  history: []
+  nob_verify: false
+ERI:
+  name: Eritrea
+  history: []
+  nob_verify: false
+ESH:
+  name: Western Sahara
+  history: []
+  nob_verify: false
+ESP:
+  name: Spain
+  history: []
+  nob_verify: false
+EST:
+  name: Estonia
+  history: []
+  nob_verify: false
+ETH:
+  name: Ethiopia
+  history: []
+  nob_verify: false
+FIN:
+  name: Finland
+  history: []
+  nob_verify: false
+FJI:
+  name: Fiji
+  history: []
+  nob_verify: false
+FLK:
+  name: Falkland Islands
+  history: []
+  nob_verify: false
+FRA:
+  name: France
+  history: []
+  nob_verify: false
+FRO:
+  name: Faroes
+  history: []
+  nob_verify: false
+FSM:
+  name: Micronesia
+  history: []
+  nob_verify: false
+GAB:
+  name: Gabon
+  history: []
+  nob_verify: false
+GBR:
+  name: United Kingdom
+  history: []
+  nob_verify: false
+GEO:
+  name: Georgia
+  history: []
+  nob_verify: false
+GGY:
+  name: Guernsey
+  history: []
+  nob_verify: false
+GHA:
+  name: Ghana
+  history: []
+  nob_verify: false
+GIB:
+  name: Gibraltar
+  history: []
+  nob_verify: false
+GIN:
+  name: Guinea
+  history: []
+  nob_verify: false
+GMB:
+  name: The Gambia
+  history: []
+  nob_verify: false
+GNB:
+  name: Guinea-Bissau
+  history: []
+  nob_verify: false
+GNQ:
+  name: Equatorial Guinea
+  history: []
+  nob_verify: false
+GRC:
+  name: Greece
+  history: []
+  nob_verify: false
+GRD:
+  name: Grenada
+  history: []
+  nob_verify: false
+GRL:
+  name: Greenland
+  history: []
+  nob_verify: false
+GTM:
+  name: Guatemala
+  history: []
+  nob_verify: false
+GUM:
+  name: Guam
+  history: []
+  nob_verify: false
+HKG:
+  name: Hong Kong
+  history: []
+  nob_verify: false
+HMD:
+  name: Heard Island and McDonald Islands
+  history: []
+  nob_verify: false
+HND:
+  name: Honduras
+  history: []
+  nob_verify: false
+HRV:
+  name: Croatia
+  history: []
+  nob_verify: false
+HTI:
+  name: Haiti
+  history: []
+  nob_verify: false
+HUN:
+  name: Hungary
+  history: []
+  nob_verify: false
+IDN:
+  name: Indonesia
+  history: []
+  nob_verify: false
+IMN:
+  name: Isle of Man
+  history: []
+  nob_verify: false
+IND:
+  name: India
+  history: []
+  nob_verify: false
+IOT:
+  name: British Indian Ocean Territory
+  history: []
+  nob_verify: false
+IRL:
+  name: Ireland
+  history: []
+  nob_verify: false
+IRN:
+  name: Iran
+  history: []
+  nob_verify: false
+IRQ:
+  name: Iraq
+  history: []
+  nob_verify: false
+ISL:
+  name: Iceland
+  history: []
+  nob_verify: false
+ISR:
+  name: Israel
+  history: []
+  nob_verify: false
+ITA:
+  name: Italy
+  history: []
+  nob_verify: false
+JAM:
+  name: Jamaica
+  history: []
+  nob_verify: false
+JEY:
+  name: Jersey
+  history: []
+  nob_verify: false
+JOR:
+  name: Jordan
+  history: []
+  nob_verify: false
+JPN:
+  name: Japan
+  history: []
+  nob_verify: false
+KAZ:
+  name: Kazakhstan
+  history: []
+  nob_verify: false
+KEN:
+  name: Kenya
+  history: []
+  nob_verify: false
+KGZ:
+  name: Kyrgyzstan
+  history: []
+  nob_verify: false
+KHM:
+  name: Cambodia
+  history: []
+  nob_verify: false
+KIR:
+  name: Kiribati
+  history: []
+  nob_verify: false
+KNA:
+  name: Saint Kitts and Nevis
+  history: []
+  nob_verify: false
+KOR:
+  name: South Korea
+  history: []
+  nob_verify: false
+KWT:
+  name: Kuwait
+  history: []
+  nob_verify: false
+LAO:
+  name: Laos
+  history: []
+  nob_verify: false
+LBN:
+  name: Lebanon
+  history: []
+  nob_verify: false
+LBR:
+  name: Liberia
+  history: []
+  nob_verify: false
+LBY:
+  name: Libya
+  history: []
+  nob_verify: false
+LCA:
+  name: Saint Lucia
+  history: []
+  nob_verify: false
+LIE:
+  name: Liechtenstein
+  history: []
+  nob_verify: false
+LKA:
+  name: Sri Lanka
+  history: []
+  nob_verify: false
+LSO:
+  name: Lesotho
+  history: []
+  nob_verify: false
+LTU:
+  name: Lithuania
+  history: []
+  nob_verify: false
+LUX:
+  name: Luxembourg
+  history: []
+  nob_verify: false
+LVA:
+  name: Latvia
+  history: []
+  nob_verify: false
+MAC:
+  name: Macau
+  history: []
+  nob_verify: false
+MAF:
+  name: Saint Martin
+  history: []
+  nob_verify: false
+MAR:
+  name: Morocco
+  history: []
+  nob_verify: false
+MCO:
+  name: Monaco
+  history: []
+  nob_verify: false
+MDA:
+  name: Moldova
+  history: []
+  nob_verify: false
+MDG:
+  name: Madagascar
+  history: []
+  nob_verify: false
+MDV:
+  name: Maldives
+  history: []
+  nob_verify: false
+MEX:
+  name: Mexico
+  history: []
+  nob_verify: false
+MHL:
+  name: Marshall Islands
+  history: []
+  nob_verify: false
+MKD:
+  name: North Macedonia
+  history: []
+  nob_verify: false
+MLI:
+  name: Mali
+  history: []
+  nob_verify: false
+MLT:
+  name: Malta
+  history: []
+  nob_verify: false
+MMR:
+  name: Myanmar/Burma
+  history: []
+  nob_verify: false
+MNE:
+  name: Montenegro
+  history: []
+  nob_verify: false
+MNG:
+  name: Mongolia
+  history: []
+  nob_verify: false
+MNP:
+  name: Northern Mariana Islands
+  history: []
+  nob_verify: false
+MOZ:
+  name: Mozambique
+  history: []
+  nob_verify: false
+MRT:
+  name: Mauritania
+  history: []
+  nob_verify: false
+MSR:
+  name: Montserrat
+  history: []
+  nob_verify: false
+MUS:
+  name: Mauritius
+  history: []
+  nob_verify: false
+MWI:
+  name: Malawi
+  history: []
+  nob_verify: false
+MYS:
+  name: Malaysia
+  history: []
+  nob_verify: false
+NAM:
+  name: Namibia
+  history: []
+  nob_verify: false
+NCL:
+  name: New Caledonia
+  history: []
+  nob_verify: false
+NER:
+  name: Niger
+  history: []
+  nob_verify: false
+NFK:
+  name: Norfolk Island
+  history: []
+  nob_verify: false
+NGA:
+  name: Nigeria
+  history: []
+  nob_verify: false
+NIC:
+  name: Nicaragua
+  history: []
+  nob_verify: false
+NIU:
+  name: Niue
+  history: []
+  nob_verify: false
+NLD:
+  name: Netherlands
+  history: []
+  nob_verify: false
+NOR:
+  name: Norway
+  history: []
+  nob_verify: false
+NPL:
+  name: Nepal
+  history: []
+  nob_verify: false
+NRU:
+  name: Nauru
+  history: []
+  nob_verify: false
+NZL:
+  name: New Zealand
+  history: []
+  nob_verify: false
+OMN:
+  name: Oman
+  history: []
+  nob_verify: false
+PAK:
+  name: Pakistan
+  history: []
+  nob_verify: false
+PAN:
+  name: Panama
+  history: []
+  nob_verify: false
+PCN:
+  name: Pitcairn Islands
+  history: []
+  nob_verify: false
+PER:
+  name: Peru
+  history: []
+  nob_verify: false
+PHL:
+  name: Philippines
+  history: []
+  nob_verify: false
+PLW:
+  name: Palau
+  history: []
+  nob_verify: false
+PNG:
+  name: Papua New Guinea
+  history: []
+  nob_verify: false
+POL:
+  name: Poland
+  history: []
+  nob_verify: false
+PRI:
+  name: Puerto Rico
+  history: []
+  nob_verify: false
+PRK:
+  name: North Korea
+  history: []
+  nob_verify: false
+PRT:
+  name: Portugal
+  history: []
+  nob_verify: false
+PRY:
+  name: Paraguay
+  history: []
+  nob_verify: false
+PSE:
+  name: Palestine
+  history: []
+  nob_verify: false
+PYF:
+  name: French Polynesia
+  history: []
+  nob_verify: false
+QAT:
+  name: Qatar
+  history: []
+  nob_verify: false
+ROU:
+  name: Romania
+  history: []
+  nob_verify: false
+RUS:
+  name: Russia
+  history: []
+  nob_verify: false
+RWA:
+  name: Rwanda
+  history: []
+  nob_verify: false
+SAU:
+  name: Saudi Arabia
+  history: []
+  nob_verify: false
+SDN:
+  name: Sudan
+  history: []
+  nob_verify: false
+SEN:
+  name: Senegal
+  history: []
+  nob_verify: false
+SGP:
+  name: Singapore
+  history: []
+  nob_verify: false
+SGS:
+  name: South Georgia and the South Sandwich Islands
+  history: []
+  nob_verify: false
+SHN:
+  name: Saint Helena, Ascension and Tristan da Cunha
+  history: []
+  nob_verify: false
+SJM:
+  name: Svalbard and Jan Mayen
+  history: []
+  nob_verify: false
+SLB:
+  name: Solomon Islands
+  history: []
+  nob_verify: false
+SLE:
+  name: Sierra Leone
+  history: []
+  nob_verify: false
+SLV:
+  name: El Salvador
+  history: []
+  nob_verify: false
+SMR:
+  name: San Marino
+  history: []
+  nob_verify: false
+SOM:
+  name: Somalia
+  history: []
+  nob_verify: false
+SPM:
+  name: Saint Pierre and Miquelon
+  history: []
+  nob_verify: false
+SRB:
+  name: Serbia
+  history: []
+  nob_verify: false
+SSD:
+  name: South Sudan
+  history: []
+  nob_verify: false
+STP:
+  name: São Tomé and Príncipe
+  history: []
+  nob_verify: false
+SUR:
+  name: Suriname
+  history: []
+  nob_verify: false
+SVK:
+  name: Slovakia
+  history: []
+  nob_verify: false
+SVN:
+  name: Slovenia
+  history: []
+  nob_verify: false
+SWE:
+  name: Sweden
+  history: []
+  nob_verify: false
+SWZ:
+  name: Eswatini
+  history: []
+  nob_verify: false
+SXM:
+  name: Sint Maarten
+  history: []
+  nob_verify: false
+SYC:
+  name: Seychelles
+  history: []
+  nob_verify: false
+SYR:
+  name: Syria
+  history: []
+  nob_verify: false
+TCA:
+  name: Turks and Caicos Islands
+  history: []
+  nob_verify: false
+TCD:
+  name: Chad
+  history: []
+  nob_verify: false
+TGO:
+  name: Togo
+  history: []
+  nob_verify: false
+THA:
+  name: Thailand
+  history: []
+  nob_verify: false
+TJK:
+  name: Tajikistan
+  history: []
+  nob_verify: false
+TKL:
+  name: Tokelau
+  history: []
+  nob_verify: false
+TKM:
+  name: Turkmenistan
+  history: []
+  nob_verify: false
+TLS:
+  name: Timor-Leste
+  history: []
+  nob_verify: false
+TON:
+  name: Tonga
+  history: []
+  nob_verify: false
+TTO:
+  name: Trinidad and Tobago
+  history: []
+  nob_verify: false
+TUN:
+  name: Tunisia
+  history: []
+  nob_verify: false
+TUR:
+  name: Türkiye
+  history: []
+  nob_verify: false
+TUV:
+  name: Tuvalu
+  history: []
+  nob_verify: false
+TWN:
+  name: Taiwan
+  history: []
+  nob_verify: false
+TZA:
+  name: Tanzania
+  history: []
+  nob_verify: false
+UGA:
+  name: Uganda
+  history: []
+  nob_verify: false
+UKR:
+  name: Ukraine
+  history: []
+  nob_verify: false
+UMI:
+  name: United States Minor Outlying Islands
+  history: []
+  nob_verify: false
+URY:
+  name: Uruguay
+  history: []
+  nob_verify: false
+USA:
+  name: United States
+  history: []
+  nob_verify: false
+UZB:
+  name: Uzbekistan
+  history: []
+  nob_verify: false
+VAT:
+  name: Vatican City State
+  history: []
+  nob_verify: false
+VCT:
+  name: Saint Vincent and the Grenadines
+  history: []
+  nob_verify: false
+VEN:
+  name: Venezuela
+  history: []
+  nob_verify: false
+VGB:
+  name: British Virgin Islands
+  history: []
+  nob_verify: false
+VIR:
+  name: US Virgin Islands
+  history: []
+  nob_verify: false
+VNM:
+  name: Vietnam
+  history: []
+  nob_verify: false
+VUT:
+  name: Vanuatu
+  history: []
+  nob_verify: false
+WLF:
+  name: Wallis and Futuna
+  history: []
+  nob_verify: false
+WSM:
+  name: Samoa
+  history: []
+  nob_verify: false
+YEM:
+  name: Yemen
+  history: []
+  nob_verify: false
+ZAF:
+  name: South Africa
+  history: []
+  nob_verify: false
+ZMB:
+  name: Zambia
+  history: []
+  nob_verify: false
+ZWE:
+  name: Zimbabwe
+  history: []
+  nob_verify: false

@@ -1,99 +1,264 @@
 ab-low:
   name: Unjustified rejection of abnormally low tenders
   nob: Grunnløs avvisning av unormalt lave tilbud
+  history:
+  - name: Unjustified rejection of abnormally low tenders
+    history: []
+    nob_verify: false
+  nob_verify: false
 ar-split:
   name: Artificial splitting of contracts
   nob: Kunstig oppdeling av kontrakter
+  history:
+  - name: Artificial splitting of contracts
+    history: []
+    nob_verify: false
+  nob_verify: false
 bid-rigging:
   name: Bid-rigging (established by a competition / anti-cartel office, a court or other competent body)
-  nob:
+  nob: Anbudsrigging (etablert av et konkurranse-/antikartellkontor, en domstol eller annet kompetent organ)
+  history:
+  - name: Bid-rigging (established by a competition / anti-cartel office, a court or other competent body)
+    history: []
+    nob_verify: false
+  nob_verify: false
 change-eval:
   name: Negotiation during the award procedure, including modification of the winning tender during evaluation
   nob: Forhandlinger i tildelingsfasen, inkludert endring av vinnende tilbud under evaluering
+  history:
+  - name: Negotiation during the award procedure, including modification of the winning tender during evaluation
+    history: []
+    nob_verify: false
+  nob_verify: false
 conf-int:
   name: Conflict of interest with impact on the outcome of the procurement procedure
   nob: Interessekonflikt/habilitetskonflikt med påvirkning på anskaffelsens utfall
+  history:
+  - name: Conflict of interest with impact on the outcome of the procurement procedure
+    history: []
+    nob_verify: false
+  nob_verify: false
 cp-mod-cond:
   name: Competitive procedure with negotiation, with substantial modification of the conditions set out in the contract notice or tender specifications
   nob: Konkurranse med forhandling, med betydelig endring av vilkårene i kunngjøringen eller kravspesifikasjonen/konkurransen
+  history:
+  - name: Competitive procedure with negotiation, with substantial modification of the conditions set out in the contract notice or tender specifications
+    history: []
+    nob_verify: false
+  nob_verify: false
 elem-mod:
   name: Modifications of the contract elements set out in the contract notice or tender specifications, not in compliance with the relevant rules
   nob: Endringer i kontraktselementene i kunngjøringen eller kravspesifikasjonen, er ikke i samsvar med regelverket
+  history:
+  - name: Modifications of the contract elements set out in the contract notice or tender specifications, not in compliance with the relevant rules
+    history: []
+    nob_verify: false
+  nob_verify: false
 eva-add-crit:
   name: Evaluation using additional award criteria that were not published
   nob: Evaluering med tildelingskriterier som ikke var kunngjort
+  history:
+  - name: Evaluation using additional award criteria that were not published
+    history: []
+    nob_verify: false
+  nob_verify: false
 eva-diff-crit:
   name: Evaluation of tenders using award criteria that are different from the ones stated in the contract notice or tender specifications
   nob: Evaluering av tilbud med andre  tildelingskriterier enn de som var kunngjort eller fulgte av kravspesifikasjonen
+  history:
+  - name: Evaluation of tenders using award criteria that are different from the ones stated in the contract notice or tender specifications
+    history: []
+    nob_verify: false
+  nob_verify: false
 formal:
   name: Formal
   nob: formell
+  history:
+  - name: Formal
+    history: []
+    nob_verify: false
+  nob_verify: false
 ins-audit:
   name: Insufficient audit trail for the award of the contract
   nob: Utilstrekkelige revisjonsspor for tildeling av kontrakt
+  history:
+  - name: Insufficient audit trail for the award of the contract
+    history: []
+    nob_verify: false
+  nob_verify: false
 insuf-timl:
   name: Insufficient time for potential tenderers/candidates to obtain the procurement documents
   nob: utilstrekkelig tid for potensielle tilbydere/kandidater til å få tilgang til anskaffelsesdokumentene
+  history:
+  - name: Insufficient time for potential tenderers/candidates to obtain the procurement documents
+    history: []
+    nob_verify: false
+  nob_verify: false
 irr-involv:
   name: Irregular prior involvement of candidates or tenderers with the buyer
   nob: Uvanlig involvering mellom kandidater eller tilbydere og kjøper i forkant (av anskaffelsen)
+  history:
+  - name: Irregular prior involvement of candidates or tenderers with the buyer
+    history: []
+    nob_verify: false
+  nob_verify: false
 mod-inco:
   name: Selection criteria or technical specifications were modified after opening of tenders or were incorrectly applied
   nob: Kvalifikasjonskrav og teknisk spesifikasjon ble endret etter tilbudsåpning eller brukt på feil måte
+  history:
+  - name: Selection criteria or technical specifications were modified after opening of tenders or were incorrectly applied
+    history: []
+    nob_verify: false
+  nob_verify: false
 nc-proc-eap:
   name: Non-compliance with the procedure established in the Directive for electronic and aggregated procurement
   nob: Manglende overholdelse av prosedyren fastsatt i direktivet for elektroniske og aggregerte anskaffelser
+  history:
+  - name: Non-compliance with the procedure established in the Directive for electronic and aggregated procurement
+    history: []
+    nob_verify: false
+  nob_verify: false
 nc-timl:
   name: Non-compliance with time limits for receipt of tenders or time limits for receipt of requests to participate
   nob: Manglende overholdelse av frister for mottak av tilbud eller frister for mottak av forespørsler om å delta
+  history:
+  - name: Non-compliance with time limits for receipt of tenders or time limits for receipt of requests to participate
+    history: []
+    nob_verify: false
+  nob_verify: false
 ncompl-awcrit:
   name: Failure to describe in sufficient detail the award criteria and their weighting
   nob: Unnlatelse av å beskrive tildelingskriteriene og vektingen i tilstrekkelig detalj/ Tildelingskriterier og vektingen er ikke beskrevet tilstrekkelig detaljert
+  history:
+  - name: Failure to describe in sufficient detail the award criteria and their weighting
+    history: []
+    nob_verify: false
+  nob_verify: false
 ncompl-cn:
   name: Failure to publish in the contract notice the technical specifications, selection criteria, award criteria (and their weighing), or contract performance conditions
   nob: Tekniske spesifikasjoner, kvalifikasjonskrav, tildelingskriterier (og vekt) eller kontraktskravene er ikke publisert i kunngjøringen av konkurransen
+  history:
+  - name: Failure to publish in the contract notice the technical specifications, selection criteria, award criteria (and their weighing), or contract performance conditions
+    history: []
+    nob_verify: false
+  nob_verify: false
 ncompl-com:
   name: Failure to communicate and/or publish clarifications and/or additional information
   nob: Avklaringer og/eller tilleggsinformasjon er ikke kommunisert og/eller publisert
+  history:
+  - name: Failure to communicate and/or publish clarifications and/or additional information
+    history: []
+    nob_verify: false
+  nob_verify: false
 ncompl-sub:
   name: Insufficient or imprecise definition of the subject matter of the contract
   nob: Anskaffelsens art og omfang/Anskaffelsens gjenstand er ikke beskrevet tilstrekkelig
+  history:
+  - name: Insufficient or imprecise definition of the subject matter of the contract
+    history: []
+    nob_verify: false
+  nob_verify: false
 no-notice:
   name: Lack of publication of contract notice or unjustified direct award
   nob: Unnlatelse av å kunngjøre konkurranse eller ulovlig direkteanskaffelse
+  history:
+  - name: Lack of publication of contract notice or unjustified direct award
+    history: []
+    nob_verify: false
+  nob_verify: false
 noex-addinfo:
   name: Failure to extend time limits for receipt of tenders or requests to participate where additional information, although requested by the economic operator in good time, is not supplied at the latest six days before the time limit
   nob: Unnlatelse av å forlenge frister/Manglende forlengelse av frist for mottak av tilbud eller forespørsler om å delta der tilleggsopplysninger, selv om leverandøren ber om det i god tid, ikke er gitt senest seks dager før fristen
+  history:
+  - name: Failure to extend time limits for receipt of tenders or requests to participate where additional information, although requested by the economic operator in good time, is not supplied at the latest six days before the time limit
+    history: []
+    nob_verify: false
+  nob_verify: false
 noex-timl:
   name: Failure to extend time limits for receipt of tenders or requests to participate where significant changes are made to the procurement documents
   nob: Unnlatelse av å forlenge frister/Manglende forlengelse av frister for mottak av tilbud eller forespørsler om å delta der det gjøres vesentlige endringer i anskaffelsesdokumentene
+  history:
+  - name: Failure to extend time limits for receipt of tenders or requests to participate where significant changes are made to the procurement documents
+    history: []
+    nob_verify: false
+  nob_verify: false
 nojust-nolots:
   name: Lack of justification for not subdividing contract into lots
   nob: Manglende begrunnelse for å ikke dele opp kontrakten
+  history:
+  - name: Lack of justification for not subdividing contract into lots
+    history: []
+    nob_verify: false
+  nob_verify: false
 npub-limit:
   name: Lack of publication of extended time limits for receipt of tenders or requests to participate
   nob: Manglende publisering av utvidede frister for mottak av tilbud eller forespørsler om å delta
+  history:
+  - name: Lack of publication of extended time limits for receipt of tenders or requests to participate
+    history: []
+    nob_verify: false
+  nob_verify: false
 other:
   name: Other
   nob: Annet
+  history:
+  - name: Other
+    history: []
+    nob_verify: false
+  nob_verify: false
 restr-not-tlim:
   name: Restrictions to obtaining the procurement documents, other than insufficient time
   nob: Begrenset tilgang til anskaffelsesdokumentene annet enn/som ikke er begrunnet i utilstrekkelig tid
+  history:
+  - name: Restrictions to obtaining the procurement documents, other than insufficient time
+    history: []
+    nob_verify: false
+  nob_verify: false
 unj-comp-pro:
   name: Unjustified use of competitive procedure with negotiation, competitive dialogue or innovative partnership
   nob: Ulovlig bruk av  konkurranse med forhandlinger, konkurransepreget dialog eller innovasjonspartnerskap
+  history:
+  - name: Unjustified use of competitive procedure with negotiation, competitive dialogue or innovative partnership
+    history: []
+    nob_verify: false
+  nob_verify: false
 unj-excl:
   name: Unjustified exclusion of tenderers or candidates
   nob: Ulovlig avvisning av tilbud eller kandidater
+  history:
+  - name: Unjustified exclusion of tenderers or candidates
+    history: []
+    nob_verify: false
+  nob_verify: false
 unj-lim-subc:
   name: Unjustified limitation of subcontracting
   nob: Ulovlig begrensning i bruk av underleverandører
+  history:
+  - name: Unjustified limitation of subcontracting
+    history: []
+    nob_verify: false
+  nob_verify: false
 unj-na-ppr:
   name: Unjustified non-application of public procurement rules
   nob: Ulovlig omgåelse av anskaffelsesregelverket
+  history:
+  - name: Unjustified non-application of public procurement rules
+    history: []
+    nob_verify: false
+  nob_verify: false
 unj-nrl:
   name: Use of technical specification, selection criterion, award criterion, exclusion criterion, or contract performance condition that are discriminatory because of unjustified national, regional or local preferences
   nob: Bruk av teknisk spesifikasjon, tildelingskriterier, kvalifikasjonskrav, avvisningsgrunner eller kontraktskrav som er diskriminerende på grunn av nasjonale, regionale eller lokale preferanser.
+  history:
+  - name: Use of technical specification, selection criterion, award criterion, exclusion criterion, or contract performance condition that are discriminatory because of unjustified national, regional or local preferences
+    history: []
+    nob_verify: false
+  nob_verify: false
 unj-nrl-other:
   name: Use of technical specifications, selection criteria, award criteria, exclusion criteria, or contract performance conditions that are discriminatory (i.e. restrict access for economic operators) for other reasons than unjustified national, regional or local preferences
   nob: Bruk av teknisk spesifikasjon, tildelingskriterier, kvalifikasjonskrav, avvisningsgrunner eller kontraktskrav som er diskriminerende (begrenser tilgang for leverandører) av andre årsaker enn grunnløse nasjonale, regionale eller lokale preferanser.
+  history:
+  - name: Use of technical specifications, selection criteria, award criteria, exclusion criteria, or contract performance conditions that are discriminatory (i.e. restrict access for economic operators) for other reasons than unjustified national, regional or local preferences
+    history: []
+    nob_verify: false
+  nob_verify: false

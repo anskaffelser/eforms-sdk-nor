@@ -1,0 +1,8 @@
+can-modif:
+  name: Contract modification notice
+  nob: Varsel om endring av kontrakt
+  history:
+  - name: Contract modification notice
+    history: []
+    nob_verify: false
+  nob_verify: false

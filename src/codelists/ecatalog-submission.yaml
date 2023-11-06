@@ -1,0 +1,24 @@
+allowed:
+  name: Allowed
+  nob: Tillatt
+  history:
+  - name: Allowed
+    history: []
+    nob_verify: false
+  nob_verify: false
+not-allowed:
+  name: Not allowed
+  nob: Ikke lov
+  history:
+  - name: Not allowed
+    history: []
+    nob_verify: false
+  nob_verify: false
+required:
+  name: Required
+  nob: Påkrevd
+  history:
+  - name: Required
+    history: []
+    nob_verify: false
+  nob_verify: false

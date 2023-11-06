@@ -1,0 +1,80 @@
+airport:
+  name: Airport-related activities
+  nob: Flyplassrelaterte aktiviteter
+  history:
+  - name: Airport-related activities
+    history: []
+    nob_verify: false
+  nob_verify: false
+electricity:
+  name: Electricity-related activities
+  nob: Elektrisitetsrelatert virksomhet
+  history:
+  - name: Electricity-related activities
+    history: []
+    nob_verify: false
+  nob_verify: false
+gas-heat:
+  name: Production, transport or distribution of gas or heat
+  nob: Produksjon, transport eller distribusjon av gass eller varme
+  history:
+  - name: Production, transport or distribution of gas or heat
+    history: []
+    nob_verify: false
+  nob_verify: false
+gas-oil:
+  name: Extraction of gas or oil
+  nob: Utvinning av gass eller olje
+  history:
+  - name: Extraction of gas or oil
+    history: []
+    nob_verify: false
+  nob_verify: false
+port:
+  name: Port-related activities
+  nob: Havnerelatert virksomhet
+  history:
+  - name: Port-related activities
+    history: []
+    nob_verify: false
+  nob_verify: false
+post:
+  name: Postal services
+  nob: Posttjenester
+  history:
+  - name: Postal services
+    history: []
+    nob_verify: false
+  nob_verify: false
+rail:
+  name: Railway services
+  nob: Jernbane tjenester
+  history:
+  - name: Railway services
+    history: []
+    nob_verify: false
+  nob_verify: false
+solid-fuel:
+  name: Exploration or extraction of coal or other solid fuels
+  nob: Leting eller utvinning av kull eller andre faste brensler
+  history:
+  - name: Exploration or extraction of coal or other solid fuels
+    history: []
+    nob_verify: false
+  nob_verify: false
+urttb:
+  name: Urban railway, tramway, trolleybus or bus services
+  nob: Bybane, trikk, trolleybuss eller buss
+  history:
+  - name: Urban railway, tramway, trolleybus or bus services
+    history: []
+    nob_verify: false
+  nob_verify: false
+water:
+  name: Water-related activities
+  nob: Vannrelaterte aktiviteter
+  history:
+  - name: Water-related activities
+    history: []
+    nob_verify: false
+  nob_verify: false

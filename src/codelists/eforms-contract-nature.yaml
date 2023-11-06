@@ -1,0 +1,24 @@
+services:
+  name: Services
+  nob: Tjenester
+  history:
+  - name: Services
+    history: []
+    nob_verify: false
+  nob_verify: false
+supplies:
+  name: Supplies
+  nob: Forsyninger
+  history:
+  - name: Supplies
+    history: []
+    nob_verify: false
+  nob_verify: false
+works:
+  name: Works
+  nob: Verk
+  history:
+  - name: Works
+    history: []
+    nob_verify: false
+  nob_verify: false

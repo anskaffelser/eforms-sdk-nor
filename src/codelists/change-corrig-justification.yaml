@@ -1,23 +1,64 @@
 cancel:
   name: Notice cancelled
-  nob: Avlysning kunngjøring
-  nob_verify: true
+  nob: Kunngjøring avlyst
+  history:
+  - name: Notice cancelled
+    history: []
+    nob_verify: false
+  - name: Notice cancelled
+    nob: Avlysning kunngjøring
+    history: []
+    nob_verify: true
+  nob_verify: false
 cancel-intent:
   name: Cancellation intention
   nob: Avlysning intensjon
+  history:
+  - name: Cancellation intention
+    history: []
+    nob_verify: false
+  nob_verify: false
 cor-buy:
   name: Buyer correction
   nob: Korreksjon kjøper
+  history:
+  - name: Buyer correction
+    history: []
+    nob_verify: false
+  nob_verify: false
 cor-esen:
   name: eSender correction
   nob: Korreksjon eSender
+  history:
+  - name: eSender correction
+    history: []
+    nob_verify: false
+  nob_verify: false
 cor-pub:
   name: Publisher correction
   nob: Korreksjon offentliggjøring
+  history:
+  - name: Publisher correction
+    history: []
+    nob_verify: false
+  nob_verify: false
 info-release:
   name: Information now available
-  nob: Tilgjengelighetsinformasjon Informasjon nå tilgjengelig
-  nob_verify: true
+  nob: Informasjon nå tilgjengelig
+  history:
+  - name: Information now available
+    history: []
+    nob_verify: false
+  - name: Information now available
+    nob: Tilgjengelighetsinformasjon Informasjon nå tilgjengelig
+    history: []
+    nob_verify: true
+  nob_verify: false
 update-add:
   name: Information updated
   nob: Informasjon oppdatert
+  history:
+  - name: Information updated
+    history: []
+    nob_verify: false
+  nob_verify: false

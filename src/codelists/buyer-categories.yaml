@@ -1,3 +1,8 @@
 buyer-categories:
-  name: Buyer Categories
+  name: Buyer categories
   nob: Kategori av kjøpere
+  history:
+  - name: Buyer categories
+    history: []
+    nob_verify: false
+  nob_verify: false

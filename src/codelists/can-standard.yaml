@@ -1,0 +1,40 @@
+29:
+  name: Contract award notice – general directive, standard regime
+  nob: Melding om kontraktstildeling – generelt direktiv, standardregime
+  history:
+  - name: Contract award notice – general directive, standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+30:
+  name: Contract award notice – sectoral directive, standard regime
+  nob: Kunngjøring av kontraktstildeling – sektordirektiv, standardregime
+  history:
+  - name: Contract award notice – sectoral directive, standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+31:
+  name: Contract award notice – defence directive, standard regime
+  nob: Melding om kontraktstildeling – forsvarsdirektiv, standardregime
+  history:
+  - name: Contract award notice – defence directive, standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+32:
+  name: Concession award notice – concession directive, standard regime
+  nob: Varsel om konsesjonstildeling – konsesjonsdirektiv, standardregime
+  history:
+  - name: Concession award notice – concession directive, standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+E4:
+  name: Below threshold contract award notice (CAN) general
+  nob: Varsel om kontraktstildeling under terskelen (CAN) generelt
+  history:
+  - name: Below threshold contract award notice (CAN) general
+    history: []
+    nob_verify: false
+  nob_verify: false

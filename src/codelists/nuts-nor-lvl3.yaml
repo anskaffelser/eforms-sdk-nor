@@ -1,0 +1,56 @@
+NO020:
+  name: Innlandet
+  history: []
+  nob_verify: false
+NO060:
+  name: Trøndelag
+  history: []
+  nob_verify: false
+NO071:
+  name: Nordland
+  history: []
+  nob_verify: false
+NO074:
+  name: Troms og Finnmark
+  history: []
+  nob_verify: false
+NO081:
+  name: Oslo
+  history: []
+  nob_verify: false
+NO082:
+  name: Viken
+  history: []
+  nob_verify: false
+NO091:
+  name: Vestfold og Telemark
+  history: []
+  nob_verify: false
+NO092:
+  name: Agder
+  history: []
+  nob_verify: false
+NO0A1:
+  name: Rogaland
+  history: []
+  nob_verify: false
+NO0A2:
+  name: Vestland
+  history: []
+  nob_verify: false
+NO0A3:
+  name: Møre og Romsdal
+  history: []
+  nob_verify: false
+NO0B1:
+  name: Jan Mayen
+  history: []
+  nob_verify: false
+NO0B2:
+  name: Svalbard
+  history: []
+  nob_verify: false
+NOZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

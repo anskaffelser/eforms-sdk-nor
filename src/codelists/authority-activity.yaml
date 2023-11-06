@@ -1,0 +1,80 @@
+defence:
+  name: Defence
+  nob: Forsvar
+  history:
+  - name: Defence
+    history: []
+    nob_verify: false
+  nob_verify: false
+econ-aff:
+  name: Economic affairs
+  nob: Økonomiske forhold
+  history:
+  - name: Economic affairs
+    history: []
+    nob_verify: false
+  nob_verify: false
+education:
+  name: Education
+  nob: Utdannelse
+  history:
+  - name: Education
+    history: []
+    nob_verify: false
+  nob_verify: false
+env-pro:
+  name: Environmental protection
+  nob: Miljøvern
+  history:
+  - name: Environmental protection
+    history: []
+    nob_verify: false
+  nob_verify: false
+gen-pub:
+  name: General public services
+  nob: Offentlig tjenesteyting
+  history:
+  - name: General public services
+    history: []
+    nob_verify: false
+  nob_verify: false
+hc-am:
+  name: Housing and community amenities
+  nob: Bolig og nærmiljø
+  history:
+  - name: Housing and community amenities
+    history: []
+    nob_verify: false
+  nob_verify: false
+health:
+  name: Health
+  nob: Helse
+  history:
+  - name: Health
+    history: []
+    nob_verify: false
+  nob_verify: false
+pub-os:
+  name: Public order and safety
+  nob: Offentlig orden og sikkerhet
+  history:
+  - name: Public order and safety
+    history: []
+    nob_verify: false
+  nob_verify: false
+rcr:
+  name: Recreation, culture and religion
+  nob: Rekreasjon, kultur og religion
+  history:
+  - name: Recreation, culture and religion
+    history: []
+    nob_verify: false
+  nob_verify: false
+soc-pro:
+  name: Social protection
+  nob: Sosial beskyttelse
+  history:
+  - name: Social protection
+    history: []
+    nob_verify: false
+  nob_verify: false

@@ -1,156 +1,517 @@
 autorisation:
   name: 'For service contracts: authorisation of particular organisation needed'
-  nob: 'For tjenestekontrakter: autorisasjon fra spesifikk organisasjon nødvendig'
+  nob: 'For tjenestekontrakter: autorisasjon fra spesifikk virksomhet nødvendig'
+  history:
+  - name: 'For service contracts: authorisation of particular organisation needed'
+    history: []
+    nob_verify: false
+  - name: 'For service contracts: authorisation of particular organisation needed'
+    nob: 'For tjenestekontrakter: autorisasjon fra spesifikk organisasjon nødvendig'
+    history: []
+    nob_verify: false
+  nob_verify: false
 aver-year-to:
   name: Average yearly turnover
   nob: Gjennomsnittlig årlig omsetning
+  history:
+  - name: Average yearly turnover
+    history: []
+    nob_verify: false
+  nob_verify: false
 bankr-nat:
   name: Analogous situation like bankruptcy under national law
   nob: Analog situasjon som konkurs etter nasjonal lov
+  history:
+  - name: Analogous situation like bankruptcy under national law
+    history: []
+    nob_verify: false
+  nob_verify: false
 bankruptcy:
   name: Bankruptcy
   nob: Konkurs
+  history:
+  - name: Bankruptcy
+    history: []
+    nob_verify: false
+  nob_verify: false
 chain-manage:
   name: Supply chain management
   nob: Ledelse av forkyningskjede
+  history:
+  - name: Supply chain management
+    history: []
+    nob_verify: false
+  nob_verify: false
 corruption:
   name: Corruption
   nob: Korrupsjon
+  history:
+  - name: Corruption
+    history: []
+    nob_verify: false
+  nob_verify: false
 cred-arran:
   name: Arrangement with creditors
   nob: Avtale med kreditorer
+  history:
+  - name: Arrangement with creditors
+    history: []
+    nob_verify: false
+  nob_verify: false
 crime-org:
   name: Participation in a criminal organisation
-  nob: Deltakelse i en kriminell organisasjon
+  nob: Deltakelse i en kriminell virksomhet
+  history:
+  - name: Participation in a criminal organisation
+    history: []
+    nob_verify: false
+  - name: Participation in a criminal organisation
+    nob: Deltakelse i en kriminell organisasjon
+    history: []
+    nob_verify: false
+  nob_verify: false
 distorsion:
   name: Agreements with other economic operators aimed at distorting competition
   nob: Avtaler med andre økonomiske aktører som har til hensikt å forvrenge konkurransen
+  history:
+  - name: Agreements with other economic operators aimed at distorting competition
+    history: []
+    nob_verify: false
+  nob_verify: false
 envir-certif-indep:
   name: Certificates by independent bodies about environmental management systems or standards
-  nob: Sertifikater fra uavhengige organisasjoner om miljøstyringssystemer eller standarder
+  nob: Sertifikater fra uavhengige virksomheter om miljøstyringssystemer eller standarder
+  history:
+  - name: Certificates by independent bodies about environmental management systems or standards
+    history: []
+    nob_verify: false
+  - name: Certificates by independent bodies about environmental management systems or standards
+    nob: Sertifikater fra uavhengige organisasjoner om miljøstyringssystemer eller standarder
+    history: []
+    nob_verify: false
+  nob_verify: false
 envir-law:
   name: Breaching of obligations in the fields of environmental law
   nob: Brudd på forpliktelser innenfor miljølovgivning
+  history:
+  - name: Breaching of obligations in the fields of environmental law
+    history: []
+    nob_verify: false
+  nob_verify: false
 envir-measure:
   name: Environmental management measures
   nob: Miljøstyringstiltak
+  history:
+  - name: Environmental management measures
+    history: []
+    nob_verify: false
+  nob_verify: false
 eo-group:
   name: Economic operator together with others
   nob: Økonomisk aktør sammen med andre
+  history:
+  - name: Economic operator together with others
+    history: []
+    nob_verify: false
+  nob_verify: false
 finan-laund:
   name: Money laundering or terrorist financing
   nob: Hvitevasking eller terrorfinansiering
+  history:
+  - name: Money laundering or terrorist financing
+    history: []
+    nob_verify: false
+  nob_verify: false
 finan-rat:
   name: Financial ratio
   nob: Økonomisk forholdstall
+  history:
+  - name: Financial ratio
+    history: []
+    nob_verify: false
+  nob_verify: false
 finan-requ:
   name: Other economic or financial requirements
   nob: Andre økonomiske eller finansielle krav
+  history:
+  - name: Other economic or financial requirements
+    history: []
+    nob_verify: false
+  nob_verify: false
 fraud:
   name: Fraud
   nob: Svindel
+  history: []
+  nob_verify: false
 gen-year-to:
   name: General yearly turnover
   nob: Generell årlig omsetning
+  history:
+  - name: General yearly turnover
+    history: []
+    nob_verify: false
+  nob_verify: false
 human-traffic:
   name: Child labour and other forms of trafficking in human beings
   nob: Barnearbeid og andre former for menneskehandel
+  history:
+  - name: Child labour and other forms of trafficking in human beings
+    history: []
+    nob_verify: false
+  nob_verify: false
 indem-insu:
   name: Professional risk indemnity insurance
   nob: Profesjonsansvarsforsikring
+  history:
+  - name: Professional risk indemnity insurance
+    history: []
+    nob_verify: false
+  nob_verify: false
 insolvency:
   name: Insolvency
   nob: Insolvens
+  history:
+  - name: Insolvency
+    history: []
+    nob_verify: false
+  nob_verify: false
 labour-law:
   name: Breaching of obligations in the fields of labour law
   nob: Brudd på forpliktelser innenfor arbeidsretten
+  history:
+  - name: Breaching of obligations in the fields of labour law
+    history: []
+    nob_verify: false
+  nob_verify: false
 liq-admin:
   name: Assets being administered by liquidator
   nob: Eiendeler administreres av likvidator
+  history:
+  - name: Assets being administered by liquidator
+    history: []
+    nob_verify: false
+  nob_verify: false
 manage-staff:
   name: Number of managerial staff
   nob: Antall lederansatte
+  history:
+  - name: Number of managerial staff
+    history: []
+    nob_verify: false
+  nob_verify: false
 membership:
   name: 'For service contracts: membership of particular organisation needed'
-  nob: 'For tjenestekontrakter: medlemskap i spesifikk organisasjon nødvendig'
+  nob: 'For tjenestekontrakter: medlemskap i spesifikk virksomhet nødvendig'
+  history:
+  - name: 'For service contracts: membership of particular organisation needed'
+    history: []
+    nob_verify: false
+  - name: 'For service contracts: membership of particular organisation needed'
+    nob: 'For tjenestekontrakter: medlemskap i spesifikk organisasjon nødvendig'
+    history: []
+    nob_verify: false
+  nob_verify: false
 misinterpr:
   name: Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure
   nob: Skyldig i feiltolkning, tilbakeholdt informasjon, manglende evne til å gi nødvendig dokumenter og oppnådde konfidensiell informasjon i denne prosedyren
+  history:
+  - name: Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure
+    history: []
+    nob_verify: false
+  nob_verify: false
 nati-ground:
   name: Purely national exclusion grounds
   nob: Kun nasjonale eksklusjonsgrunnlag
+  history:
+  - name: Purely national exclusion grounds
+    history: []
+    nob_verify: false
+  nob_verify: false
 partic-confl:
   name: Conflict of interest due to its participation in the procurement procedure
   nob: Interessekonflikt på grunn av deltakelse i anskaffelsesprosedyren
+  history:
+  - name: Conflict of interest due to its participation in the procurement procedure
+    history: []
+    nob_verify: false
+  nob_verify: false
 prep-confl:
   name: Direct or indirect involvement in the preparation of this procurement procedure
   nob: Direkte eller indirekte involvering i forberedelsen av denne anskaffelsesprosedyren
+  history:
+  - name: Direct or indirect involvement in the preparation of this procurement procedure
+    history: []
+    nob_verify: false
+  nob_verify: false
 prof-misconduct:
   name: Guilty of grave professional misconduct
   nob: Skyld for grov yrkesmessig forseelse
+  history:
+  - name: Guilty of grave professional misconduct
+    history: []
+    nob_verify: false
+  nob_verify: false
 prof-regist:
   name: Enrolment in a relevant professional register
+  nob: Innmelding i relevant fagregister
+  history:
+  - name: Enrolment in a relevant professional register
+    history: []
+    nob_verify: false
+  nob_verify: false
 qa-certif-inst:
   name: 'For supply contracts: certificates by quality control institutes'
+  nob: 'For leveringskontrakter: sertifikater fra kvalitetskontrollinstitutter'
+  history:
+  - name: 'For supply contracts: certificates by quality control institutes'
+    history: []
+    nob_verify: false
+  nob_verify: false
 qu-certif-indep:
   name: Certificates by independent bodies about quality assurance standards
+  nob: Sertifikater fra uavhengige organer om kvalitetssikringsstandarder
+  history:
+  - name: Certificates by independent bodies about quality assurance standards
+    history: []
+    nob_verify: false
+  nob_verify: false
 qual-cont-tech:
   name: Technicians or technical bodies for quality control
+  nob: Teknikere eller tekniske organer for kvalitetskontroll
+  history:
+  - name: Technicians or technical bodies for quality control
+    history: []
+    nob_verify: false
+  nob_verify: false
 qual-facil:
   name: Technical facilities and measures for ensuring quality
+  nob: Tekniske anlegg og tiltak for å sikre kvalitet
+  history:
+  - name: Technical facilities and measures for ensuring quality
+    history: []
+    nob_verify: false
+  nob_verify: false
 qualification:
   name: Educational and professional qualifications
+  nob: Pedagogiske og faglige kvalifikasjoner
+  history:
+  - name: Educational and professional qualifications
+    history: []
+    nob_verify: false
+  nob_verify: false
 registered:
   name: Economic operator registered in a pre qualification system
+  nob: Markedsdeltaker registrert i prekvalifiseringssystem
+  history:
+  - name: Economic operator registered in a pre qualification system
+    history: []
+    nob_verify: false
+  nob_verify: false
 relied:
   name: Relied on entities
+  nob: Stolte på enheter
+  history:
+  - name: Relied on entities
+    history: []
+    nob_verify: false
+  nob_verify: false
 research-fac:
   name: Study and research facilities
+  nob: Studie- og forskningsfasiliteter
+  history:
+  - name: Study and research facilities
+    history: []
+    nob_verify: false
+  nob_verify: false
 sanction:
   name: Early termination, damages or other comparable sanctions
+  nob: Tidlig oppsigelse, erstatning eller andre sammenlignbare sanksjoner
+  history:
+  - name: Early termination, damages or other comparable sanctions
+    history: []
+    nob_verify: false
+  nob_verify: false
 service-perform:
   name: 'For service contracts: performance of services of the specified type'
+  nob: 'For servicekontrakter: utførelse av tjenester av den angitte typen'
+  history:
+  - name: 'For service contracts: performance of services of the specified type'
+    history: []
+    nob_verify: false
+  nob_verify: false
 shelt-worksh:
   name: Economic operator is a sheltered workshop
+  nob: Aktøren er et skjermet verksted
+  history:
+  - name: Economic operator is a sheltered workshop
+    history: []
+    nob_verify: false
+  nob_verify: false
 sme:
   name: Economic operator micro, small or medium-sized enterprise
+  nob: Økonomisk operatør mikro, små og mellomstore bedrifter
+  history:
+  - name: Economic operator micro, small or medium-sized enterprise
+    history: []
+    nob_verify: false
+  nob_verify: false
 socsec-law:
   name: Breaching of obligations in the fields of social law
+  nob: Brudd på forpliktelser innen sosialrett
+  history:
+  - name: Breaching of obligations in the fields of social law
+    history: []
+    nob_verify: false
+  nob_verify: false
 socsec-pay:
   name: Payment of social security contributions
+  nob: Betaling av trygdeavgift
+  history:
+  - name: Payment of social security contributions
+    history: []
+    nob_verify: false
+  nob_verify: false
 spec-aver-to:
   name: Specific average turnover
+  nob: Spesifikk gjennomsnittlig omsetning
+  history:
+  - name: Specific average turnover
+    history: []
+    nob_verify: false
+  nob_verify: false
 spec-req-check:
   name: Special requierements check
+  nob: Spesielle krav sjekk
+  history:
+  - name: Special requierements check
+    history: []
+    nob_verify: false
+  nob_verify: false
 spec-year-to:
   name: Specific yearly turnover
+  nob: Spesifikk årlig omsetning
+  history:
+  - name: Specific yearly turnover
+    history: []
+    nob_verify: false
+  nob_verify: false
 staff-red:
   name: Reduction of the number of qualified candidates
+  nob: Reduksjon av antall kvalifiserte kandidater
+  history:
+  - name: Reduction of the number of qualified candidates
+    history: []
+    nob_verify: false
+  nob_verify: false
 subco-ent:
   name: Subcontracted entities
+  nob: Enheter i underleveranser
+  history:
+  - name: Subcontracted entities
+    history: []
+    nob_verify: false
+  nob_verify: false
 suncont-port:
   name: Subcontracting proportion
+  nob: Andel underleverandører
+  history:
+  - name: Subcontracting proportion
+    history: []
+    nob_verify: false
+  nob_verify: false
 supply-perform:
   name: 'For supply contracts: performance of deliveries of the specified type'
+  nob: 'For leveringskontrakter: utførelse av leveranser av den angitte typen'
+  history:
+  - name: 'For supply contracts: performance of deliveries of the specified type'
+    history: []
+    nob_verify: false
+  nob_verify: false
 susp-act:
   name: Business activities are suspended
+  nob: Forretningsaktiviteter er suspendert
+  history:
+  - name: Business activities are suspended
+    history: []
+    nob_verify: false
+  nob_verify: false
 tax-pay:
   name: Payment of taxes
+  nob: Betaling av skatt
+  history:
+  - name: Payment of taxes
+    history: []
+    nob_verify: false
+  nob_verify: false
 tech-equip:
   name: Tools, plant or technical equipment
+  nob: Verktøy, anlegg eller teknisk utstyr
+  history:
+  - name: Tools, plant or technical equipment
+    history: []
+    nob_verify: false
+  nob_verify: false
 terr-offence:
   name: Terrorist offences or offences linked to terrorist activities
+  nob: Terrorhandlinger eller lovbrudd knyttet til terrorvirksomhet
+  history:
+  - name: Terrorist offences or offences linked to terrorist activities
+    history: []
+    nob_verify: false
+  nob_verify: false
 trade-regist:
   name: Enrolment in a trade register
+  nob: Innmelding i et handelsregister
+  history:
+  - name: Enrolment in a trade register
+    history: []
+    nob_verify: false
+  nob_verify: false
 w-autent:
   name: 'For supply contracts: samples, descriptions or photographs with certification of authenticity'
+  nob: 'For leveransekontrakter: prøver, beskrivelser eller fotografier med autentisitetssertifisering'
+  history:
+  - name: 'For supply contracts: samples, descriptions or photographs with certification of authenticity'
+    history: []
+    nob_verify: false
+  nob_verify: false
 wo-autent:
   name: 'For supply contracts: samples, descriptions or photographs without certification of authenticity'
+  nob: 'For leveransekontrakter: prøver, beskrivelser eller fotografier uten ekthetssertifisering'
+  history:
+  - name: 'For supply contracts: samples, descriptions or photographs without certification of authenticity'
+    history: []
+    nob_verify: false
+  nob_verify: false
 work-perform:
   name: 'For works contracts: performance of works of the specified type'
+  nob: 'For bygge- og anleggskontrakter: utførelse av arbeid av den angitte typen'
+  history:
+  - name: 'For works contracts: performance of works of the specified type'
+    history: []
+    nob_verify: false
+  nob_verify: false
 work-tech:
   name: 'For works contracts: technicians or technical bodies to carry out the work'
+  nob: 'For bygge- og anleggskontrakter: teknikere eller tekniske organer som skal utføre arbeidet'
+  history:
+  - name: 'For works contracts: technicians or technical bodies to carry out the work'
+    history: []
+    nob_verify: false
+  nob_verify: false
 year-manpower:
   name: Average annual manpower
+  nob: Gjennomsnittlig årlig arbeidskraft
+  history:
+  - name: Average annual manpower
+    history: []
+    nob_verify: false
+  nob_verify: false
 misrepresent:
   name: Guilty of misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure
+  nob: Skyldig i feilaktig fremstilling, tilbakeholdt informasjon, ute av stand til å gi nødvendige dokumenter og innhentet konfidensiell informasjon om denne prosedyren
+  history:
+  - name: Guilty of misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure
+    history: []
+    nob_verify: false
+  nob_verify: false

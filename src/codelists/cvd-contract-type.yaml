@@ -1,6 +1,24 @@
 oth-serv-contr:
   name: Other service contract
+  nob: Annen servicekontrakt
+  history:
+  - name: Other service contract
+    history: []
+    nob_verify: false
+  nob_verify: false
 pass-tran-serv:
   name: Passenger road transport services
+  nob: Persontransport på vei
+  history:
+  - name: Passenger road transport services
+    history: []
+    nob_verify: false
+  nob_verify: false
 veh-acq:
   name: Vehicle purchase, lease or rent
+  nob: Kjøp, leasing eller leie av kjøretøy
+  history:
+  - name: Vehicle purchase, lease or rent
+    history: []
+    nob_verify: false
+  nob_verify: false

@@ -1,9 +1,24 @@
 dps-list:
   name: Dynamic purchasing system, only usable by buyers listed in this notice
   nob: Dynamisk innkjøpsordning kun tilgjerngelig for kjøpere oppført i denne kunngjøringen
+  history:
+  - name: Dynamic purchasing system, only usable by buyers listed in this notice
+    history: []
+    nob_verify: false
+  nob_verify: false
 dps-nlist:
   name: Dynamic purchasing system, also usable by buyers not listed in this notice
   nob: Dynamisk innkjøpsordning er også tilgjengelig for kjøpere som ikke er oppført i denne kunngjøringen
+  history:
+  - name: Dynamic purchasing system, also usable by buyers not listed in this notice
+    history: []
+    nob_verify: false
+  nob_verify: false
 none:
   name: None
   nob: Ingen
+  history:
+  - name: None
+    history: []
+    nob_verify: false
+  nob_verify: false

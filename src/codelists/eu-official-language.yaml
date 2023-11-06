@@ -1,0 +1,96 @@
+BUL:
+  name: Bulgarian
+  history: []
+  nob_verify: false
+CES:
+  name: Czech
+  history: []
+  nob_verify: false
+DAN:
+  name: Danish
+  history: []
+  nob_verify: false
+DEU:
+  name: German
+  history: []
+  nob_verify: false
+ELL:
+  name: Greek
+  history: []
+  nob_verify: false
+ENG:
+  name: English
+  history: []
+  nob_verify: false
+EST:
+  name: Estonian
+  history: []
+  nob_verify: false
+FIN:
+  name: Finnish
+  history: []
+  nob_verify: false
+FRA:
+  name: French
+  history: []
+  nob_verify: false
+GLE:
+  name: Irish
+  history: []
+  nob_verify: false
+HRV:
+  name: Croatian
+  history: []
+  nob_verify: false
+HUN:
+  name: Hungarian
+  history: []
+  nob_verify: false
+ITA:
+  name: Italian
+  history: []
+  nob_verify: false
+LAV:
+  name: Latvian
+  history: []
+  nob_verify: false
+LIT:
+  name: Lithuanian
+  history: []
+  nob_verify: false
+MLT:
+  name: Maltese
+  history: []
+  nob_verify: false
+NLD:
+  name: Dutch
+  history: []
+  nob_verify: false
+POL:
+  name: Polish
+  history: []
+  nob_verify: false
+POR:
+  name: Portuguese
+  history: []
+  nob_verify: false
+RON:
+  name: Romanian
+  history: []
+  nob_verify: false
+SLK:
+  name: Slovak
+  history: []
+  nob_verify: false
+SLV:
+  name: Slovenian
+  history: []
+  nob_verify: false
+SPA:
+  name: Spanish
+  history: []
+  nob_verify: false
+SWE:
+  name: Swedish
+  history: []
+  nob_verify: false

@@ -1,0 +1,164 @@
+NL111:
+  name: Oost-Groningen
+  history: []
+  nob_verify: false
+NL112:
+  name: Delfzijl en omgeving
+  history: []
+  nob_verify: false
+NL113:
+  name: Overig Groningen
+  history: []
+  nob_verify: false
+NL124:
+  name: Noord-Friesland
+  history: []
+  nob_verify: false
+NL125:
+  name: Zuidwest-Friesland
+  history: []
+  nob_verify: false
+NL126:
+  name: Zuidoost-Friesland
+  history: []
+  nob_verify: false
+NL131:
+  name: Noord-Drenthe
+  history: []
+  nob_verify: false
+NL132:
+  name: Zuidoost-Drenthe
+  history: []
+  nob_verify: false
+NL133:
+  name: Zuidwest-Drenthe
+  history: []
+  nob_verify: false
+NL211:
+  name: Noord-Overijssel
+  history: []
+  nob_verify: false
+NL212:
+  name: Zuidwest-Overijssel
+  history: []
+  nob_verify: false
+NL213:
+  name: Twente
+  history: []
+  nob_verify: false
+NL221:
+  name: Veluwe
+  history: []
+  nob_verify: false
+NL224:
+  name: Zuidwest-Gelderland
+  history: []
+  nob_verify: false
+NL225:
+  name: Achterhoek
+  history: []
+  nob_verify: false
+NL226:
+  name: Arnhem/Nijmegen
+  history: []
+  nob_verify: false
+NL230:
+  name: Flevoland
+  history: []
+  nob_verify: false
+NL310:
+  name: Utrecht
+  history: []
+  nob_verify: false
+NL321:
+  name: Kop van Noord-Holland
+  history: []
+  nob_verify: false
+NL323:
+  name: IJmond
+  history: []
+  nob_verify: false
+NL324:
+  name: Agglomeratie Haarlem
+  history: []
+  nob_verify: false
+NL325:
+  name: Zaanstreek
+  history: []
+  nob_verify: false
+NL327:
+  name: Het Gooi en Vechtstreek
+  history: []
+  nob_verify: false
+NL328:
+  name: Alkmaar en omgeving
+  history: []
+  nob_verify: false
+NL329:
+  name: Groot-Amsterdam
+  history: []
+  nob_verify: false
+NL332:
+  name: Agglomeratie ’s-Gravenhage
+  history: []
+  nob_verify: false
+NL333:
+  name: Delft en Westland
+  history: []
+  nob_verify: false
+NL337:
+  name: Agglomeratie Leiden en Bollenstreek
+  history: []
+  nob_verify: false
+NL33A:
+  name: Zuidoost-Zuid-Holland
+  history: []
+  nob_verify: false
+NL33B:
+  name: Oost-Zuid-Holland
+  history: []
+  nob_verify: false
+NL33C:
+  name: Groot-Rijnmond
+  history: []
+  nob_verify: false
+NL341:
+  name: Zeeuwsch-Vlaanderen
+  history: []
+  nob_verify: false
+NL342:
+  name: Overig Zeeland
+  history: []
+  nob_verify: false
+NL411:
+  name: West-Noord-Brabant
+  history: []
+  nob_verify: false
+NL412:
+  name: Midden-Noord-Brabant
+  history: []
+  nob_verify: false
+NL413:
+  name: Noordoost-Noord-Brabant
+  history: []
+  nob_verify: false
+NL414:
+  name: Zuidoost-Noord-Brabant
+  history: []
+  nob_verify: false
+NL421:
+  name: Noord-Limburg
+  history: []
+  nob_verify: false
+NL422:
+  name: Midden-Limburg
+  history: []
+  nob_verify: false
+NL423:
+  name: Zuid-Limburg
+  history: []
+  nob_verify: false
+NLZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

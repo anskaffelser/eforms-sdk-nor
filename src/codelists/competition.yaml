@@ -1,0 +1,56 @@
+cn-desg:
+  name: Design contest notice
+  nob: Varsel om designkonkurranse
+  history:
+  - name: Design contest notice
+    history: []
+    nob_verify: false
+  nob_verify: false
+cn-social:
+  name: Contract notice – light regime
+  nob: Kontraktsoppsigelse – enkelt regime
+  history:
+  - name: Contract notice – light regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+cn-standard:
+  name: Contract or concession notice – standard regime
+  nob: Melding om kontrakt eller konsesjon – standardregime
+  history:
+  - name: Contract or concession notice – standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+pin-cfc-social:
+  name: Prior information notice or a periodic indicative notice used as a call for competition – light regime
+  nob: Forhåndsvarsel eller en periodisk veiledende melding som brukes som en oppfordring til konkurranse – enkelt regime
+  history:
+  - name: Prior information notice or a periodic indicative notice used as a call for competition – light regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+pin-cfc-standard:
+  name: Prior information notice or a periodic indicative notice used as a call for competition – standard regime
+  nob: Forhåndsmelding eller periodisk veiledende melding som brukes som oppfordring til konkurranse – standardregime
+  history:
+  - name: Prior information notice or a periodic indicative notice used as a call for competition – standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+qu-sy:
+  name: Notice on the existence of a qualification system
+  nob: Melding om eksistensen av et kvalifikasjonssystem
+  history:
+  - name: Notice on the existence of a qualification system
+    history: []
+    nob_verify: false
+  nob_verify: false
+subco:
+  name: Subcontracting notice
+  nob: Varsel om underleveranse
+  history:
+  - name: Subcontracting notice
+    history: []
+    nob_verify: false
+  nob_verify: false

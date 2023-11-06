@@ -1,6 +1,16 @@
-'false':
-  name: 'False'
+false:
+  name: no
   nob: Usann
-'true':
-  name: 'True'
+  history:
+  - name: no
+    history: []
+    nob_verify: false
+  nob_verify: false
+true:
+  name: yes
   nob: Sann
+  history:
+  - name: yes
+    history: []
+    nob_verify: false
+  nob_verify: false

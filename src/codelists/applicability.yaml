@@ -1,15 +1,28 @@
-false:
-  name: 'false'
+no:
+  name: No
   nob: Nei
+  history: []
+  nob_verify: false
 not-known:
   name: Not yet known
   nob: Enda ikke kjent
-true:
-  name: 'true'
+  history:
+  - name: Not yet known
+    history: []
+    nob_verify: false
+  nob_verify: false
+yes:
+  name: Yes
   nob: Ja
-'no':
-  name: 'No'
+  history: []
+  nob_verify: false
+false:
+  name: false
   nob: Nei
-'yes':
-  name: 'Yes'
+  history: []
+  nob_verify: false
+true:
+  name: true
   nob: Ja
+  history: []
+  nob_verify: false

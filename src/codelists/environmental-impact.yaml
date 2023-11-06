@@ -1,24 +1,96 @@
 biodiv-eco:
   name: The protection and restoration of biodiversity and ecosystems
+  nob: Vern og restaurering av biologisk mangfold og økosystemer
+  history:
+  - name: The protection and restoration of biodiversity and ecosystems
+    history: []
+    nob_verify: false
+  nob_verify: false
 circ-econ:
   name: The transition to a circular economy
+  nob: Overgangen til en sirkulær økonomi
+  history:
+  - name: The transition to a circular economy
+    history: []
+    nob_verify: false
+  nob_verify: false
 clim-adapt:
   name: Climate change adaptation
+  nob: Tilpasning til klimaendringer
+  history:
+  - name: Climate change adaptation
+    history: []
+    nob_verify: false
+  nob_verify: false
 clim-mitig:
   name: Climate change mitigation
+  nob: Tiltak mot klimaendringer
+  history:
+  - name: Climate change mitigation
+    history: []
+    nob_verify: false
+  nob_verify: false
 emas-com:
   name: Requesting compliance with the eco-management and audit scheme (EMAS), established by Regulation (EC) No 1221/2009
+  nob: Be om overholdelse av miljøstyrings- og revisjonsordningen (EMAS), etablert ved forordning (EF) nr. 1221/2009
+  history:
+  - name: Requesting compliance with the eco-management and audit scheme (EMAS), established by Regulation (EC) No 1221/2009
+    history: []
+    nob_verify: false
+  nob_verify: false
 ene-ef-com:
   name: Requesting compliance with the highest energy efficiency class (as defined by various legislation such as, for example, Regulation (EU) 626/2011 on air conditioners)
+  nob: Be om samsvar med den høyeste energieffektivitetsklassen (som definert av ulike lovgivninger som for eksempel forordning (EU) 626/2011 om klimaanlegg)
+  history:
+  - name: Requesting compliance with the highest energy efficiency class (as defined by various legislation such as, for example, Regulation (EU) 626/2011 on air conditioners)
+    history: []
+    nob_verify: false
+  nob_verify: false
 iso-14001-com:
   name: Requesting compliance with an ISO 14001 environmental management system, other than the eco-management and audit scheme (EMAS) established by Regulation (EC) No 1221/2009
+  nob: Be om samsvar med et annet ISO 14001-miljøstyringssystem enn miljøstyrings- og revisjonsordningen (EMAS) etablert ved forordning (EF) nr. 1221/2009
+  history:
+  - name: Requesting compliance with an ISO 14001 environmental management system, other than the eco-management and audit scheme (EMAS) established by Regulation (EC) No 1221/2009
+    history: []
+    nob_verify: false
+  nob_verify: false
 iso-14024-com:
   name: Requesting compliance with an ISO 14024 Type I environmental label
+  nob: Be om samsvar med et ISO 14024 Type I miljømerke
+  history:
+  - name: Requesting compliance with an ISO 14024 Type I environmental label
+    history: []
+    nob_verify: false
+  nob_verify: false
 other:
   name: Other
+  nob: Annet __________
+  history:
+  - name: Other
+    history: []
+    nob_verify: false
+  nob_verify: false
 pollu-prev:
   name: Pollution prevention and control
+  nob: Forebygging og kontroll av forurensning
+  history:
+  - name: Pollution prevention and control
+    history: []
+    nob_verify: false
+  nob_verify: false
 reg-834-2007-com:
   name: Requesting, for the majority of the relevant purchase, the compliance with Regulation (EC) 834/2007 on organic production and labelling of organic products
+  nob: Anmodning, for størstedelen av det relevante kjøpet, om overholdelse av forordning (EF) 834/2007 om økologisk produksjon og merking av økologiske produkter
+  history:
+  - name: Requesting, for the majority of the relevant purchase, the compliance with Regulation (EC) 834/2007 on organic production and labelling of organic products
+    history: []
+    nob_verify: false
+  nob_verify: false
 water-mar:
   name: The sustainable use and protection of water and marine resources
+  nob: Bærekraftig bruk og beskyttelse av vann- og havressurser
+  history:
+  - name: The sustainable use and protection of water and marine resources
+    history: []
+    nob_verify: false
+  nob_verify: false

@@ -1,11 +1,32 @@
+combined:
+  name: Combined
+  nob: Kombinert
+  history:
+  - name: Combined
+    history: []
+    nob_verify: false
+  nob_verify: false
 services:
   name: Services
   nob: Tjenester
+  history:
+  - name: Services
+    history: []
+    nob_verify: false
+  nob_verify: false
 supplies:
   name: Supplies
   nob: Varer
+  history:
+  - name: Supplies
+    history: []
+    nob_verify: false
+  nob_verify: false
 works:
   name: Works
   nob: Bygge- og anleggsarbeid
-combined:
-  name: Combined
+  history:
+  - name: Works
+    history: []
+    nob_verify: false
+  nob_verify: false

@@ -1,53 +1,188 @@
 body-pl:
   name: Body governed by public law
   nob: Offentligrettslig organ
+  history:
+  - name: Body governed by public law
+    history: []
+    nob_verify: false
+  nob_verify: false
 body-pl-cga:
   name: Body governed by public law, controlled by a central government authority
   nob: Statlige myndigheter
+  history:
+  - name: Body governed by public law, controlled by a central government authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 body-pl-la:
   name: Body governed by public law, controlled by a local authority
   nob: Kommunale myndigheter
+  history:
+  - name: Body governed by public law, controlled by a local authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 body-pl-ra:
   name: Body governed by public law, controlled by a regional authority
   nob: Fylkeskommunale myndigheter
+  history:
+  - name: Body governed by public law, controlled by a regional authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 cga:
   name: Central government authority
   nob: Sentral statlig myndighet
+  history:
+  - name: Central government authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 def-cont:
   name: Defence contractor
+  nob: Forsvarsmyndighet
+  history:
+  - name: Defence contractor
+    history: []
+    nob_verify: false
+  nob_verify: false
 eu-ins-bod-ag:
   name: EU institution, body or agency
-  nob: EU institusjon eller internasjonal organisasjon
+  nob: EU institusjon eller internasjonal virksomhet
+  history:
+  - name: EU institution, body or agency
+    history: []
+    nob_verify: false
+  - name: EU institution, body or agency
+    nob: EU institusjon eller internasjonal organisasjon
+    history: []
+    nob_verify: false
+  nob_verify: false
 eu-int-org:
   name: European Institution/Agency or International Organisation
+  nob: Europeisk institusjon/byrå eller internasjonal organisasjon
+  history:
+  - name: European Institution/Agency or International Organisation
+    history: []
+    nob_verify: false
+  nob_verify: false
 grp-p-aut:
   name: Group of public authorities
   nob: Sammenslutning av offenltige myndigheter
+  history:
+  - name: Group of public authorities
+    history: []
+    nob_verify: false
+  nob_verify: false
 int-org:
   name: International organisation
-  nob: Internasjonal organisasjon
+  nob: Internasjonal virksomhet
+  history:
+  - name: International organisation
+    history: []
+    nob_verify: false
+  - name: International organisation
+    nob: Internasjonal organisasjon
+    history: []
+    nob_verify: false
+  nob_verify: false
 la:
   name: Local authority
-  nob: lokal styresmakt
+  nob: Lokal styresmakt
+  history:
+  - name: Local authority
+    history: []
+    nob_verify: false
+  - name: Local authority
+    nob: lokal styresmakt
+    history: []
+    nob_verify: false
+  nob_verify: false
 org-sub:
   name: Organisation awarding a contract subsidised by a contracting authority
+  nob: Virksomhet som tildeler en kontrakt subsidiert av en oppdragsgiver.
+  history:
+  - name: Organisation awarding a contract subsidised by a contracting authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 org-sub-cga:
   name: Organisation awarding a contract subsidised by a central government authority
+  nob: Virksomhet som tildeler en kontrakt subsidiert av en statlige myndigheter.
+  history:
+  - name: Organisation awarding a contract subsidised by a central government authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 org-sub-la:
   name: Organisation awarding a contract subsidised by a local authority
+  nob: Virksomhet som tildeler en kontrakt subsidiert av kommunale myndigheter.
+  history:
+  - name: Organisation awarding a contract subsidised by a local authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 org-sub-ra:
   name: Organisation awarding a contract subsidised by a regional authority
+  nob: Virksomhet som tildeler en kontrakt subsidiert av fylkeskommunale myndigheter.
+  history:
+  - name: Organisation awarding a contract subsidised by a regional authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 pub-undert:
   name: Public undertaking
+  nob: Offentlig virksomhet
+  history:
+  - name: Public undertaking
+    history: []
+    nob_verify: false
+  nob_verify: false
 pub-undert-cga:
   name: Public undertaking, controlled by a central government authority
+  nob: Offentlig virksomhet, kontrollert av en statlig myndighet
+  history:
+  - name: Public undertaking, controlled by a central government authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 pub-undert-la:
   name: Public undertaking, controlled by a local authority
+  nob: Offentlig virksomhet, kontrollert av en kommunal myndighet
+  history:
+  - name: Public undertaking, controlled by a local authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 pub-undert-ra:
   name: Public undertaking, controlled by a regional authority
+  nob: Offentlig virksomhet, kontrollert av en fylkeskommunal myndighet
+  history:
+  - name: Public undertaking, controlled by a regional authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 ra:
   name: Regional authority
+  nob: Fylkeskommunal myndighet
+  history:
+  - name: Regional authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 rl-aut:
   name: Regional or local authority
+  nob: Fylkeskommunal eller kommunal myndighet
+  history:
+  - name: Regional or local authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 spec-rights-entity:
   name: Entity with special or exclusive rights
+  nob: Entitet med spesielle eller eksklusive rettigheter
+  history:
+  - name: Entity with special or exclusive rights
+    history: []
+    nob_verify: false
+  nob_verify: false

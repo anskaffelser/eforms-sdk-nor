@@ -1,0 +1,108 @@
+AUT:
+  name: Austria
+  history: []
+  nob_verify: false
+BEL:
+  name: Belgium
+  history: []
+  nob_verify: false
+BGR:
+  name: Bulgaria
+  history: []
+  nob_verify: false
+CYP:
+  name: Cyprus
+  history: []
+  nob_verify: false
+CZE:
+  name: Czechia
+  history: []
+  nob_verify: false
+DEU:
+  name: Germany
+  history: []
+  nob_verify: false
+DNK:
+  name: Denmark
+  history: []
+  nob_verify: false
+ESP:
+  name: Spain
+  history: []
+  nob_verify: false
+EST:
+  name: Estonia
+  history: []
+  nob_verify: false
+FIN:
+  name: Finland
+  history: []
+  nob_verify: false
+FRA:
+  name: France
+  history: []
+  nob_verify: false
+GRC:
+  name: Greece
+  history: []
+  nob_verify: false
+HRV:
+  name: Croatia
+  history: []
+  nob_verify: false
+HUN:
+  name: Hungary
+  history: []
+  nob_verify: false
+IRL:
+  name: Ireland
+  history: []
+  nob_verify: false
+ITA:
+  name: Italy
+  history: []
+  nob_verify: false
+LTU:
+  name: Lithuania
+  history: []
+  nob_verify: false
+LUX:
+  name: Luxembourg
+  history: []
+  nob_verify: false
+LVA:
+  name: Latvia
+  history: []
+  nob_verify: false
+MLT:
+  name: Malta
+  history: []
+  nob_verify: false
+NLD:
+  name: Netherlands
+  history: []
+  nob_verify: false
+POL:
+  name: Poland
+  history: []
+  nob_verify: false
+PRT:
+  name: Portugal
+  history: []
+  nob_verify: false
+ROU:
+  name: Romania
+  history: []
+  nob_verify: false
+SVK:
+  name: Slovakia
+  history: []
+  nob_verify: false
+SVN:
+  name: Slovenia
+  history: []
+  nob_verify: false
+SWE:
+  name: Sweden
+  history: []
+  nob_verify: false

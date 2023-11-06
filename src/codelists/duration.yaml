@@ -1,0 +1,16 @@
+UNKNOWN:
+  name: Unknown
+  nob: Ukjent
+  history:
+  - name: Unknown
+    history: []
+    nob_verify: false
+  nob_verify: false
+UNLIMITED:
+  name: Unlimited
+  nob: Ubegrenset
+  history:
+  - name: Unlimited
+    history: []
+    nob_verify: false
+  nob_verify: false

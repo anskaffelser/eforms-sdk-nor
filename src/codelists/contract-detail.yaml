@@ -1,18 +1,52 @@
 all-rev-tic:
   name: Allocation of revenues of sales from tickets
   nob: Fordeling av inntekter fra billettsalg
+  history:
+  - name: Allocation of revenues of sales from tickets
+    history: []
+    nob_verify: false
+  nob_verify: false
 cost-comp:
   name: Cost parameters for compensation payments
   nob: Kostnadsparametere for erstatningsutbetalinger
+  history:
+  - name: Cost parameters for compensation payments
+    history: []
+    nob_verify: false
+  nob_verify: false
 exc-right:
   name: Exclusive rights are granted
-  nob: Eksklusive rettighter beviljes
+  nob: Eksklusive rettighter bevilges
+  history:
+  - name: Exclusive rights are granted
+    history: []
+    nob_verify: false
+  - name: Exclusive rights are granted
+    nob: Eksklusive rettighter beviljes
+    history: []
+    nob_verify: false
+  nob_verify: false
 other:
   name: Other particular conditions
   nob: Andre spesielle forhold
+  history:
+  - name: Other particular conditions
+    history: []
+    nob_verify: false
+  nob_verify: false
 publ-ser-obl:
   name: Public service obligations
   nob: Forpliktelser vedrørende offentlige tjenester
+  history:
+  - name: Public service obligations
+    history: []
+    nob_verify: false
+  nob_verify: false
 soc-stand:
   name: Social standards
   nob: Sosiale standarder
+  history:
+  - name: Social standards
+    history: []
+    nob_verify: false
+  nob_verify: false

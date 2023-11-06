@@ -1,8 +1,24 @@
-n-inc-just:
-  name: Accessibility criteria for persons with disabilities are not included with the following justification
-  nob: Tilgjengelighetskriterier for personer med nedsatt funksjonsevne er ikke inkludert med følgende begrunnelse
+inc:
+  name: Accessibility criteria for persons with disabilities are included
+  nob: Tilgjengelighetskriterier for personer med funksjonsnedsettelser er inkludert.
+  history:
+  - name: Accessibility criteria for persons with disabilities are included
+    history: []
+    nob_verify: false
+  nob_verify: false
 n-inc:
   name: Accessibility criteria for persons with disabilities are not included because the procurement is not intended for use by natural persons
   nob: Tilgjengelighetskriterier for personer med nedsatt funksjonsvene er ikke inkludert fordi anskaffelsen ikke er ment brukt av fysiske personer
-inc:
-  name: Accessibility criteria for persons with disabilities are included
+  history:
+  - name: Accessibility criteria for persons with disabilities are not included because the procurement is not intended for use by natural persons
+    history: []
+    nob_verify: false
+  nob_verify: false
+n-inc-just:
+  name: Accessibility criteria for persons with disabilities are not included with the following justification
+  nob: Tilgjengelighetskriterier for personer med nedsatt funksjonsevne er ikke inkludert med følgende begrunnelse
+  history:
+  - name: Accessibility criteria for persons with disabilities are not included with the following justification
+    history: []
+    nob_verify: false
+  nob_verify: false

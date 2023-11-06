@@ -1,15 +1,40 @@
 ipr-iss:
   name: Intellectual property right issues
   nob: Spørsmål om immaterielle rettigheter
+  history:
+  - name: Intellectual property right issues
+    history: []
+    nob_verify: false
+  nob_verify: false
 phy-mod:
   name: Inclusion of a physical model
   nob: Fysisk modell er inkludert
+  history:
+  - name: Inclusion of a physical model
+    history: []
+    nob_verify: false
+  nob_verify: false
 sen-info:
   name: Protection of particularly sensitive information
   nob: Beskyttelse av sensitiv informasjon
+  history:
+  - name: Protection of particularly sensitive information
+    history: []
+    nob_verify: false
+  nob_verify: false
 sp-of-eq:
   name: Buyer would need specialised office equipment
   nob: Kjøper vil trenge spesialisert kontorutstyr
+  history:
+  - name: Buyer would need specialised office equipment
+    history: []
+    nob_verify: false
+  nob_verify: false
 tdf-non-av:
   name: Tools, devices, or file formats not generally available
   nob: Verktøy, løsninger eller filformater som ikke er alminnelig tilgjengelig
+  history:
+  - name: Tools, devices, or file formats not generally available
+    history: []
+    nob_verify: false
+  nob_verify: false

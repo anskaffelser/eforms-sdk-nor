@@ -1,0 +1,40 @@
+16:
+  name: Contract notice – general directive, standard regime
+  nob: Kunngjøring av kontrakt – generelt direktiv, standardregime
+  history:
+  - name: Contract notice – general directive, standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+17:
+  name: Contract notice – sectoral directive, standard regime
+  nob: Kunngjøring av kontrakt – sektordirektiv, standardregime
+  history:
+  - name: Contract notice – sectoral directive, standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+18:
+  name: Contract notice – defence directive, standard regime
+  nob: Kunngjøring av kontrakt – forsvarsdirektiv, standardregime
+  history:
+  - name: Contract notice – defence directive, standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+19:
+  name: Concession notice – concessions directive, standard regime
+  nob: Konsesjonsmelding – konsesjonsdirektivet, standardregime
+  history:
+  - name: Concession notice – concessions directive, standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+E3:
+  name: Below threshold contract notice (CN) general
+  nob: Generelt under terskelvarsel om kontrakt (CN)
+  history:
+  - name: Below threshold contract notice (CN) general
+    history: []
+    nob_verify: false
+  nob_verify: false

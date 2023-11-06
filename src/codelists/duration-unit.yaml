@@ -1,0 +1,32 @@
+DAY:
+  name: Day
+  nob: Dag
+  history:
+  - name: Day
+    history: []
+    nob_verify: false
+  nob_verify: false
+MONTH:
+  name: Month
+  nob: Måned
+  history:
+  - name: Month
+    history: []
+    nob_verify: false
+  nob_verify: false
+WEEK:
+  name: Week
+  nob: Uke
+  history:
+  - name: Week
+    history: []
+    nob_verify: false
+  nob_verify: false
+YEAR:
+  name: Year
+  nob: År
+  history:
+  - name: Year
+    history: []
+    nob_verify: false
+  nob_verify: false

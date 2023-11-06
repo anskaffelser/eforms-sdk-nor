@@ -1,138 +1,373 @@
 1995_499-XIII:
   name: Ratified Parliament Decision (1995) No 499-XIII
-  nob:
+  nob: Ratifisert parlamentsvedtak (1995) nr. 499-XIII
+  history:
+  - name: Ratified Parliament Decision (1995) No 499-XIII
+    history: []
+    nob_verify: false
+  nob_verify: false
 2011CEB_PROC_EXT:
   name: Guidelines for Procurement of Supplies, Works and Services
   nob: Anskaffelsesveiledning
+  history:
+  - name: Guidelines for Procurement of Supplies, Works and Services
+    history: []
+    nob_verify: false
+  nob_verify: false
 2014CEB_PROC_INT:
   name: Guidelines on the internal procurement of services, supplies and works by the CEB
-  nob:
+  nob: Retningslinjer for interne anskaffelser av tjenester, varer og arbeider av CEB
+  history:
+  - name: Guidelines on the internal procurement of services, supplies and works by the CEB
+    history: []
+    nob_verify: false
+  nob_verify: false
 2020CEB_GRANT:
   name: CEB’s competitive procedures to award grants
-  nob:
+  nob: CEBs konkurranseprosedyrer for tildeling av tilskudd
+  history:
+  - name: CEB’s competitive procedures to award grants
+    history: []
+    nob_verify: false
+  nob_verify: false
 31985R2137:
   name: Regulation (EEC) No 2137/85
-  nob:
+  nob: Forordning (EEC) nr. 2137/85
+  history:
+  - name: Regulation (EEC) No 2137/85
+    history: []
+    nob_verify: false
+  nob_verify: false
 31992L0013:
   name: Directive 92/13/EEC
-  nob:
+  nob: Direktiv 92/13/EEC
+  history:
+  - name: Directive 92/13/EEC
+    history: []
+    nob_verify: false
+  nob_verify: false
 31994D0001:
   name: Decision 94/1/EC, ECSC
-  nob:
+  nob: Vedtak 94/1/EC, ECSC
+  history:
+  - name: Decision 94/1/EC, ECSC
+    history: []
+    nob_verify: false
+  nob_verify: false
 31994D0800:
   name: Decision 94/800/EC
-  nob:
+  nob: Vedtak 94/800/EC
+  history:
+  - name: Decision 94/800/EC
+    history: []
+    nob_verify: false
+  nob_verify: false
 32001R2157:
   name: Regulation (EC) No 2157/2001
-  nob:
+  nob: Forordning (EC) nr. 2157/2001
+  history:
+  - name: Regulation (EC) No 2157/2001
+    history: []
+    nob_verify: false
+  nob_verify: false
 32002D0309:
   name: Decision 2002/309/EC, Euratom
-  nob:
+  nob: Vedtak 2002/309/EC, Euratom
+  history:
+  - name: Decision 2002/309/EC, Euratom
+    history: []
+    nob_verify: false
+  nob_verify: false
 32002R2342:
   name: Regulation (EC, Euratom) No 2342/2002
-  nob:
+  nob: Forordning (EC, Euratom) nr. 2342/2002
+  history:
+  - name: Regulation (EC, Euratom) No 2342/2002
+    history: []
+    nob_verify: false
+  nob_verify: false
 32003R1435:
   name: Regulation (EC) No 1435/2003
-  nob:
+  nob: Forordning (EC) nr. 1435/2003
+  history:
+  - name: Regulation (EC) No 1435/2003
+    history: []
+    nob_verify: false
+  nob_verify: false
 32004L0017:
   name: Directive 2004/17/EC
-  nob:
+  nob: Direktiv 2004/17/EC
+  history:
+  - name: Directive 2004/17/EC
+    history: []
+    nob_verify: false
+  nob_verify: false
 32004L0018:
   name: Directive 2004/18/EC
-  nob:
+  nob: Direktiv 2004/18/EC
+  history:
+  - name: Directive 2004/18/EC
+    history: []
+    nob_verify: false
+  nob_verify: false
 32005D0015:
   name: Decision 2005/15/EC
-  nob:
+  nob: Vedtak 2005/15/EC
+  history:
+  - name: Decision 2005/15/EC
+    history: []
+    nob_verify: false
+  nob_verify: false
 32007D0005_01:
   name: Decision 2007/497/EC (ECB/2007/5)
-  nob:
+  nob: Vedtak 2007/497/EC (ECB/2007/5)
+  history:
+  - name: Decision 2007/497/EC (ECB/2007/5)
+    history: []
+    nob_verify: false
+  nob_verify: false
 32007L0066:
   name: Directive 2007/66/EC
-  nob:
+  nob: Direktiv 2007/66/EC
+  history:
+  - name: Directive 2007/66/EC
+    history: []
+    nob_verify: false
+  nob_verify: false
 32007R0718:
   name: Regulation (EC) No 718/2007
-  nob:
+  nob: Forordning (EC) nr. 718/2007
+  history:
+  - name: Regulation (EC) No 718/2007
+    history: []
+    nob_verify: false
+  nob_verify: false
 32007R1370:
   name: Regulation (EC) No 1370/2007
-  nob:
-3,2008E+128:
+  nob: Forordning (EC) nr. 1370/2007
+  history:
+  - name: Regulation (EC) No 1370/2007
+    history: []
+    nob_verify: false
+  nob_verify: false
+32008E0124:
   name: Council Joint Action 2008/124/CFSP
-  nob:
+  nob: Council Joint Action 2008/124/CFSP
+  history:
+  - name: Council Joint Action 2008/124/CFSP
+    history: []
+    nob_verify: false
+  nob_verify: false
 32008R1008:
   name: Regulation (EC) No 1008/2008
-  nob:
+  nob: Forordning (EC) nr. 1008/2008
+  history:
+  - name: Regulation (EC) No 1008/2008
+    history: []
+    nob_verify: false
+  nob_verify: false
 32009L0081:
   name: Directive 2009/81/EC
-  nob:
+  nob: Direktiv 2009/81/EC
+  history:
+  - name: Directive 2009/81/EC
+    history: []
+    nob_verify: false
+  nob_verify: false
 32012R0966:
   name: Regulation (EU, Euratom) No 966/2012
-  nob:
+  nob: Forordning (EU, Euratom) nr. 966/2012
+  history:
+  - name: Regulation (EU, Euratom) No 966/2012
+    history: []
+    nob_verify: false
+  nob_verify: false
 32012R1268:
   name: Delegated Regulation (EU) No 1268/2012
-  nob:
+  nob: Delegert forordning (EU) nr. 1268/2012
+  history:
+  - name: Delegated Regulation (EU) No 1268/2012
+    history: []
+    nob_verify: false
+  nob_verify: false
 32013L0016:
   name: Directive 2013/16/EU
-  nob:
+  nob: Direktiv 2013/16/EU
+  history:
+  - name: Directive 2013/16/EU
+    history: []
+    nob_verify: false
+  nob_verify: false
 32014D0115:
   name: Decision 2014/115/EU
-  nob:
+  nob: Vedtak 2014/115/EU
+  history:
+  - name: Decision 2014/115/EU
+    history: []
+    nob_verify: false
+  nob_verify: false
 32014D0486:
   name: Decision 2014/486/CFSP
-  nob:
+  nob: Vedtak 2014/486/CFSP
+  history:
+  - name: Decision 2014/486/CFSP
+    history: []
+    nob_verify: false
+  nob_verify: false
 32014D0691:
   name: Decision 2014/691/EU
-  nob:
+  nob: Vedtak 2014/691/EU
+  history:
+  - name: Decision 2014/691/EU
+    history: []
+    nob_verify: false
+  nob_verify: false
 32014L0023:
   name: Directive 2014/23/EU
-  nob:
+  nob: Direktiv 2014/23/EU
+  history:
+  - name: Directive 2014/23/EU
+    history: []
+    nob_verify: false
+  nob_verify: false
 32014L0024:
   name: Directive 2014/24/EU
-  nob:
+  nob: Direktiv 2014/24/EU
+  history:
+  - name: Directive 2014/24/EU
+    history: []
+    nob_verify: false
+  nob_verify: false
 32014L0025:
   name: Directive 2014/25/EU
-  nob:
+  nob: Direktiv 2014/25/EU
+  history:
+  - name: Directive 2014/25/EU
+    history: []
+    nob_verify: false
+  nob_verify: false
 32014R0230:
   name: Regulation (EU) No 230/2014
-  nob:
+  nob: Forordning (EU) nr. 230/2014
+  history:
+  - name: Regulation (EU) No 230/2014
+    history: []
+    nob_verify: false
+  nob_verify: false
 32014R0231:
   name: Regulation (EU) No 231/2014
-  nob:
+  nob: Forordning (EU) nr. 231/2014
+  history:
+  - name: Regulation (EU) No 231/2014
+    history: []
+    nob_verify: false
+  nob_verify: false
 32014R0232:
   name: Regulation (EU) No 232/2014
-  nob:
+  nob: Forordning (EU) nr. 232/2014
+  history:
+  - name: Regulation (EU) No 232/2014
+    history: []
+    nob_verify: false
+  nob_verify: false
 32014R0233:
   name: Regulation (EU) No 233/2014
-  nob:
+  nob: Forordning (EU) nr. 233/2014
+  history:
+  - name: Regulation (EU) No 233/2014
+    history: []
+    nob_verify: false
+  nob_verify: false
 32014R0236:
   name: Regulation (EU) No 236/2014
-  nob:
+  nob: Forordning (EU) nr. 236/2014
+  history:
+  - name: Regulation (EU) No 236/2014
+    history: []
+    nob_verify: false
+  nob_verify: false
 32014R0237:
   name: Regulation (Euratom) No 237/2014
-  nob:
+  nob: Forordning (Euratom) nr. 237/2014
+  history:
+  - name: Regulation (Euratom) No 237/2014
+    history: []
+    nob_verify: false
+  nob_verify: false
 32015R0323:
   name: Regulation (EU) 2015/323
-  nob:
+  nob: Forordning (EU) 2015/323
+  history:
+  - name: Regulation (EU) 2015/323
+    history: []
+    nob_verify: false
+  nob_verify: false
 32016D0002:
   name: Decision (EU) 2016/245 (ECB/2016/2)
-  nob:
+  nob: Vedtak (EU) 2016/245 (ECB/2016/2)
+  history:
+  - name: Decision (EU) 2016/245 (ECB/2016/2)
+    history: []
+    nob_verify: false
+  nob_verify: false
 32017D2263:
   name: Decision (CFSP) 2017/2263
-  nob:
+  nob: Vedtak (CFSP) 2017/2263
+  history:
+  - name: Decision (CFSP) 2017/2263
+    history: []
+    nob_verify: false
+  nob_verify: false
 32018R1046:
   name: Regulation (EU, Euratom) 2018/1046
-  nob:
+  nob: Forordning (EU, Euratom) 2018/1046
+  history:
+  - name: Regulation (EU, Euratom) 2018/1046
+    history: []
+    nob_verify: false
+  nob_verify: false
 32019D0312:
   name: Decision (CFSP) 2019/312
-  nob:
+  nob: Vedtak (CFSP) 2019/312
+  history:
+  - name: Decision (CFSP) 2019/312
+    history: []
+    nob_verify: false
+  nob_verify: false
 C2019_3277:
   name: Decision C(2019) 3277
-  nob:
+  nob: Vedtak C(2019) 3277
+  history:
+  - name: Decision C(2019) 3277
+    history: []
+    nob_verify: false
+  nob_verify: false
 C2019_5515:
   name: Decision C(2019) 5515
-  nob:
+  nob: Vedtak C(2019) 5515
+  history:
+  - name: Decision C(2019) 5515
+    history: []
+    nob_verify: false
+  nob_verify: false
 CFSP2017_34:
   name: CFSP/2017/34/EUMM Georgia
-  nob:
+  nob: CFSP/2017/34/EUMM Georgia
+  history:
+  - name: CFSP/2017/34/EUMM Georgia
+    history: []
+    nob_verify: false
+  nob_verify: false
 other:
   name: Other
-  nob:
+  nob: Annet
+  history: []
+  nob_verify: false
+3,2008E+128:
+  name: Council Joint Action 2008/124/CFSP
+  nob: Rådets fellesinnsats 2008/124/CFSP
+  history:
+  - name: Council Joint Action 2008/124/CFSP
+    history: []
+    nob_verify: false
+  nob_verify: false

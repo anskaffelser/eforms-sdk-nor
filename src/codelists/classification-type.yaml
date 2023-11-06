@@ -1,3 +1,8 @@
 cpv:
-  name: Common Procurement Vocabulary
+  name: Common procurement vocabulary
   nob: Felles anskaffelsvokabular (CPV)
+  history:
+  - name: Common procurement vocabulary
+    history: []
+    nob_verify: false
+  nob_verify: false

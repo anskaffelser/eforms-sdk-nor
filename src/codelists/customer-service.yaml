@@ -1,18 +1,72 @@
 assistance:
   name: Assistance for persons with reduced mobility
+  nob: Hjelp til bevegelseshemmede
+  history:
+  - name: Assistance for persons with reduced mobility
+    history: []
+    nob_verify: false
+  nob_verify: false
 cancel:
   name: Cancellations of services
+  nob: Kansellering av tjenester
+  history:
+  - name: Cancellations of services
+    history: []
+    nob_verify: false
+  nob_verify: false
 clean:
   name: Cleanliness of rolling stock and station facilities
+  nob: Renslighet av rullende materiell og stasjonsfasiliteter
+  history:
+  - name: Cleanliness of rolling stock and station facilities
+    history: []
+    nob_verify: false
+  nob_verify: false
 complaint:
   name: Complaint handling
+  nob: Klagebehandling
+  history:
+  - name: Complaint handling
+    history: []
+    nob_verify: false
+  nob_verify: false
 info:
   name: Information
+  nob: Informasjon
+  history:
+  - name: Information
+    history: []
+    nob_verify: false
+  nob_verify: false
 other:
   name: Other quality targets
+  nob: Andre kvalitetsmål
+  history:
+  - name: Other quality targets
+    history: []
+    nob_verify: false
+  nob_verify: false
 reliability:
   name: Punctuality and reliability
+  nob: Punktlighet og pålitelighet
+  history:
+  - name: Punctuality and reliability
+    history: []
+    nob_verify: false
+  nob_verify: false
 sat-surv:
   name: Customer Satisfaction Survey
+  nob: Kundetilfredshetsundersøkelse
+  history:
+  - name: Customer Satisfaction Survey
+    history: []
+    nob_verify: false
+  nob_verify: false
 ticket:
   name: Tickets
+  nob: Billetter
+  history:
+  - name: Tickets
+    history: []
+    nob_verify: false
+  nob_verify: false

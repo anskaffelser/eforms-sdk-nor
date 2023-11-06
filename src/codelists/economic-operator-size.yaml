@@ -1,15 +1,40 @@
 large:
   name: Large
   nob: Stor
+  history:
+  - name: Large
+    history: []
+    nob_verify: false
+  nob_verify: false
 medium:
   name: Medium
   nob: Mellomstor
+  history:
+  - name: Medium
+    history: []
+    nob_verify: false
+  nob_verify: false
 micro:
   name: Micro
   nob: Mikro
+  history:
+  - name: Micro
+    history: []
+    nob_verify: false
+  nob_verify: false
 small:
   name: Small
   nob: Liten
+  history:
+  - name: Small
+    history: []
+    nob_verify: false
+  nob_verify: false
 sme:
   name: Micro, small, or medium
   nob: Mikro, liten eller mellomstor
+  history:
+  - name: Micro, small, or medium
+    history: []
+    nob_verify: false
+  nob_verify: false

@@ -1,0 +1,192 @@
+bankr-nat:
+  name: Analogous situation like bankruptcy under national law
+  nob: Analog situasjon som konkurs i henhold til nasjonal lovgivning
+  history:
+  - name: Analogous situation like bankruptcy under national law
+    history: []
+    nob_verify: false
+  nob_verify: false
+bankruptcy:
+  name: Bankruptcy
+  nob: Konkurs
+  history:
+  - name: Bankruptcy
+    history: []
+    nob_verify: false
+  nob_verify: false
+corruption:
+  name: Corruption
+  nob: Korrupsjon
+  history:
+  - name: Corruption
+    history: []
+    nob_verify: false
+  nob_verify: false
+cred-arran:
+  name: Arrangement with creditors
+  nob: Ordning med kreditorer
+  history:
+  - name: Arrangement with creditors
+    history: []
+    nob_verify: false
+  nob_verify: false
+crime-org:
+  name: Participation in a criminal organisation
+  nob: Deltakelse i kriminell organisasjon
+  history:
+  - name: Participation in a criminal organisation
+    history: []
+    nob_verify: false
+  nob_verify: false
+distorsion:
+  name: Agreements with other economic operators aimed at distorting competition
+  nob: Avtaler med andre markedsdeltakere med sikte på konkurransevridning
+  history:
+  - name: Agreements with other economic operators aimed at distorting competition
+    history: []
+    nob_verify: false
+  nob_verify: false
+envir-law:
+  name: Breaching of obligations in the fields of environmental law
+  nob: Brudd på miljørettslige forpliktelser
+  history:
+  - name: Breaching of obligations in the fields of environmental law
+    history: []
+    nob_verify: false
+  nob_verify: false
+finan-laund:
+  name: Money laundering or terrorist financing
+  nob: Hvitvasking eller terrorfinansiering
+  history:
+  - name: Money laundering or terrorist financing
+    history: []
+    nob_verify: false
+  nob_verify: false
+fraud:
+  name: Fraud
+  nob: Bedrageri
+  history:
+  - name: Fraud
+    history: []
+    nob_verify: false
+  nob_verify: false
+human-traffic:
+  name: Child labour and other forms of trafficking in human beings
+  nob: Barnearbeid og andre former for menneskehandel
+  history:
+  - name: Child labour and other forms of trafficking in human beings
+    history: []
+    nob_verify: false
+  nob_verify: false
+insolvency:
+  name: Insolvency
+  nob: Insolvens
+  history:
+  - name: Insolvency
+    history: []
+    nob_verify: false
+  nob_verify: false
+labour-law:
+  name: Breaching of obligations in the fields of labour law
+  nob: Brudd på arbeidsrettslige forpliktelser
+  history:
+  - name: Breaching of obligations in the fields of labour law
+    history: []
+    nob_verify: false
+  nob_verify: false
+liq-admin:
+  name: Assets being administered by liquidator
+  nob: Eiendeler som administreres av likvidator
+  history:
+  - name: Assets being administered by liquidator
+    history: []
+    nob_verify: false
+  nob_verify: false
+misrepresent:
+  name: Guilty of misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure
+  nob: Skyldig i feilaktig fremstilling, tilbakeholdt informasjon, ute av stand til å gi nødvendige dokumenter og innhentet konfidensiell informasjon om denne prosedyren
+  history:
+  - name: Guilty of misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure
+    history: []
+    nob_verify: false
+  nob_verify: false
+nati-ground:
+  name: Purely national exclusion grounds
+  nob: Rent nasjonalt eksklusjonsgrunnlag
+  history:
+  - name: Purely national exclusion grounds
+    history: []
+    nob_verify: false
+  nob_verify: false
+partic-confl:
+  name: Conflict of interest due to its participation in the procurement procedure
+  nob: Interessekonflikt på grunn av deltakelse i anskaffelsesprosedyren
+  history:
+  - name: Conflict of interest due to its participation in the procurement procedure
+    history: []
+    nob_verify: false
+  nob_verify: false
+prep-confl:
+  name: Direct or indirect involvement in the preparation of this procurement procedure
+  nob: Direkte eller indirekte involvering i utarbeidelsen av denne anskaffelsesprosedyren
+  history:
+  - name: Direct or indirect involvement in the preparation of this procurement procedure
+    history: []
+    nob_verify: false
+  nob_verify: false
+prof-misconduct:
+  name: Guilty of grave professional misconduct
+  nob: Skyldig i grov faglig uredelighet
+  history:
+  - name: Guilty of grave professional misconduct
+    history: []
+    nob_verify: false
+  nob_verify: false
+sanction:
+  name: Early termination, damages or other comparable sanctions
+  nob: Tidlig oppsigelse, erstatning eller andre sammenlignbare sanksjoner
+  history:
+  - name: Early termination, damages or other comparable sanctions
+    history: []
+    nob_verify: false
+  nob_verify: false
+socsec-law:
+  name: Breaching of obligations in the fields of social law
+  nob: Brudd på forpliktelser innen sosialrett
+  history:
+  - name: Breaching of obligations in the fields of social law
+    history: []
+    nob_verify: false
+  nob_verify: false
+socsec-pay:
+  name: Payment of social security contributions
+  nob: Betaling av trygdeavgift
+  history:
+  - name: Payment of social security contributions
+    history: []
+    nob_verify: false
+  nob_verify: false
+susp-act:
+  name: Business activities are suspended
+  nob: Forretningsaktiviteter er suspendert
+  history:
+  - name: Business activities are suspended
+    history: []
+    nob_verify: false
+  nob_verify: false
+tax-pay:
+  name: Payment of taxes
+  nob: Betaling av skatt
+  history:
+  - name: Payment of taxes
+    history: []
+    nob_verify: false
+  nob_verify: false
+terr-offence:
+  name: Terrorist offences or offences linked to terrorist activities
+  nob: Terrorhandlinger eller lovbrudd knyttet til terrorvirksomhet
+  history:
+  - name: Terrorist offences or offences linked to terrorist activities
+    history: []
+    nob_verify: false
+  nob_verify: false

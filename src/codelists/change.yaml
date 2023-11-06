@@ -1,0 +1,8 @@
+corr:
+  name: Change notice
+  nob: Varsel om endring
+  history:
+  - name: Change notice
+    history: []
+    nob_verify: false
+  nob_verify: false

@@ -1,4 +1,16 @@
 eu-funds:
   name: Procurement Project fully or partially financed with EU Funds.
+  nob: Anskaffelsesprosjekt helt eller delvis finansiert med EU-midler.
+  history:
+  - name: Procurement Project fully or partially financed with EU Funds.
+    history: []
+    nob_verify: false
+  nob_verify: false
 no-eu-funds:
   name: Procurement Project not financed with EU Funds.
+  nob: Anskaffelsesprosjekt ikke finansiert med EU-midler.
+  history:
+  - name: Procurement Project not financed with EU Funds.
+    history: []
+    nob_verify: false
+  nob_verify: false

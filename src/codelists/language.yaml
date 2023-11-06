@@ -1,1684 +1,3364 @@
 0D0:
   name: Valencian
+  history: []
+  nob_verify: false
 0E0:
   name: Montenegrin
+  history: []
+  nob_verify: false
 ADS:
   name: Adamorobe Sign Language
+  history: []
+  nob_verify: false
 AED:
   name: Argentine Sign Language
+  history: []
+  nob_verify: false
 AEN:
   name: Armenian Sign Language
+  history: []
+  nob_verify: false
 AFA:
   name: Afro-Asiatic languages
+  history: []
+  nob_verify: false
 AFG:
   name: Afghan Sign Language
+  history: []
+  nob_verify: false
 AFR:
   name: Afrikaans
+  history: []
+  nob_verify: false
 AJN:
   name: Andajin
+  history: []
+  nob_verify: false
 AJS:
   name: Algerian Jewish Sign Language
+  history: []
+  nob_verify: false
 AKA:
   name: Akan
+  history: []
+  nob_verify: false
 ALG:
   name: Algonquian languages
+  history: []
+  nob_verify: false
 AMH:
   name: Amharic
+  history: []
+  nob_verify: false
 AOU:
   name: A'ou
+  history: []
+  nob_verify: false
 APA:
   name: Apache languages
+  history: []
+  nob_verify: false
 APF:
   name: Pahanan Agta
+  history: []
+  nob_verify: false
 AQD:
   name: Ampari Dogon
+  history: []
+  nob_verify: false
 AQK:
   name: Aninka
+  history: []
+  nob_verify: false
 AQT:
   name: Angaité
+  history: []
+  nob_verify: false
 AQZ:
   name: Akuntsu
+  history: []
+  nob_verify: false
 ARA:
   name: Arabic
+  history: []
+  nob_verify: false
 ARO:
   name: Araona
+  history: []
+  nob_verify: false
 ART:
   name: Artificial languages
+  history: []
+  nob_verify: false
 ASE:
   name: American Sign Language
+  history: []
+  nob_verify: false
 ASF:
   name: Australian Sign Language
+  history: []
+  nob_verify: false
 ASP:
   name: Algerian Sign Language
+  history: []
+  nob_verify: false
 ASQ:
   name: Austrian Sign Language
+  history: []
+  nob_verify: false
 ASW:
   name: Australian Aborigines Sign Language
+  history: []
+  nob_verify: false
 ATH:
   name: Athapascan languages
+  history: []
+  nob_verify: false
 AUS:
   name: Australian languages
+  history: []
+  nob_verify: false
 AVM:
   name: Angkamuthi
+  history: []
+  nob_verify: false
 AWG:
   name: Anguthimri
+  history: []
+  nob_verify: false
 AXE:
   name: Ayerrerenge
+  history: []
+  nob_verify: false
 AXL:
   name: Lower Southern Aranda
+  history: []
+  nob_verify: false
 AYM:
   name: Aymara
+  history: []
+  nob_verify: false
 AYO:
   name: Ayoreo
+  history: []
+  nob_verify: false
 AZD:
   name: Eastern Durango Nahuatl
+  history: []
+  nob_verify: false
 AZE:
   name: Azerbaijani
+  history: []
+  nob_verify: false
 AZN:
   name: Western Durango Nahuatl
+  history: []
+  nob_verify: false
 BAD:
   name: Banda languages
+  history: []
+  nob_verify: false
 BAI:
   name: Bamileke languages
+  history: []
+  nob_verify: false
 BAT:
   name: Baltic languages
+  history: []
+  nob_verify: false
 BDF:
   name: Biage
+  history: []
+  nob_verify: false
 BEL:
   name: Belarusian
+  history: []
+  nob_verify: false
 BEN:
   name: Bengali
+  history: []
+  nob_verify: false
 BER:
   name: Berber languages
+  history: []
+  nob_verify: false
 BFI:
   name: British Sign Language
+  history: []
+  nob_verify: false
 BFK:
   name: Ban Khor Sign Language
+  history: []
+  nob_verify: false
 BFX:
   name: Bantayanon
+  history: []
+  nob_verify: false
 BIS:
   name: Bislama
+  history: []
+  nob_verify: false
 BJP:
   name: Fanamaket
+  history: []
+  nob_verify: false
 BNT:
   name: Bantu languages
+  history: []
+  nob_verify: false
 BOD:
   name: Tibetan
+  history: []
+  nob_verify: false
 BOG:
   name: Bamako Sign Language
+  history: []
+  nob_verify: false
 BOS:
   name: Bosnian
+  history: []
+  nob_verify: false
 BPC:
   name: Mbuk
+  history: []
+  nob_verify: false
 BPE:
   name: Bauni
+  history: []
+  nob_verify: false
 BQN:
   name: Bulgarian Sign Language
+  history: []
+  nob_verify: false
 BQY:
   name: Bengkala Sign Language
+  history: []
+  nob_verify: false
 BRE:
   name: Breton
+  history: []
+  nob_verify: false
 BRG:
   name: Baure
+  history: []
+  nob_verify: false
 BTK:
   name: Batak languages
+  history: []
+  nob_verify: false
 BUL:
   name: Bulgarian
+  history: []
+  nob_verify: false
 BVL:
   name: Bolivian Sign Language
+  history: []
+  nob_verify: false
 BVP:
   name: Bumang
+  history: []
+  nob_verify: false
 BVY:
   name: Baybayanon
+  history: []
+  nob_verify: false
 BZC:
   name: Southern Betsimisaraka Malagasy
+  history: []
+  nob_verify: false
 BZS:
   name: Brazilian Sign Language
+  history: []
+  nob_verify: false
 CAI:
   name: Central American Indian languages
+  history: []
+  nob_verify: false
 CAL:
   name: Carolinian
+  history: []
+  nob_verify: false
 CAO:
   name: Chacobo
+  history: []
+  nob_verify: false
 CAS:
   name: Chimane
+  history: []
+  nob_verify: false
 CAT:
   name: Catalan
+  history: []
+  nob_verify: false
 CAU:
   name: Caucasian languages
+  history: []
+  nob_verify: false
 CAV:
   name: Cavineña
+  history: []
+  nob_verify: false
 CAW:
   name: Kallawaya
+  history: []
+  nob_verify: false
 CAX:
   name: Chiquitano
+  history: []
+  nob_verify: false
 CAZ:
   name: Canichana
+  history: []
+  nob_verify: false
 CBQ:
   name: Tsucuba
+  history: []
+  nob_verify: false
 CBW:
   name: Kinabalian
+  history: []
+  nob_verify: false
 CDS:
   name: Chadian Sign Language
+  history: []
+  nob_verify: false
 CEK:
   name: Eastern Khumi Chin
+  history: []
+  nob_verify: false
 CEL:
   name: Celtic languages
+  history: []
+  nob_verify: false
 CES:
   name: Czech
+  history: []
+  nob_verify: false
 CEY:
   name: Ekai Chin
+  history: []
+  nob_verify: false
 CHA:
   name: Chamorro
+  history: []
+  nob_verify: false
 CHN:
   name: Chinook jargon
+  history: []
+  nob_verify: false
 CKB:
   name: Central Kurdish
+  history: []
+  nob_verify: false
 CKM:
   name: Chakavian
+  history: []
+  nob_verify: false
 CKN:
   name: Kaang Chin
+  history: []
+  nob_verify: false
 CLJ:
   name: Laitu Chin
+  history: []
+  nob_verify: false
 CLT:
   name: Lautu Chin
+  history: []
+  nob_verify: false
 CMC:
   name: Chamic languages
+  history: []
+  nob_verify: false
 CMN:
   name: Mandarin Chinese
+  history: []
+  nob_verify: false
 CNP:
   name: Northern Ping Chinese
+  history: []
+  nob_verify: false
 CNQ:
   name: Chung
+  history: []
+  nob_verify: false
 CNR:
   name: Montenegrin
+  history: []
+  nob_verify: false
 COR:
   name: Cornish
+  history: []
+  nob_verify: false
 COS:
   name: Corsican
+  history: []
+  nob_verify: false
 CPO:
   name: Kpeego
+  history: []
+  nob_verify: false
 CRS:
   name: Seselwa Creole French
+  history: []
+  nob_verify: false
 CSB:
   name: Kashubian
+  history: []
+  nob_verify: false
 CSC:
   name: Catalan Sign Language
+  history: []
+  nob_verify: false
 CSD:
   name: Chiangmai Sign Language
+  history: []
+  nob_verify: false
 CSE:
   name: Czech Sign Language
+  history: []
+  nob_verify: false
 CSF:
   name: Cuban Sign Language
+  history: []
+  nob_verify: false
 CSG:
   name: Chilean Sign Language
+  history: []
+  nob_verify: false
 CSJ:
   name: Songlai Chin
+  history: []
+  nob_verify: false
 CSL:
   name: Chinese Sign Language
+  history: []
+  nob_verify: false
 CSN:
   name: Colombian Sign Language
+  history: []
+  nob_verify: false
 CSP:
   name: Southern Ping Chinese
+  history: []
+  nob_verify: false
 CSQ:
   name: Croatian Sign Language
+  history: []
+  nob_verify: false
 CSR:
   name: Costa Rican Sign Language
+  history: []
+  nob_verify: false
 CSV:
   name: Sumtu Chin
+  history: []
+  nob_verify: false
 CSX:
   name: Cambodian Sign Language
+  history: []
+  nob_verify: false
 CTH:
   name: Thaiphum Chin
+  history: []
+  nob_verify: false
 CTY:
   name: Moundadan Chetty
+  history: []
+  nob_verify: false
 CUS:
   name: Cushitic languages
+  history: []
+  nob_verify: false
 CUY:
   name: Cuitlatec
+  history: []
+  nob_verify: false
 CYB:
   name: Cayubaba
+  history: []
+  nob_verify: false
 CYM:
   name: Welsh
+  history: []
+  nob_verify: false
 DAN:
   name: Danish
+  history: []
+  nob_verify: false
 DAY:
   name: Land Dayak languages
+  history: []
+  nob_verify: false
 DBT:
   name: Ben Tey Dogon
+  history: []
+  nob_verify: false
 DBW:
   name: Bankan Tey Dogon
+  history: []
+  nob_verify: false
 DDA:
   name: Dadi Dadi
+  history: []
+  nob_verify: false
 DDR:
   name: Dhudhuroa
+  history: []
+  nob_verify: false
 DEU:
   name: German
+  history: []
+  nob_verify: false
 DGL:
   name: Dongolawi
+  history: []
+  nob_verify: false
 DGT:
   name: Ndra'ngith
+  history: []
+  nob_verify: false
 DGW:
   name: Daungwurrung
+  history: []
+  nob_verify: false
 DHX:
   name: Dhungaloo
+  history: []
+  nob_verify: false
 DIV:
   name: Dhivehi
+  history: []
+  nob_verify: false
 DJA:
   name: Djadjawurrung
+  history: []
+  nob_verify: false
 DKG:
   name: Kadung
+  history: []
+  nob_verify: false
 DLK:
   name: Dahalik
+  history: []
+  nob_verify: false
 DMB:
   name: Mombo Dogon
+  history: []
+  nob_verify: false
 DMD:
   name: Madhi Madhi
+  history: []
+  nob_verify: false
 DMF:
   name: Medefaidrin
+  history: []
+  nob_verify: false
 DMW:
   name: Mudburra
+  history: []
+  nob_verify: false
 DNJ:
   name: Dan
+  history: []
+  nob_verify: false
 DNO:
   name: Ndrulo
+  history: []
+  nob_verify: false
 DNV:
   name: Danu
+  history: []
+  nob_verify: false
 DOQ:
   name: Dominican Sign Language
+  history: []
+  nob_verify: false
 DRA:
   name: Dravidian languages
+  history: []
+  nob_verify: false
 DRC:
   name: Minderico
+  history: []
+  nob_verify: false
 DSB:
   name: Lower Sorbian
+  history: []
+  nob_verify: false
 DSE:
   name: Dutch Sign Language
+  history: []
+  nob_verify: false
 DSL:
   name: Danish Sign Language
+  history: []
+  nob_verify: false
 DSZ:
   name: Mardin Sign Language
+  history: []
+  nob_verify: false
 DTD:
   name: Ditidaht
+  history: []
+  nob_verify: false
 DTH:
   name: Adithinngithigh
+  history: []
+  nob_verify: false
 DTN:
   name: Daatsʼíin
+  history: []
+  nob_verify: false
 DTO:
   name: Tommo So Dogon
+  history: []
+  nob_verify: false
 DTY:
   name: Doteli
+  history: []
+  nob_verify: false
 DWK:
   name: Dawik Kui
+  history: []
+  nob_verify: false
 DWU:
   name: Dhuwal
+  history: []
+  nob_verify: false
 DWY:
   name: Dhuwaya
+  history: []
+  nob_verify: false
 DWZ:
   name: Dewas Rai
+  history: []
+  nob_verify: false
 DZE:
   name: Jiwarli
+  history: []
+  nob_verify: false
 DZO:
   name: Dzongkha
+  history: []
+  nob_verify: false
 EAA:
   name: Karenggapa
+  history: []
+  nob_verify: false
 EBC:
   name: Beginci
+  history: []
+  nob_verify: false
 EBK:
   name: Eastern Bontok
+  history: []
+  nob_verify: false
 ECS:
   name: Ecuadorian Sign Language
+  history: []
+  nob_verify: false
 EGM:
   name: Benamanga
+  history: []
+  nob_verify: false
 EHS:
   name: Miyakubo Sign Language
+  history: []
+  nob_verify: false
 ELL:
   name: Greek
+  history: []
+  nob_verify: false
 EMQ:
   name: Eastern Minyag
+  history: []
+  nob_verify: false
 EMX:
   name: Erromintxela
+  history: []
+  nob_verify: false
 EMZ:
   name: Mbessa
+  history: []
+  nob_verify: false
 ENG:
   name: English
+  history: []
+  nob_verify: false
 ENL:
   name: Enlhet
+  history: []
+  nob_verify: false
 ENX:
   name: Enxet
+  history: []
+  nob_verify: false
 EPO:
   name: Esperanto
+  history: []
+  nob_verify: false
 ESE:
   name: Ese Ejja
+  history: []
+  nob_verify: false
 ESG:
   name: Aheri Gondi
+  history: []
+  nob_verify: false
 ESL:
   name: Egyptian Sign Language
+  history: []
+  nob_verify: false
 ESN:
   name: Salvadoran Sign Language
+  history: []
+  nob_verify: false
 ESO:
   name: Estonian Sign Language
+  history: []
+  nob_verify: false
 EST:
   name: Estonian
+  history: []
+  nob_verify: false
 ESY:
   name: Eskayan
+  history: []
+  nob_verify: false
 ETH:
   name: Ethiopian Sign Language
+  history: []
+  nob_verify: false
 EUS:
   name: Basque
+  history: []
+  nob_verify: false
 EWE:
   name: Ewe
+  history: []
+  nob_verify: false
 EZA:
   name: Ezaa
+  history: []
+  nob_verify: false
 FAO:
   name: Faroese
+  history: []
+  nob_verify: false
 FAS:
   name: Persian
+  history: []
+  nob_verify: false
 FBL:
   name: West Albay Bikol
+  history: []
+  nob_verify: false
 FCS:
   name: Quebec Sign Language
+  history: []
+  nob_verify: false
 FIF:
   name: Faifi
+  history: []
+  nob_verify: false
 FIJ:
   name: Fijian
+  history: []
+  nob_verify: false
 FIL:
   name: Filipino
+  history: []
+  nob_verify: false
 FIN:
   name: Finnish
+  history: []
+  nob_verify: false
 FIU:
   name: Finno-Ugrian languages
+  history: []
+  nob_verify: false
 FKK:
   name: Kirya-Konzəl
+  history: []
+  nob_verify: false
 FNB:
   name: Fanbak
+  history: []
+  nob_verify: false
 FRA:
   name: French
+  history: []
+  nob_verify: false
 FRY:
   name: Frisian
+  history: []
+  nob_verify: false
 FSE:
   name: Finnish Sign Language
+  history: []
+  nob_verify: false
 FSL:
   name: French Sign Language
+  history: []
+  nob_verify: false
 FSS:
   name: Finland-Swedish Sign Language
+  history: []
+  nob_verify: false
 FUL:
   name: Fula
+  history: []
+  nob_verify: false
 FUR:
   name: Friulan
+  history: []
+  nob_verify: false
 GAC:
   name: Mixed Great Andamanese
+  history: []
+  nob_verify: false
 GBW:
   name: Gabi-Gabi
+  history: []
+  nob_verify: false
 GDS:
   name: Ghandruk Sign Language
+  history: []
+  nob_verify: false
 GDT:
   name: Kungardutyi
+  history: []
+  nob_verify: false
 GEF:
   name: Gerai
+  history: []
+  nob_verify: false
 GEM:
   name: Germanic languages
+  history: []
+  nob_verify: false
 GEV:
   name: Viya
+  history: []
+  nob_verify: false
 GIE:
   name: Gaɓogbo
+  history: []
+  nob_verify: false
 GIH:
   name: Githabul
+  history: []
+  nob_verify: false
 GII:
   name: Girirra
+  history: []
+  nob_verify: false
 GIU:
   name: Mulao
+  history: []
+  nob_verify: false
 GJM:
   name: Gunditjmara
+  history: []
+  nob_verify: false
 GJR:
   name: Gurindji Kriol
+  history: []
+  nob_verify: false
 GKD:
   name: Magɨ
+  history: []
+  nob_verify: false
 GKO:
   name: Kok-Nar
+  history: []
+  nob_verify: false
 GKU:
   name: ǂUngkue
+  history: []
+  nob_verify: false
 GLA:
   name: Scottish Gaelic
+  history: []
+  nob_verify: false
 GLB:
   name: Belnəng
+  history: []
+  nob_verify: false
 GLE:
   name: Irish
+  history: []
+  nob_verify: false
 GLG:
   name: Galician
+  history: []
+  nob_verify: false
 GLL:
   name: Kalali
+  history: []
+  nob_verify: false
 GLV:
   name: Manx
+  history: []
+  nob_verify: false
 GMG:
   name: Magɨyi
+  history: []
+  nob_verify: false
 GMR:
   name: Mirning
+  history: []
+  nob_verify: false
 GMZ:
   name: Mgbolizhia
+  history: []
+  nob_verify: false
 GNJ:
   name: Ngen
+  history: []
+  nob_verify: false
 GOV:
   name: Goo
+  history: []
+  nob_verify: false
 GPE:
   name: Ghanaian Pidgin English
+  history: []
+  nob_verify: false
 GQU:
   name: Qau
+  history: []
+  nob_verify: false
 GRN:
   name: Guarani
+  history: []
+  nob_verify: false
 GSE:
   name: Ghanaian Sign Language
+  history: []
+  nob_verify: false
 GSG:
   name: German Sign Language
+  history: []
+  nob_verify: false
 GSM:
   name: Guatemalan Sign Language
+  history: []
+  nob_verify: false
 GSS:
   name: Greek Sign Language
+  history: []
+  nob_verify: false
 GTU:
   name: Aghu-Tharnggala
+  history: []
+  nob_verify: false
 GUG:
   name: Paraguayan Guaraní
+  history: []
+  nob_verify: false
 GUS:
   name: Guinean Sign Language
+  history: []
+  nob_verify: false
 GWM:
   name: Awngthim
+  history: []
+  nob_verify: false
 GYO:
   name: Gyalsumdo
+  history: []
+  nob_verify: false
 GYR:
   name: Guarayu
+  history: []
+  nob_verify: false
 GYZ:
   name: Geji
+  history: []
+  nob_verify: false
 HAB:
   name: Hanoi Sign Language
+  history: []
+  nob_verify: false
 HAF:
   name: Haiphong Sign Language
+  history: []
+  nob_verify: false
 HAT:
   name: Haitian
+  history: []
+  nob_verify: false
 HAU:
   name: Hausa
+  history: []
+  nob_verify: false
 HBS:
   name: Serbo-Croatian
+  history: []
+  nob_verify: false
 HCA:
   name: Andaman Creole Hindi
+  history: []
+  nob_verify: false
 HDS:
   name: Honduran Sign Language
+  history: []
+  nob_verify: false
 HEB:
   name: Hebrew
+  history: []
+  nob_verify: false
 HIF:
   name: Fiji Hindi
+  history: []
+  nob_verify: false
 HIN:
   name: Hindi
+  history: []
+  nob_verify: false
 HKH:
   name: Khah
+  history: []
+  nob_verify: false
 HKN:
   name: Mel-Khaonh
+  history: []
+  nob_verify: false
 HKS:
   name: Hong Kong Sign Language
+  history: []
+  nob_verify: false
 HMO:
   name: Hiri Motu
+  history: []
+  nob_verify: false
 HNG:
   name: Hungu
+  history: []
+  nob_verify: false
 HOS:
   name: Ho Chi Minh City Sign Language
+  history: []
+  nob_verify: false
 HPS:
   name: Hawai‘i Pidgin Sign Language
+  history: []
+  nob_verify: false
 HRC:
   name: Niwer Mil
+  history: []
+  nob_verify: false
 HRP:
   name: Nhirrpi
+  history: []
+  nob_verify: false
 HRV:
   name: Croatian
+  history: []
+  nob_verify: false
 HRW:
   name: Warwar Feni
+  history: []
+  nob_verify: false
 HSB:
   name: Upper Sorbian
+  history: []
+  nob_verify: false
 HSH:
   name: Hungarian Sign Language
+  history: []
+  nob_verify: false
 HSL:
   name: Hausa Sign Language
+  history: []
+  nob_verify: false
 HUN:
   name: Hungarian
+  history: []
+  nob_verify: false
 HYE:
   name: Armenian
+  history: []
+  nob_verify: false
 HYW:
   name: Western Armenian
+  history: []
+  nob_verify: false
 IBH:
   name: Bih
+  history: []
+  nob_verify: false
 IBO:
   name: Igbo
+  history: []
+  nob_verify: false
 ICL:
   name: Icelandic Sign Language
+  history: []
+  nob_verify: false
 IGN:
   name: Ignaciano
+  history: []
+  nob_verify: false
 IHW:
   name: Bidawal
+  history: []
+  nob_verify: false
 IIN:
   name: Thiin
+  history: []
+  nob_verify: false
 IJO:
   name: Ijo languages
+  history: []
+  nob_verify: false
 IKR:
   name: Ikaranggal
+  history: []
+  nob_verify: false
 IKS:
   name: Inuit Sign Language
+  history: []
+  nob_verify: false
 ILM:
   name: Malaysian Iranun
+  history: []
+  nob_verify: false
 ILP:
   name: Philippine Iranun
+  history: []
+  nob_verify: false
 IMT:
   name: Imotong
+  history: []
+  nob_verify: false
 INA:
   name: Interlingua
+  history: []
+  nob_verify: false
 INC:
   name: Indic languages
+  history: []
+  nob_verify: false
 IND:
   name: Indonesian
+  history: []
+  nob_verify: false
 INE:
   name: Indo-European languages
+  history: []
+  nob_verify: false
 INL:
   name: Indonesian Sign Language
+  history: []
+  nob_verify: false
 INS:
   name: Indian Sign Language
+  history: []
+  nob_verify: false
 IQW:
   name: Ikwo
+  history: []
+  nob_verify: false
 IRA:
   name: Iranian languages
+  history: []
+  nob_verify: false
 IRO:
   name: Iroquoian languages
+  history: []
+  nob_verify: false
 ISE:
   name: Italian Sign Language
+  history: []
+  nob_verify: false
 ISG:
   name: Irish Sign Language
+  history: []
+  nob_verify: false
 ISK:
   name: Ishkashimi
+  history: []
+  nob_verify: false
 ISL:
   name: Icelandic
+  history: []
+  nob_verify: false
 ISR:
   name: Israeli Sign Language
+  history: []
+  nob_verify: false
 ITA:
   name: Italian
+  history: []
+  nob_verify: false
 ITD:
   name: Southern Tidung
+  history: []
+  nob_verify: false
 ITE:
   name: Itene
+  history: []
+  nob_verify: false
 ITO:
   name: Itonama
+  history: []
+  nob_verify: false
 IZZ:
   name: Izi
+  history: []
+  nob_verify: false
 JAN:
   name: Jandai
+  history: []
+  nob_verify: false
 JBI:
   name: Badjiri
+  history: []
+  nob_verify: false
 JBK:
   name: Barikewa
+  history: []
+  nob_verify: false
 JBM:
   name: Bijim
+  history: []
+  nob_verify: false
 JBW:
   name: Yawijibaya
+  history: []
+  nob_verify: false
 JCS:
   name: Jamaican Country Sign Language
+  history: []
+  nob_verify: false
 JGK:
   name: Gwak
+  history: []
+  nob_verify: false
 JHS:
   name: Jhankot Sign Language
+  history: []
+  nob_verify: false
 JJE:
   name: Jejueo
+  history: []
+  nob_verify: false
 JJR:
   name: Bankal
+  history: []
+  nob_verify: false
 JKA:
   name: Kaera
+  history: []
+  nob_verify: false
 JKM:
   name: Mobwa Karen
+  history: []
+  nob_verify: false
 JKP:
   name: Paku Karen
+  history: []
+  nob_verify: false
 JKR:
   name: Koro
+  history: []
+  nob_verify: false
 JKS:
   name: Amami Koniya Sign Language
+  history: []
+  nob_verify: false
 JLS:
   name: Jamaican Sign Language
+  history: []
+  nob_verify: false
 JMW:
   name: Mouwase
+  history: []
+  nob_verify: false
 JOG:
   name: Jogi
+  history: []
+  nob_verify: false
 JOS:
   name: Jordanian Sign Language
+  history: []
+  nob_verify: false
 JPN:
   name: Japanese
+  history: []
+  nob_verify: false
 JSL:
   name: Japanese Sign Language
+  history: []
+  nob_verify: false
 JUI:
   name: Ngadjuri
+  history: []
+  nob_verify: false
 JUS:
   name: Jumla Sign Language
+  history: []
+  nob_verify: false
 KAL:
   name: Greenlandic
+  history: []
+  nob_verify: false
 KAR:
   name: Karen languages
+  history: []
+  nob_verify: false
 KAT:
   name: Georgian
+  history: []
+  nob_verify: false
 KAZ:
   name: Kazakh
+  history: []
+  nob_verify: false
 KGI:
   name: Selangor Sign Language
+  history: []
+  nob_verify: false
 KHI:
   name: Khoisan languages
+  history: []
+  nob_verify: false
 KHM:
   name: Khmer
+  history: []
+  nob_verify: false
 KIN:
   name: Kinyarwanda
+  history: []
+  nob_verify: false
 KIR:
   name: Kyrgyz
+  history: []
+  nob_verify: false
 KJV:
   name: Kaikavian Literary Language
+  history: []
+  nob_verify: false
 KMR:
   name: Northern Kurdish
+  history: []
+  nob_verify: false
 KON:
   name: Kikongo
+  history: []
+  nob_verify: false
 KOR:
   name: Korean
+  history: []
+  nob_verify: false
 KRO:
   name: Kru languages
+  history: []
+  nob_verify: false
 KUR:
   name: Kurdish
+  history: []
+  nob_verify: false
 KVK:
   name: Korean Sign Language
+  history: []
+  nob_verify: false
 KXD:
   name: Brunei Malay
+  history: []
+  nob_verify: false
 LAO:
   name: Lao
+  history: []
+  nob_verify: false
 LAT:
   name: Latin
+  history: []
+  nob_verify: false
 LAV:
   name: Latvian
+  history: []
+  nob_verify: false
 LBK:
   name: Central Bontok
+  history: []
+  nob_verify: false
 LBL:
   name: Libon Bikol
+  history: []
+  nob_verify: false
 LBS:
   name: Libyan Sign Language
+  history: []
+  nob_verify: false
 LDA:
   name: Kla-Dan
+  history: []
+  nob_verify: false
 LEC:
   name: Leco
+  history: []
+  nob_verify: false
 LGO:
   name: Lango
+  history: []
+  nob_verify: false
 LIN:
   name: Lingala
+  history: []
+  nob_verify: false
 LIT:
   name: Lithuanian
+  history: []
+  nob_verify: false
 LJA:
   name: Golpa
+  history: []
+  nob_verify: false
 LJW:
   name: Yirandhali
+  history: []
+  nob_verify: false
 LJX:
   name: Yuru
+  history: []
+  nob_verify: false
 LKM:
   name: Kalaamaya
+  history: []
+  nob_verify: false
 LKU:
   name: Kungkari
+  history: []
+  nob_verify: false
 LLJ:
   name: Ladji Ladji
+  history: []
+  nob_verify: false
 LLS:
   name: Lithuanian Sign Language
+  history: []
+  nob_verify: false
 LNW:
   name: Lanima
+  history: []
+  nob_verify: false
 LQR:
   name: Logir
+  history: []
+  nob_verify: false
 LSB:
   name: Burundian Sign Language
+  history: []
+  nob_verify: false
 LSC:
   name: Albarradas Sign Language
+  history: []
+  nob_verify: false
 LSG:
   name: Lyons Sign Language
+  history: []
+  nob_verify: false
 LSL:
   name: Latvian Sign Language
+  history: []
+  nob_verify: false
 LSN:
   name: Tibetan Sign Language
+  history: []
+  nob_verify: false
 LSO:
   name: Laotian Sign Language
+  history: []
+  nob_verify: false
 LSP:
   name: Panamanian Sign Language
+  history: []
+  nob_verify: false
 LST:
   name: Trinidad and Tobago Sign Language
+  history: []
+  nob_verify: false
 LSV:
   name: Sivia Sign Language
+  history: []
+  nob_verify: false
 LSW:
   name: Seychelles Sign Language
+  history: []
+  nob_verify: false
 LSY:
   name: Mauritian Sign Language
+  history: []
+  nob_verify: false
 LTG:
   name: Latgalian
+  history: []
+  nob_verify: false
 LTH:
   name: Thur
+  history: []
+  nob_verify: false
 LTZ:
   name: Luxembourgish
+  history: []
+  nob_verify: false
 LUA:
   name: Luba-Lulua
+  history: []
+  nob_verify: false
 LVI:
   name: Lavi
+  history: []
+  nob_verify: false
 LVS:
   name: Standard Latvian
+  history: []
+  nob_verify: false
 LWS:
   name: Malawian Sign Language
+  history: []
+  nob_verify: false
 LWU:
   name: Lawu
+  history: []
+  nob_verify: false
 LXM:
   name: Lakurumau
+  history: []
+  nob_verify: false
 MAH:
   name: Marshallese
+  history: []
+  nob_verify: false
 MAN:
   name: Manding
+  history: []
+  nob_verify: false
 MAP:
   name: Austronesian languages
+  history: []
+  nob_verify: false
 MDL:
   name: Maltese Sign Language
+  history: []
+  nob_verify: false
 MFS:
   name: Mexican Sign Language
+  history: []
+  nob_verify: false
 MIN:
   name: Minangkabau
+  history: []
+  nob_verify: false
 MIS:
   name: Uncoded languages
+  history: []
+  nob_verify: false
 MJB:
   name: Makalero
+  history: []
+  nob_verify: false
 MKD:
   name: Macedonian
+  history: []
+  nob_verify: false
 MKH:
   name: Mon-Khmer languages
+  history: []
+  nob_verify: false
 MLG:
   name: Malagasy
+  history: []
+  nob_verify: false
 MLT:
   name: Maltese
+  history: []
+  nob_verify: false
 MNK:
   name: Mandinka
+  history: []
+  nob_verify: false
 MNO:
   name: Manobo languages
+  history: []
+  nob_verify: false
 MOL:
   name: Moldavian
+  history: []
+  nob_verify: false
 MON:
   name: Mongolian
+  history: []
+  nob_verify: false
 MPD:
   name: Machinere
+  history: []
+  nob_verify: false
 MRE:
   name: Martha’s Vineyard Sign Language
+  history: []
+  nob_verify: false
 MRI:
   name: Māori
+  history: []
+  nob_verify: false
 MSA:
   name: Malaysian
+  history: []
+  nob_verify: false
 MSD:
   name: Yucatec Maya Sign Language
+  history: []
+  nob_verify: false
 MSR:
   name: Mongolian Sign Language
+  history: []
+  nob_verify: false
 MTP:
   name: Wichí Lhamtés Nocten
+  history: []
+  nob_verify: false
 MUL:
   name: Multiple languages
+  history: []
+  nob_verify: false
 MUN:
   name: Munda languages
+  history: []
+  nob_verify: false
 MYA:
   name: Burmese
+  history: []
+  nob_verify: false
 MYN:
   name: Mayan languages
+  history: []
+  nob_verify: false
 MZC:
   name: Madagascar Sign Language
+  history: []
+  nob_verify: false
 MZG:
   name: Monastic Sign Language
+  history: []
+  nob_verify: false
 MZP:
   name: Movima
+  history: []
+  nob_verify: false
 MZY:
   name: Mozambican Sign Language
+  history: []
+  nob_verify: false
 NAH:
   name: Nahuatl languages
+  history: []
+  nob_verify: false
 NAI:
   name: North American Indian languages
+  history: []
+  nob_verify: false
 NAU:
   name: Nauruan
+  history: []
+  nob_verify: false
 NBL:
   name: Southern Ndebele
+  history: []
+  nob_verify: false
 NBS:
   name: Namibian Sign Language
+  history: []
+  nob_verify: false
 NCQ:
   name: Northern Katang
+  history: []
+  nob_verify: false
 NCS:
   name: Nicaraguan Sign Language
+  history: []
+  nob_verify: false
 NEP:
   name: Nepali
+  history: []
+  nob_verify: false
 NEU:
   name: Neo
+  history: []
+  nob_verify: false
 NIC:
   name: Niger-Kordofanian languages
+  history: []
+  nob_verify: false
 NIU:
   name: Niuean
+  history: []
+  nob_verify: false
 NJZ:
   name: Nyishi
+  history: []
+  nob_verify: false
 NKQ:
   name: Nkami
+  history: []
+  nob_verify: false
 NLD:
   name: Dutch
   nob: nederlandsk
+  history: []
+  nob_verify: false
 NLM:
   name: Mankiyali
+  history: []
+  nob_verify: false
 NLQ:
   name: Lao Naga
+  history: []
+  nob_verify: false
 NLW:
   name: Walangama
+  history: []
+  nob_verify: false
 NNO:
   name: Norwegian Nynorsk
   nob: norsk (nynorsk)
+  history: []
+  nob_verify: false
 NOB:
   name: Norwegian Bokmål
   nob: norsk (bokmål)
+  history: []
+  nob_verify: false
 NOJ:
   name: Nonuya
+  history: []
+  nob_verify: false
 NOL:
   name: Nomlaki
+  history: []
+  nob_verify: false
 NOR:
   name: Norwegian
   nob: norsk
+  history: []
+  nob_verify: false
 NPG:
   name: Ponyo-Gongwang Naga
+  history: []
+  nob_verify: false
 NPI:
   name: Nepali
+  history: []
+  nob_verify: false
 NPL:
   name: Southeastern Puebla Nahuatl
+  history: []
+  nob_verify: false
 NPX:
   name: Noipx
+  history: []
+  nob_verify: false
 NQL:
   name: Ngendelengo
+  history: []
+  nob_verify: false
 NQQ:
   name: Kyan-Karyaw Naga
+  history: []
+  nob_verify: false
 NQT:
   name: Nteng
+  history: []
+  nob_verify: false
 NQY:
   name: Akyaung Ari Naga
+  history: []
+  nob_verify: false
 NRF:
   name: Guernésiais
+  history: []
+  nob_verify: false
 NRK:
   name: Ngarla
+  history: []
+  nob_verify: false
 NRU:
   name: Narua
+  history: []
+  nob_verify: false
 NSB:
   name: Lower Nossob
+  history: []
+  nob_verify: false
 NSF:
   name: Northwestern Nisu
+  history: []
+  nob_verify: false
 NSI:
   name: Nigerian Sign Language
+  history: []
+  nob_verify: false
 NSL:
   name: Norwegian Sign Language
+  history: []
+  nob_verify: false
 NSO:
   name: Northern Sotho
+  history: []
+  nob_verify: false
 NSP:
   name: Nepalese Sign Language
+  history: []
+  nob_verify: false
 NSR:
   name: Maritime Sign Language
+  history: []
+  nob_verify: false
 NTD:
   name: Northern Tidung
+  history: []
+  nob_verify: false
 NTG:
   name: Ngantangarra
+  history: []
+  nob_verify: false
 NTX:
   name: Tangkhul Naga
+  history: []
+  nob_verify: false
 NUB:
   name: Nubian languages
+  history: []
+  nob_verify: false
 NUK:
   name: Nuu-chah-nulth
+  history: []
+  nob_verify: false
 NVO:
   name: Nyokon
+  history: []
+  nob_verify: false
 NWG:
   name: Ngayawung
+  history: []
+  nob_verify: false
 NWO:
   name: Nauo
+  history: []
+  nob_verify: false
 NWW:
   name: Ndwewe
+  history: []
+  nob_verify: false
 NXK:
   name: Koki Naga
+  history: []
+  nob_verify: false
 NXO:
   name: Ndambomo
+  history: []
+  nob_verify: false
 NXQ:
   name: Naxi
+  history: []
+  nob_verify: false
 NYA:
   name: Chewa
+  history: []
+  nob_verify: false
 NZD:
   name: Nzadi
+  history: []
+  nob_verify: false
 NZS:
   name: New Zealand Sign Language
+  history: []
+  nob_verify: false
 NZZ:
   name: Nanga Dama Dogon
+  history: []
+  nob_verify: false
 OBK:
   name: Southern Bontok
+  history: []
+  nob_verify: false
 OCI:
   name: Occitan
+  history: []
+  nob_verify: false
 OCM:
   name: Old Cham
+  history: []
+  nob_verify: false
 OIE:
   name: Okolie
+  history: []
+  nob_verify: false
 OKC:
   name: Kobo
+  history: []
+  nob_verify: false
 OKG:
   name: Koko Babangk
+  history: []
+  nob_verify: false
 OKZ:
   name: Old Khmer
+  history: []
+  nob_verify: false
 OLK:
   name: Olkol
+  history: []
+  nob_verify: false
 OLT:
   name: Old Lithuanian
+  history: []
+  nob_verify: false
 OLU:
   name: Kuvale
+  history: []
+  nob_verify: false
 OMY:
   name: Old Malay
+  history: []
+  nob_verify: false
 ORY:
   name: Odia
+  history: []
+  nob_verify: false
 OSN:
   name: Old Sundanese
+  history: []
+  nob_verify: false
 OSS:
   name: Ossetic
+  history: []
+  nob_verify: false
 OTO:
   name: Otomian languages
+  history: []
+  nob_verify: false
 OVD:
   name: Elfdalian
+  history: []
+  nob_verify: false
 PAA:
   name: Papuan languages
+  history: []
+  nob_verify: false
 PAN:
   name: Punjabi
+  history: []
+  nob_verify: false
 PAP:
   name: Papiamento
+  history: []
+  nob_verify: false
 PAU:
   name: Palauan
+  history: []
+  nob_verify: false
 PBM:
   name: Puebla Mazatec
+  history: []
+  nob_verify: false
 PCP:
   name: Pacahuara
+  history: []
+  nob_verify: false
 PGD:
   name: Gāndhārī
+  history: []
+  nob_verify: false
 PGL:
   name: Primitive Irish
+  history: []
+  nob_verify: false
 PGZ:
   name: Papua New Guinean Sign Language
+  history: []
+  nob_verify: false
 PHI:
   name: Philippine languages
+  history: []
+  nob_verify: false
 PHJ:
   name: Pahari
+  history: []
+  nob_verify: false
 PIH:
   name: Pitcairn-Norfolk
+  history: []
+  nob_verify: false
 PKS:
   name: Pakistan Sign Language
+  history: []
+  nob_verify: false
 PMD:
   name: Pallanganmiddang
+  history: []
+  nob_verify: false
 PND:
   name: Mpinda
+  history: []
+  nob_verify: false
 PNJ:
   name: Pinjarup
+  history: []
+  nob_verify: false
 PNK:
   name: Paunaka
+  history: []
+  nob_verify: false
 PNL:
   name: Paleni
+  history: []
+  nob_verify: false
 POL:
   name: Polish
+  history: []
+  nob_verify: false
 POR:
   name: Portuguese
+  history: []
+  nob_verify: false
 PRA:
   name: Prakrit languages
+  history: []
+  nob_verify: false
 PRF:
   name: Paranan
+  history: []
+  nob_verify: false
 PRL:
   name: Peruvian Sign Language
+  history: []
+  nob_verify: false
 PRS:
   name: Dari
+  history: []
+  nob_verify: false
 PRZ:
   name: Providencia Sign Language
+  history: []
+  nob_verify: false
 PSC:
   name: Persian Sign Language
+  history: []
+  nob_verify: false
 PSD:
   name: Plains Indian Sign Language
+  history: []
+  nob_verify: false
 PSG:
   name: Penang Sign Language
+  history: []
+  nob_verify: false
 PSL:
   name: Puerto Rican Sign Language
+  history: []
+  nob_verify: false
 PSM:
   name: Pauserna
+  history: []
+  nob_verify: false
 PSO:
   name: Polish Sign Language
+  history: []
+  nob_verify: false
 PSP:
   name: Philippine Sign Language
+  history: []
+  nob_verify: false
 PSR:
   name: Portuguese Sign Language
+  history: []
+  nob_verify: false
 PTQ:
   name: Pattapu
+  history: []
+  nob_verify: false
 PUQ:
   name: Puquina
+  history: []
+  nob_verify: false
 PUS:
   name: Pashto
+  history: []
+  nob_verify: false
 PWI:
   name: Patwin
+  history: []
+  nob_verify: false
 PYS:
   name: Paraguayan Sign Language
+  history: []
+  nob_verify: false
 PZH:
   name: Pazeh
+  history: []
+  nob_verify: false
 QUE:
   name: Quechua
+  history: []
+  nob_verify: false
 RAR:
   name: Rarotongan
+  history: []
+  nob_verify: false
 RBK:
   name: Northern Bontok
+  history: []
+  nob_verify: false
 RBL:
   name: Miraya Bikol
+  history: []
+  nob_verify: false
 RBP:
   name: Barababaraba
+  history: []
+  nob_verify: false
 REY:
   name: Reyesano
+  history: []
+  nob_verify: false
 RIB:
   name: Bribri Sign Language
+  history: []
+  nob_verify: false
 RKW:
   name: Arakwal
+  history: []
+  nob_verify: false
 RMQ:
   name: Caló
+  history: []
+  nob_verify: false
 RMS:
   name: Romanian Sign Language
+  history: []
+  nob_verify: false
 RNB:
   name: Brunca Sign Language
+  history: []
+  nob_verify: false
 RNR:
   name: Nari Nari
+  history: []
+  nob_verify: false
 ROA:
   name: Romance languages
+  history: []
+  nob_verify: false
 ROH:
   name: Romansh
+  history: []
+  nob_verify: false
 ROM:
   name: Romani
+  history: []
+  nob_verify: false
 RON:
   name: Romanian
+  history: []
+  nob_verify: false
 RRT:
   name: Arritinngithigh
+  history: []
+  nob_verify: false
 RSI:
   name: Rennellese Sign Language
+  history: []
+  nob_verify: false
 RSK:
   name: Ruthenian
+  history: []
+  nob_verify: false
 RSL:
   name: Russian Sign Language
+  history: []
+  nob_verify: false
 RSM:
   name: Miriwoong Sign Language
+  history: []
+  nob_verify: false
 RSN:
   name: Rwandan Sign Language
+  history: []
+  nob_verify: false
 RTC:
   name: Rungtu Chin
+  history: []
+  nob_verify: false
 RTS:
   name: Yurats
+  history: []
+  nob_verify: false
 RUN:
   name: Kirundi
+  history: []
+  nob_verify: false
 RUS:
   name: Russian
+  history: []
+  nob_verify: false
 RWL:
   name: Ruwila
+  history: []
+  nob_verify: false
 RXD:
   name: Ngardi
+  history: []
+  nob_verify: false
 RXW:
   name: Karuwali
+  history: []
+  nob_verify: false
 RZH:
   name: Rāziḥī
+  history: []
+  nob_verify: false
 SAG:
   name: Sango
+  history: []
+  nob_verify: false
 SAI:
   name: South American Indian languages
+  history: []
+  nob_verify: false
 SAL:
   name: Salishan languages
+  history: []
+  nob_verify: false
 SCO:
   name: Scots
+  history: []
+  nob_verify: false
 SCT:
   name: Southern Katang
+  history: []
+  nob_verify: false
 SDH:
   name: Southern Kurdish
+  history: []
+  nob_verify: false
 SDL:
   name: Saudi Arabian Sign Language
+  history: []
+  nob_verify: false
 SDQ:
   name: Semandang
+  history: []
+  nob_verify: false
 SEM:
   name: Semitic languages
+  history: []
+  nob_verify: false
 SFE:
   name: Eastern Subanen
+  history: []
+  nob_verify: false
 SFS:
   name: South African Sign Language
+  history: []
+  nob_verify: false
 SGD:
   name: Surigaonon
+  history: []
+  nob_verify: false
 SGG:
   name: Swiss-German Sign Language
+  history: []
+  nob_verify: false
 SGJ:
   name: Surgujia
+  history: []
+  nob_verify: false
 SGN:
   name: Sign Languages
+  history: []
+  nob_verify: false
 SGS:
   name: Samogitian
+  history: []
+  nob_verify: false
 SGX:
   name: Sierra Leonean Sign Language
+  history: []
+  nob_verify: false
 SGY:
   name: Sanglechi
+  history: []
+  nob_verify: false
 SHD:
   name: Kundal Shahi
+  history: []
+  nob_verify: false
 SIN:
   name: Sinhala
+  history: []
+  nob_verify: false
 SIO:
   name: Siouan languages
+  history: []
+  nob_verify: false
 SIP:
   name: Sikkimese
+  history: []
+  nob_verify: false
 SIT:
   name: Sino-Tibetan languages
+  history: []
+  nob_verify: false
 SJE:
   name: Pite Sami
+  history: []
+  nob_verify: false
 SLA:
   name: Slavic languages
+  history: []
+  nob_verify: false
 SLF:
   name: Swiss-Italian Sign Language
+  history: []
+  nob_verify: false
 SLK:
   name: Slovak
+  history: []
+  nob_verify: false
 SLS:
   name: Singapore Sign Language
+  history: []
+  nob_verify: false
 SLV:
   name: Slovenian
+  history: []
+  nob_verify: false
 SME:
   name: Northern Sami
+  history: []
+  nob_verify: false
 SMI:
   name: Sami languages
+  history: []
+  nob_verify: false
 SMO:
   name: Samoan
+  history: []
+  nob_verify: false
 SOM:
   name: Somali
+  history: []
+  nob_verify: false
 SON:
   name: Songhai languages
+  history: []
+  nob_verify: false
 SOT:
   name: Southern Sotho
+  history: []
+  nob_verify: false
 SPA:
   name: Spanish
+  history: []
+  nob_verify: false
 SPN:
   name: Sanapaná
+  history: []
+  nob_verify: false
 SPV:
   name: Sambalpuri
+  history: []
+  nob_verify: false
 SQI:
   name: Albanian
+  history: []
+  nob_verify: false
 SQK:
   name: Albanian Sign Language
+  history: []
+  nob_verify: false
 SQS:
   name: Sri Lankan Sign Language
+  history: []
+  nob_verify: false
 SQX:
   name: Kufr Qassem Sign Language
+  history: []
+  nob_verify: false
 SRP:
   name: Serbian
+  history: []
+  nob_verify: false
 SRQ:
   name: Sirionó
+  history: []
+  nob_verify: false
 SSA:
   name: Nilo-Saharan languages
+  history: []
+  nob_verify: false
 SSP:
   name: Spanish Sign Language
+  history: []
+  nob_verify: false
 SSR:
   name: Swiss-French Sign Language
+  history: []
+  nob_verify: false
 SSW:
   name: Swazi
+  history: []
+  nob_verify: false
 STY:
   name: Siberian Tatar
+  history: []
+  nob_verify: false
 SUO:
   name: Bouni
+  history: []
+  nob_verify: false
 SVK:
   name: Slovakian Sign Language
+  history: []
+  nob_verify: false
 SVM:
   name: Slavomolisano
+  history: []
+  nob_verify: false
 SWA:
   name: Swahili
+  history: []
+  nob_verify: false
 SWB:
   name: Comorian
+  history: []
+  nob_verify: false
 SWE:
   name: Swedish
+  history: []
+  nob_verify: false
 SWL:
   name: Swedish Sign Language
+  history: []
+  nob_verify: false
 SYX:
   name: Samay
+  history: []
+  nob_verify: false
 SYY:
   name: Al-Sayyid Bedouin Sign Language
+  history: []
+  nob_verify: false
 SZS:
   name: Solomon Islands Sign Language
+  history: []
+  nob_verify: false
 SZY:
   name: Sakizaya
+  history: []
+  nob_verify: false
 TAI:
   name: Tai languages
+  history: []
+  nob_verify: false
 TAM:
   name: Tamil
+  history: []
+  nob_verify: false
 TDE:
   name: Tiranige Diga Dogon
+  history: []
+  nob_verify: false
 TDM:
   name: Taruma
+  history: []
+  nob_verify: false
 TET:
   name: Tetum
+  history: []
+  nob_verify: false
 TEZ:
   name: Tetserret
+  history: []
+  nob_verify: false
 TGJ:
   name: Tagin
+  history: []
+  nob_verify: false
 TGK:
   name: Tajik
+  history: []
+  nob_verify: false
 TGN:
   name: Tandaganon
+  history: []
+  nob_verify: false
 TGZ:
   name: Tagalaka
+  history: []
+  nob_verify: false
 THA:
   name: Thai
+  history: []
+  nob_verify: false
 TIR:
   name: Tigrinya
+  history: []
+  nob_verify: false
 TJJ:
   name: Tjungundji
+  history: []
+  nob_verify: false
 TJL:
   name: Tai Laing
+  history: []
+  nob_verify: false
 TJP:
   name: Tjupany
+  history: []
+  nob_verify: false
 TJW:
   name: Djabwurrung
+  history: []
+  nob_verify: false
 TKG:
   name: Tesaka Malagasy
+  history: []
+  nob_verify: false
 TKL:
   name: Tokelauan
+  history: []
+  nob_verify: false
 TKV:
   name: Mur Pano
+  history: []
+  nob_verify: false
 TNA:
   name: Tacana
+  history: []
+  nob_verify: false
 TNO:
   name: Toromono
+  history: []
+  nob_verify: false
 TOK:
   name: Toki Pona
+  history: []
+  nob_verify: false
 TON:
   name: Tongan
+  history: []
+  nob_verify: false
 TPI:
   name: Tok Pisin
+  history: []
+  nob_verify: false
 TPJ:
   name: Tapieté
+  history: []
+  nob_verify: false
 TRN:
   name: Trinitario
+  history: []
+  nob_verify: false
 TSE:
   name: Tunisian Sign Language
+  history: []
+  nob_verify: false
 TSM:
   name: Turkish Sign Language
+  history: []
+  nob_verify: false
 TSN:
   name: Tswana
+  history: []
+  nob_verify: false
 TSO:
   name: Tsonga
+  history: []
+  nob_verify: false
 TSQ:
   name: Thai Sign Language
+  history: []
+  nob_verify: false
 TSS:
   name: Taiwanese Sign Language
+  history: []
+  nob_verify: false
 TST:
   name: Tondi Songway Kiini
+  history: []
+  nob_verify: false
 TSY:
   name: Tebul Sign Language
+  history: []
+  nob_verify: false
 TUK:
   name: Turkmen
+  history: []
+  nob_verify: false
 TUP:
   name: Tupi languages
+  history: []
+  nob_verify: false
 TUR:
   name: Turkish
+  history: []
+  nob_verify: false
 TUT:
   name: Altaic languages
+  history: []
+  nob_verify: false
 TVL:
   name: Tuvaluan
+  history: []
+  nob_verify: false
 TVU:
   name: Tunen
+  history: []
+  nob_verify: false
 TVX:
   name: Taivoan
+  history: []
+  nob_verify: false
 TXJ:
   name: Tarjumo
+  history: []
+  nob_verify: false
 TYY:
   name: Tiyaa
+  history: []
+  nob_verify: false
 TZA:
   name: Tanzanian Sign Language
+  history: []
+  nob_verify: false
 TZL:
   name: Talossan
+  history: []
+  nob_verify: false
 TZM:
   name: Central Atlas Tamazight
+  history: []
+  nob_verify: false
 UBL:
   name: Buhi'non Bikol
+  history: []
+  nob_verify: false
 UGH:
   name: Kubachi
+  history: []
+  nob_verify: false
 UGN:
   name: Ugandan Sign Language
+  history: []
+  nob_verify: false
 UGY:
   name: Uruguayan Sign Language
+  history: []
+  nob_verify: false
 UKI:
   name: Kui
+  history: []
+  nob_verify: false
 UKK:
   name: Muak Sa-aak
+  history: []
+  nob_verify: false
 UKL:
   name: Ukrainian Sign Language
+  history: []
+  nob_verify: false
 UKR:
   name: Ukrainian
+  history: []
+  nob_verify: false
 UKS:
   name: Urubú-Kaapor Sign Language
+  history: []
+  nob_verify: false
 UKV:
   name: Kuku
+  history: []
+  nob_verify: false
 UKY:
   name: Kuuk-Yak
+  history: []
+  nob_verify: false
 ULE:
   name: Lule
+  history: []
+  nob_verify: false
 ULW:
   name: Ulwa
+  history: []
+  nob_verify: false
 UND:
   name: Undetermined
+  history: []
+  nob_verify: false
 UNI:
   name: Uni
+  history: []
+  nob_verify: false
 UNN:
   name: Kurnai
+  history: []
+  nob_verify: false
 UNU:
   name: Unubahe
+  history: []
+  nob_verify: false
 UON:
   name: Kulon
+  history: []
+  nob_verify: false
 URD:
   name: Urdu
+  history: []
+  nob_verify: false
 URE:
   name: Uru
+  history: []
+  nob_verify: false
 USS:
   name: us-Saare
+  history: []
+  nob_verify: false
 UTH:
   name: ut-Hun
+  history: []
+  nob_verify: false
 UZB:
   name: Uzbek
+  history: []
+  nob_verify: false
 VBK:
   name: Southwestern Bontok
+  history: []
+  nob_verify: false
 VEN:
   name: Venda
+  history: []
+  nob_verify: false
 VIE:
   name: Vietnamese
+  history: []
+  nob_verify: false
 VKN:
   name: Koro Nulu
+  history: []
+  nob_verify: false
 VKZ:
   name: Koro Zuba
+  history: []
+  nob_verify: false
 VLS:
   name: Flemish
+  history: []
+  nob_verify: false
 VSI:
   name: Moldovan Sign Language
+  history: []
+  nob_verify: false
 VSL:
   name: Venezuelan Sign Language
+  history: []
+  nob_verify: false
 VSV:
   name: Valencian Sign Language
+  history: []
+  nob_verify: false
 WAK:
   name: Wakashan languages
+  history: []
+  nob_verify: false
 WBS:
   name: West Bengal Sign Language
+  history: []
+  nob_verify: false
 WDK:
   name: Wadikali
+  history: []
+  nob_verify: false
 WDT:
   name: Wyandot
+  history: []
+  nob_verify: false
 WDY:
   name: Wadjabangayi
+  history: []
+  nob_verify: false
 WEG:
   name: Wergaia
+  history: []
+  nob_verify: false
 WEN:
   name: Sorbian languages
+  history: []
+  nob_verify: false
 WGB:
   name: Wagawaga
+  history: []
+  nob_verify: false
 WGU:
   name: Wirangu
+  history: []
+  nob_verify: false
 WKR:
   name: Keerray-Woorroong
+  history: []
+  nob_verify: false
 WKY:
   name: Wangkayutyuru
+  history: []
+  nob_verify: false
 WLH:
   name: Welaun
+  history: []
+  nob_verify: false
 WLN:
   name: Walloon
+  history: []
+  nob_verify: false
 WMG:
   name: Western Minyag
+  history: []
+  nob_verify: false
 WNN:
   name: Wunumara
+  history: []
+  nob_verify: false
 WNW:
   name: Wintu
+  history: []
+  nob_verify: false
 WNY:
   name: Waanyi
+  history: []
+  nob_verify: false
 WOL:
   name: Wolof
+  history: []
+  nob_verify: false
 WRK:
   name: Garrwa
+  history: []
+  nob_verify: false
 WRO:
   name: Worrorra
+  history: []
+  nob_verify: false
 WSG:
   name: Adilabad Gondi
+  history: []
+  nob_verify: false
 WTH:
   name: Wathawurrung
+  history: []
+  nob_verify: false
 WWB:
   name: Wakabunga
+  history: []
+  nob_verify: false
 WXW:
   name: Wardandi
+  history: []
+  nob_verify: false
 WYI:
   name: Woiwurrung
+  history: []
+  nob_verify: false
 WYN:
   name: Wyandot
+  history: []
+  nob_verify: false
 XAJ:
   name: Ararandewára
+  history: []
+  nob_verify: false
 XAK:
   name: Máku
+  history: []
+  nob_verify: false
 XBB:
   name: Lower Burdekin
+  history: []
+  nob_verify: false
 XBD:
   name: Bindal
+  history: []
+  nob_verify: false
 XBE:
   name: Bigambal
+  history: []
+  nob_verify: false
 XBG:
   name: Bunganditj
+  history: []
+  nob_verify: false
 XBJ:
   name: Birrpayi
+  history: []
+  nob_verify: false
 XBN:
   name: Kenaboi
+  history: []
+  nob_verify: false
 XBP:
   name: Bibbulman
+  history: []
+  nob_verify: false
 XBY:
   name: Batyala
+  history: []
+  nob_verify: false
 XDA:
   name: Darkinyung
+  history: []
+  nob_verify: false
 XDK:
   name: Dharuk
+  history: []
+  nob_verify: false
 XDO:
   name: Kwandu
+  history: []
+  nob_verify: false
 XDQ:
   name: Kaitag
+  history: []
+  nob_verify: false
 XGB:
   name: Gbin
+  history: []
+  nob_verify: false
 XGD:
   name: Gudang
+  history: []
+  nob_verify: false
 XGG:
   name: Goreng
+  history: []
+  nob_verify: false
 XGI:
   name: Garingbal
+  history: []
+  nob_verify: false
 XGM:
   name: Dharumbal
+  history: []
+  nob_verify: false
 XGU:
   name: Unggumi
+  history: []
+  nob_verify: false
 XGW:
   name: Guwa
+  history: []
+  nob_verify: false
 XHM:
   name: Middle Khmer
+  history: []
+  nob_verify: false
 XHO:
   name: Xhosa
+  history: []
+  nob_verify: false
 XIS:
   name: Kisan
+  history: []
+  nob_verify: false
 XJB:
   name: Minjungbal
+  history: []
+  nob_verify: false
 XJT:
   name: Jaitmatang
+  history: []
+  nob_verify: false
 XKI:
   name: Kenyan Sign Language
+  history: []
+  nob_verify: false
 XML:
   name: Malaysian Sign Language
+  history: []
+  nob_verify: false
 XMS:
   name: Moroccan Sign Language
+  history: []
+  nob_verify: false
 XNI:
   name: Ngarigu
+  history: []
+  nob_verify: false
 XNJ:
   name: Ngoni
+  history: []
+  nob_verify: false
 XNK:
   name: Nganakarti
+  history: []
+  nob_verify: false
 XNM:
   name: Ngumbarl
+  history: []
+  nob_verify: false
 XNQ:
   name: Ngoni
+  history: []
+  nob_verify: false
 XNT:
   name: Narragansett
+  history: []
+  nob_verify: false
 XNU:
   name: Nukunul
+  history: []
+  nob_verify: false
 XNY:
   name: Nyiyaparli
+  history: []
+  nob_verify: false
 XNZ:
   name: Kenzi
+  history: []
+  nob_verify: false
 XPA:
   name: Pirriya
+  history: []
+  nob_verify: false
 XPB:
   name: Pyemmairre
+  history: []
+  nob_verify: false
 XPD:
   name: Paredarerme
+  history: []
+  nob_verify: false
 XPF:
   name: Nuenonne
+  history: []
+  nob_verify: false
 XPH:
   name: Tyerrenoterpanner
+  history: []
+  nob_verify: false
 XPJ:
   name: Mpalitjanh
+  history: []
+  nob_verify: false
 XPL:
   name: Port Sorell Tasmanian
+  history: []
+  nob_verify: false
 XPQ:
   name: Mohegan-Pequot
+  history: []
+  nob_verify: false
 XPT:
   name: Punthamara
+  history: []
+  nob_verify: false
 XPV:
   name: Tommeginne
+  history: []
+  nob_verify: false
 XPW:
   name: Peerapper
+  history: []
+  nob_verify: false
 XPX:
   name: Toogee
+  history: []
+  nob_verify: false
 XPZ:
   name: Nuenonne
+  history: []
+  nob_verify: false
 XRD:
   name: Gundungurra
+  history: []
+  nob_verify: false
 XRG:
   name: Minang
+  history: []
+  nob_verify: false
 XTH:
   name: Yitha Yitha
+  history: []
+  nob_verify: false
 XTV:
   name: Thawa
+  history: []
+  nob_verify: false
 XUD:
   name: Umiida
+  history: []
+  nob_verify: false
 XUL:
   name: Ngunnawal
+  history: []
+  nob_verify: false
 XUN:
   name: Unggaranggu
+  history: []
+  nob_verify: false
 XWD:
   name: Wadi Wadi
+  history: []
+  nob_verify: false
 XWJ:
   name: Wajuk
+  history: []
+  nob_verify: false
 XWK:
   name: Wangkumara
+  history: []
+  nob_verify: false
 XWT:
   name: Wotjobaluk
+  history: []
+  nob_verify: false
 XWW:
   name: Wemba Wemba
+  history: []
+  nob_verify: false
 XXM:
   name: Minkin
+  history: []
+  nob_verify: false
 XYA:
   name: Yaygir
+  history: []
+  nob_verify: false
 XYB:
   name: Yandjibara
+  history: []
+  nob_verify: false
 XYJ:
   name: Mayi-Yapi
+  history: []
+  nob_verify: false
 XYK:
   name: Mayi-Kulan
+  history: []
+  nob_verify: false
 XYT:
   name: Mayi-Thakurti
+  history: []
+  nob_verify: false
 XYY:
   name: Yorta Yorta
+  history: []
+  nob_verify: false
 YAA:
   name: Yaminava
+  history: []
+  nob_verify: false
 YAN:
   name: Mayangna
+  history: []
+  nob_verify: false
 YDA:
   name: Yanda
+  history: []
+  nob_verify: false
 YGA:
   name: Malyangapa
+  history: []
+  nob_verify: false
 YGI:
   name: Yiningayi
+  history: []
+  nob_verify: false
 YGS:
   name: Yolŋu Sign Language
+  history: []
+  nob_verify: false
 YGU:
   name: Yugul
+  history: []
+  nob_verify: false
 YHS:
   name: Yan-nhaŋu Sign Language
+  history: []
+  nob_verify: false
 YID:
   name: Yiddish
+  history: []
+  nob_verify: false
 YKN:
   name: Kua-nsi
+  history: []
+  nob_verify: false
 YKU:
   name: Kuamasi
+  history: []
+  nob_verify: false
 YLB:
   name: Yaleba
+  history: []
+  nob_verify: false
 YNQ:
   name: Yendang
+  history: []
+  nob_verify: false
 YOR:
   name: Yoruba
+  history: []
+  nob_verify: false
 YOT:
   name: Yotti
+  history: []
+  nob_verify: false
 YPK:
   name: Yupik languages
+  history: []
+  nob_verify: false
 YRM:
   name: Yirrk-Mel
+  history: []
+  nob_verify: false
 YRO:
   name: Yaroamë
+  history: []
+  nob_verify: false
 YRY:
   name: Yarluyandi
+  history: []
+  nob_verify: false
 YSG:
   name: Sonaga
+  history: []
+  nob_verify: false
 YSL:
   name: Yugoslavian Sign Language
+  history: []
+  nob_verify: false
 YSM:
   name: Myanmar Sign Language
+  history: []
+  nob_verify: false
 YTW:
   name: Yout Wam
+  history: []
+  nob_verify: false
 YTY:
   name: Yatay
+  history: []
+  nob_verify: false
 YUE:
   name: Yue Chinese
+  history: []
+  nob_verify: false
 YUQ:
   name: Yuqui
+  history: []
+  nob_verify: false
 YUZ:
   name: Yuracare
+  history: []
+  nob_verify: false
 YWG:
   name: Yinhawangka
+  history: []
+  nob_verify: false
 YXA:
   name: Mayawali
+  history: []
+  nob_verify: false
 YXG:
   name: Yagara
+  history: []
+  nob_verify: false
 YXL:
   name: Yardliyawarra
+  history: []
+  nob_verify: false
 YXM:
   name: Yinwum
+  history: []
+  nob_verify: false
 YXU:
   name: Yuyu
+  history: []
+  nob_verify: false
 YXY:
   name: Yabula Yabula
+  history: []
+  nob_verify: false
 YYR:
   name: Yir Yoront
+  history: []
+  nob_verify: false
 ZBA:
   name: Balaibalan
+  history: []
+  nob_verify: false
 ZBU:
   name: Bu
+  history: []
+  nob_verify: false
 ZCD:
   name: Las Delicias Zapotec
+  history: []
+  nob_verify: false
 ZGH:
   name: Standard Moroccan Tamazight
+  history: []
+  nob_verify: false
 ZHA:
   name: Zhuang
+  history: []
+  nob_verify: false
 ZHO:
   name: Chinese
+  history: []
+  nob_verify: false
 ZIB:
   name: Zimbabwean Sign Language
+  history: []
+  nob_verify: false
 ZIL:
   name: Zialo
+  history: []
+  nob_verify: false
 ZKD:
   name: Kadu
+  history: []
+  nob_verify: false
 ZKN:
   name: Kanan
+  history: []
+  nob_verify: false
 ZLA:
   name: Zula
+  history: []
+  nob_verify: false
 ZLM:
   name: Malay
+  history: []
+  nob_verify: false
 ZND:
   name: Zande languages
+  history: []
+  nob_verify: false
 ZSL:
   name: Zambian Sign Language
+  history: []
+  nob_verify: false
 ZUL:
   name: Zulu
+  history: []
+  nob_verify: false
 ZXX:
   name: No linguistic content
+  history: []
+  nob_verify: false

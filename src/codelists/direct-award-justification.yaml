@@ -1,123 +1,328 @@
 additional:
   name: Need for additional works or services by the original contractor
-  nob:
+  nob: Behov for ytterligere arbeider eller tjenester fra den opprinnelige entreprenøren
+  history:
+  - name: Need for additional works or services by the original contractor
+    history: []
+    nob_verify: false
+  nob_verify: false
 artistic:
   name: The contract can be provided only by a particular economic operator because of creation or acquisition of a unique work of art or artistic performance
-  nob:
+  nob: Kontrakten kan bare leveres av en bestemt markedsdeltaker på grunn av opprettelse eller erverv av et unikt kunstverk eller kunstnerisk fremføring
+  history:
+  - name: The contract can be provided only by a particular economic operator because of creation or acquisition of a unique work of art or artistic performance
+    history: []
+    nob_verify: false
+  nob_verify: false
 bargain:
   name: Bargain purchase taking advantage of a particularly advantageous opportunity available for a very short time at a price considerably lower than market prices
-  nob:
+  nob: Prute kjøp utnytter en spesielt fordelaktig mulighet tilgjengelig for en svært kort tid til en pris betydelig lavere enn markedspriser
+  history:
+  - name: Bargain purchase taking advantage of a particularly advantageous opportunity available for a very short time at a price considerably lower than market prices
+    history: []
+    nob_verify: false
+  nob_verify: false
 below-thres:
   name: Contracts with estimated value below the procurement thresholds
-  nob:
+  nob: Kontrakter med estimert verdi under anskaffelsesgrensene
+  history:
+  - name: Contracts with estimated value below the procurement thresholds
+    history: []
+    nob_verify: false
+  nob_verify: false
 below-thres-sme:
   name: Small scale contract to a small and medium sized enterprise
-  nob:
+  nob: Småskala kontrakt til små og mellomstore bedrifter
+  history:
+  - name: Small scale contract to a small and medium sized enterprise
+    history: []
+    nob_verify: false
+  nob_verify: false
 closure:
   name: Purchase on particularly advantageous terms from an economic operator which is definitely winding up its business activities
-  nob:
+  nob: Kjøp på særlig fordelaktige vilkår fra en markedsdeltaker som definitivt avvikler sin virksomhet
+  history:
+  - name: Purchase on particularly advantageous terms from an economic operator which is definitely winding up its business activities
+    history: []
+    nob_verify: false
+  nob_verify: false
 commodity:
   name: Procurement of supplies quoted and purchased on a commodity market
-  nob:
+  nob: Anskaffelse av forsyninger notert og kjøpt på et råvaremarked
+  history:
+  - name: Procurement of supplies quoted and purchased on a commodity market
+    history: []
+    nob_verify: false
+  nob_verify: false
 contest:
   name: Service contract to be awarded to the winner or one of winners under the rules of a design contest
-  nob:
+  nob: Servicekontrakt som skal tildeles vinneren eller en av vinnerne i henhold til reglene for en designkonkurranse
+  history:
+  - name: Service contract to be awarded to the winner or one of winners under the rules of a design contest
+    history: []
+    nob_verify: false
+  nob_verify: false
 crisis:
   name: The periods for the restricted procedure and the negotiated procedure with prior publication of a contract notice are incompatible with the urgency resulting from a crisis
-  nob:
+  nob: Periodene for den begrensede prosedyren og den forhandlede prosedyren med forhåndsoffentliggjøring av en kunngjøring av en kontrakt er uforenlige med at det haster som følge av en krise
+  history:
+  - name: The periods for the restricted procedure and the negotiated procedure with prior publication of a contract notice are incompatible with the urgency resulting from a crisis
+    history: []
+    nob_verify: false
+  nob_verify: false
 defse-excl:
   name: Defence-specific and security-specific exclusions
-  nob:
+  nob: Forsvarsspesifikke og sikkerhetsspesifikke unntak
+  history:
+  - name: Defence-specific and security-specific exclusions
+    history: []
+    nob_verify: false
+  nob_verify: false
 dir24-list:
   name: Contracts listed in Directive 2014/24/EU Art. 7, but not falling within the scope of Directive 2014/25/EU
-  nob:
+  nob: Kontrakter oppført i direktiv 2014/24/EU art. 7, men som ikke omfattes av direktiv 2014/25/EU
+  history:
+  - name: Contracts listed in Directive 2014/24/EU Art. 7, but not falling within the scope of Directive 2014/25/EU
+    history: []
+    nob_verify: false
+  nob_verify: false
 dir81-annexii:
   name: The contract falls within the services listed in Annex II of the Directive 2009/81/EC
-  nob:
+  nob: Kontrakten faller inn under tjenestene som er oppført i vedlegg II til direktiv 2009/81/EF
+  history:
+  - name: The contract falls within the services listed in Annex II of the Directive 2009/81/EC
+    history: []
+    nob_verify: false
+  nob_verify: false
 dir81-transport:
   name: Contract related to the provision of air and maritime transport services for the armed forces of a Member State deployed or to be deployed abroad, under the strict conditions stated in the Directive
-  nob:
+  nob: Kontrakt knyttet til levering av luft- og sjøtransporttjenester for de væpnede styrker i en medlemsstat som er deployert eller skal deployeres utenlands, på de strenge vilkår som er angitt i direktivet
+  history:
+  - name: Contract related to the provision of air and maritime transport services for the armed forces of a Member State deployed or to be deployed abroad, under the strict conditions stated in the Directive
+    history: []
+    nob_verify: false
+  nob_verify: false
 ecom-excl:
   name: Specific exclusion in the field of electronic communications
-  nob:
+  nob: Særskilt utelukkelse innen ekomområdet
+  history:
+  - name: Specific exclusion in the field of electronic communications
+    history: []
+    nob_verify: false
+  nob_verify: false
 energy-supply:
   name: Contracts awarded for the supply of energy or of fuels for the production of energy
-  nob:
+  nob: Tildelte kontrakter for forsyning av energi eller drivstoff til produksjon av energi
+  history:
+  - name: Contracts awarded for the supply of energy or of fuels for the production of energy
+    history: []
+    nob_verify: false
+  nob_verify: false
 exclusive:
   name: The contract can be provided only by a particular economic operator because of exclusive rights, including intellectual property rights
-  nob:
+  nob: Kontrakten kan bare leveres av en bestemt markedsdeltaker på grunn av eksklusive rettigheter, inkludert immaterielle rettigheter
+  history:
+  - name: The contract can be provided only by a particular economic operator because of exclusive rights, including intellectual property rights
+    history: []
+    nob_verify: false
+  nob_verify: false
 existing:
   name: Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive
-  nob:
+  nob: Delvis utskifting eller utvidelse av eksisterende forsyninger eller installasjoner av den opprinnelige leverandøren bestilt under de strenge vilkårene som er angitt i direktivet
+  history:
+  - name: Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive
+    history: []
+    nob_verify: false
+  nob_verify: false
 in-house:
   name: Public contract between organisations within the public sector ('in-house'), contracts awarded to affiliated undertakings, or contracts awarded to a joint venture or within a joint venture
-  nob:
+  nob: Offentlige kontrakter mellom organisasjoner i offentlig sektor ("in-house"), kontrakter tildelt tilknyttede foretak, eller kontrakter tildelt et felleskontrollert foretak eller i et joint venture
+  history:
+  - name: Public contract between organisations within the public sector ('in-house'), contracts awarded to affiliated undertakings, or contracts awarded to a joint venture or within a joint venture
+    history: []
+    nob_verify: false
+  nob_verify: false
 int-oper:
   name: Internal operator
-  nob:
+  nob: Intern operatør
+  history:
+  - name: Internal operator
+    history: []
+    nob_verify: false
+  nob_verify: false
 int-rules:
   name: Procedure according to international rules
-  nob:
+  nob: Prosedyre i henhold til internasjonale regler
+  history:
+  - name: Procedure according to international rules
+    history: []
+    nob_verify: false
+  nob_verify: false
 irregular:
   name: Only irregular or unacceptable tenders were received in response to a previous notice. All and only those tenderers of the previous procedure which have satisfied the selection criteria, have not fulfilled the exclusion grounds and have satisfied formal requirements, were included in the negotiations
-  nob:
+  nob: Kun irregulære eller uakseptable anbud ble mottatt som svar på et tidligere varsel. Alle og bare de tilbydere av den forrige prosedyren som har oppfylt utvelgingskriteriene, ikke har oppfylt eksklusjonsgrunnene og har oppfylt formelle krav, ble inkludert i forhandlingene
+  history:
+  - name: Only irregular or unacceptable tenders were received in response to a previous notice. All and only those tenderers of the previous procedure which have satisfied the selection criteria, have not fulfilled the exclusion grounds and have satisfied formal requirements, were included in the negotiations
+    history: []
+    nob_verify: false
+  nob_verify: false
 liquidator:
   name: Purchase on particularly advantageous terms from the liquidator in an insolvency procedure, an arrangement with creditors or a similar procedure under national laws and regulations
-  nob:
+  nob: Kjøp på særlig fordelaktige vilkår fra avviklingsstyret i en insolvensprosedyre, en ordning med kreditorer eller en lignende prosedyre i henhold til nasjonale lover og forskrifter
+  history:
+  - name: Purchase on particularly advantageous terms from the liquidator in an insolvency procedure, an arrangement with creditors or a similar procedure under national laws and regulations
+    history: []
+    nob_verify: false
+  nob_verify: false
 non-buyer-aw:
   name: Contract awarded by parties that are not buyers
-  nob:
+  nob: Kontrakt tildelt av parter som ikke er kjøpere
+  history:
+  - name: Contract awarded by parties that are not buyers
+    history: []
+    nob_verify: false
+  nob_verify: false
 non-contr:
   name: Certain cases of non-contractual nature
-  nob:
+  nob: Visse tilfeller av ikke-kontraktsmessig karakter
+  history:
+  - name: Certain cases of non-contractual nature
+    history: []
+    nob_verify: false
+  nob_verify: false
 non-p-int:
   name: Contracts for non-pecuniary interest
-  nob:
+  nob: Kontrakter for ikke-økonomisk interesse
+  history:
+  - name: Contracts for non-pecuniary interest
+    history: []
+    nob_verify: false
+  nob_verify: false
 not-wss:
   name: Contracts whose purpose is not the execution of works, the supply of products and the provision of services
-  nob:
+  nob: Kontrakter hvis formål ikke er utførelse av arbeid, levering av produkter og levering av tjenester
+  history:
+  - name: Contracts whose purpose is not the execution of works, the supply of products and the provision of services
+    history: []
+    nob_verify: false
+  nob_verify: false
 other-activity:
   name: Contracts awarded for purposes other than the pursuit of a covered activity or for the pursuit of such an activity in a third country
-  nob:
+  nob: Kontrakter tildelt for andre formål enn utøvelse av en dekket aktivitet eller for å utøve slik aktivitet i et tredjeland
+  history:
+  - name: Contracts awarded for purposes other than the pursuit of a covered activity or for the pursuit of such an activity in a third country
+    history: []
+    nob_verify: false
+  nob_verify: false
 other-exclusive:
   name: The contract can be provided only by a particular economic operator because of protection of other exclusive rights, including intellectual property rights, other than those defined in Directive 2014/23/EU Art. 5(10)
-  nob:
+  nob: Kontrakten kan bare gis av en bestemt markedsdeltaker på grunn av beskyttelse av andre eksklusive rettigheter, herunder immaterielle rettigheter, enn dem som er definert i direktiv 2014/23/EU art. 5 nr. 10
+  history:
+  - name: The contract can be provided only by a particular economic operator because of protection of other exclusive rights, including intellectual property rights, other than those defined in Directive 2014/23/EU Art. 5(10)
+    history: []
+    nob_verify: false
+  nob_verify: false
 rail:
   name: Railway transport
-  nob:
+  nob: Jernbanetransport
+  history:
+  - name: Railway transport
+    history: []
+    nob_verify: false
+  nob_verify: false
 rd:
   name: The contract concerns research and development services other than those referred to in Directive 2009/81/EC Art. 13
-  nob:
+  nob: Kontrakten gjelder andre forsknings- og utviklingstjenester enn de som er nevnt i direktiv 2009/81/EF art. 13
+  history:
+  - name: The contract concerns research and development services other than those referred to in Directive 2009/81/EC Art. 13
+    history: []
+    nob_verify: false
+  nob_verify: false
 repetition:
   name: New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive
-  nob:
+  nob: Nye verk eller tjenester, som utgjør en gjentakelse av eksisterende verk eller tjenester og bestilles i samsvar med de strenge vilkårene som er angitt i direktivet
+  history:
+  - name: New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive
+    history: []
+    nob_verify: false
+  nob_verify: false
 resd:
   name: Purpose of the contract is purely research, experiment, study or development under the conditions stated in the Directive
-  nob:
+  nob: Formålet med kontrakten er ren forskning, eksperimentering, studier eller utvikling på de vilkår som er angitt i direktivet
+  history:
+  - name: Purpose of the contract is purely research, experiment, study or development under the conditions stated in the Directive
+    history: []
+    nob_verify: false
+  nob_verify: false
 rl-third:
   name: Contracts awarded for purposes of resale or lease to third parties
-  nob:
+  nob: Kontrakter tildelt med henblikk på videresalg eller utleie til tredjeparter
+  history:
+  - name: Contracts awarded for purposes of resale or lease to third parties
+    history: []
+    nob_verify: false
+  nob_verify: false
 sc-right:
   name: Service contract awarded on the basis of an exclusive right
-  nob:
+  nob: Servicekontrakt tildelt på grunnlag av en eksklusiv rett
+  history:
+  - name: Service contract awarded on the basis of an exclusive right
+    history: []
+    nob_verify: false
+  nob_verify: false
 serv-excl:
   name: Specific exclusions for service contracts
-  nob:
+  nob: Spesifikke unntak for servicekontrakter
+  history:
+  - name: Specific exclusions for service contracts
+    history: []
+    nob_verify: false
+  nob_verify: false
 spe-arrang:
   name: Activities directly exposed to competition and contracts subject to special arrangements
-  nob:
+  nob: Virksomhet direkte konkurranseutsatt og kontrakter underlagt særskilte ordninger
+  history:
+  - name: Activities directly exposed to competition and contracts subject to special arrangements
+    history: []
+    nob_verify: false
+  nob_verify: false
 technical:
   name: The contract can be provided only by a particular economic operator because of an absence of competition for technical reasons
-  nob:
+  nob: Kontrakten kan bare leveres av en bestemt markedsdeltaker på grunn av fravær av konkurranse av tekniske årsaker
+  history:
+  - name: The contract can be provided only by a particular economic operator because of an absence of competition for technical reasons
+    history: []
+    nob_verify: false
+  nob_verify: false
 tra-ser:
   name: Concessions for air transport services based on the granting of an operating licence within the meaning of Regulation (EC) No 1008/2008 or for public passenger transport services within the meaning of Regulation (EC) No 1370/2007
-  nob:
+  nob: Konsesjoner for lufttransporttjenester på grunnlag av tildeling av driftstillatelse i henhold til forordning (EF) nr. 1008/2008 eller for offentlige persontransporttjenester i henhold til forordning (EF) nr. 1370/2007
+  history:
+  - name: Concessions for air transport services based on the granting of an operating licence within the meaning of Regulation (EC) No 1008/2008 or for public passenger transport services within the meaning of Regulation (EC) No 1370/2007
+    history: []
+    nob_verify: false
+  nob_verify: false
 unsuitable:
   name: No suitable tenders, requests to participate, or applications were received in response to a previous notice
-  nob:
+  nob: Ingen passende anbud, forespørsler om å delta eller søknader ble mottatt som svar på et tidligere varsel
+  history:
+  - name: No suitable tenders, requests to participate, or applications were received in response to a previous notice
+    history: []
+    nob_verify: false
+  nob_verify: false
 urgency:
   name: Extreme urgency brought about by events unforeseeable for the buyer
-  nob:
+  nob: Ekstrem hastverk forårsaket av hendelser som er uforutsigbare for kjøperen
+  history:
+  - name: Extreme urgency brought about by events unforeseeable for the buyer
+    history: []
+    nob_verify: false
+  nob_verify: false
 water-purch:
   name: Contracts awarded for the purchase of water
-  nob:
+  nob: Kontrakter tildelt for kjøp av vann
+  history:
+  - name: Contracts awarded for the purchase of water
+    history: []
+    nob_verify: false
+  nob_verify: false

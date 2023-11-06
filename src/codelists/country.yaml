@@ -1,667 +1,1973 @@
 1A0:
   name: Kosovo
   nob: Kosovo
+  history: []
+  nob_verify: false
 ABW:
   name: Aruba
+  nob: Aruba
+  history:
+  - name: Aruba
+    history: []
+    nob_verify: false
+  nob_verify: false
 AFG:
   name: Afghanistan
   nob: Afganistan
+  history: []
+  nob_verify: false
 AFI:
   name: French Afar and Issas
+  nob: Franske Afar og Issas
+  history:
+  - name: French Afar and Issas
+    history: []
+    nob_verify: false
+  nob_verify: false
 AGO:
   name: Angola
   nob: Angola
+  history: []
+  nob_verify: false
 AIA:
   name: Anguilla
+  nob: Anguilla
+  history:
+  - name: Anguilla
+    history: []
+    nob_verify: false
+  nob_verify: false
 ALA:
   name: Åland Islands
   nob: Åland
+  history: []
+  nob_verify: false
 ALB:
   name: Albania
   nob: Albania
+  history: []
+  nob_verify: false
 AND:
   name: Andorra
   nob: Andorra
+  history: []
+  nob_verify: false
 ANT:
   name: Netherlands Antilles
+  nob: De nederlandske Antillene
+  history:
+  - name: Netherlands Antilles
+    history: []
+    nob_verify: false
+  nob_verify: false
 ARE:
   name: United Arab Emirates
+  nob: De forente arabiske emirater
+  history:
+  - name: United Arab Emirates
+    history: []
+    nob_verify: false
+  nob_verify: false
 ARG:
   name: Argentina
   nob: Argentina
+  history: []
+  nob_verify: false
 ARM:
   name: Armenia
   nob: Armenia
+  history: []
+  nob_verify: false
 ASM:
   name: American Samoa
+  nob: Amerikansk Samoa
+  history:
+  - name: American Samoa
+    history: []
+    nob_verify: false
+  nob_verify: false
 ATA:
   name: Antarctica
+  nob: Antarktis
+  history:
+  - name: Antarctica
+    history: []
+    nob_verify: false
+  nob_verify: false
 ATB:
   name: British Antarctic Territory
+  nob: Britisk antarktisk territorium
+  history:
+  - name: British Antarctic Territory
+    history: []
+    nob_verify: false
+  nob_verify: false
 ATF:
   name: French Southern Lands
+  nob: Franske sørlige land
+  history:
+  - name: French Southern Lands
+    history: []
+    nob_verify: false
+  nob_verify: false
 ATG:
   name: Antigua and Barbuda
+  nob: Antigua and Barbuda
+  history:
+  - name: Antigua and Barbuda
+    history: []
+    nob_verify: false
+  nob_verify: false
 ATN:
   name: Dronning Maud Land
   nob: Dronning Maud Land
+  history: []
+  nob_verify: false
 AUS:
   name: Australia
   nob: Australia
+  history: []
+  nob_verify: false
 AUT:
   name: Austria
   nob: Østerrike
+  history: []
+  nob_verify: false
 AZE:
   name: Azerbaijan
+  nob: Aserbajdsjan
+  history:
+  - name: Azerbaijan
+    history: []
+    nob_verify: false
+  nob_verify: false
 BDI:
   name: Burundi
+  nob: Burundi
+  history:
+  - name: Burundi
+    history: []
+    nob_verify: false
+  nob_verify: false
 BEL:
   name: Belgium
   nob: Belgia
+  history: []
+  nob_verify: false
 BEN:
   name: Benin
+  nob: Benin
+  history:
+  - name: Benin
+    history: []
+    nob_verify: false
+  nob_verify: false
 BES:
   name: Bonaire, Sint Eustatius and Saba
+  nob: Bonaire, Sint Eustatius og Saba
+  history:
+  - name: Bonaire, Sint Eustatius and Saba
+    history: []
+    nob_verify: false
+  nob_verify: false
 BFA:
   name: Burkina Faso
   nob: Burkina Faso
+  history: []
+  nob_verify: false
 BGD:
   name: Bangladesh
+  nob: Bangladesh
+  history:
+  - name: Bangladesh
+    history: []
+    nob_verify: false
+  nob_verify: false
 BGR:
   name: Bulgaria
   nob: Bulgaria
+  history: []
+  nob_verify: false
 BHR:
   name: Bahrain
+  nob: Bahrain
+  history:
+  - name: Bahrain
+    history: []
+    nob_verify: false
+  nob_verify: false
 BHS:
   name: Bahamas
   nob: Bahamas
+  history: []
+  nob_verify: false
 BIH:
   name: Bosnia and Herzegovina
+  nob: Bosnia og Herzegovina
+  history:
+  - name: Bosnia and Herzegovina
+    history: []
+    nob_verify: false
+  nob_verify: false
 BLM:
   name: Saint Barthélemy
+  nob: Saint Barthélemy
+  history:
+  - name: Saint Barthélemy
+    history: []
+    nob_verify: false
+  nob_verify: false
 BLR:
   name: Belarus
   nob: Belarus
+  history: []
+  nob_verify: false
 BLZ:
   name: Belize
+  nob: Belize
+  history:
+  - name: Belize
+    history: []
+    nob_verify: false
+  nob_verify: false
 BMU:
   name: Bermuda
   nob: Bermuda
+  history: []
+  nob_verify: false
 BOL:
   name: Bolivia
   nob: Bolivia
+  history: []
+  nob_verify: false
 BRA:
   name: Brazil
   nob: Brasil
+  history: []
+  nob_verify: false
 BRB:
   name: Barbados
+  nob: Barbados
+  history:
+  - name: Barbados
+    history: []
+    nob_verify: false
+  nob_verify: false
 BRN:
   name: Brunei
+  nob: Brunei
+  history:
+  - name: Brunei
+    history: []
+    nob_verify: false
+  nob_verify: false
 BTN:
   name: Bhutan
+  nob: Bhutan
+  history:
+  - name: Bhutan
+    history: []
+    nob_verify: false
+  nob_verify: false
 BUR:
   name: Burma
+  nob: Burma
+  history:
+  - name: Burma
+    history: []
+    nob_verify: false
+  nob_verify: false
 BVT:
   name: Bouvet Island
+  nob: Bouvet Island
+  history:
+  - name: Bouvet Island
+    history: []
+    nob_verify: false
+  nob_verify: false
 BWA:
   name: Botswana
+  nob: Botswana
+  history:
+  - name: Botswana
+    history: []
+    nob_verify: false
+  nob_verify: false
 BYS:
   name: Belarus
   nob: Belarus
+  history: []
+  nob_verify: false
 CAF:
   name: Central African Republic
   nob: Den sentralafrikanske republikk
+  history: []
+  nob_verify: false
 CAN:
   name: Canada
   nob: Canada
+  history: []
+  nob_verify: false
 CCK:
   name: Cocos (Keeling) Islands
+  nob: Cocos (Keeling) Islands
+  history:
+  - name: Cocos (Keeling) Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 CHE:
   name: Switzerland
   nob: Sveits
+  history: []
+  nob_verify: false
 CHL:
   name: Chile
   nob: Chile
+  history: []
+  nob_verify: false
 CHN:
   name: China
+  nob: Kina
+  history:
+  - name: China
+    history: []
+    nob_verify: false
+  nob_verify: false
 CIV:
   name: Côte d’Ivoire
+  nob: Elfenbenskysten
+  history:
+  - name: Côte d’Ivoire
+    history: []
+    nob_verify: false
+  nob_verify: false
 CMR:
   name: Cameroon
   nob: Kamerun
+  history: []
+  nob_verify: false
 COD:
   name: Democratic Republic of the Congo
+  nob: Den demokratiske republikken Kongo
+  history:
+  - name: Democratic Republic of the Congo
+    history: []
+    nob_verify: false
+  nob_verify: false
 COG:
   name: Congo
   nob: Kongo
+  history: []
+  nob_verify: false
 COK:
   name: Cook Islands
+  nob: Cook Islands
+  history:
+  - name: Cook Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 COL:
   name: Colombia
+  nob: Colombia
+  history:
+  - name: Colombia
+    history: []
+    nob_verify: false
+  nob_verify: false
 COM:
   name: Comoros
+  nob: Comoros
+  history:
+  - name: Comoros
+    history: []
+    nob_verify: false
+  nob_verify: false
 CPT:
   name: Clipperton
+  nob: Clipperton
+  history:
+  - name: Clipperton
+    history: []
+    nob_verify: false
+  nob_verify: false
 CPV:
   name: Cabo Verde
+  nob: Cabo Verde
+  history:
+  - name: Cabo Verde
+    history: []
+    nob_verify: false
+  nob_verify: false
 CRI:
   name: Costa Rica
+  nob: Costa Rica
+  history:
+  - name: Costa Rica
+    history: []
+    nob_verify: false
+  nob_verify: false
 CSK:
   name: Czechoslovakia
+  nob: Tsjekkoslovakia
+  history:
+  - name: Czechoslovakia
+    history: []
+    nob_verify: false
+  nob_verify: false
 CTE:
   name: Canton and Enderbury Islands
+  nob: Kanton- og Enderburyøyene
+  history:
+  - name: Canton and Enderbury Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 CUB:
   name: Cuba
   nob: Cuba
+  history: []
+  nob_verify: false
 CUW:
   name: Curaçao
+  nob: Curaçao
+  history:
+  - name: Curaçao
+    history: []
+    nob_verify: false
+  nob_verify: false
 CXR:
   name: Christmas Island
+  nob: Christmas Island
+  history:
+  - name: Christmas Island
+    history: []
+    nob_verify: false
+  nob_verify: false
 CYM:
   name: Cayman Islands
   nob: Caymanøyene
+  history: []
+  nob_verify: false
 CYP:
   name: Cyprus
   nob: Kypros
+  history: []
+  nob_verify: false
 CZE:
   name: Czechia
   nob: Tsjekkia
+  history: []
+  nob_verify: false
 DDR:
   name: East Germany
   nob: Øst-Tyskland
+  history: []
+  nob_verify: false
 DEU:
   name: Germany
   nob: Tyskland
+  history: []
+  nob_verify: false
 DHY:
   name: Dahomey
+  nob: Dahomey
+  history:
+  - name: Dahomey
+    history: []
+    nob_verify: false
+  nob_verify: false
 DJI:
   name: Djibouti
+  nob: Djibouti
+  history:
+  - name: Djibouti
+    history: []
+    nob_verify: false
+  nob_verify: false
 DMA:
   name: Dominica
+  nob: Dominica
+  history:
+  - name: Dominica
+    history: []
+    nob_verify: false
+  nob_verify: false
 DNK:
   name: Denmark
   nob: Danmark
+  history: []
+  nob_verify: false
 DOM:
   name: Dominican Republic
+  nob: Den dominikanske republikk
+  history:
+  - name: Dominican Republic
+    history: []
+    nob_verify: false
+  nob_verify: false
 DZA:
   name: Algeria
   nob: Algeria
+  history: []
+  nob_verify: false
 ECU:
   name: Ecuador
+  nob: Ecuador
+  history:
+  - name: Ecuador
+    history: []
+    nob_verify: false
+  nob_verify: false
 EGY:
   name: Egypt
   nob: Egypt
+  history: []
+  nob_verify: false
 ERI:
   name: Eritrea
   nob: Eritrea
+  history: []
+  nob_verify: false
 ESH:
   name: Western Sahara
   nob: Vest-Sahara
+  history: []
+  nob_verify: false
 ESP:
   name: Spain
   nob: Spania
+  history: []
+  nob_verify: false
 EST:
   name: Estonia
   nob: Estland
+  history: []
+  nob_verify: false
 ETH:
   name: Ethiopia
   nob: Etiopia
+  history: []
+  nob_verify: false
 EUR:
   name: European Union
   nob: Den europeiske union
+  history: []
+  nob_verify: false
 FIN:
   name: Finland
   nob: Finland
+  history: []
+  nob_verify: false
 FJI:
   name: Fiji
   nob: Fiji
+  history: []
+  nob_verify: false
 FLK:
   name: Falkland Islands
   nob: Falklandsøyene
+  history: []
+  nob_verify: false
 FQ0:
   name: French Southern and Antarctic Lands
+  nob: Franske sørlige og antarktiske land
+  history:
+  - name: French Southern and Antarctic Lands
+    history: []
+    nob_verify: false
+  nob_verify: false
 FRA:
   name: France
   nob: Frankrike
+  history: []
+  nob_verify: false
 FRO:
   name: Faroes
+  nob: Færøyene
+  history:
+  - name: Faroes
+    history: []
+    nob_verify: false
+  nob_verify: false
 FSM:
   name: Micronesia
+  nob: Mikronesia
+  history:
+  - name: Micronesia
+    history: []
+    nob_verify: false
+  nob_verify: false
 FXX:
   name: Metropolitan France
+  nob: Metropolitan Frankrike
+  history:
+  - name: Metropolitan France
+    history: []
+    nob_verify: false
+  nob_verify: false
 GAB:
   name: Gabon
   nob: Gabon
+  history: []
+  nob_verify: false
 GBR:
   name: United Kingdom
   nob: Storbritania
+  history: []
+  nob_verify: false
 GEL:
   name: Gilbert and Ellice Islands
+  nob: Gilbert and Ellice Islands
+  history:
+  - name: Gilbert and Ellice Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 GEO:
   name: Georgia
   nob: Georgia
+  history: []
+  nob_verify: false
 GGY:
   name: Guernsey
+  nob: Guernsey
+  history:
+  - name: Guernsey
+    history: []
+    nob_verify: false
+  nob_verify: false
 GHA:
   name: Ghana
   nob: Ghana
+  history: []
+  nob_verify: false
 GIB:
   name: Gibraltar
   nob: Gibraltar
+  history: []
+  nob_verify: false
 GIN:
   name: Guinea
+  nob: Guinea
+  history:
+  - name: Guinea
+    history: []
+    nob_verify: false
+  nob_verify: false
 GLP:
   name: Guadeloupe
+  nob: Guadeloupe
+  history:
+  - name: Guadeloupe
+    history: []
+    nob_verify: false
+  nob_verify: false
 GMB:
   name: The Gambia
+  nob: Gambia
+  history:
+  - name: The Gambia
+    history: []
+    nob_verify: false
+  nob_verify: false
 GNB:
   name: Guinea-Bissau
+  nob: Guinea-Bissau
+  history:
+  - name: Guinea-Bissau
+    history: []
+    nob_verify: false
+  nob_verify: false
 GNQ:
   name: Equatorial Guinea
+  nob: Ekvatorial-Guinea
+  history:
+  - name: Equatorial Guinea
+    history: []
+    nob_verify: false
+  nob_verify: false
 GRC:
   name: Greece
   nob: Hellas
+  history: []
+  nob_verify: false
 GRD:
   name: Grenada
+  nob: Grenada
+  history:
+  - name: Grenada
+    history: []
+    nob_verify: false
+  nob_verify: false
 GRL:
   name: Greenland
   nob: Grønland
+  history: []
+  nob_verify: false
 GTM:
   name: Guatemala
+  nob: Guatemala
+  history:
+  - name: Guatemala
+    history: []
+    nob_verify: false
+  nob_verify: false
 GUF:
   name: French Guiana
+  nob: fransk Guyana
+  history:
+  - name: French Guiana
+    history: []
+    nob_verify: false
+  nob_verify: false
 GUM:
   name: Guam
+  nob: Guam
+  history:
+  - name: Guam
+    history: []
+    nob_verify: false
+  nob_verify: false
 GUY:
   name: Guyana
+  nob: Guyana
+  history:
+  - name: Guyana
+    history: []
+    nob_verify: false
+  nob_verify: false
 HKG:
   name: Hong Kong
+  nob: Hong Kong
+  history:
+  - name: Hong Kong
+    history: []
+    nob_verify: false
+  nob_verify: false
 HMD:
   name: Heard Island and McDonald Islands
+  nob: Heard Island og McDonald Islands
+  history:
+  - name: Heard Island and McDonald Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 HND:
   name: Honduras
+  nob: Honduras
+  history:
+  - name: Honduras
+    history: []
+    nob_verify: false
+  nob_verify: false
 HRV:
   name: Croatia
+  nob: Kroatia
+  history:
+  - name: Croatia
+    history: []
+    nob_verify: false
+  nob_verify: false
 HTI:
   name: Haiti
   nob: Haiti
+  history: []
+  nob_verify: false
 HUN:
   name: Hungary
   nob: Ungarn
+  history: []
+  nob_verify: false
 HVO:
   name: Upper Volta
-  nob: Republikken Øvre Volta
+  nob: Øvre Volta
+  history:
+  - name: Upper Volta
+    nob: Republikken Øvre Volta
+    history: []
+    nob_verify: false
+  nob_verify: false
 IDN:
   name: Indonesia
+  nob: Indonesia
+  history:
+  - name: Indonesia
+    history: []
+    nob_verify: false
+  nob_verify: false
 IMN:
   name: Isle of Man
+  nob: Isle of Man
+  history:
+  - name: Isle of Man
+    history: []
+    nob_verify: false
+  nob_verify: false
 IND:
   name: India
   nob: India
+  history: []
+  nob_verify: false
 IOT:
   name: British Indian Ocean Territory
+  nob: Britisk territorium i det indiske hav
+  history:
+  - name: British Indian Ocean Territory
+    history: []
+    nob_verify: false
+  nob_verify: false
 IRL:
   name: Ireland
   nob: Irland
+  history: []
+  nob_verify: false
 IRN:
   name: Iran
   nob: Iran
+  history: []
+  nob_verify: false
 IRQ:
   name: Iraq
   nob: Irak
+  history: []
+  nob_verify: false
 ISL:
   name: Iceland
   nob: Island
+  history: []
+  nob_verify: false
 ISR:
   name: Israel
   nob: Israel
+  history: []
+  nob_verify: false
 ITA:
   name: Italy
   nob: Italia
+  history: []
+  nob_verify: false
 JAM:
   name: Jamaica
+  nob: Jamaica
+  history:
+  - name: Jamaica
+    history: []
+    nob_verify: false
+  nob_verify: false
 JEY:
   name: Jersey
+  nob: Jersey
+  history:
+  - name: Jersey
+    history: []
+    nob_verify: false
+  nob_verify: false
 JOR:
   name: Jordan
   nob: Jordan
+  history: []
+  nob_verify: false
 JPN:
   name: Japan
   nob: Japan
+  history: []
+  nob_verify: false
 JTN:
   name: Johnston Island
+  nob: Johnston Island
+  history:
+  - name: Johnston Island
+    history: []
+    nob_verify: false
+  nob_verify: false
 KAZ:
   name: Kazakhstan
+  nob: Kasakhstan
+  history:
+  - name: Kazakhstan
+    history: []
+    nob_verify: false
+  nob_verify: false
 KEN:
   name: Kenya
+  nob: Kenya
+  history:
+  - name: Kenya
+    history: []
+    nob_verify: false
+  nob_verify: false
 KGZ:
   name: Kyrgyzstan
+  nob: Kirgisistan
+  history:
+  - name: Kyrgyzstan
+    history: []
+    nob_verify: false
+  nob_verify: false
 KHM:
   name: Cambodia
+  nob: Kambodsja
+  history:
+  - name: Cambodia
+    history: []
+    nob_verify: false
+  nob_verify: false
 KIR:
   name: Kiribati
+  nob: Kiribati
+  history:
+  - name: Kiribati
+    history: []
+    nob_verify: false
+  nob_verify: false
 KNA:
   name: Saint Kitts and Nevis
+  nob: Saint Kitts og Nevis
+  history:
+  - name: Saint Kitts and Nevis
+    history: []
+    nob_verify: false
+  nob_verify: false
 KOR:
   name: South Korea
+  nob: Sør-Korea
+  history:
+  - name: South Korea
+    history: []
+    nob_verify: false
+  nob_verify: false
 KWT:
   name: Kuwait
+  nob: Kuwait
+  history:
+  - name: Kuwait
+    history: []
+    nob_verify: false
+  nob_verify: false
 LAO:
   name: Laos
+  nob: Laos
+  history:
+  - name: Laos
+    history: []
+    nob_verify: false
+  nob_verify: false
 LBN:
   name: Lebanon
   nob: Libanon
+  history: []
+  nob_verify: false
 LBR:
   name: Liberia
+  nob: Liberia
+  history:
+  - name: Liberia
+    history: []
+    nob_verify: false
+  nob_verify: false
 LBY:
   name: Libya
+  nob: Libya
+  history:
+  - name: Libya
+    history: []
+    nob_verify: false
+  nob_verify: false
 LCA:
   name: Saint Lucia
+  nob: Saint Lucia
+  history:
+  - name: Saint Lucia
+    history: []
+    nob_verify: false
+  nob_verify: false
 LIE:
   name: Liechtenstein
+  nob: Liechtenstein
+  history:
+  - name: Liechtenstein
+    history: []
+    nob_verify: false
+  nob_verify: false
 LKA:
   name: Sri Lanka
+  nob: Sri Lanka
+  history:
+  - name: Sri Lanka
+    history: []
+    nob_verify: false
+  nob_verify: false
 LSO:
   name: Lesotho
+  nob: Lesotho
+  history:
+  - name: Lesotho
+    history: []
+    nob_verify: false
+  nob_verify: false
 LTU:
   name: Lithuania
   nob: Litauen
+  history: []
+  nob_verify: false
 LUX:
   name: Luxembourg
-  nob: Luxemburg
+  nob: Luxembourg
+  history:
+  - name: Luxembourg
+    nob: Luxemburg
+    history: []
+    nob_verify: false
+  nob_verify: false
 LVA:
   name: Latvia
   nob: Latvia
+  history: []
+  nob_verify: false
 MAC:
   name: Macau
+  nob: Macau
+  history:
+  - name: Macau
+    history: []
+    nob_verify: false
+  nob_verify: false
 MAF:
   name: Saint Martin
+  nob: Saint Martin
+  history:
+  - name: Saint Martin
+    history: []
+    nob_verify: false
+  nob_verify: false
 MAR:
   name: Morocco
+  nob: Marokko
+  history:
+  - name: Morocco
+    history: []
+    nob_verify: false
+  nob_verify: false
 MCO:
   name: Monaco
   nob: Monaco
+  history: []
+  nob_verify: false
 MDA:
   name: Moldova
+  nob: Moldova
+  history:
+  - name: Moldova
+    history: []
+    nob_verify: false
+  nob_verify: false
 MDG:
   name: Madagascar
+  nob: Madagaskar
+  history:
+  - name: Madagascar
+    history: []
+    nob_verify: false
+  nob_verify: false
 MDV:
   name: Maldives
+  nob: Maldivene
+  history:
+  - name: Maldives
+    history: []
+    nob_verify: false
+  nob_verify: false
 MEX:
   name: Mexico
+  nob: Mexico
+  history:
+  - name: Mexico
+    history: []
+    nob_verify: false
+  nob_verify: false
 MHL:
   name: Marshall Islands
+  nob: Marshalløyene
+  history:
+  - name: Marshall Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 MID:
   name: Midway Islands
+  nob: Midway Islands
+  history:
+  - name: Midway Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 MKD:
   name: North Macedonia
+  nob: Nord-Makedonia
+  history:
+  - name: North Macedonia
+    history: []
+    nob_verify: false
+  nob_verify: false
 MLI:
   name: Mali
+  nob: Mali
+  history:
+  - name: Mali
+    history: []
+    nob_verify: false
+  nob_verify: false
 MLT:
   name: Malta
   nob: Malta
+  history: []
+  nob_verify: false
 MMR:
   name: Myanmar/Burma
+  nob: Myanmar/Burma
+  history:
+  - name: Myanmar/Burma
+    history: []
+    nob_verify: false
+  nob_verify: false
 MNE:
   name: Montenegro
+  nob: Montenegro
+  history:
+  - name: Montenegro
+    history: []
+    nob_verify: false
+  nob_verify: false
 MNG:
   name: Mongolia
+  nob: Mongolia
+  history:
+  - name: Mongolia
+    history: []
+    nob_verify: false
+  nob_verify: false
 MNP:
   name: Northern Mariana Islands
+  nob: Nord-Marianene
+  history:
+  - name: Northern Mariana Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 MOZ:
   name: Mozambique
+  nob: Mosambik
+  history:
+  - name: Mozambique
+    history: []
+    nob_verify: false
+  nob_verify: false
 MRT:
   name: Mauritania
+  nob: Mauritania
+  history:
+  - name: Mauritania
+    history: []
+    nob_verify: false
+  nob_verify: false
 MSR:
   name: Montserrat
+  nob: Montserrat
+  history:
+  - name: Montserrat
+    history: []
+    nob_verify: false
+  nob_verify: false
 MTQ:
   name: Martinique
+  nob: Martinique
+  history:
+  - name: Martinique
+    history: []
+    nob_verify: false
+  nob_verify: false
 MUS:
   name: Mauritius
+  nob: Mauritius
+  history:
+  - name: Mauritius
+    history: []
+    nob_verify: false
+  nob_verify: false
 MWI:
   name: Malawi
+  nob: Malawi
+  history:
+  - name: Malawi
+    history: []
+    nob_verify: false
+  nob_verify: false
 MYS:
   name: Malaysia
+  nob: Malaysia
+  history:
+  - name: Malaysia
+    history: []
+    nob_verify: false
+  nob_verify: false
 MYT:
   name: Mayotte
+  nob: Mayotte
+  history:
+  - name: Mayotte
+    history: []
+    nob_verify: false
+  nob_verify: false
 NAM:
   name: Namibia
   nob: Namibia
+  history: []
+  nob_verify: false
 NCL:
   name: New Caledonia
+  nob: Ny Caledonia
+  history:
+  - name: New Caledonia
+    history: []
+    nob_verify: false
+  nob_verify: false
 NER:
   name: Niger
+  nob: Niger
+  history:
+  - name: Niger
+    history: []
+    nob_verify: false
+  nob_verify: false
 NFK:
   name: Norfolk Island
+  nob: Norfolkøya
+  history:
+  - name: Norfolk Island
+    history: []
+    nob_verify: false
+  nob_verify: false
 NGA:
   name: Nigeria
   nob: Nigeria
+  history: []
+  nob_verify: false
 NHB:
   name: New Hebrides
+  nob: Nye Hebridene
+  history:
+  - name: New Hebrides
+    history: []
+    nob_verify: false
+  nob_verify: false
 NIC:
   name: Nicaragua
+  nob: Nicaragua
+  history:
+  - name: Nicaragua
+    history: []
+    nob_verify: false
+  nob_verify: false
 NIU:
   name: Niue
+  nob: Niue
+  history:
+  - name: Niue
+    history: []
+    nob_verify: false
+  nob_verify: false
 NLD:
   name: Netherlands
   nob: Nederland
+  history: []
+  nob_verify: false
 NOR:
   name: Norway
-  nno: Noreg
   nob: Norge
+  nno: Noreg
+  history: []
+  nob_verify: false
 NPL:
   name: Nepal
+  nob: Nepal
+  history:
+  - name: Nepal
+    history: []
+    nob_verify: false
+  nob_verify: false
 NRU:
   name: Nauru
+  nob: Nauru
+  history:
+  - name: Nauru
+    history: []
+    nob_verify: false
+  nob_verify: false
 NTZ:
   name: Neutral Zone
+  nob: Neutral Zone
+  history:
+  - name: Neutral Zone
+    history: []
+    nob_verify: false
+  nob_verify: false
 NZL:
   name: New Zealand
+  nob: New Zealand
+  history:
+  - name: New Zealand
+    history: []
+    nob_verify: false
+  nob_verify: false
 OMN:
   name: Oman
+  nob: Oman
+  history:
+  - name: Oman
+    history: []
+    nob_verify: false
+  nob_verify: false
 PAK:
   name: Pakistan
   nob: Pakistan
+  history: []
+  nob_verify: false
 PAN:
   name: Panama
   nob: Panama
+  history: []
+  nob_verify: false
 PCI:
   name: Trust Territory of the Pacific Islands
+  nob: Trust Territory of the Pacific Islands
+  history:
+  - name: Trust Territory of the Pacific Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 PCN:
   name: Pitcairn Islands
+  nob: Pitcairnøyene
+  history:
+  - name: Pitcairn Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 PCZ:
   name: Panama Canal Zone
+  nob: Panamakanalsonen
+  history:
+  - name: Panama Canal Zone
+    history: []
+    nob_verify: false
+  nob_verify: false
 PER:
   name: Peru
   nob: Peru
+  history: []
+  nob_verify: false
 PHL:
   name: Philippines
+  nob: Filippinene
+  history:
+  - name: Philippines
+    history: []
+    nob_verify: false
+  nob_verify: false
 PLW:
   name: Palau
+  nob: Palau
+  history:
+  - name: Palau
+    history: []
+    nob_verify: false
+  nob_verify: false
 PNG:
   name: Papua New Guinea
+  nob: Papua Ny-Guinea
+  history:
+  - name: Papua New Guinea
+    history: []
+    nob_verify: false
+  nob_verify: false
 POL:
   name: Poland
   nob: Polen
+  history: []
+  nob_verify: false
 PRI:
   name: Puerto Rico
+  nob: Puerto Rico
+  history:
+  - name: Puerto Rico
+    history: []
+    nob_verify: false
+  nob_verify: false
 PRK:
   name: North Korea
   nob: Nord-Korea
+  history: []
+  nob_verify: false
 PRT:
   name: Portugal
   nob: Portugal
+  history: []
+  nob_verify: false
 PRY:
   name: Paraguay
+  nob: Paraguay
+  history:
+  - name: Paraguay
+    history: []
+    nob_verify: false
+  nob_verify: false
 PSE:
   name: Palestine
   nob: Palestina
+  history: []
+  nob_verify: false
 PUS:
   name: US Miscellaneous Pacific Islands
+  nob: USAs diverse stillehavsøyer
+  history:
+  - name: US Miscellaneous Pacific Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 PYF:
   name: French Polynesia
+  nob: Fransk Polynesia
+  history:
+  - name: French Polynesia
+    history: []
+    nob_verify: false
+  nob_verify: false
 QAT:
   name: Qatar
+  nob: Qatar
+  history:
+  - name: Qatar
+    history: []
+    nob_verify: false
+  nob_verify: false
 REU:
   name: Réunion
+  nob: Gjenforening
+  history:
+  - name: Réunion
+    history: []
+    nob_verify: false
+  nob_verify: false
 RHO:
   name: Southern Rhodesia
+  nob: Sør-Rhodesia
+  history:
+  - name: Southern Rhodesia
+    history: []
+    nob_verify: false
+  nob_verify: false
 ROU:
   name: Romania
   nob: Romania
+  history: []
+  nob_verify: false
 RUS:
   name: Russia
   nob: Russland
+  history: []
+  nob_verify: false
 RWA:
   name: Rwanda
+  nob: Rwanda
+  history:
+  - name: Rwanda
+    history: []
+    nob_verify: false
+  nob_verify: false
 SAU:
   name: Saudi Arabia
+  nob: Saudi-Arabia
+  history:
+  - name: Saudi Arabia
+    history: []
+    nob_verify: false
+  nob_verify: false
 SCG:
   name: Serbia and Montenegro
+  nob: Serbia og Montenegro
+  history:
+  - name: Serbia and Montenegro
+    history: []
+    nob_verify: false
+  nob_verify: false
 SDN:
   name: Sudan
   nob: Sudan
+  history: []
+  nob_verify: false
 SEN:
   name: Senegal
+  nob: Senegal
+  history:
+  - name: Senegal
+    history: []
+    nob_verify: false
+  nob_verify: false
 SGP:
   name: Singapore
+  nob: Singapore
+  history:
+  - name: Singapore
+    history: []
+    nob_verify: false
+  nob_verify: false
 SGS:
   name: South Georgia and the South Sandwich Islands
+  nob: Sør-Georgia og Sør-Sandwichøyene
+  history:
+  - name: South Georgia and the South Sandwich Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 SHN:
   name: Saint Helena, Ascension and Tristan da Cunha
+  nob: Saint Helena, Ascension og Tristan da Cunha
+  history:
+  - name: Saint Helena, Ascension and Tristan da Cunha
+    history: []
+    nob_verify: false
+  nob_verify: false
 SJM:
   name: Svalbard and Jan Mayen
   nob: Svalbard og Jan Mayen
+  history: []
+  nob_verify: false
 SKM:
   name: Sikkim
+  nob: Sikkim
+  history:
+  - name: Sikkim
+    history: []
+    nob_verify: false
+  nob_verify: false
 SLB:
   name: Solomon Islands
+  nob: Solomon øyene
+  history:
+  - name: Solomon Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 SLE:
   name: Sierra Leone
+  nob: Sierra Leone
+  history:
+  - name: Sierra Leone
+    history: []
+    nob_verify: false
+  nob_verify: false
 SLV:
   name: El Salvador
+  nob: Frelseren
+  history:
+  - name: El Salvador
+    history: []
+    nob_verify: false
+  nob_verify: false
 SMR:
   name: San Marino
   nob: San Marino
+  history: []
+  nob_verify: false
 SOM:
   name: Somalia
   nob: Somalia
+  history: []
+  nob_verify: false
 SPM:
   name: Saint Pierre and Miquelon
+  nob: St. Peters og Miquelon
+  history:
+  - name: Saint Pierre and Miquelon
+    history: []
+    nob_verify: false
+  nob_verify: false
 SRB:
   name: Serbia
   nob: Serbia
+  history: []
+  nob_verify: false
 SSD:
   name: South Sudan
   nob: Sør-Sudan
+  history: []
+  nob_verify: false
 STP:
   name: São Tomé and Príncipe
+  nob: São Tomé og Príncipe
+  history:
+  - name: São Tomé and Príncipe
+    history: []
+    nob_verify: false
+  nob_verify: false
 SUN:
   name: Soviet Union
   nob: Sovjetunionen
+  history: []
+  nob_verify: false
 SUR:
   name: Suriname
+  nob: Surinam
+  history:
+  - name: Suriname
+    history: []
+    nob_verify: false
+  nob_verify: false
 SVK:
   name: Slovakia
   nob: Slovakia
+  history: []
+  nob_verify: false
 SVN:
   name: Slovenia
   nob: Slovenia
+  history: []
+  nob_verify: false
 SWE:
   name: Sweden
   nob: Sverige
+  history: []
+  nob_verify: false
 SWZ:
   name: Eswatini
+  nob: Swatini
+  history:
+  - name: Eswatini
+    history: []
+    nob_verify: false
+  nob_verify: false
 SXM:
   name: Sint Maarten
+  nob: Sint Maarten
+  history:
+  - name: Sint Maarten
+    history: []
+    nob_verify: false
+  nob_verify: false
 SYC:
   name: Seychelles
+  nob: Seychellene
+  history:
+  - name: Seychelles
+    history: []
+    nob_verify: false
+  nob_verify: false
 SYR:
   name: Syria
   nob: Syria
+  history: []
+  nob_verify: false
 TCA:
   name: Turks and Caicos Islands
+  nob: Turks- og Caicosøyene
+  history:
+  - name: Turks and Caicos Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 TCD:
   name: Chad
+  nob: Tsjad
+  history:
+  - name: Chad
+    history: []
+    nob_verify: false
+  nob_verify: false
 TGO:
   name: Togo
+  nob: Togo
+  history:
+  - name: Togo
+    history: []
+    nob_verify: false
+  nob_verify: false
 THA:
   name: Thailand
+  nob: Thailand
+  history:
+  - name: Thailand
+    history: []
+    nob_verify: false
+  nob_verify: false
 TJK:
   name: Tajikistan
+  nob: Tadsjikistan
+  history:
+  - name: Tajikistan
+    history: []
+    nob_verify: false
+  nob_verify: false
 TKL:
   name: Tokelau
+  nob: Tokelau
+  history:
+  - name: Tokelau
+    history: []
+    nob_verify: false
+  nob_verify: false
 TKM:
   name: Turkmenistan
+  nob: Turkmenistan
+  history:
+  - name: Turkmenistan
+    history: []
+    nob_verify: false
+  nob_verify: false
 TLS:
   name: Timor-Leste
+  nob: Øst-Timor
+  history:
+  - name: Timor-Leste
+    history: []
+    nob_verify: false
+  nob_verify: false
 TMP:
   name: East Timor
+  nob: Øst-Timor
+  history:
+  - name: East Timor
+    history: []
+    nob_verify: false
+  nob_verify: false
 TON:
   name: Tonga
+  nob: Tonga
+  history:
+  - name: Tonga
+    history: []
+    nob_verify: false
+  nob_verify: false
 TTO:
   name: Trinidad and Tobago
+  nob: Trinidad og Tobago
+  history:
+  - name: Trinidad and Tobago
+    history: []
+    nob_verify: false
+  nob_verify: false
 TUN:
   name: Tunisia
+  nob: Tunisia
+  history:
+  - name: Tunisia
+    history: []
+    nob_verify: false
+  nob_verify: false
 TUR:
   name: Türkiye
   nob: Tyrkia
+  history: []
+  nob_verify: true
 TUV:
   name: Tuvalu
+  nob: Tuvalu
+  history:
+  - name: Tuvalu
+    history: []
+    nob_verify: false
+  nob_verify: false
 TWN:
   name: Taiwan
+  nob: Taiwan
+  history:
+  - name: Taiwan
+    history: []
+    nob_verify: false
+  nob_verify: false
 TZA:
   name: Tanzania
+  nob: Tanzania
+  history:
+  - name: Tanzania
+    history: []
+    nob_verify: false
+  nob_verify: false
 UGA:
   name: Uganda
+  nob: Uganda
+  history:
+  - name: Uganda
+    history: []
+    nob_verify: false
+  nob_verify: false
 UKR:
   name: Ukraine
   nob: Ukraina
+  history: []
+  nob_verify: false
 UMI:
   name: United States Minor Outlying Islands
+  nob: United States Minor Outlying Islands
+  history:
+  - name: United States Minor Outlying Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 URY:
   name: Uruguay
+  nob: Uruguay
+  history:
+  - name: Uruguay
+    history: []
+    nob_verify: false
+  nob_verify: false
 USA:
   name: United States
+  nob: USA
+  history:
+  - name: United States
+    history: []
+    nob_verify: false
+  nob_verify: false
 UZB:
   name: Uzbekistan
+  nob: Usbekistan
+  history:
+  - name: Uzbekistan
+    history: []
+    nob_verify: false
+  nob_verify: false
 VAT:
   name: Vatican City State
   nob: Vatikanstaten
+  history: []
+  nob_verify: false
 VCT:
   name: Saint Vincent and the Grenadines
+  nob: Saint Vincent og Grenadinene
+  history:
+  - name: Saint Vincent and the Grenadines
+    history: []
+    nob_verify: false
+  nob_verify: false
 VDR:
   name: Democratic Republic of Vietnam
+  nob: Den demokratiske republikken Vietnam
+  history:
+  - name: Democratic Republic of Vietnam
+    history: []
+    nob_verify: false
+  nob_verify: false
 VEN:
   name: Venezuela
   nob: Venezuela
+  history: []
+  nob_verify: false
 VGB:
   name: British Virgin Islands
+  nob: De britiske jomfruøyene
+  history:
+  - name: British Virgin Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 VIR:
   name: US Virgin Islands
+  nob: De amerikanske jomfruøyene
+  history:
+  - name: US Virgin Islands
+    history: []
+    nob_verify: false
+  nob_verify: false
 VNM:
   name: Vietnam
   nob: Vietnam
+  history: []
+  nob_verify: false
 VUT:
   name: Vanuatu
+  nob: Vanuatu
+  history:
+  - name: Vanuatu
+    history: []
+    nob_verify: false
+  nob_verify: false
 WAK:
   name: Wake Island
+  nob: Wake Island
+  history:
+  - name: Wake Island
+    history: []
+    nob_verify: false
+  nob_verify: false
 WLF:
   name: Wallis and Futuna
+  nob: Wallis og Futuna
+  history:
+  - name: Wallis and Futuna
+    history: []
+    nob_verify: false
+  nob_verify: false
 WSM:
   name: Samoa
+  nob: Samoa
+  history:
+  - name: Samoa
+    history: []
+    nob_verify: false
+  nob_verify: false
 YEM:
   name: Yemen
+  nob: Jemen
+  history:
+  - name: Yemen
+    history: []
+    nob_verify: false
+  nob_verify: false
 YMD:
   name: North Yemen
+  nob: Nord-Jemen
+  history:
+  - name: North Yemen
+    history: []
+    nob_verify: false
+  nob_verify: false
 YUG:
   name: Yugoslavia
+  nob: Jugoslavia
+  history:
+  - name: Yugoslavia
+    history: []
+    nob_verify: false
+  nob_verify: false
 ZAF:
   name: South Africa
   nob: Sør-Afrika
+  history: []
+  nob_verify: false
 ZMB:
   name: Zambia
+  nob: Zambia
+  history:
+  - name: Zambia
+    history: []
+    nob_verify: false
+  nob_verify: false
 ZR0:
   name: Zaire
+  nob: Zaire
+  history:
+  - name: Zaire
+    history: []
+    nob_verify: false
+  nob_verify: false
 ZWE:
   name: Zimbabwe
+  nob: Zimbabwe
+  history:
+  - name: Zimbabwe
+    history: []
+    nob_verify: false
+  nob_verify: false

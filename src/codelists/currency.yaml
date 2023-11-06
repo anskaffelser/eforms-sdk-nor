@@ -1,576 +1,1160 @@
 ADF:
   name: Andorran francs
+  history: []
+  nob_verify: false
 ADP:
   name: Andorran peseta
+  history: []
+  nob_verify: false
 AED:
   name: UAE dirham
+  history: []
+  nob_verify: false
 AFA:
   name: Afghani
+  history: []
+  nob_verify: false
 AFN:
   name: Afghani
+  history: []
+  nob_verify: false
 ALK:
   name: Lek
+  history: []
+  nob_verify: false
 ALL:
   name: Lek
+  history: []
+  nob_verify: false
 AMD:
   name: Dram
+  history: []
+  nob_verify: false
 ANG:
   name: Netherlands Antillean guilder
+  history: []
+  nob_verify: false
 AOA:
   name: Kwanza
+  history: []
+  nob_verify: false
 AON:
   name: New Angolan kwanza
+  history: []
+  nob_verify: false
 AOR:
   name: Angolan kwanza readjustado
+  history: []
+  nob_verify: false
 ARA:
   name: Argentine austral
+  history: []
+  nob_verify: false
 ARL:
   name: Argentine peso ley
+  history: []
+  nob_verify: false
 ARM:
   name: Argentine peso moneda nacional
+  history: []
+  nob_verify: false
 ARP:
   name: Argentine peso argentino
+  history: []
+  nob_verify: false
 ARS:
   name: Argentine peso
+  history: []
+  nob_verify: false
 ATS:
   name: Austrian schilling
+  history: []
+  nob_verify: false
 AUD:
   name: Australian dollar
+  history: []
+  nob_verify: false
 AWG:
   name: Aruban guilder
+  history: []
+  nob_verify: false
 AZM:
   name: Azerbaijani manat
+  history: []
+  nob_verify: false
 AZN:
   name: Azerbaijan manat
+  history: []
+  nob_verify: false
 BAM:
   name: Convertible mark
+  history: []
+  nob_verify: false
 BBD:
   name: Barbados dollar
+  history: []
+  nob_verify: false
 BDT:
   name: Taka
+  history: []
+  nob_verify: false
 BEF:
   name: Belgian franc
+  history: []
+  nob_verify: false
 BGJ:
   name: Lev
+  history: []
+  nob_verify: false
 BGK:
   name: Lev
+  history: []
+  nob_verify: false
 BGL:
   name: Lev
+  history: []
+  nob_verify: false
 BGN:
   name: Lev
+  history: []
+  nob_verify: false
 BHD:
   name: Bahraini dinar
+  history: []
+  nob_verify: false
 BIF:
   name: Burundi franc
+  history: []
+  nob_verify: false
 BMD:
   name: Bermuda dollar
+  history: []
+  nob_verify: false
 BND:
   name: Brunei dollar
+  history: []
+  nob_verify: false
 BOB:
   name: Boliviano
+  history: []
+  nob_verify: false
 BOP:
   name: Bolivian peso
+  history: []
+  nob_verify: false
 BOV:
   name: Mvdol
+  history: []
+  nob_verify: false
 BRB:
   name: Cruzeiro novo
+  history: []
+  nob_verify: false
 BRC:
   name: Cruzado
+  history: []
+  nob_verify: false
 BRE:
   name: Cruzeiro
+  history: []
+  nob_verify: false
 BRL:
   name: Real
+  history: []
+  nob_verify: false
 BRN:
   name: Cruzado novo
+  history: []
+  nob_verify: false
 BRR:
   name: Cruzeiro real
+  history: []
+  nob_verify: false
 BRZ:
   name: Cruzeiro
+  history: []
+  nob_verify: false
 BSD:
   name: Bahamian dollar
+  history: []
+  nob_verify: false
 BTN:
   name: Ngultrum
+  history: []
+  nob_verify: false
 BWP:
   name: Pula
+  history: []
+  nob_verify: false
 BYN:
   name: Belarusian rouble
+  history: []
+  nob_verify: false
 BYR:
   name: Belarusian rouble
+  history: []
+  nob_verify: false
 BZD:
   name: Belize dollar
+  history: []
+  nob_verify: false
 CAD:
   name: Canadian dollar
+  history: []
+  nob_verify: false
 CDF:
   name: Congolese franc
+  history: []
+  nob_verify: false
 CHE:
   name: WIR Euro
+  history: []
+  nob_verify: false
 CHF:
   name: Swiss franc
+  history: []
+  nob_verify: false
 CHW:
   name: WIR Franc
+  history: []
+  nob_verify: false
 CLE:
   name: Chilean escudo
+  history: []
+  nob_verify: false
 CLF:
   name: Unidad de Fomento
+  history: []
+  nob_verify: false
 CLP:
   name: Chilean peso
+  history: []
+  nob_verify: false
 CNY:
   name: Renminbi-yuan
+  history: []
+  nob_verify: false
 COP:
   name: Colombian peso
+  history: []
+  nob_verify: false
 COU:
   name: Unidad de Valor Real
+  history: []
+  nob_verify: false
 CRC:
   name: Costa Rican colon
+  history: []
+  nob_verify: false
 CSJ:
   name: Czechoslovak koruna
+  history: []
+  nob_verify: false
 CSK:
   name: Czechoslovak koruna
+  history: []
+  nob_verify: false
 CUC:
   name: Convertible peso
+  history: []
+  nob_verify: false
 CUP:
   name: Cuban peso
+  history: []
+  nob_verify: false
 CVE:
   name: Cabo Verde escudo
+  history: []
+  nob_verify: false
 CYP:
   name: Cypriot pound
+  history: []
+  nob_verify: false
 CZK:
   name: Czech koruna
+  history: []
+  nob_verify: false
 DDM:
   name: East-German Mark
+  history: []
+  nob_verify: false
 DEM:
   name: German mark
+  history: []
+  nob_verify: false
 DJF:
   name: Djibouti franc
+  history: []
+  nob_verify: false
 DKK:
   name: Danish krone
+  history: []
+  nob_verify: false
 DOP:
   name: Dominican peso
+  history: []
+  nob_verify: false
 DZD:
   name: Algerian dinar
+  history: []
+  nob_verify: false
 ECS:
   name: Ecuadorian sucre
+  history: []
+  nob_verify: false
 EEK:
   name: Estonian kroon
+  history: []
+  nob_verify: false
 EGP:
   name: Egyptian pound
+  history: []
+  nob_verify: false
 ERN:
   name: Nakfa
+  history: []
+  nob_verify: false
 ESP:
   name: Peseta
+  history: []
+  nob_verify: false
 ETB:
   name: Birr
+  history: []
+  nob_verify: false
 EUR:
   name: Euro
+  history: []
+  nob_verify: false
 FIM:
   name: Finnish markka
+  history: []
+  nob_verify: false
 FJD:
   name: Fiji dollar
+  history: []
+  nob_verify: false
 FKP:
   name: Falkland Islands pound
+  history: []
+  nob_verify: false
 FRF:
   name: French franc
+  history: []
+  nob_verify: false
 GBP:
   name: Pound sterling
+  history: []
+  nob_verify: false
 GEL:
   name: Lari
+  history: []
+  nob_verify: false
 GHC:
   name: Cedi
+  history: []
+  nob_verify: false
 GHS:
   name: Ghana cedi
+  history: []
+  nob_verify: false
 GIP:
   name: Gibraltar pound
+  history: []
+  nob_verify: false
 GMD:
   name: Dalasi
+  history: []
+  nob_verify: false
 GNE:
   name: Syli
+  history: []
+  nob_verify: false
 GNF:
   name: Guinean franc
+  history: []
+  nob_verify: false
 GQE:
   name: Ekwele
+  history: []
+  nob_verify: false
 GRD:
   name: Drachma
+  history: []
+  nob_verify: false
 GTQ:
   name: Quetzal
+  history: []
+  nob_verify: false
 GWP:
   name: Guinea-Bissau peso
+  history: []
+  nob_verify: false
 GYD:
   name: Guyana dollar
+  history: []
+  nob_verify: false
 HKD:
   name: Hong Kong dollar
+  history: []
+  nob_verify: false
 HNL:
   name: Lempira
+  history: []
+  nob_verify: false
 HRK:
   name: Kuna
+  history: []
+  nob_verify: false
 HTG:
   name: Gourde
+  history: []
+  nob_verify: false
 HUF:
   name: Forint
+  history: []
+  nob_verify: false
 IDR:
   name: Rupiah
+  history: []
+  nob_verify: false
 IEP:
   name: Irish pound
+  history: []
+  nob_verify: false
 ILP:
   name: Israeli lira
+  history: []
+  nob_verify: false
 ILR:
   name: Shekel
+  history: []
+  nob_verify: false
 ILS:
   name: Shekel
+  history: []
+  nob_verify: false
 INR:
   name: Indian rupee
+  history: []
+  nob_verify: false
 IQD:
   name: Iraqi dinar
+  history: []
+  nob_verify: false
 IRR:
   name: Iranian rial
+  history: []
+  nob_verify: false
 ISJ:
   name: Icelandic old króna
+  history: []
+  nob_verify: false
 ISK:
   name: Iceland króna
+  history: []
+  nob_verify: false
 ITL:
   name: Italian lira
+  history: []
+  nob_verify: false
 JMD:
   name: Jamaica dollar
+  history: []
+  nob_verify: false
 JOD:
   name: Jordanian dinar
+  history: []
+  nob_verify: false
 JPY:
   name: Yen
+  history: []
+  nob_verify: false
 KES:
   name: Kenyan shilling
+  history: []
+  nob_verify: false
 KGS:
   name: Som
+  history: []
+  nob_verify: false
 KHR:
   name: Riel
+  history: []
+  nob_verify: false
 KMF:
   name: Comorian franc
+  history: []
+  nob_verify: false
 KPW:
   name: North Korean won
+  history: []
+  nob_verify: false
 KRW:
   name: South Korean won
+  history: []
+  nob_verify: false
 KWD:
   name: Kuwaiti dinar
+  history: []
+  nob_verify: false
 KYD:
   name: Cayman Islands dollar
+  history: []
+  nob_verify: false
 KZT:
   name: Tenge
+  history: []
+  nob_verify: false
 LAJ:
   name: Kip
+  history: []
+  nob_verify: false
 LAK:
   name: Kip
+  history: []
+  nob_verify: false
 LBP:
   name: Lebanese pound
+  history: []
+  nob_verify: false
 LKR:
   name: Sri Lankan rupee
+  history: []
+  nob_verify: false
 LRD:
   name: Liberian dollar
+  history: []
+  nob_verify: false
 LSL:
   name: Loti
+  history: []
+  nob_verify: false
 LTL:
   name: Litas
+  history: []
+  nob_verify: false
 LUF:
   name: Luxembourg franc
+  history: []
+  nob_verify: false
 LVL:
   name: Lats
+  history: []
+  nob_verify: false
 LYD:
   name: Libyan dinar
+  history: []
+  nob_verify: false
 MAD:
   name: Moroccan dirham
+  history: []
+  nob_verify: false
 MCF:
   name: Monegasque francs
+  history: []
+  nob_verify: false
 MDL:
   name: Moldovan leu
+  history: []
+  nob_verify: false
 MGA:
   name: Ariary
+  history: []
+  nob_verify: false
 MGF:
   name: Malagasy franc
+  history: []
+  nob_verify: false
 MKD:
   name: Denar
+  history: []
+  nob_verify: false
 MKN:
   name: Denars A/93
+  history: []
+  nob_verify: false
 MLF:
   name: Mali franc
+  history: []
+  nob_verify: false
 MMK:
   name: Kyat
+  history: []
+  nob_verify: false
 MNT:
   name: Tugrik
+  history: []
+  nob_verify: false
 MOP:
   name: Pataca
+  history: []
+  nob_verify: false
 MRO:
   name: Ouguiya
+  history: []
+  nob_verify: false
 MRU:
   name: Ouguiya
+  history: []
+  nob_verify: false
 MTL:
   name: Maltese lira
+  history: []
+  nob_verify: false
 MTP:
   name: Maltese pound
+  history: []
+  nob_verify: false
 MUR:
   name: Mauritian rupee
+  history: []
+  nob_verify: false
 MVQ:
   name: Maldive rupee
+  history: []
+  nob_verify: false
 MVR:
   name: Rufiyaa
+  history: []
+  nob_verify: false
 MWK:
   name: Malawian kwacha
+  history: []
+  nob_verify: false
 MXN:
   name: Mexican peso
+  history: []
+  nob_verify: false
 MXP:
   name: Mexican peso
+  history: []
+  nob_verify: false
 MXV:
   name: Mexican Unidad de Inversion
+  history: []
+  nob_verify: false
 MYR:
   name: Ringgit
+  history: []
+  nob_verify: false
 MZM:
   name: Metical
+  history: []
+  nob_verify: false
 MZN:
   name: Metical
+  history: []
+  nob_verify: false
 NAD:
   name: Namibian dollar
+  history: []
+  nob_verify: false
 NFD:
   name: Newfoundland dollar
+  history: []
+  nob_verify: false
 NGN:
   name: Naira
+  history: []
+  nob_verify: false
 NIO:
   name: Córdoba oro
+  history: []
+  nob_verify: false
 NLG:
   name: Netherlands guilder
+  history: []
+  nob_verify: false
 NOK:
   name: Norwegian krone
+  history: []
+  nob_verify: false
 NPR:
   name: Nepalese rupee
+  history: []
+  nob_verify: false
 NZD:
   name: New Zealand dollar
+  history: []
+  nob_verify: false
 OMR:
   name: Omani rial
+  history: []
+  nob_verify: false
 PAB:
   name: Balboa
+  history: []
+  nob_verify: false
 PEH:
   name: Sol
+  history: []
+  nob_verify: false
 PEI:
   name: Inti
+  history: []
+  nob_verify: false
 PEN:
   name: Sol
+  history: []
+  nob_verify: false
 PGK:
   name: Kina
+  history: []
+  nob_verify: false
 PHP:
   name: Philippine peso
+  history: []
+  nob_verify: false
 PKR:
   name: Pakistani rupee
+  history: []
+  nob_verify: false
 PLN:
   name: Zloty
+  history: []
+  nob_verify: false
 PLZ:
   name: Zloty
+  history: []
+  nob_verify: false
 PTE:
   name: Portuguese escudo
+  history: []
+  nob_verify: false
 PYG:
   name: Guaraní
+  history: []
+  nob_verify: false
 QAR:
   name: Qatari rial
+  history: []
+  nob_verify: false
 ROL:
   name: Romanian leu
+  history: []
+  nob_verify: false
 RON:
   name: Romanian leu
+  history: []
+  nob_verify: false
 RSD:
   name: Serbian dinar
+  history: []
+  nob_verify: false
 RUB:
   name: Russian rouble
+  history: []
+  nob_verify: false
 RUR:
   name: Russian rouble
+  history: []
+  nob_verify: false
 RWF:
   name: Rwandese franc
+  history: []
+  nob_verify: false
 SAR:
   name: Saudi riyal
+  history: []
+  nob_verify: false
 SBD:
   name: Solomon Islands dollar
+  history: []
+  nob_verify: false
 SCR:
   name: Seychelles rupee
+  history: []
+  nob_verify: false
 SDD:
   name: Sudanese dinar
+  history: []
+  nob_verify: false
 SDG:
   name: Sudanese pound
+  history: []
+  nob_verify: false
 SEK:
   name: Swedish krona
+  history: []
+  nob_verify: false
 SGD:
   name: Singapore dollar
+  history: []
+  nob_verify: false
 SHP:
   name: Saint Helena pound
+  history: []
+  nob_verify: false
 SIT:
   name: Slovenian tolar
+  history: []
+  nob_verify: false
 SKK:
   name: Slovak koruna
+  history: []
+  nob_verify: false
 SLL:
   name: Leone
+  history: []
+  nob_verify: false
 SML:
   name: San Marinese lira
+  history: []
+  nob_verify: false
 SOS:
   name: Somali shilling
+  history: []
+  nob_verify: false
 SQS:
   name: Somaliland shilling
+  history: []
+  nob_verify: false
 SRD:
   name: Surinamese dollar
+  history: []
+  nob_verify: false
 SRG:
   name: Suriname guilder
+  history: []
+  nob_verify: false
 SSP:
   name: South Sudanese pound
+  history: []
+  nob_verify: false
 STD:
   name: Dobra
+  history: []
+  nob_verify: false
 STN:
   name: Dobra
+  history: []
+  nob_verify: false
 SUR:
   name: Soviet Union rouble
+  history: []
+  nob_verify: false
 SVC:
   name: Salvadorian colón
+  history: []
+  nob_verify: false
 SYP:
   name: Syrian pound
+  history: []
+  nob_verify: false
 SZL:
   name: Lilangeni
+  history: []
+  nob_verify: false
 THB:
   name: Baht
+  history: []
+  nob_verify: false
 TJR:
   name: Tajikistani rouble
+  history: []
+  nob_verify: false
 TJS:
   name: Somoni
+  history: []
+  nob_verify: false
 TMM:
   name: Turkmen manat
+  history: []
+  nob_verify: false
 TMT:
   name: Turkmen manat
+  history: []
+  nob_verify: false
 TND:
   name: Tunisian dinar
+  history: []
+  nob_verify: false
 TOP:
   name: Pa’anga
+  history: []
+  nob_verify: false
 TPE:
   name: Portuguese Timorese escudo
+  history: []
+  nob_verify: false
 TRL:
   name: Turkish lira
+  history: []
+  nob_verify: false
 TRY:
   name: Turkish lira
+  history: []
+  nob_verify: false
 TTD:
   name: Trinidad and Tobago dollar
+  history: []
+  nob_verify: false
 TVD:
   name: Tuvaluan dollar
+  history: []
+  nob_verify: false
 TWD:
   name: New Taiwan dollar
+  history: []
+  nob_verify: false
 TZS:
   name: Tanzanian shilling
+  history: []
+  nob_verify: false
 UAH:
   name: Hryvnia
+  history: []
+  nob_verify: false
 UAK:
   name: Karbovanets
+  history: []
+  nob_verify: false
 UGS:
   name: Uganda shilling
+  history: []
+  nob_verify: false
 UGX:
   name: Uganda shilling
+  history: []
+  nob_verify: false
 USD:
   name: US dollar
+  history: []
+  nob_verify: false
 USN:
   name: US dollar
+  history: []
+  nob_verify: false
 USS:
   name: US dollar
+  history: []
+  nob_verify: false
 UYI:
   name: Uruguay Peso en Unidades Indexadas
+  history: []
+  nob_verify: false
 UYN:
   name: Uruguay old peso
+  history: []
+  nob_verify: false
 UYU:
   name: Uruguayan peso
+  history: []
+  nob_verify: false
 UYW:
   name: Unidad Previsional
+  history: []
+  nob_verify: false
 UZS:
   name: Sum
+  history: []
+  nob_verify: false
 VAL:
   name: Vatican lira
+  history: []
+  nob_verify: false
 VEB:
   name: Bolívar fuerte
+  history: []
+  nob_verify: false
 VED:
   name: Bolívar digital
+  history: []
+  nob_verify: false
 VEF:
   name: Bolívar
+  history: []
+  nob_verify: false
 VES:
   name: Bolívar soberano
+  history: []
+  nob_verify: false
 VNC:
   name: Old dong
+  history: []
+  nob_verify: false
 VND:
   name: Dong
+  history: []
+  nob_verify: false
 VUV:
   name: Vatu
+  history: []
+  nob_verify: false
 WST:
   name: Tala
+  history: []
+  nob_verify: false
 XAF:
   name: CFA franc (BEAC)
+  history: []
+  nob_verify: false
 XAG:
   name: Silver
+  history: []
+  nob_verify: false
 XAU:
   name: Gold
+  history: []
+  nob_verify: false
 XBA:
   name: Bond Markets Unit European Composite Unit (EURCO)
+  history: []
+  nob_verify: false
 XBB:
   name: Bond Markets Unit European Monetary Unit (E.M.U.-6)
+  history: []
+  nob_verify: false
 XBC:
   name: Bond Markets Unit European Unit of Account 9 (E.U.A.-9)
+  history: []
+  nob_verify: false
 XBD:
   name: Bond Markets Unit European Unit of Account 17 (E.U.A.-17)
+  history: []
+  nob_verify: false
 XBT:
   name: Bitcoin
+  history: []
+  nob_verify: false
 XCD:
   name: East Caribbean dollar
+  history: []
+  nob_verify: false
 XDR:
   name: SDR (Special Drawing Right)
+  history: []
+  nob_verify: false
 XEU:
   name: European Currency Unit
+  history: []
+  nob_verify: false
 XOF:
   name: CFA Franc (BCEAO)
+  history: []
+  nob_verify: false
 XPD:
   name: Palladium
+  history: []
+  nob_verify: false
 XPF:
   name: CFP franc
+  history: []
+  nob_verify: false
 XPT:
   name: Platinum
+  history: []
+  nob_verify: false
 XSU:
   name: Sucre
+  history: []
+  nob_verify: false
 XTS:
   name: Code reserved for testing purposes
+  history: []
+  nob_verify: false
 XUA:
   name: ADB Unit of Account
+  history: []
+  nob_verify: false
 XXX:
   name: No currency
+  history: []
+  nob_verify: false
 YDD:
   name: South Yemeni dinar
+  history: []
+  nob_verify: false
 YER:
   name: Yemeni rial
+  history: []
+  nob_verify: false
 YUD:
   name: Yugoslav dinar
+  history: []
+  nob_verify: false
 YUF:
   name: Yugoslav dinar
+  history: []
+  nob_verify: false
 YUG:
   name: Yugoslav dinars
+  history: []
+  nob_verify: false
 YUM:
   name: Yugoslav dinar
+  history: []
+  nob_verify: false
 YUN:
   name: Yugoslav dinar
+  history: []
+  nob_verify: false
 YUO:
   name: Yugoslav dinars
+  history: []
+  nob_verify: false
 YUR:
   name: Yugoslav dinars
+  history: []
+  nob_verify: false
 YUS:
   name: Yugoslav dinar
+  history: []
+  nob_verify: false
 ZAR:
   name: Rand
+  history: []
+  nob_verify: false
 ZMK:
   name: Zambian kwacha
+  history: []
+  nob_verify: false
 ZMW:
   name: Zambian kwacha
+  history: []
+  nob_verify: false
 ZRN:
   name: Zaïrean new zaïre
+  history: []
+  nob_verify: false
 ZRZ:
   name: Zaïrean zaïre
+  history: []
+  nob_verify: false
 ZWC:
   name: Rhodesian dollar
+  history: []
+  nob_verify: false
 ZWD:
   name: Zimbabwe dollar
+  history: []
+  nob_verify: false
 ZWL:
   name: Zimbabwe dollar
+  history: []
+  nob_verify: false
 ZWN:
   name: Zimbabwe dollar
+  history: []
+  nob_verify: false
 ZWR:
   name: Zimbabwe dollar
+  history: []
+  nob_verify: false
 OP_DATPRO:
   name: Provisional data
+  nob: Foreløpige data
+  history:
+  - name: Provisional data
+    history: []
+    nob_verify: false
+  nob_verify: false
 SLE:
   name: Leone
+  nob: Leone
+  history:
+  - name: Leone
+    history: []
+    nob_verify: false
+  nob_verify: false

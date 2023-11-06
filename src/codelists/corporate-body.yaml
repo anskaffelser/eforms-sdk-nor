@@ -1,176 +1,704 @@
 ACER:
   name: European Union Agency for the Cooperation of Energy Regulators
+  nob: Den europeiske unions byrå for samarbeid mellom energiregulatorer
+  history:
+  - name: European Union Agency for the Cooperation of Energy Regulators
+    history: []
+    nob_verify: false
+  nob_verify: false
 BERD:
   name: European Bank for Reconstruction and Development
+  nob: Den europeiske bank for gjenoppbygging og utvikling
+  history:
+  - name: European Bank for Reconstruction and Development
+    history: []
+    nob_verify: false
+  nob_verify: false
 BEREC_OFFICE:
   name: Agency for Support for BEREC
+  nob: Byrå for støtte til BEREC
+  history:
+  - name: Agency for Support for BEREC
+    history: []
+    nob_verify: false
+  nob_verify: false
 CAJU:
   name: Clean Aviation Joint Undertaking
+  nob: Clean Aviation Joint Undertaking
+  history:
+  - name: Clean Aviation Joint Undertaking
+    history: []
+    nob_verify: false
+  nob_verify: false
 CBEJU:
   name: Circular Bio-based Europe Joint Undertaking
+  nob: Circular Bio-based Europe Joint Undertaking
+  history:
+  - name: Circular Bio-based Europe Joint Undertaking
+    history: []
+    nob_verify: false
+  nob_verify: false
 CDT:
   name: Translation Centre
+  nob: Oversettelsessenter
+  history:
+  - name: Translation Centre
+    history: []
+    nob_verify: false
+  nob_verify: false
 CEDEFOP:
   name: Cedefop
+  nob: Cedefop
+  history:
+  - name: Cedefop
+    history: []
+    nob_verify: false
+  nob_verify: false
 CEPOL:
   name: European Union Agency for Law Enforcement Training
+  nob: Den europeiske unions byrå for opplæring i rettshåndhevelse
+  history:
+  - name: European Union Agency for Law Enforcement Training
+    history: []
+    nob_verify: false
+  nob_verify: false
 CERN:
   name: CERN
+  nob: CERN
+  history:
+  - name: CERN
+    history: []
+    nob_verify: false
+  nob_verify: false
 CERT:
   name: Computer Emergency Response Team for the EU institutions, bodies and agencies
+  nob: Computer Emergency Response Team for EUs institusjoner, organer og byråer
+  history:
+  - name: Computer Emergency Response Team for the EU institutions, bodies and agencies
+    history: []
+    nob_verify: false
+  nob_verify: false
 CFCA:
   name: European Fisheries Control Agency
+  nob: Det europeiske fiskerikontrollbyrået
+  history:
+  - name: European Fisheries Control Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 CHJU:
   name: Clean Hydrogen Joint Undertaking
+  nob: Clean Hydrogen Joint Foretak
+  history:
+  - name: Clean Hydrogen Joint Undertaking
+    history: []
+    nob_verify: false
+  nob_verify: false
 CINEA:
   name: European Climate, Infrastructure and Environment Executive Agency
+  nob: Det europeiske byrået for klima, infrastruktur og miljø
+  history:
+  - name: European Climate, Infrastructure and Environment Executive Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 COM:
   name: European Commission
+  nob: Europakommisjonen
+  history:
+  - name: European Commission
+    history: []
+    nob_verify: false
+  nob_verify: false
 CONSIL:
   name: Council of the European Union
+  nob: Rådet for Den europeiske union
+  history:
+  - name: Council of the European Union
+    history: []
+    nob_verify: false
+  nob_verify: false
 COR:
   name: European Committee of the Regions
+  nob: Den europeiske regionkomiteen
+  history:
+  - name: European Committee of the Regions
+    history: []
+    nob_verify: false
+  nob_verify: false
 COU_EUR:
   name: Council of Europe
+  nob: Europarådet
+  history:
+  - name: Council of Europe
+    history: []
+    nob_verify: false
+  nob_verify: false
 COU_EUR_DB:
   name: Council of Europe Development Bank
+  nob: Europarådets utviklingsbank
+  history:
+  - name: Council of Europe Development Bank
+    history: []
+    nob_verify: false
+  nob_verify: false
 CPVO:
   name: Community Plant Variety Office
+  nob: Community Plant Variety Kontor
+  history:
+  - name: Community Plant Variety Office
+    history: []
+    nob_verify: false
+  nob_verify: false
 CURIA:
   name: Court of Justice of the European Union
+  nob: Den europeiske unions domstol
+  history:
+  - name: Court of Justice of the European Union
+    history: []
+    nob_verify: false
+  nob_verify: false
 EACEA:
   name: European Education and Culture Executive Agency
+  nob: European Education and Culture Executive Agency
+  history:
+  - name: European Education and Culture Executive Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 EASA:
   name: European Union Aviation Safety Agency
+  nob: EUs flysikkerhetsbyrå
+  history:
+  - name: European Union Aviation Safety Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 EBA:
   name: European Banking Authority
+  nob: Den europeiske banktilsynsmyndigheten
+  history:
+  - name: European Banking Authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 ECA:
   name: European Court of Auditors
+  nob: Den europeiske revisjonsretten
+  history:
+  - name: European Court of Auditors
+    history: []
+    nob_verify: false
+  nob_verify: false
 ECB:
   name: European Central Bank
+  nob: Den europeiske sentralbanken
+  history:
+  - name: European Central Bank
+    history: []
+    nob_verify: false
+  nob_verify: false
 ECDC:
   name: European Centre for Disease Prevention and Control
+  nob: Det europeiske senter for forebygging av og kontroll med sykdommer
+  history:
+  - name: European Centre for Disease Prevention and Control
+    history: []
+    nob_verify: false
+  nob_verify: false
 ECHA:
   name: European Chemicals Agency
+  nob: Det europeiske kjemikaliebyrået
+  history:
+  - name: European Chemicals Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 ECHR:
   name: European Court of Human Rights
+  nob: Den europeiske menneskerettighetsdomstolen
+  history:
+  - name: European Court of Human Rights
+    history: []
+    nob_verify: false
+  nob_verify: false
 EDA:
   name: European Defence Agency
+  nob: Det europeiske forsvarsbyrået
+  history:
+  - name: European Defence Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 EDPS:
   name: European Data Protection Supervisor
+  nob: Europeisk datatilsyn
+  history:
+  - name: European Data Protection Supervisor
+    history: []
+    nob_verify: false
+  nob_verify: false
 EEA:
   name: European Environment Agency
+  nob: Det europeiske miljøbyrået
+  history:
+  - name: European Environment Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 EEAS:
   name: European External Action Service
+  nob: Den europeiske utenrikstjenesten
+  history:
+  - name: European External Action Service
+    history: []
+    nob_verify: false
+  nob_verify: false
 EESC:
   name: European Economic and Social Committee
+  nob: Den europeiske økonomiske og sosiale komité
+  history:
+  - name: European Economic and Social Committee
+    history: []
+    nob_verify: false
+  nob_verify: false
 EFSA:
   name: European Food Safety Authority
+  nob: Den europeiske myndighet for næringsmiddeltrygghet
+  history:
+  - name: European Food Safety Authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 EFTA:
   name: European Free Trade Association
+  nob: Det europeiske frihandelsforbund
+  history:
+  - name: European Free Trade Association
+    history: []
+    nob_verify: false
+  nob_verify: false
 EIB:
   name: European Investment Bank
+  nob: Den europeiske investeringsbanken
+  history:
+  - name: European Investment Bank
+    history: []
+    nob_verify: false
+  nob_verify: false
 EIF:
   name: European Investment Fund
+  nob: Det europeiske investeringsfondet
+  history:
+  - name: European Investment Fund
+    history: []
+    nob_verify: false
+  nob_verify: false
 EIGE:
   name: European Institute for Gender Equality
+  nob: Europeisk institutt for likestilling
+  history:
+  - name: European Institute for Gender Equality
+    history: []
+    nob_verify: false
+  nob_verify: false
 EIOPA:
   name: European Insurance and Occupational Pensions Authority
+  nob: Den europeiske tilsynsmyndighet for forsikring og tjenestepensjoner
+  history:
+  - name: European Insurance and Occupational Pensions Authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 EISMEA:
   name: European Innovation Council and SMEs Executive Agency
+  nob: Det europeiske innovasjonsrådet og små og mellomstore bedrifters utøvende byrå
+  history:
+  - name: European Innovation Council and SMEs Executive Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 EIT:
   name: European Institute of Innovation and Technology
+  nob: Det europeiske institutt for innovasjon og teknologi
+  history:
+  - name: European Institute of Innovation and Technology
+    history: []
+    nob_verify: false
+  nob_verify: false
 ELA:
   name: European Labour Authority
+  nob: Den europeiske arbeidsmyndigheten
+  history:
+  - name: European Labour Authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 EMCDDA:
   name: European Monitoring Centre for Drugs and Drug Addiction
+  nob: Europeisk overvåkingssenter for narkotika og narkotikamisbruk
+  history:
+  - name: European Monitoring Centre for Drugs and Drug Addiction
+    history: []
+    nob_verify: false
+  nob_verify: false
 EMEA:
   name: European Medicines Agency
+  nob: Det europeiske legemiddelkontoret
+  history:
+  - name: European Medicines Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 EMSA:
   name: European Maritime Safety Agency
+  nob: Det europeiske sjøsikkerhetsbyrået
+  history:
+  - name: European Maritime Safety Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 ENISA:
   name: European Union Agency for Cybersecurity
+  nob: Den europeiske unions byrå for cybersikkerhet
+  history:
+  - name: European Union Agency for Cybersecurity
+    history: []
+    nob_verify: false
+  nob_verify: false
 EP:
   name: European Parliament
+  nob: Europaparlamentet
+  history:
+  - name: European Parliament
+    history: []
+    nob_verify: false
+  nob_verify: false
 EPORG:
   name: European Patent Organisation
+  nob: Den europeiske patentorganisasjonen
+  history:
+  - name: European Patent Organisation
+    history: []
+    nob_verify: false
+  nob_verify: false
 EPPO:
   name: European Public Prosecutor’s Office
+  nob: Den europeiske statsadvokatens kontor
+  history:
+  - name: European Public Prosecutor’s Office
+    history: []
+    nob_verify: false
+  nob_verify: false
 EPSO:
   name: European Personnel Selection Office
+  nob: Europeisk kontor for utvelgelse av personell
+  history:
+  - name: European Personnel Selection Office
+    history: []
+    nob_verify: false
+  nob_verify: false
 ERA:
   name: European Union Agency for Railways
+  nob: Den europeiske unions byrå for jernbaner
+  history:
+  - name: European Union Agency for Railways
+    history: []
+    nob_verify: false
+  nob_verify: false
 ERC:
   name: European Research Council Executive Agency
+  nob: Det europeiske forskningsrådets utøvende organ
+  history:
+  - name: European Research Council Executive Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 ESA:
   name: European Space Agency
+  nob: Den europeiske romfartsorganisasjonen
+  history:
+  - name: European Space Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 ESM:
   name: European Stability Mechanism
+  nob: Den europeiske stabilitetsmekanismen
+  history:
+  - name: European Stability Mechanism
+    history: []
+    nob_verify: false
+  nob_verify: false
 ESMA:
   name: European Securities and Markets Authority
+  nob: Den europeiske verdipapir- og markedstilsynsmyndigheten
+  history:
+  - name: European Securities and Markets Authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 ETF:
   name: European Training Foundation
+  nob: Den europeiske opplæringsstiftelsen
+  history:
+  - name: European Training Foundation
+    history: []
+    nob_verify: false
+  nob_verify: false
 EUAA:
   name: European Union Agency for Asylum
+  nob: Den europeiske unions asylbyrå
+  history:
+  - name: European Union Agency for Asylum
+    history: []
+    nob_verify: false
+  nob_verify: false
 EUISS:
   name: European Union Institute for Security Studies
+  nob: Den europeiske unions institutt for sikkerhetsstudier
+  history:
+  - name: European Union Institute for Security Studies
+    history: []
+    nob_verify: false
+  nob_verify: false
 EURAIL:
   name: Europe’s Rail Joint Undertaking
+  nob: Europas jernbaneforetak
+  history:
+  - name: Europe’s Rail Joint Undertaking
+    history: []
+    nob_verify: false
+  nob_verify: false
 EURATOM:
   name: Euratom Supply Agency
+  nob: Euratom Supply Agency
+  history:
+  - name: Euratom Supply Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 EUROCONTROL:
   name: Eurocontrol
+  nob: Eurokontroll
+  history:
+  - name: Eurocontrol
+    history: []
+    nob_verify: false
+  nob_verify: false
 EUROFOUND:
   name: Eurofound
+  nob: Eurofunnet
+  history:
+  - name: Eurofound
+    history: []
+    nob_verify: false
+  nob_verify: false
 EUROHPC:
   name: European High-Performance Computing Joint Undertaking
+  nob: Europeisk fellesforetak for databehandling med høy ytelse
+  history:
+  - name: European High-Performance Computing Joint Undertaking
+    history: []
+    nob_verify: false
+  nob_verify: false
 EUROJUST:
   name: European Union Agency for Criminal Justice Cooperation
+  nob: Den europeiske unions byrå for strafferettssamarbeid
+  history:
+  - name: European Union Agency for Criminal Justice Cooperation
+    history: []
+    nob_verify: false
+  nob_verify: false
 EUROPOL:
   name: Europol
+  nob: Europol
+  history:
+  - name: Europol
+    history: []
+    nob_verify: false
+  nob_verify: false
 EURSCHOOL:
   name: European schools
+  nob: Europeiske skoler
+  history:
+  - name: European schools
+    history: []
+    nob_verify: false
+  nob_verify: false
 EUSC:
   name: European Union Satellite Centre
+  nob: EUs satellittsenter
+  history:
+  - name: European Union Satellite Centre
+    history: []
+    nob_verify: false
+  nob_verify: false
 EUSPA:
   name: European Union Agency for the Space Programme
+  nob: Den europeiske unions byrå for romprogrammet
+  history:
+  - name: European Union Agency for the Space Programme
+    history: []
+    nob_verify: false
+  nob_verify: false
 FAO:
   name: Food and Agriculture Organization
+  nob: Organisasjon for ernæring og landbruk
+  history:
+  - name: Food and Agriculture Organization
+    history: []
+    nob_verify: false
+  nob_verify: false
 FRA:
   name: European Union Agency for Fundamental Rights
+  nob: Den europeiske unions byrå for grunnleggende rettigheter
+  history:
+  - name: European Union Agency for Fundamental Rights
+    history: []
+    nob_verify: false
+  nob_verify: false
 FRONTEX:
   name: Frontex
+  nob: Frontex
+  history:
+  - name: Frontex
+    history: []
+    nob_verify: false
+  nob_verify: false
 FUSEN:
   name: Fusion for Energy Joint Undertaking
+  nob: Fusion for Energy Joint Undertaking
+  history:
+  - name: Fusion for Energy Joint Undertaking
+    history: []
+    nob_verify: false
+  nob_verify: false
 HERA:
   name: Health Emergency Preparedness and Response Authority
+  nob: Helseberedskap og beredskapsmyndighet
+  history:
+  - name: Health Emergency Preparedness and Response Authority
+    history: []
+    nob_verify: false
+  nob_verify: false
 IEA:
   name: International Energy Agency
+  nob: Det internasjonale energibyrået
+  history:
+  - name: International Energy Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 IHIJU:
   name: Innovative Health Initiative Joint Undertaking
+  nob: Innovative Health Initiative Joint Undertaking
+  history:
+  - name: Innovative Health Initiative Joint Undertaking
+    history: []
+    nob_verify: false
+  nob_verify: false
 ILO:
   name: International Labour Organization
+  nob: Den internasjonale arbeidsorganisasjonen (ILO)
+  history:
+  - name: International Labour Organization
+    history: []
+    nob_verify: false
+  nob_verify: false
 INTERPOL:
   name: Interpol
+  nob: Interpol
+  history:
+  - name: Interpol
+    history: []
+    nob_verify: false
+  nob_verify: false
 KDTJU:
   name: Key Digital Technologies Joint Undertaking
+  nob: Viktige digitale teknologier Joint Undertaking
+  history:
+  - name: Key Digital Technologies Joint Undertaking
+    history: []
+    nob_verify: false
+  nob_verify: false
 LISA:
   name: European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice
+  nob: Den europeiske unions byrå for operativ styring av store IT-systemer innen frihet, sikkerhet og rettferdighet
+  history:
+  - name: European Union Agency for the Operational Management of Large-Scale IT Systems in the Area of Freedom, Security and Justice
+    history: []
+    nob_verify: false
+  nob_verify: false
 NATO:
   name: North Atlantic Treaty Organization
+  nob: Den nordatlantiske traktats organisasjon
+  history:
+  - name: North Atlantic Treaty Organization
+    history: []
+    nob_verify: false
+  nob_verify: false
 OAMI:
   name: European Union Intellectual Property Office
+  nob: Den europeiske unions kontor for immaterielle rettigheter
+  history:
+  - name: European Union Intellectual Property Office
+    history: []
+    nob_verify: false
+  nob_verify: false
 OECD:
   name: Organisation for Economic Co-operation and Development
+  nob: Organisasjonen for økonomisk samarbeid og utvikling
+  history:
+  - name: Organisation for Economic Co-operation and Development
+    history: []
+    nob_verify: false
+  nob_verify: false
 OMB:
   name: European Ombudsman
+  nob: Europeisk ombudsmann
+  history:
+  - name: European Ombudsman
+    history: []
+    nob_verify: false
+  nob_verify: false
 OSHA:
   name: European Agency for Safety and Health at Work
+  nob: Det europeiske arbeidsmiljøorganet
+  history:
+  - name: European Agency for Safety and Health at Work
+    history: []
+    nob_verify: false
+  nob_verify: false
 PUBL:
   name: Publications Office of the European Union
+  nob: Den europeiske unions publikasjonskontor
+  history:
+  - name: Publications Office of the European Union
+    history: []
+    nob_verify: false
+  nob_verify: false
 REA:
   name: European Research Executive Agency
+  nob: European Research Executive Agency
+  history:
+  - name: European Research Executive Agency
+    history: []
+    nob_verify: false
+  nob_verify: false
 SESAR:
   name: Single European Sky ATM Research 3 Joint Undertaking
+  nob: Single European Sky ATM Research 3 Joint Undertaking
+  history:
+  - name: Single European Sky ATM Research 3 Joint Undertaking
+    history: []
+    nob_verify: false
+  nob_verify: false
 SRB:
   name: Single Resolution Board
+  nob: Enkel oppløsningstavle
+  history:
+  - name: Single Resolution Board
+    history: []
+    nob_verify: false
+  nob_verify: false

@@ -1,0 +1,804 @@
+AFR:
+  name: Afrikaans
+  history: []
+  nob_verify: false
+AMH:
+  name: Amharic
+  history: []
+  nob_verify: false
+ARA:
+  name: Arabic
+  history: []
+  nob_verify: false
+ARO:
+  name: Araona
+  history: []
+  nob_verify: false
+AYM:
+  name: Aymara
+  history: []
+  nob_verify: false
+AYO:
+  name: Ayoreo
+  history: []
+  nob_verify: false
+AZE:
+  name: Azerbaijani
+  history: []
+  nob_verify: false
+BEL:
+  name: Belarusian
+  history: []
+  nob_verify: false
+BEN:
+  name: Bengali
+  history: []
+  nob_verify: false
+BIS:
+  name: Bislama
+  history: []
+  nob_verify: false
+BOD:
+  name: Tibetan
+  history: []
+  nob_verify: false
+BOS:
+  name: Bosnian
+  history: []
+  nob_verify: false
+BRE:
+  name: Breton
+  history: []
+  nob_verify: false
+BRG:
+  name: Baure
+  history: []
+  nob_verify: false
+BUL:
+  name: Bulgarian
+  history: []
+  nob_verify: false
+CAL:
+  name: Carolinian
+  history: []
+  nob_verify: false
+CAO:
+  name: Chacobo
+  history: []
+  nob_verify: false
+CAS:
+  name: Chimane
+  history: []
+  nob_verify: false
+CAT:
+  name: Catalan
+  history: []
+  nob_verify: false
+CAV:
+  name: Cavineña
+  history: []
+  nob_verify: false
+CAW:
+  name: Kallawaya
+  history: []
+  nob_verify: false
+CAX:
+  name: Chiquitano
+  history: []
+  nob_verify: false
+CAZ:
+  name: Canichana
+  history: []
+  nob_verify: false
+CES:
+  name: Czech
+  history: []
+  nob_verify: false
+CHA:
+  name: Chamorro
+  history: []
+  nob_verify: false
+CKB:
+  name: Central Kurdish
+  history: []
+  nob_verify: false
+CMN:
+  name: Mandarin Chinese
+  history: []
+  nob_verify: false
+CNR:
+  name: Montenegrin
+  history: []
+  nob_verify: false
+COR:
+  name: Cornish
+  history: []
+  nob_verify: false
+COS:
+  name: Corsican
+  history: []
+  nob_verify: false
+CRS:
+  name: Seselwa Creole French
+  history: []
+  nob_verify: false
+CYB:
+  name: Cayubaba
+  history: []
+  nob_verify: false
+CYM:
+  name: Welsh
+  history: []
+  nob_verify: false
+DAN:
+  name: Danish
+  history: []
+  nob_verify: false
+DEU:
+  name: German
+  history: []
+  nob_verify: false
+DIV:
+  name: Dhivehi
+  history: []
+  nob_verify: false
+DZO:
+  name: Dzongkha
+  history: []
+  nob_verify: false
+ELL:
+  name: Greek
+  history: []
+  nob_verify: false
+ENG:
+  name: English
+  history: []
+  nob_verify: false
+EPO:
+  name: Esperanto
+  history: []
+  nob_verify: false
+ESE:
+  name: Ese Ejja
+  history: []
+  nob_verify: false
+EST:
+  name: Estonian
+  history: []
+  nob_verify: false
+EUS:
+  name: Basque
+  history: []
+  nob_verify: false
+EWE:
+  name: Ewe
+  history: []
+  nob_verify: false
+FAO:
+  name: Faroese
+  history: []
+  nob_verify: false
+FAS:
+  name: Persian
+  history: []
+  nob_verify: false
+FIJ:
+  name: Fijian
+  history: []
+  nob_verify: false
+FIL:
+  name: Filipino
+  history: []
+  nob_verify: false
+FIN:
+  name: Finnish
+  history: []
+  nob_verify: false
+FRA:
+  name: French
+  history: []
+  nob_verify: false
+FRY:
+  name: Frisian
+  history: []
+  nob_verify: false
+GLA:
+  name: Scottish Gaelic
+  history: []
+  nob_verify: false
+GLE:
+  name: Irish
+  history: []
+  nob_verify: false
+GLG:
+  name: Galician
+  history: []
+  nob_verify: false
+GLV:
+  name: Manx
+  history: []
+  nob_verify: false
+GRN:
+  name: Guarani
+  history: []
+  nob_verify: false
+GUG:
+  name: Paraguayan Guaraní
+  history: []
+  nob_verify: false
+GYR:
+  name: Guarayu
+  history: []
+  nob_verify: false
+HAT:
+  name: Haitian
+  history: []
+  nob_verify: false
+HBS:
+  name: Serbo-Croatian
+  history: []
+  nob_verify: false
+HCA:
+  name: Andaman Creole Hindi
+  history: []
+  nob_verify: false
+HEB:
+  name: Hebrew
+  history: []
+  nob_verify: false
+HIF:
+  name: Fiji Hindi
+  history: []
+  nob_verify: false
+HIN:
+  name: Hindi
+  history: []
+  nob_verify: false
+HMO:
+  name: Hiri Motu
+  history: []
+  nob_verify: false
+HRV:
+  name: Croatian
+  history: []
+  nob_verify: false
+HSB:
+  name: Upper Sorbian
+  history: []
+  nob_verify: false
+HUN:
+  name: Hungarian
+  history: []
+  nob_verify: false
+HYE:
+  name: Armenian
+  history: []
+  nob_verify: false
+IBO:
+  name: Igbo
+  history: []
+  nob_verify: false
+IGN:
+  name: Ignaciano
+  history: []
+  nob_verify: false
+INA:
+  name: Interlingua
+  history: []
+  nob_verify: false
+IND:
+  name: Indonesian
+  history: []
+  nob_verify: false
+ISL:
+  name: Icelandic
+  history: []
+  nob_verify: false
+ITA:
+  name: Italian
+  history: []
+  nob_verify: false
+ITE:
+  name: Itene
+  history: []
+  nob_verify: false
+ITO:
+  name: Itonama
+  history: []
+  nob_verify: false
+JPN:
+  name: Japanese
+  history: []
+  nob_verify: false
+KAL:
+  name: Greenlandic
+  history: []
+  nob_verify: false
+KAT:
+  name: Georgian
+  history: []
+  nob_verify: false
+KAZ:
+  name: Kazakh
+  history: []
+  nob_verify: false
+KHM:
+  name: Khmer
+  history: []
+  nob_verify: false
+KIN:
+  name: Kinyarwanda
+  history: []
+  nob_verify: false
+KIR:
+  name: Kyrgyz
+  history: []
+  nob_verify: false
+KMR:
+  name: Northern Kurdish
+  history: []
+  nob_verify: false
+KON:
+  name: Kikongo
+  history: []
+  nob_verify: false
+KOR:
+  name: Korean
+  history: []
+  nob_verify: false
+KUR:
+  name: Kurdish
+  history: []
+  nob_verify: false
+KXD:
+  name: Brunei Malay
+  history: []
+  nob_verify: false
+LAO:
+  name: Lao
+  history: []
+  nob_verify: false
+LAT:
+  name: Latin
+  history: []
+  nob_verify: false
+LAV:
+  name: Latvian
+  history: []
+  nob_verify: false
+LEC:
+  name: Leco
+  history: []
+  nob_verify: false
+LIN:
+  name: Lingala
+  history: []
+  nob_verify: false
+LIT:
+  name: Lithuanian
+  history: []
+  nob_verify: false
+LTZ:
+  name: Luxembourgish
+  history: []
+  nob_verify: false
+LUA:
+  name: Luba-Lulua
+  history: []
+  nob_verify: false
+MAH:
+  name: Marshallese
+  history: []
+  nob_verify: false
+MAN:
+  name: Manding
+  history: []
+  nob_verify: false
+MIN:
+  name: Minangkabau
+  history: []
+  nob_verify: false
+MIS:
+  name: Uncoded languages
+  history: []
+  nob_verify: false
+MKD:
+  name: Macedonian
+  history: []
+  nob_verify: false
+MLG:
+  name: Malagasy
+  history: []
+  nob_verify: false
+MLT:
+  name: Maltese
+  history: []
+  nob_verify: false
+MNK:
+  name: Mandinka
+  history: []
+  nob_verify: false
+MOL:
+  name: Moldavian
+  history: []
+  nob_verify: false
+MON:
+  name: Mongolian
+  history: []
+  nob_verify: false
+MPD:
+  name: Machinere
+  history: []
+  nob_verify: false
+MRI:
+  name: Māori
+  history: []
+  nob_verify: false
+MSA:
+  name: Malaysian
+  history: []
+  nob_verify: false
+MTP:
+  name: Wichí Lhamtés Nocten
+  history: []
+  nob_verify: false
+MUL:
+  name: Multiple languages
+  history: []
+  nob_verify: false
+MYA:
+  name: Burmese
+  history: []
+  nob_verify: false
+MZP:
+  name: Movima
+  history: []
+  nob_verify: false
+NAU:
+  name: Nauruan
+  history: []
+  nob_verify: false
+NBL:
+  name: Southern Ndebele
+  history: []
+  nob_verify: false
+NEP:
+  name: Nepali
+  history: []
+  nob_verify: false
+NIU:
+  name: Niuean
+  history: []
+  nob_verify: false
+NLD:
+  name: Dutch
+  history: []
+  nob_verify: false
+NNO:
+  name: Norwegian Nynorsk
+  history: []
+  nob_verify: false
+NOB:
+  name: Norwegian Bokmål
+  history: []
+  nob_verify: false
+NOR:
+  name: Norwegian
+  history: []
+  nob_verify: false
+NSO:
+  name: Northern Sotho
+  history: []
+  nob_verify: false
+NYA:
+  name: Chewa
+  history: []
+  nob_verify: false
+OCI:
+  name: Occitan
+  history: []
+  nob_verify: false
+OSS:
+  name: Ossetic
+  history: []
+  nob_verify: false
+PAN:
+  name: Punjabi
+  history: []
+  nob_verify: false
+PAP:
+  name: Papiamento
+  history: []
+  nob_verify: false
+PAU:
+  name: Palauan
+  history: []
+  nob_verify: false
+PCP:
+  name: Pacahuara
+  history: []
+  nob_verify: false
+PIH:
+  name: Pitcairn-Norfolk
+  history: []
+  nob_verify: false
+POL:
+  name: Polish
+  history: []
+  nob_verify: false
+POR:
+  name: Portuguese
+  history: []
+  nob_verify: false
+PRS:
+  name: Dari
+  history: []
+  nob_verify: false
+PSM:
+  name: Pauserna
+  history: []
+  nob_verify: false
+PUQ:
+  name: Puquina
+  history: []
+  nob_verify: false
+PUS:
+  name: Pashto
+  history: []
+  nob_verify: false
+QUE:
+  name: Quechua
+  history: []
+  nob_verify: false
+RAR:
+  name: Rarotongan
+  history: []
+  nob_verify: false
+REY:
+  name: Reyesano
+  history: []
+  nob_verify: false
+ROH:
+  name: Romansh
+  history: []
+  nob_verify: false
+ROM:
+  name: Romani
+  history: []
+  nob_verify: false
+RON:
+  name: Romanian
+  history: []
+  nob_verify: false
+RUN:
+  name: Kirundi
+  history: []
+  nob_verify: false
+RUS:
+  name: Russian
+  history: []
+  nob_verify: false
+SAG:
+  name: Sango
+  history: []
+  nob_verify: false
+SCO:
+  name: Scots
+  history: []
+  nob_verify: false
+SDH:
+  name: Southern Kurdish
+  history: []
+  nob_verify: false
+SIN:
+  name: Sinhala
+  history: []
+  nob_verify: false
+SIP:
+  name: Sikkimese
+  history: []
+  nob_verify: false
+SLK:
+  name: Slovak
+  history: []
+  nob_verify: false
+SLV:
+  name: Slovenian
+  history: []
+  nob_verify: false
+SME:
+  name: Northern Sami
+  history: []
+  nob_verify: false
+SMO:
+  name: Samoan
+  history: []
+  nob_verify: false
+SOM:
+  name: Somali
+  history: []
+  nob_verify: false
+SOT:
+  name: Southern Sotho
+  history: []
+  nob_verify: false
+SPA:
+  name: Spanish
+  history: []
+  nob_verify: false
+SQI:
+  name: Albanian
+  history: []
+  nob_verify: false
+SRP:
+  name: Serbian
+  history: []
+  nob_verify: false
+SRQ:
+  name: Sirionó
+  history: []
+  nob_verify: false
+SSW:
+  name: Swazi
+  history: []
+  nob_verify: false
+SWA:
+  name: Swahili
+  history: []
+  nob_verify: false
+SWB:
+  name: Comorian
+  history: []
+  nob_verify: false
+SWE:
+  name: Swedish
+  history: []
+  nob_verify: false
+TAM:
+  name: Tamil
+  history: []
+  nob_verify: false
+TET:
+  name: Tetum
+  history: []
+  nob_verify: false
+TGK:
+  name: Tajik
+  history: []
+  nob_verify: false
+THA:
+  name: Thai
+  history: []
+  nob_verify: false
+TIR:
+  name: Tigrinya
+  history: []
+  nob_verify: false
+TKL:
+  name: Tokelauan
+  history: []
+  nob_verify: false
+TNA:
+  name: Tacana
+  history: []
+  nob_verify: false
+TNO:
+  name: Toromono
+  history: []
+  nob_verify: false
+TON:
+  name: Tongan
+  history: []
+  nob_verify: false
+TPI:
+  name: Tok Pisin
+  history: []
+  nob_verify: false
+TPJ:
+  name: Tapieté
+  history: []
+  nob_verify: false
+TRN:
+  name: Trinitario
+  history: []
+  nob_verify: false
+TSN:
+  name: Tswana
+  history: []
+  nob_verify: false
+TSO:
+  name: Tsonga
+  history: []
+  nob_verify: false
+TUK:
+  name: Turkmen
+  history: []
+  nob_verify: false
+TUR:
+  name: Turkish
+  history: []
+  nob_verify: false
+TVL:
+  name: Tuvaluan
+  history: []
+  nob_verify: false
+UKR:
+  name: Ukrainian
+  history: []
+  nob_verify: false
+UND:
+  name: Undetermined
+  history: []
+  nob_verify: false
+URD:
+  name: Urdu
+  history: []
+  nob_verify: false
+URE:
+  name: Uru
+  history: []
+  nob_verify: false
+UZB:
+  name: Uzbek
+  history: []
+  nob_verify: false
+VEN:
+  name: Venda
+  history: []
+  nob_verify: false
+VIE:
+  name: Vietnamese
+  history: []
+  nob_verify: false
+VLS:
+  name: Flemish
+  history: []
+  nob_verify: false
+WLN:
+  name: Walloon
+  history: []
+  nob_verify: false
+WOL:
+  name: Wolof
+  history: []
+  nob_verify: false
+XHO:
+  name: Xhosa
+  history: []
+  nob_verify: false
+YAA:
+  name: Yaminava
+  history: []
+  nob_verify: false
+YID:
+  name: Yiddish
+  history: []
+  nob_verify: false
+YUE:
+  name: Yue Chinese
+  history: []
+  nob_verify: false
+YUQ:
+  name: Yuqui
+  history: []
+  nob_verify: false
+YUZ:
+  name: Yuracare
+  history: []
+  nob_verify: false
+ZHO:
+  name: Chinese
+  history: []
+  nob_verify: false
+ZLM:
+  name: Malay
+  history: []
+  nob_verify: false
+ZUL:
+  name: Zulu
+  history: []
+  nob_verify: false
+ZXX:
+  name: No linguistic content
+  history: []
+  nob_verify: false

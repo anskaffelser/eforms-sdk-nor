@@ -1,0 +1,16 @@
+brin-ecs:
+  name: European Company / European Cooperative Society notice
+  nob: Merknad fra Det europeiske selskap / Det europeiske samvirkeforetak
+  history:
+  - name: European Company / European Cooperative Society notice
+    history: []
+    nob_verify: false
+  nob_verify: false
+brin-eeig:
+  name: European Economic Interest Grouping notice
+  nob: Melding om europeisk økonomisk interessegruppering
+  history:
+  - name: European Economic Interest Grouping notice
+    history: []
+    nob_verify: false
+  nob_verify: false

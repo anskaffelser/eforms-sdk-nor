@@ -1,21 +1,56 @@
 bri:
   name: Business registration information
   nob: Informasjon om virksomhetens registreringer
+  history:
+  - name: Business registration information
+    history: []
+    nob_verify: false
+  nob_verify: false
 change:
   name: Change
   nob: Endring
+  history:
+  - name: Change
+    history: []
+    nob_verify: false
+  nob_verify: false
 competition:
   name: Competition
   nob: Konkurranse
+  history:
+  - name: Competition
+    history: []
+    nob_verify: false
+  nob_verify: false
 cont-modif:
   name: Contract modification
   nob: Endring i kontrakt
+  history:
+  - name: Contract modification
+    history: []
+    nob_verify: false
+  nob_verify: false
 dir-awa-pre:
   name: Direct award preannouncement
   nob: Forhåndskunngjøring av direkte tildeling
+  history:
+  - name: Direct award preannouncement
+    history: []
+    nob_verify: false
+  nob_verify: false
 planning:
   name: Planning
   nob: Planlegging
+  history:
+  - name: Planning
+    history: []
+    nob_verify: false
+  nob_verify: false
 result:
   name: Result
   nob: Resultat
+  history:
+  - name: Result
+    history: []
+    nob_verify: false
+  nob_verify: false

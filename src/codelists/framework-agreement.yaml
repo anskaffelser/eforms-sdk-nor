@@ -1,12 +1,32 @@
 fa-mix:
   name: Framework agreement, partly without reopening and partly with reopening of competition
   nob: Rammeavtale. delvis uten gjenåpning og delvis med gjenåpning av konkurransen
+  history:
+  - name: Framework agreement, partly without reopening and partly with reopening of competition
+    history: []
+    nob_verify: false
+  nob_verify: false
 fa-w-rc:
   name: Framework agreement, with reopening of competition
   nob: Rammeavtale med gjenåpning av konkurransen
+  history:
+  - name: Framework agreement, with reopening of competition
+    history: []
+    nob_verify: false
+  nob_verify: false
 fa-wo-rc:
   name: Framework agreement, without reopening of competition
   nob: Rammeavtale uten gjenåpning av konkurransen
+  history:
+  - name: Framework agreement, without reopening of competition
+    history: []
+    nob_verify: false
+  nob_verify: false
 none:
   name: None
   nob: Ingen/nei
+  history:
+  - name: None
+    history: []
+    nob_verify: false
+  nob_verify: false
