@@ -1,866 +1,3464 @@
 expression|name|1:
   name: The value for 'The buyer is a contracting entity' (BT-740) is 'No'
+  nob: Verdien for «Kjøperen er en oppdragsgiver» (BT-740) er «Nei»
+  history:
+  - name: The value for 'The buyer is a contracting entity' (BT-740) is 'No'
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|100:
   name: "'Award criterion number' (BT-541-Lot) is filled in, 'Number is a type of weight' (BT-5421-Lot) and 'Number is a type of threshold' (BT-5423-Lot) are not filled in"
+  nob: Tildelingskriterienummer' (BT-541-Lot) fylles ut, 'Tallet er en type vekt' (BT-5421-Lot) og 'Antall er en type terskel' (BT-5423-Lot) fylles ikke ut
+  history:
+  - name: "'Award criterion number' (BT-541-Lot) is filled in, 'Number is a type of weight' (BT-5421-Lot) and 'Number is a type of threshold' (BT-5423-Lot) are not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|101:
   name: "'Award criterion number' (BT-541-Lot) is filled in, 'Number is a type of weight' (BT-5421-Lot) and 'Number is a type of threshold' (BT-5422-Lot) are not filled in"
+  nob: Tildelingskriterienummer' (BT-541-Lot) fylles ut, 'Tallet er en type vekt' (BT-5421-Lot) og 'Antall er en type terskel' (BT-5422-Lot) fylles ikke ut
+  history:
+  - name: "'Award criterion number' (BT-541-Lot) is filled in, 'Number is a type of weight' (BT-5421-Lot) and 'Number is a type of threshold' (BT-5422-Lot) are not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|102:
   name: "'Award criterion number' (BT-541-LotsGroup) is filled in, 'Number is a type of weight' (BT-5421-LotsGroup) and 'Number is a type of threshold' (BT-5423-LotsGroup) are not filled in"
+  nob: Tildelingskriterienummer' (BT-541-LotsGroup) fylles ut, 'Antall er en type vekt' (BT-5421-LotsGroup) og 'Antall er en type terskel' (BT-5423-LotsGroup) fylles ikke ut
+  history:
+  - name: "'Award criterion number' (BT-541-LotsGroup) is filled in, 'Number is a type of weight' (BT-5421-LotsGroup) and 'Number is a type of threshold' (BT-5423-LotsGroup) are not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|103:
   name: "'Award criterion number' (BT-541-LotsGroup) is filled in, 'Number is a type of weight' (BT-5421-LotsGroup) and 'Number is a type of threshold' (BT-5422-LotsGroup) are not filled in"
+  nob: Tildelingskriterienummer' (BT-541-LotsGroup) fylles ut, 'Antall er en type vekt' (BT-5421-LotsGroup) og 'Antall er en type terskel' (BT-5422-LotsGroup) fylles ikke ut
+  history:
+  - name: "'Award criterion number' (BT-541-LotsGroup) is filled in, 'Number is a type of weight' (BT-5421-LotsGroup) and 'Number is a type of threshold' (BT-5422-LotsGroup) are not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|104:
   name: "'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-Lots) is not filled in"
+  nob: Beskrivelse av metoden som skal benyttes dersom vekting ikke kan uttrykkes ved kriterier» (BT-543-Lots) er ikke fylt ut
+  history:
+  - name: "'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-Lots) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|105:
   name: "'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-LotsGroup) is not filled in"
+  nob: Beskrivelse av metoden som skal benyttes dersom vekting ikke kan uttrykkes ved kriterier» (BT-543-LotsGroup) er ikke utfylt
+  history:
+  - name: "'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|106:
   name: "'Duration' (BT-36-Lot) or 'End date' (BT-537-Lot) is filled in"
+  nob: Varighet' (BT-36-Lot) eller 'Sluttdato' (BT-537-Lot) fylles ut
+  history:
+  - name: "'Duration' (BT-36-Lot) or 'End date' (BT-537-Lot) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|107:
   name: "'Duration' (BT-36-Lot) or 'Other duration' (BT-538-Lot) is filled in"
+  nob: Varighet' (BT-36-Lot) eller 'Annen varighet' (BT-538-Lot) fylles ut
+  history:
+  - name: "'Duration' (BT-36-Lot) or 'Other duration' (BT-538-Lot) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|108:
   name: "'End date' (BT-537-Lot) or 'Other duration' (BT-538-Lot) is filled in"
+  nob: Sluttdato' (BT-537-Lot) eller 'Annen varighet' (BT-538-Lot) er fylt ut
+  history:
+  - name: "'End date' (BT-537-Lot) or 'Other duration' (BT-538-Lot) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|109:
   name: "'Type of procedure' (BT-105) is not 'Direct award'"
+  nob: Type prosedyre» (BT-105) er ikke «Direkte tildeling»
+  history:
+  - name: "'Type of procedure' (BT-105) is not 'Direct award'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|11:
   name: "'Start date' (BT-536-Part) is not filled in"
+  nob: Startdato» (BT-536-del) er ikke fylt ut
+  history:
+  - name: "'Start date' (BT-536-Part) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|110:
   name: "'Type of procedure' (BT-105) is 'Open'; 'Type of procedure' (BT-105) is 'Other single stage procedure' and 'Deadline for receipt of requests to participate' (BT-1311) is not filled in; 'Type of procedure' (BT-105) must be 'Other multiple stage procedure' and 'Deadline for receipt of requests to participate' (BT-1311) is not filled in"
+  nob: Type prosedyre' (BT-105) er 'Åpen'; «Type prosedyre» (BT-105) er «Annen prosedyre i ett trinn» og «Frist for mottak av anmodning om deltakelse» (BT-1311) er ikke utfylt. «Type prosedyre» (BT-105) skal være «Annen prosedyre i flere trinn» og «Frist for mottak av anmodning om deltakelse» (BT-1311) er ikke fylt ut
+  history:
+  - name: "'Type of procedure' (BT-105) is 'Open'; 'Type of procedure' (BT-105) is 'Other single stage procedure' and 'Deadline for receipt of requests to participate' (BT-1311) is not filled in; 'Type of procedure' (BT-105) must be 'Other multiple stage procedure' and 'Deadline for receipt of requests to participate' (BT-1311) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|111:
   name: "'Type of procedure' (BT-105) is 'Other single stage procedure' and 'Deadline for receipt of tenders' (BT-131) is not filled in; 'Type of procedure' (BT-105) is 'Other multiple stage procedure' and 'Deadline for receipt of requests to participate' (BT-131) is not filled in"
+  nob: Type prosedyre» (BT-105) er «Annen prosedyre i ett trinn» og «Frist for mottak av tilbud» (BT-131) er ikke utfylt. «Type prosedyre» (BT-105) er «Annen prosedyre i flere trinn» og «Frist for mottak av anmodning om deltakelse» (BT-131) er ikke fylt ut
+  history:
+  - name: "'Type of procedure' (BT-105) is 'Other single stage procedure' and 'Deadline for receipt of tenders' (BT-131) is not filled in; 'Type of procedure' (BT-105) is 'Other multiple stage procedure' and 'Deadline for receipt of requests to participate' (BT-131) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|112:
   name: "'Deadline for receipt of tenders' (BT-131(d)-Lot) is not filled in"
+  nob: Frist for mottak av tilbud» (BT-131(d)-Lot) er ikke fylt ut
+  history:
+  - name: "'Deadline for receipt of tenders' (BT-131(d)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|113:
   name: "'Deadline for receipt of requests to participate' (BT-1311(d)-Lot) is not filled in"
+  nob: Frist for mottak av anmodninger om å delta» (BT-1311(d)-Lot) fylles ikke ut
+  history:
+  - name: "'Deadline for receipt of requests to participate' (BT-1311(d)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|114:
   name: "'Deadline for receipt of tenders' (BT-131(d)-Lot) is filled in"
+  nob: Frist for mottak av tilbud» (BT-131(d)-Lot) fylles ut
+  history:
+  - name: "'Deadline for receipt of tenders' (BT-131(d)-Lot) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|115:
   name: "'Deadline for receipt of requests to participate' (BT-1311(d)-Lot) is filled in"
+  nob: Frist for mottak av anmodninger om å delta» (BT-1311(d)-Lot) fylles ut
+  history:
+  - name: "'Deadline for receipt of requests to participate' (BT-1311(d)-Lot) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|116:
   name: Type of procedure' (BT-105) is 'Open' or 'Other single stage procedure' or 'Negotiated without prior call for competition'
+  nob: Type prosedyre» (BT-105) er «Åpen» eller «Annen prosedyre i ett trinn» eller «Forhandlet uten forutgående innkalling til konkurranse»
+  history:
+  - name: Type of procedure' (BT-105) is 'Open' or 'Other single stage procedure' or 'Negotiated without prior call for competition'
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|117:
   name: "'Type' (BT-747-Lot) is not filled in"
+  nob: Type' (BT-747-Lot) er ikke fylt ut
+  history:
+  - name: "'Type' (BT-747-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|118:
   name: "'Postal address' (BT-5101(a)-Lot) is not filled in"
+  nob: Postadresse» (BT-5101(a)-Lot) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-5101(a)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|119:
   name: "'Postal address' (BT-5101(a)-Part) is not filled in"
+  nob: Postadresse» (BT-5101(a)-del) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-5101(a)-Part) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|12:
   name: "'Legal type of the buyer' (BT-11) is one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'European Institution/Agency or International Organisation'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Public undertaking'; 'Public undertaking, controlled by a central government authority'; 'Public undertaking, controlled by a local authority'; 'Public undertaking, controlled by a regional authority'; 'Regional authority'; 'Regional or local authority'"
+  nob: "Kjøperens juridiske type» (BT-11) er ett av følgende: «Offentligrettslig organ»; «offentligrettslig organ, kontrollert av en statlig myndighet», jf. «Offentligrettslig organ, kontrollert av en lokal myndighet», jf. «offentligrettslig organ, kontrollert av en regional myndighet», jf. «statlig myndighet», jf. 'Forsvarsentreprenør'; «EU-institusjonen, -organet eller -byrået», «Den europeiske institusjon/byrå eller internasjonale organisasjon», 'Internasjonal organisasjon'; 'Lokal myndighet'; «organisasjon som tildeler en kontrakt subsidiert av en statlig myndighet», «Organisasjon som tildeler en kontrakt subsidiert av en kommune», jf. «organisasjon som tildeler en kontrakt subsidiert av en regional myndighet», «Offentlig foretak», jf. «offentlig foretak, kontrollert av en statlig myndighet», «offentlig foretak, kontrollert av en lokal myndighet», «offentlig foretak, kontrollert av en regional myndighet», «Regional myndighet», jf. «Regional eller lokal myndighet»"
+  history:
+  - name: "'Legal type of the buyer' (BT-11) is one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'European Institution/Agency or International Organisation'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Public undertaking'; 'Public undertaking, controlled by a central government authority'; 'Public undertaking, controlled by a local authority'; 'Public undertaking, controlled by a regional authority'; 'Regional authority'; 'Regional or local authority'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|120:
   name: "'Postal address' (BT-5101(a)-Procedure) is not filled in"
+  nob: Postadresse' (BT-5101(a)-prosedyre) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-5101(a)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|121:
   name: "'Postal address' (BT-5101(b)-Lot) is not filled in"
+  nob: Postadresse' (BT-5101(b)-Lot) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-5101(b)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|122:
   name: "'Postal address' (BT-5101(b)-Part) is not filled in"
+  nob: Postadresse» (BT-5101(b)-del) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-5101(b)-Part) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|123:
   name: "'Postal address' (BT-5101(b)-Procedure) is not filled in"
+  nob: Postadresse' (BT-5101(b)-prosedyre) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-5101(b)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|127:
   name: "'Other restrictions on the place of performance' (BT-727) is filled in or 'Country' (BT-5141) is not filled in"
+  nob: Andre restriksjoner på fremføringsstedet» (BT-727) er fylt ut eller «Land» (BT-5141) er ikke fylt ut
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727) is filled in or 'Country' (BT-5141) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|128:
   name: "'Other restrictions on the place of performance' (BT-727) is filled in or 'Country' (BT-5141) is not filled in"
+  nob: Andre restriksjoner på fremføringsstedet» (BT-727) er fylt ut eller «Land» (BT-5141) er ikke fylt ut
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727) is filled in or 'Country' (BT-5141) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|129:
   name: "'Other restrictions on the place of performance' (BT-727) is filled in or 'Country' (BT-5141) is not filled in"
+  nob: Andre restriksjoner på fremføringsstedet» (BT-727) er fylt ut eller «Land» (BT-5141) er ikke fylt ut
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727) is filled in or 'Country' (BT-5141) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|13:
   name: "'Access to certain procurement documents is restricted' (BT-14-Part) is restricted"
+  nob: Tilgangen til visse anskaffelsesdokumenter er begrenset» (BT-14-del) er begrenset
+  history:
+  - name: "'Access to certain procurement documents is restricted' (BT-14-Part) is restricted"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|130:
   name: "'Town' (BT-5131) is not filled in"
+  nob: By» (BT-5131) er ikke fylt ut
+  history:
+  - name: "'Town' (BT-5131) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|131:
   name: "'Town' (BT-5131) is not filled in"
+  nob: By» (BT-5131) er ikke fylt ut
+  history:
+  - name: "'Town' (BT-5131) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|132:
   name: "'Town' (BT-5131) is not filled in"
+  nob: By» (BT-5131) er ikke fylt ut
+  history:
+  - name: "'Town' (BT-5131) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|133:
   name: "'Other restrictions on the place of performance' (BT-727) is not filled in and 'Country' (BT-5141-UBO) does have NUTS codes"
+  nob: Andre restriksjoner på fremføringsstedet» (BT-727) er ikke fylt ut, og «Land» (BT-5141-UBO) har NUTS-koder
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727) is not filled in and 'Country' (BT-5141-UBO) does have NUTS codes"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|134:
   name: "'Other restrictions on the place of performance' (BT-727) is not filled in and 'Country' (BT-5141-UBO) does have NUTS codes"
+  nob: Andre restriksjoner på fremføringsstedet» (BT-727) er ikke fylt ut, og «Land» (BT-5141-UBO) har NUTS-koder
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727) is not filled in and 'Country' (BT-5141-UBO) does have NUTS codes"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|135:
   name: "'Other restrictions on the place of performance' (BT-727) is not filled in and 'Country' (BT-5141-UBO) does have NUTS codes"
+  nob: Andre restriksjoner på fremføringsstedet» (BT-727) er ikke fylt ut, og «Land» (BT-5141-UBO) har NUTS-koder
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727) is not filled in and 'Country' (BT-5141-UBO) does have NUTS codes"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|136:
   name: "'Country' (BT-5141-UBO) requires a postcode, and 'Postal address' (BT-5101(a)) is filled in"
+  nob: Land' (BT-5141-UBO) krever et postnummer, og 'Postadresse' (BT-5101(a)) er fylt ut
+  history:
+  - name: "'Country' (BT-5141-UBO) requires a postcode, and 'Postal address' (BT-5101(a)) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|137:
   name: "'Country' (BT-5141-UBO) requires a postcode, and 'Postal address' (BT-5101(a)) is filled in"
+  nob: Land' (BT-5141-UBO) krever et postnummer, og 'Postadresse' (BT-5101(a)) er fylt ut
+  history:
+  - name: "'Country' (BT-5141-UBO) requires a postcode, and 'Postal address' (BT-5101(a)) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|138:
   name: "'Country' (BT-5141-UBO) requires a postcode, and 'Postal address' (BT-5101(a)) is filled in"
+  nob: Land' (BT-5141-UBO) krever et postnummer, og 'Postadresse' (BT-5101(a)) er fylt ut
+  history:
+  - name: "'Country' (BT-5141-UBO) requires a postcode, and 'Postal address' (BT-5101(a)) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|139:
   name: "'Other restrictions on the place of performance' (BT-727) and 'Country' (BT-5141) are not filled in"
+  nob: Andre restriksjoner på fremføringsstedet» (BT-727) og «Land» (BT-5141) er ikke oppfylt
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727) and 'Country' (BT-5141) are not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|14:
   name: "'Access to certain procurement documents is restricted' (BT-14-Part) is not filled in"
+  nob: Tilgangen til visse anskaffelsesdokumenter er begrenset» (BT-14-del) er ikke fylt ut
+  history:
+  - name: "'Access to certain procurement documents is restricted' (BT-14-Part) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|140:
   name: "'Additional information' (BT-728) and BT-5142 (BT-5142) are not filled in"
+  nob: Tilleggsinformasjon' (BT-728) og BT-5142 (BT-5142) er ikke fylt ut
+  history:
+  - name: "'Additional information' (BT-728) and BT-5142 (BT-5142) are not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|141:
   name: "'Other restrictions on the place of performance' (BT-727) and 'Country' (BT-5141) are not filled in"
+  nob: Andre restriksjoner på fremføringsstedet» (BT-727) og «Land» (BT-5141) er ikke oppfylt
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727) and 'Country' (BT-5141) are not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|142:
   name: "'Nationality of the owner' (BT-706) is not filled in"
+  nob: Eierens nasjonalitet (BT-706) er ikke fylt ut
+  history:
+  - name: "'Nationality of the owner' (BT-706) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|143:
   name: "'Official name' (BT-500-UBO) is not filled in"
+  nob: Offisielt navn' (BT-500-UBO) er ikke fylt ut
+  history:
+  - name: "'Official name' (BT-500-UBO) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|144:
   name: "'Country' (BT-514-UBO) does not have NUTS codes"
+  nob: Land' (BT-514-UBO) har ikke NUTS-koder
+  history:
+  - name: "'Country' (BT-514-UBO) does not have NUTS codes"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|145:
   name: "'Country' (BT-514-UBO) does not have postcodes"
+  nob: Land' (BT-514-UBO) har ikke postnummer
+  history:
+  - name: "'Country' (BT-514-UBO) does not have postcodes"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|146:
   name: "'Postal address' (BT-510(a)-UBO) is not filled in"
+  nob: Postadresse» (BT-510(a)-UBO) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-510(a)-UBO) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|147:
   name: "'Postal address' (BT-510(b)-UBO) is not filled in"
+  nob: Postadresse» (BT-510(b)-UBO) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-510(b)-UBO) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|148:
   name: "'The criteria will be used to select the candidates to be invited for the second stage of the procedure' (BT-40) is not 'yes' or 'Number is a type of threshold' (BT-7532) is filled in"
+  nob: Kriteriene vil bli brukt til å velge kandidatene som skal inviteres til andre trinn av prosedyren' (BT-40) er ikke 'ja' eller 'Tall er en type terskel' (BT-7532) er fylt ut
+  history:
+  - name: "'The criteria will be used to select the candidates to be invited for the second stage of the procedure' (BT-40) is not 'yes' or 'Number is a type of threshold' (BT-7532) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|149:
   name: "'The criteria will be used to select the candidates to be invited for the second stage of the procedure' (BT-40) is not 'yes' or 'Number is a type of weight' (BT-7531) is filled in"
+  nob: Kriteriene vil bli brukt til å velge kandidatene som skal inviteres til andre trinn av prosedyren" (BT-40) er ikke "ja" eller "Tall er en type vekt" (BT-7531) er fylt ut
+  history:
+  - name: "'The criteria will be used to select the candidates to be invited for the second stage of the procedure' (BT-40) is not 'yes' or 'Number is a type of weight' (BT-7531) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|15:
   name: "'Access to certain procurement documents is restricted' (BT-14-Part) is not restricted"
+  nob: Tilgangen til visse anskaffelsesdokumenter er begrenset» (BT-14-del) er ikke begrenset
+  history:
+  - name: "'Access to certain procurement documents is restricted' (BT-14-Part) is not restricted"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|150:
   name: "'Description' (BT-540-Lot) is not filled in"
+  nob: Description' (BT-540-Lot) er ikke fylt ut
+  history:
+  - name: "'Description' (BT-540-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|151:
   name: "'Description' (BT-540-LotsGroup) is not filled in"
+  nob: Description' (BT-540-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Description' (BT-540-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|152:
   name: "'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in 'Number is a type of threshold' (BT-5423) is filled in"
+  nob: Tildelingskriterienummer» (BT-541) fylles ikke ut eller «Nummer er en fast verdi» (BT-5422) fylles ut «Nummer er en type terskel» (BT-5423) er fylt ut
+  history:
+  - name: "'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in 'Number is a type of threshold' (BT-5423) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|153:
   name: "'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in 'Number is a type of threshold' (BT-5423) is filled in"
+  nob: Tildelingskriterienummer» (BT-541) fylles ikke ut eller «Nummer er en fast verdi» (BT-5422) fylles ut «Nummer er en type terskel» (BT-5423) er fylt ut
+  history:
+  - name: "'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in 'Number is a type of threshold' (BT-5423) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|154:
   name: "'Award criterion number' (BT-541) is not filled in or 'Number is a type of weight' (BT-5421) is filled in or 'Number is a type of threshold' (BT-5423) is filled in or 'Type' (BT-539) is 'Quality'"
+  nob: Tildelingskriterienummer' (BT-541) er ikke fylt ut eller 'Tallet er en type vekt' (BT-5421) er fylt ut eller 'Tallet er en type terskel' (BT-5423) er fylt ut eller 'Type' (BT-539) er 'Kvalitet'
+  history:
+  - name: "'Award criterion number' (BT-541) is not filled in or 'Number is a type of weight' (BT-5421) is filled in or 'Number is a type of threshold' (BT-5423) is filled in or 'Type' (BT-539) is 'Quality'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|155:
   name: "'Award criterion number' (BT-541) is not filled in or 'Number is a type of weight' (BT-5421) is filled in or 'Number is a type of threshold' (BT-5423) is filled in or 'Type' (BT-539) is 'Quality'"
+  nob: Tildelingskriterienummer' (BT-541) er ikke fylt ut eller 'Tallet er en type vekt' (BT-5421) er fylt ut eller 'Tallet er en type terskel' (BT-5423) er fylt ut eller 'Type' (BT-539) er 'Kvalitet'
+  history:
+  - name: "'Award criterion number' (BT-541) is not filled in or 'Number is a type of weight' (BT-5421) is filled in or 'Number is a type of threshold' (BT-5423) is filled in or 'Type' (BT-539) is 'Quality'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|156:
   name: "'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in or 'Number is a type of threshold' (BT-5423) is filled in"
+  nob: Tildelingskriterienummer' (BT-541) er ikke fylt ut eller 'Tall er en fast verdi' (BT-5422) er fylt ut eller 'Tall er en type terskel' (BT-5423) er fylt ut
+  history:
+  - name: "'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in or 'Number is a type of threshold' (BT-5423) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|157:
   name: "'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in or 'Number is a type of threshold' (BT-5423) is filled in"
+  nob: Tildelingskriterienummer' (BT-541) er ikke fylt ut eller 'Tall er en fast verdi' (BT-5422) er fylt ut eller 'Tall er en type terskel' (BT-5423) er fylt ut
+  history:
+  - name: "'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in or 'Number is a type of threshold' (BT-5423) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|158:
   name: "'The tenderer must submit tenders for all lots' ((BT-763)) is true"
+  nob: Tilbyder må inngi tilbud på alle partier» ((BT-763)) er sant
+  history:
+  - name: "'The tenderer must submit tenders for all lots' ((BT-763)) is true"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|159:
   name: "'The tenderer must submit tenders for all lots' ((BT-763)) is true or there is more than one lot in the notice"
+  nob: Tilbyder må inngi tilbud på alle partier' ((BT-763)) er sant eller det er mer enn ett parti i kunngjøringen
+  history:
+  - name: "'The tenderer must submit tenders for all lots' ((BT-763)) is true or there is more than one lot in the notice"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|16:
   name: "'Award criterion number' (BT-541-Lot) is not empty"
+  nob: Kriterienummer» (BT-541-Lot) er ikke tomt
+  history:
+  - name: "'Award criterion number' (BT-541-Lot) is not empty"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|160:
   name: There are no multiple lots
+  nob: Det er ingen flere partier
+  history:
+  - name: There are no multiple lots
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|161:
   name: "'Main classification' (BT-262-Lot) is not filled in"
+  nob: Hovedklassifisering' (BT-262-Lot) er ikke fylt ut
+  history:
+  - name: "'Main classification' (BT-262-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|162:
   name: "'Main classification' (BT-262-Part) is not filled in"
+  nob: Hovedinndeling» (BT-262-del) er ikke utfylt
+  history:
+  - name: "'Main classification' (BT-262-Part) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|163:
   name: "'Main classification' (BT-262-Procedure) is not filled in"
+  nob: Hovedklassifisering» (BT-262-prosedyre) er ikke utfylt
+  history:
+  - name: "'Main classification' (BT-262-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|164:
   name: "'Additional classification' (BT-263-Lot) is not filled in"
+  nob: Tilleggsklassifisering' (BT-263-Lot) er ikke fylt ut
+  history:
+  - name: "'Additional classification' (BT-263-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|165:
   name: "'Additional classification' (BT-263-Part) is not filled in"
+  nob: Tilleggsklassifisering» (BT-263-del) er ikke fylt ut
+  history:
+  - name: "'Additional classification' (BT-263-Part) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|166:
   name: "'Additional classification' (BT-263-Procedure) is not filled in"
+  nob: Tilleggsklassifisering» (BT-263-prosedyre) er ikke utfylt
+  history:
+  - name: "'Additional classification' (BT-263-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|167:
   name: "'Postal address' (BT-510(a)-Organization-Company) is not filled in"
+  nob: Postadresse' (BT-510(a)-Organization-Company) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-510(a)-Organization-Company) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|168:
   name: "'Postal address' (BT-510(b)-Organization-Company) is not filled in"
+  nob: Postadresse' (BT-510(b)-Organization-Company) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-510(b)-Organization-Company) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|169:
   name: "'Postal address' (BT-510(a)-Organization-TouchPoint) is not filled in"
+  nob: Postadresse' (BT-510(a)-Organization-TouchPoint) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-510(a)-Organization-TouchPoint) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|17:
   name: "'Award criterion number' (BT-541-Lot) is filled in"
+  nob: Kriterienummer for tildeling» (BT-541-Lot) fylles ut
+  history:
+  - name: "'Award criterion number' (BT-541-Lot) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|170:
   name: "'Postal address' (BT-510(b)-Organization-TouchPoint) is not filled in"
+  nob: Postadresse' (BT-510(b)-Organization-TouchPoint) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-510(b)-Organization-TouchPoint) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|171:
   name: "'Town' (BT-513-Organization-Company) is not filled in"
+  nob: By» (BT-513-Organization-Company) er ikke fylt ut
+  history:
+  - name: "'Town' (BT-513-Organization-Company) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|172:
   name: "'Town' (BT-513-Organization-TouchPoint) is not filled in"
+  nob: Town' (BT-513-Organization-TouchPoint) er ikke fylt ut
+  history:
+  - name: "'Town' (BT-513-Organization-TouchPoint) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|173:
   name: "'Nature of the contract' (BT-23-Procedure) is not filled in"
+  nob: Kontraktens art» (BT-23-Prosedyre) er ikke utfylt
+  history:
+  - name: "'Nature of the contract' (BT-23-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|174:
   name: "'Nature of the contract' (BT-23-Lot) is not filled in"
+  nob: Kontraktens art» (BT-23-Lot) er ikke fylt ut
+  history:
+  - name: "'Nature of the contract' (BT-23-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|175:
   name: "'Nature of the contract' (BT-23-Part) is not filled in"
+  nob: Kontraktens art» (BT-23-del) er ikke utfylt
+  history:
+  - name: "'Nature of the contract' (BT-23-Part) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|176:
   name: "'Deadline for receipt of tenders' (BT-131(d)-Lot) or 'Deadline for receipt of requests to participate' (BT-1311(d)-Lot) are filled in"
+  nob: Frist for mottak av tilbud» (BT-131(d)-Lot) eller «Frist for mottak av anmodninger om deltakelse» (BT-1311(d)-Lot) fylles ut
+  history:
+  - name: "'Deadline for receipt of tenders' (BT-131(d)-Lot) or 'Deadline for receipt of requests to participate' (BT-1311(d)-Lot) are filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|177:
   name: "'ID – Tender' (OPT-321-Tender) does not exist"
+  nob: ID – Tender' (OPT-321-Tender) eksisterer ikke
+  history:
+  - name: "'ID – Tender' (OPT-321-Tender) does not exist"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|178:
   name: "'ID – Organisation' (OPT-300-Tenderer) does not exist"
+  nob: ID – Organisasjon' (OPT-300-Tenderer) eksisterer ikke
+  history:
+  - name: "'ID – Organisation' (OPT-300-Tenderer) does not exist"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|179:
   name: "'ID – Organisation contact point' (OPT-301-Tenderer-MainCont) is not filled in"
+  nob: ID – Organisasjonens kontaktpunkt' (OPT-301-Tenderer-MainCont) er ikke fylt ut
+  history:
+  - name: "'ID – Organisation contact point' (OPT-301-Tenderer-MainCont) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|18:
   name: "'Award criterion number' (BT-541-LotsGroup) is not empty"
+  nob: Kriterienummer for tildeling» (BT-541-LotsGroup) er ikke tomt
+  history:
+  - name: "'Award criterion number' (BT-541-LotsGroup) is not empty"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|180:
   name: "'Official name' (BT-500-Organization-Company) is not filled in"
+  nob: Offisielt navn' (BT-500-Organization-Company) er ikke fylt ut
+  history:
+  - name: "'Official name' (BT-500-Organization-Company) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|181:
   name: "'Official name' (BT-500-Organization-TouchPoint) is not filled in"
+  nob: Offisielt navn' (BT-500-Organization-TouchPoint) er ikke fylt ut
+  history:
+  - name: "'Official name' (BT-500-Organization-TouchPoint) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|182:
   name: "'Country' (BT-514-Organization-Company) does not have NUTS codes"
+  nob: Land' (BT-514-Organization-Company) har ikke NUTS-koder
+  history:
+  - name: "'Country' (BT-514-Organization-Company) does not have NUTS codes"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|183:
   name: "'Country' (BT-514-Organization-TouchPoint) does not have NUTS codes"
+  nob: Land' (BT-514-Organization-TouchPoint) har ikke NUTS-koder
+  history:
+  - name: "'Country' (BT-514-Organization-TouchPoint) does not have NUTS codes"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|184:
   name: "'Country' (BT-514-Organization-Company) does not have postcodes"
+  nob: Land' (BT-514-Organization-Company) har ikke postnummer
+  history:
+  - name: "'Country' (BT-514-Organization-Company) does not have postcodes"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|185:
   name: "'Country' (BT-514-Organization-TouchPoint) does not have postcodes"
+  nob: Land' (BT-514-Organization-TouchPoint) har ikke postnumre
+  history:
+  - name: "'Country' (BT-514-Organization-TouchPoint) does not have postcodes"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|186:
   name: "'ID – Company' (OPT-200-Organization-Company) is a 'Buyer' (OPT-300-Procedure-Buyer)"
+  nob: ID - Company' (OPT-200-Organization-Company) er en 'kjøper' (OPT-300-Procedure-Buyer)
+  history:
+  - name: "'ID – Company' (OPT-200-Organization-Company) is a 'Buyer' (OPT-300-Procedure-Buyer)"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|187:
   name: "'ID – Notice publication' (OPT-110-Lot-FiscalLegis) is filled in"
+  nob: ID – Notice publication' (OPT-110-Lot-FiscalLegis) er fylt ut
+  history:
+  - name: "'ID – Notice publication' (OPT-110-Lot-FiscalLegis) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|188:
   name: "'ID – Notice publication' (OPT-110-Part-FiscalLegis) is filled in"
+  nob: ID – Kunngjøringspublikasjon' (OPT-110-Part-FiscalLegis) er fylt ut
+  history:
+  - name: "'ID – Notice publication' (OPT-110-Part-FiscalLegis) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|189:
   name: "'URL to environmental legislation' (OPT-120-Lot-EnvironLegis) is filled in"
+  nob: URL til miljølovgivning' (OPT-120-Lot-EnvironLegis) er fylt ut
+  history:
+  - name: "'URL to environmental legislation' (OPT-120-Lot-EnvironLegis) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|19:
   name: "'Award criterion number' (BT-541-LotsGroup) is not empty"
+  nob: Kriterienummer for tildeling» (BT-541-LotsGroup) er ikke tomt
+  history:
+  - name: "'Award criterion number' (BT-541-LotsGroup) is not empty"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|190:
   name: "'URL to environmental legislation' (OPT-120-Part-EnvironLegis) is filled in"
+  nob: URL til miljølovgivning' (OPT-120-Part-EnvironLegis) er fylt ut
+  history:
+  - name: "'URL to environmental legislation' (OPT-120-Part-EnvironLegis) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|191:
   name: "'URL to employment legislation' (OPT-130-Lot-EmployLegis) is filled in"
+  nob: URL til arbeidslovgivningen' (OPT-130-Lot-EmployLegis) fylles ut
+  history:
+  - name: "'URL to employment legislation' (OPT-130-Lot-EmployLegis) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|192:
   name: "'URL to employment legislation' (OPT-130-Part-EmployLegis) is filled in"
+  nob: URL til arbeidslovgivningen» (OPT-130-Part-EmployLegis) fylles ut
+  history:
+  - name: "'URL to employment legislation' (OPT-130-Part-EmployLegis) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|193:
   name: "'Review Remedy Type' (BT-792-Review) is not 'Alternative penalty' or 'Damages'"
+  nob: Review Remedy Type' (BT-792-Review) er ikke 'Alternativ straff' eller 'Skader'
+  history:
+  - name: "'Review Remedy Type' (BT-792-Review) is not 'Alternative penalty' or 'Damages'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|194:
   name: "'Review Remedy Type' (BT-792-Review) is 'Damages'"
+  nob: Review Remedy Type' (BT-792-Review) er 'Skader'
+  history:
+  - name: "'Review Remedy Type' (BT-792-Review) is 'Damages'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|195:
   name: "'Review Request Withdrawn' (BT-796-Review) is not true"
+  nob: Forespørsel om gjennomgang trukket tilbake» (BT-796-gjennomgang) er ikke sann
+  history:
+  - name: "'Review Request Withdrawn' (BT-796-Review) is not true"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|196:
   name: "'Review Identifier' (BT-784-Review) is not filled in"
+  nob: Review Identifier' (BT-784-Review) er ikke fylt ut
+  history:
+  - name: "'Review Identifier' (BT-784-Review) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|197:
   name: "'Identifier of the previous notice' (BT-125i-Lot) is not filled in"
+  nob: Identifikator for forrige melding' (BT-125i-Lot) er ikke fylt ut
+  history:
+  - name: "'Identifier of the previous notice' (BT-125i-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|198:
   name: "'Identifier of the previous notice' (BT-125(i)-Part)) is not filled in"
+  nob: Identifikator for forrige melding' (BT-125(i)-Part)) er ikke fylt ut
+  history:
+  - name: "'Identifier of the previous notice' (BT-125(i)-Part)) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|199:
   name: "'Duration' (BT-36-Lot) and 'End date' (BT-537-Lot) are not filled in"
+  nob: Varighet' (BT-36-Lot) og 'Sluttdato' (BT-537-Lot) fylles ikke ut
+  history:
+  - name: "'Duration' (BT-36-Lot) and 'End date' (BT-537-Lot) are not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|2:
   name: "'The buyer is a contracting entity' (BT-740) is 'Yes'"
+  nob: Kjøperen er en oppdragsgiver» (BT-740) er «Ja»
+  history:
+  - name: "'The buyer is a contracting entity' (BT-740) is 'Yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|20:
   name: "'Country' (BT-5141-Lot) is not empty"
+  nob: Land' (BT-5141-Lot) er ikke tomt
+  history:
+  - name: "'Country' (BT-5141-Lot) is not empty"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|200:
   name: "'End date' (BT-537-Lot) is filled in"
+  nob: Sluttdato' (BT-537-Lot) er fylt ut
+  history:
+  - name: "'End date' (BT-537-Lot) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|201:
   name: "'Any service contract following the contest will be awarded to one of the winners of the contest' ((BT-41-Lot)) is not true"
+  nob: Enhver servicekontrakt etter konkurransen vil bli tildelt en av vinnerne av konkurransen' ((BT-41-Lot)) er ikke sann
+  history:
+  - name: "'Any service contract following the contest will be awarded to one of the winners of the contest' ((BT-41-Lot)) is not true"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|202:
   name: "'Information about review deadlines' (BT-99-Lot) is filled in"
+  nob: Informasjon om gjennomgangsfrister» (BT-99-Lot) fylles ut
+  history:
+  - name: "'Information about review deadlines' (BT-99-Lot) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|203:
   name: No lots have been awarded
+  nob: Ingen tomter er tildelt
+  history:
+  - name: No lots have been awarded
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|204:
   name: "'Contract Tender Identifier' (BT-3202-Contract) is not filled in"
+  nob: Contract Tender Identifier' (BT-3202-Contract) er ikke fylt ut
+  history:
+  - name: "'Contract Tender Identifier' (BT-3202-Contract) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|205:
   name: "'Type of procedure' (BT-105) is not 'Negotiated without prior call for competition'; 'Legal basis' (BT-01) is not 'Regulation (EU, Euratom) 2018/1046'; at least one 'Contract Tender Identifier' (BT-3202-Contract) is filled in"
+  nob: Type prosedyre» (BT-105) er ikke «Forhandlet uten forutgående innkalling til konkurranse», jf. «Rettslig grunnlag» (BT-01) er ikke «forordning (EU, Euratom) 2018/1046»; minst én 'Contract Tender Identifier' (BT-3202-Contract) er fylt ut
+  history:
+  - name: "'Type of procedure' (BT-105) is not 'Negotiated without prior call for competition'; 'Legal basis' (BT-01) is not 'Regulation (EU, Euratom) 2018/1046'; at least one 'Contract Tender Identifier' (BT-3202-Contract) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|206:
   name: "'The contract is awarded within a framework agreement' (BT-768-Contract) is not true"
+  nob: Kontrakten er tildelt innenfor en rammeavtale» (BT-768-Contract) stemmer ikke
+  history:
+  - name: "'The contract is awarded within a framework agreement' (BT-768-Contract) is not true"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|207:
   name: "'Tender identifier' (BT-3201-Tender) is filled in"
+  nob: Tender identifier' (BT-3201-Tender) er fylt ut
+  history:
+  - name: "'Tender identifier' (BT-3201-Tender) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|208:
   name: the notice is not of "Change" form type (BT-03-notice)
+  nob: varselet er ikke av typen "Endre" (BT-03-varsel)
+  history:
+  - name: the notice is not of "Change" form type (BT-03-notice)
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|209:
   name: "'Version of the previous notice to be changed' (BT-758-notice) is not filled in"
+  nob: Versjon av forrige varsel som skal endres» (BT-758-varsel) er ikke fylt ut
+  history:
+  - name: "'Version of the previous notice to be changed' (BT-758-notice) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|21:
   name: "'Country subentity' B373(BT-5071-Lot) is filled in"
+  nob: Landunderenhet' B373(BT-5071-Lot) er fylt ut
+  history:
+  - name: "'Country subentity' B373(BT-5071-Lot) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|210:
   name: "'Section identifier' (BT-13716-notice) is not filled in"
+  nob: Seksjonsidentifikator» (BT-13716-varsel) er ikke fylt ut
+  history:
+  - name: "'Section identifier' (BT-13716-notice) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|211:
   name: Indicator 'The procurement documents have changed' (BT-718-notice) is not true
+  nob: Indikatoren «Anskaffelsesdokumentene er endret» (BT-718-varsel) stemmer ikke
+  history:
+  - name: Indicator 'The procurement documents have changed' (BT-718-notice) is not true
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|212:
   name: "'Main reason for change' (BT-140-notice) is not filled in"
+  nob: Hovedårsak til endring» (BT-140-varsel) er ikke fylt ut
+  history:
+  - name: "'Main reason for change' (BT-140-notice) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|213:
   name: It applies to EU Business Registration
+  nob: Den gjelder EU-foretaksregistrering
+  history:
+  - name: It applies to EU Business Registration
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|214:
   name: "'Applicable cross-border law' (BT-09(b)-Procedure) is not filled in"
+  nob: Gjeldende grenseoverskridende lov» (BT-09(b)-prosedyre) er ikke utfylt
+  history:
+  - name: "'Applicable cross-border law' (BT-09(b)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|215:
   name: "'Type of procedure' (BT-105-Procedure) is not filled in"
+  nob: Type prosedyre» (BT-105-prosedyre) er ikke utfylt
+  history:
+  - name: "'Type of procedure' (BT-105-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|216:
   name: "'The procedure is accelerated' (BT-106-Procedure) is not filled in"
+  nob: Prosedyren er akselerert' (BT-106-prosedyre) er ikke fylt ut
+  history:
+  - name: "'The procedure is accelerated' (BT-106-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|217:
   name: "'Maximum value of the framework agreements in this procedure' (BT-118-NoticeResult) is not filled in"
+  nob: Rammeavtalenes maksimale verdi i denne prosedyren» (BT-118-NoticeResult) er ikke fylt ut
+  history:
+  - name: "'Maximum value of the framework agreements in this procedure' (BT-118-NoticeResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|218:
   name: "'Identifier of the previous procedure that justifies direct award' (BT-1252-Procedure) is not filled in"
+  nob: Identifikator for tidligere prosedyre som begrunner direkte tildeling» (BT-1252-prosedyre) er ikke fylt ut
+  history:
+  - name: "'Identifier of the previous procedure that justifies direct award' (BT-1252-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|219:
   name: "'Other justification' (BT-135-Procedure) is not filled in"
+  nob: Annen begrunnelse» (BT-135-Prosedyre) er ikke utfylt
+  history:
+  - name: "'Other justification' (BT-135-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|22:
   name: "'Start date' (BT-536-Lot) is not empty"
+  nob: Startdato' (BT-536-Lot) er ikke tom
+  history:
+  - name: "'Start date' (BT-536-Lot) is not empty"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|220:
   name: "'Justification for the accelerated procedure' (BT-1351-Procedure) is not filled in"
+  nob: Begrunnelse for hurtigprosedyren» (BT-1351-Prosedyre) er ikke utfylt
+  history:
+  - name: "'Justification for the accelerated procedure' (BT-1351-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|221:
   name: "'Justification for direct award' (BT-136-Procedure) is not filled in"
+  nob: Begrunnelse for direkte tildeling» (BT-136-Prosedyre) er ikke utfylt
+  history:
+  - name: "'Justification for direct award' (BT-136-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|222:
   name: "'Winner selection status' (BT-142-LotResult) is not filled in"
+  nob: Status for valg av vinner' (BT-142-LotResult) er ikke fylt ut
+  history:
+  - name: "'Winner selection status' (BT-142-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|223:
   name: "'The reason why a winner was not chosen' (BT-144-LotResult) is not filled in"
+  nob: Årsaken til at en vinner ikke ble kåret» (BT-144-LotResult) er ikke fylt ut
+  history:
+  - name: "'The reason why a winner was not chosen' (BT-144-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|224:
   name: "'Maximum value of the framework agreements in this group of lots' (BT-156-NoticeResult) is not filled in"
+  nob: Rammeavtalenes maksimalverdi i denne partigruppen (BT-156-NoticeResult) er ikke fylt ut
+  history:
+  - name: "'Maximum value of the framework agreements in this group of lots' (BT-156-NoticeResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|225:
   name: "'Estimated revenue coming from the buyer who granted the concession' (BT-160-Tender) is not filled in"
+  nob: Estimerte inntekter som kommer fra kjøperen som ga konsesjonen» (BT-160-Tender) fylles ikke ut
+  history:
+  - name: "'Estimated revenue coming from the buyer who granted the concession' (BT-160-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|226:
   name: "'Value of all contracts awarded in this procedure' (BT-161-NoticeResult) is not filled in"
+  nob: Verdien av alle kontrakter tildelt i denne prosedyren' (BT-161-NoticeResult) er ikke fylt ut
+  history:
+  - name: "'Value of all contracts awarded in this procedure' (BT-161-NoticeResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|227:
   name: "'Estimated revenue coming from the users of the concession' (BT-162-Tender) is not filled in"
+  nob: Estimerte inntekter som kommer fra brukerne av konsesjonen» (BT-162-Tender) fylles ikke ut
+  history:
+  - name: "'Estimated revenue coming from the users of the concession' (BT-162-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|228:
   name: "'Method used for calculating the estimated value of the concession' (BT-163-Tender) is not filled in"
+  nob: Metode for beregning av konsesjonens anslåtte verdi» (BT-163-Anbud) er ikke utfylt
+  history:
+  - name: "'Method used for calculating the estimated value of the concession' (BT-163-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|229:
   name: "'Rank in the list of winners' (BT-171-Tender) is not filled in"
+  nob: Rangering i vinnerlisten (BT-171-Tender) er ikke fylt ut
+  history:
+  - name: "'Rank in the list of winners' (BT-171-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|23:
   name: "'Start date' (BT-536-Lot) is empty"
+  nob: Startdato' (BT-536-Lot) er tom
+  history:
+  - name: "'Start date' (BT-536-Lot) is empty"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|230:
   name: "'Country of origin of the product or the service' (BT-191-Tender) is not filled in"
+  nob: Produktets eller tjenestens opprinnelsesland» (BT-191-Tender) er ikke fylt ut
+  history:
+  - name: "'Country of origin of the product or the service' (BT-191-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|231:
   name: "'The tender is a variant' (BT-193-Tender) is not filled in"
+  nob: Anbudet er en variant» (BT-193-Anbud) er ikke fylt ut
+  history:
+  - name: "'The tender is a variant' (BT-193-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|232:
   name: "'Type' (BT-539-Lot) is not filled in"
+  nob: Type' (BT-539-Lot) er ikke fylt ut
+  history:
+  - name: "'Type' (BT-539-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|233:
   name: "'Type' (BT-539-LotsGroup) is not filled in"
+  nob: Type' (BT-539-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Type' (BT-539-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|234:
   name: "'Description' (BT-540-Lot) is not filled in"
+  nob: Description' (BT-540-Lot) er ikke fylt ut
+  history:
+  - name: "'Description' (BT-540-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|235:
   name: "'Description' (BT-540-LotsGroup) is not filled in"
+  nob: Description' (BT-540-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Description' (BT-540-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|236:
   name: "'Award criterion number' (BT-541-Lot) is not filled in"
+  nob: Kriterienummer» (BT-541-Lot) er ikke fylt ut
+  history:
+  - name: "'Award criterion number' (BT-541-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|237:
   name: "'Award criterion number' (BT-541-LotsGroup) is not filled in"
+  nob: Kriterienummer for tildeling» (BT-541-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Award criterion number' (BT-541-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|238:
   name: "'Number is a type of weight' (BT-5421-Lot) is not filled in"
+  nob: Tallet er en type vekt' (BT-5421-Lot) er ikke fylt ut
+  history:
+  - name: "'Number is a type of weight' (BT-5421-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|239:
   name: "'Number is a type of weight' (BT-5421-LotsGroup) is not filled in"
+  nob: Tall er en type vekt' (BT-5421-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Number is a type of weight' (BT-5421-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|24:
   name: "'Start date' (BT-536-Lot) is not filled in"
+  nob: Startdato' (BT-536-Lot) er ikke fylt ut
+  history:
+  - name: "'Start date' (BT-536-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|240:
   name: "'Number is a fixed value' (BT-5422-Lot) is not filled in"
+  nob: Tallet er en fast verdi' (BT-5422-Lot) er ikke fylt ut
+  history:
+  - name: "'Number is a fixed value' (BT-5422-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|241:
   name: "'Number is a fixed value' (BT-5422-LotsGroup) is not filled in"
+  nob: Tallet er en fast verdi' (BT-5422-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Number is a fixed value' (BT-5422-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|242:
   name: "'Number is a type of threshold' (BT-5423-Lot) is not filled in"
+  nob: Tall er en type terskel' (BT-5423-Lot) er ikke fylt ut
+  history:
+  - name: "'Number is a type of threshold' (BT-5423-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|243:
   name: "'Number is a type of threshold' (BT-5423-LotsGroup) is not filled in"
+  nob: Nummer er en type terskel' (BT-5423-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Number is a type of threshold' (BT-5423-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|244:
   name: "'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-Lot) is not filled in"
+  nob: Beskrivelse av metoden som skal benyttes dersom vekting ikke kan uttrykkes med kriterier» (BT-543-Lot) er ikke utfylt
+  history:
+  - name: "'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|245:
   name: "'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-LotsGroup) is not filled in"
+  nob: Beskrivelse av metoden som skal benyttes dersom vekting ikke kan uttrykkes ved kriterier» (BT-543-LotsGroup) er ikke utfylt
+  history:
+  - name: "'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|246:
   name: "'Value of subcontracting' (BT-553-Tender) is not filled in"
+  nob: Verdi av underleveranser» (BT-553-Anbud) er ikke fylt ut
+  history:
+  - name: "'Value of subcontracting' (BT-553-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|247:
   name: "'Description' (BT-554-Tender) is not filled in"
+  nob: Description' (BT-554-Tender) er ikke fylt ut
+  history:
+  - name: "'Description' (BT-554-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|248:
   name: "'Percentage of subcontracting' (BT-555-Tender) is not filled in"
+  nob: Prosentandel av underleveranser» (BT-555-Anbud) er ikke fylt ut
+  history:
+  - name: "'Percentage of subcontracting' (BT-555-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|249:
   name: "'Group Framework Value Lot Identifier' (BT-556-NoticeResult) is not filled in"
+  nob: Group Framework Value Lot Identifier' (BT-556-NoticeResult) er ikke fylt ut
+  history:
+  - name: "'Group Framework Value Lot Identifier' (BT-556-NoticeResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|25:
   name: "'Maximum renewals' (BT-58-Lot) is not greater than 0"
+  nob: Maksimal fornyelse '(BT-58-Lot) er ikke større enn 0
+  history:
+  - name: "'Maximum renewals' (BT-58-Lot) is not greater than 0"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|250:
   name: "'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in"
+  nob: Rammeavtalens maksimale verdi» (BT-709-LotResult) er ikke fylt ut
+  history:
+  - name: "'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|251:
   name: "'Value of the lowest admissible tender' (BT-710-LotResult) is not filled in"
+  nob: Verdien av laveste tillatte anbud» (BT-710-LotResult) er ikke fylt ut
+  history:
+  - name: "'Value of the lowest admissible tender' (BT-710-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|252:
   name: "'Value of the highest admissible tender' (BT-711-LotResult) is not filled in"
+  nob: Verdien av det høyeste tillatte anbudet' (BT-711-LotResult) er ikke fylt ut
+  history:
+  - name: "'Value of the highest admissible tender' (BT-711-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|253:
   name: "'Number of complainants' (BT-712(a)-LotResult) is not filled in"
+  nob: Antall klagers (BT-712(a)-LotResult) er ikke fylt ut
+  history:
+  - name: "'Number of complainants' (BT-712(a)-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|254:
   name: "'Value of the result' (BT-720-Tender) is not filled in"
+  nob: Verdien av resultatet» (BT-720-Tender) er ikke fylt ut
+  history:
+  - name: "'Value of the result' (BT-720-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|255:
   name: "'Subcontracting value is known' (BT-730-Tender) is not filled in"
+  nob: Underentreprise er kjent» (BT-730-Tender) er ikke fylt ut
+  history:
+  - name: "'Subcontracting value is known' (BT-730-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|256:
   name: "'Subcontracting percentage is known' (BT-731-Tender) is not filled in"
+  nob: Underentreprise er kjent» (BT-731-Anbud) er ikke fylt ut
+  history:
+  - name: "'Subcontracting percentage is known' (BT-731-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|257:
   name: "'Justification for not indicating the weighting of the award criteria' (BT-733-Lot) is not filled in"
+  nob: Begrunnelse for ikke å angi vektingen av tildelingskriteriene» (BT-733-Lot) er ikke utfylt
+  history:
+  - name: "'Justification for not indicating the weighting of the award criteria' (BT-733-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|258:
   name: "'Justification for not indicating the weighting of the award criteria' (BT-733-LotsGroup) is not filled in"
+  nob: Begrunnelse for ikke å angi vektingen av tildelingskriteriene» (BT-733-LotsGroup) er ikke utfylt
+  history:
+  - name: "'Justification for not indicating the weighting of the award criteria' (BT-733-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|259:
   name: "'Name' (BT-734-Lot) is not filled in"
+  nob: Navn' (BT-734-Lot) er ikke fylt ut
+  history:
+  - name: "'Name' (BT-734-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|26:
   name: "'Nature of the contract' (BT-23-Lot) is not 'Services'"
+  nob: Kontraktens art» (BT-23-Lot) er ikke «tjenester»
+  history:
+  - name: "'Nature of the contract' (BT-23-Lot) is not 'Services'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|260:
   name: "'Name' (BT-734-LotsGroup) is not filled in"
+  nob: Navn' (BT-734-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Name' (BT-734-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|261:
   name: "'Number of tenders or requests to participate received' (BT-759-LotResult) is not filled in"
+  nob: Antall anbud eller forespørsler om å delta mottatt' (BT-759-LotResult) er ikke fylt ut
+  history:
+  - name: "'Number of tenders or requests to participate received' (BT-759-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|262:
   name: "'Type of received submissions' (BT-760-LotResult) is not filled in"
+  nob: Type mottatte bidrag» (BT-760-LotResult) fylles ikke ut
+  history:
+  - name: "'Type of received submissions' (BT-760-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|263:
   name: "'Subcontracting' (BT-773-Tender) is not filled in"
+  nob: Underleverandører» (BT-773-Anbud) er ikke fylt ut
+  history:
+  - name: "'Subcontracting' (BT-773-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|264:
   name: "'Main features of the procedure' (BT-88-Procedure) is not filled in"
+  nob: Hovedtrekkene i prosedyren» (BT-88-prosedyren) er ikke fylt ut
+  history:
+  - name: "'Main features of the procedure' (BT-88-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|265:
   name: "'Field to publish later' (BT-195(BT-09)-Procedure) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-09)-prosedyre) fylles ikke ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-09)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|266:
   name: "'Field to publish later' (BT-195(BT-105)-Procedure) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-105)-Prosedyre) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-105)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|267:
   name: "'Field to publish later' (BT-195(BT-106)-Procedure) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-106)-prosedyre) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-106)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|268:
   name: "'Field to publish later' (BT-195(BT-118)-NoticeResult) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-118)-NoticeResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-118)-NoticeResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|269:
   name: "'Field to publish later' (BT-195(BT-1252)-Procedure) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-1252)-prosedyre) fylles ikke ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-1252)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|27:
   name: "'Legal type of the buyer' (BT-11) is not one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Public undertaking'; 'Public undertaking, controlled by a central government authority'; 'Public undertaking, controlled by a local authority'; 'Public undertaking, controlled by a regional authority'; 'Regional authority'"
+  nob: "Kjøperens juridiske type» (BT-11) er ikke en av følgende: «Offentligrettslig organ»; «offentligrettslig organ, kontrollert av en statlig myndighet», jf. «Offentligrettslig organ, kontrollert av en lokal myndighet», jf. «offentligrettslig organ, kontrollert av en regional myndighet», jf. «statlig myndighet», jf. 'Forsvarsentreprenør'; «EU-institusjonen, -organet eller -byrået», 'Internasjonal organisasjon'; 'Lokal myndighet'; «organisasjon som tildeler en kontrakt subsidiert av en statlig myndighet», «Organisasjon som tildeler en kontrakt subsidiert av en kommune», jf. «organisasjon som tildeler en kontrakt subsidiert av en regional myndighet», «Offentlig foretak», jf. «offentlig foretak, kontrollert av en statlig myndighet», «offentlig foretak, kontrollert av en lokal myndighet», «offentlig foretak, kontrollert av en regional myndighet», «Regional myndighet»"
+  history:
+  - name: "'Legal type of the buyer' (BT-11) is not one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Public undertaking'; 'Public undertaking, controlled by a central government authority'; 'Public undertaking, controlled by a local authority'; 'Public undertaking, controlled by a regional authority'; 'Regional authority'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|270:
   name: "'Field to publish later' (BT-195(BT-135)-Procedure) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-135)-prosedyre) fylles ikke ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-135)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|271:
   name: "'Field to publish later' (BT-195(BT-1351)-Procedure) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-1351)-prosedyre) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-1351)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|272:
   name: "'Field to publish later' (BT-195(BT-136)-Procedure) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-136)-prosedyre) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-136)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|273:
   name: "'Field to publish later' (BT-195(BT-142)-LotResult) is not filled in"
+  nob: Feltet som skal publiseres senere' (BT-195(BT-142)-LotResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-142)-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|274:
   name: "'Field to publish later' (BT-195(BT-144)-LotResult) is not filled in"
+  nob: Felt som skal publiseres senere' (BT-195(BT-144)-LotResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-144)-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|275:
   name: "'Field to publish later' (BT-195(BT-156)-NoticeResult) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-156)-NoticeResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-156)-NoticeResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|276:
   name: "'Field to publish later' (BT-195(BT-160)-Tender) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-160)-Anbud) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-160)-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|277:
   name: "'Field to publish later' (BT-195(BT-161)-NoticeResult) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-161)-NoticeResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-161)-NoticeResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|278:
   name: "'Field to publish later' (BT-195(BT-162)-Tender) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-162)-Anbud) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-162)-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|279:
   name: "'Field to publish later' (BT-195(BT-163)-Tender) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-163)-Anbud) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-163)-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|28:
   name: "'Use of this criterion' (BT-748) is 'Used'"
+  nob: Bruk av dette kriteriet» (BT-748) er «Brukt»
+  history:
+  - name: "'Use of this criterion' (BT-748) is 'Used'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|280:
   name: "'Field to publish later' (BT-195(BT-171)-Tender) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-171)-Anbud) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-171)-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|281:
   name: "'Field to publish later' (BT-195(BT-191)-Tender) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-191)-Anbud) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-191)-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|282:
   name: "'Field to publish later' (BT-195(BT-193)-Tender) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-193)-Anbud) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-193)-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|283:
   name: "'Field to publish later' (BT-195(BT-539)-Lot) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-539)-Lot) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-539)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|284:
   name: "'Field to publish later' (BT-195(BT-539)-LotsGroup) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-539)-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-539)-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|285:
   name: "'Field to publish later' (BT-195(BT-540)-Lot) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-540)-Lot) fylles ikke ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-540)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|286:
   name: "'Field to publish later' (BT-195(BT-540)-LotsGroup) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-540)-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-540)-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|287:
   name: "'Field to publish later' (BT-195(BT-541)-Lot) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-541)-Lot) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-541)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|288:
   name: "'Field to publish later' (BT-195(BT-541)-LotsGroup) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-541)-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-541)-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|289:
   name: "'Field to publish later' (BT-195(BT-5421)-Lot) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-5421)-Lot) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-5421)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|29:
   name: "'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
+  nob: "Type prosedyre» (BT-105) er en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»"
+  history:
+  - name: "'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|290:
   name: "'Field to publish later' (BT-195(BT-5421)-LotsGroup) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-5421)-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-5421)-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|291:
   name: "'Field to publish later' (BT-195(BT-5422)-Lot) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-5422)-Lot) fylles ikke ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-5422)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|292:
   name: "'Field to publish later' (BT-195(BT-5422)-LotsGroup) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-5422)-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-5422)-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|293:
   name: "'Field to publish later' (BT-195(BT-5423)-Lot) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-5423)-Lot) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-5423)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|294:
   name: "'Field to publish later' (BT-195(BT-5423)-LotsGroup) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-5423)-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-5423)-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|295:
   name: "'Field to publish later' (BT-195(BT-543)-Lot) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-543)-Lot) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-543)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|296:
   name: "'Field to publish later' (BT-195(BT-543)-LotsGroup) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-543)-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-543)-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|297:
   name: "'Field to publish later' (BT-195(BT-553)-Tender) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-553)-Anbud) fylles ikke ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-553)-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|298:
   name: "'Field to publish later' (BT-195(BT-554)-Tender) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-554)-Anbud) fylles ikke ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-554)-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|299:
   name: "'Field to publish later' (BT-195(BT-555)-Tender) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-555)-Anbud) fylles ikke ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-555)-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|3:
   name: "'Type of procedure' (BT-105) must be: 'Open'; 'Restricted'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
+  nob: "Type prosedyre» (BT-105) skal være: «Åpen»; 'Begrenset'; «Forhandlet med forutgående publisering av konkurranseutlysning/konkurranse med forhandlinger»"
+  history:
+  - name: "'Type of procedure' (BT-105) must be: 'Open'; 'Restricted'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|30:
   name: "'The criteria will be used to select the candidates to be invited for the second stage of the procedure' (BT-40) is not 'Yes'"
+  nob: Kriteriene vil bli brukt til å velge kandidatene som skal inviteres til andre trinn av prosedyren» (BT-40) er ikke «Ja»
+  history:
+  - name: "'The criteria will be used to select the candidates to be invited for the second stage of the procedure' (BT-40) is not 'Yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|300:
   name: "'Field to publish later' (BT-195(BT-556)-NoticeResult) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-556)-NoticeResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-556)-NoticeResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|301:
   name: "'Field to publish later' (BT-195(BT-709)-LotResult) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-709)-LotResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-709)-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|302:
   name: "'Field to publish later' (BT-195(BT-710)-LotResult) is not filled in"
+  nob: Felt som skal publiseres senere' (BT-195(BT-710)-LotResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-710)-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|303:
   name: "'Field to publish later' (BT-195(BT-711)-LotResult) is not filled in"
+  nob: Felt som skal publiseres senere' (BT-195(BT-711)-LotResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-711)-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|304:
   name: "'Field to publish later' (BT-195(BT-712)-LotResult) is not filled in"
+  nob: Felt som skal publiseres senere' (BT-195(BT-712)-LotResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-712)-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|305:
   name: "'Field to publish later' (BT-195(BT-720)-Tender) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-720)-Anbud) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-720)-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|306:
   name: "'Field to publish later' (BT-195(BT-730)-Tender) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-730)-Anbud) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-730)-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|307:
   name: "'Field to publish later' (BT-195(BT-731)-Tender) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-731)-Anbud) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-731)-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|308:
   name: "'Field to publish later' (BT-195(BT-733)-Lot) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-733)-Lot) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-733)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|309:
   name: "'Field to publish later' (BT-195(BT-733)-LotsGroup) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-733)-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-733)-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|31:
   name: "'Selection criteria second stage invite number' (BT-752-Lot) is not empty"
+  nob: Utvalgskriterier andre trinn invitasjonsnummer' (BT-752-Lot) er ikke tomt
+  history:
+  - name: "'Selection criteria second stage invite number' (BT-752-Lot) is not empty"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|310:
   name: "'Field to publish later' (BT-195(BT-734)-Lot) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-734)-Lot) fylles ikke ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-734)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|311:
   name: "'Field to publish later' (BT-195(BT-734)-LotsGroup) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-734)-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-734)-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|312:
   name: "'Field to publish later' (BT-195(BT-759)-LotResult) is not filled in"
+  nob: Felt som skal publiseres senere' (BT-195(BT-759)-LotResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-759)-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|313:
   name: "'Field to publish later' (BT-195(BT-760)-LotResult) is not filled in"
+  nob: Feltet som skal publiseres senere' (BT-195(BT-760)-LotResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-760)-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|314:
   name: "'Field to publish later' (BT-195(BT-773)-Tender) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-773)-Anbud) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-773)-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|315:
   name: "'Field to publish later' (BT-195(BT-88)-Procedure) is not filled in"
+  nob: Felt som skal publiseres senere» (BT-195(BT-88)-prosedyre) fylles ikke ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-88)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|316:
   name: There is more than one lot
+  nob: Det er mer enn ett parti
+  history:
+  - name: There is more than one lot
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|317:
   name: "'This is a recurrent procurement' ((BT-94-Lot)) is not 'yes'"
+  nob: Dette er en gjentakende anskaffelse» ((BT-94-Lot)) er ikke «ja»
+  history:
+  - name: "'This is a recurrent procurement' ((BT-94-Lot)) is not 'yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|318:
   name: "'Type of procedure' (BT-105-Lot) is 'Open'"
+  nob: Type prosedyre' (BT-105-Lot) er 'Åpen'
+  history:
+  - name: "'Type of procedure' (BT-105-Lot) is 'Open'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|319:
   name: "'ID – Organisation contact point' (OPT-301-Lot-ReviewInfo) is not filled in"
+  nob: ID – Organisasjonens kontaktpunkt' (OPT-301-Lot-ReviewInfo) er ikke fylt ut
+  history:
+  - name: "'ID – Organisation contact point' (OPT-301-Lot-ReviewInfo) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|32:
   name: "'Selection criteria second stage invite number' (BT-752-Lot) is not empty"
+  nob: Utvalgskriterier andre trinn invitasjonsnummer' (BT-752-Lot) er ikke tomt
+  history:
+  - name: "'Selection criteria second stage invite number' (BT-752-Lot) is not empty"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|320:
   name: "'An electronic auction is used' ((BT-767-Lot)) is not 'yes'"
+  nob: En elektronisk auksjon brukes' ((BT-767-Lot)) er ikke 'ja'
+  history:
+  - name: "'An electronic auction is used' ((BT-767-Lot)) is not 'yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|321:
   name: "'Type of procedure' (BT-105) is not 'Restricted'"
+  nob: Type prosedyre» (BT-105) er ikke «Begrenset»
+  history:
+  - name: "'Type of procedure' (BT-105) is not 'Restricted'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|322:
   name: "'Vehicle type' (OPT-155-LotResult) is not filled in"
+  nob: Kjøretøytype' (OPT-155-LotResult) er ikke fylt ut
+  history:
+  - name: "'Vehicle type' (OPT-155-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|323:
   name: "'Winner selection status' (BT-142-LotResult) is 'The winner was not yet chosen, but the competition is still ongoing.'"
+  nob: Status for valg av vinner' (BT-142-LotResult) er 'Vinneren ble ennå ikke valgt, men konkurransen pågår fortsatt.'
+  history:
+  - name: "'Winner selection status' (BT-142-LotResult) is 'The winner was not yet chosen, but the competition is still ongoing.'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|324:
   name: "'Winner selection status' (BT-142-LotResult) is 'The winner was not yet chosen, but the competition is still ongoing.', or no tenders were received, or value of the framework agreement (BT-709, BT-660) is filled in"
+  nob: Status for vinnerutvelgelse» (BT-142-LotResult) er «Vinneren er ennå ikke valgt, men konkurransen pågår fortsatt.», eller ingen anbud er mottatt, eller verdien av rammeavtalen (BT-709, BT-660) er fylt ut
+  history:
+  - name: "'Winner selection status' (BT-142-LotResult) is 'The winner was not yet chosen, but the competition is still ongoing.', or no tenders were received, or value of the framework agreement (BT-709, BT-660) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|325:
   name: "'Winner selection status' (BT-142-LotResult) is 'No winner was chosen and the competition is closed.', tenders were received and no value of the framework agreement (BT-709, BT-660) is filled in"
+  nob: Status for utvelgelse av vinner» (BT-142-LotResult) er «Ingen vinner ble kåret og konkurransen er lukket.», anbud ble mottatt og ingen verdi av rammeavtalen (BT-709, BT-660) er fylt ut
+  history:
+  - name: "'Winner selection status' (BT-142-LotResult) is 'No winner was chosen and the competition is closed.', tenders were received and no value of the framework agreement (BT-709, BT-660) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|326:
   name: "'Value of the highest admissible tender' (BT-711-LotResult) is not filled in"
+  nob: Verdien av det høyeste tillatte anbudet' (BT-711-LotResult) er ikke fylt ut
+  history:
+  - name: "'Value of the highest admissible tender' (BT-711-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|327:
   name: "'Justification for direct award' (BT-136-Procedure) is one of the following: 'New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive'; 'No suitable tenders, requests to participate, or applications were received in response to a previous notice'; 'Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive'; 'Service contract to be awarded to the winner or one of winners under the rules of a design contest'"
+  nob: "Begrunnelse for direkte tildeling» (BT-136-prosedyre) er ett av følgende: «Nye arbeider eller tjenester, som utgjør en gjentakelse av eksisterende verk eller tjenester og bestilles i samsvar med de strenge vilkårene i direktivet'; «Ingen egnede anbud, forespørsler om å delta eller søknader ble mottatt som svar på en tidligere kunngjøring», jf. «Delvis utskifting eller utvidelse av eksisterende varer eller installasjoner av den opprinnelige leverandøren som er bestilt på de strenge vilkårene som er angitt i direktivet», \"Servicekontrakt som skal tildeles vinneren eller en av vinnerne i henhold til reglene for en designkonkurranse\""
+  history:
+  - name: "'Justification for direct award' (BT-136-Procedure) is one of the following: 'New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive'; 'No suitable tenders, requests to participate, or applications were received in response to a previous notice'; 'Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive'; 'Service contract to be awarded to the winner or one of winners under the rules of a design contest'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|328:
   name: "'Electronic submission' (BT-17-Lot) is 'Not allowed'"
+  nob: Elektronisk innlevering» (BT-17-Lot) er «Ikke tillatt»
+  history:
+  - name: "'Electronic submission' (BT-17-Lot) is 'Not allowed'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|329:
   name: "'Electronic submission' (BT-17-Lot) is 'Not allowed'"
+  nob: Elektronisk innlevering» (BT-17-Lot) er «Ikke tillatt»
+  history:
+  - name: "'Electronic submission' (BT-17-Lot) is 'Not allowed'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|33:
   name: "'There is a maximum number of candidates to be invited for the second stage of the procedure' (BT-661-Lot) is not 'yes'"
+  nob: Det er et maksimalt antall kandidater som skal inviteres til andre trinn av prosedyren' (BT-661-Lot) er ikke 'ja'
+  history:
+  - name: "'There is a maximum number of candidates to be invited for the second stage of the procedure' (BT-661-Lot) is not 'yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|330:
   name: "'Legal type of the buyer' (BT-11-Procedure-Buyer) is not one of the following: 'Public undertaking'; 'Public undertaking, controlled by a central government authority'; 'Public undertaking, controlled by a local authority'; 'Public undertaking, controlled by a regional authority' or 'Entity with special or exclusive rights'"
+  nob: 'Kjøperens juridiske type» (BT-11-Procedure-Buyer) er ikke ett av følgende: «Offentlig foretak»; «offentlig foretak, kontrollert av en statlig myndighet», «offentlig foretak, kontrollert av en lokal myndighet», «Offentlig foretak som kontrolleres av en regional myndighet» eller «Enhet med særlige eller eksklusive rettigheter»'
+  history:
+  - name: "'Legal type of the buyer' (BT-11-Procedure-Buyer) is not one of the following: 'Public undertaking'; 'Public undertaking, controlled by a central government authority'; 'Public undertaking, controlled by a local authority'; 'Public undertaking, controlled by a regional authority' or 'Entity with special or exclusive rights'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|331:
   name: "'Legal type of the buyer' (BT-11-Procedure-Buyer) is not one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'Group of public authorities'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a contracting authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Regional authority'"
+  nob: "Kjøperens juridiske type» (BT-11-Prosedyre-Kjøper) er ikke en av følgende: «Offentligrettslig organ»; «offentligrettslig organ, kontrollert av en statlig myndighet», jf. «Offentligrettslig organ, kontrollert av en lokal myndighet», jf. «offentligrettslig organ, kontrollert av en regional myndighet», jf. «statlig myndighet», jf. 'Forsvarsentreprenør'; «EU-institusjonen, -organet eller -byrået», «Gruppe av offentlige myndigheter», jf. 'Internasjonal organisasjon'; 'Lokal myndighet'; «organisasjon som tildeler en kontrakt subsidiert av en oppdragsgiver», «organisasjon som tildeler en kontrakt subsidiert av en statlig myndighet», «Organisasjon som tildeler en kontrakt subsidiert av en kommune», jf. «organisasjon som tildeler en kontrakt subsidiert av en regional myndighet», «Regional myndighet»"
+  history:
+  - name: "'Legal type of the buyer' (BT-11-Procedure-Buyer) is not one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'Group of public authorities'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a contracting authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Regional authority'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|332:
   name: Procedure for the lot is finished and has not been awarded
+  nob: Prosedyre for partiet er ferdig og har ikke blitt tildelt
+  history:
+  - name: Procedure for the lot is finished and has not been awarded
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|333:
   name: Lowest/highest tender value and maximum/estimated framework agreement value are not filled in
+  nob: Laveste/høyeste anbudsverdi og maksimal/estimert rammeavtaleverdi er ikke fylt ut
+  history:
+  - name: Lowest/highest tender value and maximum/estimated framework agreement value are not filled in
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|334:
   name: It is not a framework contract; No winner was chosen
+  nob: Det er ikke en rammeavtale; Ingen vinner ble kåret
+  history:
+  - name: It is not a framework contract; No winner was chosen
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|335:
   name: "'Framework agreement is involved' (BT-765-Lot) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition', and 'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.' and (BT-709-LotResult) is not filled in"
+  nob: "Rammeavtale er involvert» (BT-765-Lot) er en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. 'Rammeavtale, uten gjenåpning av konkurranse', og 'Vinnerutvelgelsesstatus' (BT-142-LotResult) er 'Minst én vinner ble kåret.' og (BT-709-LotResult) er ikke fylt ut"
+  history:
+  - name: "'Framework agreement is involved' (BT-765-Lot) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition', and 'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.' and (BT-709-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|336:
   name: "'Framework agreement is involved' (BT-765-Lot) is not one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition', and 'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.' and (BT-660-LotResult) is not filled in"
+  nob: "Rammeavtale er involvert» (BT-765-Lot) er ikke en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. 'Rammeavtale, uten gjenåpning av konkurranse', og 'Vinnerutvelgelsesstatus' (BT-142-LotResult) er 'Minst én vinner ble kåret.' og (BT-660-LotResult) er ikke fylt ut"
+  history:
+  - name: "'Framework agreement is involved' (BT-765-Lot) is not one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition', and 'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.' and (BT-660-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|337:
   name: It is not a framework contract; 'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in
+  nob: Det er ikke en rammeavtale; 'Rammeavtalens maksimalverdi' (BT-709-LotResult) er ikke fylt ut
+  history:
+  - name: It is not a framework contract; 'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|338:
   name: No winner was chosen; It is not a framework contract; 'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in
+  nob: Ingen vinner ble kåret; Det er ikke en rammeavtale; 'Rammeavtalens maksimalverdi' (BT-709-LotResult) er ikke fylt ut
+  history:
+  - name: No winner was chosen; It is not a framework contract; 'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|339:
   name: No winner was chosen; It is not a framework contract
+  nob: Ingen vinner ble kåret; Det er ikke en rammekontrakt
+  history:
+  - name: No winner was chosen; It is not a framework contract
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|34:
   name: "'Type of procedure' (BT-105) must not be either 'Competitive dialogue', 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
+  nob: Type prosedyre» (BT-105) må ikke være enten «Konkurransedialog», «Innovasjonspartnerskap», jf. «Forhandlet med forutgående publisering av konkurranseutlysning/konkurranse med forhandlinger»
+  history:
+  - name: "'Type of procedure' (BT-105) must not be either 'Competitive dialogue', 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|340:
   name: Dynamic purchasing system is not used
+  nob: Dynamisk innkjøpssystem brukes ikke
+  history:
+  - name: Dynamic purchasing system is not used
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|341:
   name: The organisation cannot act as 'ID – Organisation' (OPT-300-Tenderer) or a subcontractor (OPT-301-Tenderer-SubCont)
+  nob: Organisasjonen kan ikke opptre som «ID – organisasjon» (OPT-300-tilbyder) eller underleverandør (OPT-301-Tenderer-SubCont)
+  history:
+  - name: The organisation cannot act as 'ID – Organisation' (OPT-300-Tenderer) or a subcontractor (OPT-301-Tenderer-SubCont)
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|342:
   name: If the organisation submitted 'ID – Tendering party' (OPT-310-Tender) which lead to 'Contract Tender Identifier' (BT-3202-Contract), then the organisation is a winner
+  nob: Hvis organisasjonen sendte inn 'ID – Tendering part' (OPT-310-Tender) som fører til 'Contract Tender Identifier' (BT-3202-Contract), er organisasjonen en vinner
+  history:
+  - name: If the organisation submitted 'ID – Tendering party' (OPT-310-Tender) which lead to 'Contract Tender Identifier' (BT-3202-Contract), then the organisation is a winner
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|343:
   name: "'ID – Beneficial owner' (OPT-202-UBO) is not filled in"
+  nob: ID – Reell rettighetshaver' (OPT-202-UBO) er ikke fylt ut
+  history:
+  - name: "'ID – Beneficial owner' (OPT-202-UBO) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|345:
   name: The organisation is not a 'Buyer'
+  nob: Organisasjonen er ikke en "kjøper"
+  history:
+  - name: The organisation is not a 'Buyer'
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|346:
   name: The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and the legal basis is different from 'Other', and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in
+  nob: Organisasjonen er en kjøper, og den dynamiske innkjøpsordningen kan også brukes av kjøpere som ikke er oppført i denne meldingen, og det rettslige grunnlaget er forskjellig fra «Annet», og «Sentralt innkjøpsorgan som anskaffer varer og/eller tjenester beregnet på andre kjøpere» (OPP-052) er ikke fylt ut
+  history:
+  - name: The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and the legal basis is different from 'Other', and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|347:
   name: The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and the legal basis is different from 'Other', and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in
+  nob: Organisasjonen er en kjøper, og den dynamiske innkjøpsordningen kan også brukes av kjøpere som ikke er oppført i denne meldingen, og det rettslige grunnlaget er forskjellig fra «Annet», og «Sentralt innkjøpsorgan som anskaffer varer og/eller tjenester beregnet på andre kjøpere» (OPP-052) er ikke fylt ut
+  history:
+  - name: The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and the legal basis is different from 'Other', and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|348:
   name: "'The procedure will take place in successive stages. At each stage, some participants may be eliminated' ((BT-52-Lot)) is not 'yes'; 'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
+  nob: "Prosedyren vil finne sted i påfølgende stadier. På hvert trinn kan noen deltakere bli eliminert' ((BT-52-Lot)) er ikke 'ja'; «Type prosedyre» (BT-105) er ikke en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»"
+  history:
+  - name: "'The procedure will take place in successive stages. At each stage, some participants may be eliminated' ((BT-52-Lot)) is not 'yes'; 'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|349:
   name: It is a framework contract
+  nob: Det er en rammekontrakt
+  history:
+  - name: It is a framework contract
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|35:
   name: "'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
+  nob: "Type prosedyre» (BT-105) er ikke en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående publisering av konkurranseutlysning/konkurranse med forhandlinger»"
+  history:
+  - name: "'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|350:
   name: The organisation does not take part in tendering party; 'The organisation is a natural person' (BT-633-Organization); 'The winner is listed on a regulated market' (BT-746-Organization)
+  nob: Organisasjonen deltar ikke i anbudsfesten, jf. 'Organisasjonen er en fysisk person' (BT-633-Organization); 'Vinneren er notert på et regulert marked' (BT-746-Organization)
+  history:
+  - name: The organisation does not take part in tendering party; 'The organisation is a natural person' (BT-633-Organization); 'The winner is listed on a regulated market' (BT-746-Organization)
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|351:
   name: The organisation (OPT-200-Organization-Company) takes part in a winning tender as main (OPT-300-Tenderer) or sub-tenderer (OPT-301-Tenderer-SubCont); 'The organisation is a natural person' (BT-633-Organization) is 'no' and 'The winner is listed on a regulated market' (BT-746-Organization) is 'no'
+  nob: Organisasjonen (OPT-200-Organization-Company) deltar i et vinnende anbud som hovedanbud (OPT-300-Tenderer) eller sub-tenderer (OPT-301-Tenderer-SubCont); 'Organisasjonen er en fysisk person' (BT-633-Organization) er 'nei' og 'Vinneren er notert på et regulert marked' (BT-746-Organization) er 'nei'
+  history:
+  - name: The organisation (OPT-200-Organization-Company) takes part in a winning tender as main (OPT-300-Tenderer) or sub-tenderer (OPT-301-Tenderer-SubCont); 'The organisation is a natural person' (BT-633-Organization) is 'no' and 'The winner is listed on a regulated market' (BT-746-Organization) is 'no'
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|352:
   name: At least one organisation is connected to 'Beneficial owner reference' (OPT-302-Organization)
+  nob: Minst én organisasjon er tilknyttet 'Referanse til reell rettighetshaver' (OPT-302-Organization)
+  history:
+  - name: At least one organisation is connected to 'Beneficial owner reference' (OPT-302-Organization)
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|353:
   name: "'Type of procedure' (BT-105) is 'Open' or 'Restricted'"
+  nob: Type prosedyre' (BT-105) er 'Åpen' eller 'Begrenset'
+  history:
+  - name: "'Type of procedure' (BT-105) is 'Open' or 'Restricted'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|354:
   name: "'Type of procedure' (BT-105) is 'Restricted' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
+  nob: Type prosedyre» (BT-105) er «Begrenset» eller «Forhandlet med forutgående publisering av utlysning av konkurranse / konkurranse med forhandlinger»
+  history:
+  - name: "'Type of procedure' (BT-105) is 'Restricted' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|355:
   name: Organisation is not a buyer or there is only one buyer
+  nob: Organisasjonen er ikke en kjøper, eller det er bare én kjøper
+  history:
+  - name: Organisation is not a buyer or there is only one buyer
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|356:
   name: There are two different buyers from two different countries
+  nob: Det er to forskjellige kjøpere fra to forskjellige land
+  history:
+  - name: There are two different buyers from two different countries
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|357:
   name: "'Legal basis' (BT-01) is 'Directive 2014/23/EU', and 'Type of procedure' (BT-105) is 'Negotiated without prior call for competition' or 'Other single stage procedure' or 'Other multiple stage procedure'"
+  nob: Rettslig grunnlag» (BT-01) er «direktiv 2014/23/EU», og «type prosedyre» (BT-105) er «Forhandlet uten forutgående innkalling til konkurranse» eller «Annen enkelttrinnsprosedyre» eller «Annen flertrinnsprosedyre»
+  history:
+  - name: "'Legal basis' (BT-01) is 'Directive 2014/23/EU', and 'Type of procedure' (BT-105) is 'Negotiated without prior call for competition' or 'Other single stage procedure' or 'Other multiple stage procedure'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|358:
   name: "'Type of alleged irregularity' (BT-636-LotResult) is not filled in"
+  nob: Type påstått uregelmessighet» (BT-636-LotResult) er ikke fylt ut
+  history:
+  - name: "'Type of alleged irregularity' (BT-636-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|359:
   name: "'Number of complainants' (BT-712(a)-LotResult) is not filled in"
+  nob: Antall klagers (BT-712(a)-LotResult) er ikke fylt ut
+  history:
+  - name: "'Number of complainants' (BT-712(a)-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|360:
   name: The tendering party is composed of only one main tenderer
+  nob: Tilbyderen består av kun én hovedtilbyder
+  history:
+  - name: The tendering party is composed of only one main tenderer
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|361:
   name: Duration of the lot must be greater than 4 years
+  nob: Partiets varighet må være større enn 4 år
+  history:
+  - name: Duration of the lot must be greater than 4 years
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|362:
   name: Duration of the lot must be greater than 7 years
+  nob: Partiets varighet må være større enn 7 år
+  history:
+  - name: Duration of the lot must be greater than 7 years
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|363:
   name: Duration of the lot must be greater than 8 years
+  nob: Partiets varighet må være større enn 8 år
+  history:
+  - name: Duration of the lot must be greater than 8 years
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|364:
   name: Strategic procurement is not used for the lot
+  nob: Strategiske anskaffelser brukes ikke til partiet
+  history:
+  - name: Strategic procurement is not used for the lot
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|365:
   name: Accessibility criteria are included. The procurement is not intended for use by natural persons
+  nob: Tilgjengelighetskriterier er inkludert. Anskaffelsen er ikke ment for fysiske personers bruk
+  history:
+  - name: Accessibility criteria are included. The procurement is not intended for use by natural persons
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|366:
   name: "'Security clearance is required' (BT-578) is 'no'"
+  nob: Sikkerhetsklarering kreves» (BT-578) er «nei»
+  history:
+  - name: "'Security clearance is required' (BT-578) is 'no'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|367:
   name: Late tenderer information provision is not allowed
+  nob: Informasjon om sen anbud er ikke tillatt
+  history:
+  - name: Late tenderer information provision is not allowed
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|368:
   name: Some late tenderer information provision is allowed
+  nob: Noe sen anbudsinformasjon er tillatt
+  history:
+  - name: Some late tenderer information provision is allowed
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|369:
   name: Electronic submission is required
+  nob: Elektronisk innlevering kreves
+  history:
+  - name: Electronic submission is required
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|370:
   name: Electronic submission is not allowed
+  nob: Elektronisk innlevering er ikke tillatt
+  history:
+  - name: Electronic submission is not allowed
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|371:
   name: Group of lots contains one or less lots
+  nob: Gruppe med partier inneholder ett eller færre partier
+  history:
+  - name: Group of lots contains one or less lots
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|372:
   name: "'Type' (BT-747-Lot) is not filled in"
+  nob: Type' (BT-747-Lot) er ikke fylt ut
+  history:
+  - name: "'Type' (BT-747-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|373:
   name: Group of lots consists of lots with no framework agreement
+  nob: Partigruppen består av partier uten rammeavtale
+  history:
+  - name: Group of lots consists of lots with no framework agreement
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|374:
   name: "'An obligation to be met by the tenderer concerning subcontracting' (BT-66) is not filled in"
+  nob: En forpliktelse som tilbyder skal oppfylle vedrørende underleveranser» (BT-66) er ikke oppfylt
+  history:
+  - name: "'An obligation to be met by the tenderer concerning subcontracting' (BT-66) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|375:
   name: "'End date' (BT-537-Part) is filled in; 'Other duration' (BT-538-Part) is filled in"
+  nob: Sluttdato' (BT-537-del) er fylt ut; 'Annen varighet' (BT-538-del) fylles ut
+  history:
+  - name: "'End date' (BT-537-Part) is filled in; 'Other duration' (BT-538-Part) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|376:
   name: "'Duration' (BT-36-Part) and 'End date' (BT-537-Part) are not filled in"
+  nob: Varighet' (BT-36-del) og 'Sluttdato' (BT-537-del) fylles ikke ut
+  history:
+  - name: "'Duration' (BT-36-Part) and 'End date' (BT-537-Part) are not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|377:
   name: "'Duration' (BT-36-Part) is filled in; 'Other duration' (BT-538-Part) is filled in"
+  nob: Varighet' (BT-36-del) er fylt ut; 'Annen varighet' (BT-538-del) fylles ut
+  history:
+  - name: "'Duration' (BT-36-Part) is filled in; 'Other duration' (BT-538-Part) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|378:
   name: "'Duration' (BT-36-Part) is filled in; 'End date' (BT-537-Part) is filled in"
+  nob: Varighet' (BT-36-del) er fylt ut; 'Sluttdato' (BT-537-del) fylles ut
+  history:
+  - name: "'Duration' (BT-36-Part) is filled in; 'End date' (BT-537-Part) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|379:
   name: The organisation is not a service provider, and is not a tenderer or a subcontractor which is not on a regulated market
+  nob: Organisasjonen er ikke en tjenesteyter, og er ikke en tilbyder eller underleverandør som ikke befinner seg på regulert marked
+  history:
+  - name: The organisation is not a service provider, and is not a tenderer or a subcontractor which is not on a regulated market
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|380:
   name: The organisation is not a service provider
+  nob: Virksomheten er ikke en tjenesteleverandør
+  history:
+  - name: The organisation is not a service provider
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|381:
   name: "'Description' (BT-67(a)-Procedure) is not filled in"
+  nob: Description' (BT-67(a)-Procedure) er ikke fylt ut
+  history:
+  - name: "'Description' (BT-67(a)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|382:
   name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+  nob: E-post» (BT-506-Organization-TouchPoint), «Telefon» (BT-503-Organization-TouchPoint), «Fax» (BT-739-Organization-TouchPoint), «Offisielt navn» (BT-500-Organization-TouchPoint), «Endepunkt for informasjonsutveksling (URL)» (BT-509-Organization-TouchPoint) fylles ikke ut. 'ID - Spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er fylt ut
+  history:
+  - name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|383:
   name: "'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+  nob: Telefon» (BT-503-Organization-TouchPoint), «Fax» (BT-739-Organization-TouchPoint), «Offisielt navn» (BT-500-Organization-TouchPoint), «Internett-adresse» (BT-505-Organization-TouchPoint), «Information Exchange endpoint (URL)» (BT-509-Organization-TouchPoint) fylles ikke ut. 'ID - Spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er fylt ut
+  history:
+  - name: "'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|384:
   name: "'Email' (BT-506-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+  nob: E-post' (BT-506-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Offisielt navn' (BT-500-Organization-TouchPoint), 'Internett-adresse' (BT-505-Organization-TouchPoint), 'Information Exchange endpoint (URL)' (BT-509-Organization-TouchPoint) fylles ikke ut. 'ID - Spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er fylt ut
+  history:
+  - name: "'Email' (BT-506-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|385:
   name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+  nob: E-post» (BT-506-Organization-TouchPoint), «Telefon» (BT-503-Organization-TouchPoint), «Offisielt navn» (BT-500-Organization-TouchPoint), «Internett-adresse» (BT-505-Organization-TouchPoint), «Information Exchange endpoint (URL)» (BT-509-Organization-TouchPoint) fylles ikke ut. 'ID - Spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er fylt ut
+  history:
+  - name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|386:
   name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+  nob: E-post' (BT-506-Organization-TouchPoint), 'Telefon' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) fylles ikke ut. 'ID - Spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er fylt ut
+  history:
+  - name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|387:
   name: "'Country' (BT-514-Organization-TouchPoint) is not filled in"
+  nob: Land' (BT-514-Organization-TouchPoint) er ikke fylt ut
+  history:
+  - name: "'Country' (BT-514-Organization-TouchPoint) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|388:
   name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+  nob: E-post» (BT-506-Organization-TouchPoint), «Telefon» (BT-503-Organization-TouchPoint), «Fax» (BT-739-Organization-TouchPoint), «Offisielt navn» (BT-500-Organization-TouchPoint), «Internett-adresse» (BT-505-Organization-TouchPoint) fylles ikke ut. 'ID - Spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er fylt ut
+  history:
+  - name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|389:
   name: "'Country' (BT-514-Business) does not have NUTS codes"
+  nob: Land' (BT-514-Business) har ikke NUTS-koder
+  history:
+  - name: "'Country' (BT-514-Business) does not have NUTS codes"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|390:
   name: "'Town' (BT-513-Business) is not filled in"
+  nob: By' (BT-513-Business) er ikke fylt ut
+  history:
+  - name: "'Town' (BT-513-Business) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|391:
   name: "'Postal address' (BT-510(a)-Business) is not filled in"
+  nob: Postadresse' (BT-510(a)-Business) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-510(a)-Business) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|392:
   name: "'Postal address' (BT-510(b)-Business) is not filled in"
+  nob: Postadresse» (BT-510(b)-Business) er ikke fylt ut
+  history:
+  - name: "'Postal address' (BT-510(b)-Business) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|393:
   name: "'Country' (BT-514-Business) does not have postcodes"
+  nob: Land' (BT-514-Business) har ikke postnummer
+  history:
+  - name: "'Country' (BT-514-Business) does not have postcodes"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|394:
   name: "'Country' (BT-514-Business) is not filled in"
+  nob: Land' (BT-514-Business) er ikke fylt ut
+  history:
+  - name: "'Country' (BT-514-Business) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|395:
   name: "'Applicable cross-border law' (BT-09(a)-Procedure) is not filled in"
+  nob: Gjeldende grenseoverskridende lov» (BT-09(a)-prosedyre) er ikke utfylt
+  history:
+  - name: "'Applicable cross-border law' (BT-09(a)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|4:
   name: "'The procedure is accelerated' (BT-106-Procedure) is not 'yes'"
+  nob: Prosedyren er akselerert» (BT-106-prosedyre) er ikke «ja»
+  history:
+  - name: "'The procedure is accelerated' (BT-106-Procedure) is not 'yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|40:
   name: "'Access to certain procurement documents is restricted' (BT-14-Lot) is not restricted"
+  nob: Tilgangen til visse anskaffelsesdokumenter er begrenset» (BT-14-Lot) er ikke begrenset
+  history:
+  - name: "'Access to certain procurement documents is restricted' (BT-14-Lot) is not restricted"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|405:
   name: Not all lots belonging to the group of lots have been awarded, or there is only one lot in the group of lots in which a framework agreement is involved
+  nob: Ikke alle tomter som tilhører gruppen av tomter har blitt tildelt, eller det er bare ett parti i gruppen av tomter der en rammeavtale er involvert
+  history:
+  - name: Not all lots belonging to the group of lots have been awarded, or there is only one lot in the group of lots in which a framework agreement is involved
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|406:
   name: "'Group Framework Value Lot Identifier' (BT-557) is not filled in"
+  nob: Group Framework Value Lot Identifier' (BT-557) er ikke fylt ut
+  history:
+  - name: "'Group Framework Value Lot Identifier' (BT-557) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|41:
   name: "'Access to certain procurement documents is restricted' (BT-14-Lot) is not filled in"
+  nob: Tilgangen til visse anskaffelsesdokumenter er begrenset» (BT-14-Lot) er ikke fylt ut
+  history:
+  - name: "'Access to certain procurement documents is restricted' (BT-14-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|42:
   name: "'Access to certain procurement documents is restricted' (BT-14-Lot) is restricted"
+  nob: Tilgangen til visse anskaffelsesdokumenter er begrenset» (BT-14-Lot) er begrenset
+  history:
+  - name: "'Access to certain procurement documents is restricted' (BT-14-Lot) is restricted"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|43:
   name: "'A guarantee is required' (BT-751-Lot) is not 'yes'"
+  nob: En garanti er nødvendig' (BT-751-Lot) er ikke 'ja'
+  history:
+  - name: "'A guarantee is required' (BT-751-Lot) is not 'yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|44:
   name: "'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Negotiated without prior call for competition'; 'Other multiple stage procedure'; 'Other single stage procedure'; 'Restricted'"
+  nob: "Type prosedyre» (BT-105) er en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. 'Forhandlet uten forutgående utlysning av konkurranse'; «annen prosedyre i flere trinn», «annen prosedyre i ett trinn», «Begrenset»"
+  history:
+  - name: "'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Negotiated without prior call for competition'; 'Other multiple stage procedure'; 'Other single stage procedure'; 'Restricted'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|45:
   name: "'Type of procedure' (BT-105-Lot) is 'Open'"
+  nob: Type prosedyre' (BT-105-Lot) er 'Åpen'
+  history:
+  - name: "'Type of procedure' (BT-105-Lot) is 'Open'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|46:
   name: "'Type of procedure' (BT-105-Lot) is 'Open'"
+  nob: Type prosedyre' (BT-105-Lot) er 'Åpen'
+  history:
+  - name: "'Type of procedure' (BT-105-Lot) is 'Open'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|47:
   name: "'Type of procedure' (BT-105-Lot) is 'Open'"
+  nob: Type prosedyre' (BT-105-Lot) er 'Åpen'
+  history:
+  - name: "'Type of procedure' (BT-105-Lot) is 'Open'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|48:
   name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
+  nob: Type prosedyre' (BT-105-Lot) er ikke 'Åpen'
+  history:
+  - name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|49:
   name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
+  nob: Type prosedyre' (BT-105-Lot) er ikke 'Åpen'
+  history:
+  - name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|5:
   name: "'Country' is filled in"
+  nob: Land' er fylt ut
+  history:
+  - name: "'Country' is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|50:
   name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
+  nob: Type prosedyre' (BT-105-Lot) er ikke 'Åpen'
+  history:
+  - name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|500:
   name: "'Legal basis' (BT-01(e)-Procedure) is not filled in"
+  nob: Rettslig grunnlag» (BT-01(e)-prosedyre) er ikke fylt ut
+  history:
+  - name: "'Legal basis' (BT-01(e)-Procedure) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|501:
   name: "'Type' (BT-539-Lot) is not filled in"
+  nob: Type' (BT-539-Lot) er ikke fylt ut
+  history:
+  - name: "'Type' (BT-539-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|502:
   name: "'Type' (BT-539-LotsGroup) is not filled in"
+  nob: Type' (BT-539-LotsGroup) er ikke fylt ut
+  history:
+  - name: "'Type' (BT-539-LotsGroup) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|503:
   name: "'Number of buyer review requests' (BT-635-LotResult) is not filled in"
+  nob: Antall forespørsler om kjøperanmeldelser' (BT-635-LotResult) er ikke fylt ut
+  history:
+  - name: "'Number of buyer review requests' (BT-635-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|504:
   name: "'Type of alleged irregularity' (BT-636-LotResult) is not filled in"
+  nob: Type påstått uregelmessighet» (BT-636-LotResult) er ikke fylt ut
+  history:
+  - name: "'Type of alleged irregularity' (BT-636-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|505:
   name: "'Field to publish later' (BT-195(BT-635)-LotResult) is not filled in"
+  nob: Feltet som skal publiseres senere' (BT-195(BT-635)-LotResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-635)-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|506:
   name: "'Field to publish later' (BT-195(BT-636)-LotResult) is not filled in"
+  nob: Feltet som skal publiseres senere' (BT-195(BT-636)-LotResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-636)-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|507:
   name: "'Type of procedure' (BT-105) is not 'Innovation partnership' or 'Competitive dialogue'"
+  nob: Type prosedyre» (BT-105) er ikke «Innovasjonspartnerskap» eller «Konkurransepreget dialog»
+  history:
+  - name: "'Type of procedure' (BT-105) is not 'Innovation partnership' or 'Competitive dialogue'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|509:
   name: "'Type of procedure' (BT-105) is not 'Innovation partnership' or 'Competitive dialogue'; 'Value of the prize' (BT-644) is not filled in"
+  nob: Type prosedyre» (BT-105) er ikke «Innovasjonspartnerskap» eller «Konkurransepreget dialog». «Verdien av premien» (BT-644) fylles ikke ut
+  history:
+  - name: "'Type of procedure' (BT-105) is not 'Innovation partnership' or 'Competitive dialogue'; 'Value of the prize' (BT-644) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|51:
   name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
+  nob: Type prosedyre' (BT-105-Lot) er ikke 'Åpen'
+  history:
+  - name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|510:
   name: "'Notice dispatch date (eSender)' (BT-803(d)-notice) is not filled in"
+  nob: Innkallingsdato (eSender)' (BT-803(d)-varsel) er ikke fylt ut
+  history:
+  - name: "'Notice dispatch date (eSender)' (BT-803(d)-notice) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|511:
   name: "'A non-disclosure agreement is required' (BT-801) is 'no'"
+  nob: Det kreves taushetserklæring» (BT-801) er «nei»
+  history:
+  - name: "'A non-disclosure agreement is required' (BT-801) is 'no'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|512:
   name: "'Identifier of EU funds' (BT-5011) and 'Name of EU-financed project or programme' (BT-722) are not filled in"
+  nob: Identifier of EU funds' (BT-5011) og 'Name of EU-finansiert prosjekt eller program' (BT-722) er ikke fylt ut
+  history:
+  - name: "'Identifier of EU funds' (BT-5011) and 'Name of EU-financed project or programme' (BT-722) are not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|513:
   name: "'Identifier of EU funds' (BT-5010) and 'EU funds programme' (BT-7220) are not filled in"
+  nob: Identifier of EU funds' (BT-5010) og 'EU funds programme' (BT-7220) er ikke fylt ut
+  history:
+  - name: "'Identifier of EU funds' (BT-5010) and 'EU funds programme' (BT-7220) are not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|514:
   name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' ((BT-717)) is not 'yes'"
+  nob: Anskaffelsen faller inn under Europaparlamentet og Rådet 2009/33/EF (direktivet om rene kjøretøy – CVD)' ((BT-717)) er ikke «ja»
+  history:
+  - name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' ((BT-717)) is not 'yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|515:
   name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' ((BT-717)) is not 'yes' for this lot or the lot has not been awarded"
+  nob: Anskaffelsen faller inn under Europaparlamentet og Rådet 2009/33/EF (direktivet om rene kjøretøy – CVD)' ((BT-717)) er ikke «ja» for dette partiet eller partiet ikke er tildelt
+  history:
+  - name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' ((BT-717)) is not 'yes' for this lot or the lot has not been awarded"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|516:
   name: "'The CVD legal basis to establish which category of procurement procedure applies ' (BT-735-LotResult) is not filled in"
+  nob: CVD-hjemmelen for å fastslå hvilken kategori av anskaffelsesprosedyrer som gjelder' (BT-735-LotResult) er ikke fylt ut
+  history:
+  - name: "'The CVD legal basis to establish which category of procurement procedure applies ' (BT-735-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|517:
   name: "'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) is not filled in"
+  nob: "Kjøretøykategorien som omfattes av direktiv 2009/33/EF, herunder: lette kjøretøyer (M1, M2, N1), Buss (M3); Lastebil (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) er ikke fylt ut"
+  history:
+  - name: "'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|518:
   name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' ((BT-717)) is not 'yes' for this lot"
+  nob: Anskaffelsen faller inn under Europaparlamentets og Rådets virkeområde 2009/33/EF (direktivet om rene kjøretøy – CVD)' ((BT-717)) er ikke «ja» for dette partiet
+  history:
+  - name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' ((BT-717)) is not 'yes' for this lot"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|52:
   name: "'A certain legal form must be taken by a group of tenderers that is awarded a contract' (BT-761-Lot) is not 'yes'"
+  nob: En viss juridisk form må tas av en gruppe tilbydere som tildeles en kontrakt' (BT-761-Lot) er ikke 'ja'
+  history:
+  - name: "'A certain legal form must be taken by a group of tenderers that is awarded a contract' (BT-761-Lot) is not 'yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|520:
   name: "'Number is a type of weight' (BT-5421) is not 'Order of importance'"
+  nob: Tall er en type vekt' (BT-5421) er ikke 'Rekkefølge av betydning'
+  history:
+  - name: "'Number is a type of weight' (BT-5421) is not 'Order of importance'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|523:
   name: "'Other restrictions on the place of performance' (BT-727), 'Country subentity' BT-5071 and 'Town' (BT-5131) is not filled in"
+  nob: Andre restriksjoner på fremføringsstedet» (BT-727), «Country subentity» BT-5071 og «Town» (BT-5131) er ikke fylt ut
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727), 'Country subentity' BT-5071 and 'Town' (BT-5131) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|524:
   name: "'Other restrictions on the place of performance' (BT-727), 'Country subentity' BT-5071 and 'Town' (BT-5131) is not filled in"
+  nob: Andre restriksjoner på fremføringsstedet» (BT-727), «Country subentity» BT-5071 og «Town» (BT-5131) er ikke fylt ut
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727), 'Country subentity' BT-5071 and 'Town' (BT-5131) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|525:
   name: "'Other restrictions on the place of performance' (BT-727), 'Country subentity' BT-5071 and 'Town' (BT-5131) is not filled in"
+  nob: Andre restriksjoner på fremføringsstedet» (BT-727), «Country subentity» BT-5071 og «Town» (BT-5131) er ikke fylt ut
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727), 'Country subentity' BT-5071 and 'Town' (BT-5131) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|528:
   name: "'Country' (BT-514-Organization-Touchpoint) does not have postcodes"
+  nob: Land' (BT-514-Organization-Touchpoint) har ikke postnummer
+  history:
+  - name: "'Country' (BT-514-Organization-Touchpoint) does not have postcodes"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|529:
   name: "'Information about review deadlines' (BT-99-Lot) is not filled in"
+  nob: Opplysninger om frister for gjennomgang (BT-99-Lot) fylles ikke ut
+  history:
+  - name: "'Information about review deadlines' (BT-99-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|53:
   name: "'An obligation to be met by the tenderer concerning subcontracting' (BT-65_Lot) is not 'The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC.'"
+  nob: En forpliktelse som tilbyderen skal oppfylle når det gjelder underleveranser» (BT-65_Lot) er ikke «Leverandøren må sette bort en minimumsprosent av kontrakten etter framgangsmåten fastsatt i avdeling III i direktiv 2009/81/EF.»
+  history:
+  - name: "'An obligation to be met by the tenderer concerning subcontracting' (BT-65_Lot) is not 'The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC.'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|530:
   name: "'Beneficial owner reference' (OPT-302-Organization) is not connected to any organisation"
+  nob: Reell rettighetshaverreferanse» (OPT-302-Organization) er ikke knyttet til noen organisasjon
+  history:
+  - name: "'Beneficial owner reference' (OPT-302-Organization) is not connected to any organisation"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|531:
   name: "'ID – Company' (OPT-200-Organization-Company) is not filled in"
+  nob: ID – Selskap' (OPT-200-Organization-Company) er ikke fylt ut
+  history:
+  - name: "'ID – Company' (OPT-200-Organization-Company) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|532:
   name: "'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is not filled in"
+  nob: ID – spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er ikke fylt ut
+  history:
+  - name: "'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|54:
   name: "'An obligation to be met by the tenderer concerning subcontracting' (BT-65_Lot) is not 'The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC.'"
+  nob: En forpliktelse som tilbyderen skal oppfylle når det gjelder underleveranser» (BT-65_Lot) er ikke «Leverandøren må sette bort en minimumsprosent av kontrakten etter framgangsmåten fastsatt i avdeling III i direktiv 2009/81/EF.»
+  history:
+  - name: "'An obligation to be met by the tenderer concerning subcontracting' (BT-65_Lot) is not 'The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC.'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|55:
   name: "'Framework agreement is involved' (BT-765-Lot) is not one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'"
+  nob: 'Rammeavtale er involvert» (BT-765-Lot) er ikke en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. «Rammeavtale, uten gjenåpning av konkurranse»'
+  history:
+  - name: "'Framework agreement is involved' (BT-765-Lot) is not one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|56:
   name: "'Dynamic purchasing system is involved' (BT-766) is 'Dynamic purchasing system, also usable by buyers not listed in this notice' or 'Dynamic purchasing system, only usable by buyers listed in this notice'"
+  nob: Dynamisk innkjøpssystem er involvert» (BT-766) er «Dynamisk innkjøpssystem, som også kan brukes av kjøpere som ikke er oppført i denne kunngjøringen» eller «Dynamisk innkjøpssystem, som bare kan brukes av kjøpere som er oppført i denne meldingen»
+  history:
+  - name: "'Dynamic purchasing system is involved' (BT-766) is 'Dynamic purchasing system, also usable by buyers not listed in this notice' or 'Dynamic purchasing system, only usable by buyers listed in this notice'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|57:
   name: "'Framework agreement is involved' (BT-765-Lot) is 'None'"
+  nob: Rammeavtale er involvert' (BT-765-Lot) er 'Ingen'
+  history:
+  - name: "'Framework agreement is involved' (BT-765-Lot) is 'None'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|58:
   name: "'Framework agreement is involved' (BT-765) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'"
+  nob: 'Rammeavtale er involvert» (BT-765) er en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. «Rammeavtale, uten gjenåpning av konkurranse»'
+  history:
+  - name: "'Framework agreement is involved' (BT-765) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|59:
   name: "'Type of procedure' (BT-105) is not 'Negotiated without prior call for competition'"
+  nob: Type prosedyre» (BT-105) er ikke «Forhandlet uten forutgående innkalling til konkurranse»
+  history:
+  - name: "'Type of procedure' (BT-105) is not 'Negotiated without prior call for competition'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|6:
   name: "'Country subentity' (BT-5071-Procedure) is filled in"
+  nob: Landunderenhet» (BT-5071-Prosedyre) fylles ut
+  history:
+  - name: "'Country subentity' (BT-5071-Procedure) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|60:
   name: "'Justification for direct award' (BT-136-Result) is filled in"
+  nob: Begrunnelse for direkte tildeling» (BT-136-Resultat) er fylt ut
+  history:
+  - name: "'Justification for direct award' (BT-136-Result) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|61:
   name: "'Justification for direct award' (BT-136-Procedure) is not one of the following: 'Only irregular or unacceptable tenders were received in response to a previous notice. All and only those tenderers of the previous procedure which have satisfied the selection criteria, have not fulfilled the exclusion grounds and have satisfied formal requirements, were included in the negotiations'; 'Need for additional works or services by the original contractor'; 'New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive'; 'No suitable tenders, requests to participate, or applications were received in response to a previous notice'; 'Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive'; 'Service contract to be awarded to the winner or one of winners under the rules of a design contest'"
+  nob: 'Begrunnelse for direkte tildeling» (BT-136-prosedyre) er ikke en av følgende: «Kun irregulære eller uakseptable anbud ble mottatt som følge av et tidligere varsel. Alle og bare de tilbydere av den tidligere framgangsmåten som har oppfylt utvelgingskriteriene, ikke har oppfylt utelukkelsesgrunnene og har oppfylt formelle krav, ble inkludert i forhandlingene. «behov for ytterligere bygge- og anleggsarbeider eller tjenester fra den opprinnelige entreprenøren», «nye bygge- og anleggsarbeider eller tjenester som utgjør en gjentakelse av eksisterende bygge- og anleggsarbeider eller tjenester og som er bestilt på de strenge vilkår som er fastsatt i direktivet», «Ingen egnede anbud, forespørsler om å delta eller søknader ble mottatt som svar på en tidligere kunngjøring», jf. «Delvis utskifting eller utvidelse av eksisterende varer eller installasjoner av den opprinnelige leverandøren som er bestilt på de strenge vilkårene som er angitt i direktivet», "Servicekontrakt som skal tildeles vinneren eller en av vinnerne i henhold til reglene for en designkonkurranse"'
+  history:
+  - name: "'Justification for direct award' (BT-136-Procedure) is not one of the following: 'Only irregular or unacceptable tenders were received in response to a previous notice. All and only those tenderers of the previous procedure which have satisfied the selection criteria, have not fulfilled the exclusion grounds and have satisfied formal requirements, were included in the negotiations'; 'Need for additional works or services by the original contractor'; 'New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive'; 'No suitable tenders, requests to participate, or applications were received in response to a previous notice'; 'Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive'; 'Service contract to be awarded to the winner or one of winners under the rules of a design contest'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|62:
   name: "'Winner selection status' (BT-142-LotResult) is not 'No winner was chosen and the competition is closed.'"
+  nob: Status for utvelgelse av vinner» (BT-142-LotResult) er ikke «Ingen vinner ble kåret, og konkurransen er lukket».
+  history:
+  - name: "'Winner selection status' (BT-142-LotResult) is not 'No winner was chosen and the competition is closed.'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|63:
   name: "'Framework agreement is involved' (BT-765) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'; and 'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'"
+  nob: "Rammeavtale er involvert» (BT-765) er en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. «Rammeavtale, uten gjenåpning av konkurransen», jf. og 'Vinnerutvelgelsesstatus' (BT-142-LotResult) kan ikke være 'Minst én vinner ble kåret.'"
+  history:
+  - name: "'Framework agreement is involved' (BT-765) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'; and 'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|64:
   name: "'Framework agreement is involved' (BT-765) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'; and 'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'"
+  nob: "Rammeavtale er involvert» (BT-765) er en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. «Rammeavtale, uten gjenåpning av konkurransen», jf. og 'Vinnerutvelgelsesstatus' (BT-142-LotResult) kan ikke være 'Minst én vinner ble kåret.'"
+  history:
+  - name: "'Framework agreement is involved' (BT-765) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'; and 'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|65:
   name: "'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.'"
+  nob: Status for valg av vinner» (BT-142-LotResult) er «Minst én vinner ble kåret».
+  history:
+  - name: "'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|66:
   name: "'Winner selection status' (BT-142-LotResult) is not 'At least one winner was chosen.'; 'ID – Lot result' (OPT-322) is not filled in"
+  nob: Status for valg av vinner' (BT-142-LotResult) er ikke 'Minst én vinner ble kåret.'; 'ID – Lot result' (OPT-322) er ikke fylt ut
+  history:
+  - name: "'Winner selection status' (BT-142-LotResult) is not 'At least one winner was chosen.'; 'ID – Lot result' (OPT-322) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|67:
   name: "'Subcontracting' (BT-773-Tender) is not 'Yes'"
+  nob: Underleverandør» (BT-773-Anbud) er ikke «Ja»
+  history:
+  - name: "'Subcontracting' (BT-773-Tender) is not 'Yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|68:
   name: "'Subcontracting value is known' (BT-730-Tender) is not 'yes'"
+  nob: Underentreprise er kjent» (BT-730-Tender) er ikke «ja»
+  history:
+  - name: "'Subcontracting value is known' (BT-730-Tender) is not 'yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|69:
   name: "'Subcontracting' (BT-773-Tender) is not 'Yes'"
+  nob: Underleverandør» (BT-773-Anbud) er ikke «Ja»
+  history:
+  - name: "'Subcontracting' (BT-773-Tender) is not 'Yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|7:
   name: "'Country' (BT-5141-Part) is filled in"
+  nob: Land' (BT-5141-del) er fylt ut
+  history:
+  - name: "'Country' (BT-5141-Part) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|70:
   name: "'Subcontracting percentage is known' ((BT-731-Tender)) is not 'yes'"
+  nob: Underentreprise er kjent» ((BT-731-Anbud)) er ikke «ja»
+  history:
+  - name: "'Subcontracting percentage is known' ((BT-731-Tender)) is not 'yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|71:
   name: "'Subcontracting' (BT-773-Tender) is 'Yes'"
+  nob: Underleverandør» (BT-773-Anbud) er «Ja»
+  history:
+  - name: "'Subcontracting' (BT-773-Tender) is 'Yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|72:
   name: No winner was chosen or 'Framework agreement is involved' (BT-765-Lot) does not correspond to the framework agreement of the procedure
+  nob: Ingen vinner ble kåret eller 'Rammeavtale er involvert' (BT-765-Lot) samsvarer ikke med rammeavtalen for prosedyren
+  history:
+  - name: No winner was chosen or 'Framework agreement is involved' (BT-765-Lot) does not correspond to the framework agreement of the procedure
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|74:
   name: "'Version of the previous notice to be changed' (BT-758-notice) is not filled in"
+  nob: Versjon av forrige varsel som skal endres» (BT-758-varsel) er ikke fylt ut
+  history:
+  - name: "'Version of the previous notice to be changed' (BT-758-notice) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|76:
   name: "'Value of the prize' (BT-644-Lot) is not filled in"
+  nob: Verdien av premien' (BT-644-Lot) er ikke fylt ut
+  history:
+  - name: "'Value of the prize' (BT-644-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|77:
   name: "'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
+  nob: "Type prosedyre» (BT-105) er en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»"
+  history:
+  - name: "'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|78:
-  name: 'Type of procedure'' (BT-105) is not one of the following: ''Competitive dialogue''; ''Innovation partnership''; ''Negotiated with prior publication of a call for competition / competitive with negotiation''; ''Other multiple stage procedure''; ''Restricted'''
+  name: "Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
+  nob: "Type prosedyre» (BT-105) er ikke en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»"
+  history:
+  - name: "Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|79:
   name: "'Deadline for receipt of expressions of interest' (BT-630(d)-Lot) is not filled in"
+  nob: Frist for mottak av interesseerklæringer» (BT-630(d)-Lot) er ikke fylt ut
+  history:
+  - name: "'Deadline for receipt of expressions of interest' (BT-630(d)-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|8:
   name: "'Country subentity' (BT-5071-Part) is filled in"
+  nob: Landunderenhet» (BT-5071-del) fylles ut
+  history:
+  - name: "'Country subentity' (BT-5071-Part) is filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|80:
-  name: 'Type of procedure'' (BT-105) is one of the following: ''Competitive dialogue''; ''Innovation partnership''; ''Negotiated with prior publication of a call for competition / competitive with negotiation''; ''Other multiple stage procedure''; ''Restricted'''
+  name: "Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
+  nob: "Type prosedyre» (BT-105) er en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»"
+  history:
+  - name: "Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|82:
   name: the value chosen for BT-02-Notice is equal to 'Change notice'
+  nob: verdien valgt for BT-02-varsel er lik 'Endringsmelding'
+  history:
+  - name: the value chosen for BT-02-Notice is equal to 'Change notice'
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|83:
   name: "'Tender Payment Value' (BT-779-Tender) is not filled in"
+  nob: Betalingsverdi» (BT-779-Tender) er ikke fylt ut
+  history:
+  - name: "'Tender Payment Value' (BT-779-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|84:
   name: "'Contract duration is extended due to essential assets necessary for the provision of the service' (OPP-020-Contract) is not 'yes'"
+  nob: Kontraktens varighet forlenges på grunn av vesentlige eiendeler som er nødvendige for levering av tjenesten» (OPP-020-Kontrakt) er ikke «ja»
+  history:
+  - name: "'Contract duration is extended due to essential assets necessary for the provision of the service' (OPP-020-Contract) is not 'yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|85:
   name: "'List of assets used for the provision of the public services' (OPP-020-Contract) is not 'yes'"
+  nob: Liste over eiendeler som brukes til levering av offentlige tjenester' (OPP-020-Kontrakt) er ikke 'ja'
+  history:
+  - name: "'List of assets used for the provision of the public services' (OPP-020-Contract) is not 'yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|86:
   name: "'Significance of the essential assets provided in relation to the overall assets needed for the provision of the public services' (OPP-020-Contract) is not 'yes'"
+  nob: Betydningen av de vesentlige eiendelene som tilbys i forhold til de samlede eiendelene som er nødvendige for levering av offentlige tjenester» (OPP-020-kontrakten) er ikke «ja»
+  history:
+  - name: "'Significance of the essential assets provided in relation to the overall assets needed for the provision of the public services' (OPP-020-Contract) is not 'yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|87:
   name: "'The execution of the contract must be performed within the framework of sheltered employment programmes' (BT-736-Lot) is not 'yes'"
+  nob: Gjennomføringen av kontrakten må skje innenfor rammen av programmer for skjermet sysselsetting» (BT-736-Lot) er ikke «ja»
+  history:
+  - name: "'The execution of the contract must be performed within the framework of sheltered employment programmes' (BT-736-Lot) is not 'yes'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|89:
   name: "'ID – Contract' (OPT-315-LotResult) is not empty"
+  nob: ID – Kontrakt' (OPT-315-LotResult) er ikke tom
+  history:
+  - name: "'ID – Contract' (OPT-315-LotResult) is not empty"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|90:
   name: "'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'"
+  nob: Status for valg av vinner» (BT-142-LotResult) kan ikke være «Minst én vinner ble kåret».
+  history:
+  - name: "'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|91:
   name: "'Tender identifier' (BT-3201-Tender) is not filled in"
+  nob: Betalingsmiddelidentifikator' (BT-3201-Tender) er ikke fylt ut
+  history:
+  - name: "'Tender identifier' (BT-3201-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|93:
   name: "'Other restrictions on the place of performance' (BT-727-Lot) is 'Anywhere' or 'Anywhere in the European Economic Area'"
+  nob: Andre restriksjoner på ytelsesstedet' (BT-727-Lot) er 'Hvor som helst' eller 'Hvor som helst i Det europeiske økonomiske samarbeidsområdet'
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727-Lot) is 'Anywhere' or 'Anywhere in the European Economic Area'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|94:
   name: "'Other restrictions on the place of performance' (BT-727-Part) must not be 'Anywhere' or 'Anywhere in the European Economic Area'"
+  nob: Andre restriksjoner på ytelsesstedet» (BT-727-del) må ikke være «hvor som helst» eller «hvor som helst i EØS-området»
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727-Part) must not be 'Anywhere' or 'Anywhere in the European Economic Area'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|95:
   name: "'Other restrictions on the place of performance' (BT-727-Procedure) is 'Anywhere' or 'Anywhere in the European Economic Area'"
+  nob: Andre restriksjoner på ytelsesstedet' (BT-727-prosedyre) er 'Hvor som helst' eller 'Hvor som helst i Det europeiske økonomiske samarbeidsområdet'
+  history:
+  - name: "'Other restrictions on the place of performance' (BT-727-Procedure) is 'Anywhere' or 'Anywhere in the European Economic Area'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|96:
   name: "'Award criterion number' (BT-541-Lot) is filled in, 'Number is a fixed value' (BT-5422-Lot) and 'Number is a type of threshold' (BT-5423-Lot) are not filled in"
+  nob: Tildelingskriterienummer' (BT-541-Lot) fylles ut, 'Tallet er en fast verdi' (BT-5422-Lot) og 'Tall er en type terskel' (BT-5423-Lot) fylles ikke ut
+  history:
+  - name: "'Award criterion number' (BT-541-Lot) is filled in, 'Number is a fixed value' (BT-5422-Lot) and 'Number is a type of threshold' (BT-5423-Lot) are not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|97:
   name: "'Award criterion number' (BT-541-LotsGroup) is filled in, 'Number is a fixed value' (BT-5422-LotsGroup) and 'Number is a type of threshold' (BT-5423-LotsGroup) are not filled in"
+  nob: Tildelingskriterienummer' (BT-541-LotsGroup) fylles ut, 'Nummer er en fast verdi' (BT-5422-LotsGroup) og 'Antall er en type terskel' (BT-5423-LotsGroup) fylles ikke ut
+  history:
+  - name: "'Award criterion number' (BT-541-LotsGroup) is filled in, 'Number is a fixed value' (BT-5422-LotsGroup) and 'Number is a type of threshold' (BT-5423-LotsGroup) are not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|534:
   name: "'The tender was ranked' (BT-1711) is not filled in; 'The tender was ranked' (BT-1711) is 'no'"
+  nob: Anbudet ble rangert» (BT-1711) er ikke fylt ut; «Anbudet ble rangert» (BT-1711) er «nei»
+  history:
+  - name: "'The tender was ranked' (BT-1711) is not filled in; 'The tender was ranked' (BT-1711) is 'no'"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|535:
   name: There is no framework agreement in the lot
+  nob: Det er ingen rammeavtale i partiet
+  history:
+  - name: There is no framework agreement in the lot
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|537:
   name: There is no framework agreement in any of the lots
+  nob: Det er ingen rammeavtale på noen av partiene
+  history:
+  - name: There is no framework agreement in any of the lots
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|538:
   name: There is no framework agreement in any of the lots in the group of lots
+  nob: Det er ingen rammeavtale i noen av partiene i partigruppen
+  history:
+  - name: There is no framework agreement in any of the lots in the group of lots
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|539:
   name: It is not a framework contract; 'Re-estimated value of the framework agreement' (BT-660-LotResult) is not filled in
+  nob: Det er ikke en rammeavtale; 'Re-estimated value of the framework agreement' (BT-660-LotResult) er ikke fylt ut
+  history:
+  - name: It is not a framework contract; 'Re-estimated value of the framework agreement' (BT-660-LotResult) is not filled in
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|540:
   name: No winner was chosen; It is not a framework contract; 'Re-estimated value of the framework agreement' (BT-660-LotResult) is not filled in
+  nob: Ingen vinner ble kåret; Det er ikke en rammeavtale; 'Re-estimated value of the framework agreement' (BT-660-LotResult) er ikke fylt ut
+  history:
+  - name: No winner was chosen; It is not a framework contract; 'Re-estimated value of the framework agreement' (BT-660-LotResult) is not filled in
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|542:
   name: "'Group Framework Value Lot Identifier' (BT-556) is filled in and the 'Group Framework Re-estimated Value (BT-1561)' is not filled in"
+  nob: Group Framework Value Lot Identifier' (BT-556) fylles ut og 'Group Framework Re-estimated Value (BT-1561)' fylles ikke ut
+  history:
+  - name: "'Group Framework Value Lot Identifier' (BT-556) is filled in and the 'Group Framework Re-estimated Value (BT-1561)' is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|543:
   name: "'Group Framework Value Lot Identifier' (BT-556) is filled in and the 'Estimated value of the framework agreements in the group of lots' is not filled in"
+  nob: Group Framework Value Lot Identifier' (BT-556) fylles ut og 'Estimert verdi av rammeavtalene i partigruppen' fylles ikke ut
+  history:
+  - name: "'Group Framework Value Lot Identifier' (BT-556) is filled in and the 'Estimated value of the framework agreements in the group of lots' is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|544:
   name: "'Approximate value of the framework agreements' (BT-1118-NoticeResult) is not filled in"
+  nob: Omtrentlig verdi av rammeavtalene» (BT-1118-NoticeResult) er ikke fylt ut
+  history:
+  - name: "'Approximate value of the framework agreements' (BT-1118-NoticeResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|545:
   name: "'Field to publish later' (BT-195(BT-1118)-NoticeResult) is not filled in"
+  nob: Feltet som skal publiseres senere' (BT-195(BT-1118)-NoticeResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-1118)-NoticeResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|546:
   name: "'Re-estimated value of the framework agreements within a group of lots' (BT-1561-NoticeResult) is not filled in"
+  nob: Reestimert verdi av rammeavtalene innenfor en gruppe partier» (BT-1561-NoticeResult) er ikke fylt ut
+  history:
+  - name: "'Re-estimated value of the framework agreements within a group of lots' (BT-1561-NoticeResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|547:
   name: "'Field to publish later' (BT-195(BT-1561)-NoticeResult) is not filled in"
+  nob: Feltet som skal publiseres senere» (BT-195(BT-1561)-NoticeResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-1561)-NoticeResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|548:
   name: No lot has been awarded and the only non-awarding reason provided is 'No tenders, requests to participate or projects were received'
+  nob: Ingen tomt har blitt tildelt, og den eneste ikke-tildelingsgrunnen som er oppgitt er "Ingen anbud, forespørsler om å delta eller prosjekter ble mottatt"
+  history:
+  - name: No lot has been awarded and the only non-awarding reason provided is 'No tenders, requests to participate or projects were received'
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|549:
   name: At least one lot has been awarded
+  nob: Minst ett parti er tildelt
+  history:
+  - name: At least one lot has been awarded
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|550:
   name: "'ID – Tender' (OPT-321-Tender) is not filled in"
+  nob: ID – Tender' (OPT-321-Tender) er ikke fylt ut
+  history:
+  - name: "'ID – Tender' (OPT-321-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|551:
   name: "'ID – Tender' (OPT-321-Tender) is not filled in"
+  nob: ID – Tender' (OPT-321-Tender) er ikke fylt ut
+  history:
+  - name: "'ID – Tender' (OPT-321-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|552:
   name: "'ID – Lot result' (OPT-322) is not filled in"
+  nob: ID – Lot result' (OPT-322) er ikke fylt ut
+  history:
+  - name: "'ID – Lot result' (OPT-322) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|553:
   name: "'Results of lots' is not filled in; Tender for the lot covered by 'Procedure lot result' is not filled in; No tender is filled in and no lot is specified for the 'Procedure lot result'; The competition is still ongoing"
+  nob: Resultater av lodd' er ikke fylt ut; Anbud på partiet som omfattes av "Prosedyrepartiresultat" fylles ikke ut; Det fylles ikke ut noe anbud og det spesifiseres ikke noe parti for 'Prosedyrepartiresultatet'; Konkurransen pågår fortsatt
+  history:
+  - name: "'Results of lots' is not filled in; Tender for the lot covered by 'Procedure lot result' is not filled in; No tender is filled in and no lot is specified for the 'Procedure lot result'; The competition is still ongoing"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|554:
   name: No lots have been awarded
+  nob: Ingen tomter er tildelt
+  history:
+  - name: No lots have been awarded
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|555:
   name: "'ID – Contract' (OPT-316-Contract) is not filled in; 'ID – Tender' (OPT-321-Tender) is not filled in"
+  nob: ID – Kontrakt' (OPT-316-Contract) er ikke fylt ut; 'ID – Tender' (OPT-321-Tender) er ikke fylt ut
+  history:
+  - name: "'ID – Contract' (OPT-316-Contract) is not filled in; 'ID – Tender' (OPT-321-Tender) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|556:
   name: "'ID – Contract' (OPT-316-Contract) is not filled in"
+  nob: ID – Kontrakt' (OPT-316-Contract) er ikke fylt ut
+  history:
+  - name: "'ID – Contract' (OPT-316-Contract) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|557:
   name: Lot ID is not filled in
+  nob: Parti-ID fylles ikke ut
+  history:
+  - name: Lot ID is not filled in
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|558:
   name: The service provider is not identified
+  nob: Tjenesteleverandøren er ikke identifisert
+  history:
+  - name: The service provider is not identified
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|560:
   name: "'Re-estimated value of the framework agreement' (BT-660-LotResult) is not filled in"
+  nob: Reestimert verdi av rammeavtalen» (BT-660-LotResult) er ikke fylt ut
+  history:
+  - name: "'Re-estimated value of the framework agreement' (BT-660-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|561:
   name: "'Field to publish later' (BT-195(BT-660)-LotResult) is not filled in"
+  nob: Feltet som skal publiseres senere' (BT-195(BT-660)-LotResult) er ikke fylt ut
+  history:
+  - name: "'Field to publish later' (BT-195(BT-660)-LotResult) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false
 expression|name|568:
   name: "'Execution requirement code' (OPT-060-Lot) is not filled in"
+  nob: Utførelseskravkode' (OPT-060-Lot) er ikke fylt ut
+  history:
+  - name: "'Execution requirement code' (OPT-060-Lot) is not filled in"
+    history: []
+    nob_verify: false
+  nob_verify: false

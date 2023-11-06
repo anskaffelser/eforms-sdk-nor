@@ -1,149 +1,295 @@
 notice|name|1:
   name: Notice of the publication of a prior information notice on a buyer profile – general directive
   nob: Kunngjøring av publisering av en veiledende kunngjøring på kjøperprofil - generelt direktiv
+  history: []
+  nob_verify: false
 notice|name|10:
   name: Prior information notice used as a call for competition – general directive, standard regime
   nob: Forhåndskunngjøring brukt til kunngjøring av konkurranse – generelt direktiv, standard regime
+  history: []
+  nob_verify: false
 notice|name|11:
   name: Periodic indicative notice used as a call for competition – sectoral directive, standard regime
   nob: Periodisk veiledende kunngjøring brukt til kunngjøring av konkurranse — sektordirektivet, standard regime
+  history: []
+  nob_verify: false
 notice|name|12:
   name: Prior information notice used as a call for competition – general directive, light regime
   nob: Forhåndskunngjøring brukt til kunngjøring av konkurranse — generelt direktiv, enkelt regime
+  history: []
+  nob_verify: false
 notice|name|13:
   name: Periodic indicative notice used as a call for competition – sectoral directive, light regime
   nob: Periodisk veiledende kunngjøring brukt til kunngjøring av konkurranse — sektordirektivet, enkelt regime
+  history: []
+  nob_verify: false
 notice|name|14:
   name: Prior information notice used as a call for competition – concessions directive, light regime
   nob: Forhåndskunngjøring brukt til kunngjøring av konkurranse — konsesjonsdirektivet, enkelt regime
+  history: []
+  nob_verify: false
 notice|name|15:
   name: Notice on the existence of a qualification system – sectoral directive
   nob: Kunngjøring av en etablert kvalifikasjonsordning — sektordirektivet
+  history: []
+  nob_verify: false
 notice|name|16:
   name: Contract notice – general directive, standard regime
   nob: Kunngjøring av konkurranse — generelt direktiv, standard regime
+  history: []
+  nob_verify: false
 notice|name|17:
   name: Contract notice – sectoral directive, standard regime
   nob: Kunngjøring av konkurranse — sektordirektivet, standard regime
+  history: []
+  nob_verify: false
 notice|name|18:
   name: Contract notice – defence directive, standard regime
   nob: Kunngjøring av konkurranse — forsvarsdirektivet, standard regime
+  history: []
+  nob_verify: false
 notice|name|19:
   name: Concession notice – concessions directive, standard regime
   nob: Konsesjonskunngjøring — konsesjonsdirektiv, standardregime
+  history: []
+  nob_verify: false
 notice|name|2:
   name: Notice of the publication of a periodic indicative notice on a buyer profile – sectoral directive
   nob: Kunngjøring av publisering av periodisk veiledende kunngjøring på kjøperprofil - sektordirektivet
+  history: []
+  nob_verify: false
 notice|name|20:
   name: Contract notice – general directive, light regime
   nob: Kunngjøring av konkurranse — generelt direktiv, enkelt regime
+  history: []
+  nob_verify: false
 notice|name|21:
   name: Contract notice – sectoral directive, light regime
   nob: Kunngjøring av konkurranse — sektordirektivet, enkelt regime
+  history: []
+  nob_verify: false
 notice|name|22:
   name: Subcontract notice – defence directive
-  nob: Kunngjøring av delkontrak - forsvaresdirektivet 
+  nob: Kunngjøring av delkontrak - forsvaresdirektivet
+  history: []
+  nob_verify: false
 notice|name|23:
   name: Design contest notice – general directive, design
   nob: Kunngjøring av plan- og designkonkurranse – generelt direktiv, design
+  history: []
+  nob_verify: false
 notice|name|24:
   name: Design contest notice – sectoral directive, design
   nob: Kunngjøring av plan- og designkonkurranse – sektordirektivet, design
+  history: []
+  nob_verify: false
 notice|name|25:
   name: Voluntary ex-ante transparency notice – general directive
   nob: Intensjonskunngjøring - generelt direktiv
+  history: []
+  nob_verify: false
 notice|name|26:
   name: Voluntary ex-ante transparency notice – sectoral directive
   nob: Intensjonskunngjøring - sektordirektivet
+  history: []
+  nob_verify: false
 notice|name|27:
   name: Voluntary ex-ante transparency notice – defence directive
   nob: Intensjonskunngjøring - forsvarsdirektivet
+  history: []
+  nob_verify: false
 notice|name|28:
   name: Voluntary ex-ante transparency notice – concession directive
   nob: Intensjonskunngjøring - konsesjonsdirektivet
+  history: []
+  nob_verify: false
 notice|name|29:
   name: Contract award notice – general directive, standard regime
   nob: Kunngjøring av kontraktsinngåelse - generelt direktiv, standard regime
+  history: []
+  nob_verify: false
 notice|name|3:
   name: Notice of the publication of a prior information notice on a buyer profile – defence directive
   nob: Kunngjøring av publisering av periodisk veiledende kunngjøring på kjøperprofil - forsvarsdirektivet
+  history: []
+  nob_verify: false
 notice|name|30:
   name: Contract award notice – sectoral directive, standard regime
   nob: Kunngjøring av kontraktsinngåelse - sektordirektivet, standard regime
+  history: []
+  nob_verify: false
 notice|name|31:
   name: Contract award notice – defence directive, standard regime
   nob: Kunngjøring av kontraktsinngåelse - forsvarsdirektivet, standard regime
+  history: []
+  nob_verify: false
 notice|name|32:
   name: Concession award notice – concession directive, standard regime
   nob: Kunngjøring av konsesjonskontraktsinngåelse - konsesjonsdirektivet, standard regime
+  history: []
+  nob_verify: false
 notice|name|33:
   name: Contract award notice – general directive, light regime
   nob: Kunngjøring av kontraktsinngåelse - generelt direktiv, enkelt regime
+  history: []
+  nob_verify: false
 notice|name|34:
   name: Contract award notice – sectoral directive, light regime
   nob: Kunngjøring av kontraktsinngåelse - sektordirektivet, enkelt regime
+  history: []
+  nob_verify: false
 notice|name|35:
   name: Concession award notice – concessions directive, light regime
   nob: Kunngjøring av konsesjonskontraktsinngåelse - konsesjonsdirektivet, enkelt regime
+  history: []
+  nob_verify: false
 notice|name|36:
   name: Design contest result notice – general directive, design
   nob: Kunngjøring av resultat av plan- og designkonkurranse - generelt direktiv, design
+  history: []
+  nob_verify: false
 notice|name|37:
   name: Design contest result notice – sectoral directive, design
   nob: Kunngjøring av resultat av plan- og designkonkurranse - sektordirektivet, design
+  history: []
+  nob_verify: false
 notice|name|38:
   name: Contract modification notice – general directive
   nob: Kunngjøring av kontraktsendring - generelt direktiv
+  history: []
+  nob_verify: false
 notice|name|39:
   name: Contract modification notice – sectoral directive
   nob: Kunngjøring av kontraktsendring - sektordirektivet
+  history: []
+  nob_verify: false
 notice|name|4:
   name: Prior information notice used only for information – general directive
   nob: Forhåndskunngjøring til informasjon - generelt direktiv
+  history: []
+  nob_verify: false
 notice|name|40:
   name: Contract modification notice – concessions directive
   nob: Kunngjøring av kontraktsendring - forsvarsdirektivet
+  history: []
+  nob_verify: false
 notice|name|5:
   name: Periodic indicative notice used only for information – sectoral directive
   nob: Forhåndskunngjøring til informasjon - sektordirektivet
+  history: []
+  nob_verify: false
 notice|name|6:
   name: Prior information notice used only for information – defence directive
   nob: Forhåndskunngjøring til informasjon - forsvarsdirektivet
+  history: []
+  nob_verify: false
 notice|name|7:
   name: Prior information notice used to shorten time limits for receipt of tenders – general directive
   nob: Forhåndskunngjøring til å forkorte tilbudsfrist - generelt direktiv
+  history: []
+  nob_verify: false
 notice|name|8:
   name: Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive
   nob: Periodisk veiledende kunngjøring til å forkorte tilbudsfrit - sektordrektivet
+  history: []
+  nob_verify: false
 notice|name|9:
   name: Prior information notice used to shorten time limits for receipt of tenders – defence directive
   nob: Forhåndskunngjøring til å forkorte tilbudsfrist - forsvarsdirektivet
+  history: []
+  nob_verify: false
 notice|name|CEI:
   name: Call for expressions of interest
+  nob: Oppfordring til å uttrykke interesse
+  history:
+  - name: Call for expressions of interest
+    history: []
+    nob_verify: false
+  nob_verify: false
 notice|name|T01:
   name: Prior information notice for public service contract
+  nob: Forhåndsmelding om kontrakt om offentlig tjeneste
+  history:
+  - name: Prior information notice for public service contract
+    history: []
+    nob_verify: false
+  nob_verify: false
 notice|name|T02:
   name: Information notice for award of public service contract
+  nob: Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
+  history:
+  - name: Information notice for award of public service contract
+    history: []
+    nob_verify: false
+  nob_verify: false
 notice|name|X01:
   name: European Economic Interest Grouping
+  nob: Europeisk økonomisk interessegruppering
+  history:
+  - name: European Economic Interest Grouping
+    history: []
+    nob_verify: false
+  nob_verify: false
 notice|name|X02:
   name: European Company / European Cooperative Society
+  nob: Det europeiske selskap / European Cooperative Society
+  history:
+  - name: European Company / European Cooperative Society
+    history: []
+    nob_verify: false
+  nob_verify: false
 notice|name|E1:
   name: Preliminary market consultation notice
+  nob: Foreløpig varsel om markedskonsultasjon
+  history:
+  - name: Preliminary market consultation notice
+    history: []
+    nob_verify: false
+  nob_verify: false
 notice|name|E2:
   name: Below threshold prior information notice (PIN) only
+  nob: Bare varsel om forhåndsinformasjon under terskelen (PIN)
+  history:
+  - name: Below threshold prior information notice (PIN) only
+    history: []
+    nob_verify: false
+  nob_verify: false
 notice|name|E3:
   name: Below threshold contract notice (CN) general
+  nob: Generelt under terskelvarsel om kontrakt (CN)
+  history:
+  - name: Below threshold contract notice (CN) general
+    history: []
+    nob_verify: false
+  nob_verify: false
 notice|name|E4:
   name: Below threshold contract award notice (CAN) general
+  nob: Varsel om kontraktstildeling under terskelen (CAN) generelt
+  history:
+  - name: Below threshold contract award notice (CAN) general
+    history: []
+    nob_verify: false
+  nob_verify: false
 notice|name|E5:
   name: Contract completion notice
+  nob: Varsel om fullføring av kontrakt
+  history:
+  - name: Contract completion notice
+    history: []
+    nob_verify: false
+  nob_verify: false
 notice|name|N4:
   name: Norwegian prior information notice used only for information
   nob: Nasjonal forhåndskunngjøring
+  history: []
+  nob_verify: false
 notice|name|N16:
   name: Norwegian contract notice
   nob: Nasjonal kunngjøring av konkurranse
+  history: []
+  nob_verify: false
 notice|name|N29:
   name: Norwegian Contract award notice
   nob: Nasjonal kunngjøring av kontraktsinngåelse
+  history: []
+  nob_verify: false

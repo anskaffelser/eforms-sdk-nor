@@ -1,238 +1,822 @@
 auxiliary|text|accessibility:
   name: Accessibility criteria
+  nob: Kriterier for tilgjengelighet
+  history:
+  - name: Accessibility criteria
+    nob: Kriterier for tilgjengelighet
+    history: []
+    nob_verify: false
+  - name: Accessibility criteria
+    nob: Kriterier for
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|additional-role:
   name: Additional roles
+  nob: Flere roller
+  history: []
+  nob_verify: false
 auxiliary|text|adhoc-communication:
   name: Ad hoc communication channel
+  nob: Ad hoc-kommunikasjonskanal
+  history: []
+  nob_verify: false
 auxiliary|text|award-criteria:
   name: Award criteria
+  nob: Tildelingskriterier
+  history:
+  - name: Award criteria
+    nob: Kriterier for tildeling
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|beneficial-owner:
   name: Beneficial owner
+  nob: Reell rettighetshaver
+  history: []
+  nob_verify: false
 auxiliary|text|buyer:
   name: Buyer
+  nob: Kjøper
+  history: []
+  nob_verify: false
 auxiliary|text|change:
   name: Change
+  nob: Endring
+  history:
+  - name: Change
+    nob: Forandre
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|concession-value:
   name: Concession value
+  nob: Konsesjonsverdi
+  history: []
+  nob_verify: false
 auxiliary|text|contract-information:
   name: Contract information
+  nob: Informasjon om kontrakt
+  history: []
+  nob_verify: false
 auxiliary|text|contract-terms:
   name: Terms of contract
+  nob: Vilkår for kontrakt
+  history: []
+  nob_verify: false
 auxiliary|text|contractor-legal-form:
   name: Legal form of the contractor
+  nob: Oppdragsgivers juridiske form
+  history:
+  - name: Legal form of the contractor
+    nob: Entreprenørens juridiske form
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|criterion:
   name: Criterion
+  nob: Kriterium
+  history: []
+  nob_verify: false
 auxiliary|text|cross-border-law:
   name: Applicable cross-border law
+  nob: Gjeldende regelverk på tvers av landegrenser
+  history:
+  - name: Applicable cross-border law
+    nob: Gjeldende grenseoverskridende lov
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|design-contest-terms:
   name: Terms of the design contest regime
+  nob: Vilkår for designkonkurranseproseyren
+  history:
+  - name: Terms of the design contest regime
+    nob: Vilkår for designkonkurranseregimet
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|direct-award:
   name: Direct award
+  nob: Direkte tildeling
+  history:
+  - name: Direct award
+    nob: Direkte pris
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|duration:
   name: Duration
+  nob: Varighet
+  history: []
+  nob_verify: false
 auxiliary|text|dynamic-purchasing-system:
   name: Information about the dynamic purchasing system
+  nob: Informasjon om den dynamiske innkjøpsordningen
+  history:
+  - name: Information about the dynamic purchasing system
+    nob: Informasjon om det dynamiske innkjøpssystemet
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|electronic-auction:
   name: Electronic auction
+  nob: Elektronisk auksjon
+  history: []
+  nob_verify: false
 auxiliary|text|estimated-duration:
   name: Estimated duration
+  nob: Anslått varighet
+  history: []
+  nob_verify: false
 auxiliary|text|eu-funds-used:
   name: Information about European Union funds
+  nob: Informasjon om EU-midler
+  history: []
+  nob_verify: false
 auxiliary|text|exclusion-grounds:
   name: Grounds for exclusion
+  nob: Grunnlag for avvisning
+  history:
+  - name: Grounds for exclusion
+    nob: Grunnlag for utelukkelse
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|framework-agreement:
   name: Framework agreement
   nob: Rammeavtale
+  history: []
+  nob_verify: false
 auxiliary|text|general-information:
   name: General information
   nob: Generell informasjon
+  history: []
+  nob_verify: false
 auxiliary|text|group-framework-value:
   name: Estimated value of the framework agreements in the group of lots
+  nob: Estimert verdi av rammeavtalene i delkontraktene
+  history:
+  - name: Estimated value of the framework agreements in the group of lots
+    nob: Estimert verdi av rammeavtalene i partigruppen
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|group-of-lots:
   name: Group of lots
+  nob: Gruppe av delkontrakter
+  history:
+  - name: Group of lots
+    nob: Gruppe av tomter
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|information-employment:
   name: Information about employment legislation is available at
+  nob: Informasjon om arbeidslovgivning er tilgjengelig på
+  history: []
+  nob_verify: false
 auxiliary|text|information-fiscal:
   name: Information about fiscal legislation is available at
+  nob: Informasjon om skattelovgivning er tilgjengelig på
+  history: []
+  nob_verify: false
 auxiliary|text|late-tenderer-info:
   name: Information that can be supplemented after the submission deadline
+  nob: Opplysninger som kan suppleres etter innleveringsfristen
+  history: []
+  nob_verify: false
 auxiliary|text|legal-basis:
   name: Legal basis
+  nob: Rettslig grunnlag
+  history: []
+  nob_verify: false
 auxiliary|text|lot:
   name: Lot
+  nob: Delkontrakt
+  history:
+  - name: Lot
+    nob: Skjebne
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|modification:
   name: Modification
+  nob: Modifikasjon
+  history: []
+  nob_verify: false
 auxiliary|text|non-winning-tender:
   name: Non-winning tenderers
+  nob: Ikke vinnende tilbydere
+  history:
+  - name: Non-winning tenderers
+    nob: Ikke vinnende anbydere
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|notice-information:
   name: Notice information
+  nob: Kunngjøringsinformasjon
+  history:
+  - name: Notice information
+    nob: Informasjon om varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|options:
   name: Options
+  nob: Alternativer
+  history: []
+  nob_verify: false
 auxiliary|text|organisation-cpb-acquiring:
   name: Central purchasing body acquiring supplies and/or services intended for other buyers
+  nob: Sentralt innkjøpsorgan som anskaffer varer og/eller tjenester beregnet til andre kjøpere
+  history:
+  - name: Central purchasing body acquiring supplies and/or services intended for other buyers
+    nob: Sentralt innkjøpsorgan som anskaffer forsyninger og/eller tjenester beregnet på andre kjøpere
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-cpb-awarding:
   name: Central purchasing body awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers
+  nob: Sentralt innkjøpsorgan som tildeler offentlige kontrakter eller inngår rammeavtaler for bygge- og anleggsarbeider beregnet til andre kjøpere
+  history:
+  - name: Central purchasing body awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers
+    nob: Sentralt innkjøpsorgan som tildeler offentlige kontrakter eller inngår rammeavtaler for bygge- og anleggsarbeider, varer eller tjenester beregnet på andre kjøpere
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-esender:
   name: TED eSender
+  nob: TED eSender
+  history: []
+  nob_verify: false
 auxiliary|text|organisation-financing:
   name: Organisation whose budget is used to pay for the contract
+  nob: Virksomhet hvis budsjett brukes til å betale for kontrakten
+  history:
+  - name: Organisation whose budget is used to pay for the contract
+    nob: Organisasjon hvis budsjett brukes til å betale for kontrakten
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-group-leader:
   name: Leader of the group
+  nob: Leder av gruppen
+  history: []
+  nob_verify: false
 auxiliary|text|organisation-mediation:
   name: Mediation organisation
+  nob: Meklingsvirksomhet
+  history:
+  - name: Mediation organisation
+    nob: Meklingsorganisasjon
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-paying:
   name: Organisation executing the payment
+  nob: Virksomhet som utfører betalingen
+  history:
+  - name: Organisation executing the payment
+    nob: Organisasjonen som utfører betalingen
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-processing-tenders:
   name: Organisation processing tenders
+  nob: Virksomhet som behandler tilbudene
+  history:
+  - name: Organisation processing tenders
+    nob: Organisering av anbudsbehandling
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-providing-docs:
   name: Organisation providing offline access to the procurement documents
+  nob: Virksomhet som gir tilgang til anskaffelsesdokumentene
+  history:
+  - name: Organisation providing offline access to the procurement documents
+    nob: Organisasjon som gir frakoblet tilgang til anskaffelsesdokumentene
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-providing-info-employment:
   name: Organisation providing information concerning the general regulatory framework for employment protection and working conditions applicable in the place where the contract is to be performed
+  nob: Virksomhet som gir informasjon om det generelle regelverket for stillingsvern og arbeidsvilkår som gjelder der kontrakten skal utføres
+  history:
+  - name: Organisation providing information concerning the general regulatory framework for employment protection and working conditions applicable in the place where the contract is to be performed
+    nob: Organisasjon som gir informasjon om det generelle regelverket for stillingsvern og arbeidsvilkår som gjelder der kontrakten skal utføres
+    history: []
+    nob_verify: false
+  - name: Organisation providing information concerning the general regulatory framework for employment protection and working conditions applicable in the place where the contract is to be performed
+    nob: Organisasjon som gir informasjon om det generelle regelverket for stillingsvern og arbeidsvilkår som gjelder der kontrakten skal utføres
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-providing-info-environment:
   name: Organisation providing information concerning the general regulatory framework for environmental protection applicable in the place where the contract is to be performed
+  nob: Virksomhet som gir informasjon om det generelle regelverket for miljøvern som gjelder der kontrakten skal utføres
+  history:
+  - name: Organisation providing information concerning the general regulatory framework for environmental protection applicable in the place where the contract is to be performed
+    nob: Organisasjon som gir informasjon om det generelle regelverket for miljøvern som gjelder der kontrakten skal utføres
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-providing-info-procedure:
   name: Organisation providing additional information about the procurement procedure
+  nob: Virksomhet som gir tilleggsinformasjon om anskaffelsesprosedyren
+  history:
+  - name: Organisation providing additional information about the procurement procedure
+    nob: Organisasjon som gir tilleggsinformasjon om anskaffelsesprosedyren
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-providing-info-review:
   name: Organisation providing more information on the review procedures
+  nob: Virksomhet som gir mer informasjon om klagebehandling
+  history:
+  - name: Organisation providing more information on the review procedures
+    nob: Organisasjon som gir mer informasjon om gjennomgåelsesprosedyrene
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-providing-info-taxes:
   name: Organisation providing information concerning the general regulatory framework for taxes applicable in the place where the contract is to be performed
+  nob: Virksomhet som gir informasjon om det generelle regelverket for skatter som gjelder på stedet der kontrakten skal utføres
+  history:
+  - name: Organisation providing information concerning the general regulatory framework for taxes applicable in the place where the contract is to be performed
+    nob: Organisasjon som gir informasjon om det generelle regelverket for skatter som gjelder på stedet der kontrakten skal utføres
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-providing-procurement-service:
   name: Procurement service provider
+  nob: Leverandør av innkjøpstjenester
+  history: []
+  nob_verify: false
 auxiliary|text|organisation-review:
   name: Review organisation
+  nob: Virksomhet som gjennomfører klagebehandling
+  history:
+  - name: Review organisation
+    nob: Organisering av gjennomgang
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-review-timelimit:
   name: Organisation providing more information on the time limits for review procedures
+  nob: Virksomhet som gir mer informasjon om fristene for klagenehandling
+  history:
+  - name: Organisation providing more information on the time limits for review procedures
+    nob: Organisasjon som gir mer informasjon om fristene for overprøvingsprosedyrer
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-signing-contract:
   name: Organisation signing the contract
+  nob: Virksomhet som signerer kontrakten
+  history:
+  - name: Organisation signing the contract
+    nob: Organisasjon som signerer kontrakten
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-tender-evaluation:
   name: Organisation evaluating the tenders
+  nob: Virksomhet som evaluerer tilbudene
+  history:
+  - name: Organisation evaluating the tenders
+    nob: Organisering som evaluerer anbudene
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-tender-recipient:
   name: Organisation receiving requests to participate
+  nob: Virksomhet som mottar forespørsler om å delta
+  history:
+  - name: Organisation receiving requests to participate
+    nob: Organisasjon som mottar forespørsler om å delta
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisations:
   name: Organisations
+  nob: Virksomheter
+  history:
+  - name: Organisations
+    nob: Organisasjoner
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|other-contact-point:
   name: Other contact points
+  nob: Andre kontaktpunkter
+  history: []
+  nob_verify: false
 auxiliary|text|part:
   name: Part
+  nob: Del
+  history: []
+  nob_verify: false
 auxiliary|text|place-performance:
   name: Place of performance
+  nob: Sted for gjennomføring
+  history:
+  - name: Place of performance
+    nob: Sted for ytelse
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|previous-planning:
   name: Information about previous notices
+  nob: Informasjon om tidligere kunngjøring
+  history:
+  - name: Information about previous notices
+    nob: Informasjon om tidligere varsler
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|procedure:
   name: Procedure
+  nob: Prosedyre
+  history: []
+  nob_verify: false
 auxiliary|text|procedure-terms:
   name: Terms of the procedure
+  nob: Vilkår for prosedyren
+  history: []
+  nob_verify: false
 auxiliary|text|procurement-documents:
   name: Procurement documents
+  nob: Anskaffelsesdokumenter
+  history: []
+  nob_verify: false
 auxiliary|text|procurement-terms:
   name: Terms of procurement
+  nob: Vilkår for anskaffelsen
+  history:
+  - name: Terms of procurement
+    nob: Vilkår for anskaffelser
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|public-opening:
   name: Information about public opening
+  nob: Informasjon om offentlig åpning
+  history: []
+  nob_verify: false
 auxiliary|text|publication-information:
   name: Publication information
+  nob: Informasjon om publisering
+  history: []
+  nob_verify: false
 auxiliary|text|purpose:
   name: Purpose
+  nob: Hensikt
+  history: []
+  nob_verify: false
 auxiliary|text|range-tenders:
   name: Range of tenders
+  nob: Utvalg av tilbud
+  history:
+  - name: Range of tenders
+    nob: Utvalg av anbud
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|received-submissions:
   name: Received tenders or requests to participate
+  nob: Mottatte tilbud eller forespørsler om å delta
+  history:
+  - name: Received tenders or requests to participate
+    nob: Mottatte anbud eller forespørsler om å delta
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|renewal:
   name: Renewal
+  nob: Fornyelse
+  history: []
+  nob_verify: false
 auxiliary|text|results:
   name: Results
+  nob: Resultater
+  history: []
+  nob_verify: false
 auxiliary|text|results-procurement-procedure:
   name: Result of the procurement procedure
+  nob: Resultat av anskaffelsesprosedyren
+  history: []
+  nob_verify: false
 auxiliary|text|review-requests-irregularity-type:
   name: Type of alleged irregularity
+  nob: Type påstått uregelmessighet
+  history: []
+  nob_verify: false
 auxiliary|text|review-requests-summary:
   name: Summary of the review requests the buyer received
+  nob: Sammendrag av revisjonsforespørslene kjøperen mottok
+  history:
+  - name: Summary of the review requests the buyer received
+    nob: Sammendrag av anmeldelsesforespørslene kjøperen mottok
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|second-stage:
   name: Information about the second stage of a two-stage procedure
+  nob: Informasjon om andre trinn av en to-trinns prosedyre
+  history:
+  - name: Information about the second stage of a two-stage procedure
+    nob: Informasjon om den andre fasen av en to-trinns prosedyre
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|selection-criteria:
   name: Selection criteria
+  nob: Utvelgelseskriterier
+  history:
+  - name: Selection criteria
+    nob: Utvalgskriterier
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|statistical-information:
   name: Statistical information
+  nob: Statistisk informasjon
+  history: []
+  nob_verify: false
 auxiliary|text|statistics-strategic:
   name: Statistics about strategic procurement
+  nob: Statistikk om strategiske anskaffelser
+  history: []
+  nob_verify: false
 auxiliary|text|strategic-procurement:
   name: Strategic procurement
+  nob: Strategiske anskaffelser
+  history: []
+  nob_verify: false
 auxiliary|text|subcontracting-terms:
   name: Subcontracting
+  nob: Underleverandører
+  history: []
+  nob_verify: false
 auxiliary|text|submission-terms:
   name: Terms of submission
+  nob: Vilkår for innlevering
+  history: []
+  nob_verify: false
 auxiliary|text|techniques:
   name: Techniques
+  nob: Teknikker
+  history: []
+  nob_verify: false
 auxiliary|text|tender:
   name: Tender
+  nob: Tilbud
+  history:
+  - name: Tender
+    nob: Mør
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|touchpoint:
   name: Specific contact point
+  nob: Spesifikt kontaktpunkt
+  history: []
+  nob_verify: false
 auxiliary|text|value:
   name: Value
+  nob: Verdi
+  history: []
+  nob_verify: false
 auxiliary|text|winner:
   name: Winner
+  nob: Vinner
+  history: []
+  nob_verify: false
 auxiliary|text|winner-info:
   name: Information about winners
+  nob: Informasjon om vinnere
+  history: []
+  nob_verify: false
 auxiliary|text|winner-subcontractor:
   name: Subcontractors of the winner
+  nob: Underleverandører av vinneren
+  history: []
+  nob_verify: false
 auxiliary|text|BT-01:
   name: Legal basis
+  nob: Rettslig grunnlag
+  history: []
+  nob_verify: false
 auxiliary|text|BT-08:
   name: Role of organisation
+  nob: Virksomhetens rolle
+  history:
+  - name: Role of organisation
+    nob: Organisasjonens rolle
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|BT-36:
   name: Duration
+  nob: Varighet
+  history: []
+  nob_verify: false
 auxiliary|text|buyer-competent:
   name: Competent authority
+  nob: Kompetent myndighet
+  history: []
+  nob_verify: false
 auxiliary|text|company:
   name: Name and address of the company/society
+  nob: Navn og adresse på selskapet/foreningen
+  history: []
+  nob_verify: false
 auxiliary|text|conditions-contract:
   name: Conditions relating to the contract
+  nob: Betingelser knyttet til kontrakten
+  history: []
+  nob_verify: false
 auxiliary|text|conditions-participation:
   name: Conditions for participation
+  nob: Forutsetninger for deltakelse
+  history: []
+  nob_verify: false
 auxiliary|text|cross-border-description:
   name: Description
+  nob: Beskrivelse
+  history:
+  - name: Description
+    nob: 'Beskrivelse: __________'
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|duration-call-expressions-interest:
   name: Duration of the call for expressions of interest
+  nob: Varighet på kunngjøringen for å melde interesse
+  history:
+  - name: Duration of the call for expressions of interest
+    nob: Varighet av utlysningen for interesseytringer
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|envisaged-start-duration-contract:
   name: Envisaged start date and duration of the contract
+  nob: Forventet oppstartsdato og kontraktens varighet
+  history: []
+  nob_verify: false
 auxiliary|text|essential-assets:
   name: Essential assets
+  nob: Viktige eiendeler
+  history: []
+  nob_verify: false
 auxiliary|text|further-info:
   name: Further information, mediation and review
+  nob: Nærmere informasjon, mekling og revisjon
+  history:
+  - name: Further information, mediation and review
+    nob: Nærmere informasjon, mekling og gjennomgang
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|grouping:
   name: Name of the grouping
+  nob: Navn på grupperingen
+  history: []
+  nob_verify: false
 auxiliary|text|info-rewards-penalties:
   name: Information on rewards and penalties
+  nob: Informasjon om belønning og straff
+  history:
+  - name: Information on rewards and penalties
+    nob: Informasjon om belønninger og straffer
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|language-expressions:
   name: Languages in which the expressions of interest may be submitted
+  nob: Tillate språk for å melde interesse
+  history:
+  - name: Languages in which the expressions of interest may be submitted
+    nob: Språk der interessentene kan sendes inn
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|legaltype-competent:
   name: Legal type of the competent authority
+  nob: Juridisk type på kompetent myndighet
+  history:
+  - name: Legal type of the competent authority
+    nob: Juridisk type kompetent myndighet
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|name:
   name: Name
+  nob: Navn
+  history: []
+  nob_verify: false
 auxiliary|text|object:
   name: Object
+  nob: Gjenstand
+  history:
+  - name: Object
+    nob: Objekt
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-processing-requests-participate:
   name: Organisation processing requests to participate
+  nob: Virksomhet som behandler forespørsler om å delta
+  history:
+  - name: Organisation processing requests to participate
+    nob: Organisering av forespørsler om å delta
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-receiving-tenders:
   name: Organisation receiving tenders
+  nob: Virksomhet som mottar tilbud
+  history:
+  - name: Organisation receiving tenders
+    nob: Organisasjon som mottar anbud
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-requesting-review:
   name: Organisation (or person) requesting review that has or has had an interest in a contract and who has been or risks being harmed by an alleged infringement
+  nob: Virksomhet (eller person) som klager, som har eller har hatt interesse av en kontrakt, og som har blitt eller risikerer å bli skadet av en påstått overtredelse
+  history:
+  - name: Organisation (or person) requesting review that has or has had an interest in a contract and who has been or risks being harmed by an alleged infringement
+    nob: Organisasjon (eller person) som ber om gjennomgang som har eller har hatt interesse av en kontrakt, og som har blitt eller risikerer å bli skadet av en påstått overtredelse
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-roles:
   name: Roles of organisations
+  nob: Virksomhetenes roller
+  history:
+  - name: Roles of organisations
+    nob: Organisasjoners roller
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|organisation-subcontractor:
   name: Subcontractor
+  nob: Underleverandør
+  history: []
+  nob_verify: false
 auxiliary|text|organisation-tenderer:
   name: Tenderer
+  nob: Tilbyder
+  history:
+  - name: Tenderer
+    nob: Anbudsmann
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|place-registration:
   name: Place of registration
+  nob: Registreringssted
+  history: []
+  nob_verify: false
 auxiliary|text|publication-gazette:
   name: Publication in the official gazette
+  nob: Publisering i den offisielle gazette
+  history: []
+  nob_verify: false
 auxiliary|text|quality-targets:
   name: Quality targets
+  nob: Kvalitetsmål
+  history: []
+  nob_verify: false
 auxiliary|text|roles:
   name: Roles of this organisation
+  nob: Rollene til denne virksomheten
+  history:
+  - name: Roles of this organisation
+    nob: Rollene til denne organisasjonen
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|start-duration-contract:
   name: Start date and duration of the contract
+  nob: Kontraktens startdato og varighet
+  history: []
+  nob_verify: false
 auxiliary|text|winner-lots:
   name: Winner of these lots
+  nob: Vinner av disse delkontraktene
+  history:
+  - name: Winner of these lots
+    nob: Vinner av disse partiene
+    history: []
+    nob_verify: false
+  nob_verify: false
 auxiliary|text|unpublished:
   name: unpublished
+  nob: upublisert
+  history: []
+  nob_verify: false

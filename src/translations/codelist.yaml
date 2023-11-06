@@ -1,524 +1,1318 @@
 codelist|name|accelerated-procedure:
   name: List of codes to specify whether a procedure is accelerated or not.
+  nob: Liste over koder for å angi om en prosedyre er akselerert eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|accessibility:
   name: This table provides a list of options for the use of accessibility criteria for person with disabilities in the technical specifications within the domain of public procurement.
+  nob: Denne tabellen inneholder en liste over alternativer for bruk av tilgjengelighetskriterier for personer med nedsatt funksjonsevne i de tekniske spesifikasjonene innenfor området offentlige anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|applicability:
   name: This table provides a list of the options pertinent to be chosen for a matter concerning the applicability of predefined fields. It is designed for but not restricted to the context of public procurement.
+  nob: Denne tabellen inneholder en liste over alternativene som er relevante for å bli valgt for en sak som gjelder anvendeligheten av forhåndsdefinerte felt. Den er utformet for, men ikke begrenset til, konteksten av offentlige anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|authority-activity:
   name: List of Main Activity codes allowed for a Contracting Authority
+  nob: Liste over hovedaktivitetskoder tillatt for en oppdragsgiver
+  history: []
+  nob_verify: false
 codelist|name|award-criterion-type:
   name: List of award criterion codes for award decisions within public procurement procedures.
+  nob: Liste over tildelingskriteriekoder for tildelingsbeslutninger i offentlige anskaffelsesprosedyrer.
+  history: []
+  nob_verify: false
 codelist|name|bri:
   name: List of allowed Notice Type codes for a Business Register Information document
+  nob: Liste over tillatte kunngjøringstypekoder for et dokument med foretaksregisterinformasjon
+  history: []
+  nob_verify: false
 codelist|name|brin-ecs:
   name: List of allowed Notice Subtype codes for a notice concerning a European Company or a European Cooperative Society registration processing.
+  nob: Liste over tillatte undertypekoder for meldinger om et europeisk selskap eller et europeisk kooperativt selskaps registreringsbehandling.
+  history: []
+  nob_verify: false
 codelist|name|brin-eeig:
   name: List of allowed Notice Subtype codes for a notice concerning a European Economic Interest Grouping registration processing.
+  nob: Liste over tillatte kunngjøringsundertypekoder for en melding om behandling av registrering av en europeisk økonomisk interessegruppering.
+  history: []
+  nob_verify: false
 codelist|name|buyer-categories:
   name: List of codes used to characterize the buyers for the subsequent contracts of a given Framework Agreement.
+  nob: Liste over koder som brukes til å karakterisere kjøperne for de påfølgende kontraktene i en gitt rammeavtale.
+  history: []
+  nob_verify: false
 codelist|name|buyer-contracting-type:
   name: List of codes to specify whether a Buyer is a Contracting Entity or not.
+  nob: Liste over koder for å spesifisere om en kjøper er en kontraktsenhet eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|buyer-legal-type:
   name: This table provides a list of the the type of procuring authorities within the domain of public procurement according to legislation.
+  nob: Denne tabellen gir en liste over hvilke typer anskaffelsesmyndigheter som er innenfor området for offentlige anskaffelser i henhold til lovgivningen.
+  history: []
+  nob_verify: false
 codelist|name|can-desg:
   name: List of allowed Notice Subtype codes for a notice of CAN Design Notice Type.
+  nob: Liste over tillatte Notice Subtype-koder for et varsel om CAN Design Notice Type.
+  history: []
+  nob_verify: false
 codelist|name|can-modif:
   name: List of allowed Notice Subtype codes for a notice of Contract Modification Notice Type .
+  nob: Liste over tillatte Notice Subtype-koder for en melding om Notice of Contract Modification Notice Type .
+  history: []
+  nob_verify: false
 codelist|name|can-social:
   name: List of allowed Notice Subtype codes for a notice of CAN Social Notice Type .
+  nob: Liste over tillatte Notice Subtype-koder for et varsel om CAN Social Notice Type .
+  history: []
+  nob_verify: false
 codelist|name|can-standard:
   name: List of allowed Notice Subtype codes for a notice of CAN Standard Notice Type .
+  nob: Liste over tillatte Notice Subtype-koder for et varsel om CAN Standard Notice Type .
+  history: []
+  nob_verify: false
 codelist|name|can-tran:
   name: List of allowed Notice Subtype codes for a notice of CAN Public Transport Service Notice Type .
+  nob: Liste over tillatte Notice Subtype-koder for et varsel om CAN Public Transport Service Notice Type .
+  history: []
+  nob_verify: false
 codelist|name|change:
   name: List of allowed Notice Subtype codes for a notice of Change Notice Type .
+  nob: Liste over tillatte Notice Subtype-koder for et varsel om endringsvarseltype.
+  history: []
+  nob_verify: false
 codelist|name|change-corrig-justification:
   name: This table provides the codes and values used in case of justification of corrections applied to a notice within the context of public procurement.
+  nob: Denne tabellen inneholder kodene og verdiene som brukes ved begrunnelse for rettelser som er brukt på en melding i forbindelse med offentlige anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|classification-type:
   name: List of commodity classifications
+  nob: Liste over vareklassifikasjoner
+  history: []
+  nob_verify: false
 codelist|name|cn-desg:
   name: List of allowed Notice Subtype codes for a notice of CN Design Notice Type.
+  nob: Liste over tillatte Notice Subtype-koder for en melding om CN Design Notice Type.
+  history: []
+  nob_verify: false
 codelist|name|cn-social:
   name: List of allowed Notice Subtype codes for a notice of CN Social Notice Type.
+  nob: Liste over tillatte Notice Subtype-koder for et varsel om CN Social Notice Type.
+  history: []
+  nob_verify: false
 codelist|name|cn-standard:
   name: List of allowed Notice Subtype codes for a notice of CN Standard Design Notice Type.
+  nob: Liste over tillatte Notice Subtype-koder for en melding om CN Standard Design Notice Type.
+  history: []
+  nob_verify: false
 codelist|name|communication-justification:
   name: This table provides the justification for restricting access rights to resources within the context of public procurement.
+  nob: Denne tabellen gir begrunnelse for å begrense tilgangsretten til ressurser innenfor rammen av offentlige anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|competition:
   name: List of allowed Notice Type codes for a notice of Competition Form Type
+  nob: Liste over tillatte koder for melding om konkurranseskjematype
+  history: []
+  nob_verify: false
 codelist|name|conditions:
   name: Codes for conditions
+  nob: Koder for betingelser
+  history: []
+  nob_verify: false
 codelist|name|cont-modif:
   name: List of allowed Notice Type codes for a notice of Contract Modification Form Type
+  nob: Liste over tillatte varslingstypekoder for en melding om skjematypen Kontraktendring
+  history: []
+  nob_verify: false
 codelist|name|contract-detail:
   name: This table provides a framework to represent data relating to procurement.
+  nob: Denne tabellen gir et rammeverk for å representere data knyttet til innkjøp.
+  history: []
+  nob_verify: false
 codelist|name|contract-nature:
   name: List of codes used to specify the main and additional natures of a purchase
+  nob: Liste over koder som brukes til å spesifisere hoved- og tilleggskarakteren til et kjøp
+  history: []
+  nob_verify: false
 codelist|name|corr:
   name: List of allowed Notice Subtype codes for a notice of CN Design Notice Type.
+  nob: Liste over tillatte Notice Subtype-koder for en melding om CN Design Notice Type.
+  history: []
+  nob_verify: false
 codelist|name|country:
   name: List of three characters country codes, correlated with the ISO 3166 international standard and additional authority codes for some countries without assigned ISO code.
+  nob: Liste over tre tegn landskoder, korrelert med ISO 3166 internasjonal standard og ytterligere autoritetskoder for noen land uten tildelt ISO-kode.
+  history: []
+  nob_verify: false
 codelist|name|cpv:
   name: List of codes for an improved description, based on the Common Procurement Vocabulary (CPV), of what is actually being purchased.
+  nob: Liste over koder for en forbedret beskrivelse, basert på Common Procurement Vocabulary (CPV), av hva som faktisk blir kjøpt.
+  history: []
+  nob_verify: false
 codelist|name|criterion:
   name: This table provides criteria used for public procurement procedures.
+  nob: Denne tabellen inneholder kriterier som brukes for offentlige anskaffelsesprosedyrer.
+  history: []
+  nob_verify: false
 codelist|name|currency:
   name: List of currency codes
+  nob: Liste over valutakoder
+  history: []
+  nob_verify: false
 codelist|name|customer-service:
   name: This table provides a list of customer services.
+  nob: Denne tabellen inneholder en liste over kundeservice.
+  history: []
+  nob_verify: false
 codelist|name|cvd-contract-type:
   name: The type of contract of the procurement procedure within the scope of Clean Vehicles Directive 2009/33/EC.
+  nob: Kontraktstypen for anskaffelsesprosedyren innenfor rammen av direktivet om rene kjøretøy 2009/33/EF.
+  history: []
+  nob_verify: false
 codelist|name|cvd-scope:
   name: List of codes to specify whether the procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD).
+  nob: Liste over koder for å spesifisere om anskaffelsen faller innenfor virkeområdet til Europaparlamentet og Rådet 2009/33/EF (direktivet om rene kjøretøy – CVD).
+  history: []
+  nob_verify: false
 codelist|name|dir-awa-pre:
   name: List of allowed Notice Type codes for a Direct Award Preannouncement Form Type
+  nob: Liste over tillatte varseltypekoder for en skjematype for direkte tildeling
+  history: []
+  nob_verify: false
 codelist|name|direct-award-justification:
   name: This table provides the list of reasons for using a procedure which allows awarding contracts directly without the requirement of publishing a call for competition in the Official Journal of the European Union.
+  nob: Denne tabellen inneholder en liste over grunner til å bruke en prosedyre som tillater tildeling av kontrakter direkte uten krav om å publisere en utlysning for konkurranse i Den europeiske unions tidende.
+  history: []
+  nob_verify: false
 codelist|name|document-distribution:
   name: List of codes to specify whether the document distribution is restricted or not.
+  nob: Liste over koder for å angi om dokumentdistribusjonen er begrenset eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|document-status:
   name: List of codes to specify whether a document has or not a legal status.
+  nob: Liste over koder for å angi om et dokument har en juridisk status eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|dps-usage:
   name: This table provides a list whether a dynamic purchasing system is involved in a procurement and, in case of central purchasing bodies, whether it can be used by buyers not listed in the notice of the Official Journal of the European Union.
+  nob: Denne tabellen gir en liste over om en dynamisk innkjøpsordning er involvert i en anskaffelse og, når det gjelder sentrale innkjøpsorganer, om den kan brukes av innkjøpere som ikke er oppført i kunngjøringen i Den europeiske unions tidende.
+  history: []
+  nob_verify: false
 codelist|name|duration:
   name: List of codes for undefined duration
+  nob: Liste over koder for udefinert varighet
+  history: []
+  nob_verify: false
 codelist|name|duration-unit:
   name: List of codes for eforms allowed duration unit of measure
+  nob: Liste over koder for blanketter tillatt varighetsmåleenhet
+  history: []
+  nob_verify: false
 codelist|name|ecatalog-submission:
   name: List of codes to specify whether the submission of electronic catalogues is allowed or not.
+  nob: Liste over koder for å spesifisere om innsending av elektroniske kataloger er tillatt eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|economic-operator-size:
   name: This table provides the different categories in which the tenderers to whom a contract can be awarded are classified, according to their size (using as criteria the number of employees).
+  nob: Denne tabellen inneholder de forskjellige kategoriene der anbyderne som en kontrakt kan tildeles, klassifiseres i henhold til deres størrelse (ved å bruke antall ansatte som kriterier).
+  history: []
+  nob_verify: false
 codelist|name|eea-country:
   name: List of codes of the European Economic Area countries
+  nob: Liste over koder for EØS-landene
+  history: []
+  nob_verify: false
 codelist|name|eforms-contract-nature:
   name: List of eforms allowed codes to specify the main and additional natures of a purchase
+  nob: Liste over eforms tillatte koder for å spesifisere hoved- og tilleggskarakteren til et kjøp
+  history: []
+  nob_verify: false
 codelist|name|eforms-country:
   name: List of country codes allowed in eforms
+  nob: Liste over landkoder tillatt i eblanketter
+  history: []
+  nob_verify: false
 codelist|name|eforms-language:
   name: List of language codes allowed in eforms
+  nob: Liste over språkkoder tillatt i eBlanketter
+  history: []
+  nob_verify: false
 codelist|name|eforms-legal-basis:
   name: List of Legal Basis codes allowed in eForms
+  nob: Liste over juridiske grunnlagskoder som er tillatt i eBlanketter
+  history: []
+  nob_verify: false
 codelist|name|einvoicing:
   name: List of codes to specify whether the use of electronic invoicing is allowed or not.
+  nob: Liste over koder for å angi om bruk av elektronisk fakturering er tillatt eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|entity-activity:
   name: List of Main Activity codes allowed for a Contracting Entity
+  nob: Liste over hovedaktivitetskoder som er tillatt for en oppdragsgiver
+  history: []
+  nob_verify: false
 codelist|name|environmental-impact:
   name: This table provides the information about whether a procurement includes (and how) an approach to reducing the environmental impacts of the work, supply or service used in the technical specifications, award criteria, selection criteria or contract perfor
+  nob: Denne tabellen gir informasjon om hvorvidt en anskaffelse inkluderer (og hvordan) en tilnærming til å redusere miljøpåvirkningen av arbeidet, leveransen eller tjenesten som brukes i de tekniske spesifikasjonene, tildelingskriteriene, utvelgelseskriteriene eller kontrakten perfor
+  history: []
+  nob_verify: false
 codelist|name|eppn-country:
   name: List of codes for the European Plant Phenotyping Network countries
+  nob: Liste over koder for landene i European Plant Phenotyping Network
+  history: []
+  nob_verify: false
 codelist|name|esignature-submission:
   name: List of codes to dpecify whether electronic signature may be used or not.
+  nob: Liste over koder for å dpecify om elektronisk signatur kan brukes eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|esubmission:
   name: List of codes to specify whether the electronic submission is allowed or not.
+  nob: Liste over koder for å spesifisere om elektronisk innsending er tillatt eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|eu-country:
   name: List of codes of the EU countries
+  nob: Liste over koder for EU-landene
+  history: []
+  nob_verify: false
 codelist|name|eu-funded:
   name: List of codes to specify whether a procurement would be financed using EU funds.
+  nob: Liste over koder for å spesifisere om en anskaffelse skal finansieres med EU-midler.
+  history: []
+  nob_verify: false
 codelist|name|eu-official-language:
   name: List of codes of the EU official languages
+  nob: Liste over koder for EUs offisielle språk
+  history: []
+  nob_verify: false
 codelist|name|eu-programme:
   name: List of codes for programmes created and coordinated by the European Union and financially supported by the European Union or, in a few cases, by the contributions from the Member States.
+  nob: Liste over koder for programmer opprettet og koordinert av EU og økonomisk støttet av EU eller, i noen få tilfeller, av bidrag fra medlemsstatene.
+  history: []
+  nob_verify: false
 codelist|name|exclusion-ground:
   name: List of codes for Exclusion Ground identification
+  nob: Liste over koder for identifikasjon av ekskluderingsgrunnlag
+  history: []
+  nob_verify: false
 codelist|name|form-type:
   name: This table provides the codes and values used for the type of forms published on TED.
+  nob: Denne tabellen inneholder kodene og verdiene som brukes for typen skjemaer som er publisert på TED.
+  history: []
+  nob_verify: false
 codelist|name|framework-agreement:
   name: This table provides the list of codes to distinguish the different type framework agreement involved in a tender.
+  nob: Denne tabellen inneholder listen over koder for å skille mellom de ulike typerammeavtalene som er involvert i et anbud.
+  history: []
+  nob_verify: false
 codelist|name|indicator:
   name: List of eforms allowed indicator values
+  nob: Liste over tillatte indikatorverdier for e-skjemaer
+  history: []
+  nob_verify: false
 codelist|name|innovative-acquisition:
   name: This table provides the codes and values used for the type of innovative works, supplies or services being procured within the context of public procurement.
+  nob: Denne tabellen inneholder kodene og verdiene som brukes for typen nyskapende verk, forsyninger eller tjenester som anskaffes innenfor rammen av offentlige anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|irregularity-type:
   name: This code list refers generally to the types of irregularities described in Section 2 of the Annex to the Commission Decision C(2019) 3452.
+  nob: Denne kodelisten viser generelt til de typer uregelmessigheter som er beskrevet i avsnitt 2 i vedlegget til kommisjonsvedtak C(2019) 3452.
+  history: []
+  nob_verify: false
 codelist|name|language:
   name: List of three characters language codes correlated with the ISO 639 international standard with additional codes for some languages without assigned ISO code.
+  nob: Liste over tre tegn språkkoder korrelert med ISO 639 internasjonal standard med tilleggskoder for noen språk uten tildelt ISO-kode.
+  history: []
+  nob_verify: false
 codelist|name|lawful-country:
   name: List of countries for which there is a legal basis for publication in the Supplement to the Official Journal of the European Union
+  nob: Liste over land som det foreligger et rettslig grunnlag for offentliggjøring i tillegget til Den europeiske unions tidende
+  history: []
+  nob_verify: false
 codelist|name|legal-basis:
   name: This table provides the legal basis based on the legal acts used for a given public procurement procedure. The table is provided by the Publications Office.
+  nob: Denne tabellen gir rettslig grunnlag basert på rettsaktene som brukes for en gitt prosedyre for offentlige anskaffelser. Tabellen er levert av publikasjonskontoret.
+  history: []
+  nob_verify: false
 codelist|name|linguistic-status:
   name: List of codes to specify whether a linguistic version has or not a legal status.
+  nob: Liste over koder for å angi om en språklig versjon har en juridisk status eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|main-activity:
   name: List of codes for the main activities of the buyers.
+  nob: Liste over koder for hovedaktivitetene til kjøperne.
+  history: []
+  nob_verify: false
 codelist|name|measurement-unit:
   name: List of codes for the most commonly used Unit of Measures in international trades.
+  nob: Liste over koder for den mest brukte måleenheten i internasjonal handel.
+  history: []
+  nob_verify: false
 codelist|name|missing-info-submission:
   name: This table provides the list of codes indicating whether tenderer-related information (complete or partial) can be supplemented even after the submission deadline.
+  nob: Denne tabellen inneholder kodelisten som angir om tilbyderrelaterte opplysninger (fullstendige eller delvise) kan suppleres også etter innleveringsfristen.
+  history: []
+  nob_verify: false
 codelist|name|modification-justification:
   name: This table provides the main reasons for modifying a contract within the domain of public procurement.
+  nob: Denne tabellen gir de viktigste grunnene til å endre en kontrakt innenfor domenet for offentlige anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|nda:
   name: List of codes to specify whether a non-disclosure agreement is required.
+  nob: Liste over koder for å angi om en taushetserklæring er nødvendig.
+  history: []
+  nob_verify: false
 codelist|name|no-esubmission-justification:
   name: List of codes to justify the impossibility to submit electronically
+  nob: Liste over koder for å rettferdiggjøre umuligheten av å sende elektronisk
+  history: []
+  nob_verify: false
 codelist|name|non-award-justification:
   name: This table provides the list of reasons of the buyer for not choosing a winner in the procurement procedure.
+  nob: Denne tabellen gir listen over årsaker til kjøperen for ikke å velge en vinner i anskaffelsesprosedyren.
+  history: []
+  nob_verify: false
 codelist|name|non-publication-identifier:
   name: List of codes for the identification of the information whose publication shall be delayed.
+  nob: Liste over koder for identifisering av opplysningene hvis offentliggjøring skal forsinkes.
+  history: []
+  nob_verify: false
 codelist|name|non-publication-justification:
   name: This table provides codes and values for the main reasons for not immediately publishing a notice within the context of public procurement.
+  nob: Denne tabellen inneholder koder og verdier for hovedårsakene til at en melding ikke umiddelbart publiseres i forbindelse med offentlige anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|notice-purpose:
   name: List of codes to specify the purpose of the Business Register Information Notice
+  nob: Liste over koder for å spesifisere formålet med Melding om foretaksregisteropplysninger
+  history: []
+  nob_verify: false
 codelist|name|notice-subtype:
   name: List of possible Notice Subtype codes for a Notice of type Business Registration Information Notice.
+  nob: Liste over mulige undertypekoder for melding av typen Melding om informasjon om foretaksregistrering.
+  history: []
+  nob_verify: false
 codelist|name|notice-type:
   name: This table provides a list of public procurement notices according to procurement legislation published once a project is approved.
+  nob: Denne tabellen inneholder en liste over offentlige anskaffelsesmeldinger i henhold til anskaffelseslovgivningen som publiseres når et prosjekt er godkjent.
+  history: []
+  nob_verify: false
 codelist|name|number-fixed:
   name: This table provides the codes linked to fix values within the context of public procurement.
+  nob: Denne tabellen inneholder kodene knyttet til faste verdier i forbindelse med offentlige anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|number-threshold:
   name: This table provides the codes linked to the type of threshold values within the context of public procurement.
+  nob: Denne tabellen inneholder kodene knyttet til typen terskelverdier i forbindelse med offentlige anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|number-weight:
   name: This table provides the codes linked to the type of weight values used in award criteria within the context of public procurement.
+  nob: Denne tabellen inneholder kodene knyttet til typen vektverdier som brukes i tildelingskriterier i forbindelse med offentlige anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|nuts:
   name: List of codes for the geographical nomenclature subdivision of the economic territory of the European Union (EU) into regions at three different levels (NUTS 1, 2 and 3 respectively, moving from larger to smaller territorial units).
+  nob: Liste over koder for den geografiske nomenklaturinndelingen av EUs økonomiske territorium i regioner på tre forskjellige nivåer (henholdsvis NUTS 1, 2 og 3, som går fra større til mindre territoriale enheter).
+  history: []
+  nob_verify: false
 codelist|name|nuts-alb-lvl3:
   name: List of level 3 NUTS codes for Albania
+  nob: Liste over nivå 3 NUTS-koder for Albania
+  history: []
+  nob_verify: false
 codelist|name|nuts-aut-lvl3:
   name: List of level 3 NUTS codes for Austria
+  nob: Liste over nivå 3 NUTS-koder for Østerrike
+  history: []
+  nob_verify: false
 codelist|name|nuts-bel-lvl3:
   name: List of level 3 NUTS codes for Belgium
+  nob: Liste over nivå 3 NUTS-koder for Belgia
+  history: []
+  nob_verify: false
 codelist|name|nuts-bgr-lvl3:
   name: List of level 3 NUTS codes for Bulgaria
+  nob: Liste over nivå 3 NUTS-koder for Bulgaria
+  history: []
+  nob_verify: false
 codelist|name|nuts-che-lvl3:
   name: List of level 3 NUTS codes for Switzerland
+  nob: Liste over nivå 3 NUTS-koder for Sveits
+  history: []
+  nob_verify: false
 codelist|name|nuts-country:
   name: List of codes for Countries having NUTS codes
+  nob: Liste over koder for land som har NUTS-koder
+  history: []
+  nob_verify: false
 codelist|name|nuts-cyp-lvl3:
   name: List of level 3 NUTS codes for Cyprus
+  nob: Liste over nivå 3 NUTS koder for Kypros
+  history: []
+  nob_verify: false
 codelist|name|nuts-cze-lvl3:
   name: List of level 3 NUTS codes for Czech Republic
+  nob: Liste over nivå 3 NUTS-koder for Tsjekkia
+  history: []
+  nob_verify: false
 codelist|name|nuts-deu-lvl3:
   name: List of level 3 NUTS codes for Germany
+  nob: Liste over nivå 3 NUTS-koder for Tyskland
+  history: []
+  nob_verify: false
 codelist|name|nuts-dnk-lvl3:
   name: List of level 3 NUTS codes for Denmark
+  nob: Liste over nivå 3 NUTS-koder for Danmark
+  history: []
+  nob_verify: false
 codelist|name|nuts-esp-lvl3:
   name: List of level 3 NUTS codes for Spain
+  nob: Liste over nivå 3 NUTS-koder for Spania
+  history: []
+  nob_verify: false
 codelist|name|nuts-est-lvl3:
   name: List of level 3 NUTS codes for Estonia
+  nob: Liste over nivå 3 NUTS-koder for Estland
+  history: []
+  nob_verify: false
 codelist|name|nuts-fin-lvl3:
   name: List of level 3 NUTS codes for Finland
+  nob: Liste over nivå 3 NUTS-koder for Finland
+  history: []
+  nob_verify: false
 codelist|name|nuts-fra-lvl3:
   name: List of level 3 NUTS codes for France
+  nob: Liste over nivå 3 NUTS-koder for Frankrike
+  history: []
+  nob_verify: false
 codelist|name|nuts-gbr-lvl3:
   name: List of level 3 NUTS codes for United Kingdom
+  nob: Liste over nivå 3 NUTS-koder for Storbritannia
+  history: []
+  nob_verify: false
 codelist|name|nuts-grc-lvl3:
   name: List of level 3 NUTS codes for Greece
+  nob: Liste over nivå 3 NUTS-koder for Hellas
+  history: []
+  nob_verify: false
 codelist|name|nuts-hrv-lvl3:
   name: List of level 3 NUTS codes for Croatia
+  nob: Liste over nivå 3 NUTS-koder for Kroatia
+  history: []
+  nob_verify: false
 codelist|name|nuts-hun-lvl3:
   name: List of level 3 NUTS codes for Hungary
+  nob: Liste over nivå 3 NUTS-koder for Ungarn
+  history: []
+  nob_verify: false
 codelist|name|nuts-irl-lvl3:
   name: List of level 3 NUTS codes for Ireland
+  nob: Liste over nivå 3 NUTS-koder for Irland
+  history: []
+  nob_verify: false
 codelist|name|nuts-isl-lvl3:
   name: List of level 3 NUTS codes for Iceland
+  nob: Liste over nivå 3 NUTS-koder for Island
+  history: []
+  nob_verify: false
 codelist|name|nuts-ita-lvl3:
   name: List of level 3 NUTS codes for Italy
+  nob: Liste over nivå 3 NUTS-koder for Italia
+  history: []
+  nob_verify: false
 codelist|name|nuts-lie-lvl3:
   name: List of level 3 NUTS codes for Lichtenstein
+  nob: Liste over nivå 3 NUTS-koder for Lichtenstein
+  history: []
+  nob_verify: false
 codelist|name|nuts-ltu-lvl3:
   name: List of level 3 NUTS codes for Lithuania
+  nob: Liste over nivå 3 NUTS-koder for Litauen
+  history: []
+  nob_verify: false
 codelist|name|nuts-lux-lvl3:
   name: List of level 3 NUTS codes for Luxembourg
+  nob: Liste over nivå 3 NUTS-koder for Luxembourg
+  history: []
+  nob_verify: false
 codelist|name|nuts-lva-lvl3:
   name: List of level 3 NUTS codes for Latvia
+  nob: Liste over nivå 3 NUTS-koder for Latvia
+  history: []
+  nob_verify: false
 codelist|name|nuts-lvl3:
   name: List of all level 3 NUTS codes
+  nob: Liste over alle nivå 3 NUTS-koder
+  history: []
+  nob_verify: false
 codelist|name|nuts-mkd-lvl3:
   name: List of level 3 NUTS codes for North Macedonia
+  nob: Liste over nivå 3 NUTS-koder for Nord-Makedonia
+  history: []
+  nob_verify: false
 codelist|name|nuts-mlt-lvl3:
   name: List of level 3 NUTS codes for Malta
+  nob: Liste over nivå 3 NUTS-koder for Malta
+  history: []
+  nob_verify: false
 codelist|name|nuts-mne-lvl3:
   name: List of level 3 NUTS codes for Montenegro
+  nob: Liste over nivå 3 NUTS-koder for Montenegro
+  history: []
+  nob_verify: false
 codelist|name|nuts-nld-lvl3:
   name: List of level 3 NUTS codes for Netherlands
+  nob: Liste over nivå 3 NUTS-koder for Nederland
+  history: []
+  nob_verify: false
 codelist|name|nuts-nor-lvl3:
   name: List of level 3 NUTS codes for Norway
+  nob: Liste over nivå 3 NUTS-koder for Norge
+  history: []
+  nob_verify: false
 codelist|name|nuts-pol-lvl3:
   name: List of level 3 NUTS codes for Poland
+  nob: Liste over nivå 3 NUTS-koder for Polen
+  history: []
+  nob_verify: false
 codelist|name|nuts-prt-lvl3:
   name: List of level 3 NUTS codes for Portugal
+  nob: Liste over nivå 3 NUTS-koder for Portugal
+  history: []
+  nob_verify: false
 codelist|name|nuts-rou-lvl3:
   name: List of level 3 NUTS codes for Romania
+  nob: Liste over nivå 3 NUTS-koder for Romania
+  history: []
+  nob_verify: false
 codelist|name|nuts-srb-lvl3:
   name: List of level 3 NUTS codes for Serbia
+  nob: Liste over nivå 3 NUTS-koder for Serbia
+  history: []
+  nob_verify: false
 codelist|name|nuts-svk-lvl3:
   name: List of level 3 NUTS codes for Slovakia
+  nob: Liste over nivå 3 NUTS-koder for Slovakia
+  history: []
+  nob_verify: false
 codelist|name|nuts-svn-lvl3:
   name: List of level 3 NUTS codes for Slovenia
+  nob: Liste over nivå 3 NUTS-koder for Slovenia
+  history: []
+  nob_verify: false
 codelist|name|nuts-swe-lvl3:
   name: List of level 3 NUTS codes for Sweden
+  nob: Liste over nivå 3 NUTS-koder for Sverige
+  history: []
+  nob_verify: false
 codelist|name|nuts-tur-lvl3:
   name: List of level 3 NUTS codes for Turkey
+  nob: Liste over nivå 3 NUTS-koder for Tyrkia
+  history: []
+  nob_verify: false
 codelist|name|organisation-role:
   name: This table provides the list of the different functions of the organisations in a procurement procedure.
+  nob: Denne tabellen inneholder en liste over de ulike funksjonene til virksomhetene i en anskaffelsesprosedyre.
+  history:
+  - name: This table provides the list of the different functions of the organisations in a procurement procedure.
+    nob: Denne tabellen inneholder en liste over de ulike funksjonene til organisasjonene i en anskaffelsesprosedyre.
+    history: []
+    nob_verify: false
+  nob_verify: false
 codelist|name|organisation-role-service:
   name: List of possible service codes for Procurement Service Providers
+  nob: Liste over mulige servicekoder for leverandører av innkjøpstjenester
+  history: []
+  nob_verify: false
 codelist|name|other-place-service:
   name: This table provides the broad geopolitical areas linked to the location of works and the place of performance or delivery within the context of public procurement.
+  nob: Denne tabellen viser de brede geopolitiske områdene knyttet til bygge- og anleggslokalisering og utførings- eller leveringssted i forbindelse med offentlige anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|permission:
   name: This table provides the codes linked to the different values of permission and/or obligation.
+  nob: Denne tabellen inneholder kodene knyttet til de ulike verdiene for tillatelse og/eller forpliktelse.
+  history: []
+  nob_verify: false
 codelist|name|pin-buyer:
   name: List of allowed Notice Subtype codes for a notice of PIN Buyer Notice Type.
+  nob: Liste over tillatte undertypekoder for varsel om PIN-kjøpervarsel.
+  history: []
+  nob_verify: false
 codelist|name|pin-cfc-social:
   name: List of allowed Notice Subtype codes for a notice of PIN Call for Competition Social Notice Type.
+  nob: Liste over tillatte Notice Subtype-koder for en melding om PIN-kode Call for Competition Social Notice Type.
+  history: []
+  nob_verify: false
 codelist|name|pin-cfc-standard:
   name: List of allowed Notice Subtype codes for a notice of PIN Call for Competition Standard Notice Type.
+  nob: Liste over tillatte Notice Subtype-koder for en melding om PIN-kode Call for Competition Standard Notice Type.
+  history: []
+  nob_verify: false
 codelist|name|pin-only:
   name: List of allowed Notice Subtype codes for a notice of PIN Only Notice Type.
+  nob: Liste over tillatte undertypekoder for varsel om bare PIN-kode.
+  history: []
+  nob_verify: false
 codelist|name|pin-rtl:
   name: List of allowed Notice Subtype codes for a notice of PIN Reduced Time Limit Notice Type.
+  nob: Liste over tillatte undertypekoder for varsel om PIN-kode Varseltype for redusert tidsbegrensning.
+  history: []
+  nob_verify: false
 codelist|name|pin-tran:
   name: List of allowed Notice Subtype codes for a notice of PIN for Public Transportation Service Contract Notice Type.
+  nob: Liste over tillatte undertypekoder for varsel om PIN-kode for avtalevarseltype for offentlig transporttjeneste.
+  history: []
+  nob_verify: false
 codelist|name|planning:
   name: List of allowed Notice Type codes for a Planning Form Type
+  nob: Liste over tillatte varseltypekoder for en planleggingsskjematype
+  history: []
+  nob_verify: false
 codelist|name|postcode-country:
   name: List of country codes for countries having postcodes and requiring their use
+  nob: Liste over landskoder for land som har postnumre og krever bruk av disse
+  history: []
+  nob_verify: false
 codelist|name|procurement-procedure-type:
   name: This table provides a list of activities leading to the conclusion of public contracts used in public procurement according to the legislation.
+  nob: Denne tabellen gir en liste over aktiviteter som fører til inngåelse av offentlige kontrakter som brukes i offentlige anskaffelser i henhold til lovgivningen.
+  history: []
+  nob_verify: false
 codelist|name|qu-sy:
   name: List of allowed Notice Subtype codes for a notice of Qualification System Notice Type.
+  nob: Liste over tillatte varslingsundertypekoder for en melding om merknadstype for kvalifikasjonssystem.
+  history: []
+  nob_verify: false
 codelist|name|received-submission-type:
   name: This table provides the list of relevant categories used to classify tenders or requests to participate received within the context of public procurement.
+  nob: Denne tabellen inneholder listen over relevante kategorier som brukes til å klassifisere anbud eller forespørsler om å delta mottatt i forbindelse med offentlige anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|remedy-type:
   name: This table describes the measures taken following a review.
+  nob: Denne tabellen beskriver tiltakene som er iverksatt etter en gjennomgang.
+  history: []
+  nob_verify: false
 codelist|name|required:
   name: List of codes to specify whether the associated requirement applies or not.
+  nob: Liste over koder for å spesifisere om det tilknyttede kravet gjelder eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|requirement-stage:
   name: This table describes when and whether a given requirement must be provided in a procedure.
+  nob: Denne tabellen beskriver når og om et gitt krav må gis i en prosedyre.
+  history: []
+  nob_verify: false
 codelist|name|reserved-execution:
   name: List of codes to express whether a contract execution is reserved or not.
+  nob: Liste over koder for å uttrykke om en kontraktutførelse er reservert eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|reserved-procurement:
   name: List of codes to specify whether participation is reserved or not.
+  nob: Liste over koder for å spesifisere om deltakelse er reservert eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|result:
   name: List of allowed Notice Type codes for a Result Form Type
+  nob: Liste over tillatte varseltypekoder for en resultatskjematype
+  history: []
+  nob_verify: false
 codelist|name|review-body-type:
   name: This table covers the list of organisations providing the review of a given procedure.
+  nob: Denne tabellen dekker listen over virksomheter som gir gjennomgang av en gitt prosedyre.
+  history:
+  - name: This table covers the list of organisations providing the review of a given procedure.
+    nob: Denne tabellen dekker listen over organisasjoner som gir gjennomgang av en gitt prosedyre.
+    history: []
+    nob_verify: false
+  nob_verify: false
 codelist|name|review-decision-type:
   name: This table describes the decision made a review body.
+  nob: Denne tabellen beskriver vedtaket fattet av et overprøvingsinstans.
+  history: []
+  nob_verify: false
 codelist|name|review-requester-type:
   name: Category of Stakeholders that requested a review
+  nob: Kategori av interessenter som ba om en gjennomgang
+  history: []
+  nob_verify: false
 codelist|name|review-status:
   name: List of codes for the status of a given review request.
+  nob: Liste over koder for statusen for en gitt forespørsel om gjennomgang.
+  history: []
+  nob_verify: false
 codelist|name|review-type:
   name: List of codes for the identification of the type of review requester
+  nob: Liste over koder for identifisering av typen anmoder om overprøving
+  history: []
+  nob_verify: false
 codelist|name|rewards-penalties:
   name: List of codes for rewards and penalties associated to a Public Transportation Service.
+  nob: Liste over koder for belønninger og straffer knyttet til en offentlig transporttjeneste.
+  history: []
+  nob_verify: false
 codelist|name|selection-criterion:
   name: List of codes to express conditions that are concerned for evaluation purposes. This codelist is a subset of the ESPD codelist CriterionTaxonomy.
+  nob: Liste over koder for å uttrykke forhold som er bekymret for evalueringsformål. Denne kodelisten er et delsett av ESPD-kodelisten CriterionTaxonomy.
+  history: []
+  nob_verify: false
 codelist|name|social-objective:
   name: List of codes for values linked to any social objective promoted by the specifications, award / selection criteria or contract performance conditions included in a procurement.
+  nob: Liste over koder for verdier knyttet til ethvert sosialt mål fremmet av spesifikasjonene, tildelings- / utvelgelseskriteriene eller kontraktens ytelsesbetingelser som inngår i en anskaffelse.
+  history: []
+  nob_verify: false
 codelist|name|social-service-cpv:
   name: Codes for social service of CPV
+  nob: Koder for sosial tjeneste av CPV
+  history: []
+  nob_verify: false
 codelist|name|strategic-procurement:
   name: This table provides the values linked to any social objective promoted by the technical specifications, award criteria, selection criteria or contract performance conditions included in a procurement.
+  nob: Denne tabellen inneholder verdiene knyttet til eventuelle sosiale mål som fremmes av de tekniske spesifikasjonene, tildelingskriteriene, utvelgelseskriteriene eller kontraktsvilkårene som inngår i en anskaffelse.
+  history: []
+  nob_verify: false
 codelist|name|subco:
   name: List of allowed Notice Subtype codes for a notice of Subcontracting Notice Type.
+  nob: Liste over tillatte Notice Subtype-koder for et varsel om varseltype for underleverandører.
+  history: []
+  nob_verify: false
 codelist|name|subcontracting-allowed:
   name: List of codes to specify whether subcontracting is allowed or not.
+  nob: Liste over koder for å angi om underleveranser er tillatt eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|subcontracting-indication:
   name: This table provides the list of codes and values used to indicate information regarding the share of parts of a contract to third parties. The share may refer to the portion of work, services or supplies and/or to the subject matter being subcontracted.
+  nob: Denne tabellen inneholder listen over koder og verdier som brukes til å indikere informasjon om andelen deler av en kontrakt til tredjeparter. Andelen kan referere til den delen av arbeidet, tjenestene eller forsyningene og/eller til gjenstanden som er underleverandør.
+  history: []
+  nob_verify: false
 codelist|name|subcontracting-obligation:
   name: This table provides the list of codes and values used for the obligation of the economic operator of sharing parts of the original contract to third parties. The share may refer to the portion of work, services or supplies.
+  nob: Denne tabellen inneholder en liste over koder og verdier som brukes for markedsdeltakerens plikt til å dele deler av den opprinnelige kontrakten med tredjeparter. Andelen kan referere til del av arbeid, tjenester eller forsyninger.
+  history: []
+  nob_verify: false
 codelist|name|tender-guarantee-required:
   name: List of codes to specify whether a Tender Guarantee is required or not.
+  nob: Liste over koder for å spesifisere om en anbudsgaranti er nødvendig eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|tenderlot-presentation:
   name: List of codes to specify whether the submission should deal with all the defined lots.
+  nob: Liste over koder for å angi om innsendingen skal håndtere alle de definerte partiene.
+  history: []
+  nob_verify: false
 codelist|name|timeperiod:
   name: List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.
+  nob: Liste over koder for de viktigste tidsperiodene (sesonger, måleenheter for varighet) som vanligvis brukes i anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|timeperiods:
   name: List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.
+  nob: Liste over koder for de viktigste tidsperiodene (sesonger, måleenheter for varighet) som vanligvis brukes i anskaffelser.
+  history: []
+  nob_verify: false
 codelist|name|transport-service:
   name: This table provides a list of transport services.
+  nob: Denne tabellen inneholder en liste over transporttjenester.
+  history: []
+  nob_verify: false
 codelist|name|usage:
   name: List of codes to indicate whether the associated concept should be used or not.
+  nob: Liste over koder for å indikere om det tilknyttede konseptet skal brukes eller ikke.
+  history: []
+  nob_verify: false
 codelist|name|veat:
   name: List of allowed Notice Subtype codes for a notice of Voluntary ex-ante Transparency Notice Type.
+  nob: Liste over tillatte Notice Subtype-koder for et varsel om frivillig ex-ante Transparency Notice Type.
+  history: []
+  nob_verify: false
 codelist|name|vehicle-category:
   name: The category of vehicle falling within the scope of Directive 2009/33/EC.
+  nob: Kjøretøykategorien som omfattes av direktiv 2009/33/EF.
+  history: []
+  nob_verify: false
 codelist|name|vehicles:
   name: List of codes for vehicle categories.
+  nob: Liste over koder for kjøretøykategorier.
+  history: []
+  nob_verify: false
 codelist|name|winner-selection-status:
   name: This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and whether the competition is open.
+  nob: Denne tabellen inneholder listen over koder og verdier som brukes til å indikere om en tilbyder ble valgt til å bli tildelt en kontrakt, og om konkurransen er åpen.
+  history: []
+  nob_verify: false
 codelist|name|eforms-buyer-legal-type:
   name: List of buyer-legal-type codes allowed in eforms
+  nob: Liste over kjøper-legal-type koder tillatt i eforms
+  history: []
+  nob_verify: false
 codelist|name|eforms-currency:
   name: List of currency codes allowed in eforms
+  nob: Liste over valutakoder tillatt i eBlanketter
+  history: []
+  nob_verify: false
 codelist|name|gpp-criteria:
   name: Green Public Procurement Criteria
+  nob: Grønne kriterier for offentlige anskaffelser
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-1:
   name: Allowed Legal Basis values for notice subtype 1
+  nob: Tillatte verdier for juridisk grunnlag for undertype 1 av varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-10:
   name: Allowed Legal Basis values for notice subtype 10
+  nob: Tillatte verdier for juridisk grunnlag for undertype 10 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-11:
   name: Allowed Legal Basis values for notice subtype 11
+  nob: Tillatte verdier for juridisk grunnlag for undertype 11 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-12:
   name: Allowed Legal Basis values for notice subtype 12
+  nob: Tillatte verdier for juridisk grunnlag for undertype 12 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-13:
   name: Allowed Legal Basis values for notice subtype 13
+  nob: Tillatte verdier for juridisk grunnlag for undertype 13 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-14:
   name: Allowed Legal Basis values for notice subtype 14
+  nob: Tillatte verdier for juridisk grunnlag for undertype 14 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-15:
   name: Allowed Legal Basis values for notice subtype 15
+  nob: Tillatte verdier for juridisk grunnlag for undertype 15 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-16:
   name: Allowed Legal Basis values for notice subtype 16
+  nob: Tillatte verdier for juridisk grunnlag for undertype 16 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-17:
   name: Allowed Legal Basis values for notice subtype 17
+  nob: Tillatte verdier for juridisk grunnlag for undertype 17
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-18:
   name: Allowed Legal Basis values for notice subtype 18
+  nob: Tillatte verdier for juridisk grunnlag for undertype 18 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-19:
   name: Allowed Legal Basis values for notice subtype 19
+  nob: Tillatte verdier for juridisk grunnlag for undertype 19
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-2:
   name: Allowed Legal Basis values for notice subtype 2
+  nob: Tillatte rettsgrunnlagsverdier for undertype 2 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-20:
   name: Allowed Legal Basis values for notice subtype 20
+  nob: Tillatte verdier for juridisk grunnlag for undertype 20 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-21:
   name: Allowed Legal Basis values for notice subtype 21
+  nob: Tillatte verdier for rettslig grunnlag for undertype 21 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-22:
   name: Allowed Legal Basis values for notice subtype 22
+  nob: Tillatte verdier for juridisk grunnlag for undertype 22 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-23:
   name: Allowed Legal Basis values for notice subtype 23
+  nob: Tillatte verdier for juridisk grunnlag for undertype 23 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-24:
   name: Allowed Legal Basis values for notice subtype 24
+  nob: Tillatte verdier for juridisk grunnlag for undertype 24
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-25:
   name: Allowed Legal Basis values for notice subtype 25
+  nob: Tillatte verdier for juridisk grunnlag for undertype 25 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-26:
   name: Allowed Legal Basis values for notice subtype 26
+  nob: Tillatte verdier for juridisk grunnlag for undertype 26
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-27:
   name: Allowed Legal Basis values for notice subtype 27
+  nob: Tillatte verdier for juridisk grunnlag for undertype 27 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-28:
   name: Allowed Legal Basis values for notice subtype 28
+  nob: Tillatte verdier for juridisk grunnlag for undertype 28 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-29:
   name: Allowed Legal Basis values for notice subtype 29
+  nob: Tillatte verdier for juridisk grunnlag for undertype 29 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-3:
   name: Allowed Legal Basis values for notice subtype 3
+  nob: Tillatte verdier for juridisk grunnlag for undertype 3 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-30:
   name: Allowed Legal Basis values for notice subtype 30
+  nob: Tillatte verdier for juridisk grunnlag for undertype 30 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-31:
   name: Allowed Legal Basis values for notice subtype 31
+  nob: Tillatte verdier for juridisk grunnlag for undertype 31 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-32:
   name: Allowed Legal Basis values for notice subtype 32
+  nob: Tillatte verdier for juridisk grunnlag for undertype 32 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-33:
   name: Allowed Legal Basis values for notice subtype 33
+  nob: Tillatte verdier for juridisk grunnlag for undertype 33 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-34:
   name: Allowed Legal Basis values for notice subtype 34
+  nob: Tillatte verdier for juridisk grunnlag for undertype 34 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-35:
   name: Allowed Legal Basis values for notice subtype 35
+  nob: Tillatte verdier for juridisk grunnlag for undertype 35 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-36:
   name: Allowed Legal Basis values for notice subtype 36
+  nob: Tillatte verdier for juridisk grunnlag for undertype 36 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-37:
   name: Allowed Legal Basis values for notice subtype 37
+  nob: Tillatte verdier for juridisk grunnlag for undertype 37 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-38:
   name: Allowed Legal Basis values for notice subtype 38
+  nob: Tillatte verdier for juridisk grunnlag for undertype 38 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-39:
   name: Allowed Legal Basis values for notice subtype 39
+  nob: Tillatte verdier for juridisk grunnlag for undertype 39 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-4:
   name: Allowed Legal Basis values for notice subtype 4
+  nob: Tillatte Legal Basis-verdier for undertype 4 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-40:
   name: Allowed Legal Basis values for notice subtype 40
+  nob: Tillatte verdier for juridisk grunnlag for undertype 40 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-5:
   name: Allowed Legal Basis values for notice subtype 5
+  nob: Tillatte verdier for juridisk grunnlag for undertype 5 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-6:
   name: Allowed Legal Basis values for notice subtype 6
+  nob: Tillatte verdier for juridisk grunnlag for undertype 6 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-7:
   name: Allowed Legal Basis values for notice subtype 7
+  nob: Tillatte verdier for juridisk grunnlag for undertype 7 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-8:
   name: Allowed Legal Basis values for notice subtype 8
+  nob: Tillatte verdier for juridisk grunnlag for undertype 8 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-9:
   name: Allowed Legal Basis values for notice subtype 9
+  nob: Tillatte verdier for juridisk grunnlag for undertype 9 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-cei:
   name: Allowed Legal Basis values for notice subtype CEI
+  nob: Tillatte juridiske grunnlagsverdier for varselundertype CEI
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-e1:
   name: Allowed Legal Basis values for notice subtype E1
+  nob: Tillatte juridiske grunnlagsverdier for undertype E1
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-e2:
   name: Allowed Legal Basis values for notice subtype E2
+  nob: Tillatte rettsgrunnlagsverdier for undertype E2 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-e3:
   name: Allowed Legal Basis values for notice subtype E3
+  nob: Tillatte rettsgrunnlagsverdier for undertype E3 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-e4:
   name: Allowed Legal Basis values for notice subtype E4
+  nob: Tillatte rettsgrunnlagsverdier for undertype E4 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-e5:
   name: Allowed Legal Basis values for notice subtype E5
+  nob: Tillatte verdier for juridisk grunnlag for undertype E5 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-t01:
   name: Allowed Legal Basis values for notice subtype T01
+  nob: Tillatte rettsgrunnlagsverdier for undertype T01
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-t02:
   name: Allowed Legal Basis values for notice subtype T02
+  nob: Tillatte rettsgrunnlagsverdier for undertype T02 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-x01:
   name: Allowed Legal Basis values for notice subtype X01
+  nob: Tillatte verdier for juridisk grunnlag for undertype X01 for varsel
+  history: []
+  nob_verify: false
 codelist|name|legal-basis-x02:
   name: Allowed Legal Basis values for notice subtype X02
+  nob: Tillatte verdier for juridisk grunnlag for undertype X02 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-10:
   name: Allowed procedure type for notice subtype 10
+  nob: Tillatt prosedyretype for varselundertype 10
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-11:
   name: Allowed procedure type for notice subtype 11
+  nob: Tillatt prosedyretype for undertype 11 for melding
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-12:
   name: Allowed procedure type for notice subtype 12
+  nob: Tillatt prosedyretype for undertype 12 for melding
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-13:
   name: Allowed procedure type for notice subtype 13
+  nob: Tillatt prosedyretype for undertype 13 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-14:
   name: Allowed procedure type for notice subtype 14
+  nob: Tillatt prosedyretype for undertype 14 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-16:
   name: Allowed procedure type for notice subtype 16
+  nob: Tillatt prosedyretype for undertype 16 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-17:
   name: Allowed procedure type for notice subtype 17
+  nob: Tillatt prosedyretype for undertype 17 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-18:
   name: Allowed procedure type for notice subtype 18
+  nob: Tillatt prosedyretype for undertype 18 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-19:
   name: Allowed procedure type for notice subtype 19
+  nob: Tillatt prosedyretype for varselundertype 19
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-20:
   name: Allowed procedure type for notice subtype 20
+  nob: Tillatt prosedyretype for undertype 20 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-21:
   name: Allowed procedure type for notice subtype 21
+  nob: Tillatt prosedyretype for undertype 21 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-22:
   name: Allowed procedure type for notice subtype 22
+  nob: Tillatt prosedyretype for undertype 22 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-23:
   name: Allowed procedure type for notice subtype 23
+  nob: Tillatt prosedyretype for undertype 23 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-24:
   name: Allowed procedure type for notice subtype 24
+  nob: Tillatt prosedyretype for undertype 24 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-25:
   name: Allowed procedure type for notice subtype 25
+  nob: Tillatt prosedyretype for undertype 25 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-26:
   name: Allowed procedure type for notice subtype 26
+  nob: Tillatt prosedyretype for undertype 26 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-27:
   name: Allowed procedure type for notice subtype 27
+  nob: Tillatt prosedyretype for varselundertype 27
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-28:
   name: Allowed procedure type for notice subtype 28
+  nob: Tillatt prosedyretype for undertype 28 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-29:
   name: Allowed procedure type for notice subtype 29
+  nob: Tillatt prosedyretype for undertype 29
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-30:
   name: Allowed procedure type for notice subtype 30
+  nob: Tillatt prosedyretype for undertype 30 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-31:
   name: Allowed procedure type for notice subtype 31
+  nob: Tillatt prosedyretype for undertype 31 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-32:
   name: Allowed procedure type for notice subtype 32
+  nob: Tillatt prosedyretype for undertype 32 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-33:
   name: Allowed procedure type for notice subtype 33
+  nob: Tillatt prosedyretype for undertype 33 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-34:
   name: Allowed procedure type for notice subtype 34
+  nob: Tillatt prosedyretype for undertype 34 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-35:
   name: Allowed procedure type for notice subtype 35
+  nob: Tillatt prosedyretype for undertype 35 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-36:
   name: Allowed procedure type for notice subtype 36
+  nob: Tillatt prosedyretype for undertype 36 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-37:
   name: Allowed procedure type for notice subtype 37
+  nob: Tillatt prosedyretype for undertype 37 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-7:
   name: Allowed procedure type for notice subtype 7
+  nob: Tillatt prosedyretype for varselundertype 7
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-8:
   name: Allowed procedure type for notice subtype 8
+  nob: Tillatt prosedyretype for varslingsundertype 8
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-9:
   name: Allowed procedure type for notice subtype 9
+  nob: Tillatt prosedyretype for undertype 9 for varsel
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-cei:
   name: Allowed procedure type for notice subtype CEI
+  nob: Tillatt prosedyretype for varslingsundertype CEI
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-e1:
   name: Allowed procedure type for notice subtype E1
+  nob: Tillatt prosedyretype for undertype E1 for melding
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-e2:
   name: Allowed procedure type for notice subtype E2
+  nob: Tillatt prosedyretype for undertype E2 for melding
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-e3:
   name: Allowed procedure type for notice subtype E3
+  nob: Tillatt prosedyretype for undertype E3 for melding
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-e4:
   name: Allowed procedure type for notice subtype E4
+  nob: Tillatt prosedyretype for undertype E4 for melding
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-e5:
   name: Allowed procedure type for notice subtype E5
+  nob: Tillatt prosedyretype for undertype E5 for melding
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-t01:
   name: Allowed procedure type for notice subtype T01
+  nob: Tillatt prosedyretype for undertype T01 for melding
+  history: []
+  nob_verify: false
 codelist|name|procedure-type-t02:
   name: Allowed procedure type for notice subtype T02
+  nob: Tillatt prosedyretype for meldingsundertype T02
+  history: []
+  nob_verify: false
 codelist|name|corporate-body:
   name: The Corporate body authority table is a controlled vocabulary which provides the varying names of EU corporate bodies for a given time span.
+  nob: Tabellen over foretaksorganer er et kontrollert vokabular som gir de forskjellige navnene på EU-selskapsorganer for et gitt tidsrom.
+  history: []
+  nob_verify: false
