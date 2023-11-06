@@ -1,0 +1,24 @@
+no:
+  name: No
+  nob: Nei
+  history:
+  - name: No
+    history: []
+    nob_verify: false
+  nob_verify: false
+not-known:
+  name: Not yet known
+  nob: Foreløpig ikke kjent
+  history:
+  - name: Not yet known
+    history: []
+    nob_verify: false
+  nob_verify: false
+yes:
+  name: Yes
+  nob: Ja
+  history:
+  - name: Yes
+    history: []
+    nob_verify: false
+  nob_verify: false

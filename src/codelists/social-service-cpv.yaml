@@ -1,0 +1,920 @@
+75121000:
+  name: Administrative educational services
+  nob: Administrative utdanningstjenester
+  history:
+  - name: Administrative educational services
+    history: []
+    nob_verify: false
+  nob_verify: false
+75122000:
+  name: Administrative healthcare services
+  nob: Administrative helsetjenester
+  history:
+  - name: Administrative healthcare services
+    history: []
+    nob_verify: false
+  nob_verify: false
+75123000:
+  name: Administrative housing services
+  nob: Administrative boligtjenester
+  history:
+  - name: Administrative housing services
+    history: []
+    nob_verify: false
+  nob_verify: false
+79622000:
+  name: Supply services of domestic help personnel
+  nob: Formidling av hushjelpspersonal
+  history:
+  - name: Supply services of domestic help personnel
+    history: []
+    nob_verify: false
+  nob_verify: false
+79624000:
+  name: Supply services of nursing personnel
+  nob: Formidling av pleiepersonal
+  history:
+  - name: Supply services of nursing personnel
+    history: []
+    nob_verify: false
+  nob_verify: false
+79625000:
+  name: Supply services of medical personnel
+  nob: Formidling av medisinsk personal
+  history:
+  - name: Supply services of medical personnel
+    history: []
+    nob_verify: false
+  nob_verify: false
+80110000:
+  name: Pre-school education services
+  nob: Førskoleundervisning
+  history:
+  - name: Pre-school education services
+    history: []
+    nob_verify: false
+  nob_verify: false
+80300000:
+  name: Higher education services
+  nob: Videregående utdannelse
+  history:
+  - name: Higher education services
+    history: []
+    nob_verify: false
+  nob_verify: false
+80420000:
+  name: E-learning services
+  nob: E-læringstjenester
+  history:
+  - name: E-learning services
+    history: []
+    nob_verify: false
+  nob_verify: false
+80430000:
+  name: Adult-education services at university level
+  nob: Voksenundervisning på universitetsnivå
+  history:
+  - name: Adult-education services at university level
+    history: []
+    nob_verify: false
+  nob_verify: false
+80511000:
+  name: Staff training services
+  nob: Personaleutdannelse
+  history:
+  - name: Staff training services
+    history: []
+    nob_verify: false
+  nob_verify: false
+80520000:
+  name: Training facilities
+  nob: Utdannelsesfasiliteter
+  history:
+  - name: Training facilities
+    history: []
+    nob_verify: false
+  nob_verify: false
+80590000:
+  name: Tutorial services
+  nob: Opplæringstjenester
+  history:
+  - name: Tutorial services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85000000:
+  name: Health and social work services
+  nob: Helse- og sosial tjenesteyting
+  history:
+  - name: Health and social work services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85100000:
+  name: Health services
+  nob: Tjenesteytelser innen helsevesenet
+  history:
+  - name: Health services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85110000:
+  name: Hospital and related services
+  nob: Sykehus og tilknyttede tjenester
+  history:
+  - name: Hospital and related services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111000:
+  name: Hospital services
+  nob: Sykehustjenester
+  history:
+  - name: Hospital services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111100:
+  name: Surgical hospital services
+  nob: Tjenester knyttet til kirurgiske avdelinger
+  history:
+  - name: Surgical hospital services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111200:
+  name: Medical hospital services
+  nob: Tjenester knyttet til medisinsk avdelinger
+  history:
+  - name: Medical hospital services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111300:
+  name: Gynaecological hospital services
+  nob: Tjenester knyttet til gynekologiske avdelinger
+  history:
+  - name: Gynaecological hospital services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111310:
+  name: In vitro fertilisation services
+  nob: Tjenester knyttet til In-vitro befrukting
+  history:
+  - name: In vitro fertilisation services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111320:
+  name: Obstetrical hospital services
+  nob: Tjenester knyttet til fødeavdelinger
+  history:
+  - name: Obstetrical hospital services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111400:
+  name: Rehabilitation hospital services
+  nob: Tjenester knyttet til rehabilitering
+  history:
+  - name: Rehabilitation hospital services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111500:
+  name: Psychiatric hospital services
+  nob: Tjenester knyttet til psykiatriske avdelinger
+  history:
+  - name: Psychiatric hospital services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111600:
+  name: Orthotic services
+  nob: Tjenester knyttet til ortopedi
+  history:
+  - name: Orthotic services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111700:
+  name: Oxygen-therapy services
+  nob: Tjenester knyttet til oksygenbehandling
+  history:
+  - name: Oxygen-therapy services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111800:
+  name: Pathology services
+  nob: Tjenester knyttet til patologi
+  history:
+  - name: Pathology services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111810:
+  name: Blood analysis services
+  nob: Blodanalysetjenester
+  history:
+  - name: Blood analysis services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111820:
+  name: Bacteriological analysis services
+  nob: Bakteriologiske analysetjenester
+  history:
+  - name: Bacteriological analysis services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85111900:
+  name: Hospital dialysis services
+  nob: Sykehusdialysetjenester
+  history:
+  - name: Hospital dialysis services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85112000:
+  name: Hospital support services
+  nob: Sykehusstøttetjenester
+  history:
+  - name: Hospital support services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85112100:
+  name: Hospital-bedding services
+  nob: Levering av sengetøy til sykehus
+  history:
+  - name: Hospital-bedding services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85112200:
+  name: Outpatient care services
+  nob: Poliklinisketjenester
+  history:
+  - name: Outpatient care services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85120000:
+  name: Medical practice and related services
+  nob: Tjenester knyttet til praktiserende leger og tilhørende tjenester
+  history:
+  - name: Medical practice and related services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121000:
+  name: Medical practice services
+  nob: Tjenester utført av praktiserende leger
+  history:
+  - name: Medical practice services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121100:
+  name: General-practitioner services
+  nob: Tjenester knyttet til allmennpraktiserende leger
+  history:
+  - name: General-practitioner services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121200:
+  name: Medical specialist services
+  nob: Tjenester knyttet til medisinske spesialister
+  history:
+  - name: Medical specialist services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121210:
+  name: Gyneacologic or obstetric services
+  nob: 'Gynekologiske eller fødselstjenester '
+  history:
+  - name: Gyneacologic or obstetric services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121220:
+  name: Nephrology or nervous system specialist services
+  nob: Nyrespesialist eller nervesystemsspesialisttjenester
+  history:
+  - name: Nephrology or nervous system specialist services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121230:
+  name: Cardiology services or pulmonary specialists services
+  nob: Kardiologi- og lungespesialisttjenester
+  history:
+  - name: Cardiology services or pulmonary specialists services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121231:
+  name: Cardiology services
+  nob: Kardiologitjenester
+  history:
+  - name: Cardiology services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121232:
+  name: Pulmonary specialists services
+  nob: Lungespesialisttjenester
+  history:
+  - name: Pulmonary specialists services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121240:
+  name: ENT or audiologist services
+  nob: Tjenester i forbindelse med øre-, nese-, halssykdommer eller audiolog
+  history:
+  - name: ENT or audiologist services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121250:
+  name: Gastroenterologist and geriatric services
+  nob: Gastroenterologiske og geriatriske tjenester
+  history:
+  - name: Gastroenterologist and geriatric services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121251:
+  name: Gastroenterologist services
+  nob: Gastroenterologiske tjenester
+  history:
+  - name: Gastroenterologist services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121252:
+  name: Geriatric services
+  nob: Geriatriske tjenester
+  history:
+  - name: Geriatric services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121270:
+  name: Psychiatrist or psychologist services
+  nob: Psykiater- eller psykologtjenester
+  history:
+  - name: Psychiatrist or psychologist services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121271:
+  name: Home for the psychologically disturbed services
+  nob: Tjenester i forbindelse med hjem for psykisk syke.
+  history:
+  - name: Home for the psychologically disturbed services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121280:
+  name: Ophthalmologist, dermatology or orthopedics services
+  nob: Øyenlege-, dermatologi- og ortopediske tjenester
+  history:
+  - name: Ophthalmologist, dermatology or orthopedics services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121281:
+  name: Ophthalmologist services
+  nob: Øyenlegetjenester
+  history:
+  - name: Ophthalmologist services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121282:
+  name: Dermatology services
+  nob: Dermatologitjenester
+  history:
+  - name: Dermatology services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121283:
+  name: Orthopaedic services
+  nob: Ortopediske tjenester
+  history:
+  - name: Orthopaedic services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121290:
+  name: Paediatric or urologist services
+  nob: 'Barnespesialist- og urologtjenester '
+  history:
+  - name: Paediatric or urologist services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121291:
+  name: Paediatric services
+  nob: Barnelegetjenester
+  history:
+  - name: Paediatric services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121292:
+  name: Urologist services
+  nob: Urologtjenester
+  history:
+  - name: Urologist services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85121300:
+  name: Surgical specialist services
+  nob: Tjenester knyttet til kirurgiske spesialister
+  history:
+  - name: Surgical specialist services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85130000:
+  name: Dental practice and related services
+  nob: Tjenester knyttet til tannleger og tilhørende tjenester
+  history:
+  - name: Dental practice and related services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85131000:
+  name: Dental-practice services
+  nob: Tjenester knyttet til praktiserende tannleger
+  history:
+  - name: Dental-practice services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85131100:
+  name: Orthodontic services
+  nob: Tannregulering
+  history:
+  - name: Orthodontic services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85131110:
+  name: Orthodontic-surgery services
+  nob: Tannreguleringskirurgi
+  history:
+  - name: Orthodontic-surgery services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85140000:
+  name: Miscellaneous health services
+  nob: Diverse helsetjenester
+  history:
+  - name: Miscellaneous health services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85141000:
+  name: Services provided by medical personnel
+  nob: Tjenester som utføres av helse-/pleiepersonell
+  history:
+  - name: Services provided by medical personnel
+    history: []
+    nob_verify: false
+  nob_verify: false
+85141100:
+  name: Services provided by midwives
+  nob: Jordmortjenester
+  history:
+  - name: Services provided by midwives
+    history: []
+    nob_verify: false
+  nob_verify: false
+85141200:
+  name: Services provided by nurses
+  nob: Sykepleietjenester
+  history:
+  - name: Services provided by nurses
+    history: []
+    nob_verify: false
+  nob_verify: false
+85141210:
+  name: Home medical treatment services
+  nob: Hjemmesykepleie
+  history:
+  - name: Home medical treatment services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85141211:
+  name: Dialysis home medical treatment services
+  nob: Dialysebehandling i hjemmet
+  history:
+  - name: Dialysis home medical treatment services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85141220:
+  name: Advisory services provided by nurses
+  nob: Veiledning utført av sykepleiere
+  history:
+  - name: Advisory services provided by nurses
+    history: []
+    nob_verify: false
+  nob_verify: false
+85142000:
+  name: Paramedical services
+  nob: Tjenester i tilknytning til akuttmedisin/ambulansepersonell
+  history:
+  - name: Paramedical services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85142100:
+  name: Physiotherapy services
+  nob: Tjenesteytelser innen fysioterapi
+  history:
+  - name: Physiotherapy services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85142200:
+  name: Homeopathic services
+  nob: Homeopatiske tjenester
+  history:
+  - name: Homeopathic services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85142300:
+  name: Hygiene services
+  nob: Tjenester i tilknytning til hygiene
+  history:
+  - name: Hygiene services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85142400:
+  name: Home delivery of incontinence products
+  nob: Hjemmelevering av inkontinensartikler
+  history:
+  - name: Home delivery of incontinence products
+    history: []
+    nob_verify: false
+  nob_verify: false
+85143000:
+  name: Ambulance services
+  nob: Ambulansetjenester
+  history:
+  - name: Ambulance services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85144000:
+  name: Residential health facilities services
+  nob: Tjenester utført av behandlingsinstitusjoner
+  history:
+  - name: Residential health facilities services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85144100:
+  name: Residential nursing care services
+  nob: Sykepleie på pleiehjem
+  history:
+  - name: Residential nursing care services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85145000:
+  name: Services provided by medical laboratories
+  nob: Tjenester utført av medisinske laboratorier
+  history:
+  - name: Services provided by medical laboratories
+    history: []
+    nob_verify: false
+  nob_verify: false
+85146000:
+  name: Services provided by blood banks
+  nob: Tjenester utført av blodbanker
+  history:
+  - name: Services provided by blood banks
+    history: []
+    nob_verify: false
+  nob_verify: false
+85146100:
+  name: Services provided by sperm banks
+  nob: Tjenester utført av sædbanker
+  history:
+  - name: Services provided by sperm banks
+    history: []
+    nob_verify: false
+  nob_verify: false
+85146200:
+  name: Services provided by transplant organ banks
+  nob: Tjenester utført avorganbanker
+  history:
+  - name: Services provided by transplant organ banks
+    history: []
+    nob_verify: false
+  nob_verify: false
+85147000:
+  name: Company health services
+  nob: Bedriftshelsetjenester
+  history:
+  - name: Company health services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85148000:
+  name: Medical analysis services
+  nob: Medisinske analyser
+  history:
+  - name: Medical analysis services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85149000:
+  name: Pharmacy services
+  nob: Apotekvirksomhet
+  history:
+  - name: Pharmacy services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85150000:
+  name: Medical imaging services
+  nob: Medisinske bildetjenester
+  history:
+  - name: Medical imaging services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85160000:
+  name: Optician services
+  nob: Optikertjenester
+  history:
+  - name: Optician services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85170000:
+  name: Acupuncture and chiropractor services
+  nob: Akupunktør- og kiropraktortjenester
+  history:
+  - name: Acupuncture and chiropractor services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85171000:
+  name: Acupuncture services
+  nob: Akupunktørtjenester
+  history:
+  - name: Acupuncture services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85172000:
+  name: Chiropractor services
+  nob: Kiropraktortjenester
+  history:
+  - name: Chiropractor services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85200000:
+  name: Veterinary services
+  nob: Dyrlege
+  history:
+  - name: Veterinary services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85210000:
+  name: Domestic animal nurseries
+  nob: Institusjon for husdyr
+  history:
+  - name: Domestic animal nurseries
+    history: []
+    nob_verify: false
+  nob_verify: false
+85300000:
+  name: Social work and related services
+  nob: Sosialtjenester og tilhørende tjenester
+  history:
+  - name: Social work and related services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85310000:
+  name: Social work services
+  nob: Sosialarbeid
+  history:
+  - name: Social work services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85311000:
+  name: Social work services with accommodation
+  nob: Sosialomsorg med innkvartering
+  history:
+  - name: Social work services with accommodation
+    history: []
+    nob_verify: false
+  nob_verify: false
+85311100:
+  name: Welfare services for the elderly
+  nob: Omsorg for eldre
+  history:
+  - name: Welfare services for the elderly
+    history: []
+    nob_verify: false
+  nob_verify: false
+85311200:
+  name: Welfare services for the handicapped
+  nob: Omsorg for handikappede
+  history:
+  - name: Welfare services for the handicapped
+    history: []
+    nob_verify: false
+  nob_verify: false
+85311300:
+  name: Welfare services for children and young people
+  nob: Barne- og ungdomsomsorg
+  history:
+  - name: Welfare services for children and young people
+    history: []
+    nob_verify: false
+  nob_verify: false
+85312000:
+  name: Social work services without accommodation
+  nob: Sosialomsorg uten innkvartering
+  history:
+  - name: Social work services without accommodation
+    history: []
+    nob_verify: false
+  nob_verify: false
+85312100:
+  name: Daycare services
+  nob: Daginstitusjoner
+  history:
+  - name: Daycare services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85312110:
+  name: Child daycare services
+  nob: Daginstitusjoner for barn
+  history:
+  - name: Child daycare services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85312120:
+  name: Daycare services for handicapped children and young people
+  nob: Daginstitusjoner for handikappede barn og unge
+  history:
+  - name: Daycare services for handicapped children and young people
+    history: []
+    nob_verify: false
+  nob_verify: false
+85312200:
+  name: Homedelivery of provisions
+  nob: Dør-til-dør levering av provisjoner
+  history:
+  - name: Homedelivery of provisions
+    history: []
+    nob_verify: false
+  nob_verify: false
+85312300:
+  name: Guidance and counselling services
+  nob: Veiledning og rådgivning
+  history:
+  - name: Guidance and counselling services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85312310:
+  name: Guidance services
+  nob: Veiledning
+  history:
+  - name: Guidance services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85312320:
+  name: Counselling services
+  nob: Rådgivning
+  history:
+  - name: Counselling services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85312330:
+  name: Family-planning services
+  nob: Familieplanleggingsarbeid
+  history:
+  - name: Family-planning services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85312400:
+  name: Welfare services not delivered through residential institutions
+  nob: Omsorgstjenester utenfor institusjoner
+  history:
+  - name: Welfare services not delivered through residential institutions
+    history: []
+    nob_verify: false
+  nob_verify: false
+85312500:
+  name: Rehabilitation services
+  nob: Rehabiliteringstjenester
+  history:
+  - name: Rehabilitation services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85312510:
+  name: Vocational rehabilitation services
+  nob: Yrkesrehabiliteringstjenester
+  history:
+  - name: Vocational rehabilitation services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85320000:
+  name: Social services
+  nob: Sosialtjenester
+  history:
+  - name: Social services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85321000:
+  name: Administrative social services
+  nob: Administrativ tjenester i forbindelse med sosialtjenester
+  history:
+  - name: Administrative social services
+    history: []
+    nob_verify: false
+  nob_verify: false
+85322000:
+  name: Community action programme
+  nob: Kommunale handlingsprogrammer
+  history:
+  - name: Community action programme
+    history: []
+    nob_verify: false
+  nob_verify: false
+85323000:
+  name: Community health services
+  nob: Kommunale helsetjenester
+  history:
+  - name: Community health services
+    history: []
+    nob_verify: false
+  nob_verify: false
+92500000:
+  name: Library, archives, museums and other cultural services
+  nob: Biblioteker, arkiver, museer og andre kulturtjenester
+  history:
+  - name: Library, archives, museums and other cultural services
+    history: []
+    nob_verify: false
+  nob_verify: false
+92600000:
+  name: Sporting services
+  nob: Tjenester vedrørende sport
+  history:
+  - name: Sporting services
+    history: []
+    nob_verify: false
+  nob_verify: false
+98133000:
+  name: Services furnished by social membership organisations
+  nob: Tjenester levert av sosiale medlemskapsorganisasjoner
+  history:
+  - name: Services furnished by social membership organisations
+    history: []
+    nob_verify: false
+  nob_verify: false
+98133110:
+  name: Services provided by youth associations
+  nob: Tjenester utført av ungdomsorganisasjoner
+  history:
+  - name: Services provided by youth associations
+    history: []
+    nob_verify: false
+  nob_verify: false

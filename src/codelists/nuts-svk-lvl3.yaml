@@ -1,0 +1,36 @@
+SK010:
+  name: Bratislavský kraj
+  history: []
+  nob_verify: false
+SK021:
+  name: Trnavský kraj
+  history: []
+  nob_verify: false
+SK022:
+  name: Trenčiansky kraj
+  history: []
+  nob_verify: false
+SK023:
+  name: Nitriansky kraj
+  history: []
+  nob_verify: false
+SK031:
+  name: Žilinský kraj
+  history: []
+  nob_verify: false
+SK032:
+  name: Banskobystrický kraj
+  history: []
+  nob_verify: false
+SK041:
+  name: Prešovský kraj
+  history: []
+  nob_verify: false
+SK042:
+  name: Košický kraj
+  history: []
+  nob_verify: false
+SKZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

@@ -1,0 +1,328 @@
+TR100:
+  name: İstanbul
+  history: []
+  nob_verify: false
+TR211:
+  name: Tekirdağ
+  history: []
+  nob_verify: false
+TR212:
+  name: Edirne
+  history: []
+  nob_verify: false
+TR213:
+  name: Kırklareli
+  history: []
+  nob_verify: false
+TR221:
+  name: Balıkesir
+  history: []
+  nob_verify: false
+TR222:
+  name: Çanakkale
+  history: []
+  nob_verify: false
+TR310:
+  name: İzmir
+  history: []
+  nob_verify: false
+TR321:
+  name: Aydın
+  history: []
+  nob_verify: false
+TR322:
+  name: Denizli
+  history: []
+  nob_verify: false
+TR323:
+  name: Muğla
+  history: []
+  nob_verify: false
+TR331:
+  name: Manisa
+  history: []
+  nob_verify: false
+TR332:
+  name: Afyonkarahisar
+  history: []
+  nob_verify: false
+TR333:
+  name: Kütahya
+  history: []
+  nob_verify: false
+TR334:
+  name: Uşak
+  history: []
+  nob_verify: false
+TR411:
+  name: Bursa
+  history: []
+  nob_verify: false
+TR412:
+  name: Eskişehir
+  history: []
+  nob_verify: false
+TR413:
+  name: Bilecik
+  history: []
+  nob_verify: false
+TR421:
+  name: Kocaeli
+  history: []
+  nob_verify: false
+TR422:
+  name: Sakarya
+  history: []
+  nob_verify: false
+TR423:
+  name: Düzce
+  history: []
+  nob_verify: false
+TR424:
+  name: Bolu
+  history: []
+  nob_verify: false
+TR425:
+  name: Yalova
+  history: []
+  nob_verify: false
+TR510:
+  name: Ankara
+  history: []
+  nob_verify: false
+TR521:
+  name: Konya
+  history: []
+  nob_verify: false
+TR522:
+  name: Karaman
+  history: []
+  nob_verify: false
+TR611:
+  name: Antalya
+  history: []
+  nob_verify: false
+TR612:
+  name: Isparta
+  history: []
+  nob_verify: false
+TR613:
+  name: Burdur
+  history: []
+  nob_verify: false
+TR621:
+  name: Adana
+  history: []
+  nob_verify: false
+TR622:
+  name: Mersin
+  history: []
+  nob_verify: false
+TR631:
+  name: Hatay
+  history: []
+  nob_verify: false
+TR632:
+  name: Kahramanmaraş
+  history: []
+  nob_verify: false
+TR633:
+  name: Osmaniye
+  history: []
+  nob_verify: false
+TR711:
+  name: Kırıkkale
+  history: []
+  nob_verify: false
+TR712:
+  name: Aksaray
+  history: []
+  nob_verify: false
+TR713:
+  name: Niğde
+  history: []
+  nob_verify: false
+TR714:
+  name: Nevşehir
+  history: []
+  nob_verify: false
+TR715:
+  name: Kırşehir
+  history: []
+  nob_verify: false
+TR721:
+  name: Kayseri
+  history: []
+  nob_verify: false
+TR722:
+  name: Sivas
+  history: []
+  nob_verify: false
+TR723:
+  name: Yozgat
+  history: []
+  nob_verify: false
+TR811:
+  name: Zonguldak
+  history: []
+  nob_verify: false
+TR812:
+  name: Karabük
+  history: []
+  nob_verify: false
+TR813:
+  name: Bartın
+  history: []
+  nob_verify: false
+TR821:
+  name: Kastamonu
+  history: []
+  nob_verify: false
+TR822:
+  name: Çankırı
+  history: []
+  nob_verify: false
+TR823:
+  name: Sinop
+  history: []
+  nob_verify: false
+TR831:
+  name: Samsun
+  history: []
+  nob_verify: false
+TR832:
+  name: Tokat
+  history: []
+  nob_verify: false
+TR833:
+  name: Çorum
+  history: []
+  nob_verify: false
+TR834:
+  name: Amasya
+  history: []
+  nob_verify: false
+TR901:
+  name: Trabzon
+  history: []
+  nob_verify: false
+TR902:
+  name: Ordu
+  history: []
+  nob_verify: false
+TR903:
+  name: Giresun
+  history: []
+  nob_verify: false
+TR904:
+  name: Rize
+  history: []
+  nob_verify: false
+TR905:
+  name: Artvin
+  history: []
+  nob_verify: false
+TR906:
+  name: Gümüşhane
+  history: []
+  nob_verify: false
+TRA11:
+  name: Erzurum
+  history: []
+  nob_verify: false
+TRA12:
+  name: Erzincan
+  history: []
+  nob_verify: false
+TRA13:
+  name: Bayburt
+  history: []
+  nob_verify: false
+TRA21:
+  name: Ağrı
+  history: []
+  nob_verify: false
+TRA22:
+  name: Kars
+  history: []
+  nob_verify: false
+TRA23:
+  name: Iğdır
+  history: []
+  nob_verify: false
+TRA24:
+  name: Ardahan
+  history: []
+  nob_verify: false
+TRB11:
+  name: Malatya
+  history: []
+  nob_verify: false
+TRB12:
+  name: Elazığ
+  history: []
+  nob_verify: false
+TRB13:
+  name: Bingöl
+  history: []
+  nob_verify: false
+TRB14:
+  name: Tunceli
+  history: []
+  nob_verify: false
+TRB21:
+  name: Van
+  history: []
+  nob_verify: false
+TRB22:
+  name: Muş
+  history: []
+  nob_verify: false
+TRB23:
+  name: Bitlis
+  history: []
+  nob_verify: false
+TRB24:
+  name: Hakkari
+  history: []
+  nob_verify: false
+TRC11:
+  name: Gaziantep
+  history: []
+  nob_verify: false
+TRC12:
+  name: Adıyaman
+  history: []
+  nob_verify: false
+TRC13:
+  name: Kilis
+  history: []
+  nob_verify: false
+TRC21:
+  name: Şanlıurfa
+  history: []
+  nob_verify: false
+TRC22:
+  name: Diyarbakır
+  history: []
+  nob_verify: false
+TRC31:
+  name: Mardin
+  history: []
+  nob_verify: false
+TRC32:
+  name: Batman
+  history: []
+  nob_verify: false
+TRC33:
+  name: Şırnak
+  history: []
+  nob_verify: false
+TRC34:
+  name: Siirt
+  history: []
+  nob_verify: false
+TRZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

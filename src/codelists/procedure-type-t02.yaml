@@ -1,0 +1,72 @@
+comp-dial:
+  name: Competitive dialogue
+  nob: Konkurransepreget dialog
+  history:
+  - name: Competitive dialogue
+    history: []
+    nob_verify: false
+  nob_verify: false
+comp-tend:
+  name: Competitive tendering
+  nob: Anbudskonkurranse
+  history:
+  - name: Competitive tendering
+    history: []
+    nob_verify: false
+  nob_verify: false
+innovation:
+  name: Innovation partnership
+  nob: Innovasjonspartnerskap
+  history:
+  - name: Innovation partnership
+    history: []
+    nob_verify: false
+  nob_verify: false
+neg-w-call:
+  name: Negotiated with prior publication of a call for competition / competitive with negotiation
+  nob: Forhandlet med forutgående publisering av konkurranseutlysning / konkurransedyktig med forhandling
+  history:
+  - name: Negotiated with prior publication of a call for competition / competitive with negotiation
+    history: []
+    nob_verify: false
+  nob_verify: false
+neg-wo-call:
+  name: Negotiated without prior call for competition
+  nob: Forhandlet uten forutgående konkurranseutlysning
+  history:
+  - name: Negotiated without prior call for competition
+    history: []
+    nob_verify: false
+  nob_verify: false
+open:
+  name: Open
+  nob: Åpen
+  history:
+  - name: Open
+    history: []
+    nob_verify: false
+  nob_verify: false
+oth-mult:
+  name: Other multiple stage procedure
+  nob: Annen flertrinns prosedyre
+  history:
+  - name: Other multiple stage procedure
+    history: []
+    nob_verify: false
+  nob_verify: false
+oth-single:
+  name: Other single stage procedure
+  nob: Annen enkelttrinns prosedyre
+  history:
+  - name: Other single stage procedure
+    history: []
+    nob_verify: false
+  nob_verify: false
+restricted:
+  name: Restricted
+  nob: Begrenset
+  history:
+  - name: Restricted
+    history: []
+    nob_verify: false
+  nob_verify: false

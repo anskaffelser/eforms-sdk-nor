@@ -1,0 +1,32 @@
+can-desg:
+  name: Design contest result notice
+  nob: Resultatvarsel for designkonkurranse
+  history:
+  - name: Design contest result notice
+    history: []
+    nob_verify: false
+  nob_verify: false
+can-social:
+  name: Contract or concession award notice – light regime
+  nob: Melding om kontrakt eller konsesjonstildeling – lysregime
+  history:
+  - name: Contract or concession award notice – light regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+can-standard:
+  name: Contract or concession award notice – standard regime
+  nob: Kunngjøring om kontrakt eller konsesjonstildeling – standardregime
+  history:
+  - name: Contract or concession award notice – standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
+can-tran:
+  name: Contract award notice for public passenger transport services
+  nob: Melding om kontraktstildeling for offentlige persontransporttjenester
+  history:
+  - name: Contract award notice for public passenger transport services
+    history: []
+    nob_verify: false
+  nob_verify: false

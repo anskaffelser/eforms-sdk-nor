@@ -1,9 +1,28 @@
 none:
   name: None
   nob: Ingen
+  history:
+  - name: None
+    history: []
+    nob_verify: false
+  nob_verify: false
 res-pub-ser:
   name: Participation is reserved to organisations pursuing a public service mission and fulfilling other relevant conditions in the legislation.
-  nob: Deltakelse er reservert for/forbeholdt organisasjoner/virksomheter med offentlig tjenesteoppdrag eller andre relevante vilkår i lovverk.
+  nob: Deltakelse er reservert for/forbeholdt virksomheter/virksomheter med offentlig tjenesteoppdrag eller andre relevante vilkår i lovverk.
+  history:
+  - name: Participation is reserved to organisations pursuing a public service mission and fulfilling other relevant conditions in the legislation.
+    history: []
+    nob_verify: false
+  - name: Participation is reserved to organisations pursuing a public service mission and fulfilling other relevant conditions in the legislation.
+    nob: Deltakelse er reservert for/forbeholdt organisasjoner/virksomheter med offentlig tjenesteoppdrag eller andre relevante vilkår i lovverk.
+    history: []
+    nob_verify: false
+  nob_verify: false
 res-ws:
   name: Participation is reserved to sheltered workshops and economic operators aiming at the social and professional integration of disabled or disadvantaged persons.
   nob: Deltakelse er reservert for/forbeholdt vernede bedrifter og virksomheter som har sosial og faglig integrasjon av funksjonshemmede eller vanskeligstilte personer til formål.
+  history:
+  - name: Participation is reserved to sheltered workshops and economic operators aiming at the social and professional integration of disabled or disadvantaged persons.
+    history: []
+    nob_verify: false
+  nob_verify: false

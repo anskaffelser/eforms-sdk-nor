@@ -1,21 +1,56 @@
 acc-all:
   name: Accessibility for all
   nob: Tilgjengelighet for alle
+  history:
+  - name: Accessibility for all
+    history: []
+    nob_verify: false
+  nob_verify: false
 et-eq:
   name: Ethnic equality
   nob: etnisk likestilling
+  history:
+  - name: Ethnic equality
+    history: []
+    nob_verify: false
+  nob_verify: false
 gen-eq:
   name: Gender equality
   nob: Likestilling mellom kjønnene
+  history:
+  - name: Gender equality
+    history: []
+    nob_verify: false
+  nob_verify: false
 hum-right:
   name: Human rights due diligence in global supply chains
   nob: Aktsomhetsvurderinger for (å identifisere risiko og forhindre brudd på) menneskerettigheter i globale leverandørkjeder
+  history:
+  - name: Human rights due diligence in global supply chains
+    history: []
+    nob_verify: false
+  nob_verify: false
 opp:
   name: Employment opportunities for the long-term unemployed, disadvantaged and/or for persons with disabilities
   nob: Ansettelsesmuligheter for langtidsarbeidsledige, vanskeligstilte og/eller mennesker med nedsatt funksjonsevne
+  history:
+  - name: Employment opportunities for the long-term unemployed, disadvantaged and/or for persons with disabilities
+    history: []
+    nob_verify: false
+  nob_verify: false
 other:
   name: Other
   nob: annet
+  history:
+  - name: Other
+    history: []
+    nob_verify: false
+  nob_verify: false
 work-cond:
   name: Fair working conditions
   nob: Rettferdige arbeidsforhold
+  history:
+  - name: Fair working conditions
+    history: []
+    nob_verify: false
+  nob_verify: false

@@ -1,0 +1,8 @@
+serv-prov:
+  name: Procurement service provider
+  history: []
+  nob_verify: false
+ted-esen:
+  name: TED eSender
+  history: []
+  nob_verify: false

@@ -1,21 +1,56 @@
 1-inst:
   name: First instance
   nob: Førsteinstans
+  history:
+  - name: First instance
+    history: []
+    nob_verify: false
+  nob_verify: false
 2-inst:
   name: Second instance
   nob: Andreinstans
+  history:
+  - name: Second instance
+    history: []
+    nob_verify: false
+  nob_verify: false
 3-inst:
   name: Third instance
   nob: Tredjeinstans
+  history:
+  - name: Third instance
+    history: []
+    nob_verify: false
+  nob_verify: false
 4-inst:
   name: Fourth instance
   nob: Fjerdeinstans
+  history:
+  - name: Fourth instance
+    history: []
+    nob_verify: false
+  nob_verify: false
 5-inst:
   name: Fifth instance
   nob: Femteinstans
+  history:
+  - name: Fifth instance
+    history: []
+    nob_verify: false
+  nob_verify: false
 buyer:
   name: Buyer
   nob: Kjøper
+  history:
+  - name: Buyer
+    history: []
+    nob_verify: false
+  nob_verify: false
 other:
   name: Other
   nob: Andre
+  history:
+  - name: Other
+    history: []
+    nob_verify: false
+  nob_verify: false

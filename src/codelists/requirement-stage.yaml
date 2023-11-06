@@ -1,12 +1,32 @@
 not-requ:
   name: Not required
   nob: Ikke obligatorisk
+  history:
+  - name: Not required
+    history: []
+    nob_verify: false
+  nob_verify: false
 nyk:
   name: Not yet known
   nob: Foreløpig ukjent
+  history:
+  - name: Not yet known
+    history: []
+    nob_verify: false
+  nob_verify: false
 par-requ:
   name: Request to participate requirement
   nob: Krav til forespørsel om  deltakelse
+  history:
+  - name: Request to participate requirement
+    history: []
+    nob_verify: false
+  nob_verify: false
 t-requ:
   name: Tender requirement
   nob: Krav til tilbud
+  history:
+  - name: Tender requirement
+    history: []
+    nob_verify: false
+  nob_verify: false

@@ -1,0 +1,16 @@
+4:
+  name: Prior information notice used only for information – general directive
+  history: []
+  nob_verify: false
+5:
+  name: Periodic indicative notice used only for information – sectoral directive
+  history: []
+  nob_verify: false
+6:
+  name: Prior information notice used only for information – defence directive
+  history: []
+  nob_verify: false
+E2:
+  name: Below threshold prior information notice (PIN) only
+  history: []
+  nob_verify: false

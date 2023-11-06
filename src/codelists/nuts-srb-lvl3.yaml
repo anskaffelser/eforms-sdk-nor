@@ -1,0 +1,104 @@
+RS110:
+  name: Београдска област
+  history: []
+  nob_verify: false
+RS121:
+  name: Западнобачка област
+  history: []
+  nob_verify: false
+RS122:
+  name: Јужнобанатска област
+  history: []
+  nob_verify: false
+RS123:
+  name: Јужнобачка област
+  history: []
+  nob_verify: false
+RS124:
+  name: Севернобанатска област
+  history: []
+  nob_verify: false
+RS125:
+  name: Севернобачка област
+  history: []
+  nob_verify: false
+RS126:
+  name: Средњобанатска област
+  history: []
+  nob_verify: false
+RS127:
+  name: Сремска област
+  history: []
+  nob_verify: false
+RS211:
+  name: Златиборска област
+  history: []
+  nob_verify: false
+RS212:
+  name: Колубарска област
+  history: []
+  nob_verify: false
+RS213:
+  name: Мачванска област
+  history: []
+  nob_verify: false
+RS214:
+  name: Моравичка област
+  history: []
+  nob_verify: false
+RS215:
+  name: Поморавска област
+  history: []
+  nob_verify: false
+RS216:
+  name: Расинска област
+  history: []
+  nob_verify: false
+RS217:
+  name: Рашка област
+  history: []
+  nob_verify: false
+RS218:
+  name: Шумадијска област
+  history: []
+  nob_verify: false
+RS221:
+  name: Борска област
+  history: []
+  nob_verify: false
+RS222:
+  name: Браничевска област
+  history: []
+  nob_verify: false
+RS223:
+  name: Зајечарска област
+  history: []
+  nob_verify: false
+RS224:
+  name: Јабланичка област
+  history: []
+  nob_verify: false
+RS225:
+  name: Нишавска област
+  history: []
+  nob_verify: false
+RS226:
+  name: Пиротска област
+  history: []
+  nob_verify: false
+RS227:
+  name: Подунавска област
+  history: []
+  nob_verify: false
+RS228:
+  name: Пчињска област
+  history: []
+  nob_verify: false
+RS229:
+  name: Топличка област
+  history: []
+  nob_verify: false
+RSZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

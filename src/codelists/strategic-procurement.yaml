@@ -1,12 +1,32 @@
 env-imp:
   name: Reduction of environmental impacts
   nob: Reduksjon av miljøpåvirkning
+  history:
+  - name: Reduction of environmental impacts
+    history: []
+    nob_verify: false
+  nob_verify: false
 inn-pur:
   name: Innovative purchase
   nob: Innovativt innkjøp /Innovativ anskaffelse
+  history:
+  - name: Innovative purchase
+    history: []
+    nob_verify: false
+  nob_verify: false
 none:
   name: None
   nob: Ingen
+  history:
+  - name: None
+    history: []
+    nob_verify: false
+  nob_verify: false
 soc-obj:
   name: Fulfilment of social objectives
   nob: Oppfyllelse av sosiale formål/mål
+  history:
+  - name: Fulfilment of social objectives
+    history: []
+    nob_verify: false
+  nob_verify: false

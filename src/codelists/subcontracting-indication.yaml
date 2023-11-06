@@ -1,18 +1,48 @@
 none:
   name: None
   nob: Ingen
+  history:
+  - name: None
+    history: []
+    nob_verify: false
+  nob_verify: false
 shar-subc:
   name: The share of the contract that the tenderer intends to subcontract
   nob: Andelen av kontrakten som tilbyder har til hensikt å gi til underleverandør/ Andelen av kontrakten som skal utføres av underleverandør
+  history:
+  - name: The share of the contract that the tenderer intends to subcontract
+    history: []
+    nob_verify: false
+  nob_verify: false
 subc-noblig:
   name: The proposed subcontractor(s) above any obligation to subcontract a minimum percentage of the contract
   nob: Den eller de foreslåtte underleverandørene som ikke er forpliktet til å la underleverandør utføre en minimumsprosent av kontrakten
+  history:
+  - name: The proposed subcontractor(s) above any obligation to subcontract a minimum percentage of the contract
+    history: []
+    nob_verify: false
+  nob_verify: false
 subc-oblig:
   name: The proposed subcontractor(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract
   nob: Den eller de foreslåtte underleverandørene som er nødvendige for å oppfylle forpliktelsen om at ut en minimumsprosent av kontrakten skal utføres av underleverandører
+  history:
+  - name: The proposed subcontractor(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract
+    history: []
+    nob_verify: false
+  nob_verify: false
 subj-noblig:
   name: The subject-matter of the subcontract(s) above any obligation to subcontract a minimum percentage of the contract
   nob: Innholdet i delkontraktene som skal utføres av underleverandører der det ikke foreligger forpliktelse om at en minimumsprosent av kontrakten skal utføres av underleverandører.
+  history:
+  - name: The subject-matter of the subcontract(s) above any obligation to subcontract a minimum percentage of the contract
+    history: []
+    nob_verify: false
+  nob_verify: false
 subj-oblig:
   name: The subject-matter of the subcontract(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract
   nob: Innholdet i delkontraktene som skal utføres av underleverandører der det foreligger en forpliktelse om at en minimumsprosent av kontrakten skal utføres av underleverandører.
+  history:
+  - name: The subject-matter of the subcontract(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract
+    history: []
+    nob_verify: false
+  nob_verify: false

@@ -1,2 +1,8 @@
 all:
-  name: Tenders shall be submitted for all lots
+  name: The tenderer must submit tenders for all lots
+  nob: Tilbyder må inngi tilbud på alle partier
+  history:
+  - name: The tenderer must submit tenders for all lots
+    history: []
+    nob_verify: false
+  nob_verify: false

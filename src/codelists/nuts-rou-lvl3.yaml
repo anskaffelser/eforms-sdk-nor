@@ -1,0 +1,172 @@
+RO111:
+  name: Bihor
+  history: []
+  nob_verify: false
+RO112:
+  name: Bistriţa-Năsăud
+  history: []
+  nob_verify: false
+RO113:
+  name: Cluj
+  history: []
+  nob_verify: false
+RO114:
+  name: Maramureş
+  history: []
+  nob_verify: false
+RO115:
+  name: Satu Mare
+  history: []
+  nob_verify: false
+RO116:
+  name: Sălaj
+  history: []
+  nob_verify: false
+RO121:
+  name: Alba
+  history: []
+  nob_verify: false
+RO122:
+  name: Braşov
+  history: []
+  nob_verify: false
+RO123:
+  name: Covasna
+  history: []
+  nob_verify: false
+RO124:
+  name: Harghita
+  history: []
+  nob_verify: false
+RO125:
+  name: Mureş
+  history: []
+  nob_verify: false
+RO126:
+  name: Sibiu
+  history: []
+  nob_verify: false
+RO211:
+  name: Bacău
+  history: []
+  nob_verify: false
+RO212:
+  name: Botoşani
+  history: []
+  nob_verify: false
+RO213:
+  name: Iaşi
+  history: []
+  nob_verify: false
+RO214:
+  name: Neamţ
+  history: []
+  nob_verify: false
+RO215:
+  name: Suceava
+  history: []
+  nob_verify: false
+RO216:
+  name: Vaslui
+  history: []
+  nob_verify: false
+RO221:
+  name: Brăila
+  history: []
+  nob_verify: false
+RO222:
+  name: Buzău
+  history: []
+  nob_verify: false
+RO223:
+  name: Constanţa
+  history: []
+  nob_verify: false
+RO224:
+  name: Galaţi
+  history: []
+  nob_verify: false
+RO225:
+  name: Tulcea
+  history: []
+  nob_verify: false
+RO226:
+  name: Vrancea
+  history: []
+  nob_verify: false
+RO311:
+  name: Argeş
+  history: []
+  nob_verify: false
+RO312:
+  name: Călăraşi
+  history: []
+  nob_verify: false
+RO313:
+  name: Dâmboviţa
+  history: []
+  nob_verify: false
+RO314:
+  name: Giurgiu
+  history: []
+  nob_verify: false
+RO315:
+  name: Ialomiţa
+  history: []
+  nob_verify: false
+RO316:
+  name: Prahova
+  history: []
+  nob_verify: false
+RO317:
+  name: Teleorman
+  history: []
+  nob_verify: false
+RO321:
+  name: Bucureşti
+  history: []
+  nob_verify: false
+RO322:
+  name: Ilfov
+  history: []
+  nob_verify: false
+RO411:
+  name: Dolj
+  history: []
+  nob_verify: false
+RO412:
+  name: Gorj
+  history: []
+  nob_verify: false
+RO413:
+  name: Mehedinţi
+  history: []
+  nob_verify: false
+RO414:
+  name: Olt
+  history: []
+  nob_verify: false
+RO415:
+  name: Vâlcea
+  history: []
+  nob_verify: false
+RO421:
+  name: Arad
+  history: []
+  nob_verify: false
+RO422:
+  name: Caraş-Severin
+  history: []
+  nob_verify: false
+RO423:
+  name: Hunedoara
+  history: []
+  nob_verify: false
+RO424:
+  name: Timiş
+  history: []
+  nob_verify: false
+ROZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

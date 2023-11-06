@@ -1,2 +1,8 @@
 rew-pen:
-  name: Rewards and penalties
+  name: Information on rewards and penalties
+  nob: Informasjon om belønninger og straffer
+  history:
+  - name: Information on rewards and penalties
+    history: []
+    nob_verify: false
+  nob_verify: false

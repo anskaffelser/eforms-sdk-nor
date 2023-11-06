@@ -1,0 +1,8 @@
+rev-req:
+  name: Organisation (or person) requesting review that has or has had an interest in a contract and who has been or risks being harmed by an alleged infringement
+  nob: Organisasjon (eller person) som ber om gjennomgang som har eller har hatt interesse av en kontrakt, og som har blitt eller risikerer å bli skadet av en påstått overtredelse
+  history:
+  - name: Organisation (or person) requesting review that has or has had an interest in a contract and who has been or risks being harmed by an alleged infringement
+    history: []
+    nob_verify: false
+  nob_verify: false

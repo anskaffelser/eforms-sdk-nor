@@ -1,35 +1,96 @@
+part-req:
+  name: Requests to participate
+  nob: Forespørsler om å delta
+  history:
+  - name: Requests to participate
+    history: []
+    nob_verify: false
+  nob_verify: false
 t-esubm:
   name: Tenders submitted electronically
   nob: Tilbud er levert elektronisk
+  history:
+  - name: Tenders submitted electronically
+    history: []
+    nob_verify: false
+  nob_verify: false
 t-med:
   name: Tenders from medium tenderers
   nob: Tilbud fra mellomstore tilbydere/mellomstore bedrifter
+  history:
+  - name: Tenders from medium tenderers
+    history: []
+    nob_verify: false
+  nob_verify: false
 t-micro:
   name: Tenders from micro tenderers
   nob: Tilbud fra mikrotilbydere/mikrobedrifter
+  history:
+  - name: Tenders from micro tenderers
+    history: []
+    nob_verify: false
+  nob_verify: false
 t-no-eea:
   name: Tenders from tenders registered in countries outside of the European Economic Area
   nob: Tilbud fra tilbydere/leverandører registrert utenfor EU/EØS
+  history:
+  - name: Tenders from tenders registered in countries outside of the European Economic Area
+    history: []
+    nob_verify: false
+  nob_verify: false
 t-no-verif:
   name: Tenders for which it has not been verified if they are admissible or inadmissible
   nob: Tilbud som ikke er verifisert som gyldige/akseptert
+  history:
+  - name: Tenders for which it has not been verified if they are admissible or inadmissible
+    history: []
+    nob_verify: false
+  nob_verify: false
 t-oth-eea:
   name: Tenders from tenderers registered in other European Economic Area countries than the country of the buyer
   nob: Tilbud fra tilbydere/leverandører registrert i et annet EU/EØS-land enn kjøper
+  history:
+  - name: Tenders from tenderers registered in other European Economic Area countries than the country of the buyer
+    history: []
+    nob_verify: false
+  nob_verify: false
 t-small:
   name: Tenders from small tenderers
   nob: Tilbud fra små tilbydere/bedrifter
+  history:
+  - name: Tenders from small tenderers
+    history: []
+    nob_verify: false
+  nob_verify: false
 t-sme:
   name: Tenders from micro, small or medium tenderers
   nob: Tilbud fra mikro-, små- eller mellomstore tilbydere/bedrifter
+  history:
+  - name: Tenders from micro, small or medium tenderers
+    history: []
+    nob_verify: false
+  nob_verify: false
 t-verif-inad:
   name: Tenders verified and inadmissible
   nob: Tilbud  verifisert og ugyldig/ikke akseptert
+  history:
+  - name: Tenders verified and inadmissible
+    history: []
+    nob_verify: false
+  nob_verify: false
 t-verif-inad-low:
   name: Tenders verified and inadmissible because of an abnormally low price or cost
   nob: Tilbud er verifisert og ikke akseptert på grunn av unormalt lave priser/kostnader
+  history:
+  - name: Tenders verified and inadmissible because of an abnormally low price or cost
+    history: []
+    nob_verify: false
+  nob_verify: false
 tenders:
   name: Tenders
   nob: Tilbud
-part-req:
-  name: Requests to participate
+  history:
+  - name: Tenders
+    history: []
+    nob_verify: false
+  nob_verify: false

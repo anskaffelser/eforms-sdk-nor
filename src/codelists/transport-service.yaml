@@ -1,18 +1,72 @@
 bus-s:
-  name: Bus transport services (urban/regional)
+  name: Bus transport services (urban / regional)
+  nob: Busstransporttjenester (urbane / regionale)
+  history:
+  - name: Bus transport services (urban / regional)
+    history: []
+    nob_verify: false
+  nob_verify: false
 coach-s:
   name: Coach transport services (long-distance)
+  nob: Busstransporttjenester (langdistanse)
+  history:
+  - name: Coach transport services (long-distance)
+    history: []
+    nob_verify: false
+  nob_verify: false
 lrail-s:
   name: Light rail transport services
+  nob: Bybanetransport
+  history:
+  - name: Light rail transport services
+    history: []
+    nob_verify: false
+  nob_verify: false
 metro-s:
   name: Metro transport services
+  nob: Metro transporttjenester
+  history:
+  - name: Metro transport services
+    history: []
+    nob_verify: false
+  nob_verify: false
 other:
   name: Other transport services
+  nob: Andre transporttjenester
+  history:
+  - name: Other transport services
+    history: []
+    nob_verify: false
+  nob_verify: false
 port-s:
   name: Inland waterway and maritime transport services
+  nob: Innlands vannveier og sjøtransporttjenester
+  history:
+  - name: Inland waterway and maritime transport services
+    history: []
+    nob_verify: false
+  nob_verify: false
 rail-s:
   name: Rail transport services
+  nob: Jernbanetransport
+  history:
+  - name: Rail transport services
+    history: []
+    nob_verify: false
+  nob_verify: false
 tram-s:
   name: Tram transport services
+  nob: Trikk transport tjenester
+  history:
+  - name: Tram transport services
+    history: []
+    nob_verify: false
+  nob_verify: false
 trolley-s:
   name: Trolleybus transport services
+  nob: Trolleybuss transporttjenester
+  history:
+  - name: Trolleybus transport services
+    history: []
+    nob_verify: false
+  nob_verify: false

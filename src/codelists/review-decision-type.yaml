@@ -1,27 +1,66 @@
 accepted:
   name: Accepted
   nob: Akseptert
+  history: []
+  nob_verify: false
 other:
   name: Other
-  nob:
+  nob: Annet
+  history: []
+  nob_verify: false
 rej-dl-passed:
   name: Rejected, because the complainant does not have legal standing, as the deadline for submitting a review request has already passed
   nob: avvist, fordi klager ikke har rettslig klageinteresse, fordi fristen for innsendig av klage er oversittet/ fristen for innsending av klage er oversittet, og klager har derfor ikke rettslig klageinteresse
+  history:
+  - name: Rejected, because the complainant does not have legal standing, as the deadline for submitting a review request has already passed
+    history: []
+    nob_verify: false
+  nob_verify: false
 rej-ncomp:
   name: Rejected, because the review body does not have the competence to conduct the review
   nob: Avvist fordi klageorganet ikke har kompetanse til å prøve klagen.
+  history:
+  - name: Rejected, because the review body does not have the competence to conduct the review
+    history: []
+    nob_verify: false
+  nob_verify: false
 rej-nirreg:
   name: Rejected for no irregularities
   nob: Avvist fordi klagen var åpenbart ubegrunnet
+  history:
+  - name: Rejected for no irregularities
+    history: []
+    nob_verify: false
+  nob_verify: false
 rej-npaid:
   name: Rejected, because the fee was not paid
   nob: Avvist fordi klagegebyr ikke er betalt
+  history:
+  - name: Rejected, because the fee was not paid
+    history: []
+    nob_verify: false
+  nob_verify: false
 rej-other:
   name: Rejected, because the complainant does not have legal standing, for other reasons than the deadline for submitting a review request has already passed
   nob: Avvist fordi klager ikke har rettslig klageinteresse av andre grunner enn oversittelse av klagefrist.
+  history:
+  - name: Rejected, because the complainant does not have legal standing, for other reasons than the deadline for submitting a review request has already passed
+    history: []
+    nob_verify: false
+  nob_verify: false
 rej-resolv:
   name: Rejected, because the problem has already been resolved
   nob: Avvist fordi grunnlaget for klagen er falt bort/Avvist fordi problemet er løst
+  history:
+  - name: Rejected, because the problem has already been resolved
+    history: []
+    nob_verify: false
+  nob_verify: false
 rej-signed:
   name: Rejected, because the contract has already been signed
   nob: Avvist fordi kontrakten allerede er signert.
+  history:
+  - name: Rejected, because the contract has already been signed
+    history: []
+    nob_verify: false
+  nob_verify: false

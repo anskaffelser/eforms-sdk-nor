@@ -1,16 +1,64 @@
 m1:
   name: M1
+  nob: M1
+  history:
+  - name: M1
+    history: []
+    nob_verify: false
+  nob_verify: false
 m1-m2-n1:
   name: Light-duty Vehicle (M1, M2, N1)
+  nob: Lett kjøretøy (M1, M2, N1)
+  history:
+  - name: Light-duty Vehicle (M1, M2, N1)
+    history: []
+    nob_verify: false
+  nob_verify: false
 m2:
   name: M2
+  nob: M2
+  history:
+  - name: M2
+    history: []
+    nob_verify: false
+  nob_verify: false
 m3:
   name: Bus (M3)
+  nob: Buss (M3)
+  history:
+  - name: Bus (M3)
+    history: []
+    nob_verify: false
+  nob_verify: false
 n1:
   name: N1
+  nob: N1
+  history:
+  - name: N1
+    history: []
+    nob_verify: false
+  nob_verify: false
 n2:
   name: N2
+  nob: N2
+  history:
+  - name: N2
+    history: []
+    nob_verify: false
+  nob_verify: false
 n2-n3:
   name: Truck (N2-N3)
+  nob: Lastebil (N2-N3)
+  history:
+  - name: Truck (N2-N3)
+    history: []
+    nob_verify: false
+  nob_verify: false
 n3:
   name: N3
+  nob: N3
+  history:
+  - name: N3
+    history: []
+    nob_verify: false
+  nob_verify: false

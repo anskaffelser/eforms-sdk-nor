@@ -1,8 +1,24 @@
+anyw:
+  name: Anywhere
+  nob: Hvor som helst
+  history:
+  - name: Anywhere
+    history: []
+    nob_verify: false
+  nob_verify: false
 anyw-cou:
   name: Anywhere in the given country
   nob: Hvor som helst i det gitte landet
+  history:
+  - name: Anywhere in the given country
+    history: []
+    nob_verify: false
+  nob_verify: false
 anyw-eea:
   name: Anywhere in the European Economic Area
   nob: Hvor som helst i EØS-området
-anyw:
-  name: Anywhere
+  history:
+  - name: Anywhere in the European Economic Area
+    history: []
+    nob_verify: false
+  nob_verify: false

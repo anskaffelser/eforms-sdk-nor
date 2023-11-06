@@ -1,9 +1,36 @@
 n-used:
   name: Not used
-  nob: Ikke i bruk
+  nob: Ikke brukt
+  history:
+  - name: Not used
+    history: []
+    nob_verify: false
+  - name: Not used
+    nob: Ikke i bruk
+    history: []
+    nob_verify: false
+  nob_verify: false
 nyk:
   name: Not yet known
-  nob: Ikke kjent enda
+  nob: Foreløpig ikke kjent
+  history:
+  - name: Not yet known
+    history: []
+    nob_verify: false
+  - name: Not yet known
+    nob: Ikke kjent enda
+    history: []
+    nob_verify: false
+  nob_verify: false
 used:
   name: Used
-  nob: I bruk/brukt
+  nob: Brukt
+  history:
+  - name: Used
+    history: []
+    nob_verify: false
+  - name: Used
+    nob: I bruk/brukt
+    history: []
+    nob_verify: false
+  nob_verify: false

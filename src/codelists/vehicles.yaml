@@ -1,6 +1,24 @@
 vehicles:
-  name: Vehicles
+  name: The number of all vehicles falling within the scope of the CVD directive
+  nob: Antall kjøretøy som omfattes av CVD-direktivet
+  history:
+  - name: The number of all vehicles falling within the scope of the CVD directive
+    history: []
+    nob_verify: false
+  nob_verify: false
 vehicles-clean:
-  name: Vehicles clean
+  name: The number of clean vehicles
+  nob: Antall rene kjøretøy
+  history:
+  - name: The number of clean vehicles
+    history: []
+    nob_verify: false
+  nob_verify: false
 vehicles-zero-emission:
-  name: Vehicles zero emission
+  name: The number of zero-emission heavy-duty vehicles
+  nob: Antall nullutslipps tunge kjøretøy
+  history:
+  - name: The number of zero-emission heavy-duty vehicles
+    history: []
+    nob_verify: false
+  nob_verify: false

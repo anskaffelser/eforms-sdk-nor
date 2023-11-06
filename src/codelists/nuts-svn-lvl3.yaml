@@ -1,0 +1,52 @@
+SI031:
+  name: Pomurska
+  history: []
+  nob_verify: false
+SI032:
+  name: Podravska
+  history: []
+  nob_verify: false
+SI033:
+  name: Koroška
+  history: []
+  nob_verify: false
+SI034:
+  name: Savinjska
+  history: []
+  nob_verify: false
+SI035:
+  name: Zasavska
+  history: []
+  nob_verify: false
+SI036:
+  name: Posavska
+  history: []
+  nob_verify: false
+SI037:
+  name: Jugovzhodna Slovenija
+  history: []
+  nob_verify: false
+SI038:
+  name: Primorsko-notranjska
+  history: []
+  nob_verify: false
+SI041:
+  name: Osrednjeslovenska
+  history: []
+  nob_verify: false
+SI042:
+  name: Gorenjska
+  history: []
+  nob_verify: false
+SI043:
+  name: Goriška
+  history: []
+  nob_verify: false
+SI044:
+  name: Obalno-kraška
+  history: []
+  nob_verify: false
+SIZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

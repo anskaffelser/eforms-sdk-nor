@@ -1,15 +1,40 @@
 alt-penalty:
   name: Alternative penalty
   nob: Alternative reaksjoner/sanksjoner
+  history:
+  - name: Alternative penalty
+    history: []
+    nob_verify: false
+  nob_verify: false
 damage:
   name: Damages
   nob: Erstatning
+  history:
+  - name: Damages
+    history: []
+    nob_verify: false
+  nob_verify: false
 ineffectiveness:
   name: Ineffectiveness
   nob: Uten virkning
+  history:
+  - name: Ineffectiveness
+    history: []
+    nob_verify: false
+  nob_verify: false
 interim:
   name: Interim measure
   nob: Midlertidige tiltak
+  history:
+  - name: Interim measure
+    history: []
+    nob_verify: false
+  nob_verify: false
 set-aside:
   name: Set aside
   nob: Tilsidesettelse
+  history:
+  - name: Set aside
+    history: []
+    nob_verify: false
+  nob_verify: false

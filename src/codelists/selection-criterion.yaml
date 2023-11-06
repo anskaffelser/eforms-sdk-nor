@@ -1,12 +1,32 @@
 ef-stand:
   name: Economic and financial standing
   nob: Økonomisk og finansiell kapasitet
+  history:
+  - name: Economic and financial standing
+    history: []
+    nob_verify: false
+  nob_verify: false
 other:
   name: Other
   nob: Annet
+  history:
+  - name: Other
+    history: []
+    nob_verify: false
+  nob_verify: false
 sui-act:
   name: Suitability to pursue the professional activity
   nob: Egnethet
+  history:
+  - name: Suitability to pursue the professional activity
+    history: []
+    nob_verify: false
+  nob_verify: false
 tp-abil:
   name: Technical and professional ability
   nob: Tekniske og faglige egenskaper
+  history:
+  - name: Technical and professional ability
+    history: []
+    nob_verify: false
+  nob_verify: false

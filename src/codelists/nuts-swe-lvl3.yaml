@@ -1,0 +1,88 @@
+SE110:
+  name: Stockholms län
+  history: []
+  nob_verify: false
+SE121:
+  name: Uppsala län
+  history: []
+  nob_verify: false
+SE122:
+  name: Södermanlands län
+  history: []
+  nob_verify: false
+SE123:
+  name: Östergötlands län
+  history: []
+  nob_verify: false
+SE124:
+  name: Örebro län
+  history: []
+  nob_verify: false
+SE125:
+  name: Västmanlands län
+  history: []
+  nob_verify: false
+SE211:
+  name: Jönköpings län
+  history: []
+  nob_verify: false
+SE212:
+  name: Kronobergs län
+  history: []
+  nob_verify: false
+SE213:
+  name: Kalmar län
+  history: []
+  nob_verify: false
+SE214:
+  name: Gotlands län
+  history: []
+  nob_verify: false
+SE221:
+  name: Blekinge län
+  history: []
+  nob_verify: false
+SE224:
+  name: Skåne län
+  history: []
+  nob_verify: false
+SE231:
+  name: Hallands län
+  history: []
+  nob_verify: false
+SE232:
+  name: Västra Götalands län
+  history: []
+  nob_verify: false
+SE311:
+  name: Värmlands län
+  history: []
+  nob_verify: false
+SE312:
+  name: Dalarnas län
+  history: []
+  nob_verify: false
+SE313:
+  name: Gävleborgs län
+  history: []
+  nob_verify: false
+SE321:
+  name: Västernorrlands län
+  history: []
+  nob_verify: false
+SE322:
+  name: Jämtlands län
+  history: []
+  nob_verify: false
+SE331:
+  name: Västerbottens län
+  history: []
+  nob_verify: false
+SE332:
+  name: Norrbottens län
+  history: []
+  nob_verify: false
+SEZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

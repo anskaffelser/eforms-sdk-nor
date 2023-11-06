@@ -1,108 +1,288 @@
 APR:
   name: April
-  nob:
+  nob: April
+  history:
+  - name: April
+    history: []
+    nob_verify: false
+  nob_verify: false
 AUG:
   name: August
-  nob:
+  nob: August
+  history:
+  - name: August
+    history: []
+    nob_verify: false
+  nob_verify: false
 AUTUMN:
   name: Autumn
-  nob:
+  nob: Høst
+  history:
+  - name: Autumn
+    history: []
+    nob_verify: false
+  nob_verify: false
 CALENDAR_DAY:
   name: Calendar day
-  nob:
+  nob: Kalenderdag
+  history:
+  - name: Calendar day
+    history: []
+    nob_verify: false
+  nob_verify: false
 DAY:
   name: Day
-  nob:
+  nob: Dag
+  history:
+  - name: Day
+    history: []
+    nob_verify: false
+  nob_verify: false
 DEC:
   name: December
-  nob:
+  nob: Desember
+  history:
+  - name: December
+    history: []
+    nob_verify: false
+  nob_verify: false
 FEB:
   name: February
-  nob:
+  nob: Februar
+  history:
+  - name: February
+    history: []
+    nob_verify: false
+  nob_verify: false
 FRI:
   name: Friday
-  nob:
+  nob: Fredag
+  history:
+  - name: Friday
+    history: []
+    nob_verify: false
+  nob_verify: false
 HOUR:
   name: Hour
-  nob:
+  nob: Time
+  history:
+  - name: Hour
+    history: []
+    nob_verify: false
+  nob_verify: false
 JAN:
   name: January
-  nob:
+  nob: Januar
+  history:
+  - name: January
+    history: []
+    nob_verify: false
+  nob_verify: false
 JUL:
   name: July
-  nob:
+  nob: Juli
+  history:
+  - name: July
+    history: []
+    nob_verify: false
+  nob_verify: false
 JUN:
   name: June
-  nob:
+  nob: Juni
+  history:
+  - name: June
+    history: []
+    nob_verify: false
+  nob_verify: false
 MAR:
   name: March
-  nob:
+  nob: Mars
+  history:
+  - name: March
+    history: []
+    nob_verify: false
+  nob_verify: false
 MAY:
   name: May
-  nob:
+  nob: Mai
+  history:
+  - name: May
+    history: []
+    nob_verify: false
+  nob_verify: false
 MIN:
   name: Minute
-  nob:
+  nob: Minutt
+  history:
+  - name: Minute
+    history: []
+    nob_verify: false
+  nob_verify: false
 MON:
   name: Monday
-  nob:
+  nob: Mandag
+  history:
+  - name: Monday
+    history: []
+    nob_verify: false
+  nob_verify: false
 MONTH:
   name: Month
-  nob:
+  nob: Måned
+  history:
+  - name: Month
+    history: []
+    nob_verify: false
+  nob_verify: false
 NOV:
   name: November
-  nob:
+  nob: November
+  history:
+  - name: November
+    history: []
+    nob_verify: false
+  nob_verify: false
 OCT:
   name: October
-  nob:
+  nob: Oktober
+  history:
+  - name: October
+    history: []
+    nob_verify: false
+  nob_verify: false
 QUARTER:
   name: Quarter
-  nob:
+  nob: Kvartal
+  history:
+  - name: Quarter
+    history: []
+    nob_verify: false
+  nob_verify: false
 SAT:
   name: Saturday
-  nob:
+  nob: Lørdag
+  history:
+  - name: Saturday
+    history: []
+    nob_verify: false
+  nob_verify: false
 SEC:
   name: Second
-  nob:
+  nob: Andre
+  history:
+  - name: Second
+    history: []
+    nob_verify: false
+  nob_verify: false
 SEP:
   name: September
-  nob:
+  nob: September
+  history:
+  - name: September
+    history: []
+    nob_verify: false
+  nob_verify: false
 SPRING:
   name: Spring
-  nob:
+  nob: Vår
+  history:
+  - name: Spring
+    history: []
+    nob_verify: false
+  nob_verify: false
 SUMMER:
   name: Summer
-  nob:
+  nob: Sommer
+  history:
+  - name: Summer
+    history: []
+    nob_verify: false
+  nob_verify: false
 SUN:
   name: Sunday
-  nob:
+  nob: Søndag
+  history:
+  - name: Sunday
+    history: []
+    nob_verify: false
+  nob_verify: false
 THU:
   name: Thursday
-  nob:
+  nob: Torsdag
+  history:
+  - name: Thursday
+    history: []
+    nob_verify: false
+  nob_verify: false
 TUE:
   name: Tuesday
-  nob:
+  nob: Tirsdag
+  history:
+  - name: Tuesday
+    history: []
+    nob_verify: false
+  nob_verify: false
 UNKNOWN:
   name: Unknown
-  nob:
+  nob: Ukjent
+  history:
+  - name: Unknown
+    history: []
+    nob_verify: false
+  nob_verify: false
 UNLIMITED:
   name: Unlimited
-  nob:
+  nob: Ubegrenset
+  history:
+  - name: Unlimited
+    history: []
+    nob_verify: false
+  nob_verify: false
 WED:
   name: Wednesday
-  nob:
+  nob: Onsdag
+  history:
+  - name: Wednesday
+    history: []
+    nob_verify: false
+  nob_verify: false
 WEEK:
   name: Week
-  nob:
+  nob: Uke
+  history:
+  - name: Week
+    history: []
+    nob_verify: false
+  nob_verify: false
 WINTER:
   name: Winter
-  nob:
+  nob: Vinter
+  history:
+  - name: Winter
+    history: []
+    nob_verify: false
+  nob_verify: false
 WORKING_DAY:
   name: Working day
-  nob:
+  nob: Arbeidsdag
+  history:
+  - name: Working day
+    history: []
+    nob_verify: false
+  nob_verify: false
 YEAR:
   name: Year
-  nob:
+  nob: År
+  history:
+  - name: Year
+    history: []
+    nob_verify: false
+  nob_verify: false
 YEAR_HALF:
   name: Half year
-  nob:
+  nob: Halvt år
+  history:
+  - name: Half year
+    history: []
+    nob_verify: false
+  nob_verify: false

@@ -1,0 +1,16 @@
+pin-buyer:
+  name: Notice of the publication of a prior information notice or a periodic information notice on a buyer profile
+  history: []
+  nob_verify: false
+pin-only:
+  name: Prior information notice or a periodic indicative notice used only for information
+  history: []
+  nob_verify: false
+pin-rtl:
+  name: Prior information notice or a periodic indicative notice used to shorten time limits for receipt of tenders
+  history: []
+  nob_verify: false
+pin-tran:
+  name: Prior information notice for public passenger transport services
+  history: []
+  nob_verify: false

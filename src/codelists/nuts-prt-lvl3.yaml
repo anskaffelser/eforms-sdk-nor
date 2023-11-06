@@ -1,0 +1,104 @@
+PT111:
+  name: Alto Minho
+  history: []
+  nob_verify: false
+PT112:
+  name: Cávado
+  history: []
+  nob_verify: false
+PT119:
+  name: Ave
+  history: []
+  nob_verify: false
+PT11A:
+  name: Área Metropolitana do Porto
+  history: []
+  nob_verify: false
+PT11B:
+  name: Alto Tâmega
+  history: []
+  nob_verify: false
+PT11C:
+  name: Tâmega e Sousa
+  history: []
+  nob_verify: false
+PT11D:
+  name: Douro
+  history: []
+  nob_verify: false
+PT11E:
+  name: Terras de Trás-os-Montes
+  history: []
+  nob_verify: false
+PT150:
+  name: Algarve
+  history: []
+  nob_verify: false
+PT16B:
+  name: Oeste
+  history: []
+  nob_verify: false
+PT16D:
+  name: Região de Aveiro
+  history: []
+  nob_verify: false
+PT16E:
+  name: Região de Coimbra
+  history: []
+  nob_verify: false
+PT16F:
+  name: Região de Leiria
+  history: []
+  nob_verify: false
+PT16G:
+  name: Viseu Dão Lafões
+  history: []
+  nob_verify: false
+PT16H:
+  name: Beira Baixa
+  history: []
+  nob_verify: false
+PT16I:
+  name: Médio Tejo
+  history: []
+  nob_verify: false
+PT16J:
+  name: Beiras e Serra da Estrela
+  history: []
+  nob_verify: false
+PT170:
+  name: Área Metropolitana de Lisboa
+  history: []
+  nob_verify: false
+PT181:
+  name: Alentejo Litoral
+  history: []
+  nob_verify: false
+PT184:
+  name: Baixo Alentejo
+  history: []
+  nob_verify: false
+PT185:
+  name: Lezíria do Tejo
+  history: []
+  nob_verify: false
+PT186:
+  name: Alto Alentejo
+  history: []
+  nob_verify: false
+PT187:
+  name: Alentejo Central
+  history: []
+  nob_verify: false
+PT200:
+  name: Região Autónoma dos Açores
+  history: []
+  nob_verify: false
+PT300:
+  name: Região Autónoma da Madeira
+  history: []
+  nob_verify: false
+PTZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

@@ -1,44 +1,120 @@
-buyer:
-  name: Buyer
-  nob:
-cpb-acq:
-  name: Central purchasing body acquiring supplies and/or services intended for other buyers
-  nob:
-cpb-awa:
-  name: Central purchasing body awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers
-  nob:
-info-emp:
-  name: Organisation providing information concerning the general regulatory framework for employment protection and working conditions applicable in the place where the contract is to be performed
-  nob:
-info-envir:
-  name: Organisation providing information concerning the general regulatory framework for environmental protection applicable in the place where the contract is to be performed
-  nob:
-info-tax:
-  name: Organisation providing information concerning the general regulatory framework for taxes applicable in the place where the contract is to be performed
-  nob:
-mediator:
-  name: Mediation organisation
-  nob:
-rev-req:
-  name: Organisation (or person) requesting review that has or has had an interest in a contract and who has been or risks being harmed by an alleged infringement
-  nob:
-reviewer:
-  name: Review organisation
-  nob:
-serv-prov:
-  name: Procurement service provider
-  nob:
-subcont:
-  name: Subcontractor
-  nob:
-ted-esen:
-  name: TED eSender
-  nob:
-tenderer:
-  name: Tenderer
-  nob:
-winner:
-  name: Winner
-  nob:
 ben-own:
   name: Beneficial owner
+  nob: Reell rettighetshaver
+  history:
+  - name: Beneficial owner
+    history: []
+    nob_verify: false
+  nob_verify: false
+buyer:
+  name: Buyer
+  nob: Kjøper
+  history:
+  - name: Buyer
+    history: []
+    nob_verify: false
+  nob_verify: false
+cpb-acq:
+  name: Central purchasing body acquiring supplies and/or services intended for other buyers
+  nob: Sentralt innkjøpsorgan som anskaffer forsyninger og/eller tjenester beregnet på andre kjøpere
+  history:
+  - name: Central purchasing body acquiring supplies and/or services intended for other buyers
+    history: []
+    nob_verify: false
+  nob_verify: false
+cpb-awa:
+  name: Central purchasing body awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers
+  nob: Sentralt innkjøpsorgan som tildeler offentlige kontrakter eller inngår rammeavtaler for bygge- og anleggsarbeider, varer eller tjenester beregnet på andre kjøpere
+  history:
+  - name: Central purchasing body awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers
+    history: []
+    nob_verify: false
+  nob_verify: false
+info-emp:
+  name: Organisation providing information concerning the general regulatory framework for employment protection and working conditions applicable in the place where the contract is to be performed
+  nob: Organisasjon som gir informasjon om det generelle regelverket for stillingsvern og arbeidsvilkår som gjelder der kontrakten skal utføres
+  history:
+  - name: Organisation providing information concerning the general regulatory framework for employment protection and working conditions applicable in the place where the contract is to be performed
+    history: []
+    nob_verify: false
+  nob_verify: false
+info-envir:
+  name: Organisation providing information concerning the general regulatory framework for environmental protection applicable in the place where the contract is to be performed
+  nob: Organisasjon som gir informasjon om det generelle regelverket for miljøvern som gjelder der kontrakten skal utføres
+  history:
+  - name: Organisation providing information concerning the general regulatory framework for environmental protection applicable in the place where the contract is to be performed
+    history: []
+    nob_verify: false
+  nob_verify: false
+info-tax:
+  name: Organisation providing information concerning the general regulatory framework for taxes applicable in the place where the contract is to be performed
+  nob: Organisasjon som gir informasjon om det generelle regelverket for skatter som gjelder på stedet der kontrakten skal utføres
+  history:
+  - name: Organisation providing information concerning the general regulatory framework for taxes applicable in the place where the contract is to be performed
+    history: []
+    nob_verify: false
+  nob_verify: false
+mediator:
+  name: Mediation organisation
+  nob: Meklingsorganisasjon
+  history:
+  - name: Mediation organisation
+    history: []
+    nob_verify: false
+  nob_verify: false
+rev-req:
+  name: Organisation (or person) requesting review that has or has had an interest in a contract and who has been or risks being harmed by an alleged infringement
+  nob: Organisasjon (eller person) som ber om gjennomgang som har eller har hatt interesse av en kontrakt, og som har blitt eller risikerer å bli skadet av en påstått overtredelse
+  history:
+  - name: Organisation (or person) requesting review that has or has had an interest in a contract and who has been or risks being harmed by an alleged infringement
+    history: []
+    nob_verify: false
+  nob_verify: false
+reviewer:
+  name: Review organisation
+  nob: Organisering av gjennomgang
+  history:
+  - name: Review organisation
+    history: []
+    nob_verify: false
+  nob_verify: false
+serv-prov:
+  name: Procurement service provider
+  nob: Leverandør av innkjøpstjenester
+  history:
+  - name: Procurement service provider
+    history: []
+    nob_verify: false
+  nob_verify: false
+subcont:
+  name: Subcontractor
+  nob: Underleverandør
+  history:
+  - name: Subcontractor
+    history: []
+    nob_verify: false
+  nob_verify: false
+ted-esen:
+  name: TED eSender
+  nob: TED eSender
+  history:
+  - name: TED eSender
+    history: []
+    nob_verify: false
+  nob_verify: false
+tenderer:
+  name: Tenderer
+  nob: Anbudsmann
+  history:
+  - name: Tenderer
+    history: []
+    nob_verify: false
+  nob_verify: false
+winner:
+  name: Winner
+  nob: Vinner
+  history:
+  - name: Winner
+    history: []
+    nob_verify: false
+  nob_verify: false

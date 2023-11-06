@@ -1,34 +1,88 @@
-﻿# encoding: utf-8
 exec-pay:
   name: Organisation executing the payment
-  nob: 
+  nob: Organisasjonen som utfører betalingen
+  history:
+  - name: Organisation executing the payment
+    history: []
+    nob_verify: false
+  nob_verify: false
 group-lead:
   name: Group leader
-  nob: 
+  nob: Gruppeleder
+  history:
+  - name: Group leader
+    history: []
+    nob_verify: false
+  nob_verify: false
 info-prov:
   name: Organisation providing additional information about the procurement procedure
-  nob: 
+  nob: Organisasjon som gir tilleggsinformasjon om anskaffelsesprosedyren
+  history:
+  - name: Organisation providing additional information about the procurement procedure
+    history: []
+    nob_verify: false
+  nob_verify: false
 lim-prov:
   name: Organisation providing more information on the time limits for review procedures
-  nob: 
+  nob: Organisasjon som gir mer informasjon om fristene for overprøvingsprosedyrer
+  history:
+  - name: Organisation providing more information on the time limits for review procedures
+    history: []
+    nob_verify: false
+  nob_verify: false
 offl-acc:
   name: Organisation providing offline access to the procurement documents
-  nob: 
+  nob: Organisasjon som gir frakoblet tilgang til anskaffelsesdokumentene
+  history:
+  - name: Organisation providing offline access to the procurement documents
+    history: []
+    nob_verify: false
+  nob_verify: false
 processor:
   name: Organisation processing tenders
-  nob: 
+  nob: Organisering av anbudsbehandling
+  history:
+  - name: Organisation processing tenders
+    history: []
+    nob_verify: false
+  nob_verify: false
 recepient:
   name: Organisation receiving tenders
-  nob: 
+  nob: Organisasjon som mottar anbud
+  history:
+  - name: Organisation receiving tenders
+    history: []
+    nob_verify: false
+  nob_verify: false
 req-proc:
   name: Organisation processing requests to participate
-  nob: 
+  nob: Organisering av forespørsler om å delta
+  history:
+  - name: Organisation processing requests to participate
+    history: []
+    nob_verify: false
+  nob_verify: false
 req-recep:
   name: Organisation receiving requests to participate
-  nob: 
+  nob: Organisasjon som mottar forespørsler om å delta
+  history:
+  - name: Organisation receiving requests to participate
+    history: []
+    nob_verify: false
+  nob_verify: false
 rev-info:
   name: Organisation providing more information on the review procedures
-  nob: 
+  nob: Organisasjon som gir mer informasjon om gjennomgåelsesprosedyrene
+  history:
+  - name: Organisation providing more information on the review procedures
+    history: []
+    nob_verify: false
+  nob_verify: false
 signatory:
   name: Organisation signing the contract
-  nob: 
+  nob: Organisasjon som signerer kontrakten
+  history:
+  - name: Organisation signing the contract
+    history: []
+    nob_verify: false
+  nob_verify: false

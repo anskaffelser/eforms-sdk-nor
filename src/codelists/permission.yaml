@@ -1,9 +1,15 @@
 allowed:
   name: Allowed
   nob: Tillatt
+  history: []
+  nob_verify: false
 not-allowed:
   name: Not allowed
   nob: Ikke tillatt
+  history: []
+  nob_verify: false
 required:
   name: Required
   nob: Obligatorisk
+  history: []
+  nob_verify: false

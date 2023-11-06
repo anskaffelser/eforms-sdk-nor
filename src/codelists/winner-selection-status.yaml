@@ -1,8 +1,32 @@
-open-nw:
-  name: The winner was not yet chosen, but the competition is still ongoing.
-  nob: Vinneren er ennå ikke kåret, men konkurransen pågår fortsatt.
-selec-w:
-  name: At least one winner was chosen.
-  nob: Minst en vinner ble kåret
 clos-nw:
   name: No winner was chosen and the competition is closed.
+  nob: Ingen vinner ble kåret og konkurransen er avsluttet.
+  history:
+  - name: No winner was chosen and the competition is closed.
+    history: []
+    nob_verify: false
+  nob_verify: false
+open-nw:
+  name: The winner was not yet chosen, but the competition is still ongoing.
+  nob: Vinneren var ennå ikke kåret, men konkurransen pågår fortsatt.
+  history:
+  - name: The winner was not yet chosen, but the competition is still ongoing.
+    history: []
+    nob_verify: false
+  - name: The winner was not yet chosen, but the competition is still ongoing.
+    nob: Vinneren er ennå ikke kåret, men konkurransen pågår fortsatt.
+    history: []
+    nob_verify: false
+  nob_verify: false
+selec-w:
+  name: At least one winner was chosen.
+  nob: Minst én vinner ble kåret.
+  history:
+  - name: At least one winner was chosen.
+    history: []
+    nob_verify: false
+  - name: At least one winner was chosen.
+    nob: Minst en vinner ble kåret
+    history: []
+    nob_verify: false
+  nob_verify: false
