@@ -1,0 +1,12 @@
+IS001:
+  name: Höfuðborgarsvæði
+  history: []
+  nob_verify: false
+IS002:
+  name: Landsbyggð
+  history: []
+  nob_verify: false
+ISZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

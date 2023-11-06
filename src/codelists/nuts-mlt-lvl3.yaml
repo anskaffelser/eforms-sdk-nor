@@ -1,0 +1,12 @@
+MT001:
+  name: Malta
+  history: []
+  nob_verify: false
+MT002:
+  name: Gozo and Comino / Għawdex u Kemmuna
+  history: []
+  nob_verify: false
+MTZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

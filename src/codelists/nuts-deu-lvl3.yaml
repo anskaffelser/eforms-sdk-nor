@@ -1,0 +1,1608 @@
+DE111:
+  name: Stuttgart, Stadtkreis
+  history: []
+  nob_verify: false
+DE112:
+  name: Böblingen
+  history: []
+  nob_verify: false
+DE113:
+  name: Esslingen
+  history: []
+  nob_verify: false
+DE114:
+  name: Göppingen
+  history: []
+  nob_verify: false
+DE115:
+  name: Ludwigsburg
+  history: []
+  nob_verify: false
+DE116:
+  name: Rems-Murr-Kreis
+  history: []
+  nob_verify: false
+DE117:
+  name: Heilbronn, Stadtkreis
+  history: []
+  nob_verify: false
+DE118:
+  name: Heilbronn, Landkreis
+  history: []
+  nob_verify: false
+DE119:
+  name: Hohenlohekreis
+  history: []
+  nob_verify: false
+DE11A:
+  name: Schwäbisch Hall
+  history: []
+  nob_verify: false
+DE11B:
+  name: Main-Tauber-Kreis
+  history: []
+  nob_verify: false
+DE11C:
+  name: Heidenheim
+  history: []
+  nob_verify: false
+DE11D:
+  name: Ostalbkreis
+  history: []
+  nob_verify: false
+DE121:
+  name: Baden-Baden, Stadtkreis
+  history: []
+  nob_verify: false
+DE122:
+  name: Karlsruhe, Stadtkreis
+  history: []
+  nob_verify: false
+DE123:
+  name: Karlsruhe, Landkreis
+  history: []
+  nob_verify: false
+DE124:
+  name: Rastatt
+  history: []
+  nob_verify: false
+DE125:
+  name: Heidelberg, Stadtkreis
+  history: []
+  nob_verify: false
+DE126:
+  name: Mannheim, Stadtkreis
+  history: []
+  nob_verify: false
+DE127:
+  name: Neckar-Odenwald-Kreis
+  history: []
+  nob_verify: false
+DE128:
+  name: Rhein-Neckar-Kreis
+  history: []
+  nob_verify: false
+DE129:
+  name: Pforzheim, Stadtkreis
+  history: []
+  nob_verify: false
+DE12A:
+  name: Calw
+  history: []
+  nob_verify: false
+DE12B:
+  name: Enzkreis
+  history: []
+  nob_verify: false
+DE12C:
+  name: Freudenstadt
+  history: []
+  nob_verify: false
+DE131:
+  name: Freiburg im Breisgau, Stadtkreis
+  history: []
+  nob_verify: false
+DE132:
+  name: Breisgau-Hochschwarzwald
+  history: []
+  nob_verify: false
+DE133:
+  name: Emmendingen
+  history: []
+  nob_verify: false
+DE134:
+  name: Ortenaukreis
+  history: []
+  nob_verify: false
+DE135:
+  name: Rottweil
+  history: []
+  nob_verify: false
+DE136:
+  name: Schwarzwald-Baar-Kreis
+  history: []
+  nob_verify: false
+DE137:
+  name: Tuttlingen
+  history: []
+  nob_verify: false
+DE138:
+  name: Konstanz
+  history: []
+  nob_verify: false
+DE139:
+  name: Lörrach
+  history: []
+  nob_verify: false
+DE13A:
+  name: Waldshut
+  history: []
+  nob_verify: false
+DE141:
+  name: Reutlingen
+  history: []
+  nob_verify: false
+DE142:
+  name: Tübingen, Landkreis
+  history: []
+  nob_verify: false
+DE143:
+  name: Zollernalbkreis
+  history: []
+  nob_verify: false
+DE144:
+  name: Ulm, Stadtkreis
+  history: []
+  nob_verify: false
+DE145:
+  name: Alb-Donau-Kreis
+  history: []
+  nob_verify: false
+DE146:
+  name: Biberach
+  history: []
+  nob_verify: false
+DE147:
+  name: Bodenseekreis
+  history: []
+  nob_verify: false
+DE148:
+  name: Ravensburg
+  history: []
+  nob_verify: false
+DE149:
+  name: Sigmaringen
+  history: []
+  nob_verify: false
+DE211:
+  name: Ingolstadt, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE212:
+  name: München, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE213:
+  name: Rosenheim, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE214:
+  name: Altötting
+  history: []
+  nob_verify: false
+DE215:
+  name: Berchtesgadener Land
+  history: []
+  nob_verify: false
+DE216:
+  name: Bad Tölz-Wolfratshausen
+  history: []
+  nob_verify: false
+DE217:
+  name: Dachau
+  history: []
+  nob_verify: false
+DE218:
+  name: Ebersberg
+  history: []
+  nob_verify: false
+DE219:
+  name: Eichstätt
+  history: []
+  nob_verify: false
+DE21A:
+  name: Erding
+  history: []
+  nob_verify: false
+DE21B:
+  name: Freising
+  history: []
+  nob_verify: false
+DE21C:
+  name: Fürstenfeldbruck
+  history: []
+  nob_verify: false
+DE21D:
+  name: Garmisch-Partenkirchen
+  history: []
+  nob_verify: false
+DE21E:
+  name: Landsberg am Lech
+  history: []
+  nob_verify: false
+DE21F:
+  name: Miesbach
+  history: []
+  nob_verify: false
+DE21G:
+  name: Mühldorf a. Inn
+  history: []
+  nob_verify: false
+DE21H:
+  name: München, Landkreis
+  history: []
+  nob_verify: false
+DE21I:
+  name: Neuburg-Schrobenhausen
+  history: []
+  nob_verify: false
+DE21J:
+  name: Pfaffenhofen a. d. Ilm
+  history: []
+  nob_verify: false
+DE21K:
+  name: Rosenheim, Landkreis
+  history: []
+  nob_verify: false
+DE21L:
+  name: Starnberg
+  history: []
+  nob_verify: false
+DE21M:
+  name: Traunstein
+  history: []
+  nob_verify: false
+DE21N:
+  name: Weilheim-Schongau
+  history: []
+  nob_verify: false
+DE221:
+  name: Landshut, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE222:
+  name: Passau, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE223:
+  name: Straubing, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE224:
+  name: Deggendorf
+  history: []
+  nob_verify: false
+DE225:
+  name: Freyung-Grafenau
+  history: []
+  nob_verify: false
+DE226:
+  name: Kelheim
+  history: []
+  nob_verify: false
+DE227:
+  name: Landshut, Landkreis
+  history: []
+  nob_verify: false
+DE228:
+  name: Passau, Landkreis
+  history: []
+  nob_verify: false
+DE229:
+  name: Regen
+  history: []
+  nob_verify: false
+DE22A:
+  name: Rottal-Inn
+  history: []
+  nob_verify: false
+DE22B:
+  name: Straubing-Bogen
+  history: []
+  nob_verify: false
+DE22C:
+  name: Dingolfing-Landau
+  history: []
+  nob_verify: false
+DE231:
+  name: Amberg, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE232:
+  name: Regensburg, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE233:
+  name: Weiden i. d. Opf, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE234:
+  name: Amberg-Sulzbach
+  history: []
+  nob_verify: false
+DE235:
+  name: Cham
+  history: []
+  nob_verify: false
+DE236:
+  name: Neumarkt i. d. OPf.
+  history: []
+  nob_verify: false
+DE237:
+  name: Neustadt a. d. Waldnaab
+  history: []
+  nob_verify: false
+DE238:
+  name: Regensburg, Landkreis
+  history: []
+  nob_verify: false
+DE239:
+  name: Schwandorf
+  history: []
+  nob_verify: false
+DE23A:
+  name: Tirschenreuth
+  history: []
+  nob_verify: false
+DE241:
+  name: Bamberg, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE242:
+  name: Bayreuth, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE243:
+  name: Coburg, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE244:
+  name: Hof, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE245:
+  name: Bamberg, Landkreis
+  history: []
+  nob_verify: false
+DE246:
+  name: Bayreuth, Landkreis
+  history: []
+  nob_verify: false
+DE247:
+  name: Coburg, Landkreis
+  history: []
+  nob_verify: false
+DE248:
+  name: Forchheim
+  history: []
+  nob_verify: false
+DE249:
+  name: Hof, Landkreis
+  history: []
+  nob_verify: false
+DE24A:
+  name: Kronach
+  history: []
+  nob_verify: false
+DE24B:
+  name: Kulmbach
+  history: []
+  nob_verify: false
+DE24C:
+  name: Lichtenfels
+  history: []
+  nob_verify: false
+DE24D:
+  name: Wunsiedel i. Fichtelgebirge
+  history: []
+  nob_verify: false
+DE251:
+  name: Ansbach, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE252:
+  name: Erlangen, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE253:
+  name: Fürth, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE254:
+  name: Nürnberg, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE255:
+  name: Schwabach, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE256:
+  name: Ansbach, Landkreis
+  history: []
+  nob_verify: false
+DE257:
+  name: Erlangen-Höchstadt
+  history: []
+  nob_verify: false
+DE258:
+  name: Fürth, Landkreis
+  history: []
+  nob_verify: false
+DE259:
+  name: Nürnberger Land
+  history: []
+  nob_verify: false
+DE25A:
+  name: Neustadt a. d. Aisch-Bad Windsheim
+  history: []
+  nob_verify: false
+DE25B:
+  name: Roth
+  history: []
+  nob_verify: false
+DE25C:
+  name: Weißenburg-Gunzenhausen
+  history: []
+  nob_verify: false
+DE261:
+  name: Aschaffenburg, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE262:
+  name: Schweinfurt, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE263:
+  name: Würzburg, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE264:
+  name: Aschaffenburg, Landkreis
+  history: []
+  nob_verify: false
+DE265:
+  name: Bad Kissingen
+  history: []
+  nob_verify: false
+DE266:
+  name: Rhön-Grabfeld
+  history: []
+  nob_verify: false
+DE267:
+  name: Haßberge
+  history: []
+  nob_verify: false
+DE268:
+  name: Kitzingen
+  history: []
+  nob_verify: false
+DE269:
+  name: Miltenberg
+  history: []
+  nob_verify: false
+DE26A:
+  name: Main-Spessart
+  history: []
+  nob_verify: false
+DE26B:
+  name: Schweinfurt, Landkreis
+  history: []
+  nob_verify: false
+DE26C:
+  name: Würzburg, Landkreis
+  history: []
+  nob_verify: false
+DE271:
+  name: Augsburg, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE272:
+  name: Kaufbeuren, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE273:
+  name: Kempten (Allgäu), Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE274:
+  name: Memmingen, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE275:
+  name: Aichach-Friedberg
+  history: []
+  nob_verify: false
+DE276:
+  name: Augsburg, Landkreis
+  history: []
+  nob_verify: false
+DE277:
+  name: Dillingen a.d. Donau
+  history: []
+  nob_verify: false
+DE278:
+  name: Günzburg
+  history: []
+  nob_verify: false
+DE279:
+  name: Neu-Ulm
+  history: []
+  nob_verify: false
+DE27A:
+  name: Lindau (Bodensee)
+  history: []
+  nob_verify: false
+DE27B:
+  name: Ostallgäu
+  history: []
+  nob_verify: false
+DE27C:
+  name: Unterallgäu
+  history: []
+  nob_verify: false
+DE27D:
+  name: Donau-Ries
+  history: []
+  nob_verify: false
+DE27E:
+  name: Oberallgäu
+  history: []
+  nob_verify: false
+DE300:
+  name: Berlin
+  history: []
+  nob_verify: false
+DE401:
+  name: Brandenburg an der Havel, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE402:
+  name: Cottbus, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE403:
+  name: Frankfurt (Oder), Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE404:
+  name: Potsdam, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE405:
+  name: Barnim
+  history: []
+  nob_verify: false
+DE406:
+  name: Dahme-Spreewald
+  history: []
+  nob_verify: false
+DE407:
+  name: Elbe-Elster
+  history: []
+  nob_verify: false
+DE408:
+  name: Havelland
+  history: []
+  nob_verify: false
+DE409:
+  name: Märkisch-Oderland
+  history: []
+  nob_verify: false
+DE40A:
+  name: Oberhavel
+  history: []
+  nob_verify: false
+DE40B:
+  name: Oberspreewald-Lausitz
+  history: []
+  nob_verify: false
+DE40C:
+  name: Oder-Spree
+  history: []
+  nob_verify: false
+DE40D:
+  name: Ostprignitz-Ruppin
+  history: []
+  nob_verify: false
+DE40E:
+  name: Potsdam-Mittelmark
+  history: []
+  nob_verify: false
+DE40F:
+  name: Prignitz
+  history: []
+  nob_verify: false
+DE40G:
+  name: Spree-Neiße
+  history: []
+  nob_verify: false
+DE40H:
+  name: Teltow-Fläming
+  history: []
+  nob_verify: false
+DE40I:
+  name: Uckermark
+  history: []
+  nob_verify: false
+DE501:
+  name: Bremen, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE502:
+  name: Bremerhaven, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE600:
+  name: Hamburg
+  history: []
+  nob_verify: false
+DE711:
+  name: Darmstadt, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE712:
+  name: Frankfurt am Main, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE713:
+  name: Offenbach am Main, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE714:
+  name: Wiesbaden, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE715:
+  name: Bergstraße
+  history: []
+  nob_verify: false
+DE716:
+  name: Darmstadt-Dieburg
+  history: []
+  nob_verify: false
+DE717:
+  name: Groß-Gerau
+  history: []
+  nob_verify: false
+DE718:
+  name: Hochtaunuskreis
+  history: []
+  nob_verify: false
+DE719:
+  name: Main-Kinzig-Kreis
+  history: []
+  nob_verify: false
+DE71A:
+  name: Main-Taunus-Kreis
+  history: []
+  nob_verify: false
+DE71B:
+  name: Odenwaldkreis
+  history: []
+  nob_verify: false
+DE71C:
+  name: Offenbach, Landkreis
+  history: []
+  nob_verify: false
+DE71D:
+  name: Rheingau-Taunus-Kreis
+  history: []
+  nob_verify: false
+DE71E:
+  name: Wetteraukreis
+  history: []
+  nob_verify: false
+DE721:
+  name: Gießen, Landkreis
+  history: []
+  nob_verify: false
+DE722:
+  name: Lahn-Dill-Kreis
+  history: []
+  nob_verify: false
+DE723:
+  name: Limburg-Weilburg
+  history: []
+  nob_verify: false
+DE724:
+  name: Marburg-Biedenkopf
+  history: []
+  nob_verify: false
+DE725:
+  name: Vogelsbergkreis
+  history: []
+  nob_verify: false
+DE731:
+  name: Kassel, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE732:
+  name: Fulda
+  history: []
+  nob_verify: false
+DE733:
+  name: Hersfeld-Rotenburg
+  history: []
+  nob_verify: false
+DE734:
+  name: Kassel, Landkreis
+  history: []
+  nob_verify: false
+DE735:
+  name: Schwalm-Eder-Kreis
+  history: []
+  nob_verify: false
+DE736:
+  name: Waldeck-Frankenberg
+  history: []
+  nob_verify: false
+DE737:
+  name: Werra-Meißner-Kreis
+  history: []
+  nob_verify: false
+DE803:
+  name: Rostock, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE804:
+  name: Schwerin, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE80J:
+  name: Mecklenburgische Seenplatte
+  history: []
+  nob_verify: false
+DE80K:
+  name: Landkreis Rostock
+  history: []
+  nob_verify: false
+DE80L:
+  name: Vorpommern-Rügen
+  history: []
+  nob_verify: false
+DE80M:
+  name: Nordwestmecklenburg
+  history: []
+  nob_verify: false
+DE80N:
+  name: Vorpommern-Greifswald
+  history: []
+  nob_verify: false
+DE80O:
+  name: Ludwigslust-Parchim
+  history: []
+  nob_verify: false
+DE911:
+  name: Braunschweig, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE912:
+  name: Salzgitter, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE913:
+  name: Wolfsburg, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE914:
+  name: Gifhorn
+  history: []
+  nob_verify: false
+DE916:
+  name: Goslar
+  history: []
+  nob_verify: false
+DE917:
+  name: Helmstedt
+  history: []
+  nob_verify: false
+DE918:
+  name: Northeim
+  history: []
+  nob_verify: false
+DE91A:
+  name: Peine
+  history: []
+  nob_verify: false
+DE91B:
+  name: Wolfenbüttel
+  history: []
+  nob_verify: false
+DE91C:
+  name: Göttingen
+  history: []
+  nob_verify: false
+DE922:
+  name: Diepholz
+  history: []
+  nob_verify: false
+DE923:
+  name: Hameln-Pyrmont
+  history: []
+  nob_verify: false
+DE925:
+  name: Hildesheim
+  history: []
+  nob_verify: false
+DE926:
+  name: Holzminden
+  history: []
+  nob_verify: false
+DE927:
+  name: Nienburg (Weser)
+  history: []
+  nob_verify: false
+DE928:
+  name: Schaumburg
+  history: []
+  nob_verify: false
+DE929:
+  name: Region Hannover
+  history: []
+  nob_verify: false
+DE931:
+  name: Celle
+  history: []
+  nob_verify: false
+DE932:
+  name: Cuxhaven
+  history: []
+  nob_verify: false
+DE933:
+  name: Harburg
+  history: []
+  nob_verify: false
+DE934:
+  name: Lüchow-Dannenberg
+  history: []
+  nob_verify: false
+DE935:
+  name: Lüneburg, Landkreis
+  history: []
+  nob_verify: false
+DE936:
+  name: Osterholz
+  history: []
+  nob_verify: false
+DE937:
+  name: Rotenburg (Wümme)
+  history: []
+  nob_verify: false
+DE938:
+  name: Heidekreis
+  history: []
+  nob_verify: false
+DE939:
+  name: Stade
+  history: []
+  nob_verify: false
+DE93A:
+  name: Uelzen
+  history: []
+  nob_verify: false
+DE93B:
+  name: Verden
+  history: []
+  nob_verify: false
+DE941:
+  name: Delmenhorst, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE942:
+  name: Emden, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE943:
+  name: Oldenburg (Oldenburg), Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE944:
+  name: Osnabrück, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE945:
+  name: Wilhelmshaven, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DE946:
+  name: Ammerland
+  history: []
+  nob_verify: false
+DE947:
+  name: Aurich
+  history: []
+  nob_verify: false
+DE948:
+  name: Cloppenburg
+  history: []
+  nob_verify: false
+DE949:
+  name: Emsland
+  history: []
+  nob_verify: false
+DE94A:
+  name: Friesland (DE)
+  history: []
+  nob_verify: false
+DE94B:
+  name: Grafschaft Bentheim
+  history: []
+  nob_verify: false
+DE94C:
+  name: Leer
+  history: []
+  nob_verify: false
+DE94D:
+  name: Oldenburg, Landkreis
+  history: []
+  nob_verify: false
+DE94E:
+  name: Osnabrück, Landkreis
+  history: []
+  nob_verify: false
+DE94F:
+  name: Vechta
+  history: []
+  nob_verify: false
+DE94G:
+  name: Wesermarsch
+  history: []
+  nob_verify: false
+DE94H:
+  name: Wittmund
+  history: []
+  nob_verify: false
+DEA11:
+  name: Düsseldorf, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA12:
+  name: Duisburg, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA13:
+  name: Essen, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA14:
+  name: Krefeld, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA15:
+  name: Mönchengladbach, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA16:
+  name: Mülheim an der Ruhr, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA17:
+  name: Oberhausen, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA18:
+  name: Remscheid, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA19:
+  name: Solingen, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA1A:
+  name: Wuppertal, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA1B:
+  name: Kleve
+  history: []
+  nob_verify: false
+DEA1C:
+  name: Mettmann
+  history: []
+  nob_verify: false
+DEA1D:
+  name: Rhein-Kreis Neuss
+  history: []
+  nob_verify: false
+DEA1E:
+  name: Viersen
+  history: []
+  nob_verify: false
+DEA1F:
+  name: Wesel
+  history: []
+  nob_verify: false
+DEA22:
+  name: Bonn, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA23:
+  name: Köln, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA24:
+  name: Leverkusen, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA26:
+  name: Düren
+  history: []
+  nob_verify: false
+DEA27:
+  name: Rhein-Erft-Kreis
+  history: []
+  nob_verify: false
+DEA28:
+  name: Euskirchen
+  history: []
+  nob_verify: false
+DEA29:
+  name: Heinsberg
+  history: []
+  nob_verify: false
+DEA2A:
+  name: Oberbergischer Kreis
+  history: []
+  nob_verify: false
+DEA2B:
+  name: Rheinisch-Bergischer Kreis
+  history: []
+  nob_verify: false
+DEA2C:
+  name: Rhein-Sieg-Kreis
+  history: []
+  nob_verify: false
+DEA2D:
+  name: Städteregion Aachen
+  history: []
+  nob_verify: false
+DEA31:
+  name: Bottrop, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA32:
+  name: Gelsenkirchen, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA33:
+  name: Münster, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA34:
+  name: Borken
+  history: []
+  nob_verify: false
+DEA35:
+  name: Coesfeld
+  history: []
+  nob_verify: false
+DEA36:
+  name: Recklinghausen
+  history: []
+  nob_verify: false
+DEA37:
+  name: Steinfurt
+  history: []
+  nob_verify: false
+DEA38:
+  name: Warendorf
+  history: []
+  nob_verify: false
+DEA41:
+  name: Bielefeld, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA42:
+  name: Gütersloh
+  history: []
+  nob_verify: false
+DEA43:
+  name: Herford
+  history: []
+  nob_verify: false
+DEA44:
+  name: Höxter
+  history: []
+  nob_verify: false
+DEA45:
+  name: Lippe
+  history: []
+  nob_verify: false
+DEA46:
+  name: Minden-Lübbecke
+  history: []
+  nob_verify: false
+DEA47:
+  name: Paderborn
+  history: []
+  nob_verify: false
+DEA51:
+  name: Bochum, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA52:
+  name: Dortmund, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA53:
+  name: Hagen, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA54:
+  name: Hamm, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA55:
+  name: Herne, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEA56:
+  name: Ennepe-Ruhr-Kreis
+  history: []
+  nob_verify: false
+DEA57:
+  name: Hochsauerlandkreis
+  history: []
+  nob_verify: false
+DEA58:
+  name: Märkischer Kreis
+  history: []
+  nob_verify: false
+DEA59:
+  name: Olpe
+  history: []
+  nob_verify: false
+DEA5A:
+  name: Siegen-Wittgenstein
+  history: []
+  nob_verify: false
+DEA5B:
+  name: Soest
+  history: []
+  nob_verify: false
+DEA5C:
+  name: Unna
+  history: []
+  nob_verify: false
+DEB11:
+  name: Koblenz, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEB12:
+  name: Ahrweiler
+  history: []
+  nob_verify: false
+DEB13:
+  name: Altenkirchen (Westerwald)
+  history: []
+  nob_verify: false
+DEB14:
+  name: Bad Kreuznach
+  history: []
+  nob_verify: false
+DEB15:
+  name: Birkenfeld
+  history: []
+  nob_verify: false
+DEB17:
+  name: Mayen-Koblenz
+  history: []
+  nob_verify: false
+DEB18:
+  name: Neuwied
+  history: []
+  nob_verify: false
+DEB1A:
+  name: Rhein-Lahn-Kreis
+  history: []
+  nob_verify: false
+DEB1B:
+  name: Westerwaldkreis
+  history: []
+  nob_verify: false
+DEB1C:
+  name: Cochem-Zell
+  history: []
+  nob_verify: false
+DEB1D:
+  name: Rhein-Hunsrück-Kreis
+  history: []
+  nob_verify: false
+DEB21:
+  name: Trier, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEB22:
+  name: Bernkastel-Wittlich
+  history: []
+  nob_verify: false
+DEB23:
+  name: Eifelkreis Bitburg-Prüm
+  history: []
+  nob_verify: false
+DEB24:
+  name: Vulkaneifel
+  history: []
+  nob_verify: false
+DEB25:
+  name: Trier-Saarburg
+  history: []
+  nob_verify: false
+DEB31:
+  name: Frankenthal (Pfalz), Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEB32:
+  name: Kaiserslautern, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEB33:
+  name: Landau in der Pfalz, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEB34:
+  name: Ludwigshafen am Rhein, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEB35:
+  name: Mainz, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEB36:
+  name: Neustadt an der Weinstraße, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEB37:
+  name: Pirmasens, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEB38:
+  name: Speyer, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEB39:
+  name: Worms, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEB3A:
+  name: Zweibrücken, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEB3B:
+  name: Alzey-Worms
+  history: []
+  nob_verify: false
+DEB3C:
+  name: Bad Dürkheim
+  history: []
+  nob_verify: false
+DEB3D:
+  name: Donnersbergkreis
+  history: []
+  nob_verify: false
+DEB3E:
+  name: Germersheim
+  history: []
+  nob_verify: false
+DEB3F:
+  name: Kaiserslautern, Landkreis
+  history: []
+  nob_verify: false
+DEB3G:
+  name: Kusel
+  history: []
+  nob_verify: false
+DEB3H:
+  name: Südliche Weinstraße
+  history: []
+  nob_verify: false
+DEB3I:
+  name: Rhein-Pfalz-Kreis
+  history: []
+  nob_verify: false
+DEB3J:
+  name: Mainz-Bingen
+  history: []
+  nob_verify: false
+DEB3K:
+  name: Südwestpfalz
+  history: []
+  nob_verify: false
+DEC01:
+  name: Regionalverband Saarbrücken
+  history: []
+  nob_verify: false
+DEC02:
+  name: Merzig-Wadern
+  history: []
+  nob_verify: false
+DEC03:
+  name: Neunkirchen
+  history: []
+  nob_verify: false
+DEC04:
+  name: Saarlouis
+  history: []
+  nob_verify: false
+DEC05:
+  name: Saarpfalz-Kreis
+  history: []
+  nob_verify: false
+DEC06:
+  name: St. Wendel
+  history: []
+  nob_verify: false
+DED21:
+  name: Dresden, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DED2C:
+  name: Bautzen
+  history: []
+  nob_verify: false
+DED2D:
+  name: Görlitz
+  history: []
+  nob_verify: false
+DED2E:
+  name: Meißen
+  history: []
+  nob_verify: false
+DED2F:
+  name: Sächsische Schweiz-Osterzgebirge
+  history: []
+  nob_verify: false
+DED41:
+  name: Chemnitz, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DED42:
+  name: Erzgebirgskreis
+  history: []
+  nob_verify: false
+DED43:
+  name: Mittelsachsen
+  history: []
+  nob_verify: false
+DED44:
+  name: Vogtlandkreis
+  history: []
+  nob_verify: false
+DED45:
+  name: Zwickau
+  history: []
+  nob_verify: false
+DED51:
+  name: Leipzig, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DED52:
+  name: Leipzig
+  history: []
+  nob_verify: false
+DED53:
+  name: Nordsachsen
+  history: []
+  nob_verify: false
+DEE01:
+  name: Dessau-Roßlau, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEE02:
+  name: Halle (Saale), Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEE03:
+  name: Magdeburg, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEE04:
+  name: Altmarkkreis Salzwedel
+  history: []
+  nob_verify: false
+DEE05:
+  name: Anhalt-Bitterfeld
+  history: []
+  nob_verify: false
+DEE06:
+  name: Jerichower Land
+  history: []
+  nob_verify: false
+DEE07:
+  name: Börde
+  history: []
+  nob_verify: false
+DEE08:
+  name: Burgenlandkreis
+  history: []
+  nob_verify: false
+DEE09:
+  name: Harz
+  history: []
+  nob_verify: false
+DEE0A:
+  name: Mansfeld-Südharz
+  history: []
+  nob_verify: false
+DEE0B:
+  name: Saalekreis
+  history: []
+  nob_verify: false
+DEE0C:
+  name: Salzlandkreis
+  history: []
+  nob_verify: false
+DEE0D:
+  name: Stendal
+  history: []
+  nob_verify: false
+DEE0E:
+  name: Wittenberg
+  history: []
+  nob_verify: false
+DEF01:
+  name: Flensburg, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEF02:
+  name: Kiel, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEF03:
+  name: Lübeck, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEF04:
+  name: Neumünster, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEF05:
+  name: Dithmarschen
+  history: []
+  nob_verify: false
+DEF06:
+  name: Herzogtum Lauenburg
+  history: []
+  nob_verify: false
+DEF07:
+  name: Nordfriesland
+  history: []
+  nob_verify: false
+DEF08:
+  name: Ostholstein
+  history: []
+  nob_verify: false
+DEF09:
+  name: Pinneberg
+  history: []
+  nob_verify: false
+DEF0A:
+  name: Plön
+  history: []
+  nob_verify: false
+DEF0B:
+  name: Rendsburg-Eckernförde
+  history: []
+  nob_verify: false
+DEF0C:
+  name: Schleswig-Flensburg
+  history: []
+  nob_verify: false
+DEF0D:
+  name: Segeberg
+  history: []
+  nob_verify: false
+DEF0E:
+  name: Steinburg
+  history: []
+  nob_verify: false
+DEF0F:
+  name: Stormarn
+  history: []
+  nob_verify: false
+DEG01:
+  name: Erfurt, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEG02:
+  name: Gera, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEG03:
+  name: Jena, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEG04:
+  name: Suhl, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEG05:
+  name: Weimar, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEG06:
+  name: Eichsfeld
+  history: []
+  nob_verify: false
+DEG07:
+  name: Nordhausen
+  history: []
+  nob_verify: false
+DEG09:
+  name: Unstrut-Hainich-Kreis
+  history: []
+  nob_verify: false
+DEG0A:
+  name: Kyffhäuserkreis
+  history: []
+  nob_verify: false
+DEG0B:
+  name: Schmalkalden-Meiningen
+  history: []
+  nob_verify: false
+DEG0C:
+  name: Gotha
+  history: []
+  nob_verify: false
+DEG0D:
+  name: Sömmerda
+  history: []
+  nob_verify: false
+DEG0E:
+  name: Hildburghausen
+  history: []
+  nob_verify: false
+DEG0F:
+  name: Ilm-Kreis
+  history: []
+  nob_verify: false
+DEG0G:
+  name: Weimarer Land
+  history: []
+  nob_verify: false
+DEG0H:
+  name: Sonneberg
+  history: []
+  nob_verify: false
+DEG0I:
+  name: Saalfeld-Rudolstadt
+  history: []
+  nob_verify: false
+DEG0J:
+  name: Saale-Holzland-Kreis
+  history: []
+  nob_verify: false
+DEG0K:
+  name: Saale-Orla-Kreis
+  history: []
+  nob_verify: false
+DEG0L:
+  name: Greiz
+  history: []
+  nob_verify: false
+DEG0M:
+  name: Altenburger Land
+  history: []
+  nob_verify: false
+DEG0N:
+  name: Eisenach, Kreisfreie Stadt
+  history: []
+  nob_verify: false
+DEG0P:
+  name: Wartburgkreis
+  history: []
+  nob_verify: false
+DEZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

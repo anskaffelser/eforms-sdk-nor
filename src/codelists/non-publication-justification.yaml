@@ -1,15 +1,44 @@
 eo-int:
   name: Commercial interests of an economic operator
   nob: Kommersielle interesser til en leverandør
+  history:
+  - name: Commercial interests of an economic operator
+    history: []
+    nob_verify: false
+  nob_verify: false
 fair-comp:
   name: Fair competition
   nob: Rettferdig konkurranse
+  history:
+  - name: Fair competition
+    history: []
+    nob_verify: false
+  nob_verify: false
 law-enf:
   name: Law enforcement
-  nob: "(Retts)håndhevelse/ Retts- eller politimyndighetene"
+  nob: (Retts)håndhevelse/ Retts- eller politimyndighetene
+  history:
+  - name: Law enforcement
+    history: []
+    nob_verify: false
+  nob_verify: false
 oth-int:
   name: Other public interest
   nob: Annen offentlig/allmenn interesse
+  history:
+  - name: Other public interest
+    history: []
+    nob_verify: false
+  nob_verify: false
 rd-ser:
   name: Research and development (R&amp;D) services
-  nob: Forskninsg og utviklings (FoU) -tjenester
+  nob: Forsknings og utviklings (FoU) -tjenester
+  history:
+  - name: Research and development (R&amp;D) services
+    history: []
+    nob_verify: false
+  - name: Research and development (R&amp;D) services
+    nob: Forskninsg og utviklings (FoU) -tjenester
+    history: []
+    nob_verify: false
+  nob_verify: false

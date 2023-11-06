@@ -1,0 +1,84 @@
+HU110:
+  name: Budapest
+  history: []
+  nob_verify: false
+HU120:
+  name: Pest
+  history: []
+  nob_verify: false
+HU211:
+  name: Fejér
+  history: []
+  nob_verify: false
+HU212:
+  name: Komárom-Esztergom
+  history: []
+  nob_verify: false
+HU213:
+  name: Veszprém
+  history: []
+  nob_verify: false
+HU221:
+  name: Győr-Moson-Sopron
+  history: []
+  nob_verify: false
+HU222:
+  name: Vas
+  history: []
+  nob_verify: false
+HU223:
+  name: Zala
+  history: []
+  nob_verify: false
+HU231:
+  name: Baranya
+  history: []
+  nob_verify: false
+HU232:
+  name: Somogy
+  history: []
+  nob_verify: false
+HU233:
+  name: Tolna
+  history: []
+  nob_verify: false
+HU311:
+  name: Borsod-Abaúj-Zemplén
+  history: []
+  nob_verify: false
+HU312:
+  name: Heves
+  history: []
+  nob_verify: false
+HU313:
+  name: Nógrád
+  history: []
+  nob_verify: false
+HU321:
+  name: Hajdú-Bihar
+  history: []
+  nob_verify: false
+HU322:
+  name: Jász-Nagykun-Szolnok
+  history: []
+  nob_verify: false
+HU323:
+  name: Szabolcs-Szatmár-Bereg
+  history: []
+  nob_verify: false
+HU331:
+  name: Bács-Kiskun
+  history: []
+  nob_verify: false
+HU332:
+  name: Békés
+  history: []
+  nob_verify: false
+HU333:
+  name: Csongrád
+  history: []
+  nob_verify: false
+HUZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

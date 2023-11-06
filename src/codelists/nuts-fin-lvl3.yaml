@@ -1,0 +1,80 @@
+FI193:
+  name: Keski-Suomi
+  history: []
+  nob_verify: false
+FI194:
+  name: Etelä-Pohjanmaa
+  history: []
+  nob_verify: false
+FI195:
+  name: Pohjanmaa
+  history: []
+  nob_verify: false
+FI196:
+  name: Satakunta
+  history: []
+  nob_verify: false
+FI197:
+  name: Pirkanmaa
+  history: []
+  nob_verify: false
+FI1B1:
+  name: Helsinki-Uusimaa
+  history: []
+  nob_verify: false
+FI1C1:
+  name: Varsinais-Suomi
+  history: []
+  nob_verify: false
+FI1C2:
+  name: Kanta-Häme
+  history: []
+  nob_verify: false
+FI1C3:
+  name: Päijät-Häme
+  history: []
+  nob_verify: false
+FI1C4:
+  name: Kymenlaakso
+  history: []
+  nob_verify: false
+FI1C5:
+  name: Etelä-Karjala
+  history: []
+  nob_verify: false
+FI1D1:
+  name: Etelä-Savo
+  history: []
+  nob_verify: false
+FI1D2:
+  name: Pohjois-Savo
+  history: []
+  nob_verify: false
+FI1D3:
+  name: Pohjois-Karjala
+  history: []
+  nob_verify: false
+FI1D5:
+  name: Keski-Pohjanmaa
+  history: []
+  nob_verify: false
+FI1D7:
+  name: Lappi
+  history: []
+  nob_verify: false
+FI1D8:
+  name: Kainuu
+  history: []
+  nob_verify: false
+FI1D9:
+  name: Pohjois-Pohjanmaa
+  history: []
+  nob_verify: false
+FI200:
+  name: Åland
+  history: []
+  nob_verify: false
+FIZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

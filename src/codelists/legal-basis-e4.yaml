@@ -1,0 +1,8 @@
+other:
+  name: Other
+  nob: Annet
+  history:
+  - name: Other
+    history: []
+    nob_verify: false
+  nob_verify: false

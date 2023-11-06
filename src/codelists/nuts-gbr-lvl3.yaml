@@ -1,0 +1,720 @@
+UKC11:
+  name: Hartlepool and Stockton-on-Tees
+  history: []
+  nob_verify: false
+UKC12:
+  name: South Teesside
+  history: []
+  nob_verify: false
+UKC13:
+  name: Darlington
+  history: []
+  nob_verify: false
+UKC14:
+  name: Durham CC
+  history: []
+  nob_verify: false
+UKC21:
+  name: Northumberland
+  history: []
+  nob_verify: false
+UKC22:
+  name: Tyneside
+  history: []
+  nob_verify: false
+UKC23:
+  name: Sunderland
+  history: []
+  nob_verify: false
+UKD11:
+  name: West Cumbria
+  history: []
+  nob_verify: false
+UKD12:
+  name: East Cumbria
+  history: []
+  nob_verify: false
+UKD33:
+  name: Manchester
+  history: []
+  nob_verify: false
+UKD34:
+  name: Greater Manchester South West
+  history: []
+  nob_verify: false
+UKD35:
+  name: Greater Manchester South East
+  history: []
+  nob_verify: false
+UKD36:
+  name: Greater Manchester North West
+  history: []
+  nob_verify: false
+UKD37:
+  name: Greater Manchester North East
+  history: []
+  nob_verify: false
+UKD41:
+  name: Blackburn with Darwen
+  history: []
+  nob_verify: false
+UKD42:
+  name: Blackpool
+  history: []
+  nob_verify: false
+UKD44:
+  name: Lancaster and Wyre
+  history: []
+  nob_verify: false
+UKD45:
+  name: Mid Lancashire
+  history: []
+  nob_verify: false
+UKD46:
+  name: East Lancashire
+  history: []
+  nob_verify: false
+UKD47:
+  name: Chorley and West Lancashire
+  history: []
+  nob_verify: false
+UKD61:
+  name: Warrington
+  history: []
+  nob_verify: false
+UKD62:
+  name: Cheshire East
+  history: []
+  nob_verify: false
+UKD63:
+  name: Cheshire West and Chester
+  history: []
+  nob_verify: false
+UKD71:
+  name: East Merseyside
+  history: []
+  nob_verify: false
+UKD72:
+  name: Liverpool
+  history: []
+  nob_verify: false
+UKD73:
+  name: Sefton
+  history: []
+  nob_verify: false
+UKD74:
+  name: Wirral
+  history: []
+  nob_verify: false
+UKE11:
+  name: Kingston upon Hull, City of
+  history: []
+  nob_verify: false
+UKE12:
+  name: East Riding of Yorkshire
+  history: []
+  nob_verify: false
+UKE13:
+  name: North and North East Lincolnshire
+  history: []
+  nob_verify: false
+UKE21:
+  name: York
+  history: []
+  nob_verify: false
+UKE22:
+  name: North Yorkshire CC
+  history: []
+  nob_verify: false
+UKE31:
+  name: Barnsley, Doncaster and Rotherham
+  history: []
+  nob_verify: false
+UKE32:
+  name: Sheffield
+  history: []
+  nob_verify: false
+UKE41:
+  name: Bradford
+  history: []
+  nob_verify: false
+UKE42:
+  name: Leeds
+  history: []
+  nob_verify: false
+UKE44:
+  name: Calderdale and Kirklees
+  history: []
+  nob_verify: false
+UKE45:
+  name: Wakefield
+  history: []
+  nob_verify: false
+UKF11:
+  name: Derby
+  history: []
+  nob_verify: false
+UKF12:
+  name: East Derbyshire
+  history: []
+  nob_verify: false
+UKF13:
+  name: South and West Derbyshire
+  history: []
+  nob_verify: false
+UKF14:
+  name: Nottingham
+  history: []
+  nob_verify: false
+UKF15:
+  name: North Nottinghamshire
+  history: []
+  nob_verify: false
+UKF16:
+  name: South Nottinghamshire
+  history: []
+  nob_verify: false
+UKF21:
+  name: Leicester
+  history: []
+  nob_verify: false
+UKF22:
+  name: Leicestershire CC and Rutland
+  history: []
+  nob_verify: false
+UKF24:
+  name: West Northamptonshire
+  history: []
+  nob_verify: false
+UKF25:
+  name: North Northamptonshire
+  history: []
+  nob_verify: false
+UKF30:
+  name: Lincolnshire
+  history: []
+  nob_verify: false
+UKG11:
+  name: Herefordshire, County of
+  history: []
+  nob_verify: false
+UKG12:
+  name: Worcestershire
+  history: []
+  nob_verify: false
+UKG13:
+  name: Warwickshire
+  history: []
+  nob_verify: false
+UKG21:
+  name: Telford and Wrekin
+  history: []
+  nob_verify: false
+UKG22:
+  name: Shropshire CC
+  history: []
+  nob_verify: false
+UKG23:
+  name: Stoke-on-Trent
+  history: []
+  nob_verify: false
+UKG24:
+  name: Staffordshire CC
+  history: []
+  nob_verify: false
+UKG31:
+  name: Birmingham
+  history: []
+  nob_verify: false
+UKG32:
+  name: Solihull
+  history: []
+  nob_verify: false
+UKG33:
+  name: Coventry
+  history: []
+  nob_verify: false
+UKG36:
+  name: Dudley
+  history: []
+  nob_verify: false
+UKG37:
+  name: Sandwell
+  history: []
+  nob_verify: false
+UKG38:
+  name: Walsall
+  history: []
+  nob_verify: false
+UKG39:
+  name: Wolverhampton
+  history: []
+  nob_verify: false
+UKH11:
+  name: Peterborough
+  history: []
+  nob_verify: false
+UKH12:
+  name: Cambridgeshire CC
+  history: []
+  nob_verify: false
+UKH14:
+  name: Suffolk
+  history: []
+  nob_verify: false
+UKH15:
+  name: Norwich and East Norfolk
+  history: []
+  nob_verify: false
+UKH16:
+  name: North and West Norfolk
+  history: []
+  nob_verify: false
+UKH17:
+  name: Breckland and South Norfolk
+  history: []
+  nob_verify: false
+UKH21:
+  name: Luton
+  history: []
+  nob_verify: false
+UKH23:
+  name: Hertfordshire
+  history: []
+  nob_verify: false
+UKH24:
+  name: Bedford
+  history: []
+  nob_verify: false
+UKH25:
+  name: Central Bedfordshire
+  history: []
+  nob_verify: false
+UKH31:
+  name: Southend-on-Sea
+  history: []
+  nob_verify: false
+UKH32:
+  name: Thurrock
+  history: []
+  nob_verify: false
+UKH34:
+  name: Essex Haven Gateway
+  history: []
+  nob_verify: false
+UKH35:
+  name: West Essex
+  history: []
+  nob_verify: false
+UKH36:
+  name: Heart of Essex
+  history: []
+  nob_verify: false
+UKH37:
+  name: Essex Thames Gateway
+  history: []
+  nob_verify: false
+UKI31:
+  name: Camden and City of London
+  history: []
+  nob_verify: false
+UKI32:
+  name: Westminster
+  history: []
+  nob_verify: false
+UKI33:
+  name: Kensington &amp; Chelsea and Hammersmith &amp; Fulham
+  history: []
+  nob_verify: false
+UKI34:
+  name: Wandsworth
+  history: []
+  nob_verify: false
+UKI41:
+  name: Hackney and Newham
+  history: []
+  nob_verify: false
+UKI42:
+  name: Tower Hamlets
+  history: []
+  nob_verify: false
+UKI43:
+  name: Haringey and Islington
+  history: []
+  nob_verify: false
+UKI44:
+  name: Lewisham and Southwark
+  history: []
+  nob_verify: false
+UKI45:
+  name: Lambeth
+  history: []
+  nob_verify: false
+UKI51:
+  name: Bexley and Greenwich
+  history: []
+  nob_verify: false
+UKI52:
+  name: Barking &amp; Dagenham and Havering
+  history: []
+  nob_verify: false
+UKI53:
+  name: Redbridge and Waltham Forest
+  history: []
+  nob_verify: false
+UKI54:
+  name: Enfield
+  history: []
+  nob_verify: false
+UKI61:
+  name: Bromley
+  history: []
+  nob_verify: false
+UKI62:
+  name: Croydon
+  history: []
+  nob_verify: false
+UKI63:
+  name: Merton, Kingston upon Thames and Sutton
+  history: []
+  nob_verify: false
+UKI71:
+  name: Barnet
+  history: []
+  nob_verify: false
+UKI72:
+  name: Brent
+  history: []
+  nob_verify: false
+UKI73:
+  name: Ealing
+  history: []
+  nob_verify: false
+UKI74:
+  name: Harrow and Hillingdon
+  history: []
+  nob_verify: false
+UKI75:
+  name: Hounslow and Richmond upon Thames
+  history: []
+  nob_verify: false
+UKJ11:
+  name: Berkshire
+  history: []
+  nob_verify: false
+UKJ12:
+  name: Milton Keynes
+  history: []
+  nob_verify: false
+UKJ13:
+  name: Buckinghamshire CC
+  history: []
+  nob_verify: false
+UKJ14:
+  name: Oxfordshire
+  history: []
+  nob_verify: false
+UKJ21:
+  name: Brighton and Hove
+  history: []
+  nob_verify: false
+UKJ22:
+  name: East Sussex CC
+  history: []
+  nob_verify: false
+UKJ25:
+  name: West Surrey
+  history: []
+  nob_verify: false
+UKJ26:
+  name: East Surrey
+  history: []
+  nob_verify: false
+UKJ27:
+  name: West Sussex (South West)
+  history: []
+  nob_verify: false
+UKJ28:
+  name: West Sussex (North East)
+  history: []
+  nob_verify: false
+UKJ31:
+  name: Portsmouth
+  history: []
+  nob_verify: false
+UKJ32:
+  name: Southampton
+  history: []
+  nob_verify: false
+UKJ34:
+  name: Isle of Wight
+  history: []
+  nob_verify: false
+UKJ35:
+  name: South Hampshire
+  history: []
+  nob_verify: false
+UKJ36:
+  name: Central Hampshire
+  history: []
+  nob_verify: false
+UKJ37:
+  name: North Hampshire
+  history: []
+  nob_verify: false
+UKJ41:
+  name: Medway
+  history: []
+  nob_verify: false
+UKJ43:
+  name: Kent Thames Gateway
+  history: []
+  nob_verify: false
+UKJ44:
+  name: East Kent
+  history: []
+  nob_verify: false
+UKJ45:
+  name: Mid Kent
+  history: []
+  nob_verify: false
+UKJ46:
+  name: West Kent
+  history: []
+  nob_verify: false
+UKK11:
+  name: Bristol, City of
+  history: []
+  nob_verify: false
+UKK12:
+  name: Bath and North East Somerset, North Somerset and South Gloucestershire
+  history: []
+  nob_verify: false
+UKK13:
+  name: Gloucestershire
+  history: []
+  nob_verify: false
+UKK14:
+  name: Swindon
+  history: []
+  nob_verify: false
+UKK15:
+  name: Wiltshire CC
+  history: []
+  nob_verify: false
+UKK23:
+  name: Somerset
+  history: []
+  nob_verify: false
+UKK24:
+  name: Bournemouth, Christchurch and Poole
+  history: []
+  nob_verify: false
+UKK25:
+  name: Dorset
+  history: []
+  nob_verify: false
+UKK30:
+  name: Cornwall and Isles of Scilly
+  history: []
+  nob_verify: false
+UKK41:
+  name: Plymouth
+  history: []
+  nob_verify: false
+UKK42:
+  name: Torbay
+  history: []
+  nob_verify: false
+UKK43:
+  name: Devon CC
+  history: []
+  nob_verify: false
+UKL11:
+  name: Isle of Anglesey
+  history: []
+  nob_verify: false
+UKL12:
+  name: Gwynedd
+  history: []
+  nob_verify: false
+UKL13:
+  name: Conwy and Denbighshire
+  history: []
+  nob_verify: false
+UKL14:
+  name: South West Wales
+  history: []
+  nob_verify: false
+UKL15:
+  name: Central Valleys
+  history: []
+  nob_verify: false
+UKL16:
+  name: Gwent Valleys
+  history: []
+  nob_verify: false
+UKL17:
+  name: Bridgend and Neath Port Talbot
+  history: []
+  nob_verify: false
+UKL18:
+  name: Swansea
+  history: []
+  nob_verify: false
+UKL21:
+  name: Monmouthshire and Newport
+  history: []
+  nob_verify: false
+UKL22:
+  name: Cardiff and Vale of Glamorgan
+  history: []
+  nob_verify: false
+UKL23:
+  name: Flintshire and Wrexham
+  history: []
+  nob_verify: false
+UKL24:
+  name: Powys
+  history: []
+  nob_verify: false
+UKM50:
+  name: Aberdeen City and Aberdeenshire
+  history: []
+  nob_verify: false
+UKM61:
+  name: Caithness &amp; Sutherland and Ross &amp; Cromarty
+  history: []
+  nob_verify: false
+UKM62:
+  name: Inverness &amp; Nairn and Moray, Badenoch &amp; Strathspey
+  history: []
+  nob_verify: false
+UKM63:
+  name: Lochaber, Skye &amp; Lochalsh, Arran &amp; Cumbrae and Argyll &amp; Bute
+  history: []
+  nob_verify: false
+UKM64:
+  name: Na h-Eileanan Siar (Western Isles)
+  history: []
+  nob_verify: false
+UKM65:
+  name: Orkney Islands
+  history: []
+  nob_verify: false
+UKM66:
+  name: Shetland Islands
+  history: []
+  nob_verify: false
+UKM71:
+  name: Angus and Dundee City
+  history: []
+  nob_verify: false
+UKM72:
+  name: Clackmannanshire and Fife
+  history: []
+  nob_verify: false
+UKM73:
+  name: East Lothian and Midlothian
+  history: []
+  nob_verify: false
+UKM75:
+  name: Edinburgh, City of
+  history: []
+  nob_verify: false
+UKM76:
+  name: Falkirk
+  history: []
+  nob_verify: false
+UKM77:
+  name: Perth &amp; Kinross and Stirling
+  history: []
+  nob_verify: false
+UKM78:
+  name: West Lothian
+  history: []
+  nob_verify: false
+UKM81:
+  name: East Dunbartonshire, West Dunbartonshire and Helensburgh &amp; Lomond
+  history: []
+  nob_verify: false
+UKM82:
+  name: Glasgow City
+  history: []
+  nob_verify: false
+UKM83:
+  name: Inverclyde, East Renfrewshire and Renfrewshire
+  history: []
+  nob_verify: false
+UKM84:
+  name: North Lanarkshire
+  history: []
+  nob_verify: false
+UKM91:
+  name: Scottish Borders
+  history: []
+  nob_verify: false
+UKM92:
+  name: Dumfries &amp; Galloway
+  history: []
+  nob_verify: false
+UKM93:
+  name: East Ayrshire and North Ayrshire mainland
+  history: []
+  nob_verify: false
+UKM94:
+  name: South Ayrshire
+  history: []
+  nob_verify: false
+UKM95:
+  name: South Lanarkshire
+  history: []
+  nob_verify: false
+UKN06:
+  name: Belfast
+  history: []
+  nob_verify: false
+UKN07:
+  name: Armagh City, Banbridge and Craigavon
+  history: []
+  nob_verify: false
+UKN08:
+  name: Newry, Mourne and Down
+  history: []
+  nob_verify: false
+UKN09:
+  name: Ards and North Down
+  history: []
+  nob_verify: false
+UKN0A:
+  name: Derry City and Strabane
+  history: []
+  nob_verify: false
+UKN0B:
+  name: Mid Ulster
+  history: []
+  nob_verify: false
+UKN0C:
+  name: Causeway Coast and Glens
+  history: []
+  nob_verify: false
+UKN0D:
+  name: Antrim and Newtownabbey
+  history: []
+  nob_verify: false
+UKN0E:
+  name: Lisburn and Castlereagh
+  history: []
+  nob_verify: false
+UKN0F:
+  name: Mid and East Antrim
+  history: []
+  nob_verify: false
+UKN0G:
+  name: Fermanagh and Omagh
+  history: []
+  nob_verify: false
+UKZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

@@ -1,0 +1,36 @@
+IE041:
+  name: Border
+  history: []
+  nob_verify: false
+IE042:
+  name: West
+  history: []
+  nob_verify: false
+IE051:
+  name: Mid-West
+  history: []
+  nob_verify: false
+IE052:
+  name: South-East
+  history: []
+  nob_verify: false
+IE053:
+  name: South-West
+  history: []
+  nob_verify: false
+IE061:
+  name: Dublin
+  history: []
+  nob_verify: false
+IE062:
+  name: Mid-East
+  history: []
+  nob_verify: false
+IE063:
+  name: Midland
+  history: []
+  nob_verify: false
+IEZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

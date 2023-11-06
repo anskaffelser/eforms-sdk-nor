@@ -1,0 +1,24 @@
+EE001:
+  name: Põhja-Eesti
+  history: []
+  nob_verify: false
+EE004:
+  name: Lääne-Eesti
+  history: []
+  nob_verify: false
+EE008:
+  name: Lõuna-Eesti
+  history: []
+  nob_verify: false
+EE009:
+  name: Kesk-Eesti
+  history: []
+  nob_verify: false
+EE00A:
+  name: Kirde-Eesti
+  history: []
+  nob_verify: false
+EEZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

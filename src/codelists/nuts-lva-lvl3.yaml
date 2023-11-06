@@ -1,0 +1,28 @@
+LV003:
+  name: Kurzeme
+  history: []
+  nob_verify: false
+LV005:
+  name: Latgale
+  history: []
+  nob_verify: false
+LV006:
+  name: Rīga
+  history: []
+  nob_verify: false
+LV007:
+  name: Pierīga
+  history: []
+  nob_verify: false
+LV008:
+  name: Vidzeme
+  history: []
+  nob_verify: false
+LV009:
+  name: Zemgale
+  history: []
+  nob_verify: false
+LVZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

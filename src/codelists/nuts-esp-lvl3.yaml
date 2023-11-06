@@ -1,0 +1,240 @@
+ES111:
+  name: A Coruña
+  history: []
+  nob_verify: false
+ES112:
+  name: Lugo
+  history: []
+  nob_verify: false
+ES113:
+  name: Ourense
+  history: []
+  nob_verify: false
+ES114:
+  name: Pontevedra
+  history: []
+  nob_verify: false
+ES120:
+  name: Asturias
+  history: []
+  nob_verify: false
+ES130:
+  name: Cantabria
+  history: []
+  nob_verify: false
+ES211:
+  name: Araba/Álava
+  history: []
+  nob_verify: false
+ES212:
+  name: Gipuzkoa
+  history: []
+  nob_verify: false
+ES213:
+  name: Bizkaia
+  history: []
+  nob_verify: false
+ES220:
+  name: Navarra
+  history: []
+  nob_verify: false
+ES230:
+  name: La Rioja
+  history: []
+  nob_verify: false
+ES241:
+  name: Huesca
+  history: []
+  nob_verify: false
+ES242:
+  name: Teruel
+  history: []
+  nob_verify: false
+ES243:
+  name: Zaragoza
+  history: []
+  nob_verify: false
+ES300:
+  name: Madrid
+  history: []
+  nob_verify: false
+ES411:
+  name: Ávila
+  history: []
+  nob_verify: false
+ES412:
+  name: Burgos
+  history: []
+  nob_verify: false
+ES413:
+  name: León
+  history: []
+  nob_verify: false
+ES414:
+  name: Palencia
+  history: []
+  nob_verify: false
+ES415:
+  name: Salamanca
+  history: []
+  nob_verify: false
+ES416:
+  name: Segovia
+  history: []
+  nob_verify: false
+ES417:
+  name: Soria
+  history: []
+  nob_verify: false
+ES418:
+  name: Valladolid
+  history: []
+  nob_verify: false
+ES419:
+  name: Zamora
+  history: []
+  nob_verify: false
+ES421:
+  name: Albacete
+  history: []
+  nob_verify: false
+ES422:
+  name: Ciudad Real
+  history: []
+  nob_verify: false
+ES423:
+  name: Cuenca
+  history: []
+  nob_verify: false
+ES424:
+  name: Guadalajara
+  history: []
+  nob_verify: false
+ES425:
+  name: Toledo
+  history: []
+  nob_verify: false
+ES431:
+  name: Badajoz
+  history: []
+  nob_verify: false
+ES432:
+  name: Cáceres
+  history: []
+  nob_verify: false
+ES511:
+  name: Barcelona
+  history: []
+  nob_verify: false
+ES512:
+  name: Girona
+  history: []
+  nob_verify: false
+ES513:
+  name: Lleida
+  history: []
+  nob_verify: false
+ES514:
+  name: Tarragona
+  history: []
+  nob_verify: false
+ES521:
+  name: Alicante / Alacant
+  history: []
+  nob_verify: false
+ES522:
+  name: Castellón / Castelló
+  history: []
+  nob_verify: false
+ES523:
+  name: Valencia / València
+  history: []
+  nob_verify: false
+ES531:
+  name: Eivissa y Formentera
+  history: []
+  nob_verify: false
+ES532:
+  name: Mallorca
+  history: []
+  nob_verify: false
+ES533:
+  name: Menorca
+  history: []
+  nob_verify: false
+ES611:
+  name: Almería
+  history: []
+  nob_verify: false
+ES612:
+  name: Cádiz
+  history: []
+  nob_verify: false
+ES613:
+  name: Córdoba
+  history: []
+  nob_verify: false
+ES614:
+  name: Granada
+  history: []
+  nob_verify: false
+ES615:
+  name: Huelva
+  history: []
+  nob_verify: false
+ES616:
+  name: Jaén
+  history: []
+  nob_verify: false
+ES617:
+  name: Málaga
+  history: []
+  nob_verify: false
+ES618:
+  name: Sevilla
+  history: []
+  nob_verify: false
+ES620:
+  name: Murcia
+  history: []
+  nob_verify: false
+ES630:
+  name: Ceuta
+  history: []
+  nob_verify: false
+ES640:
+  name: Melilla
+  history: []
+  nob_verify: false
+ES703:
+  name: El Hierro
+  history: []
+  nob_verify: false
+ES704:
+  name: Fuerteventura
+  history: []
+  nob_verify: false
+ES705:
+  name: Gran Canaria
+  history: []
+  nob_verify: false
+ES706:
+  name: La Gomera
+  history: []
+  nob_verify: false
+ES707:
+  name: La Palma
+  history: []
+  nob_verify: false
+ES708:
+  name: Lanzarote
+  history: []
+  nob_verify: false
+ES709:
+  name: Tenerife
+  history: []
+  nob_verify: false
+ESZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

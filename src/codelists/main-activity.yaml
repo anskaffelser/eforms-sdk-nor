@@ -1,60 +1,154 @@
 airport:
   name: Airport-related activities
-  nob:
+  nob: Flyplass relaterte aktiviteter
+  history:
+  - name: Airport-related activities
+    history: []
+    nob_verify: false
+  nob_verify: false
 defence:
   name: Defence
   nob: Forsvar
+  history: []
+  nob_verify: false
 econ-aff:
   name: Economic affairs
   nob: Næringsøkonomiske formål
+  history:
+  - name: Economic affairs
+    history: []
+    nob_verify: false
+  nob_verify: false
 education:
   name: Education
   nob: Utdanning
+  history:
+  - name: Education
+    history: []
+    nob_verify: false
+  nob_verify: false
 electricity:
   name: Electricity-related activities
   nob: Elektrisitets-/strømrelaterte aktiviteter
+  history:
+  - name: Electricity-related activities
+    history: []
+    nob_verify: false
+  nob_verify: false
 env-pro:
   name: Environmental protection
   nob: Miljøvern
+  history:
+  - name: Environmental protection
+    history: []
+    nob_verify: false
+  nob_verify: false
 gas-heat:
   name: Production, transport or distribution of gas or heat
   nob: Produksjon, transport eller distribusjon av gass eller varme
+  history:
+  - name: Production, transport or distribution of gas or heat
+    history: []
+    nob_verify: false
+  nob_verify: false
 gas-oil:
   name: Extraction of gas or oil
   nob: Olje- og gassutvinning
+  history:
+  - name: Extraction of gas or oil
+    history: []
+    nob_verify: false
+  nob_verify: false
 gen-pub:
   name: General public services
   nob: Alminnelig offentlig tjenesteyting
+  history:
+  - name: General public services
+    history: []
+    nob_verify: false
+  nob_verify: false
 hc-am:
   name: Housing and community amenities
   nob: Bolig og nærmiljø
+  history:
+  - name: Housing and community amenities
+    history: []
+    nob_verify: false
+  nob_verify: false
 health:
   name: Health
   nob: Helse
+  history: []
+  nob_verify: false
 port:
   name: Port-related activities
   nob: Aktiviteter knyttet til havn
+  history:
+  - name: Port-related activities
+    history: []
+    nob_verify: false
+  nob_verify: false
 post:
   name: Postal services
   nob: Posttjenester
+  history:
+  - name: Postal services
+    history: []
+    nob_verify: false
+  nob_verify: false
 pub-os:
   name: Public order and safety
   nob: Offentlig orden og trygghet
+  history:
+  - name: Public order and safety
+    history: []
+    nob_verify: false
+  nob_verify: false
 rail:
   name: Railway services
   nob: Jernbanetjenester
+  history:
+  - name: Railway services
+    history: []
+    nob_verify: false
+  nob_verify: false
 rcr:
   name: Recreation, culture and religion
   nob: Fritid, kultur og religion
+  history:
+  - name: Recreation, culture and religion
+    history: []
+    nob_verify: false
+  nob_verify: false
 soc-pro:
   name: Social protection
   nob: Sosial beskyttelse
+  history:
+  - name: Social protection
+    history: []
+    nob_verify: false
+  nob_verify: false
 solid-fuel:
   name: Exploration or extraction of coal or other solid fuels
   nob: Leting eller utvinning av kull eller annet fast brensel
+  history:
+  - name: Exploration or extraction of coal or other solid fuels
+    history: []
+    nob_verify: false
+  nob_verify: false
 urttb:
   name: Urban railway, tramway, trolleybus or bus services
   nob: Urban railway, tramway, trolleybus or bus services
+  history:
+  - name: Urban railway, tramway, trolleybus or bus services
+    history: []
+    nob_verify: false
+  nob_verify: false
 water:
   name: Water-related activities
   nob: Vannrelaterte aktiviteter
+  history:
+  - name: Water-related activities
+    history: []
+    nob_verify: false
+  nob_verify: false

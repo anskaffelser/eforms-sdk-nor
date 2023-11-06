@@ -1,100 +1,400 @@
 awa-cri-com:
-  name: Award Criteria Complicated (BT-543)
+  name: Description of the method to be used if weighting cannot be expressed by criteria (BT-543)
+  nob: Beskrivelse av metoden som skal benyttes dersom vektingen ikke kan uttrykkes med kriterier (BT-543)
+  history:
+  - name: Description of the method to be used if weighting cannot be expressed by criteria (BT-543)
+    history: []
+    nob_verify: false
+  nob_verify: false
 awa-cri-des:
-  name: Award Criterion Description (BT-540)
+  name: Award criterion – Description (BT-540)
+  nob: Tildelingskriterium – Beskrivelse (BT-540)
+  history:
+  - name: Award criterion – Description (BT-540)
+    history: []
+    nob_verify: false
+  nob_verify: false
 awa-cri-fix:
-  name: Award Criterion Number Fixed (BT-5422)
+  name: Award criterion – Number is a fixed value (BT-5422)
+  nob: Tildelingskriterium – Tallet er en fast verdi (BT-5422)
+  history:
+  - name: Award criterion – Number is a fixed value (BT-5422)
+    history: []
+    nob_verify: false
+  nob_verify: false
 awa-cri-nam:
-  name: Award Criterion Name (BT-734)
+  name: Award criterion – Name (BT-734)
+  nob: Tildelingskriterium – Navn (BT-734)
+  history:
+  - name: Award criterion – Name (BT-734)
+    history: []
+    nob_verify: false
+  nob_verify: false
 awa-cri-num:
-  name: Award Criterion Number (BT-541)
+  name: Award criterion number (BT-541)
+  nob: Kriterienummer for tildeling (BT-541)
+  history:
+  - name: Award criterion number (BT-541)
+    history: []
+    nob_verify: false
+  nob_verify: false
 awa-cri-ord:
-  name: Award Criteria Order Justification (BT-733)
+  name: Justification for not indicating the weighting of the award criteria (BT-733)
+  nob: Begrunnelse for ikke å angi vektingen av tildelingskriteriene (BT-733)
+  history:
+  - name: Justification for not indicating the weighting of the award criteria (BT-733)
+    history: []
+    nob_verify: false
+  nob_verify: false
 awa-cri-thr:
-  name: Award Criterion Number Threshold (BT-5423)
+  name: Award criterion – Number is a type of threshold (BT-5423)
+  nob: Tildelingskriterium – Antall er en type terskel (BT-5423)
+  history:
+  - name: Award criterion – Number is a type of threshold (BT-5423)
+    history: []
+    nob_verify: false
+  nob_verify: false
 awa-cri-typ:
-  name: Award Criterion Type (BT-539)
+  name: Award criterion – Type (BT-539)
+  nob: Tildelingskriterium – Type (BT-539)
+  history:
+  - name: Award criterion – Type (BT-539)
+    history: []
+    nob_verify: false
+  nob_verify: false
 awa-cri-wei:
-  name: Award Criterion Number Weight (BT-5421)
+  name: Award criterion – Number is a type of weight (BT-5421)
+  nob: Tildelingskriterium – Antall er en type vekt (BT-5421)
+  history:
+  - name: Award criterion – Number is a type of weight (BT-5421)
+    history: []
+    nob_verify: false
+  nob_verify: false
 con-rev-buy:
-  name: Concession Revenue Buyer (BT-160)
+  name: Estimated revenue coming from the buyer who granted the concession (BT-160)
+  nob: Anslått inntekt fra kjøperen som ga konsesjonen (BT-160)
+  history:
+  - name: Estimated revenue coming from the buyer who granted the concession (BT-160)
+    history: []
+    nob_verify: false
+  nob_verify: false
 con-rev-use:
-  name: Concession Revenue User (BT-162)
+  name: Estimated revenue coming from the users of the concession (BT-162)
+  nob: Anslått inntekt fra brukerne av konsesjonen (BT-162)
+  history:
+  - name: Estimated revenue coming from the users of the concession (BT-162)
+    history: []
+    nob_verify: false
+  nob_verify: false
 cou-ori:
-  name: Country Origin (BT-191)
+  name: Country of origin of the product or the service (BT-191)
+  nob: Produktets eller tjenestens opprinnelsesland (BT-191)
+  history:
+  - name: Country of origin of the product or the service (BT-191)
+    history: []
+    nob_verify: false
+  nob_verify: false
 cro-bor-law:
-  name: Cross Border Law (BT-09)
+  name: Applicable cross-border law (BT-09)
+  nob: Gjeldende grenseoverskridende rett (BT-09)
+  history:
+  - name: Applicable cross-border law (BT-09)
+    history: []
+    nob_verify: false
+  nob_verify: false
 dir-awa-jus:
-  name: Direct Award Justification Code (BT-136)
+  name: Justification for direct award (BT-136)
+  nob: Begrunnelse for direkte tildeling (BT-136)
+  history:
+  - name: Justification for direct award (BT-136)
+    history: []
+    nob_verify: false
+  nob_verify: false
 dir-awa-pre:
-  name: Direct Award Justification Previous (BT-1252)
+  name: Identifier of the previous procedure that justifies direct award (BT-1252)
+  nob: Identifikator for den forrige prosedyren som rettferdiggjør direkte tildeling (BT-1252)
+  history:
+  - name: Identifier of the previous procedure that justifies direct award (BT-1252)
+    history: []
+    nob_verify: false
+  nob_verify: false
 dir-awa-tex:
-  name: Direct Award Justification Text (BT-135)
+  name: Direct award – Other justification (BT-135)
+  nob: Direkte tildeling – Annen begrunnelse (BT-135)
+  history:
+  - name: Direct award – Other justification (BT-135)
+    history: []
+    nob_verify: false
+  nob_verify: false
 gro-max-ide:
-  name: Group Maximum Value Lot Identifier (BT-556)
+  name: Group Framework Value Lot Identifier (BT-556)
+  nob: Verdipartiidentifikator for grupperammeverk (BT-556)
+  history:
+  - name: Group Framework Value Lot Identifier (BT-556)
+    history: []
+    nob_verify: false
+  nob_verify: false
 gro-max-val:
-  name: Group Maximum Value (BT-156)
+  name: Estimated value of the framework agreements in the group of lots (BT-156)
+  nob: Estimert verdi av rammeavtalene i partigruppen (BT-156)
+  history:
+  - name: Estimated value of the framework agreements in the group of lots (BT-156)
+    history: []
+    nob_verify: false
+  nob_verify: false
 max-val:
-  name: Maximum Value (BT-709)
+  name: Maximum value of the framework agreement (BT-709)
+  nob: Maksimal verdi av rammeavtalen (BT-709)
+  history:
+  - name: Maximum value of the framework agreement (BT-709)
+    history: []
+    nob_verify: false
+  nob_verify: false
 no-awa-rea:
-  name: Not Awarded Reason (BT-144)
+  name: The reason why a winner was not chosen (BT-144)
+  nob: Årsaken til at en vinner ikke ble kåret (BT-144)
+  history:
+  - name: The reason why a winner was not chosen (BT-144)
+    history: []
+    nob_verify: false
+  nob_verify: false
 not-dis-dat:
-  name: Notice Dispatch Date (BT-05)
+  name: Notice dispatch date (BT-05)
+  nob: Varsel utsendelsesdato (BT-05)
+  history:
+  - name: Notice dispatch date (BT-05)
+    history: []
+    nob_verify: false
+  nob_verify: false
 not-max-val:
-  name: Notice Maximum Value (BT-118)
+  name: Estimated value of the framework agreements in this procedure (BT-118)
+  nob: Anslått verdi av rammeavtalene i denne prosedyren (BT-118)
+  history:
+  - name: Estimated value of the framework agreements in this procedure (BT-118)
+    history: []
+    nob_verify: false
+  nob_verify: false
 not-pub-dat:
-  name: Notice Publication Date Preferred (BT-738)
+  name: Preferred publication date (BT-738)
+  nob: Foretrukket publiseringsdato (BT-738)
+  history:
+  - name: Preferred publication date (BT-738)
+    history: []
+    nob_verify: false
+  nob_verify: false
 not-val:
-  name: Notice Value (BT-161)
+  name: Value of all contracts awarded in this procedure (BT-161)
+  nob: Verdien av alle kontrakter tildelt i denne prosedyren (BT-161)
+  history:
+  - name: Value of all contracts awarded in this procedure (BT-161)
+    history: []
+    nob_verify: false
+  nob_verify: false
 pro-acc:
-  name: Procedure Accelerated (BT-106)
+  name: The procedure is accelerated (BT-106)
+  nob: Prosedyren er akselerert (BT-106)
+  history:
+  - name: The procedure is accelerated (BT-106)
+    history: []
+    nob_verify: false
+  nob_verify: false
 pro-acc-jus:
-  name: Procedure Accelerated Justification (BT-1351)
+  name: Justification for the accelerated procedure (BT-1351)
+  nob: Begrunnelse for den akselererte prosedyren (BT-1351)
+  history:
+  - name: Justification for the accelerated procedure (BT-1351)
+    history: []
+    nob_verify: false
+  nob_verify: false
 pro-fea:
-  name: Procedure Features (BT-88)
+  name: Main features of the procedure (BT-88)
+  nob: Hovedtrekkene i prosedyren (BT-88)
+  history:
+  - name: Main features of the procedure (BT-88)
+    history: []
+    nob_verify: false
+  nob_verify: false
 pro-typ:
-  name: Procedure Type (BT-105)
+  name: Type of procedure (BT-105)
+  nob: Type prosedyre (BT-105)
+  history:
+  - name: Type of procedure (BT-105)
+    history: []
+    nob_verify: false
+  nob_verify: false
 rec-sub-cou:
-  name: Received Submissions Count (BT-759)
+  name: Number of tenders or requests to participate received (BT-759)
+  nob: Antall anbud eller forespørsler om å delta mottatt (BT-759)
+  history:
+  - name: Number of tenders or requests to participate received (BT-759)
+    history: []
+    nob_verify: false
+  nob_verify: false
 rec-sub-typ:
-  name: Received Submissions Type (BT-760)
+  name: Type of received submissions (BT-760)
+  nob: Type mottatte innleveringer (BT-760)
+  history:
+  - name: Type of received submissions (BT-760)
+    history: []
+    nob_verify: false
+  nob_verify: false
 rev-req:
-  name: Review Requests (BT-712)
+  name: Number of complainants (BT-712)
+  nob: Antall klagere (BT-712)
+  history:
+  - name: Number of complainants (BT-712)
+    history: []
+    nob_verify: false
+  nob_verify: false
 sub-con:
   name: Subcontracting (BT-773)
+  nob: Underleverandører (BT-773)
+  history:
+  - name: Subcontracting (BT-773)
+    history: []
+    nob_verify: false
+  nob_verify: false
 sub-des:
-  name: Subcontracting Description (BT-554)
+  name: Subcontracting – Description (BT-554)
+  nob: Underentreprise – Beskrivelse (BT-554)
+  history:
+  - name: Subcontracting – Description (BT-554)
+    history: []
+    nob_verify: false
+  nob_verify: false
 sub-per:
-  name: Subcontracting Percentage (BT-555)
+  name: Percentage of subcontracting (BT-555)
+  nob: Prosentandel av underleveranser (BT-555)
+  history:
+  - name: Percentage of subcontracting (BT-555)
+    history: []
+    nob_verify: false
+  nob_verify: false
 sub-per-kno:
-  name: Subcontracting Percentage Known (BT-731)
+  name: Estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract (BT-731)
+  nob: Estimert prosentandel av kontrakten som entreprenøren vil underlevere til tredjepart, sammenlignet med hele kontrakten (BT-731)
+  history:
+  - name: Estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract (BT-731)
+    history: []
+    nob_verify: false
+  nob_verify: false
 sub-val:
-  name: Subcontracting Value (BT-553)
+  name: Value of subcontracting (BT-553)
+  nob: Verdien av underleveranser (BT-553)
+  history:
+  - name: Value of subcontracting (BT-553)
+    history: []
+    nob_verify: false
+  nob_verify: false
 sub-val-kno:
-  name: Subcontracting Value Known (BT-730)
+  name: Estimated value of the part of the contract that the contractor will subcontract to third parties (BT-730)
+  nob: Anslått verdi av den delen av kontrakten som entreprenøren vil sette bort til tredjepart (BT-730)
+  history:
+  - name: Estimated value of the part of the contract that the contractor will subcontract to third parties (BT-730)
+    history: []
+    nob_verify: false
+  nob_verify: false
 ten-ran:
-  name: Tender Rank (BT-171)
+  name: Rank in the list of winners (BT-171)
+  nob: Rangering i listen over vinnere (BT-171)
+  history:
+  - name: Rank in the list of winners (BT-171)
+    history: []
+    nob_verify: false
+  nob_verify: false
 ten-val-hig:
-  name: Tender Value Highest (BT-711)
+  name: Value of the highest admissible tender (BT-711)
+  nob: Verdien av det høyeste tillatte anbudet (BT-711)
+  history:
+  - name: Value of the highest admissible tender (BT-711)
+    history: []
+    nob_verify: false
+  nob_verify: false
 ten-val-low:
-  name: Tender Value Lowest (BT-710)
+  name: Value of the lowest admissible tender (BT-710)
+  nob: Verdien av det laveste tillatte anbudet (BT-710)
+  history:
+  - name: Value of the lowest admissible tender (BT-710)
+    history: []
+    nob_verify: false
+  nob_verify: false
 val-con-des:
-  name: Value Concession Description (BT-163)
+  name: Method used for calculating the estimated value of the concession (BT-163)
+  nob: Metode for beregning av konsesjonens estimerte verdi (BT-163)
+  history:
+  - name: Method used for calculating the estimated value of the concession (BT-163)
+    history: []
+    nob_verify: false
+  nob_verify: false
 win-cho:
-  name: Winner Chosen (BT-142)
+  name: Winner selection status (BT-142)
+  nob: Status for valg av vinner (BT-142)
+  history:
+  - name: Winner selection status (BT-142)
+    history: []
+    nob_verify: false
+  nob_verify: false
 win-ten-val:
-  name: Winning Tender Value (BT-720)
+  name: Value of the result (BT-720)
+  nob: Verdien av resultatet (BT-720)
+  history:
+  - name: Value of the result (BT-720)
+    history: []
+    nob_verify: false
+  nob_verify: false
 win-ten-var:
-  name: Winning Tender Variant (BT-193)
+  name: The tender is a variant (BT-193)
+  nob: Anbudet er en variant (BT-193)
+  history:
+  - name: The tender is a variant (BT-193)
+    history: []
+    nob_verify: false
+  nob_verify: false
 buy-rev-cou:
-  name: Buyer Review Requests Count (BT-635)
+  name: Number of buyer review requests (BT-635)
+  nob: Antall forespørsler om kjøperanmeldelse (BT-635)
+  history:
+  - name: Number of buyer review requests (BT-635)
+    history: []
+    nob_verify: false
+  nob_verify: false
 buy-rev-typ:
-  name: Buyer Review Requests Irregularity Type (BT-636)
+  name: Type of alleged irregularity (BT-636)
+  nob: Type påstått uregelmessighet (BT-636)
+  history:
+  - name: Type of alleged irregularity (BT-636)
+    history: []
+    nob_verify: false
+  nob_verify: false
 not-app-val:
-  name: Notice Framework Approximate Value (BT-1118)
+  name: Approximate value of the framework agreements (BT-1118)
+  nob: Omtrentlig verdi av rammeavtalene (BT-1118)
+  history:
+  - name: Approximate value of the framework agreements (BT-1118)
+    history: []
+    nob_verify: false
+  nob_verify: false
 not-ree-val:
-  name: Group Framework Re-estimated Value (BT-1561)
+  name: Re-estimated value of the framework agreements within a group of lots (BT-1561)
+  nob: Reestimert verdi av rammeavtalene innenfor en gruppe partier (BT-1561)
+  history:
+  - name: Re-estimated value of the framework agreements within a group of lots (BT-1561)
+    history: []
+    nob_verify: false
+  nob_verify: false
 gro-ree-val:
   name: Group Framework Re-estimated Value (BT-1561)
+  nob: Reestimert verdi for konsernrammeverk (BT-1561)
+  history:
+  - name: Group Framework Re-estimated Value (BT-1561)
+    history: []
+    nob_verify: false
+  nob_verify: false
 ree-val:
   name: Framework Re-estimated Value (BT-660)
+  nob: Rammeverk estimert verdi (BT-660)
+  history:
+  - name: Framework Re-estimated Value (BT-660)
+    history: []
+    nob_verify: false
+  nob_verify: false

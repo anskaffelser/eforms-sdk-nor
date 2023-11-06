@@ -1,0 +1,432 @@
+ITC11:
+  name: Torino
+  history: []
+  nob_verify: false
+ITC12:
+  name: Vercelli
+  history: []
+  nob_verify: false
+ITC13:
+  name: Biella
+  history: []
+  nob_verify: false
+ITC14:
+  name: Verbano-Cusio-Ossola
+  history: []
+  nob_verify: false
+ITC15:
+  name: Novara
+  history: []
+  nob_verify: false
+ITC16:
+  name: Cuneo
+  history: []
+  nob_verify: false
+ITC17:
+  name: Asti
+  history: []
+  nob_verify: false
+ITC18:
+  name: Alessandria
+  history: []
+  nob_verify: false
+ITC20:
+  name: Valle d’Aosta/Vallée d’Aoste
+  history: []
+  nob_verify: false
+ITC31:
+  name: Imperia
+  history: []
+  nob_verify: false
+ITC32:
+  name: Savona
+  history: []
+  nob_verify: false
+ITC33:
+  name: Genova
+  history: []
+  nob_verify: false
+ITC34:
+  name: La Spezia
+  history: []
+  nob_verify: false
+ITC41:
+  name: Varese
+  history: []
+  nob_verify: false
+ITC42:
+  name: Como
+  history: []
+  nob_verify: false
+ITC43:
+  name: Lecco
+  history: []
+  nob_verify: false
+ITC44:
+  name: Sondrio
+  history: []
+  nob_verify: false
+ITC46:
+  name: Bergamo
+  history: []
+  nob_verify: false
+ITC47:
+  name: Brescia
+  history: []
+  nob_verify: false
+ITC48:
+  name: Pavia
+  history: []
+  nob_verify: false
+ITC49:
+  name: Lodi
+  history: []
+  nob_verify: false
+ITC4A:
+  name: Cremona
+  history: []
+  nob_verify: false
+ITC4B:
+  name: Mantova
+  history: []
+  nob_verify: false
+ITC4C:
+  name: Milano
+  history: []
+  nob_verify: false
+ITC4D:
+  name: Monza e della Brianza
+  history: []
+  nob_verify: false
+ITF11:
+  name: L’Aquila
+  history: []
+  nob_verify: false
+ITF12:
+  name: Teramo
+  history: []
+  nob_verify: false
+ITF13:
+  name: Pescara
+  history: []
+  nob_verify: false
+ITF14:
+  name: Chieti
+  history: []
+  nob_verify: false
+ITF21:
+  name: Isernia
+  history: []
+  nob_verify: false
+ITF22:
+  name: Campobasso
+  history: []
+  nob_verify: false
+ITF31:
+  name: Caserta
+  history: []
+  nob_verify: false
+ITF32:
+  name: Benevento
+  history: []
+  nob_verify: false
+ITF33:
+  name: Napoli
+  history: []
+  nob_verify: false
+ITF34:
+  name: Avellino
+  history: []
+  nob_verify: false
+ITF35:
+  name: Salerno
+  history: []
+  nob_verify: false
+ITF43:
+  name: Taranto
+  history: []
+  nob_verify: false
+ITF44:
+  name: Brindisi
+  history: []
+  nob_verify: false
+ITF45:
+  name: Lecce
+  history: []
+  nob_verify: false
+ITF46:
+  name: Foggia
+  history: []
+  nob_verify: false
+ITF47:
+  name: Bari
+  history: []
+  nob_verify: false
+ITF48:
+  name: Barletta-Andria-Trani
+  history: []
+  nob_verify: false
+ITF51:
+  name: Potenza
+  history: []
+  nob_verify: false
+ITF52:
+  name: Matera
+  history: []
+  nob_verify: false
+ITF61:
+  name: Cosenza
+  history: []
+  nob_verify: false
+ITF62:
+  name: Crotone
+  history: []
+  nob_verify: false
+ITF63:
+  name: Catanzaro
+  history: []
+  nob_verify: false
+ITF64:
+  name: Vibo Valentia
+  history: []
+  nob_verify: false
+ITF65:
+  name: Reggio di Calabria
+  history: []
+  nob_verify: false
+ITG11:
+  name: Trapani
+  history: []
+  nob_verify: false
+ITG12:
+  name: Palermo
+  history: []
+  nob_verify: false
+ITG13:
+  name: Messina
+  history: []
+  nob_verify: false
+ITG14:
+  name: Agrigento
+  history: []
+  nob_verify: false
+ITG15:
+  name: Caltanissetta
+  history: []
+  nob_verify: false
+ITG16:
+  name: Enna
+  history: []
+  nob_verify: false
+ITG17:
+  name: Catania
+  history: []
+  nob_verify: false
+ITG18:
+  name: Ragusa
+  history: []
+  nob_verify: false
+ITG19:
+  name: Siracusa
+  history: []
+  nob_verify: false
+ITG2D:
+  name: Sassari
+  history: []
+  nob_verify: false
+ITG2E:
+  name: Nuoro
+  history: []
+  nob_verify: false
+ITG2F:
+  name: Cagliari
+  history: []
+  nob_verify: false
+ITG2G:
+  name: Oristano
+  history: []
+  nob_verify: false
+ITG2H:
+  name: Sud Sardegna
+  history: []
+  nob_verify: false
+ITH10:
+  name: Bolzano-Bozen
+  history: []
+  nob_verify: false
+ITH20:
+  name: Trento
+  history: []
+  nob_verify: false
+ITH31:
+  name: Verona
+  history: []
+  nob_verify: false
+ITH32:
+  name: Vicenza
+  history: []
+  nob_verify: false
+ITH33:
+  name: Belluno
+  history: []
+  nob_verify: false
+ITH34:
+  name: Treviso
+  history: []
+  nob_verify: false
+ITH35:
+  name: Venezia
+  history: []
+  nob_verify: false
+ITH36:
+  name: Padova
+  history: []
+  nob_verify: false
+ITH37:
+  name: Rovigo
+  history: []
+  nob_verify: false
+ITH41:
+  name: Pordenone
+  history: []
+  nob_verify: false
+ITH42:
+  name: Udine
+  history: []
+  nob_verify: false
+ITH43:
+  name: Gorizia
+  history: []
+  nob_verify: false
+ITH44:
+  name: Trieste
+  history: []
+  nob_verify: false
+ITH51:
+  name: Piacenza
+  history: []
+  nob_verify: false
+ITH52:
+  name: Parma
+  history: []
+  nob_verify: false
+ITH53:
+  name: Reggio nell’Emilia
+  history: []
+  nob_verify: false
+ITH54:
+  name: Modena
+  history: []
+  nob_verify: false
+ITH55:
+  name: Bologna
+  history: []
+  nob_verify: false
+ITH56:
+  name: Ferrara
+  history: []
+  nob_verify: false
+ITH57:
+  name: Ravenna
+  history: []
+  nob_verify: false
+ITH58:
+  name: Forlì-Cesena
+  history: []
+  nob_verify: false
+ITH59:
+  name: Rimini
+  history: []
+  nob_verify: false
+ITI11:
+  name: Massa-Carrara
+  history: []
+  nob_verify: false
+ITI12:
+  name: Lucca
+  history: []
+  nob_verify: false
+ITI13:
+  name: Pistoia
+  history: []
+  nob_verify: false
+ITI14:
+  name: Firenze
+  history: []
+  nob_verify: false
+ITI15:
+  name: Prato
+  history: []
+  nob_verify: false
+ITI16:
+  name: Livorno
+  history: []
+  nob_verify: false
+ITI17:
+  name: Pisa
+  history: []
+  nob_verify: false
+ITI18:
+  name: Arezzo
+  history: []
+  nob_verify: false
+ITI19:
+  name: Siena
+  history: []
+  nob_verify: false
+ITI1A:
+  name: Grosseto
+  history: []
+  nob_verify: false
+ITI21:
+  name: Perugia
+  history: []
+  nob_verify: false
+ITI22:
+  name: Terni
+  history: []
+  nob_verify: false
+ITI31:
+  name: Pesaro e Urbino
+  history: []
+  nob_verify: false
+ITI32:
+  name: Ancona
+  history: []
+  nob_verify: false
+ITI33:
+  name: Macerata
+  history: []
+  nob_verify: false
+ITI34:
+  name: Ascoli Piceno
+  history: []
+  nob_verify: false
+ITI35:
+  name: Fermo
+  history: []
+  nob_verify: false
+ITI41:
+  name: Viterbo
+  history: []
+  nob_verify: false
+ITI42:
+  name: Rieti
+  history: []
+  nob_verify: false
+ITI43:
+  name: Roma
+  history: []
+  nob_verify: false
+ITI44:
+  name: Latina
+  history: []
+  nob_verify: false
+ITI45:
+  name: Frosinone
+  history: []
+  nob_verify: false
+ITZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

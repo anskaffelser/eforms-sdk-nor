@@ -1,20 +1,56 @@
+add-wss:
+  name: Need for additional works, services or supplies by the original contractor.
+  nob: Behov for ytterligere arbeider, tjenester eller forsyninger av den opprinnelige entreprenøren.
+  history:
+  - name: Need for additional works, services or supplies by the original contractor.
+    history: []
+    nob_verify: false
+  nob_verify: false
 mod-cir:
   name: Need for modifications because of circumstances which a diligent buyer could not predict.
   nob: Endringer som er nødvendige som følge av omstendigheter som en aktsom oppdragsgiver ikke kunne forutse
+  history:
+  - name: Need for modifications because of circumstances which a diligent buyer could not predict.
+    history: []
+    nob_verify: false
+  nob_verify: false
 mod-minv:
   name: Modifications under a minimal value ("de minimis").
   nob: endringer som gir en prisøkning som er lavere enn …
+  history:
+  - name: Modifications under a minimal value ("de minimis").
+    history: []
+    nob_verify: false
+  nob_verify: false
 mod-nons:
   name: Modifications that are not substantial.
   nob: Endringer er ikke vesentlige
+  history:
+  - name: Modifications that are not substantial.
+    history: []
+    nob_verify: false
+  nob_verify: false
 mod-repl:
   name: Modifications where a new contractor replaces an old contractor because of succession or when the buyer assumes the contractor’s obligations towards its subcontractors.
   nob: Endringer gjelder skifte av leverandøren ved at en ny leverandør helt eller delvis trer inn i den eksisterende leverandørens rettigheter og plikter som følge av en omstrukturering, for eksempel ved overtakelse, fusjon, oppkjøp eller konkurs. 
+  history:
+  - name: Modifications where a new contractor replaces an old contractor because of succession or when the buyer assumes the contractor’s obligations towards its subcontractors.
+    history: []
+    nob_verify: false
+  nob_verify: false
 mod-rev:
   name: Modifications based on review clauses or options.
   nob: Endringer som foretas etter en endringsklausuler eller opsjoner
+  history:
+  - name: Modifications based on review clauses or options.
+    history: []
+    nob_verify: false
+  nob_verify: false
 other:
   name: Other
   nob: Annet
-add-wss:
-  name: Need for additional works, services or supplies by the original contractor.
+  history:
+  - name: Other
+    history: []
+    nob_verify: false
+  nob_verify: false

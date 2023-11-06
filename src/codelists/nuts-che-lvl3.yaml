@@ -1,0 +1,108 @@
+CH011:
+  name: Vaud
+  history: []
+  nob_verify: false
+CH012:
+  name: Valais / Wallis
+  history: []
+  nob_verify: false
+CH013:
+  name: Genève
+  history: []
+  nob_verify: false
+CH021:
+  name: Bern / Berne
+  history: []
+  nob_verify: false
+CH022:
+  name: Fribourg / Freiburg
+  history: []
+  nob_verify: false
+CH023:
+  name: Solothurn
+  history: []
+  nob_verify: false
+CH024:
+  name: Neuchâtel
+  history: []
+  nob_verify: false
+CH025:
+  name: Jura
+  history: []
+  nob_verify: false
+CH031:
+  name: Basel-Stadt
+  history: []
+  nob_verify: false
+CH032:
+  name: Basel-Landschaft
+  history: []
+  nob_verify: false
+CH033:
+  name: Aargau
+  history: []
+  nob_verify: false
+CH040:
+  name: Zürich
+  history: []
+  nob_verify: false
+CH051:
+  name: Glarus
+  history: []
+  nob_verify: false
+CH052:
+  name: Schaffhausen
+  history: []
+  nob_verify: false
+CH053:
+  name: Appenzell Ausserrhoden
+  history: []
+  nob_verify: false
+CH054:
+  name: Appenzell Innerrhoden
+  history: []
+  nob_verify: false
+CH055:
+  name: St. Gallen
+  history: []
+  nob_verify: false
+CH056:
+  name: Graubünden / Grigioni / Grischun
+  history: []
+  nob_verify: false
+CH057:
+  name: Thurgau
+  history: []
+  nob_verify: false
+CH061:
+  name: Luzern
+  history: []
+  nob_verify: false
+CH062:
+  name: Uri
+  history: []
+  nob_verify: false
+CH063:
+  name: Schwyz
+  history: []
+  nob_verify: false
+CH064:
+  name: Obwalden
+  history: []
+  nob_verify: false
+CH065:
+  name: Nidwalden
+  history: []
+  nob_verify: false
+CH066:
+  name: Zug
+  history: []
+  nob_verify: false
+CH070:
+  name: Ticino
+  history: []
+  nob_verify: false
+CHZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

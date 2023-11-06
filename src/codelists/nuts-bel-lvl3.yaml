@@ -1,0 +1,180 @@
+BE100:
+  name: Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad
+  history: []
+  nob_verify: false
+BE211:
+  name: Arr. Antwerpen
+  history: []
+  nob_verify: false
+BE212:
+  name: Arr. Mechelen
+  history: []
+  nob_verify: false
+BE213:
+  name: Arr. Turnhout
+  history: []
+  nob_verify: false
+BE223:
+  name: Arr. Tongeren
+  history: []
+  nob_verify: false
+BE224:
+  name: Arr. Hasselt
+  history: []
+  nob_verify: false
+BE225:
+  name: Arr. Maaseik
+  history: []
+  nob_verify: false
+BE231:
+  name: Arr. Aalst
+  history: []
+  nob_verify: false
+BE232:
+  name: Arr. Dendermonde
+  history: []
+  nob_verify: false
+BE233:
+  name: Arr. Eeklo
+  history: []
+  nob_verify: false
+BE234:
+  name: Arr. Gent
+  history: []
+  nob_verify: false
+BE235:
+  name: Arr. Oudenaarde
+  history: []
+  nob_verify: false
+BE236:
+  name: Arr. Sint-Niklaas
+  history: []
+  nob_verify: false
+BE241:
+  name: Arr. Halle-Vilvoorde
+  history: []
+  nob_verify: false
+BE242:
+  name: Arr. Leuven
+  history: []
+  nob_verify: false
+BE251:
+  name: Arr. Brugge
+  history: []
+  nob_verify: false
+BE252:
+  name: Arr. Diksmuide
+  history: []
+  nob_verify: false
+BE253:
+  name: Arr. Ieper
+  history: []
+  nob_verify: false
+BE254:
+  name: Arr. Kortrijk
+  history: []
+  nob_verify: false
+BE255:
+  name: Arr. Oostende
+  history: []
+  nob_verify: false
+BE256:
+  name: Arr. Roeselare
+  history: []
+  nob_verify: false
+BE257:
+  name: Arr. Tielt
+  history: []
+  nob_verify: false
+BE258:
+  name: Arr. Veurne
+  history: []
+  nob_verify: false
+BE310:
+  name: Arr. Nivelles
+  history: []
+  nob_verify: false
+BE323:
+  name: Arr. Mons
+  history: []
+  nob_verify: false
+BE328:
+  name: Arr. Tournai-Mouscron
+  history: []
+  nob_verify: false
+BE329:
+  name: Arr. La Louvière
+  history: []
+  nob_verify: false
+BE32A:
+  name: Arr. Ath
+  history: []
+  nob_verify: false
+BE32B:
+  name: Arr. Charleroi
+  history: []
+  nob_verify: false
+BE32C:
+  name: Arr. Soignies
+  history: []
+  nob_verify: false
+BE32D:
+  name: Arr. Thuin
+  history: []
+  nob_verify: false
+BE331:
+  name: Arr. Huy
+  history: []
+  nob_verify: false
+BE332:
+  name: Arr. Liège
+  history: []
+  nob_verify: false
+BE334:
+  name: Arr. Waremme
+  history: []
+  nob_verify: false
+BE335:
+  name: Arr. Verviers — communes francophones
+  history: []
+  nob_verify: false
+BE336:
+  name: Bezirk Verviers — Deutschsprachige Gemeinschaft
+  history: []
+  nob_verify: false
+BE341:
+  name: Arr. Arlon
+  history: []
+  nob_verify: false
+BE342:
+  name: Arr. Bastogne
+  history: []
+  nob_verify: false
+BE343:
+  name: Arr. Marche-en-Famenne
+  history: []
+  nob_verify: false
+BE344:
+  name: Arr. Neufchâteau
+  history: []
+  nob_verify: false
+BE345:
+  name: Arr. Virton
+  history: []
+  nob_verify: false
+BE351:
+  name: Arr. Dinant
+  history: []
+  nob_verify: false
+BE352:
+  name: Arr. Namur
+  history: []
+  nob_verify: false
+BE353:
+  name: Arr. Philippeville
+  history: []
+  nob_verify: false
+BEZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

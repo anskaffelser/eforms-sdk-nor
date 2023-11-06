@@ -1,12 +1,48 @@
 del:
   name: Deletion
+  nob: Sletting
+  history:
+  - name: Deletion
+    history: []
+    nob_verify: false
+  nob_verify: false
 for:
   name: Formation
+  nob: Formasjon
+  history:
+  - name: Formation
+    history: []
+    nob_verify: false
+  nob_verify: false
 liq:
   name: Completion of the liquidation
+  nob: Fullføring av likvidasjonen
+  history:
+  - name: Completion of the liquidation
+    history: []
+    nob_verify: false
+  nob_verify: false
 reg:
   name: Registration
+  nob: Registrering
+  history:
+  - name: Registration
+    history: []
+    nob_verify: false
+  nob_verify: false
 tra-del:
   name: Transfer-deletion
+  nob: Sletting av overføring
+  history:
+  - name: Transfer-deletion
+    history: []
+    nob_verify: false
+  nob_verify: false
 tra-reg:
   name: Transfer-registration
+  nob: Transfer-registrering
+  history:
+  - name: Transfer-registration
+    history: []
+    nob_verify: false
+  nob_verify: false

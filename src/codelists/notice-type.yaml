@@ -1,59 +1,180 @@
+brin-ecs:
+  name: European Company / European Cooperative Society notice
+  nob: Merknad fra Det europeiske selskap / Det europeiske samvirkeforetak
+  history:
+  - name: European Company / European Cooperative Society notice
+    history: []
+    nob_verify: false
+  nob_verify: false
 brin-eeig:
   name: European Economic Interest Grouping notice
-  nob:
+  nob: Melding om europeisk økonomisk interessegruppering
+  history:
+  - name: European Economic Interest Grouping notice
+    history: []
+    nob_verify: false
+  nob_verify: false
 can-desg:
   name: Design contest result notice
-  nob: Resultat av plan- og designkonkurranse
+  nob: Resultatvarsel for designkonkurranse
+  history:
+  - name: Design contest result notice
+    history: []
+    nob_verify: false
+  - name: Design contest result notice
+    nob: Resultat av plan- og designkonkurranse
+    history: []
+    nob_verify: false
+  nob_verify: false
 can-modif:
   name: Contract modification notice
-  nob: Kunngjøring av kontraktsendring
+  nob: Varsel om endring av kontrakt
+  history:
+  - name: Contract modification notice
+    history: []
+    nob_verify: false
+  - name: Contract modification notice
+    nob: Kunngjøring av kontraktsendring
+    history: []
+    nob_verify: false
+  nob_verify: false
 can-social:
   name: Contract or concession award notice – light regime
-  nob:
+  nob: Melding om kontrakt eller konsesjonstildeling – lysregime
+  history:
+  - name: Contract or concession award notice – light regime
+    history: []
+    nob_verify: false
+  nob_verify: false
 can-standard:
   name: Contract or concession award notice – standard regime
-  nob:
+  nob: Kunngjøring om kontrakt eller konsesjonstildeling – standardregime
+  history:
+  - name: Contract or concession award notice – standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
 can-tran:
   name: Contract award notice for public passenger transport services
-  nob:
+  nob: Melding om kontraktstildeling for offentlige persontransporttjenester
+  history:
+  - name: Contract award notice for public passenger transport services
+    history: []
+    nob_verify: false
+  nob_verify: false
 cn-desg:
   name: Design contest notice
-  nob: Kunngjøring om plan- og designkonkurranse
+  nob: Varsel om designkonkurranse
+  history:
+  - name: Design contest notice
+    history: []
+    nob_verify: false
+  - name: Design contest notice
+    nob: Kunngjøring om plan- og designkonkurranse
+    history: []
+    nob_verify: false
+  nob_verify: false
 cn-social:
   name: Contract notice – light regime
-  nob:
+  nob: Kontraktsoppsigelse – lett regime
+  history:
+  - name: Contract notice – light regime
+    history: []
+    nob_verify: false
+  nob_verify: false
 cn-standard:
   name: Contract or concession notice – standard regime
-  nob:
+  nob: Melding om kontrakt eller konsesjon – standardregime
+  history:
+  - name: Contract or concession notice – standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
 corr:
   name: Change notice
-  nob: " Endringskunngjøring"
+  nob: Varsel om endring
+  history:
+  - name: Change notice
+    history: []
+    nob_verify: false
+  - name: Change notice
+    nob:  Endringskunngjøring
+    history: []
+    nob_verify: false
+  nob_verify: false
 pin-buyer:
   name: Notice of the publication of a prior information notice or a periodic information notice on a buyer profile
-  nob:
+  nob: Melding om publisering av en forhåndsmelding eller en periodisk informasjonsmelding på en kjøperprofil
+  history:
+  - name: Notice of the publication of a prior information notice or a periodic information notice on a buyer profile
+    history: []
+    nob_verify: false
+  nob_verify: false
 pin-cfc-social:
   name: Prior information notice or a periodic indicative notice used as a call for competition – light regime
-  nob:
+  nob: Forhåndsvarsel eller en periodisk veiledende melding som brukes som en oppfordring til konkurranse – lysregime
+  history:
+  - name: Prior information notice or a periodic indicative notice used as a call for competition – light regime
+    history: []
+    nob_verify: false
+  nob_verify: false
 pin-cfc-standard:
   name: Prior information notice or a periodic indicative notice used as a call for competition – standard regime
-  nob:
+  nob: Forhåndsmelding eller periodisk veiledende melding som brukes som oppfordring til konkurranse – standardregime
+  history:
+  - name: Prior information notice or a periodic indicative notice used as a call for competition – standard regime
+    history: []
+    nob_verify: false
+  nob_verify: false
 pin-only:
   name: Prior information notice or a periodic indicative notice used only for information
-  nob:
+  nob: Forhåndsvarsel eller en periodisk veiledende melding som bare brukes til informasjon
+  history:
+  - name: Prior information notice or a periodic indicative notice used only for information
+    history: []
+    nob_verify: false
+  nob_verify: false
 pin-rtl:
   name: Prior information notice or a periodic indicative notice used to shorten time limits for receipt of tenders
-  nob:
+  nob: Forhåndsvarsel eller en periodisk veiledende melding som brukes til å forkorte fristene for mottak av anbud
+  history:
+  - name: Prior information notice or a periodic indicative notice used to shorten time limits for receipt of tenders
+    history: []
+    nob_verify: false
+  nob_verify: false
 pin-tran:
   name: Prior information notice for public passenger transport services
-  nob:
+  nob: Forhåndsmelding for offentlige persontransporttjenester
+  history:
+  - name: Prior information notice for public passenger transport services
+    history: []
+    nob_verify: false
+  nob_verify: false
 qu-sy:
   name: Notice on the existence of a qualification system
-  nob: Kunngjøring om at det foreligger en kvalifikasjonsordning
+  nob: Melding om eksistensen av et kvalifikasjonssystem
+  history:
+  - name: Notice on the existence of a qualification system
+    history: []
+    nob_verify: false
+  - name: Notice on the existence of a qualification system
+    nob: Kunngjøring om at det foreligger en kvalifikasjonsordning
+    history: []
+    nob_verify: false
+  nob_verify: false
 subco:
   name: Subcontracting notice
-  nob:
+  nob: Varsel om underleveranse
+  history:
+  - name: Subcontracting notice
+    history: []
+    nob_verify: false
+  nob_verify: false
 veat:
   name: Voluntary ex-ante transparency notice
   nob: Frivillig intensjonskunngjøring
-brin-ecs:
-  name: European Company / European Cooperative Society notice
+  history:
+  - name: Voluntary ex-ante transparency notice
+    history: []
+    nob_verify: false
+  nob_verify: false

@@ -1,0 +1,116 @@
+BG311:
+  name: Видин
+  history: []
+  nob_verify: false
+BG312:
+  name: Монтана
+  history: []
+  nob_verify: false
+BG313:
+  name: Враца
+  history: []
+  nob_verify: false
+BG314:
+  name: Плевен
+  history: []
+  nob_verify: false
+BG315:
+  name: Ловеч
+  history: []
+  nob_verify: false
+BG321:
+  name: Велико Търново
+  history: []
+  nob_verify: false
+BG322:
+  name: Габрово
+  history: []
+  nob_verify: false
+BG323:
+  name: Русе
+  history: []
+  nob_verify: false
+BG324:
+  name: Разград
+  history: []
+  nob_verify: false
+BG325:
+  name: Силистра
+  history: []
+  nob_verify: false
+BG331:
+  name: Варна
+  history: []
+  nob_verify: false
+BG332:
+  name: Добрич
+  history: []
+  nob_verify: false
+BG333:
+  name: Шумен
+  history: []
+  nob_verify: false
+BG334:
+  name: Търговище
+  history: []
+  nob_verify: false
+BG341:
+  name: Бургас
+  history: []
+  nob_verify: false
+BG342:
+  name: Сливен
+  history: []
+  nob_verify: false
+BG343:
+  name: Ямбол
+  history: []
+  nob_verify: false
+BG344:
+  name: Стара Загора
+  history: []
+  nob_verify: false
+BG411:
+  name: София (столица)
+  history: []
+  nob_verify: false
+BG412:
+  name: София
+  history: []
+  nob_verify: false
+BG413:
+  name: Благоевград
+  history: []
+  nob_verify: false
+BG414:
+  name: Перник
+  history: []
+  nob_verify: false
+BG415:
+  name: Кюстендил
+  history: []
+  nob_verify: false
+BG421:
+  name: Пловдив
+  history: []
+  nob_verify: false
+BG422:
+  name: Хасково
+  history: []
+  nob_verify: false
+BG423:
+  name: Пазарджик
+  history: []
+  nob_verify: false
+BG424:
+  name: Смолян
+  history: []
+  nob_verify: false
+BG425:
+  name: Кърджали
+  history: []
+  nob_verify: false
+BGZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

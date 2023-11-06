@@ -1,32 +1,80 @@
 all-rej:
   name: All tenders, requests to participate or projects were withdrawn or found inadmissible
   nob: Alle tilbud, forespørsler å delta eller prosjekter ble trukket tilbake eller funnet "inadmissible" (?)
+  history:
+  - name: All tenders, requests to participate or projects were withdrawn or found inadmissible
+    history: []
+    nob_verify: false
+  nob_verify: false
 chan-need:
   name: Decision of the buyer, because of a change in needs
   nob: Besluttning av oppdragsgiveren på grunn av behovsendring
+  history:
+  - name: Decision of the buyer, because of a change in needs
+    history: []
+    nob_verify: false
+  nob_verify: false
 ins-fund:
   name: Decision of the buyer, because of insufficient funds
   nob: Besluttning av oppdragsgiveren på grunn av manglende finansiering
+  history:
+  - name: Decision of the buyer, because of insufficient funds
+    history: []
+    nob_verify: false
+  nob_verify: false
 no-rece:
   name: No tenders, requests to participate or projects were received
   nob: Ingen tilbud, forespørsler å delta eller prosjekter er mottatt
+  history:
+  - name: No tenders, requests to participate or projects were received
+    history: []
+    nob_verify: false
+  nob_verify: false
 no-signed:
   name: The highest ranked tenderer(s) refused to sign the contract
   nob: Høyest rangert tilbuder(e) signerte ikke kontrakt
+  history:
+  - name: The highest ranked tenderer(s) refused to sign the contract
+    history: []
+    nob_verify: false
   nob_verify: true
 one-admis:
   name: Only one admissible tender, request to participate or project was received
   nob: Kun ett "admissible" tilbud, forespørsel å delta eller prosjekt er mottatt
+  history:
+  - name: Only one admissible tender, request to participate or project was received
+    history: []
+    nob_verify: false
   nob_verify: true
 other:
   name: Other
   nob: Annet
+  history:
+  - name: Other
+    history: []
+    nob_verify: false
+  nob_verify: false
 rev-body:
   name: Decision of a review body or another judicial body
   nob: Beslutning av en klage- eller en annen jurisisk organ
+  history:
+  - name: Decision of a review body or another judicial body
+    history: []
+    nob_verify: false
+  nob_verify: false
 rev-buyer:
   name: Decision of the buyer following a tenderer's request to review the award
   nob: Beslutning av oppdragsgiveren som følge at klage på tildeling av kontrakten fra en tilbyder/levarandør
+  history:
+  - name: Decision of the buyer following a tenderer's request to review the award
+    history: []
+    nob_verify: false
+  nob_verify: false
 tch-pr-error:
   name: Decision of the buyer, not following a tenderer's request to review the award, because of technical or procedural errors
   nob: Besluttning av oppdragsgiveren, ikke som følge av klage på tildeling fra en tilbyder/leverandør, på grunn av tekniske eller  prosessfeil
+  history:
+  - name: Decision of the buyer, not following a tenderer's request to review the award, because of technical or procedural errors
+    history: []
+    nob_verify: false
+  nob_verify: false

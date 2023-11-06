@@ -1,11 +1,3 @@
-AL0:
-  name: Shqipëria
-  history: []
-  nob_verify: false
-AL01:
-  name: Veri
-  history: []
-  nob_verify: false
 AL011:
   name: Dibër
   history: []
@@ -26,20 +18,12 @@ AL015:
   name: Shkodër
   history: []
   nob_verify: false
-AL02:
-  name: Qender
-  history: []
-  nob_verify: false
 AL021:
   name: Elbasan
   history: []
   nob_verify: false
 AL022:
   name: Tiranë
-  history: []
-  nob_verify: false
-AL03:
-  name: Jug
   history: []
   nob_verify: false
 AL031:
@@ -62,24 +46,8 @@ AL035:
   name: Vlorë
   history: []
   nob_verify: false
-ALZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-ALZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 ALZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-AT1:
-  name: Ostösterreich
-  history: []
-  nob_verify: false
-AT11:
-  name: Burgenland
   history: []
   nob_verify: false
 AT111:
@@ -92,10 +60,6 @@ AT112:
   nob_verify: false
 AT113:
   name: Südburgenland
-  history: []
-  nob_verify: false
-AT12:
-  name: Niederösterreich
   history: []
   nob_verify: false
 AT121:
@@ -126,20 +90,8 @@ AT127:
   name: Wiener Umland/Südteil
   history: []
   nob_verify: false
-AT13:
-  name: Wien
-  history: []
-  nob_verify: false
 AT130:
   name: Wien
-  history: []
-  nob_verify: false
-AT2:
-  name: Südösterreich
-  history: []
-  nob_verify: false
-AT21:
-  name: Kärnten
   history: []
   nob_verify: false
 AT211:
@@ -152,10 +104,6 @@ AT212:
   nob_verify: false
 AT213:
   name: Unterkärnten
-  history: []
-  nob_verify: false
-AT22:
-  name: Steiermark
   history: []
   nob_verify: false
 AT221:
@@ -182,14 +130,6 @@ AT226:
   name: Westliche Obersteiermark
   history: []
   nob_verify: false
-AT3:
-  name: Westösterreich
-  history: []
-  nob_verify: false
-AT31:
-  name: Oberösterreich
-  history: []
-  nob_verify: false
 AT311:
   name: Innviertel
   history: []
@@ -210,10 +150,6 @@ AT315:
   name: Traunviertel
   history: []
   nob_verify: false
-AT32:
-  name: Salzburg
-  history: []
-  nob_verify: false
 AT321:
   name: Lungau
   history: []
@@ -224,10 +160,6 @@ AT322:
   nob_verify: false
 AT323:
   name: Salzburg und Umgebung
-  history: []
-  nob_verify: false
-AT33:
-  name: Tirol
   history: []
   nob_verify: false
 AT331:
@@ -250,10 +182,6 @@ AT335:
   name: Tiroler Unterland
   history: []
   nob_verify: false
-AT34:
-  name: Vorarlberg
-  history: []
-  nob_verify: false
 AT341:
   name: Bludenz-Bregenzer Wald
   history: []
@@ -262,36 +190,12 @@ AT342:
   name: Rheintal-Bodenseegebiet
   history: []
   nob_verify: false
-ATZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-ATZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 ATZZZ:
   name: Extra-Regio NUTS 3
   history: []
   nob_verify: false
-BE1:
-  name: Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest
-  history: []
-  nob_verify: false
-BE10:
-  name: Région de Bruxelles-Capitale / Brussels Hoofdstedelijk Gewest
-  history: []
-  nob_verify: false
 BE100:
   name: Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad
-  history: []
-  nob_verify: false
-BE2:
-  name: Vlaams Gewest
-  history: []
-  nob_verify: false
-BE21:
-  name: Prov. Antwerpen
   history: []
   nob_verify: false
 BE211:
@@ -306,10 +210,6 @@ BE213:
   name: Arr. Turnhout
   history: []
   nob_verify: false
-BE22:
-  name: Prov. Limburg (BE)
-  history: []
-  nob_verify: false
 BE223:
   name: Arr. Tongeren
   history: []
@@ -320,10 +220,6 @@ BE224:
   nob_verify: false
 BE225:
   name: Arr. Maaseik
-  history: []
-  nob_verify: false
-BE23:
-  name: Prov. Oost-Vlaanderen
   history: []
   nob_verify: false
 BE231:
@@ -350,20 +246,12 @@ BE236:
   name: Arr. Sint-Niklaas
   history: []
   nob_verify: false
-BE24:
-  name: Prov. Vlaams-Brabant
-  history: []
-  nob_verify: false
 BE241:
   name: Arr. Halle-Vilvoorde
   history: []
   nob_verify: false
 BE242:
   name: Arr. Leuven
-  history: []
-  nob_verify: false
-BE25:
-  name: Prov. West-Vlaanderen
   history: []
   nob_verify: false
 BE251:
@@ -398,20 +286,8 @@ BE258:
   name: Arr. Veurne
   history: []
   nob_verify: false
-BE3:
-  name: Région wallonne
-  history: []
-  nob_verify: false
-BE31:
-  name: Prov. Brabant Wallon
-  history: []
-  nob_verify: false
 BE310:
   name: Arr. Nivelles
-  history: []
-  nob_verify: false
-BE32:
-  name: Prov. Hainaut
   history: []
   nob_verify: false
 BE323:
@@ -442,10 +318,6 @@ BE32D:
   name: Arr. Thuin
   history: []
   nob_verify: false
-BE33:
-  name: Prov. Liège
-  history: []
-  nob_verify: false
 BE331:
   name: Arr. Huy
   history: []
@@ -464,10 +336,6 @@ BE335:
   nob_verify: false
 BE336:
   name: Bezirk Verviers — Deutschsprachige Gemeinschaft
-  history: []
-  nob_verify: false
-BE34:
-  name: Prov. Luxembourg (BE)
   history: []
   nob_verify: false
 BE341:
@@ -490,10 +358,6 @@ BE345:
   name: Arr. Virton
   history: []
   nob_verify: false
-BE35:
-  name: Prov. Namur
-  history: []
-  nob_verify: false
 BE351:
   name: Arr. Dinant
   history: []
@@ -506,24 +370,8 @@ BE353:
   name: Arr. Philippeville
   history: []
   nob_verify: false
-BEZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-BEZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 BEZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-BG3:
-  name: Северна и Югоизточна България
-  history: []
-  nob_verify: false
-BG31:
-  name: Северозападен
   history: []
   nob_verify: false
 BG311:
@@ -546,10 +394,6 @@ BG315:
   name: Ловеч
   history: []
   nob_verify: false
-BG32:
-  name: Северен централен
-  history: []
-  nob_verify: false
 BG321:
   name: Велико Търново
   history: []
@@ -570,10 +414,6 @@ BG325:
   name: Силистра
   history: []
   nob_verify: false
-BG33:
-  name: Североизточен
-  history: []
-  nob_verify: false
 BG331:
   name: Варна
   history: []
@@ -590,10 +430,6 @@ BG334:
   name: Търговище
   history: []
   nob_verify: false
-BG34:
-  name: Югоизточен
-  history: []
-  nob_verify: false
 BG341:
   name: Бургас
   history: []
@@ -608,14 +444,6 @@ BG343:
   nob_verify: false
 BG344:
   name: Стара Загора
-  history: []
-  nob_verify: false
-BG4:
-  name: Югозападна и Южна централна България
-  history: []
-  nob_verify: false
-BG41:
-  name: Югозападен
   history: []
   nob_verify: false
 BG411:
@@ -638,10 +466,6 @@ BG415:
   name: Кюстендил
   history: []
   nob_verify: false
-BG42:
-  name: Южен централен
-  history: []
-  nob_verify: false
 BG421:
   name: Пловдив
   history: []
@@ -662,24 +486,8 @@ BG425:
   name: Кърджали
   history: []
   nob_verify: false
-BGZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-BGZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 BGZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-CH0:
-  name: Schweiz/Suisse/Svizzera
-  history: []
-  nob_verify: false
-CH01:
-  name: Région lémanique
   history: []
   nob_verify: false
 CH011:
@@ -692,10 +500,6 @@ CH012:
   nob_verify: false
 CH013:
   name: Genève
-  history: []
-  nob_verify: false
-CH02:
-  name: Espace Mittelland
   history: []
   nob_verify: false
 CH021:
@@ -718,10 +522,6 @@ CH025:
   name: Jura
   history: []
   nob_verify: false
-CH03:
-  name: Nordwestschweiz
-  history: []
-  nob_verify: false
 CH031:
   name: Basel-Stadt
   history: []
@@ -734,16 +534,8 @@ CH033:
   name: Aargau
   history: []
   nob_verify: false
-CH04:
-  name: Zürich
-  history: []
-  nob_verify: false
 CH040:
   name: Zürich
-  history: []
-  nob_verify: false
-CH05:
-  name: Ostschweiz
   history: []
   nob_verify: false
 CH051:
@@ -774,10 +566,6 @@ CH057:
   name: Thurgau
   history: []
   nob_verify: false
-CH06:
-  name: Zentralschweiz
-  history: []
-  nob_verify: false
 CH061:
   name: Luzern
   history: []
@@ -802,72 +590,28 @@ CH066:
   name: Zug
   history: []
   nob_verify: false
-CH07:
-  name: Ticino
-  history: []
-  nob_verify: false
 CH070:
   name: Ticino
-  history: []
-  nob_verify: false
-CHZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-CHZZ:
-  name: Extra-Regio NUTS 2
   history: []
   nob_verify: false
 CHZZZ:
   name: Extra-Regio NUTS 3
   history: []
   nob_verify: false
-CY0:
-  name: Κύπρος
-  history: []
-  nob_verify: false
-CY00:
-  name: Κύπρος
-  history: []
-  nob_verify: false
 CY000:
   name: Κύπρος
-  history: []
-  nob_verify: false
-CYZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-CYZZ:
-  name: Extra-Regio NUTS 2
   history: []
   nob_verify: false
 CYZZZ:
   name: Extra-Regio NUTS 3
   history: []
   nob_verify: false
-CZ0:
-  name: Česko
-  history: []
-  nob_verify: false
-CZ01:
-  name: Praha
-  history: []
-  nob_verify: false
 CZ010:
   name: Hlavní město Praha
   history: []
   nob_verify: false
-CZ02:
-  name: Střední Čechy
-  history: []
-  nob_verify: false
 CZ020:
   name: Středočeský kraj
-  history: []
-  nob_verify: false
-CZ03:
-  name: Jihozápad
   history: []
   nob_verify: false
 CZ031:
@@ -878,20 +622,12 @@ CZ032:
   name: Plzeňský kraj
   history: []
   nob_verify: false
-CZ04:
-  name: Severozápad
-  history: []
-  nob_verify: false
 CZ041:
   name: Karlovarský kraj
   history: []
   nob_verify: false
 CZ042:
   name: Ústecký kraj
-  history: []
-  nob_verify: false
-CZ05:
-  name: Severovýchod
   history: []
   nob_verify: false
 CZ051:
@@ -906,20 +642,12 @@ CZ053:
   name: Pardubický kraj
   history: []
   nob_verify: false
-CZ06:
-  name: Jihovýchod
-  history: []
-  nob_verify: false
 CZ063:
   name: Kraj Vysočina
   history: []
   nob_verify: false
 CZ064:
   name: Jihomoravský kraj
-  history: []
-  nob_verify: false
-CZ07:
-  name: Střední Morava
   history: []
   nob_verify: false
 CZ071:
@@ -930,32 +658,12 @@ CZ072:
   name: Zlínský kraj
   history: []
   nob_verify: false
-CZ08:
-  name: Moravskoslezsko
-  history: []
-  nob_verify: false
 CZ080:
   name: Moravskoslezský kraj
   history: []
   nob_verify: false
-CZZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-CZZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 CZZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-DE1:
-  name: Baden-Württemberg
-  history: []
-  nob_verify: false
-DE11:
-  name: Stuttgart
   history: []
   nob_verify: false
 DE111:
@@ -1010,10 +718,6 @@ DE11D:
   name: Ostalbkreis
   history: []
   nob_verify: false
-DE12:
-  name: Karlsruhe
-  history: []
-  nob_verify: false
 DE121:
   name: Baden-Baden, Stadtkreis
   history: []
@@ -1062,10 +766,6 @@ DE12C:
   name: Freudenstadt
   history: []
   nob_verify: false
-DE13:
-  name: Freiburg
-  history: []
-  nob_verify: false
 DE131:
   name: Freiburg im Breisgau, Stadtkreis
   history: []
@@ -1106,10 +806,6 @@ DE13A:
   name: Waldshut
   history: []
   nob_verify: false
-DE14:
-  name: Tübingen
-  history: []
-  nob_verify: false
 DE141:
   name: Reutlingen
   history: []
@@ -1144,14 +840,6 @@ DE148:
   nob_verify: false
 DE149:
   name: Sigmaringen
-  history: []
-  nob_verify: false
-DE2:
-  name: Bayern
-  history: []
-  nob_verify: false
-DE21:
-  name: Oberbayern
   history: []
   nob_verify: false
 DE211:
@@ -1246,10 +934,6 @@ DE21N:
   name: Weilheim-Schongau
   history: []
   nob_verify: false
-DE22:
-  name: Niederbayern
-  history: []
-  nob_verify: false
 DE221:
   name: Landshut, Kreisfreie Stadt
   history: []
@@ -1298,10 +982,6 @@ DE22C:
   name: Dingolfing-Landau
   history: []
   nob_verify: false
-DE23:
-  name: Oberpfalz
-  history: []
-  nob_verify: false
 DE231:
   name: Amberg, Kreisfreie Stadt
   history: []
@@ -1340,10 +1020,6 @@ DE239:
   nob_verify: false
 DE23A:
   name: Tirschenreuth
-  history: []
-  nob_verify: false
-DE24:
-  name: Oberfranken
   history: []
   nob_verify: false
 DE241:
@@ -1398,10 +1074,6 @@ DE24D:
   name: Wunsiedel i. Fichtelgebirge
   history: []
   nob_verify: false
-DE25:
-  name: Mittelfranken
-  history: []
-  nob_verify: false
 DE251:
   name: Ansbach, Kreisfreie Stadt
   history: []
@@ -1450,10 +1122,6 @@ DE25C:
   name: Weißenburg-Gunzenhausen
   history: []
   nob_verify: false
-DE26:
-  name: Unterfranken
-  history: []
-  nob_verify: false
 DE261:
   name: Aschaffenburg, Kreisfreie Stadt
   history: []
@@ -1500,10 +1168,6 @@ DE26B:
   nob_verify: false
 DE26C:
   name: Würzburg, Landkreis
-  history: []
-  nob_verify: false
-DE27:
-  name: Schwaben
   history: []
   nob_verify: false
 DE271:
@@ -1562,24 +1226,8 @@ DE27E:
   name: Oberallgäu
   history: []
   nob_verify: false
-DE3:
-  name: Berlin
-  history: []
-  nob_verify: false
-DE30:
-  name: Berlin
-  history: []
-  nob_verify: false
 DE300:
   name: Berlin
-  history: []
-  nob_verify: false
-DE4:
-  name: Brandenburg
-  history: []
-  nob_verify: false
-DE40:
-  name: Brandenburg
   history: []
   nob_verify: false
 DE401:
@@ -1654,14 +1302,6 @@ DE40I:
   name: Uckermark
   history: []
   nob_verify: false
-DE5:
-  name: Bremen
-  history: []
-  nob_verify: false
-DE50:
-  name: Bremen
-  history: []
-  nob_verify: false
 DE501:
   name: Bremen, Kreisfreie Stadt
   history: []
@@ -1670,24 +1310,8 @@ DE502:
   name: Bremerhaven, Kreisfreie Stadt
   history: []
   nob_verify: false
-DE6:
-  name: Hamburg
-  history: []
-  nob_verify: false
-DE60:
-  name: Hamburg
-  history: []
-  nob_verify: false
 DE600:
   name: Hamburg
-  history: []
-  nob_verify: false
-DE7:
-  name: Hessen
-  history: []
-  nob_verify: false
-DE71:
-  name: Darmstadt
   history: []
   nob_verify: false
 DE711:
@@ -1746,10 +1370,6 @@ DE71E:
   name: Wetteraukreis
   history: []
   nob_verify: false
-DE72:
-  name: Gießen
-  history: []
-  nob_verify: false
 DE721:
   name: Gießen, Landkreis
   history: []
@@ -1768,10 +1388,6 @@ DE724:
   nob_verify: false
 DE725:
   name: Vogelsbergkreis
-  history: []
-  nob_verify: false
-DE73:
-  name: Kassel
   history: []
   nob_verify: false
 DE731:
@@ -1800,14 +1416,6 @@ DE736:
   nob_verify: false
 DE737:
   name: Werra-Meißner-Kreis
-  history: []
-  nob_verify: false
-DE8:
-  name: Mecklenburg-Vorpommern
-  history: []
-  nob_verify: false
-DE80:
-  name: Mecklenburg-Vorpommern
   history: []
   nob_verify: false
 DE803:
@@ -1840,14 +1448,6 @@ DE80N:
   nob_verify: false
 DE80O:
   name: Ludwigslust-Parchim
-  history: []
-  nob_verify: false
-DE9:
-  name: Niedersachsen
-  history: []
-  nob_verify: false
-DE91:
-  name: Braunschweig
   history: []
   nob_verify: false
 DE911:
@@ -1890,10 +1490,6 @@ DE91C:
   name: Göttingen
   history: []
   nob_verify: false
-DE92:
-  name: Hannover
-  history: []
-  nob_verify: false
 DE922:
   name: Diepholz
   history: []
@@ -1920,10 +1516,6 @@ DE928:
   nob_verify: false
 DE929:
   name: Region Hannover
-  history: []
-  nob_verify: false
-DE93:
-  name: Lüneburg
   history: []
   nob_verify: false
 DE931:
@@ -1968,10 +1560,6 @@ DE93A:
   nob_verify: false
 DE93B:
   name: Verden
-  history: []
-  nob_verify: false
-DE94:
-  name: Weser-Ems
   history: []
   nob_verify: false
 DE941:
@@ -2042,14 +1630,6 @@ DE94H:
   name: Wittmund
   history: []
   nob_verify: false
-DEA:
-  name: Nordrhein-Westfalen
-  history: []
-  nob_verify: false
-DEA1:
-  name: Düsseldorf
-  history: []
-  nob_verify: false
 DEA11:
   name: Düsseldorf, Kreisfreie Stadt
   history: []
@@ -2110,10 +1690,6 @@ DEA1F:
   name: Wesel
   history: []
   nob_verify: false
-DEA2:
-  name: Köln
-  history: []
-  nob_verify: false
 DEA22:
   name: Bonn, Kreisfreie Stadt
   history: []
@@ -2158,10 +1734,6 @@ DEA2D:
   name: Städteregion Aachen
   history: []
   nob_verify: false
-DEA3:
-  name: Münster
-  history: []
-  nob_verify: false
 DEA31:
   name: Bottrop, Kreisfreie Stadt
   history: []
@@ -2194,10 +1766,6 @@ DEA38:
   name: Warendorf
   history: []
   nob_verify: false
-DEA4:
-  name: Detmold
-  history: []
-  nob_verify: false
 DEA41:
   name: Bielefeld, Kreisfreie Stadt
   history: []
@@ -2224,10 +1792,6 @@ DEA46:
   nob_verify: false
 DEA47:
   name: Paderborn
-  history: []
-  nob_verify: false
-DEA5:
-  name: Arnsberg
   history: []
   nob_verify: false
 DEA51:
@@ -2278,14 +1842,6 @@ DEA5C:
   name: Unna
   history: []
   nob_verify: false
-DEB:
-  name: Rheinland-Pfalz
-  history: []
-  nob_verify: false
-DEB1:
-  name: Koblenz
-  history: []
-  nob_verify: false
 DEB11:
   name: Koblenz, Kreisfreie Stadt
   history: []
@@ -2330,10 +1886,6 @@ DEB1D:
   name: Rhein-Hunsrück-Kreis
   history: []
   nob_verify: false
-DEB2:
-  name: Trier
-  history: []
-  nob_verify: false
 DEB21:
   name: Trier, Kreisfreie Stadt
   history: []
@@ -2352,10 +1904,6 @@ DEB24:
   nob_verify: false
 DEB25:
   name: Trier-Saarburg
-  history: []
-  nob_verify: false
-DEB3:
-  name: Rheinhessen-Pfalz
   history: []
   nob_verify: false
 DEB31:
@@ -2438,14 +1986,6 @@ DEB3K:
   name: Südwestpfalz
   history: []
   nob_verify: false
-DEC:
-  name: Saarland
-  history: []
-  nob_verify: false
-DEC0:
-  name: Saarland
-  history: []
-  nob_verify: false
 DEC01:
   name: Regionalverband Saarbrücken
   history: []
@@ -2470,14 +2010,6 @@ DEC06:
   name: St. Wendel
   history: []
   nob_verify: false
-DED:
-  name: Sachsen
-  history: []
-  nob_verify: false
-DED2:
-  name: Dresden
-  history: []
-  nob_verify: false
 DED21:
   name: Dresden, Kreisfreie Stadt
   history: []
@@ -2496,10 +2028,6 @@ DED2E:
   nob_verify: false
 DED2F:
   name: Sächsische Schweiz-Osterzgebirge
-  history: []
-  nob_verify: false
-DED4:
-  name: Chemnitz
   history: []
   nob_verify: false
 DED41:
@@ -2522,10 +2050,6 @@ DED45:
   name: Zwickau
   history: []
   nob_verify: false
-DED5:
-  name: Leipzig
-  history: []
-  nob_verify: false
 DED51:
   name: Leipzig, Kreisfreie Stadt
   history: []
@@ -2536,14 +2060,6 @@ DED52:
   nob_verify: false
 DED53:
   name: Nordsachsen
-  history: []
-  nob_verify: false
-DEE:
-  name: Sachsen-Anhalt
-  history: []
-  nob_verify: false
-DEE0:
-  name: Sachsen-Anhalt
   history: []
   nob_verify: false
 DEE01:
@@ -2600,14 +2116,6 @@ DEE0D:
   nob_verify: false
 DEE0E:
   name: Wittenberg
-  history: []
-  nob_verify: false
-DEF:
-  name: Schleswig-Holstein
-  history: []
-  nob_verify: false
-DEF0:
-  name: Schleswig-Holstein
   history: []
   nob_verify: false
 DEF01:
@@ -2668,14 +2176,6 @@ DEF0E:
   nob_verify: false
 DEF0F:
   name: Stormarn
-  history: []
-  nob_verify: false
-DEG:
-  name: Thüringen
-  history: []
-  nob_verify: false
-DEG0:
-  name: Thüringen
   history: []
   nob_verify: false
 DEG01:
@@ -2770,24 +2270,8 @@ DEG0P:
   name: Wartburgkreis
   history: []
   nob_verify: false
-DEZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-DEZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 DEZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-DK0:
-  name: Danmark
-  history: []
-  nob_verify: false
-DK01:
-  name: Hovedstaden
   history: []
   nob_verify: false
 DK011:
@@ -2806,20 +2290,12 @@ DK014:
   name: Bornholm
   history: []
   nob_verify: false
-DK02:
-  name: Sjælland
-  history: []
-  nob_verify: false
 DK021:
   name: Østsjælland
   history: []
   nob_verify: false
 DK022:
   name: Vest- og Sydsjælland
-  history: []
-  nob_verify: false
-DK03:
-  name: Syddanmark
   history: []
   nob_verify: false
 DK031:
@@ -2830,10 +2306,6 @@ DK032:
   name: Sydjylland
   history: []
   nob_verify: false
-DK04:
-  name: Midtjylland
-  history: []
-  nob_verify: false
 DK041:
   name: Vestjylland
   history: []
@@ -2842,32 +2314,12 @@ DK042:
   name: Østjylland
   history: []
   nob_verify: false
-DK05:
-  name: Nordjylland
-  history: []
-  nob_verify: false
 DK050:
   name: Nordjylland
   history: []
   nob_verify: false
-DKZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-DKZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 DKZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-EE0:
-  name: Eesti
-  history: []
-  nob_verify: false
-EE00:
-  name: Eesti
   history: []
   nob_verify: false
 EE001:
@@ -2890,24 +2342,8 @@ EE00A:
   name: Kirde-Eesti
   history: []
   nob_verify: false
-EEZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-EEZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 EEZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-EL3:
-  name: Αττική
-  history: []
-  nob_verify: false
-EL30:
-  name: Aττική
   history: []
   nob_verify: false
 EL301:
@@ -2938,14 +2374,6 @@ EL307:
   name: Πειραιάς, Νήσοι
   history: []
   nob_verify: false
-EL4:
-  name: Νησιά Αιγαίου, Κρήτη
-  history: []
-  nob_verify: false
-EL41:
-  name: Βόρειο Αιγαίο
-  history: []
-  nob_verify: false
 EL411:
   name: Λέσβος, Λήμνος
   history: []
@@ -2958,20 +2386,12 @@ EL413:
   name: Χίος
   history: []
   nob_verify: false
-EL42:
-  name: Νότιο Αιγαίο
-  history: []
-  nob_verify: false
 EL421:
   name: Κάλυμνος, Κάρπαθος – Ηρωική Νήσος Κάσος, Κως, Ρόδος
   history: []
   nob_verify: false
 EL422:
   name: Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος
-  history: []
-  nob_verify: false
-EL43:
-  name: Κρήτη
   history: []
   nob_verify: false
 EL431:
@@ -2988,14 +2408,6 @@ EL433:
   nob_verify: false
 EL434:
   name: Χανιά
-  history: []
-  nob_verify: false
-EL5:
-  name: Βόρεια Ελλάδα
-  history: []
-  nob_verify: false
-EL51:
-  name: Aνατολική Μακεδονία, Θράκη
   history: []
   nob_verify: false
 EL511:
@@ -3016,10 +2428,6 @@ EL514:
   nob_verify: false
 EL515:
   name: Θάσος, Καβάλα
-  history: []
-  nob_verify: false
-EL52:
-  name: Κεντρική Μακεδονία
   history: []
   nob_verify: false
 EL521:
@@ -3050,10 +2458,6 @@ EL527:
   name: Χαλκιδική
   history: []
   nob_verify: false
-EL53:
-  name: Δυτική Μακεδονία
-  history: []
-  nob_verify: false
 EL531:
   name: Γρεβενά, Κοζάνη
   history: []
@@ -3064,10 +2468,6 @@ EL532:
   nob_verify: false
 EL533:
   name: Φλώρινα
-  history: []
-  nob_verify: false
-EL54:
-  name: Ήπειρος
   history: []
   nob_verify: false
 EL541:
@@ -3082,14 +2482,6 @@ EL543:
   name: Ιωάννινα
   history: []
   nob_verify: false
-EL6:
-  name: Κεντρική Ελλάδα
-  history: []
-  nob_verify: false
-EL61:
-  name: Θεσσαλία
-  history: []
-  nob_verify: false
 EL611:
   name: Καρδίτσα, Τρίκαλα
   history: []
@@ -3100,10 +2492,6 @@ EL612:
   nob_verify: false
 EL613:
   name: Μαγνησία, Σποράδες
-  history: []
-  nob_verify: false
-EL62:
-  name: Ιόνια Νησιά
   history: []
   nob_verify: false
 EL621:
@@ -3122,10 +2510,6 @@ EL624:
   name: Λευκάδα
   history: []
   nob_verify: false
-EL63:
-  name: Δυτική Ελλάδα
-  history: []
-  nob_verify: false
 EL631:
   name: Αιτωλοακαρνανία
   history: []
@@ -3136,10 +2520,6 @@ EL632:
   nob_verify: false
 EL633:
   name: Ηλεία
-  history: []
-  nob_verify: false
-EL64:
-  name: Στερεά Ελλάδα
   history: []
   nob_verify: false
 EL641:
@@ -3162,10 +2542,6 @@ EL645:
   name: Φωκίδα
   history: []
   nob_verify: false
-EL65:
-  name: Πελοπόννησος
-  history: []
-  nob_verify: false
 EL651:
   name: Αργολίδα, Αρκαδία
   history: []
@@ -3178,24 +2554,8 @@ EL653:
   name: Λακωνία, Μεσσηνία
   history: []
   nob_verify: false
-ELZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-ELZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 ELZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-ES1:
-  name: Noroeste
-  history: []
-  nob_verify: false
-ES11:
-  name: Galicia
   history: []
   nob_verify: false
 ES111:
@@ -3214,28 +2574,12 @@ ES114:
   name: Pontevedra
   history: []
   nob_verify: false
-ES12:
-  name: Principado de Asturias
-  history: []
-  nob_verify: false
 ES120:
   name: Asturias
   history: []
   nob_verify: false
-ES13:
-  name: Cantabria
-  history: []
-  nob_verify: false
 ES130:
   name: Cantabria
-  history: []
-  nob_verify: false
-ES2:
-  name: Noreste
-  history: []
-  nob_verify: false
-ES21:
-  name: País Vasco
   history: []
   nob_verify: false
 ES211:
@@ -3250,24 +2594,12 @@ ES213:
   name: Bizkaia
   history: []
   nob_verify: false
-ES22:
-  name: Comunidad Foral de Navarra
-  history: []
-  nob_verify: false
 ES220:
   name: Navarra
   history: []
   nob_verify: false
-ES23:
-  name: La Rioja
-  history: []
-  nob_verify: false
 ES230:
   name: La Rioja
-  history: []
-  nob_verify: false
-ES24:
-  name: Aragón
   history: []
   nob_verify: false
 ES241:
@@ -3282,24 +2614,8 @@ ES243:
   name: Zaragoza
   history: []
   nob_verify: false
-ES3:
-  name: Comunidad de Madrid
-  history: []
-  nob_verify: false
-ES30:
-  name: Comunidad de Madrid
-  history: []
-  nob_verify: false
 ES300:
   name: Madrid
-  history: []
-  nob_verify: false
-ES4:
-  name: Centro (ES)
-  history: []
-  nob_verify: false
-ES41:
-  name: Castilla y León
   history: []
   nob_verify: false
 ES411:
@@ -3338,10 +2654,6 @@ ES419:
   name: Zamora
   history: []
   nob_verify: false
-ES42:
-  name: Castilla-La Mancha
-  history: []
-  nob_verify: false
 ES421:
   name: Albacete
   history: []
@@ -3362,24 +2674,12 @@ ES425:
   name: Toledo
   history: []
   nob_verify: false
-ES43:
-  name: Extremadura
-  history: []
-  nob_verify: false
 ES431:
   name: Badajoz
   history: []
   nob_verify: false
 ES432:
   name: Cáceres
-  history: []
-  nob_verify: false
-ES5:
-  name: Este
-  history: []
-  nob_verify: false
-ES51:
-  name: Cataluña
   history: []
   nob_verify: false
 ES511:
@@ -3398,10 +2698,6 @@ ES514:
   name: Tarragona
   history: []
   nob_verify: false
-ES52:
-  name: Comunitat Valenciana
-  history: []
-  nob_verify: false
 ES521:
   name: Alicante / Alacant
   history: []
@@ -3414,10 +2710,6 @@ ES523:
   name: Valencia / València
   history: []
   nob_verify: false
-ES53:
-  name: Illes Balears
-  history: []
-  nob_verify: false
 ES531:
   name: Eivissa y Formentera
   history: []
@@ -3428,14 +2720,6 @@ ES532:
   nob_verify: false
 ES533:
   name: Menorca
-  history: []
-  nob_verify: false
-ES6:
-  name: Sur
-  history: []
-  nob_verify: false
-ES61:
-  name: Andalucía
   history: []
   nob_verify: false
 ES611:
@@ -3470,36 +2754,16 @@ ES618:
   name: Sevilla
   history: []
   nob_verify: false
-ES62:
-  name: Región de Murcia
-  history: []
-  nob_verify: false
 ES620:
   name: Murcia
-  history: []
-  nob_verify: false
-ES63:
-  name: Ciudad de Ceuta
   history: []
   nob_verify: false
 ES630:
   name: Ceuta
   history: []
   nob_verify: false
-ES64:
-  name: Ciudad de Melilla
-  history: []
-  nob_verify: false
 ES640:
   name: Melilla
-  history: []
-  nob_verify: false
-ES7:
-  name: Canarias
-  history: []
-  nob_verify: false
-ES70:
-  name: Canarias
   history: []
   nob_verify: false
 ES703:
@@ -3530,24 +2794,8 @@ ES709:
   name: Tenerife
   history: []
   nob_verify: false
-ESZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-ESZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 ESZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-FI1:
-  name: Manner-Suomi
-  history: []
-  nob_verify: false
-FI19:
-  name: Länsi-Suomi
   history: []
   nob_verify: false
 FI193:
@@ -3570,16 +2818,8 @@ FI197:
   name: Pirkanmaa
   history: []
   nob_verify: false
-FI1B:
-  name: Helsinki-Uusimaa
-  history: []
-  nob_verify: false
 FI1B1:
   name: Helsinki-Uusimaa
-  history: []
-  nob_verify: false
-FI1C:
-  name: Etelä-Suomi
   history: []
   nob_verify: false
 FI1C1:
@@ -3600,10 +2840,6 @@ FI1C4:
   nob_verify: false
 FI1C5:
   name: Etelä-Karjala
-  history: []
-  nob_verify: false
-FI1D:
-  name: Pohjois- ja Itä-Suomi
   history: []
   nob_verify: false
 FI1D1:
@@ -3634,36 +2870,12 @@ FI1D9:
   name: Pohjois-Pohjanmaa
   history: []
   nob_verify: false
-FI2:
-  name: Åland
-  history: []
-  nob_verify: false
-FI20:
-  name: Åland
-  history: []
-  nob_verify: false
 FI200:
   name: Åland
   history: []
   nob_verify: false
-FIZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-FIZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 FIZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-FR1:
-  name: Ile-de-France
-  history: []
-  nob_verify: false
-FR10:
-  name: Île de France
   history: []
   nob_verify: false
 FR101:
@@ -3698,14 +2910,6 @@ FR108:
   name: Val-d’Oise
   history: []
   nob_verify: false
-FRB:
-  name: Centre — Val de Loire
-  history: []
-  nob_verify: false
-FRB0:
-  name: Centre — Val de Loire
-  history: []
-  nob_verify: false
 FRB01:
   name: Cher
   history: []
@@ -3730,14 +2934,6 @@ FRB06:
   name: Loiret
   history: []
   nob_verify: false
-FRC:
-  name: Bourgogne-Franche-Comté
-  history: []
-  nob_verify: false
-FRC1:
-  name: Bourgogne
-  history: []
-  nob_verify: false
 FRC11:
   name: Côte-d’Or
   history: []
@@ -3752,10 +2948,6 @@ FRC13:
   nob_verify: false
 FRC14:
   name: Yonne
-  history: []
-  nob_verify: false
-FRC2:
-  name: Franche-Comté
   history: []
   nob_verify: false
 FRC21:
@@ -3774,14 +2966,6 @@ FRC24:
   name: Territoire de Belfort
   history: []
   nob_verify: false
-FRD:
-  name: Normandie
-  history: []
-  nob_verify: false
-FRD1:
-  name: Basse-Normandie
-  history: []
-  nob_verify: false
 FRD11:
   name: Calvados
   history: []
@@ -3794,10 +2978,6 @@ FRD13:
   name: Orne
   history: []
   nob_verify: false
-FRD2:
-  name: Haute-Normandie
-  history: []
-  nob_verify: false
 FRD21:
   name: Eure
   history: []
@@ -3806,24 +2986,12 @@ FRD22:
   name: Seine-Maritime
   history: []
   nob_verify: false
-FRE:
-  name: Hauts-de-France
-  history: []
-  nob_verify: false
-FRE1:
-  name: Nord-Pas de Calais
-  history: []
-  nob_verify: false
 FRE11:
   name: Nord
   history: []
   nob_verify: false
 FRE12:
   name: Pas-de-Calais
-  history: []
-  nob_verify: false
-FRE2:
-  name: Picardie
   history: []
   nob_verify: false
 FRE21:
@@ -3838,24 +3006,12 @@ FRE23:
   name: Somme
   history: []
   nob_verify: false
-FRF:
-  name: Grand Est
-  history: []
-  nob_verify: false
-FRF1:
-  name: Alsace
-  history: []
-  nob_verify: false
 FRF11:
   name: Bas-Rhin
   history: []
   nob_verify: false
 FRF12:
   name: Haut-Rhin
-  history: []
-  nob_verify: false
-FRF2:
-  name: Champagne-Ardenne
   history: []
   nob_verify: false
 FRF21:
@@ -3874,10 +3030,6 @@ FRF24:
   name: Haute-Marne
   history: []
   nob_verify: false
-FRF3:
-  name: Lorraine
-  history: []
-  nob_verify: false
 FRF31:
   name: Meurthe-et-Moselle
   history: []
@@ -3892,14 +3044,6 @@ FRF33:
   nob_verify: false
 FRF34:
   name: Vosges
-  history: []
-  nob_verify: false
-FRG:
-  name: Pays de la Loire
-  history: []
-  nob_verify: false
-FRG0:
-  name: Pays de la Loire
   history: []
   nob_verify: false
 FRG01:
@@ -3922,14 +3066,6 @@ FRG05:
   name: Vendée
   history: []
   nob_verify: false
-FRH:
-  name: Bretagne
-  history: []
-  nob_verify: false
-FRH0:
-  name: Bretagne
-  history: []
-  nob_verify: false
 FRH01:
   name: Côtes-d’Armor
   history: []
@@ -3944,14 +3080,6 @@ FRH03:
   nob_verify: false
 FRH04:
   name: Morbihan
-  history: []
-  nob_verify: false
-FRI:
-  name: Nouvelle-Aquitaine
-  history: []
-  nob_verify: false
-FRI1:
-  name: Aquitaine
   history: []
   nob_verify: false
 FRI11:
@@ -3974,10 +3102,6 @@ FRI15:
   name: Pyrénées-Atlantiques
   history: []
   nob_verify: false
-FRI2:
-  name: Limousin
-  history: []
-  nob_verify: false
 FRI21:
   name: Corrèze
   history: []
@@ -3988,10 +3112,6 @@ FRI22:
   nob_verify: false
 FRI23:
   name: Haute-Vienne
-  history: []
-  nob_verify: false
-FRI3:
-  name: Poitou-Charentes
   history: []
   nob_verify: false
 FRI31:
@@ -4008,14 +3128,6 @@ FRI33:
   nob_verify: false
 FRI34:
   name: Vienne
-  history: []
-  nob_verify: false
-FRJ:
-  name: Occitanie
-  history: []
-  nob_verify: false
-FRJ1:
-  name: Languedoc-Roussillon
   history: []
   nob_verify: false
 FRJ11:
@@ -4036,10 +3148,6 @@ FRJ14:
   nob_verify: false
 FRJ15:
   name: Pyrénées-Orientales
-  history: []
-  nob_verify: false
-FRJ2:
-  name: Midi-Pyrénées
   history: []
   nob_verify: false
 FRJ21:
@@ -4074,14 +3182,6 @@ FRJ28:
   name: Tarn-et-Garonne
   history: []
   nob_verify: false
-FRK:
-  name: Auvergne-Rhône-Alpes
-  history: []
-  nob_verify: false
-FRK1:
-  name: Auvergne
-  history: []
-  nob_verify: false
 FRK11:
   name: Allier
   history: []
@@ -4096,10 +3196,6 @@ FRK13:
   nob_verify: false
 FRK14:
   name: Puy-de-Dôme
-  history: []
-  nob_verify: false
-FRK2:
-  name: Rhône-Alpes
   history: []
   nob_verify: false
 FRK21:
@@ -4134,14 +3230,6 @@ FRK28:
   name: Haute-Savoie
   history: []
   nob_verify: false
-FRL:
-  name: Provence-Alpes-Côte d’Azur
-  history: []
-  nob_verify: false
-FRL0:
-  name: Provence-Alpes-Côte d’Azur
-  history: []
-  nob_verify: false
 FRL01:
   name: Alpes-de-Haute-Provence
   history: []
@@ -4166,14 +3254,6 @@ FRL06:
   name: Vaucluse
   history: []
   nob_verify: false
-FRM:
-  name: Corse
-  history: []
-  nob_verify: false
-FRM0:
-  name: Corse
-  history: []
-  nob_verify: false
 FRM01:
   name: Corse-du-Sud
   history: []
@@ -4182,68 +3262,28 @@ FRM02:
   name: Haute-Corse
   history: []
   nob_verify: false
-FRY:
-  name: RUP FR — Régions Ultrapériphériques Françaises
-  history: []
-  nob_verify: false
-FRY1:
-  name: Guadeloupe
-  history: []
-  nob_verify: false
 FRY10:
   name: Guadeloupe
-  history: []
-  nob_verify: false
-FRY2:
-  name: Martinique
   history: []
   nob_verify: false
 FRY20:
   name: Martinique
   history: []
   nob_verify: false
-FRY3:
-  name: Guyane
-  history: []
-  nob_verify: false
 FRY30:
   name: Guyane
-  history: []
-  nob_verify: false
-FRY4:
-  name: La Réunion
   history: []
   nob_verify: false
 FRY40:
   name: La Réunion
   history: []
   nob_verify: false
-FRY5:
-  name: Mayotte
-  history: []
-  nob_verify: false
 FRY50:
   name: Mayotte
   history: []
   nob_verify: false
-FRZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-FRZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 FRZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-HR0:
-  name: Hrvatska
-  history: []
-  nob_verify: false
-HR02:
-  name: Panonska Hrvatska
   history: []
   nob_verify: false
 HR021:
@@ -4278,10 +3318,6 @@ HR028:
   name: Sisačko-moslavačka županija
   history: []
   nob_verify: false
-HR03:
-  name: Jadranska Hrvatska
-  history: []
-  nob_verify: false
 HR031:
   name: Primorsko-goranska županija
   history: []
@@ -4310,16 +3346,8 @@ HR037:
   name: Dubrovačko-neretvanska županija
   history: []
   nob_verify: false
-HR05:
-  name: Grad Zagreb
-  history: []
-  nob_verify: false
 HR050:
   name: Grad Zagreb
-  history: []
-  nob_verify: false
-HR06:
-  name: Sjeverna Hrvatska
   history: []
   nob_verify: false
 HR061:
@@ -4342,44 +3370,16 @@ HR065:
   name: Zagrebačka županija
   history: []
   nob_verify: false
-HRZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-HRZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 HRZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-HU1:
-  name: Közép-Magyarország
-  history: []
-  nob_verify: false
-HU11:
-  name: Budapest
   history: []
   nob_verify: false
 HU110:
   name: Budapest
   history: []
   nob_verify: false
-HU12:
-  name: Pest
-  history: []
-  nob_verify: false
 HU120:
   name: Pest
-  history: []
-  nob_verify: false
-HU2:
-  name: Dunántúl
-  history: []
-  nob_verify: false
-HU21:
-  name: Közép-Dunántúl
   history: []
   nob_verify: false
 HU211:
@@ -4394,10 +3394,6 @@ HU213:
   name: Veszprém
   history: []
   nob_verify: false
-HU22:
-  name: Nyugat-Dunántúl
-  history: []
-  nob_verify: false
 HU221:
   name: Győr-Moson-Sopron
   history: []
@@ -4408,10 +3404,6 @@ HU222:
   nob_verify: false
 HU223:
   name: Zala
-  history: []
-  nob_verify: false
-HU23:
-  name: Dél-Dunántúl
   history: []
   nob_verify: false
 HU231:
@@ -4426,14 +3418,6 @@ HU233:
   name: Tolna
   history: []
   nob_verify: false
-HU3:
-  name: Alföld és Észak
-  history: []
-  nob_verify: false
-HU31:
-  name: Észak-Magyarország
-  history: []
-  nob_verify: false
 HU311:
   name: Borsod-Abaúj-Zemplén
   history: []
@@ -4444,10 +3428,6 @@ HU312:
   nob_verify: false
 HU313:
   name: Nógrád
-  history: []
-  nob_verify: false
-HU32:
-  name: Észak-Alföld
   history: []
   nob_verify: false
 HU321:
@@ -4462,10 +3442,6 @@ HU323:
   name: Szabolcs-Szatmár-Bereg
   history: []
   nob_verify: false
-HU33:
-  name: Dél-Alföld
-  history: []
-  nob_verify: false
 HU331:
   name: Bács-Kiskun
   history: []
@@ -4478,24 +3454,8 @@ HU333:
   name: Csongrád
   history: []
   nob_verify: false
-HUZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-HUZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 HUZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-IE0:
-  name: Ireland
-  history: []
-  nob_verify: false
-IE04:
-  name: Northern and Western
   history: []
   nob_verify: false
 IE041:
@@ -4504,10 +3464,6 @@ IE041:
   nob_verify: false
 IE042:
   name: West
-  history: []
-  nob_verify: false
-IE05:
-  name: Southern
   history: []
   nob_verify: false
 IE051:
@@ -4522,10 +3478,6 @@ IE053:
   name: South-West
   history: []
   nob_verify: false
-IE06:
-  name: Eastern and Midland
-  history: []
-  nob_verify: false
 IE061:
   name: Dublin
   history: []
@@ -4538,24 +3490,8 @@ IE063:
   name: Midland
   history: []
   nob_verify: false
-IEZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-IEZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 IEZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-IS0:
-  name: Ísland
-  history: []
-  nob_verify: false
-IS00:
-  name: Ísland
   history: []
   nob_verify: false
 IS001:
@@ -4566,24 +3502,8 @@ IS002:
   name: Landsbyggð
   history: []
   nob_verify: false
-ISZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-ISZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 ISZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-ITC:
-  name: Nord-Ovest
-  history: []
-  nob_verify: false
-ITC1:
-  name: Piemonte
   history: []
   nob_verify: false
 ITC11:
@@ -4618,16 +3538,8 @@ ITC18:
   name: Alessandria
   history: []
   nob_verify: false
-ITC2:
-  name: Valle d’Aosta/Vallée d’Aoste
-  history: []
-  nob_verify: false
 ITC20:
   name: Valle d’Aosta/Vallée d’Aoste
-  history: []
-  nob_verify: false
-ITC3:
-  name: Liguria
   history: []
   nob_verify: false
 ITC31:
@@ -4644,10 +3556,6 @@ ITC33:
   nob_verify: false
 ITC34:
   name: La Spezia
-  history: []
-  nob_verify: false
-ITC4:
-  name: Lombardia
   history: []
   nob_verify: false
 ITC41:
@@ -4698,14 +3606,6 @@ ITC4D:
   name: Monza e della Brianza
   history: []
   nob_verify: false
-ITF:
-  name: Sud
-  history: []
-  nob_verify: false
-ITF1:
-  name: Abruzzo
-  history: []
-  nob_verify: false
 ITF11:
   name: L’Aquila
   history: []
@@ -4722,20 +3622,12 @@ ITF14:
   name: Chieti
   history: []
   nob_verify: false
-ITF2:
-  name: Molise
-  history: []
-  nob_verify: false
 ITF21:
   name: Isernia
   history: []
   nob_verify: false
 ITF22:
   name: Campobasso
-  history: []
-  nob_verify: false
-ITF3:
-  name: Campania
   history: []
   nob_verify: false
 ITF31:
@@ -4756,10 +3648,6 @@ ITF34:
   nob_verify: false
 ITF35:
   name: Salerno
-  history: []
-  nob_verify: false
-ITF4:
-  name: Puglia
   history: []
   nob_verify: false
 ITF43:
@@ -4786,20 +3674,12 @@ ITF48:
   name: Barletta-Andria-Trani
   history: []
   nob_verify: false
-ITF5:
-  name: Basilicata
-  history: []
-  nob_verify: false
 ITF51:
   name: Potenza
   history: []
   nob_verify: false
 ITF52:
   name: Matera
-  history: []
-  nob_verify: false
-ITF6:
-  name: Calabria
   history: []
   nob_verify: false
 ITF61:
@@ -4820,14 +3700,6 @@ ITF64:
   nob_verify: false
 ITF65:
   name: Reggio di Calabria
-  history: []
-  nob_verify: false
-ITG:
-  name: Isole
-  history: []
-  nob_verify: false
-ITG1:
-  name: Sicilia
   history: []
   nob_verify: false
 ITG11:
@@ -4866,10 +3738,6 @@ ITG19:
   name: Siracusa
   history: []
   nob_verify: false
-ITG2:
-  name: Sardegna
-  history: []
-  nob_verify: false
 ITG2D:
   name: Sassari
   history: []
@@ -4890,28 +3758,12 @@ ITG2H:
   name: Sud Sardegna
   history: []
   nob_verify: false
-ITH:
-  name: Nord-Est
-  history: []
-  nob_verify: false
-ITH1:
-  name: Provincia Autonoma di Bolzano/Bozen
-  history: []
-  nob_verify: false
 ITH10:
   name: Bolzano-Bozen
   history: []
   nob_verify: false
-ITH2:
-  name: Provincia Autonoma di Trento
-  history: []
-  nob_verify: false
 ITH20:
   name: Trento
-  history: []
-  nob_verify: false
-ITH3:
-  name: Veneto
   history: []
   nob_verify: false
 ITH31:
@@ -4942,10 +3794,6 @@ ITH37:
   name: Rovigo
   history: []
   nob_verify: false
-ITH4:
-  name: Friuli-Venezia Giulia
-  history: []
-  nob_verify: false
 ITH41:
   name: Pordenone
   history: []
@@ -4960,10 +3808,6 @@ ITH43:
   nob_verify: false
 ITH44:
   name: Trieste
-  history: []
-  nob_verify: false
-ITH5:
-  name: Emilia-Romagna
   history: []
   nob_verify: false
 ITH51:
@@ -5000,14 +3844,6 @@ ITH58:
   nob_verify: false
 ITH59:
   name: Rimini
-  history: []
-  nob_verify: false
-ITI:
-  name: Centro (IT)
-  history: []
-  nob_verify: false
-ITI1:
-  name: Toscana
   history: []
   nob_verify: false
 ITI11:
@@ -5050,20 +3886,12 @@ ITI1A:
   name: Grosseto
   history: []
   nob_verify: false
-ITI2:
-  name: Umbria
-  history: []
-  nob_verify: false
 ITI21:
   name: Perugia
   history: []
   nob_verify: false
 ITI22:
   name: Terni
-  history: []
-  nob_verify: false
-ITI3:
-  name: Marche
   history: []
   nob_verify: false
 ITI31:
@@ -5086,10 +3914,6 @@ ITI35:
   name: Fermo
   history: []
   nob_verify: false
-ITI4:
-  name: Lazio
-  history: []
-  nob_verify: false
 ITI41:
   name: Viterbo
   history: []
@@ -5110,56 +3934,20 @@ ITI45:
   name: Frosinone
   history: []
   nob_verify: false
-ITZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-ITZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 ITZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-LI0:
-  name: Liechtenstein
-  history: []
-  nob_verify: false
-LI00:
-  name: Liechtenstein
   history: []
   nob_verify: false
 LI000:
   name: Liechtenstein
   history: []
   nob_verify: false
-LIZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-LIZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 LIZZZ:
   name: Extra-Regio NUTS 3
   history: []
   nob_verify: false
-LT0:
-  name: Lietuva
-  history: []
-  nob_verify: false
-LT01:
-  name: Sostinės regionas
-  history: []
-  nob_verify: false
 LT011:
   name: Vilniaus apskritis
-  history: []
-  nob_verify: false
-LT02:
-  name: Vidurio ir vakarų Lietuvos regionas
   history: []
   nob_verify: false
 LT021:
@@ -5198,48 +3986,16 @@ LT029:
   name: Utenos apskritis
   history: []
   nob_verify: false
-LTZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-LTZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 LTZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-LU0:
-  name: Luxembourg
-  history: []
-  nob_verify: false
-LU00:
-  name: Luxembourg
   history: []
   nob_verify: false
 LU000:
   name: Luxembourg
   history: []
   nob_verify: false
-LUZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-LUZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 LUZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-LV0:
-  name: Latvija
-  history: []
-  nob_verify: false
-LV00:
-  name: Latvija
   history: []
   nob_verify: false
 LV003:
@@ -5266,48 +4022,16 @@ LV009:
   name: Zemgale
   history: []
   nob_verify: false
-LVZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-LVZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 LVZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-ME0:
-  name: Црна Гора
-  history: []
-  nob_verify: false
-ME00:
-  name: Црна Гора
   history: []
   nob_verify: false
 ME000:
   name: Црна Гора
   history: []
   nob_verify: false
-MEZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-MEZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 MEZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-MK0:
-  name: Северна Македонија
-  history: []
-  nob_verify: false
-MK00:
-  name: Северна Македонија
   history: []
   nob_verify: false
 MK001:
@@ -5342,24 +4066,8 @@ MK008:
   name: Скопски
   history: []
   nob_verify: false
-MKZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-MKZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 MKZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-MT0:
-  name: Malta
-  history: []
-  nob_verify: false
-MT00:
-  name: Malta
   history: []
   nob_verify: false
 MT001:
@@ -5370,24 +4078,8 @@ MT002:
   name: Gozo and Comino / Għawdex u Kemmuna
   history: []
   nob_verify: false
-MTZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-MTZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 MTZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-NL1:
-  name: Noord-Nederland
-  history: []
-  nob_verify: false
-NL11:
-  name: Groningen
   history: []
   nob_verify: false
 NL111:
@@ -5402,10 +4094,6 @@ NL113:
   name: Overig Groningen
   history: []
   nob_verify: false
-NL12:
-  name: Friesland (NL)
-  history: []
-  nob_verify: false
 NL124:
   name: Noord-Friesland
   history: []
@@ -5416,10 +4104,6 @@ NL125:
   nob_verify: false
 NL126:
   name: Zuidoost-Friesland
-  history: []
-  nob_verify: false
-NL13:
-  name: Drenthe
   history: []
   nob_verify: false
 NL131:
@@ -5434,14 +4118,6 @@ NL133:
   name: Zuidwest-Drenthe
   history: []
   nob_verify: false
-NL2:
-  name: Oost-Nederland
-  history: []
-  nob_verify: false
-NL21:
-  name: Overijssel
-  history: []
-  nob_verify: false
 NL211:
   name: Noord-Overijssel
   history: []
@@ -5452,10 +4128,6 @@ NL212:
   nob_verify: false
 NL213:
   name: Twente
-  history: []
-  nob_verify: false
-NL22:
-  name: Gelderland
   history: []
   nob_verify: false
 NL221:
@@ -5474,28 +4146,12 @@ NL226:
   name: Arnhem/Nijmegen
   history: []
   nob_verify: false
-NL23:
-  name: Flevoland
-  history: []
-  nob_verify: false
 NL230:
   name: Flevoland
   history: []
   nob_verify: false
-NL3:
-  name: West-Nederland
-  history: []
-  nob_verify: false
-NL31:
-  name: Utrecht
-  history: []
-  nob_verify: false
 NL310:
   name: Utrecht
-  history: []
-  nob_verify: false
-NL32:
-  name: Noord-Holland
   history: []
   nob_verify: false
 NL321:
@@ -5526,10 +4182,6 @@ NL329:
   name: Groot-Amsterdam
   history: []
   nob_verify: false
-NL33:
-  name: Zuid-Holland
-  history: []
-  nob_verify: false
 NL332:
   name: Agglomeratie ’s-Gravenhage
   history: []
@@ -5554,24 +4206,12 @@ NL33C:
   name: Groot-Rijnmond
   history: []
   nob_verify: false
-NL34:
-  name: Zeeland
-  history: []
-  nob_verify: false
 NL341:
   name: Zeeuwsch-Vlaanderen
   history: []
   nob_verify: false
 NL342:
   name: Overig Zeeland
-  history: []
-  nob_verify: false
-NL4:
-  name: Zuid-Nederland
-  history: []
-  nob_verify: false
-NL41:
-  name: Noord-Brabant
   history: []
   nob_verify: false
 NL411:
@@ -5590,10 +4230,6 @@ NL414:
   name: Zuidoost-Noord-Brabant
   history: []
   nob_verify: false
-NL42:
-  name: Limburg (NL)
-  history: []
-  nob_verify: false
 NL421:
   name: Noord-Limburg
   history: []
@@ -5606,40 +4242,16 @@ NL423:
   name: Zuid-Limburg
   history: []
   nob_verify: false
-NLZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-NLZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 NLZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-NO0:
-  name: Norge
-  history: []
-  nob_verify: false
-NO02:
-  name: Innlandet
   history: []
   nob_verify: false
 NO020:
   name: Innlandet
   history: []
   nob_verify: false
-NO06:
-  name: Trøndelag
-  history: []
-  nob_verify: false
 NO060:
   name: Trøndelag
-  history: []
-  nob_verify: false
-NO07:
-  name: Nord-Norge
   history: []
   nob_verify: false
 NO071:
@@ -5650,10 +4262,6 @@ NO074:
   name: Troms og Finnmark
   history: []
   nob_verify: false
-NO08:
-  name: Oslo og Viken
-  history: []
-  nob_verify: false
 NO081:
   name: Oslo
   history: []
@@ -5662,20 +4270,12 @@ NO082:
   name: Viken
   history: []
   nob_verify: false
-NO09:
-  name: Agder og Sør-Østlandet
-  history: []
-  nob_verify: false
 NO091:
   name: Vestfold og Telemark
   history: []
   nob_verify: false
 NO092:
   name: Agder
-  history: []
-  nob_verify: false
-NO0A:
-  name: Vestlandet
   history: []
   nob_verify: false
 NO0A1:
@@ -5690,10 +4290,6 @@ NO0A3:
   name: Møre og Romsdal
   history: []
   nob_verify: false
-NO0B:
-  name: Svalbard og Jan Mayen
-  history: []
-  nob_verify: false
 NO0B1:
   name: Jan Mayen
   history: []
@@ -5702,24 +4298,8 @@ NO0B2:
   name: Svalbard
   history: []
   nob_verify: false
-NOZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-NOZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 NOZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-PL2:
-  name: Makroregion południowy
-  history: []
-  nob_verify: false
-PL21:
-  name: Małopolskie
   history: []
   nob_verify: false
 PL213:
@@ -5744,10 +4324,6 @@ PL219:
   nob_verify: false
 PL21A:
   name: Oświęcimski
-  history: []
-  nob_verify: false
-PL22:
-  name: Śląskie
   history: []
   nob_verify: false
 PL224:
@@ -5782,14 +4358,6 @@ PL22C:
   name: Tyski
   history: []
   nob_verify: false
-PL4:
-  name: Makroregion północno-zachodni
-  history: []
-  nob_verify: false
-PL41:
-  name: Wielkopolskie
-  history: []
-  nob_verify: false
 PL411:
   name: Pilski
   history: []
@@ -5814,10 +4382,6 @@ PL418:
   name: Poznański
   history: []
   nob_verify: false
-PL42:
-  name: Zachodniopomorskie
-  history: []
-  nob_verify: false
 PL424:
   name: Miasto Szczecin
   history: []
@@ -5834,24 +4398,12 @@ PL428:
   name: Szczeciński
   history: []
   nob_verify: false
-PL43:
-  name: Lubuskie
-  history: []
-  nob_verify: false
 PL431:
   name: Gorzowski
   history: []
   nob_verify: false
 PL432:
   name: Zielonogórski
-  history: []
-  nob_verify: false
-PL5:
-  name: Makroregion południowo-zachodni
-  history: []
-  nob_verify: false
-PL51:
-  name: Dolnośląskie
   history: []
   nob_verify: false
 PL514:
@@ -5874,24 +4426,12 @@ PL518:
   name: Wrocławski
   history: []
   nob_verify: false
-PL52:
-  name: Opolskie
-  history: []
-  nob_verify: false
 PL523:
   name: Nyski
   history: []
   nob_verify: false
 PL524:
   name: Opolski
-  history: []
-  nob_verify: false
-PL6:
-  name: Makroregion północny
-  history: []
-  nob_verify: false
-PL61:
-  name: Kujawsko-Pomorskie
   history: []
   nob_verify: false
 PL613:
@@ -5914,10 +4454,6 @@ PL619:
   name: Włocławski
   history: []
   nob_verify: false
-PL62:
-  name: Warmińsko-Mazurskie
-  history: []
-  nob_verify: false
 PL621:
   name: Elbląski
   history: []
@@ -5928,10 +4464,6 @@ PL622:
   nob_verify: false
 PL623:
   name: Ełcki
-  history: []
-  nob_verify: false
-PL63:
-  name: Pomorskie
   history: []
   nob_verify: false
 PL633:
@@ -5954,14 +4486,6 @@ PL638:
   name: Starogardzki
   history: []
   nob_verify: false
-PL7:
-  name: Makroregion centralny
-  history: []
-  nob_verify: false
-PL71:
-  name: Łódzkie
-  history: []
-  nob_verify: false
 PL711:
   name: Miasto Łódź
   history: []
@@ -5982,24 +4506,12 @@ PL715:
   name: Skierniewicki
   history: []
   nob_verify: false
-PL72:
-  name: Świętokrzyskie
-  history: []
-  nob_verify: false
 PL721:
   name: Kielecki
   history: []
   nob_verify: false
 PL722:
   name: Sandomiersko-jędrzejowski
-  history: []
-  nob_verify: false
-PL8:
-  name: Makroregion wschodni
-  history: []
-  nob_verify: false
-PL81:
-  name: Lubelskie
   history: []
   nob_verify: false
 PL811:
@@ -6018,10 +4530,6 @@ PL815:
   name: Puławski
   history: []
   nob_verify: false
-PL82:
-  name: Podkarpackie
-  history: []
-  nob_verify: false
 PL821:
   name: Krośnieński
   history: []
@@ -6038,10 +4546,6 @@ PL824:
   name: Tarnobrzeski
   history: []
   nob_verify: false
-PL84:
-  name: Podlaskie
-  history: []
-  nob_verify: false
 PL841:
   name: Białostocki
   history: []
@@ -6054,14 +4558,6 @@ PL843:
   name: Suwalski
   history: []
   nob_verify: false
-PL9:
-  name: Makroregion województwo mazowieckie
-  history: []
-  nob_verify: false
-PL91:
-  name: Warszawski stołeczny
-  history: []
-  nob_verify: false
 PL911:
   name: Miasto Warszawa
   history: []
@@ -6072,10 +4568,6 @@ PL912:
   nob_verify: false
 PL913:
   name: Warszawski zachodni
-  history: []
-  nob_verify: false
-PL92:
-  name: Mazowiecki regionalny
   history: []
   nob_verify: false
 PL921:
@@ -6102,24 +4594,8 @@ PL926:
   name: Żyrardowski
   history: []
   nob_verify: false
-PLZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-PLZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 PLZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-PT1:
-  name: Continente
-  history: []
-  nob_verify: false
-PT11:
-  name: Norte
   history: []
   nob_verify: false
 PT111:
@@ -6154,16 +4630,8 @@ PT11E:
   name: Terras de Trás-os-Montes
   history: []
   nob_verify: false
-PT15:
-  name: Algarve
-  history: []
-  nob_verify: false
 PT150:
   name: Algarve
-  history: []
-  nob_verify: false
-PT16:
-  name: Centro (PT)
   history: []
   nob_verify: false
 PT16B:
@@ -6198,16 +4666,8 @@ PT16J:
   name: Beiras e Serra da Estrela
   history: []
   nob_verify: false
-PT17:
-  name: Área Metropolitana de Lisboa
-  history: []
-  nob_verify: false
 PT170:
   name: Área Metropolitana de Lisboa
-  history: []
-  nob_verify: false
-PT18:
-  name: Alentejo
   history: []
   nob_verify: false
 PT181:
@@ -6230,48 +4690,16 @@ PT187:
   name: Alentejo Central
   history: []
   nob_verify: false
-PT2:
-  name: Região Autónoma dos Açores
-  history: []
-  nob_verify: false
-PT20:
-  name: Região Autónoma dos Açores
-  history: []
-  nob_verify: false
 PT200:
   name: Região Autónoma dos Açores
-  history: []
-  nob_verify: false
-PT3:
-  name: Região Autónoma da Madeira
-  history: []
-  nob_verify: false
-PT30:
-  name: Região Autónoma da Madeira
   history: []
   nob_verify: false
 PT300:
   name: Região Autónoma da Madeira
   history: []
   nob_verify: false
-PTZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-PTZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 PTZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-RO1:
-  name: Macroregiunea Unu
-  history: []
-  nob_verify: false
-RO11:
-  name: Nord-Vest
   history: []
   nob_verify: false
 RO111:
@@ -6298,10 +4726,6 @@ RO116:
   name: Sălaj
   history: []
   nob_verify: false
-RO12:
-  name: Centru
-  history: []
-  nob_verify: false
 RO121:
   name: Alba
   history: []
@@ -6324,14 +4748,6 @@ RO125:
   nob_verify: false
 RO126:
   name: Sibiu
-  history: []
-  nob_verify: false
-RO2:
-  name: Macroregiunea Doi
-  history: []
-  nob_verify: false
-RO21:
-  name: Nord-Est
   history: []
   nob_verify: false
 RO211:
@@ -6358,10 +4774,6 @@ RO216:
   name: Vaslui
   history: []
   nob_verify: false
-RO22:
-  name: Sud-Est
-  history: []
-  nob_verify: false
 RO221:
   name: Brăila
   history: []
@@ -6384,14 +4796,6 @@ RO225:
   nob_verify: false
 RO226:
   name: Vrancea
-  history: []
-  nob_verify: false
-RO3:
-  name: Macroregiunea Trei
-  history: []
-  nob_verify: false
-RO31:
-  name: Sud-Muntenia
   history: []
   nob_verify: false
 RO311:
@@ -6422,24 +4826,12 @@ RO317:
   name: Teleorman
   history: []
   nob_verify: false
-RO32:
-  name: Bucureşti-Ilfov
-  history: []
-  nob_verify: false
 RO321:
   name: Bucureşti
   history: []
   nob_verify: false
 RO322:
   name: Ilfov
-  history: []
-  nob_verify: false
-RO4:
-  name: Macroregiunea Patru
-  history: []
-  nob_verify: false
-RO41:
-  name: Sud-Vest Oltenia
   history: []
   nob_verify: false
 RO411:
@@ -6462,10 +4854,6 @@ RO415:
   name: Vâlcea
   history: []
   nob_verify: false
-RO42:
-  name: Vest
-  history: []
-  nob_verify: false
 RO421:
   name: Arad
   history: []
@@ -6482,32 +4870,12 @@ RO424:
   name: Timiş
   history: []
   nob_verify: false
-ROZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-ROZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 ROZZZ:
   name: Extra-Regio NUTS 3
   history: []
   nob_verify: false
-RS1:
-  name: Србија - север
-  history: []
-  nob_verify: false
-RS11:
-  name: Београдски регион
-  history: []
-  nob_verify: false
 RS110:
   name: Београдска област
-  history: []
-  nob_verify: false
-RS12:
-  name: Регион Војводине
   history: []
   nob_verify: false
 RS121:
@@ -6536,14 +4904,6 @@ RS126:
   nob_verify: false
 RS127:
   name: Сремска област
-  history: []
-  nob_verify: false
-RS2:
-  name: Србија - југ
-  history: []
-  nob_verify: false
-RS21:
-  name: Регион Шумадије и Западне Србије
   history: []
   nob_verify: false
 RS211:
@@ -6576,10 +4936,6 @@ RS217:
   nob_verify: false
 RS218:
   name: Шумадијска област
-  history: []
-  nob_verify: false
-RS22:
-  name: Регион Јужне и Источне Србије
   history: []
   nob_verify: false
 RS221:
@@ -6618,32 +4974,12 @@ RS229:
   name: Топличка област
   history: []
   nob_verify: false
-RSZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-RSZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 RSZZZ:
   name: Extra-Regio NUTS 3
   history: []
   nob_verify: false
-SE1:
-  name: Östra Sverige
-  history: []
-  nob_verify: false
-SE11:
-  name: Stockholm
-  history: []
-  nob_verify: false
 SE110:
   name: Stockholms län
-  history: []
-  nob_verify: false
-SE12:
-  name: Östra Mellansverige
   history: []
   nob_verify: false
 SE121:
@@ -6666,14 +5002,6 @@ SE125:
   name: Västmanlands län
   history: []
   nob_verify: false
-SE2:
-  name: Södra Sverige
-  history: []
-  nob_verify: false
-SE21:
-  name: Småland med öarna
-  history: []
-  nob_verify: false
 SE211:
   name: Jönköpings län
   history: []
@@ -6690,10 +5018,6 @@ SE214:
   name: Gotlands län
   history: []
   nob_verify: false
-SE22:
-  name: Sydsverige
-  history: []
-  nob_verify: false
 SE221:
   name: Blekinge län
   history: []
@@ -6702,24 +5026,12 @@ SE224:
   name: Skåne län
   history: []
   nob_verify: false
-SE23:
-  name: Västsverige
-  history: []
-  nob_verify: false
 SE231:
   name: Hallands län
   history: []
   nob_verify: false
 SE232:
   name: Västra Götalands län
-  history: []
-  nob_verify: false
-SE3:
-  name: Norra Sverige
-  history: []
-  nob_verify: false
-SE31:
-  name: Norra Mellansverige
   history: []
   nob_verify: false
 SE311:
@@ -6734,20 +5046,12 @@ SE313:
   name: Gävleborgs län
   history: []
   nob_verify: false
-SE32:
-  name: Mellersta Norrland
-  history: []
-  nob_verify: false
 SE321:
   name: Västernorrlands län
   history: []
   nob_verify: false
 SE322:
   name: Jämtlands län
-  history: []
-  nob_verify: false
-SE33:
-  name: Övre Norrland
   history: []
   nob_verify: false
 SE331:
@@ -6758,24 +5062,8 @@ SE332:
   name: Norrbottens län
   history: []
   nob_verify: false
-SEZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-SEZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 SEZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-SI0:
-  name: Slovenija
-  history: []
-  nob_verify: false
-SI03:
-  name: Vzhodna Slovenija
   history: []
   nob_verify: false
 SI031:
@@ -6810,10 +5098,6 @@ SI038:
   name: Primorsko-notranjska
   history: []
   nob_verify: false
-SI04:
-  name: Zahodna Slovenija
-  history: []
-  nob_verify: false
 SI041:
   name: Osrednjeslovenska
   history: []
@@ -6830,32 +5114,12 @@ SI044:
   name: Obalno-kraška
   history: []
   nob_verify: false
-SIZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-SIZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 SIZZZ:
   name: Extra-Regio NUTS 3
   history: []
   nob_verify: false
-SK0:
-  name: Slovensko
-  history: []
-  nob_verify: false
-SK01:
-  name: Bratislavský kraj
-  history: []
-  nob_verify: false
 SK010:
   name: Bratislavský kraj
-  history: []
-  nob_verify: false
-SK02:
-  name: Západné Slovensko
   history: []
   nob_verify: false
 SK021:
@@ -6870,20 +5134,12 @@ SK023:
   name: Nitriansky kraj
   history: []
   nob_verify: false
-SK03:
-  name: Stredné Slovensko
-  history: []
-  nob_verify: false
 SK031:
   name: Žilinský kraj
   history: []
   nob_verify: false
 SK032:
   name: Banskobystrický kraj
-  history: []
-  nob_verify: false
-SK04:
-  name: Východné Slovensko
   history: []
   nob_verify: false
 SK041:
@@ -6894,36 +5150,12 @@ SK042:
   name: Košický kraj
   history: []
   nob_verify: false
-SKZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-SKZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 SKZZZ:
   name: Extra-Regio NUTS 3
   history: []
   nob_verify: false
-TR1:
-  name: İstanbul
-  history: []
-  nob_verify: false
-TR10:
-  name: İstanbul
-  history: []
-  nob_verify: false
 TR100:
   name: İstanbul
-  history: []
-  nob_verify: false
-TR2:
-  name: Batı Marmara
-  history: []
-  nob_verify: false
-TR21:
-  name: Tekirdağ, Edirne, Kırklareli
   history: []
   nob_verify: false
 TR211:
@@ -6938,10 +5170,6 @@ TR213:
   name: Kırklareli
   history: []
   nob_verify: false
-TR22:
-  name: Balıkesir, Çanakkale
-  history: []
-  nob_verify: false
 TR221:
   name: Balıkesir
   history: []
@@ -6950,20 +5178,8 @@ TR222:
   name: Çanakkale
   history: []
   nob_verify: false
-TR3:
-  name: Ege
-  history: []
-  nob_verify: false
-TR31:
-  name: İzmir
-  history: []
-  nob_verify: false
 TR310:
   name: İzmir
-  history: []
-  nob_verify: false
-TR32:
-  name: Aydın, Denizli, Muğla
   history: []
   nob_verify: false
 TR321:
@@ -6976,10 +5192,6 @@ TR322:
   nob_verify: false
 TR323:
   name: Muğla
-  history: []
-  nob_verify: false
-TR33:
-  name: Manisa, Afyonkarahisar, Kütahya, Uşak
   history: []
   nob_verify: false
 TR331:
@@ -6998,14 +5210,6 @@ TR334:
   name: Uşak
   history: []
   nob_verify: false
-TR4:
-  name: Doğu Marmara
-  history: []
-  nob_verify: false
-TR41:
-  name: Bursa, Eskişehir, Bilecik
-  history: []
-  nob_verify: false
 TR411:
   name: Bursa
   history: []
@@ -7016,10 +5220,6 @@ TR412:
   nob_verify: false
 TR413:
   name: Bilecik
-  history: []
-  nob_verify: false
-TR42:
-  name: Kocaeli, Sakarya, Düzce, Bolu, Yalova
   history: []
   nob_verify: false
 TR421:
@@ -7042,20 +5242,8 @@ TR425:
   name: Yalova
   history: []
   nob_verify: false
-TR5:
-  name: Batı Anadolu
-  history: []
-  nob_verify: false
-TR51:
-  name: Ankara
-  history: []
-  nob_verify: false
 TR510:
   name: Ankara
-  history: []
-  nob_verify: false
-TR52:
-  name: Konya, Karaman
   history: []
   nob_verify: false
 TR521:
@@ -7064,14 +5252,6 @@ TR521:
   nob_verify: false
 TR522:
   name: Karaman
-  history: []
-  nob_verify: false
-TR6:
-  name: Akdeniz
-  history: []
-  nob_verify: false
-TR61:
-  name: Antalya, Isparta, Burdur
   history: []
   nob_verify: false
 TR611:
@@ -7086,20 +5266,12 @@ TR613:
   name: Burdur
   history: []
   nob_verify: false
-TR62:
-  name: Adana, Mersin
-  history: []
-  nob_verify: false
 TR621:
   name: Adana
   history: []
   nob_verify: false
 TR622:
   name: Mersin
-  history: []
-  nob_verify: false
-TR63:
-  name: Hatay, Kahramanmaraş, Osmaniye
   history: []
   nob_verify: false
 TR631:
@@ -7112,14 +5284,6 @@ TR632:
   nob_verify: false
 TR633:
   name: Osmaniye
-  history: []
-  nob_verify: false
-TR7:
-  name: Orta Anadolu
-  history: []
-  nob_verify: false
-TR71:
-  name: Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir
   history: []
   nob_verify: false
 TR711:
@@ -7142,10 +5306,6 @@ TR715:
   name: Kırşehir
   history: []
   nob_verify: false
-TR72:
-  name: Kayseri, Sivas, Yozgat
-  history: []
-  nob_verify: false
 TR721:
   name: Kayseri
   history: []
@@ -7156,14 +5316,6 @@ TR722:
   nob_verify: false
 TR723:
   name: Yozgat
-  history: []
-  nob_verify: false
-TR8:
-  name: Batı Karadeniz
-  history: []
-  nob_verify: false
-TR81:
-  name: Zonguldak, Karabük, Bartın
   history: []
   nob_verify: false
 TR811:
@@ -7178,10 +5330,6 @@ TR813:
   name: Bartın
   history: []
   nob_verify: false
-TR82:
-  name: Kastamonu, Çankırı, Sinop
-  history: []
-  nob_verify: false
 TR821:
   name: Kastamonu
   history: []
@@ -7192,10 +5340,6 @@ TR822:
   nob_verify: false
 TR823:
   name: Sinop
-  history: []
-  nob_verify: false
-TR83:
-  name: Samsun, Tokat, Çorum, Amasya
   history: []
   nob_verify: false
 TR831:
@@ -7212,14 +5356,6 @@ TR833:
   nob_verify: false
 TR834:
   name: Amasya
-  history: []
-  nob_verify: false
-TR9:
-  name: Doğu Karadeniz
-  history: []
-  nob_verify: false
-TR90:
-  name: Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane
   history: []
   nob_verify: false
 TR901:
@@ -7246,14 +5382,6 @@ TR906:
   name: Gümüşhane
   history: []
   nob_verify: false
-TRA:
-  name: Kuzeydoğu Anadolu
-  history: []
-  nob_verify: false
-TRA1:
-  name: Erzurum, Erzincan, Bayburt
-  history: []
-  nob_verify: false
 TRA11:
   name: Erzurum
   history: []
@@ -7264,10 +5392,6 @@ TRA12:
   nob_verify: false
 TRA13:
   name: Bayburt
-  history: []
-  nob_verify: false
-TRA2:
-  name: Ağrı, Kars, Iğdır, Ardahan
   history: []
   nob_verify: false
 TRA21:
@@ -7286,14 +5410,6 @@ TRA24:
   name: Ardahan
   history: []
   nob_verify: false
-TRB:
-  name: Ortadoğu Anadolu
-  history: []
-  nob_verify: false
-TRB1:
-  name: Malatya, Elazığ, Bingöl, Tunceli
-  history: []
-  nob_verify: false
 TRB11:
   name: Malatya
   history: []
@@ -7308,10 +5424,6 @@ TRB13:
   nob_verify: false
 TRB14:
   name: Tunceli
-  history: []
-  nob_verify: false
-TRB2:
-  name: Van, Muş, Bitlis, Hakkari
   history: []
   nob_verify: false
 TRB21:
@@ -7330,14 +5442,6 @@ TRB24:
   name: Hakkari
   history: []
   nob_verify: false
-TRC:
-  name: Güneydoğu Anadolu
-  history: []
-  nob_verify: false
-TRC1:
-  name: Gaziantep, Adıyaman, Kilis
-  history: []
-  nob_verify: false
 TRC11:
   name: Gaziantep
   history: []
@@ -7350,20 +5454,12 @@ TRC13:
   name: Kilis
   history: []
   nob_verify: false
-TRC2:
-  name: Şanlıurfa, Diyarbakır
-  history: []
-  nob_verify: false
 TRC21:
   name: Şanlıurfa
   history: []
   nob_verify: false
 TRC22:
   name: Diyarbakır
-  history: []
-  nob_verify: false
-TRC3:
-  name: Mardin, Batman, Şırnak, Siirt
   history: []
   nob_verify: false
 TRC31:
@@ -7382,24 +5478,8 @@ TRC34:
   name: Siirt
   history: []
   nob_verify: false
-TRZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-TRZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 TRZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-UKC:
-  name: North East (England)
-  history: []
-  nob_verify: false
-UKC1:
-  name: Tees Valley and Durham
   history: []
   nob_verify: false
 UKC11:
@@ -7418,10 +5498,6 @@ UKC14:
   name: Durham CC
   history: []
   nob_verify: false
-UKC2:
-  name: Northumberland and Tyne and Wear
-  history: []
-  nob_verify: false
 UKC21:
   name: Northumberland
   history: []
@@ -7434,24 +5510,12 @@ UKC23:
   name: Sunderland
   history: []
   nob_verify: false
-UKD:
-  name: North West (England)
-  history: []
-  nob_verify: false
-UKD1:
-  name: Cumbria
-  history: []
-  nob_verify: false
 UKD11:
   name: West Cumbria
   history: []
   nob_verify: false
 UKD12:
   name: East Cumbria
-  history: []
-  nob_verify: false
-UKD3:
-  name: Greater Manchester
   history: []
   nob_verify: false
 UKD33:
@@ -7472,10 +5536,6 @@ UKD36:
   nob_verify: false
 UKD37:
   name: Greater Manchester North East
-  history: []
-  nob_verify: false
-UKD4:
-  name: Lancashire
   history: []
   nob_verify: false
 UKD41:
@@ -7502,10 +5562,6 @@ UKD47:
   name: Chorley and West Lancashire
   history: []
   nob_verify: false
-UKD6:
-  name: Cheshire
-  history: []
-  nob_verify: false
 UKD61:
   name: Warrington
   history: []
@@ -7516,10 +5572,6 @@ UKD62:
   nob_verify: false
 UKD63:
   name: Cheshire West and Chester
-  history: []
-  nob_verify: false
-UKD7:
-  name: Merseyside
   history: []
   nob_verify: false
 UKD71:
@@ -7538,14 +5590,6 @@ UKD74:
   name: Wirral
   history: []
   nob_verify: false
-UKE:
-  name: Yorkshire and the Humber
-  history: []
-  nob_verify: false
-UKE1:
-  name: East Yorkshire and Northern Lincolnshire
-  history: []
-  nob_verify: false
 UKE11:
   name: Kingston upon Hull, City of
   history: []
@@ -7558,10 +5602,6 @@ UKE13:
   name: North and North East Lincolnshire
   history: []
   nob_verify: false
-UKE2:
-  name: North Yorkshire
-  history: []
-  nob_verify: false
 UKE21:
   name: York
   history: []
@@ -7570,20 +5610,12 @@ UKE22:
   name: North Yorkshire CC
   history: []
   nob_verify: false
-UKE3:
-  name: South Yorkshire
-  history: []
-  nob_verify: false
 UKE31:
   name: Barnsley, Doncaster and Rotherham
   history: []
   nob_verify: false
 UKE32:
   name: Sheffield
-  history: []
-  nob_verify: false
-UKE4:
-  name: West Yorkshire
   history: []
   nob_verify: false
 UKE41:
@@ -7600,14 +5632,6 @@ UKE44:
   nob_verify: false
 UKE45:
   name: Wakefield
-  history: []
-  nob_verify: false
-UKF:
-  name: East Midlands (England)
-  history: []
-  nob_verify: false
-UKF1:
-  name: Derbyshire and Nottinghamshire
   history: []
   nob_verify: false
 UKF11:
@@ -7634,10 +5658,6 @@ UKF16:
   name: South Nottinghamshire
   history: []
   nob_verify: false
-UKF2:
-  name: Leicestershire, Rutland and Northamptonshire
-  history: []
-  nob_verify: false
 UKF21:
   name: Leicester
   history: []
@@ -7654,20 +5674,8 @@ UKF25:
   name: North Northamptonshire
   history: []
   nob_verify: false
-UKF3:
-  name: Lincolnshire
-  history: []
-  nob_verify: false
 UKF30:
   name: Lincolnshire
-  history: []
-  nob_verify: false
-UKG:
-  name: West Midlands (England)
-  history: []
-  nob_verify: false
-UKG1:
-  name: Herefordshire, Worcestershire and Warwickshire
   history: []
   nob_verify: false
 UKG11:
@@ -7680,10 +5688,6 @@ UKG12:
   nob_verify: false
 UKG13:
   name: Warwickshire
-  history: []
-  nob_verify: false
-UKG2:
-  name: Shropshire and Staffordshire
   history: []
   nob_verify: false
 UKG21:
@@ -7700,10 +5704,6 @@ UKG23:
   nob_verify: false
 UKG24:
   name: Staffordshire CC
-  history: []
-  nob_verify: false
-UKG3:
-  name: West Midlands
   history: []
   nob_verify: false
 UKG31:
@@ -7734,14 +5734,6 @@ UKG39:
   name: Wolverhampton
   history: []
   nob_verify: false
-UKH:
-  name: East of England
-  history: []
-  nob_verify: false
-UKH1:
-  name: East Anglia
-  history: []
-  nob_verify: false
 UKH11:
   name: Peterborough
   history: []
@@ -7766,10 +5758,6 @@ UKH17:
   name: Breckland and South Norfolk
   history: []
   nob_verify: false
-UKH2:
-  name: Bedfordshire and Hertfordshire
-  history: []
-  nob_verify: false
 UKH21:
   name: Luton
   history: []
@@ -7784,10 +5772,6 @@ UKH24:
   nob_verify: false
 UKH25:
   name: Central Bedfordshire
-  history: []
-  nob_verify: false
-UKH3:
-  name: Essex
   history: []
   nob_verify: false
 UKH31:
@@ -7814,14 +5798,6 @@ UKH37:
   name: Essex Thames Gateway
   history: []
   nob_verify: false
-UKI:
-  name: London
-  history: []
-  nob_verify: false
-UKI3:
-  name: Inner London - West
-  history: []
-  nob_verify: false
 UKI31:
   name: Camden and City of London
   history: []
@@ -7836,10 +5812,6 @@ UKI33:
   nob_verify: false
 UKI34:
   name: Wandsworth
-  history: []
-  nob_verify: false
-UKI4:
-  name: Inner London - East
   history: []
   nob_verify: false
 UKI41:
@@ -7862,10 +5834,6 @@ UKI45:
   name: Lambeth
   history: []
   nob_verify: false
-UKI5:
-  name: Outer London - East and North East
-  history: []
-  nob_verify: false
 UKI51:
   name: Bexley and Greenwich
   history: []
@@ -7882,10 +5850,6 @@ UKI54:
   name: Enfield
   history: []
   nob_verify: false
-UKI6:
-  name: Outer London - South
-  history: []
-  nob_verify: false
 UKI61:
   name: Bromley
   history: []
@@ -7896,10 +5860,6 @@ UKI62:
   nob_verify: false
 UKI63:
   name: Merton, Kingston upon Thames and Sutton
-  history: []
-  nob_verify: false
-UKI7:
-  name: Outer London - West and North West
   history: []
   nob_verify: false
 UKI71:
@@ -7922,14 +5882,6 @@ UKI75:
   name: Hounslow and Richmond upon Thames
   history: []
   nob_verify: false
-UKJ:
-  name: South East (England)
-  history: []
-  nob_verify: false
-UKJ1:
-  name: Berkshire, Buckinghamshire and Oxfordshire
-  history: []
-  nob_verify: false
 UKJ11:
   name: Berkshire
   history: []
@@ -7944,10 +5896,6 @@ UKJ13:
   nob_verify: false
 UKJ14:
   name: Oxfordshire
-  history: []
-  nob_verify: false
-UKJ2:
-  name: Surrey, East and West Sussex
   history: []
   nob_verify: false
 UKJ21:
@@ -7974,10 +5922,6 @@ UKJ28:
   name: West Sussex (North East)
   history: []
   nob_verify: false
-UKJ3:
-  name: Hampshire and Isle of Wight
-  history: []
-  nob_verify: false
 UKJ31:
   name: Portsmouth
   history: []
@@ -8002,10 +5946,6 @@ UKJ37:
   name: North Hampshire
   history: []
   nob_verify: false
-UKJ4:
-  name: Kent
-  history: []
-  nob_verify: false
 UKJ41:
   name: Medway
   history: []
@@ -8024,14 +5964,6 @@ UKJ45:
   nob_verify: false
 UKJ46:
   name: West Kent
-  history: []
-  nob_verify: false
-UKK:
-  name: South West (England)
-  history: []
-  nob_verify: false
-UKK1:
-  name: Gloucestershire, Wiltshire and Bristol/Bath area
   history: []
   nob_verify: false
 UKK11:
@@ -8054,10 +5986,6 @@ UKK15:
   name: Wiltshire CC
   history: []
   nob_verify: false
-UKK2:
-  name: Dorset and Somerset
-  history: []
-  nob_verify: false
 UKK23:
   name: Somerset
   history: []
@@ -8070,16 +5998,8 @@ UKK25:
   name: Dorset
   history: []
   nob_verify: false
-UKK3:
-  name: Cornwall and Isles of Scilly
-  history: []
-  nob_verify: false
 UKK30:
   name: Cornwall and Isles of Scilly
-  history: []
-  nob_verify: false
-UKK4:
-  name: Devon
   history: []
   nob_verify: false
 UKK41:
@@ -8092,14 +6012,6 @@ UKK42:
   nob_verify: false
 UKK43:
   name: Devon CC
-  history: []
-  nob_verify: false
-UKL:
-  name: Wales
-  history: []
-  nob_verify: false
-UKL1:
-  name: West Wales and The Valleys
   history: []
   nob_verify: false
 UKL11:
@@ -8134,10 +6046,6 @@ UKL18:
   name: Swansea
   history: []
   nob_verify: false
-UKL2:
-  name: East Wales
-  history: []
-  nob_verify: false
 UKL21:
   name: Monmouthshire and Newport
   history: []
@@ -8154,20 +6062,8 @@ UKL24:
   name: Powys
   history: []
   nob_verify: false
-UKM:
-  name: Scotland
-  history: []
-  nob_verify: false
-UKM5:
-  name: North Eastern Scotland
-  history: []
-  nob_verify: false
 UKM50:
   name: Aberdeen City and Aberdeenshire
-  history: []
-  nob_verify: false
-UKM6:
-  name: Highlands and Islands
   history: []
   nob_verify: false
 UKM61:
@@ -8192,10 +6088,6 @@ UKM65:
   nob_verify: false
 UKM66:
   name: Shetland Islands
-  history: []
-  nob_verify: false
-UKM7:
-  name: Eastern Scotland
   history: []
   nob_verify: false
 UKM71:
@@ -8226,10 +6118,6 @@ UKM78:
   name: West Lothian
   history: []
   nob_verify: false
-UKM8:
-  name: West Central Scotland
-  history: []
-  nob_verify: false
 UKM81:
   name: East Dunbartonshire, West Dunbartonshire and Helensburgh &amp; Lomond
   history: []
@@ -8244,10 +6132,6 @@ UKM83:
   nob_verify: false
 UKM84:
   name: North Lanarkshire
-  history: []
-  nob_verify: false
-UKM9:
-  name: Southern Scotland
   history: []
   nob_verify: false
 UKM91:
@@ -8268,14 +6152,6 @@ UKM94:
   nob_verify: false
 UKM95:
   name: South Lanarkshire
-  history: []
-  nob_verify: false
-UKN:
-  name: Northern Ireland
-  history: []
-  nob_verify: false
-UKN0:
-  name: Northern Ireland
   history: []
   nob_verify: false
 UKN06:
@@ -8322,163 +6198,7 @@ UKN0G:
   name: Fermanagh and Omagh
   history: []
   nob_verify: false
-UKZ:
-  name: Extra-Regio NUTS 1
-  history: []
-  nob_verify: false
-UKZZ:
-  name: Extra-Regio NUTS 2
-  history: []
-  nob_verify: false
 UKZZZ:
   name: Extra-Regio NUTS 3
-  history: []
-  nob_verify: false
-AL:
-  name: Shqipëria
-  history: []
-  nob_verify: false
-AT:
-  name: Österreich
-  history: []
-  nob_verify: false
-BE:
-  name: Belgique/België
-  history: []
-  nob_verify: false
-BG:
-  name: България
-  history: []
-  nob_verify: false
-CH:
-  name: Schweiz/Suisse/Svizzera
-  history: []
-  nob_verify: false
-CY:
-  name: Κύπρος
-  history: []
-  nob_verify: false
-CZ:
-  name: Česko
-  history: []
-  nob_verify: false
-DE:
-  name: Deutschland
-  history: []
-  nob_verify: false
-DK:
-  name: Danmark
-  history: []
-  nob_verify: false
-EE:
-  name: Eesti
-  history: []
-  nob_verify: false
-EL:
-  name: Ελλάδα
-  history: []
-  nob_verify: false
-ES:
-  name: España
-  history: []
-  nob_verify: false
-FI:
-  name: Suomi/Finland
-  history: []
-  nob_verify: false
-FR:
-  name: France
-  history: []
-  nob_verify: false
-HR:
-  name: Hrvatska
-  history: []
-  nob_verify: false
-HU:
-  name: Magyarország
-  history: []
-  nob_verify: false
-IE:
-  name: Éire/Ireland
-  history: []
-  nob_verify: false
-IS:
-  name: Ísland
-  history: []
-  nob_verify: false
-IT:
-  name: Italia
-  history: []
-  nob_verify: false
-LI:
-  name: Liechtenstein
-  history: []
-  nob_verify: false
-LT:
-  name: Lietuva
-  history: []
-  nob_verify: false
-LU:
-  name: Luxembourg
-  history: []
-  nob_verify: false
-LV:
-  name: Latvija
-  history: []
-  nob_verify: false
-ME:
-  name: Црна Гора
-  history: []
-  nob_verify: false
-MK:
-  name: Северна Македонија
-  history: []
-  nob_verify: false
-MT:
-  name: Malta
-  history: []
-  nob_verify: false
-NL:
-  name: Nederland
-  history: []
-  nob_verify: false
-NO:
-  name: Norge
-  history: []
-  nob_verify: false
-PL:
-  name: Polska
-  history: []
-  nob_verify: false
-PT:
-  name: Portugal
-  history: []
-  nob_verify: false
-RO:
-  name: România
-  history: []
-  nob_verify: false
-RS:
-  name: Srbija/Сpбија
-  history: []
-  nob_verify: false
-SE:
-  name: Sverige
-  history: []
-  nob_verify: false
-SI:
-  name: Slovenija
-  history: []
-  nob_verify: false
-SK:
-  name: Slovensko
-  history: []
-  nob_verify: false
-TR:
-  name: Türkiye
-  history: []
-  nob_verify: false
-UK:
-  name: United Kingdom
   history: []
   nob_verify: false

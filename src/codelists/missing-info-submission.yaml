@@ -1,11 +1,24 @@
 late-all:
   name: At the discretion of the buyer, all missing tenderer-related documents may be submitted later.
-  nob:
-  nob_verify: true
+  nob: Etter kjøperens skjønn kan alle manglende anbudsrelaterte dokumenter sendes inn senere.
+  history:
+  - name: At the discretion of the buyer, all missing tenderer-related documents may be submitted later.
+    history: []
+    nob_verify: false
+  nob_verify: false
 late-none:
   name: No documents can be submitted later.
-  nob:
+  nob: Ingen dokumenter kan sendes inn senere.
+  history:
+  - name: No documents can be submitted later.
+    history: []
+    nob_verify: false
+  nob_verify: false
 late-some:
   name: At the discretion of the buyer, some missing tenderer-related documents may be submitted later.
-  nob:
-  nob_verify: true
+  nob: Etter kjøperens skjønn kan noen manglende anbudsrelaterte dokumenter sendes inn senere.
+  history:
+  - name: At the discretion of the buyer, some missing tenderer-related documents may be submitted later.
+    history: []
+    nob_verify: false
+  nob_verify: false

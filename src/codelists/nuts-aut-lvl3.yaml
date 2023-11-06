@@ -1,0 +1,144 @@
+AT111:
+  name: Mittelburgenland
+  history: []
+  nob_verify: false
+AT112:
+  name: Nordburgenland
+  history: []
+  nob_verify: false
+AT113:
+  name: Südburgenland
+  history: []
+  nob_verify: false
+AT121:
+  name: Mostviertel-Eisenwurzen
+  history: []
+  nob_verify: false
+AT122:
+  name: Niederösterreich-Süd
+  history: []
+  nob_verify: false
+AT123:
+  name: Sankt Pölten
+  history: []
+  nob_verify: false
+AT124:
+  name: Waldviertel
+  history: []
+  nob_verify: false
+AT125:
+  name: Weinviertel
+  history: []
+  nob_verify: false
+AT126:
+  name: Wiener Umland/Nordteil
+  history: []
+  nob_verify: false
+AT127:
+  name: Wiener Umland/Südteil
+  history: []
+  nob_verify: false
+AT130:
+  name: Wien
+  history: []
+  nob_verify: false
+AT211:
+  name: Klagenfurt-Villach
+  history: []
+  nob_verify: false
+AT212:
+  name: Oberkärnten
+  history: []
+  nob_verify: false
+AT213:
+  name: Unterkärnten
+  history: []
+  nob_verify: false
+AT221:
+  name: Graz
+  history: []
+  nob_verify: false
+AT222:
+  name: Liezen
+  history: []
+  nob_verify: false
+AT223:
+  name: Östliche Obersteiermark
+  history: []
+  nob_verify: false
+AT224:
+  name: Oststeiermark
+  history: []
+  nob_verify: false
+AT225:
+  name: West- und Südsteiermark
+  history: []
+  nob_verify: false
+AT226:
+  name: Westliche Obersteiermark
+  history: []
+  nob_verify: false
+AT311:
+  name: Innviertel
+  history: []
+  nob_verify: false
+AT312:
+  name: Linz-Wels
+  history: []
+  nob_verify: false
+AT313:
+  name: Mühlviertel
+  history: []
+  nob_verify: false
+AT314:
+  name: Steyr-Kirchdorf
+  history: []
+  nob_verify: false
+AT315:
+  name: Traunviertel
+  history: []
+  nob_verify: false
+AT321:
+  name: Lungau
+  history: []
+  nob_verify: false
+AT322:
+  name: Pinzgau-Pongau
+  history: []
+  nob_verify: false
+AT323:
+  name: Salzburg und Umgebung
+  history: []
+  nob_verify: false
+AT331:
+  name: Außerfern
+  history: []
+  nob_verify: false
+AT332:
+  name: Innsbruck
+  history: []
+  nob_verify: false
+AT333:
+  name: Osttirol
+  history: []
+  nob_verify: false
+AT334:
+  name: Tiroler Oberland
+  history: []
+  nob_verify: false
+AT335:
+  name: Tiroler Unterland
+  history: []
+  nob_verify: false
+AT341:
+  name: Bludenz-Bregenzer Wald
+  history: []
+  nob_verify: false
+AT342:
+  name: Rheintal-Bodenseegebiet
+  history: []
+  nob_verify: false
+ATZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

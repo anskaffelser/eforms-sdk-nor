@@ -1,150 +1,420 @@
 2N:
   name: decibel
   nob: desibel
+  history:
+  - name: decibel
+    history: []
+    nob_verify: false
+  nob_verify: false
 3C:
   name: manmonth
-  nob: Andelen av kontrakten som tilbyder har til hensikt å gi til underleverandør/ Andelen av kontrakten som skal utføres av underleverandør
+  nob: Månedsverk
+  history:
+  - name: manmonth
+    history: []
+    nob_verify: false
+  - name: manmonth
+    nob: Andelen av kontrakten som tilbyder har til hensikt å gi til underleverandør/ Andelen av kontrakten som skal utføres av underleverandør
+    history: []
+    nob_verify: false
+  nob_verify: false
 AD:
   name: byte
-  nob: Den eller de foreslåtte underleverandørene som ikke er forpliktet til å la underleverandør utføre en minimumsprosent av kontrakten
+  nob: byte
+  history:
+  - name: byte
+    history: []
+    nob_verify: false
+  - name: byte
+    nob: Den eller de foreslåtte underleverandørene som ikke er forpliktet til å la underleverandør utføre en minimumsprosent av kontrakten
+    history: []
+    nob_verify: false
+  nob_verify: false
 AMP:
   name: ampere
-  nob: Den eller de foreslåtte underleverandørene som er nødvendige for å oppfylle forpliktelsen om at ut en minimumsprosent av kontrakten skal utføres av underleverandører
+  nob: ampere
+  history:
+  - name: ampere
+    history: []
+    nob_verify: false
+  - name: ampere
+    nob: Den eller de foreslåtte underleverandørene som er nødvendige for å oppfylle forpliktelsen om at ut en minimumsprosent av kontrakten skal utføres av underleverandører
+    history: []
+    nob_verify: false
+  nob_verify: false
 BAR:
   name: bar
-  nob: Innholdet i delkontraktene som skal utføres av underleverandører der det ikke foreligger forpliktelse om at en minimumsprosent av kontrakten skal utføres av underleverandører.
+  nob: bar
+  history:
+  - name: bar
+    history: []
+    nob_verify: false
+  - name: bar
+    nob: Innholdet i delkontraktene som skal utføres av underleverandører der det ikke foreligger forpliktelse om at en minimumsprosent av kontrakten skal utføres av underleverandører.
+    history: []
+    nob_verify: false
+  nob_verify: false
 BIT:
   name: bit
-  nob: Innholdet i delkontraktene som skal utføres av underleverandører der det foreligger en forpliktelse om at en minimumsprosent av kontrakten skal utføres av underleverandører.
+  nob: bit
+  history:
+  - name: bit
+    history: []
+    nob_verify: false
+  - name: bit
+    nob: Innholdet i delkontraktene som skal utføres av underleverandører der det foreligger en forpliktelse om at en minimumsprosent av kontrakten skal utføres av underleverandører.
+    history: []
+    nob_verify: false
+  nob_verify: false
 BQL:
   name: becquerel
   nob: becquerel
+  history:
+  - name: becquerel
+    history: []
+    nob_verify: false
+  nob_verify: false
 C34:
   name: mole
   nob: mole
+  history:
+  - name: mole
+    history: []
+    nob_verify: false
+  nob_verify: false
 C45:
   name: nanometre
   nob: nanometer
+  history:
+  - name: nanometre
+    history: []
+    nob_verify: false
+  nob_verify: false
 CDL:
   name: candela
   nob: candela
+  history:
+  - name: candela
+    history: []
+    nob_verify: false
+  nob_verify: false
 CEL:
   name: degree Celsius
   nob: grader Celsius
+  history:
+  - name: degree Celsius
+    history: []
+    nob_verify: false
+  nob_verify: false
 CMK:
   name: square centimetre
   nob: kvatdratcentimeter
+  history:
+  - name: square centimetre
+    history: []
+    nob_verify: false
+  nob_verify: false
 CMQ:
   name: cubic centimetre
   nob: kubikkcentimeter
+  history:
+  - name: cubic centimetre
+    history: []
+    nob_verify: false
+  nob_verify: false
 CMT:
   name: centimetre
   nob: centimeter
+  history:
+  - name: centimetre
+    history: []
+    nob_verify: false
+  nob_verify: false
 D30:
   name: terajoule
   nob: terajoule
+  history:
+  - name: terajoule
+    history: []
+    nob_verify: false
+  nob_verify: false
 E34:
   name: gigabyte
   nob: gigabyte
+  history:
+  - name: gigabyte
+    history: []
+    nob_verify: false
+  nob_verify: false
 GRM:
   name: gram
   nob: gram
+  history:
+  - name: gram
+    history: []
+    nob_verify: false
+  nob_verify: false
 GTE:
   name: gross tonnage
   nob: bruttotonn
+  history:
+  - name: gross tonnage
+    history: []
+    nob_verify: false
+  nob_verify: false
 GWH:
   name: gigawatt-hour
   nob: gigawattime
+  history:
+  - name: gigawatt-hour
+    history: []
+    nob_verify: false
+  nob_verify: false
 HAR:
   name: hectare
   nob: hektar
+  history:
+  - name: hectare
+    history: []
+    nob_verify: false
+  nob_verify: false
 HLT:
   name: hectolitre
   nob: hektoliter
+  history:
+  - name: hectolitre
+    history: []
+    nob_verify: false
+  nob_verify: false
 HTZ:
   name: hertz
   nob: hertz
+  history:
+  - name: hertz
+    history: []
+    nob_verify: false
+  nob_verify: false
 HUR:
   name: hour
   nob: time
+  history:
+  - name: hour
+    history: []
+    nob_verify: false
+  nob_verify: false
 JOU:
   name: joule
   nob: joule
+  history:
+  - name: joule
+    history: []
+    nob_verify: false
+  nob_verify: false
 KEL:
   name: kelvin
   nob: kelvin
+  history:
+  - name: kelvin
+    history: []
+    nob_verify: false
+  nob_verify: false
 KGM:
   name: kilogram
   nob: kilogram
+  history:
+  - name: kilogram
+    history: []
+    nob_verify: false
+  nob_verify: false
 KMH:
   name: kilometre per hour
   nob: kilometer per time
+  history:
+  - name: kilometre per hour
+    history: []
+    nob_verify: false
+  nob_verify: false
 KMK:
   name: square kilometre
   nob: kvadratkilometer
+  history:
+  - name: square kilometre
+    history: []
+    nob_verify: false
+  nob_verify: false
 KTM:
   name: kilometre
   nob: kilometer
+  history:
+  - name: kilometre
+    history: []
+    nob_verify: false
+  nob_verify: false
 KWH:
   name: kilowatt-hour
   nob: kilowattime
+  history:
+  - name: kilowatt-hour
+    history: []
+    nob_verify: false
+  nob_verify: false
 KWT:
   name: kilowatt
-  nob:
+  nob: kilowatt
+  history:
+  - name: kilowatt
+    history: []
+    nob_verify: false
+  nob_verify: false
 LH:
   name: labour hour
   nob: arbeidstime
+  history:
+  - name: labour hour
+    history: []
+    nob_verify: false
+  nob_verify: false
 LTR:
   name: litre
   nob: liter
+  history:
+  - name: litre
+    history: []
+    nob_verify: false
+  nob_verify: false
 MAW:
   name: megawatt
   nob: megawatt
+  history:
+  - name: megawatt
+    history: []
+    nob_verify: false
+  nob_verify: false
 MC:
   name: microgram
   nob: mikrogram
+  history:
+  - name: microgram
+    history: []
+    nob_verify: false
+  nob_verify: false
 MGM:
   name: milligram
   nob: milligram
+  history:
+  - name: milligram
+    history: []
+    nob_verify: false
+  nob_verify: false
 MIN:
   name: minute
   nob: minutt
+  history:
+  - name: minute
+    history: []
+    nob_verify: false
+  nob_verify: false
 MLT:
   name: millilitre
   nob: mililiter
+  history:
+  - name: millilitre
+    history: []
+    nob_verify: false
+  nob_verify: false
 MMT:
   name: millimetre
   nob: milimeter
+  history:
+  - name: millimetre
+    history: []
+    nob_verify: false
+  nob_verify: false
 MTK:
   name: square metre
   nob: kvadratmeter
+  history:
+  - name: square metre
+    history: []
+    nob_verify: false
+  nob_verify: false
 MTR:
   name: metre
   nob: meter
+  history:
+  - name: metre
+    history: []
+    nob_verify: false
+  nob_verify: false
 MTS:
   name: metre per second
   nob: meter per sekund
+  history:
+  - name: metre per second
+    history: []
+    nob_verify: false
+  nob_verify: false
 NEW:
   name: newton
   nob: newton
+  history:
+  - name: newton
+    history: []
+    nob_verify: false
+  nob_verify: false
 PAL:
   name: pascal
   nob: pascal
+  history:
+  - name: pascal
+    history: []
+    nob_verify: false
+  nob_verify: false
 SEC:
   name: second
   nob: sekund
+  history:
+  - name: second
+    history: []
+    nob_verify: false
+  nob_verify: false
 TKM:
   name: tonne-kilometre
   nob: tonnkilometer
+  history:
+  - name: tonne-kilometre
+    history: []
+    nob_verify: false
+  nob_verify: false
 TNE:
   name: tonne
   nob: ton
+  history:
+  - name: tonne
+    history: []
+    nob_verify: false
+  nob_verify: false
 TOE:
   name: tonne of oil equivalent
   nob: tonn oljeekvivalenter
+  history:
+  - name: tonne of oil equivalent
+    history: []
+    nob_verify: false
+  nob_verify: false
 VLT:
   name: volt
   nob: volt
+  history:
+  - name: volt
+    history: []
+    nob_verify: false
+  nob_verify: false
 WTT:
   name: watt
   nob: watt
+  history:
+  - name: watt
+    history: []
+    nob_verify: false
+  nob_verify: false

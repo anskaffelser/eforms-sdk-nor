@@ -1,0 +1,408 @@
+FR101:
+  name: Paris
+  history: []
+  nob_verify: false
+FR102:
+  name: Seine-et-Marne
+  history: []
+  nob_verify: false
+FR103:
+  name: Yvelines
+  history: []
+  nob_verify: false
+FR104:
+  name: Essonne
+  history: []
+  nob_verify: false
+FR105:
+  name: Hauts-de-Seine
+  history: []
+  nob_verify: false
+FR106:
+  name: Seine-Saint-Denis
+  history: []
+  nob_verify: false
+FR107:
+  name: Val-de-Marne
+  history: []
+  nob_verify: false
+FR108:
+  name: Val-d’Oise
+  history: []
+  nob_verify: false
+FRB01:
+  name: Cher
+  history: []
+  nob_verify: false
+FRB02:
+  name: Eure-et-Loir
+  history: []
+  nob_verify: false
+FRB03:
+  name: Indre
+  history: []
+  nob_verify: false
+FRB04:
+  name: Indre-et-Loire
+  history: []
+  nob_verify: false
+FRB05:
+  name: Loir-et-Cher
+  history: []
+  nob_verify: false
+FRB06:
+  name: Loiret
+  history: []
+  nob_verify: false
+FRC11:
+  name: Côte-d’Or
+  history: []
+  nob_verify: false
+FRC12:
+  name: Nièvre
+  history: []
+  nob_verify: false
+FRC13:
+  name: Saône-et-Loire
+  history: []
+  nob_verify: false
+FRC14:
+  name: Yonne
+  history: []
+  nob_verify: false
+FRC21:
+  name: Doubs
+  history: []
+  nob_verify: false
+FRC22:
+  name: Jura
+  history: []
+  nob_verify: false
+FRC23:
+  name: Haute-Saône
+  history: []
+  nob_verify: false
+FRC24:
+  name: Territoire de Belfort
+  history: []
+  nob_verify: false
+FRD11:
+  name: Calvados
+  history: []
+  nob_verify: false
+FRD12:
+  name: Manche
+  history: []
+  nob_verify: false
+FRD13:
+  name: Orne
+  history: []
+  nob_verify: false
+FRD21:
+  name: Eure
+  history: []
+  nob_verify: false
+FRD22:
+  name: Seine-Maritime
+  history: []
+  nob_verify: false
+FRE11:
+  name: Nord
+  history: []
+  nob_verify: false
+FRE12:
+  name: Pas-de-Calais
+  history: []
+  nob_verify: false
+FRE21:
+  name: Aisne
+  history: []
+  nob_verify: false
+FRE22:
+  name: Oise
+  history: []
+  nob_verify: false
+FRE23:
+  name: Somme
+  history: []
+  nob_verify: false
+FRF11:
+  name: Bas-Rhin
+  history: []
+  nob_verify: false
+FRF12:
+  name: Haut-Rhin
+  history: []
+  nob_verify: false
+FRF21:
+  name: Ardennes
+  history: []
+  nob_verify: false
+FRF22:
+  name: Aube
+  history: []
+  nob_verify: false
+FRF23:
+  name: Marne
+  history: []
+  nob_verify: false
+FRF24:
+  name: Haute-Marne
+  history: []
+  nob_verify: false
+FRF31:
+  name: Meurthe-et-Moselle
+  history: []
+  nob_verify: false
+FRF32:
+  name: Meuse
+  history: []
+  nob_verify: false
+FRF33:
+  name: Moselle
+  history: []
+  nob_verify: false
+FRF34:
+  name: Vosges
+  history: []
+  nob_verify: false
+FRG01:
+  name: Loire-Atlantique
+  history: []
+  nob_verify: false
+FRG02:
+  name: Maine-et-Loire
+  history: []
+  nob_verify: false
+FRG03:
+  name: Mayenne
+  history: []
+  nob_verify: false
+FRG04:
+  name: Sarthe
+  history: []
+  nob_verify: false
+FRG05:
+  name: Vendée
+  history: []
+  nob_verify: false
+FRH01:
+  name: Côtes-d’Armor
+  history: []
+  nob_verify: false
+FRH02:
+  name: Finistère
+  history: []
+  nob_verify: false
+FRH03:
+  name: Ille-et-Vilaine
+  history: []
+  nob_verify: false
+FRH04:
+  name: Morbihan
+  history: []
+  nob_verify: false
+FRI11:
+  name: Dordogne
+  history: []
+  nob_verify: false
+FRI12:
+  name: Gironde
+  history: []
+  nob_verify: false
+FRI13:
+  name: Landes
+  history: []
+  nob_verify: false
+FRI14:
+  name: Lot-et-Garonne
+  history: []
+  nob_verify: false
+FRI15:
+  name: Pyrénées-Atlantiques
+  history: []
+  nob_verify: false
+FRI21:
+  name: Corrèze
+  history: []
+  nob_verify: false
+FRI22:
+  name: Creuse
+  history: []
+  nob_verify: false
+FRI23:
+  name: Haute-Vienne
+  history: []
+  nob_verify: false
+FRI31:
+  name: Charente
+  history: []
+  nob_verify: false
+FRI32:
+  name: Charente-Maritime
+  history: []
+  nob_verify: false
+FRI33:
+  name: Deux-Sèvres
+  history: []
+  nob_verify: false
+FRI34:
+  name: Vienne
+  history: []
+  nob_verify: false
+FRJ11:
+  name: Aude
+  history: []
+  nob_verify: false
+FRJ12:
+  name: Gard
+  history: []
+  nob_verify: false
+FRJ13:
+  name: Hérault
+  history: []
+  nob_verify: false
+FRJ14:
+  name: Lozère
+  history: []
+  nob_verify: false
+FRJ15:
+  name: Pyrénées-Orientales
+  history: []
+  nob_verify: false
+FRJ21:
+  name: Ariège
+  history: []
+  nob_verify: false
+FRJ22:
+  name: Aveyron
+  history: []
+  nob_verify: false
+FRJ23:
+  name: Haute-Garonne
+  history: []
+  nob_verify: false
+FRJ24:
+  name: Gers
+  history: []
+  nob_verify: false
+FRJ25:
+  name: Lot
+  history: []
+  nob_verify: false
+FRJ26:
+  name: Hautes-Pyrénées
+  history: []
+  nob_verify: false
+FRJ27:
+  name: Tarn
+  history: []
+  nob_verify: false
+FRJ28:
+  name: Tarn-et-Garonne
+  history: []
+  nob_verify: false
+FRK11:
+  name: Allier
+  history: []
+  nob_verify: false
+FRK12:
+  name: Cantal
+  history: []
+  nob_verify: false
+FRK13:
+  name: Haute-Loire
+  history: []
+  nob_verify: false
+FRK14:
+  name: Puy-de-Dôme
+  history: []
+  nob_verify: false
+FRK21:
+  name: Ain
+  history: []
+  nob_verify: false
+FRK22:
+  name: Ardèche
+  history: []
+  nob_verify: false
+FRK23:
+  name: Drôme
+  history: []
+  nob_verify: false
+FRK24:
+  name: Isère
+  history: []
+  nob_verify: false
+FRK25:
+  name: Loire
+  history: []
+  nob_verify: false
+FRK26:
+  name: Rhône
+  history: []
+  nob_verify: false
+FRK27:
+  name: Savoie
+  history: []
+  nob_verify: false
+FRK28:
+  name: Haute-Savoie
+  history: []
+  nob_verify: false
+FRL01:
+  name: Alpes-de-Haute-Provence
+  history: []
+  nob_verify: false
+FRL02:
+  name: Hautes-Alpes
+  history: []
+  nob_verify: false
+FRL03:
+  name: Alpes-Maritimes
+  history: []
+  nob_verify: false
+FRL04:
+  name: Bouches-du-Rhône
+  history: []
+  nob_verify: false
+FRL05:
+  name: Var
+  history: []
+  nob_verify: false
+FRL06:
+  name: Vaucluse
+  history: []
+  nob_verify: false
+FRM01:
+  name: Corse-du-Sud
+  history: []
+  nob_verify: false
+FRM02:
+  name: Haute-Corse
+  history: []
+  nob_verify: false
+FRY10:
+  name: Guadeloupe
+  history: []
+  nob_verify: false
+FRY20:
+  name: Martinique
+  history: []
+  nob_verify: false
+FRY30:
+  name: Guyane
+  history: []
+  nob_verify: false
+FRY40:
+  name: La Réunion
+  history: []
+  nob_verify: false
+FRY50:
+  name: Mayotte
+  history: []
+  nob_verify: false
+FRZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

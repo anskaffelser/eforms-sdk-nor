@@ -1,0 +1,212 @@
+EL301:
+  name: Βόρειος Τομέας Αθηνών
+  history: []
+  nob_verify: false
+EL302:
+  name: Δυτικός Τομέας Αθηνών
+  history: []
+  nob_verify: false
+EL303:
+  name: Κεντρικός Τομέας Αθηνών
+  history: []
+  nob_verify: false
+EL304:
+  name: Νότιος Τομέας Αθηνών
+  history: []
+  nob_verify: false
+EL305:
+  name: Ανατολική Αττική
+  history: []
+  nob_verify: false
+EL306:
+  name: Δυτική Αττική
+  history: []
+  nob_verify: false
+EL307:
+  name: Πειραιάς, Νήσοι
+  history: []
+  nob_verify: false
+EL411:
+  name: Λέσβος, Λήμνος
+  history: []
+  nob_verify: false
+EL412:
+  name: Ικαρία, Σάμος
+  history: []
+  nob_verify: false
+EL413:
+  name: Χίος
+  history: []
+  nob_verify: false
+EL421:
+  name: Κάλυμνος, Κάρπαθος – Ηρωική Νήσος Κάσος, Κως, Ρόδος
+  history: []
+  nob_verify: false
+EL422:
+  name: Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος
+  history: []
+  nob_verify: false
+EL431:
+  name: Ηράκλειο
+  history: []
+  nob_verify: false
+EL432:
+  name: Λασίθι
+  history: []
+  nob_verify: false
+EL433:
+  name: Ρέθυμνο
+  history: []
+  nob_verify: false
+EL434:
+  name: Χανιά
+  history: []
+  nob_verify: false
+EL511:
+  name: Έβρος
+  history: []
+  nob_verify: false
+EL512:
+  name: Ξάνθη
+  history: []
+  nob_verify: false
+EL513:
+  name: Ροδόπη
+  history: []
+  nob_verify: false
+EL514:
+  name: Δράμα
+  history: []
+  nob_verify: false
+EL515:
+  name: Θάσος, Καβάλα
+  history: []
+  nob_verify: false
+EL521:
+  name: Ημαθία
+  history: []
+  nob_verify: false
+EL522:
+  name: Θεσσαλονίκη
+  history: []
+  nob_verify: false
+EL523:
+  name: Κιλκίς
+  history: []
+  nob_verify: false
+EL524:
+  name: Πέλλα
+  history: []
+  nob_verify: false
+EL525:
+  name: Πιερία
+  history: []
+  nob_verify: false
+EL526:
+  name: Σέρρες
+  history: []
+  nob_verify: false
+EL527:
+  name: Χαλκιδική
+  history: []
+  nob_verify: false
+EL531:
+  name: Γρεβενά, Κοζάνη
+  history: []
+  nob_verify: false
+EL532:
+  name: Καστοριά
+  history: []
+  nob_verify: false
+EL533:
+  name: Φλώρινα
+  history: []
+  nob_verify: false
+EL541:
+  name: Άρτα, Πρέβεζα
+  history: []
+  nob_verify: false
+EL542:
+  name: Θεσπρωτία
+  history: []
+  nob_verify: false
+EL543:
+  name: Ιωάννινα
+  history: []
+  nob_verify: false
+EL611:
+  name: Καρδίτσα, Τρίκαλα
+  history: []
+  nob_verify: false
+EL612:
+  name: Λάρισα
+  history: []
+  nob_verify: false
+EL613:
+  name: Μαγνησία, Σποράδες
+  history: []
+  nob_verify: false
+EL621:
+  name: Ζάκυνθος
+  history: []
+  nob_verify: false
+EL622:
+  name: Κέρκυρα
+  history: []
+  nob_verify: false
+EL623:
+  name: Ιθάκη, Κεφαλληνία
+  history: []
+  nob_verify: false
+EL624:
+  name: Λευκάδα
+  history: []
+  nob_verify: false
+EL631:
+  name: Αιτωλοακαρνανία
+  history: []
+  nob_verify: false
+EL632:
+  name: Αχαΐα
+  history: []
+  nob_verify: false
+EL633:
+  name: Ηλεία
+  history: []
+  nob_verify: false
+EL641:
+  name: Βοιωτία
+  history: []
+  nob_verify: false
+EL642:
+  name: Εύβοια
+  history: []
+  nob_verify: false
+EL643:
+  name: Ευρυτανία
+  history: []
+  nob_verify: false
+EL644:
+  name: Φθιώτιδα
+  history: []
+  nob_verify: false
+EL645:
+  name: Φωκίδα
+  history: []
+  nob_verify: false
+EL651:
+  name: Αργολίδα, Αρκαδία
+  history: []
+  nob_verify: false
+EL652:
+  name: Κορινθία
+  history: []
+  nob_verify: false
+EL653:
+  name: Λακωνία, Μεσσηνία
+  history: []
+  nob_verify: false
+ELZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

@@ -1,0 +1,28 @@
+32009L0081:
+  name: Directive 2009/81/EC
+  history: []
+  nob_verify: false
+32014L0023:
+  name: Directive 2014/23/EU
+  history: []
+  nob_verify: false
+32014L0024:
+  name: Directive 2014/24/EU
+  history: []
+  nob_verify: false
+32014L0025:
+  name: Directive 2014/25/EU
+  history: []
+  nob_verify: false
+32018R1046:
+  name: Regulation (EU, Euratom) 2018/1046
+  history: []
+  nob_verify: false
+other:
+  name: Other
+  nob: Annet
+  history:
+  - name: Other
+    history: []
+    nob_verify: false
+  nob_verify: false

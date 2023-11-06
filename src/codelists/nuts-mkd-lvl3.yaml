@@ -1,0 +1,36 @@
+MK001:
+  name: Вардарски
+  history: []
+  nob_verify: false
+MK002:
+  name: Источен
+  history: []
+  nob_verify: false
+MK003:
+  name: Југозападен
+  history: []
+  nob_verify: false
+MK004:
+  name: Југоисточен
+  history: []
+  nob_verify: false
+MK005:
+  name: Пелагониски
+  history: []
+  nob_verify: false
+MK006:
+  name: Полошки
+  history: []
+  nob_verify: false
+MK007:
+  name: Североисточен
+  history: []
+  nob_verify: false
+MK008:
+  name: Скопски
+  history: []
+  nob_verify: false
+MKZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

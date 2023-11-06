@@ -1,6 +1,16 @@
 max-pass:
   name: Maximum number of tenders passing
   nob: Øvre grense for antall tilbud som kan delta i konkurransen
+  history:
+  - name: Maximum number of tenders passing
+    history: []
+    nob_verify: false
+  nob_verify: false
 min-score:
   name: Minimum score
   nob: Laveste poengsum
+  history:
+  - name: Minimum score
+    history: []
+    nob_verify: false
+  nob_verify: false

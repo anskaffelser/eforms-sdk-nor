@@ -1,0 +1,296 @@
+PL213:
+  name: Miasto Kraków
+  history: []
+  nob_verify: false
+PL214:
+  name: Krakowski
+  history: []
+  nob_verify: false
+PL217:
+  name: Tarnowski
+  history: []
+  nob_verify: false
+PL218:
+  name: Nowosądecki
+  history: []
+  nob_verify: false
+PL219:
+  name: Nowotarski
+  history: []
+  nob_verify: false
+PL21A:
+  name: Oświęcimski
+  history: []
+  nob_verify: false
+PL224:
+  name: Częstochowski
+  history: []
+  nob_verify: false
+PL225:
+  name: Bielski
+  history: []
+  nob_verify: false
+PL227:
+  name: Rybnicki
+  history: []
+  nob_verify: false
+PL228:
+  name: Bytomski
+  history: []
+  nob_verify: false
+PL229:
+  name: Gliwicki
+  history: []
+  nob_verify: false
+PL22A:
+  name: Katowicki
+  history: []
+  nob_verify: false
+PL22B:
+  name: Sosnowiecki
+  history: []
+  nob_verify: false
+PL22C:
+  name: Tyski
+  history: []
+  nob_verify: false
+PL411:
+  name: Pilski
+  history: []
+  nob_verify: false
+PL414:
+  name: Koniński
+  history: []
+  nob_verify: false
+PL415:
+  name: Miasto Poznań
+  history: []
+  nob_verify: false
+PL416:
+  name: Kaliski
+  history: []
+  nob_verify: false
+PL417:
+  name: Leszczyński
+  history: []
+  nob_verify: false
+PL418:
+  name: Poznański
+  history: []
+  nob_verify: false
+PL424:
+  name: Miasto Szczecin
+  history: []
+  nob_verify: false
+PL426:
+  name: Koszaliński
+  history: []
+  nob_verify: false
+PL427:
+  name: Szczecinecko-pyrzycki
+  history: []
+  nob_verify: false
+PL428:
+  name: Szczeciński
+  history: []
+  nob_verify: false
+PL431:
+  name: Gorzowski
+  history: []
+  nob_verify: false
+PL432:
+  name: Zielonogórski
+  history: []
+  nob_verify: false
+PL514:
+  name: Miasto Wrocław
+  history: []
+  nob_verify: false
+PL515:
+  name: Jeleniogórski
+  history: []
+  nob_verify: false
+PL516:
+  name: Legnicko-Głogowski
+  history: []
+  nob_verify: false
+PL517:
+  name: Wałbrzyski
+  history: []
+  nob_verify: false
+PL518:
+  name: Wrocławski
+  history: []
+  nob_verify: false
+PL523:
+  name: Nyski
+  history: []
+  nob_verify: false
+PL524:
+  name: Opolski
+  history: []
+  nob_verify: false
+PL613:
+  name: Bydgosko-Toruński
+  history: []
+  nob_verify: false
+PL616:
+  name: Grudziądzki
+  history: []
+  nob_verify: false
+PL617:
+  name: Inowrocławski
+  history: []
+  nob_verify: false
+PL618:
+  name: Świecki
+  history: []
+  nob_verify: false
+PL619:
+  name: Włocławski
+  history: []
+  nob_verify: false
+PL621:
+  name: Elbląski
+  history: []
+  nob_verify: false
+PL622:
+  name: Olsztyński
+  history: []
+  nob_verify: false
+PL623:
+  name: Ełcki
+  history: []
+  nob_verify: false
+PL633:
+  name: Trójmiejski
+  history: []
+  nob_verify: false
+PL634:
+  name: Gdański
+  history: []
+  nob_verify: false
+PL636:
+  name: Słupski
+  history: []
+  nob_verify: false
+PL637:
+  name: Chojnicki
+  history: []
+  nob_verify: false
+PL638:
+  name: Starogardzki
+  history: []
+  nob_verify: false
+PL711:
+  name: Miasto Łódź
+  history: []
+  nob_verify: false
+PL712:
+  name: Łódzki
+  history: []
+  nob_verify: false
+PL713:
+  name: Piotrkowski
+  history: []
+  nob_verify: false
+PL714:
+  name: Sieradzki
+  history: []
+  nob_verify: false
+PL715:
+  name: Skierniewicki
+  history: []
+  nob_verify: false
+PL721:
+  name: Kielecki
+  history: []
+  nob_verify: false
+PL722:
+  name: Sandomiersko-jędrzejowski
+  history: []
+  nob_verify: false
+PL811:
+  name: Bialski
+  history: []
+  nob_verify: false
+PL812:
+  name: Chełmsko-zamojski
+  history: []
+  nob_verify: false
+PL814:
+  name: Lubelski
+  history: []
+  nob_verify: false
+PL815:
+  name: Puławski
+  history: []
+  nob_verify: false
+PL821:
+  name: Krośnieński
+  history: []
+  nob_verify: false
+PL822:
+  name: Przemyski
+  history: []
+  nob_verify: false
+PL823:
+  name: Rzeszowski
+  history: []
+  nob_verify: false
+PL824:
+  name: Tarnobrzeski
+  history: []
+  nob_verify: false
+PL841:
+  name: Białostocki
+  history: []
+  nob_verify: false
+PL842:
+  name: Łomżyński
+  history: []
+  nob_verify: false
+PL843:
+  name: Suwalski
+  history: []
+  nob_verify: false
+PL911:
+  name: Miasto Warszawa
+  history: []
+  nob_verify: false
+PL912:
+  name: Warszawski wschodni
+  history: []
+  nob_verify: false
+PL913:
+  name: Warszawski zachodni
+  history: []
+  nob_verify: false
+PL921:
+  name: Radomski
+  history: []
+  nob_verify: false
+PL922:
+  name: Ciechanowski
+  history: []
+  nob_verify: false
+PL923:
+  name: Płocki
+  history: []
+  nob_verify: false
+PL924:
+  name: Ostrołęcki
+  history: []
+  nob_verify: false
+PL925:
+  name: Siedlecki
+  history: []
+  nob_verify: false
+PL926:
+  name: Żyrardowski
+  history: []
+  nob_verify: false
+PLZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

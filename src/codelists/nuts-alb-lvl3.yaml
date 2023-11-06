@@ -1,0 +1,52 @@
+AL011:
+  name: Dibër
+  history: []
+  nob_verify: false
+AL012:
+  name: Durrës
+  history: []
+  nob_verify: false
+AL013:
+  name: Kukës
+  history: []
+  nob_verify: false
+AL014:
+  name: Lezhë
+  history: []
+  nob_verify: false
+AL015:
+  name: Shkodër
+  history: []
+  nob_verify: false
+AL021:
+  name: Elbasan
+  history: []
+  nob_verify: false
+AL022:
+  name: Tiranë
+  history: []
+  nob_verify: false
+AL031:
+  name: Berat
+  history: []
+  nob_verify: false
+AL032:
+  name: Fier
+  history: []
+  nob_verify: false
+AL033:
+  name: Gjirokastër
+  history: []
+  nob_verify: false
+AL034:
+  name: Korcë
+  history: []
+  nob_verify: false
+AL035:
+  name: Vlorë
+  history: []
+  nob_verify: false
+ALZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

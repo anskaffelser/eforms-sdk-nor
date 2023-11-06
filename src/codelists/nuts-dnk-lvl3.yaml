@@ -1,0 +1,48 @@
+DK011:
+  name: Byen København
+  history: []
+  nob_verify: false
+DK012:
+  name: Københavns omegn
+  history: []
+  nob_verify: false
+DK013:
+  name: Nordsjælland
+  history: []
+  nob_verify: false
+DK014:
+  name: Bornholm
+  history: []
+  nob_verify: false
+DK021:
+  name: Østsjælland
+  history: []
+  nob_verify: false
+DK022:
+  name: Vest- og Sydsjælland
+  history: []
+  nob_verify: false
+DK031:
+  name: Fyn
+  history: []
+  nob_verify: false
+DK032:
+  name: Sydjylland
+  history: []
+  nob_verify: false
+DK041:
+  name: Vestjylland
+  history: []
+  nob_verify: false
+DK042:
+  name: Østjylland
+  history: []
+  nob_verify: false
+DK050:
+  name: Nordjylland
+  history: []
+  nob_verify: false
+DKZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

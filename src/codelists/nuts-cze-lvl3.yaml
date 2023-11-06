@@ -1,0 +1,60 @@
+CZ010:
+  name: Hlavní město Praha
+  history: []
+  nob_verify: false
+CZ020:
+  name: Středočeský kraj
+  history: []
+  nob_verify: false
+CZ031:
+  name: Jihočeský kraj
+  history: []
+  nob_verify: false
+CZ032:
+  name: Plzeňský kraj
+  history: []
+  nob_verify: false
+CZ041:
+  name: Karlovarský kraj
+  history: []
+  nob_verify: false
+CZ042:
+  name: Ústecký kraj
+  history: []
+  nob_verify: false
+CZ051:
+  name: Liberecký kraj
+  history: []
+  nob_verify: false
+CZ052:
+  name: Královéhradecký kraj
+  history: []
+  nob_verify: false
+CZ053:
+  name: Pardubický kraj
+  history: []
+  nob_verify: false
+CZ063:
+  name: Kraj Vysočina
+  history: []
+  nob_verify: false
+CZ064:
+  name: Jihomoravský kraj
+  history: []
+  nob_verify: false
+CZ071:
+  name: Olomoucký kraj
+  history: []
+  nob_verify: false
+CZ072:
+  name: Zlínský kraj
+  history: []
+  nob_verify: false
+CZ080:
+  name: Moravskoslezský kraj
+  history: []
+  nob_verify: false
+CZZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

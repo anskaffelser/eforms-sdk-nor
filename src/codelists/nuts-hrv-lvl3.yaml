@@ -1,0 +1,88 @@
+HR021:
+  name: Bjelovarsko-bilogorska županija
+  history: []
+  nob_verify: false
+HR022:
+  name: Virovitičko-podravska županija
+  history: []
+  nob_verify: false
+HR023:
+  name: Požeško-slavonska županija
+  history: []
+  nob_verify: false
+HR024:
+  name: Brodsko-posavska županija
+  history: []
+  nob_verify: false
+HR025:
+  name: Osječko-baranjska županija
+  history: []
+  nob_verify: false
+HR026:
+  name: Vukovarsko-srijemska županija
+  history: []
+  nob_verify: false
+HR027:
+  name: Karlovačka županija
+  history: []
+  nob_verify: false
+HR028:
+  name: Sisačko-moslavačka županija
+  history: []
+  nob_verify: false
+HR031:
+  name: Primorsko-goranska županija
+  history: []
+  nob_verify: false
+HR032:
+  name: Ličko-senjska županija
+  history: []
+  nob_verify: false
+HR033:
+  name: Zadarska županija
+  history: []
+  nob_verify: false
+HR034:
+  name: Šibensko-kninska županija
+  history: []
+  nob_verify: false
+HR035:
+  name: Splitsko-dalmatinska županija
+  history: []
+  nob_verify: false
+HR036:
+  name: Istarska županija
+  history: []
+  nob_verify: false
+HR037:
+  name: Dubrovačko-neretvanska županija
+  history: []
+  nob_verify: false
+HR050:
+  name: Grad Zagreb
+  history: []
+  nob_verify: false
+HR061:
+  name: Međimurska županija
+  history: []
+  nob_verify: false
+HR062:
+  name: Varaždinska županija
+  history: []
+  nob_verify: false
+HR063:
+  name: Koprivničko-križevačka županija
+  history: []
+  nob_verify: false
+HR064:
+  name: Krapinsko-zagorska županija
+  history: []
+  nob_verify: false
+HR065:
+  name: Zagrebačka županija
+  history: []
+  nob_verify: false
+HRZZZ:
+  name: Extra-Regio NUTS 3
+  history: []
+  nob_verify: false

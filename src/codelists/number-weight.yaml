@@ -1,21 +1,56 @@
 dec-exa:
   name: Weight (decimal, exact)
   nob: Vekt (desimal, presis)
+  history:
+  - name: Weight (decimal, exact)
+    history: []
+    nob_verify: false
+  nob_verify: false
 dec-mid:
   name: Weight (decimal, middle of a range)
   nob: Vekt (desimal, midten av et intervall)
+  history:
+  - name: Weight (decimal, middle of a range)
+    history: []
+    nob_verify: false
+  nob_verify: false
 ord-imp:
   name: Order of importance
-  nob:
+  nob: Rangert etter viktighet
+  history:
+  - name: Order of importance
+    history: []
+    nob_verify: false
+  nob_verify: false
 per-exa:
   name: Weight (percentage, exact)
   nob: Vekt (prosent, presis)
+  history:
+  - name: Weight (percentage, exact)
+    history: []
+    nob_verify: false
+  nob_verify: false
 per-mid:
   name: Weight (percentage, middle of a range)
   nob: Vekt (prosent, midten av et intervall)
+  history:
+  - name: Weight (percentage, middle of a range)
+    history: []
+    nob_verify: false
+  nob_verify: false
 poi-exa:
   name: Weight (points, exact)
   nob: Vekt (poeng, presis)
+  history:
+  - name: Weight (points, exact)
+    history: []
+    nob_verify: false
+  nob_verify: false
 poi-mid:
   name: Weight (points, middle of a range)
   nob: Vekt (poeng, midten av et intervall)
+  history:
+  - name: Weight (points, middle of a range)
+    history: []
+    nob_verify: false
+  nob_verify: false

@@ -1,0 +1,16 @@
+non-official:
+  name: Unofficial language version
+  nob: Uoffisiell språkversjon
+  history:
+  - name: Unofficial language version
+    history: []
+    nob_verify: false
+  nob_verify: false
+official:
+  name: Official language version
+  nob: Offisiell språkversjon
+  history:
+  - name: Official language version
+    history: []
+    nob_verify: false
+  nob_verify: false
