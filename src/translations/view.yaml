@@ -1,92 +1,648 @@
+view|description|1:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|10:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|11:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|12:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|13:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|14:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|15:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|16:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|17:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|18:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|19:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|2:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|20:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|21:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|22:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|23:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|24:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|25:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|26:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|27:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|28:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|29:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|3:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|30:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|31:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|32:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|33:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|34:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|35:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|36:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|37:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|38:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|39:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|4:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|40:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|5:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|6:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|7:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|8:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|9:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|CEI:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|T01:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|T02:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|X01:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|X02:
+  name: Default
+  nob: Standard
+  history: []
+  nob_verify: false
+view|description|summary:
+  name: The summary view works for all notices
+  nob: Sammendragsvisningen fungerer for alle kunngjøringsskjema
+  history:
+  - name: The summary view works for all notices
+    nob: Sammendragsvisningen fungerer for alle merknader
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|1:
   name: View template for notice subtype 1
+  nob: Visningsmal for kunngjøringsskjema 1
+  history:
+  - name: View template for notice subtype 1
+    nob: Vis mal for undertype 1 for melding
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|10:
   name: View template for notice subtype 10
+  nob: Visningsmal for kunngjøringsskjema 10
+  history:
+  - name: View template for notice subtype 10
+    nob: Vis mal for undertype 10 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|11:
   name: View template for notice subtype 11
+  nob: Visningsmal for kunngjøringsskjema 11
+  history:
+  - name: View template for notice subtype 11
+    nob: Se mal for undertype 11
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|12:
   name: View template for notice subtype 12
+  nob: Visningsmal for kunngjøringsskjema 12
+  history:
+  - name: View template for notice subtype 12
+    nob: Se mal for undertype 12 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|13:
   name: View template for notice subtype 13
+  nob: Visningsmal for kunngjøringsskjema 13
+  history:
+  - name: View template for notice subtype 13
+    nob: Se mal for undertype 13 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|14:
   name: View template for notice subtype 14
+  nob: Visningsmal for kunngjøringsskjema 14
+  history:
+  - name: View template for notice subtype 14
+    nob: Se mal for varselundertype 14
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|15:
   name: View template for notice subtype 15
+  nob: Visningsmal for kunngjøringsskjema 15
+  history:
+  - name: View template for notice subtype 15
+    nob: Se mal for undertype 15 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|16:
   name: View template for notice subtype 16
+  nob: Visningsmal for kunngjøringsskjema 16
+  history:
+  - name: View template for notice subtype 16
+    nob: Se mal for undertype 16 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|17:
   name: View template for notice subtype 17
+  nob: Visningsmal for kunngjøringsskjema 17
+  history:
+  - name: View template for notice subtype 17
+    nob: Se mal for undertype 17 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|18:
   name: View template for notice subtype 18
+  nob: Visningsmal for kunngjøringsskjema 18
+  history:
+  - name: View template for notice subtype 18
+    nob: Se mal for varselundertype 18
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|19:
   name: View template for notice subtype 19
+  nob: Visningsmal for kunngjøringsskjema 19
+  history:
+  - name: View template for notice subtype 19
+    nob: Se mal for undertype 19 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|2:
   name: View template for notice subtype 2
+  nob: Visningsmal for kunngjøringsskjema 2
+  history:
+  - name: View template for notice subtype 2
+    nob: Vis mal for undertype 2 for melding
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|20:
   name: View template for notice subtype 20
+  nob: Visningsmal for kunngjøringsskjema 20
+  history:
+  - name: View template for notice subtype 20
+    nob: Vis mal for undertype 20 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|21:
   name: View template for notice subtype 21
+  nob: Visningsmal for kunngjøringsskjema 21
+  history:
+  - name: View template for notice subtype 21
+    nob: Vis mal for undertype 21 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|22:
   name: View template for notice subtype 22
+  nob: Visningsmal for kunngjøringsskjema 22
+  history:
+  - name: View template for notice subtype 22
+    nob: Se mal for undertype 22 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|23:
   name: View template for notice subtype 23
+  nob: Visningsmal for kunngjøringsskjema 23
+  history:
+  - name: View template for notice subtype 23
+    nob: Vis mal for undertype 23 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|24:
   name: View template for notice subtype 24
+  nob: Visningsmal for kunngjøringsskjema 24
+  history:
+  - name: View template for notice subtype 24
+    nob: Vis mal for undertype 24 for melding
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|25:
   name: View template for notice subtype 25
+  nob: Visningsmal for kunngjøringsskjema 25
+  history:
+  - name: View template for notice subtype 25
+    nob: Vis mal for undertype 25 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|26:
   name: View template for notice subtype 26
+  nob: Visningsmal for kunngjøringsskjema 26
+  history:
+  - name: View template for notice subtype 26
+    nob: Se mal for undertype 26 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|27:
   name: View template for notice subtype 27
+  nob: Visningsmal for kunngjøringsskjema 27
+  history:
+  - name: View template for notice subtype 27
+    nob: Se mal for undertype 27 for melding
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|28:
   name: View template for notice subtype 28
+  nob: Visningsmal for kunngjøringsskjema 28
+  history:
+  - name: View template for notice subtype 28
+    nob: Vis mal for undertype 28 for melding
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|29:
   name: View template for notice subtype 29
+  nob: Visningsmal for kunngjøringsskjema 29
+  history:
+  - name: View template for notice subtype 29
+    nob: Vis mal for undertype 29 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|3:
   name: View template for notice subtype 3
+  nob: Visningsmal for kunngjøringsskjema 3
+  history:
+  - name: View template for notice subtype 3
+    nob: Vis mal for undertype 3 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|30:
   name: View template for notice subtype 30
+  nob: Visningsmal for kunngjøringsskjema 30
+  history:
+  - name: View template for notice subtype 30
+    nob: Vis mal for varselundertype 30
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|31:
   name: View template for notice subtype 31
+  nob: Visningsmal for kunngjøringsskjema 31
+  history:
+  - name: View template for notice subtype 31
+    nob: Vis mal for undertype 31 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|32:
   name: View template for notice subtype 32
+  nob: Visningsmal for kunngjøringsskjema 32
+  history:
+  - name: View template for notice subtype 32
+    nob: Se mal for undertype 32 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|33:
   name: View template for notice subtype 33
+  nob: Visningsmal for kunngjøringsskjema 33
+  history:
+  - name: View template for notice subtype 33
+    nob: Se mal for undertype 33 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|34:
   name: View template for notice subtype 34
+  nob: Visningsmal for kunngjøringsskjema 34
+  history:
+  - name: View template for notice subtype 34
+    nob: Vis mal for undertype 34 for melding
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|35:
   name: View template for notice subtype 35
+  nob: Visningsmal for kunngjøringsskjema 35
+  history:
+  - name: View template for notice subtype 35
+    nob: Vis mal for undertype 35 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|36:
   name: View template for notice subtype 36
+  nob: Visningsmal for kunngjøringsskjema 36
+  history:
+  - name: View template for notice subtype 36
+    nob: Vis mal for undertype 36 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|37:
   name: View template for notice subtype 37
+  nob: Visningsmal for kunngjøringsskjema 37
+  history:
+  - name: View template for notice subtype 37
+    nob: Vis mal for undertype 37 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|38:
   name: View template for notice subtype 38
+  nob: Visningsmal for kunngjøringsskjema 38
+  history:
+  - name: View template for notice subtype 38
+    nob: Vis mal for undertype 38 for melding
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|39:
   name: View template for notice subtype 39
+  nob: Visningsmal for kunngjøringsskjema 39
+  history:
+  - name: View template for notice subtype 39
+    nob: Vis mal for undertype 39 for melding
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|4:
   name: View template for notice subtype 4
+  nob: Visningsmal for kunngjøringsskjema 4
+  history:
+  - name: View template for notice subtype 4
+    nob: Vis mal for undertype 4 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|40:
   name: View template for notice subtype 40
+  nob: Visningsmal for kunngjøringsskjema 40
+  history:
+  - name: View template for notice subtype 40
+    nob: Vis mal for undertype 40 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|5:
   name: View template for notice subtype 5
+  nob: Visningsmal for kunngjøringsskjema 5
+  history:
+  - name: View template for notice subtype 5
+    nob: Vis mal for undertype 5 for melding
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|6:
   name: View template for notice subtype 6
+  nob: Visningsmal for kunngjøringsskjema 6
+  history:
+  - name: View template for notice subtype 6
+    nob: Vis mal for varselundertype 6
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|7:
   name: View template for notice subtype 7
+  nob: Visningsmal for kunngjøringsskjema 7
+  history:
+  - name: View template for notice subtype 7
+    nob: Vis mal for varselundertype 7
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|8:
   name: View template for notice subtype 8
+  nob: Visningsmal for kunngjøringsskjema 8
+  history:
+  - name: View template for notice subtype 8
+    nob: Vis mal for undertype 8 for varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|9:
   name: View template for notice subtype 9
+  nob: Visningsmal for kunngjøringsskjema 9
+  history:
+  - name: View template for notice subtype 9
+    nob: Vis mal for varselundertype 9
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|CEI:
   name: View template for notice subtype CEI
+  nob: Visningsmal for kunngjøringsskjema CEI
+  history:
+  - name: View template for notice subtype CEI
+    nob: Vis mal for undertypen CEI for melding
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|T01:
   name: View template for notice subtype T01
+  nob: Visningsmal for kunngjøringsskjema T01
+  history:
+  - name: View template for notice subtype T01
+    nob: Se mal for varselundertype T01
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|T02:
   name: View template for notice subtype T02
+  nob: Visningsmal for kunngjøringsskjema T02
+  history:
+  - name: View template for notice subtype T02
+    nob: Vis mal for undertype T02
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|X01:
   name: View template for notice subtype X01
+  nob: Visningsmal for kunngjøringsskjema X01
+  history:
+  - name: View template for notice subtype X01
+    nob: Vis mal for undertype X01 for melding
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|X02:
   name: View template for notice subtype X02
+  nob: Visningsmal for kunngjøringsskjema X02
+  history:
+  - name: View template for notice subtype X02
+    nob: Vis mal for undertype X02 for melding
+    history: []
+    nob_verify: false
+  nob_verify: false
 view|name|summary:
   name: View template for notice summary
+  nob: Visningsmal for sammendrag
+  history:
+  - name: View template for notice summary
+    nob: Vis mal for sammendrag av varsel
+    history: []
+    nob_verify: false
+  nob_verify: false
