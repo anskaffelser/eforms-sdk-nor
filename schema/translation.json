@@ -1,8 +1,16 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "type": "object",
-    "patternProperties": {
-        "^.+$": {
+    "$ref": "#definitions/document",
+    "definitions": {
+        "document": {
+            "type": "object",
+            "patternProperties": {
+                "^.+$": {
+                    "$ref": "#definitions/item"
+                }
+            }
+        },
+        "item": {
             "title": "Translatable item",
             "type": "object",
             "additionalProperties": false,
@@ -15,15 +23,26 @@
                     "type": "string"
                 },
                 "history": {
-                    "type": "array"
-                }
-            },
-            "patternProperties": {
-                "^[a-z]{3}$": {
-                    "title": "Translated edition",
+                    "title": "Historic information",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#definitions/item"
+                    }
+                },
+                "nob": {
+                    "title": "Translation to Norwegian bokmål",
                     "type": "string"
                 },
-                "^[a-z]{3}_verify$": {
+                "nno": {
+                    "title": "Translation to Norwegian nynorsk",
+                    "type": "string"
+                },
+                "nob_verify": {
+                    "title": "Indication of verification needed",
+                    "type": "boolean",
+                    "default": false
+                },
+                "nno_verify": {
                     "title": "Indication of verification needed",
                     "type": "boolean",
                     "default": false

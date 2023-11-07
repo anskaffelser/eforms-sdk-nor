@@ -10153,7 +10153,7 @@
   nob_verify: false
 '30234400':
   name: Digital versatile disks (DVDs)
-  nob: "DVD'er (Digital versatile disks) "
+  nob: DVD'er (Digital versatile disks)
   history:
   - name: Digital versatile disks (DVDs)
     nob: DVD'er (Digital versatile disks)
@@ -39380,13 +39380,13 @@
   nob_verify: false
 '63122000':
   name: Warehousing services
-  nob: '#N/A'
+  nob: "#N/A"
   history:
   - name: Warehousing services
     nob: Lagringstjenester
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 '63500000':
   name: Travel agency, tour operator and tourist assistance services
   nob: Reisebyrå-, turoperatør- og turistveiledningstjenester
@@ -40440,7 +40440,7 @@
   nob_verify: false
 '66516500':
   name: Professional liability insurance services
-  nob:  Forsikringstjenester mot yrkesmessig ansvar
+  nob: Forsikringstjenester mot yrkesmessig ansvar
   history:
   - name: Professional liability insurance services
     nob: Forsikringstjenester mot yrkesmessig ansvar
@@ -40583,13 +40583,13 @@
   nob_verify: false
 '70000000':
   name: Real estate services
-  nob: '#N/A'
+  nob: "#N/A"
   history:
   - name: Real estate services
     nob: Virksomhet i forbindelse med fast eiendom
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 '70100000':
   name: Real estate services with own property
   nob: Eiendomsmeglertjenster med egne eiendommer
