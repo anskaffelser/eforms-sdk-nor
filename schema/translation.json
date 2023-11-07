@@ -13,6 +13,9 @@
                 "name": {
                     "title": "Translation source",
                     "type": "string"
+                },
+                "history": {
+                    "type": "array"
                 }
             },
             "patternProperties": {

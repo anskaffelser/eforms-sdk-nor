@@ -23,7 +23,7 @@ code|name|accessibility.n-inc-just:
     nob_verify: false
   nob_verify: false
 code|name|applicability.no:
-  name: No
+  name: 'No'
   nob: Nei
   history: []
   nob_verify: false
@@ -36,7 +36,7 @@ code|name|applicability.not-known:
     nob_verify: false
   nob_verify: false
 code|name|applicability.yes:
-  name: Yes
+  name: 'Yes'
   nob: Ja
   history: []
   nob_verify: false
@@ -53741,15 +53741,15 @@ code|name|framework-agreement.none:
     nob_verify: false
   nob_verify: false
 code|name|indicator.false:
-  name: no
+  name: 'no'
   nob: Usann
   history:
-  - name: no
+  - name: 'no'
     history: []
     nob_verify: false
   nob_verify: false
 code|name|indicator.true:
-  name: yes
+  name: 'yes'
   nob: Sann
   history:
   - name: yes
@@ -70327,18 +70327,18 @@ code|name|nuts.UK:
   history: []
   nob_verify: false
 code|name|accelerated-procedure.false:
-  name: no
+  name: 'no'
   nob: Nei
   history:
-  - name: no
+  - name: 'no'
     history: []
     nob_verify: false
   nob_verify: false
 code|name|accelerated-procedure.true:
-  name: yes
+  name: 'yes'
   nob: Ja
   history:
-  - name: yes
+  - name: 'yes'
     history: []
     nob_verify: false
   nob_verify: false
@@ -71111,18 +71111,18 @@ code|name|corr.X02:
     nob_verify: false
   nob_verify: false
 code|name|cvd-scope.false:
-  name: no
+  name: 'no'
   nob: Nei
   history:
-  - name: no
+  - name: 'no'
     history: []
     nob_verify: false
   nob_verify: false
 code|name|cvd-scope.true:
-  name: yes
+  name: 'yes'
   nob: Ja
   history:
-  - name: yes
+  - name: 'yes'
     history: []
     nob_verify: false
   nob_verify: false
@@ -74075,18 +74075,18 @@ code|name|entity-activity.water:
     nob_verify: false
   nob_verify: false
 code|name|esignature-submission.false:
-  name: no
+  name: 'no'
   nob: Nei
   history:
-  - name: no
+  - name: 'no'
     history: []
     nob_verify: false
   nob_verify: false
 code|name|esignature-submission.true:
-  name: yes
+  name: 'yes'
   nob: Ja
   history:
-  - name: yes
+  - name: 'yes'
     history: []
     nob_verify: false
   nob_verify: false
@@ -74995,18 +74995,18 @@ code|name|linguistic-status.official:
     nob_verify: false
   nob_verify: false
 code|name|nda.false:
-  name: no
+  name: 'no'
   nob: Nei
   history:
-  - name: no
+  - name: 'no'
     history: []
     nob_verify: false
   nob_verify: false
 code|name|nda.true:
-  name: yes
+  name: 'yes'
   nob: Ja
   history:
-  - name: yes
+  - name: 'yes'
     history: []
     nob_verify: false
   nob_verify: false
@@ -90787,26 +90787,26 @@ code|name|qu-sy.15:
     nob_verify: false
   nob_verify: false
 code|name|required.false:
-  name: no
+  name: 'no'
   nob: Nei
   history:
-  - name: no
+  - name: 'no'
     history: []
     nob_verify: false
   nob_verify: false
 code|name|required.true:
-  name: yes
+  name: 'yes'
   nob: Ja
   history:
-  - name: yes
+  - name: 'yes'
     history: []
     nob_verify: false
   nob_verify: false
 code|name|reserved-execution.no:
-  name: No
+  name: 'No'
   nob: Nei
   history:
-  - name: No
+  - name: 'No'
     history: []
     nob_verify: false
   nob_verify: false
@@ -91795,10 +91795,10 @@ code|name|subco.22:
     nob_verify: false
   nob_verify: false
 code|name|subcontracting-allowed.false:
-  name: no
+  name: 'no'
   nob: Nei
   history:
-  - name: no
+  - name: 'no'
     history: []
     nob_verify: false
   nob_verify: false
@@ -91811,10 +91811,10 @@ code|name|subcontracting-allowed.true:
     nob_verify: false
   nob_verify: false
 code|name|tender-guarantee-required.false:
-  name: no
+  name: 'no'
   nob: Nei
   history:
-  - name: no
+  - name: 'no'
     history: []
     nob_verify: false
   nob_verify: false
