@@ -359,92 +359,172 @@
     nob_verify: true
   nob_verify: false
 CEI:
-  name: Call for expressions of interest
+  name: CEI
   nob: Oppfordring til å uttrykke interesse
   history:
   - name: Call for expressions of interest
     nob: CEI
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 E1:
-  name: Preliminary market consultation notice
+  name: E1
   nob: Foreløpig varsel om markedskonsultasjon
   history:
   - name: Preliminary market consultation notice
     nob: E1
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 E2:
-  name: Below threshold prior information notice (PIN) only
+  name: E2
   nob: Bare varsel om forhåndsinformasjon under terskelen (PIN)
   history:
   - name: Below threshold prior information notice (PIN) only
     nob: E2
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 E3:
-  name: Below threshold contract notice (CN) general
+  name: E3
   nob: Generelt under terskelvarsel om kontrakt (CN)
   history:
   - name: Below threshold contract notice (CN) general
     nob: E3
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 E4:
-  name: Below threshold contract award notice (CAN) general
+  name: E4
   nob: Varsel om kontraktstildeling under terskelen (CAN) generelt
   history:
   - name: Below threshold contract award notice (CAN) general
     nob: E4
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 E5:
-  name: Contract completion notice
+  name: E5
   nob: Varsel om fullføring av kontrakt
   history:
   - name: Contract completion notice
     nob: E5
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 T01:
-  name: Prior information notice for public service contract
+  name: T01
   nob: Forhåndsmelding om kontrakt om offentlig tjeneste
   history:
   - name: Prior information notice for public service contract
     nob: T01
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 T02:
-  name: Information notice for award of public service contract
+  name: T02
   nob: Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
   history:
   - name: Information notice for award of public service contract
     nob: T02
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 X01:
-  name: European Economic Interest Grouping
+  name: X01
   nob: Europeisk økonomisk interessegruppering
   history:
   - name: European Economic Interest Grouping
     nob: X01
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 X02:
-  name: European Company / European Cooperative Society
+  name: X02
   nob: Det europeiske selskap / European Cooperative Society
   history:
   - name: European Company / European Cooperative Society
     nob: X02
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
+'1':
+  name: '1'
+'10':
+  name: '10'
+'11':
+  name: '11'
+'12':
+  name: '12'
+'13':
+  name: '13'
+'14':
+  name: '14'
+'15':
+  name: '15'
+'16':
+  name: '16'
+'17':
+  name: '17'
+'18':
+  name: '18'
+'19':
+  name: '19'
+'2':
+  name: '2'
+'20':
+  name: '20'
+'21':
+  name: '21'
+'22':
+  name: '22'
+'23':
+  name: '23'
+'24':
+  name: '24'
+'25':
+  name: '25'
+'26':
+  name: '26'
+'27':
+  name: '27'
+'28':
+  name: '28'
+'29':
+  name: '29'
+'3':
+  name: '3'
+'30':
+  name: '30'
+'31':
+  name: '31'
+'32':
+  name: '32'
+'33':
+  name: '33'
+'34':
+  name: '34'
+'35':
+  name: '35'
+'36':
+  name: '36'
+'37':
+  name: '37'
+'38':
+  name: '38'
+'39':
+  name: '39'
+'4':
+  name: '4'
+'40':
+  name: '40'
+'5':
+  name: '5'
+'6':
+  name: '6'
+'7':
+  name: '7'
+'8':
+  name: '8'
+'9':
+  name: '9'

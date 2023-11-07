@@ -176,7 +176,7 @@ expression|name|119:
   nob_verify: false
 expression|name|12:
   name: "'Legal type of the buyer' (BT-11) is one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'European Institution/Agency or International Organisation'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Public undertaking'; 'Public undertaking, controlled by a central government authority'; 'Public undertaking, controlled by a local authority'; 'Public undertaking, controlled by a regional authority'; 'Regional authority'; 'Regional or local authority'"
-  nob: "Kjøperens juridiske type» (BT-11) er ett av følgende: «Offentligrettslig organ»; «offentligrettslig organ, kontrollert av en statlig myndighet», jf. «Offentligrettslig organ, kontrollert av en lokal myndighet», jf. «offentligrettslig organ, kontrollert av en regional myndighet», jf. «statlig myndighet», jf. 'Forsvarsentreprenør'; «EU-institusjonen, -organet eller -byrået», «Den europeiske institusjon/byrå eller internasjonale organisasjon», 'Internasjonal organisasjon'; 'Lokal myndighet'; «organisasjon som tildeler en kontrakt subsidiert av en statlig myndighet», «Organisasjon som tildeler en kontrakt subsidiert av en kommune», jf. «organisasjon som tildeler en kontrakt subsidiert av en regional myndighet», «Offentlig foretak», jf. «offentlig foretak, kontrollert av en statlig myndighet», «offentlig foretak, kontrollert av en lokal myndighet», «offentlig foretak, kontrollert av en regional myndighet», «Regional myndighet», jf. «Regional eller lokal myndighet»"
+  nob: 'Kjøperens juridiske type» (BT-11) er ett av følgende: «Offentligrettslig organ»; «offentligrettslig organ, kontrollert av en statlig myndighet», jf. «Offentligrettslig organ, kontrollert av en lokal myndighet», jf. «offentligrettslig organ, kontrollert av en regional myndighet», jf. «statlig myndighet», jf. ''Forsvarsentreprenør''; «EU-institusjonen, -organet eller -byrået», «Den europeiske institusjon/byrå eller internasjonale organisasjon», ''Internasjonal organisasjon''; ''Lokal myndighet''; «organisasjon som tildeler en kontrakt subsidiert av en statlig myndighet», «Organisasjon som tildeler en kontrakt subsidiert av en kommune», jf. «organisasjon som tildeler en kontrakt subsidiert av en regional myndighet», «Offentlig foretak», jf. «offentlig foretak, kontrollert av en statlig myndighet», «offentlig foretak, kontrollert av en lokal myndighet», «offentlig foretak, kontrollert av en regional myndighet», «Regional myndighet», jf. «Regional eller lokal myndighet»'
   history:
   - name: "'Legal type of the buyer' (BT-11) is one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'European Institution/Agency or International Organisation'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Public undertaking'; 'Public undertaking, controlled by a central government authority'; 'Public undertaking, controlled by a local authority'; 'Public undertaking, controlled by a regional authority'; 'Regional authority'; 'Regional or local authority'"
     history: []
@@ -1480,7 +1480,7 @@ expression|name|269:
   nob_verify: false
 expression|name|27:
   name: "'Legal type of the buyer' (BT-11) is not one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Public undertaking'; 'Public undertaking, controlled by a central government authority'; 'Public undertaking, controlled by a local authority'; 'Public undertaking, controlled by a regional authority'; 'Regional authority'"
-  nob: "Kjøperens juridiske type» (BT-11) er ikke en av følgende: «Offentligrettslig organ»; «offentligrettslig organ, kontrollert av en statlig myndighet», jf. «Offentligrettslig organ, kontrollert av en lokal myndighet», jf. «offentligrettslig organ, kontrollert av en regional myndighet», jf. «statlig myndighet», jf. 'Forsvarsentreprenør'; «EU-institusjonen, -organet eller -byrået», 'Internasjonal organisasjon'; 'Lokal myndighet'; «organisasjon som tildeler en kontrakt subsidiert av en statlig myndighet», «Organisasjon som tildeler en kontrakt subsidiert av en kommune», jf. «organisasjon som tildeler en kontrakt subsidiert av en regional myndighet», «Offentlig foretak», jf. «offentlig foretak, kontrollert av en statlig myndighet», «offentlig foretak, kontrollert av en lokal myndighet», «offentlig foretak, kontrollert av en regional myndighet», «Regional myndighet»"
+  nob: 'Kjøperens juridiske type» (BT-11) er ikke en av følgende: «Offentligrettslig organ»; «offentligrettslig organ, kontrollert av en statlig myndighet», jf. «Offentligrettslig organ, kontrollert av en lokal myndighet», jf. «offentligrettslig organ, kontrollert av en regional myndighet», jf. «statlig myndighet», jf. ''Forsvarsentreprenør''; «EU-institusjonen, -organet eller -byrået», ''Internasjonal organisasjon''; ''Lokal myndighet''; «organisasjon som tildeler en kontrakt subsidiert av en statlig myndighet», «Organisasjon som tildeler en kontrakt subsidiert av en kommune», jf. «organisasjon som tildeler en kontrakt subsidiert av en regional myndighet», «Offentlig foretak», jf. «offentlig foretak, kontrollert av en statlig myndighet», «offentlig foretak, kontrollert av en lokal myndighet», «offentlig foretak, kontrollert av en regional myndighet», «Regional myndighet»'
   history:
   - name: "'Legal type of the buyer' (BT-11) is not one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Public undertaking'; 'Public undertaking, controlled by a central government authority'; 'Public undertaking, controlled by a local authority'; 'Public undertaking, controlled by a regional authority'; 'Regional authority'"
     history: []
@@ -1656,7 +1656,7 @@ expression|name|289:
   nob_verify: false
 expression|name|29:
   name: "'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
-  nob: "Type prosedyre» (BT-105) er en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»"
+  nob: 'Type prosedyre» (BT-105) er en av følgende: «Konkurransepreget dialog»; ''Innovasjonspartnerskap''; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»'
   history:
   - name: "'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
     history: []
@@ -1744,7 +1744,7 @@ expression|name|299:
   nob_verify: false
 expression|name|3:
   name: "'Type of procedure' (BT-105) must be: 'Open'; 'Restricted'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
-  nob: "Type prosedyre» (BT-105) skal være: «Åpen»; 'Begrenset'; «Forhandlet med forutgående publisering av konkurranseutlysning/konkurranse med forhandlinger»"
+  nob: 'Type prosedyre» (BT-105) skal være: «Åpen»; ''Begrenset''; «Forhandlet med forutgående publisering av konkurranseutlysning/konkurranse med forhandlinger»'
   history:
   - name: "'Type of procedure' (BT-105) must be: 'Open'; 'Restricted'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
     history: []
@@ -1992,7 +1992,7 @@ expression|name|326:
   nob_verify: false
 expression|name|327:
   name: "'Justification for direct award' (BT-136-Procedure) is one of the following: 'New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive'; 'No suitable tenders, requests to participate, or applications were received in response to a previous notice'; 'Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive'; 'Service contract to be awarded to the winner or one of winners under the rules of a design contest'"
-  nob: "Begrunnelse for direkte tildeling» (BT-136-prosedyre) er ett av følgende: «Nye arbeider eller tjenester, som utgjør en gjentakelse av eksisterende verk eller tjenester og bestilles i samsvar med de strenge vilkårene i direktivet'; «Ingen egnede anbud, forespørsler om å delta eller søknader ble mottatt som svar på en tidligere kunngjøring», jf. «Delvis utskifting eller utvidelse av eksisterende varer eller installasjoner av den opprinnelige leverandøren som er bestilt på de strenge vilkårene som er angitt i direktivet», \"Servicekontrakt som skal tildeles vinneren eller en av vinnerne i henhold til reglene for en designkonkurranse\""
+  nob: 'Begrunnelse for direkte tildeling» (BT-136-prosedyre) er ett av følgende: «Nye arbeider eller tjenester, som utgjør en gjentakelse av eksisterende verk eller tjenester og bestilles i samsvar med de strenge vilkårene i direktivet''; «Ingen egnede anbud, forespørsler om å delta eller søknader ble mottatt som svar på en tidligere kunngjøring», jf. «Delvis utskifting eller utvidelse av eksisterende varer eller installasjoner av den opprinnelige leverandøren som er bestilt på de strenge vilkårene som er angitt i direktivet», "Servicekontrakt som skal tildeles vinneren eller en av vinnerne i henhold til reglene for en designkonkurranse"'
   history:
   - name: "'Justification for direct award' (BT-136-Procedure) is one of the following: 'New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive'; 'No suitable tenders, requests to participate, or applications were received in response to a previous notice'; 'Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive'; 'Service contract to be awarded to the winner or one of winners under the rules of a design contest'"
     history: []
@@ -2032,7 +2032,7 @@ expression|name|330:
   nob_verify: false
 expression|name|331:
   name: "'Legal type of the buyer' (BT-11-Procedure-Buyer) is not one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'Group of public authorities'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a contracting authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Regional authority'"
-  nob: "Kjøperens juridiske type» (BT-11-Prosedyre-Kjøper) er ikke en av følgende: «Offentligrettslig organ»; «offentligrettslig organ, kontrollert av en statlig myndighet», jf. «Offentligrettslig organ, kontrollert av en lokal myndighet», jf. «offentligrettslig organ, kontrollert av en regional myndighet», jf. «statlig myndighet», jf. 'Forsvarsentreprenør'; «EU-institusjonen, -organet eller -byrået», «Gruppe av offentlige myndigheter», jf. 'Internasjonal organisasjon'; 'Lokal myndighet'; «organisasjon som tildeler en kontrakt subsidiert av en oppdragsgiver», «organisasjon som tildeler en kontrakt subsidiert av en statlig myndighet», «Organisasjon som tildeler en kontrakt subsidiert av en kommune», jf. «organisasjon som tildeler en kontrakt subsidiert av en regional myndighet», «Regional myndighet»"
+  nob: 'Kjøperens juridiske type» (BT-11-Prosedyre-Kjøper) er ikke en av følgende: «Offentligrettslig organ»; «offentligrettslig organ, kontrollert av en statlig myndighet», jf. «Offentligrettslig organ, kontrollert av en lokal myndighet», jf. «offentligrettslig organ, kontrollert av en regional myndighet», jf. «statlig myndighet», jf. ''Forsvarsentreprenør''; «EU-institusjonen, -organet eller -byrået», «Gruppe av offentlige myndigheter», jf. ''Internasjonal organisasjon''; ''Lokal myndighet''; «organisasjon som tildeler en kontrakt subsidiert av en oppdragsgiver», «organisasjon som tildeler en kontrakt subsidiert av en statlig myndighet», «Organisasjon som tildeler en kontrakt subsidiert av en kommune», jf. «organisasjon som tildeler en kontrakt subsidiert av en regional myndighet», «Regional myndighet»'
   history:
   - name: "'Legal type of the buyer' (BT-11-Procedure-Buyer) is not one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'Group of public authorities'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a contracting authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Regional authority'"
     history: []
@@ -2064,7 +2064,7 @@ expression|name|334:
   nob_verify: false
 expression|name|335:
   name: "'Framework agreement is involved' (BT-765-Lot) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition', and 'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.' and (BT-709-LotResult) is not filled in"
-  nob: "Rammeavtale er involvert» (BT-765-Lot) er en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. 'Rammeavtale, uten gjenåpning av konkurranse', og 'Vinnerutvelgelsesstatus' (BT-142-LotResult) er 'Minst én vinner ble kåret.' og (BT-709-LotResult) er ikke fylt ut"
+  nob: 'Rammeavtale er involvert» (BT-765-Lot) er en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. ''Rammeavtale, uten gjenåpning av konkurranse'', og ''Vinnerutvelgelsesstatus'' (BT-142-LotResult) er ''Minst én vinner ble kåret.'' og (BT-709-LotResult) er ikke fylt ut'
   history:
   - name: "'Framework agreement is involved' (BT-765-Lot) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition', and 'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.' and (BT-709-LotResult) is not filled in"
     history: []
@@ -2072,7 +2072,7 @@ expression|name|335:
   nob_verify: false
 expression|name|336:
   name: "'Framework agreement is involved' (BT-765-Lot) is not one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition', and 'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.' and (BT-660-LotResult) is not filled in"
-  nob: "Rammeavtale er involvert» (BT-765-Lot) er ikke en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. 'Rammeavtale, uten gjenåpning av konkurranse', og 'Vinnerutvelgelsesstatus' (BT-142-LotResult) er 'Minst én vinner ble kåret.' og (BT-660-LotResult) er ikke fylt ut"
+  nob: 'Rammeavtale er involvert» (BT-765-Lot) er ikke en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. ''Rammeavtale, uten gjenåpning av konkurranse'', og ''Vinnerutvelgelsesstatus'' (BT-142-LotResult) er ''Minst én vinner ble kåret.'' og (BT-660-LotResult) er ikke fylt ut'
   history:
   - name: "'Framework agreement is involved' (BT-765-Lot) is not one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition', and 'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.' and (BT-660-LotResult) is not filled in"
     history: []
@@ -2168,7 +2168,7 @@ expression|name|347:
   nob_verify: false
 expression|name|348:
   name: "'The procedure will take place in successive stages. At each stage, some participants may be eliminated' ((BT-52-Lot)) is not 'yes'; 'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
-  nob: "Prosedyren vil finne sted i påfølgende stadier. På hvert trinn kan noen deltakere bli eliminert' ((BT-52-Lot)) er ikke 'ja'; «Type prosedyre» (BT-105) er ikke en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»"
+  nob: 'Prosedyren vil finne sted i påfølgende stadier. På hvert trinn kan noen deltakere bli eliminert'' ((BT-52-Lot)) er ikke ''ja''; «Type prosedyre» (BT-105) er ikke en av følgende: «Konkurransepreget dialog»; ''Innovasjonspartnerskap''; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»'
   history:
   - name: "'The procedure will take place in successive stages. At each stage, some participants may be eliminated' ((BT-52-Lot)) is not 'yes'; 'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
     history: []
@@ -2184,7 +2184,7 @@ expression|name|349:
   nob_verify: false
 expression|name|35:
   name: "'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
-  nob: "Type prosedyre» (BT-105) er ikke en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående publisering av konkurranseutlysning/konkurranse med forhandlinger»"
+  nob: 'Type prosedyre» (BT-105) er ikke en av følgende: «Konkurransepreget dialog»; ''Innovasjonspartnerskap''; «Forhandlet med forutgående publisering av konkurranseutlysning/konkurranse med forhandlinger»'
   history:
   - name: "'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
     history: []
@@ -2616,7 +2616,7 @@ expression|name|43:
   nob_verify: false
 expression|name|44:
   name: "'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Negotiated without prior call for competition'; 'Other multiple stage procedure'; 'Other single stage procedure'; 'Restricted'"
-  nob: "Type prosedyre» (BT-105) er en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. 'Forhandlet uten forutgående utlysning av konkurranse'; «annen prosedyre i flere trinn», «annen prosedyre i ett trinn», «Begrenset»"
+  nob: 'Type prosedyre» (BT-105) er en av følgende: «Konkurransepreget dialog»; ''Innovasjonspartnerskap''; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. ''Forhandlet uten forutgående utlysning av konkurranse''; «annen prosedyre i flere trinn», «annen prosedyre i ett trinn», «Begrenset»'
   history:
   - name: "'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Negotiated without prior call for competition'; 'Other multiple stage procedure'; 'Other single stage procedure'; 'Restricted'"
     history: []
@@ -2816,7 +2816,7 @@ expression|name|516:
   nob_verify: false
 expression|name|517:
   name: "'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) is not filled in"
-  nob: "Kjøretøykategorien som omfattes av direktiv 2009/33/EF, herunder: lette kjøretøyer (M1, M2, N1), Buss (M3); Lastebil (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) er ikke fylt ut"
+  nob: 'Kjøretøykategorien som omfattes av direktiv 2009/33/EF, herunder: lette kjøretøyer (M1, M2, N1), Buss (M3); Lastebil (N2, N3); M1; M2; N1; N2; N3'' (BT-723-LotResult) er ikke fylt ut'
   history:
   - name: "'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) is not filled in"
     history: []
@@ -3000,7 +3000,7 @@ expression|name|62:
   nob_verify: false
 expression|name|63:
   name: "'Framework agreement is involved' (BT-765) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'; and 'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'"
-  nob: "Rammeavtale er involvert» (BT-765) er en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. «Rammeavtale, uten gjenåpning av konkurransen», jf. og 'Vinnerutvelgelsesstatus' (BT-142-LotResult) kan ikke være 'Minst én vinner ble kåret.'"
+  nob: 'Rammeavtale er involvert» (BT-765) er en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. «Rammeavtale, uten gjenåpning av konkurransen», jf. og ''Vinnerutvelgelsesstatus'' (BT-142-LotResult) kan ikke være ''Minst én vinner ble kåret.'''
   history:
   - name: "'Framework agreement is involved' (BT-765) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'; and 'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'"
     history: []
@@ -3008,7 +3008,7 @@ expression|name|63:
   nob_verify: false
 expression|name|64:
   name: "'Framework agreement is involved' (BT-765) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'; and 'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'"
-  nob: "Rammeavtale er involvert» (BT-765) er en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. «Rammeavtale, uten gjenåpning av konkurransen», jf. og 'Vinnerutvelgelsesstatus' (BT-142-LotResult) kan ikke være 'Minst én vinner ble kåret.'"
+  nob: 'Rammeavtale er involvert» (BT-765) er en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. «Rammeavtale, uten gjenåpning av konkurransen», jf. og ''Vinnerutvelgelsesstatus'' (BT-142-LotResult) kan ikke være ''Minst én vinner ble kåret.'''
   history:
   - name: "'Framework agreement is involved' (BT-765) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'; and 'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'"
     history: []
@@ -3104,17 +3104,17 @@ expression|name|76:
   nob_verify: false
 expression|name|77:
   name: "'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
-  nob: "Type prosedyre» (BT-105) er en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»"
+  nob: 'Type prosedyre» (BT-105) er en av følgende: «Konkurransepreget dialog»; ''Innovasjonspartnerskap''; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»'
   history:
   - name: "'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
     history: []
     nob_verify: false
   nob_verify: false
 expression|name|78:
-  name: "Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
-  nob: "Type prosedyre» (BT-105) er ikke en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»"
+  name: 'Type of procedure'' (BT-105) is not one of the following: ''Competitive dialogue''; ''Innovation partnership''; ''Negotiated with prior publication of a call for competition / competitive with negotiation''; ''Other multiple stage procedure''; ''Restricted'''
+  nob: 'Type prosedyre» (BT-105) er ikke en av følgende: «Konkurransepreget dialog»; ''Innovasjonspartnerskap''; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»'
   history:
-  - name: "Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
+  - name: 'Type of procedure'' (BT-105) is not one of the following: ''Competitive dialogue''; ''Innovation partnership''; ''Negotiated with prior publication of a call for competition / competitive with negotiation''; ''Other multiple stage procedure''; ''Restricted'''
     history: []
     nob_verify: false
   nob_verify: false
@@ -3135,10 +3135,10 @@ expression|name|8:
     nob_verify: false
   nob_verify: false
 expression|name|80:
-  name: "Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
-  nob: "Type prosedyre» (BT-105) er en av følgende: «Konkurransepreget dialog»; 'Innovasjonspartnerskap'; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»"
+  name: 'Type of procedure'' (BT-105) is one of the following: ''Competitive dialogue''; ''Innovation partnership''; ''Negotiated with prior publication of a call for competition / competitive with negotiation''; ''Other multiple stage procedure''; ''Restricted'''
+  nob: 'Type prosedyre» (BT-105) er en av følgende: «Konkurransepreget dialog»; ''Innovasjonspartnerskap''; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»'
   history:
-  - name: "Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
+  - name: 'Type of procedure'' (BT-105) is one of the following: ''Competitive dialogue''; ''Innovation partnership''; ''Negotiated with prior publication of a call for competition / competitive with negotiation''; ''Other multiple stage procedure''; ''Restricted'''
     history: []
     nob_verify: false
   nob_verify: false

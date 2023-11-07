@@ -1,16 +1,16 @@
 non-restricted-document:
-  name: No restrictions to access documents
+  name: Not Restricted Document
   nob: Ingen begrensninger for tilgang til dokumenter
   history:
   - name: No restrictions to access documents
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 restricted-document:
-  name: Access to certain procurement documents is restricted
+  name: Restricted Document
   nob: Tilgangen til enkelte anskaffelsesdokumenter er begrenset
   history:
   - name: Access to certain procurement documents is restricted
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true

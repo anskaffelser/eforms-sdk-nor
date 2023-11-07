@@ -14,7 +14,7 @@ comp-tend:
     history: []
     nob_verify: false
   - name: Competitive tendering
-    nob: ?? Anskaffelse
+    nob: "?? Anskaffelse"
     history: []
     nob_verify: false
   nob_verify: false

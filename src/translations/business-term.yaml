@@ -4,87 +4,87 @@ business-term|name|BG-1:
   history: []
   nob_verify: false
 business-term|name|BT-04:
-  name: Procedure Identifier
+  name: Procedure identifier
   nob: Identifikator for prosedyren
   history:
   - name: Procedure Identifier
     nob: Identifikator for anskaffelsen
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-701:
-  name: Notice Identifier
+  name: Notice identifier/version
   nob: Identifikator for kunngjøringen
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-757:
-  name: Notice Version
+  name: Notice version
   nob: Versjon av kunngjøringen
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-01:
-  name: Procedure Legal Basis
+  name: Legal basis
   nob: Rettslig grunnlag for anskaffelsesprosedyren
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-03:
-  name: Form Type
+  name: Form type
   nob: Skjematype
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-02:
-  name: Notice Type
+  name: Notice type
   nob: Kunngjøringstype
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-05:
-  name: Notice Dispatch Date
+  name: Notice dispatch date
   nob: Dato for oversendelse av kunngjøringen
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-803:
-  name: Notice Dispatch Date eSender
+  name: Notice dispatch date (eSender)
   nob: Dato for oversendelse av kunngjøringen - Doffin (eSender)
   history:
   - name: Notice Dispatch Date eSender
     nob: Dato for oversendelse av kunngjøringen- Doffin (eSender)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-738:
-  name: Notice Preferred Publication Date Preferred
+  name: Preferred publication date
   nob: Ønsket dato for publisering av kunngjøringen
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-702:
-  name: Notice Official Language
+  name: Languages in which this notice is officially available
   nob: Offisielt kunngjøringsspråk
   history:
   - name: Notice Official Language
     nob: Offisielt  kunngjøringsspråk
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-125:
-  name: Previous Planning
+  name: Previous planning
   nob: Tidligere planlegging
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1371:
   name: Previous Planning Lot Identifier
   nob: Tidligere kunngjøring - delkontraktsidentifikator
   history: []
   nob_verify: false
 business-term|name|BT-125:
-  name: Previous Planning Identifier
+  name: Identifier of the previous notice
   nob: Identifikator for tidligere kunngjøring
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1251:
-  name: Previous Planning Part Identifier
+  name: Identifier of the part of the previous notice
   nob: Identifikator for en del av tidligere planlegging
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-703:
   name: Organisation
   nob: Virksomhet
@@ -96,145 +96,145 @@ business-term|name|BT-13720:
   history: []
   nob_verify: false
 business-term|name|BT-500:
-  name: Organisation Name
+  name: Official name
   nob: Navn på virksomhet
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-501:
-  name: Organisation Identifier
+  name: Registration number
   nob: Identifikator for virksomheten
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-16:
-  name: Organisation Part Name
+  name: Department
   nob: Navn på del av virksomhet
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-510:
-  name: Organisation Street
+  name: Postal address
   nob: Virksomhetens Gatenavn
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-513:
-  name: Organisation City
+  name: Town
   nob: Virksomhetens Sted
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-512:
-  name: Organisation Post Code
+  name: Postcode
   nob: Virksomhetens postnummer
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-507:
-  name: Organisation Country Subdivision
+  name: Country subentity
   nob: Virksomhetens landspesifikke inndeling
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-514:
-  name: Organisation Country Code
+  name: Country
   nob: Virksomhetens landkode
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-502:
-  name: Organisation Contact Point
+  name: Contact point
   nob: Virksomhetens kontaktpunkt
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-506:
-  name: Organisation Contact Email Address
+  name: Email
   nob: E-postadresse til virksomhetens kontaktpunkt
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-503:
-  name: Organisation Contact Telephone Number
+  name: Telephone
   nob: Telefonnummer til virksomheten kontaktpunkt
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-739:
-  name: Organisation Contact Fax
+  name: Fax
   nob: Faksnummer til virksomhetens kontaktpunkt
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-505:
-  name: Organisation Internet Address
+  name: Internet address
   nob: Virksomhetens nettadresse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-509:
-  name: Organisation eDelivery Gateway
+  name: Information exchange endpoint (URL)
   nob: Virksomhetens nettadresse for eDelivery Gateway
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-633:
-  name: Organisation Natural Person
+  name: The organisation is a natural person
   nob: Virksomheten er en fysisk person
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-08:
-  name: Organisation Role
+  name: Role of organisation
   nob: Virksomhetens rolle
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-770:
-  name: Organisation Subrole
+  name: Subrole of the organisation
   nob: virksomhetens funksjon
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-3:
   name: Buyer
   nob: Kjøper
   history: []
   nob_verify: false
 business-term|name|BT-508:
-  name: Buyer Profile URL
+  name: Buyer profile
   nob: URL til kjøperprofil
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-11:
-  name: Buyer Legal Type
+  name: Legal type of the buyer
   nob: Kjøpers rettslige status
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-740:
-  name: Buyer Contracting Entity
+  name: The buyer is a contracting entity
   nob: Kjøper er oppdragsgiver
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-10:
-  name: Activity Authority
+  name: Activity of the contracting authority
   nob: Oppdragsgivers hovedaktivitet
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-610:
-  name: Activity Entity
+  name: Activity of the contracting entity
   nob: Enhetens Hovedaktivitet
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-4:
   name: Winner
   nob: Vinner
   history: []
   nob_verify: false
 business-term|name|BT-165:
-  name: Winner Size
+  name: Size of the economic operator
   nob: Vinnerens størrelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-706:
-  name: Winner Owner Nationality
+  name: Nationality of the owner
   nob: Vinnerens reelle eieres nasjonalitet
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-746:
-  name: Winner Listed
+  name: The winner is listed on a regulated market
   nob: Vinneren er notert
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-715:
-  name: Review Body
+  name: Review body
   nob: Klageorgan
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-799:
   name: Review Body Type
   nob: Type klageorgan
@@ -246,25 +246,25 @@ business-term|name|BG-2:
   history: []
   nob_verify: false
 business-term|name|BT-137:
-  name: Purpose Lot Identifier
+  name: Lot
   nob: Formålsidentifikator delkontrakt
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-22:
-  name: Internal Identifier
+  name: Internal identifier
   nob: Intern identifikator
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-23:
-  name: Main Nature
+  name: Nature of the contract
   nob: Anskaffelsens hovedelement
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-531:
-  name: Additional Nature
+  name: Additional nature of the contract
   nob: Anskaffelsens tilleggselement
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-21:
   name: Title
   nob: Tittel
@@ -276,50 +276,50 @@ business-term|name|BT-24:
   history: []
   nob_verify: false
 business-term|name|BT-27:
-  name: Estimated Value
+  name: Estimated value excluding VAT
   nob: Anslått verdi
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-271:
-  name: Framework Maximum Value
+  name: Maximum value of the framework agreement
   nob: Maksimal verdi i rammeavtale
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-557:
-  name: Group Framework Estimated Maximum Value
+  name: Group framework estimated maximum value
   nob: Anslått Maksimale verdi for gruppe av delkontrakter i rammeavtale
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-557:
   name: Group Framework Estimated Maximum Value Lot Identifier
   nob: Identifikator for anslått maksimale verdi for gruppe av delkontrakter i rammeavtale
   history: []
   nob_verify: false
 business-term|name|BT-157:
-  name: Group Framework Estimated Maximum Value
+  name: Maximum value of the framework agreement within the group of lots
   nob: Anslått høyeste Maksimal verdi for gruppe av delkontrakter i rammeavtale
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-261:
   name: Classification
   nob: Klassifisering
   history: []
   nob_verify: false
 business-term|name|BT-26:
-  name: Classification Type
+  name: Classificator type
   nob: Type klassifisering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-262:
-  name: Main Classification Code
+  name: Main classification
   nob: Hovedklassifiseringskode
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-263:
-  name: Additional Classification Codes
+  name: Additional classification
   nob: Tilleggsklassifiseringskode
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-25:
   name: Quantity
   nob: Mengde
@@ -336,65 +336,65 @@ business-term|name|BT-53:
   history: []
   nob_verify: false
 business-term|name|BT-54:
-  name: Options Description
+  name: The buyer reserves the right for additional purchases from the contractor, as described here
   nob: Beskrivelse av opsjoner
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-94:
-  name: Recurrence
+  name: This is a recurrent procurement
   nob: Gjentakelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-95:
-  name: Recurrence Description
+  name: Description
   nob: Bekrivelse av gjentakelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-708:
-  name: Place of Performance
+  name: Place of performance
   nob: Sted for gjennomføring
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1372:
   name: Place Performance Lot Identifier
   nob: Identifikator for sted for gjennomføring av delkontrakten
   history: []
   nob_verify: false
 business-term|name|BT-5101:
-  name: Place Performance Street
+  name: Postal address
   nob: Sted for gjennomføring - Gateadresse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-5131:
-  name: Place Performance City
+  name: Town
   nob: Sted for gjennomføring - By
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-5121:
-  name: Place Performance Post Code
+  name: Postcode
   nob: Sted for gjennomføring - Postnummer
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-5071:
-  name: Place Performance Country Subdivision
+  name: Country subentity
   nob: Sted for gjennomføring - Landspesifikk inndeling
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-5141:
-  name: Place Performance Country Code
+  name: Country
   nob: Sted for gjennomføring - Landkode
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-727:
-  name: Place Performance Services Other
+  name: Other restrictions on the place of performance
   nob: Gjennomføringssted for tjenestekontrakter - Annet
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-728:
-  name: Place Performance Additional Information
+  name: Additional information
   nob: Sted for gjennomføring - tilleggsinformasjon
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-36:
   name: Duration
   nob: Varighet
@@ -406,202 +406,202 @@ business-term|name|BT-1373:
   history: []
   nob_verify: false
 business-term|name|BT-536:
-  name: Duration Start Date
+  name: Start date
   nob: Varighet - Startdato
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-36:
-  name: Duration Period
+  name: Duration
   nob: Varighet - Periode
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-537:
-  name: Duration End Date
+  name: End date
   nob: Varighet - Sluttdato
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-538:
-  name: Duration Other
+  name: Other duration
   nob: Varighet - Annet
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-781:
   name: Duration Additional Information
   nob: Varighet - tilleggsinformasjon
   history: []
   nob_verify: false
 business-term|name|BT-58:
-  name: Renewal Maximum
+  name: Maximum renewals
   nob: Høyeste antall fornyelser
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-57:
-  name: Renewal Description
+  name: Description
   nob: Beskrivelse av fornyelser
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-61:
-  name: EU Funds
+  name: EU funds
   nob: EU-midler
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1374:
   name: Funds Lot Identifier
   nob: Identifikator for EU-midler delkontrakt
   history: []
   nob_verify: false
 business-term|name|BT-60:
-  name: EU Funds
+  name: The procurement is at least partially financed by European Union funds
   nob: EU-midler
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-614:
-  name: EU Funds Informastion
+  name: EU funds information
   nob: EU-midler - Informasjon
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-7220:
-  name: EU Funds Programme
+  name: EU funds programme
   nob: EU-midler - Program
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-5010:
-  name: EU Funds Financing Identifier
+  name: Identifier of EU funds
   nob: EU-midler - Finansiering identifikator
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-6140:
-  name: EU Funds Details
+  name: Further details of EU funds
   nob: EU-midler - Detaljer
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-6:
   name: Procedure
   nob: Prosedyre
   history: []
   nob_verify: false
 business-term|name|BT-09:
-  name: Cross Border Law
+  name: Applicable cross-border law
   nob: Regelverk på tvers av landegrenser
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-105:
-  name: Procedure Type
+  name: Type of procedure
   nob: Type prosedyre
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-88:
-  name: Procedure Features
+  name: Main features of the procedure
   nob: Egenskaper ved prosedyren
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-106:
-  name: Procedure Accelerated
+  name: The procedure is accelerated
   nob: Hasteprosedyre
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1351:
-  name: Procedure Accelerated Justification
+  name: Justification for the accelerated procedure
   nob: Begrunnelse for hasteprosedyre
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-136:
-  name: Direct Award Justification Code
+  name: Justification for direct award
   nob: Kode for direkte tildeling
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1252:
-  name: Direct Award Justification Previous Procedure Identifier
+  name: Identifier of the previous procedure that justifies direct award
   nob: Identifikator for tidligere anskaffelse som begrunner direkte tildeling
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-135:
-  name: Direct Award Justification Text
+  name: Other justification
   nob: Begrunnelse for direkte tildeling
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-31:
-  name: Lots Max Allowed
+  name: Maximum number of lots for which one tenderer can submit tenders
   nob: Maksimalt antall tillatte delkontrakter
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-763:
-  name: Lots All Required
+  name: The tenderer must submit tenders for all lots
   nob: Tilbud må gis på alle delkontraktene
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-33:
-  name: Lots Max Awarded
+  name: Maximum number of lots for which contracts can be awarded to one tenderer
   nob: Maksimalt antall tildelte delkontrakter
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-330:
-  name: Group Lot Award
+  name: Group lot award
   nob: Grupper av delkontrakter - Tildeling
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-330:
-  name: Group Identifier
+  name: Group of lots
   nob: Gruppeidentifikator
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1375:
-  name: Group Lot Identifier
+  name: Lots included
   nob: Identifikator til delkontraktsgruppe
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-709:
-  name: Second Stage
+  name: Second stage
   nob: Andre trinn
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1376:
   name: Second Stage Lot Identifier
   nob: Andre trinn delkontrakt identifikator
   history: []
   nob_verify: false
 business-term|name|BT-50:
-  name: Minimum Candidates
+  name: Minimum number of candidates to be invited for the second stage of the procedure
   nob: Minimum antall leverandører
   history:
   - name: Minimum Candidates
     nob: Nedre grense leverandører
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-661:
-  name: Maximum Candidates Indicator
+  name: There is a maximum number of candidates to be invited for the second stage of the procedure
   nob: Indikator maksimalt antall leverandører
   history:
   - name: Maximum Candidates Indicator
     nob: Indikator øvre grense leverandører
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-51:
-  name: Maximum Candidates Number
+  name: Maximum number of candidates to be invited for the second stage of the procedure
   nob: Maksimalt antall leverandører
   history:
   - name: Maximum Candidates Number
     nob: Høyeste antall leverandører
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-52:
-  name: Successive Reduction
+  name: The procedure will take place in successive stages. At each stage, some participants may be eliminated
   nob: Reduksjon i flere faser
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-120:
-  name: No Negotiation Necessary
+  name: The buyer reserves the right to award the contract on the basis of the initial tenders without any further negotiations
   nob: Ingen forhandlinger nødvendig
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-704:
-  name: Reward and Jury
+  name: Reward and jury
   nob: Premiering og jury
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1377:
   name: Rewards Lot Identifier
   nob: Identifikator premiering delkontrakt
@@ -613,288 +613,288 @@ business-term|name|BG-44:
   history: []
   nob_verify: false
 business-term|name|BT-644:
-  name: Prize Value
+  name: Value of the prize
   nob: Premiens verdi
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-44:
-  name: Prize Rank
+  name: Place receiving the prize
   nob: Premiens rangering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-41:
-  name: Following Contract
+  name: Any service contract following the contest will be awarded to one of the winners of the contest
   nob: Etterfølgende kontrakt
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-45:
-  name: Rewards Other
+  name: Additional information
   nob: Premier annet
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-42:
-  name: Jury Decision Binding
+  name: The decision of the jury is binding on the buyer
   nob: Bindende juryavgjørelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-46:
-  name: Jury Member Name
+  name: Members of the jury
   nob: Navn på jurymedlem
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-47:
-  name: Participant Name
+  name: Participants already selected
   nob: Deltakerens navn
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-701:
-  name: Exclusion Grounds
+  name: Exclusion grounds
   nob: Avvisningsgrunner
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-67:
-  name: Exclusion Grounds
+  name: Description
   nob: Avvisningsgrunner
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-702:
-  name: Selection Criteria
+  name: Selection criteria
   nob: Kvalifikasjonskrav og utvelgelseskriterier
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1378:
   name: Selection Lot Identifier
   nob: Identifikator til kvalifikasjonskrav delkontrakt
   history: []
   nob_verify: false
 business-term|name|BT-747:
-  name: Selection Criteria Type
+  name: Type
   nob: Type kvalifikasjonskrav eller utvelgelseskriterier
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-748:
-  name: Selection Criteria Used
+  name: Use of this criterion
   nob: Kvalifikasjonskrav eller utvelgelseskriterier benyttet
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-749:
-  name: Selection Criteria Name
+  name: Name
   nob: Navn på kvalifikasjonskrav eller utvelgelseskriterier
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-750:
-  name: Selection Criteria Description
+  name: Description
   nob: Beskrivelse av kvalifikasjonskrav eller utvelgelseskriterier
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-40:
-  name: Selection Criteria Second Stage Invite
+  name: The criteria will be used to select the candidates to be invited for the second stage of the procedure
   nob: Utvelgelseskriterier
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-72:
-  name: Selection Criteria Second Stage Invite Number
+  name: Selection criteria second stage invite number
   nob: Nummerering utvelgelseskriterier
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-752:
-  name: Selection Criteria Second Stage Invite Number
+  name: Selection criteria second stage invite number
   nob: Tallverdi utvelgelseskriterier
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-7531:
-  name: Selection Criteria Second Stage Invite Number Weight
+  name: Number is a type of weight
   nob: Vekting av utvelgelseskriterier
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-7532:
-  name: Selection Criteria Second Stage Invite Number Threshold
+  name: Number is a type of threshold
   nob: Utvelgelseskriterier terskel
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-705:
-  name: Other Requirements
+  name: Other requirements
   nob: Andre krav
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1379:
   name: Requirements Lot Identifier
   nob: Identifikator andre krav
   history: []
   nob_verify: false
 business-term|name|BT-71:
-  name: Reserved Participation
+  name: Reserved participation
   nob: Reservert  deltakelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-79:
-  name: Performing Staff Qualification
+  name: The names and professional qualifications of the staff assigned to perform the contract must be given
   nob: Kvalifikasjoner for medarbeidere som skal gjennomføre kontrakten
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-578:
-  name: Security Clearance
+  name: Security clearance is required
   nob: Sikkerhetsklarering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-78:
-  name: Security Clearance Deadline
+  name: Deadline for obtaining security clearance
   nob: Frist for sikkerhetsklarering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-732:
-  name: Security Clearance Description
+  name: Description
   nob: Beskrivelse av sikkerhetsklarering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-801:
-  name: Non Disclosure Agreement
+  name: A non-disclosure agreement is required
   nob: Taushetserklæring
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-802:
-  name: Non Disclosure Agreement Description
+  name: Additional information about the non-disclosure agreement
   nob: Beskrivelse av taushetserklæring
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-711:
-  name: Contract Terms
+  name: Contract terms
   nob: Kontraktsvilkår
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-13717:
   name: Terms Lot Identifier
   nob: Referanse til delkontraksvilkår
   history: []
   nob_verify: false
 business-term|name|BT-736:
-  name: Reserved Execution
+  name: The execution of the contract must be performed within the framework of sheltered employment programmes
   nob: Reservert gjennomføring
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-761:
-  name: Tenderer Legal Form
+  name: A certain legal form must be taken by a group of tenderers that is awarded a contract
   nob: Krav til tilbyders virksomhetsform
   history:
   - name: Tenderer Legal Form
     nob: Krav til tilbyders organisasjonsform
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-76:
-  name: Tenderer Legal Form Description
+  name: Legal form that must be taken by a group of tenderers that is awarded a contract
   nob: Beskrivelse av tilbyders virksomhetsform
   history:
   - name: Tenderer Legal Form Description
     nob: Beskrivelse av tilbyders organisasjonsform
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-70:
-  name: Terms Performance
+  name: Conditions relating to the performance of the contract
   nob: Vilkår for gjennomføring
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-92:
-  name: Electronic Ordering
+  name: Electronic ordering will be used
   nob: Elektronisk bestilling
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-77:
-  name: Terms Financial
+  name: Financial arrangement
   nob: Finansielle vilkår
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-743:
-  name: Electronic Invoicing
+  name: Electronic invoicing
   nob: Elektronisk fakturering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-93:
-  name: Electronic Payment
+  name: Electronic payment will be used
   nob: Elektronisk betaling
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-65:
-  name: Subcontracting Obligation
+  name: An obligation to be met by the tenderer concerning subcontracting
   nob: Underleveranse - forpliktelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-64:
-  name: Subcontracting Obligation Minimum
+  name: Minimum percentage of the contract value that the contractor must subcontract
   nob: Minimumsandel underleveranse - forpliktelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-729:
-  name: Subcontracting Obligation Maximum
+  name: Maximum percentage of the contract value that the contractor may subcontract
   nob: Maksimumsandel underleveranse - forpliktelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-707:
-  name: Award Criteria
+  name: Award criteria
   nob: Tildelingskriterier
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-13710:
   name: Award Criteria Lot Identifier
   nob: Identifikator (del)kontraktens tildelingskriterier
   history: []
   nob_verify: false
 business-term|name|BG-38:
-  name: Award Criterion
+  name: Award criterion
   nob: Tildelingskriterium
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-539:
-  name: Award Criterion Type
+  name: Type
   nob: Type tildelingskriterium
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-734:
-  name: Award Criterion Name
+  name: Name
   nob: Navn på tildelingskriterium
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-540:
-  name: Award Criterion Description
+  name: Description
   nob: Beskrivelse av tildelingskriterium
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-541:
-  name: Award Criterion Number
+  name: Award criterion number
   nob: Tildelingskriterium - tallverdi
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-541:
-  name: Award Criterion Number
+  name: Award criterion number
   nob: Tildelingskriterium - tallverdi
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-5421:
-  name: Award Criterion Number Weight
+  name: Number is a type of weight
   nob: Tildelingskriterium - vekt tallverdi
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-5422:
-  name: Award Criterion Number Fixed
+  name: Number is a fixed value
   nob: Tildelingkrtierium - fast verdi
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-5423:
-  name: Award Criterion Number Threshold
+  name: Number is a type of threshold
   nob: Tildelingskriterium - terskel
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-543:
-  name: Award Criteria Complicated
+  name: Description of the method to be used if weighting cannot be expressed by criteria
   nob: Tildelingskriterier - kompleks
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-733:
-  name: Award Criteria Order Justification
+  name: Justification for not indicating the weighting of the award criteria
   nob: Tildelingskriterier - begrunnelse for prioritert rekkefølge
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-706:
   name: Techniques
   nob: Teknikker
@@ -906,59 +906,59 @@ business-term|name|BT-13711:
   history: []
   nob_verify: false
 business-term|name|BT-765:
-  name: Framework Agreement
+  name: Framework agreement is involved
   nob: Rammeavtale
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-778:
-  name: Framework Maximum Participants
+  name: There is a maximum number of participants in the framework agreement
   nob: Rammeavtale - maksimalt antall deltakere
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-113:
-  name: Framework Maximum Participants Number
+  name: Maximum number of participants
   nob: Rammeavtale - maksimalt antall deltakere - antall
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-109:
-  name: Framework Duration Justification
+  name: Justification for the duration of the framework agreement
   nob: Begrunnelse for rammeavtalens varighet
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-111:
-  name: Framework Buyer Categories
+  name: Additional buyer coverage
   nob: Rammeavtale - kategorier av kjøpere
   history:
   - name: Framework Buyer Categories
     nob: Rammevatale - kategorier av kjøpere
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-766:
-  name: Dynamic Purchasing System
+  name: Dynamic purchasing system is involved
   nob: Dynamisk innkjøpsordning
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-119:
-  name: Dynamic Purchasing System Termination
+  name: The dynamic purchasing system is terminated
   nob: Dynamisk innkjøpsordning - avvikling
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-767:
-  name: Electronic Auction
+  name: An electronic auction is used
   nob: Elektronisk auksjon
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-123:
-  name: Electronic Auction URL
+  name: An electronic auction is held at the following address
   nob: URL for elektronisk auksjon
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-122:
-  name: Electronic Auction Description
+  name: Description
   nob: Beskrivelse av elektronisk auksjon
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-100:
   name: Communication
   nob: Kommunikasjon
@@ -970,240 +970,240 @@ business-term|name|BT-13712:
   history: []
   nob_verify: false
 business-term|name|BT-632:
-  name: Tool Name
+  name: Name
   nob: Verktøynavn
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-724:
-  name: Tool Atypical
+  name: Ad hoc communication tool is used
   nob: Særlige verktøy
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-124:
-  name: Tool Atypical URL
+  name: URL
   nob: Særlige verktøy - URL
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-127:
-  name: Future Notice
+  name: Estimated date of publication of a contract notice within this procedure
   nob: Fremtidig kunngjøring
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-631:
-  name: Dispatch Invitation Interest
+  name: Estimated date of dispatch of the invitations to confirm interest
   nob: Utsendelse av invitasjon til å bekrefte interesse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-130:
-  name: Dispatch Invitation Tender
+  name: Estimated date of dispatch of the invitations to submit tenders
   nob: Utsendelse av invitasjon til å levere tilbud
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-99:
-  name: Review Deadline Description
+  name: Information about review deadlines
   nob: Informasjon om tidsfrister for for klagebehandling
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-101:
-  name: Procurement Documents
+  name: Procurement documents
   nob: Anskaffelsesdokumentene
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-13718:
   name: Documents Lot Identifier
   nob: Dokumenter - delkontrakt identifikator
   history: []
   nob_verify: false
 business-term|name|BT-15:
-  name: Documents URL
+  name: Address of the procurement documents
   nob: URL til dokumenter
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-708:
-  name: Documents Official Language
+  name: Languages in which the procurement documents are officially available
   nob: Offisielt språk for dokumenter
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-737:
-  name: Documents Unofficial Language
+  name: Languages in which the procurement documents (or their parts) are unofficially available
   nob: Uoffisielt språk for dokumenter
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-14:
-  name: Documents Restricted
+  name: Access to certain procurement documents is restricted
   nob: Dokumenter begrenset
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-707:
-  name: Documents Restricted Justification
+  name: Justification for restricting access to certain procurement documents
   nob: Dokumenter begrenset - begrunnelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-615:
-  name: Documents Restricted URL
+  name: Information about restricted documents is available at
   nob: Dokumenter begrenset - URL
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-13:
-  name: Additional Information Deadline
+  name: Deadline for requesting additional information
   nob: Frist for ytterligere informasjon
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-102:
-  name: Submission Terms
+  name: Submission terms
   nob: Vilkår for innlevering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-13719:
   name: Submission Lot Identifier
   nob: Innleveringsidentifikator for delkontrakt
   history: []
   nob_verify: false
 business-term|name|BT-17:
-  name: Submission Electronic
+  name: Electronic submission
   nob: Elektronisk innlevering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-19:
-  name: Submission Nonelectronic Justification
+  name: Justification for why electronic submission is not possible
   nob: Begrunnelse for ikke-elektronisk innlevering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-745:
-  name: Submission Nonelectronic Description
+  name: Description
   nob: Beskrivelse av ikke-elektronisk innlevering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-18:
-  name: Submission URL
+  name: Address for submission
   nob: URL for innlevering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-97:
-  name: Submission Language
+  name: Languages in which tenders or requests to participate may be submitted
   nob: Innleveringsspråk
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-764:
-  name: Submission Electronic Catalogue
+  name: Electronic catalogue
   nob: Innlevering ved elektronisk katalog
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-744:
-  name: Submission Electronic Signature
+  name: Advanced or qualified electronic signature or seal (as defined in Regulation (EU) No 910/2014) is required
   nob: Innlevering med elektronisk signatur
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-63:
   name: Variants
   nob: Alternative tilbud
   history: []
   nob_verify: false
 business-term|name|BT-769:
-  name: Multiple Tenders
+  name: Tenderers may submit more than one tender
   nob: Flere tilbud
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-800:
   name: Deadline Receipt Answers
   nob: Tidsfrist
   history: []
   nob_verify: false
 business-term|name|BT-630:
-  name: Deadline Receipt Expressions
+  name: Deadline for receipt of expressions of interest
   nob: Tdsfrist for mottak av meldt interesse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1311:
-  name: Deadline Receipt Requests
+  name: Deadline for receipt of requests to participate
   nob: Tidsfrist for mottak av forespørsel om deltakelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-131:
-  name: Deadline Receipt Tenders
+  name: Deadline for receipt of tenders
   nob: Tilbudsfrist
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-98:
-  name: Tender Validity Deadline
+  name: Deadline until which the tender must remain valid
   nob: Vedståelsesfrist
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-751:
-  name: Guarantee Required
+  name: A guarantee is required
   nob: Krav om garanti
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-75:
-  name: Guarantee Required Description
+  name: Description of the financial guarantee
   nob: Beskrivelse av garanti
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-651:
-  name: Subcontracting Tender Indication
+  name: Obligatory indication of subcontracting
   nob: Bruk av underleverandør
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-132:
-  name: Public Opening Date
+  name: Date/time
   nob: Offentlig tilbudsåpning
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-133:
-  name: Public Opening Place
+  name: Place
   nob: Sted for offentlig tilbudsåpning
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-134:
-  name: Public Opening Description
+  name: Additional information
   nob: Beskrivelse av offentlig tilbudsåpning
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-771:
-  name: Late Tenderer Information
+  name: Tenderer-related information that can be supplemented after the submission deadline
   nob: Ettersending av tilbudsdokumenter
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-772:
-  name: Late Tenderer Information Description
+  name: Additional information
   nob: Beskrivelse av adgangen til ettersending av tilbudsdokumenter
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-7:
-  name: Notice Result
+  name: Notice result
   nob: Kunngjøring av resultat
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-161:
-  name: Notice Value
+  name: Value of all contracts awarded in this procedure
   nob: Kunngjøringens verdi
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-118:
-  name: Notice Framework Maximum Value
+  name: Maximum value of the framework agreements in this procedure
   nob: Kunngjøring - Maksimal verdi av rammeavtale
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1118:
-  name: Notice Framework Approximate Value
+  name: Approximate value of the framework agreements
   nob: Kunngjøring - Anslått verdi av rammeavtalen
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-556:
-  name: Group Framework Maximum Value
+  name: Group framework maximum value
   nob: Gruppe av delkontrakter i rammeavtale Gruppe av rammeavtaler -  Maksimal verdi
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-556:
-  name: Group Framework Maximum Value Lot Identifier
+  name: Group Framework Value Lot Identifier
   nob: Gruppe av delkontrakter i rammeavtale Gruppe av rammeavtaler - Maksimal verdi - Identifikator delkontrakt
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-156:
-  name: Group Framework Maximum Value
+  name: Maximum value of the framework agreements in this group of lots
   nob: Gruppe av delkontrakter i rammeavtale Gruppe av rammeavtaler -  Maksimal verdi
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-5561:
   name: Group Framework Re-estimated Value
   nob: Gruppe av delkontrakter i rammeavtale - Reestimert verdi
@@ -1215,94 +1215,94 @@ business-term|name|BT-5561:
   history: []
   nob_verify: false
 business-term|name|BT-1561:
-  name: Group Framework Re-estimated Value
+  name: Re-estimated value of the framework agreements within a group of lots
   nob: Gruppe av delkontrakter i rammeavtale -  Reestimert verdi
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-137:
-  name: Procedure Lot Result
+  name: Procedure lot result
   nob: Resultat per delkontrakt i anskaffelsen
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-13713:
   name: Result Lot Identifier
   nob: Resultat - delkontrakt identifikator
   history: []
   nob_verify: false
 business-term|name|BT-142:
-  name: Winner Chosen
+  name: Winner selection status
   nob: Vinner valgt
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-144:
-  name: Not Awarded Reason
+  name: The reason why a winner was not chosen
   nob: Begrunnelse for manglende tildeling
   history:
   - name: Not Awarded Reason
     nob: Begrunnelse ingen tildeling
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-709:
-  name: Framework Re-calculated Maximum Value
+  name: Maximum value of the framework agreement
   nob: Omregnet høyeste verdi for rammeavtale
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-660:
-  name: Framework Re-estimated Value
+  name: Re-estimated value of the framework agreement
   nob: Reestimert anslått verdi for rammeavtale
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-712:
-  name: Received Submissions
+  name: Received submissions
   nob: Mottatte innleveringer
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-759:
-  name: Received Submissions Count
+  name: Number of tenders or requests to participate received
   nob: Antall mottatte innleveringer
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-760:
-  name: Received Submissions Type
+  name: Type of received submissions
   nob: Type mottatte innleveringer
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-710:
-  name: Tender Value Lowest
+  name: Value of the lowest admissible tender
   nob: Verdi laveste tilbud
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-711:
-  name: Tender Value Highest
+  name: Value of the highest admissible tender
   nob: Verdi høyeste tilbud
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-320:
   name: Tender
   nob: Kontrakt
   history: []
   nob_verify: false
 business-term|name|BT-3201:
-  name: Tender Identifier
+  name: Tender identifier
   nob: Tilbudsidentifikator
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-13714:
-  name: Tender Lot Identifier
+  name: Identifier of lot or group of lots
   nob: Tilbud - Identifikator til delkontrakt
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-720:
-  name: Tender Value
+  name: Value of the result
   nob: Tilbudsverdi
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1711:
-  name: Tender Ranked
+  name: The tender was ranked
   nob: Tilbudsrangering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-779:
   name: Tender Payment Value
   nob: Verdi av betaling
@@ -1323,35 +1323,35 @@ business-term|name|BT-782:
   history: []
   nob_verify: false
 business-term|name|BT-171:
-  name: Tender Rank
+  name: Rank in the list of winners
   nob: Tilbudets rangering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-162:
-  name: Concession Revenue User
+  name: Estimated revenue coming from the users of the concession
   nob: Brukerinntekter fra konsesjon
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-160:
-  name: Concession Revenue Buyer
+  name: Estimated revenue coming from the buyer who granted the concession
   nob: Kjøperinntekter fra konsesjon
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-163:
-  name: Concession Value Description
+  name: Method used for calculating the estimated value of the concession
   nob: Beskrivelse konsesjonsverdi
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-193:
-  name: Tender Variant
+  name: The tender is a variant
   nob: Alternativt tilbud
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-191:
-  name: Country Origin
+  name: Country of origin of the product or the service
   nob: Opprinnelsesland
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-180:
   name: Subcontracting
   nob: Underleveranse
@@ -1363,368 +1363,368 @@ business-term|name|BT-773:
   history: []
   nob_verify: false
 business-term|name|BT-730:
-  name: Subcontracting Value Known
+  name: Subcontracting value is known
   nob: Underleveranse - Anslått verdi kjent
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-553:
-  name: Subcontracting Value
+  name: Value of subcontracting
   nob: Underleveranse - Anslått verdi
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-731:
-  name: Subcontracting Percentage Known
+  name: Subcontracting percentage is known
   nob: Underleveranse - Prosentandel kjent
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-555:
-  name: Subcontracting Percentage
+  name: Percentage of subcontracting
   nob: Underleveranse - Prosentandel
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-554:
-  name: Subcontracting Description
+  name: Description
   nob: Underleveranse - Beskrivelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-310:
   name: Contract
   nob: Kontrakt
   history: []
   nob_verify: false
 business-term|name|BT-150:
-  name: Contract Identifier
+  name: Identifier of the contract
   nob: Kontraktsidentifikator
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-3202:
   name: Contract Tender Identifier
   nob: Kontrakt - Tilbudsidentifikator
   history: []
   nob_verify: false
 business-term|name|BT-721:
-  name: Contract Title
+  name: Title
   nob: Kontrakt - Tittel
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-1451:
-  name: Winner Decision Date
+  name: Date on which the winner was chosen
   nob: Dato for beslutning av vinner
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-145:
-  name: Contract Conclusion Date
+  name: Date of the conclusion of the contract
   nob: Dato for inngått kontrakt
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-768:
-  name: Contract Framework Agreement
+  name: The contract is awarded within a framework agreement
   nob: Kontrakten under rammeavtale
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-151:
-  name: Contract URL
+  name: Address of the contract
   nob: URL til kontrakten
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-611:
-  name: Contract EU Funds
+  name: Contract EU funds
   nob: Kontrakt - EU-midler
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-722:
-  name: Contract EU Funds Name Programme
+  name: Name of EU-financed project or programme
   nob: Kontrakt - EU-midler - Program navn
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-5011:
-  name: Contract EU Funds Financing Identifier
+  name: Identifier of EU funds
   nob: Kontrakt - EU-midler - Finansiering identifikator
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-6110:
-  name: Contract EU Funds Details
+  name: Further details of EU funds
   nob: Kontrakt - EU-midler - Detaljer
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-713:
-  name: Strategic Procurement
+  name: Strategic procurement
   nob: Strategiske anskaffelser
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-13721:
-  name: Strategic Procurement Notice Section Identifier
+  name: Strategic procurement notice section identifier
   nob: Strategiske anskaffelser - Identifikator til del av kunngjøringen
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-06:
-  name: Strategic Procurement
+  name: Aim of strategic procurement
   nob: Strategiske anskaffelser
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-777:
-  name: Strategic Procurement Description
+  name: Description
   nob: Beskrivelse av strategisk anskaffelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-805:
   name: Green Procurement Criteria
   nob: Grønne anskaffelseskriterier
   history: []
   nob_verify: false
 business-term|name|BT-774:
-  name: Green Procurement
+  name: Approach to reducing environmental impacts
   nob: Grønn anskaffelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-775:
-  name: Social Procurement
+  name: Social objective promoted
   nob: Sosial anskaffelse
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-776:
-  name: Innovative Procurement of Innovation
+  name: Innovative objective
   nob: Anskaffelse av innovasjon - Innovativ anskaffelse
   history:
   - name: Innovative Procurement of Innovation
     nob: Anskaffelse av innovasjon Innovativ anskaffelse
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-715:
-  name: Vehicles
+  name: Total number of vehicles
   nob: Kjøretøy
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-725:
-  name: Vehicles Zero Emission Vehicles
+  name: Number of zero-emission heavy-duty vehicles
   nob: Nullutslippskjøretøy
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-716:
-  name: Vehicles Clean Vehicles
+  name: Number of clean vehicles
   nob: Miljøvennlige (renere? Ref direktivet oversatt) kjøretøy
   history:
   - name: Vehicles Clean Vehicles
     nob: Renere kjøretøy
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-754:
-  name: Accessibility
+  name: The use of accessibility criteria for persons with disabilities in the technical specifications
   nob: Tilgjengelighet
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-755:
-  name: Accessibility Justification
+  name: Justification
   nob: Begrunnelse for tilgjengelighet
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-717:
-  name: Clean Vehicles Directive
+  name: The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)
   nob: Direktivet om fremme av renere og mer energieffektive kjøretøy til veitransport
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-714:
-  name: CVD Information
+  name: CVD information
   nob: Renere og mer energieffektive kjøretøy - informasjon
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-735:
-  name: CVD Contract Type
+  name: The CVD legal basis to establish which category of procurement procedure applies
   nob: Renere og mer energieffektive kjøretøy - kontraktstype
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG7141:
   name: CVD Vehicles
   nob: Renere og mer energieffektive kjøretøy - kjøretøy
   history: []
   nob_verify: false
 business-term|name|BT-723:
-  name: Vehicle Category
+  name: 'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3'
   nob: Kjøretøygruppe
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-612:
-  name: Buyer Review Summary
+  name: Buyer review summary
   nob: Kjøper - Sammendrag av klager
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-13722:
   name: Buyer Review Lot Identifier
   nob: Kjøper - Klage - Identifikator til delkontrakt
   history: []
   nob_verify: false
 business-term|name|BT-712:
-  name: Buyer Review Complainants
+  name: Number of complainants
   nob: Kjøper - Klagere
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-613:
-  name: Buyer Review Requests
+  name: Buyer review requests
   nob: Kjøper - klageforespørsler
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-635:
-  name: Buyer Review Requests Count
+  name: Number of buyer review requests
   nob: Kjøper - Antall klager
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-636:
-  name: Buyer Review Requests Irregularity Type
+  name: Type of alleged irregularity
   nob: Kjøper - Type uregelmessighet
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-710:
-  name: Additional Information
+  name: Additional information
   nob: Tilleggsinformasjon
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-13715:
-  name: Additional Information Lot Identifier
+  name: Additional Information Lot ID
   nob: Identifikator til delkontrakt
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-726:
-  name: Suitable For SMEs
+  name: This procurement is also suitable for small and medium-sized enterprises (SMEs)
   nob: Egnet for SMB
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-115:
-  name: GPA Coverage
+  name: The procurement is covered by the Government Procurement Agreement (GPA)
   nob: Omfattet av GPA
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-634:
-  name: Procurement Relaunch
+  name: This cancelled or unsuccessful procedure or lot will be relaunched
   nob: Ny konkurranse kunngjøres
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-756:
-  name: PIN Competition Termination
+  name: Call for competition is terminated
   nob: Avslutning av forhåndskunngjøring
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-300:
-  name: Additional Information
+  name: Additional information
   nob: Tilleggsinformasjon
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-8:
-  name: Not Immediately Published
+  name: Not immediately published
   nob: Ikke umiddelbar publisering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-195:
-  name: Unpublished Identifier
+  name: Field to publish later
   nob: Ikke publisert - Identifikator
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-197:
-  name: Unpublished Justification Code
+  name: Justification code
   nob: Begrunnelseskode for å ikke publisere
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-196:
-  name: Unpublished Justification Description
+  name: Justification for publishing later
   nob: Beskrivelse av begrunnelse for å ikke publisere
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-198:
-  name: Unpublished Accessibility Date Unpublished Access Date
+  name: Date of when this will be published
   nob: Ikke publisert - Dato for tilgjengeliggjøring
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-77:
   name: Modification
   nob: Endring av kontrakt
   history: []
   nob_verify: false
 business-term|name|BT-1501:
-  name: Modification Previous Notice Section Identifier
+  name: Section identifier
   nob: Kontraktsendring - Identifikator til en del av tidligere kunngjøring
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-202:
-  name: Modification Description
+  name: Description of modifications
   nob: Beskrivelse av kontraktsendring
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-200:
-  name: Modification Reason Code
+  name: Reason for modification
   nob: Årsakskode for kontraktsendring
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-201:
-  name: Modification Reason Description
+  name: Description
   nob: Beskrivelse av årsak til kontraktsendring
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-9:
   name: Change
   nob: Endring av kunngjøring
   history: []
   nob_verify: false
 business-term|name|BT-13716:
-  name: Change Previous Notice Section Identifier
+  name: Section identifier
   nob: Identifikator til del av tidligere kunngjøring som skal endres
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-758:
-  name: Change Notice Version Identifier
+  name: Version of the previous notice to be changed
   nob: Identifikator til versjon av kunngjøringen som endres
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-141:
-  name: Change Description
+  name: Description of changes
   nob: Beskrivelse av endringen
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-718:
-  name: Change Procurement Documents
+  name: The procurement documents were changed on
   nob: Endring av anskaffelsesdokumentene
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-719:
-  name: Change Procurement Documents Date
+  name: Change date of the procurement documents
   nob: Dato for endring av anskaffelsesdokumentene
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-140:
-  name: Change Reason Code
+  name: Main reason for change
   nob: Kode for endringsårsak
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-762:
-  name: Change Reason Description
+  name: Description
   nob: Beskrivelse av endringsårsak
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BG-1:
   name: Basic information about the notice.
   nob: Grunnleggende opplysninger om kunngjøringen
   history: []
   nob_verify: false
 business-term|description|BT-04:
-  name: The European Public Procurement Procedure Identifier, a unique identifier of a procurement procedure. Including this identifier in all published versions of this notice (e.g. published on TED, national publication portals, regional publication portals) allows unique identification of procurement procedures around the Union (EU)
+  name: The European Public Procurement Procedure Identifier, a unique identifier of a procurement procedure. Including this identifier in all published versions of this notice (e.g. published on TED, national publication portals, regional publication portals) allows unique identification of procurement procedures around the Union.
   nob: Anskaffelsesidentifikatoren er en unik referanse for anskaffelsen. Ved å inkludere identifikatoren i alle publiserte versjoner av denne kunngjøringen (f.eks. publisert på TED, nasjonale publikasjonsportaler som Doffin eller regionale publikasjonsportaler) er det mulig å identifisere anskaffelsen i EU.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-701:
-  name: The European Public Procurement Notice Identifier of this notice. Including this identifier in all published version of this notice (e.g. TED, national publication portals, regional publication portals) allows unique identification of procurement notices around the Union EU.
+  name: The European Public Procurement Notice Identifier of this notice. Including this identifier in all published version of this notice (e.g. TED, national publication portals, regional publication portals) allows unique identification of procurement notices around the Union.
   nob: Kunngjøringsidentifikatoren til denne kunngjøringen. Ved å inkludere denne identifikatoren i alle publiserte versjoner av denne kunngjøringen (f.eks. publisert på TED, nasjonale publikasjonsportaler som Doffin eller regionale publikasjonsportaler) er det mulig å identifisere kunngjøringer i EU.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-757:
-  name: The version of the notice. This helps, for example, to keep track of versions of notices or changes to notices before publication.to avoid errors caused by multiple change notices sent at a similar time.
+  name: The version of the notice. This helps, for example, to keep track of versions of notices or changes to notices before publication.
   nob: Versjon av kunngjøringen. Denne kan f.eks bidra til å holde oversikt over versjoner av kunngjøringer eller endringer til kunngjøringer før publisering.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-01:
-  name: The legal basis (e.g. a Union or national legal act Europea n Directive or Regulation, national law) under which the procurement procedure takes place or, in case of prior information notices, under which the procurement procedure(s) will take place.
+  name: The legal basis (e.g. a Union or national legal act) under which the procurement procedure takes place or, in case of prior information notices, under which the procurement procedure(s) will take place.
   nob: Det rettslige grunnlaget (EU-rettslig eller nasjonalt) anskaffelsesprosedyren er underlagt eller vil underlegges.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-03:
   name: The type of form according to procurement legislation.
   nob: Type skjema ifølge anskaffelsesregelverket
@@ -1736,10 +1736,10 @@ business-term|description|BT-02:
   history: []
   nob_verify: false
 business-term|description|BT-05:
-  name: The date and time when the notice has been sent to TED for publication by the buyercontracting authority.
+  name: The date and time when the notice has been sent for publication by the buyer.
   nob: Dato og klokkeslett  oppdragsgiver sendte kunngjøringen til  publisering.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-803:
   name: The date and time the notice was transmitted electronically by the eSender to the Publications Office of the European Union
   nob: Dato og klokkeslett kunngjøringen ble sendt til publisering i TED av Doffin.
@@ -1813,14 +1813,14 @@ business-term|description|BT-510:
   history: []
   nob_verify: false
 business-term|description|BT-513:
-  name: The name of the locality (city, town or village) of the organisation's physical address.
+  name: The name of the locality (city, town, or village) of the organisation's physical address.
   nob: Navn på sted der virksomheten er lokalisert
   history:
   - name: The name of the locality (city, town or village) of the organisation's physical address.
     nob: navn på sted der virksomheten er lokalisert
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-512:
   name: The post code of the organisation's physical address.
   nob: Postnummer til virksomhetens fysiske adresse
@@ -1831,47 +1831,47 @@ business-term|description|BT-512:
     nob_verify: false
   nob_verify: false
 business-term|description|BT-507:
-  name: The location according to the common classification of territorial units for statistics (NUTS) of the organisation's physical address. The NUTS3 classification code shall must be used.
+  name: The location according to the common classification of territorial units for statistics (NUTS) of the organisation's physical address. The NUTS3 classification code shall be used.
   nob: Beliggenhet i følge felles nomenklatur for statistiske regionale enheter (NUTS) for virksomhetens fysiske adresse. NUTS3-kode skal benyttes. For Norge er dette fylke.
   history:
   - name: The location according to the common classification of territorial units for statistics (NUTS) of the organisation's physical address. The NUTS3 classification code shall must be used.
     nob: Beliggenhet i følge felles nomenklatur for statistiske refionale enheter (NUTS) for virksomhetens fysiske adresse. NUTS3-kode skal benyttes. For Norge er dette fylke.
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-514:
   name: The country of the organisation's physical address.
   nob: Landet der virksomheten har sin fysiske adresse.
   history: []
   nob_verify: false
 business-term|description|BT-502:
-  name: The name of the department or other contact point for communicating with the organisation. To avoid unnecessary processing of personal data, the contact point shall may allow the identification of a physical person only when necessary (in the sense of European Parliament and Council Regulation (EU) 2016/679 and European Parliament and Council Regulation (EU) 2018/1725).
+  name: The name of the department or other contact point for communicating with the organisation. To avoid unnecessary processing of personal data, the contact point shall allow the identification of a physical person only when necessary (in the sense of European Parliament and Council Regulation (EU) 2016/679 and European Parliament and Council Regulation (EU) 2018/1725).
   nob: Navn på avdelingen eller annet kontaktpunkt for kommunikasjon med virksomheten. For å unngå unødvendig behandling av personopplysninger skal navn på fysisk person bare oppgis dersom det er nødvendig (slik dette forstås i  Europaparlamentets og rådsforordning(EU) 2016/679 og Europaparlamentets og rådsforordning (EU) 2018/1725).
   history:
   - name: The name of the department or other contact point for communicating with the organisation. To avoid unnecessary processing of personal data, the contact point shall may allow the identification of a physical person only when necessary (in the sense of European Parliament and Council Regulation (EU) 2016/679 and European Parliament and Council Regulation (EU) 2018/1725).
     nob: Navn på avdelingen eller annet kontaktpunkt for kommunikasjon med virksomheten. For å unngå unødvendig behandling av personopplysninger skalnavn på fysisk person bare oppgis dersom det er nødvendig ( slik dette forstås i  Europaparlamentets og rådsforordning(EU) 2016/679 og Europaparlamentets og rådsforordning (EU) 2018/1725).
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-506:
-  name: The email address for contacting the organisation. To avoid unnecessary processing of personal data, the email address shall may allow the identification of a physical person only when necessary (in the sense of the General Data Protection Regulation Regulation (EU) 2016/679 and Regulation (EU) 2018/1725).
+  name: The email address for contacting the organisation. To avoid unnecessary processing of personal data, the email address shall allow the identification of a physical person only when necessary (in the sense of the Regulation (EU) 2016/679 and Regulation (EU) 2018/1725).
   nob: E-postadressen til virksomheten. For å begrense behandlingen av personopplysninge, skal e-postadressen tillate identifikasjon av en fysisk person kun når det er nødvendig (Slik dette forstås i forordning (EU) 2016/679 eller forordning (EU) 2018/1725)
   history:
   - name: The email address for contacting the organisation. To avoid unnecessary processing of personal data, the email address shall may allow the identification of a physical person only when necessary (in the sense of the General Data Protection Regulation Regulation (EU) 2016/679 and Regulation (EU) 2018/1725).
     nob: E-postadressen til virksomheten. For å begrense behandlingen av personopplysninge, skal e-postadressen tillate identifikasjon av en fysisk person kun  når det er nødvendig (Slik dette forstås i forordning (EU) 2016/679 eller forordning (EU) 2018/1725)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-503:
-  name: The telephone number for contacting the organisation. To avoid unnecessary processing of personal data, the telephone number shall may allow the identification of a physical person only when necessary (in the sense of the General Data Protection Regulation Regulation (EU) 2016/679 and Regulation (EU) 2018/1725).
+  name: The telephone number for contacting the organisation. To avoid unnecessary processing of personal data, the telephone number shall allow the identification of a physical person only when necessary (in the sense of the Regulation (EU) 2016/679 and Regulation (EU) 2018/1725).
   nob: Telefonummeret til virksomheten. For å begrense behandlingen av personopplysninger skal telefonummeret tillate identifikasjon av en fysisk person kun  når det er nødvendig  (Slik dette forstås i forordning (EU) 2016/679 eller (EU) 2018/1725)
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-739:
-  name: The fax number for contacting the organisation. To avoid unnecessary processing of personal data, the fax number shall may allow the identification of a physical person only when necessary (in the sense of the General Data Protection Regulation Regulation (EU) 2016/679 and Regulation (EU) 2018/1725).
+  name: The fax number for contacting the organisation. To avoid unnecessary processing of personal data, the fax number shall allow the identification of a physical person only when necessary (in the sense of the Regulation (EU) 2016/679 and Regulation (EU) 2018/1725).
   nob: Faksnummeret for å kontakte virksomheten. For å begrense behandlingen av personopplysninger skal faksnummeret tillate identifikasjon av en fysisk person kun  når det er nødvendig (Slik dette forstås i forordning (EU) 2016/679 eller (EU) 2018/1725)
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-505:
   name: The website of the organisation.
   nob: Virksomhetens nettsted.
@@ -1888,14 +1888,14 @@ business-term|description|BT-633:
   history: []
   nob_verify: false
 business-term|description|BT-08:
-  name: The role of the organisation in the procurement procedure (e.g. buyer, winner). A notice shall must contain all organisations in the procedure that have the role of a buyer, a winner, a review body, a buyer acquiring supplies and/or services intended for other buyers, a buyer awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers.
+  name: The role of the organisation in the procurement procedure (e.g. buyer, winner). A notice shall contain all organisations in the procedure that have the role of a buyer, a winner, a review body, a buyer acquiring supplies and/or services intended for other buyers, a buyer awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers.
   nob: Rollen virksomheten har i anskaffelsen (f.eks. kjøper, vinner,). En kunngjøring  skal inneholde alle virksomhetene i anskaffelsen som har en av følgende roller:":" kjøper, vinner, klageorgan, kjøper som anskaffer varer og/eller tjenester på vegne av andre kjøpere, en kjøper som tildeler offentlige konrakter eller inngår rammeavaler om bygg- og anleggarbeider, på vegne av andre kjøpere.
   history:
   - name: The role of the organisation in the procurement procedure (e.g. buyer, winner). A notice shall must contain all organisations in the procedure that have the role of a buyer, a winner, a review body, a buyer acquiring supplies and/or services intended for other buyers, a buyer awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers.
     nob: Rollen virksomheten har i anskaffelsen (f.eks. kjøper, vinner,). En kunngjøring  skal inneholde alle virksomhetene i anskaffelsen som har en av følgende roller:":" kjøper, vinner, klageorgan, kjøper som anskaffer varer og/eller tjenester på vegne av andre kjøpere, en kjøper som tildeler offentlige konrakter eller inngår rammeavaler om bygg- og anleggarbeider, varer eller tjenester på vegne av andre kjøpere.
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-770:
   name: The sub-role of the organisation in the procurement procedure (e.g. group leader, organisation providing additional information about the procurement procedure).
   nob: Virksomhetens funksjon i anskaffelsen (f.eks. gruppeleder, virksomhet som gir supplerende opplysninger om anskaffelsen)
@@ -1946,19 +1946,19 @@ business-term|description|BT-165:
   history: []
   nob_verify: false
 business-term|description|BT-706:
-  name: The nationality (or nationalities) of the beneficiary owner(s) of the winner, tenderer, or subcontractor; as published in the register(s) established by anti-money laundering legislation European Parliament and Council Directive (EU) 2018/843. If such a register does not exist (e.g. in case of non-EU contractors established outside the Union) then equivalent information from other sources.
+  name: The nationality (or nationalities) of the beneficiary owner(s) of the winner, tenderer, or subcontractor as published in the register(s) established by European Parliament and Council Directive (EU) 2018/843. If such a register does not exist (e.g. in case of contractors established outside the Union) then equivalent information from other sources.
   nob: Nasjonaliteten(e) til de reelle rettighetshaverne av vinneren, tilbyderen eller underleverandøren, slik den er offentliggjort i register etablert av Europaparlaments- og rådsdirektiv (EU) 2018/843. Dersom det ikke finnes et slikt register (f.eks. fordi kontraktsparten ikke er fra EU) oppgis tilsvarende informasjon fra andre kilder.
   history:
   - name: The nationality (or nationalities) of the beneficiary owner(s) of the winner, tenderer, or subcontractor; as published in the register(s) established by anti-money laundering legislation European Parliament and Council Directive (EU) 2018/843. If such a register does not exist (e.g. in case of non-EU contractors established outside the Union) then equivalent information from other sources.
     nob: Nasjonaliteten(e) til de reelle rettighetshaverne av vinneren, tilbyderen eller underleverandøren, slik den er offentliggjort i register etablert av Europaparlaments- og rådsdirektiv (EU) 2018/843.Dersom det ikke finnes et slikt register (f.eks. fordi kontraktsparten ikke er fra EU) oppgis tilsvarende informasjon fra andre kilder.
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-746:
-  name: The nationality (or nationalities) of the beneficiary owner(s) of the winner, tenderer, or subcontractor is not published in the register(s) established by anti-money laundering legislation Directive (EU) 2018/843, because the winner is listed on a regulated market (e.g. a stock exchange) that ensures adequate transparency in line with anti-money laundering legislation.
+  name: The nationality (or nationalities) of the beneficiary owner(s) of the winner, tenderer, or subcontractor is not published in the register(s) established by Directive (EU) 2018/843, because the winner is listed on a regulated market (e.g. a stock exchange) that ensures adequate transparency in line with anti-money laundering legislation.
   nob: Nasjonaliteten(e) til de reelle rettighetshaverne av vinneren, tilbyderen eller underleverandøren, er ikke publisert i registeret etablert av  EU direktiv 2018/843, fordi vinneren er notert på et regulert marked (for eksempel en børs) som sikrer tilstrekkelig gjennomsiktighet relatert til bekjempelse av hvitvasking og terrorfinansiering
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BG-715:
   name: Additional information about the review body.
   nob: Tilleggsinformasjon om klageorgan
@@ -1989,10 +1989,10 @@ business-term|description|BT-22:
   history: []
   nob_verify: false
 business-term|description|BT-23:
-  name: The main nature (e.g. works) of what is being bought. In case of mixed procurement (e.g. a procedure for both works and services), the main nature may be, for example, the one with the highest estimated value. This information shall must be given for the whole procedure.
+  name: The main nature (e.g. works) of what is being bought. In case of mixed procurement (e.g. a procedure for both works and services), the main nature may be, for example, the one with the highest estimated value. This information shall be given for the whole procedure.
   nob: Hovedelementet (f.eks. varer) i det som skal kjøpes. Ved en blandet anskaffelse (f.eks. anskaffelse av både varer og tjenester) kan de viktigste kjennetegnene være den som har høyest anslåtte verdi. Disse opplysningene skal oppgis for hele anskaffelsen.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-531:
   name: The nature (e.g. services) of what is being bought, additional to Main Nature.
   nob: Tilleggselementene (f.eks. tjenester) i som skal anskaffes som kommer i tillegg til til hovedelementet.
@@ -2004,69 +2004,69 @@ business-term|description|BT-21:
   history: []
   nob_verify: false
 business-term|description|BT-24:
-  name: The description of the nature and quantity of what is being bought or of the needs and requirements that shall should be met in this procedure or lot. In case of a modification notice, the description of the procurement before and after the modification.
+  name: The description of the nature and quantity of what is being bought or of the needs and requirements that shall be met in this procedure or lot. In case of a modification notice, the description of the procurement before and after the modification.
   nob: Beskrivelse av kjennetegnene ved ytelsen og mengden som skal kjøpes, eller hvilke behov og krav som  skal oppfylles gjennom anskaffelsen eller delanskaffelsen. Ved en endringskunngjøring må anskaffelsen før og etter endringen beskrives.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-27:
-  name: The estimated maximum value of the procurement procedure or lot. Estimated refers to estimation at the time of launching the call for competition. Maximum value means a value covering all contracts to be awarded within a framework agreement or a dynamic purchasing system, over their whole duration, including options and renewals. The estimated value of the procurement procedure or lot, over its whole duration, including options and renewals.
+  name: The estimated value of the procurement procedure or lot, over its whole duration, including options and renewals.
   nob: Anskaffelsenes eller delkontraktens anslåtte verdi i hele avtaleperioden, inkludert opsjoner og fornyelser.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-271:
   name: The maximum value of the framework agreement for the procurement procedure or lot, over its whole duration, including options and renewals. This value covers all contracts to be awarded within the framework agreement.
   nob: Den maksimale verdien av rammeavtalen for anskaffelsesprosedyren eller delkontrakten,i hele avtaleperioden inkludert opsjoner og fornyelser. Denne verdien dekker alle kontrakter som  tildeles innenfor rammeavtalen
   history: []
   nob_verify: false
 business-term|description|BG-557:
-  name: Information about the estimated maximum value which can may be spent in a framework agreement within a group of lots. This information can be provided when the estimated maximum value of a group of lots is lower than the sum of estimated values of individual lots in this group (e.g. when the same budget is shared for several lots).
+  name: Information about the maximum value which may be spent in a framework agreement within a group of lots. This information can be provided when the maximum value of a group of lots is lower than the sum of values of individual lots in this group (e.g. when the same budget is shared for several lots).
   nob: Informasjon om den  maksimale verdien som kan brukes  innenfor en gruppe med delkontrakter i en rammeavtale. Denne informasjonen kan fremlegges når den  maksimale verdien for en gruppe delkontrakter er lavere enn summen av de  verdiene av selvstendige delkontrakter i denne gruppen (f.eks. når flere delkontrakter deler budsjett).
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-557:
-  name: Identifiers of lots. These lots form a group An identifier of a lot within the procedure that is part of a group of lots whose estimated maximum value is lower than the sum of individual estimated maximum values of all the lots together (e.g. when the same budget is shared for several lots).
+  name: An identifier of a lot within the procedure that is part of a group of lots whose maximum value is lower than the sum of individual maximum values of all the lots together (e.g. when the same budget is shared for several lots).
   nob: En identifikator for en delkontrakt i denne anskaffelsen som er med i en gruppe delkontrakter der den maksimale verdien er lavere enn summen av individuelt estimerte maksverdier for alle delkontraktene sammenlagt, f.eks. når det samme budsjettet deles av flere delkontrakter.
   history:
   - name: Identifiers of lots. These lots form a group An identifier of a lot within the procedure that is part of a group of lots whose estimated maximum value is lower than the sum of individual estimated maximum values of all the lots together (e.g. when the same budget is shared for several lots).
-    nob: . En identifikator for en delkontrakt i denne anskaffelsen som er med i en gruppe delkontrakter der den maksimale verdien er lavere enn summen av individuelt estimerte maksverdier for alle delkontraktene sammenlagt, f.eks. når det samme budsjettet deles av flere delkontrakter.
+    nob: ". En identifikator for en delkontrakt i denne anskaffelsen som er med i en gruppe delkontrakter der den maksimale verdien er lavere enn summen av individuelt estimerte maksverdier for alle delkontraktene sammenlagt, f.eks. når det samme budsjettet deles av flere delkontrakter."
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-157:
-  name: The estimated maximum value which can may be spent in a framework agreement within a group of lots. This information can be provided when the estimated maximum value of a group of lots is lower than the sum of estimated maximum values of individual lots in this group (e.g. when the same budget is shared for several lots). Estimated refers to estimation at the time of launching the call for competition. Maximum value means a value covering all contracts to be awarded within a framework agreement over its whole duration, including options and renewals.
+  name: The maximum value which may be spent in a framework agreement within a group of lots. This information can be provided when the maximum value of a group of lots is lower than the sum of maximum values of individual lots in this group (e.g. when the same budget is shared for several lots). Maximum value means a value covering all contracts to be awarded within a framework agreement over its whole duration, including options and renewals.
   nob: Den maksimale verdien som kan brukes for en gruppe delkontrakter i en rammeavtale. Disse opplysningene kan oppgis når den maksimale verdien for en gruppe av delkontrakter er lavere enn summen av anslåtte verdier for de enkelte delkontraktene i gruppen (for eksempel når samme budsjett brukes for flere delkontrakter). "Anslått" henviser til den skjønnsmessige vurderingen som foretas på tidspunktet for kunngjøringen av konkurransen. Maksimale verdi betyr verdien av alle kontrakter som skal tildeles i en rammeavtale, i  hele avtaleperioden, inkludert opsjoner og fornyelse.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BG-261:
-  name: Information about the classification(s) describing the purchase. The common procurement vocabulary (CPV) classification type shall must be used. Additionally, other classifications may be added in the future. (e.g. the World Health Organisation's anatomical therapeutic chemical (ATC) classification for pharmaceuticals; the medical devices nomenclature under the Regulation (EU) 2017/745) may, if made available by the Publications Office of the EU, be used.)
+  name: Information about the classification(s) describing the purchase. The common procurement vocabulary (CPV) classification type shall be used. Additionally, other classifications may be added in the future.
   nob: Informasjon om det eller de klassifiseringssystem som beskriver anskaffelsen. Klassifiseringstypene i felles anskaffelsvokabular (CPV) skal benyttes. I tillegg  kan andre klassifiseringssystemer benyttes i fremtiden,
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-26:
-  name: The type of classification describing the purchase (e.g. the CPV common procurement vocabulary).
+  name: The type of classification describing the purchase (e.g. the CPV).
   nob: Type klassifisering som beskriver anskaffelsen (for eksempel CPV-koder),
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-262:
-  name: The code from the classification that best characterizes the purchase.
+  name: The code from the classification that best characterises the purchase.
   nob: Kode fra klassifiseringen som best beskriver anskaffelsen
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-263:
-  name: An additional code from the classification that also characterisesze the purchase.
+  name: An additional code from the classification that also characterises the purchase.
   nob: Tilleggskode fra klassifiseringen som også beskriver anskaffelsen.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-25:
   name: The number of units required.
   nob: Antall enheter som etterspørres
   history: []
   nob_verify: false
 business-term|description|BT-625:
-  name: The unit which the good, service, or work comes in, for example hours or kilograms. Where the CPV code is a supply which does not need a further unit (e.g. cars), then no unit needs to be given and quantity is taken to be an amount a count, e.g. the "number of cars".
+  name: The unit which the good, service, or work comes in, for example hours or kilograms. Where the CPV code is a supply which does not need a further unit (e.g. cars), then no unit needs to be given and quantity is taken to be an amount, e.g. the "number of cars".
   nob: Angi enheten anskaffelsen kommer i, f.eks. timer eller kilo. Der CPV-koden er en type som ikke behøver nærmere beskrivelse av enhet (f.eks. biler) kan antall/stykk angis som enhet.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-53:
   name: The buyer reserves the right (not an obligation) for additional purchases from the contractor (while the contract is valid).
   nob: Kjøper forbeholder seg retten (ikke en plikt) til å foreta ytterligere kjøp fra leverandøren, så lenge avtalen er gyldig
@@ -2092,14 +2092,14 @@ business-term|description|BT-95:
   history: []
   nob_verify: false
 business-term|description|BG-708:
-  name: Information about the main location of works in case of works; main place of delivery or performance in case of supplies and services. If the place of performance covers several NUTS 3 areas (e.g. a highway, a national network of job centres), then all relevant codes shall must be given. This information may differ per lot. In case of a prior information notice used only for information, this information may differ per part of the notice that may later become a lot or a self-standing procedure.
+  name: Information about the main location of works in case of works, main place of delivery or performance in case of supplies and services. If the place of performance covers several NUTS 3 areas (e.g. a highway, a national network of job centres), then all relevant codes shall be given. This information may differ per lot. In case of a prior information notice used only for information, this information may differ per part of the notice that may later become a lot or a self-standing procedure.
   nob: Informasjon om hvor oppdraget i hovedsak skal utføres ved en bygg- og anleggskontrakt, eller hvor tjenesten eller varen skal leveres. Oppgi alle relevante koder, selv der stedet dekker flere NUTS 3 koder for eksempel en motorvei, eller et nettverk av kontorer. Informasjonen kan varierer pr delkontrakt. I forhåndskunngjøringer som kun er benyttet til informasjonsformål kan denne informasjonen være ulik i hver del av kunngjøringen som senere kan bli en delkontrakt eller en selvstendig anskaffelse.
   history:
   - name: Information about the main location of works in case of works; main place of delivery or performance in case of supplies and services. If the place of performance covers several NUTS 3 areas (e.g. a highway, a national network of job centres), then all relevant codes shall must be given. This information may differ per lot. In case of a prior information notice used only for information, this information may differ per part of the notice that may later become a lot or a self-standing procedure.
     nob: Informasjon om hvor oppdraget i hovedsak skal utføres ved en bygg- og anleggskontrakt, eller hvor tjenesten eller varen i skal leveres. Oppgi alle relevante koder, selv der stedet dekker flere NUTS 3 koder for eksempel en motorvei, et nettverk av kontorer. Informasjonen kan varierer pr delkontrakt. I forhåndskunngjøringer som kun er benyttet til informasjonsformål kan denne informasjonen være ulik i hver del av kunngjøringen som senere kan bli en delkontrakt eller en selvstendig anskaffelse.
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-1372:
   name: An identifier of one or more lots. In case of PINs used only for information, the identifier of one or more parts of the notice that may later become lots or a self-standing procedures. The information in the place of performance section refers to this lot (or part) or these lots (or parts).
   nob: En identifikator for en eller flere delkontrakter. Ved forhåndskunngjøring som kun brukes til informasjon, kan identifikatoren til en eller flere deler av kunngjøringen senere bli en delkontrakt eller en selvstendig prosedyre. Informasjonen i avsnittet om sted for gjennomføring refererer til denne delkontrakten (eller deler) av disse delkontraktene.
@@ -2114,10 +2114,10 @@ business-term|description|BT-5101:
   history: []
   nob_verify: false
 business-term|description|BT-5131:
-  name: The name of the locality (city, town or village) of the place of performance.
+  name: The name of the locality (city, town, or village) of the place of performance.
   nob: Navn på by, tettsted etc. hvor gjennomføringsstedet ligger.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-5121:
   name: The postcode of the place of performance.
   nob: Postnummer for sted for gjennomføring.
@@ -2128,10 +2128,10 @@ business-term|description|BT-5121:
     nob_verify: false
   nob_verify: false
 business-term|description|BT-5071:
-  name: The location according to the common classification of territorial units for statistics (NUTS). The NUTS3 classification code shall must be used.
+  name: The location according to the common classification of territorial units for statistics (NUTS). The NUTS3 classification code shall be used.
   nob: Angi sted basert på klassifikasjonssystemet NUTS. NUTS3-kode skal benyttes.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-5141:
   name: The country of the place of performance.
   nob: Landet hvor kontrakten skal gjennomføres.
@@ -2174,10 +2174,10 @@ business-term|description|BT-536:
   history: []
   nob_verify: false
 business-term|description|BT-36:
-  name: The (estimated) period from the start to the end of the contract, framework agreement, dynamic purchasing system or qualification system. This shall must include any options and renewals.
+  name: The (estimated) period from the start to the end of the contract, framework agreement, dynamic purchasing system or qualification system. This shall include any options and renewals.
   nob: Den (anslåtte) perioden fra starten til slutten av en kontrakt, rammeavtale, dynamisk innkjøpsordning eller kvalifikasjonsordning. Dette skal inkludere opsjoner og fornyelser.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-537:
   name: The (estimated) date when the contract, framework agreement, dynamic purchasing system or qualification system will finish.
   nob: Den (anslåtte) datoen for når en kontrakt, rammeavtale, dynamisk innkjøpsordning eller kvalifkasjonsordning vil bli avsluttet.
@@ -2208,20 +2208,20 @@ business-term|description|BT-57:
   history: []
   nob_verify: false
 business-term|description|BG-61:
-  name: Information about European Union funds used to finance the procurement. This information may differ per lot.
+  name: Information about Union funds used to finance the procurement. This information may differ per lot.
   nob: Informasjon om EU-midler som vil bli benyttet til å finansiere anskaffelsen. Informasjonen kan varierer per delkontrakt.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-1374:
   name: An identifier of one or more lots. The information in the EU funds section refers to this lot or these lots.
   nob: En identifikator for en eller flere delkontrakter eller grupper av delkontrakter. Informasjonen som er angitt i delen om EU-midler viser til denne eller disse delkontraktene.
   history: []
   nob_verify: false
 business-term|description|BT-60:
-  name: The procurement is at least partially financed by European Union funds such as the European Structural and Investment Funds or grants awarded by the European Union.
+  name: The procurement is at least partially financed by Union funds such as the European Structural and Investment Funds or grants awarded by the Union.
   nob: Anskaffelsen er minimum delvis finansiert av EU-midler slik som  de Europeiske Struktur- og Investeringsfondene eller tilskudd som er tildelt av den Europeiske Union.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BG-614:
   name: Information about European Union funds that will be used to finance the procedure. The most concrete information must be given (e.g. about concrete projects, not just operational programmes.)
   nob: Informasjon om EU-midler som vil bli brukt til å finansiere anskaffelsen. Informasjonen skal være så konkret som mulig (for eksempel konkrete prosjekter, ikke bare operasjonelle programmer.)
@@ -2257,15 +2257,15 @@ business-term|description|BT-09:
   history: []
   nob_verify: false
 business-term|description|BT-105:
-  name: The type of procurement procedure (e.g. according to the types given in the procurement Directives Public Procurement Directives mentioned in the recitals of this Act).
+  name: The type of procurement procedure (e.g. according to the types given in the Public Procurement Directives mentioned in the recitals of this Act).
   nob: Anskaffelsesprosedyren som benyttes, for eksempel i henhold til prosedyretypene som angis i anskaffelsesdirektivene.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-88:
-  name: The main features of the procedure (e.g. description of the individual stage(s)) and information about where the full rules for the procedure can be found. This information shall must be given when the procedure is not one of those mentioned in the procurement Directives. This can be the case for example for concessions, for social and other specific services, and in case of voluntary publication of procurement procedures below the EU procurement thresholds.
+  name: The main features of the procedure (e.g. description of the individual stage(s)) and information about where the full rules for the procedure can be found. This information shall be given when the procedure is not one of those mentioned in the procurement Directives. This can be the case for example for concessions, for social and other specific services, and in case of voluntary publication of procurement procedures below the EU procurement thresholds.
   nob: Egenskaper ved prosedyren (for eksempel de ulike stegene og informasjon om hvor de samlede reglene for prosedyren finnes) dersom den ikke følger av anskaffelsesdirektivene. Dette kan for eksempel gjelde konsesjoner, sosiale tjenester og andre særlige tjenester eller en frivillig kunngjøring av en anskaffelse under EØS-terskelverdi.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-106:
   name: The time limit for receipt of requests to participate or of tenders in this procedure can be reduced due to a state of urgency.
   nob: Tidsfristen for mottak av forespørsler om deltakelse eller tilbud i denne anskaffelsen kan forkortes på grunn av akutte behov.
@@ -2329,10 +2329,10 @@ business-term|description|BT-330:
   history: []
   nob_verify: false
 business-term|description|BT-1375:
-  name: An identifier of several lots within this procedure. These lots form An identifier of a lot within the procedure that is part of a group of lots for which one tender can be submitted and evaluated.
+  name: An identifier of a lot within the procedure that is part of a group of lots for which one tender can be submitted and evaluated.
   nob: En identifikator for en delkontrakt i denne anskaffelsen som er med i en gruppe delkontrakter derdet kan leveres tilbud på som kan evalueres.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BG-709:
   name: Information about the second stage of a two-stage procedure. This information may differ per lot.
   nob: Informasjon om det andre trinnet i en to-trinns prosedyre. Informasjonen kan variere per delkontrakt.
@@ -2388,10 +2388,10 @@ business-term|description|BG-44:
   history: []
   nob_verify: false
 business-term|description|BT-644:
-  name: The value of the prize, if any, for the winner of  a design contest, innovation partnership or competitive dialogue.
+  name: The value of the prize, if any, for the winner of a design contest, innovation partnership or competitive dialogue
   nob: Verdien av en eventuell premie til vinneren av en plan- og designkonkurranse, innovasjonspartnerskap eller konkurransepreget dialog.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-44:
   name: The place (e.g. first place, second place) in a design contest, innovation partnership or competitive dialogue that receives the prize.
   nob: Plasseringene (for eksempel første plass, andre plass) som mottar en premie i en plan- og designkonkurranse, innovasjonspartnerskap eller konkurransepreget dialog.
@@ -2418,28 +2418,28 @@ business-term|description|BT-46:
   history: []
   nob_verify: false
 business-term|description|BT-47:
-  name: A name of an already selected participant. A participant could have been selected already at the time of the publication of the design contest notice because, for example, the information about the participation of a world renowned architect is intended to promote the contest amongst other potential participants.
+  name: A name of an already selected participant. A participant could have been selected already at the time of the publication of the design contest notice because, for example, the information about the participation of a world-renowned architect is intended to promote the contest amongst other potential participants.
   nob: Navnet på en allerede valgt deltaker. En deltaker kan være valgt på tidspunktet for kunngjøringen av plan- og designkonkurransen, for eksempel hvis en verdenskjent arkitekt skal delta for promotere konkurransen for andre potensielle deltakere.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BG-701:
-  name: The brief description of criteria regarding the personal situation of tenderers that may lead to their exclusion. This must include a list of all such criteria and indicate required information (e.g. self-declaration, documentation). This can also include specific national exclusion grounds.
+  name: The brief description of criteria regarding the personal situation of tenderers that may lead to their exclusion. This shall include a list of all such criteria and indicate required information (e.g. self-declaration, documentation). This may also include specific national exclusion grounds.
   nob: Kort beskrivelse av grunnene knyttet til leverandørens personlige forhold som kan føre til avvisning. Dette skal omfatte en liste av alle slike grunner og de opplysningene som kreves (for eksempel egenerklæringer, dokumentasjon). Dette kan også omfatte spesifikke nasjonale avvisningsgrunner.
   history:
   - name: The brief description of criteria regarding the personal situation of tenderers that may lead to their exclusion. This must include a list of all such criteria and indicate required information (e.g. self-declaration, documentation). This can also include specific national exclusion grounds.
     nob: Kort beskrivelse av grunnene  knyttet til leverandørens personlige forhold som kan føre til avvisning. Dette skal omfatte en liste av alle slike grunner og de opplysningene som kreves (for eksempel egenerklæringer, dokumentasjon). Dette kan også omfatte spesifikke nasjonale avvisningsgrunner.
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-67:
-  name: The brief description of criteria regarding the personal situation of tenderers that may lead to their exclusion. This shall must include a list of all such criteria and indicate required information (e.g. self-declaration, documentation). This may can also include specific national exclusion grounds.
+  name: The brief description of criteria regarding the personal situation of tenderers that may lead to their exclusion. This shall include a list of all such criteria and indicate required information (e.g. self-declaration, documentation). This may also include specific national exclusion grounds.
   nob: Kort beskrivelse av grunnene knyttet til leverandørens personlige forhold som kan føre til avvisning. Dette skal omfatte en liste av alle slike grunner og de opplysningene som kreves (for eksempel egenerklæringer, dokumentasjon). Dette kan også omfatte spesifikke nasjonale avvisningsgrunner.
   history:
   - name: The brief description of criteria regarding the personal situation of tenderers that may lead to their exclusion. This shall must include a list of all such criteria and indicate required information (e.g. self-declaration, documentation). This may can also include specific national exclusion grounds.
     nob: Kort beskrivelse av grunnene  knyttet til leverandørens personlige forhold som kan føre til avvisning. Dette skal omfatte en liste av alle slike grunner og de opplysningene som kreves (for eksempel egenerklæringer, dokumentasjon). Dette kan også omfatte spesifikke nasjonale avvisningsgrunner.
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BG-702:
   name: Information about the selection criteria (or criterion). All criteria must be listed. This information may differ per lot.
   nob: Informasjon om kvalifikasjonskrav og utvelgelseskriterier. Alle krav må oppgis. Denne informasjonen kan variere per delkontrakt.
@@ -2496,10 +2496,10 @@ business-term|description|BT-7532:
   history: []
   nob_verify: false
 business-term|description|BG-705:
-  name: Information about any other requirements for participation in the procedure and terms governing the future contract. The requirements shall must include a description of methods according to which they will be verified. This information may differ per lot. In case of a prior information notice used only for information, this information may differ per part of the notice that may later become a lot or a self-standing procedure.
+  name: Information about any other requirements for participation in the procedure and terms governing the future contract. The requirements shall include a description of methods according to which they will be verified. This information may differ per lot. In case of a prior information notice used only for information, this information may differ per part of the notice that may later become a lot or a self-standing procedure.
   nob: Informasjon om eventuelle andre krav for deltakelse i konkurransen og vilkår som gjelder for den fremtidige kontrakten. Kravene skal inkludere en beskrivelse av metoden for vurdering av kravene. Denne informasjonen kan være ulik for ulike delkontrakter. Ved veiledende kunngjøring kan denne informasjonen variere per del av kunngjøringen som senere kan bli en delkontrakt eller en selvstendig anskaffelse.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-1379:
   name: An identifier of one or more lots. In case of PINs used only for information, the identifier of one or more parts of the notice that may later become lots or a self-standing procedures. The information in the other requirements section refer this lot (or part) or these lots (or parts).
   nob: En identifikator for en eller flere delkontrakter. Ved forhåndskunngjøring som kun brukes til informasjon, kan identifikatoren til en eller flere deler av kunngjøringen senere bli en delkontrakt eller en selvstendig prosedyre. Informasjonen i avsnittet om andre krav refererer til denne delkontrakten (eller deler) av disse delkontraktene.
@@ -2722,20 +2722,20 @@ business-term|description|BT-113:
   history: []
   nob_verify: false
 business-term|description|BT-109:
-  name: The justification for exceptional cases when the duration of framework agreements exceeds the legal limits. (Four years in the case of the general procurement Directive, seven years in the case of the defence Directive, and eight years in the case of the sectoral Directive.)
+  name: The justification for exceptional cases when the duration of framework agreements exceeds the legal limits.
   nob: Begrunnelse for unntakstilfeller der avtaleperioden overskrider regelverkets grenser.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-111:
   name: Any additional categories of buyers participating in the framework agreement and not mentioned by name (e.g. "all hospitals in the Tuscany region").
   nob: Eventuelle supplerende kategorier av kjøpere som deltar i en rammeavtale og som ikke nevnes ved navn, (f.eks. "alle sykehus i Toscana").
   history: []
   nob_verify: false
 business-term|description|BT-766:
-  name: Whether a dynamic purchasing system is involved and, in case of central purchasing bodies, whether it can be used by buyers not listed in this notice.
+  name: Whether a dynamic purchasing system is involved and, in case of central purchasing bodies, whether it may be used by buyers not listed in this notice.
   nob: Hvorvidt det skal benyttes en dynamisk innkjøpsordning (DPS). For innkjøpssentraler angis også om kjøpere som ikke er oppgitt i denne kunngjøringen kan delta.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-119:
   name: The dynamic purchasing system is terminated. No further contracts, besides those published in this notice, will be awarded in the dynamic purchasing system. This field can be used even if no contracts are awarded in the contract award notice.
   nob: Den dynamiske innkjøpsordningen er avviklet. Det vil ikke inngås flere kontrakter i ordningen enn kontraktene publisert i denne kunngjøringen. Feltet kan brukes selv om det ikke er tildelt noen kontrakter i kunngjøring av kontraktsinngåelse.
@@ -2818,10 +2818,10 @@ business-term|description|BT-13718:
     nob_verify: false
   nob_verify: false
 business-term|description|BT-15:
-  name: The internet address for accessing (the non-restricted part of) the procurement documents. For all notices except prior information notices, the address shall must give access that is direct (i.e. the exact webpage with the documents, not a general website), unrestricted (e.g. no registration), full (i.e. the procurement documents are must be complete) and free of charge and the documents shall must be available already at the time of the publication of the notice.
+  name: The internet address for accessing (the non-restricted part of) the procurement documents. For all notices except prior information notices, the address shall give access that is direct (i.e. the exact webpage with the documents, not a general website), unrestricted (e.g. no registration), full (i.e. the procurement documents are complete) and free of charge and the documents shall be available already at the time of the publication of the notice.
   nob: Internettadressen som gir tilgang til de anskaffelsesdokumentene som ikke er begrenset. For alle kunngjøringer unntatt forhåndskunngjøringer, skal adressen gi direkte (selve internettsiden med dokumentene og ikke generelt nettsted), ubegrenset (uten registrering), full (anskaffelsesdokumentene er  fullstendige) og gratis tilgang. Dokumentene skal  være tilgjengelige på tidspunktet for publisering av kunngjøringen.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-708:
   name: The language(s) in which the procurement documents are officially available. These linguistic versions are equally legally valid.
   nob: Språket eller språkene anskaffelsesdokumentene er offisielt tilgjenglig på. Disse språklige versjonene har samme gyldighet.
@@ -2866,10 +2866,10 @@ business-term|description|BT-13719:
     nob_verify: false
   nob_verify: false
 business-term|description|BT-17:
-  name: Whether economic operators are required, allowed or not allowed to submit tenders, requests to participate, or expressions of interest electronically.
+  name: Whether economic operators are required, allowed, or not allowed to submit tenders, requests to participate, or expressions of interest electronically.
   nob: Hvorvidt det er obligatorisk, valgfritt eller ikke mulig for leverandører å levere tilbud, forespørsel om å delta eller melde interesse elektronisk.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-19:
   name: The justification for electronic submission of tenders, requests to participate, or expressions of interest not being possible.
   nob: Begrunnelsen for hvorfor elektronisk innlevering av tilbud, forespørsel om å delta eller melding av interesse ikke er mulig.
@@ -2881,10 +2881,10 @@ business-term|description|BT-745:
   history: []
   nob_verify: false
 business-term|description|BT-18:
-  name: The internet address for submission of tenders, requests to participate, or expressions of interest by electronic means. The address shall should be as direct as possible (ideally a dedicated address for the electronic submission, not just a general website).
+  name: The internet address for submission of tenders, requests to participate, or expressions of interest by electronic means. The address shall be as direct as possible (ideally a dedicated address for the electronic submission, not just a general website).
   nob: Internettadressen for elektronisk innlevering av tilbud, forespørsel om å delta eller melding av interesse. Adressen skal  være så direkte som mulig (helst en dedikert adresse for elektronisk innlevering,  ikke til et generelt nettsted).
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-97:
   name: A language in which tenders, requests to participate, or expressions of interest may be submitted.
   nob: Språk som tilbud, forepørsel om å delta eller melding av interesse kan leveres inn på.
@@ -2901,10 +2901,10 @@ business-term|description|BT-744:
   history: []
   nob_verify: false
 business-term|description|BT-63:
-  name: Whether tenderers are required, allowed or not allowed to submit tenders which fulfil the buyer's needs differently than as proposed in the procurement documents. Further conditions for submitting variant tenders are in the procurement documents.
+  name: Whether tenderers are required, allowed, or not allowed to submit tenders which fulfil the buyer's needs differently than as proposed in the procurement documents. Further conditions for submitting variant tenders are in the procurement documents.
   nob: Hvorvidt det er obligatorisk, tillatt eller ikke tillatt å levere inn tilbud som dekker kjøperens behov på annen måte enn angitt i anskaffelsesdokumentene. Nærmere betingelser for innlevering av alternative tilbud finnes i anskaffelsesdokumentene.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-769:
   name: Tenderers may submit more than one tender (for a given lot).
   nob: Tilbyder kan levere mer enn ett tilbud (for en gitt delkontakt)
@@ -2990,34 +2990,34 @@ business-term|description|BT-161:
   history: []
   nob_verify: false
 business-term|description|BT-118:
-  name: The maximum or estimated value which can be spent within the framework agreement(s) announced in this notice over its/their whole duration, in all lots, including options and renewals, as calculated on the basis of the winner’s tender or winners’ tenders.
+  name: The maximum value which can be spent within the framework agreement(s) announced in this notice over its/their whole duration, in all lots, including options and renewals, as calculated on the basis of the winner’s tender or winners’ tenders.
   nob: Den maksimale  verdien som kan brukes i rammeavtalen(e) i denne kunngjøringen i hele avtaleperioden, i alle delkontrakter, inkludert opsjoner og fornyelser, som beregnet på grunnlag av vinnerens eller vinnernes tilbud.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-1118:
   name: The approximate value to be spent within the framework agreement(s) announced in this notice over its/their whole duration, in all lots, including options and renewals, as calculated on the basis of the winner’s tender or winners’ tenders.
   nob: Den anslåtte verdien som kan brukes i rammeavtalen(e) i denne kunngjøringen i hele avtaleperioden, i alle delkontrakter, inkludert opsjoner og fornyelser, som beregnet på grunnlag av vinnerens eller vinnernes tilbud.
   history: []
   nob_verify: false
 business-term|description|BG-556:
-  name: Information about the maximum or estimated value which can be spent, in a framework agreement, within a group of lots. This information can may be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). These are maximum values as calculated on the basis of the winner’s tender or winners’ tenders.
+  name: Information about the maximum value which can be spent, in a framework agreement, within a group of lots. This information may be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). These are maximum values as calculated on the basis of the winner’s tender or winners’ tenders.
   nob: Informasjon om den maksimale verdien som kan brukes i rammeavtalen(e) i denne kunngjøringen i en gruppe av delkontrakter. Denne informasjonen kan oppgis når den maksimale verdien av grupper av delkontrakter er lavere enn summen av verdien for enkelte delkontraktene (f.eks. når det samme budsjettet deles av flere delkontrakter). Dette er maksimale verdier som beregnet på grunnlag av vinnerens eller vinnernes tilbud.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-556:
-  name: An identifier of several lots within this procedure. These lots form a group An identifier of a lot within the procedure that is part of a group of lots whose maximum or estimated value is lower than the sum of maximum values of individual maximum or estimated values of all the lots together (e.g. when the same budget is shared for several lots). These are maximum values as calculated on the basis of the winner’s tender or winners’ tenders.
+  name: An identifier of a lot within the procedure that is part of a group of lots whose maximum value is lower than the sum of maximum values of individual lots (e.g. when the same budget is shared for several lots). These are maximum values as calculated on the basis of the winner’s tender or winners’ tenders.
   nob: En identifikator for en delkontrakt i denne anskaffelsen som er med i en gruppe delkontrakter der den maksimale verdien er lavere enn summen av maksimale verdier av individuelle delkontrakter (f.eks. når det samme budsjettet deles av flere delkontrakter). Dette er maksimale verdier som beregnet på grunnlag av vinnerens eller vinnernes tilbud.
   history:
   - name: An identifier of several lots within this procedure. These lots form a group An identifier of a lot within the procedure that is part of a group of lots whose maximum or estimated value is lower than the sum of maximum values of individual maximum or estimated values of all the lots together (e.g. when the same budget is shared for several lots). These are maximum values as calculated on the basis of the winner’s tender or winners’ tenders.
     nob: En identifikator for en  delkontrakt  i denne anskaffelsen som er med i en gruppe delkontrakter der den maksimale verdien er lavere enn summen av maksimale verdier av individuelle delkontrakter (f.eks. når det samme budsjettet deles av flere delkontrakter). Dette er maksimale verdier som beregnet på grunnlag av vinnerens eller vinnernes tilbud.
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-156:
-  name: The maximum or estimated value which can be spent in a framework agreement within a group of lots. This information can be provided when the maximum or estimated value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. These are maximum values as calculated on the basis of the winner’s tender or winners’ tenders.
+  name: It is the re-calculated maximum value likely to be spent for a group of lots within the procedure. This information can be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The value is re-calculated on the basis of the winner’s tender or winners’ tenders.
   nob: Den maksimale verdien som kan brukes i rammeavtalen(e) i denne kunngjøringen i en gruppe av delkontrakter. Denne informasjonen kan oppgis når den maksimale verdien av grupper av delkontrakter er lavere enn summen av verdien for de enkelte delkontraktene, f.eks. når det samme budsjettet deles av flere delkontrakter. Verdien dekker alle kontraktene som tildeles under en rammeavtale gjennom hele avtaleperioden, inkludert opsjoner og fornyelser. Dette er maksimale verdier som beregnet på grunnlag av vinnerens eller vinnernes tilbud.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BG-5561:
   name: Information about the value likely which can to be spent, in a framework agreement, within a group of lots. This information can may be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). These are values likely to be spent, as re-estimated on the basis of the winner’s tender or winners’ tenders.
   nob: Informasjon om verdien som sannsynlig vil brukes i en rammeavtale, innenfor en gruppe delkontrakter. Denne informasjonen kan oppgis når den maksimale verdien av grupper av delkontrakter er lavere enn summen av verdier for enkelte delkontrakter (f.eks. når det samme budsjettet deles av flere delkontrakter). Dette er verdier som sannsynlig vil brukes, som reestimert på grunnlag av vinnerens eller vinnernes tilbud.
@@ -3029,10 +3029,10 @@ business-term|description|BT-5561:
   history: []
   nob_verify: false
 business-term|description|BT-1561:
-  name: The maximum or estimated value likely to which can be spent in a framework agreement within a group of lots. This information can be provided when the maximum or estimated value likely to be spent in of a group of lots is lower than the sum of values likely to be spent in of individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. These are values likely to be spent, as re-estimated on the basis of the winner’s tender or winners’ tenders.
+  name: The value likely to be spent, within a framework agreement, for a group of lots. This information can be provided when the value likely to be spent for a group of lots is lower than the sum of values likely to be spent for individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The re-estimated value is the value likely to be spent, as re-estimated on the basis of the winner’s tender or winners’ tenders.
   nob: Den maksimale eller estimerte verdien som sannsynlig vil brukes i en rammeavtale innenfor en gruppe delkontrakter. Denne informasjonen kan oppgis når den maksimale eller estimerte verdien som sannsynlig vil brukes  i en gruppe av delkontrakter er lavere enn summen av verdier som sannsynlig vil brukes i individuelle delkontrakter (f.eks. når det samme budsjettet deles av flere delkontrakter). Verdien dekker alle kontraktene som tildeles under en rammeavtale gjennom hele avtaleperioden, inkludert opsjoner og fornyelser. Dette er verdier som sannsynlig vil brukes, som reestimert på grunnlag av vinnerens eller vinnernes tilbud.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BG-137:
   name: Information about the result of the procurement procedure. This information differs per lot.
   nob: Informasjon om resultatet av en anskaffelse. Denne informasjonen kan være ulik per delkontrakt.
@@ -3074,25 +3074,25 @@ business-term|description|BT-759:
   history: []
   nob_verify: false
 business-term|description|BT-760:
-  name: The type of tenders or requests to participate received. The total number of tenders received shall must be given. When a notice does not fall under Directive 2009/81/EC and is not about social or other specific services, the number of tenders received from micro, small and medium enterprises; the number of tenders received from tenderers registered in other European Economic Area countries and the number of tenders received from tenderers registered in countries outside of the European Economic Area shall must also be given. All tenders shall must be counted, regardless of whether they are admissible or inadmissible. For tenders submitted by a group of tenderers (e.g. a consortium), the tender shall must be counted in the relevant category (e.g. SME) if the majority of the work is expected to be done by tenderers which fall within this category (e.g. they are SMEs).
+  name: The type of tenders or requests to participate received. The total number of tenders received shall be given. When a notice does not fall under Directive 2009/81/EC and is not about social or other specific services, the number of tenders received from micro, small and medium enterprises; the number of tenders received from tenderers registered in other European Economic Area countries and the number of tenders received from tenderers registered in countries outside of the European Economic Area shall also be given. All tenders shall be counted, regardless of whether they are admissible or inadmissible. For tenders submitted by a group of tenderers (e.g. a consortium), the tender shall be counted in the relevant category (e.g. SME) if the majority of the work is expected to be done by tenderers which fall within this category (e.g. they are SMEs).
   nob: Type mottatte tilbud eller forepørsler om å delta. Samlet antall mottatte tilbud skal oppgis. Når en kunngjøring ikke omfattes av direktiv 2009/81/EU og ikke gjelder sosiale og andre særlig tjenester, skal antallet tilbud mottatt av små og mellomstore bedrifter (SMB), antallet tilbud fra tilbydere fra andre land innen EØS og antallet tilbud fra tilbydere registrert i land utenfor EØS, skal det også oppgis. Alle tilbudene skal telles, uavhengig av om de er godtatt eller ikke godtatt. For tilbud innsendt av en gruppe tilbydere, for eksempel et konsortium, skal tilbudet medregnes i den relevante kategori (for eksempel SMB), hvis den største delen av arbeidet skal utføres av tilbydere som faller inn under denne kategori, for eksempel om de er SMBer.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-710:
-  name: Value of the admissible tender with the lowest value. A tender shall be considered admissible where it has been submitted by a tenderer, who has not been excluded and who meets the selection criteria, and when it is in conformity with the technical specifications without being irregular (e.g. received late, having an abnormally low price or cost) or unacceptable or unsuitable. Only tenders for which it has been verified if they are admissible or inadmissible may can be taken into account.
+  name: Value of the admissible tender with the lowest value. A tender shall be considered admissible where it has been submitted by a tenderer, who has not been excluded and who meets the selection criteria, and when it is in conformity with the technical specifications without being irregular (e.g. received late, having an abnormally low price or cost) or unacceptable or unsuitable. Only tenders for which it has been verified if they are admissible or inadmissible may be taken into account.
   nob: Verdien av det gyldige tilbudet med lavest verdi. Et tilbud er vurdert som gyldig når det er levert av en tilbyder som ikke er avvist og som oppfyller kvalifikasjonskravene, og når det er i overensstemmelse med kravsspesifikasjonen uten å være ikke-forskriftsmessig (for eksempel mottatt sent, har en unormalt lav pris eller kostnad) eller uakseptabelt eller uegnet. Kun tilbud som har blitt bekreftet som gyldig eller uyldig kan tas i betraktning.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-711:
-  name: Value of the admissible tender with the highest value. A tender shall be considered admissible where it has been submitted by a tenderer, who has not been excluded and who meets the selection criteria, and when it is in conformity with the technical specifications without being irregular (e.g. received late, having an abnormally low price or cost) or unacceptable or unsuitable. Only tenders for which it has been verified if they are admissible or inadmissible may can be taken into account.
+  name: Value of the admissible tender with the highest value. A tender shall be considered admissible where it has been submitted by a tenderer, who has not been excluded and who meets the selection criteria, and when it is in conformity with the technical specifications without being irregular (e.g. received late, having an abnormally low price or cost) or unacceptable or unsuitable. Only tenders for which it has been verified if they are admissible or inadmissible may be taken into account.
   nob: Verdien av det gyldige tilbudet med høyest verdi. Et tilbud er vurdert som gyldig når det er levert av en tilbyder som ikke er avvist og som oppfyller kvalifikasjonskravene, og når det er i overensstemmelse med kravsspesifikasjonen uten å være ikke-forskriftsmessig (for eksempel mottatt sent, har en unormalt lav pris eller kostnad) eller uakseptabelt eller uegnet. Kun tilbud som har blitt bekreftet som gyldig eller uyldig kan tas i betraktning.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BG-320:
-  name: Information about a tender. This information differs per lot. In cases such as design contests, some framework agreements, and innovation partnerships  competitive dialogues and innovation partnerships, this information may also differ per organisation.
+  name: Information about a tender. This information differs per lot. In cases such as design contests, some framework agreements, competitive dialogues and innovation partnerships, this information may also differ per organisation.
   nob: Opplysninger om en kontrakt. Denne informasjonen er ulik per delkontrakt. Blant annet i plan og designkonkurranser, enkelte rammeavtaler, og konkurransepreget dialog og innovasjonspartnerskap, denne informasjonen være ulik per virksomhet.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-3201:
   name: An identifier of a tender. The information in the tender section refers to this tender.
   nob: En identifikator for et tilbud. Informasjonen i tilbudsdelen refererer til dette tilbudet.
@@ -3104,10 +3104,10 @@ business-term|description|BT-13714:
   history: []
   nob_verify: false
 business-term|description|BT-720:
-  name: The value of the tender or another result; including options and renewals. In case of the modification notice, the value of the modification.
+  name: The value of the tender or another result, including options and renewals. In case of the modification notice, the value of the modification.
   nob: Verdien av tilbudet eller annet resultat, inkludert opsjoner og fornyelser. I en endringskunngjøring oppgis verdien på endringen.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-1711:
   name: The tender was ranked. (This is not the rank itself, but only whether the ranking took place).
   nob: Tilbudet ble rangert. (Dette er ikke selve rangeringen, men kun om rangeringen fant sted).
@@ -3129,10 +3129,10 @@ business-term|description|BT-782:
   history: []
   nob_verify: false
 business-term|description|BT-171:
-  name: The position of the tender (i.e. whether the tender ended up first, second, third, etc.) in a design contest, some framework agreements with multiple winners (e.g. cascades) or an innovation partnership. The position of the tender (i.e. whether the tender ended up first, second, third, etc.) in a design contest, a framework agreement with multiple winners (e.g. cascades), an innovation partnership, a competitive dialogue, or another procedure.
+  name: The position of the tender (i.e. whether the tender ended up first, second, third, etc.) in a design contest, a framework agreement with multiple winners (e.g. cascades), an innovation partnership, a competitive dialogue, or another procedure.
   nob: Tilbudets plassering (dvs. om tilbudet havnet først, andre, tredje osv.) i en plan- og designkonkurranse, rammeavtale med flere vinnere (for eksempel fossefallsfordeling), et innovasjonspartnerskap, en konkurransepreget dialog, eller en annen prosedyre.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-162:
   name: The estimated revenue coming from the users of the concession (e.g. fees and fines).
   nob: Anslåtte inntekter fra brukerne av konsesjonen, f.eks. gebyr og bøter.
@@ -3219,14 +3219,14 @@ business-term|description|BT-1451:
   history: []
   nob_verify: false
 business-term|description|BT-145:
-  name: The date when the contract was concluded. Typically, this is the date when the last contractual party signed the contract. However, if no contract is signed, then the date of contract conclusion may correspond to other dates (e.g. the date when the buyer notified the winning tenderer). The date of contract conclusion is always later than the end of the standstill period and the moment when only once any evidence submitted by the winner has been verified.
+  name: The date when the contract was concluded. Typically, this is the date when the last contractual party signed the contract. However, if no contract is signed, then the date of contract conclusion may correspond to other dates (e.g. the date when the buyer notified the winning tenderer). The date of contract conclusion is always later than the end of the standstill period and the moment when any evidence submitted by the winner has been verified.
   nob: Dato for inngått kontrakt. Det er normalt datoen siste avtalepart signerte kontrakten. Dersom ingen konktrakt er signert, kan dette være en annen dato (f.eks. datoen innkjøper meddelte vinnende tilbud). Datoen for kontraktsinngåelse er alltid senere enn utløpet av karensperioden, og  når all dokumentasjon fremlagt av vinneren er verifisert.
   history:
   - name: The date when the contract was concluded. Typically, this is the date when the last contractual party signed the contract. However, if no contract is signed, then the date of contract conclusion may correspond to other dates (e.g. the date when the buyer notified the winning tenderer). The date of contract conclusion is always later than the end of the standstill period and the moment when only once any evidence submitted by the winner has been verified.
     nob: Dato for inngått kontrakt. Det er normalt datoen siste avtalepart signerte kontrakten. Dersom ingen konktrakt er signert, kan dette være en annen dato (f.eks. datoen innkjøper meddelte vinnende tilbud). Datoen for kontraktsinngåelse er alltid senere enn utløpet av karensperioden, og  når all dokumentasjon  fremlagt av vinneren er verifisert.
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-768:
   name: The contract is awarded within a framework agreement.
   nob: Kontrakten er tildelt under en rammeavtale.
@@ -3238,20 +3238,20 @@ business-term|description|BT-151:
   history: []
   nob_verify: false
 business-term|description|BG-611:
-  name: Information about European Union funds used to finance the contract. The most concrete information must be given (e.g. about concrete projects, not just operational programs.)
+  name: Information about Union funds used to finance the contract. The most concrete information must be given (e.g. about concrete projects, not just operational programs.)
   nob: Informasjon om EU-midler brukt til å finansiere kontrakten. Informasjonen skal være så konkrete som mulig (for eksempel konkrete prosjekter, ikke kun operasjonelle programmer).
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-722:
-  name: The name programme of the European Union funds used to at least partially finance the contract. The most concrete information must be given (e.g. about concrete projects, not just operational programs.)
+  name: The programme of the Union funds used to at least partially finance the contract.
   nob: Programmet for  EU-midler som brukes for å minst delvis finansiere kontrakten.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-5011:
-  name: An identifier of the European Union funds programme used to at least partially finance the contract. The most concrete information must be given (e.g. grant agreement number, national identifier, project acronym, contract number about concrete projects, not just operational programs.)
+  name: An identifier of the Union programme used to at least partially finance the contract. The most concrete information must be given (e.g. grant agreement number, national identifier, project acronym, contract number)
   nob: Identifikatoren til EU-programmet som brukes for å minst delvis finansiere kontrakten. Informasjonen skal være så konktret som mulig (for eksempel tilskuddsavtalenummer, nasjonal identifikator, prosjektakronym, kontraktsnummer) ).
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-6110:
   name: Further information about the Union programme or project used at least partially finance the procurement.
   nob: Ytterligere informasjon om EU-programmet eller prosjektet som brukes for å minst delvis finansiere anskaffelsen.
@@ -3268,39 +3268,39 @@ business-term|description|BT-13721:
   history: []
   nob_verify: false
 business-term|description|BT-06:
-  name: Use of a technical specification, selection criterion, award criterion, or contract performance condition The tender aims ing to at reducing the environmental impacts of the procurement, fulfiling social objectives and/or buying an innovative work, supply or service.
+  name: The procurement procedure aims at reducing the environmental impacts of the procurement, fulfilling social objectives and/or buying an innovative work, supply or service.
   nob: Anbudet tar sikte på å redusere miljøpåvirkninger i anskaffelsen, fremme sosiale hensyn og/eller kjøpe innovative bygge- og anleggsarbeid, varer eller tjenester.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-777:
-  name: Description of the use of a technical specification, selection criterion, award criterion, or contract performance condition how the tender is aiming to at reducing the environmental impacts of the procurement, fulfiling social objectives and/or buying an innovative work, supply or service.
+  name: Description of how the procurement procedure is aiming at reducing the environmental impacts of the procurement, fulfilling social objectives and/or buying an innovative work, supply or service.
   nob: Beskrivelse av hvordan anbudet tar sikte på å redusere miljøpåvirkninger i anskaffelsen, fremme sosiale hensyn og/eller kjøp av innovative bygge- og anleggsarbeid, varer eller tjenester.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-805:
-  name: The tender includes the use of green public procurement criteria, based on national, Union or other sources, if applicable. The green public procurement criteria from the Union are accessible on this website https://ec.europa.eu/environment/gpp/eu_gpp_criteria_en.htm.
+  name: The procurement procedure includes the use of established green public procurement criteria (selection criteria, technical specifications, award criteria and contract performance clauses), at national, Union or other level, if applicable.
   nob: Anskaffelsen inkluderer bruk av grønne offentlige anskaffelseskriterier basert på nasjonale-, EU-kilder eller andre kilder, hvis aktuelt. De grønne kriteriene for offentlige anskaffelser fra EU er tilgjengelige på denne nettsiden https:":"//ec.europa.eu/environment/gpp/eu_gpp_criteria_en.htm.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-774:
-  name: An approach to reducing the environmental impacts of the work, supply or service (e.g. requesting compliance with an environmental label). A process to procure goods, services and works with the aim to reduce the environmental impact throughout their life cycle.
+  name: A process to procure goods, services and works with reduced environmental impact throughout their life cycle.
   nob: En prosess for å anskaffe varer, tjenester og bygg og anlegg med mål om å redusere miljøpåvirkningen gjennom livssyklusen.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-775:
   name: A social objective promoted by the works, supplies or services (e.g. fair working conditions).
   nob: Et sosialt mål som fremmes av bygg- og anleggsarbeidene, varekjøpene eller tjenesteytelsene (for eksempel rettferdige arbeidsforhold).
   history: []
   nob_verify: false
 business-term|description|BT-776:
-  name: An indication that innovative works, supplies or services are being bought. (e.g. the procured works, supplies or services being novel for the whole market).
+  name: An indication that innovative works, supplies or services are being bought.
   nob: En indikasjon på at innovative bygg- og anleggsarbeider blir kjøpt.
   history:
   - name: An indication that innovative works, supplies or services are being bought. (e.g. the procured works, supplies or services being novel for the whole market).
     nob: En indikasjon på at innovative bygg- og anleggsarbeider, varer eller tjenester blir kjøpt. ).
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-715:
   name: The number of all vehicles (regardless of whether clean or not) falling within the scope of Directive 2009/33/EC. These vehicles have either been purchased, leased, rented, hired-purchased or their use has been contractually committed to for the provision of a purchased service falling within the scope of the Directive 2009/33/EC.
   nob: Samlet antall kjøretøy (uansett om de er renere eller ikke) som er innenfor området for direktiv 2009/33/EU. Disse kjøretøyene har enten blitt kjøpt, leaset, leid, kjøpt på avbetaling eller det er inngått en kontraktsforpliktelse om bruken av slike kjøretøy for å levere en tjenesteytelse som er omfattet av direktiv 2009/33/EU.
@@ -3337,10 +3337,10 @@ business-term|description|BG-714:
   history: []
   nob_verify: false
 business-term|description|BT-735:
-  name: The CVD legal basis to establish which category of procurement procedure applies.
+  name: The CVD legal basis to establish which category of contract types (purchase, lease, rent, hired-purchase, public service contracts and service contracts according to table 1 CVD) applies.
   nob: Det rettslige grunnlaget etter direktivet om fremme av renere og mer energieffektive kjøretøy til veitransport for å fastslå hvilken kategori av anskaffelsesprosedyre som gjelder.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BG7141:
   name: Details about the vehicles in the scope of the CVD
   nob: Detaljer om kjøretøyene innenfor virkeområdet til direktivet om fremme av renere og mer energieffektive kjøretøy til veitransport.
@@ -3352,10 +3352,10 @@ business-term|description|BT-723:
   history: []
   nob_verify: false
 business-term|description|BG-612:
-  name: Summary information about the requests the buyer received to review any of its decisions (e.g. the technical specifications, award decision), as set out in Art. 1(5) of Council Directive 89/665/EEC and Council Directive 92/13/EEC, and about the complainants that submitted the requests. This information may differ per lot.
+  name: Summary information about the requests the buyer received to review any of its decisions (e.g. the technical specifications, award decision), as set out in Council Directive 89/665/EEC and Council Directive 92/13/EEC, and about the complainants that submitted the requests. This information may differ per lot.
   nob: Sammendrag av klager som oppdragsgiver har mottatt knyttet til noen av beslutningene (for eksempel kravspesifikasjon eller beslutning om tildeling) som fastsatt i  direktiv 89/665/EØF og direktiv 92/13/EØF, og om de klagere som har levert forespørslene. Denne informasjonen kan variere per delkontrakt.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-13722:
   name: An identifier of one or more lots. In case of PINs used only for information, the identifier of one or more parts of the notice that may later become lots or a self-standing procedures. The information in the additional information section refer this lot (or part) or these lots (or parts).
   nob: Referanse til del av anskaffelsen. Ved veiledende kunngjøring er referansen kun til informasjon. Informasjonen i de øvrige felter i denne seksjonen refererer seg til denne delen eller delene av anskaffelsen.
@@ -3382,10 +3382,10 @@ business-term|description|BT-636:
   history: []
   nob_verify: false
 business-term|description|BG-710:
-  name: Any information not mentioned elsewhere. This information may differ per lot. In case of a prior information notice used only for information, this information may differ per part of the notice that may later become a lot or a self-standing procedure.
+  name: Additional information, which may differ per lot. In case of a prior information notice used only for information, this information may differ per part of the notice that may later become a lot or a self-standing procedure.
   nob: Øvrig informasjon som ikke er nevnt andre steder. Informasjonen kan være ulik per delkontrakt. I en veiledende kunngjøring som kun brukes til informasjon, kan denne informasjonen variere per del av kunngjøringen som senere kan bli en delkontrakt eller en selvstendig anskaffelse.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-13715:
   name: An identifier of one or more lots. In case of PINs used only for information, the identifier of one or more parts of the notice that may later become lots or a self-standing procedures. The information in the additional information section refer this lot (or part) or these lots (or parts).
   nob: Referanse til en eller flere deler av anskaffelsen. Ved veiledende kunngjøring, kun til informasjon, fordi referansen av en eller flere deler av anskaffelsen vil senere kunne bli selvstendige delkontrakter eller selvstendige prosedyrer. Informasjonen i denne seksjonen referer til denne delen av anskaffelsen.
@@ -3412,28 +3412,28 @@ business-term|description|BT-756:
   history: []
   nob_verify: false
 business-term|description|BT-300:
-  name: Any further information not mentioned in other sections of the notice elsewhere.
+  name: Any further information not mentioned in other sections of the notice.
   nob: Øvrig informasjon som ikke er nevnt i andre deler av kunngjøringen.
   history:
   - name: Any further information not mentioned in other sections of the notice elsewhere.
     nob: Øvrig informasjon som ikke er nevnt i andre deler av kunngjøringen .
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BG-8:
   name: Information about fields not intended for immediate publication. This information may differ per field.
   nob: Informasjon om felter som ikke er ment for umiddelbar publisering. Denne informasjonen kan være ulik per felt.
   history: []
   nob_verify: false
 business-term|description|BT-195:
-  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the sectoral Directive European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
   nob: Identifikator til felt som ikke skal publiseres umiddelbart. Kun felt angående kontraktens endelige verdi, anskaffelsens resultat eller delkontraktens resultat kan være upublisert. Ved Europaparlaments- og rådsdirektiv 2014/25/EU, implementert i Norge ved forsyningsforskriften (FOR-2016-08-12-975), kan tildelingskriterier, anskaffelsesprosedyre, enkelte datoer og i enkelte tilfeller informasjon om hovedelement ved og mengden av tjenesteytelser også være upublisert.
   history:
   - name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the sectoral Directive European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
     nob: Identifikator til felt som ikke skal publiseres umiddelbart. Kun felt angående kontraktens endelige verdi, anskaffelsens resultat eller delkontraktens resultat kan være upublisert. Ved Europaparlaments- og rådsdirektiv 2014/25/EU, implementert i Norge ved forsyningsforskriften (FOR-2016-08-12-975),  kan  tildelingskriterier, anskaffelsesprosedyre, enkelte datoer og i enkelte tilfeller informasjon om hovedelement ved og mengden av tjenesteytelser  også være upublisert.
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-197:
   name: The justification for not immediately publishing a field.
   nob: Begrunnelsen for ikke umiddelbar publisering av et felt.
@@ -3489,10 +3489,10 @@ business-term|description|BT-13716:
   history: []
   nob_verify: false
 business-term|description|BT-758:
-  name: The reference to the version of the previous notice that should be changed. This helps, for example, to keep track of versions of notices or changes to notices before publication. to avoid errors caused by multiple change notices sent at a similar time.
+  name: The reference to the version of the previous notice that should be changed. This helps, for example, to keep track of versions of notices or changes to notices before publication.
   nob: Henvisning til versjon av tidligere kunngjøring som skal endres. Dette bidrar for eksempel til å holde oversikt over versjoner av kunngjøringer eller endringer i kunngjøringer før publisering.
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-141:
   name: The description of changes in the notice compared to the original notice.
   nob: Beskrivelse av endringene sammenlignet med den opprinnelige kunngjøringen.
@@ -3522,3 +3522,191 @@ business-term|description|BT-762:
   nob: Beskrivelse av hovedgrunnen til at kunngjøringen er endret sammenlignet med den opprinnelige kunngjøringen.
   history: []
   nob_verify: false
+business-term|description|BG-7141:
+  name: Details about the vehicles in the scope of the CVD
+business-term|hint|BT-1375:
+  name: Add as many lots as you wish to include in the group of lots.
+business-term|hint|BT-22:
+  name: If you use an internal identifier for your procedure and your lots, please fill it in. Please use different identifiers for each lot.
+business-term|hint|BT-36:
+  name: Fill in either the duration dates OR the duration period
+business-term|hint|BT-540:
+  name: A number must be linked to a method and sum up to the total for the current criterion
+business-term|hint|BT-543:
+  name: This field can point to the tender specifications
+business-term|hint|OPT-300:
+  name: First create the organisation in the section 'Organisations', then select it in drop-down list.
+business-term|name|BG-7141:
+  name: CVD vehicles
+business-term|name|BG-716:
+  name: Review
+business-term|name|BT-783:
+  name: Review Request or Decision
+business-term|name|BT-784:
+  name: Review Identifier
+business-term|name|BT-785:
+  name: Review Previous Identifier
+business-term|name|BT-786:
+  name: Review Notice Section Identifier
+business-term|name|BT-787:
+  name: Review Date
+business-term|name|BT-788:
+  name: Review Title
+business-term|name|BT-789:
+  name: Review Description
+business-term|name|BT-790:
+  name: Review Decision Type
+business-term|name|BT-791:
+  name: Review Irregularity Type
+business-term|name|BT-792:
+  name: Review Remedy Type
+business-term|name|BT-793:
+  name: Review Remedy Value
+business-term|name|BT-794:
+  name: Review URL
+business-term|name|BT-795:
+  name: Review Request Fee
+business-term|name|BT-796:
+  name: Review Request Withdrawn
+business-term|name|BT-797:
+  name: Review Request Withdrawn Date
+business-term|name|BT-798:
+  name: Review Request Withdrawn Reasons
+business-term|name|OPP-010:
+  name: Notice publication number
+business-term|name|OPP-011:
+  name: OJ S issue number
+business-term|name|OPP-012:
+  name: Publication date
+business-term|name|OPP-020:
+  name: Contract duration is extended due to essential assets necessary for the provision of the service
+business-term|name|OPP-021:
+  name: List of assets used for the provision of the public services
+business-term|name|OPP-022:
+  name: Significance of the essential assets provided in relation to the overall assets needed for the provision of the public services
+business-term|name|OPP-023:
+  name: Predominant use of assets
+business-term|name|OPP-030:
+  name: Contract conditions code
+business-term|name|OPP-031:
+  name: Contract conditions description (other than revenue allocation)
+business-term|name|OPP-032:
+  name: Revenues allocation
+business-term|name|OPP-033:
+  name: Penalties and rewards code
+business-term|name|OPP-034:
+  name: Penalties and rewards description
+business-term|name|OPP-040:
+  name: Main nature – subtype
+business-term|name|OPP-050:
+  name: Group leader
+business-term|name|OPP-051:
+  name: Central purchasing body awarding public contracts or concluding framework agreements for works, supplies or services intended for other buyers
+business-term|name|OPP-052:
+  name: Central purchasing body acquiring supplies and/or services intended for other buyers
+business-term|name|OPP-070:
+  name: Notice subtype
+business-term|name|OPP-080:
+  name: Kilometres of public passenger transport services
+business-term|name|OPP-090:
+  name: Previous notice
+business-term|name|OPP-100:
+  name: This notice contains information relevant to
+business-term|name|OPP-105:
+  name: Sector of activity
+business-term|name|OPP-110:
+  name: Town
+business-term|name|OPP-111:
+  name: Postal code
+business-term|name|OPP-112:
+  name: Country
+business-term|name|OPP-113:
+  name: Date of registration
+business-term|name|OPP-120:
+  name: Name of publication
+business-term|name|OPP-121:
+  name: Title of the announcement
+business-term|name|OPP-122:
+  name: URL of the announcement
+business-term|name|OPP-123:
+  name: Date of publication of the announcement
+business-term|name|OPP-130:
+  name: Additional information
+business-term|name|OPP-131:
+  name: Sender's email address
+business-term|name|OPT-001:
+  name: UBL version ID (UBL)
+business-term|name|OPT-002:
+  name: Customisation ID (UBL)
+business-term|name|OPT-030:
+  name: Provided service type
+business-term|name|OPT-050:
+  name: Document status
+business-term|name|OPT-060:
+  name: Execution requirement code
+business-term|name|OPT-070:
+  name: Execution of the service is reserved to a particular profession. Reference to the relevant law, regulation, or administrative procedure
+business-term|name|OPT-071:
+  name: Quality target code
+business-term|name|OPT-072:
+  name: Quality target description
+business-term|name|OPT-090:
+  name: Buyer categories
+business-term|name|OPT-091:
+  name: Review requester type
+business-term|name|OPT-092:
+  name: Review body type description
+business-term|name|OPT-100:
+  name: ID – Framework notice
+business-term|name|OPT-110:
+  name: ID – Notice publication
+business-term|name|OPT-111:
+  name: ID – Tax legislation document
+business-term|name|OPT-112:
+  name: ID – Environmental legislation document
+business-term|name|OPT-113:
+  name: ID – Employment legislation document
+business-term|name|OPT-120:
+  name: URL to environmental legislation
+business-term|name|OPT-130:
+  name: URL to employment legislation
+business-term|name|OPT-140:
+  name: ID – Procurement documents
+business-term|name|OPT-150:
+  name: Subcontracting is allowed
+business-term|name|OPT-155:
+  name: Vehicle type
+business-term|name|OPT-156:
+  name: Vehicle numeric
+business-term|name|OPT-160:
+  name: Concession revenue buyer
+business-term|name|OPT-170:
+  name: Leader of tendering party
+business-term|name|OPT-200:
+  name: ID – Company
+business-term|name|OPT-201:
+  name: ID – Specific contact point
+business-term|name|OPT-202:
+  name: ID – Beneficial owner
+business-term|name|OPT-210:
+  name: ID – Tendering party
+business-term|name|OPT-300:
+  name: ID – Organisation
+business-term|name|OPT-301:
+  name: ID – Organisation contact point
+business-term|name|OPT-302:
+  name: Beneficial owner reference
+business-term|name|OPT-310:
+  name: ID – Tendering party
+business-term|name|OPT-315:
+  name: ID – Contract
+business-term|name|OPT-316:
+  name: ID – Contract
+business-term|name|OPT-320:
+  name: Tender identifier reference
+business-term|name|OPT-321:
+  name: ID – Tender
+business-term|name|OPT-322:
+  name: ID – Lot result
+business-term|name|OPT-999:
+  name: Dummy tender award date

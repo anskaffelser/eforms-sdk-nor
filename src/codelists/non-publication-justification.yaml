@@ -16,7 +16,7 @@ fair-comp:
   nob_verify: false
 law-enf:
   name: Law enforcement
-  nob: (Retts)håndhevelse/ Retts- eller politimyndighetene
+  nob: "(Retts)håndhevelse/ Retts- eller politimyndighetene"
   history:
   - name: Law enforcement
     history: []

@@ -1,11 +1,11 @@
 bus-s:
-  name: Bus transport services (urban / regional)
+  name: Bus transport services (urban/regional)
   nob: Busstransporttjenester (urbane / regionale)
   history:
   - name: Bus transport services (urban / regional)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 coach-s:
   name: Coach transport services (long-distance)
   nob: Busstransporttjenester (langdistanse)

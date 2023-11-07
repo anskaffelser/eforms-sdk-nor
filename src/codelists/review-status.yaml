@@ -1,11 +1,11 @@
 decided:
-  name: Decision has been made by the review body regarding the current request
+  name: Decision has been made by the Review Body regarding the current request.
   nob: Kontrollorganet har truffet vedtak om den aktuelle anmodningen
   history:
   - name: Decision has been made by the review body regarding the current request
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 requested:
   name: Review has been requested and is still under process
   nob: Det er bedt om gjennomgang og er fortsatt under behandling

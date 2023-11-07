@@ -1,8 +1,3 @@
-no:
-  name: No
-  nob: Nei
-  history: []
-  nob_verify: false
 not-known:
   name: Not yet known
   nob: Enda ikke kjent
@@ -11,18 +6,9 @@ not-known:
     history: []
     nob_verify: false
   nob_verify: false
-yes:
-  name: Yes
-  nob: Ja
-  history: []
-  nob_verify: false
-false:
-  name: false
+'no':
+  name: 'No'
   nob: Nei
-  history: []
-  nob_verify: false
-true:
-  name: true
+'yes':
+  name: 'Yes'
   nob: Ja
-  history: []
-  nob_verify: false

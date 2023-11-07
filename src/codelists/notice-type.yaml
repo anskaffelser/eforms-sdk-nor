@@ -98,7 +98,7 @@ corr:
     history: []
     nob_verify: false
   - name: Change notice
-    nob:  Endringskunngjøring
+    nob: " Endringskunngjøring"
     history: []
     nob_verify: false
   nob_verify: false

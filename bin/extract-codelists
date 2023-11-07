@@ -36,7 +36,7 @@ index['codelists'].select { |cl| !cl.key? 'parentId' }.each do |cl|
     elsif map[code]['name'] != name
       map[code]['name'] = name
 
-      map[code].keys.delete_if { |key| key == 'name' || key.end_with?('_verify') } .each do |key|
+      map[code].keys.delete_if { |key| key == 'name' || key == 'history' || key.end_with?('_verify') } .each do |key|
         map[code]["#{key}_verify"] = true
       end
     end

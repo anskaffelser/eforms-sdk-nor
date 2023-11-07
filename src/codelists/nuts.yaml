@@ -8347,7 +8347,7 @@ BE:
   history: []
   nob_verify: false
 BG:
-  name: България
+  name: България 
   history: []
   nob_verify: false
 CH:
@@ -8355,7 +8355,7 @@ CH:
   history: []
   nob_verify: false
 CY:
-  name: Κύπρος
+  name: Κύπρος 
   history: []
   nob_verify: false
 CZ:
@@ -8375,7 +8375,7 @@ EE:
   history: []
   nob_verify: false
 EL:
-  name: Ελλάδα
+  name: Ελλάδα 
   history: []
   nob_verify: false
 ES:
@@ -8442,7 +8442,7 @@ NL:
   name: Nederland
   history: []
   nob_verify: false
-NO:
+false:
   name: Norge
   history: []
   nob_verify: false
@@ -8482,3 +8482,5 @@ UK:
   name: United Kingdom
   history: []
   nob_verify: false
+'NO':
+  name: Norge

@@ -12608,7 +12608,7 @@ code|name|cpv.30234300:
   nob_verify: false
 code|name|cpv.30234400:
   name: Digital versatile disks (DVDs)
-  nob: "DVD'er (Digital versatile disks) "
+  nob: 'DVD''er (Digital versatile disks) '
   history:
   - name: Digital versatile disks (DVDs)
     nob: DVD'er (Digital versatile disks)
@@ -41835,7 +41835,7 @@ code|name|cpv.63121110:
   nob_verify: false
 code|name|cpv.63122000:
   name: Warehousing services
-  nob: '#N/A'
+  nob: "#N/A"
   history:
   - name: Warehousing services
     nob: Lagringstjenester
@@ -42895,7 +42895,7 @@ code|name|cpv.66516400:
   nob_verify: false
 code|name|cpv.66516500:
   name: Professional liability insurance services
-  nob:  Forsikringstjenester mot yrkesmessig ansvar
+  nob: " Forsikringstjenester mot yrkesmessig ansvar"
   history:
   - name: Professional liability insurance services
     nob: Forsikringstjenester mot yrkesmessig ansvar
@@ -43038,7 +43038,7 @@ code|name|cpv.66720000:
   nob_verify: false
 code|name|cpv.70000000:
   name: Real estate services
-  nob: '#N/A'
+  nob: "#N/A"
   history:
   - name: Real estate services
     nob: Virksomhet i forbindelse med fast eiendom
@@ -53752,7 +53752,7 @@ code|name|indicator.true:
   name: 'yes'
   nob: Sann
   history:
-  - name: yes
+  - name: true
     history: []
     nob_verify: false
   nob_verify: false
@@ -58905,7 +58905,7 @@ code|name|non-publication-justification.fair-comp:
   nob_verify: false
 code|name|non-publication-justification.law-enf:
   name: Law enforcement
-  nob: (Retts)håndhevelse/ Retts- eller politimyndighetene
+  nob: "(Retts)håndhevelse/ Retts- eller politimyndighetene"
   history:
   - name: Law enforcement
     history: []
@@ -59529,7 +59529,7 @@ code|name|notice-type.corr:
     history: []
     nob_verify: false
   - name: Change notice
-    nob:  Endringskunngjøring
+    nob: " Endringskunngjøring"
     history: []
     nob_verify: false
   nob_verify: false
@@ -68212,7 +68212,7 @@ code|name|procurement-procedure-type.comp-tend:
     history: []
     nob_verify: false
   - name: Competitive tendering
-    nob: ?? Anskaffelse
+    nob: "?? Anskaffelse"
     history: []
     nob_verify: false
   nob_verify: false
@@ -90819,13 +90819,13 @@ code|name|reserved-execution.not-known:
     nob_verify: false
   nob_verify: false
 code|name|reserved-execution.yes:
-  name: Yes
+  name: 'Yes'
   nob: Ja
   history:
-  - name: Yes
+  - name: true
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|result.can-desg:
   name: Design contest result notice
   nob: Resultatvarsel for designkonkurranse
@@ -91803,13 +91803,13 @@ code|name|subcontracting-allowed.false:
     nob_verify: false
   nob_verify: false
 code|name|subcontracting-allowed.true:
-  name: yes
+  name: 'yes'
   nob: Ja
   history:
-  - name: yes
+  - name: true
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|tender-guarantee-required.false:
   name: 'no'
   nob: Nei
@@ -91819,13 +91819,13 @@ code|name|tender-guarantee-required.false:
     nob_verify: false
   nob_verify: false
 code|name|tender-guarantee-required.true:
-  name: yes
+  name: 'yes'
   nob: Ja
   history:
-  - name: yes
+  - name: true
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|veat.25:
   name: Voluntary ex-ante transparency notice – general directive
   nob: Frivillig ex ante åpenhetserklæring – generelt direktiv

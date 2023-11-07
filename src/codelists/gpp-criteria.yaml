@@ -1,32 +1,32 @@
 eu:
-  name: EU Green Public Procurement criteria
+  name: EU GPP criteria
   nob: EUs kriterier for grønne offentlige anskaffelser
   history:
   - name: EU Green Public Procurement criteria
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 national:
-  name: National Green Public Procurement criteria
+  name: National GPP criteria
   nob: Nasjonale kriterier for grønne offentlige anskaffelser
   history:
   - name: National Green Public Procurement criteria
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 none:
-  name: No Green Public Procurement criteria
+  name: No GPP criteria
   nob: Ingen kriterier for grønne offentlige anskaffelser
   history:
   - name: No Green Public Procurement criteria
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 other:
-  name: Other Green Public Procurement criteria
+  name: Other GPP criteria
   nob: Andre kriterier for grønne offentlige anskaffelser
   history:
   - name: Other Green Public Procurement criteria
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true

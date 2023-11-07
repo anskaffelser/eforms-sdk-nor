@@ -33,7 +33,7 @@ Dir["#{opts[:input_folder]}/*_en.xml"].sort.each do |source|
     elsif map[code]['name'] != name
       map[code]['name'] = name
 
-      map[code].keys.delete_if { |key| key == 'name' || key.end_with?('_verify') } .each do |key|
+      map[code].keys.delete_if { |key| key == 'name' || key == 'history' || key.end_with?('_verify') } .each do |key|
         map[code]["#{key}_verify"] = true
       end
     end
