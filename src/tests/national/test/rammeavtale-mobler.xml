@@ -1,0 +1,420 @@
+<!--
+
+Errors:
+EFORMS-NOR-R801
+
+-->
+<ContractNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <efext:EformsExtension>
+          <efbc:TransmissionDate>2023-10-24+00:00</efbc:TransmissionDate>
+          <efbc:TransmissionTime>09:53:19+00:00</efbc:TransmissionTime>
+          <efac:NoticeSubType>
+            <cbc:SubTypeCode listName="notice-subtype">N16</cbc:SubTypeCode>
+          </efac:NoticeSubType>
+          <efac:Organizations>
+            <efac:Organization>
+              <efac:Company>
+                <cbc:WebsiteURI>https://www.narvik.kommune.no/</cbc:WebsiteURI>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="NOR">Narvik kommune</cbc:Name>
+                </cac:PartyName>
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Narvik kommune</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:StreetName>Postboks 64</cbc:StreetName>
+                  <cbc:Department>Innkjøp</cbc:Department>
+                  <cbc:CityName>Narvik</cbc:CityName>
+                  <cbc:PostalZone>8501</cbc:PostalZone>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">959469059</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Name>Vidar Strøm</cbc:Name>
+                  <cbc:Telephone>+47 90 18 41 25</cbc:Telephone>
+                  <cbc:ElectronicMail>vidar.strom@narvik.kommune.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+            <efac:Organization>
+              <efac:Company>
+                <cac:PartyIdentification>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                  <cbc:Name languageID="NOR">Midtre Hålogaland tingrett</cbc:Name>
+                </cac:PartyName>
+                <cac:PartyName>
+                  <cbc:Name languageID="ENG">Midtre Hålogaland tingrett</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                  <cbc:CityName>Narvik</cbc:CityName>
+                  <cac:Country>
+                    <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
+                  </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyLegalEntity>
+                  <cbc:CompanyID schemeID="002">926 723 073</cbc:CompanyID>
+                </cac:PartyLegalEntity>
+                <cac:Contact>
+                  <cbc:Telephone>77 58 95 00</cbc:Telephone>
+                  <cbc:ElectronicMail>midtre.halogaland.tingrett@domstol.no</cbc:ElectronicMail>
+                </cac:Contact>
+              </efac:Company>
+            </efac:Organization>
+          </efac:Organizations>
+        </efext:EformsExtension>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+  <cbc:CustomizationID>eforms-sdk-${EFORMS_MINOR}#extended#urn:fdc:anskaffelser.no:2023:eforms:national</cbc:CustomizationID>
+  <cbc:ID schemeName="notice-id">88a624c9-bf0d-401b-a569-a87a6ce9a669</cbc:ID>
+  <cbc:ContractFolderID>69446543-a199-46ff-86cb-b275910ccb2c</cbc:ContractFolderID>
+  <cbc:IssueDate>2023-10-24+00:00</cbc:IssueDate>
+  <cbc:IssueTime>09:49:14+00:00</cbc:IssueTime>
+  <cbc:VersionID>01</cbc:VersionID>
+  <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+  <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+  <cbc:NoticeLanguageCode>NOR</cbc:NoticeLanguageCode>
+  <cac:AdditionalNoticeLanguage>
+    <cbc:ID>ENG</cbc:ID>
+  </cac:AdditionalNoticeLanguage>
+  <cac:ContractingParty>
+    <cac:ContractingPartyType>
+      <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+    </cac:ContractingPartyType>
+    <cac:ContractingActivity>
+      <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+    </cac:ContractingActivity>
+    <cac:Party>
+      <cac:PartyIdentification>
+        <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+      </cac:PartyIdentification>
+    </cac:Party>
+  </cac:ContractingParty>
+  <cac:TenderingProcess>
+    <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+    <cac:ProcessJustification>
+      <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+    </cac:ProcessJustification>
+  </cac:TenderingProcess>
+  <cac:ProcurementProject>
+    <cbc:ID schemeName="InternalID">23/49</cbc:ID>
+    <cbc:Name languageID="NOR">Rammeavtale - Møbel og inventar (eksl. kontormøbler)</cbc:Name>
+    <cbc:Name languageID="ENG">Framework agreement - Furniture and fixtures (excluding office furniture)</cbc:Name>
+    <cbc:Description languageID="NOR">Narvik kommune (NK) - med flere - inviterer til åpen anbudskonkurranser for kjøp av: 
+
+ - Møbler og inventar (kontormøbler er ikke en del av denne avtalen) 
+
+(Se konkurransedokumenter for nærmere informasjon)</cbc:Description>
+    <cbc:Description languageID="ENG">Narvik municipality (NK) - etc. - invites tenderers to an open tender contest for the purchase of: 
+
+- Furniture and fixtures (office furniture is not a part of this agreement) 
+
+(See the tender documentation for further information)</cbc:Description>
+    <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+    <cac:RequestedTenderTotal>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efbc:FrameworkMaximumAmount currencyID="NOK">17500000</efbc:FrameworkMaximumAmount>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:EstimatedOverallContractAmount currencyID="NOK">15900000</cbc:EstimatedOverallContractAmount>
+    </cac:RequestedTenderTotal>
+    <cac:MainCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">39143000</cbc:ItemClassificationCode>
+    </cac:MainCommodityClassification>
+    <cac:AdditionalCommodityClassification>
+      <cbc:ItemClassificationCode listName="cpv">39140000</cbc:ItemClassificationCode>
+    </cac:AdditionalCommodityClassification>
+  </cac:ProcurementProject>
+  <cac:ProcurementProjectLot>
+    <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+    <cac:TenderingTerms>
+      <ext:UBLExtensions>
+        <ext:UBLExtension>
+          <ext:ExtensionContent>
+            <efext:EformsExtension>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">Firmaattest</cbc:Name>
+                <cbc:Name languageID="ENG">Registration</cbc:Name>
+                <cbc:Description languageID="NOR">Leverandør skal være et lovlig etablert foretak og være registrert i et foretaksregister eller et handelsregister i medlemsstaten som leverandøren er etablert i. Firmaattesten skal ikke være eldre enn 6 måneder.
+
+Utenlandske leverandører: Bekreftelse på at selskapet er registrert i et foretaksregister, fagligregister eller et handelsregister i den staten leverandøren er etablert.</cbc:Description>
+                <cbc:Description languageID="ENG">Tenderers shall be a legally established company and registered in a company register or a commerce register in the member state where the tenderer is established. The Company Registration Certificate must not be more than six months old.
+
+Foreign tenderers: Confirmation that the tenderer is registered in a company register, professional register or a commerce register in the country where the tenderer is established.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">Skatt- og merverdiavgiftsattest</cbc:Name>
+                <cbc:Name languageID="ENG">Tax and VAT certificate</cbc:Name>
+                <cbc:Description languageID="NOR">Leverandør må ha oppfylt sine forpliktelser med hensyn til betaling av skatt, merverdiavgift og arbeidsgiveravgift ihht. lovbestemmelsene.
+
+Skatt- og merverdiavgiftsattest skal ikke være eldre enn 6 måneder regnet fra tilbudsfristens utløp. Eventuelle restanser eller andre misligheter må begrunnes. Dersom leverandør planlegger å benytte underleverandører må skatteattest også leveres for disse.
+
+Utenlandske leverandører må levere tilsvarende bekreftelse fra nasjonale myndigheter.</cbc:Description>
+                <cbc:Description languageID="ENG">Tenderers must have fulfilled their obligations with respect to the payment of tax, VAT and payroll tax in accordance with. the legal provisions.
+
+Tax and VAT certificate must not be older than six months calculated from the tender deadline. Any arrears or other irregularities must be justified. If the tenderer is planning to use sub-suppliers, tax certificates must be provided for them as well.
+
+Foreign tenderers must submit equivalent confirmation from national authorities.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">Økonomisk og finansiell kapasitet</cbc:Name>
+                <cbc:Name languageID="ENG">Economic and financial capacity</cbc:Name>
+                <cbc:Description languageID="NOR">Krav: Leverandøren skal ha økonomisk kapasitet til å gjennomføre leveranse/kontrakten.
+
+Norske Leverandører: Minimum konkursrating A i Proff Forvalt.
+
+Oppdragsgiveren vil selv sjekke finansiell kapasitet i Proff Forvalt. Dersom det ikke er tilstrekkelig informasjon tilgjengelig i Proff Forvalt skal leverandøren på forespørsel ettersende nødvendig informasjon uten ugrunnet opphold.
+
+Utenlandske leverandører: Det skal legges ved utskrift av kredittvurdering som viser økonomisk rangering. Utskrift hentes fra et anerkjent kredittvurderingsselskap. Kredittratingen bør ikke være eldre enn 3 måneder gammel. Definisjon på symbolene kredittvurderingsinstitusjonen benytter må ligge vedlagt slik at oppdragsgiver kan vurdere forskjellige ratinger opp mot hverandre. Dersom leverandøren har saklig grunn til ikke å fremlegge den dokumentasjon oppdragsgiver har krevd, kan han dokumentere sin økonomiske og finansielle kapasitet ved å fremlegge ethvert annet dokument som oppdragsgiver anser egnet.
+
+For alle leverandører: Oppdragsgiver kan vurdere og akseptere enhver annen skriftlig dokumentasjon vedrørende leverandørens økonomiske kapasitet, og akseptere at leverandør støtter seg på forpliktelse fra annet juridisk subjekt. </cbc:Description>
+                <cbc:Description languageID="ENG">Requirement: The tenderer must have the financial capacity to carry out the delivery/contract.
+
+Norwegian tenderers: Minimum bankruptcy rating A in Proff Forvalt.
+
+The contracting authority will check the financial capacity in Proff Forvalt itself. If sufficient information is not available in Proff Forvalt, the tenderer shall upon request, send the necessary information without undue delay.
+
+Foreign tenderers: A printout of a credit rating showing the financial ranking shall be enclosed. A printout is to be obtained from a certified credit rating company. The credit rating should not be older than 3 months. A definition of the symbols that the credit rating institution uses must be enclosed so that the contracting authority can assess different ratings up against each other. If a tenderer has a justifiable reason for not submitting the documentation required by the contracting authority, he can document his economic and financial capacity by presenting any other document that the Contracting Authority deems appropriate.
+
+For all tenderers: The contracting authority can assess and accept any other written documentation regarding the tenderer's financial capacity and accept that the tenderer relies on obligations from another legal subject. </cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">It meets the objective and non discriminatory criteria or rules to be applied in order to limit the number of candidates in the following way: In case certain certificates or other forms of documentary evidence are required, please indicate for each whether the economic operator has the required documents:</cbc:Name>
+                <cbc:Name languageID="ENG">It meets the objective and non discriminatory criteria or rules to be applied in order to limit the number of candidates in the following way: In case certain certificates or other forms of documentary evidence are required, please indicate for each whether the economic operator has the required documents:</cbc:Name>
+                <cbc:Description languageID="NOR">If some of these certificates or forms of documentary evidence are available electronically, please indicate for each:</cbc:Description>
+                <cbc:Description languageID="ENG">If some of these certificates or forms of documentary evidence are available electronically, please indicate for each:</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">All selection criteria will be satisfied</cbc:Name>
+                <cbc:Name languageID="ENG">All selection criteria will be satisfied</cbc:Name>
+                <cbc:Description languageID="NOR">It satisfies all the required selection criteria indicated in the relevant notice or in the procurement documents referred to in the notice.</cbc:Description>
+                <cbc:Description languageID="ENG">It satisfies all the required selection criteria indicated in the relevant notice or in the procurement documents referred to in the notice.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">Enrolment in a relevant professional register</cbc:Name>
+                <cbc:Name languageID="ENG">Enrolment in a relevant professional register</cbc:Name>
+                <cbc:Description languageID="NOR">It is enrolled in relevant professional registers kept in the Member State of its establishment as described in Annex XI of Directive 2014/24/EU; economic operators from certain Member States may have to comply with other requirements set out in that Annex.</cbc:Description>
+                <cbc:Description languageID="ENG">It is enrolled in relevant professional registers kept in the Member State of its establishment as described in Annex XI of Directive 2014/24/EU; economic operators from certain Member States may have to comply with other requirements set out in that Annex.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">Enrolment in a trade register</cbc:Name>
+                <cbc:Name languageID="ENG">Enrolment in a trade register</cbc:Name>
+                <cbc:Description languageID="NOR">It is enrolled in trade registers kept in the Member State of its establishment as described in Annex XI of Directive 2014/24/EU; economic operators from certain Member States may have to comply with other requirements set out in that Annex.</cbc:Description>
+                <cbc:Description languageID="ENG">It is enrolled in trade registers kept in the Member State of its establishment as described in Annex XI of Directive 2014/24/EU; economic operators from certain Member States may have to comply with other requirements set out in that Annex.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">For service contracts: authorisation of particular organisation needed</cbc:Name>
+                <cbc:Name languageID="ENG">For service contracts: authorisation of particular organisation needed</cbc:Name>
+                <cbc:Description languageID="NOR">Is a particular authorisation of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?</cbc:Description>
+                <cbc:Description languageID="ENG">Is a particular authorisation of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">For service contracts: membership of particular organisation needed</cbc:Name>
+                <cbc:Name languageID="ENG">For service contracts: membership of particular organisation needed</cbc:Name>
+                <cbc:Description languageID="NOR">Is a particular membership of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?</cbc:Description>
+                <cbc:Description languageID="ENG">Is a particular membership of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">Allowance of checks</cbc:Name>
+                <cbc:Name languageID="ENG">Allowance of checks</cbc:Name>
+                <cbc:Description languageID="NOR">For complex products or services to be supplied or, exceptionally, for products or services which are required for a special purpose: The economic operator will allow checks to be conducted on the production capacities or the technical capacity of the economic operator and, where necessary, on the means of study and research which are available to it and on the quality control measures? The check is to be performed by the contracting authority or, in case the latter consents to this, on its behalf by a competent official body of the country in which the supplier or service provider is established.</cbc:Description>
+                <cbc:Description languageID="ENG">For complex products or services to be supplied or, exceptionally, for products or services which are required for a special purpose: The economic operator will allow checks to be conducted on the production capacities or the technical capacity of the economic operator and, where necessary, on the means of study and research which are available to it and on the quality control measures? The check is to be performed by the contracting authority or, in case the latter consents to this, on its behalf by a competent official body of the country in which the supplier or service provider is established.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">For supply contracts: samples, descriptions or photographs without certification of authenticity</cbc:Name>
+                <cbc:Name languageID="ENG">For supply contracts: samples, descriptions or photographs without certification of authenticity</cbc:Name>
+                <cbc:Description languageID="NOR">For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied, which do not need to be accompanied by certifications of authenticity.</cbc:Description>
+                <cbc:Description languageID="ENG">For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied, which do not need to be accompanied by certifications of authenticity.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">For supply contracts: samples, descriptions or photographs with certification of authenticity</cbc:Name>
+                <cbc:Name languageID="ENG">For supply contracts: samples, descriptions or photographs with certification of authenticity</cbc:Name>
+                <cbc:Description languageID="NOR">For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied and will provide certifications of authenticity where applicable.</cbc:Description>
+                <cbc:Description languageID="ENG">For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied and will provide certifications of authenticity where applicable.</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">For supply contracts: certificates by quality control institutes</cbc:Name>
+                <cbc:Name languageID="ENG">For supply contracts: certificates by quality control institutes</cbc:Name>
+                <cbc:Description languageID="NOR">Can the economic operator provide the required certificates drawn up by official quality control institutes or agencies of recognised competence attesting the conformity of products clearly identified by references to the technical specifications or standards, which are set out in the relevant notice or the procurement documents?</cbc:Description>
+                <cbc:Description languageID="ENG">Can the economic operator provide the required certificates drawn up by official quality control institutes or agencies of recognised competence attesting the conformity of products clearly identified by references to the technical specifications or standards, which are set out in the relevant notice or the procurement documents?</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">Certificates by independent bodies about arderquality assurance standards</cbc:Name>
+                <cbc:Name languageID="ENG">Certificates by independent bodies about arderquality assurance standards</cbc:Name>
+                <cbc:Description languageID="NOR">Will the economic operator be able to produce certificates drawn up by independent bodies attesting that the economic operator complies with the required quality assurance standards, including accessibility for disabled persons?</cbc:Description>
+                <cbc:Description languageID="ENG">Will the economic operator be able to produce certificates drawn up by independent bodies attesting that the economic operator complies with the required quality assurance standards, including accessibility for disabled persons?</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+              <efac:SelectionCriteria>
+                <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                <cbc:Name languageID="NOR">Certificates by independent bodies about environmental management systems or standards</cbc:Name>
+                <cbc:Name languageID="ENG">Certificates by independent bodies about environmental management systems or standards</cbc:Name>
+                <cbc:Description languageID="NOR">Will the economic operator be able to produce certificates drawn up by independent bodies attesting that the economic operator complies with the required environmental management systems or standards?</cbc:Description>
+                <cbc:Description languageID="ENG">Will the economic operator be able to produce certificates drawn up by independent bodies that the economic operator complies with the required environmental management systems or standards?</cbc:Description>
+                <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+              </efac:SelectionCriteria>
+            </efext:EformsExtension>
+          </ext:ExtensionContent>
+        </ext:UBLExtension>
+      </ext:UBLExtensions>
+      <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+      <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+      <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+      <cac:CallForTendersDocumentReference>
+        <cbc:ID>Link to the procurement documents</cbc:ID>
+        <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+        <cac:Attachment>
+          <cac:ExternalReference>
+            <cbc:URI>https://tendsign.com/doc.aspx?MeFormsNoticeId=18</cbc:URI>
+          </cac:ExternalReference>
+        </cac:Attachment>
+      </cac:CallForTendersDocumentReference>
+      <cac:TendererQualificationRequest>
+        <cac:SpecificTendererRequirement>
+          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+        </cac:SpecificTendererRequirement>
+      </cac:TendererQualificationRequest>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="ecatalog-submission">allowed</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:ContractExecutionRequirement>
+        <cbc:ExecutionRequirementCode listName="esignature-submission">false</cbc:ExecutionRequirementCode>
+      </cac:ContractExecutionRequirement>
+      <cac:TenderRecipientParty>
+        <cbc:EndpointID>https://tendsign.com/doc.aspx?MeFormsNoticeId=18&amp;GoTo=Tender</cbc:EndpointID>
+      </cac:TenderRecipientParty>
+      <cac:TenderValidityPeriod>
+        <cbc:DurationMeasure unitCode="DAY">90</cbc:DurationMeasure>
+      </cac:TenderValidityPeriod>
+      <cac:AppealTerms>
+        <cac:AppealReceiverParty>
+          <cac:PartyIdentification>
+            <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+          </cac:PartyIdentification>
+        </cac:AppealReceiverParty>
+      </cac:AppealTerms>
+      <cac:Language>
+        <cbc:ID>NOR</cbc:ID>
+      </cac:Language>
+      <cac:PostAwardProcess>
+        <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+        <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+      </cac:PostAwardProcess>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+      <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+      <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+      <cac:TenderSubmissionDeadlinePeriod>
+        <cbc:EndDate>2023-11-29+01:00</cbc:EndDate>
+        <cbc:EndTime>23:59:59+01:00</cbc:EndTime>
+      </cac:TenderSubmissionDeadlinePeriod>
+      <cac:AdditionalInformationRequestPeriod>
+        <cbc:EndDate>2023-11-21+01:00</cbc:EndDate>
+        <cbc:EndTime>00:00:00+01:00</cbc:EndTime>
+      </cac:AdditionalInformationRequestPeriod>
+      <cac:OpenTenderEvent>
+        <cbc:OccurrenceDate>2023-11-30+01:00</cbc:OccurrenceDate>
+        <cbc:OccurrenceTime>00:00:00+01:00</cbc:OccurrenceTime>
+      </cac:OpenTenderEvent>
+      <cac:AuctionTerms>
+        <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+      </cac:AuctionTerms>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+      <cac:ContractingSystem>
+        <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+      </cac:ContractingSystem>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+      <cbc:ID schemeName="InternalID">23/49</cbc:ID>
+      <cbc:Name languageID="NOR">Konkurransegrunnlag</cbc:Name>
+      <cbc:Name languageID="ENG">Tender documentation</cbc:Name>
+      <cbc:Description languageID="NOR">Narvik kommune (NK) - med flere - inviterer til åpen anbudskonkurranser for kjøp av: 
+
+ - Møbler og inventar (kontormøbler er ikke en del av denne avtalen) 
+
+(Se konkurransedokumenter for nærmere informasjon)</cbc:Description>
+      <cbc:Description languageID="ENG">Narvik municipality (NK) - etc. - invites tenderers to an open tender contest for the purchase of: 
+
+- Furniture and fixtures (office furniture is not a part of this agreement) 
+
+(See the tender documentation for further information)</cbc:Description>
+      <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+      <cac:RequestedTenderTotal>
+        <cbc:EstimatedOverallContractAmount currencyID="NOK">15900000</cbc:EstimatedOverallContractAmount>
+      </cac:RequestedTenderTotal>
+      <cac:MainCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">39143000</cbc:ItemClassificationCode>
+      </cac:MainCommodityClassification>
+      <cac:AdditionalCommodityClassification>
+        <cbc:ItemClassificationCode listName="cpv">39140000</cbc:ItemClassificationCode>
+      </cac:AdditionalCommodityClassification>
+      <cac:PlannedPeriod>
+        <cbc:StartDate>2024-01-08+01:00</cbc:StartDate>
+        <cbc:EndDate>2026-01-07+01:00</cbc:EndDate>
+      </cac:PlannedPeriod>
+      <cac:ContractExtension>
+        <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+        <cac:Renewal>
+          <cac:Period>
+            <cbc:Description languageID="NOR">Renewal lenght is 12 months</cbc:Description>
+            <cbc:Description languageID="ENG">Renewal length is 12 months</cbc:Description>
+          </cac:Period>
+        </cac:Renewal>
+      </cac:ContractExtension>
+    </cac:ProcurementProject>
+  </cac:ProcurementProjectLot>
+</ContractNotice>
