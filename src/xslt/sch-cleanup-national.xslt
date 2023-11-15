@@ -19,7 +19,10 @@
     <xsl:template match="sch:rule[@context = '/*/cac:AdditionalNoticeLanguage/cbc:ID']" />
 
     <!-- Remove specific rules -->
-    <xsl:template match="sch:assert[@id='BR-OPP-00070-0052']"/>
+    <xsl:template match="sch:assert[@id = 'BR-OPP-00070-0052']"/>
+
+        <!-- Exclusion grounds -->
+        <xsl:template match="sch:assert[@id = 'ND-ProcedureTerms-16']"/>
 
     <!-- Remove schema types -->
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''1''')]" priority="100"/>
@@ -67,34 +70,39 @@
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''T02''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''X01''')]" priority="100"/>
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''X02''')]" priority="100"/>
-        
 
-    <xsl:template match="sch:assert/@test[contains(current(), 'efac:NoticeSubType/cbc:SubTypeCode')]">
+    <!-- Renaming forms to have 'N' prefix -->
+    <xsl:template match="sch:assert/@test[contains(current(), 'efac:NoticeSubType/cbc:SubTypeCode') or contains(current(), 'noticeSubType')]">
         <xsl:attribute name="test" select="replace(current(), '''([0-9]{1,2})''', '''N$1''')" />
     </xsl:template>
-
+    <xsl:template match="sch:assert/text()">
+        <xsl:value-of select="replace(normalize-space(), '''([0-9]{1,2})''', '''N$1''')"/>
+    </xsl:template>
+    
     <!-- Testing out method to make validation faster -->
     <xsl:template match="sch:rule[contains(@context, '[$noticeSubType =')]">
         <xsl:copy>
             <xsl:variable name="context" select="substring-before(@context, '[$noticeSubType =')"/>
             <xsl:variable name="selector" select="substring(@context, string-length($context) + 1, string-length(@context))"/>
             <xsl:variable name="document" select="substring-before(substring-after($selector, ''''), '''')"/>
+            <xsl:variable name="new_selector" select="replace($selector, '''([0-9]{1,2})''', '''N$1''')"/>
+
             <xsl:choose>
                 <!-- PriorInformationNotice -->
                 <xsl:when test="$document = ('1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14')">
-                    <xsl:attribute name="context" select="concat('/pin:PriorInformationNotice', $selector, substring($context, 3))"/>
+                    <xsl:attribute name="context" select="concat('/pin:PriorInformationNotice', $new_selector, substring($context, 3))"/>
                 </xsl:when>
                 <!-- ContractNotice -->
                 <xsl:when test="$document = ('16', '17', '18', '19', '20', '21', '22', '23', '24')">
-                    <xsl:attribute name="context" select="concat('/cn:ContractNotice', $selector, substring($context, 3))"/>
+                    <xsl:attribute name="context" select="concat('/cn:ContractNotice', $new_selector, substring($context, 3))"/>
                 </xsl:when>
                 <xsl:when test="$document = ('25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40')">
                 <!-- ContractAwardNotice -->
-                <xsl:attribute name="context" select="concat('/can:ContractAwardNotice', $selector, substring($context, 3))"/>
+                <xsl:attribute name="context" select="concat('/can:ContractAwardNotice', $ new_selector, substring($context, 3))"/>
                 </xsl:when>
                 <!-- Fallback -->
                 <xsl:otherwise>
-                    <xsl:attribute name="context" select="concat('/*', $selector, substring($context, 3))"/>
+                    <xsl:attribute name="context" select="concat('/*', $new_selector, substring($context, 3))"/>
                 </xsl:otherwise>
             </xsl:choose>
 
