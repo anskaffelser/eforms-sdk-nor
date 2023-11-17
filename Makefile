@@ -144,15 +144,23 @@ target/eforms-sdk-nor/schematrons/eu-eforms-static.sch: target/sch-eforms/eforms
 	@mkdir -p target/eforms-sdk-nor/schematrons
 	@java -jar target/saxon/saxon.jar -s:target/sch-eforms/eforms-static.sch -xsl:src/xslt/sch-cleanup-eu.xslt -o:target/eforms-sdk-nor/schematrons/eu-eforms-static.sch
 
-target/eforms-sdk-nor/schematrons/national-eforms-dynamic.sch: target/sch-eforms/eforms-dynamic.sch src/xslt/sch-cleanup-national.xslt
+target/eforms-sdk-nor/schematrons/national-eforms-dynamic.sch: target/sch-eforms/eforms-dynamic.sch src/xslt/sch-cleanup-national.xslt src/fields/national.yaml
 	@echo "* Preparing Schematron: national-eforms-dynamic.sch"
 	@mkdir -p target/eforms-sdk-nor/schematrons
-	@java -jar target/saxon/saxon.jar -s:target/sch-eforms/eforms-dynamic.sch -xsl:src/xslt/sch-cleanup-national.xslt -o:target/eforms-sdk-nor/schematrons/national-eforms-dynamic.sch
+	@java -jar target/saxon/saxon.jar \
+		-s:target/sch-eforms/eforms-dynamic.sch \
+		-xsl:src/xslt/sch-cleanup-national.xslt \
+		-o:target/eforms-sdk-nor/schematrons/national-eforms-dynamic.sch \
+		removed=$$(ruby -e "require 'bundler/setup'; require 'yaml'; puts YAML.load_file('src/fields/national.yaml').fetch('removed', []).join(',')")
 
-target/eforms-sdk-nor/schematrons/national-eforms-static.sch: target/sch-eforms/eforms-static.sch src/xslt/sch-cleanup-national.xslt
+target/eforms-sdk-nor/schematrons/national-eforms-static.sch: target/sch-eforms/eforms-static.sch src/xslt/sch-cleanup-national.xslt src/fields/national.yaml
 	@echo "* Preparing Schematron: national-eforms-static.sch"
 	@mkdir -p target/eforms-sdk-nor/schematrons
-	@java -jar target/saxon/saxon.jar -s:target/sch-eforms/eforms-static.sch -xsl:src/xslt/sch-cleanup-national.xslt -o:target/eforms-sdk-nor/schematrons/national-eforms-static.sch
+	@java -jar target/saxon/saxon.jar \
+		-s:target/sch-eforms/eforms-static.sch \
+		-xsl:src/xslt/sch-cleanup-national.xslt \
+		-o:target/eforms-sdk-nor/schematrons/national-eforms-static.sch \
+		removed=$$(ruby -e "require 'bundler/setup'; require 'yaml'; puts YAML.load_file('src/fields/national.yaml').fetch('removed', []).join(',')")
 
 target/eforms-sdk-nor/schematrons/eu-norway.sch: target/saxon target/sch/eu/main.sch
 	@echo "* Preparing Schematron: eu-norway.sch"

@@ -3,6 +3,9 @@
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                 version="2.0">
 
+    <xsl:param name="removed" select="NA"/>
+    <xsl:variable name="removed_parsed" select="tokenize($removed, ',')"/>
+
     <!-- Default behaviour: Copy as-is -->
     <xsl:template match="@* | node()">
         <xsl:copy>
@@ -21,14 +24,8 @@
     <!-- Remove specific rules -->
     <xsl:template match="sch:assert[@id = 'BR-OPP-00070-0052']"/>
 
-        <!-- Exclusion grounds -->
-        <xsl:template match="sch:assert[@diagnostics = ('ND-ProcedureTerms', 'ND-ExclusionGrounds')]"/>
-
-        <!-- EU Funds -->
-        <xsl:template match="sch:assert[@diagnostics = ('BT-60-Lot')]"/>
-
-        <!-- Other Requirements -->
-        <xsl:template match="sch:assert[@diagnostics = ('BT-71-Lot', 'BT-71-Part')]"/>
+    <!-- Remove removed fields -->
+    <xsl:template match="sch:assert[@diagnostics = $removed_parsed]"/>
 
     <!-- Remove schema types -->
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''1''')]" priority="100"/>

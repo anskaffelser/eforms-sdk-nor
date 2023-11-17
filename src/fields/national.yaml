@@ -97,3 +97,58 @@ removed:
   - GR-Lot-Requirements2SecurityClearance1
   - GR-Lot-SecurityClearance2
   - GR-Nda
+
+  # Group Framework Maximum Value
+  - BG-556
+  - BT-556-NoticeResult
+  - BT-156-NoticeResult
+
+  # Group Framework Re-estimated Value
+  - BG-5561
+  - BT-5561-NoticeResult # Not found in fields
+  - BT-1561-NoticeResult
+
+  # Contract EU Funds
+  - BG-611
+  - BT-722-Contract
+  - BT-5011-Contract
+  - BT-6110-Contract
+
+  # Strategic Procurement
+  - BG-713
+  - BT-13721 # Not found
+  - BT-06-Lot
+  - BT-777-Lot
+  - BT-805-Lot
+  - BT-774-Lot
+  - BT-775-Lot
+  - BT-776-Lot
+  - BT-754-Lot
+  - BT-755-Lot
+  - BT-717-Lot
+  - BG-714
+  - BT-735-Lot
+  - BT-735-LotResult
+  - BG-7141
+  - BT-723-LotResult
+  - BT-715 # Not found
+  - BT-725 # Not found
+  - BT-716 # Not found
+  - BG-612
+  - BT-13722 # Not found
+  - BT-712(a)-LotResult
+  - BT-712(b)-LotResult
+  - BG-613 # Not found
+  - BT-635-LotResult
+  - BT-636-LotResult
+
+  # Additional Information
+  - BT-13715
+  - BT-726-Lot
+  - BT-726-LotsGroup
+  - BT-726-Part
+  - BT-115-Lot
+  - BT-115-Part
+  - BT-634-Lot
+  - BT-634-Procedure
+  - BT-756-Procedure
