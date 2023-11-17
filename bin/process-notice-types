@@ -19,7 +19,7 @@ aliases = config.fetch('aliases', {}).to_h { |k,v| [k.to_s, v.to_s] }
 REMOVED = config.fetch('removed', [])
 notice_types = config.fetch('noticeTypes', []).map { |nt| nt.to_s }
 
-index = JSON.load_file File.join(opts[:input_folder], 'notice-types.json')
+index = JSON.parse File.read File.join(opts[:input_folder], 'notice-types.json')
 indexed = Array::new
 
 # Make sure folder exists
@@ -53,7 +53,7 @@ notice_types.each do |nt|
       'viewTemplateIds' => [nt.to_s, 'summary']
     }))
 
-  content = JSON.load_file source
+  content = JSON.parse File.read source
 
   # TODO
   content['metadata'] = filter content['metadata']
