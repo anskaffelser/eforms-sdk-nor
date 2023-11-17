@@ -22,7 +22,13 @@
     <xsl:template match="sch:assert[@id = 'BR-OPP-00070-0052']"/>
 
         <!-- Exclusion grounds -->
-        <xsl:template match="sch:assert[@id = 'ND-ProcedureTerms-16']"/>
+        <xsl:template match="sch:assert[@diagnostics = ('ND-ProcedureTerms', 'ND-ExclusionGrounds')]"/>
+
+        <!-- EU Funds -->
+        <xsl:template match="sch:assert[@diagnostics = ('BT-60-Lot')]"/>
+
+        <!-- Other Requirements -->
+        <xsl:template match="sch:assert[@diagnostics = ('BT-71-Lot', 'BT-71-Part')]"/>
 
     <!-- Remove schema types -->
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''1''')]" priority="100"/>

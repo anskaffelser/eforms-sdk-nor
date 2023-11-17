@@ -3,6 +3,11 @@
 
 Errors:
 EFORMS-NOR-R801
+BR-BT-00022-0175
+ND-NonUBLTenderingTerms-16
+
+Warnings:
+BR-OPP-00050-0022 x 2
 
 -->
 <ContractNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2">
@@ -203,7 +208,6 @@ Avtale vil bli inngått etter NS 8407.
     <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
     <cac:TenderingTerms>
       <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
-      <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
       <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
       <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
       <cac:RequiredFinancialGuarantee>
@@ -223,11 +227,6 @@ Avtale vil bli inngått etter NS 8407.
       <cac:TendererQualificationRequest>
         <cac:SpecificTendererRequirement>
           <cbc:TendererRequirementTypeCode listName="missing-info-submission">late-none</cbc:TendererRequirementTypeCode>
-        </cac:SpecificTendererRequirement>
-      </cac:TendererQualificationRequest>
-      <cac:TendererQualificationRequest>
-        <cac:SpecificTendererRequirement>
-          <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
         </cac:SpecificTendererRequirement>
       </cac:TendererQualificationRequest>
       <cac:TendererQualificationRequest>

@@ -1,0 +1,79 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'json'
+require 'slop'
+require 'yaml'
+
+opts = Slop.parse do |o|
+  o.string '-c', '--config-file', default: 'src/fields/national.yaml'
+  o.string '-i', '--input-folder', default: 'target/eforms-sdk/notice-types'
+  o.string '-o', '--output-folder', default: 'target/eforms-sdk-nor/notice-types'
+end
+
+# Loading configuration
+config = YAML.load_file opts[:config_file]
+kind = File.basename(opts[:config_file], '.yaml')
+
+aliases = config.fetch('aliases', {}).to_h { |k,v| [k.to_s, v.to_s] }
+REMOVED = config.fetch('removed', [])
+notice_types = config.fetch('noticeTypes', []).map { |nt| nt.to_s }
+
+index = JSON.load_file File.join(opts[:input_folder], 'notice-types.json')
+indexed = Array::new
+
+# Make sure folder exists
+FileUtils.mkdir_p opts[:output_folder]
+
+# Method used to perform filtering
+def filter(content)
+  content
+    .select { |c| !REMOVED.include?(c['id']) }
+    .map { |c|
+      if c.has_key?('content')
+        c['content'] = filter c['content']
+        puts c['id'] if c['content'].size == 0
+      end
+      
+      c
+    }
+end
+
+notice_types.each do |nt|
+  source_type = aliases.include?(nt) ? aliases[nt] : nt
+
+  source = File.join(opts[:input_folder], "#{source_type}.json")
+  target = File.join(opts[:output_folder], "#{nt}.json")
+
+  indexed.append(index['noticeSubTypes']
+    .find { |t| t['subTypeId'] == source_type }
+    .merge({
+      'subTypeId' => nt.to_s,
+      '_label' => "notice|name|#{nt}",
+      'viewTemplateIds' => [nt.to_s, 'summary']
+    }))
+
+  content = JSON.load_file source
+
+  # TODO
+  content['metadata'] = filter content['metadata']
+  content['content'] = filter content['content']
+
+  File.write target, JSON.pretty_generate(content, array_nl: '')
+  .gsub(/\[\s+/, "[ ")
+  .gsub(/\}\s+/, "} ")
+  .gsub(/\",[ ]+\"/, '", "')
+  .gsub(/\"\s+\]+/, '"]')
+  .gsub(/},\s+{/, '}, {')
+end
+
+documentTypes = indexed.map { |i| i['documentType'] }.uniq
+index['noticeSubTypes'] = indexed
+index['documentTypes'] = index['documentTypes'].select { |dt| documentTypes.include? dt['id'] }
+
+File.write File.join(opts[:output_folder], "notice-types-#{kind}.json"), JSON.pretty_generate(index, array_nl: '')
+.gsub(/\[\s+/, "[ ")
+.gsub(/\}\s+/, "} ")
+.gsub(/\",[ ]+\"/, '", "')
+.gsub(/\"\s+\]+/, '"]')
+.gsub(/},\s+{/, '}, {')

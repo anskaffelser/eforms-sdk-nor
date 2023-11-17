@@ -61,3 +61,39 @@ rules:
     - id: EFORMS-NOR-R201
       test: normalize-space() = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndTime[1]/normalize-space()
       message: All lots must have same deadline
+
+removed:
+  # Exclusion grounds
+  - ND-ExclusionGrounds
+  - ND-ProcedureTerms
+  - BG-701
+  - BT-67(a)-Procedure
+  - BT-67(b)-Procedure
+  - GR-Procedure-ExclusionGrounds
+
+  # EU Funds
+  - BG-61
+  - BT-1374
+  - BT-60-Lot
+  - BG-614
+  - BT-7220-Lot
+  - BT-5010-Lot
+  - BT-6140-Lot
+  - GR-Lot-EUFunds
+
+  # Other Requirements
+  - BG-705
+  - BT-1379
+  - BT-71-Lot
+  - BT-71-Part
+  - BT-79-Lot
+  - BT-578-Lot
+  - BT-78-Lot
+  - BT-732-Lot
+  - BT-801-Lot
+  - BT-802-Lot
+  - GR-Part-TendererQualification
+  - GR-ReservedParticipation
+  - GR-Lot-Requirements2SecurityClearance1
+  - GR-Lot-SecurityClearance2
+  - GR-Nda

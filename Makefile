@@ -103,10 +103,11 @@ target/eforms-sdk-nor/fields/national.json: target/eforms-sdk bin/process-fields
 		-c src/fields/national.yaml \
 		-o target/eforms-sdk-nor/fields/national.json
 
-target/eforms-sdk-nor/notice-types: target/eforms-sdk
+target/eforms-sdk-nor/notice-types: target/eforms-sdk bin/process-notice-types
 	@echo "* Create notice types"
 	@mkdir -p target/eforms-sdk-nor
-	@./bin/notice-types
+	@./bin/process-notice-types -c src/fields/eu.yaml
+	@./bin/process-notice-types -c src/fields/national.yaml
 
 target/eforms-sdk-nor/schemas: target/eforms-sdk
 	@echo "* Copy schemas (XSD)"
@@ -181,11 +182,8 @@ target/eforms-sdk-nor/translations/business-term_nb.xml: target/eforms-sdk src/p
 	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/create-translations --complete
 
 target/eforms-sdk-nor/view-templates: target/eforms-sdk
-	@mkdir -p target/eforms-sdk-nor
-	@cp -r target/eforms-sdk/view-templates target/eforms-sdk-nor/view-templates
-	@cp -r target/eforms-sdk/view-templates/4.efx target/eforms-sdk-nor/view-templates/N4.efx
-	@cp -r target/eforms-sdk/view-templates/16.efx target/eforms-sdk-nor/view-templates/N16.efx
-	@cp -r target/eforms-sdk/view-templates/29.efx target/eforms-sdk-nor/view-templates/N29.efx
+	@./bin/process-view-templates -c src/fields/eu.yaml
+	@./bin/process-view-templates -c src/fields/national.yaml
 
 target/eforms-sdk-nor/xslt: \
 	target/eforms-sdk-nor/xslt/nor-to-eforms.xslt \
