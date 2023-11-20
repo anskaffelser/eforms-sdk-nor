@@ -143,13 +143,13 @@ expression|name|115:
     nob_verify: false
   nob_verify: false
 expression|name|116:
-  name: Type of procedure' (BT-105) is 'Open' or 'Other single stage procedure' or 'Negotiated without prior call for competition'
+  name: "'Type of procedure' (BT-105) is 'Open' or 'Other single stage procedure' or 'Negotiated without prior call for competition'"
   nob: Type prosedyre» (BT-105) er «Åpen» eller «Annen prosedyre i ett trinn» eller «Forhandlet uten forutgående innkalling til konkurranse»
   history:
   - name: Type of procedure' (BT-105) is 'Open' or 'Other single stage procedure' or 'Negotiated without prior call for competition'
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|117:
   name: "'Type' (BT-747-Lot) is not filled in"
   nob: Type' (BT-747-Lot) er ikke fylt ut
@@ -799,37 +799,37 @@ expression|name|192:
     nob_verify: false
   nob_verify: false
 expression|name|193:
-  name: "'Review Remedy Type' (BT-792-Review) is not 'Alternative penalty' or 'Damages'"
+  name: "'Review remedy type' (BT-792-Review) is not 'Alternative penalty' or 'Damages'"
   nob: Review Remedy Type' (BT-792-Review) er ikke 'Alternativ straff' eller 'Skader'
   history:
   - name: "'Review Remedy Type' (BT-792-Review) is not 'Alternative penalty' or 'Damages'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|194:
-  name: "'Review Remedy Type' (BT-792-Review) is 'Damages'"
+  name: "'Review remedy type' (BT-792-Review) is 'Damages'"
   nob: Review Remedy Type' (BT-792-Review) er 'Skader'
   history:
   - name: "'Review Remedy Type' (BT-792-Review) is 'Damages'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|195:
-  name: "'Review Request Withdrawn' (BT-796-Review) is not true"
+  name: "'Review request withdrawn' (BT-796-Review) is not true"
   nob: Forespørsel om gjennomgang trukket tilbake» (BT-796-gjennomgang) er ikke sann
   history:
   - name: "'Review Request Withdrawn' (BT-796-Review) is not true"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|196:
-  name: "'Review Identifier' (BT-784-Review) is not filled in"
+  name: "'Review identifier' (BT-784-Review) is not filled in"
   nob: Review Identifier' (BT-784-Review) er ikke fylt ut
   history:
   - name: "'Review Identifier' (BT-784-Review) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|197:
   name: "'Identifier of the previous notice' (BT-125i-Lot) is not filled in"
   nob: Identifikator for forrige melding' (BT-125i-Lot) er ikke fylt ut
@@ -951,13 +951,13 @@ expression|name|209:
     nob_verify: false
   nob_verify: false
 expression|name|21:
-  name: "'Country subentity' B373(BT-5071-Lot) is filled in"
+  name: "'Country subdivision (NUTS)' B373(BT-5071-Lot) is filled in"
   nob: Landunderenhet' B373(BT-5071-Lot) er fylt ut
   history:
   - name: "'Country subentity' B373(BT-5071-Lot) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|210:
   name: "'Section identifier' (BT-13716-notice) is not filled in"
   nob: Seksjonsidentifikator» (BT-13716-varsel) er ikke fylt ut
@@ -2207,13 +2207,13 @@ expression|name|351:
     nob_verify: false
   nob_verify: false
 expression|name|352:
-  name: At least one organisation is connected to 'Beneficial owner reference' (OPT-302-Organization)
+  name: At least one organisation is connected to 'ID – Beneficial owner' (OPT-302-Organization)
   nob: Minst én organisasjon er tilknyttet 'Referanse til reell rettighetshaver' (OPT-302-Organization)
   history:
   - name: At least one organisation is connected to 'Beneficial owner reference' (OPT-302-Organization)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|353:
   name: "'Type of procedure' (BT-105) is 'Open' or 'Restricted'"
   nob: Type prosedyre' (BT-105) er 'Åpen' eller 'Begrenset'
@@ -2847,29 +2847,29 @@ expression|name|520:
     nob_verify: false
   nob_verify: false
 expression|name|523:
-  name: "'Other restrictions on the place of performance' (BT-727), 'Country subentity' BT-5071 and 'Town' (BT-5131) is not filled in"
+  name: "'Other restrictions on the place of performance' (BT-727), 'Country subdivision (NUTS)' BT-5071 and 'Town' (BT-5131) is not filled in"
   nob: Andre restriksjoner på fremføringsstedet» (BT-727), «Country subentity» BT-5071 og «Town» (BT-5131) er ikke fylt ut
   history:
   - name: "'Other restrictions on the place of performance' (BT-727), 'Country subentity' BT-5071 and 'Town' (BT-5131) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|524:
-  name: "'Other restrictions on the place of performance' (BT-727), 'Country subentity' BT-5071 and 'Town' (BT-5131) is not filled in"
+  name: "'Other restrictions on the place of performance' (BT-727), 'Country subdivision (NUTS)' BT-5071 and 'Town' (BT-5131) is not filled in"
   nob: Andre restriksjoner på fremføringsstedet» (BT-727), «Country subentity» BT-5071 og «Town» (BT-5131) er ikke fylt ut
   history:
   - name: "'Other restrictions on the place of performance' (BT-727), 'Country subentity' BT-5071 and 'Town' (BT-5131) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|525:
-  name: "'Other restrictions on the place of performance' (BT-727), 'Country subentity' BT-5071 and 'Town' (BT-5131) is not filled in"
+  name: "'Other restrictions on the place of performance' (BT-727), 'Country subdivision (NUTS)' BT-5071 and 'Town' (BT-5131) is not filled in"
   nob: Andre restriksjoner på fremføringsstedet» (BT-727), «Country subentity» BT-5071 og «Town» (BT-5131) er ikke fylt ut
   history:
   - name: "'Other restrictions on the place of performance' (BT-727), 'Country subentity' BT-5071 and 'Town' (BT-5131) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|528:
   name: "'Country' (BT-514-Organization-Touchpoint) does not have postcodes"
   nob: Land' (BT-514-Organization-Touchpoint) har ikke postnummer
@@ -2895,13 +2895,13 @@ expression|name|53:
     nob_verify: false
   nob_verify: false
 expression|name|530:
-  name: "'Beneficial owner reference' (OPT-302-Organization) is not connected to any organisation"
+  name: "'ID – Beneficial owner' (OPT-302-Organization) is not connected to any organisation"
   nob: Reell rettighetshaverreferanse» (OPT-302-Organization) er ikke knyttet til noen organisasjon
   history:
   - name: "'Beneficial owner reference' (OPT-302-Organization) is not connected to any organisation"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|531:
   name: "'ID – Company' (OPT-200-Organization-Company) is not filled in"
   nob: ID – Selskap' (OPT-200-Organization-Company) er ikke fylt ut
@@ -2967,13 +2967,13 @@ expression|name|59:
     nob_verify: false
   nob_verify: false
 expression|name|6:
-  name: "'Country subentity' (BT-5071-Procedure) is filled in"
+  name: "'Country subdivision (NUTS)' (BT-5071-Procedure) is filled in"
   nob: Landunderenhet» (BT-5071-Prosedyre) fylles ut
   history:
   - name: "'Country subentity' (BT-5071-Procedure) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|60:
   name: "'Justification for direct award' (BT-136-Result) is filled in"
   nob: Begrunnelse for direkte tildeling» (BT-136-Resultat) er fylt ut
@@ -3111,13 +3111,13 @@ expression|name|77:
     nob_verify: false
   nob_verify: false
 expression|name|78:
-  name: 'Type of procedure'' (BT-105) is not one of the following: ''Competitive dialogue''; ''Innovation partnership''; ''Negotiated with prior publication of a call for competition / competitive with negotiation''; ''Other multiple stage procedure''; ''Restricted'''
+  name: "'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
   nob: 'Type prosedyre» (BT-105) er ikke en av følgende: «Konkurransepreget dialog»; ''Innovasjonspartnerskap''; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»'
   history:
   - name: 'Type of procedure'' (BT-105) is not one of the following: ''Competitive dialogue''; ''Innovation partnership''; ''Negotiated with prior publication of a call for competition / competitive with negotiation''; ''Other multiple stage procedure''; ''Restricted'''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|79:
   name: "'Deadline for receipt of expressions of interest' (BT-630(d)-Lot) is not filled in"
   nob: Frist for mottak av interesseerklæringer» (BT-630(d)-Lot) er ikke fylt ut
@@ -3127,21 +3127,21 @@ expression|name|79:
     nob_verify: false
   nob_verify: false
 expression|name|8:
-  name: "'Country subentity' (BT-5071-Part) is filled in"
+  name: "'Country subdivision (NUTS)' (BT-5071-Part) is filled in"
   nob: Landunderenhet» (BT-5071-del) fylles ut
   history:
   - name: "'Country subentity' (BT-5071-Part) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|80:
-  name: 'Type of procedure'' (BT-105) is one of the following: ''Competitive dialogue''; ''Innovation partnership''; ''Negotiated with prior publication of a call for competition / competitive with negotiation''; ''Other multiple stage procedure''; ''Restricted'''
+  name: "'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
   nob: 'Type prosedyre» (BT-105) er en av følgende: «Konkurransepreget dialog»; ''Innovasjonspartnerskap''; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»'
   history:
   - name: 'Type of procedure'' (BT-105) is one of the following: ''Competitive dialogue''; ''Innovation partnership''; ''Negotiated with prior publication of a call for competition / competitive with negotiation''; ''Other multiple stage procedure''; ''Restricted'''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|82:
   name: the value chosen for BT-02-Notice is equal to 'Change notice'
   nob: verdien valgt for BT-02-varsel er lik 'Endringsmelding'
@@ -3151,13 +3151,13 @@ expression|name|82:
     nob_verify: false
   nob_verify: false
 expression|name|83:
-  name: "'Tender Payment Value' (BT-779-Tender) is not filled in"
+  name: "'Tender payment value' (BT-779-Tender) is not filled in"
   nob: Betalingsverdi» (BT-779-Tender) er ikke fylt ut
   history:
   - name: "'Tender Payment Value' (BT-779-Tender) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|84:
   name: "'Contract duration is extended due to essential assets necessary for the provision of the service' (OPP-020-Contract) is not 'yes'"
   nob: Kontraktens varighet forlenges på grunn av vesentlige eiendeler som er nødvendige for levering av tjenesten» (OPP-020-Kontrakt) er ikke «ja»

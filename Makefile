@@ -192,6 +192,7 @@ target/eforms-sdk-nor/translations/business-term_nb.xml: target/eforms-sdk src/p
 target/eforms-sdk-nor/view-templates: target/eforms-sdk
 	@./bin/process-view-templates -c src/fields/eu.yaml
 	@./bin/process-view-templates -c src/fields/national.yaml
+	@cp target/eforms-sdk/view-templates/summary.efx target/eforms-sdk-nor/view-templates/summary.efx
 
 target/eforms-sdk-nor/xslt: \
 	target/eforms-sdk-nor/xslt/nor-to-eforms.xslt \

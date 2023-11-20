@@ -126,7 +126,7 @@ business-term|name|BT-512:
   history: []
   nob_verify: true
 business-term|name|BT-507:
-  name: Country subentity
+  name: Country subdivision (NUTS)
   nob: Virksomhetens landspesifikke inndeling
   history: []
   nob_verify: true
@@ -236,10 +236,10 @@ business-term|name|BG-715:
   history: []
   nob_verify: true
 business-term|name|BT-799:
-  name: Review Body Type
+  name: Review body type
   nob: Type klageorgan
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BG-2:
   name: Purpose
   nob: Formål
@@ -306,7 +306,7 @@ business-term|name|BG-261:
   history: []
   nob_verify: false
 business-term|name|BT-26:
-  name: Classificator type
+  name: Classification type
   nob: Type klassifisering
   history: []
   nob_verify: true
@@ -336,7 +336,7 @@ business-term|name|BT-53:
   history: []
   nob_verify: false
 business-term|name|BT-54:
-  name: The buyer reserves the right for additional purchases from the contractor, as described here
+  name: Description of the options
   nob: Beskrivelse av opsjoner
   history: []
   nob_verify: true
@@ -376,7 +376,7 @@ business-term|name|BT-5121:
   history: []
   nob_verify: true
 business-term|name|BT-5071:
-  name: Country subentity
+  name: Country subdivision (NUTS)
   nob: Sted for gjennomføring - Landspesifikk inndeling
   history: []
   nob_verify: true
@@ -426,17 +426,17 @@ business-term|name|BT-538:
   history: []
   nob_verify: true
 business-term|name|BT-781:
-  name: Duration Additional Information
+  name: Duration additional information
   nob: Varighet - tilleggsinformasjon
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-58:
   name: Maximum renewals
   nob: Høyeste antall fornyelser
   history: []
   nob_verify: true
 business-term|name|BT-57:
-  name: Description
+  name: The buyer reserves the right for additional purchases from the contractor, as described here
   nob: Beskrivelse av fornyelser
   history: []
   nob_verify: true
@@ -1105,10 +1105,10 @@ business-term|name|BT-769:
   history: []
   nob_verify: true
 business-term|name|BT-800:
-  name: Deadline Receipt Answers
+  name: Deadline for receipt of answers
   nob: Tidsfrist
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-630:
   name: Deadline for receipt of expressions of interest
   nob: Tdsfrist for mottak av meldt interesse
@@ -1304,24 +1304,24 @@ business-term|name|BT-1711:
   history: []
   nob_verify: true
 business-term|name|BT-779:
-  name: Tender Payment Value
+  name: Tender payment value
   nob: Verdi av betaling
   history:
   - name: Tender Payment Value
     nob: Kontrakt verdi av betalinger
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-780:
-  name: Tender Payment Value Additional Information
+  name: Tender payment value additional information
   nob: Tilleggsinformasjon om verdi av betalinger
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-782:
-  name: Tender Penalties
+  name: Tender penalties
   nob: Kontraktssanksjoner
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|name|BT-171:
   name: Rank in the list of winners
   nob: Tilbudets rangering
@@ -3541,37 +3541,37 @@ business-term|name|BG-7141:
 business-term|name|BG-716:
   name: Review
 business-term|name|BT-783:
-  name: Review Request or Decision
+  name: Review request or decision
 business-term|name|BT-784:
-  name: Review Identifier
+  name: Review identifier
 business-term|name|BT-785:
-  name: Review Previous Identifier
+  name: Review previous identifier
 business-term|name|BT-786:
-  name: Review Notice Section Identifier
+  name: Review notice section identifier
 business-term|name|BT-787:
-  name: Review Date
+  name: Review date
 business-term|name|BT-788:
-  name: Review Title
+  name: Review title
 business-term|name|BT-789:
-  name: Review Description
+  name: Review description
 business-term|name|BT-790:
-  name: Review Decision Type
+  name: Review decision type
 business-term|name|BT-791:
-  name: Review Irregularity Type
+  name: Review irregularity type
 business-term|name|BT-792:
-  name: Review Remedy Type
+  name: Review remedy type
 business-term|name|BT-793:
-  name: Review Remedy Value
+  name: Review remedy value
 business-term|name|BT-794:
   name: Review URL
 business-term|name|BT-795:
-  name: Review Request Fee
+  name: Review request fee
 business-term|name|BT-796:
-  name: Review Request Withdrawn
+  name: Review request withdrawn
 business-term|name|BT-797:
-  name: Review Request Withdrawn Date
+  name: Date of review request withdrawal
 business-term|name|BT-798:
-  name: Review Request Withdrawn Reasons
+  name: Reasons for review request withdrawal
 business-term|name|OPP-010:
   name: Notice publication number
 business-term|name|OPP-011:
@@ -3617,7 +3617,7 @@ business-term|name|OPP-105:
 business-term|name|OPP-110:
   name: Town
 business-term|name|OPP-111:
-  name: Postal code
+  name: Postcode
 business-term|name|OPP-112:
   name: Country
 business-term|name|OPP-113:
@@ -3695,7 +3695,7 @@ business-term|name|OPT-300:
 business-term|name|OPT-301:
   name: ID – Organisation contact point
 business-term|name|OPT-302:
-  name: Beneficial owner reference
+  name: ID – Beneficial owner
 business-term|name|OPT-310:
   name: ID – Tendering party
 business-term|name|OPT-315:
@@ -3710,3 +3710,7 @@ business-term|name|OPT-322:
   name: ID – Lot result
 business-term|name|OPT-999:
   name: Dummy tender award date
+business-term|name|OPP-124:
+  name: Issue of the publication
+business-term|name|OPT-211:
+  name: Name of the tendering party

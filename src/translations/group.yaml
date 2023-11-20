@@ -1,11 +1,11 @@
 group|name|GR-132001:
-  name: Information about Recurrence
+  name: Information about recurrence
   nob: Informasjon om Regelmessighet
   history:
   - name: Information about Recurrence
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-Business-Address:
   name: Address
   nob: Adresse
@@ -159,13 +159,13 @@ group|name|GR-Lot-ContractExecutionRequirements:
     nob_verify: false
   nob_verify: false
 group|name|GR-Lot-ContractExtension:
-  name: Renewal of the contract
+  name: Renewals and options
   nob: Fornyelse av kontrakten
   history:
   - name: Renewal of the contract
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-Lot-ContractingSystem:
   name: Contracting system
   nob: Kontraktssystem
@@ -2848,21 +2848,21 @@ group|name|GR-TouchPoint:
     nob_verify: false
   nob_verify: false
 group|name|ND-ChangedSection:
-  name: Section subject to change
+  name: Section to be changed
   nob: Avsnittet kan endres
   history:
   - name: Section subject to change
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-ModifiedSection:
-  name: Section subject to modification
+  name: Section to be modified
   nob: Avsnitt som kan endres
   history:
   - name: Section subject to modification
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-AwardingTermsJuryMember:
   name: Jury member
   nob: Jurymedlem
@@ -2872,21 +2872,21 @@ group|name|ND-AwardingTermsJuryMember:
     nob_verify: false
   nob_verify: false
 group|name|ND-BusinessCapability:
-  name: Business capability
+  name: Business activity
   nob: Forretningsmulighet
   history:
   - name: Business capability
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-CompanyLegalEntity:
-  name: Company legal identifier
+  name: Company's legal identifier
   nob: Juridisk identifikator for firmaet
   history:
   - name: Company legal identifier
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-ContractSignatory:
   name: Contract signatory
   nob: Kontrakt signert
@@ -2896,101 +2896,101 @@ group|name|ND-ContractSignatory:
     nob_verify: false
   nob_verify: false
 group|name|ND-CountryOriginUnpublish:
-  name: Not Immediately Published (CountryOrigin)
+  name: Country of origin (published later)
   nob: Ikke umiddelbart publisert (CountryOrigin)
   history:
   - name: Not Immediately Published (CountryOrigin)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-FinancingParty:
-  name: Financing party
+  name: Financing organisation
   nob: Finansieringspart
   history:
   - name: Financing party
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-GroupCompositionLotReference:
-  name: Lot belonging to the Group
+  name: Lot belonging to the group
   nob: Objekt som tilhører konsernet
   history:
   - name: Lot belonging to the Group
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotAwardCriterionFixNumberUnpublish:
-  name: Not Immediately Published (LotAwardCriterionFixNumber)
+  name: Fixed value criterion (published later)
   nob: Ikke umiddelbart publisert (LotAwardCriterionFixNumber)
   history:
   - name: Not Immediately Published (LotAwardCriterionFixNumber)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotAwardCriterionThresholdNumberUnpublish:
-  name: Not Immediately Published (LotAwardCriterionThresholdNumber)
+  name: Threshold value criterion (published later)
   nob: Ikke umiddelbart publisert (LotAwardCriterionThresholdNumber)
   history:
   - name: Not Immediately Published (LotAwardCriterionThresholdNumber)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotAwardCriterionWeightNumberUnpublish:
-  name: Not Immediately Published (LotAwardCriterionWeightNumber)
+  name: Weight value criterion (published later)
   nob: Ikke umiddelbart publisert (LotAwardCriterionWeightNumber)
   history:
   - name: Not Immediately Published (LotAwardCriterionWeightNumber)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotAwardFixedCriterionParameter:
-  name: Lot Award Fixed Criterion Parameter (Value and associated Code)
+  name: Fixed value criterion
   nob: Lot Award Fast Criterion Parameter (Verdi og tilhørende kode)
   history:
   - name: Lot Award Fixed Criterion Parameter (Value and associated Code)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotAwardThresholdCriterionParameter:
-  name: Lot Award Threshold Criterion Parameter (Value and associated Code)
+  name: Threshold value criterion
   nob: Kriterieparameter for partitildelingsterskel (verdi og tilhørende kode)
   history:
   - name: Lot Award Threshold Criterion Parameter (Value and associated Code)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotAwardWeightCriterionParameter:
-  name: Lot Award Weight Criterion Parameter (Value and associated Code)
+  name: Weight value criterion
   nob: Kriterieparameter for partitildelingsvekt (verdi og tilhørende kode)
   history:
   - name: Lot Award Weight Criterion Parameter (Value and associated Code)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotContractAdditionalNature:
-  name: Additional contract nature for the Lot
+  name: Additional contract nature
   nob: Ytterligere kontraktskarakter for partiet
   history:
   - name: Additional contract nature for the Lot
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotEnvironmentalImpactType:
-  name: Environmental impact procurement type
+  name: Environmental impact of the procurement
   nob: Innkjøpstype med miljøpåvirkning
   history:
   - name: Environmental impact procurement type
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotInnovativeAcquisitionType:
-  name: Innovative acquisition procurement type
+  name: Innovative acquisition
   nob: Innovativ anskaffelsestype
   history:
   - name: Innovative acquisition procurement type
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotResultContractReference:
   name: Contract following an award decision
   nob: Kontrakt etter tildelingsbeslutning
@@ -3008,109 +3008,109 @@ group|name|ND-LotResultTenderReference:
     nob_verify: false
   nob_verify: false
 group|name|ND-LotSocialObjectiveType:
-  name: Social objective procurement type
+  name: Social objective of the procurement
   nob: Type anskaffelse av sosiale mål
   history:
   - name: Social objective procurement type
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotSubmissionLanguage:
-  name: Submission language
+  name: Tender submission language
   nob: Språk for innlevering
   history:
   - name: Submission language
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotTenderOriginCountry:
-  name: Origin country of the product or service
+  name: Country of origin
   nob: Opprinnelseslandet for produktet eller tjenesten
   history:
   - name: Origin country of the product or service
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotsGroupAwardCriterionFixNumberUnpublish:
-  name: Not Immediately Published (LotsGroupAwardCriterionFixNumber)
+  name: Fixed value criterion (published later)
   nob: Ikke umiddelbart publisert (LotsGroupAwardCriterionFixNumber)
   history:
   - name: Not Immediately Published (LotsGroupAwardCriterionFixNumber)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish:
-  name: Not Immediately Published (LotsGroupAwardCriterionThresholdNumber)
+  name: Threshold value criterion (published later)
   nob: Ikke umiddelbart publisert (LotsGroupAwardCriterionThresholdNumber)
   history:
   - name: Not Immediately Published (LotsGroupAwardCriterionThresholdNumber)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotsGroupAwardCriterionWeightNumberUnpublish:
-  name: Not Immediately Published (LotsGroupAwardCriterionWeightNumber)
+  name: Weight value criterion (published later)
   nob: Ikke umiddelbart publisert (LotsGroupAwardCriterionWeightNumber)
   history:
   - name: Not Immediately Published (LotsGroupAwardCriterionWeightNumber)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotsGroupAwardFixedCriterionParameter:
-  name: Group of Lots Award Fixed Criterion Parameter (Value and associated Code)
+  name: Fixed value criterion
   nob: Gruppe partier Tildel Fast kriterieparameter (verdi og tilhørende kode)
   history:
   - name: Group of Lots Award Fixed Criterion Parameter (Value and associated Code)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotsGroupAwardThresholdCriterionParameter:
-  name: Group of Lots Award Threshold Criterion Parameter (Value and associated Code)
+  name: Threshold value criterion
   nob: Gruppe partier Tildelingsterskel Kriterieparameter (verdi og tilhørende kode)
   history:
   - name: Group of Lots Award Threshold Criterion Parameter (Value and associated Code)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-LotsGroupAwardWeightCriterionParameter:
-  name: Group of Lots Award Weight Criterion Parameter (Value and associated Code)
+  name: Weight value criterion
   nob: Gruppe partier Tildelingsvekt Kriterieparameter (verdi og tilhørende kode)
   history:
   - name: Group of Lots Award Weight Criterion Parameter (Value and associated Code)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-OrganizationUboReference:
-  name: Organization UBO
+  name: Ultimate beneficial owner
   nob: Organisasjon UBO
   history:
   - name: Organization UBO
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-PartContractAdditionalNature:
-  name: Additional contract nature for the Part
+  name: Additional contract nature
   nob: Ytterligere kontraktskarakter for delen
   history:
   - name: Additional contract nature for the Part
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-PayerParty:
-  name: Payer party
+  name: Paying organisation
   nob: Betalerfest
   history:
   - name: Payer party
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-PreselectedParticipant:
-  name: Preselected party
+  name: Preselected participant
   nob: Forhåndsvalgt parti
   history:
   - name: Preselected party
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-PreviousNoticeReference:
   name: Previous notice reference
   nob: Referanse for forrige melding
@@ -3120,13 +3120,13 @@ group|name|ND-PreviousNoticeReference:
     nob_verify: false
   nob_verify: false
 group|name|ND-ProcedureContractAdditionalNature:
-  name: Additional contract nature for the Procedure
+  name: Additional contract nature
   nob: Ytterligere kontraktskarakter for prosedyren
   history:
   - name: Additional contract nature for the Procedure
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-ProcedureTransportServiceType:
   name: Transport service type
   nob: Type transporttjeneste
@@ -3152,26 +3152,112 @@ group|name|ND-SettledContractTenderReference:
     nob_verify: false
   nob_verify: false
 group|name|ND-SubContractorTakerReference:
-  name: Subcontractor taker
+  name: Main contractor
   nob: Underleverandør taker
   history:
   - name: Subcontractor taker
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-SubcontractingIndication:
-  name: Tender subcontracting indication
+  name: Subcontracting
   nob: Anbud underentreprise indikasjon
   history:
   - name: Tender subcontracting indication
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-UBONationality:
-  name: UBO nationality
+  name: Nationality of the beneficial owner
   nob: UBO nasjonalitet
   history:
   - name: UBO nationality
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
+group|name|GR-EU-Registration:
+  name: Eu Registration Number
+group|name|GR-Lot-EUFunds-Indicator:
+  name: EU Funds Indicator
+group|name|GR-Lot-ExecutionRequirements:
+  name: Requirements for contract execution
+group|name|ND-AcceleratedProcedure:
+  name: Accelerated Procedure (or not) and Justification
+group|name|ND-AllowedSubcontracting:
+  name: Condition on subcontractinng
+group|name|ND-DirectAward:
+  name: Direct Award (or not) and Justification
+group|name|ND-EuEntity:
+  name: Properties of the EU Entity (Registration ID)
+group|name|ND-ExecutionRequirements:
+  name: Terms of performance)
+group|name|ND-Funding:
+  name: EU funds
+group|name|ND-GazetteReference:
+  name: Reference to the Gazette where Publication took place (Date, Name, URL …)
+group|name|ND-LotDPSContractingSystem:
+  name: Dynamic Purchasing System
+group|name|ND-LotDocAllNonOfficialLanguages:
+  name: Procurement documents in unofficial languages
+group|name|ND-LotDocAllOfficialLanguages:
+  name: Procurement documents in official languages
+group|name|ND-LotDocNonOfficialLanguage:
+  name: Procurement documents in unofficial language
+group|name|ND-LotDocOfficialLanguage:
+  name: Procurement documents in official language
+group|name|ND-LotECatalog:
+  name: eCatalogue
+group|name|ND-LotEInvoicing:
+  name: Lot eInvoicing
+group|name|ND-LotESignature:
+  name: eSignature
+group|name|ND-LotFAContractingSystem:
+  name: Framework agreement
+group|name|ND-LotGreenCriteria:
+  name: Details of the Green Procurement Criteria
+group|name|ND-LotReservedExecution:
+  name: Reserved contract execution
+group|name|ND-NoticeApproximateValueUnpublish:
+  name: Not Immediately Published (NoticeApproximateValue)
+group|name|ND-PartDPSContractingSystem:
+  name: Dynamic Purchasing System
+group|name|ND-PartDocAllNonOfficialLanguages:
+  name: Procurement documents in unofficial languages
+group|name|ND-PartDocAllOfficialLanguages:
+  name: Procurement documents in official languages
+group|name|ND-PartDocNonOfficialLanguage:
+  name: Procurement documents in unofficial language
+group|name|ND-PartDocOfficialLanguage:
+  name: Procurement documents in official language
+group|name|ND-PartFAContractingSystem:
+  name: Framework agreement
+group|name|ND-PartProcurementDocument:
+  name: Procurement Document information for a Part, independent from the restricted aspect
+group|name|ND-PartReservedExecution:
+  name: Reserved contract execution
+group|name|ND-ProcurementDetailsLotResult:
+  name: Information about the assets
+group|name|ND-ProcurementStatistics:
+  name: Statistics about vehicles
+group|name|ND-QualityTarget:
+  name: Description of quality targets
+group|name|ND-ReestimatedValueUnpublish:
+  name: Not Immediately Published (ReestimatedValue)
+group|name|ND-RevenueAllocation:
+  name: Revenue allocation in percentage
+group|name|ND-SecondStageThresholdCriterionParameter:
+  name: Second stage threshold parameter
+group|name|ND-SecondStageWeightCriterionParameter:
+  name: Second stage weight parameter
+group|name|ND-StrategicProcurementInformationLot:
+  name: Clean Vehicle Directive contract type
+group|name|ND-StrategicProcurementInformationLotResult:
+  name: Clean Vehicle Directive information
+group|name|ND-StrategicProcurementLot:
+  name: Clean Vehicle Directive information
+group|name|ND-SubcontractingObligation:
+  name: Obligation associated to Subcontracting
+group|name|ND-TenderValueHighestUnpublish:
+  name: Not Immediately Published (TenderValueHighest)
+group|name|ND-TenderValueLowestUnpublish:
+  name: Not Immediately Published (TenderValueLowest)

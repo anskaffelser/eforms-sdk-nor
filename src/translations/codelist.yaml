@@ -1316,3 +1316,12 @@ codelist|name|corporate-body:
   nob: Tabellen over foretaksorganer er et kontrollert vokabular som gir de forskjellige navnene på EU-selskapsorganer for et gitt tidsrom.
   history: []
   nob_verify: false
+codelist|name|notice-reference:
+  name: Notice reference type
+  nob_verify: true
+codelist|name|player-type:
+  name: Type of role/subrole player
+  nob_verify: true
+codelist|name|tendered-object:
+  name: Object type covered by the tender (lot, group of lots)
+  nob_verify: true

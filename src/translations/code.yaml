@@ -52341,13 +52341,13 @@ code|name|dps-usage.dps-nlist:
     nob_verify: false
   nob_verify: false
 code|name|dps-usage.none:
-  name: None
+  name: No dynamic purchase system
   nob: Ingen
   history:
   - name: None
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|economic-operator-size.large:
   name: Large
   nob: Stor
@@ -53733,13 +53733,13 @@ code|name|framework-agreement.fa-wo-rc:
     nob_verify: false
   nob_verify: false
 code|name|framework-agreement.none:
-  name: None
+  name: No framework agreement
   nob: Ingen/nei
   history:
   - name: None
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|indicator.false:
   name: 'no'
   nob: Usann
@@ -68441,13 +68441,13 @@ code|name|requirement-stage.t-requ:
     nob_verify: false
   nob_verify: false
 code|name|reserved-procurement.none:
-  name: None
+  name: Participation is not reserved.
   nob: Ingen
   history:
   - name: None
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|reserved-procurement.res-pub-ser:
   name: Participation is reserved to organisations pursuing a public service mission and fulfilling other relevant conditions in the legislation.
   nob: Deltakelse er reservert for/forbeholdt virksomheter/virksomheter med offentlig tjenesteoppdrag eller andre relevante vilkår i lovverk.
@@ -68727,13 +68727,13 @@ code|name|strategic-procurement.inn-pur:
     nob_verify: false
   nob_verify: false
 code|name|strategic-procurement.none:
-  name: None
+  name: No strategic procurement
   nob: Ingen
   history:
   - name: None
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|strategic-procurement.soc-obj:
   name: Fulfilment of social objectives
   nob: Oppfyllelse av sosiale formål/mål
@@ -68743,13 +68743,13 @@ code|name|strategic-procurement.soc-obj:
     nob_verify: false
   nob_verify: false
 code|name|subcontracting-indication.none:
-  name: None
+  name: No subcontracting indication
   nob: Ingen
   history:
   - name: None
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|subcontracting-indication.shar-subc:
   name: The share of the contract that the tenderer intends to subcontract
   nob: Andelen av kontrakten som tilbyder har til hensikt å gi til underleverandør/ Andelen av kontrakten som skal utføres av underleverandør
@@ -68791,13 +68791,13 @@ code|name|subcontracting-indication.subj-oblig:
     nob_verify: false
   nob_verify: false
 code|name|subcontracting-obligation.none:
-  name: None
+  name: No subcontracting obligation applies.
   nob: Ingen
   history:
   - name: None
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|subcontracting-obligation.subc-chng:
   name: The contractor must indicate any change of subcontractors during the execution of the contract.
   nob: Leverandøren må angi endringer i underleverandører underveis i kontraktsgjennomføringen
@@ -93282,3 +93282,25 @@ code|name|organisation-subrole.signatory:
     history: []
     nob_verify: false
   nob_verify: false
+code|name|eforms-country.GUY:
+  name: Guyana
+code|name|eforms-language.AKA:
+  name: Akan
+code|name|eforms-language.FUL:
+  name: Fula
+code|name|eforms-language.HAU:
+  name: Hausa
+code|name|eforms-language.YOR:
+  name: Yoruba
+code|name|notice-reference.notice-id-ref:
+  name: The reference to the notice is in the format "UUID-XX".
+code|name|notice-reference.ojs-notice-id:
+  name: The reference to the notice is in the format "XXXXXXXXXX-YYYY".
+code|name|player-type.organization:
+  name: The player for the role/subrole is of type "Organisation".
+code|name|player-type.touchpoint:
+  name: The player for the role/subrole is of type "Touchpoint".
+code|name|tendered-object.Lot:
+  name: The Object Technical ID or its reference is of type "Lot".
+code|name|tendered-object.LotsGroup:
+  name: The Object Technical ID or its reference is of type "Group of lots".

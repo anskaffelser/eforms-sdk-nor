@@ -4339,7 +4339,7 @@ field|name|BT-25-Lot:
     nob_verify: false
   nob_verify: false
 field|name|BT-26(a)-Lot:
-  name: Classificator type
+  name: Classification type
   nob: Type klassifisering
   history:
   - name: Classificator type
@@ -4351,9 +4351,9 @@ field|name|BT-26(a)-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-26(a)-Part:
-  name: Classificator type
+  name: Classification type
   nob: Type klassifisering
   history:
   - name: Classificator type
@@ -4365,9 +4365,9 @@ field|name|BT-26(a)-Part:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-26(a)-Procedure:
-  name: Classificator type
+  name: Classification type
   nob: Type klassifisering
   history:
   - name: Classificator type
@@ -4379,9 +4379,9 @@ field|name|BT-26(a)-Procedure:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-26(m)-Lot:
-  name: Classificator type
+  name: Classification type
   nob: Type klassifisering
   history:
   - name: Classificator type
@@ -4393,9 +4393,9 @@ field|name|BT-26(m)-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-26(m)-Part:
-  name: Classificator type
+  name: Classification type
   nob: Type klassifisering
   history:
   - name: Classificator type
@@ -4407,9 +4407,9 @@ field|name|BT-26(m)-Part:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-26(m)-Procedure:
-  name: Classificator type
+  name: Classification type
   nob: Type klassifisering
   history:
   - name: Classificator type
@@ -4421,7 +4421,7 @@ field|name|BT-26(m)-Procedure:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-262-Lot:
   name: Main classification
   nob: Hoved klassifisering
@@ -5137,7 +5137,7 @@ field|name|BT-506-UBO:
     nob_verify: false
   nob_verify: false
 field|name|BT-507-Business:
-  name: Country subentity
+  name: Country subdivision (NUTS)
   nob: Underenhet i land
   history:
   - name: Country subentity
@@ -5149,9 +5149,9 @@ field|name|BT-507-Business:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-507-Organization-Company:
-  name: Country subentity
+  name: Country subdivision (NUTS)
   nob: Underenhet i land
   history:
   - name: Country subentity
@@ -5163,9 +5163,9 @@ field|name|BT-507-Organization-Company:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-507-Organization-TouchPoint:
-  name: Country subentity
+  name: Country subdivision (NUTS)
   nob: Underenhet i land
   history:
   - name: Country subentity
@@ -5177,9 +5177,9 @@ field|name|BT-507-Organization-TouchPoint:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-507-UBO:
-  name: Country subentity
+  name: Country subdivision (NUTS)
   nob: Underenhet i land
   history:
   - name: Country subentity
@@ -5191,9 +5191,9 @@ field|name|BT-507-UBO:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-5071-Lot:
-  name: Country subentity
+  name: Country subdivision (NUTS)
   nob: Underenhet i land
   history:
   - name: Country subentity
@@ -5205,9 +5205,9 @@ field|name|BT-5071-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-5071-Part:
-  name: Country subentity
+  name: Country subdivision (NUTS)
   nob: Underenhet i land
   history:
   - name: Country subentity
@@ -5219,9 +5219,9 @@ field|name|BT-5071-Part:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-5071-Procedure:
-  name: Country subentity
+  name: Country subdivision (NUTS)
   nob: Underenhet i land
   history:
   - name: Country subentity
@@ -5233,7 +5233,7 @@ field|name|BT-5071-Procedure:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-508-Procedure-Buyer:
   name: Buyer profile
   nob: Kjøper profil
@@ -6047,7 +6047,7 @@ field|name|BT-539-LotsGroup:
     nob_verify: false
   nob_verify: false
 field|name|BT-54-Lot:
-  name: The buyer reserves the right for additional purchases from the contractor, as described here
+  name: Description of the options
   nob: Kjøper forbeholder seg retten til tilleggskjøp fra entreprenøren, som beskrevet her
   history:
   - name: The buyer reserves the right for additional purchases from the contractor, as described here
@@ -6059,7 +6059,7 @@ field|name|BT-54-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-540-Lot:
   name: Description
   nob: 'Beskrivelse: __________'
@@ -6285,7 +6285,7 @@ field|name|BT-556-NoticeResult:
     nob_verify: false
   nob_verify: false
 field|name|BT-57-Lot:
-  name: Description
+  name: The buyer reserves the right for additional purchases from the contractor, as described here
   nob: 'Beskrivelse: __________'
   history:
   - name: Description
@@ -6297,7 +6297,7 @@ field|name|BT-57-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-578-Lot:
   name: Security clearance is required
   nob: Sikkerhetsklarering kreves
@@ -6649,7 +6649,7 @@ field|name|BT-67(a)-Procedure:
     nob_verify: false
   nob_verify: false
 field|name|BT-67(b)-Procedure:
-  name: Description
+  name: Code
   nob: 'Beskrivelse: __________'
   history:
   - name: Description
@@ -6661,7 +6661,7 @@ field|name|BT-67(b)-Procedure:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-70-Lot:
   name: Conditions relating to the performance of the contract
   nob: Betingelser knyttet til utførelsen av kontrakten
@@ -7923,7 +7923,7 @@ field|name|BT-79-Lot:
     nob_verify: false
   nob_verify: false
 field|name|BT-796-Review:
-  name: Review Request Withdrawn
+  name: Review request withdrawn
   nob: Anmodning om gjennomgang trukket tilbake
   history:
   - name: Review Request Withdrawn
@@ -7935,7 +7935,7 @@ field|name|BT-796-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-88-Procedure:
   name: Main features of the procedure
   nob: Hovedtrekkene i prosedyren
@@ -8385,7 +8385,7 @@ field|name|OPP-110-Business:
     nob_verify: false
   nob_verify: false
 field|name|OPP-111-Business:
-  name: Postal code
+  name: Postcode
   nob: Postnummer
   history:
   - name: Postal code
@@ -8397,7 +8397,7 @@ field|name|OPP-111-Business:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPP-112-Business:
   name: Country
   nob: Land
@@ -9379,7 +9379,7 @@ field|name|OPT-301-Tenderer-SubCont:
     nob_verify: false
   nob_verify: false
 field|name|OPT-302-Organization:
-  name: Beneficial owner reference
+  name: ID – Beneficial owner
   nob: Reell rettighetshaver-referanse
   history:
   - name: Beneficial owner reference
@@ -9391,7 +9391,7 @@ field|name|OPT-302-Organization:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-310-Tender:
   name: ID – Tendering party
   nob: ID – Anbudspart
@@ -9953,7 +9953,7 @@ field|name|BT-735-LotResult:
     nob_verify: false
   nob_verify: false
 field|name|BT-779-Tender:
-  name: Tender Payment Value
+  name: Tender payment value
   nob: Betalingsverdi for anbud
   history:
   - name: Tender Payment Value
@@ -9965,9 +9965,9 @@ field|name|BT-779-Tender:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-780-Tender:
-  name: Tender Payment Value Additional Information
+  name: Tender payment value additional information
   nob: Tilleggsinformasjon om betalingsverdi for betalingsmiddel
   history:
   - name: Tender Payment Value Additional Information
@@ -9979,9 +9979,9 @@ field|name|BT-780-Tender:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-781-Lot:
-  name: Duration Additional Information
+  name: Duration additional information
   nob: Varighet Tilleggsinformasjon
   history:
   - name: Duration Additional Information
@@ -9993,9 +9993,9 @@ field|name|BT-781-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-782-Tender:
-  name: Tender Penalties
+  name: Tender penalties
   nob: Anbudsstraff
   history:
   - name: Tender Penalties
@@ -10007,9 +10007,9 @@ field|name|BT-782-Tender:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-783-Review:
-  name: Review Request or Decision
+  name: Review request or decision
   nob: Anmodning om gjennomgang eller avgjørelse
   history:
   - name: Review Request or Decision
@@ -10021,9 +10021,9 @@ field|name|BT-783-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-784-Review:
-  name: Review Identifier
+  name: Review identifier
   nob: Identifikator for gjennomgang
   history:
   - name: Review Identifier
@@ -10035,9 +10035,9 @@ field|name|BT-784-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-785-Review:
-  name: Review Previous Identifier
+  name: Review previous identifier
   nob: Se gjennom forrige identifikator
   history:
   - name: Review Previous Identifier
@@ -10049,9 +10049,9 @@ field|name|BT-785-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-786-Review:
-  name: Review Notice Section Identifier
+  name: Review notice section identifier
   nob: Identifikator for gjennomgang av varselseksjon
   history:
   - name: Review Notice Section Identifier
@@ -10063,9 +10063,9 @@ field|name|BT-786-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-787-Review:
-  name: Review Date
+  name: Review date
   nob: Dato for gjennomgang
   history:
   - name: Review Date
@@ -10077,9 +10077,9 @@ field|name|BT-787-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-788-Review:
-  name: Review Title
+  name: Review title
   nob: Tittel på anmeldelse
   history:
   - name: Review Title
@@ -10091,9 +10091,9 @@ field|name|BT-788-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-789-Review:
-  name: Review Description
+  name: Review description
   nob: Beskrivelse av anmeldelsen
   history:
   - name: Review Description
@@ -10105,9 +10105,9 @@ field|name|BT-789-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-790-Review:
-  name: Review Decision Type
+  name: Review decision type
   nob: Se gjennom beslutningstype
   history:
   - name: Review Decision Type
@@ -10119,9 +10119,9 @@ field|name|BT-790-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-791-Review:
-  name: Review Irregularity Type
+  name: Review irregularity type
   nob: Gjennomgå uregelmessighetstype
   history:
   - name: Review Irregularity Type
@@ -10133,9 +10133,9 @@ field|name|BT-791-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-792-Review:
-  name: Review Remedy Type
+  name: Review remedy type
   nob: Gjennomgå utbedringstype
   history:
   - name: Review Remedy Type
@@ -10147,9 +10147,9 @@ field|name|BT-792-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-793-Review:
-  name: Review Remedy Value
+  name: Review remedy value
   nob: Gjennomgå Utbedring Verdi
   history:
   - name: Review Remedy Value
@@ -10161,7 +10161,7 @@ field|name|BT-793-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-794-Review:
   name: Review URL
   nob: URL-adresse for gjennomgang
@@ -10177,7 +10177,7 @@ field|name|BT-794-Review:
     nob_verify: false
   nob_verify: false
 field|name|BT-795-Review:
-  name: Review Request Fee
+  name: Review request fee
   nob: Gebyr for gjennomgang av forespørsel
   history:
   - name: Review Request Fee
@@ -10189,9 +10189,9 @@ field|name|BT-795-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-797-Review:
-  name: Review Request Withdrawn Date
+  name: Date of review request withdrawal
   nob: Forespørsel om gjennomgang Trukket tilbake dato
   history:
   - name: Review Request Withdrawn Date
@@ -10203,9 +10203,9 @@ field|name|BT-797-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-798-Review:
-  name: Review Request Withdrawn Reasons
+  name: Reasons for review request withdrawal
   nob: Forespørsel om gjennomgang trukket tilbake
   history:
   - name: Review Request Withdrawn Reasons
@@ -10217,9 +10217,9 @@ field|name|BT-798-Review:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-799-ReviewBody:
-  name: Review Body Type
+  name: Review body type
   nob: Se gjennom kroppstypen
   history:
   - name: Review Body Type
@@ -10231,9 +10231,9 @@ field|name|BT-799-ReviewBody:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-800(d)-Lot:
-  name: Deadline Receipt Answers
+  name: Deadline for receipt of answers
   nob: Svar på fristmottak
   history:
   - name: Deadline Receipt Answers
@@ -10245,9 +10245,9 @@ field|name|BT-800(d)-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-800(t)-Lot:
-  name: Deadline Receipt Answers
+  name: Deadline for receipt of answers
   nob: Svar på fristmottak
   history:
   - name: Deadline Receipt Answers
@@ -10259,7 +10259,7 @@ field|name|BT-800(t)-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-801-Lot:
   name: A non-disclosure agreement is required
   nob: En taushetserklæring er nødvendig
@@ -20312,3 +20312,1705 @@ field|name|OPA-98-Lot-Unit:
     history: []
     nob_verify: false
   nob_verify: false
+field|description|BT-01(c)-Procedure-Scheme:
+  name: The legal basis (e.g. a Union or national legal act) under which the procurement procedure takes place or, in case of prior information notices, under which the procurement procedure(s) will take place.
+field|description|BT-01(d)-Procedure-Language:
+  name: The legal basis (e.g. a Union or national legal act) under which the procurement procedure takes place or, in case of prior information notices, under which the procurement procedure(s) will take place.
+field|description|BT-01(f)-Procedure-Language:
+  name: The legal basis (e.g. a Union or national legal act) under which the procurement procedure takes place or, in case of prior information notices, under which the procurement procedure(s) will take place.
+field|description|BT-06-Lot-List:
+  name: The procurement procedure aims at reducing the environmental impacts of the procurement, fulfilling social objectives and/or buying an innovative work, supply or service.
+field|description|BT-09(b)-Procedure-Language:
+  name: The applicable law when buyers from different countries procure together within one procurement procedure.
+field|description|BT-10-Procedure-Buyer-List:
+  name: The main activity of the contracting authority.
+field|description|BT-105-Procedure-List:
+  name: The type of procurement procedure (e.g. according to the types given in the Public Procurement Directives mentioned in the recitals of this Act).
+field|description|BT-106-Procedure-List:
+  name: The time limit for receipt of requests to participate or of tenders in this procedure can be reduced due to a state of urgency.
+field|description|BT-109-Lot-Language:
+  name: The justification for exceptional cases when the duration of framework agreements exceeds the legal limits.
+field|description|BT-11-Procedure-Buyer-List:
+  name: The type of buyer according to procurement legislation (e.g. central government authority, body governed by public law, public undertaking).
+field|description|BT-111-Lot-Language:
+  name: Any additional categories of buyers participating in the framework agreement and not mentioned by name (e.g. "all hospitals in the Tuscany region").
+field|description|BT-1118-NoticeResult-Currency:
+  name: The approximate value to be spent within the framework agreement(s) announced in this notice over its/their whole duration, in all lots, including options and renewals, as calculated on the basis of the winner’s tender or winners’ tenders.
+field|description|BT-118-NoticeResult-Currency:
+  name: The maximum value which can be spent within the framework agreement(s) announced in this notice over its/their whole duration, in all lots, including options and renewals, as calculated on the basis of the winner’s tender or winners’ tenders.
+field|description|BT-122-Lot-Language:
+  name: Any additional information about the electronic auction.
+field|description|BT-125(i)-Lot-Scheme:
+  name: The identifier of a prior information notice or another similar notice related to this notice.
+field|description|BT-125(i)-Part-Scheme:
+  name: The identifier of a prior information notice or another similar notice related to this notice.
+field|description|BT-133-Lot-Language:
+  name: The place (e.g. physical address, URL) where the tenders will be publicly opened.
+field|description|BT-134-Lot-Language:
+  name: Further information about the public opening of tenders. (For example, who may participate in the opening and whether any authorisation is needed.)
+field|description|BT-135-Procedure-Language:
+  name: The justification for using a procedure which allows directly awarding contracts, i.e. a procedure that does not require publishing a call for competition in the Official Journal of the European Union.
+field|description|BT-1351-Procedure-Language:
+  name: The justification for using an accelerated procedure.
+field|description|BT-136-Procedure-List:
+  name: A justification for using a procedure which allows directly awarding contracts, i.e. a procedure that does not require publishing a call for competition in the Official Journal of the European Union.
+field|description|BT-1375-Procedure-Scheme:
+  name: An identifier of a lot within the procedure that is part of a group of lots for which one tender can be submitted and evaluated.
+field|description|BT-140-notice-List:
+  name: The main reason for the change in the notice compared to the original notice.
+field|description|BT-141(a)-notice-Language:
+  name: The description of changes in the notice compared to the original notice.
+field|description|BT-142-LotResult-List:
+  name: Whether a winner was chosen.
+field|description|BT-144-LotResult-List:
+  name: The reason for not choosing a winner.
+field|description|BT-150-Contract-Scheme:
+  name: An identifier of the contract or, in case of voluntary-ex ante transparency notices and design contest result notices, of the decision. The information in the contract section refers to this contract or decision.
+field|description|BT-1501(n)-Contract-Scheme:
+  name: An identifier of one or more sections within a previous notice within the procedure. The information in the modification section refers to this section or these sections.
+field|description|BT-156-NoticeResult-Currency:
+  name: It is the re-calculated maximum value likely to be spent for a group of lots within the procedure. This information can be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The value is re-calculated on the basis of the winner’s tender or winners’ tenders.
+field|description|BT-1561-NoticeResult-Currency:
+  name: The value likely to be spent, within a framework agreement, for a group of lots. This information can be provided when the value likely to be spent for a group of lots is lower than the sum of values likely to be spent for individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The re-estimated value is the value likely to be spent, as re-estimated on the basis of the winner’s tender or winners’ tenders.
+field|description|BT-157-LotsGroup-Currency:
+  name: The maximum value which may be spent in a framework agreement within a group of lots. This information can be provided when the maximum value of a group of lots is lower than the sum of maximum values of individual lots in this group (e.g. when the same budget is shared for several lots). Maximum value means a value covering all contracts to be awarded within a framework agreement over its whole duration, including options and renewals.
+field|description|BT-160-Tender-Currency:
+  name: The estimated revenue coming from the buyer who granted the concession (e.g. prizes and payments).
+field|description|BT-161-NoticeResult-Currency:
+  name: The value of all contracts awarded in this notice, including options and renewals.
+field|description|BT-162-Tender-Currency:
+  name: The estimated revenue coming from the users of the concession (e.g. fees and fines).
+field|description|BT-163-Tender-Language:
+  name: The description of the method used for calculating the estimated value of the concession and any other relevant information concerning the value of the concession.
+field|description|BT-165-Organization-Company-List:
+  name: The size of the winner, tenderer or subcontractor (e.g. micro enterprise, small enterprise, medium enterprise).
+field|description|BT-17-Lot-List:
+  name: Whether economic operators are required, allowed, or not allowed to submit tenders, requests to participate, or expressions of interest electronically.
+field|description|BT-19-Lot-List:
+  name: The justification for electronic submission of tenders, requests to participate, or expressions of interest not being possible.
+field|description|BT-191-Tender-List:
+  name: A country of origin of the product or the service.
+field|description|BT-195(BT-09)-Procedure-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-105)-Procedure-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-106)-Procedure-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-1118)-NoticeResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-118)-NoticeResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-1252)-Procedure-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-135)-Procedure-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-1351)-Procedure-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-136)-Procedure-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-142)-LotResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-144)-LotResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-156)-NoticeResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-1561)-NoticeResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-160)-Tender-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-161)-NoticeResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-162)-Tender-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-163)-Tender-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-171)-Tender-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-191)-Tender-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-193)-Tender-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-539)-Lot-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-539)-LotsGroup-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-540)-Lot-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-540)-LotsGroup-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-541)-Lot-Fixed-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-541)-Lot-Threshold-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-541)-Lot-Weight-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-541)-LotsGroup-Fixed-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-541)-LotsGroup-Threshold-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-541)-LotsGroup-Weight-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-5421)-Lot-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-5421)-LotsGroup-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-5422)-Lot-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-5422)-LotsGroup-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-5423)-Lot-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-5423)-LotsGroup-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-543)-Lot-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-543)-LotsGroup-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-553)-Tender-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-554)-Tender-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-555)-Tender-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-556)-NoticeResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-635)-LotResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-636)-LotResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-660)-LotResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-709)-LotResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-710)-LotResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-711)-LotResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-712)-LotResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-720)-Tender-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-730)-Tender-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-731)-Tender-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-733)-Lot-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-733)-LotsGroup-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-734)-Lot-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-734)-LotsGroup-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-759)-LotResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-760)-LotResult-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-773)-Tender-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-195(BT-88)-Procedure-List:
+  name: Identifier of the field that shall not be immediately published. Only fields concerning the Result value and groups of fields concerning the Tender and Procedure Lot Result can be unpublished. In the case of the European Parliament and Council Directive 2014/25/EU, the award criteria, the procurement procedure, certain dates and in certain cases information about the nature and quantity of a service can be unpublished as well.
+field|description|BT-196(BT-09)-Procedure-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-105)-Procedure-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-106)-Procedure-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-1118)-NoticeResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-118)-NoticeResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-1252)-Procedure-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-135)-Procedure-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-1351)-Procedure-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-136)-Procedure-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-142)-LotResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-144)-LotResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-156)-NoticeResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-1561)-NoticeResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-160)-Tender-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-161)-NoticeResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-162)-Tender-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-163)-Tender-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-171)-Tender-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-191)-Tender-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-193)-Tender-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-539)-Lot-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-539)-LotsGroup-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-540)-Lot-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-540)-LotsGroup-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-541)-Lot-Fixed-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-541)-Lot-Threshold-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-541)-Lot-Weight-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-541)-LotsGroup-Fixed-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-541)-LotsGroup-Threshold-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-541)-LotsGroup-Weight-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-5421)-Lot-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-5421)-LotsGroup-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-5422)-Lot-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-5422)-LotsGroup-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-5423)-Lot-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-5423)-LotsGroup-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-543)-Lot-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-543)-LotsGroup-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-553)-Tender-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-554)-Tender-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-555)-Tender-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-556)-NoticeResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-635)-LotResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-636)-LotResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-660)-LotResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-709)-LotResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-710)-LotResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-711)-LotResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-712)-LotResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-720)-Tender-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-730)-Tender-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-731)-Tender-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-733)-Lot-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-733)-LotsGroup-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-734)-Lot-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-734)-LotsGroup-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-759)-LotResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-760)-LotResult-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-773)-Tender-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-196(BT-88)-Procedure-Language:
+  name: The justification for not immediately publishing a field and for the choice of a later date at which it can be published.
+field|description|BT-197(BT-09)-Procedure-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-105)-Procedure-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-106)-Procedure-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-1118)-NoticeResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-118)-NoticeResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-1252)-Procedure-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-135)-Procedure-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-1351)-Procedure-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-136)-Procedure-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-142)-LotResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-144)-LotResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-156)-NoticeResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-1561)-NoticeResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-160)-Tender-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-161)-NoticeResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-162)-Tender-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-163)-Tender-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-171)-Tender-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-191)-Tender-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-193)-Tender-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-539)-Lot-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-539)-LotsGroup-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-540)-Lot-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-540)-LotsGroup-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-541)-Lot-Fixed-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-541)-Lot-Threshold-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-541)-Lot-Weight-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-541)-LotsGroup-Fixed-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-541)-LotsGroup-Threshold-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-541)-LotsGroup-Weight-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-5421)-Lot-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-5421)-LotsGroup-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-5422)-Lot-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-5422)-LotsGroup-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-5423)-Lot-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-5423)-LotsGroup-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-543)-Lot-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-543)-LotsGroup-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-553)-Tender-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-554)-Tender-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-555)-Tender-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-556)-NoticeResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-635)-LotResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-636)-LotResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-660)-LotResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-709)-LotResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-710)-LotResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-711)-LotResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-712)-LotResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-720)-Tender-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-730)-Tender-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-731)-Tender-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-733)-Lot-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-733)-LotsGroup-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-734)-Lot-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-734)-LotsGroup-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-759)-LotResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-760)-LotResult-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-773)-Tender-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-197(BT-88)-Procedure-List:
+  name: The justification for not immediately publishing a field.
+field|description|BT-200-Contract-List:
+  name: The main reason for modifying the contract.
+field|description|BT-201-Contract-Language:
+  name: The description of the main reason for modifying the contract.
+field|description|BT-202-Contract-Language:
+  name: The summary of the contract modification(s).
+field|description|BT-21-Lot-Language:
+  name: The name of the procurement procedure or lot.
+field|description|BT-21-LotsGroup-Language:
+  name: The name of the procurement procedure or lot.
+field|description|BT-21-Part-Language:
+  name: The name of the procurement procedure or lot.
+field|description|BT-21-Procedure-Language:
+  name: The name of the procurement procedure or lot.
+field|description|BT-22-Lot-Scheme:
+  name: The internal identifier used for files regarding the procurement procedure or lot before a procedure identifier is given (e.g. coming from the buyer's document management system or procurement planning system).
+field|description|BT-22-LotsGroup-Scheme:
+  name: The internal identifier used for files regarding the procurement procedure or lot before a procedure identifier is given (e.g. coming from the buyer's document management system or procurement planning system).
+field|description|BT-22-Part-Scheme:
+  name: The internal identifier used for files regarding the procurement procedure or lot before a procedure identifier is given (e.g. coming from the buyer's document management system or procurement planning system).
+field|description|BT-22-Procedure-Scheme:
+  name: The internal identifier used for files regarding the procurement procedure or lot before a procedure identifier is given (e.g. coming from the buyer's document management system or procurement planning system).
+field|description|BT-23-Part-List:
+  name: The main nature (e.g. works) of what is being bought. In case of mixed procurement (e.g. a procedure for both works and services), the main nature may be, for example, the one with the highest estimated value. This information shall be given for the whole procedure.
+field|description|BT-23-Procedure-List:
+  name: The main nature (e.g. works) of what is being bought. In case of mixed procurement (e.g. a procedure for both works and services), the main nature may be, for example, the one with the highest estimated value. This information shall be given for the whole procedure.
+field|description|BT-24-Lot-Language:
+  name: The description of the nature and quantity of what is being bought or of the needs and requirements that shall be met in this procedure or lot. In case of a modification notice, the description of the procurement before and after the modification.
+field|description|BT-24-LotsGroup-Language:
+  name: The description of the nature and quantity of what is being bought or of the needs and requirements that shall be met in this procedure or lot. In case of a modification notice, the description of the procurement before and after the modification.
+field|description|BT-24-Part-Language:
+  name: The description of the nature and quantity of what is being bought or of the needs and requirements that shall be met in this procedure or lot. In case of a modification notice, the description of the procurement before and after the modification.
+field|description|BT-24-Procedure-Language:
+  name: The description of the nature and quantity of what is being bought or of the needs and requirements that shall be met in this procedure or lot. In case of a modification notice, the description of the procurement before and after the modification.
+field|description|BT-27-Lot-Currency:
+  name: The estimated value of the procurement procedure or lot, over its whole duration, including options and renewals.
+field|description|BT-27-LotsGroup-Currency:
+  name: The estimated value of the procurement procedure or lot, over its whole duration, including options and renewals.
+field|description|BT-27-Part-Currency:
+  name: The estimated value of the procurement procedure or lot, over its whole duration, including options and renewals.
+field|description|BT-27-Procedure-Currency:
+  name: The estimated value of the procurement procedure or lot, over its whole duration, including options and renewals.
+field|description|BT-271-Lot-Currency:
+  name: The maximum value of the framework agreement for the procurement procedure or lot, over its whole duration, including options and renewals. This value covers all contracts to be awarded within the framework agreement.
+field|description|BT-271-LotsGroup-Currency:
+  name: The maximum value of the framework agreement for the procurement procedure or lot, over its whole duration, including options and renewals. This value covers all contracts to be awarded within the framework agreement.
+field|description|BT-271-Procedure-Currency:
+  name: The maximum value of the framework agreement for the procurement procedure or lot, over its whole duration, including options and renewals. This value covers all contracts to be awarded within the framework agreement.
+field|description|BT-300-Lot-Language:
+  name: Any further information not mentioned in other sections of the notice.
+field|description|BT-300-LotsGroup-Language:
+  name: Any further information not mentioned in other sections of the notice.
+field|description|BT-300-Part-Language:
+  name: Any further information not mentioned in other sections of the notice.
+field|description|BT-300-Procedure-Language:
+  name: Any further information not mentioned in other sections of the notice.
+field|description|BT-3202-Contract-Scheme:
+  name: An identifier of the tender or another result that led to this contract.
+field|description|BT-330-Procedure-Scheme:
+  name: The identifier of a group of lots in the procedure.
+field|description|BT-36-Lot-Unit:
+  name: The (estimated) period from the start to the end of the contract, framework agreement, dynamic purchasing system or qualification system. This shall include any options and renewals.
+field|description|BT-36-Part-Unit:
+  name: The (estimated) period from the start to the end of the contract, framework agreement, dynamic purchasing system or qualification system. This shall include any options and renewals.
+field|description|BT-45-Lot-Language:
+  name: Further information about follow-up contracts, prizes and payments (for example non-monetary prizes, payments given for participation).
+field|description|BT-500-Business-European:
+  name: The official name of the organisation.
+field|description|BT-500-Organization-Company-Language:
+  name: The official name of the organisation.
+field|description|BT-500-Organization-TouchPoint-Language:
+  name: The official name of the organisation.
+field|description|BT-501-Business-European-Scheme:
+  name: An identifier of the organisation. All of the organisation's identifiers shall be given.
+field|description|BT-501-Business-National-Scheme:
+  name: An identifier of the organisation. All of the organisation's identifiers shall be given.
+field|description|BT-507-Business-List:
+  name: The location according to the common classification of territorial units for statistics (NUTS) of the organisation's physical address. The NUTS3 classification code shall be used.
+field|description|BT-507-Organization-Company-List:
+  name: The location according to the common classification of territorial units for statistics (NUTS) of the organisation's physical address. The NUTS3 classification code shall be used.
+field|description|BT-507-Organization-TouchPoint-List:
+  name: The location according to the common classification of territorial units for statistics (NUTS) of the organisation's physical address. The NUTS3 classification code shall be used.
+field|description|BT-507-UBO-List:
+  name: The location according to the common classification of territorial units for statistics (NUTS) of the organisation's physical address. The NUTS3 classification code shall be used.
+field|description|BT-5071-Lot-List:
+  name: The location according to the common classification of territorial units for statistics (NUTS). The NUTS3 classification code shall be used.
+field|description|BT-5071-Part-List:
+  name: The location according to the common classification of territorial units for statistics (NUTS). The NUTS3 classification code shall be used.
+field|description|BT-5071-Procedure-List:
+  name: The location according to the common classification of territorial units for statistics (NUTS). The NUTS3 classification code shall be used.
+field|description|BT-514-Business-List:
+  name: The country of the organisation's physical address.
+field|description|BT-514-Organization-Company-List:
+  name: The country of the organisation's physical address.
+field|description|BT-514-Organization-TouchPoint-List:
+  name: The country of the organisation's physical address.
+field|description|BT-514-UBO-List:
+  name: The country of the organisation's physical address.
+field|description|BT-531-Lot-List:
+  name: The nature (e.g. services) of what is being bought, additional to Main Nature.
+field|description|BT-531-Part-List:
+  name: The nature (e.g. services) of what is being bought, additional to Main Nature.
+field|description|BT-531-Procedure-List:
+  name: The nature (e.g. services) of what is being bought, additional to Main Nature.
+field|description|BT-538-Lot-List:
+  name: The duration is unknown, unlimited, etc.
+field|description|BT-538-Part-List:
+  name: The duration is unknown, unlimited, etc.
+field|description|BT-539-Lot-List:
+  name: Whether the criterion concerns the price, the cost, or a non-price non-cost attribute of the tender. (Price is the acquisition price; cost is any other non-price monetary criterion.)
+field|description|BT-539-LotsGroup-List:
+  name: Whether the criterion concerns the price, the cost, or a non-price non-cost attribute of the tender. (Price is the acquisition price; cost is any other non-price monetary criterion.)
+field|description|BT-54-Lot-Language:
+  name: The description of the options.
+field|description|BT-540-Lot-Language:
+  name: The description of the award criterion.
+field|description|BT-540-LotsGroup-Language:
+  name: The description of the award criterion.
+field|description|BT-5421-Lot-List:
+  name: Whether the number linked to an award criterion is a type of weight (e.g. a percentage).
+field|description|BT-5421-LotsGroup-List:
+  name: Whether the number linked to an award criterion is a type of weight (e.g. a percentage).
+field|description|BT-5422-Lot-List:
+  name: Whether the number linked to an award criterion is a fixed value (e.g. a fixed price, a fixed cost).
+field|description|BT-5422-LotsGroup-List:
+  name: Whether the number linked to an award criterion is a fixed value (e.g. a fixed price, a fixed cost).
+field|description|BT-5423-Lot-List:
+  name: Whether the number linked to an award criterion is a type of threshold (e.g. a minimum score, a maximum number of tenders with the highest score passing).
+field|description|BT-5423-LotsGroup-List:
+  name: Whether the number linked to an award criterion is a type of threshold (e.g. a minimum score, a maximum number of tenders with the highest score passing).
+field|description|BT-543-Lot-Language:
+  name: The mathematical equation or any other description used for complicated weighing of criteria (e.g. non-linear weighing, the analytic hierarchy process) when a weighing cannot be expressed per criterion.
+field|description|BT-543-LotsGroup-Language:
+  name: The mathematical equation or any other description used for complicated weighing of criteria (e.g. non-linear weighing, the analytic hierarchy process) when a weighing cannot be expressed per criterion.
+field|description|BT-553-Tender-Currency:
+  name: The estimated value of the part of the contract that the contractor will subcontract to third parties.
+field|description|BT-554-Tender-Language:
+  name: The description of the part of the contract that the contractor will subcontract to third parties.
+field|description|BT-556-NoticeResult-Scheme:
+  name: An identifier of a lot within the procedure that is part of a group of lots whose maximum value is lower than the sum of maximum values of individual lots (e.g. when the same budget is shared for several lots). These are maximum values as calculated on the basis of the winner’s tender or winners’ tenders.
+field|description|BT-57-Lot-Language:
+  name: Any other information about the renewal(s).
+field|description|BT-578-Lot-List:
+  name: A security clearance is required.
+field|description|BT-60-Lot-List:
+  name: The procurement is at least partially financed by Union funds such as the European Structural and Investment Funds or grants awarded by the Union.
+field|description|BT-610-Procedure-Buyer-List:
+  name: The main activity of the contracting entity.
+field|description|BT-6110-Contract-Language:
+  name: Further information about the Union programme or project used at least partially finance the procurement.
+field|description|BT-6140-Lot-Language:
+  name: Further information about the Union programme or project used at least partially finance the procurement.
+field|description|BT-63-Lot-List:
+  name: Whether tenderers are required, allowed, or not allowed to submit tenders which fulfil the buyer's needs differently than as proposed in the procurement documents. Further conditions for submitting variant tenders are in the procurement documents.
+field|description|BT-636-LotResult-List:
+  name: The type of irregularity alleged in the review requests.
+field|description|BT-644-Lot-Currency:
+  name: The value of the prize, if any, for the winner of a design contest, innovation partnership or competitive dialogue
+field|description|BT-65-Lot-List:
+  name: An obligation to be met by the tenderer concerning subcontracting.
+field|description|BT-651-Lot-List:
+  name: The information about subcontracting that must be indicated in the tender.
+field|description|BT-660-LotResult-Currency:
+  name: The value likely to be spent within a framework agreement over its whole duration, including options and renewals, as re-estimated on the basis of the winner’s tender or winners’ tenders.
+field|description|BT-67(a)-Procedure-List:
+  name: The brief description of criteria regarding the personal situation of tenderers that may lead to their exclusion. This shall include a list of all such criteria and indicate required information (e.g. self-declaration, documentation). This may also include specific national exclusion grounds.
+field|description|BT-67(b)-Procedure-Language:
+  name: The brief description of criteria regarding the personal situation of tenderers that may lead to their exclusion. This shall include a list of all such criteria and indicate required information (e.g. self-declaration, documentation). This may also include specific national exclusion grounds.
+field|description|BT-70-Lot-Language:
+  name: The main information about the performance of the contract (e.g. intermediary deliverables, compensation for damages, intellectual property rights).
+field|description|BT-701-notice-Scheme:
+  name: The European Public Procurement Notice Identifier of this notice. Including this identifier in all published version of this notice (e.g. TED, national publication portals, regional publication portals) allows unique identification of procurement notices around the Union.
+field|description|BT-709-LotResult-Currency:
+  name: The maximum value which can be spent within a framework agreement over its whole duration, including options and renewals, as calculated on the basis of the winner’s tender or winners’ tenders.
+field|description|BT-71-Lot-List:
+  name: Whether participation is reserved for specific organisations (e.g. sheltered workshops, organisations pursuing a public service mission).
+field|description|BT-71-Part-List:
+  name: Whether participation is reserved for specific organisations (e.g. sheltered workshops, organisations pursuing a public service mission).
+field|description|BT-710-LotResult-Currency:
+  name: Value of the admissible tender with the lowest value. A tender shall be considered admissible where it has been submitted by a tenderer, who has not been excluded and who meets the selection criteria, and when it is in conformity with the technical specifications without being irregular (e.g. received late, having an abnormally low price or cost) or unacceptable or unsuitable. Only tenders for which it has been verified if they are admissible or inadmissible may be taken into account.
+field|description|BT-711-LotResult-Currency:
+  name: Value of the admissible tender with the highest value. A tender shall be considered admissible where it has been submitted by a tenderer, who has not been excluded and who meets the selection criteria, and when it is in conformity with the technical specifications without being irregular (e.g. received late, having an abnormally low price or cost) or unacceptable or unsuitable. Only tenders for which it has been verified if they are admissible or inadmissible may be taken into account.
+field|description|BT-712(a)-LotResult-List:
+  name: The number of organisations that requested the buyer to review any of its decisions (e.g. the technical specifications, award decision).
+field|description|BT-717-Lot-List:
+  name: The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD).
+field|description|BT-720-Tender-Currency:
+  name: The value of the tender or another result, including options and renewals. In case of the modification notice, the value of the modification.
+field|description|BT-721-Contract-Language:
+  name: The name of the contract or, in case of voluntary-ex ante transparency notices and design contest result notices, of the decision.
+field|description|BT-722-Contract-List:
+  name: The programme of the Union funds used to at least partially finance the contract.
+field|description|BT-7220-Lot-List:
+  name: The programme of the Union funds used to at least partially finance the contract.
+field|description|BT-723-LotResult-List:
+  name: 'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3.'
+field|description|BT-728-Lot-Language:
+  name: Additional information about the place of performance.
+field|description|BT-728-Part-Language:
+  name: Additional information about the place of performance.
+field|description|BT-728-Procedure-Language:
+  name: Additional information about the place of performance.
+field|description|BT-732-Lot-Language:
+  name: Additional information about the security clearance (e.g. which level of security clearance is required, which team members must have it, whether it is necessary already for accessing the procurement documents or only for contract execution).
+field|description|BT-733-Lot-Language:
+  name: The justification for only indicating the award criteria's order of importance, not their weighing.
+field|description|BT-733-LotsGroup-Language:
+  name: The justification for only indicating the award criteria's order of importance, not their weighing.
+field|description|BT-734-Lot-Language:
+  name: The name of the award criterion.
+field|description|BT-734-LotsGroup-Language:
+  name: The name of the award criterion.
+field|description|BT-735-Lot-List:
+  name: The CVD legal basis to establish which category of contract types (purchase, lease, rent, hired-purchase, public service contracts and service contracts according to table 1 CVD) applies.
+field|description|BT-735-LotResult-List:
+  name: The CVD legal basis to establish which category of contract types (purchase, lease, rent, hired-purchase, public service contracts and service contracts according to table 1 CVD) applies.
+field|description|BT-736-Lot-List:
+  name: Whether the execution of the contract must be performed in the framework of sheltered employment programmes.
+field|description|BT-736-Part-List:
+  name: Whether the execution of the contract must be performed in the framework of sheltered employment programmes.
+field|description|BT-740-Procedure-Buyer-List:
+  name: The buyer is a contracting entity.
+field|description|BT-743-Lot-List:
+  name: Whether the buyer will require, allow or not allow electronic invoices.
+field|description|BT-744-Lot-List:
+  name: Advanced or qualified electronic signature or seal (as defined in European Parliament and Council Regulation (EU) No 910/2014) is required.
+field|description|BT-745-Lot-Language:
+  name: The description of how to submit tenders, requests to participate, or expressions of interest non-electronically.
+field|description|BT-747-Lot-List:
+  name: The criteria (or criterion) concern(s), for example, economic and financial standing or technical and professional ability.
+field|description|BT-748-Lot-List:
+  name: The criteria (or criterion) of the given type are (is) used, unused, or (in case of prior information notice used as a call for competition or to reduce time limits) the use is not yet known.
+field|description|BT-749-Lot-Language:
+  name: The name of the selection criteria (or criterion).
+field|description|BT-75-Lot-Language:
+  name: The description of the financial guarantee required from the tenderer when submitting a tender. The guarantee can take the form of, for example, a payment to the buyer or a document from a bank. Typically, the guarantee would be forfeit when a tenderer has won the contract but then refused to sign it.
+field|description|BT-750-Lot-Language:
+  name: The brief description of the selection criteria (or criterion), including minimum requirements, required information (e.g. self-declaration, documentation) and how the criteria or criterion will be used to select candidates to be invited for the second stage of the procedure (if a maximum number of candidates was set).
+field|description|BT-751-Lot-List:
+  name: A guarantee is required.
+field|description|BT-752-Lot-ThresholdNumber:
+  name: A number linked to the selection criteria (or criterion).
+field|description|BT-752-Lot-WeightNumber:
+  name: A number linked to the selection criteria (or criterion).
+field|description|BT-7531-Lot-List:
+  name: Whether the number linked to a selection criterion (or selection criteria) is a type of weight (e.g. a percentage).
+field|description|BT-7532-Lot-List:
+  name: Whether the number linked to a selection criterion (or selection criteria) is a type of threshold (e.g. a minimum score, a maximum number of tenders with the highest score passing).
+field|description|BT-754-Lot-List:
+  name: The use of accessibility criteria for persons with disabilities in the technical specifications.
+field|description|BT-755-Lot-Language:
+  name: The justification for not including accessibility criteria even though the procurement is intended for use by natural persons.
+field|description|BT-76-Lot-Language:
+  name: The legal form that must be taken by a group of tenderers that is awarded a contract.
+field|description|BT-760-LotResult-List:
+  name: The type of tenders or requests to participate received. The total number of tenders received shall be given. When a notice does not fall under Directive 2009/81/EC and is not about social or other specific services, the number of tenders received from micro, small and medium enterprises; the number of tenders received from tenderers registered in other European Economic Area countries and the number of tenders received from tenderers registered in countries outside of the European Economic Area shall also be given. All tenders shall be counted, regardless of whether they are admissible or inadmissible. For tenders submitted by a group of tenderers (e.g. a consortium), the tender shall be counted in the relevant category (e.g. SME) if the majority of the work is expected to be done by tenderers which fall within this category (e.g. they are SMEs).
+field|description|BT-761-Lot-List:
+  name: A certain legal form must be taken by a group of tenderers that is awarded a contract.
+field|description|BT-762-notice-Language:
+  name: The description of the main reason for the change in the notice compared to the original notice.
+field|description|BT-763-Procedure-List:
+  name: The tenderer must submit tenders for all lots.
+field|description|BT-764-Lot-List:
+  name: Whether it is required, allowed or not allowed to submit (parts of) tenders as electronic catalogues.
+field|description|BT-765-Lot-List:
+  name: Whether a framework agreement with, without, or with and without the reopening of competition is involved.
+field|description|BT-765-Part-List:
+  name: Whether a framework agreement with, without, or with and without the reopening of competition is involved.
+field|description|BT-766-Lot-List:
+  name: Whether a dynamic purchasing system is involved and, in case of central purchasing bodies, whether it may be used by buyers not listed in this notice.
+field|description|BT-766-Part-List:
+  name: Whether a dynamic purchasing system is involved and, in case of central purchasing bodies, whether it may be used by buyers not listed in this notice.
+field|description|BT-769-Lot-List:
+  name: Tenderers may submit more than one tender (for a given lot).
+field|description|BT-77-Lot-Language:
+  name: The main information about financing and payment and/or reference to any provisions that govern them.
+field|description|BT-771-Lot-List:
+  name: Whether tenderer-related information can be supplemented even after the submission deadline.
+field|description|BT-772-Lot-Language:
+  name: Description of the tenderer-related information that can be supplemented even after the submission deadline.
+field|description|BT-773-Tender-List:
+  name: Whether at least a part of the contract will be subcontracted.
+field|description|BT-774-Lot-List:
+  name: A process to procure goods, services and works with reduced environmental impact throughout their life cycle.
+field|description|BT-775-Lot-List:
+  name: A social objective promoted by the works, supplies or services (e.g. fair working conditions).
+field|description|BT-776-Lot-List:
+  name: An indication that innovative works, supplies or services are being bought.
+field|description|BT-777-Lot-Language:
+  name: Description of how the procurement procedure is aiming at reducing the environmental impacts of the procurement, fulfilling social objectives and/or buying an innovative work, supply or service.
+field|description|BT-79-Lot-List:
+  name: Whether the names and professional qualifications of the staff assigned to perform the contract must be given.
+field|description|BT-801-Lot-List:
+  name: A non-disclosure agreement is required.
+field|description|BT-802-Lot-Language:
+  name: Additional information about the non-disclosure agreement.
+field|description|BT-805-Lot-List:
+  name: The procurement procedure includes the use of established green public procurement criteria (selection criteria, technical specifications, award criteria and contract performance clauses), at national, Union or other level, if applicable.
+field|description|BT-88-Procedure-Language:
+  name: The main features of the procedure (e.g. description of the individual stage(s)) and information about where the full rules for the procedure can be found. This information shall be given when the procedure is not one of those mentioned in the procurement Directives. This can be the case for example for concessions, for social and other specific services, and in case of voluntary publication of procurement procedures below the EU procurement thresholds.
+field|description|BT-95-Lot-Language:
+  name: Any additional information about recurrence (e.g. estimated timing).
+field|description|BT-98-Lot-Unit:
+  name: The period, from the tender submission deadline, for which tenders must remain valid.
+field|description|BT-99-Lot-Language:
+  name: The description of the time limits for review procedures.
+field|hint|BT-13716-Notice:
+  name: 'One of the following must be filled in: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn'
+field|hint|BT-1375-Procedure-Scheme:
+  name: Add as many lots as you wish to include in the group of lots.
+field|hint|BT-22-Lot-Scheme:
+  name: If you use an internal identifier for your procedure and your lots, please fill it in. Please use different identifiers for each lot.
+field|hint|BT-22-LotsGroup-Scheme:
+  name: If you use an internal identifier for your procedure and your lots, please fill it in. Please use different identifiers for each lot.
+field|hint|BT-22-Part-Scheme:
+  name: If you use an internal identifier for your procedure and your lots, please fill it in. Please use different identifiers for each lot.
+field|hint|BT-22-Procedure-Scheme:
+  name: If you use an internal identifier for your procedure and your lots, please fill it in. Please use different identifiers for each lot.
+field|hint|BT-36-Lot-Unit:
+  name: Fill in either the duration dates OR the duration period
+field|hint|BT-36-Part-Unit:
+  name: Fill in either the duration dates OR the duration period
+field|hint|BT-540-Lot-Language:
+  name: A number must be linked to a method and sum up to the total for the current criterion
+field|hint|BT-540-LotsGroup-Language:
+  name: A number must be linked to a method and sum up to the total for the current criterion
+field|hint|BT-543-Lot-Language:
+  name: This field can point to the tender specifications
+field|hint|BT-543-LotsGroup-Language:
+  name: This field can point to the tender specifications
+field|hint|OPT-300-Contract-Signatory-Scheme:
+  name: First create the organisation in the section 'Organisations', then select it in drop-down list.
+field|hint|OPT-300-Procedure-Buyer-Scheme:
+  name: First create the organisation in the section 'Organisations', then select it in drop-down list.
+field|hint|OPT-300-Procedure-SProvider-Scheme:
+  name: First create the organisation in the section 'Organisations', then select it in drop-down list.
+field|hint|OPT-300-Tenderer-Scheme:
+  name: First create the organisation in the section 'Organisations', then select it in drop-down list.
+field|name|BT-01(c)-Procedure-Scheme:
+  name: Legal basis
+field|name|BT-01(d)-Procedure-Language:
+  name: Legal basis
+field|name|BT-01(f)-Procedure-Language:
+  name: Legal basis
+field|name|BT-06-Lot-List:
+  name: Aim of strategic procurement
+field|name|BT-09(b)-Procedure-Language:
+  name: Applicable cross-border law
+field|name|BT-10-Procedure-Buyer-List:
+  name: Activity of the contracting authority
+field|name|BT-105-Procedure-List:
+  name: Type of procedure
+field|name|BT-106-Procedure-List:
+  name: The procedure is accelerated
+field|name|BT-109-Lot-Language:
+  name: Justification for the duration of the framework agreement
+field|name|BT-11-Procedure-Buyer-List:
+  name: Legal type of the buyer
+field|name|BT-111-Lot-Language:
+  name: Additional buyer coverage
+field|name|BT-1118-NoticeResult-Currency:
+  name: Approximate value of the framework agreements
+field|name|BT-118-NoticeResult-Currency:
+  name: Maximum value of the framework agreements in this procedure
+field|name|BT-122-Lot-Language:
+  name: Description
+field|name|BT-125(i)-Lot-Scheme:
+  name: Identifier of the previous notice
+field|name|BT-125(i)-Part-Scheme:
+  name: Identifier of the previous notice
+field|name|BT-133-Lot-Language:
+  name: Place
+field|name|BT-134-Lot-Language:
+  name: Additional information
+field|name|BT-135-Procedure-Language:
+  name: Other justification
+field|name|BT-1351-Procedure-Language:
+  name: Justification for the accelerated procedure
+field|name|BT-136-Procedure-List:
+  name: Justification for direct award
+field|name|BT-137-Lot-Scheme:
+  name: Lot
+field|name|BT-137-LotsGroup-Scheme:
+  name: Lot
+field|name|BT-137-Part-Scheme:
+  name: Lot
+field|name|BT-13713-LotResult-Scheme:
+  name: Result Lot Identifier
+field|name|BT-13714-Tender-Scheme:
+  name: Identifier of lot or group of lots
+field|name|BT-1375-Procedure-Scheme:
+  name: Lots included
+field|name|BT-140-notice-List:
+  name: Main reason for change
+field|name|BT-141(a)-notice-Language:
+  name: Description of changes
+field|name|BT-142-LotResult-List:
+  name: Winner selection status
+field|name|BT-144-LotResult-List:
+  name: The reason why a winner was not chosen
+field|name|BT-150-Contract-Scheme:
+  name: Identifier of the contract
+field|name|BT-1501(n)-Contract-Scheme:
+  name: Section identifier
+field|name|BT-156-NoticeResult-Currency:
+  name: Maximum value of the framework agreements in this group of lots
+field|name|BT-1561-NoticeResult-Currency:
+  name: Re-estimated value of the framework agreements within a group of lots
+field|name|BT-157-LotsGroup-Currency:
+  name: Maximum value of the framework agreement within the group of lots
+field|name|BT-160-Tender-Currency:
+  name: Estimated revenue coming from the buyer who granted the concession
+field|name|BT-161-NoticeResult-Currency:
+  name: Value of all contracts awarded in this procedure
+field|name|BT-162-Tender-Currency:
+  name: Estimated revenue coming from the users of the concession
+field|name|BT-163-Tender-Language:
+  name: Method used for calculating the estimated value of the concession
+field|name|BT-165-Organization-Company-List:
+  name: Size of the economic operator
+field|name|BT-17-Lot-List:
+  name: Electronic submission
+field|name|BT-19-Lot-List:
+  name: Justification for why electronic submission is not possible
+field|name|BT-191-Tender-List:
+  name: Country of origin of the product or the service
+field|name|BT-195(BT-09)-Procedure-List:
+  name: Field to publish later
+field|name|BT-195(BT-105)-Procedure-List:
+  name: Field to publish later
+field|name|BT-195(BT-106)-Procedure-List:
+  name: Field to publish later
+field|name|BT-195(BT-1118)-NoticeResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-118)-NoticeResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-1252)-Procedure-List:
+  name: Field to publish later
+field|name|BT-195(BT-135)-Procedure-List:
+  name: Field to publish later
+field|name|BT-195(BT-1351)-Procedure-List:
+  name: Field to publish later
+field|name|BT-195(BT-136)-Procedure-List:
+  name: Field to publish later
+field|name|BT-195(BT-142)-LotResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-144)-LotResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-156)-NoticeResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-1561)-NoticeResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-160)-Tender-List:
+  name: Field to publish later
+field|name|BT-195(BT-161)-NoticeResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-162)-Tender-List:
+  name: Field to publish later
+field|name|BT-195(BT-163)-Tender-List:
+  name: Field to publish later
+field|name|BT-195(BT-171)-Tender-List:
+  name: Field to publish later
+field|name|BT-195(BT-191)-Tender-List:
+  name: Field to publish later
+field|name|BT-195(BT-193)-Tender-List:
+  name: Field to publish later
+field|name|BT-195(BT-539)-Lot-List:
+  name: Field to publish later
+field|name|BT-195(BT-539)-LotsGroup-List:
+  name: Field to publish later
+field|name|BT-195(BT-540)-Lot-List:
+  name: Field to publish later
+field|name|BT-195(BT-540)-LotsGroup-List:
+  name: Field to publish later
+field|name|BT-195(BT-541)-Lot-Fixed-List:
+  name: Field to publish later
+field|name|BT-195(BT-541)-Lot-Threshold-List:
+  name: Field to publish later
+field|name|BT-195(BT-541)-Lot-Weight-List:
+  name: Field to publish later
+field|name|BT-195(BT-541)-LotsGroup-Fixed-List:
+  name: Field to publish later
+field|name|BT-195(BT-541)-LotsGroup-Threshold-List:
+  name: Field to publish later
+field|name|BT-195(BT-541)-LotsGroup-Weight-List:
+  name: Field to publish later
+field|name|BT-195(BT-5421)-Lot-List:
+  name: Field to publish later
+field|name|BT-195(BT-5421)-LotsGroup-List:
+  name: Field to publish later
+field|name|BT-195(BT-5422)-Lot-List:
+  name: Field to publish later
+field|name|BT-195(BT-5422)-LotsGroup-List:
+  name: Field to publish later
+field|name|BT-195(BT-5423)-Lot-List:
+  name: Field to publish later
+field|name|BT-195(BT-5423)-LotsGroup-List:
+  name: Field to publish later
+field|name|BT-195(BT-543)-Lot-List:
+  name: Field to publish later
+field|name|BT-195(BT-543)-LotsGroup-List:
+  name: Field to publish later
+field|name|BT-195(BT-553)-Tender-List:
+  name: Field to publish later
+field|name|BT-195(BT-554)-Tender-List:
+  name: Field to publish later
+field|name|BT-195(BT-555)-Tender-List:
+  name: Field to publish later
+field|name|BT-195(BT-556)-NoticeResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-635)-LotResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-636)-LotResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-660)-LotResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-709)-LotResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-710)-LotResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-711)-LotResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-712)-LotResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-720)-Tender-List:
+  name: Field to publish later
+field|name|BT-195(BT-730)-Tender-List:
+  name: Field to publish later
+field|name|BT-195(BT-731)-Tender-List:
+  name: Field to publish later
+field|name|BT-195(BT-733)-Lot-List:
+  name: Field to publish later
+field|name|BT-195(BT-733)-LotsGroup-List:
+  name: Field to publish later
+field|name|BT-195(BT-734)-Lot-List:
+  name: Field to publish later
+field|name|BT-195(BT-734)-LotsGroup-List:
+  name: Field to publish later
+field|name|BT-195(BT-759)-LotResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-760)-LotResult-List:
+  name: Field to publish later
+field|name|BT-195(BT-773)-Tender-List:
+  name: Field to publish later
+field|name|BT-195(BT-88)-Procedure-List:
+  name: Field to publish later
+field|name|BT-196(BT-09)-Procedure-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-105)-Procedure-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-106)-Procedure-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-1118)-NoticeResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-118)-NoticeResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-1252)-Procedure-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-135)-Procedure-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-1351)-Procedure-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-136)-Procedure-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-142)-LotResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-144)-LotResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-156)-NoticeResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-1561)-NoticeResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-160)-Tender-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-161)-NoticeResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-162)-Tender-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-163)-Tender-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-171)-Tender-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-191)-Tender-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-193)-Tender-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-539)-Lot-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-539)-LotsGroup-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-540)-Lot-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-540)-LotsGroup-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-541)-Lot-Fixed-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-541)-Lot-Threshold-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-541)-Lot-Weight-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-541)-LotsGroup-Fixed-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-541)-LotsGroup-Threshold-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-541)-LotsGroup-Weight-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-5421)-Lot-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-5421)-LotsGroup-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-5422)-Lot-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-5422)-LotsGroup-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-5423)-Lot-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-5423)-LotsGroup-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-543)-Lot-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-543)-LotsGroup-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-553)-Tender-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-554)-Tender-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-555)-Tender-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-556)-NoticeResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-635)-LotResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-636)-LotResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-660)-LotResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-709)-LotResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-710)-LotResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-711)-LotResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-712)-LotResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-720)-Tender-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-730)-Tender-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-731)-Tender-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-733)-Lot-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-733)-LotsGroup-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-734)-Lot-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-734)-LotsGroup-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-759)-LotResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-760)-LotResult-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-773)-Tender-Language:
+  name: Justification for publishing later
+field|name|BT-196(BT-88)-Procedure-Language:
+  name: Justification for publishing later
+field|name|BT-197(BT-09)-Procedure-List:
+  name: Justification code
+field|name|BT-197(BT-105)-Procedure-List:
+  name: Justification code
+field|name|BT-197(BT-106)-Procedure-List:
+  name: Justification code
+field|name|BT-197(BT-1118)-NoticeResult-List:
+  name: Justification code
+field|name|BT-197(BT-118)-NoticeResult-List:
+  name: Justification code
+field|name|BT-197(BT-1252)-Procedure-List:
+  name: Justification code
+field|name|BT-197(BT-135)-Procedure-List:
+  name: Justification code
+field|name|BT-197(BT-1351)-Procedure-List:
+  name: Justification code
+field|name|BT-197(BT-136)-Procedure-List:
+  name: Justification code
+field|name|BT-197(BT-142)-LotResult-List:
+  name: Justification code
+field|name|BT-197(BT-144)-LotResult-List:
+  name: Justification code
+field|name|BT-197(BT-156)-NoticeResult-List:
+  name: Justification code
+field|name|BT-197(BT-1561)-NoticeResult-List:
+  name: Justification code
+field|name|BT-197(BT-160)-Tender-List:
+  name: Justification code
+field|name|BT-197(BT-161)-NoticeResult-List:
+  name: Justification code
+field|name|BT-197(BT-162)-Tender-List:
+  name: Justification code
+field|name|BT-197(BT-163)-Tender-List:
+  name: Justification code
+field|name|BT-197(BT-171)-Tender-List:
+  name: Justification code
+field|name|BT-197(BT-191)-Tender-List:
+  name: Justification code
+field|name|BT-197(BT-193)-Tender-List:
+  name: Justification code
+field|name|BT-197(BT-539)-Lot-List:
+  name: Justification code
+field|name|BT-197(BT-539)-LotsGroup-List:
+  name: Justification code
+field|name|BT-197(BT-540)-Lot-List:
+  name: Justification code
+field|name|BT-197(BT-540)-LotsGroup-List:
+  name: Justification code
+field|name|BT-197(BT-541)-Lot-Fixed-List:
+  name: Justification code
+field|name|BT-197(BT-541)-Lot-Threshold-List:
+  name: Justification code
+field|name|BT-197(BT-541)-Lot-Weight-List:
+  name: Justification code
+field|name|BT-197(BT-541)-LotsGroup-Fixed-List:
+  name: Justification code
+field|name|BT-197(BT-541)-LotsGroup-Threshold-List:
+  name: Justification code
+field|name|BT-197(BT-541)-LotsGroup-Weight-List:
+  name: Justification code
+field|name|BT-197(BT-5421)-Lot-List:
+  name: Justification code
+field|name|BT-197(BT-5421)-LotsGroup-List:
+  name: Justification code
+field|name|BT-197(BT-5422)-Lot-List:
+  name: Justification code
+field|name|BT-197(BT-5422)-LotsGroup-List:
+  name: Justification code
+field|name|BT-197(BT-5423)-Lot-List:
+  name: Justification code
+field|name|BT-197(BT-5423)-LotsGroup-List:
+  name: Justification code
+field|name|BT-197(BT-543)-Lot-List:
+  name: Justification code
+field|name|BT-197(BT-543)-LotsGroup-List:
+  name: Justification code
+field|name|BT-197(BT-553)-Tender-List:
+  name: Justification code
+field|name|BT-197(BT-554)-Tender-List:
+  name: Justification code
+field|name|BT-197(BT-555)-Tender-List:
+  name: Justification code
+field|name|BT-197(BT-556)-NoticeResult-List:
+  name: Justification code
+field|name|BT-197(BT-635)-LotResult-List:
+  name: Justification code
+field|name|BT-197(BT-636)-LotResult-List:
+  name: Justification code
+field|name|BT-197(BT-660)-LotResult-List:
+  name: Justification code
+field|name|BT-197(BT-709)-LotResult-List:
+  name: Justification code
+field|name|BT-197(BT-710)-LotResult-List:
+  name: Justification code
+field|name|BT-197(BT-711)-LotResult-List:
+  name: Justification code
+field|name|BT-197(BT-712)-LotResult-List:
+  name: Justification code
+field|name|BT-197(BT-720)-Tender-List:
+  name: Justification code
+field|name|BT-197(BT-730)-Tender-List:
+  name: Justification code
+field|name|BT-197(BT-731)-Tender-List:
+  name: Justification code
+field|name|BT-197(BT-733)-Lot-List:
+  name: Justification code
+field|name|BT-197(BT-733)-LotsGroup-List:
+  name: Justification code
+field|name|BT-197(BT-734)-Lot-List:
+  name: Justification code
+field|name|BT-197(BT-734)-LotsGroup-List:
+  name: Justification code
+field|name|BT-197(BT-759)-LotResult-List:
+  name: Justification code
+field|name|BT-197(BT-760)-LotResult-List:
+  name: Justification code
+field|name|BT-197(BT-773)-Tender-List:
+  name: Justification code
+field|name|BT-197(BT-88)-Procedure-List:
+  name: Justification code
+field|name|BT-200-Contract-List:
+  name: Reason for modification
+field|name|BT-201-Contract-Language:
+  name: Description
+field|name|BT-202-Contract-Language:
+  name: Description of modifications
+field|name|BT-21-Lot-Language:
+  name: Title
+field|name|BT-21-LotsGroup-Language:
+  name: Title
+field|name|BT-21-Part-Language:
+  name: Title
+field|name|BT-21-Procedure-Language:
+  name: Title
+field|name|BT-22-Lot-Scheme:
+  name: Internal identifier
+field|name|BT-22-LotsGroup-Scheme:
+  name: Internal identifier
+field|name|BT-22-Part-Scheme:
+  name: Internal identifier
+field|name|BT-22-Procedure-Scheme:
+  name: Internal identifier
+field|name|BT-23-Part-List:
+  name: Nature of the contract
+field|name|BT-23-Procedure-List:
+  name: Nature of the contract
+field|name|BT-24-Lot-Language:
+  name: Description
+field|name|BT-24-LotsGroup-Language:
+  name: Description
+field|name|BT-24-Part-Language:
+  name: Description
+field|name|BT-24-Procedure-Language:
+  name: Description
+field|name|BT-27-Lot-Currency:
+  name: Estimated value excluding VAT
+field|name|BT-27-LotsGroup-Currency:
+  name: Estimated value excluding VAT
+field|name|BT-27-Part-Currency:
+  name: Estimated value excluding VAT
+field|name|BT-27-Procedure-Currency:
+  name: Estimated value excluding VAT
+field|name|BT-271-Lot-Currency:
+  name: Maximum value of the framework agreement
+field|name|BT-271-LotsGroup-Currency:
+  name: Maximum value of the framework agreement
+field|name|BT-271-Procedure-Currency:
+  name: Maximum value of the framework agreement
+field|name|BT-300-Lot-Language:
+  name: Additional information
+field|name|BT-300-LotsGroup-Language:
+  name: Additional information
+field|name|BT-300-Part-Language:
+  name: Additional information
+field|name|BT-300-Procedure-Language:
+  name: Additional information
+field|name|BT-3202-Contract-Scheme:
+  name: Contract Tender Identifier
+field|name|BT-330-Procedure-Scheme:
+  name: Group of lots
+field|name|BT-36-Lot-Unit:
+  name: Duration
+field|name|BT-36-Part-Unit:
+  name: Duration
+field|name|BT-45-Lot-Language:
+  name: Additional information
+field|name|BT-500-Business-European:
+  name: Official name
+field|name|BT-500-Organization-Company-Language:
+  name: Official name
+field|name|BT-500-Organization-TouchPoint-Language:
+  name: Official name
+field|name|BT-501-Business-European-Scheme:
+  name: Registration number
+field|name|BT-501-Business-National-Scheme:
+  name: Registration number
+field|name|BT-507-Business-List:
+  name: Country subdivision (NUTS)
+field|name|BT-507-Organization-Company-List:
+  name: Country subdivision (NUTS)
+field|name|BT-507-Organization-TouchPoint-List:
+  name: Country subdivision (NUTS)
+field|name|BT-507-UBO-List:
+  name: Country subdivision (NUTS)
+field|name|BT-5071-Lot-List:
+  name: Country subdivision (NUTS)
+field|name|BT-5071-Part-List:
+  name: Country subdivision (NUTS)
+field|name|BT-5071-Procedure-List:
+  name: Country subdivision (NUTS)
+field|name|BT-514-Business-List:
+  name: Country
+field|name|BT-514-Organization-Company-List:
+  name: Country
+field|name|BT-514-Organization-TouchPoint-List:
+  name: Country
+field|name|BT-514-UBO-List:
+  name: Country
+field|name|BT-5141-Lot-List:
+  name: Country
+field|name|BT-5141-Part-List:
+  name: Country
+field|name|BT-5141-Procedure-List:
+  name: Country
+field|name|BT-531-Lot-List:
+  name: Additional nature of the contract
+field|name|BT-531-Part-List:
+  name: Additional nature of the contract
+field|name|BT-531-Procedure-List:
+  name: Additional nature of the contract
+field|name|BT-538-Lot-List:
+  name: Other duration
+field|name|BT-538-Part-List:
+  name: Other duration
+field|name|BT-539-Lot-List:
+  name: Type
+field|name|BT-539-LotsGroup-List:
+  name: Type
+field|name|BT-54-Lot-Language:
+  name: Description of the options
+field|name|BT-540-Lot-Language:
+  name: Description
+field|name|BT-540-LotsGroup-Language:
+  name: Description
+field|name|BT-5421-Lot-List:
+  name: Number is a type of weight
+field|name|BT-5421-LotsGroup-List:
+  name: Number is a type of weight
+field|name|BT-5422-Lot-List:
+  name: Number is a fixed value
+field|name|BT-5422-LotsGroup-List:
+  name: Number is a fixed value
+field|name|BT-5423-Lot-List:
+  name: Number is a type of threshold
+field|name|BT-5423-LotsGroup-List:
+  name: Number is a type of threshold
+field|name|BT-543-Lot-Language:
+  name: Description of the method to be used if weighting cannot be expressed by criteria
+field|name|BT-543-LotsGroup-Language:
+  name: Description of the method to be used if weighting cannot be expressed by criteria
+field|name|BT-553-Tender-Currency:
+  name: Value of subcontracting
+field|name|BT-554-Tender-Language:
+  name: Description
+field|name|BT-556-NoticeResult-Scheme:
+  name: Group Framework Value Lot Identifier
+field|name|BT-57-Lot-Language:
+  name: The buyer reserves the right for additional purchases from the contractor, as described here
+field|name|BT-578-Lot-List:
+  name: Security clearance is required
+field|name|BT-60-Lot-List:
+  name: The procurement is at least partially financed by European Union funds
+field|name|BT-610-Procedure-Buyer-List:
+  name: Activity of the contracting entity
+field|name|BT-6110-Contract-Language:
+  name: Further details of EU funds
+field|name|BT-6140-Lot-Language:
+  name: Further details of EU funds
+field|name|BT-63-Lot-List:
+  name: Variants
+field|name|BT-636-LotResult-List:
+  name: Type of alleged irregularity
+field|name|BT-644-Lot-Currency:
+  name: Value of the prize
+field|name|BT-65-Lot-List:
+  name: An obligation to be met by the tenderer concerning subcontracting
+field|name|BT-651-Lot-List:
+  name: Obligatory indication of subcontracting
+field|name|BT-660-LotResult-Currency:
+  name: Re-estimated value of the framework agreement
+field|name|BT-67(a)-Procedure-List:
+  name: Description
+field|name|BT-67(b)-Procedure-Language:
+  name: Description
+field|name|BT-70-Lot-Language:
+  name: Conditions relating to the performance of the contract
+field|name|BT-701-notice-Scheme:
+  name: Notice identifier/version
+field|name|BT-709-LotResult-Currency:
+  name: Maximum value of the framework agreement
+field|name|BT-71-Lot-List:
+  name: Reserved participation
+field|name|BT-71-Part-List:
+  name: Reserved participation
+field|name|BT-710-LotResult-Currency:
+  name: Value of the lowest admissible tender
+field|name|BT-711-LotResult-Currency:
+  name: Value of the highest admissible tender
+field|name|BT-712(a)-LotResult-List:
+  name: Number of complainants
+field|name|BT-717-Lot-List:
+  name: The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)
+field|name|BT-720-Tender-Currency:
+  name: Value of the result
+field|name|BT-721-Contract-Language:
+  name: Title
+field|name|BT-722-Contract-List:
+  name: Name of EU-financed project or programme
+field|name|BT-7220-Lot-List:
+  name: EU funds programme
+field|name|BT-723-LotResult-List:
+  name: 'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3'
+field|name|BT-728-Lot-Language:
+  name: Additional information
+field|name|BT-728-Part-Language:
+  name: Additional information
+field|name|BT-728-Procedure-Language:
+  name: Additional information
+field|name|BT-732-Lot-Language:
+  name: Description
+field|name|BT-733-Lot-Language:
+  name: Justification for not indicating the weighting of the award criteria
+field|name|BT-733-LotsGroup-Language:
+  name: Justification for not indicating the weighting of the award criteria
+field|name|BT-734-Lot-Language:
+  name: Name
+field|name|BT-734-LotsGroup-Language:
+  name: Name
+field|name|BT-735-Lot-List:
+  name: The CVD legal basis to establish which category of procurement procedure applies
+field|name|BT-735-LotResult-List:
+  name: The CVD legal basis to establish which category of procurement procedure applies
+field|name|BT-736-Lot-List:
+  name: The execution of the contract must be performed within the framework of sheltered employment programmes
+field|name|BT-736-Part-List:
+  name: The execution of the contract must be performed within the framework of sheltered employment programmes
+field|name|BT-740-Procedure-Buyer-List:
+  name: The buyer is a contracting entity
+field|name|BT-743-Lot-List:
+  name: Electronic invoicing
+field|name|BT-744-Lot-List:
+  name: Advanced or qualified electronic signature or seal (as defined in Regulation (EU) No 910/2014) is required
+field|name|BT-745-Lot-Language:
+  name: Description
+field|name|BT-747-Lot-List:
+  name: Type
+field|name|BT-748-Lot-List:
+  name: Use of this criterion
+field|name|BT-749-Lot-Language:
+  name: Name
+field|name|BT-75-Lot-Language:
+  name: Description of the financial guarantee
+field|name|BT-750-Lot-Language:
+  name: Description
+field|name|BT-751-Lot-List:
+  name: A guarantee is required
+field|name|BT-752-Lot-ThresholdNumber:
+  name: Selection criteria second stage invite number
+field|name|BT-752-Lot-WeightNumber:
+  name: Selection criteria second stage invite number
+field|name|BT-7531-Lot-List:
+  name: Number is a type of weight
+field|name|BT-7532-Lot-List:
+  name: Number is a type of threshold
+field|name|BT-754-Lot-List:
+  name: The use of accessibility criteria for persons with disabilities in the technical specifications
+field|name|BT-755-Lot-Language:
+  name: Justification
+field|name|BT-76-Lot-Language:
+  name: Legal form that must be taken by a group of tenderers that is awarded a contract
+field|name|BT-760-LotResult-List:
+  name: Type of received submissions
+field|name|BT-761-Lot-List:
+  name: A certain legal form must be taken by a group of tenderers that is awarded a contract
+field|name|BT-762-notice-Language:
+  name: Description
+field|name|BT-763-Procedure-List:
+  name: The tenderer must submit tenders for all lots
+field|name|BT-764-Lot-List:
+  name: Electronic catalogue
+field|name|BT-765-Lot-List:
+  name: Framework agreement is involved
+field|name|BT-765-Part-List:
+  name: Framework agreement is involved
+field|name|BT-766-Lot-List:
+  name: Dynamic purchasing system is involved
+field|name|BT-766-Part-List:
+  name: Dynamic purchasing system is involved
+field|name|BT-769-Lot-List:
+  name: Tenderers may submit more than one tender
+field|name|BT-77-Lot-Language:
+  name: Financial arrangement
+field|name|BT-771-Lot-List:
+  name: Tenderer-related information that can be supplemented after the submission deadline
+field|name|BT-772-Lot-Language:
+  name: Additional information
+field|name|BT-773-Tender-List:
+  name: Subcontracting
+field|name|BT-774-Lot-List:
+  name: Approach to reducing environmental impacts
+field|name|BT-775-Lot-List:
+  name: Social objective promoted
+field|name|BT-776-Lot-List:
+  name: Innovative objective
+field|name|BT-777-Lot-Language:
+  name: Description
+field|name|BT-779-Tender-Currency:
+  name: Tender payment value
+field|name|BT-780-Tender-Language:
+  name: Tender payment value additional information
+field|name|BT-781-Lot-Language:
+  name: Duration additional information
+field|name|BT-782-Tender-Currency:
+  name: Tender penalties
+field|name|BT-783-Review-List:
+  name: Review request or decision
+field|name|BT-788-Review-Language:
+  name: Review title
+field|name|BT-789-Review-Language:
+  name: Review description
+field|name|BT-79-Lot-List:
+  name: The names and professional qualifications of the staff assigned to perform the contract must be given
+field|name|BT-790-Review-List:
+  name: Review decision type
+field|name|BT-791-Review-List:
+  name: Review irregularity type
+field|name|BT-792-Review-List:
+  name: Review remedy type
+field|name|BT-793-Review-Currency:
+  name: Review remedy value
+field|name|BT-795-Review-Currency:
+  name: Review request fee
+field|name|BT-798-Review-Language:
+  name: Reasons for review request withdrawal
+field|name|BT-799-ReviewBody-List:
+  name: Review body type
+field|name|BT-801-Lot-List:
+  name: A non-disclosure agreement is required
+field|name|BT-802-Lot-Language:
+  name: Additional information about the non-disclosure agreement
+field|name|BT-805-Lot-List:
+  name: Green Procurement Criteria
+field|name|BT-88-Procedure-Language:
+  name: Main features of the procedure
+field|name|BT-95-Lot-Language:
+  name: Description
+field|name|BT-98-Lot-Unit:
+  name: Deadline until which the tender must remain valid
+field|name|BT-99-Lot-Language:
+  name: Information about review deadlines
+field|name|OPP-010-notice-Scheme:
+  name: Notice publication number
+field|name|OPP-011-notice-Scheme:
+  name: OJ S issue number
+field|name|OPP-021-Contract-Language:
+  name: List of assets used for the provision of the public services
+field|name|OPP-030-Tender-List:
+  name: Contract conditions code
+field|name|OPP-031-Tender-Language:
+  name: Contract conditions description (other than revenue allocation)
+field|name|OPP-033-Tender-List:
+  name: Penalties and rewards code
+field|name|OPP-034-Tender-Language:
+  name: Penalties and rewards description
+field|name|OPP-040-Procedure-List:
+  name: Main nature – subtype
+field|name|OPP-070-notice-List:
+  name: Notice subtype
+field|name|OPP-080-Tender-Unit:
+  name: Kilometres of public passenger transport services
+field|name|OPP-090-Procedure-Scheme:
+  name: Previous notice
+field|name|OPP-100-Business-List:
+  name: This notice contains information relevant to
+field|name|OPP-105-Business-List:
+  name: Sector of activity
+field|name|OPP-112-Business-List:
+  name: Country
+field|name|OPP-124-Business:
+  name: Issue of the publication
+field|name|OPP-124-Business-Scheme:
+  name: Issue of the publication
+field|name|OPP-130-Business-Language:
+  name: Additional information
+field|name|OPT-030-Procedure-SProvider-List:
+  name: Provided service type
+field|name|OPT-060-Lot-List:
+  name: Execution requirement code
+field|name|OPT-070-Lot-Language:
+  name: Execution of the service is reserved to a particular profession. Reference to the relevant law, regulation, or administrative procedure
+field|name|OPT-071-Lot-List:
+  name: Quality target code
+field|name|OPT-072-Lot-Language:
+  name: Quality target description
+field|name|OPT-091-ReviewReq-List:
+  name: Review requester type
+field|name|OPT-092-ReviewBody-Language:
+  name: Review body type description
+field|name|OPT-092-ReviewReq-Language:
+  name: Review body type description
+field|name|OPT-100-Contract-Scheme:
+  name: ID – Framework notice
+field|name|OPT-155-LotResult-List:
+  name: Vehicle type
+field|name|OPT-200-Organization-Company-Scheme:
+  name: ID – Company
+field|name|OPT-201-Organization-TouchPoint-Scheme:
+  name: ID – Specific contact point
+field|name|OPT-202-UBO-Scheme:
+  name: ID – Beneficial owner
+field|name|OPT-210-Tenderer-Scheme:
+  name: ID – Tendering party
+field|name|OPT-211-Tenderer:
+  name: Name of the tendering party
+field|name|OPT-300-Contract-Signatory-Scheme:
+  name: ID – Organisation
+field|name|OPT-300-Procedure-Buyer-Scheme:
+  name: ID – Organisation
+field|name|OPT-300-Procedure-SProvider-Scheme:
+  name: ID – Organisation
+field|name|OPT-300-Tenderer-Scheme:
+  name: ID – Organisation
+field|name|OPT-301-Lot-AddInfo-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Lot-DocProvider-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Lot-EmployLegis-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Lot-EnvironLegis-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Lot-FiscalLegis-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Lot-Mediator-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Lot-ReviewInfo-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Lot-ReviewOrg-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Lot-TenderEval-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Lot-TenderReceipt-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-LotResult-Financing-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-LotResult-Paying-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Part-AddInfo-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Part-DocProvider-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Part-EmployLegis-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Part-EnvironLegis-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Part-FiscalLegis-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Part-Mediator-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Part-ReviewInfo-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Part-ReviewOrg-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Part-TenderEval-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Part-TenderReceipt-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-ReviewBody-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-ReviewReq-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Tenderer-MainCont-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-301-Tenderer-SubCont-Scheme:
+  name: ID – Organisation contact point
+field|name|OPT-302-Organization-Scheme:
+  name: ID – Beneficial owner
+field|name|OPT-310-Tender-Scheme:
+  name: ID – Tendering party
+field|name|OPT-315-LotResult-Scheme:
+  name: ID – Contract
+field|name|OPT-316-Contract-Scheme:
+  name: ID – Contract
+field|name|OPT-320-LotResult-Scheme:
+  name: Tender identifier reference
+field|name|OPT-321-Tender-Scheme:
+  name: ID – Tender
+field|name|OPT-322-LotResult-Scheme:
+  name: ID – Lot result

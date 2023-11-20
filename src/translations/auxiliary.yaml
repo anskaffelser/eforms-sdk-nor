@@ -820,3 +820,5 @@ auxiliary|text|unpublished:
   nob: upublisert
   history: []
   nob_verify: false
+auxiliary|text|prize-information:
+  name: Prize
