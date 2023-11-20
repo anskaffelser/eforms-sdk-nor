@@ -63,6 +63,9 @@ rules:
       message: All lots must have same deadline
 
 removed:
+  # Notice types
+  - BR-OPP-00070-0052
+
   # Exclusion grounds
   - ND-ExclusionGrounds
   - ND-ProcedureTerms
@@ -149,6 +152,7 @@ removed:
   - GR-Lot-ProcurementType-Accessibility
   - GR-Lot-ProcurementType
   - OPT-155-LotResult
+  - BR-BT-00137-0200 # 1.6
 
   # Additional Information
   - BT-13715
