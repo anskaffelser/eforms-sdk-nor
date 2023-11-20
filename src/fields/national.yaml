@@ -113,6 +113,7 @@ removed:
   - BT-722-Contract
   - BT-5011-Contract
   - BT-6110-Contract
+  - GR-SettledContract-2
 
   # Strategic Procurement
   - BG-713
@@ -141,6 +142,13 @@ removed:
   - BG-613 # Not found
   - BT-635-LotResult
   - BT-636-LotResult
+  - GR-Lot-Environmental-Impact
+  - GR-Lot-Social-Objective
+  - GR-Lot-Innovation-Procurement
+  - GR-Lot-ProcurementType-Strategic
+  - GR-Lot-ProcurementType-Accessibility
+  - GR-Lot-ProcurementType
+  - OPT-155-LotResult
 
   # Additional Information
   - BT-13715
@@ -152,3 +160,7 @@ removed:
   - BT-634-Lot
   - BT-634-Procedure
   - BT-756-Procedure
+  - GR-Part-GpaAgreement
+  - GR-Lot-GpaAgreement
+  - GR-Lot-Procedure
+  - GR-Procedure-PinTerminated

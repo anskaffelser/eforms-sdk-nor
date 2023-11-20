@@ -103,7 +103,7 @@ target/eforms-sdk-nor/fields/national.json: target/eforms-sdk bin/process-fields
 		-c src/fields/national.yaml \
 		-o target/eforms-sdk-nor/fields/national.json
 
-target/eforms-sdk-nor/notice-types: target/eforms-sdk bin/process-notice-types
+target/eforms-sdk-nor/notice-types: target/eforms-sdk bin/process-notice-types src/fields/national.yaml src/fields/eu.yaml
 	@echo "* Create notice types"
 	@mkdir -p target/eforms-sdk-nor
 	@./bin/process-notice-types -c src/fields/eu.yaml
