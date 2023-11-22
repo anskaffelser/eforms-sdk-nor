@@ -16,7 +16,13 @@ fields = source['fields'].to_h {|o| [o['id'], o]}
 
 NS = {
   'xmlns:xsl' => 'http://www.w3.org/1999/XSL/Transform',
-  'version' => '2.0'
+  'version' => '2.0',
+  'xmlns:cac' => 'urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2',
+  'xmlns:cbc' => 'urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2',
+  'xmlns:ext' => 'urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2',
+  'xmlns:efac' => 'http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1',
+  'xmlns:efext' => 'http://data.europa.eu/p27/eforms-ubl-extensions/1',
+  'xmlns:efbc' => 'http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1',
 }
 
 doc = Nokogiri::XML::Builder.new do |xml|
