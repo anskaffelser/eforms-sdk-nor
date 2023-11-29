@@ -87,7 +87,7 @@ removed:
   # Other Requirements
   - BG-705
   - BT-1379
-  - BT-71-Lot
+  # - BT-71-Lot
   # - BT-71-Part
   - BT-79-Lot
   - BT-578-Lot
@@ -160,7 +160,7 @@ removed:
   - BT-726-LotsGroup
   - BT-726-Part
   - BT-115-Lot
-  - BT-115-Part
+  # - BT-115-Part
   # - BT-634-Lot
   - BT-634-Procedure
   - BT-756-Procedure
