@@ -89,7 +89,7 @@ removed:
   - BT-1379
   # - BT-71-Lot
   # - BT-71-Part
-  - BT-79-Lot
+  # - BT-79-Lot
   - BT-578-Lot
   - BT-78-Lot
   - BT-732-Lot
@@ -158,7 +158,7 @@ removed:
   - BT-13715
   - BT-726-Lot
   - BT-726-LotsGroup
-  - BT-726-Part
+  # - BT-726-Part
   - BT-115-Lot
   # - BT-115-Part
   # - BT-634-Lot
