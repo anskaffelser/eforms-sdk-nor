@@ -93,8 +93,40 @@ fields.each do |i, field|
 end
 
 removed = config.fetch('removed', [])
-source['fields'] = source['fields'].select { |obj| !removed.include? obj['id'] }
-source['xmlStructure'] = source['xmlStructure'].select { |obj| !removed.include? obj['id'] }
+
+source['xmlStructure'] = source['xmlStructure'].map do |obj|
+  if removed.include? obj['id']
+    puts obj['id']
+    obj['active'] = false
+  else
+    obj['active'] = true
+  end
+
+  obj
+end
+
+source['fields'] = source['fields'].map do |obj|
+  if removed.include? obj['id']
+    puts obj['id']
+    obj['forbidden'] = {
+      'value' => false,
+      'severity' => 'ERROR',
+      'contratings' => [
+        {
+          'noticeTypes' => config['noticeTypes'].map { |v| v.to_s },
+          'value' => true,
+          'severity' => 'ERROR',
+        },
+      ],
+    }
+    obj['mandatory'] = Array::new
+    obj['active'] = false
+  else
+    obj['active'] = true
+  end
+  
+  obj
+end
 
 # Write result
 File.write opts[:output_file], JSON.pretty_generate(source, array_nl: '')
