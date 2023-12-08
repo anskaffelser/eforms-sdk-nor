@@ -27,7 +27,7 @@ notice_types.each do |nt|
   target = File.join(opts[:output_folder], "#{nt}.efx")
 
   # Remove stuff
-  #lines = File.readlines(source).select { |line|
+  lines = File.readlines(source) #.select { |line|
   #  !removed.include?(line.split(/[{}\[\]]/)[1])
   #}
 
