@@ -14,7 +14,7 @@ end
 config = YAML.load_file opts[:config_file]
 
 aliases = config.fetch('aliases', {}).to_h { |k,v| [k.to_s, v.to_s] }
-removed = config.fetch('removed', [])
+#removed = config.fetch('removed', [])
 notice_types = config.fetch('noticeTypes', []).map { |nt| nt.to_s }
 
 # Make sure folder exists
@@ -26,9 +26,10 @@ notice_types.each do |nt|
 
   target = File.join(opts[:output_folder], "#{nt}.efx")
 
-  lines = File.readlines(source).select { |line|
-    !removed.include?(line.split(/[{}\[\]]/)[1])
-  }
+  # Remove stuff
+  #lines = File.readlines(source).select { |line|
+  #  !removed.include?(line.split(/[{}\[\]]/)[1])
+  #}
 
   File.write target, lines.join()
 end
