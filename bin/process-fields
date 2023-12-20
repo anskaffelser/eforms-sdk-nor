@@ -111,7 +111,7 @@ source['fields'] = source['fields'].map do |obj|
     obj['forbidden'] = {
       'value' => false,
       'severity' => 'ERROR',
-      'contratings' => [
+      'constraints' => [
         {
           'noticeTypes' => config['noticeTypes'].map { |v| v.to_s },
           'value' => true,
