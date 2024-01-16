@@ -64,6 +64,15 @@ code|name|award-criterion-type.quality:
     history: []
     nob_verify: false
   nob_verify: false
+code|name|award-criterion-type.quality-nor-env-criteria:
+  name: Kvalitet – klima- og miljøkriterium
+  nob: Kvalitet – klima- og miljøkriterium
+code|name|award-criterion-type.quality-nor-env-spec:
+  name: Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)
+  nob: Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)
+code|name|award-criterion-type.quality-nor-env-none:
+  name: Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)
+  nob: Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)
 code|name|buyer-categories.buyer-categories:
   name: Buyer categories
   nob: Kategori av kjøpere

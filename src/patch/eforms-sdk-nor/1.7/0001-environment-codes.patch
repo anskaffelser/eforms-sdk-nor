@@ -1,0 +1,129 @@
+diff --git a/codelists/award-criterion-type.gc b/codelists/award-criterion-type.gc
+index 27b8cda..2a2a0ef 100644
+--- a/codelists/award-criterion-type.gc
++++ b/codelists/award-criterion-type.gc
+@@ -390,5 +390,56 @@
+             <SimpleValue>Kvalitet</SimpleValue>
+          </Value>
+       </Row>
++      <Row>
++         <Value ColumnRef="code">
++            <SimpleValue>quality-nor-env-criteria</SimpleValue>
++         </Value>
++         <Value ColumnRef="Name">
++            <SimpleValue>Kvalitet – klima- og miljøkriterium</SimpleValue>
++         </Value>
++         <Value ColumnRef="eng_label">
++            <SimpleValue>Kvalitet – klima- og miljøkriterium</SimpleValue>
++         </Value>
++         <Value ColumnRef="nno_label">
++            <SimpleValue>Kvalitet – klima- og miljøkriterium</SimpleValue>
++         </Value>
++         <Value ColumnRef="nob_label">
++            <SimpleValue>Kvalitet – klima- og miljøkriterium</SimpleValue>
++         </Value>
++      </Row>
++      <Row>
++         <Value ColumnRef="code">
++            <SimpleValue>quality-nor-env-spec</SimpleValue>
++         </Value>
++         <Value ColumnRef="Name">
++            <SimpleValue>Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)</SimpleValue>
++         </Value>
++         <Value ColumnRef="eng_label">
++            <SimpleValue>Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)</SimpleValue>
++         </Value>
++         <Value ColumnRef="nno_label">
++            <SimpleValue>Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)</SimpleValue>
++         </Value>
++         <Value ColumnRef="nob_label">
++            <SimpleValue>Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)</SimpleValue>
++         </Value>
++      </Row>
++      <Row>
++         <Value ColumnRef="code">
++            <SimpleValue>quality-nor-env-none</SimpleValue>
++         </Value>
++         <Value ColumnRef="Name">
++            <SimpleValue>Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)</SimpleValue>
++         </Value>
++         <Value ColumnRef="eng_label">
++            <SimpleValue>Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)</SimpleValue>
++         </Value>
++         <Value ColumnRef="nno_label">
++            <SimpleValue>Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)</SimpleValue>
++         </Value>
++         <Value ColumnRef="nob_label">
++            <SimpleValue>Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)</SimpleValue>
++         </Value>
++      </Row>
+    </SimpleCodeList>
+ </gc:CodeList>
+diff --git a/schematrons/eu-eforms-dynamic.sch b/schematrons/eu-eforms-dynamic.sch
+index ce7169c..74aed19 100644
+--- a/schematrons/eu-eforms-dynamic.sch
++++ b/schematrons/eu-eforms-dynamic.sch
+@@ -38015,10 +38015,10 @@
+ 		<assert id="BR-BT-00538-0104" role="ERROR" test="normalize-space(.) = ('UNKNOWN', 'UNLIMITED')">BT-538-Lot must contain a value from codelist duration</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
+-		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">BT-539-LotsGroup must contain a value from codelist award-criterion-type</assert>
++		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">BT-539-LotsGroup must contain a value from codelist award-criterion-type</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
+-		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">BT-539-Lot must contain a value from codelist award-criterion-type</assert>
++		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">BT-539-Lot must contain a value from codelist award-criterion-type</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:SecurityClearanceTerm/cbc:Code">
+ 		<assert id="BR-BT-00578-0052" role="ERROR" test="normalize-space(.) = ('false', 'true')">BT-578-Lot must contain a value from codelist required</assert>
+diff --git a/schematrons/eu-eforms-static.sch b/schematrons/eu-eforms-static.sch
+index 3ce8ea5..6a07b12 100644
+--- a/schematrons/eu-eforms-static.sch
++++ b/schematrons/eu-eforms-static.sch
+@@ -38012,10 +38012,10 @@
+ 		<assert id="BR-BT-00538-0104" role="ERROR" test="normalize-space(.) = ('UNKNOWN', 'UNLIMITED')">BT-538-Lot must contain a value from codelist duration</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
+-		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">BT-539-LotsGroup must contain a value from codelist award-criterion-type</assert>
++		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">BT-539-LotsGroup must contain a value from codelist award-criterion-type</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
+-		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">BT-539-Lot must contain a value from codelist award-criterion-type</assert>
++		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">BT-539-Lot must contain a value from codelist award-criterion-type</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:SecurityClearanceTerm/cbc:Code">
+ 		<assert id="BR-BT-00578-0052" role="ERROR" test="normalize-space(.) = ('false', 'true')">BT-578-Lot must contain a value from codelist required</assert>
+diff --git a/schematrons/national-eforms-dynamic.sch b/schematrons/national-eforms-dynamic.sch
+index bb69f9f..3e8df9e 100644
+--- a/schematrons/national-eforms-dynamic.sch
++++ b/schematrons/national-eforms-dynamic.sch
+@@ -12071,10 +12071,10 @@
+ 		<assert id="BR-BT-00538-0104" role="ERROR" test="normalize-space(.) = ('UNKNOWN', 'UNLIMITED')">BT-538-Lot must contain a value from codelist duration</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
+-		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">BT-539-LotsGroup must contain a value from codelist award-criterion-type</assert>
++		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">BT-539-LotsGroup must contain a value from codelist award-criterion-type</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
+-		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">BT-539-Lot must contain a value from codelist award-criterion-type</assert>
++		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">BT-539-Lot must contain a value from codelist award-criterion-type</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:SecurityClearanceTerm/cbc:Code">
+ 		<assert id="BR-BT-00578-0052" role="ERROR" test="normalize-space(.) = ('false', 'true')">BT-578-Lot must contain a value from codelist required</assert>
+diff --git a/schematrons/national-eforms-static.sch b/schematrons/national-eforms-static.sch
+index df257c5..e81a52d 100644
+--- a/schematrons/national-eforms-static.sch
++++ b/schematrons/national-eforms-static.sch
+@@ -12068,10 +12068,10 @@
+ 		<assert id="BR-BT-00538-0104" role="ERROR" test="normalize-space(.) = ('UNKNOWN', 'UNLIMITED')">BT-538-Lot must contain a value from codelist duration</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
+-		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">BT-539-LotsGroup must contain a value from codelist award-criterion-type</assert>
++		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">BT-539-LotsGroup must contain a value from codelist award-criterion-type</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
+-		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">BT-539-Lot must contain a value from codelist award-criterion-type</assert>
++		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">BT-539-Lot must contain a value from codelist award-criterion-type</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:SecurityClearanceTerm/cbc:Code">
+ 		<assert id="BR-BT-00578-0052" role="ERROR" test="normalize-space(.) = ('false', 'true')">BT-578-Lot must contain a value from codelist required</assert>

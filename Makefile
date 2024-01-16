@@ -55,7 +55,7 @@ target/eforms-sdk/README.md:
 	@unzip -qo target/eforms-sdk.zip -d target
 	@mv target/eForms-SDK-$(EFORMS_VERSION) target/eforms-sdk
 	@rm -rf target/eforms-sdk.zip
-	@test ! -d src/patch/$(EFORMS_MINOR) || patch --directory=target/eforms-sdk -p1 < $$(ls src/patch/$(EFORMS_MINOR)/*.patch)
+	@test ! -d src/patch/eforms-sdk/$(EFORMS_MINOR) || patch --directory=target/eforms-sdk -p1 < $$(ls src/patch/eforms-sdk/$(EFORMS_MINOR)/*.patch)
 
 .bundle/vendor:
 	@echo "* Install dependencies"
@@ -74,6 +74,7 @@ target/eforms-sdk-nor: \
 	target/eforms-sdk-nor/README.md \
 	target/eforms-sdk-nor/LICENSE-eForms-SDK \
 	target/eforms-sdk-nor/LICENSE-eForms-SDK-NOR
+	@test ! -d src/patch/eforms-sdk-nor/$(EFORMS_MINOR) || patch --directory=target/eforms-sdk-nor -p1 < $$(ls src/patch/eforms-sdk-nor/$(EFORMS_MINOR)/*.patch)
 
 target/eforms-sdk-nor/codelists: target/eforms-sdk bin/create-codelists src/properties.yaml
 	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/create-codelists

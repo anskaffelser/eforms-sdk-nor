@@ -46,4 +46,10 @@ Stylesheet used to convert eForms notifications created according to Norwegian r
         </xsl:for-each>
     </xsl:template>
     
+    <!-- Make environment criterions into quality criterions -->
+    <xsl:template match="cac:SubordinateAwardingCriterion[cbc:AwardingCriterionTypeCode[@listName = 'award-criterion-type'][normalize-space() = 'quality-nor-env-none']]"/>
+    <xsl:template match="cbc:AwardingCriterionTypeCode[@listName = 'award-criterion-type'][starts-with(normalize-space(), 'quality-nor-')]">
+        <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+    </xsl:template>
+
 </xsl:stylesheet>
