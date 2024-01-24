@@ -434,13 +434,13 @@ code|name|contract-detail.exc-right:
     nob_verify: false
   nob_verify: false
 code|name|contract-detail.other:
-  name: Other particular conditions
+  name: Other
   nob: Andre spesielle forhold
   history:
   - name: Other particular conditions
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|contract-detail.publ-ser-obl:
   name: Public service obligations
   nob: Forpliktelser vedrørende offentlige tjenester
@@ -594,13 +594,13 @@ code|name|country.ATB:
     nob_verify: false
   nob_verify: false
 code|name|country.ATF:
-  name: French Southern Lands
+  name: French Southern and Antarctic Lands
   nob: Franske sørlige land
   history:
   - name: French Southern Lands
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|country.ATG:
   name: Antigua and Barbuda
   nob: Antigua and Barbuda
@@ -1518,13 +1518,13 @@ code|name|country.LVA:
   history: []
   nob_verify: false
 code|name|country.MAC:
-  name: Macau
+  name: Macao
   nob: Macau
   history:
   - name: Macau
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|country.MAF:
   name: Saint Martin
   nob: Saint Martin
@@ -2331,10 +2331,10 @@ code|name|country.UZB:
     nob_verify: false
   nob_verify: false
 code|name|country.VAT:
-  name: Vatican City State
+  name: Holy See
   nob: Vatikanstaten
   history: []
-  nob_verify: false
+  nob_verify: true
 code|name|country.VCT:
   name: Saint Vincent and the Grenadines
   nob: Saint Vincent og Grenadinene
@@ -72052,7 +72052,7 @@ code|name|eforms-country.LVA:
   history: []
   nob_verify: false
 code|name|eforms-country.MAC:
-  name: Macau
+  name: Macao
   history: []
   nob_verify: false
 code|name|eforms-country.MAF:
@@ -72444,7 +72444,7 @@ code|name|eforms-country.UZB:
   history: []
   nob_verify: false
 code|name|eforms-country.VAT:
-  name: Vatican City State
+  name: Holy See
   history: []
   nob_verify: false
 code|name|eforms-country.VCT:
@@ -93313,3 +93313,35 @@ code|name|tendered-object.Lot:
   name: The Object Technical ID or its reference is of type "Lot".
 code|name|tendered-object.LotsGroup:
   name: The Object Technical ID or its reference is of type "Group of lots".
+code|name|contract-term.cost-comp:
+  name: Cost parameters for compensation payments
+code|name|contract-term.exc-right:
+  name: Exclusive rights are granted
+code|name|contract-term.other:
+  name: Other
+code|name|contract-term.publ-ser-obl:
+  name: Public service obligations
+code|name|contract-term.soc-stand:
+  name: Social standards
+code|name|country.XKX:
+  name: Kosovo
+code|name|eforms-country.ATF:
+  name: French Southern and Antarctic Lands
+code|name|eforms-country.XKX:
+  name: Kosovo
+code|name|lawful-country.ATF:
+  name: French Southern and Antarctic Lands
+code|name|lawful-country.BLM:
+  name: Saint Barthélemy
+code|name|lawful-country.CPT:
+  name: Clipperton
+code|name|lawful-country.NCL:
+  name: New Caledonia
+code|name|lawful-country.PYF:
+  name: French Polynesia
+code|name|lawful-country.SPM:
+  name: Saint Pierre and Miquelon
+code|name|lawful-country.WLF:
+  name: Wallis and Futuna
+code|name|revenue-allocation.all-rev-tic:
+  name: Allocation of revenues of sales from tickets

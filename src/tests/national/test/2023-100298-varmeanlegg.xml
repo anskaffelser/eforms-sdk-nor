@@ -34,6 +34,7 @@ BR-OPP-00050-0022 x 2
                   <cbc:StreetName>Rådhuset, postboks 104</cbc:StreetName>
                   <cbc:CityName>Svelgen</cbc:CityName>
                   <cbc:PostalZone>6721</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO0A2</cbc:CountrySubentityCode>
                   <cac:Country>
                     <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
                   </cac:Country>

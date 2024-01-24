@@ -110,4 +110,14 @@
         </xsl:copy>
     </xsl:template>
 
+    <!-- Fix of regexes with at least amount of chars -->
+    <xsl:template match="sch:assert[matches(@test, '\{\d,\}')]">
+        <xsl:copy>
+            <xsl:copy-of select="@id"/>
+            <xsl:copy-of select="@role"/>
+            <xsl:attribute name="test" select="replace(@test, '\{(\d),\}', '{$1,63}')"/>
+            <xsl:apply-templates select="node()"/>
+        </xsl:copy>
+    </xsl:template>
+
 </xsl:stylesheet>

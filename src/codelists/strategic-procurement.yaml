@@ -15,13 +15,13 @@ inn-pur:
     nob_verify: false
   nob_verify: false
 none:
-  name: None
+  name: No strategic procurement
   nob: Ingen
   history:
   - name: None
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 soc-obj:
   name: Fulfilment of social objectives
   nob: Oppfyllelse av sosiale formål/mål

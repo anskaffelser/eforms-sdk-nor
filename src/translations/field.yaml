@@ -615,7 +615,7 @@ field|name|BT-1311(t)-Lot:
     nob_verify: false
   nob_verify: false
 field|name|BT-132(d)-Lot:
-  name: Date/time
+  name: Opening date
   nob: Dato/klokkeslett
   history:
   - name: Date/time
@@ -627,9 +627,9 @@ field|name|BT-132(d)-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-132(t)-Lot:
-  name: Date/time
+  name: Opening date
   nob: Dato/klokkeslett
   history:
   - name: Date/time
@@ -641,7 +641,7 @@ field|name|BT-132(t)-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-133-Lot:
   name: Place
   nob: Sted
@@ -713,7 +713,7 @@ field|name|BT-136-Procedure:
     nob_verify: false
   nob_verify: false
 field|name|BT-137-Lot:
-  name: Lot
+  name: Lot technical ID
   nob: Skjebne
   history:
   - name: Lot
@@ -725,9 +725,9 @@ field|name|BT-137-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-137-LotsGroup:
-  name: Lot
+  name: Group of lots technical ID
   nob: Skjebne
   history:
   - name: Lot
@@ -739,7 +739,7 @@ field|name|BT-137-LotsGroup:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-137-Part:
   name: Part
   nob: Del
@@ -755,7 +755,7 @@ field|name|BT-137-Part:
     nob_verify: false
   nob_verify: false
 field|name|BT-13713-LotResult:
-  name: Result Lot Identifier
+  name: Result lot ldentifier
   nob: Identifikator for resultatparti
   history:
   - name: Result Lot Identifier
@@ -767,7 +767,7 @@ field|name|BT-13713-LotResult:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-13714-Tender:
   name: Identifier of lot or group of lots
   nob: Identifikator for parti eller gruppe med partier
@@ -1077,7 +1077,7 @@ field|name|BT-160-Tender:
     nob_verify: false
   nob_verify: false
 field|name|BT-161-NoticeResult:
-  name: Value of all contracts awarded in this procedure
+  name: Value of all contracts awarded in this notice
   nob: Verdien av alle kontrakter tildelt i denne prosedyren
   history:
   - name: Value of all contracts awarded in this procedure
@@ -1089,7 +1089,7 @@ field|name|BT-161-NoticeResult:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-162-Tender:
   name: Estimated revenue coming from the users of the concession
   nob: Anslåtte inntekter som kommer fra brukerne av konsesjonen
@@ -4227,7 +4227,7 @@ field|name|BT-22-Procedure:
     nob_verify: false
   nob_verify: false
 field|name|BT-23-Lot:
-  name: Nature of the contract
+  name: Main nature of the contract
   nob: Kontraktens art
   history:
   - name: Nature of the contract
@@ -4239,9 +4239,9 @@ field|name|BT-23-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-23-Part:
-  name: Nature of the contract
+  name: Main nature of the contract
   nob: Kontraktens art
   history:
   - name: Nature of the contract
@@ -4253,9 +4253,9 @@ field|name|BT-23-Part:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-23-Procedure:
-  name: Nature of the contract
+  name: Main nature of the contract
   nob: Kontraktens art
   history:
   - name: Nature of the contract
@@ -4267,7 +4267,7 @@ field|name|BT-23-Procedure:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-24-Lot:
   name: Description
   nob: 'Beskrivelse: __________'
@@ -4647,7 +4647,7 @@ field|name|BT-3201-Tender:
     nob_verify: false
   nob_verify: false
 field|name|BT-3202-Contract:
-  name: Contract Tender Identifier
+  name: Contract tender identifier
   nob: Kontrakt Tender Identifier
   history:
   - name: Contract Tender Identifier
@@ -4659,7 +4659,7 @@ field|name|BT-3202-Contract:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-33-Procedure:
   name: Maximum number of lots for which contracts can be awarded to one tenderer
   nob: Maksimalt antall partier som kontrakter kan tildeles én tilbyder for
@@ -4675,7 +4675,7 @@ field|name|BT-33-Procedure:
     nob_verify: false
   nob_verify: false
 field|name|BT-330-Procedure:
-  name: Group of lots
+  name: Group identifier
   nob: Gruppe av tomter
   history:
   - name: Group of lots
@@ -4687,7 +4687,7 @@ field|name|BT-330-Procedure:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-36-Lot:
   name: Duration
   nob: Varighet
@@ -5963,7 +5963,7 @@ field|name|BT-536-Part:
     nob_verify: false
   nob_verify: false
 field|name|BT-537-Lot:
-  name: End date
+  name: Duration end date
   nob: Sluttdato
   history:
   - name: End date
@@ -5975,9 +5975,9 @@ field|name|BT-537-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-537-Part:
-  name: End date
+  name: Duration end date
   nob: Sluttdato
   history:
   - name: End date
@@ -5989,7 +5989,7 @@ field|name|BT-537-Part:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-538-Lot:
   name: Other duration
   nob: Annen varighet
@@ -6271,7 +6271,7 @@ field|name|BT-555-Tender:
     nob_verify: false
   nob_verify: false
 field|name|BT-556-NoticeResult:
-  name: Group Framework Value Lot Identifier
+  name: Group framework value lot identifier
   nob: Partiidentifikator for grupperammeverk
   history:
   - name: Group Framework Value Lot Identifier
@@ -6283,7 +6283,7 @@ field|name|BT-556-NoticeResult:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-57-Lot:
   name: The buyer reserves the right for additional purchases from the contractor, as described here
   nob: 'Beskrivelse: __________'
@@ -8259,7 +8259,7 @@ field|name|OPP-034-Tender:
     nob_verify: false
   nob_verify: false
 field|name|OPP-040-Procedure:
-  name: Main nature – subtype
+  name: Nature of the transport services
   nob: Hovednatur – subtype
   history:
   - name: Main nature – subtype
@@ -8271,7 +8271,7 @@ field|name|OPP-040-Procedure:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPP-050-Organization:
   name: Group leader
   nob: Gruppeleder
@@ -8651,7 +8651,7 @@ field|name|OPT-090-LotsGroup:
     nob_verify: false
   nob_verify: false
 field|name|OPT-100-Contract:
-  name: ID – Framework notice
+  name: Notice that created the framework agreement
   nob: ID – Rammeverk
   history:
   - name: ID – Framework notice
@@ -8663,9 +8663,9 @@ field|name|OPT-100-Contract:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-110-Lot-FiscalLegis:
-  name: ID – Notice publication
+  name: Web address of tax legislation
   nob: ID – Kunngjøring om offentliggjøring
   history:
   - name: ID – Notice publication
@@ -8677,9 +8677,9 @@ field|name|OPT-110-Lot-FiscalLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-110-Part-FiscalLegis:
-  name: ID – Notice publication
+  name: Web address of tax legislation
   nob: ID – Kunngjøring om offentliggjøring
   history:
   - name: ID – Notice publication
@@ -8691,9 +8691,9 @@ field|name|OPT-110-Part-FiscalLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-111-Lot-FiscalLegis:
-  name: ID – Tax legislation document
+  name: Tax legislation document ID
   nob: ID – dokument om skattelovgivning
   history:
   - name: ID – Tax legislation document
@@ -8705,9 +8705,9 @@ field|name|OPT-111-Lot-FiscalLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-111-Part-FiscalLegis:
-  name: ID – Tax legislation document
+  name: Tax legislation document ID
   nob: ID – dokument om skattelovgivning
   history:
   - name: ID – Tax legislation document
@@ -8719,9 +8719,9 @@ field|name|OPT-111-Part-FiscalLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-112-Lot-EnvironLegis:
-  name: ID – Environmental legislation document
+  name: Environmental legislation document ID
   nob: ID – dokument om miljølovgivning
   history:
   - name: ID – Environmental legislation document
@@ -8733,9 +8733,9 @@ field|name|OPT-112-Lot-EnvironLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-112-Part-EnvironLegis:
-  name: ID – Environmental legislation document
+  name: Environmental legislation document ID
   nob: ID – dokument om miljølovgivning
   history:
   - name: ID – Environmental legislation document
@@ -8747,9 +8747,9 @@ field|name|OPT-112-Part-EnvironLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-113-Lot-EmployLegis:
-  name: ID – Employment legislation document
+  name: Employment legislation document ID
   nob: ID – arbeidsrettslig dokument
   history:
   - name: ID – Employment legislation document
@@ -8761,9 +8761,9 @@ field|name|OPT-113-Lot-EmployLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-113-Part-EmployLegis:
-  name: ID – Employment legislation document
+  name: Employment legislation document ID
   nob: ID – arbeidsrettslig dokument
   history:
   - name: ID – Employment legislation document
@@ -8775,9 +8775,9 @@ field|name|OPT-113-Part-EmployLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-120-Lot-EnvironLegis:
-  name: URL to environmental legislation
+  name: Web address of environmental legislation
   nob: URL til miljølovgivning
   history:
   - name: URL to environmental legislation
@@ -8789,9 +8789,9 @@ field|name|OPT-120-Lot-EnvironLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-120-Part-EnvironLegis:
-  name: URL to environmental legislation
+  name: Web address of environmental legislation
   nob: URL til miljølovgivning
   history:
   - name: URL to environmental legislation
@@ -8803,9 +8803,9 @@ field|name|OPT-120-Part-EnvironLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-130-Lot-EmployLegis:
-  name: URL to employment legislation
+  name: Web address of employment legislation
   nob: URL til arbeidslovgivningen
   history:
   - name: URL to employment legislation
@@ -8817,9 +8817,9 @@ field|name|OPT-130-Lot-EmployLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-130-Part-EmployLegis:
-  name: URL to employment legislation
+  name: Web address of employment legislation
   nob: URL til arbeidslovgivningen
   history:
   - name: URL to employment legislation
@@ -8831,9 +8831,9 @@ field|name|OPT-130-Part-EmployLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-140-Lot:
-  name: ID – Procurement documents
+  name: Procurement documents ID
   nob: ID – anskaffelsesdokumenter
   history:
   - name: ID – Procurement documents
@@ -8845,9 +8845,9 @@ field|name|OPT-140-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-140-Part:
-  name: ID – Procurement documents
+  name: Procurement documents ID
   nob: ID – anskaffelsesdokumenter
   history:
   - name: ID – Procurement documents
@@ -8859,7 +8859,7 @@ field|name|OPT-140-Part:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-150-Lot:
   name: Subcontracting is allowed
   nob: Underentreprise er tillatt
@@ -8889,7 +8889,7 @@ field|name|OPT-155-LotResult:
     nob_verify: false
   nob_verify: false
 field|name|OPT-156-LotResult:
-  name: Vehicle numeric
+  name: Number of vehicles
   nob: Kjøretøyets numeriske
   history:
   - name: Vehicle numeric
@@ -8901,9 +8901,9 @@ field|name|OPT-156-LotResult:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-160-UBO:
-  name: Concession revenue buyer
+  name: Ultimate beneficial owner
   nob: Kjøper av konsesjonsinntekter
   history:
   - name: Concession revenue buyer
@@ -8915,7 +8915,7 @@ field|name|OPT-160-UBO:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-170-Tenderer:
   name: Leader of tendering party
   nob: Anbudsleder
@@ -8931,7 +8931,7 @@ field|name|OPT-170-Tenderer:
     nob_verify: false
   nob_verify: false
 field|name|OPT-200-Organization-Company:
-  name: ID – Company
+  name: Organisation technical ID (ORG-XXX)
   nob: ID – Firma
   history:
   - name: ID – Company
@@ -8943,9 +8943,9 @@ field|name|OPT-200-Organization-Company:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-201-Organization-TouchPoint:
-  name: ID – Specific contact point
+  name: Touch point technical ID (TPO-XXX)
   nob: ID – spesifikt kontaktpunkt
   history:
   - name: ID – Specific contact point
@@ -8957,9 +8957,9 @@ field|name|OPT-201-Organization-TouchPoint:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-202-UBO:
-  name: ID – Beneficial owner
+  name: UBO technical ID (UBO-XXX)
   nob: ID – reell rettighetshaver
   history:
   - name: ID – Beneficial owner
@@ -8971,9 +8971,9 @@ field|name|OPT-202-UBO:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-210-Tenderer:
-  name: ID – Tendering party
+  name: Tendering party technical ID (TPA-XXX)
   nob: ID – Anbudspart
   history:
   - name: ID – Tendering party
@@ -8985,9 +8985,9 @@ field|name|OPT-210-Tenderer:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-300-Contract-Signatory:
-  name: ID – Contract signatory
+  name: Organisation filling this role
   nob: ID – Signering av kontrakt
   history:
   - name: ID – Contract signatory
@@ -8999,9 +8999,9 @@ field|name|OPT-300-Contract-Signatory:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-300-Procedure-Buyer:
-  name: ID – Buyer
+  name: Organisation filling this role
   nob: ID – kjøper
   history:
   - name: ID – Buyer
@@ -9013,9 +9013,9 @@ field|name|OPT-300-Procedure-Buyer:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-300-Procedure-SProvider:
-  name: ID – Service provider
+  name: Organisation filling this role
   nob: ID – tjenesteleverandør
   history:
   - name: ID – Service provider
@@ -9027,9 +9027,9 @@ field|name|OPT-300-Procedure-SProvider:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-300-Tenderer:
-  name: ID – Tenderer
+  name: Organisation filling this role
   nob: ID – anbudsgiver
   history:
   - name: ID – Tenderer
@@ -9041,9 +9041,9 @@ field|name|OPT-300-Tenderer:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Lot-AddInfo:
-  name: ID – Additional information provider
+  name: Organisation filling this role
   nob: ID – leverandør av tilleggsinformasjon
   history:
   - name: ID – Additional information provider
@@ -9055,9 +9055,9 @@ field|name|OPT-301-Lot-AddInfo:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Lot-DocProvider:
-  name: ID – Document provider
+  name: Organisation filling this role
   nob: ID – dokumentleverandør
   history:
   - name: ID – Document provider
@@ -9069,9 +9069,9 @@ field|name|OPT-301-Lot-DocProvider:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Lot-EmployLegis:
-  name: ID – Employment legislation information provider
+  name: Organisation filling this role
   nob: ID – leverandør av informasjon om arbeidslovgivning
   history:
   - name: ID – Employment legislation information provider
@@ -9083,9 +9083,9 @@ field|name|OPT-301-Lot-EmployLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Lot-EnvironLegis:
-  name: ID – Environmental legislation information provider
+  name: Organisation filling this role
   nob: ID – leverandør av informasjon om miljølovgivning
   history:
   - name: ID – Environmental legislation information provider
@@ -9097,9 +9097,9 @@ field|name|OPT-301-Lot-EnvironLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Lot-FiscalLegis:
-  name: ID – Fiscal legislation information provider
+  name: Organisation filling this role
   nob: ID – leverandør av informasjon om skattelovgivning
   history:
   - name: ID – Fiscal legislation information provider
@@ -9111,9 +9111,9 @@ field|name|OPT-301-Lot-FiscalLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Lot-Mediator:
-  name: ID – Mediator
+  name: Organisation filling this role
   nob: ID – Mellommann
   history:
   - name: ID – Mediator
@@ -9125,9 +9125,9 @@ field|name|OPT-301-Lot-Mediator:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Lot-ReviewInfo:
-  name: ID – Review information provider
+  name: Organisation filling this role
   nob: ID – gjennomgå informasjonsleverandøren
   history:
   - name: ID – Review information provider
@@ -9139,9 +9139,9 @@ field|name|OPT-301-Lot-ReviewInfo:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Lot-ReviewOrg:
-  name: ID – Review organisation
+  name: Organisation filling this role
   nob: ID – Organisering av gjennomgang
   history:
   - name: ID – Review organisation
@@ -9153,9 +9153,9 @@ field|name|OPT-301-Lot-ReviewOrg:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Lot-TenderEval:
-  name: ID – Tender evaluator
+  name: Organisation filling this role
   nob: ID – Anbudsevaluator
   history:
   - name: ID – Tender evaluator
@@ -9167,9 +9167,9 @@ field|name|OPT-301-Lot-TenderEval:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Lot-TenderReceipt:
-  name: ID – Tender recipient
+  name: Organisation filling this role
   nob: ID – Anbudsmottaker
   history:
   - name: ID – Tender recipient
@@ -9181,9 +9181,9 @@ field|name|OPT-301-Lot-TenderReceipt:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-LotResult-Financing:
-  name: ID – Financing party
+  name: Organisation filling this role
   nob: ID – finansieringspart
   history:
   - name: ID – Financing party
@@ -9195,9 +9195,9 @@ field|name|OPT-301-LotResult-Financing:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-LotResult-Paying:
-  name: ID – Paying party
+  name: Organisation filling this role
   nob: ID – betalende part
   history:
   - name: ID – Paying party
@@ -9209,9 +9209,9 @@ field|name|OPT-301-LotResult-Paying:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Part-AddInfo:
-  name: ID – Additional information provider
+  name: Organisation filling this role
   nob: ID – leverandør av tilleggsinformasjon
   history:
   - name: ID – Additional information provider
@@ -9223,9 +9223,9 @@ field|name|OPT-301-Part-AddInfo:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Part-DocProvider:
-  name: ID – Document provider
+  name: Organisation filling this role
   nob: ID – dokumentleverandør
   history:
   - name: ID – Document provider
@@ -9237,9 +9237,9 @@ field|name|OPT-301-Part-DocProvider:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Part-EmployLegis:
-  name: ID – Employment legislation information provider
+  name: Organisation filling this role
   nob: ID – leverandør av informasjon om arbeidslovgivning
   history:
   - name: ID – Employment legislation information provider
@@ -9251,9 +9251,9 @@ field|name|OPT-301-Part-EmployLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Part-EnvironLegis:
-  name: ID – Environmental legislation information provider
+  name: Organisation filling this role
   nob: ID – leverandør av informasjon om miljølovgivning
   history:
   - name: ID – Environmental legislation information provider
@@ -9265,9 +9265,9 @@ field|name|OPT-301-Part-EnvironLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Part-FiscalLegis:
-  name: ID – Fiscal legislation information provider
+  name: Organisation filling this role
   nob: ID – leverandør av informasjon om skattelovgivning
   history:
   - name: ID – Fiscal legislation information provider
@@ -9279,9 +9279,9 @@ field|name|OPT-301-Part-FiscalLegis:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Part-Mediator:
-  name: ID – Mediator
+  name: Organisation filling this role
   nob: ID – Mellommann
   history:
   - name: ID – Mediator
@@ -9293,9 +9293,9 @@ field|name|OPT-301-Part-Mediator:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Part-ReviewInfo:
-  name: ID – Review information provider
+  name: Organisation filling this role
   nob: ID – gjennomgå informasjonsleverandøren
   history:
   - name: ID – Review information provider
@@ -9307,9 +9307,9 @@ field|name|OPT-301-Part-ReviewInfo:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Part-ReviewOrg:
-  name: ID – Review organisation
+  name: Organisation filling this role
   nob: ID – Organisering av gjennomgang
   history:
   - name: ID – Review organisation
@@ -9321,9 +9321,9 @@ field|name|OPT-301-Part-ReviewOrg:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Part-TenderEval:
-  name: ID – Tender evaluator
+  name: Organisation filling this role
   nob: ID – Anbudsevaluator
   history:
   - name: ID – Tender evaluator
@@ -9335,9 +9335,9 @@ field|name|OPT-301-Part-TenderEval:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Part-TenderReceipt:
-  name: ID – Tender recipient
+  name: Organisation filling this role
   nob: ID – Anbudsmottaker
   history:
   - name: ID – Tender recipient
@@ -9349,9 +9349,9 @@ field|name|OPT-301-Part-TenderReceipt:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Tenderer-MainCont:
-  name: ID – Main contractor
+  name: Organisation filling this role
   nob: ID – Hovedentreprenør
   history:
   - name: ID – Main contractor
@@ -9363,9 +9363,9 @@ field|name|OPT-301-Tenderer-MainCont:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-Tenderer-SubCont:
-  name: ID – Subcontractor
+  name: Organisation filling this role
   nob: ID – underleverandør
   history:
   - name: ID – Subcontractor
@@ -9377,9 +9377,9 @@ field|name|OPT-301-Tenderer-SubCont:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-302-Organization:
-  name: ID – Beneficial owner
+  name: Organisation filling this role
   nob: Reell rettighetshaver-referanse
   history:
   - name: Beneficial owner reference
@@ -9393,7 +9393,7 @@ field|name|OPT-302-Organization:
     nob_verify: false
   nob_verify: true
 field|name|OPT-310-Tender:
-  name: ID – Tendering party
+  name: Tendering party technical ID reference
   nob: ID – Anbudspart
   history:
   - name: ID – Tendering party
@@ -9405,9 +9405,9 @@ field|name|OPT-310-Tender:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-315-LotResult:
-  name: ID – Contract
+  name: Reference to the contract
   nob: ID – Kontrakt
   history:
   - name: ID – Contract
@@ -9419,9 +9419,9 @@ field|name|OPT-315-LotResult:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-316-Contract:
-  name: ID – Contract
+  name: Technical ID of the contract
   nob: ID – Kontrakt
   history:
   - name: ID – Contract
@@ -9433,9 +9433,9 @@ field|name|OPT-316-Contract:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-320-LotResult:
-  name: Tender identifier reference
+  name: Technical ID of a received tender
   nob: Referanse til betalingsmiddelidentifikator
   history:
   - name: Tender identifier reference
@@ -9447,9 +9447,9 @@ field|name|OPT-320-LotResult:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-321-Tender:
-  name: ID – Tender
+  name: Technical ID of the tender
   nob: ID – anbud
   history:
   - name: ID – Tender
@@ -9461,7 +9461,7 @@ field|name|OPT-321-Tender:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-999:
   name: Dummy tender award date
   nob: Dato for anbudstildeling
@@ -10429,7 +10429,7 @@ field|name|OPT-092-ReviewReq:
     nob_verify: false
   nob_verify: false
 field|name|OPT-301-ReviewBody:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
   nob: ID – virksomhetens kontaktpunkt
   history:
   - name: ID – Organisation contact point
@@ -10441,9 +10441,9 @@ field|name|OPT-301-ReviewBody:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-301-ReviewReq:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
   nob: ID – virksomhetens kontaktpunkt
   history:
   - name: ID – Organisation contact point
@@ -10455,9 +10455,9 @@ field|name|OPT-301-ReviewReq:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-322-LotResult:
-  name: ID – Lot result
+  name: Technical ID of the lot result (RES-XXX)
   nob: ID - Lot resultat
   history:
   - name: ID – Lot result
@@ -10469,7 +10469,7 @@ field|name|OPT-322-LotResult:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|description|BT-01(c)-Procedure:
   name: The legal basis (e.g. a Union or national legal act) under which the procurement procedure takes place or, in case of prior information notices, under which the procurement procedure(s) will take place.
   nob: Det rettslige grunnlaget (f.eks. en unionsrettsakt eller nasjonal rettsakt) som framgangsmåten for anskaffelsen finner sted under, eller, ved kunngjøringer om forhåndsinformasjon, framgangsmåten for innkjøp.
@@ -21137,7 +21137,7 @@ field|name|BT-137-LotsGroup-Scheme:
 field|name|BT-137-Part-Scheme:
   name: Lot
 field|name|BT-13713-LotResult-Scheme:
-  name: Result Lot Identifier
+  name: Result lot ldentifier
 field|name|BT-13714-Tender-Scheme:
   name: Identifier of lot or group of lots
 field|name|BT-1375-Procedure-Scheme:
@@ -21163,7 +21163,7 @@ field|name|BT-157-LotsGroup-Currency:
 field|name|BT-160-Tender-Currency:
   name: Estimated revenue coming from the buyer who granted the concession
 field|name|BT-161-NoticeResult-Currency:
-  name: Value of all contracts awarded in this procedure
+  name: Value of all contracts awarded in this notice
 field|name|BT-162-Tender-Currency:
   name: Estimated revenue coming from the users of the concession
 field|name|BT-163-Tender-Language:
@@ -21559,9 +21559,9 @@ field|name|BT-22-Part-Scheme:
 field|name|BT-22-Procedure-Scheme:
   name: Internal identifier
 field|name|BT-23-Part-List:
-  name: Nature of the contract
+  name: Main nature of the contract
 field|name|BT-23-Procedure-List:
-  name: Nature of the contract
+  name: Main nature of the contract
 field|name|BT-24-Lot-Language:
   name: Description
 field|name|BT-24-LotsGroup-Language:
@@ -21593,7 +21593,7 @@ field|name|BT-300-Part-Language:
 field|name|BT-300-Procedure-Language:
   name: Additional information
 field|name|BT-3202-Contract-Scheme:
-  name: Contract Tender Identifier
+  name: Contract tender identifier
 field|name|BT-330-Procedure-Scheme:
   name: Group of lots
 field|name|BT-36-Lot-Unit:
@@ -21681,7 +21681,7 @@ field|name|BT-553-Tender-Currency:
 field|name|BT-554-Tender-Language:
   name: Description
 field|name|BT-556-NoticeResult-Scheme:
-  name: Group Framework Value Lot Identifier
+  name: Group framework value lot identifier
 field|name|BT-57-Lot-Language:
   name: The buyer reserves the right for additional purchases from the contractor, as described here
 field|name|BT-578-Lot-List:
@@ -21891,7 +21891,7 @@ field|name|OPP-033-Tender-List:
 field|name|OPP-034-Tender-Language:
   name: Penalties and rewards description
 field|name|OPP-040-Procedure-List:
-  name: Main nature – subtype
+  name: Nature of the transport services
 field|name|OPP-070-notice-List:
   name: Notice subtype
 field|name|OPP-080-Tender-Unit:
@@ -21927,90 +21927,106 @@ field|name|OPT-092-ReviewBody-Language:
 field|name|OPT-092-ReviewReq-Language:
   name: Review body type description
 field|name|OPT-100-Contract-Scheme:
-  name: ID – Framework notice
+  name: Notice that created the framework agreement
 field|name|OPT-155-LotResult-List:
   name: Vehicle type
 field|name|OPT-200-Organization-Company-Scheme:
-  name: ID – Company
+  name: Organisation technical ID (ORG-XXX)
 field|name|OPT-201-Organization-TouchPoint-Scheme:
-  name: ID – Specific contact point
+  name: Touch point technical ID (TPO-XXX)
 field|name|OPT-202-UBO-Scheme:
-  name: ID – Beneficial owner
+  name: UBO technical ID (UBO-XXX)
 field|name|OPT-210-Tenderer-Scheme:
-  name: ID – Tendering party
+  name: Tendering party technical ID (TPA-XXX)
 field|name|OPT-211-Tenderer:
   name: Name of the tendering party
 field|name|OPT-300-Contract-Signatory-Scheme:
-  name: ID – Organisation
+  name: Organisation filling this role
 field|name|OPT-300-Procedure-Buyer-Scheme:
-  name: ID – Organisation
+  name: Organisation filling this role
 field|name|OPT-300-Procedure-SProvider-Scheme:
-  name: ID – Organisation
+  name: Organisation filling this role
 field|name|OPT-300-Tenderer-Scheme:
-  name: ID – Organisation
+  name: Organisation filling this role
 field|name|OPT-301-Lot-AddInfo-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Lot-DocProvider-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Lot-EmployLegis-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Lot-EnvironLegis-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Lot-FiscalLegis-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Lot-Mediator-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Lot-ReviewInfo-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Lot-ReviewOrg-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Lot-TenderEval-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Lot-TenderReceipt-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-LotResult-Financing-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-LotResult-Paying-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Part-AddInfo-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Part-DocProvider-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Part-EmployLegis-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Part-EnvironLegis-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Part-FiscalLegis-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Part-Mediator-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Part-ReviewInfo-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Part-ReviewOrg-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Part-TenderEval-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Part-TenderReceipt-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-ReviewBody-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-ReviewReq-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Tenderer-MainCont-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-301-Tenderer-SubCont-Scheme:
-  name: ID – Organisation contact point
+  name: Organisation or specific contact point
 field|name|OPT-302-Organization-Scheme:
-  name: ID – Beneficial owner
+  name: Organisation filling this role
 field|name|OPT-310-Tender-Scheme:
-  name: ID – Tendering party
+  name: Tendering party technical ID reference
 field|name|OPT-315-LotResult-Scheme:
-  name: ID – Contract
+  name: Reference to the contract
 field|name|OPT-316-Contract-Scheme:
-  name: ID – Contract
+  name: Technical ID of the contract
 field|name|OPT-320-LotResult-Scheme:
-  name: Tender identifier reference
+  name: Technical ID of a received tender
 field|name|OPT-321-Tender-Scheme:
-  name: ID – Tender
+  name: Technical ID of the tender
 field|name|OPT-322-LotResult-Scheme:
-  name: ID – Lot result
+  name: Technical ID of the lot result (RES-XXX)
+field|description|BT-5141-Lot:
+  name: The country of the place of performance.
+field|description|BT-5141-Lot-List:
+  name: The country of the place of performance.
+field|description|BT-5141-Part:
+  name: The country of the place of performance.
+field|description|BT-5141-Part-List:
+  name: The country of the place of performance.
+field|description|BT-5141-Procedure:
+  name: The country of the place of performance.
+field|description|BT-5141-Procedure-List:
+  name: The country of the place of performance.
+field|hint|BT-13716-notice:
+  name: 'One of the following must be filled in: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX'
+field|name|OPP-035-Tender:
+  name: Revenues Allocation of tickets sales code

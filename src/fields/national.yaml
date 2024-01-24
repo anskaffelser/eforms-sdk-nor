@@ -14,7 +14,7 @@ rules:
   # /*/cbc:CustomizationID
   OPT-002-notice:
     - id: EFORMS-NOR-R001
-      test: matches(normalize-space(),'^eforms-sdk-\d\.\d#extended#urn:fdc:anskaffelser.no:2023:eforms:national$')
+      test: matches(normalize-space(),'^eforms-sdk-\d\.(\d{1,2})#extended#urn:fdc:anskaffelser.no:2023:eforms:national$')
       message: Customization identifier must match the Norwegian accepted identifier
 
   # /*/cbc:NoticeLanguageCode
@@ -83,6 +83,7 @@ removed:
   - BT-5010-Lot
   - BT-6140-Lot
   - GR-Lot-EUFunds
+  - GR-Lot-EUFunds-Indicator
 
   # Other Requirements
   - BG-705
@@ -100,6 +101,10 @@ removed:
   - GR-Lot-Requirements2SecurityClearance1
   - GR-Lot-SecurityClearance2
   - GR-Nda
+
+  # CVD
+  - GR-Lot-TenderingTerms-CVD-type
+  - GR-Lot-TenderingTerms-CVD
 
   # Group Framework Maximum Value
   - BG-556

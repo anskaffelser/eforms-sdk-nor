@@ -822,3 +822,7 @@ auxiliary|text|unpublished:
   nob_verify: false
 auxiliary|text|prize-information:
   name: Prize
+auxiliary|text|OPP-035:
+  name: Revenues Allocation of tickets sales code
+auxiliary|text|change-notice:
+  name: Change notice

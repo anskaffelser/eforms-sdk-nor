@@ -27,13 +27,13 @@ exc-right:
     nob_verify: false
   nob_verify: false
 other:
-  name: Other particular conditions
+  name: Other
   nob: Andre spesielle forhold
   history:
   - name: Other particular conditions
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 publ-ser-obl:
   name: Public service obligations
   nob: Forpliktelser vedrørende offentlige tjenester

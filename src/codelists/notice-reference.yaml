@@ -1,0 +1,4 @@
+notice-id-ref:
+  name: The reference to the notice is in the format "UUID-XX".
+ojs-notice-id:
+  name: The reference to the notice is in the format "XXXXXXXXXX-YYYY".

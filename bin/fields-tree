@@ -1,0 +1,51 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'json'
+require 'slop'
+require 'yaml'
+
+opts = Slop.parse do |o|
+  o.string '-i', '--input-file', default: 'target/eforms-sdk/fields/fields.json'
+  o.string '-n', '--names', default: 'src/translations/field.yaml'
+  o.string '-r', '--root', default: 'ND-Root'
+end
+
+# Load fields
+
+source = JSON.parse File.read opts[:input_file]
+PARENTS = {}
+IDS = {}
+
+source['xmlStructure'].each do |block|
+  PARENTS[block.fetch('parentId', nil)] = PARENTS.fetch(block.fetch('parentId', nil), []).append(block)
+  IDS[block['id']] = block
+end
+
+source['fields'].each do |block|
+  PARENTS[block.fetch('parentNodeId', nil)] = PARENTS.fetch(block.fetch('parentNodeId', nil), []).append(block)
+  IDS[block['id']] = block
+  IDS[block['idId']] = block
+end
+
+# Load names
+
+NAMES = YAML.load_file opts[:names]
+
+# Print tree
+
+def print_tree(parent, level)
+  PARENTS.fetch(parent, []).each do |child|
+    puts "#{'  ' * level}#{child['id']} - #{NAMES.fetch("field|name|#{child['id']}", {'name' => 'MISSING'})['name']}"
+    print_tree(child['id'], level + 1)
+  end
+end
+
+def print_root(id)
+  root = IDS.fetch(id, {'id' => 'MISSING'})
+  puts "#{root['id']}"
+
+  print_tree(id, 1)
+end
+
+print_root(opts[:root])

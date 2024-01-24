@@ -15,10 +15,10 @@ dps-nlist:
     nob_verify: false
   nob_verify: false
 none:
-  name: None
+  name: No dynamic purchase system
   nob: Ingen
   history:
   - name: None
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true

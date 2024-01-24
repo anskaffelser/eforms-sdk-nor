@@ -1,6 +1,7 @@
-sdk_minor: '1.8'
+sdk_minor: '1.10'
 sdk_patch: '1'
 
 versions:
   - 1.7.2
   - 1.8.1
+  - 1.10.1

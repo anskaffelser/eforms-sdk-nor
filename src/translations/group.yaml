@@ -3261,3 +3261,7 @@ group|name|ND-TenderValueHighestUnpublish:
   name: Not Immediately Published (TenderValueHighest)
 group|name|ND-TenderValueLowestUnpublish:
   name: Not Immediately Published (TenderValueLowest)
+group|name|ND-Asset:
+  name: Individual Asset characteristics (description, significance, predominance) justifying the Contract extension
+group|name|ND-ExtendedDurationJustification:
+  name: Elements about the Extension of the Contract Duration (Indicator, Assets)

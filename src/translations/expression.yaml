@@ -55,13 +55,13 @@ expression|name|105:
     nob_verify: false
   nob_verify: false
 expression|name|106:
-  name: "'Duration' (BT-36-Lot) or 'End date' (BT-537-Lot) is filled in"
+  name: "'Duration' (BT-36-Lot) or 'Duration end date' (BT-537-Lot) is filled in"
   nob: Varighet' (BT-36-Lot) eller 'Sluttdato' (BT-537-Lot) fylles ut
   history:
   - name: "'Duration' (BT-36-Lot) or 'End date' (BT-537-Lot) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|107:
   name: "'Duration' (BT-36-Lot) or 'Other duration' (BT-538-Lot) is filled in"
   nob: Varighet' (BT-36-Lot) eller 'Annen varighet' (BT-538-Lot) fylles ut
@@ -71,13 +71,13 @@ expression|name|107:
     nob_verify: false
   nob_verify: false
 expression|name|108:
-  name: "'End date' (BT-537-Lot) or 'Other duration' (BT-538-Lot) is filled in"
+  name: "'Duration end date' (BT-537-Lot) or 'Other duration' (BT-538-Lot) is filled in"
   nob: Sluttdato' (BT-537-Lot) eller 'Annen varighet' (BT-538-Lot) er fylt ut
   history:
   - name: "'End date' (BT-537-Lot) or 'Other duration' (BT-538-Lot) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|109:
   name: "'Type of procedure' (BT-105) is not 'Direct award'"
   nob: Type prosedyre» (BT-105) er ikke «Direkte tildeling»
@@ -623,29 +623,29 @@ expression|name|172:
     nob_verify: false
   nob_verify: false
 expression|name|173:
-  name: "'Nature of the contract' (BT-23-Procedure) is not filled in"
+  name: "'Main nature of the contract' (BT-23-Procedure) is not filled in"
   nob: Kontraktens art» (BT-23-Prosedyre) er ikke utfylt
   history:
   - name: "'Nature of the contract' (BT-23-Procedure) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|174:
-  name: "'Nature of the contract' (BT-23-Lot) is not filled in"
+  name: "'Main nature of the contract' (BT-23-Lot) is not filled in"
   nob: Kontraktens art» (BT-23-Lot) er ikke fylt ut
   history:
   - name: "'Nature of the contract' (BT-23-Lot) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|175:
-  name: "'Nature of the contract' (BT-23-Part) is not filled in"
+  name: "'Main nature of the contract' (BT-23-Part) is not filled in"
   nob: Kontraktens art» (BT-23-del) er ikke utfylt
   history:
   - name: "'Nature of the contract' (BT-23-Part) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|176:
   name: "'Deadline for receipt of tenders' (BT-131(d)-Lot) or 'Deadline for receipt of requests to participate' (BT-1311(d)-Lot) are filled in"
   nob: Frist for mottak av tilbud» (BT-131(d)-Lot) eller «Frist for mottak av anmodninger om deltakelse» (BT-1311(d)-Lot) fylles ut
@@ -655,29 +655,29 @@ expression|name|176:
     nob_verify: false
   nob_verify: false
 expression|name|177:
-  name: "'ID – Tender' (OPT-321-Tender) does not exist"
+  name: "'Technical ID of the tender' (OPT-321-Tender) does not exist"
   nob: ID – Tender' (OPT-321-Tender) eksisterer ikke
   history:
   - name: "'ID – Tender' (OPT-321-Tender) does not exist"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|178:
-  name: "'ID – Organisation' (OPT-300-Tenderer) does not exist"
+  name: "'Organisation filling this role' (OPT-300-Tenderer) does not exist"
   nob: ID – Organisasjon' (OPT-300-Tenderer) eksisterer ikke
   history:
   - name: "'ID – Organisation' (OPT-300-Tenderer) does not exist"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|179:
-  name: "'ID – Organisation contact point' (OPT-301-Tenderer-MainCont) is not filled in"
+  name: "'Organisation or specific contact point' (OPT-301-Tenderer-MainCont) is not filled in"
   nob: ID – Organisasjonens kontaktpunkt' (OPT-301-Tenderer-MainCont) er ikke fylt ut
   history:
   - name: "'ID – Organisation contact point' (OPT-301-Tenderer-MainCont) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|18:
   name: "'Award criterion number' (BT-541-LotsGroup) is not empty"
   nob: Kriterienummer for tildeling» (BT-541-LotsGroup) er ikke tomt
@@ -735,37 +735,37 @@ expression|name|185:
     nob_verify: false
   nob_verify: false
 expression|name|186:
-  name: "'ID – Company' (OPT-200-Organization-Company) is a 'Buyer' (OPT-300-Procedure-Buyer)"
+  name: "'Organisation technical ID (ORG-XXX)' (OPT-200-Organization-Company) is a 'Buyer' (OPT-300-Procedure-Buyer)"
   nob: ID - Company' (OPT-200-Organization-Company) er en 'kjøper' (OPT-300-Procedure-Buyer)
   history:
   - name: "'ID – Company' (OPT-200-Organization-Company) is a 'Buyer' (OPT-300-Procedure-Buyer)"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|187:
-  name: "'ID – Notice publication' (OPT-110-Lot-FiscalLegis) is filled in"
+  name: "'Web address of tax legislation' (OPT-110-Lot-FiscalLegis) is filled in"
   nob: ID – Notice publication' (OPT-110-Lot-FiscalLegis) er fylt ut
   history:
   - name: "'ID – Notice publication' (OPT-110-Lot-FiscalLegis) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|188:
-  name: "'ID – Notice publication' (OPT-110-Part-FiscalLegis) is filled in"
+  name: "'Web address of tax legislation' (OPT-110-Part-FiscalLegis) is filled in"
   nob: ID – Kunngjøringspublikasjon' (OPT-110-Part-FiscalLegis) er fylt ut
   history:
   - name: "'ID – Notice publication' (OPT-110-Part-FiscalLegis) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|189:
-  name: "'URL to environmental legislation' (OPT-120-Lot-EnvironLegis) is filled in"
+  name: "'Web address of environmental legislation' (OPT-120-Lot-EnvironLegis) is filled in"
   nob: URL til miljølovgivning' (OPT-120-Lot-EnvironLegis) er fylt ut
   history:
   - name: "'URL to environmental legislation' (OPT-120-Lot-EnvironLegis) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|19:
   name: "'Award criterion number' (BT-541-LotsGroup) is not empty"
   nob: Kriterienummer for tildeling» (BT-541-LotsGroup) er ikke tomt
@@ -775,29 +775,29 @@ expression|name|19:
     nob_verify: false
   nob_verify: false
 expression|name|190:
-  name: "'URL to environmental legislation' (OPT-120-Part-EnvironLegis) is filled in"
+  name: "'Web address of environmental legislation' (OPT-120-Part-EnvironLegis) is filled in"
   nob: URL til miljølovgivning' (OPT-120-Part-EnvironLegis) er fylt ut
   history:
   - name: "'URL to environmental legislation' (OPT-120-Part-EnvironLegis) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|191:
-  name: "'URL to employment legislation' (OPT-130-Lot-EmployLegis) is filled in"
+  name: "'Web address of employment legislation' (OPT-130-Lot-EmployLegis) is filled in"
   nob: URL til arbeidslovgivningen' (OPT-130-Lot-EmployLegis) fylles ut
   history:
   - name: "'URL to employment legislation' (OPT-130-Lot-EmployLegis) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|192:
-  name: "'URL to employment legislation' (OPT-130-Part-EmployLegis) is filled in"
+  name: "'Web address of employment legislation' (OPT-130-Part-EmployLegis) is filled in"
   nob: URL til arbeidslovgivningen» (OPT-130-Part-EmployLegis) fylles ut
   history:
   - name: "'URL to employment legislation' (OPT-130-Part-EmployLegis) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|193:
   name: "'Review remedy type' (BT-792-Review) is not 'Alternative penalty' or 'Damages'"
   nob: Review Remedy Type' (BT-792-Review) er ikke 'Alternativ straff' eller 'Skader'
@@ -847,13 +847,13 @@ expression|name|198:
     nob_verify: false
   nob_verify: false
 expression|name|199:
-  name: "'Duration' (BT-36-Lot) and 'End date' (BT-537-Lot) are not filled in"
+  name: "'Duration' (BT-36-Lot) and 'Duration end date' (BT-537-Lot) are not filled in"
   nob: Varighet' (BT-36-Lot) og 'Sluttdato' (BT-537-Lot) fylles ikke ut
   history:
   - name: "'Duration' (BT-36-Lot) and 'End date' (BT-537-Lot) are not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|2:
   name: "'The buyer is a contracting entity' (BT-740) is 'Yes'"
   nob: Kjøperen er en oppdragsgiver» (BT-740) er «Ja»
@@ -871,13 +871,13 @@ expression|name|20:
     nob_verify: false
   nob_verify: false
 expression|name|200:
-  name: "'End date' (BT-537-Lot) is filled in"
+  name: "'Duration end date' (BT-537-Lot) is filled in"
   nob: Sluttdato' (BT-537-Lot) er fylt ut
   history:
   - name: "'End date' (BT-537-Lot) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|201:
   name: "'Any service contract following the contest will be awarded to one of the winners of the contest' ((BT-41-Lot)) is not true"
   nob: Enhver servicekontrakt etter konkurransen vil bli tildelt en av vinnerne av konkurransen' ((BT-41-Lot)) er ikke sann
@@ -903,21 +903,21 @@ expression|name|203:
     nob_verify: false
   nob_verify: false
 expression|name|204:
-  name: "'Contract Tender Identifier' (BT-3202-Contract) is not filled in"
+  name: "'Contract tender identifier' (BT-3202-Contract) is not filled in"
   nob: Contract Tender Identifier' (BT-3202-Contract) er ikke fylt ut
   history:
   - name: "'Contract Tender Identifier' (BT-3202-Contract) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|205:
-  name: "'Type of procedure' (BT-105) is not 'Negotiated without prior call for competition'; 'Legal basis' (BT-01) is not 'Regulation (EU, Euratom) 2018/1046'; at least one 'Contract Tender Identifier' (BT-3202-Contract) is filled in"
+  name: "'Type of procedure' (BT-105) is not 'Negotiated without prior call for competition'; 'Legal basis' (BT-01) is not 'Regulation (EU, Euratom) 2018/1046'; at least one 'Contract tender identifier' (BT-3202-Contract) is filled in"
   nob: Type prosedyre» (BT-105) er ikke «Forhandlet uten forutgående innkalling til konkurranse», jf. «Rettslig grunnlag» (BT-01) er ikke «forordning (EU, Euratom) 2018/1046»; minst én 'Contract Tender Identifier' (BT-3202-Contract) er fylt ut
   history:
   - name: "'Type of procedure' (BT-105) is not 'Negotiated without prior call for competition'; 'Legal basis' (BT-01) is not 'Regulation (EU, Euratom) 2018/1046'; at least one 'Contract Tender Identifier' (BT-3202-Contract) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|206:
   name: "'The contract is awarded within a framework agreement' (BT-768-Contract) is not true"
   nob: Kontrakten er tildelt innenfor en rammeavtale» (BT-768-Contract) stemmer ikke
@@ -1095,13 +1095,13 @@ expression|name|225:
     nob_verify: false
   nob_verify: false
 expression|name|226:
-  name: "'Value of all contracts awarded in this procedure' (BT-161-NoticeResult) is not filled in"
+  name: "'Value of all contracts awarded in this notice' (BT-161-NoticeResult) is not filled in"
   nob: Verdien av alle kontrakter tildelt i denne prosedyren' (BT-161-NoticeResult) er ikke fylt ut
   history:
   - name: "'Value of all contracts awarded in this procedure' (BT-161-NoticeResult) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|227:
   name: "'Estimated revenue coming from the users of the concession' (BT-162-Tender) is not filled in"
   nob: Estimerte inntekter som kommer fra brukerne av konsesjonen» (BT-162-Tender) fylles ikke ut
@@ -1295,13 +1295,13 @@ expression|name|248:
     nob_verify: false
   nob_verify: false
 expression|name|249:
-  name: "'Group Framework Value Lot Identifier' (BT-556-NoticeResult) is not filled in"
+  name: "'Group framework value lot identifier' (BT-556-NoticeResult) is not filled in"
   nob: Group Framework Value Lot Identifier' (BT-556-NoticeResult) er ikke fylt ut
   history:
   - name: "'Group Framework Value Lot Identifier' (BT-556-NoticeResult) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|25:
   name: "'Maximum renewals' (BT-58-Lot) is not greater than 0"
   nob: Maksimal fornyelse '(BT-58-Lot) er ikke større enn 0
@@ -1391,13 +1391,13 @@ expression|name|259:
     nob_verify: false
   nob_verify: false
 expression|name|26:
-  name: "'Nature of the contract' (BT-23-Lot) is not 'Services'"
+  name: "'Main nature of the contract' (BT-23-Lot) is not 'Services'"
   nob: Kontraktens art» (BT-23-Lot) er ikke «tjenester»
   history:
   - name: "'Nature of the contract' (BT-23-Lot) is not 'Services'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|260:
   name: "'Name' (BT-734-LotsGroup) is not filled in"
   nob: Navn' (BT-734-LotsGroup) er ikke fylt ut
@@ -1919,13 +1919,13 @@ expression|name|318:
     nob_verify: false
   nob_verify: false
 expression|name|319:
-  name: "'ID – Organisation contact point' (OPT-301-Lot-ReviewInfo) is not filled in"
+  name: "'Organisation or specific contact point' (OPT-301-Lot-ReviewInfo) is not filled in"
   nob: ID – Organisasjonens kontaktpunkt' (OPT-301-Lot-ReviewInfo) er ikke fylt ut
   history:
   - name: "'ID – Organisation contact point' (OPT-301-Lot-ReviewInfo) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|32:
   name: "'Selection criteria second stage invite number' (BT-752-Lot) is not empty"
   nob: Utvalgskriterier andre trinn invitasjonsnummer' (BT-752-Lot) er ikke tomt
@@ -2119,29 +2119,29 @@ expression|name|340:
     nob_verify: false
   nob_verify: false
 expression|name|341:
-  name: The organisation cannot act as 'ID – Organisation' (OPT-300-Tenderer) or a subcontractor (OPT-301-Tenderer-SubCont)
+  name: The organisation cannot act as 'Organisation filling this role' (OPT-300-Tenderer) or a subcontractor (OPT-301-Tenderer-SubCont)
   nob: Organisasjonen kan ikke opptre som «ID – organisasjon» (OPT-300-tilbyder) eller underleverandør (OPT-301-Tenderer-SubCont)
   history:
   - name: The organisation cannot act as 'ID – Organisation' (OPT-300-Tenderer) or a subcontractor (OPT-301-Tenderer-SubCont)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|342:
-  name: If the organisation submitted 'ID – Tendering party' (OPT-310-Tender) which lead to 'Contract Tender Identifier' (BT-3202-Contract), then the organisation is a winner
+  name: If the organisation submitted 'Tendering party technical ID reference' (OPT-310-Tender) which lead to 'Contract tender identifier' (BT-3202-Contract), then the organisation is a winner
   nob: Hvis organisasjonen sendte inn 'ID – Tendering part' (OPT-310-Tender) som fører til 'Contract Tender Identifier' (BT-3202-Contract), er organisasjonen en vinner
   history:
   - name: If the organisation submitted 'ID – Tendering party' (OPT-310-Tender) which lead to 'Contract Tender Identifier' (BT-3202-Contract), then the organisation is a winner
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|343:
-  name: "'ID – Beneficial owner' (OPT-202-UBO) is not filled in"
+  name: "'UBO technical ID (UBO-XXX)' (OPT-202-UBO) is not filled in"
   nob: ID – Reell rettighetshaver' (OPT-202-UBO) er ikke fylt ut
   history:
   - name: "'ID – Beneficial owner' (OPT-202-UBO) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|345:
   name: The organisation is not a 'Buyer'
   nob: Organisasjonen er ikke en "kjøper"
@@ -2207,7 +2207,7 @@ expression|name|351:
     nob_verify: false
   nob_verify: false
 expression|name|352:
-  name: At least one organisation is connected to 'ID – Beneficial owner' (OPT-302-Organization)
+  name: At least one organisation is connected to 'Organisation filling this role' (OPT-302-Organization)
   nob: Minst én organisasjon er tilknyttet 'Referanse til reell rettighetshaver' (OPT-302-Organization)
   history:
   - name: At least one organisation is connected to 'Beneficial owner reference' (OPT-302-Organization)
@@ -2391,21 +2391,21 @@ expression|name|374:
     nob_verify: false
   nob_verify: false
 expression|name|375:
-  name: "'End date' (BT-537-Part) is filled in; 'Other duration' (BT-538-Part) is filled in"
+  name: "'Duration end date' (BT-537-Part) is filled in; 'Other duration' (BT-538-Part) is filled in"
   nob: Sluttdato' (BT-537-del) er fylt ut; 'Annen varighet' (BT-538-del) fylles ut
   history:
   - name: "'End date' (BT-537-Part) is filled in; 'Other duration' (BT-538-Part) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|376:
-  name: "'Duration' (BT-36-Part) and 'End date' (BT-537-Part) are not filled in"
+  name: "'Duration' (BT-36-Part) and 'Duration end date' (BT-537-Part) are not filled in"
   nob: Varighet' (BT-36-del) og 'Sluttdato' (BT-537-del) fylles ikke ut
   history:
   - name: "'Duration' (BT-36-Part) and 'End date' (BT-537-Part) are not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|377:
   name: "'Duration' (BT-36-Part) is filled in; 'Other duration' (BT-538-Part) is filled in"
   nob: Varighet' (BT-36-del) er fylt ut; 'Annen varighet' (BT-538-del) fylles ut
@@ -2415,13 +2415,13 @@ expression|name|377:
     nob_verify: false
   nob_verify: false
 expression|name|378:
-  name: "'Duration' (BT-36-Part) is filled in; 'End date' (BT-537-Part) is filled in"
+  name: "'Duration' (BT-36-Part) is filled in; 'Duration end date' (BT-537-Part) is filled in"
   nob: Varighet' (BT-36-del) er fylt ut; 'Sluttdato' (BT-537-del) fylles ut
   history:
   - name: "'Duration' (BT-36-Part) is filled in; 'End date' (BT-537-Part) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|379:
   name: The organisation is not a service provider, and is not a tenderer or a subcontractor which is not on a regulated market
   nob: Organisasjonen er ikke en tjenesteyter, og er ikke en tilbyder eller underleverandør som ikke befinner seg på regulert marked
@@ -2447,45 +2447,45 @@ expression|name|381:
     nob_verify: false
   nob_verify: false
 expression|name|382:
-  name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+  name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'Touch point technical ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) is filled in"
   nob: E-post» (BT-506-Organization-TouchPoint), «Telefon» (BT-503-Organization-TouchPoint), «Fax» (BT-739-Organization-TouchPoint), «Offisielt navn» (BT-500-Organization-TouchPoint), «Endepunkt for informasjonsutveksling (URL)» (BT-509-Organization-TouchPoint) fylles ikke ut. 'ID - Spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er fylt ut
   history:
   - name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|383:
-  name: "'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+  name: "'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'Touch point technical ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) is filled in"
   nob: Telefon» (BT-503-Organization-TouchPoint), «Fax» (BT-739-Organization-TouchPoint), «Offisielt navn» (BT-500-Organization-TouchPoint), «Internett-adresse» (BT-505-Organization-TouchPoint), «Information Exchange endpoint (URL)» (BT-509-Organization-TouchPoint) fylles ikke ut. 'ID - Spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er fylt ut
   history:
   - name: "'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|384:
-  name: "'Email' (BT-506-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+  name: "'Email' (BT-506-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'Touch point technical ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) is filled in"
   nob: E-post' (BT-506-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Offisielt navn' (BT-500-Organization-TouchPoint), 'Internett-adresse' (BT-505-Organization-TouchPoint), 'Information Exchange endpoint (URL)' (BT-509-Organization-TouchPoint) fylles ikke ut. 'ID - Spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er fylt ut
   history:
   - name: "'Email' (BT-506-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|385:
-  name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+  name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'Touch point technical ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) is filled in"
   nob: E-post» (BT-506-Organization-TouchPoint), «Telefon» (BT-503-Organization-TouchPoint), «Offisielt navn» (BT-500-Organization-TouchPoint), «Internett-adresse» (BT-505-Organization-TouchPoint), «Information Exchange endpoint (URL)» (BT-509-Organization-TouchPoint) fylles ikke ut. 'ID - Spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er fylt ut
   history:
   - name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|386:
-  name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+  name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'Touch point technical ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) is filled in"
   nob: E-post' (BT-506-Organization-TouchPoint), 'Telefon' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) fylles ikke ut. 'ID - Spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er fylt ut
   history:
   - name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint), 'Information exchange endpoint (URL)' (BT-509-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|387:
   name: "'Country' (BT-514-Organization-TouchPoint) is not filled in"
   nob: Land' (BT-514-Organization-TouchPoint) er ikke fylt ut
@@ -2495,13 +2495,13 @@ expression|name|387:
     nob_verify: false
   nob_verify: false
 expression|name|388:
-  name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
+  name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint) are not filled in; 'Touch point technical ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) is filled in"
   nob: E-post» (BT-506-Organization-TouchPoint), «Telefon» (BT-503-Organization-TouchPoint), «Fax» (BT-739-Organization-TouchPoint), «Offisielt navn» (BT-500-Organization-TouchPoint), «Internett-adresse» (BT-505-Organization-TouchPoint) fylles ikke ut. 'ID - Spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er fylt ut
   history:
   - name: "'Email' (BT-506-Organization-TouchPoint), 'Telephone' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Official name' (BT-500-Organization-TouchPoint), 'Internet address' (BT-505-Organization-TouchPoint) are not filled in; 'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|389:
   name: "'Country' (BT-514-Business) does not have NUTS codes"
   nob: Land' (BT-514-Business) har ikke NUTS-koder
@@ -2583,13 +2583,13 @@ expression|name|405:
     nob_verify: false
   nob_verify: false
 expression|name|406:
-  name: "'Group Framework Value Lot Identifier' (BT-557) is not filled in"
+  name: "'Group framework value lot identifier' (BT-557) is not filled in"
   nob: Group Framework Value Lot Identifier' (BT-557) er ikke fylt ut
   history:
   - name: "'Group Framework Value Lot Identifier' (BT-557) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|41:
   name: "'Access to certain procurement documents is restricted' (BT-14-Lot) is not filled in"
   nob: Tilgangen til visse anskaffelsesdokumenter er begrenset» (BT-14-Lot) er ikke fylt ut
@@ -2895,7 +2895,7 @@ expression|name|53:
     nob_verify: false
   nob_verify: false
 expression|name|530:
-  name: "'ID – Beneficial owner' (OPT-302-Organization) is not connected to any organisation"
+  name: "'Organisation filling this role' (OPT-302-Organization) is not connected to any organisation"
   nob: Reell rettighetshaverreferanse» (OPT-302-Organization) er ikke knyttet til noen organisasjon
   history:
   - name: "'Beneficial owner reference' (OPT-302-Organization) is not connected to any organisation"
@@ -2903,21 +2903,21 @@ expression|name|530:
     nob_verify: false
   nob_verify: true
 expression|name|531:
-  name: "'ID – Company' (OPT-200-Organization-Company) is not filled in"
+  name: "'Organisation technical ID (ORG-XXX)' (OPT-200-Organization-Company) is not filled in"
   nob: ID – Selskap' (OPT-200-Organization-Company) er ikke fylt ut
   history:
   - name: "'ID – Company' (OPT-200-Organization-Company) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|532:
-  name: "'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is not filled in"
+  name: "'Touch point technical ID (TPO-XXX)' (OPT-201-Organization-TouchPoint) is not filled in"
   nob: ID – spesifikt kontaktpunkt' (OPT-201-Organization-TouchPoint) er ikke fylt ut
   history:
   - name: "'ID – Specific contact point' (OPT-201-Organization-TouchPoint) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|54:
   name: "'An obligation to be met by the tenderer concerning subcontracting' (BT-65_Lot) is not 'The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC.'"
   nob: En forpliktelse som tilbyderen skal oppfylle når det gjelder underleveranser» (BT-65_Lot) er ikke «Leverandøren må sette bort en minimumsprosent av kontrakten etter framgangsmåten fastsatt i avdeling III i direktiv 2009/81/EF.»
@@ -2943,13 +2943,13 @@ expression|name|56:
     nob_verify: false
   nob_verify: false
 expression|name|57:
-  name: "'Framework agreement is involved' (BT-765-Lot) is 'None'"
+  name: "'Framework agreement is involved' (BT-765-Lot) is 'No dynamic purchase system'"
   nob: Rammeavtale er involvert' (BT-765-Lot) er 'Ingen'
   history:
   - name: "'Framework agreement is involved' (BT-765-Lot) is 'None'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|58:
   name: "'Framework agreement is involved' (BT-765) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'"
   nob: 'Rammeavtale er involvert» (BT-765) er en av følgende: «Rammeavtale, dels uten gjenåpning og dels med gjenåpning av konkurranse». «Rammeavtale, med gjenåpning av konkurranse», jf. «Rammeavtale, uten gjenåpning av konkurranse»'
@@ -3023,13 +3023,13 @@ expression|name|65:
     nob_verify: false
   nob_verify: false
 expression|name|66:
-  name: "'Winner selection status' (BT-142-LotResult) is not 'At least one winner was chosen.'; 'ID – Lot result' (OPT-322) is not filled in"
+  name: "'Winner selection status' (BT-142-LotResult) is not 'At least one winner was chosen.'; 'Technical ID of the lot result (RES-XXX)' (OPT-322) is not filled in"
   nob: Status for valg av vinner' (BT-142-LotResult) er ikke 'Minst én vinner ble kåret.'; 'ID – Lot result' (OPT-322) er ikke fylt ut
   history:
   - name: "'Winner selection status' (BT-142-LotResult) is not 'At least one winner was chosen.'; 'ID – Lot result' (OPT-322) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|67:
   name: "'Subcontracting' (BT-773-Tender) is not 'Yes'"
   nob: Underleverandør» (BT-773-Anbud) er ikke «Ja»
@@ -3191,13 +3191,13 @@ expression|name|87:
     nob_verify: false
   nob_verify: false
 expression|name|89:
-  name: "'ID – Contract' (OPT-315-LotResult) is not empty"
+  name: "'Reference to the contract' (OPT-315-LotResult) is not empty"
   nob: ID – Kontrakt' (OPT-315-LotResult) er ikke tom
   history:
   - name: "'ID – Contract' (OPT-315-LotResult) is not empty"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|90:
   name: "'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'"
   nob: Status for valg av vinner» (BT-142-LotResult) kan ikke være «Minst én vinner ble kåret».
@@ -3303,21 +3303,21 @@ expression|name|540:
     nob_verify: false
   nob_verify: false
 expression|name|542:
-  name: "'Group Framework Value Lot Identifier' (BT-556) is filled in and the 'Group Framework Re-estimated Value (BT-1561)' is not filled in"
+  name: "'Group framework value lot identifier' (BT-556) is filled in and the 'Group Framework Re-estimated Value (BT-1561)' is not filled in"
   nob: Group Framework Value Lot Identifier' (BT-556) fylles ut og 'Group Framework Re-estimated Value (BT-1561)' fylles ikke ut
   history:
   - name: "'Group Framework Value Lot Identifier' (BT-556) is filled in and the 'Group Framework Re-estimated Value (BT-1561)' is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|543:
-  name: "'Group Framework Value Lot Identifier' (BT-556) is filled in and the 'Estimated value of the framework agreements in the group of lots' is not filled in"
+  name: "'Group framework value lot identifier' (BT-556) is filled in and the 'Estimated value of the framework agreements in the group of lots' is not filled in"
   nob: Group Framework Value Lot Identifier' (BT-556) fylles ut og 'Estimert verdi av rammeavtalene i partigruppen' fylles ikke ut
   history:
   - name: "'Group Framework Value Lot Identifier' (BT-556) is filled in and the 'Estimated value of the framework agreements in the group of lots' is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|544:
   name: "'Approximate value of the framework agreements' (BT-1118-NoticeResult) is not filled in"
   nob: Omtrentlig verdi av rammeavtalene» (BT-1118-NoticeResult) er ikke fylt ut
@@ -3367,29 +3367,29 @@ expression|name|549:
     nob_verify: false
   nob_verify: false
 expression|name|550:
-  name: "'ID – Tender' (OPT-321-Tender) is not filled in"
+  name: "'Technical ID of the tender' (OPT-321-Tender) is not filled in"
   nob: ID – Tender' (OPT-321-Tender) er ikke fylt ut
   history:
   - name: "'ID – Tender' (OPT-321-Tender) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|551:
-  name: "'ID – Tender' (OPT-321-Tender) is not filled in"
+  name: "'Technical ID of the tender' (OPT-321-Tender) is not filled in"
   nob: ID – Tender' (OPT-321-Tender) er ikke fylt ut
   history:
   - name: "'ID – Tender' (OPT-321-Tender) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|552:
-  name: "'ID – Lot result' (OPT-322) is not filled in"
+  name: "'Technical ID of the lot result (RES-XXX)' (OPT-322) is not filled in"
   nob: ID – Lot result' (OPT-322) er ikke fylt ut
   history:
   - name: "'ID – Lot result' (OPT-322) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|553:
   name: "'Results of lots' is not filled in; Tender for the lot covered by 'Procedure lot result' is not filled in; No tender is filled in and no lot is specified for the 'Procedure lot result'; The competition is still ongoing"
   nob: Resultater av lodd' er ikke fylt ut; Anbud på partiet som omfattes av "Prosedyrepartiresultat" fylles ikke ut; Det fylles ikke ut noe anbud og det spesifiseres ikke noe parti for 'Prosedyrepartiresultatet'; Konkurransen pågår fortsatt
@@ -3407,21 +3407,21 @@ expression|name|554:
     nob_verify: false
   nob_verify: false
 expression|name|555:
-  name: "'ID – Contract' (OPT-316-Contract) is not filled in; 'ID – Tender' (OPT-321-Tender) is not filled in"
+  name: "'Technical ID of the contract' (OPT-316-Contract) is not filled in; 'Technical ID of the tender' (OPT-321-Tender) is not filled in"
   nob: ID – Kontrakt' (OPT-316-Contract) er ikke fylt ut; 'ID – Tender' (OPT-321-Tender) er ikke fylt ut
   history:
   - name: "'ID – Contract' (OPT-316-Contract) is not filled in; 'ID – Tender' (OPT-321-Tender) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|556:
-  name: "'ID – Contract' (OPT-316-Contract) is not filled in"
+  name: "'Technical ID of the contract' (OPT-316-Contract) is not filled in"
   nob: ID – Kontrakt' (OPT-316-Contract) er ikke fylt ut
   history:
   - name: "'ID – Contract' (OPT-316-Contract) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|557:
   name: Lot ID is not filled in
   nob: Parti-ID fylles ikke ut
@@ -3462,3 +3462,21 @@ expression|name|568:
     history: []
     nob_verify: false
   nob_verify: false
+expression|name|589:
+  name: "'Start date' (BT-536-Part) and 'Duration end date' (BT-537-Part) are present, or 'Other duration' (BT-538-Part) is present"
+expression|name|590:
+  name: "'Duration' (BT-36-Part) and 'Duration end date' (BT-537-Part) are present, or 'Other duration' (BT-538-Part) and 'Duration end date' (BT-537-Part) are present"
+expression|name|591:
+  name: "'Start date' (BT-536-Part) and 'Other duration' (BT-538-Part) are present, or 'Start date' (BT-536-Part) and 'Duration' (BT-36-Part) are present, or 'Other duration' (BT-538-Part) is present and equal to 'Unlimited'."
+expression|name|592:
+  name: "'Duration' (BT-36-Part) is present, or 'Start date' and 'Duration end date' (BT-536-Part, BT-537-Part) are present"
+expression|name|593:
+  name: "'Start date' and 'Duration end date' (BT-536-Lot, BT-537-Lot) are present, or 'Other duration' (BT-538-Lot) is present"
+expression|name|594:
+  name: "'Duration' (BT-36-Lot) and 'Duration end date' (BT-537-Lot) are present, or 'Other duration' (BT-538-Lot) and 'Duration end date' (BT-537-Lot) are present"
+expression|name|595:
+  name: "'Start date' (BT-536-Lot) and 'Other duration' (BT-538-Lot) are present, or 'Start date' (BT-536-Lot) and 'Duration' (BT-36-Lot) are present, or 'Other duration' (BT-538-Lot) is present and equal to 'Unlimited'."
+expression|name|596:
+  name: "'Duration' (BT-36-Lot) is present, or 'Start date' and 'Duration end date' (BT-536-Lot, BT-537-Lot) are present"
+expression|name|597:
+  name: "'Notice subtype' (OPP-070-notice) is 7–11, 15–19 or 22"

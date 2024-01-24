@@ -1325,3 +1325,7 @@ codelist|name|player-type:
 codelist|name|tendered-object:
   name: Object type covered by the tender (lot, group of lots)
   nob_verify: true
+codelist|name|contract-term:
+  name: TODO
+codelist|name|revenue-allocation:
+  name: Revenue allocation

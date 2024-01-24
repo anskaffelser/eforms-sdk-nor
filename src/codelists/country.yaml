@@ -103,13 +103,13 @@ ATB:
     nob_verify: false
   nob_verify: false
 ATF:
-  name: French Southern Lands
+  name: French Southern and Antarctic Lands
   nob: Franske sørlige land
   history:
   - name: French Southern Lands
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ATG:
   name: Antigua and Barbuda
   nob: Antigua and Barbuda
@@ -1027,13 +1027,13 @@ LVA:
   history: []
   nob_verify: false
 MAC:
-  name: Macau
+  name: Macao
   nob: Macau
   history:
   - name: Macau
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 MAF:
   name: Saint Martin
   nob: Saint Martin
@@ -1840,10 +1840,10 @@ UZB:
     nob_verify: false
   nob_verify: false
 VAT:
-  name: Vatican City State
+  name: Holy See
   nob: Vatikanstaten
   history: []
-  nob_verify: false
+  nob_verify: true
 VCT:
   name: Saint Vincent and the Grenadines
   nob: Saint Vincent og Grenadinene
@@ -1971,3 +1971,5 @@ ZWE:
     history: []
     nob_verify: false
   nob_verify: false
+XKX:
+  name: Kosovo

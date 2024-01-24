@@ -1,11 +1,11 @@
 none:
-  name: None
+  name: No subcontracting obligation applies.
   nob: Ingen
   history:
   - name: None
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 subc-chng:
   name: The contractor must indicate any change of subcontractors during the execution of the contract.
   nob: Leverandøren må angi endringer i underleverandører underveis i kontraktsgjennomføringen

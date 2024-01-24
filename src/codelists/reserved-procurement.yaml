@@ -1,11 +1,11 @@
 none:
-  name: None
+  name: Participation is not reserved.
   nob: Ingen
   history:
   - name: None
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 res-pub-ser:
   name: Participation is reserved to organisations pursuing a public service mission and fulfilling other relevant conditions in the legislation.
   nob: Deltakelse er reservert for/forbeholdt virksomheter/virksomheter med offentlig tjenesteoppdrag eller andre relevante vilkår i lovverk.

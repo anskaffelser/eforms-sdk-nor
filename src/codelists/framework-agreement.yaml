@@ -23,10 +23,10 @@ fa-wo-rc:
     nob_verify: false
   nob_verify: false
 none:
-  name: None
+  name: No framework agreement
   nob: Ingen/nei
   history:
   - name: None
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true

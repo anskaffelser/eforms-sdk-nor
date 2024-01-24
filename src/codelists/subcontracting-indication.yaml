@@ -1,11 +1,11 @@
 none:
-  name: None
+  name: No subcontracting indication
   nob: Ingen
   history:
   - name: None
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 shar-subc:
   name: The share of the contract that the tenderer intends to subcontract
   nob: Andelen av kontrakten som tilbyder har til hensikt å gi til underleverandør/ Andelen av kontrakten som skal utføres av underleverandør

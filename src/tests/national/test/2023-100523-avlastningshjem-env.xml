@@ -65,6 +65,7 @@ BR-OPP-00050-0022 x 2
                   <cbc:StreetName>Venneslamoen 19</cbc:StreetName>
                   <cbc:Department>Byggforvaltning</cbc:Department>
                   <cbc:CityName>V</cbc:CityName>
+                  <cbc:PostalZone>4700</cbc:PostalZone>
                   <cbc:CountrySubentityCode listName="nuts">NO092</cbc:CountrySubentityCode>
                   <cac:Country>
                     <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
@@ -90,6 +91,8 @@ BR-OPP-00050-0022 x 2
                 </cac:PartyName>
                 <cac:PostalAddress>
                   <cbc:CityName>Kristinansand</cbc:CityName>
+                  <cbc:PostalZone>4700</cbc:PostalZone>
+                  <cbc:CountrySubentityCode listName="nuts">NO092</cbc:CountrySubentityCode>
                   <cac:Country>
                     <cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
                   </cac:Country>
@@ -248,7 +251,7 @@ BR-OPP-00050-0022 x 2
   </cac:TenderingTerms>
   <cac:TenderingProcess>
     <cbc:Description languageID="NOR">Åpen anbudskonkurranse jf. FOA Del II</cbc:Description>
-    <cbc:ProcedureCode listName="procurement-procedure-type">comp-tend</cbc:ProcedureCode>
+    <cbc:ProcedureCode listName="procurement-procedure-type">comp-dial</cbc:ProcedureCode>
   </cac:TenderingProcess>
   <cac:ProcurementProject>
     <cbc:ID schemeName="InternalID">n/a</cbc:ID>
