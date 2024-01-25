@@ -73,6 +73,8 @@ removed:
   - BT-67(a)-Procedure
   - BT-67(b)-Procedure
   - GR-Procedure-ExclusionGrounds
+  - ND-TendererQualificationRequest
+  - ND-NonUBLTenderingTerms
 
   # EU Funds
   - BG-61
