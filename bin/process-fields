@@ -96,7 +96,7 @@ removed = config.fetch('removed', [])
 
 source['xmlStructure'] = source['xmlStructure'].map do |obj|
   if removed.include? obj['id']
-    puts obj['id']
+    #puts obj['id']
     obj['active'] = false
   else
     obj['active'] = true
@@ -107,7 +107,7 @@ end
 
 source['fields'] = source['fields'].map do |obj|
   if removed.include? obj['id']
-    puts obj['id']
+    #puts obj['id']
     obj['forbidden'] = {
       'value' => false,
       'severity' => 'ERROR',

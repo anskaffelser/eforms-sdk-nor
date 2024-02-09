@@ -22,7 +22,7 @@
     <xsl:template match="sch:rule[@context = '/*/cac:AdditionalNoticeLanguage/cbc:ID']" />
 
     <!-- Remove removed fields -->
-    <xsl:template match="sch:assert[@diagnostics = $removed_parsed or @id = $removed_parsed]"/>
+    <xsl:template match="sch:assert[@diagnostics = $removed_parsed or @id = $removed_parsed]" priority="1000"/>
 
     <!-- Remove schema types -->
     <xsl:template match="sch:rule[contains(@context, 'noticeSubType = ''1''')]" priority="100"/>

@@ -89,8 +89,6 @@ removed:
   # Other Requirements
   - BG-705
   - BT-1379
-  # - BT-71-Lot
-  # - BT-71-Part
   # - BT-79-Lot
   - BT-578-Lot
   - BT-78-Lot
@@ -102,6 +100,12 @@ removed:
   - GR-Lot-Requirements2SecurityClearance1
   - GR-Lot-SecurityClearance2
   - GR-Nda
+  - ND-LotReservedParticipation
+  - ND-LotReservedParticipation_BT-71-Lot
+  - ND-PartReservedParticipation_BT-71-Part
+  - BT-71-Lot
+  - BT-71-Part
+
 
   # Group Framework Maximum Value
   - BG-556
