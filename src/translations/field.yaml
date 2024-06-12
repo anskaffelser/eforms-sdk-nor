@@ -965,7 +965,7 @@ field|name|BT-150-Contract:
     nob_verify: false
   nob_verify: false
 field|name|BT-1501(n)-Contract:
-  name: Section identifier
+  name: Identifier of the previous contract award notice
   nob: Seksjonsidentifikator
   history:
   - name: Section identifier
@@ -977,7 +977,7 @@ field|name|BT-1501(n)-Contract:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-1501(s)-Contract:
   name: Section identifier
   nob: Seksjonsidentifikator
@@ -6635,7 +6635,7 @@ field|name|BT-661-Lot:
     nob_verify: false
   nob_verify: false
 field|name|BT-67(a)-Procedure:
-  name: Description
+  name: Code
   nob: 'Beskrivelse: __________'
   history:
   - name: Description
@@ -6647,9 +6647,9 @@ field|name|BT-67(a)-Procedure:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-67(b)-Procedure:
-  name: Code
+  name: Description
   nob: 'Beskrivelse: __________'
   history:
   - name: Description
@@ -8581,7 +8581,7 @@ field|name|OPT-050-Part:
     nob_verify: false
   nob_verify: false
 field|name|OPT-070-Lot:
-  name: Execution of the service is reserved to a particular profession. Reference to the relevant law, regulation, or administrative procedure
+  name: Execution is reserved to a particular profession. Reference to the legal basis
   nob: Utførelse av tjenesten er forbeholdt et bestemt yrke. Henvisning til relevant lov, forskrift eller administrativ prosedyre
   history:
   - name: Execution of the service is reserved to a particular profession. Reference to the relevant law, regulation, or administrative procedure
@@ -8593,7 +8593,7 @@ field|name|OPT-070-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|OPT-071-Lot:
   name: Quality target code
   nob: Målkode for kvalitet
@@ -9393,7 +9393,7 @@ field|name|OPT-302-Organization:
     nob_verify: false
   nob_verify: true
 field|name|OPT-310-Tender:
-  name: Tendering party technical ID reference
+  name: Tendering party
   nob: ID – Anbudspart
   history:
   - name: ID – Tendering party
@@ -9477,7 +9477,7 @@ field|name|OPT-999:
     nob_verify: false
   nob_verify: false
 field|description|OPP-034-Tender:
-  name: This field is about penalties and rewards
+  name: Information on rewards and penalties
   nob: Dette feltet handler om straffer og belønninger
   history:
   - name: This field is about penalties and rewards
@@ -9489,9 +9489,9 @@ field|description|OPP-034-Tender:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|description|OPT-310-Tender:
-  name: This field is for the ID of the tenderer organisation
+  name: Reference to the tendering party that submitted the tender using the tendering party technical ID (TPA-xxxx)
   nob: Dette feltet er for tilbydervirksomhetens ID
   history:
   - name: This field is for the ID of the tenderer organisation
@@ -9503,7 +9503,7 @@ field|description|OPT-310-Tender:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|hint|OPP-031-Tender:
   name: Please describe the contract conditions here
   nob: Beskriv kontraktsvilkårene her
@@ -9911,7 +9911,7 @@ field|name|BT-7220-Lot:
     nob_verify: false
   nob_verify: false
 field|name|BT-723-LotResult:
-  name: 'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3'
+  name: Category of vehicle
   nob: 'Kjøretøykategorien som omfattes av direktiv 2009/33/EF, herunder: lette kjøretøyer (M1, M2, N1), Buss (M3); Lastebil (N2, N3); M1; M2; N1; N2; N3'
   history:
   - name: 'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3'
@@ -9923,7 +9923,7 @@ field|name|BT-723-LotResult:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-735-Lot:
   name: The CVD legal basis to establish which category of procurement procedure applies
   nob: CVDs rettslige grunnlag for å fastslå hvilken kategori av anskaffelsesprosedyrer som gjelder
@@ -11381,7 +11381,7 @@ field|description|BT-150-Contract:
     nob_verify: false
   nob_verify: false
 field|description|BT-1501(n)-Contract:
-  name: An identifier of one or more sections within a previous notice within the procedure. The information in the modification section refers to this section or these sections.
+  name: An identifier (XXXXXXXX-YYYY) of the contract award notice containing the contract to which this modification applies to.
   nob: En identifikator for ett eller flere avsnitt i en tidligere melding i prosedyren. Informasjonen i endringsdelen refererer til denne delen eller disse delene.
   history:
   - name: An identifier of one or more sections within a previous notice within the procedure. The information in the modification section refers to this section or these sections.
@@ -11393,7 +11393,7 @@ field|description|BT-1501(n)-Contract:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|description|BT-1501(s)-Contract:
   name: An identifier of one or more sections within a previous notice within the procedure. The information in the modification section refers to this section or these sections.
   nob: En identifikator for ett eller flere avsnitt i en tidligere melding i prosedyren. Informasjonen i endringsdelen refererer til denne delen eller disse delene.
@@ -21737,7 +21737,7 @@ field|name|BT-722-Contract-List:
 field|name|BT-7220-Lot-List:
   name: EU funds programme
 field|name|BT-723-LotResult-List:
-  name: 'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3'
+  name: Category of vehicle
 field|name|BT-728-Lot-Language:
   name: Additional information
 field|name|BT-728-Part-Language:
@@ -21915,7 +21915,7 @@ field|name|OPT-030-Procedure-SProvider-List:
 field|name|OPT-060-Lot-List:
   name: Execution requirement code
 field|name|OPT-070-Lot-Language:
-  name: Execution of the service is reserved to a particular profession. Reference to the relevant law, regulation, or administrative procedure
+  name: Execution is reserved to a particular profession. Reference to the legal basis
 field|name|OPT-071-Lot-List:
   name: Quality target code
 field|name|OPT-072-Lot-Language:
@@ -22003,7 +22003,7 @@ field|name|OPT-301-Tenderer-SubCont-Scheme:
 field|name|OPT-302-Organization-Scheme:
   name: Organisation filling this role
 field|name|OPT-310-Tender-Scheme:
-  name: Tendering party technical ID reference
+  name: Tendering party
 field|name|OPT-315-LotResult-Scheme:
   name: Reference to the contract
 field|name|OPT-316-Contract-Scheme:
@@ -22027,6 +22027,368 @@ field|description|BT-5141-Procedure:
 field|description|BT-5141-Procedure-List:
   name: The country of the place of performance.
 field|hint|BT-13716-notice:
-  name: 'One of the following must be filled in: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX'
+  name: 'One of the following must be filled in: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX'
 field|name|OPP-035-Tender:
-  name: Revenues Allocation of tickets sales code
+  name: Code for revenues allocation of ticket sales
+field|description|BT-1501(c)-Contract:
+  name: An identifier of the contract (CON-XXXX) to which this modification applies to, as given in the previous notice.
+field|description|BT-1501(c)-Contract-Scheme:
+  name: An identifier of one or more sections within a previous notice within the procedure. The information in the modification section refers to this section or these sections.
+field|description|BT-1501(p)-Contract:
+  name: An identifier of a business entity (RESULT|((RES|TEN|TPA|TPO|ORG-XXXX)), as given in the previous notice.
+field|description|OPP-010-notice:
+  name: Notice identification number under which the notice has been published in the OJS (XXXXXXXX-YYYY)
+field|description|OPP-010-notice-Scheme:
+  name: 'Format used to specify the notice publication number: ''ojs-notice-id'''
+field|description|OPP-011-notice:
+  name: Issue number of the Official Journal of the European Union in which the notice has been published (XXX/YYYY)
+field|description|OPP-011-notice-Scheme:
+  name: 'Format used for the specfication of the OJ EU identifier: ''ojs-id'''
+field|description|OPP-012-notice:
+  name: Date when the Official Journal of the European Union, that contains the notice, has been published
+field|description|OPP-020-Contract:
+  name: Whether the contract duration is extended due to essential assets necessary for the provision of the service
+field|description|OPP-021-Contract:
+  name: Name or short description of the asset that justifies the exceptional duration of the contract
+field|description|OPP-021-Contract-Language:
+  name: Language used to name or describe the asset that justifies the exceptional duration of the contract
+field|description|OPP-022-Contract:
+  name: Significance of the essential assets provided in relation to the overall assets needed for the provision of the public services (estimated percentage of assets provided in overall assets used to provide services under contract)
+field|description|OPP-023-Contract:
+  name: Predominant use of assets (estimated percentage of assets provided compared to assets used for activities other than the public services)
+field|description|OPP-030-Tender:
+  name: 'Code to identify the contract details addressed in the following group: ''Cost parameters for compensation payments'', ''Exclusive rights are granted'', ''Public service obligations'', ''Social standards'', ''Other'''
+field|description|OPP-030-Tender-List:
+  name: Name of the code list containing all the codes for the contract conditions, namely 'contract-detail'
+field|description|OPP-031-Tender:
+  name: Text description about the selected contract condition
+field|description|OPP-031-Tender-Language:
+  name: Language used to describe the contract conditions
+field|description|OPP-032-Tender:
+  name: Percentage of revenues of sales from tickets allocated to the operator
+field|description|OPP-033-Tender:
+  name: 'Code to identify the kind of rewards and penalties addressed in this group. Currently there is only one category: Rewards and penalties'
+field|description|OPP-033-Tender-List:
+  name: Name of the code list containing all the codes for the rewards and penalties, namely 'rewards-penalties'
+field|description|OPP-034-Tender-Language:
+  name: Language used for the description of the information on rewards and penalties
+field|description|OPP-035-Tender:
+  name: 'Code to identify the contract details addressed in this group: ''Allocation of revenues of sales from tickets'''
+field|description|OPP-035-Tender-List:
+  name: Name of the code list containing the codes for the contract conditions on revenues allocation, namely 'contract-detail'
+field|description|OPP-040-Procedure:
+  name: 'Transport service category: ''Bus transport services (urban / regional)'', ''Coach transport services (long-distance)'', ''Light rail transport services'', ''Metro transport services'', ''Other transport services'', ''Inland waterway and maritime transport services'', ''Rail transport services'', ''Tram transport services'', ''Trolleybus transport services'''
+field|description|OPP-040-Procedure-List:
+  name: Name of the code list containing the codes for the nature of the transport services, namely 'transport-service'
+field|description|OPP-050-Organization:
+  name: Indicator that allows to specify, in the case multiple buyers exist, whether a buyer is a leader or not.
+field|description|OPP-051-Organization:
+  name: Indicator used to specify whether a buyer is a central purchasing body awarding contracts.
+field|description|OPP-052-Organization:
+  name: Indicator used to specify whether a buyer is a central purchasing body acquiring supplies, services or works.
+field|description|OPP-070-notice:
+  name: 'Identifier of a form subtype, can be any of: 1-40, E1-E6, X01, X02, T01, T02 or CEI'
+field|description|OPP-070-notice-List:
+  name: Name of the code list containing all the notice subtypes, namely 'notice-subtype'
+field|description|OPP-080-Tender:
+  name: Kilometres of public passenger transport services
+field|description|OPP-080-Tender-Unit:
+  name: Unit used for the distance of public passenger transport services (km)
+field|description|OPP-090-Procedure:
+  name: Reference to one or more TEDXML notices immediately preceding this one. It is not intended to refer to a 'Version of the previous notice to be changed' (BT-758), a 'Identifier of the previous contract award notice' (BT-1501), a 'Identifier of the previous notice' (BT-125) or a 'Notice that created the framework agreement' (OPT-100).
+field|description|OPP-090-Procedure-Scheme:
+  name: Format used to identify the previous notice
+field|description|OPP-100-Business:
+  name: 'Purpose of the notice: ''Deletion of the European Company / European Cooperative Society'', ''Formation of the European Economic Interest Grouping'', ''Completion of the liquidation of the European Economic Interest Grouping'', ''Registration of the European Company / European Cooperative Society'', ''Transfer-deletion of the European Company / European Cooperative Society'', ''Transfer-registration of the European Company / European Cooperative Society'''
+field|description|OPP-100-Business-List:
+  name: 'Name of the code list containing all the notice purposes: ''notice-purpose'''
+field|description|OPP-105-Business:
+  name: Sector of activity of the European Company / European Cooperative Society
+field|description|OPP-105-Business-List:
+  name: Name of the code list containing the codes for the sectors of activity
+field|description|OPP-110-Business:
+  name: Town of the office where the European Company / European Cooperative Society has been registered
+field|description|OPP-111-Business:
+  name: Postcode of the office where the European Company / European Cooperative Society has been registered
+field|description|OPP-112-Business:
+  name: Country of the office where the European Company / European Cooperative Society has been registered
+field|description|OPP-112-Business-List:
+  name: 'Name of the code list containing the codes for countries: ''country'''
+field|description|OPP-113-Business-European:
+  name: Date when the European Company / European Cooperative Society has been registered
+field|description|OPP-120-Business:
+  name: Name of the local official gazette in which the registration of the European Company / European Cooperative Society has been advertised
+field|description|OPP-121-Business:
+  name: Title of the publication inside the local official gazette that contains information about the registration of the European Company / European Cooperativ Society
+field|description|OPP-122-Business:
+  name: Web address of the official publication containing the information about the registration of the European Company / European Cooperativ Society
+field|description|OPP-123-Business:
+  name: Date of publication of the local official gazette containing the publication about the European Company / European Cooperative Society
+field|description|OPP-124-Business:
+  name: Identifier of issue of the official gazette in which the advertisement has been published
+field|description|OPP-124-Business-Scheme:
+  name: Name of the scheme used to specify the gazette issue number
+field|description|OPP-130-Business:
+  name: Additional information
+field|description|OPP-130-Business-Language:
+  name: Language in which the additional information is provided
+field|description|OPP-131-Business:
+  name: E-mail address of the person who submitted the notice
+field|description|OPT-001-notice:
+  name: Version of the universal business language used to mark-up the XML text
+field|description|OPT-002-notice:
+  name: Version of the software development kit the notice has to comply with
+field|description|OPT-030-Procedure-SProvider:
+  name: 'Type of service of the service provider: ''esender'', ''procurement service provider'''
+field|description|OPT-030-Procedure-SProvider-List:
+  name: 'Name of the code list containing the types of provided services: ''organisation-role'''
+field|description|OPT-060-Lot:
+  name: 'Type of teh execution requiment: ''performance'''
+field|description|OPT-060-Lot-List:
+  name: 'Name of the code list containing the ''performance'' factor of the execution requirement: ''conditions'''
+field|description|OPT-070-Lot:
+  name: Justification of the reserved execution for the call for expression of interest
+field|description|OPT-070-Lot-Language:
+  name: Language in which the reserved execution justification is written
+field|description|OPT-071-Lot:
+  name: 'Code to identify the quality target addressed here: ''Information'' &amp; ''Tickets'', ''Punctuality and reliability'', ''Cancellations of services'', ''Cleanliness of rolling stock and station facilities'', ''Complaint handling'', ''Customer Satisfaction Survey'', ''Assistance for persons with reduced mobility'', ''Other quality targets'''
+field|description|OPT-071-Lot-List:
+  name: 'Name of the code list containing the codes for the quality target: ''customer-service'''
+field|description|OPT-072-Lot:
+  name: Description of the quality target
+field|description|OPT-072-Lot-Language:
+  name: Language used for the description of the quality target
+field|description|OPT-090-Lot:
+  name: 'Code to indicate that it is about buyer categories: ''buyer categories'''
+field|description|OPT-091-ReviewReq:
+  name: The type (i.e. role) of the party that requested the review
+field|description|OPT-091-ReviewReq-List:
+  name: Name of the list containing the codes for the type of review requesters
+field|description|OPT-092-ReviewBody:
+  name: Description of the body in charge of processing the requests for review
+field|description|OPT-092-ReviewBody-Language:
+  name: Language in whitch the description of the body in charge of processing the requests for review is written
+field|description|OPT-092-ReviewReq:
+  name: Description of the type of review requester
+field|description|OPT-092-ReviewReq-Language:
+  name: Language in whitch the type of review requester is described
+field|description|OPT-100-Contract:
+  name: Reference to the result notice that contains information about the signed framework agreement under which the current contract is taking place
+field|description|OPT-100-Contract-Scheme:
+  name: Name of the scheme used to express the reference to the result notice that contains information about the signed framework agreement under which the current contract is taking place
+field|description|OPT-110-Lot-FiscalLegis:
+  name: Web address where local fiscal legislation may be found
+field|description|OPT-110-Part-FiscalLegis:
+  name: Web address where local fiscal legislation may be found
+field|description|OPT-111-Lot-FiscalLegis:
+  name: Identifier of the fiscal legislation
+field|description|OPT-111-Part-FiscalLegis:
+  name: Identifier of the fiscal legislation
+field|description|OPT-112-Lot-EnvironLegis:
+  name: Identifier of the environmental legislation
+field|description|OPT-112-Part-EnvironLegis:
+  name: Identifier of the environmental legislation
+field|description|OPT-113-Lot-EmployLegis:
+  name: Identifier of the employment legislation
+field|description|OPT-113-Part-EmployLegis:
+  name: Identifier of the employment legislation
+field|description|OPT-120-Lot-EnvironLegis:
+  name: Web address where local environmental legislation may be found
+field|description|OPT-120-Part-EnvironLegis:
+  name: Web address where local environmental legislation may be found
+field|description|OPT-130-Lot-EmployLegis:
+  name: Web address where local employment legislation may be found
+field|description|OPT-130-Part-EmployLegis:
+  name: Web address where local employment legislation may be found
+field|description|OPT-140-Lot:
+  name: Identifier of the procurement document
+field|description|OPT-140-Part:
+  name: Identifier of the procurement document
+field|description|OPT-155-LotResult:
+  name: 'The type of vehicles for which the number is specified: ''vehicles'', ''zero emission vehicles'', ''clean vehicles'''
+field|description|OPT-155-LotResult-List:
+  name: 'Name of the code list containing the codes for the various types of vehicles: ''vehicles'''
+field|description|OPT-156-LotResult:
+  name: Number of vehicles of the type specified in vehicle type (OPT-155-LotResult) bought
+field|description|OPT-160-UBO:
+  name: First name of the ultimate beneficial owner
+field|description|OPT-170-Tenderer:
+  name: Indicator to identify, in the case of economic operators tendering together, the leader
+field|description|OPT-200-Organization-Company:
+  name: Technical identifier of the organisation
+field|description|OPT-200-Organization-Company-Scheme:
+  name: 'Name of the scheme used to build the organisation technical identifier: ''organization'''
+field|description|OPT-201-Organization-TouchPoint:
+  name: Technical identifier of the touchpoint
+field|description|OPT-201-Organization-TouchPoint-Scheme:
+  name: 'Name of the scheme used to build the touchpoint technical identifier: ''touchpoint'''
+field|description|OPT-202-UBO:
+  name: Technical identifier of the ultimate beneficial owner in the form of 'UBO-xxxx', used for referencing to the organisation within the notice
+field|description|OPT-202-UBO-Scheme:
+  name: 'Name of the scheme used to build the ultimate beneficial owner technical idenifier: ''ubo'''
+field|description|OPT-210-Tenderer:
+  name: Technical identifier of the tendering party
+field|description|OPT-210-Tenderer-Scheme:
+  name: 'Name of the scheme used to build the tendering party technical identifier: ''tendering-party'''
+field|description|OPT-211-Tenderer:
+  name: Name associated to the tendering party
+field|description|OPT-300-Contract-Signatory:
+  name: Reference to the legal organisation, from the buyer side, that signed the contract. Reference is made by using the organisation technical identifier.
+field|description|OPT-300-Contract-Signatory-Scheme:
+  name: 'Name of the scheme used to build the technical ID used as a reference: ''organization'''
+field|description|OPT-300-Procedure-Buyer:
+  name: Reference to the legal organisation that is buying. Reference made by using the organisation technical identifier.
+field|description|OPT-300-Procedure-Buyer-Scheme:
+  name: 'Name of the scheme used to build the technical ID used as a reference: ''organization'''
+field|description|OPT-300-Procedure-SProvider:
+  name: Reference to the legal organisation that providing services to the buyer. Reference made by using the organisation technical identifier.
+field|description|OPT-300-Procedure-SProvider-Scheme:
+  name: 'Name of the scheme used to build the technical ID used as a reference: ''organization'''
+field|description|OPT-300-Tenderer:
+  name: Reference to the legal organisation that is taking part to a tender submission and belongs to the tendering party. Reference made by using the organisation technical identifier.
+field|description|OPT-300-Tenderer-Scheme:
+  name: 'Name of the scheme used to build the technical ID used as a reference: ''organization'''
+field|description|OPT-301-Lot-AddInfo:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get additional information
+field|description|OPT-301-Lot-AddInfo-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') that is providing additional information
+field|description|OPT-301-Lot-DocProvider:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get access to the procurement documents
+field|description|OPT-301-Lot-DocProvider-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') that is providing access to procurement documents
+field|description|OPT-301-Lot-EmployLegis:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get additional information on local employment legislation
+field|description|OPT-301-Lot-EmployLegis-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') providing additional information on local employment legislation
+field|description|OPT-301-Lot-EnvironLegis:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get additional information on local environmental legislation
+field|description|OPT-301-Lot-EnvironLegis-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') providing additional information on local environmental legislation
+field|description|OPT-301-Lot-FiscalLegis:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get additional information on local fiscal legislation
+field|description|OPT-301-Lot-FiscalLegis-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') providing additional information on local fiscal legislation
+field|description|OPT-301-Lot-Mediator:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get in touch with the organisation acting as a mediator
+field|description|OPT-301-Lot-Mediator-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') acting as a mediator
+field|description|OPT-301-Lot-ReviewInfo:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get additional information on the review process
+field|description|OPT-301-Lot-ReviewInfo-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') providing information on the review process
+field|description|OPT-301-Lot-ReviewOrg:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get in touch with the organisation dealing with the review requests
+field|description|OPT-301-Lot-ReviewOrg-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') dealing with the review requests
+field|description|OPT-301-Lot-TenderEval:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) who is evaluating the tenders
+field|description|OPT-301-Lot-TenderEval-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') evaluating the tenders
+field|description|OPT-301-Lot-TenderReceipt:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) to whom the tenders should be submitted
+field|description|OPT-301-Lot-TenderReceipt-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') receiving the tenders
+field|description|OPT-301-LotResult-Financing:
+  name: Reference to the organisation (ORG-xxxx) who is financing the procurement
+field|description|OPT-301-LotResult-Financing-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') financing the procurement
+field|description|OPT-301-LotResult-Paying:
+  name: Reference to the organisation (ORG-xxxx) dealing with the purchase payments
+field|description|OPT-301-LotResult-Paying-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') who is actually paying the purchases
+field|description|OPT-301-Part-AddInfo:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get additional information
+field|description|OPT-301-Part-AddInfo-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') that is providing additional information
+field|description|OPT-301-Part-DocProvider:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get access to the procurement documents
+field|description|OPT-301-Part-DocProvider-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') that is providing access to procurement documents
+field|description|OPT-301-Part-EmployLegis:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get additional information on local employment legislation
+field|description|OPT-301-Part-EmployLegis-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') providing additional information on local employment legislation
+field|description|OPT-301-Part-EnvironLegis:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get additional information on local environmental legislation
+field|description|OPT-301-Part-EnvironLegis-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') providing additional information on local environmental legislation
+field|description|OPT-301-Part-FiscalLegis:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get additional information on local fiscal legislation
+field|description|OPT-301-Part-FiscalLegis-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') providing additional information on local fiscal legislation
+field|description|OPT-301-Part-Mediator:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get in touch with the organisation acting as a mediator
+field|description|OPT-301-Part-Mediator-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') acting as a mediator
+field|description|OPT-301-Part-ReviewInfo:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get additional information on the review process
+field|description|OPT-301-Part-ReviewInfo-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') providing information on the review process
+field|description|OPT-301-Part-ReviewOrg:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) whose contact details have to be used to get in touch with the organisation dealing with the review requests
+field|description|OPT-301-Part-ReviewOrg-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') dealing with the review requests
+field|description|OPT-301-Part-TenderEval:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) who is evaluating the tenders
+field|description|OPT-301-Part-TenderEval-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') evaluating the tenders
+field|description|OPT-301-Part-TenderReceipt:
+  name: Reference to the organisation (ORG-xxxx) or contact point (TPO-xxxx) to whom the tenders should be submitted
+field|description|OPT-301-Part-TenderReceipt-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint') receiving the tenders
+field|description|OPT-301-ReviewBody:
+  name: Reference to the organisation (ORG-xxxx) which is dealing with the review request at the currently reported review stage
+field|description|OPT-301-ReviewBody-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') reviewing the request at the currently reported review stage
+field|description|OPT-301-ReviewReq:
+  name: Reference to the organisation (ORG-xxxx) that initiated a review request that lead to the reporting for the current review stage
+field|description|OPT-301-ReviewReq-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') or the touchpoint ('touchpoint')
+field|description|OPT-301-Tenderer-MainCont:
+  name: Reference to the organisation (ORG-xxxx) which is a main tenderer
+field|description|OPT-301-Tenderer-MainCont-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') acting as a main tenderer
+field|description|OPT-301-Tenderer-SubCont:
+  name: Reference to the organisation (ORG-xxxx) which is a subcontractor of one or more main tenderer(s)
+field|description|OPT-301-Tenderer-SubCont-Scheme:
+  name: Name of the scheme for the reference to the organisation ('organization') acting as a subcontractor
+field|description|OPT-302-Organization:
+  name: Reference to a ultimate beneficial owner (UBO-xxxx) of the organisation
+field|description|OPT-302-Organization-Scheme:
+  name: Name of the scheme for the reference to the ultimate beneficial owner ('ubo')
+field|description|OPT-310-Tender-Scheme:
+  name: 'Name of the scheme used to express the identier of the tendering party in the tendering party ID reference: ''tendering-party'''
+field|description|OPT-315-LotResult:
+  name: Reference to the contract (using the contract technical identifier), the award of this lot lead to (at least partially)
+field|description|OPT-315-LotResult-Scheme:
+  name: 'Name of the scheme used to refer to the contract signed following the award of the lot: ''contract'''
+field|description|OPT-316-Contract:
+  name: 'technical identifier of the contract, shall follow the following scheme: ''CON-xxxx''. Is used for cross-references.'
+field|description|OPT-316-Contract-Scheme:
+  name: 'Name of the scheme used for expressing the contract technical identifier: ''contract'''
+field|description|OPT-320-LotResult:
+  name: Reference to the tender received for the given lot result, based on the tender technical identifier ('TEN-xxxx')
+field|description|OPT-320-LotResult-Scheme:
+  name: 'Name of the scheme used to refer to the tender: ''tender'''
+field|description|OPT-321-Tender:
+  name: 'Tender technical identifier, shall follow the following scheme: ''TEN-xxxx''. Is used for cross-references.'
+field|description|OPT-321-Tender-Scheme:
+  name: 'Name of the scheme used to express the tender technical identifier: ''tender'''
+field|description|OPT-322-LotResult:
+  name: 'Lot result technical identifier, shall follow the following scheme: ''RES-xxxx''. Is used for cross-references.'
+field|description|OPT-322-LotResult-Scheme:
+  name: 'Name of the scheme used to express the lot result technical identifier: ''result'''
+field|description|OPT-999:
+  name: Dummy date element required by the schema. Will always be '2000-01-01Z'
+field|hint|BT-1501(p)-Contract:
+  name: 'One of the following must be filled in: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX'
+field|hint|BT-786-Review:
+  name: 'One of the following must be filled in: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX'
+field|name|BT-1501(c)-Contract:
+  name: Identifier of the modified contract
+field|name|BT-1501(c)-Contract-Scheme:
+  name: Section identifier
+field|name|BT-1501(p)-Contract:
+  name: Business entity identifier in the previous notice
+field|name|OPP-035-Tender-List:
+  name: Code for revenues allocation of ticket sales

@@ -1541,7 +1541,7 @@ business-term|name|BG7141:
   history: []
   nob_verify: false
 business-term|name|BT-723:
-  name: 'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3'
+  name: Category of vehicle
   nob: Kjøretøygruppe
   history: []
   nob_verify: true
@@ -3645,7 +3645,7 @@ business-term|name|OPT-050:
 business-term|name|OPT-060:
   name: Execution requirement code
 business-term|name|OPT-070:
-  name: Execution of the service is reserved to a particular profession. Reference to the relevant law, regulation, or administrative procedure
+  name: Execution is reserved to a particular profession. Reference to the legal basis
 business-term|name|OPT-071:
   name: Quality target code
 business-term|name|OPT-072:
@@ -3697,7 +3697,7 @@ business-term|name|OPT-301:
 business-term|name|OPT-302:
   name: Organisation filling this role
 business-term|name|OPT-310:
-  name: Tendering party technical ID reference
+  name: Tendering party
 business-term|name|OPT-315:
   name: Reference to the contract
 business-term|name|OPT-316:
@@ -3715,4 +3715,8 @@ business-term|name|OPP-124:
 business-term|name|OPT-211:
   name: Name of the tendering party
 business-term|hint|BT-13716:
-  name: 'One of the following must be filled in: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX'
+  name: 'One of the following must be filled in: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX'
+business-term|hint|BT-786:
+  name: 'One of the following must be filled in: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX'
+business-term|name|OPP-035:
+  name: Code for revenues allocation of ticket sales

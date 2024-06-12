@@ -1911,13 +1911,13 @@ expression|name|317:
     nob_verify: false
   nob_verify: false
 expression|name|318:
-  name: "'Type of procedure' (BT-105-Lot) is 'Open'"
+  name: "'Type of procedure' (BT-105-Procedure) is 'Open'"
   nob: Type prosedyre' (BT-105-Lot) er 'Åpen'
   history:
   - name: "'Type of procedure' (BT-105-Lot) is 'Open'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|319:
   name: "'Organisation or specific contact point' (OPT-301-Lot-ReviewInfo) is not filled in"
   nob: ID – Organisasjonens kontaktpunkt' (OPT-301-Lot-ReviewInfo) er ikke fylt ut
@@ -2623,45 +2623,45 @@ expression|name|44:
     nob_verify: false
   nob_verify: false
 expression|name|45:
-  name: "'Type of procedure' (BT-105-Lot) is 'Open'"
+  name: "'Type of procedure' (BT-105-Procedure) is 'Open'"
   nob: Type prosedyre' (BT-105-Lot) er 'Åpen'
   history:
   - name: "'Type of procedure' (BT-105-Lot) is 'Open'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|46:
-  name: "'Type of procedure' (BT-105-Lot) is 'Open'"
+  name: "'Type of procedure' (BT-105-Procedure) is 'Open'"
   nob: Type prosedyre' (BT-105-Lot) er 'Åpen'
   history:
   - name: "'Type of procedure' (BT-105-Lot) is 'Open'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|47:
-  name: "'Type of procedure' (BT-105-Lot) is 'Open'"
+  name: "'Type of procedure' (BT-105-Procedure) is 'Open'"
   nob: Type prosedyre' (BT-105-Lot) er 'Åpen'
   history:
   - name: "'Type of procedure' (BT-105-Lot) is 'Open'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|48:
-  name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
+  name: "'Type of procedure' (BT-105-Procedure) is not 'Open'"
   nob: Type prosedyre' (BT-105-Lot) er ikke 'Åpen'
   history:
   - name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|49:
-  name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
+  name: "'Type of procedure' (BT-105-Procedure) is not 'Open'"
   nob: Type prosedyre' (BT-105-Lot) er ikke 'Åpen'
   history:
   - name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|5:
   name: "'Country' is filled in"
   nob: Land' er fylt ut
@@ -2671,13 +2671,13 @@ expression|name|5:
     nob_verify: false
   nob_verify: false
 expression|name|50:
-  name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
+  name: "'Type of procedure' (BT-105-Procedure) is not 'Open'"
   nob: Type prosedyre' (BT-105-Lot) er ikke 'Åpen'
   history:
   - name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|500:
   name: "'Legal basis' (BT-01(e)-Procedure) is not filled in"
   nob: Rettslig grunnlag» (BT-01(e)-prosedyre) er ikke fylt ut
@@ -2751,13 +2751,13 @@ expression|name|509:
     nob_verify: false
   nob_verify: false
 expression|name|51:
-  name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
+  name: "'Type of procedure' (BT-105-Procedure) is not 'Open'"
   nob: Type prosedyre' (BT-105-Lot) er ikke 'Åpen'
   history:
   - name: "'Type of procedure' (BT-105-Lot) is not 'Open'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|510:
   name: "'Notice dispatch date (eSender)' (BT-803(d)-notice) is not filled in"
   nob: Innkallingsdato (eSender)' (BT-803(d)-varsel) er ikke fylt ut
@@ -3480,3 +3480,49 @@ expression|name|596:
   name: "'Duration' (BT-36-Lot) is present, or 'Start date' and 'Duration end date' (BT-536-Lot, BT-537-Lot) are present"
 expression|name|597:
   name: "'Notice subtype' (OPP-070-notice) is 7–11, 15–19 or 22"
+expression|name|569:
+  name: "'Description' (BT-540-Lot) is present and 'Award criterion number' (BT-541-Lot-FixedNumber) &amp;amp; 'Award criterion number' (BT-541-Lot-ThresholdNumber) are not present"
+expression|name|570:
+  name: "'Description' (BT-540-Lot) is present and 'Award criterion number' (BT-541-Lot-WeightNumber) &amp;amp; 'Award criterion number' (BT-541-Lot-ThresholdNumber) are not present"
+expression|name|571:
+  name: "'Description' (BT-540-Lot) is present and 'Award criterion number' (BT-541-Lot-WeightNumber) &amp;amp; 'Award criterion number' (BT-541-Lot-FixedNumber) are not present"
+expression|name|572:
+  name: "'Description' (BT-540-LotsGroup) is present and 'Award criterion number' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Award criterion number' (BT-541-LotsGroup-ThresholdNumber) are not present"
+expression|name|573:
+  name: "'Description' (BT-540-LotsGroup) is present and 'Award criterion number' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Award criterion number' (BT-541-LotsGroup-ThresholdNumber) are not present"
+expression|name|574:
+  name: "'Description' (BT-540-LotsGroup) is present and 'Award criterion number' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Award criterion number' (BT-541-LotsGroup-FixedNumber) are not present"
+expression|name|575:
+  name: "'Award criterion number' (BT-541-Lot-WeightNumber) is not present"
+expression|name|576:
+  name: "'Award criterion number' (BT-541-Lot-FixedNumber) is not present"
+expression|name|577:
+  name: "'Award criterion number' (BT-541-Lot-ThresholdNumber) is not present"
+expression|name|578:
+  name: "'Award criterion number' (BT-541-LotsGroup-WeightNumber) is not present"
+expression|name|579:
+  name: "'Award criterion number' (BT-541-LotsGroup-FixedNumber) is not present"
+expression|name|580:
+  name: "'Award criterion number' (BT-541-LotsGroup-ThresholdNumber) is not present"
+expression|name|581:
+  name: "'Field to publish later' (BT-195(BT-541)-Lot-Weight) is not present"
+expression|name|582:
+  name: "'Field to publish later' (BT-195(BT-541)-Lot-Fixed) is not present"
+expression|name|583:
+  name: "'Field to publish later' (BT-195(BT-541)-Lot-Threshold) is not present"
+expression|name|584:
+  name: "'Field to publish later' (BT-195(BT-541)-LotsGroup-Weight) is not present"
+expression|name|585:
+  name: "'Field to publish later' (BT-195(BT-541)-LotsGroup-Fixed) is not present"
+expression|name|586:
+  name: "'Field to publish later' (BT-195(BT-541)-LotsGroup-Threshold) is not present"
+expression|name|599:
+  name: No framework agreement is involved
+expression|name|601:
+  name: The value chosen for 'Winner selection status' (BT-142-LotResult) is equal to 'At least one winner was chosen.' and there is no framework agreement, or it is about a contract within a framework agreement
+expression|name|602:
+  name: There is at least one 'Result' associated with the tender for which the competition is ongoing
+expression|name|603:
+  name: "'Type of procedure' (BT-105) value is equal to 'Open' or 'Type of procedure' (BT-105) value is equal to 'Other single stage procedure'"
+expression|name|604:
+  name: "'Type of procedure' (BT-105) value is equal to 'Other multiple stage procedure'"

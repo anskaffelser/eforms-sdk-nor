@@ -183,21 +183,21 @@ group|name|GR-Lot-Deadline:
     nob_verify: false
   nob_verify: false
 group|name|GR-Lot-Deadlines1:
-  name: Deadlines I
+  name: Deadlines
   nob: Tidsfrister I
   history:
   - name: Deadlines I
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-Lot-Deadlines2:
-  name: Deadlines II
+  name: Deadlines for expression of interest
   nob: Frister II
   history:
   - name: Deadlines II
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-Lot-Description:
   name: Description of the lot
   nob: Beskrivelse av partiet
@@ -463,13 +463,13 @@ group|name|GR-Lot-SecurityClearance2:
     nob_verify: false
   nob_verify: false
 group|name|GR-Lot-SelectionCriteria-SecondStageInvite:
-  name: Selection criteria for access to next stage
+  name: Parameter (Number &amp; Code) for a Second Stage Criterion
   nob: Utvalgskriterier for tilgang til neste trinn
   history:
   - name: Selection criteria for access to next stage
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-Lot-SubcontractRequest:
   name: Subcontracting request
   nob: Forespørsel om underleveranse
@@ -567,21 +567,21 @@ group|name|GR-Lot-Variants:
     nob_verify: false
   nob_verify: false
 group|name|GR-LotResult-1:
-  name: Result 1
+  name: Lot result identifiers
   nob: Resultat 1
   history:
   - name: Result 1
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-LotResult-2:
-  name: Result 2
+  name: Lot result techniques
   nob: Resultat 2
   history:
   - name: Result 2
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-LotResult-Parties:
   name: Parties
   nob: Parter
@@ -607,29 +607,29 @@ group|name|GR-LotResult-TenderValue:
     nob_verify: false
   nob_verify: false
 group|name|GR-LotTender-1:
-  name: Tender 1
+  name: Tender identifiers
   nob: Anbud 1
   history:
   - name: Tender 1
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-LotTender-2:
-  name: Tender 2
+  name: Tender concessions
   nob: Anbud 2
   history:
   - name: Tender 2
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-LotTender-3:
-  name: Tender 3
+  name: Tender execution requirements
   nob: Anbud 3
   history:
   - name: Tender 3
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-LotTender-Section:
   name: Tenders
   nob: Anbud
@@ -1032,21 +1032,21 @@ group|name|GR-Procedure-PinTerminated:
     nob_verify: false
   nob_verify: false
 group|name|GR-Procedure-Procedure:
-  name: Procedure
+  name: Type of procedure
   nob: Prosedyre
   history:
   - name: Procedure
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-Procedure-Procedure-subsection:
-  name: Procedure
+  name: Details of procedure type
   nob: Prosedyre
   history:
   - name: Procedure
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-Procedure-Purpose:
   name: Purpose
   nob: Hensikt
@@ -1080,37 +1080,37 @@ group|name|GR-Procedure-TenderingTerms:
     nob_verify: false
   nob_verify: false
 group|name|GR-Result:
-  name: Result
+  name: Result of notice
   nob: Resultat
   history:
   - name: Result
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-SettledContract-1:
-  name: Contract 1
+  name: Contract
   nob: Kontrakt 1
   history:
   - name: Contract 1
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-SettledContract-2:
-  name: Contract 2
+  name: EU funds in contract
   nob: Kontrakt 2
   history:
   - name: Contract 2
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-SettledContract-3:
-  name: Contract 3
+  name: Assets
   nob: Kontrakt 3
   history:
   - name: Contract 3
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-SettledContract-Section:
   name: Contracts
   nob: Kontrakter
@@ -2448,13 +2448,13 @@ group|name|ND-ProcedureAcceleratedJustificationUnpublish:
     nob_verify: false
   nob_verify: false
 group|name|ND-ProcedureAcceleratedUnpublish:
-  name: Procedure ia accelerated (published later)
+  name: Procedure is accelerated (published later)
   nob: Prosedyre ia akselerert (publisert senere)
   history:
   - name: Procedure ia accelerated (published later)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-ProcedureFeaturesUnpublish:
   name: Procedure features (published later)
   nob: Prosedyrefunksjoner (publisert senere)
@@ -2688,13 +2688,13 @@ group|name|ND-ProcedureMainClassification:
     nob_verify: false
   nob_verify: false
 group|name|ND-ProcedureProcurementScope:
-  name: Tendering Terms
+  name: Tendering terms
   nob: Anbudsvilkår
   history:
   - name: Tendering Terms
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-ProcedureTenderingProcess:
   name: Purpose
   nob: Hensikt
@@ -2912,7 +2912,7 @@ group|name|ND-FinancingParty:
     nob_verify: false
   nob_verify: true
 group|name|ND-GroupCompositionLotReference:
-  name: Lot belonging to the group
+  name: Lots belonging to the group
   nob: Objekt som tilhører konsernet
   history:
   - name: Lot belonging to the Group
@@ -3176,25 +3176,25 @@ group|name|ND-UBONationality:
     nob_verify: false
   nob_verify: true
 group|name|GR-EU-Registration:
-  name: Eu Registration Number
+  name: EU registration number
 group|name|GR-Lot-EUFunds-Indicator:
-  name: EU Funds Indicator
+  name: Use of EU financing
 group|name|GR-Lot-ExecutionRequirements:
   name: Requirements for contract execution
 group|name|ND-AcceleratedProcedure:
-  name: Accelerated Procedure (or not) and Justification
+  name: Accelerated procedure
 group|name|ND-AllowedSubcontracting:
   name: Condition on subcontractinng
 group|name|ND-DirectAward:
-  name: Direct Award (or not) and Justification
+  name: Direct award
 group|name|ND-EuEntity:
-  name: Properties of the EU Entity (Registration ID)
+  name: EU registration number
 group|name|ND-ExecutionRequirements:
-  name: Terms of performance)
+  name: Terms of performance
 group|name|ND-Funding:
   name: EU funds
 group|name|ND-GazetteReference:
-  name: Reference to the Gazette where Publication took place (Date, Name, URL …)
+  name: Reference to the publication
 group|name|ND-LotDPSContractingSystem:
   name: Dynamic Purchasing System
 group|name|ND-LotDocAllNonOfficialLanguages:
@@ -3208,7 +3208,7 @@ group|name|ND-LotDocOfficialLanguage:
 group|name|ND-LotECatalog:
   name: eCatalogue
 group|name|ND-LotEInvoicing:
-  name: Lot eInvoicing
+  name: eInvoicing
 group|name|ND-LotESignature:
   name: eSignature
 group|name|ND-LotFAContractingSystem:
@@ -3218,7 +3218,7 @@ group|name|ND-LotGreenCriteria:
 group|name|ND-LotReservedExecution:
   name: Reserved contract execution
 group|name|ND-NoticeApproximateValueUnpublish:
-  name: Not Immediately Published (NoticeApproximateValue)
+  name: Notice approximate value (published later)
 group|name|ND-PartDPSContractingSystem:
   name: Dynamic Purchasing System
 group|name|ND-PartDocAllNonOfficialLanguages:
@@ -3232,7 +3232,7 @@ group|name|ND-PartDocOfficialLanguage:
 group|name|ND-PartFAContractingSystem:
   name: Framework agreement
 group|name|ND-PartProcurementDocument:
-  name: Procurement Document information for a Part, independent from the restricted aspect
+  name: Procurement documents for part
 group|name|ND-PartReservedExecution:
   name: Reserved contract execution
 group|name|ND-ProcurementDetailsLotResult:
@@ -3242,9 +3242,9 @@ group|name|ND-ProcurementStatistics:
 group|name|ND-QualityTarget:
   name: Description of quality targets
 group|name|ND-ReestimatedValueUnpublish:
-  name: Not Immediately Published (ReestimatedValue)
+  name: Re-estimated value (published later)
 group|name|ND-RevenueAllocation:
-  name: Revenue allocation in percentage
+  name: Revenue allocation percentage
 group|name|ND-SecondStageThresholdCriterionParameter:
   name: Second stage threshold parameter
 group|name|ND-SecondStageWeightCriterionParameter:
@@ -3256,12 +3256,12 @@ group|name|ND-StrategicProcurementInformationLotResult:
 group|name|ND-StrategicProcurementLot:
   name: Clean Vehicle Directive information
 group|name|ND-SubcontractingObligation:
-  name: Obligation associated to Subcontracting
+  name: Obligations related to subcontracting
 group|name|ND-TenderValueHighestUnpublish:
-  name: Not Immediately Published (TenderValueHighest)
+  name: Value of the highest tender (published later)
 group|name|ND-TenderValueLowestUnpublish:
-  name: Not Immediately Published (TenderValueLowest)
+  name: Value of the lowest tender (published later)
 group|name|ND-Asset:
-  name: Individual Asset characteristics (description, significance, predominance) justifying the Contract extension
+  name: Assets justifying contract extension
 group|name|ND-ExtendedDurationJustification:
-  name: Elements about the Extension of the Contract Duration (Indicator, Assets)
+  name: Contract extension
