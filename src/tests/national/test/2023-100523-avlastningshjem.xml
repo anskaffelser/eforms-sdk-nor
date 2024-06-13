@@ -11,10 +11,6 @@ BR-BT-00541-0271
 BR-BT-00728-0210
 BR-BT-05101-0328
 BR-BT-05141-0124
-BR-BT-00536-0075
-
-Warnings:
-BR-OPP-00050-0022 x 2
 
 --><ContractNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1" xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1" xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1" xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractNotice-2">
   <ext:UBLExtensions>

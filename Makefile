@@ -59,7 +59,9 @@ target/eforms-sdk/README.md:
 
 .bundle/vendor:
 	@echo "* Install dependencies"
-	@bundler install --path=.bundle/vendor
+	@bundle config set --local path '.bundle/vendor'
+	@bundle install 
+#--path=.bundle/vendor
 
 target/eforms-sdk-nor: \
 	target/eforms-sdk-nor/codelists \
