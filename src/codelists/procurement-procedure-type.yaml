@@ -36,7 +36,7 @@ neg-w-call:
   nob_verify: false
 neg-wo-call:
   name: Negotiated without prior call for competition
-  nob: Konkurranse med fohandling uten forutgående kunngjøring
+  nob: Konkurranse med forhandling uten forutgående kunngjøring
   history:
   - name: Negotiated without prior call for competition
     history: []
