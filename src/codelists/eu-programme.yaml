@@ -1,19 +1,19 @@
 AFIS2020:
-  name: Anti Fraud Information System (AFIS)
+  name: Anti Fraud Information System (AFIS) (2014/2020)
   nob: Anti Fraud Information System (AFIS)
   history:
   - name: Anti Fraud Information System (AFIS)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 AGR:
-  name: European Agricultural Guarantee Fund (after transfers between EAGF and EAFRD)
+  name: European Agricultural Guarantee Fund (after transfers between EAGF and EAFRD) (2014/2020)
   nob: Det europeiske landbruksgarantifondet (etter overføringer mellom EAGF og EAFRD)
   history:
   - name: European Agricultural Guarantee Fund (after transfers between EAGF and EAFRD)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 AGRNET:
   name: Net transfer between EAGF and EAFRD
   nob: Nettooverføring mellom EAGF og EAFRD
@@ -23,301 +23,301 @@ AGRNET:
     nob_verify: false
   nob_verify: false
 AMF:
-  name: Asylum and Migration Fund (AMF)
+  name: Asylum and Migration Fund (AMF) (2014/2020)
   nob: Asyl- og migrasjonsfondet (AMF)
   history:
   - name: Asylum and Migration Fund (AMF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 AMIF:
-  name: Asylum, Migration and Integration Fund (AMIF)
+  name: Asylum, Migration and Integration Fund (AMIF) (2021/2027)
   nob: Asyl-, migrasjons- og integreringsfondet (AMIF)
   history:
   - name: Asylum, Migration and Integration Fund (AMIF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ANTIFRAUD:
-  name: EU Anti-Fraud Programme
+  name: EU Anti-Fraud Programme (2021/2027)
   nob: EUs program mot svindel
   history:
   - name: EU Anti-Fraud Programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 BMVI:
-  name: Integrated Border Management Fund (IBMF) – instrument for border management and visa (BMVi)
+  name: Integrated Border Management Fund (IBMF) – instrument for border management and visa (BMVi) (2021/2027)
   nob: Integrated Border Management Fund (IBMF) – instrument for grenseforvaltning og visum (BMVi)
   history:
   - name: Integrated Border Management Fund (IBMF) – instrument for border management and visa (BMVi)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CCEI:
-  name: Integrated Border Management Fund (IBMF) – Instrument for financial support for customs control equipment (CCEi)
+  name: Integrated Border Management Fund (IBMF) – Instrument for financial support for customs control equipment (CCEi) (2021/2027)
   nob: Integrated Border Management Fund (IBMF) – Instrument for økonomisk støtte til tollkontrollutstyr (CCEi)
   history:
   - name: Integrated Border Management Fund (IBMF) – Instrument for financial support for customs control equipment (CCEi)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CDF2020:
-  name: Rights, equality and citizenship programme
+  name: Rights, equality and citizenship programme (2014/2020)
   nob: Rettighets-, likestillings- og statsborgerskapsprogrammet
   history:
   - name: Rights, equality and citizenship programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CEF:
-  name: Connecting Europe Facility (CEF 2014–2020)
+  name: Connecting Europe Facility (CEF) (2014/2020)
   nob: Connecting Europe-anlegget (CEF 2014–2020)
   history:
   - name: Connecting Europe Facility (CEF 2014–2020)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CEF_2021:
-  name: Connecting Europe Facility (CEF 2021)
+  name: Connecting Europe Facility (CEF) (2021/2027)
   nob: Tilkobling av Europa-anlegg (CEF 2021)
   history:
   - name: Connecting Europe Facility (CEF 2021)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CERV:
-  name: Citizens, Equality, Rights and Values
+  name: Citizens, Equality, Rights and Values (2021/2027)
   nob: Medborgere, likeverd, rettigheter og verdier
   history:
   - name: Citizens, Equality, Rights and Values
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CF:
-  name: Cohesion Fund (CF)
+  name: Cohesion Fund (CF) (2014/2020)
   nob: Samhørighetsfondet (CF)
   history:
   - name: Cohesion Fund (CF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CFSP2020:
-  name: Common foreign and security policy (CFSP)
+  name: Common foreign and security policy (CFSP) (2014/2020)
   nob: Felles utenriks- og sikkerhetspolitikk (FUSP)
   history:
   - name: Common foreign and security policy (CFSP)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CFSP_2021:
-  name: Common Foreign and Security Policy (CFSP)
+  name: Common Foreign and Security Policy (CFSP) (2021/2027)
   nob: Felles utenriks- og sikkerhetspolitikk (CFSP)
   history:
   - name: Common Foreign and Security Policy (CFSP)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CF_2021:
-  name: Cohesion Fund (CF)
+  name: Cohesion Fund (CF) (2021/2027)
   nob: Samhørighetsfondet (CF)
   history:
   - name: Cohesion Fund (CF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CF_DET:
-  name: Contribution from the Cohesion Fund to the CEF programme
+  name: Contribution from the Cohesion Fund to the CEF programme (2014/2020)
   nob: Samhørighetsfondets bidrag til CEF-programmet
   history:
   - name: Contribution from the Cohesion Fund to the CEF programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CIFP_07_13:
-  name: Competitiveness and Innovation Framework Programme
+  name: Competitiveness and Innovation Framework Programme (2007/2013)
   nob: Rammeprogram for konkurransekraft og innovasjon
   history:
   - name: Competitiveness and Innovation Framework Programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CIT2020:
-  name: Europe for Citizens
+  name: Europe for Citizens (2014/2020)
   nob: Europa for borgere
   history:
   - name: Europe for Citizens
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 COMPREG:
-  name: Competitiveness (more developed regions)
+  name: Competitiveness (more developed regions) (2014/2020)
   nob: Konkurranseevne (mer utviklede regioner)
   history:
   - name: Competitiveness (more developed regions)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CONS:
-  name: Consumer programme
+  name: Consumer programme (2014/2020)
   nob: Forbrukerprogram
   history:
   - name: Consumer programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 COPERNICUS:
-  name: European Earth Observation Programme (Copernicus)
+  name: European Earth Observation Programme (Copernicus) (2014/2020)
   nob: Det europeiske jordobservasjonsprogrammet (Copernicus)
   history:
   - name: European Earth Observation Programme (Copernicus)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 COSME:
-  name: Programme for the competitiveness of enterprises and small and medium-sized enterprises (COSME)
+  name: Programme for the competitiveness of enterprises and small and medium-sized enterprises (COSME) (2014/2020)
   nob: Program for konkurranseevnen til bedrifter og små og mellomstore bedrifter (COSME)
   history:
   - name: Programme for the competitiveness of enterprises and small and medium-sized enterprises (COSME)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CPM_H3:
-  name: Union Civil Protection Mechanism — Member States
+  name: Union Civil Protection Mechanism — Member States (2014/2020)
   nob: Unionens ordning for sivil beredskap — medlemsstater
   history:
   - name: Union Civil Protection Mechanism — Member States
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CPM_H4:
-  name: Union Civil Protection Mechanism — Outside EU
+  name: Union Civil Protection Mechanism — Outside EU (2014/2020)
   nob: Unionens sivile beskyttelsesmekanisme — utenfor EU
   history:
   - name: Union Civil Protection Mechanism — Outside EU
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CREA:
-  name: Creative Europe programme
+  name: Creative Europe programme (2014/2020)
   nob: Kreativt Europa-program
   history:
   - name: Creative Europe programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CREATIVEEU:
-  name: Creative Europe
+  name: Creative Europe (2021/2027)
   nob: Kreativt Europa
   history:
   - name: Creative Europe
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CUST2020:
-  name: Action programme for customs in the European Union (Customs 2020)
+  name: Action programme for customs in the European Union (Customs 2020) (2014/2020)
   nob: Handlingsprogram for toll i Den europeiske union (Tollvesenet 2020)
   history:
   - name: Action programme for customs in the European Union (Customs 2020)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 CUSTOMS:
-  name: Cooperation in the field of customs (CUSTOMS)
+  name: Cooperation in the field of customs (CUSTOMS) (2021/2027)
   nob: Samarbeid innen toll (CUSTOMS)
   history:
   - name: Cooperation in the field of customs (CUSTOMS)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 DCI2020:
-  name: Development Cooperation Instrument (DCI)
+  name: Development Cooperation Instrument (DCI) (2014/2020)
   nob: Bistandsvirkemiddel (DCI)
   history:
   - name: Development Cooperation Instrument (DCI)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 DIGITALEU:
-  name: Digital Europe Programme
+  name: Digital Europe Programme (2021/2027)
   nob: Program for digitalt Europa
   history:
   - name: Digital Europe Programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 E4A:
-  name: The Union programme for education, training, youth and sport (Erasmus+)
+  name: The Union programme for education, training, youth and sport (Erasmus+) (2014/2020)
   nob: Unionens program for utdanning, opplæring, ungdom og idrett (Erasmus+)
   history:
   - name: The Union programme for education, training, youth and sport (Erasmus+)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EAFRD:
-  name: European Agricultural Fund for Rural Development (after transfers between EAGF and EAFRD)
+  name: European Agricultural Fund for Rural Development (after transfers between EAGF and EAFRD) (2014/2020)
   nob: Det europeiske landbruksfondet for distriktsutvikling (etter overføringer mellom EAGF og EAFRD)
   history:
   - name: European Agricultural Fund for Rural Development (after transfers between EAGF and EAFRD)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EAFRD2020:
-  name: European Agricultural Fund for Rural Development (EAFRD)
+  name: European Agricultural Fund for Rural Development (EAFRD) (2014/2020)
   nob: Det europeiske landbruksfondet for distriktsutvikling (EAFRD)
   history:
   - name: European Agricultural Fund for Rural Development (EAFRD)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EAFRD_2021:
-  name: European Agricultural Fund for Rural Development (EAFRD)
+  name: European Agricultural Fund for Rural Development (EAFRD) (2021/2027)
   nob: Det europeiske landbruksfondet for distriktsutvikling (EAFRD)
   history:
   - name: European Agricultural Fund for Rural Development (EAFRD)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EAGF2020:
-  name: European Agricultural Guarantee Fund (EAGF)
+  name: European Agricultural Guarantee Fund (EAGF) (2014/2020)
   nob: Det europeiske landbruksgarantifondet (EAGF)
   history:
   - name: European Agricultural Guarantee Fund (EAGF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EAGF_2021:
-  name: European Agricultural Guarantee Fund (EAGF)
+  name: European Agricultural Guarantee Fund (EAGF) (2021/2027)
   nob: Det europeiske landbruksgarantifondet (EAGF)
   history:
   - name: European Agricultural Guarantee Fund (EAGF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EAR2020:
-  name: Emergency Aid Reserve (EAR)
+  name: Emergency Aid Reserve (EAR) (2014/2020)
   nob: Nødhjelpsreserve (EAR)
   history:
   - name: Emergency Aid Reserve (EAR)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EDF:
-  name: European Defence Fund (EDF)
+  name: European Defence Fund (EDF) (2021/2027)
   nob: Det europeiske forsvarsfondet (EDF)
   history:
   - name: European Defence Fund (EDF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EDIDP:
-  name: European Defence Industrial Development Programme
+  name: European Defence Industrial Development Programme (2019/2020)
   nob: Det europeiske forsvarsindustrielle utviklingsprogrammet
   history:
   - name: European Defence Industrial Development Programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EERP:
   name: Energy projects to aid economic recovery (EERP)
   nob: Energiprosjekter for å hjelpe økonomisk utvinning (EERP)
@@ -327,829 +327,829 @@ EERP:
     nob_verify: false
   nob_verify: false
 EFSD:
-  name: European Fund for Sustainable Development (EFSD)
+  name: European Fund for Sustainable Development (EFSD) (2017/2020)
   nob: Det europeiske fondet for bærekraftig utvikling (EFSD)
   history:
   - name: European Fund for Sustainable Development (EFSD)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EFSI:
-  name: European Fund for Strategic Investments (EFSI)
+  name: European Fund for Strategic Investments (EFSI) (2015/2020)
   nob: Det europeiske fondet for strategiske investeringer (EFSI)
   history:
   - name: European Fund for Strategic Investments (EFSI)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EGF2020:
-  name: European Globalisation Adjustment Fund (EGF)
+  name: European Globalisation Adjustment Fund (EGF) (2014/2020)
   nob: Det europeiske globaliseringstilpasningsfondet (EGF)
   history:
   - name: European Globalisation Adjustment Fund (EGF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EGF_2021:
-  name: European Globalisation Adjustment Fund (EGF)
+  name: European Globalisation Adjustment Fund (EGF) (2021/2027)
   nob: Det europeiske globaliseringstilpasningsfondet (EGF)
   history:
   - name: European Globalisation Adjustment Fund (EGF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EIDHR2020:
-  name: European Instrument for Democracy and Human Rights (EIDHR)
+  name: European Instrument for Democracy and Human Rights (EIDHR) (2014/2020)
   nob: Det europeiske instrumentet for demokrati og menneskerettigheter (EIDHR)
   history:
   - name: European Instrument for Democracy and Human Rights (EIDHR)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EINS:
-  name: European Instrument for Nuclear Safety (EINS)
+  name: European Instrument for Nuclear Safety (EINS) (2021/2027)
   nob: Det europeiske instrumentet for atomsikkerhet (EINS)
   history:
   - name: European Instrument for Nuclear Safety (EINS)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EMFAF:
-  name: European Maritime, Fisheries and Aquaculture Fund (EMFAF)
+  name: European Maritime, Fisheries and Aquaculture Fund (EMFAF) (2021/2027)
   nob: Det europeiske fondet for maritim, fiskeri og akvakultur (EMFAF)
   history:
   - name: European Maritime, Fisheries and Aquaculture Fund (EMFAF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EMFF2020:
-  name: European Maritime and Fisheries Fund (EMFF)
+  name: European Maritime and Fisheries Fund (EMFF) (2014/2020)
   nob: Det europeiske sjøfarts- og fiskerifondet (EMFF)
   history:
   - name: European Maritime and Fisheries Fund (EMFF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EMFF_2021:
-  name: European Maritime and Fisheries Fund (EMFF)
+  name: European Maritime and Fisheries Fund (EMFF) (2021/2027)
   nob: Det europeiske sjøfarts- og fiskerifondet (EMFF)
   history:
   - name: European Maritime and Fisheries Fund (EMFF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ENI:
-  name: European Neighbourhood Instrument (ENI)
+  name: European Neighbourhood Instrument (ENI) (2014/2020)
   nob: Europeisk naboskapsinstrument (ENI)
   history:
   - name: European Neighbourhood Instrument (ENI)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EPF:
-  name: European Peace Facility
+  name: European Peace Facility (2021/2027)
   nob: Den europeiske fredsfasiliteten
   history:
   - name: European Peace Facility
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ERASMUS_PLUS:
-  name: Erasmus+
+  name: Erasmus+ (2021/2027)
   nob: Erasmus+
   history:
   - name: Erasmus+
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ERDF:
-  name: European Regional Development Fund (ERDF)
+  name: European Regional Development Fund (ERDF) (2014/2020)
   nob: Det europeiske fondet for regional utvikling (ERDF)
   history:
   - name: European Regional Development Fund (ERDF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ERDF_2021:
-  name: European Regional Development Fund (ERDF)
+  name: European Regional Development Fund (ERDF) (2021/2027)
   nob: Det europeiske fondet for regional utvikling (ERDF)
   history:
   - name: European Regional Development Fund (ERDF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ESC:
-  name: European Solidarity Corps (ESC)
+  name: European Solidarity Corps (ESC) (2018/2020)
   nob: Det europeiske solidaritetskorps (ESC)
   history:
   - name: European Solidarity Corps (ESC)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ESC_2021:
-  name: European Solidarity Corps (ESC)
+  name: European Solidarity Corps (ESC) (2021/2027)
   nob: Det europeiske solidaritetskorps (ESC)
   history:
   - name: European Solidarity Corps (ESC)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ESF:
-  name: European Social Fund (ESF)
+  name: European Social Fund (ESF) (2014/2020)
   nob: Det europeiske sosialfond (ESF)
   history:
   - name: European Social Fund (ESF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ESF_PLUS:
-  name: European Social Fund Plus (ESF+)
+  name: European Social Fund Plus (ESF+) (2021/2027)
   nob: Det europeiske sosialfond pluss (ESF+)
   history:
   - name: European Social Fund Plus (ESF+)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ESI_2021:
-  name: Instrument for emergency support within the Union (ESI)
+  name: Instrument for emergency support within the Union (ESI) (2021/2027)
   nob: Instrument for krisestøtte i Unionen (ESI)
   history:
   - name: Instrument for emergency support within the Union (ESI)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ESP2017:
-  name: European statistical programme (ESP)
+  name: European statistical programme (ESP) (2013/2017)
   nob: Det europeiske statistikkprogrammet (ESP)
   history:
   - name: European statistical programme (ESP)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ESP2020:
-  name: European statistical programme (ESP)
+  name: European statistical programme (ESP) (2013/2020)
   nob: Det europeiske statistikkprogrammet (ESP)
   history:
   - name: European statistical programme (ESP)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EU4HEALTH:
-  name: EU4Health Programme
+  name: EU4Health Programme (2021/2027)
   nob: EU4Helseprogrammet
   history:
   - name: EU4Health Programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EUAV:
-  name: EU Aid Volunteers initiative (EUAV)
+  name: EU Aid Volunteers initiative (EUAV) (2014/2020)
   nob: EUs initiativ for frivillige bistandsorganisasjoner (EUAV)
   history:
   - name: EU Aid Volunteers initiative (EUAV)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EURATOM:
-  name: Euratom research and training programme
+  name: Euratom research and training programme (2014/2018)
   nob: Euratoms forsknings- og opplæringsprogram
   history:
   - name: Euratom research and training programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EURATOM_07_13:
-  name: Euratom Research and Training Programme (2007–2013)
+  name: Euratom Research and Training Programme (2007/2013)
   nob: Euratoms forsknings- og opplæringsprogram (2007–2013)
   history:
   - name: Euratom Research and Training Programme (2007–2013)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EURATOM_19_20:
-  name: Euratom Research and Training Programme (2019–2020)
+  name: Euratom Research and Training Programme (2019/2020)
   nob: Euratoms forsknings- og opplæringsprogram (2019–2020)
   history:
   - name: Euratom Research and Training Programme (2019–2020)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EURATOM_21_27:
-  name: Euratom Research and Training Programme
+  name: Euratom Research and Training Programme (2021/2027)
   nob: Euratoms forsknings- og opplæringsprogram
   history:
   - name: Euratom Research and Training Programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EURI:
-  name: European Union Recovery Instrument (EURI)
+  name: European Union Recovery Instrument (EURI) (2021/2027)
   nob: Den europeiske unions gjenopprettingsinstrument (EURI)
   history:
   - name: European Union Recovery Instrument (EURI)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EURODAC2020:
-  name: Comparison of fingerprints for the effective application of the Dublin Convention (EURODAC)
+  name: Comparison of fingerprints for the effective application of the Dublin Convention (EURODAC) (2014/2020)
   nob: Sammenligning av fingeravtrykk for effektiv anvendelse av Dublin-konvensjonen (EURODAC)
   history:
   - name: Comparison of fingerprints for the effective application of the Dublin Convention (EURODAC)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EUSF2020:
-  name: European Union Solidarity Fund (EUSF)
+  name: European Union Solidarity Fund (EUSF) (2014/2020)
   nob: Den europeiske unions solidaritetsfond (EUSF)
   history:
   - name: European Union Solidarity Fund (EUSF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EUSF_2021:
-  name: European Union Solidarity Fund (EUSF)
+  name: European Union Solidarity Fund (EUSF) (2021/2027)
   nob: Den europeiske unions solidaritetsfond (EUSF)
   history:
   - name: European Union Solidarity Fund (EUSF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EUSF_H3:
-  name: European Union Solidarity Fund (EUSF) — Member States
+  name: European Union Solidarity Fund (EUSF) — Member States (2014/2020)
   nob: Den europeiske unions solidaritetsfond (EUSF) — Medlemsland
   history:
   - name: European Union Solidarity Fund (EUSF) — Member States
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 EUSF_H4:
-  name: European Union Solidarity Fund (EUSF) — Countries negotiating for accession
+  name: European Union Solidarity Fund (EUSF) — Countries negotiating for accession (2014/2020)
   nob: Den europeiske unions solidaritetsfond (EUSF) – Land som forhandler om tiltredelse
   history:
   - name: European Union Solidarity Fund (EUSF) — Countries negotiating for accession
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 FEAD:
-  name: Fund for European Aid to the Most Deprived (FEAD)
+  name: Fund for European Aid to the Most Deprived (FEAD) (2014/2020)
   nob: Fondet for europeisk bistand til de mest berøvede (FEAD)
   history:
   - name: Fund for European Aid to the Most Deprived (FEAD)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 FF2020:
-  name: Food and feed
+  name: Food and feed (2014/2020)
   nob: Mat og fôr
   history:
   - name: Food and feed
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 FINSER2020:
-  name: Specific activities in the field of financial reporting and auditing
+  name: Specific activities in the field of financial reporting and auditing (2014/2020)
   nob: Spesifikke aktiviteter innen finansiell rapportering og revisjon
   history:
   - name: Specific activities in the field of financial reporting and auditing
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 FISC2020:
-  name: Action programme for taxation in the European Union (Fiscalis 2020)
+  name: Action programme for taxation in the European Union (Fiscalis 2020) (2014/2020)
   nob: Handlingsprogram for beskatning i Den europeiske union (Fiscalis 2020)
   history:
   - name: Action programme for taxation in the European Union (Fiscalis 2020)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 FISCALIS:
-  name: Cooperation in the field of taxation (FISCALIS)
+  name: Cooperation in the field of taxation (FISCALIS) (2021/2027)
   nob: Samarbeid på skatteområdet (FISCALIS)
   history:
   - name: Cooperation in the field of taxation (FISCALIS)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 FP6:
-  name: Sixth Framework Programme for Research and Innovation
+  name: Sixth Framework Programme for Research and Innovation (2001/2006)
   nob: Sjette rammeprogram for forskning og innovasjon
   history:
   - name: Sixth Framework Programme for Research and Innovation
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 FP7:
-  name: Seventh Framework Programme for Research and Innovation
+  name: Seventh Framework Programme for Research and Innovation (2007/2013)
   nob: Syvende rammeprogram for forskning og innovasjon
   history:
   - name: Seventh Framework Programme for Research and Innovation
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 GAL2014:
-  name: Implementation and exploitation of European satellite navigation systems (EGNOS and Galileo)
+  name: Implementation and exploitation of European satellite navigation systems (EGNOS and Galileo) (2014/2020)
   nob: Implementering og utnyttelse av europeiske satellittnavigasjonssystemer (EGNOS og Galileo)
   history:
   - name: Implementation and exploitation of European satellite navigation systems (EGNOS and Galileo)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 GRLD2020:
-  name: EU cooperation with Greenland
+  name: EU cooperation with Greenland (2014/2020)
   nob: EU-samarbeid med Grønland
   history:
   - name: EU cooperation with Greenland
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 H2020:
-  name: The framework programme for research and innovation (Horizon 2020)
+  name: The framework programme for research and innovation (Horizon 2020) (2014/2020)
   nob: Rammeprogrammet for forskning og innovasjon (Horisont 2020)
   history:
   - name: The framework programme for research and innovation (Horizon 2020)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 HEALTH:
-  name: Union's action in the field of health (Health programme)
+  name: Union's action in the field of health (Health programme) (2014/2020)
   nob: Fagforbundets tiltak på helseområdet (Helseprogrammet)
   history:
   - name: Union's action in the field of health (Health programme)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 HERC3:
-  name: Programme to promote activities in the field of the protection of the European Union's financial interests (Hercule III)
+  name: Programme to promote activities in the field of the protection of the European Union's financial interests (Hercule III) (2014/2020)
   nob: Program for å fremme aktiviteter på området beskyttelse av EUs finansielle interesser (Hercule III)
   history:
   - name: Programme to promote activities in the field of the protection of the European Union's financial interests (Hercule III)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 HFR2015:
-  name: Supplementary high flux reactor (HFR) programmes
+  name: Supplementary high flux reactor (HFR) programmes (2012/2015)
   nob: Supplerende høyfluksreaktorprogrammer (HFR)
   history:
   - name: Supplementary high flux reactor (HFR) programmes
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 HFR_09_11:
-  name: Supplementary High Flux Reactor (HFR) programmes
+  name: Supplementary high flux reactor (HFR) programmes (2009/2011)
   nob: Supplerende High Flux Reactor (HFR) programmer
   history:
   - name: Supplementary High Flux Reactor (HFR) programmes
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 HFR_16_19:
-  name: Supplementary High Flux Reactor (HFR) programmes (2016–2019)
+  name: Supplementary high flux reactor (HFR) programmes (2016/2019)
   nob: Supplerende høyfluksreaktorprogrammer (HFR) (2016–2019)
   history:
   - name: Supplementary High Flux Reactor (HFR) programmes (2016–2019)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 HFR_20_23:
-  name: Supplementary High Flux Reactor (HFR) programmes (2020–2023)
+  name: Supplementary high flux reactor (HFR) programmes (2020/2023)
   nob: Supplerende programmer for høyfluksreaktorer (HFR) (2020–2023)
   history:
   - name: Supplementary High Flux Reactor (HFR) programmes (2020–2023)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 HORIZONEU:
-  name: Horizon Europe – the Framework Programme for Research and Innovation
+  name: Horizon Europe – the Framework Programme for Research and Innovation (2021/2027)
   nob: Horisont Europa – rammeprogrammet for forskning og innovasjon
   history:
   - name: Horizon Europe – the Framework Programme for Research and Innovation
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 HUMA2020:
-  name: Humanitarian aid
+  name: Humanitarian aid (2014/2020)
   nob: Humanitær bistand
   history:
   - name: Humanitarian aid
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 HUMA_2021:
-  name: Humanitarian Aid (HUMA)
+  name: Humanitarian Aid (HUMA) (2021/2027)
   nob: Humanitær hjelp (HUMA)
   history:
   - name: Humanitarian Aid (HUMA)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ICFS:
-  name: Enhancing consumers involvement in EU policy making in the field of financial services
+  name: Enhancing consumers involvement in EU policy making in the field of financial services (2017/2020)
   nob: Styrke forbrukernes engasjement i EUs politikkutforming på området finansielle tjenester
   history:
   - name: Enhancing consumers involvement in EU policy making in the field of financial services
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 IES:
-  name: Instrument for emergency support within the Union
+  name: Instrument for emergency support within the Union (2016/2020)
   nob: Virkemiddel for krisestøtte i Unionen
   history:
   - name: Instrument for emergency support within the Union
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 IF:
-  name: Innovation Fund (IF))
+  name: Innovation Fund (IF) (2021/2027)
   nob: Innovasjonsfondet (IF))
   history:
   - name: Innovation Fund (IF))
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 IFS2020:
-  name: Instrument contributing to Stability and Peace (IcSP)
+  name: Instrument contributing to Stability and Peace (IcSP) (2014/2020)
   nob: Instrument som bidrar til stabilitet og fred (ICSP)
   history:
   - name: Instrument contributing to Stability and Peace (IcSP)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 INSC2020:
-  name: Instrument for Nuclear Safety Cooperation (INSC)
+  name: Instrument for Nuclear Safety Cooperation (INSC) (2014/2020)
   nob: Instrument for atomsikkerhetssamarbeid (INSC)
   history:
   - name: Instrument for Nuclear Safety Cooperation (INSC)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 INVESTEU:
-  name: InvestEU Programme
+  name: InvestEU Programme (2021/2027)
   nob: InvestEU-programmet
   history:
   - name: InvestEU Programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 IPA2:
-  name: Instrument for Pre-accession Assistance (IPA II)
+  name: Instrument for Pre-accession Assistance (IPA II) (2014/2020)
   nob: Instrument for bistand før tiltredelse (IPA II)
   history:
   - name: Instrument for Pre-accession Assistance (IPA II)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 IPAIII:
-  name: Instrument for Pre-accession assistance (IPA III)
+  name: Instrument for Pre-accession assistance (IPA III) (2021/2027)
   nob: Instrument for bistand før tiltredelsen (IPA III)
   history:
   - name: Instrument for Pre-accession assistance (IPA III)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ISA2015:
-  name: Interoperability Solutions for European Public Administrations (ISA)
+  name: Interoperability Solutions for European Public Administrations (ISA) (2010/2015)
   nob: Interoperabilitetsløsninger for europeisk offentlig forvaltning (ISA)
   history:
   - name: Interoperability Solutions for European Public Administrations (ISA)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ISA2020:
-  name: Interoperability Solutions for European public administrations, businesses and citizens (ISA2)
+  name: Interoperability Solutions for European public administrations, businesses and citizens (ISA2) (2016/2020)
   nob: Interoperabilitetsløsninger for europeisk offentlig forvaltning, bedrifter og borgere (ISA2)
   history:
   - name: Interoperability Solutions for European public administrations, businesses and citizens (ISA2)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ISF:
-  name: Internal Security Fund (ISF)
+  name: Internal Security Fund (ISF) (2014/2020)
   nob: Internt sikkerhetsfond (ISF)
   history:
   - name: Internal Security Fund (ISF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ISF_2021:
-  name: Internal Security Fund (ISF)
+  name: Internal Security Fund (ISF) (2021/2027)
   nob: Internt sikkerhetsfond (ISF)
   history:
   - name: Internal Security Fund (ISF)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ITER:
-  name: International thermonuclear experimental reactor (ITER)
+  name: International thermonuclear experimental reactor (ITER) (2014/2018)
   nob: Internasjonal termonukleær eksperimentell reaktor (ITER)
   history:
   - name: International thermonuclear experimental reactor (ITER)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ITER_19_20:
-  name: International Thermonuclear Experimental Reactor (ITER)
+  name: International Thermonuclear Experimental Reactor (ITER) (2019/2020)
   nob: Internasjonal termonukleær eksperimentell reaktor (ITER)
   history:
   - name: International Thermonuclear Experimental Reactor (ITER)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ITER_2021:
-  name: International Thermonuclear Experimental Reactor (ITER)
+  name: International Thermonuclear Experimental Reactor (ITER) (2021/2027)
   nob: Internasjonal termonukleær eksperimentell reaktor (ITER)
   history:
   - name: International Thermonuclear Experimental Reactor (ITER)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 JTF:
-  name: Just Transition Fund
+  name: Just Transition Fund (2021/2027)
   nob: Rettferdig overgangsfond
   history:
   - name: Just Transition Fund
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 JUST:
-  name: Justice programme
+  name: Justice programme (2014/2020)
   nob: Justisprogram
   history:
   - name: Justice programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 JUSTICE:
-  name: Justice Programme
+  name: Justice Programme (2021/2027)
   nob: Justisprogrammet
   history:
   - name: Justice Programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 LIFE2020:
-  name: Programme for the Environment and Climate Action (LIFE 2014–2020)
+  name: Programme for the Environment and Climate Action (LIFE) (2014/2020)
   nob: Program for miljø og klimatiltak (LIFE 2014–2020)
   history:
   - name: Programme for the Environment and Climate Action (LIFE 2014–2020)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 LIFE_2021:
-  name: Programme for the Environment and Climate Action (LIFE 2021)
+  name: Programme for the Environment and Climate Action (LIFE) (2021/2027)
   nob: Program for miljø og klimatiltak (LIFE 2021)
   history:
   - name: Programme for the Environment and Climate Action (LIFE 2021)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 LOAN2020:
-  name: Guarantee Fund for external actions
+  name: Guarantee Fund for external actions (2014/2020)
   nob: Sikringsfond for eksterne tiltak
   history:
   - name: Guarantee Fund for external actions
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 MFA:
-  name: Macro financial assistance (MFA)
+  name: Macro financial assistance (MFA) (2014/2020)
   nob: Makroøkonomisk bistand (UD)
   history:
   - name: Macro financial assistance (MFA)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 MM_2021:
-  name: Military mobility
+  name: Military mobility (2021/2027)
   nob: Militær mobilitet
   history:
   - name: Military mobility
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ND:
-  name: Nuclear decommissioning assistance programmes in Bulgaria, Lithuania and Slovakia
+  name: Nuclear decommissioning assistance programmes in Bulgaria, Lithuania and Slovakia (2014/2020)
   nob: Bistandsprogrammer for nukleær dekommisjonering i Bulgaria, Litauen og Slovakia
   history:
   - name: Nuclear decommissioning assistance programmes in Bulgaria, Lithuania and Slovakia
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 NDICI:
-  name: Neighbourhood, Development and International Cooperation Instrument (NDICI)
+  name: Neighbourhood, Development and International Cooperation Instrument (NDICI) (2021/2027)
   nob: Naboskap, utvikling og internasjonalt samarbeidsinstrument (NDICI)
   history:
   - name: Neighbourhood, Development and International Cooperation Instrument (NDICI)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ND_LITH:
-  name: Nuclear decommissioning assistance programmes (Lithuania)
+  name: Nuclear decommissioning assistance programmes (Lithuania) (2021/2027)
   nob: Bistandsprogrammer for nukleær dekommisjonering (Litauen)
   history:
   - name: Nuclear decommissioning assistance programmes (Lithuania)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 ND_OTHER:
-  name: Nuclear Safety and decommissioning (incl. for Bulgaria and Slovakia)
+  name: Nuclear Safety and decommissioning (incl. for Bulgaria and Slovakia) (2021/2027)
   nob: Atomsikkerhet og dekommisjonering (inkl. for Bulgaria og Slovakia)
   history:
   - name: Nuclear Safety and decommissioning (incl. for Bulgaria and Slovakia)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 OCT:
-  name: Overseas Countries and Territories (OCT) (including Greenland)
+  name: Overseas Countries and Territories (OCT) (including Greenland) (2021/2027)
   nob: Oversjøiske land og territorier (OCT) (inkludert Grønland)
   history:
   - name: Overseas Countries and Territories (OCT) (including Greenland)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 OUTREG:
-  name: Outermost and sparsely populated regions
+  name: Outermost and sparsely populated regions (2014/2020)
   nob: Ytterste og spredtbygde strøk
   history:
   - name: Outermost and sparsely populated regions
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 PERI2020:
-  name: Exchange, assistance and training programme for the protection of the euro against counterfeiting (Pericles 2020)
+  name: Exchange, assistance and training programme for the protection of the euro against counterfeiting (Pericles 2020) (2014/2020)
   nob: Utveksling, assistanse og opplæringsprogram for beskyttelse av euroen mot forfalskning (Perikles 2020)
   history:
   - name: Exchange, assistance and training programme for the protection of the euro against counterfeiting (Pericles 2020)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 PERICLES:
-  name: Protection of the euro against counterfeiting (the ‘Pericles IV programme’)
+  name: Protection of the euro against counterfeiting (the ‘Pericles IV programme’) (2021/2027)
   nob: Beskyttelse av euroen mot forfalskninger ("Perikles IV-programmet")
   history:
   - name: Protection of the euro against counterfeiting (the ‘Pericles IV programme’)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 PI:
-  name: Partnership instrument for cooperation with third countries (PI)
+  name: Partnership instrument for cooperation with third countries (PI) (2014/2020)
   nob: Partnerskapsinstrument for samarbeid med tredjeland (PI)
   history:
   - name: Partnership instrument for cooperation with third countries (PI)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 PSCI:
-  name: European Union programme for employment and social innovation (EaSI)
+  name: European Union programme for employment and social innovation (EaSI) (2014/2020)
   nob: Den europeiske unions program for sysselsetting og sosial innovasjon (EaSI)
   history:
   - name: European Union programme for employment and social innovation (EaSI)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 PSLF_JTM2021:
-  name: Public sector loan facility under the Just Transition Mechanism (JTM)
+  name: Public sector loan facility under the Just Transition Mechanism (JTM) (2021/2027)
   nob: Lånefasilitet i offentlig sektor under Just Transition Mechanism (JTM)
   history:
   - name: Public sector loan facility under the Just Transition Mechanism (JTM)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 REGCONV:
-  name: Regional convergence (less developed regions)
+  name: Regional convergence (less developed regions) (2014/2020)
   nob: Regional konvergens (mindre utviklede regioner)
   history:
   - name: Regional convergence (less developed regions)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 RESCEU:
-  name: Union Civil Protection Mechanism (rescEU)
+  name: Union Civil Protection Mechanism (rescEU) (2021/2027)
   nob: Unionens ordning for sivil beredskap (rescEU)
   history:
   - name: Union Civil Protection Mechanism (rescEU)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 RFMOs:
-  name: Compulsory contributions to regional fisheries management organisations (RFMOs) and to other international organisations
+  name: Compulsory contributions to regional fisheries management organisations (RFMOs) and to other international organisations (2014/2020)
   nob: Obligatoriske bidrag til regionale fiskeriforvaltningsorganisasjoner (RFMO) og til andre internasjonale organisasjoner
   history:
   - name: Compulsory contributions to regional fisheries management organisations (RFMOs) and to other international organisations
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 RIGHTS_2021:
-  name: Rights and Values Programme
+  name: Rights and Values Programme (2021/2027)
   nob: Rettighets- og verdiprogram
   history:
   - name: Rights and Values Programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 RRF:
-  name: European Recovery and Resilience Facility (incl. Technical Support Instrument)
+  name: European Recovery and Resilience Facility (incl. Technical Support Instrument) (2021/2027)
   nob: European Recovery and Resilience Facility (inkl. teknisk støtteinstrument)
   history:
   - name: European Recovery and Resilience Facility (incl. Technical Support Instrument)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 SEAR_2021:
-  name: Solidarity and Emergency Aid Reserve (SEAR)
+  name: Solidarity and Emergency Aid Reserve (SEAR) (2021/2027)
   nob: Solidaritets- og nødhjelpsreserven (SEAR)
   history:
   - name: Solidarity and Emergency Aid Reserve (SEAR)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 SFAs:
-  name: Sustainable Fisheries Partnership Agreements (SFPAs)
+  name: Sustainable Fisheries Partnership Agreements (SFPAs) (2014/2020)
   nob: Bærekraftige fiskeripartnerskapsavtaler (SFPA)
   history:
   - name: Sustainable Fisheries Partnership Agreements (SFPAs)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 SINGLEMKT:
-  name: Single Market Programme, including COSME, ISA2, ESP, consumer involvement in fin. Services, financial reporting, Health, Food and Feed, consumer programme
+  name: Single Market Programme, including COSME, ISA2, ESP, consumer involvement in fin. Services, financial reporting, Health, Food and Feed, consumer programme (2021/2027)
   nob: Det indre markedsprogram, inkludert COSME, ISA2, ESP, forbrukerinvolvering i fin. Tjenester, finansiell rapportering, Helse, Mat og fôr, forbrukerprogram
   history:
   - name: Single Market Programme, including COSME, ISA2, ESP, consumer involvement in fin. Services, financial reporting, Health, Food and Feed, consumer programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 SIS2020:
-  name: Schengen Information System (SIS)
+  name: Schengen Information System (SIS) (2014/2020)
   nob: Schengen informasjonssystem (SIS)
   history:
   - name: Schengen Information System (SIS)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 SPACE:
-  name: European Space Programme
+  name: European Space Programme (2021/2027)
   nob: Det europeiske romprogrammet
   history:
   - name: European Space Programme
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 TA_IA:
-  name: Technical assistance and innovative actions
+  name: Technical assistance and innovative actions (2014/2020)
   nob: Teknisk assistanse og innovative tiltak
   history:
   - name: Technical assistance and innovative actions
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 TCC:
-  name: Instrument of financial support for encouraging the economic development of the Turkish Cypriot community (TCC)
+  name: Instrument of financial support for encouraging the economic development of the Turkish Cypriot community (TCC) (2014/2020)
   nob: Instrument for økonomisk støtte for å oppmuntre den økonomiske utviklingen av det tyrkisk-kypriotiske samfunnet (TCC)
   history:
   - name: Instrument of financial support for encouraging the economic development of the Turkish Cypriot community (TCC)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 TCC_2021:
-  name: Support to the Turkish Cypriot Community
+  name: Support to the Turkish Cypriot Community (2021/2027)
   nob: Støtte til det tyrkisk-kypriotiske samfunnet
   history:
   - name: Support to the Turkish Cypriot Community
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 TERRCOOP:
-  name: European territorial cooperation
+  name: European territorial cooperation (2014/2020)
   nob: Europeisk territorielt samarbeid
   history:
   - name: European territorial cooperation
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 TRANSREG:
-  name: Transition regions
+  name: Transition regions (2014/2020)
   nob: Overgangsområder
   history:
   - name: Transition regions
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 VIS2020:
-  name: Visa Information System (VIS)
+  name: Visa Information System (VIS) (2014/2020)
   nob: Visuminformasjonssystem (VIS)
   history:
   - name: Visa Information System (VIS)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 YEI:
-  name: Youth employment initiative (specific top-up allocation)
+  name: Youth employment initiative (specific top-up allocation) (2014/2020)
   nob: Sysselsettingstiltak for ungdom (spesifikk toppbevilgning)
   history:
   - name: Youth employment initiative (specific top-up allocation)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 OP_DATPRO:
   name: Provisional data
   nob: Foreløpige data

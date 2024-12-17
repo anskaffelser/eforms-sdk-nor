@@ -178,3 +178,7 @@ veat:
     history: []
     nob_verify: false
   nob_verify: false
+compl:
+  name: Contract completion notice
+pmc:
+  name: Pre-market consultation notice

@@ -1882,10 +1882,10 @@ VIR:
     nob_verify: false
   nob_verify: false
 VNM:
-  name: Vietnam
+  name: Viet Nam
   nob: Vietnam
   history: []
-  nob_verify: false
+  nob_verify: true
 VUT:
   name: Vanuatu
   nob: Vanuatu

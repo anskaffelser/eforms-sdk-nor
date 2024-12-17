@@ -646,3 +646,15 @@ view|name|summary:
     history: []
     nob_verify: false
   nob_verify: false
+view|name|E1:
+  name: View E1
+view|name|E2:
+  name: View E2
+view|name|E3:
+  name: View E3
+view|name|E4:
+  name: View E4
+view|name|E5:
+  name: View E5
+view|name|E6:
+  name: View E6

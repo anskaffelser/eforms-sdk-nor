@@ -1,0 +1,14 @@
+fsr-adm-clos:
+  name: Notification submitted, administrative closure of FSR preliminary review procedure
+fsr-commit:
+  name: Notification submitted, decision with commitments
+fsr-irregul:
+  name: Notification submitted, decision on irregular tender or request to participate
+fsr-meat:
+  name: 'Declaration submitted, standard MEAT award    '
+fsr-no-obj:
+  name: Notification submitted, decision with no objection
+fsr-proh:
+  name: Notification submitted, decision prohibiting the award
+fsr-stand:
+  name: Declaration submitted, standard award procedure

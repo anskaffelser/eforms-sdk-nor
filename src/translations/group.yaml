@@ -1192,13 +1192,13 @@ group|name|GR-Unpublish-BT-106:
     nob_verify: false
   nob_verify: false
 group|name|GR-Unpublish-BT-118:
-  name: Estimated value of framework agreement (published later)
+  name: Maximum value of the framework agreements in this procedure (published later)
   nob: Estimert verdi av rammeavtale (publisert senere)
   history:
   - name: Estimated value of framework agreement (published later)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-Unpublish-BT-1252:
   name: ID of the previous procedure justifying direct award (published later)
   nob: ID for den forrige prosedyren som begrunner direkte tildeling (publisert senere)
@@ -1248,13 +1248,13 @@ group|name|GR-Unpublish-BT-144:
     nob_verify: false
   nob_verify: false
 group|name|GR-Unpublish-BT-156:
-  name: Estimated value of the framework agreements in the group of lots (published later)
+  name: Maximum value of the framework agreements in this group of lots (published later)
   nob: Estimert verdi av rammeavtalene i partigruppen (publisert senere)
   history:
   - name: Estimated value of the framework agreements in the group of lots (published later)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|GR-Unpublish-BT-160:
   name: Estimated revenue from the buyer who granted the concession (published later)
   nob: Anslått inntekt fra kjøperen som ga konsesjonen (publisert senere)
@@ -1784,13 +1784,13 @@ group|name|ND-ProcedureAdditionalCommodityClassification:
     nob_verify: false
   nob_verify: false
 group|name|ND-ProcedurePlacePerformanceAdditionalInformation:
-  name: Additional information about place of performance
+  name: Place of performance
   nob: Tilleggsinformasjon om fremføringssted
   history:
   - name: Additional information about place of performance
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-RewardsPenalties:
   name: Rewards and penalties
   nob: Belønninger og straffer
@@ -2608,13 +2608,13 @@ group|name|ND-LateTendererInformation:
     nob_verify: false
   nob_verify: false
 group|name|ND-ReceivedSubmissions:
-  name: Received submissions statististics
+  name: Received submissions statistics
   nob: Mottatte innleveringer statistikk
   history:
   - name: Received submissions statististics
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 group|name|ND-ReviewRequestsStatistics:
   name: Statistics about review requests
   nob: Statistikk over forespørsler om gjennomgang
@@ -2688,7 +2688,7 @@ group|name|ND-ProcedureMainClassification:
     nob_verify: false
   nob_verify: false
 group|name|ND-ProcedureProcurementScope:
-  name: Tendering terms
+  name: Description
   nob: Anbudsvilkår
   history:
   - name: Tendering Terms
@@ -3265,3 +3265,67 @@ group|name|ND-Asset:
   name: Assets justifying contract extension
 group|name|ND-ExtendedDurationJustification:
   name: Contract extension
+group|name|GR-FSR-Measures:
+  name: Tender Foreign Subsidies Regulation Measures
+group|name|ND-AppealDecision:
+  name: Decision type
+group|name|ND-AppealIrregularity:
+  name: Irregularity type
+group|name|ND-AppealProcessingParty:
+  name: Party dealing with the review
+group|name|ND-AppealRemedy:
+  name: Remedy type
+group|name|ND-AppealedItemReference:
+  name: Appealed item
+group|name|ND-AppealingParty:
+  name: Party that initiated the review request
+group|name|ND-AuctionTerms:
+  name: Terms of the auction
+group|name|ND-EEDAssetLabel:
+  name: Energy efficiency label of the asset
+group|name|ND-EEDAssetQuantity:
+  name: Quantity of procured assets
+group|name|ND-EEDConsumption:
+  name: Yearly energy consumption for the asset
+group|name|ND-EEDInformationLot:
+  name: Information about EED assets to be procured
+group|name|ND-EEDInformationLotResult:
+  name: EED information for the lot
+group|name|ND-EEDLot:
+  name: Information about EED applicability
+group|name|ND-EEDLotResult:
+  name: Information about the assets procured under EED
+group|name|ND-EEDProcurementDetailsLot:
+  name: Details about the asset
+group|name|ND-EEDProcurementDetailsLotResult:
+  name: Detailed information about the asset
+group|name|ND-EEDSavings:
+  name: Yearly energy savings for the asset
+group|name|ND-ExclusionGroundsSource:
+  name: Exclusion Grounds Source (Code)
+group|name|ND-FSR:
+  name: Information about FSR applicability
+group|name|ND-IPIAppliedMeasure:
+  name: Details about an applied measure
+group|name|ND-IPIInformation:
+  name: Information about all the applied measures
+group|name|ND-IPILot:
+  name: Information about IPI applicability
+group|name|ND-IPILotResult:
+  name: Overall information about the IPI
+group|name|ND-IPIMeasureException:
+  name: Exception to the applied measure
+group|name|ND-IPIMeasureStatistics:
+  name: Statistics about applied measures
+group|name|ND-PMCAnswersDeadline:
+  name: Deadline for reception of answers
+group|name|ND-ProcedurePlacePerformance:
+  name: A location where the procurement, for the procedure as a whole, should take place
+group|name|ND-ReviewRequests:
+  name: Review
+group|name|ND-ReviewStatus:
+  name: Status of submitted review requests
+group|name|ND-SelectionCriteriaSource:
+  name: Source for Selection Criteria
+group|name|ND-TenderAggregatedAmounts:
+  name: Aggregated amounts for executed contracts

@@ -702,3 +702,15 @@ SRB:
     history: []
     nob_verify: false
   nob_verify: false
+AEPPEPF:
+  name: Authority for European Political Parties and European Political Foundations
+AMLA:
+  name: Authority for Anti-Money Laundering and Countering the Financing of Terrorism
+CERT-EU:
+  name: Cybersecurity Service for the Union Institutions, Bodies, Offices and Agencies
+CJU:
+  name: Chips Joint Undertaking
+ECCC:
+  name: European Cybersecurity Industrial, Technology and Research Competence Centre
+EUDA:
+  name: European Union Drugs Agency

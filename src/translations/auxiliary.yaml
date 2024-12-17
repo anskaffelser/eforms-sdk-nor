@@ -826,3 +826,27 @@ auxiliary|text|OPP-035:
   name: Revenues Allocation of tickets sales code
 auxiliary|text|change-notice:
   name: Change notice
+auxiliary|text|award-criterion-fixed-dimension:
+  name: Category of award weight criterion
+auxiliary|text|award-criterion-threshold-dimension:
+  name: Category of award fixed criterion
+auxiliary|text|award-criterion-weight-dimension:
+  name: Category of award threshold criterion
+auxiliary|text|eed-applicable:
+  name: The procurement falls within the scope of the Energy Efficiency Directive (EED) (EU) 2023/1791
+auxiliary|text|eed-list:
+  name: List of products, works, services and buildings related to the Energy Efficiency Directive (EED)
+auxiliary|text|exclusion-grounds-sources:
+  name: Sources of grounds for exclusion
+auxiliary|text|foreign-subsidies-regulation:
+  name: This procedure falls under the Foreign Subsidy Regulation (FSR)
+auxiliary|text|international-procurement-instrument:
+  name: The procurement falls within the scope of the International Procurement Instrument (IPI)
+auxiliary|text|international-procurement-instrument-statistics:
+  name: Statistics about International Procurement Instrument (IPI) measures
+auxiliary|text|review:
+  name: Review
+auxiliary|text|review-request-withdrawn:
+  name: The application for review or for interim measures was withdrawn
+auxiliary|text|selection-criteria-sources:
+  name: Sources of selection criteria

@@ -30,3 +30,67 @@ tp-abil:
     history: []
     nob_verify: false
   nob_verify: false
+slc-abil-facil-res:
+  name: Study, technical and research facilities
+slc-abil-facil-tools:
+  name: Tools, plant, or technical equipment
+slc-abil-mgmt-env:
+  name: Environmental management measures
+slc-abil-mgmt-qual:
+  name: Measures for ensuring quality
+slc-abil-mgmt-supply:
+  name: Supply chain management
+slc-abil-qual-inst:
+  name: Certificates by quality control institutes
+slc-abil-qual-smp-w-autent:
+  name: Samples, descriptions, or photographs with certification of authenticity for supply contracts
+slc-abil-qual-smp-wo-autent:
+  name: Samples, descriptions, or photographs without certification of authenticity
+slc-abil-ref-services:
+  name: References on specified services
+slc-abil-ref-supply:
+  name: References on specified deliveries
+slc-abil-ref-work:
+  name: References on specified works
+slc-abil-staff-qual:
+  name: Relevant educational and professional qualifications
+slc-abil-staff-tech-ctrl:
+  name: Technicians or technical bodies for quality control
+slc-abil-staff-tech-work:
+  name: Technicians or technical bodies to carry out the work
+slc-abil-staff-yrly-avg-mp:
+  name: Average yearly manpower
+slc-abil-staff-yrly-no-mgmt:
+  name: Number of managerial staff
+slc-abil-subc:
+  name: Subcontracting proportion
+slc-sche-env-cert-indep:
+  name: Certificates by independent bodies about environmental management systems or standards
+slc-sche-qu-cert-indep:
+  name: Certificates by independent bodies about quality assurance standards
+slc-sec-inf:
+  name: Security of information
+slc-sec-proc:
+  name: Security to process, store and transmit classified information
+slc-sec-supply:
+  name: Security of supply
+slc-stand-ins:
+  name: Professional risk indemnity insurance
+slc-stand-other:
+  name: Other economic or financial requirements
+slc-stand-ratio:
+  name: Financial ratio
+slc-stand-to-avg:
+  name: Average yearly turnover
+slc-stand-to-gen:
+  name: General yearly turnover
+slc-stand-to-spec:
+  name: Specific yearly turnover
+slc-stand-to-spec-avg:
+  name: Specific average yearly turnover
+slc-suit-auth-mbrshp:
+  name: Authorisation or membership of a particular organisation needed for service contracts
+slc-suit-reg-prof:
+  name: Enrolment in a relevant professional register
+slc-suit-reg-trade:
+  name: Enrolment in a trade register

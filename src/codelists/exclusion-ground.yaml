@@ -190,3 +190,65 @@ terr-offence:
     history: []
     nob_verify: false
   nob_verify: false
+exg-crim:
+  name: Grounds relating to criminal convictions
+exg-crim-corrpt:
+  name: Corruption
+exg-crim-fraud:
+  name: Fraud
+exg-crim-laund:
+  name: Money laundering or terrorist financing
+exg-crim-part:
+  name: Participation in a criminal organisation
+exg-crim-terror:
+  name: Terrorist offences or offences linked to terrorist activities
+exg-crim-traffick:
+  name: Child labour and including other forms of trafficking in human beings
+exg-mis:
+  name: Grounds relating to insolvency, conflicts of interests or professional misconduct
+exg-mis-bre-env-law:
+  name: Breaching of obligations in the fields of environmental law
+exg-mis-bre-lab-law:
+  name: Breaching of obligations in the fields of labour law
+exg-mis-bre-soc-law:
+  name: Breaching of obligations in the fields of social law
+exg-mis-distortion:
+  name: Agreements with other economic operators aimed at distorting competition
+exg-mis-misconduct:
+  name: Grave professional misconduct
+exg-mis-misrepresent:
+  name: Misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure
+exg-mis-off-cond:
+  name: Offence concerning its professional conduct in the domain of defence procurement
+exg-mis-partic-confl:
+  name: Conflict of interest due to its participation in the procurement procedure
+exg-mis-prep-confl:
+  name: Direct or indirect involvement in the preparation of this procurement procedure
+exg-mis-sanction:
+  name: Early termination, damages, or other comparable sanctions
+exg-mis-unrel-sec:
+  name: Lack of reliability to exclude risks to the security of the country
+exg-natl:
+  name: Purely national exclusion grounds
+exg-natl-bre-nat-law:
+  name: Breaching of obligations set under purely national exclusion grounds
+exg-pmt:
+  name: Grounds relating to the payment of taxes or social security contributions 
+exg-pmt-bre-ssc:
+  name: Breaching obligation relating to payment of social security contributions
+exg-pmt-bre-tax:
+  name: Breaching obligation relating to payment of taxes
+exg-sitn:
+  name: Grounds relating to the situation of the economic operator
+exg-sitn-as-susp:
+  name: Business activities are suspended
+exg-sitn-bankr:
+  name: Bankruptcy
+exg-sitn-cred-arran:
+  name: Arrangement with creditors
+exg-sitn-insolvency:
+  name: Insolvency
+exg-sitn-liq-admin:
+  name: Assets being administered by liquidator
+exg-sitn-other:
+  name: Analogous situation like bankruptcy, insolvency or arrangement with creditors under national law

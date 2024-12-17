@@ -7,7 +7,7 @@ comp-dial:
     nob_verify: false
   nob_verify: false
 comp-tend:
-  name: Competitive tendering
+  name: 'Competitive tendering (article 5(3) of Regulation 1370/2007) '
   nob: Anbudskonkurranse
   history:
   - name: Competitive tendering
@@ -17,7 +17,7 @@ comp-tend:
     nob: "?? Anskaffelse"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 innovation:
   name: Innovation partnership
   nob: Innovasjonspartnerskap
@@ -74,3 +74,5 @@ restricted:
     history: []
     nob_verify: false
   nob_verify: false
+exp-int-rail:
+  name: Request for expression of interest – only for rail (article 5(3b) of Regulation 1370/2007)

@@ -1,0 +1,6 @@
+no-exc:
+  name: No exception
+one-tend:
+  name: Exception only one tender
+pub-int:
+  name: Exception public interest

@@ -403,7 +403,7 @@ BE3:
   history: []
   nob_verify: false
 BE31:
-  name: Prov. Brabant Wallon
+  name: Prov. Brabant wallon
   history: []
   nob_verify: false
 BE310:
@@ -4475,7 +4475,7 @@ HU332:
   history: []
   nob_verify: false
 HU333:
-  name: Csongrád
+  name: Csongrád-Csanád
   history: []
   nob_verify: false
 HUZ:
@@ -4819,7 +4819,7 @@ ITF64:
   history: []
   nob_verify: false
 ITF65:
-  name: Reggio di Calabria
+  name: Reggio Calabria
   history: []
   nob_verify: false
 ITG:
@@ -5635,7 +5635,7 @@ NO06:
   history: []
   nob_verify: false
 NO060:
-  name: Trøndelag
+  name: Trøndelag/Trööndelage
   history: []
   nob_verify: false
 NO07:
@@ -5643,7 +5643,7 @@ NO07:
   history: []
   nob_verify: false
 NO071:
-  name: Nordland
+  name: Nordland/Nordlánnda
   history: []
   nob_verify: false
 NO074:
@@ -6139,7 +6139,7 @@ PT11A:
   history: []
   nob_verify: false
 PT11B:
-  name: Alto Tâmega
+  name: Alto Tâmega e Barroso
   history: []
   nob_verify: false
 PT11C:
@@ -8347,7 +8347,7 @@ BE:
   history: []
   nob_verify: false
 BG:
-  name: България 
+  name: България (Bulgaria)
   history: []
   nob_verify: false
 CH:
@@ -8355,7 +8355,7 @@ CH:
   history: []
   nob_verify: false
 CY:
-  name: Κύπρος 
+  name: Κύπρος (Kýpros)
   history: []
   nob_verify: false
 CZ:
@@ -8375,7 +8375,7 @@ EE:
   history: []
   nob_verify: false
 EL:
-  name: Ελλάδα 
+  name: Ελλάδα
   history: []
   nob_verify: false
 ES:
@@ -8484,3 +8484,153 @@ UK:
   nob_verify: false
 'NO':
   name: Norge
+DEG0Q:
+  name: Schmalkalden-Meiningen
+DEG0R:
+  name: Wartburgkreis
+DEG0S:
+  name: Suhl, Kreisfreie Stadt
+DEG0T:
+  name: Ilm-Kreis
+DEG0U:
+  name: Saalfeld-Rudolstadt
+DEG0V:
+  name: Sonneberg
+FI198:
+  name: Keski-Suomi
+FI199:
+  name: Etelä-Pohjanmaa
+FI19A:
+  name: Pohjanmaa
+FI19B:
+  name: Pirkanmaa
+FI1C6:
+  name: Päijät-Häme
+FI1C7:
+  name: Kymenlaakso
+FI1DA:
+  name: Etelä-Savo
+FI1DB:
+  name: Pohjois-Savo
+FI1DC:
+  name: Pohjois-Karjala
+LV00A:
+  name: Rīga
+LV00B:
+  name: Kurzeme
+LV00C:
+  name: Vidzeme
+NL114:
+  name: Oost-Groningen
+NL115:
+  name: Overig Groningen
+NL127:
+  name: Noord-Friesland
+NL128:
+  name: Zuidwest-Friesland
+NL32A:
+  name: Agglomeratie Haarlem
+NL32B:
+  name: Groot-Amsterdam
+NL35:
+  name: Utrecht
+NL350:
+  name: Utrecht
+NL36:
+  name: Zuid-Holland
+NL361:
+  name: Agglomeratie ’s-Gravenhage
+NL362:
+  name: Delft en Westland
+NL363:
+  name: Agglomeratie Leiden en Bollenstreek
+NL364:
+  name: Zuidoost-Zuid-Holland
+NL365:
+  name: Oost-Zuid-Holland
+NL366:
+  name: Groot-Rijnmond
+NL415:
+  name: Midden-Noord-Brabant
+NL416:
+  name: Noordoost-Noord-Brabant
+NO072:
+  name: Troms/Romsa/Tromssa
+NO073:
+  name: Finnmark/Finnmárku/Finmarkku
+NO083:
+  name: Østfold
+NO084:
+  name: Akershus
+NO085:
+  name: Buskerud
+NO093:
+  name: Vestfold
+NO094:
+  name: Telemark
+PT19:
+  name: Centro (PT)
+PT191:
+  name: Região de Aveiro
+PT192:
+  name: Região de Coimbra
+PT193:
+  name: Região de Leiria
+PT194:
+  name: Viseu Dão Lafões
+PT195:
+  name: Beira Baixa
+PT196:
+  name: Beiras e Serra da Estrela
+PT1A:
+  name: Grande Lisboa
+PT1A0:
+  name: Grande Lisboa
+PT1B:
+  name: Península de Setúbal
+PT1B0:
+  name: Península de Setúbal
+PT1C:
+  name: Alentejo
+PT1C1:
+  name: Alentejo Litoral
+PT1C2:
+  name: Baixo Alentejo
+PT1C3:
+  name: Alto Alentejo
+PT1C4:
+  name: Alentejo Central
+PT1D:
+  name: Oeste e Vale do Tejo
+PT1D1:
+  name: Oeste
+PT1D2:
+  name: Médio Tejo
+PT1D3:
+  name: Lezíria do Tejo
+XK:
+  name: Kosovë/Kosovo
+XK0:
+  name: Kosovë/Kosovo
+XK00:
+  name: Kosovë/Kosovo
+XK001:
+  name: Prishtinë/Priština
+XK002:
+  name: Mitrovicë/Mitrovica
+XK003:
+  name: Pejë/Peć
+XK004:
+  name: Prizren/Prizren
+XK005:
+  name: Ferizaj/Uroševac
+XK006:
+  name: Gjilan/Gnjilane
+XK007:
+  name: Gjakovë/Đakovica
+XKZ:
+  name: Extra-Regio NUTS 1
+XKZZ:
+  name: Extra-Regio NUTS 2
+XKZZZ:
+  name: Extra-Regio NUTS 3

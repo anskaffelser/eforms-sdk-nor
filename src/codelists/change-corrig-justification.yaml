@@ -62,3 +62,5 @@ update-add:
     history: []
     nob_verify: false
   nob_verify: false
+susp-review:
+  name: Procedure suspended due to a complaint, appeal or any other action for review

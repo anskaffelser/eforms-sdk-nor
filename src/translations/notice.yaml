@@ -239,45 +239,45 @@ notice|name|X02:
     nob_verify: false
   nob_verify: false
 notice|name|E1:
-  name: Preliminary market consultation notice
+  name: Voluntary pre-market consultation notice
   nob: Foreløpig varsel om markedskonsultasjon
   history:
   - name: Preliminary market consultation notice
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 notice|name|E2:
-  name: Below threshold prior information notice (PIN) only
+  name: Voluntary prior information notice
   nob: Bare varsel om forhåndsinformasjon under terskelen (PIN)
   history:
   - name: Below threshold prior information notice (PIN) only
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 notice|name|E3:
-  name: Below threshold contract notice (CN) general
+  name: Voluntary contract notice
   nob: Generelt under terskelvarsel om kontrakt (CN)
   history:
   - name: Below threshold contract notice (CN) general
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 notice|name|E4:
-  name: Below threshold contract award notice (CAN) general
+  name: Voluntary award notice
   nob: Varsel om kontraktstildeling under terskelen (CAN) generelt
   history:
   - name: Below threshold contract award notice (CAN) general
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 notice|name|E5:
-  name: Contract completion notice
+  name: Voluntary completion notice
   nob: Varsel om fullføring av kontrakt
   history:
   - name: Contract completion notice
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 notice|name|N4:
   name: Norwegian prior information notice used only for information
   nob: Nasjonal forhåndskunngjøring
@@ -293,3 +293,5 @@ notice|name|N29:
   nob: Nasjonal kunngjøring av kontraktsinngåelse
   history: []
   nob_verify: false
+notice|name|E6:
+  name: Voluntary contract modification notice

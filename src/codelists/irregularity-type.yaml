@@ -111,13 +111,13 @@ mod-inco:
     nob_verify: false
   nob_verify: false
 nc-proc-eap:
-  name: Non-compliance with the procedure established in the Directive for electronic and aggregated procurement
+  name: Non-compliance with the procedure for electronic and aggregated procurement
   nob: Manglende overholdelse av prosedyren fastsatt i direktivet for elektroniske og aggregerte anskaffelser
   history:
   - name: Non-compliance with the procedure established in the Directive for electronic and aggregated procurement
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 nc-timl:
   name: Non-compliance with time limits for receipt of tenders or time limits for receipt of requests to participate
   nob: Manglende overholdelse av frister for mottak av tilbud eller frister for mottak av forespørsler om å delta

@@ -1,0 +1,64 @@
+air-cond:
+  name: Air conditioners including air-to-air heat pumps
+building:
+  name: Building
+circul:
+  name: Circulators
+computer:
+  name: Computers
+cook-appl:
+  name: 'Domestic cooking appliances - ovens, range hoods, hobs '
+dishwas:
+  name: Dishwashers
+el-mo-vsd:
+  name: 'Electric motors and variable speed drives '
+fuel-boil:
+  name: Solid fuel boilers
+hea-cool:
+  name: Air heating/cooling products
+hous-freez:
+  name: Household fridges and freezers
+indus-fan:
+  name: Industrial fans
+ligh-gea:
+  name: Light sources and control gears
+lo-spa-hea:
+  name: 'Local Space Heaters  '
+mob-pho-ta:
+  name: Mobile phones and tablets
+pow-suppl:
+  name: External power supplies
+pow-tra:
+  name: Power transformers
+pro-refrig:
+  name: Professional refrigeration equipment
+products:
+  name: Products
+refri-appl:
+  name: Refrigerating appliances with a sales function
+ser-da-sto:
+  name: 'Servers and data storage products '
+services:
+  name: Services
+spa-com-hea:
+  name: Space and combination heater
+tum-dry:
+  name: Tumble driers
+tv-nat-law:
+  name: TVs - electronic displays national law
+tyres:
+  name: 'Tyres '
+vac-clea:
+  name: 'Vacuum cleaners '
+ventila:
+  name: 'Ventilation units  '
+wa-hea-tan:
+  name: 'Water heaters - storage tank and solar devices '
+wa-pu:
+  name: Water pumps
+was-ma-dry:
+  name: Washing machines and washer-dryers
+weld-eq:
+  name: Welding equipment
+works:
+  name: 'Works '

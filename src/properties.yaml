@@ -1,5 +1,5 @@
-sdk_minor: '1.10'
-sdk_patch: '2'
+sdk_minor: '1.13'
+sdk_patch: '0'
 
 versions:
-  - 1.10.2
+  - 1.13.0

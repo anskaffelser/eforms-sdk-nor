@@ -307,7 +307,7 @@ field|name|BT-115-Part:
     nob_verify: false
   nob_verify: false
 field|name|BT-118-NoticeResult:
-  name: Maximum value of the framework agreements in this procedure
+  name: Maximum value of the framework agreements in this notice
   nob: Maksimal verdi av rammeavtalene i denne prosedyren
   history:
   - name: Maximum value of the framework agreements in this procedure
@@ -319,7 +319,7 @@ field|name|BT-118-NoticeResult:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-119-LotResult:
   name: The dynamic purchasing system is terminated
   nob: Den dynamiske innkjøpsordningen avsluttes
@@ -741,7 +741,7 @@ field|name|BT-137-LotsGroup:
     nob_verify: false
   nob_verify: true
 field|name|BT-137-Part:
-  name: Part
+  name: Part technical ID
   nob: Del
   history:
   - name: Part
@@ -753,7 +753,7 @@ field|name|BT-137-Part:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-13713-LotResult:
   name: Result lot ldentifier
   nob: Identifikator for resultatparti
@@ -6285,7 +6285,7 @@ field|name|BT-556-NoticeResult:
     nob_verify: false
   nob_verify: true
 field|name|BT-57-Lot:
-  name: The buyer reserves the right for additional purchases from the contractor, as described here
+  name: Other information about renewals
   nob: 'Beskrivelse: __________'
   history:
   - name: Description
@@ -6495,7 +6495,7 @@ field|name|BT-633-Organization:
     nob_verify: false
   nob_verify: false
 field|name|BT-634-Lot:
-  name: This cancelled or unsuccessful procedure or lot will be relaunched
+  name: The lot will be relaunched if cancelled or unsuccessful
   nob: Denne kansellerte eller mislykkede prosedyren eller partiet vil bli relansert
   history:
   - name: This cancelled or unsuccessful procedure or lot will be relaunched
@@ -6507,9 +6507,9 @@ field|name|BT-634-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-634-Procedure:
-  name: This cancelled or unsuccessful procedure or lot will be relaunched
+  name: The procedure will be relaunched if cancelled or unsuccessful
   nob: Denne kansellerte eller mislykkede prosedyren eller partiet vil bli relansert
   history:
   - name: This cancelled or unsuccessful procedure or lot will be relaunched
@@ -6521,7 +6521,7 @@ field|name|BT-634-Procedure:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-635-LotResult:
   name: Number of buyer review requests
   nob: Antall forespørsler om kjøperanmeldelse
@@ -6915,7 +6915,7 @@ field|name|BT-719-notice:
     nob_verify: false
   nob_verify: false
 field|name|BT-720-Tender:
-  name: Value of the result
+  name: Value of the tender
   nob: Verdien av resultatet
   history:
   - name: Value of the result
@@ -6927,7 +6927,7 @@ field|name|BT-720-Tender:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|name|BT-721-Contract:
   name: Title
   nob: Tittel
@@ -11423,7 +11423,7 @@ field|description|BT-151-Contract:
     nob_verify: false
   nob_verify: false
 field|description|BT-156-NoticeResult:
-  name: It is the re-calculated maximum value likely to be spent for a group of lots within the procedure. This information can be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The value is re-calculated on the basis of the winner’s tender or winners’ tenders.
+  name: It is the re-calculated maximum value likely to be spent for a group of lots within the procedure. This information can be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The value is re-calculated on the basis of the winner’s tender or winners’ tenders.
   nob: Det er den omberegnede maksimumsverdien som sannsynligvis vil bli brukt for en gruppe partier i prosedyren. Denne informasjonen kan gis når maksimumsverdien av en gruppe objekter er lavere enn summen av verdiene til individuelle partier (f.eks. når det samme budsjettet deles for flere partier). Verdien omfatter alle kontrakter som skal tildeles innenfor en rammeavtale over hele varigheten, inkludert opsjoner og fornyelser. Verdien beregnes på nytt på grunnlag av vinnerens tilbud eller vinnernes tilbud.
   history:
   - name: It is the re-calculated maximum value likely to be spent for a group of lots within the procedure. This information can be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The value is re-calculated on the basis of the winner’s tender or winners’ tenders.
@@ -11435,7 +11435,7 @@ field|description|BT-156-NoticeResult:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|description|BT-1561-NoticeResult:
   name: The value likely to be spent, within a framework agreement, for a group of lots. This information can be provided when the value likely to be spent for a group of lots is lower than the sum of values likely to be spent for individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The re-estimated value is the value likely to be spent, as re-estimated on the basis of the winner’s tender or winners’ tenders.
   nob: Verdien vil sannsynligvis bli brukt, innenfor en rammeavtale, for en gruppe tomter. Denne informasjonen kan gis når verdien som sannsynligvis vil bli brukt for en gruppe objekter, er lavere enn summen av verdier som sannsynligvis vil bli brukt for individuelle objekter (f.eks. når det samme budsjettet deles for flere partier). Verdien omfatter alle kontrakter som skal tildeles innenfor en rammeavtale over hele varigheten, inkludert opsjoner og fornyelser. Den nye estimerte verdien er verdien som sannsynligvis vil bli brukt, som estimert på nytt på grunnlag av vinnerens tilbud eller vinnernes tilbud.
@@ -15693,7 +15693,7 @@ field|description|BT-501-Organization-Company:
     nob_verify: false
   nob_verify: false
 field|description|BT-5010-Lot:
-  name: An identifier of the Union programme used to at least partially finance the contract. The most concrete information must be given (e.g. grant agreement number, national identifier, project acronym, contract number).
+  name: An identifier of the Union programme used to at least partially finance the contract. The most concrete information must be given (e.g. the unique European identification number of the relevant programme when available, for example the CCI number for CPR funds, or grant agreement number, national identifier, project acronym, contract number).
   nob: En identifikator for unionsprogrammet som brukes til i det minste delvis å finansiere kontrakten. Den mest konkrete informasjonen må oppgis (f.eks. tilskuddsavtalenummer, nasjonal identifikator, prosjektakronym, kontraktnummer).
   history:
   - name: An identifier of the Union programme used to at least partially finance the contract. The most concrete information must be given (e.g. grant agreement number, national identifier, project acronym, contract number).
@@ -15705,7 +15705,7 @@ field|description|BT-5010-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|description|BT-5011-Contract:
   name: An identifier of the Union programme used to at least partially finance the contract. The most concrete information must be given (e.g. grant agreement number, national identifier, project acronym, contract number)
   nob: En identifikator for unionsprogrammet som brukes til i det minste delvis å finansiere kontrakten. Den mest konkrete informasjonen må oppgis (f.eks. tilskuddsavtalenummer, nasjonal identifikator, prosjektakronym, kontraktnummer)
@@ -17149,7 +17149,7 @@ field|description|BT-615-Part:
     nob_verify: false
   nob_verify: false
 field|description|BT-625-Lot:
-  name: The unit which the good, service, or work comes in, for example hours or kilograms. Where the CPV code is a supply which does not need a further unit (e.g. cars), then no unit needs to be given and quantity is taken to be an amount, e.g. the "number of cars".
+  name: The unit which the good, service, or work comes in, for example hours or kilograms.
   nob: Enheten som varen, tjenesten eller arbeidet kommer i, for eksempel timer eller kilo. Når CPV-koden er en forsyning som ikke trenger en ytterligere enhet (f.eks. biler), må ingen enhet oppgis, og mengden tas for å være et beløp, f.eks.
   history:
   - name: The unit which the good, service, or work comes in, for example hours or kilograms. Where the CPV code is a supply which does not need a further unit (e.g. cars), then no unit needs to be given and quantity is taken to be an amount, e.g. the "number of cars".
@@ -17161,7 +17161,7 @@ field|description|BT-625-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|description|BT-63-Lot:
   name: Whether tenderers are required, allowed, or not allowed to submit tenders which fulfil the buyer's needs differently than as proposed in the procurement documents. Further conditions for submitting variant tenders are in the procurement documents.
   nob: Om tilbyder er pålagt, tillatt eller ikke tillatt å inngi tilbud som oppfyller innkjøpers behov på en annen måte enn det som er foreslått i anskaffelsesdokumentene. Ytterligere vilkår for innlevering av variantanbud finnes i anskaffelsesdokumentene.
@@ -18703,7 +18703,7 @@ field|description|BT-775-Lot:
     nob_verify: false
   nob_verify: false
 field|description|BT-776-Lot:
-  name: An indication that innovative works, supplies or services are being bought.
+  name: An indication that the object of the procurement is the R&amp;D (i.e. research, development, testing) and / or the purchase of innovative solutions (i.e. innovative works, supplies or services).
   nob: En indikasjon på at innovative verk, forsyninger eller tjenester blir kjøpt.
   history:
   - name: An indication that innovative works, supplies or services are being bought.
@@ -18715,7 +18715,7 @@ field|description|BT-776-Lot:
     nno: ''
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 field|description|BT-777-Lot:
   name: Description of how the procurement procedure is aiming at reducing the environmental impacts of the procurement, fulfilling social objectives and/or buying an innovative work, supply or service.
   nob: Beskrivelse av hvordan anskaffelsesprosedyren tar sikte på å redusere anskaffelsens miljøpåvirkning, oppfylle sosiale mål og/eller kjøpe et innovativt arbeid, tilbud eller tjeneste.
@@ -20369,7 +20369,7 @@ field|description|BT-150-Contract-Scheme:
 field|description|BT-1501(n)-Contract-Scheme:
   name: An identifier of one or more sections within a previous notice within the procedure. The information in the modification section refers to this section or these sections.
 field|description|BT-156-NoticeResult-Currency:
-  name: It is the re-calculated maximum value likely to be spent for a group of lots within the procedure. This information can be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The value is re-calculated on the basis of the winner’s tender or winners’ tenders.
+  name: It is the re-calculated maximum value likely to be spent for a group of lots within the procedure. This information can be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The value is re-calculated on the basis of the winner’s tender or winners’ tenders.
 field|description|BT-1561-NoticeResult-Currency:
   name: The value likely to be spent, within a framework agreement, for a group of lots. This information can be provided when the value likely to be spent for a group of lots is lower than the sum of values likely to be spent for individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The re-estimated value is the value likely to be spent, as re-estimated on the basis of the winner’s tender or winners’ tenders.
 field|description|BT-157-LotsGroup-Currency:
@@ -21037,7 +21037,7 @@ field|description|BT-774-Lot-List:
 field|description|BT-775-Lot-List:
   name: A social objective promoted by the works, supplies or services (e.g. fair working conditions).
 field|description|BT-776-Lot-List:
-  name: An indication that innovative works, supplies or services are being bought.
+  name: An indication that the object of the procurement is the R&amp;D (i.e. research, development, testing) and / or the purchase of innovative solutions (i.e. innovative works, supplies or services).
 field|description|BT-777-Lot-Language:
   name: Description of how the procurement procedure is aiming at reducing the environmental impacts of the procurement, fulfilling social objectives and/or buying an innovative work, supply or service.
 field|description|BT-79-Lot-List:
@@ -21113,7 +21113,7 @@ field|name|BT-111-Lot-Language:
 field|name|BT-1118-NoticeResult-Currency:
   name: Approximate value of the framework agreements
 field|name|BT-118-NoticeResult-Currency:
-  name: Maximum value of the framework agreements in this procedure
+  name: Maximum value of the framework agreements in this notice
 field|name|BT-122-Lot-Language:
   name: Description
 field|name|BT-125(i)-Lot-Scheme:
@@ -21683,7 +21683,7 @@ field|name|BT-554-Tender-Language:
 field|name|BT-556-NoticeResult-Scheme:
   name: Group framework value lot identifier
 field|name|BT-57-Lot-Language:
-  name: The buyer reserves the right for additional purchases from the contractor, as described here
+  name: Other information about renewals
 field|name|BT-578-Lot-List:
   name: Security clearance is required
 field|name|BT-60-Lot-List:
@@ -21729,7 +21729,7 @@ field|name|BT-712(a)-LotResult-List:
 field|name|BT-717-Lot-List:
   name: The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)
 field|name|BT-720-Tender-Currency:
-  name: Value of the result
+  name: Value of the tender
 field|name|BT-721-Contract-Language:
   name: Title
 field|name|BT-722-Contract-List:
@@ -22027,7 +22027,7 @@ field|description|BT-5141-Procedure:
 field|description|BT-5141-Procedure-List:
   name: The country of the place of performance.
 field|hint|BT-13716-notice:
-  name: 'One of the following must be filled in: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX'
+  name: 'One of the following must be filled in: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX'
 field|name|OPP-035-Tender:
   name: Code for revenues allocation of ticket sales
 field|description|BT-1501(c)-Contract:
@@ -22392,3 +22392,257 @@ field|name|BT-1501(p)-Contract:
   name: Business entity identifier in the previous notice
 field|name|OPP-035-Tender-List:
   name: Code for revenues allocation of ticket sales
+field|description|BT-137-Lot:
+  name: Reference (LOT-XXXX) to the lot this result is about.
+field|description|BT-137-LotsGroup:
+  name: Reference (GLO-XXXX) to the group of lots this result is about.
+field|description|BT-137-Part:
+  name: Reference (PAR-XXXX) to the part this result is about.
+field|description|BT-13713-LotResult:
+  name: Result lot identifier (LOT-XXXX) points to the lot (BT-137) this result is about.
+field|description|BT-13714-Tender:
+  name: An identifier of a lot (LOT-XXXX) or a group of lots (GLO-XXXX) for which the tender was submitted. The information in the tender section refers to this lot.
+field|description|BT-23-Lot-List:
+  name: The main nature (e.g. works) of what is being bought. In case of mixed procurement (e.g. a procedure for both works and services), the main nature may be, for example, the one with the highest estimated value. This information shall be given for the whole procedure.
+field|description|BT-681-Lot:
+  name: The Foreign Subsidies Regulation (FSR) (EU) 2022/2560, in line with Article 28 thereof, is applicable to this procurement procedure.
+field|description|BT-681-Lot-List:
+  name: The Foreign Subsidies Regulation (FSR) (EU) 2022/2560, in line with Article 28 thereof, is applicable to this procurement procedure.
+field|description|BT-682-Tender:
+  name: Measures applied under the Foreign Subsidies Regulation (EU) 2022/2560.
+field|description|BT-682-Tender-List:
+  name: Measures applied under the Foreign Subsidies Regulation (EU) 2022/2560.
+field|description|BT-684-Lot:
+  name: Measures under the International Procurement Instrument (IPI) Regulation (EU) 2022/1031 are applicable to this procurement procedure
+field|description|BT-684-Lot-List:
+  name: Measures under the International Procurement Instrument (IPI) Regulation (EU) 2022/1031 are applicable to this procurement procedure
+field|description|BT-685-LotResult:
+  name: Information on the IPI measure applicable to this tender
+field|description|BT-685-LotResult-List:
+  name: Information on the IPI measure applicable to this tender
+field|description|BT-686-LotResult:
+  name: Number of requests to participate and tenders to which this IPI measure was applied, in the case of a public contract; number of requests to participate and projects, in the case of a design contest.
+field|description|BT-687-LotResult:
+  name: Exception from the application of the IPI measure
+field|description|BT-687-LotResult-List:
+  name: Exception from the application of the IPI measure
+field|description|BT-688-LotResult:
+  name: A description and justification for the application of overriding reasons relating to the public interest
+field|description|BT-688-LotResult-Language:
+  name: A description and justification for the application of overriding reasons relating to the public interest
+field|description|BT-779-Tender:
+  name: The value of all payments executed for the tender or another result, including options and renewals.
+field|description|BT-780-Tender:
+  name: Additional information about the value of all payments executed for the tender or another result, including options and renewals (e.g. justification for the actual value being different from the value given in the initial contract).
+field|description|BT-781-Lot:
+  name: Any additional information about the duration of the contract.
+field|description|BT-782-Tender:
+  name: The value of all penalties paid by the winner as a result of late or insufficient implementation of the tender or another result.
+field|description|BT-783-Review:
+  name: Whether the information concerns a review request or a review decision.
+field|description|BT-783-Review-List:
+  name: Whether the information concerns a review request or a review decision.
+field|description|BT-784-Review:
+  name: An identifier of a review request or a review decision. When appealed to a higher review body instance, a review requests must receive a new identifier.
+field|description|BT-785-Review:
+  name: An identifier of the review request(s) that led to this decision or a review decision that is being appealed by this review request. Review decision which was initiated by the review body (“ex officio”) are not preceded by a review request.
+field|description|BT-786-Review:
+  name: An identifier of one or more sections within this notice. The information in the review section refers to this section or these sections.
+field|description|BT-787-Review:
+  name: The date and time when the review request was submitted or the review decision was taken.
+field|description|BT-788-Review:
+  name: The name of the review request or review decision.
+field|description|BT-788-Review-Language:
+  name: The name of the review request or review decision.
+field|description|BT-789-Review:
+  name: The description of the review request or review decision or any other additional information.
+field|description|BT-789-Review-Language:
+  name: The description of the review request or review decision or any other additional information.
+field|description|BT-790-Review:
+  name: The decision type (e.g. accepted, rejected because the complainant did not have legal standing).
+field|description|BT-790-Review-List:
+  name: The decision type (e.g. accepted, rejected because the complainant did not have legal standing).
+field|description|BT-791-Review:
+  name: The type of irregularity alleged in the review request or confirmed in the review decision.
+field|description|BT-791-Review-List:
+  name: The type of irregularity alleged in the review request or confirmed in the review decision.
+field|description|BT-792-Review:
+  name: The remedy (e.g. interim measure, damages) requested in the review request or applied by the review decision.
+field|description|BT-792-Review-List:
+  name: The remedy (e.g. interim measure, damages) requested in the review request or applied by the review decision.
+field|description|BT-793-Review:
+  name: The value of the remedy (e.g. damages, fines).
+field|description|BT-793-Review-Currency:
+  name: The value of the remedy (e.g. damages, fines).
+field|description|BT-794-Review:
+  name: The uniform resource locator (e.g. the web address) of the documents concerning the review request or a review decision.
+field|description|BT-795-Review:
+  name: The fee paid for lodging the review request.
+field|description|BT-795-Review-Currency:
+  name: The fee paid for lodging the review request.
+field|description|BT-796-Review:
+  name: The review request was withdrawn.
+field|description|BT-797-Review:
+  name: The date and time when the request for review was withdrawn.
+field|description|BT-798-Review:
+  name: The reasons for withdrawing the request for review.
+field|description|BT-798-Review-Language:
+  name: The reasons for withdrawing the request for review.
+field|description|BT-799-ReviewBody:
+  name: Review body type is given using the codes from the review-body-type codelist.
+field|description|BT-800(d)-Lot:
+  name: Information about the deadline for receipt of answers.
+field|description|BT-800(t)-Lot:
+  name: Information about the deadline for receipt of answers.
+field|description|BT-804-Review:
+  name: Technical ID (REV-XXXX) allowing reference to the review. Must be unique between all other review technical identifiers within the procedure.
+field|description|BT-806-Procedure:
+  name: Where the exclusions grounds are defined, for example, the procurement documents or in ESPD.
+field|description|BT-806-Procedure-List:
+  name: Where the exclusions grounds are defined, for example, the procurement documents or in ESPD.
+field|description|BT-807-Review:
+  name: Identifier of review body points to an organisation (ORG-XXXX), or one of its alternate contact points (TPO-XXXX), dealing with reviews.
+field|description|BT-808-Review:
+  name: 'Identifier of review applicant in the following format: ORG-XXXX.'
+field|description|BT-809-Lot:
+  name: The criteria (or criterion).
+field|description|BT-809-Lot-List:
+  name: The criteria (or criterion).
+field|description|BT-810-Lot:
+  name: The Energy Efficiency Directive (EED) (EU) 2023/1791 is applicable for this procurement procedure.
+field|description|BT-810-Lot-List:
+  name: The Energy Efficiency Directive (EED) (EU) 2023/1791 is applicable for this procurement procedure.
+field|description|BT-811(a)-Lot:
+  name: List of products, works and services covered by the Energy Labelling Directive, by the Ecodesign Directive, by Union green public procurement criteria, by Regulation 2020/740. For reporting purposes, buildings covered by the obligation in Article 7 EED are also included
+field|description|BT-811(a)-Lot-List:
+  name: List of products, works and services covered by the Energy Labelling Directive, by the Ecodesign Directive, by Union green public procurement criteria, by Regulation 2020/740. For reporting purposes, buildings covered by the obligation in Article 7 EED are also included
+field|description|BT-811(a)-LotResult:
+  name: List of products, works and services covered by the Energy Labelling Directive, by the Ecodesign Directive, by Union green public procurement criteria, by Regulation 2020/740. For reporting purposes, buildings covered by the obligation in Article 7 EED are also included
+field|description|BT-811(a)-LotResult-List:
+  name: List of products, works and services covered by the Energy Labelling Directive, by the Ecodesign Directive, by Union green public procurement criteria, by Regulation 2020/740. For reporting purposes, buildings covered by the obligation in Article 7 EED are also included
+field|description|BT-811(b)-Lot:
+  name: List of products, works and services covered by the Energy Labelling Directive, by the Ecodesign Directive, by Union green public procurement criteria, by Regulation 2020/740. For reporting purposes, buildings covered by the obligation in Article 7 EED are also included
+field|description|BT-811(b)-Lot-List:
+  name: List of products, works and services covered by the Energy Labelling Directive, by the Ecodesign Directive, by Union green public procurement criteria, by Regulation 2020/740. For reporting purposes, buildings covered by the obligation in Article 7 EED are also included
+field|description|BT-811(b)-LotResult:
+  name: List of products, works and services covered by the Energy Labelling Directive, by the Ecodesign Directive, by Union green public procurement criteria, by Regulation 2020/740. For reporting purposes, buildings covered by the obligation in Article 7 EED are also included
+field|description|BT-811(b)-LotResult-List:
+  name: List of products, works and services covered by the Energy Labelling Directive, by the Ecodesign Directive, by Union green public procurement criteria, by Regulation 2020/740. For reporting purposes, buildings covered by the obligation in Article 7 EED are also included
+field|description|BT-812-LotResult:
+  name: Energy efficiency labels that are provided for the products (A+++, A++, A+, A, B, C, D).
+field|description|BT-812-LotResult-List:
+  name: Energy efficiency labels that are provided for the products (A+++, A++, A+, A, B, C, D).
+field|description|BT-813-LotResult:
+  name: The value of Energy consumption in kWh/year for products for which no label exists, and energy savings in kWh/year for services, buildings or works. For products please report the yearly energy consumption of the product. For services, works and buildings please report the yearly energy savings.
+field|description|BT-814-LotResult:
+  name: The unit of the energy efficiency number, for example, kWh/year.
+field|description|BT-815-LotResult:
+  name: The quantity provided or estimated. For products please report the number of products. For buildings, please report the useful floor area in m2. For works or services no value is needed
+field|description|BT-821-Lot:
+  name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
+field|description|BT-821-Lot-List:
+  name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
+field|description|OPT-080-LotResult:
+  name: The specified metric is about yearly energy consumption
+field|description|OPT-080-LotResult-List:
+  name: The specified metric is about yearly energy consumption
+field|description|OPT-081-LotResult:
+  name: The specified metric is about yearly energy savings
+field|description|OPT-081-LotResult-List:
+  name: The specified metric is about yearly energy savings
+field|hint|BT-500-UBO:
+  name: The term UBO or beneficial owner refers to the natural person(s) who ultimately own(s) or control(s) an entity.  To be used only when the procurement is awarded outside a regulated market.
+field|hint|BT-759-LotResult:
+  name: When filling in this section, both a type (BT-760-LotResult) and number (BT-759-LotResult) must be indicated
+field|hint|BT-760-LotResult:
+  name: When filling in this section, both a type (BT-760-LotResult) and number (BT-759-LotResult) must be indicated
+field|name|BT-23-Lot-List:
+  name: Main nature of the contract
+field|name|BT-681-Lot:
+  name: Foreign Subsidies Regulation
+field|name|BT-681-Lot-List:
+  name: Foreign Subsidies Regulation
+field|name|BT-682-Tender:
+  name: Foreign Subsidies Measures
+field|name|BT-682-Tender-List:
+  name: Foreign subsidies measures
+field|name|BT-684-Lot:
+  name: IPI measures applicable
+field|name|BT-684-Lot-List:
+  name: IPI measures applicable
+field|name|BT-685-LotResult:
+  name: Specific IPI measure
+field|name|BT-685-LotResult-List:
+  name: Specific IPI measure
+field|name|BT-686-LotResult:
+  name: Number of tender applications that fall under this IPI measure
+field|name|BT-687-LotResult:
+  name: Exception to the application of the IPI measure
+field|name|BT-687-LotResult-List:
+  name: Exception to the application of the IPI measure
+field|name|BT-688-LotResult:
+  name: Overriding reasons relating to the public interest
+field|name|BT-688-LotResult-Language:
+  name: Overriding reasons relating to the public interest
+field|name|BT-804-Review:
+  name: Review technical identifier
+field|name|BT-804-Review-Scheme:
+  name: Review technical identifier
+field|name|BT-806-Procedure:
+  name: Source of grounds for exclusion
+field|name|BT-806-Procedure-List:
+  name: Source of grounds for exclusion
+field|name|BT-807-Review:
+  name: Identifier of review body
+field|name|BT-807-Review-Scheme:
+  name: Identifier of review body
+field|name|BT-808-Review:
+  name: Identifier of review applicant
+field|name|BT-808-Review-Scheme:
+  name: Identifier of review applicant
+field|name|BT-809-Lot:
+  name: Selection criteria
+field|name|BT-809-Lot-List:
+  name: Selection criteria
+field|name|BT-810-Lot:
+  name: EED applicable
+field|name|BT-810-Lot-List:
+  name: EED applicable
+field|name|BT-811(a)-Lot:
+  name: EED list
+field|name|BT-811(a)-Lot-List:
+  name: EED list
+field|name|BT-811(a)-LotResult:
+  name: EED list
+field|name|BT-811(a)-LotResult-List:
+  name: EED list
+field|name|BT-811(b)-Lot:
+  name: EED list
+field|name|BT-811(b)-Lot-List:
+  name: EED list
+field|name|BT-811(b)-LotResult:
+  name: EED list
+field|name|BT-811(b)-LotResult-List:
+  name: EED list
+field|name|BT-812-LotResult:
+  name: Energy efficiency label
+field|name|BT-812-LotResult-List:
+  name: Energy efficiency label
+field|name|BT-813-LotResult:
+  name: Energy efficiency consumption in kWh/year
+field|name|BT-814-LotResult:
+  name: Energy savings in kWh/year
+field|name|BT-815-LotResult:
+  name: Energy efficiency quantity
+field|name|BT-821-Lot:
+  name: Source of selection criteria
+field|name|BT-821-Lot-List:
+  name: Source of selection criteria
+field|name|OPT-080-LotResult:
+  name: EED consumption metric
+field|name|OPT-080-LotResult-List:
+  name: EED consumption metric
+field|name|OPT-081-LotResult:
+  name: EED savings metric
+field|name|OPT-081-LotResult-List:
+  name: EED savings metric

@@ -1,0 +1,4 @@
+nrg-con-yr:
+  name: Energy Consumption in kWh/year
+nrg-sav-yr:
+  name: Energy Savings in kWh/year

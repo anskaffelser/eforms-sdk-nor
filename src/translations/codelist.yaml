@@ -1329,3 +1329,47 @@ codelist|name|contract-term:
   name: TODO
 codelist|name|revenue-allocation:
   name: Revenue allocation
+codelist|name|compl:
+  name: List of allowed Notice Subtype codes for a Contract Completion Notice Type
+codelist|name|completion:
+  name: List of allowed Notice Type codes for a Completion Form Type
+codelist|name|consultation:
+  name: List of allowed Notice Type codes for a Consultation Form Type
+codelist|name|document-used-in-public-procurement:
+  name: This code list describes documents used in Public Procurement. A set of interrelated business information representing the business facts and associated metadata. The information may be conveyed in any language
+codelist|name|eed-scope:
+  name: This table provides the list of codes and values used to indicate that a procurement falls under the scope of the Energy Efficiency Directive
+codelist|name|energy-efficiency-basis:
+  name: Legal framework for the items, like Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings
+codelist|name|energy-efficiency-item:
+  name: Products covered by the Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings
+codelist|name|energy-efficiency-item-classification:
+  name: This table provides the list of codes and values used to identify the products, works or services category for their energy efficiency
+codelist|name|energy-efficiency-label:
+  name: This table provides the list of codes and values used to specify the energy efficiency of the product
+codelist|name|exclusion-grounds-source:
+  name: Source for the exclusion grounds.
+codelist|name|foreign-subsidy-measure-conclusion:
+  name: The FSR introduces a new set of rules that enables the Commission to address distortions caused by foreign subsidies.
+codelist|name|fsr:
+  name: List of codes to specify whether the Foreign Subsidies Regulation applies.
+codelist|name|international-procurement-instrument-application:
+  name: This table provides the list of codes and values used to specify the exception to the application of the IPI measure
+codelist|name|international-procurement-instrument-measure:
+  name: This table provides the list of codes and values used to specify the applied IPI measure
+codelist|name|ipi-scope:
+  name: This table provides the list of codes and values used to indicate that a procurement falls under the scope of the International Procurement Instrument
+codelist|name|legal-basis-e6:
+  name: Allowed Legal Basis values for notice subtype E6
+codelist|name|metric-type:
+  name: 'List of codes used to characterize the type of metric covered by the specified numbers. '
+codelist|name|nuts-xkx-lvl3:
+  name: List of level 3 NUTS codes for Kosovo
+codelist|name|pmc:
+  name: List of allowed Notice Subtype codes for a Pre-market Consultation Notice Type
+codelist|name|procedure-type-15:
+  name: Allowed procedure type for notice subtype 15
+codelist|name|review-information-type:
+  name: List of codes for the status of a given review request.
+codelist|name|selection-criteria-source:
+  name: Source for the exclusion grounds.

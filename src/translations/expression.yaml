@@ -7,21 +7,21 @@ expression|name|1:
     nob_verify: false
   nob_verify: false
 expression|name|100:
-  name: "'Award criterion number' (BT-541-Lot) is filled in, 'Number is a type of weight' (BT-5421-Lot) and 'Number is a type of threshold' (BT-5423-Lot) are not filled in"
+  name: "'Description' - 'Award criterion' (BT-540-LotsGroup) is present and 'Award criterion number' – 'Number is a type of weight' (BT-541-LotsGroup-WeightNumber), 'Award criterion number' – 'Number is a type of threshold' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-LotsGroup) are not present"
   nob: Tildelingskriterienummer' (BT-541-Lot) fylles ut, 'Tallet er en type vekt' (BT-5421-Lot) og 'Antall er en type terskel' (BT-5423-Lot) fylles ikke ut
   history:
   - name: "'Award criterion number' (BT-541-Lot) is filled in, 'Number is a type of weight' (BT-5421-Lot) and 'Number is a type of threshold' (BT-5423-Lot) are not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|101:
-  name: "'Award criterion number' (BT-541-Lot) is filled in, 'Number is a type of weight' (BT-5421-Lot) and 'Number is a type of threshold' (BT-5422-Lot) are not filled in"
+  name: "'Description' - 'Award criterion' (BT-540-LotsGroup) is present and 'Award criterion number' – 'Number is a type of weight' (BT-541-LotsGroup-WeightNumber), 'Award criterion number' – 'Number is a fixed value' (BT-541-LotsGroup-FixedNumber) &amp; 'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-LotsGroup) are not present"
   nob: Tildelingskriterienummer' (BT-541-Lot) fylles ut, 'Tallet er en type vekt' (BT-5421-Lot) og 'Antall er en type terskel' (BT-5422-Lot) fylles ikke ut
   history:
   - name: "'Award criterion number' (BT-541-Lot) is filled in, 'Number is a type of weight' (BT-5421-Lot) and 'Number is a type of threshold' (BT-5422-Lot) are not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|102:
   name: "'Award criterion number' (BT-541-LotsGroup) is filled in, 'Number is a type of weight' (BT-5421-LotsGroup) and 'Number is a type of threshold' (BT-5423-LotsGroup) are not filled in"
   nob: Tildelingskriterienummer' (BT-541-LotsGroup) fylles ut, 'Antall er en type vekt' (BT-5421-LotsGroup) og 'Antall er en type terskel' (BT-5423-LotsGroup) fylles ikke ut
@@ -495,13 +495,13 @@ expression|name|158:
     nob_verify: false
   nob_verify: false
 expression|name|159:
-  name: "'The tenderer must submit tenders for all lots' ((BT-763)) is true or there is more than one lot in the notice"
+  name: Lots are not 'The tenderer must submit tenders for all lots' (BT-763) and there is more than one lot in the notice
   nob: Tilbyder må inngi tilbud på alle partier' ((BT-763)) er sant eller det er mer enn ett parti i kunngjøringen
   history:
   - name: "'The tenderer must submit tenders for all lots' ((BT-763)) is true or there is more than one lot in the notice"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|16:
   name: "'Award criterion number' (BT-541-Lot) is not empty"
   nob: Kriterienummer» (BT-541-Lot) er ikke tomt
@@ -815,7 +815,7 @@ expression|name|194:
     nob_verify: false
   nob_verify: true
 expression|name|195:
-  name: "'Review request withdrawn' (BT-796-Review) is not true"
+  name: "'Review request withdrawn' (BT-796-Review) is not 'yes'"
   nob: Forespørsel om gjennomgang trukket tilbake» (BT-796-gjennomgang) er ikke sann
   history:
   - name: "'Review Request Withdrawn' (BT-796-Review) is not true"
@@ -839,13 +839,13 @@ expression|name|197:
     nob_verify: false
   nob_verify: false
 expression|name|198:
-  name: "'Identifier of the previous notice' (BT-125(i)-Part)) is not filled in"
+  name: "'Identifier of the previous notice' (BT-125(i)-Part) is not filled in"
   nob: Identifikator for forrige melding' (BT-125(i)-Part)) er ikke fylt ut
   history:
   - name: "'Identifier of the previous notice' (BT-125(i)-Part)) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|199:
   name: "'Duration' (BT-36-Lot) and 'Duration end date' (BT-537-Lot) are not filled in"
   nob: Varighet' (BT-36-Lot) og 'Sluttdato' (BT-537-Lot) fylles ikke ut
@@ -879,21 +879,21 @@ expression|name|200:
     nob_verify: false
   nob_verify: true
 expression|name|201:
-  name: "'Any service contract following the contest will be awarded to one of the winners of the contest' ((BT-41-Lot)) is not true"
+  name: "'Any service contract following the contest will be awarded to one of the winners of the contest' (BT-41-Lot) is not true"
   nob: Enhver servicekontrakt etter konkurransen vil bli tildelt en av vinnerne av konkurransen' ((BT-41-Lot)) er ikke sann
   history:
   - name: "'Any service contract following the contest will be awarded to one of the winners of the contest' ((BT-41-Lot)) is not true"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|202:
-  name: "'Information about review deadlines' (BT-99-Lot) is filled in"
+  name: "'Information about review deadlines' (BT-99-Lot) is not filled in"
   nob: Informasjon om gjennomgangsfrister» (BT-99-Lot) fylles ut
   history:
   - name: "'Information about review deadlines' (BT-99-Lot) is filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|203:
   name: No lots have been awarded
   nob: Ingen tomter er tildelt
@@ -919,13 +919,13 @@ expression|name|205:
     nob_verify: false
   nob_verify: true
 expression|name|206:
-  name: "'The contract is awarded within a framework agreement' (BT-768-Contract) is not true"
+  name: "'The contract is awarded within a framework agreement' (BT-768-Contract) is not 'yes'"
   nob: Kontrakten er tildelt innenfor en rammeavtale» (BT-768-Contract) stemmer ikke
   history:
   - name: "'The contract is awarded within a framework agreement' (BT-768-Contract) is not true"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|207:
   name: "'Tender identifier' (BT-3201-Tender) is filled in"
   nob: Tender identifier' (BT-3201-Tender) er fylt ut
@@ -967,13 +967,13 @@ expression|name|210:
     nob_verify: false
   nob_verify: false
 expression|name|211:
-  name: Indicator 'The procurement documents have changed' (BT-718-notice) is not true
+  name: Indicator 'The procurement documents have changed' (BT-718-notice) is not 'yes'
   nob: Indikatoren «Anskaffelsesdokumentene er endret» (BT-718-varsel) stemmer ikke
   history:
   - name: Indicator 'The procurement documents have changed' (BT-718-notice) is not true
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|212:
   name: "'Main reason for change' (BT-140-notice) is not filled in"
   nob: Hovedårsak til endring» (BT-140-varsel) er ikke fylt ut
@@ -1015,13 +1015,13 @@ expression|name|216:
     nob_verify: false
   nob_verify: false
 expression|name|217:
-  name: "'Maximum value of the framework agreements in this procedure' (BT-118-NoticeResult) is not filled in"
+  name: "'Maximum value of the framework agreements in this notice' (BT-118-NoticeResult) is not filled in"
   nob: Rammeavtalenes maksimale verdi i denne prosedyren» (BT-118-NoticeResult) er ikke fylt ut
   history:
   - name: "'Maximum value of the framework agreements in this procedure' (BT-118-NoticeResult) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|218:
   name: "'Identifier of the previous procedure that justifies direct award' (BT-1252-Procedure) is not filled in"
   nob: Identifikator for tidligere prosedyre som begrunner direkte tildeling» (BT-1252-prosedyre) er ikke fylt ut
@@ -1343,13 +1343,13 @@ expression|name|253:
     nob_verify: false
   nob_verify: false
 expression|name|254:
-  name: "'Value of the result' (BT-720-Tender) is not filled in"
+  name: "'Value of the tender' (BT-720-Tender) is not filled in"
   nob: Verdien av resultatet» (BT-720-Tender) er ikke fylt ut
   history:
   - name: "'Value of the result' (BT-720-Tender) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|255:
   name: "'Subcontracting value is known' (BT-730-Tender) is not filled in"
   nob: Underentreprise er kjent» (BT-730-Tender) er ikke fylt ut
@@ -1743,13 +1743,13 @@ expression|name|299:
     nob_verify: false
   nob_verify: false
 expression|name|3:
-  name: "'Type of procedure' (BT-105) must be: 'Open'; 'Restricted'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
+  name: "'Type of procedure' (BT-105) is not 'Open', 'Restricted', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Competitive dialogue' or 'Innovation partnership'"
   nob: 'Type prosedyre» (BT-105) skal være: «Åpen»; ''Begrenset''; «Forhandlet med forutgående publisering av konkurranseutlysning/konkurranse med forhandlinger»'
   history:
   - name: "'Type of procedure' (BT-105) must be: 'Open'; 'Restricted'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|30:
   name: "'The criteria will be used to select the candidates to be invited for the second stage of the procedure' (BT-40) is not 'Yes'"
   nob: Kriteriene vil bli brukt til å velge kandidatene som skal inviteres til andre trinn av prosedyren» (BT-40) er ikke «Ja»
@@ -1903,13 +1903,13 @@ expression|name|316:
     nob_verify: false
   nob_verify: false
 expression|name|317:
-  name: "'This is a recurrent procurement' ((BT-94-Lot)) is not 'yes'"
+  name: "'This is a recurrent procurement' (BT-94-Lot) is not 'yes'"
   nob: Dette er en gjentakende anskaffelse» ((BT-94-Lot)) er ikke «ja»
   history:
   - name: "'This is a recurrent procurement' ((BT-94-Lot)) is not 'yes'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|318:
   name: "'Type of procedure' (BT-105-Procedure) is 'Open'"
   nob: Type prosedyre' (BT-105-Lot) er 'Åpen'
@@ -1935,13 +1935,13 @@ expression|name|32:
     nob_verify: false
   nob_verify: false
 expression|name|320:
-  name: "'An electronic auction is used' ((BT-767-Lot)) is not 'yes'"
+  name: "'An electronic auction is used' (BT-767-Lot) is not 'yes'"
   nob: En elektronisk auksjon brukes' ((BT-767-Lot)) er ikke 'ja'
   history:
   - name: "'An electronic auction is used' ((BT-767-Lot)) is not 'yes'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|321:
   name: "'Type of procedure' (BT-105) is not 'Restricted'"
   nob: Type prosedyre» (BT-105) er ikke «Begrenset»
@@ -2007,13 +2007,13 @@ expression|name|328:
     nob_verify: false
   nob_verify: false
 expression|name|329:
-  name: "'Electronic submission' (BT-17-Lot) is 'Not allowed'"
+  name: "'Electronic submission' (BT-17-Lot) is not 'Not allowed'"
   nob: Elektronisk innlevering» (BT-17-Lot) er «Ikke tillatt»
   history:
   - name: "'Electronic submission' (BT-17-Lot) is 'Not allowed'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|33:
   name: "'There is a maximum number of candidates to be invited for the second stage of the procedure' (BT-661-Lot) is not 'yes'"
   nob: Det er et maksimalt antall kandidater som skal inviteres til andre trinn av prosedyren' (BT-661-Lot) er ikke 'ja'
@@ -2119,7 +2119,7 @@ expression|name|340:
     nob_verify: false
   nob_verify: false
 expression|name|341:
-  name: The organisation cannot act as 'Organisation filling this role' (OPT-300-Tenderer) or a subcontractor (OPT-301-Tenderer-SubCont)
+  name: The organisation is not a tenderer or subcontractor
   nob: Organisasjonen kan ikke opptre som «ID – organisasjon» (OPT-300-tilbyder) eller underleverandør (OPT-301-Tenderer-SubCont)
   history:
   - name: The organisation cannot act as 'ID – Organisation' (OPT-300-Tenderer) or a subcontractor (OPT-301-Tenderer-SubCont)
@@ -2127,7 +2127,7 @@ expression|name|341:
     nob_verify: false
   nob_verify: true
 expression|name|342:
-  name: If the organisation submitted 'Tendering party technical ID reference' (OPT-310-Tender) which lead to 'Contract tender identifier' (BT-3202-Contract), then the organisation is a winner
+  name: If the organisation submitted 'Tendering party' (OPT-310-Tender) which lead to 'Contract tender identifier' (BT-3202-Contract), then the organisation is a winner
   nob: Hvis organisasjonen sendte inn 'ID – Tendering part' (OPT-310-Tender) som fører til 'Contract Tender Identifier' (BT-3202-Contract), er organisasjonen en vinner
   history:
   - name: If the organisation submitted 'ID – Tendering party' (OPT-310-Tender) which lead to 'Contract Tender Identifier' (BT-3202-Contract), then the organisation is a winner
@@ -2167,13 +2167,13 @@ expression|name|347:
     nob_verify: false
   nob_verify: false
 expression|name|348:
-  name: "'The procedure will take place in successive stages. At each stage, some participants may be eliminated' ((BT-52-Lot)) is not 'yes'; 'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
+  name: "'The procedure will take place in successive stages. At each stage, some participants may be eliminated' (BT-52-Lot) is not 'yes'; 'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
   nob: 'Prosedyren vil finne sted i påfølgende stadier. På hvert trinn kan noen deltakere bli eliminert'' ((BT-52-Lot)) er ikke ''ja''; «Type prosedyre» (BT-105) er ikke en av følgende: «Konkurransepreget dialog»; ''Innovasjonspartnerskap''; «Forhandlet med forutgående offentliggjøring av konkurranseutlysning / konkurransedyktig med forhandlinger», jf. «annen prosedyre i flere trinn», «Begrenset»'
   history:
   - name: "'The procedure will take place in successive stages. At each stage, some participants may be eliminated' ((BT-52-Lot)) is not 'yes'; 'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|349:
   name: It is a framework contract
   nob: Det er en rammekontrakt
@@ -2183,13 +2183,13 @@ expression|name|349:
     nob_verify: false
   nob_verify: false
 expression|name|35:
-  name: "'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
+  name: "'Type of procedure' (BT-105) is not 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
   nob: 'Type prosedyre» (BT-105) er ikke en av følgende: «Konkurransepreget dialog»; ''Innovasjonspartnerskap''; «Forhandlet med forutgående publisering av konkurranseutlysning/konkurranse med forhandlinger»'
   history:
   - name: "'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|350:
   name: The organisation does not take part in tendering party; 'The organisation is a natural person' (BT-633-Organization); 'The winner is listed on a regulated market' (BT-746-Organization)
   nob: Organisasjonen deltar ikke i anbudsfesten, jf. 'Organisasjonen er en fysisk person' (BT-633-Organization); 'Vinneren er notert på et regulert marked' (BT-746-Organization)
@@ -2215,21 +2215,21 @@ expression|name|352:
     nob_verify: false
   nob_verify: true
 expression|name|353:
-  name: "'Type of procedure' (BT-105) is 'Open' or 'Restricted'"
+  name: "'Type of procedure' (BT-105) is not 'Open', 'Restricted' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
   nob: Type prosedyre' (BT-105) er 'Åpen' eller 'Begrenset'
   history:
   - name: "'Type of procedure' (BT-105) is 'Open' or 'Restricted'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|354:
-  name: "'Type of procedure' (BT-105) is 'Restricted' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
+  name: "'Type of procedure' (BT-105) is not 'Restricted' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
   nob: Type prosedyre» (BT-105) er «Begrenset» eller «Forhandlet med forutgående publisering av utlysning av konkurranse / konkurranse med forhandlinger»
   history:
   - name: "'Type of procedure' (BT-105) is 'Restricted' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|355:
   name: Organisation is not a buyer or there is only one buyer
   nob: Organisasjonen er ikke en kjøper, eller det er bare én kjøper
@@ -2791,45 +2791,45 @@ expression|name|513:
     nob_verify: false
   nob_verify: false
 expression|name|514:
-  name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' ((BT-717)) is not 'yes'"
+  name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' (BT-717) is not 'yes'"
   nob: Anskaffelsen faller inn under Europaparlamentet og Rådet 2009/33/EF (direktivet om rene kjøretøy – CVD)' ((BT-717)) er ikke «ja»
   history:
   - name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' ((BT-717)) is not 'yes'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|515:
-  name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' ((BT-717)) is not 'yes' for this lot or the lot has not been awarded"
+  name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' (BT-717) is not 'yes' for this lot or the lot has not been awarded"
   nob: Anskaffelsen faller inn under Europaparlamentet og Rådet 2009/33/EF (direktivet om rene kjøretøy – CVD)' ((BT-717)) er ikke «ja» for dette partiet eller partiet ikke er tildelt
   history:
   - name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' ((BT-717)) is not 'yes' for this lot or the lot has not been awarded"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|516:
-  name: "'The CVD legal basis to establish which category of procurement procedure applies ' (BT-735-LotResult) is not filled in"
+  name: "'The CVD legal basis to establish which category of procurement procedure applies' (BT-735-LotResult) is not filled in"
   nob: CVD-hjemmelen for å fastslå hvilken kategori av anskaffelsesprosedyrer som gjelder' (BT-735-LotResult) er ikke fylt ut
   history:
   - name: "'The CVD legal basis to establish which category of procurement procedure applies ' (BT-735-LotResult) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|517:
-  name: "'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) is not filled in"
+  name: "'Category of vehicle' (BT-723-LotResult) is not filled in"
   nob: 'Kjøretøykategorien som omfattes av direktiv 2009/33/EF, herunder: lette kjøretøyer (M1, M2, N1), Buss (M3); Lastebil (N2, N3); M1; M2; N1; N2; N3'' (BT-723-LotResult) er ikke fylt ut'
   history:
   - name: "'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) is not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|518:
-  name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' ((BT-717)) is not 'yes' for this lot"
+  name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' (BT-717) is not 'yes' for this lot"
   nob: Anskaffelsen faller inn under Europaparlamentets og Rådets virkeområde 2009/33/EF (direktivet om rene kjøretøy – CVD)' ((BT-717)) er ikke «ja» for dette partiet
   history:
   - name: "'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' ((BT-717)) is not 'yes' for this lot"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|52:
   name: "'A certain legal form must be taken by a group of tenderers that is awarded a contract' (BT-761-Lot) is not 'yes'"
   nob: En viss juridisk form må tas av en gruppe tilbydere som tildeles en kontrakt' (BT-761-Lot) er ikke 'ja'
@@ -3063,13 +3063,13 @@ expression|name|7:
     nob_verify: false
   nob_verify: false
 expression|name|70:
-  name: "'Subcontracting percentage is known' ((BT-731-Tender)) is not 'yes'"
+  name: "'Subcontracting percentage is known' (BT-731-Tender) is not 'yes'"
   nob: Underentreprise er kjent» ((BT-731-Anbud)) er ikke «ja»
   history:
   - name: "'Subcontracting percentage is known' ((BT-731-Tender)) is not 'yes'"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|71:
   name: "'Subcontracting' (BT-773-Tender) is 'Yes'"
   nob: Underleverandør» (BT-773-Anbud) er «Ja»
@@ -3239,21 +3239,21 @@ expression|name|95:
     nob_verify: false
   nob_verify: false
 expression|name|96:
-  name: "'Award criterion number' (BT-541-Lot) is filled in, 'Number is a fixed value' (BT-5422-Lot) and 'Number is a type of threshold' (BT-5423-Lot) are not filled in"
+  name: "'Description' - 'Award criterion' (BT-540-Lot) is present and 'Award criterion number' – 'Number is a fixed value' (BT-541-Lot-FixedNumber), 'Award criterion number' – 'Number is a type of threshold' (BT-541-Lot-ThresholdNumber) &amp; 'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-Lot) are not present"
   nob: Tildelingskriterienummer' (BT-541-Lot) fylles ut, 'Tallet er en fast verdi' (BT-5422-Lot) og 'Tall er en type terskel' (BT-5423-Lot) fylles ikke ut
   history:
   - name: "'Award criterion number' (BT-541-Lot) is filled in, 'Number is a fixed value' (BT-5422-Lot) and 'Number is a type of threshold' (BT-5423-Lot) are not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|97:
-  name: "'Award criterion number' (BT-541-LotsGroup) is filled in, 'Number is a fixed value' (BT-5422-LotsGroup) and 'Number is a type of threshold' (BT-5423-LotsGroup) are not filled in"
+  name: "'Description' - 'Award criterion' (BT-540-Lot) is present and 'Award criterion number' – 'Number is a type of weight' (BT-541-Lot-WeightNumber), 'Award criterion number' – 'Number is a type of threshold' (BT-541-Lot-ThresholdNumber) &amp; 'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-Lot) are not present"
   nob: Tildelingskriterienummer' (BT-541-LotsGroup) fylles ut, 'Nummer er en fast verdi' (BT-5422-LotsGroup) og 'Antall er en type terskel' (BT-5423-LotsGroup) fylles ikke ut
   history:
   - name: "'Award criterion number' (BT-541-LotsGroup) is filled in, 'Number is a fixed value' (BT-5422-LotsGroup) and 'Number is a type of threshold' (BT-5423-LotsGroup) are not filled in"
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 expression|name|534:
   name: "'The tender was ranked' (BT-1711) is not filled in; 'The tender was ranked' (BT-1711) is 'no'"
   nob: Anbudet ble rangert» (BT-1711) er ikke fylt ut; «Anbudet ble rangert» (BT-1711) er «nei»
@@ -3303,7 +3303,7 @@ expression|name|540:
     nob_verify: false
   nob_verify: false
 expression|name|542:
-  name: "'Group framework value lot identifier' (BT-556) is filled in and the 'Group Framework Re-estimated Value (BT-1561)' is not filled in"
+  name: "'Group framework value lot identifier' (BT-556) is filled in and the 'Re-estimated value of the framework agreements within a group of lots (BT-1561)' is not filled in"
   nob: Group Framework Value Lot Identifier' (BT-556) fylles ut og 'Group Framework Re-estimated Value (BT-1561)' fylles ikke ut
   history:
   - name: "'Group Framework Value Lot Identifier' (BT-556) is filled in and the 'Group Framework Re-estimated Value (BT-1561)' is not filled in"
@@ -3526,3 +3526,123 @@ expression|name|603:
   name: "'Type of procedure' (BT-105) value is equal to 'Open' or 'Type of procedure' (BT-105) value is equal to 'Other single stage procedure'"
 expression|name|604:
   name: "'Type of procedure' (BT-105) value is equal to 'Other multiple stage procedure'"
+expression|name|10:
+  name: "'Description' - 'Award criterion' (BT-540-LotsGroup) is not present or 'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-LotsGroup) is present"
+expression|name|1393:
+  name: "'Country' (BT-5141-Procedure) or 'Other restrictions on the place of performance' (BT-727-Procedure) exists"
+expression|name|1394:
+  name: "'Country' (BT-5141-Part) or 'Other restrictions on the place of performance' (BT-727-Part) exists"
+expression|name|1395:
+  name: "'Country' (BT-5141-Lot) or 'Other restrictions on the place of performance' (BT-727-Lot) exists"
+expression|name|1396:
+  name: "“’Official name’ ((BT-500-Organization-Company) should not contain the word ‘test’”. "
+expression|name|344:
+  name: "'The procedure will take place in successive stages. At each stage, some participants may be eliminated' (BT-52-Lot) is not 'yes'"
+expression|name|605:
+  name: Identifier of the contract to be modified (BT-1501(c)-Contract) is filled in
+expression|name|613:
+  name: The tender is neither submitted for a lot for which 'Foreign Subsidies Regulation' (BT-681-Lot) is set to 'yes', nor for a group of lots containing a lot for which 'Foreign Subsidies Regulation' (BT-681-Lot) is set to 'yes'
+expression|name|614:
+  name: The notice has not been identified as a 'Source of selection criteria'
+expression|name|615:
+  name: The selection criterion (BT-809) code does not exist
+expression|name|616:
+  name: The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in
+expression|name|617:
+  name: The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in
+expression|name|618:
+  name: "'The procedure is accelerated' (BT-106-Procedure) is 'yes'"
+expression|name|619:
+  name: "'The procedure is accelerated' (BT-106-Procedure) is 'yes'"
+expression|name|620:
+  name: "'The procedure is accelerated' (BT-106-Procedure) is 'yes'"
+expression|name|621:
+  name: The notice has not been identified as a 'Source of grounds for exclusion'
+expression|name|622:
+  name: The country of business (BT-514-Business) uses postcodes
+expression|name|623:
+  name: The country of the organisation (BT-514-Organization-Company) uses postcodes
+expression|name|624:
+  name: The country of the specific contact point (BT-514-Organization-TouchPoint) uses postcodes
+expression|name|625:
+  name: The residence country of the ultimate beneficial owner (BT-514-UBO) uses postcodes
+expression|name|626:
+  name: Organisation filling this role' (OPT-301-Tenderer-SubCont) does not exist
+expression|name|627:
+  name: "'Identifier of the contract' (BT-150-Contract) does not exist"
+expression|name|628:
+  name: "'Notice type' (BT-02-notice) is 'Design contest result notice – general directive, design', 'Contract award notice – general directive, light regime', 'Contract award notice – general directive, standard regime', 'Information notice for award of public service contract', 'Design contest notice – general directive, design', 'Contract notice – general directive, light regime', 'Contract notice – general directive, standard regime', 'Voluntary completion notice', 'Notice of the publication of a prior information notice on a buyer profile – general directive', 'Prior information notice used as a call for competition – general directive, light regime', 'Prior information notice used as a call for competition – general directive, standard regime', 'Prior information notice used only for information – general directive', 'Prior information notice used to shorten time limits for receipt of tenders – general directive', 'Prior information notice for public service contract', 'Voluntary pre-market consultation notice', 'Notice on the existence of a qualification system – sectoral directive', 'Subcontract notice – defence directive' or 'Voluntary ex-ante transparency notice – general directive'"
+expression|name|629:
+  name: "'Notice type' (BT-02-notice) is 'Prior information notice used only for information – general directive' or 'Periodic indicative notice used only for information – sectoral directive'"
+expression|name|630:
+  name: "'Notice type' (BT-02-notice) is 'Design contest result notice – general directive, design', 'Contract award notice – general directive, light regime', 'Contract award notice – general directive, standard regime', 'Information notice for award of public service contract', 'Design contest notice – general directive, design', 'Contract notice – general directive, light regime', 'Contract notice – general directive, standard regime', 'Voluntary completion notice', 'Prior information notice used as a call for competition – general directive, light regime', 'Prior information notice used as a call for competition – general directive, standard regime', 'Prior information notice used to shorten time limits for receipt of tenders – general directive', 'Prior information notice for public service contract', 'Voluntary pre-market consultation notice', 'Notice on the existence of a qualification system – sectoral directive', 'Subcontract notice – defence directive' or 'Voluntary ex-ante transparency notice – general directive'"
+expression|name|631:
+  name: "'EED applicable' (BT-810) is not 'yes'"
+expression|name|632:
+  name: "'EED applicable' (BT-810) is not 'yes' for the given lot, or the lot has not been awarded"
+expression|name|633:
+  name: "'EED applicable' (BT-810) is not 'yes' for the given lot"
+expression|name|634:
+  name: "'EED list' (Basis) (BT-811(a)-LotResult) is not set to 'Energy label'"
+expression|name|635:
+  name: "'EED list' (Basis) (BT-811(a)-LotResult) does not exist or is set to 'Energy label'"
+expression|name|636:
+  name: "'EED list' (Basis) (BT-811(a)-LotResult) is not set to 'Energy label'"
+expression|name|637:
+  name: "'EED list' (Basis) (BT-811(a)-LotResult) does not exist"
+expression|name|638:
+  name: "'IPI measures applicable' (BT-684) is not 'yes' for the given lot, or the competition is ongoing"
+expression|name|639:
+  name: "'Specific IPI measure' (BT-685) is not present"
+expression|name|640:
+  name: "'Exception to the application of the IPI measure' (BT-687) is not set to 'Overriding reasons relating to the public interest'"
+expression|name|641:
+  name: "'Type of procedure' (BT-105) value is not equal to 'Open' or 'Other single stage procedure'"
+expression|name|642:
+  name: "'Type of procedure' (BT-105) value is equal to 'Open', 'Negotiated without prior call for competition' or 'Other single stage procedure'"
+expression|name|643:
+  name: "'Type of procedure' (BT-105) value is not equal to 'Restricted', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Competitive dialogue', 'Innovation partnership' or 'Other multiple stage procedure'"
+expression|name|644:
+  name: "'Type of procedure' (BT-105) value is not equal to 'Restricted', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Competitive dialogue', 'Innovation partnership' or 'Other multiple stage procedure', and 'Deadline for receipt of requests to participate' (BT-1311) is not present"
+expression|name|645:
+  name: "'Type of procedure' (BT-105) value is not equal to 'Restricted', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Competitive dialogue', 'Innovation partnership' or 'Other multiple stage procedure', and 'Deadline for receipt of expressions of interest' (BT-630) is not present"
+expression|name|646:
+  name: "'Review request or decision' (BT-783-Review) is not present"
+expression|name|647:
+  name: "'Review request or decision' (BT-783-Review) is not present or it is not 'Decision has been made by the review body regarding the current request'"
+expression|name|648:
+  name: "'Review request or decision' (BT-783-Review) is not present or it is 'Decision has been made by the review body regarding the current request' and 'Review decision type' (BT-790-Review) is neither 'Accepted' nor 'Other'"
+expression|name|649:
+  name: "'Review irregularity type' (BT-791-Review) is not present"
+expression|name|650:
+  name: "'Review irregularity type' (BT-791-Review) is present and it is about a decision at least partly approving the request"
+expression|name|651:
+  name: "'Review remedy type' (BT-792-Review) is not present or it is not 'Decision has been made by the review body regarding the current request'"
+expression|name|652:
+  name: "'Review request or decision' (BT-783-Review) is present, the review information is 'Decision has been made by the review body regarding the current request' and 'Review decision type' (BT-790-Review) is not present"
+expression|name|653:
+  name: "'Review request withdrawn' (BT-796-Review) is not set to 'yes'"
+expression|name|654:
+  name: "'Review request or decision' (BT-783-Review) is not present or it is not 'Decision has been made by the review body regarding the current request' or the request has been withdrawn"
+expression|name|655:
+  name: "'Review remedy type' (BT-792-Review) is not present"
+expression|name|656:
+  name: "'Energy savings in kWh/year' (BT-814-LotResult) does not exist"
+expression|name|657:
+  name: There are no lots within a framework agreement
+expression|name|658:
+  name: There is no framework agreement or it is about a contract within a framework agreement
+expression|name|659:
+  name: No framework agreement is involved
+expression|name|660:
+  name: "'Official name' (BT-500-Organization-Company) exists"
+expression|name|661:
+  name: "'Organisation technical ID (ORG-XXX)'(OPT-200-Organization-Company) is a 'Organisation filling this role' (OPT-300-Procedure-Buyer)"
+expression|name|662:
+  name: "'Selection criteria' (BT-809-Lot) does not exist or 'The procedure will take place in successive stages. At each stage, some participants may be eliminated' (BT-52-Lot) is not 'yes' or 'Type of procedure' (BT-105) is not 'Competitive dialogue', 'Innovation partnership', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Other multiple stage procedure', or 'Restricted'"
+expression|name|9:
+  name: "'Description' - 'Award criterion' (BT-540-Lot) is not present or 'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-Lot) is present"
+expression|name|98:
+  name: "'Description' - 'Award criterion' (BT-540-Lot) is present and 'Award criterion number' – 'Number is a type of weight' (BT-541-Lot-WeightNumber), 'Award criterion number' – 'Number is a fixed value' (BT-541-Lot-FixedNumber) &amp; 'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-Lot) are not present"
+expression|name|99:
+  name: "'Description' - 'Award criterion' (BT-540-LotsGroup) is present and 'Award criterion number' – 'Number is a fixed value' (BT-541-LotsGroup-FixedNumber), 'Award criterion number' – 'Number is a type of threshold' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-LotsGroup) are not present"

@@ -1,0 +1,36 @@
+business-entity|name|buyer:
+  name: Buyer
+business-entity|name|changes:
+  name: Changes
+business-entity|name|contract:
+  name: Contract
+business-entity|name|contractModification:
+  name: Contract modification
+business-entity|name|euBusiness:
+  name: European business
+business-entity|name|groupOfLots:
+  name: Group of lots
+business-entity|name|lot:
+  name: Lot
+business-entity|name|noticeInformation:
+  name: Notice information
+business-entity|name|noticeResult:
+  name: Notice result
+business-entity|name|organization:
+  name: Organisation
+business-entity|name|part:
+  name: Part
+business-entity|name|procedure:
+  name: Procedure
+business-entity|name|resultForLot:
+  name: Result for lot
+business-entity|name|reviewInformation:
+  name: Information about review
+business-entity|name|tender:
+  name: Tender
+business-entity|name|tenderingParty:
+  name: Tendering party
+business-entity|name|touchpoint:
+  name: Touchpoint
+business-entity|name|ultimateBeneficialOwner:
+  name: Ultimate beneficial owner

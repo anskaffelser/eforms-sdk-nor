@@ -434,7 +434,7 @@ code|name|contract-detail.exc-right:
     nob_verify: false
   nob_verify: false
 code|name|contract-detail.other:
-  name: Other particular conditions
+  name: Other
   nob: Andre spesielle forhold
   history:
   - name: Other particular conditions
@@ -2373,10 +2373,10 @@ code|name|country.VIR:
     nob_verify: false
   nob_verify: false
 code|name|country.VNM:
-  name: Vietnam
+  name: Viet Nam
   nob: Vietnam
   history: []
-  nob_verify: false
+  nob_verify: true
 code|name|country.VUT:
   name: Vanuatu
   nob: Vanuatu
@@ -52006,7 +52006,7 @@ code|name|direct-award-justification.below-thres:
     nob_verify: false
   nob_verify: false
 code|name|direct-award-justification.below-thres-sme:
-  name: Small contract with a small or medium-sized enterprise (article 5(4) 2nd paragraph of regulation 1370/2007)
+  name: Small contract with a small or medium-sized enterprise (article 5(4) 2nd paragraph of Regulation 1370/2007)
   nob: Småskala kontrakt til små og mellomstore bedrifter
   history:
   - name: Small scale contract to a small and medium sized enterprise
@@ -52118,7 +52118,7 @@ code|name|direct-award-justification.in-house:
     nob_verify: false
   nob_verify: false
 code|name|direct-award-justification.int-oper:
-  name: Internal operator (article 5(2) of regulation 1370/2007)
+  name: Internal operator (article 5(2) of Regulation 1370/2007)
   nob: Intern operatør
   history:
   - name: Internal operator
@@ -53206,29 +53206,29 @@ code|name|eu-programme.HFR2015:
     nob_verify: false
   nob_verify: true
 code|name|eu-programme.HFR_09_11:
-  name: Supplementary High Flux Reactor (HFR) programmes
+  name: Supplementary high flux reactor (HFR) programmes (2009/2011)
   nob: Supplerende High Flux Reactor (HFR) programmer
   history:
   - name: Supplementary High Flux Reactor (HFR) programmes
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|eu-programme.HFR_16_19:
-  name: Supplementary High Flux Reactor (HFR) programmes (2016–2019)
+  name: Supplementary high flux reactor (HFR) programmes (2016/2019)
   nob: Supplerende høyfluksreaktorprogrammer (HFR) (2016–2019)
   history:
   - name: Supplementary High Flux Reactor (HFR) programmes (2016–2019)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|eu-programme.HFR_20_23:
-  name: Supplementary High Flux Reactor (HFR) programmes (2020–2023)
+  name: Supplementary high flux reactor (HFR) programmes (2020/2023)
   nob: Supplerende programmer for høyfluksreaktorer (HFR) (2020–2023)
   history:
   - name: Supplementary High Flux Reactor (HFR) programmes (2020–2023)
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|eu-programme.HORIZONEU:
   name: Horizon Europe – the Framework Programme for Research and Innovation (2021/2027)
   nob: Horisont Europa – rammeprogrammet for forskning og innovasjon
@@ -53930,13 +53930,13 @@ code|name|irregularity-type.mod-inco:
     nob_verify: false
   nob_verify: false
 code|name|irregularity-type.nc-proc-eap:
-  name: Non-compliance with the procedure established in the Directive for electronic and aggregated procurement
+  name: Non-compliance with the procedure for electronic and aggregated procurement
   nob: Manglende overholdelse av prosedyren fastsatt i direktivet for elektroniske og aggregerte anskaffelser
   history:
   - name: Non-compliance with the procedure established in the Directive for electronic and aggregated procurement
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|irregularity-type.nc-timl:
   name: Non-compliance with time limits for receipt of tenders or time limits for receipt of requests to participate
   nob: Manglende overholdelse av frister for mottak av tilbud eller frister for mottak av forespørsler om å delta
@@ -59358,50 +59358,50 @@ code|name|notice-subtype.CEI:
     nob_verify: true
   nob_verify: false
 code|name|notice-subtype.E1:
-  name: Preliminary market consultation notice
+  name: Voluntary pre-market consultation notice
   nob: Foreløpig varsel om markedskonsultasjon
   history:
   - name: Preliminary market consultation notice
     nob: E1
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 code|name|notice-subtype.E2:
-  name: Below threshold prior information notice (PIN) only
+  name: Voluntary prior information notice
   nob: Bare varsel om forhåndsinformasjon under terskelen (PIN)
   history:
   - name: Below threshold prior information notice (PIN) only
     nob: E2
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 code|name|notice-subtype.E3:
-  name: Below threshold contract notice (CN) general
+  name: Voluntary contract notice
   nob: Generelt under terskelvarsel om kontrakt (CN)
   history:
   - name: Below threshold contract notice (CN) general
     nob: E3
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 code|name|notice-subtype.E4:
-  name: Below threshold contract award notice (CAN) general
+  name: Voluntary award notice
   nob: Varsel om kontraktstildeling under terskelen (CAN) generelt
   history:
   - name: Below threshold contract award notice (CAN) general
     nob: E4
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 code|name|notice-subtype.E5:
-  name: Contract completion notice
+  name: Voluntary completion notice
   nob: Varsel om fullføring av kontrakt
   history:
   - name: Contract completion notice
     nob: E5
     history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true
 code|name|notice-subtype.T01:
   name: Prior information notice for public service contract
   nob: Forhåndsmelding om kontrakt om offentlig tjeneste
@@ -60115,7 +60115,7 @@ code|name|nuts.BE3:
   history: []
   nob_verify: false
 code|name|nuts.BE31:
-  name: Prov. Brabant Wallon
+  name: Prov. Brabant wallon
   history: []
   nob_verify: false
 code|name|nuts.BE310:
@@ -64187,7 +64187,7 @@ code|name|nuts.HU332:
   history: []
   nob_verify: false
 code|name|nuts.HU333:
-  name: Csongrád
+  name: Csongrád-Csanád
   history: []
   nob_verify: false
 code|name|nuts.HUZ:
@@ -64531,7 +64531,7 @@ code|name|nuts.ITF64:
   history: []
   nob_verify: false
 code|name|nuts.ITF65:
-  name: Reggio di Calabria
+  name: Reggio Calabria
   history: []
   nob_verify: false
 code|name|nuts.ITG:
@@ -65347,7 +65347,7 @@ code|name|nuts.NO06:
   history: []
   nob_verify: false
 code|name|nuts.NO060:
-  name: Trøndelag
+  name: Trøndelag/Trööndelage
   history: []
   nob_verify: false
 code|name|nuts.NO07:
@@ -65355,7 +65355,7 @@ code|name|nuts.NO07:
   history: []
   nob_verify: false
 code|name|nuts.NO071:
-  name: Nordland
+  name: Nordland/Nordlánnda
   history: []
   nob_verify: false
 code|name|nuts.NO074:
@@ -65851,7 +65851,7 @@ code|name|nuts.PT11A:
   history: []
   nob_verify: false
 code|name|nuts.PT11B:
-  name: Alto Tâmega
+  name: Alto Tâmega e Barroso
   history: []
   nob_verify: false
 code|name|nuts.PT11C:
@@ -68214,7 +68214,7 @@ code|name|procurement-procedure-type.comp-dial:
     nob_verify: false
   nob_verify: false
 code|name|procurement-procedure-type.comp-tend:
-  name: Competitive tendering (article 5(3) of regulation 1370/2007)
+  name: 'Competitive tendering (article 5(3) of Regulation 1370/2007) '
   nob: Anbudskonkurranse
   history:
   - name: Competitive tendering
@@ -70200,7 +70200,7 @@ code|name|nuts.BE:
   history: []
   nob_verify: false
 code|name|nuts.BG:
-  name: България
+  name: България (Bulgaria)
   history: []
   nob_verify: false
 code|name|nuts.CH:
@@ -70208,7 +70208,7 @@ code|name|nuts.CH:
   history: []
   nob_verify: false
 code|name|nuts.CY:
-  name: Κύπρος
+  name: Κύπρος (Kýpros)
   history: []
   nob_verify: false
 code|name|nuts.CZ:
@@ -70560,13 +70560,13 @@ code|name|can-standard.32:
     nob_verify: false
   nob_verify: false
 code|name|can-standard.E4:
-  name: Below threshold contract award notice (CAN) general
+  name: Voluntary award notice
   nob: Varsel om kontraktstildeling under terskelen (CAN) generelt
   history:
   - name: Below threshold contract award notice (CAN) general
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|can-tran.T02:
   name: Information notice for award of public service contract
   nob: Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
@@ -70648,13 +70648,13 @@ code|name|cn-standard.19:
     nob_verify: false
   nob_verify: false
 code|name|cn-standard.E3:
-  name: Below threshold contract notice (CN) general
+  name: Voluntary contract notice
   nob: Generelt under terskelvarsel om kontrakt (CN)
   history:
   - name: Below threshold contract notice (CN) general
     history: []
     nob_verify: false
-  nob_verify: false
+  nob_verify: true
 code|name|competition.cn-desg:
   name: Design contest notice
   nob: Varsel om designkonkurranse
@@ -79380,7 +79380,7 @@ code|name|nuts-hun-lvl3.HU332:
   history: []
   nob_verify: false
 code|name|nuts-hun-lvl3.HU333:
-  name: Csongrád
+  name: Csongrád-Csanád
   history: []
   nob_verify: false
 code|name|nuts-hun-lvl3.HUZZZ:
@@ -79628,7 +79628,7 @@ code|name|nuts-ita-lvl3.ITF64:
   history: []
   nob_verify: false
 code|name|nuts-ita-lvl3.ITF65:
-  name: Reggio di Calabria
+  name: Reggio Calabria
   history: []
   nob_verify: false
 code|name|nuts-ita-lvl3.ITG11:
@@ -83408,7 +83408,7 @@ code|name|nuts-lvl3.HU332:
   history: []
   nob_verify: false
 code|name|nuts-lvl3.HU333:
-  name: Csongrád
+  name: Csongrád-Csanád
   history: []
   nob_verify: false
 code|name|nuts-lvl3.HUZZZ:
@@ -83656,7 +83656,7 @@ code|name|nuts-lvl3.ITF64:
   history: []
   nob_verify: false
 code|name|nuts-lvl3.ITF65:
-  name: Reggio di Calabria
+  name: Reggio Calabria
   history: []
   nob_verify: false
 code|name|nuts-lvl3.ITG11:
@@ -84208,11 +84208,11 @@ code|name|nuts-lvl3.NO020:
   history: []
   nob_verify: false
 code|name|nuts-lvl3.NO060:
-  name: Trøndelag
+  name: Trøndelag/Trööndelage
   history: []
   nob_verify: false
 code|name|nuts-lvl3.NO071:
-  name: Nordland
+  name: Nordland/Nordlánnda
   history: []
   nob_verify: false
 code|name|nuts-lvl3.NO074:
@@ -84572,7 +84572,7 @@ code|name|nuts-lvl3.PT11A:
   history: []
   nob_verify: false
 code|name|nuts-lvl3.PT11B:
-  name: Alto Tâmega
+  name: Alto Tâmega e Barroso
   history: []
   nob_verify: false
 code|name|nuts-lvl3.PT11C:
@@ -86384,11 +86384,11 @@ code|name|nuts-nor-lvl3.NO020:
   history: []
   nob_verify: false
 code|name|nuts-nor-lvl3.NO060:
-  name: Trøndelag
+  name: Trøndelag/Trööndelage
   history: []
   nob_verify: false
 code|name|nuts-nor-lvl3.NO071:
-  name: Nordland
+  name: Nordland/Nordlánnda
   history: []
   nob_verify: false
 code|name|nuts-nor-lvl3.NO074:
@@ -86748,7 +86748,7 @@ code|name|nuts-prt-lvl3.PT11A:
   history: []
   nob_verify: false
 code|name|nuts-prt-lvl3.PT11B:
-  name: Alto Tâmega
+  name: Alto Tâmega e Barroso
   history: []
   nob_verify: false
 code|name|nuts-prt-lvl3.PT11C:
@@ -87672,7 +87672,7 @@ code|name|pin-only.6:
   history: []
   nob_verify: false
 code|name|pin-only.E2:
-  name: Below threshold prior information notice (PIN) only
+  name: Voluntary prior information notice
   history: []
   nob_verify: false
 code|name|pin-rtl.7:
@@ -88328,7 +88328,7 @@ code|name|postcode-country.VIR:
   history: []
   nob_verify: false
 code|name|postcode-country.VNM:
-  name: Vietnam
+  name: Viet Nam
   history: []
   nob_verify: false
 code|name|postcode-country.WLF:
@@ -90652,7 +90652,7 @@ code|name|procedure-type-t01.comp-dial:
     nob_verify: false
   nob_verify: false
 code|name|procedure-type-t01.comp-tend:
-  name: Competitive tendering (article 5(3) of regulation 1370/2007)
+  name: 'Competitive tendering (article 5(3) of Regulation 1370/2007) '
   nob: Anbudskonkurranse
   history:
   - name: Competitive tendering
@@ -90724,7 +90724,7 @@ code|name|procedure-type-t02.comp-dial:
     nob_verify: false
   nob_verify: false
 code|name|procedure-type-t02.comp-tend:
-  name: Competitive tendering (article 5(3) of regulation 1370/2007)
+  name: 'Competitive tendering (article 5(3) of Regulation 1370/2007) '
   nob: Anbudskonkurranse
   history:
   - name: Competitive tendering
@@ -93318,7 +93318,7 @@ code|name|contract-term.cost-comp:
 code|name|contract-term.exc-right:
   name: Exclusive rights are granted
 code|name|contract-term.other:
-  name: Other particular conditions
+  name: Other
 code|name|contract-term.publ-ser-obl:
   name: Public service obligations
 code|name|contract-term.soc-stand:
@@ -93348,16 +93348,830 @@ code|name|revenue-allocation.all-rev-tic:
 code|name|corporate-body.CJU:
   name: Chips Joint Undertaking
 code|name|direct-award-justification.char-imp:
-  name: Structural and geographical characteristics of market/network or improvement of quality of services or cost-efficiency – only for rail (article 5(4a) of regulation 1370/2007)
+  name: Structural and geographical characteristics of market/network or improvement of quality of services or cost-efficiency – only for rail (article 5(4a) of Regulation 1370/2007)
 code|name|direct-award-justification.exc-circ-rail:
-  name: Exceptional circumstances – only for rail (article 5(3a) of regulation 1370/2007)
+  name: Exceptional circumstances – only for rail (article 5(3a) of Regulation 1370/2007)
 code|name|direct-award-justification.sim-infra:
-  name: Simultaneous management of the entire or major part of the infrastructure – only for rail (article 5(4b) of regulation 1370/2007)
+  name: Simultaneous management of the entire or major part of the infrastructure – only for rail (article 5(4b) of Regulation 1370/2007)
 code|name|measurement-unit.H87:
   name: piece
 code|name|procedure-type-t01.exp-int-rail:
-  name: Request for expression of interest – only for rail (article 5(3b) of regulation 1370/2007)
+  name: Request for expression of interest – only for rail (article 5(3b) of Regulation 1370/2007)
 code|name|procedure-type-t02.exp-int-rail:
-  name: Request for expression of interest – only for rail (article 5(3b) of regulation 1370/2007)
+  name: Request for expression of interest – only for rail (article 5(3b) of Regulation 1370/2007)
 code|name|procurement-procedure-type.exp-int-rail:
-  name: Request for expression of interest – only for rail (article 5(3b) of regulation 1370/2007)
+  name: Request for expression of interest – only for rail (article 5(3b) of Regulation 1370/2007)
+code|name|can-modif.E6:
+  name: Voluntary contract modification notice
+code|name|change-corrig-justification.susp-review:
+  name: Procedure suspended due to a complaint, appeal or any other action for review
+code|name|compl.E5:
+  name: Voluntary completion notice
+code|name|completion.compl:
+  name: Contract completion notice
+code|name|consultation.pmc:
+  name: Pre-market consultation notice
+code|name|corporate-body.AEPPEPF:
+  name: Authority for European Political Parties and European Political Foundations
+code|name|corporate-body.AMLA:
+  name: Authority for Anti-Money Laundering and Countering the Financing of Terrorism
+code|name|corporate-body.CERT-EU:
+  name: Cybersecurity Service for the Union Institutions, Bodies, Offices and Agencies
+code|name|corporate-body.ECCC:
+  name: European Cybersecurity Industrial, Technology and Research Competence Centre
+code|name|corporate-body.EUDA:
+  name: European Union Drugs Agency
+code|name|direct-award-justification.non-dir:
+  name: The procurement falls outside the scope of application of the directive
+code|name|document-used-in-public-procurement.epo-notice:
+  name: Notice
+code|name|document-used-in-public-procurement.epo-procurement-document:
+  name: Procurement Document
+code|name|document-used-in-public-procurement.epo-sub-espd:
+  name: European Single Procurement Document (ESPD)
+code|name|eed-scope.false:
+  name: 'no'
+code|name|eed-scope.true:
+  name: 'yes'
+code|name|energy-efficiency-basis.eco-des:
+  name: Ecodesign rules
+code|name|energy-efficiency-basis.eed-spec:
+  name: Energy Efficiency Directive-specific works and services not covered by GPP
+code|name|energy-efficiency-basis.enrg-lab:
+  name: Energy label
+code|name|energy-efficiency-basis.gpp-crit:
+  name: Green Public Procurement criteria
+code|name|energy-efficiency-basis.nzeb-bui:
+  name: Nearly-zero energy buildings
+code|name|energy-efficiency-item-classification.dummy:
+  name: '"Dummy" code until energy-efficiency-item-classification gets populated'
+code|name|energy-efficiency-item.air-cond:
+  name: Air conditioners, including air-to-air heat pumps
+code|name|energy-efficiency-item.building:
+  name: Buildings
+code|name|energy-efficiency-item.circul:
+  name: Circulators
+code|name|energy-efficiency-item.computer:
+  name: Computers
+code|name|energy-efficiency-item.cook-appl:
+  name: Domestic cooking appliances – ovens, range hoods, hobs
+code|name|energy-efficiency-item.dishwas:
+  name: Dishwashers
+code|name|energy-efficiency-item.el-mo-vsd:
+  name: Electric motors and variable speed drives
+code|name|energy-efficiency-item.fuel-boil:
+  name: Solid fuel boilers
+code|name|energy-efficiency-item.hea-cool:
+  name: Air heating / cooling products
+code|name|energy-efficiency-item.hous-freez:
+  name: Household fridges and freezers
+code|name|energy-efficiency-item.indus-fan:
+  name: Industrial fans
+code|name|energy-efficiency-item.ligh-gea:
+  name: Light sources and control gears
+code|name|energy-efficiency-item.lo-spa-hea:
+  name: Local space heaters
+code|name|energy-efficiency-item.mob-pho-ta:
+  name: Mobile phones and tablets
+code|name|energy-efficiency-item.pow-suppl:
+  name: External power supplies
+code|name|energy-efficiency-item.pow-tra:
+  name: Power transformers
+code|name|energy-efficiency-item.pro-refrig:
+  name: Professional refrigeration equipment
+code|name|energy-efficiency-item.products:
+  name: Products
+code|name|energy-efficiency-item.refri-appl:
+  name: Refrigerating appliances with a direct sales function
+code|name|energy-efficiency-item.ser-da-sto:
+  name: Servers and data storage products
+code|name|energy-efficiency-item.services:
+  name: Services
+code|name|energy-efficiency-item.spa-com-hea:
+  name: Space and combination heaters
+code|name|energy-efficiency-item.tum-dry:
+  name: Tumble driers
+code|name|energy-efficiency-item.tv-nat-law:
+  name: TVs – electronic displays national law
+code|name|energy-efficiency-item.tyres:
+  name: Tyres
+code|name|energy-efficiency-item.vac-clea:
+  name: Vacuum cleaners
+code|name|energy-efficiency-item.ventila:
+  name: Ventilation units
+code|name|energy-efficiency-item.wa-hea-tan:
+  name: Water heaters – storage tanks and solar devices
+code|name|energy-efficiency-item.wa-pu:
+  name: Water pumps
+code|name|energy-efficiency-item.was-ma-dry:
+  name: Washing machines and washer-dryers
+code|name|energy-efficiency-item.weld-eq:
+  name: Welding equipment
+code|name|energy-efficiency-item.works:
+  name: Works
+code|name|energy-efficiency-label.ENERA:
+  name: "'A' Energy efficiency label"
+code|name|energy-efficiency-label.ENERA1:
+  name: "'A+' Energy efficiency label"
+code|name|energy-efficiency-label.ENERA2:
+  name: "'A++' Energy efficiency label"
+code|name|energy-efficiency-label.ENERA3:
+  name: "'A+++' Energy efficiency label"
+code|name|energy-efficiency-label.ENERB:
+  name: "'B' Energy efficiency label"
+code|name|energy-efficiency-label.ENERC:
+  name: "'C' Energy efficiency label"
+code|name|energy-efficiency-label.ENERD:
+  name: "'D' Energy efficiency label"
+code|name|energy-efficiency-label.ENERE:
+  name: "'E' Energy efficiency label"
+code|name|energy-efficiency-label.ENERF:
+  name: "'F' Energy efficiency label"
+code|name|energy-efficiency-label.ENERG:
+  name: "'G' Energy efficiency label"
+code|name|exclusion-ground.exg-crim:
+  name: Grounds relating to criminal convictions
+code|name|exclusion-ground.exg-crim-corrpt:
+  name: Corruption
+code|name|exclusion-ground.exg-crim-fraud:
+  name: Fraud
+code|name|exclusion-ground.exg-crim-laund:
+  name: Money laundering or terrorist financing
+code|name|exclusion-ground.exg-crim-part:
+  name: Participation in a criminal organisation
+code|name|exclusion-ground.exg-crim-terror:
+  name: Terrorist offences or offences linked to terrorist activities
+code|name|exclusion-ground.exg-crim-traffick:
+  name: Child labour and including other forms of trafficking in human beings
+code|name|exclusion-ground.exg-mis:
+  name: Grounds relating to insolvency, conflicts of interests or professional misconduct
+code|name|exclusion-ground.exg-mis-bre-env-law:
+  name: Breaching of obligations in the fields of environmental law
+code|name|exclusion-ground.exg-mis-bre-lab-law:
+  name: Breaching of obligations in the fields of labour law
+code|name|exclusion-ground.exg-mis-bre-soc-law:
+  name: Breaching of obligations in the fields of social law
+code|name|exclusion-ground.exg-mis-distortion:
+  name: Agreements with other economic operators aimed at distorting competition
+code|name|exclusion-ground.exg-mis-misconduct:
+  name: Grave professional misconduct
+code|name|exclusion-ground.exg-mis-misrepresent:
+  name: Misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure
+code|name|exclusion-ground.exg-mis-off-cond:
+  name: Offence concerning its professional conduct in the domain of defence procurement
+code|name|exclusion-ground.exg-mis-partic-confl:
+  name: Conflict of interest due to its participation in the procurement procedure
+code|name|exclusion-ground.exg-mis-prep-confl:
+  name: Direct or indirect involvement in the preparation of this procurement procedure
+code|name|exclusion-ground.exg-mis-sanction:
+  name: Early termination, damages, or other comparable sanctions
+code|name|exclusion-ground.exg-mis-unrel-sec:
+  name: Lack of reliability to exclude risks to the security of the country
+code|name|exclusion-ground.exg-natl:
+  name: Purely national exclusion grounds
+code|name|exclusion-ground.exg-natl-bre-nat-law:
+  name: Breaching of obligations set under purely national exclusion grounds
+code|name|exclusion-ground.exg-pmt:
+  name: Grounds relating to the payment of taxes or social security contributions 
+code|name|exclusion-ground.exg-pmt-bre-ssc:
+  name: Breaching obligation relating to payment of social security contributions
+code|name|exclusion-ground.exg-pmt-bre-tax:
+  name: Breaching obligation relating to payment of taxes
+code|name|exclusion-ground.exg-sitn:
+  name: Grounds relating to the situation of the economic operator
+code|name|exclusion-ground.exg-sitn-as-susp:
+  name: Business activities are suspended
+code|name|exclusion-ground.exg-sitn-bankr:
+  name: Bankruptcy
+code|name|exclusion-ground.exg-sitn-cred-arran:
+  name: Arrangement with creditors
+code|name|exclusion-ground.exg-sitn-insolvency:
+  name: Insolvency
+code|name|exclusion-ground.exg-sitn-liq-admin:
+  name: Assets being administered by liquidator
+code|name|exclusion-ground.exg-sitn-other:
+  name: Analogous situation like bankruptcy, insolvency or arrangement with creditors under national law
+code|name|exclusion-grounds-source.epo-notice:
+  name: Notice
+code|name|exclusion-grounds-source.epo-procurement-document:
+  name: Procurement Document
+code|name|exclusion-grounds-source.epo-sub-espd:
+  name: European Single Procurement Document (ESPD)
+code|name|foreign-subsidy-measure-conclusion.fsr-adm-clos:
+  name: Notification submitted, administrative closure of FSR preliminary review procedure
+code|name|foreign-subsidy-measure-conclusion.fsr-commit:
+  name: Notification submitted, decision with commitments
+code|name|foreign-subsidy-measure-conclusion.fsr-irregul:
+  name: Notification submitted, decision on irregular tender or request to participate
+code|name|foreign-subsidy-measure-conclusion.fsr-meat:
+  name: 'Declaration submitted, standard MEAT award    '
+code|name|foreign-subsidy-measure-conclusion.fsr-no-obj:
+  name: Notification submitted, decision with no objection
+code|name|foreign-subsidy-measure-conclusion.fsr-proh:
+  name: Notification submitted, decision prohibiting the award
+code|name|foreign-subsidy-measure-conclusion.fsr-stand:
+  name: Declaration submitted, standard award procedure
+code|name|form-type.completion:
+  name: Completion
+code|name|form-type.consultation:
+  name: Consultation
+code|name|fsr.false:
+  name: 'no'
+code|name|fsr.true:
+  name: 'yes'
+code|name|international-procurement-instrument-application.no-exc:
+  name: No exception
+code|name|international-procurement-instrument-application.one-tend:
+  name: Exception only one tender
+code|name|international-procurement-instrument-application.pub-int:
+  name: Exception public interest
+code|name|international-procurement-instrument-measure.empty:
+  name: Placeholder for a specific IPI measure
+code|name|ipi-scope.false:
+  name: 'no'
+code|name|legal-basis-1.other:
+  name: Other
+code|name|legal-basis-10.other:
+  name: Other
+code|name|legal-basis-11.other:
+  name: Other
+code|name|legal-basis-12.other:
+  name: Other
+code|name|legal-basis-13.other:
+  name: Other
+code|name|legal-basis-14.other:
+  name: Other
+code|name|legal-basis-15.other:
+  name: Other
+code|name|legal-basis-16.other:
+  name: Other
+code|name|legal-basis-17.other:
+  name: Other
+code|name|legal-basis-18.other:
+  name: Other
+code|name|legal-basis-19.other:
+  name: Other
+code|name|legal-basis-2.other:
+  name: Other
+code|name|legal-basis-20.other:
+  name: Other
+code|name|legal-basis-21.other:
+  name: Other
+code|name|legal-basis-22.other:
+  name: Other
+code|name|legal-basis-23.other:
+  name: Other
+code|name|legal-basis-24.other:
+  name: Other
+code|name|legal-basis-25.other:
+  name: Other
+code|name|legal-basis-26.other:
+  name: Other
+code|name|legal-basis-27.other:
+  name: Other
+code|name|legal-basis-28.other:
+  name: Other
+code|name|legal-basis-29.other:
+  name: Other
+code|name|legal-basis-3.other:
+  name: Other
+code|name|legal-basis-30.other:
+  name: Other
+code|name|legal-basis-31.other:
+  name: Other
+code|name|legal-basis-32.other:
+  name: Other
+code|name|legal-basis-33.other:
+  name: Other
+code|name|legal-basis-34.other:
+  name: Other
+code|name|legal-basis-35.other:
+  name: Other
+code|name|legal-basis-36.other:
+  name: Other
+code|name|legal-basis-37.other:
+  name: Other
+code|name|legal-basis-38.other:
+  name: Other
+code|name|legal-basis-39.other:
+  name: Other
+code|name|legal-basis-4.other:
+  name: Other
+code|name|legal-basis-40.other:
+  name: Other
+code|name|legal-basis-5.other:
+  name: Other
+code|name|legal-basis-6.other:
+  name: Other
+code|name|legal-basis-7.other:
+  name: Other
+code|name|legal-basis-8.other:
+  name: Other
+code|name|legal-basis-9.other:
+  name: Other
+code|name|legal-basis-e6.32009L0081:
+  name: Directive 2009/81/EC
+code|name|legal-basis-e6.other:
+  name: Other
+code|name|metric-type.nrg-con-yr:
+  name: Energy Consumption in kWh/year
+code|name|metric-type.nrg-sav-yr:
+  name: Energy Savings in kWh/year
+code|name|notice-subtype.E6:
+  name: Voluntary contract modification notice
+code|name|notice-type.compl:
+  name: Contract completion notice
+code|name|notice-type.pmc:
+  name: Pre-market consultation notice
+code|name|nuts-country.XKX:
+  name: Kosovo
+code|name|nuts-deu-lvl3.DEG0Q:
+  name: Schmalkalden-Meiningen
+code|name|nuts-deu-lvl3.DEG0R:
+  name: Wartburgkreis
+code|name|nuts-deu-lvl3.DEG0S:
+  name: Suhl, Kreisfreie Stadt
+code|name|nuts-deu-lvl3.DEG0T:
+  name: Ilm-Kreis
+code|name|nuts-deu-lvl3.DEG0U:
+  name: Saalfeld-Rudolstadt
+code|name|nuts-deu-lvl3.DEG0V:
+  name: Sonneberg
+code|name|nuts-fin-lvl3.FI198:
+  name: Keski-Suomi
+code|name|nuts-fin-lvl3.FI199:
+  name: Etelä-Pohjanmaa
+code|name|nuts-fin-lvl3.FI19A:
+  name: Pohjanmaa
+code|name|nuts-fin-lvl3.FI19B:
+  name: Pirkanmaa
+code|name|nuts-fin-lvl3.FI1C6:
+  name: Päijät-Häme
+code|name|nuts-fin-lvl3.FI1C7:
+  name: Kymenlaakso
+code|name|nuts-fin-lvl3.FI1DA:
+  name: Etelä-Savo
+code|name|nuts-fin-lvl3.FI1DB:
+  name: Pohjois-Savo
+code|name|nuts-fin-lvl3.FI1DC:
+  name: Pohjois-Karjala
+code|name|nuts-lva-lvl3.LV00A:
+  name: Rīga
+code|name|nuts-lva-lvl3.LV00B:
+  name: Kurzeme
+code|name|nuts-lva-lvl3.LV00C:
+  name: Vidzeme
+code|name|nuts-lvl3.DEG0Q:
+  name: Schmalkalden-Meiningen
+code|name|nuts-lvl3.DEG0R:
+  name: Wartburgkreis
+code|name|nuts-lvl3.DEG0S:
+  name: Suhl, Kreisfreie Stadt
+code|name|nuts-lvl3.DEG0T:
+  name: Ilm-Kreis
+code|name|nuts-lvl3.DEG0U:
+  name: Saalfeld-Rudolstadt
+code|name|nuts-lvl3.DEG0V:
+  name: Sonneberg
+code|name|nuts-lvl3.FI198:
+  name: Keski-Suomi
+code|name|nuts-lvl3.FI199:
+  name: Etelä-Pohjanmaa
+code|name|nuts-lvl3.FI19A:
+  name: Pohjanmaa
+code|name|nuts-lvl3.FI19B:
+  name: Pirkanmaa
+code|name|nuts-lvl3.FI1C6:
+  name: Päijät-Häme
+code|name|nuts-lvl3.FI1C7:
+  name: Kymenlaakso
+code|name|nuts-lvl3.FI1DA:
+  name: Etelä-Savo
+code|name|nuts-lvl3.FI1DB:
+  name: Pohjois-Savo
+code|name|nuts-lvl3.FI1DC:
+  name: Pohjois-Karjala
+code|name|nuts-lvl3.LV00A:
+  name: Rīga
+code|name|nuts-lvl3.LV00B:
+  name: Kurzeme
+code|name|nuts-lvl3.LV00C:
+  name: Vidzeme
+code|name|nuts-lvl3.NL114:
+  name: Oost-Groningen
+code|name|nuts-lvl3.NL115:
+  name: Overig Groningen
+code|name|nuts-lvl3.NL127:
+  name: Noord-Friesland
+code|name|nuts-lvl3.NL128:
+  name: Zuidwest-Friesland
+code|name|nuts-lvl3.NL32A:
+  name: Agglomeratie Haarlem
+code|name|nuts-lvl3.NL32B:
+  name: Groot-Amsterdam
+code|name|nuts-lvl3.NL350:
+  name: Utrecht
+code|name|nuts-lvl3.NL361:
+  name: Agglomeratie ’s-Gravenhage
+code|name|nuts-lvl3.NL362:
+  name: Delft en Westland
+code|name|nuts-lvl3.NL363:
+  name: Agglomeratie Leiden en Bollenstreek
+code|name|nuts-lvl3.NL364:
+  name: Zuidoost-Zuid-Holland
+code|name|nuts-lvl3.NL365:
+  name: Oost-Zuid-Holland
+code|name|nuts-lvl3.NL366:
+  name: Groot-Rijnmond
+code|name|nuts-lvl3.NL415:
+  name: Midden-Noord-Brabant
+code|name|nuts-lvl3.NL416:
+  name: Noordoost-Noord-Brabant
+code|name|nuts-lvl3.NO072:
+  name: Troms/Romsa/Tromssa
+code|name|nuts-lvl3.NO073:
+  name: Finnmark/Finnmárku/Finmarkku
+code|name|nuts-lvl3.NO083:
+  name: Østfold
+code|name|nuts-lvl3.NO084:
+  name: Akershus
+code|name|nuts-lvl3.NO085:
+  name: Buskerud
+code|name|nuts-lvl3.NO093:
+  name: Vestfold
+code|name|nuts-lvl3.NO094:
+  name: Telemark
+code|name|nuts-lvl3.PT191:
+  name: Região de Aveiro
+code|name|nuts-lvl3.PT192:
+  name: Região de Coimbra
+code|name|nuts-lvl3.PT193:
+  name: Região de Leiria
+code|name|nuts-lvl3.PT194:
+  name: Viseu Dão Lafões
+code|name|nuts-lvl3.PT195:
+  name: Beira Baixa
+code|name|nuts-lvl3.PT196:
+  name: Beiras e Serra da Estrela
+code|name|nuts-lvl3.PT1A0:
+  name: Grande Lisboa
+code|name|nuts-lvl3.PT1B0:
+  name: Península de Setúbal
+code|name|nuts-lvl3.PT1C1:
+  name: Alentejo Litoral
+code|name|nuts-lvl3.PT1C2:
+  name: Baixo Alentejo
+code|name|nuts-lvl3.PT1C3:
+  name: Alto Alentejo
+code|name|nuts-lvl3.PT1C4:
+  name: Alentejo Central
+code|name|nuts-lvl3.PT1D1:
+  name: Oeste
+code|name|nuts-lvl3.PT1D2:
+  name: Médio Tejo
+code|name|nuts-lvl3.PT1D3:
+  name: Lezíria do Tejo
+code|name|nuts-lvl3.XK001:
+  name: Prishtinë/Priština
+code|name|nuts-lvl3.XK002:
+  name: Mitrovicë/Mitrovica
+code|name|nuts-lvl3.XK003:
+  name: Pejë/Peć
+code|name|nuts-lvl3.XK004:
+  name: Prizren/Prizren
+code|name|nuts-lvl3.XK005:
+  name: Ferizaj/Uroševac
+code|name|nuts-lvl3.XK006:
+  name: Gjilan/Gnjilane
+code|name|nuts-lvl3.XK007:
+  name: Gjakovë/Đakovica
+code|name|nuts-lvl3.XKZZZ:
+  name: Extra-Regio NUTS 3
+code|name|nuts-nld-lvl3.NL114:
+  name: Oost-Groningen
+code|name|nuts-nld-lvl3.NL115:
+  name: Overig Groningen
+code|name|nuts-nld-lvl3.NL127:
+  name: Noord-Friesland
+code|name|nuts-nld-lvl3.NL128:
+  name: Zuidwest-Friesland
+code|name|nuts-nld-lvl3.NL32A:
+  name: Agglomeratie Haarlem
+code|name|nuts-nld-lvl3.NL32B:
+  name: Groot-Amsterdam
+code|name|nuts-nld-lvl3.NL350:
+  name: Utrecht
+code|name|nuts-nld-lvl3.NL361:
+  name: Agglomeratie ’s-Gravenhage
+code|name|nuts-nld-lvl3.NL362:
+  name: Delft en Westland
+code|name|nuts-nld-lvl3.NL363:
+  name: Agglomeratie Leiden en Bollenstreek
+code|name|nuts-nld-lvl3.NL364:
+  name: Zuidoost-Zuid-Holland
+code|name|nuts-nld-lvl3.NL365:
+  name: Oost-Zuid-Holland
+code|name|nuts-nld-lvl3.NL366:
+  name: Groot-Rijnmond
+code|name|nuts-nld-lvl3.NL415:
+  name: Midden-Noord-Brabant
+code|name|nuts-nld-lvl3.NL416:
+  name: Noordoost-Noord-Brabant
+code|name|nuts-nor-lvl3.NO072:
+  name: Troms/Romsa/Tromssa
+code|name|nuts-nor-lvl3.NO073:
+  name: Finnmark/Finnmárku/Finmarkku
+code|name|nuts-nor-lvl3.NO083:
+  name: Østfold
+code|name|nuts-nor-lvl3.NO084:
+  name: Akershus
+code|name|nuts-nor-lvl3.NO085:
+  name: Buskerud
+code|name|nuts-nor-lvl3.NO093:
+  name: Vestfold
+code|name|nuts-nor-lvl3.NO094:
+  name: Telemark
+code|name|nuts-prt-lvl3.PT191:
+  name: Região de Aveiro
+code|name|nuts-prt-lvl3.PT192:
+  name: Região de Coimbra
+code|name|nuts-prt-lvl3.PT193:
+  name: Região de Leiria
+code|name|nuts-prt-lvl3.PT194:
+  name: Viseu Dão Lafões
+code|name|nuts-prt-lvl3.PT195:
+  name: Beira Baixa
+code|name|nuts-prt-lvl3.PT196:
+  name: Beiras e Serra da Estrela
+code|name|nuts-prt-lvl3.PT1A0:
+  name: Grande Lisboa
+code|name|nuts-prt-lvl3.PT1B0:
+  name: Península de Setúbal
+code|name|nuts-prt-lvl3.PT1C1:
+  name: Alentejo Litoral
+code|name|nuts-prt-lvl3.PT1C2:
+  name: Baixo Alentejo
+code|name|nuts-prt-lvl3.PT1C3:
+  name: Alto Alentejo
+code|name|nuts-prt-lvl3.PT1C4:
+  name: Alentejo Central
+code|name|nuts-prt-lvl3.PT1D1:
+  name: Oeste
+code|name|nuts-prt-lvl3.PT1D2:
+  name: Médio Tejo
+code|name|nuts-prt-lvl3.PT1D3:
+  name: Lezíria do Tejo
+code|name|nuts-xkx-lvl3.XK001:
+  name: Prishtinë/Priština
+code|name|nuts-xkx-lvl3.XK002:
+  name: Mitrovicë/Mitrovica
+code|name|nuts-xkx-lvl3.XK003:
+  name: Pejë/Peć
+code|name|nuts-xkx-lvl3.XK004:
+  name: Prizren/Prizren
+code|name|nuts-xkx-lvl3.XK005:
+  name: Ferizaj/Uroševac
+code|name|nuts-xkx-lvl3.XK006:
+  name: Gjilan/Gnjilane
+code|name|nuts-xkx-lvl3.XK007:
+  name: Gjakovë/Đakovica
+code|name|nuts-xkx-lvl3.XKZZZ:
+  name: Extra-Regio NUTS 3
+code|name|nuts.DEG0Q:
+  name: Schmalkalden-Meiningen
+code|name|nuts.DEG0R:
+  name: Wartburgkreis
+code|name|nuts.DEG0S:
+  name: Suhl, Kreisfreie Stadt
+code|name|nuts.DEG0T:
+  name: Ilm-Kreis
+code|name|nuts.DEG0U:
+  name: Saalfeld-Rudolstadt
+code|name|nuts.DEG0V:
+  name: Sonneberg
+code|name|nuts.FI198:
+  name: Keski-Suomi
+code|name|nuts.FI199:
+  name: Etelä-Pohjanmaa
+code|name|nuts.FI19A:
+  name: Pohjanmaa
+code|name|nuts.FI19B:
+  name: Pirkanmaa
+code|name|nuts.FI1C6:
+  name: Päijät-Häme
+code|name|nuts.FI1C7:
+  name: Kymenlaakso
+code|name|nuts.FI1DA:
+  name: Etelä-Savo
+code|name|nuts.FI1DB:
+  name: Pohjois-Savo
+code|name|nuts.FI1DC:
+  name: Pohjois-Karjala
+code|name|nuts.LV00A:
+  name: Rīga
+code|name|nuts.LV00B:
+  name: Kurzeme
+code|name|nuts.LV00C:
+  name: Vidzeme
+code|name|nuts.NL114:
+  name: Oost-Groningen
+code|name|nuts.NL115:
+  name: Overig Groningen
+code|name|nuts.NL127:
+  name: Noord-Friesland
+code|name|nuts.NL128:
+  name: Zuidwest-Friesland
+code|name|nuts.NL32A:
+  name: Agglomeratie Haarlem
+code|name|nuts.NL32B:
+  name: Groot-Amsterdam
+code|name|nuts.NL35:
+  name: Utrecht
+code|name|nuts.NL350:
+  name: Utrecht
+code|name|nuts.NL36:
+  name: Zuid-Holland
+code|name|nuts.NL361:
+  name: Agglomeratie ’s-Gravenhage
+code|name|nuts.NL362:
+  name: Delft en Westland
+code|name|nuts.NL363:
+  name: Agglomeratie Leiden en Bollenstreek
+code|name|nuts.NL364:
+  name: Zuidoost-Zuid-Holland
+code|name|nuts.NL365:
+  name: Oost-Zuid-Holland
+code|name|nuts.NL366:
+  name: Groot-Rijnmond
+code|name|nuts.NL415:
+  name: Midden-Noord-Brabant
+code|name|nuts.NL416:
+  name: Noordoost-Noord-Brabant
+code|name|nuts.NO072:
+  name: Troms/Romsa/Tromssa
+code|name|nuts.NO073:
+  name: Finnmark/Finnmárku/Finmarkku
+code|name|nuts.NO083:
+  name: Østfold
+code|name|nuts.NO084:
+  name: Akershus
+code|name|nuts.NO085:
+  name: Buskerud
+code|name|nuts.NO093:
+  name: Vestfold
+code|name|nuts.NO094:
+  name: Telemark
+code|name|nuts.PT19:
+  name: Centro (PT)
+code|name|nuts.PT191:
+  name: Região de Aveiro
+code|name|nuts.PT192:
+  name: Região de Coimbra
+code|name|nuts.PT193:
+  name: Região de Leiria
+code|name|nuts.PT194:
+  name: Viseu Dão Lafões
+code|name|nuts.PT195:
+  name: Beira Baixa
+code|name|nuts.PT196:
+  name: Beiras e Serra da Estrela
+code|name|nuts.PT1A:
+  name: Grande Lisboa
+code|name|nuts.PT1A0:
+  name: Grande Lisboa
+code|name|nuts.PT1B:
+  name: Península de Setúbal
+code|name|nuts.PT1B0:
+  name: Península de Setúbal
+code|name|nuts.PT1C:
+  name: Alentejo
+code|name|nuts.PT1C1:
+  name: Alentejo Litoral
+code|name|nuts.PT1C2:
+  name: Baixo Alentejo
+code|name|nuts.PT1C3:
+  name: Alto Alentejo
+code|name|nuts.PT1C4:
+  name: Alentejo Central
+code|name|nuts.PT1D:
+  name: Oeste e Vale do Tejo
+code|name|nuts.PT1D1:
+  name: Oeste
+code|name|nuts.PT1D2:
+  name: Médio Tejo
+code|name|nuts.PT1D3:
+  name: Lezíria do Tejo
+code|name|nuts.XK:
+  name: Kosovë/Kosovo
+code|name|nuts.XK0:
+  name: Kosovë/Kosovo
+code|name|nuts.XK00:
+  name: Kosovë/Kosovo
+code|name|nuts.XK001:
+  name: Prishtinë/Priština
+code|name|nuts.XK002:
+  name: Mitrovicë/Mitrovica
+code|name|nuts.XK003:
+  name: Pejë/Peć
+code|name|nuts.XK004:
+  name: Prizren/Prizren
+code|name|nuts.XK005:
+  name: Ferizaj/Uroševac
+code|name|nuts.XK006:
+  name: Gjilan/Gnjilane
+code|name|nuts.XK007:
+  name: Gjakovë/Đakovica
+code|name|nuts.XKZ:
+  name: Extra-Regio NUTS 1
+code|name|nuts.XKZZ:
+  name: Extra-Regio NUTS 2
+code|name|nuts.XKZZZ:
+  name: Extra-Regio NUTS 3
+code|name|pmc.E1:
+  name: Voluntary pre-market consultation notice
+code|name|postcode-country.IRL:
+  name: Ireland
+code|name|procedure-type-15.comp-dial:
+  name: Competitive dialogue
+code|name|procedure-type-15.innovation:
+  name: Innovation partnership
+code|name|procedure-type-15.neg-w-call:
+  name: Negotiated with prior publication of a call for competition / competitive with negotiation
+code|name|procedure-type-15.oth-mult:
+  name: Other multiple stage procedure
+code|name|procedure-type-15.restricted:
+  name: Restricted
+code|name|review-information-type.dec:
+  name: Decision 
+code|name|review-information-type.req:
+  name: Request 
+code|name|selection-criteria-source.epo-notice:
+  name: Notice
+code|name|selection-criteria-source.epo-procurement-document:
+  name: Procurement Document
+code|name|selection-criteria-source.epo-sub-espd:
+  name: European Single Procurement Document (ESPD)
+code|name|selection-criterion.slc-abil-facil-res:
+  name: Study, technical and research facilities
+code|name|selection-criterion.slc-abil-facil-tools:
+  name: Tools, plant, or technical equipment
+code|name|selection-criterion.slc-abil-mgmt-env:
+  name: Environmental management measures
+code|name|selection-criterion.slc-abil-mgmt-qual:
+  name: Measures for ensuring quality
+code|name|selection-criterion.slc-abil-mgmt-supply:
+  name: Supply chain management
+code|name|selection-criterion.slc-abil-qual-inst:
+  name: Certificates by quality control institutes
+code|name|selection-criterion.slc-abil-qual-smp-w-autent:
+  name: Samples, descriptions, or photographs with certification of authenticity for supply contracts
+code|name|selection-criterion.slc-abil-qual-smp-wo-autent:
+  name: Samples, descriptions, or photographs without certification of authenticity
+code|name|selection-criterion.slc-abil-ref-services:
+  name: References on specified services
+code|name|selection-criterion.slc-abil-ref-supply:
+  name: References on specified deliveries
+code|name|selection-criterion.slc-abil-ref-work:
+  name: References on specified works
+code|name|selection-criterion.slc-abil-staff-qual:
+  name: Relevant educational and professional qualifications
+code|name|selection-criterion.slc-abil-staff-tech-ctrl:
+  name: Technicians or technical bodies for quality control
+code|name|selection-criterion.slc-abil-staff-tech-work:
+  name: Technicians or technical bodies to carry out the work
+code|name|selection-criterion.slc-abil-staff-yrly-avg-mp:
+  name: Average yearly manpower
+code|name|selection-criterion.slc-abil-staff-yrly-no-mgmt:
+  name: Number of managerial staff
+code|name|selection-criterion.slc-abil-subc:
+  name: Subcontracting proportion
+code|name|selection-criterion.slc-sche-env-cert-indep:
+  name: Certificates by independent bodies about environmental management systems or standards
+code|name|selection-criterion.slc-sche-qu-cert-indep:
+  name: Certificates by independent bodies about quality assurance standards
+code|name|selection-criterion.slc-sec-inf:
+  name: Security of information
+code|name|selection-criterion.slc-sec-proc:
+  name: Security to process, store and transmit classified information
+code|name|selection-criterion.slc-sec-supply:
+  name: Security of supply
+code|name|selection-criterion.slc-stand-ins:
+  name: Professional risk indemnity insurance
+code|name|selection-criterion.slc-stand-other:
+  name: Other economic or financial requirements
+code|name|selection-criterion.slc-stand-ratio:
+  name: Financial ratio
+code|name|selection-criterion.slc-stand-to-avg:
+  name: Average yearly turnover
+code|name|selection-criterion.slc-stand-to-gen:
+  name: General yearly turnover
+code|name|selection-criterion.slc-stand-to-spec:
+  name: Specific yearly turnover
+code|name|selection-criterion.slc-stand-to-spec-avg:
+  name: Specific average yearly turnover
+code|name|selection-criterion.slc-suit-auth-mbrshp:
+  name: Authorisation or membership of a particular organisation needed for service contracts
+code|name|selection-criterion.slc-suit-reg-prof:
+  name: Enrolment in a relevant professional register
+code|name|selection-criterion.slc-suit-reg-trade:
+  name: Enrolment in a trade register

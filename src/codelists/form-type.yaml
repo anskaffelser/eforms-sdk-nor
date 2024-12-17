@@ -54,3 +54,7 @@ result:
     history: []
     nob_verify: false
   nob_verify: false
+completion:
+  name: Completion
+consultation:
+  name: Consultation

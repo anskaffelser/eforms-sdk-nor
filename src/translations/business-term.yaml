@@ -436,7 +436,7 @@ business-term|name|BT-58:
   history: []
   nob_verify: true
 business-term|name|BT-57:
-  name: The buyer reserves the right for additional purchases from the contractor, as described here
+  name: Other information about renewals
   nob: Beskrivelse av fornyelser
   history: []
   nob_verify: true
@@ -1180,7 +1180,7 @@ business-term|name|BT-161:
   history: []
   nob_verify: true
 business-term|name|BT-118:
-  name: Maximum value of the framework agreements in this procedure
+  name: Maximum value of the framework agreements in this notice
   nob: Kunngjøring - Maksimal verdi av rammeavtale
   history: []
   nob_verify: true
@@ -1294,7 +1294,7 @@ business-term|name|BT-13714:
   history: []
   nob_verify: true
 business-term|name|BT-720:
-  name: Value of the result
+  name: Value of the tender
   nob: Tilbudsverdi
   history: []
   nob_verify: true
@@ -2063,7 +2063,7 @@ business-term|description|BT-25:
   history: []
   nob_verify: false
 business-term|description|BT-625:
-  name: The unit which the good, service, or work comes in, for example hours or kilograms. Where the CPV code is a supply which does not need a further unit (e.g. cars), then no unit needs to be given and quantity is taken to be an amount, e.g. the "number of cars".
+  name: The unit which the good, service, or work comes in, for example hours or kilograms.
   nob: Angi enheten anskaffelsen kommer i, f.eks. timer eller kilo. Der CPV-koden er en type som ikke behøver nærmere beskrivelse av enhet (f.eks. biler) kan antall/stykk angis som enhet.
   history: []
   nob_verify: true
@@ -2237,10 +2237,10 @@ business-term|description|BT-7220:
   history: []
   nob_verify: false
 business-term|description|BT-5010:
-  name: An identifier of the Union programme used to at least partially finance the contract. The most concrete information must be given (e.g. grant agreement number, national identifier, project acronym, contract number).
+  name: An identifier of the Union programme used to at least partially finance the contract. The most concrete information must be given (e.g. the unique European identification number of the relevant programme when available, for example the CCI number for CPR funds, or grant agreement number, national identifier, project acronym, contract number).
   nob: Identifikatoren til EU-programmet som brukes for å minst delvis finansiere kontrakten. Informasjonen skal være så konktret som mulig (for eksempel tilskuddsavtalenummer, nasjonal identifikator, prosjektakronym, kontraktsnummer)
   history: []
-  nob_verify: false
+  nob_verify: true
 business-term|description|BT-6140:
   name: Further information about the Union programme or project used at least partially finance the procurement.
   nob: Ytterligere informasjon om EU-programmet eller prosjektet som brukes for å minst delvis finansiere anskaffelsen.
@@ -3014,7 +3014,7 @@ business-term|description|BT-556:
     nob_verify: false
   nob_verify: true
 business-term|description|BT-156:
-  name: It is the re-calculated maximum value likely to be spent for a group of lots within the procedure. This information can be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The value is re-calculated on the basis of the winner’s tender or winners’ tenders.
+  name: It is the re-calculated maximum value likely to be spent for a group of lots within the procedure. This information can be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The value is re-calculated on the basis of the winner’s tender or winners’ tenders.
   nob: Den maksimale verdien som kan brukes i rammeavtalen(e) i denne kunngjøringen i en gruppe av delkontrakter. Denne informasjonen kan oppgis når den maksimale verdien av grupper av delkontrakter er lavere enn summen av verdien for de enkelte delkontraktene, f.eks. når det samme budsjettet deles av flere delkontrakter. Verdien dekker alle kontraktene som tildeles under en rammeavtale gjennom hele avtaleperioden, inkludert opsjoner og fornyelser. Dette er maksimale verdier som beregnet på grunnlag av vinnerens eller vinnernes tilbud.
   history: []
   nob_verify: true
@@ -3293,7 +3293,7 @@ business-term|description|BT-775:
   history: []
   nob_verify: false
 business-term|description|BT-776:
-  name: An indication that innovative works, supplies or services are being bought.
+  name: An indication that the object of the procurement is the R&amp;D (i.e. research, development, testing) and / or the purchase of innovative solutions (i.e. innovative works, supplies or services).
   nob: En indikasjon på at innovative bygg- og anleggsarbeider blir kjøpt.
   history:
   - name: An indication that innovative works, supplies or services are being bought. (e.g. the procured works, supplies or services being novel for the whole market).
@@ -3715,8 +3715,126 @@ business-term|name|OPP-124:
 business-term|name|OPT-211:
   name: Name of the tendering party
 business-term|hint|BT-13716:
-  name: 'One of the following must be filled in: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX'
+  name: 'One of the following must be filled in: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX'
 business-term|hint|BT-786:
   name: 'One of the following must be filled in: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX'
 business-term|name|OPP-035:
   name: Code for revenues allocation of ticket sales
+business-term|description|BG-681:
+  name: The list of IPI Measures that were applied to this tender.
+business-term|description|BG-700:
+  name: Information about the exclusion grounds and selection criteria used for this procurement procedure.
+business-term|description|BG-810:
+  name: Information on the energy efficiency of the products selected in BT-811.
+business-term|description|BT-681:
+  name: The Foreign Subsidies Regulation (FSR) (EU) 2022/2560, in line with Article 28 thereof, is applicable to this procurement procedure.
+business-term|description|BT-682:
+  name: Measures applied under the Foreign Subsidies Regulation (EU) 2022/2560.
+business-term|description|BT-684:
+  name: Measures under the International Procurement Instrument (IPI) Regulation (EU) 2022/1031 are applicable to this procurement procedure
+business-term|description|BT-685:
+  name: Information on the IPI measure applicable to this tender
+business-term|description|BT-686:
+  name: Number of requests to participate and tenders to which this IPI measure was applied, in the case of a public contract; number of requests to participate and projects, in the case of a design contest.
+business-term|description|BT-687:
+  name: Exception from the application of the IPI measure
+business-term|description|BT-688:
+  name: A description and justification for the application of overriding reasons relating to the public interest
+business-term|description|BT-783:
+  name: Whether the information concerns a review request or a review decision.
+business-term|description|BT-784:
+  name: An identifier of a review request or a review decision. When appealed to a higher review body instance, a review requests must receive a new identifier.
+business-term|description|BT-785:
+  name: An identifier of the review request(s) that led to this decision or a review decision that is being appealed by this review request. Review decision which was initiated by the review body (“ex officio”) are not preceded by a review request.
+business-term|description|BT-786:
+  name: An identifier of one or more sections within this notice. The information in the review section refers to this section or these sections.
+business-term|description|BT-787:
+  name: The date and time when the review request was submitted or the review decision was taken.
+business-term|description|BT-788:
+  name: The name of the review request or review decision.
+business-term|description|BT-789:
+  name: The description of the review request or review decision or any other additional information.
+business-term|description|BT-790:
+  name: The decision type (e.g. accepted, rejected because the complainant did not have legal standing).
+business-term|description|BT-791:
+  name: The type of irregularity alleged in the review request or confirmed in the review decision.
+business-term|description|BT-792:
+  name: The remedy (e.g. interim measure, damages) requested in the review request or applied by the review decision.
+business-term|description|BT-793:
+  name: The value of the remedy (e.g. damages, fines).
+business-term|description|BT-794:
+  name: The uniform resource locator (e.g. the web address) of the documents concerning the review request or a review decision.
+business-term|description|BT-795:
+  name: The fee paid for lodging the review request.
+business-term|description|BT-796:
+  name: The review request was withdrawn.
+business-term|description|BT-797:
+  name: The date and time when the request for review was withdrawn.
+business-term|description|BT-798:
+  name: The reasons for withdrawing the request for review.
+business-term|description|BT-806:
+  name: Where the exclusions grounds are defined, for example, the procurement documents or in ESPD.
+business-term|description|BT-809:
+  name: The criteria (or criterion).
+business-term|description|BT-810:
+  name: The Energy Efficiency Directive (EED) (EU) 2023/1791 is applicable for this procurement procedure.
+business-term|description|BT-811:
+  name: List of products, works and services covered by the Energy Labelling Directive, by the Ecodesign Directive, by Union green public procurement criteria, by Regulation 2020/740. For reporting purposes, buildings covered by the obligation in Article 7 EED are also included
+business-term|description|BT-812:
+  name: Energy efficiency labels that are provided for the products (A+++, A++, A+, A, B, C, D).
+business-term|description|BT-813:
+  name: The value of Energy consumption in kWh/year for products for which no label exists, and energy savings in kWh/year for services, buildings or works. For products please report the yearly energy consumption of the product. For services, works and buildings please report the yearly energy savings.
+business-term|description|BT-814:
+  name: The unit of the energy efficiency number, for example, kWh/year.
+business-term|description|BT-815:
+  name: The quantity provided or estimated. For products please report the number of products. For buildings, please report the useful floor area in m2. For works or services no value is needed
+business-term|description|BT-821:
+  name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
+business-term|description|OPT-080:
+  name: The specified metric is about yearly energy consumption
+business-term|description|OPT-081:
+  name: The specified metric is about yearly energy savings
+business-term|name|BG-700:
+  name: Grounds for exclusion and selection criteria
+business-term|name|BT-681:
+  name: Foreign Subsidies Regulation
+business-term|name|BT-682:
+  name: Foreign subsidies measures
+business-term|name|BT-684:
+  name: IPI measures applicable
+business-term|name|BT-685:
+  name: Specific IPI measure
+business-term|name|BT-686:
+  name: Number of tender applications that fall under this IPI measure
+business-term|name|BT-687:
+  name: Exception to the application of the IPI measure
+business-term|name|BT-688:
+  name: Overriding reasons relating to the public interest
+business-term|name|BT-804:
+  name: Review technical identifier
+business-term|name|BT-806:
+  name: Source of grounds for exclusion
+business-term|name|BT-807:
+  name: Identifier of review body
+business-term|name|BT-808:
+  name: Identifier of review applicant
+business-term|name|BT-809:
+  name: Selection criteria
+business-term|name|BT-810:
+  name: EED applicable
+business-term|name|BT-811:
+  name: EED list
+business-term|name|BT-812:
+  name: Energy efficiency label
+business-term|name|BT-813:
+  name: Energy efficiency consumption in kWh/year
+business-term|name|BT-814:
+  name: Energy savings in kWh/year
+business-term|name|BT-815:
+  name: Energy efficiency quantity
+business-term|name|BT-821:
+  name: Source of selection criteria
+business-term|name|OPT-080:
+  name: EED consumption metric
+business-term|name|OPT-081:
+  name: EED savings metric
