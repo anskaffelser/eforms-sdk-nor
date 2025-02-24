@@ -17,7 +17,7 @@ Each endpoint provides two APIs:
 * [Public API](https://dof-notices-dev-api.developer.azure-api.net/api-details#api=public-api&operation=65015b9b566f983bdcfcaee7) used to search for and download published notices.
 
 ### Important regarding the Notices API
-Once you have created a subscription for the Notices API please contact [charlotte.kolle@dfo.no](mailto:charlotte.kolle@dfo.no) to get the subscription activated.
+Once you have created a subscription for the Notices API please contact [ingunn.ostrem@dfo.no](mailto:ingunn.ostrem@dfo.no) to get the subscription activated.
 
 For now we are not returning any validation results. Please make sure that you are using valid and well-formed eForms messages before testing the integration. To test for validity and well-formness during development please use:
 * our online [validator tool] (https://anskaffelser.dev/service/validator/)
