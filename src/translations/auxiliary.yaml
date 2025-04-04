@@ -649,7 +649,7 @@ auxiliary|text|cross-border-description:
   nob: Beskrivelse
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   nob_verify: false
