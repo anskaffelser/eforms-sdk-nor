@@ -1625,7 +1625,7 @@ group|name|ND-ExclusionGrounds:
   nob_verify: false
 group|name|ND-Lot:
   name: Lot
-  nob: Skjebne
+  nob: ''
   history:
   - name: Lot
     history: []
