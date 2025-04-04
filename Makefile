@@ -1,6 +1,9 @@
 EFORMS_MINOR ?= $$(./bin/property -p sdk_minor)
 EFORMS_PATCH ?= $$(./bin/property -p sdk_patch)
 EFORMS_VERSION = $(EFORMS_MINOR).$(EFORMS_PATCH)
+ISSUE_DATETIME = $$(date -v -12H +%Y-%m-%dT%H:%M:%S)
+ISSUEDATE = $$(echo $(ISSUE_DATETIME) | cut -d'T' -f1)+01:00
+ISSUETIME = $$(echo $(ISSUE_DATETIME) | cut -d'T' -f2)+01:00
 
 VERSION := $(shell echo $${PROJECT_VERSION:-dev-$$(date -u +%Y%m%d-%H%M%Sz)})
 
@@ -277,7 +280,7 @@ target/buildconfig.xml: \
 	target/sch/national-norway.xslt \
 	src/template/buildconfig.xml
 	@mkdir -p target
-	@cat src/template/buildconfig.xml | EFORMS_MINOR="$(EFORMS_MINOR)" envsubst > target/buildconfig.xml
+	@cat src/template/buildconfig.xml | EFORMS_MINOR="$(EFORMS_MINOR)" ISSUEDATE="$(ISSUEDATE)" ISSUETIME="$(ISSUETIME)" envsubst > target/buildconfig.xml
 
 
 target/sch/eu-eforms-static-can.sch: src/xslt/sch-splitter.xslt target/eforms-sdk-nor/schematrons/eu-eforms-static.sch
@@ -368,7 +371,14 @@ target/sch/national-norway.xslt: target/iso-schematron src/xslt/prepare-validato
 target/dev.anskaffelser.eforms.sdk-nor.asice: target/buildconfig.xml # $$(find src/tests -type f)
 	@echo "* Build and test for validator"
 	@rm -rf target/tests target/*.asice
-	@for f in $$(find src/tests -type f); do file=$$(echo $$f | cut -d'/' -f2-); mkdir -p target/$$(dirname $$file); cat $$f | EFORMS_MINOR="$(EFORMS_MINOR)" envsubst > target/$$file; done
+	@for f in $$(find src/tests -type f);\
+		do file=$$(echo $$f | cut -d'/' -f2-); mkdir -p target/$$(dirname $$file);\
+		cat $$f | \
+		 EFORMS_MINOR="$(EFORMS_MINOR)" \
+		 ISSUEDATE="$(ISSUEDATE)" \
+		 ISSUETIME="$(ISSUETIME)" \
+		 envsubst > target/$$file;\
+		done
 	@docker run --rm -i \
 		-v $$(pwd)/target:/src \
 		-u $$(id -u):$$(id -g) \
