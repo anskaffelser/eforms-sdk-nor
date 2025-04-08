@@ -714,7 +714,7 @@ field|name|BT-136-Procedure:
   nob_verify: false
 field|name|BT-137-Lot:
   name: Lot technical ID
-  nob: Skjebne
+  nob: Lot
   history:
   - name: Lot
     nob: Skjebne
@@ -728,7 +728,7 @@ field|name|BT-137-Lot:
   nob_verify: true
 field|name|BT-137-LotsGroup:
   name: Group of lots technical ID
-  nob: Skjebne
+  nob: Lot
   history:
   - name: Lot
     nob: Skjebne
