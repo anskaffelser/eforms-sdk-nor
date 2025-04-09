@@ -59516,7 +59516,7 @@ code|name|notice-type.cn-desg:
   nob_verify: false
 code|name|notice-type.cn-social:
   name: Contract notice – light regime
-  nob: Kontraktsoppsigelse – lett regime
+  nob: Kontraktsoppsigelse – enkelt regime
   history:
   - name: Contract notice – light regime
     history: []
