@@ -65370,10 +65370,6 @@ code|name|nuts.NO081:
   name: Oslo
   history: []
   nob_verify: false
-code|name|nuts.NO082:
-  name: Viken
-  history: []
-  nob_verify: false
 code|name|nuts.NO09:
   name: Agder og Sør-Østlandet
   history: []
@@ -84223,10 +84219,6 @@ code|name|nuts-lvl3.NO081:
   name: Oslo
   history: []
   nob_verify: false
-code|name|nuts-lvl3.NO082:
-  name: Viken
-  history: []
-  nob_verify: false
 code|name|nuts-lvl3.NO091:
   name: Vestfold og Telemark
   history: []
@@ -86397,10 +86389,6 @@ code|name|nuts-nor-lvl3.NO074:
   nob_verify: false
 code|name|nuts-nor-lvl3.NO081:
   name: Oslo
-  history: []
-  nob_verify: false
-code|name|nuts-nor-lvl3.NO082:
-  name: Viken
   history: []
   nob_verify: false
 code|name|nuts-nor-lvl3.NO091:

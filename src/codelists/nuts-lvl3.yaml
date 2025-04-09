@@ -4266,8 +4266,16 @@ NO081:
   name: Oslo
   history: []
   nob_verify: false
-NO082:
-  name: Viken
+NO083:
+  name: Østfold
+  history: []
+  nob_verify: false
+NO084:
+  name: Akershus
+  history: []
+  nob_verify: false
+NO085:
+  name: Buskerud
   history: []
   nob_verify: false
 NO091:
