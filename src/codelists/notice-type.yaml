@@ -76,7 +76,7 @@ cn-desg:
   nob_verify: false
 cn-social:
   name: Contract notice – light regime
-  nob: Kontraktsoppsigelse – lett regime
+  nob: Kontraktsoppsigelse – enkelt regime
   history:
   - name: Contract notice – light regime
     history: []

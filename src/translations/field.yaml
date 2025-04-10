@@ -168,14 +168,14 @@ field|name|BT-09(a)-Procedure:
   nob_verify: false
 field|name|BT-09(b)-Procedure:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
@@ -350,14 +350,14 @@ field|name|BT-120-Lot:
   nob_verify: false
 field|name|BT-122-Lot:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
@@ -714,7 +714,7 @@ field|name|BT-136-Procedure:
   nob_verify: false
 field|name|BT-137-Lot:
   name: Lot technical ID
-  nob: Skjebne
+  nob: Delkontrakt
   history:
   - name: Lot
     nob: Skjebne
@@ -728,7 +728,7 @@ field|name|BT-137-Lot:
   nob_verify: true
 field|name|BT-137-LotsGroup:
   name: Group of lots technical ID
-  nob: Skjebne
+  nob: Delkontrakt
   history:
   - name: Lot
     nob: Skjebne
@@ -4088,14 +4088,14 @@ field|name|BT-200-Contract:
   nob_verify: false
 field|name|BT-201-Contract:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
@@ -4270,56 +4270,56 @@ field|name|BT-23-Procedure:
   nob_verify: true
 field|name|BT-24-Lot:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
   nob_verify: false
 field|name|BT-24-LotsGroup:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
   nob_verify: false
 field|name|BT-24-Part:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
   nob_verify: false
 field|name|BT-24-Procedure:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
@@ -6062,28 +6062,28 @@ field|name|BT-54-Lot:
   nob_verify: true
 field|name|BT-540-Lot:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
   nob_verify: false
 field|name|BT-540-LotsGroup:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
@@ -6244,14 +6244,14 @@ field|name|BT-553-Tender:
   nob_verify: false
 field|name|BT-554-Tender:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
@@ -6286,14 +6286,14 @@ field|name|BT-556-NoticeResult:
   nob_verify: true
 field|name|BT-57-Lot:
   name: Other information about renewals
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
@@ -6636,28 +6636,28 @@ field|name|BT-661-Lot:
   nob_verify: false
 field|name|BT-67(a)-Procedure:
   name: Code
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
   nob_verify: true
 field|name|BT-67(b)-Procedure:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
@@ -7126,14 +7126,14 @@ field|name|BT-731-Tender:
   nob_verify: false
 field|name|BT-732-Lot:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
@@ -7364,14 +7364,14 @@ field|name|BT-744-Lot:
   nob_verify: false
 field|name|BT-745-Lot:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
@@ -7448,14 +7448,14 @@ field|name|BT-75-Lot:
   nob_verify: false
 field|name|BT-750-Lot:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
@@ -7644,14 +7644,14 @@ field|name|BT-761-Lot:
   nob_verify: false
 field|name|BT-762-notice:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
@@ -7882,14 +7882,14 @@ field|name|BT-776-Lot:
   nob_verify: false
 field|name|BT-777-Lot:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false
@@ -7994,14 +7994,14 @@ field|name|BT-94-Lot:
   nob_verify: false
 field|name|BT-95-Lot:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     history: []
     nob_verify: false
   - name: Description
-    nob: 'Beskrivelse: __________'
+    nob: 'Beskrivelse:'
     nno: ''
     history: []
     nob_verify: false

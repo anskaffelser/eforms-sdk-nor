@@ -14,12 +14,24 @@ NO074:
   name: Troms og Finnmark
   history: []
   nob_verify: false
+NO08:
+  name: Oslo og Viken
+  history: []
+  nob_verify: false
 NO081:
   name: Oslo
   history: []
   nob_verify: false
-NO082:
-  name: Viken
+NO083:
+  name: Østfold
+  history: []
+  nob_verify: false
+NO084:
+  name: Akershus
+  history: []
+  nob_verify: false
+NO085:
+  name: Buskerud
   history: []
   nob_verify: false
 NO091:

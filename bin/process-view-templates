@@ -3,6 +3,7 @@
 require 'bundler/setup'
 require 'slop'
 require 'yaml'
+require 'FileUtils'
 
 opts = Slop.parse do |o|
   o.string '-c', '--config-file', default: 'src/fields/national.yaml'
