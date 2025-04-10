@@ -9,9 +9,6 @@ on:
       - published
   workflow_dispatch:
 
-env:
-  RUBY_VERSION: '3.4.2'
-
 jobs:
   versions:
     name: Extract versions
@@ -57,7 +54,8 @@ jobs:
       EFORMS_MINOR: ${{ matrix.EFORMS_MINOR }}
       EFORMS_PATCH: ${{ matrix.EFORMS_PATCH }}
       PROJECT_VERSION: ${{needs.versions.outputs.version}}
-  
+      RUBY_VERSION: '3.4.2'
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
