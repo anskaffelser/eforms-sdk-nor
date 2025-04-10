@@ -9,6 +9,9 @@ on:
       - published
   workflow_dispatch:
 
+env:
+  RUBY_VERSION: '3.4.2'
+
 jobs:
   versions:
     name: Extract versions
@@ -30,7 +33,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'
+          ruby-version: ${{ env.RUBY_VERSION }}
 
       - name: Fetch Ruby dependencies
         run: make .bundle/vendor
@@ -62,7 +65,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'
+          ruby-version: ${{ env.RUBY_VERSION }}
 
       - name: Fetch Ruby dependencies
         run: make .bundle/vendor
