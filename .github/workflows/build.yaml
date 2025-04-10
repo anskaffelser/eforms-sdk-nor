@@ -86,21 +86,21 @@ jobs:
         run: make package
 
       - name: Upload bundle (artifact)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           path: target/*.tar.gz
           name: eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}
           retention-days: 3
 
       - name: Upload bundle (artifact)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           path: target/*.zip
           name: eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}
           retention-days: 3
 
       - name: Upload bundle (artifact)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           path: target/*.asice
           name: eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}
