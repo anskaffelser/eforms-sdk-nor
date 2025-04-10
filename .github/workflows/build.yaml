@@ -89,21 +89,21 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           path: target/*.tar.gz
-          name: eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}
+          name: eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}-tar.gz
           retention-days: 3
 
       - name: Upload bundle.zip (artifact)
         uses: actions/upload-artifact@v4
         with:
           path: target/*.zip
-          name: eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}
+          name: eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}-zip
           retention-days: 3
 
       - name: Upload bundle.asice (artifact)
         uses: actions/upload-artifact@v4
         with:
           path: target/*.asice
-          name: eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}
+          name: eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}-asice
           retention-days: 3
 
       - name: Upload publishing.tar.gz
