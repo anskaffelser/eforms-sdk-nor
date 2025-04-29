@@ -985,7 +985,7 @@ group|name|GR-Procedure-CrossBorderLaw:
   nob_verify: false
 group|name|GR-Procedure-Description:
   name: Description
-  nob: 'Beskrivelse: __________'
+  nob: 'Beskrivelse'
   history:
   - name: Description
     history: []
@@ -1625,7 +1625,7 @@ group|name|ND-ExclusionGrounds:
   nob_verify: false
 group|name|ND-Lot:
   name: Lot
-  nob: Skjebne
+  nob: Delkontrakt
   history:
   - name: Lot
     history: []

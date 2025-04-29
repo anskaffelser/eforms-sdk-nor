@@ -59516,7 +59516,7 @@ code|name|notice-type.cn-desg:
   nob_verify: false
 code|name|notice-type.cn-social:
   name: Contract notice – light regime
-  nob: Kontraktsoppsigelse – lett regime
+  nob: Kontraktsoppsigelse – enkelt regime
   history:
   - name: Contract notice – light regime
     history: []
@@ -65368,10 +65368,6 @@ code|name|nuts.NO08:
   nob_verify: false
 code|name|nuts.NO081:
   name: Oslo
-  history: []
-  nob_verify: false
-code|name|nuts.NO082:
-  name: Viken
   history: []
   nob_verify: false
 code|name|nuts.NO09:
@@ -84223,10 +84219,6 @@ code|name|nuts-lvl3.NO081:
   name: Oslo
   history: []
   nob_verify: false
-code|name|nuts-lvl3.NO082:
-  name: Viken
-  history: []
-  nob_verify: false
 code|name|nuts-lvl3.NO091:
   name: Vestfold og Telemark
   history: []
@@ -86397,10 +86389,6 @@ code|name|nuts-nor-lvl3.NO074:
   nob_verify: false
 code|name|nuts-nor-lvl3.NO081:
   name: Oslo
-  history: []
-  nob_verify: false
-code|name|nuts-nor-lvl3.NO082:
-  name: Viken
   history: []
   nob_verify: false
 code|name|nuts-nor-lvl3.NO091:
