@@ -14,9 +14,6 @@ jobs:
     name: Extract versions
     runs-on: ubuntu-latest
 
-    env:
-      RUBY_VERSION: '3.4.2'
-
     outputs:
       matrix: ${{ env.MATRIX }}
       version: ${{ env.PROJECT_VERSION }}
@@ -33,7 +30,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ env.RUBY_VERSION }}
+          ruby-version: '3.4.2'
 
       - name: Fetch Ruby dependencies
         run: make .bundle/vendor
@@ -65,7 +62,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ env.RUBY_VERSION }}
+          ruby-version: '3.4.2'
 
       - name: Fetch Ruby dependencies
         run: make .bundle/vendor
