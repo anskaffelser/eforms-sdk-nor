@@ -74,7 +74,7 @@ slc-abil-staff-tech-work:
   nob: Teknikere eller tekniske organer for å utføre arbeidet (Den økonomiske aktøren har teknikere eller tekniske organer for å utføre arbeidet, i tilfelle bygge- og anleggskontrakter)
 slc-abil-staff-yrly-avg-mp:
   name: Average yearly manpower
-  nob: Gjennomsnittlig årlig arbeidskraft (Den økonomiske aktørens gjennomsnittlige årlige arbeidskraft de siste tre årene.)
+  nob: Gjennomsnittlig årlig arbeidskraft (Den økonomiske aktørens gjennomsnittlige årlige arbeidskraft de siste tre årene)
 slc-abil-staff-yrly-no-mgmt:
   name: Number of managerial staff
   nob: Antall ledende ansatte (Antall ledende ansatte hos den økonomiske aktøren de siste tre årene)
@@ -113,16 +113,16 @@ slc-stand-to-gen:
   nob: Generell årlig omsetning (Den økonomiske aktørens generelle årlige omsetning for det nødvendige antall regnskapsår)
 slc-stand-to-spec:
   name: Specific yearly turnover
-  nob: Spesifikk årlig omsetning (En spesifikk årlig omsetning innenfor forretningsområdet som omfattes av den aktuelle anskaffelsen, kreves av den økonomiske aktøren for det nødvendige antall regnskapsår.)
+  nob: Spesifikk årlig omsetning (En spesifikk årlig omsetning innenfor forretningsområdet som omfattes av den aktuelle anskaffelsen, kreves av den økonomiske aktøren for det nødvendige antall regnskapsår)
 slc-stand-to-spec-avg:
   name: Specific average yearly turnover
-  nob: Spesifikk gjennomsnittlig årlig omsetning (En spesifikk gjennomsnittlig årlig omsetning innenfor forretningsområdet som omfattes av den aktuelle anskaffelsen, kreves av den økonomiske aktøren for det nødvendige antall regnskapsår.)
+  nob: Spesifikk gjennomsnittlig årlig omsetning (En spesifikk gjennomsnittlig årlig omsetning innenfor forretningsområdet som omfattes av den aktuelle anskaffelsen, kreves av den økonomiske aktøren for det nødvendige antall regnskapsår)
 slc-suit-auth-mbrshp:
   name: Authorisation or membership of a particular organisation needed for service contracts
-  nob: Autorisasjon eller medlemskap i en bestemt organisasjon som kreves for tjenestekontrakter (Den økonomiske aktøren har det nødvendige medlemskapet eller autorisasjonen i en bestemt organisasjon, for å kunne utføre tjenesten i landet der den er etablert.)
+  nob: Autorisasjon eller medlemskap i en bestemt organisasjon som kreves for tjenestekontrakter (Den økonomiske aktøren har det nødvendige medlemskapet eller autorisasjonen i en bestemt organisasjon, for å kunne utføre tjenesten i landet der den er etablert)
 slc-suit-reg-prof:
   name: Enrolment in a relevant professional register
-  nob: Registrering i et relevant profesjonelt register (Den økonomiske aktøren er registrert i de relevante profesjonelle registre som føres i medlemsstaten der den er etablert, som beskrevet i relevant lovgivning.)
+  nob: Registrering i et relevant profesjonelt register (Den økonomiske aktøren er registrert i de relevante profesjonelle registre som føres i medlemsstaten der den er etablert, som beskrevet i relevant lovgivning)
 slc-suit-reg-trade:
   name: Enrolment in a trade register
-  nob: Registrering i et foretaksregister (Den økonomiske aktøren er registrert i foretaksregistre som føres i medlemsstaten der den er etablert, som beskrevet i relevant lovgivning.)
+  nob: Registrering i et foretaksregister (Den økonomiske aktøren er registrert i foretaksregistre som føres i medlemsstaten der den er etablert, som beskrevet i relevant lovgivning)
