@@ -39362,7 +39362,7 @@
   nob_verify: false
 '63121100':
   name: Storage services
-  nob: Lagring av gass
+  nob: Lagringstjenester
   history:
   - name: Storage services
     nob: Lagring
@@ -39371,7 +39371,7 @@
   nob_verify: false
 '63121110':
   name: Gas storage services
-  nob: Lagringstjenester
+  nob: Lagring av gass
   history:
   - name: Gas storage services
     nob: Lagring av gass
