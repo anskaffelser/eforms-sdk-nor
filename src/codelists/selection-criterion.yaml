@@ -1,6 +1,6 @@
 ef-stand:
   name: Economic and financial standing
-  nob: Økonomisk og finansiell kapasitet
+  nob: Økonomisk og finansiell kapasitet (Utvelgelseskriterier basert på økonomisk risiko for den økonomiske aktøren.
   history:
   - name: Economic and financial standing
     history: []
@@ -16,7 +16,7 @@ other:
   nob_verify: false
 sui-act:
   name: Suitability to pursue the professional activity
-  nob: Egnethet
+  nob: Egnethet til å utøve yrkesaktiviteten (Utvelgelseskriterier basert på den økonomiske aktørens evne til å utøve yrkesaktiviteten)
   history:
   - name: Suitability to pursue the professional activity
     history: []
@@ -24,7 +24,7 @@ sui-act:
   nob_verify: false
 tp-abil:
   name: Technical and professional ability
-  nob: Tekniske og faglige egenskaper
+  nob: Tekniske og faglige egenskaper (Utvelgelseskriterier basert på den økonomiske aktørens tekniske og kvalifikasjonsmessige kapasitet)
   history:
   - name: Technical and professional ability
     history: []
@@ -32,65 +32,97 @@ tp-abil:
   nob_verify: false
 slc-abil-facil-res:
   name: Study, technical and research facilities
+  nob: Undersøkelses-, tekniske og forskningsfasiliteter (Den økonomiske aktøren kan bruke undersøkelses-, tekniske og forskningsfasiliteter)
 slc-abil-facil-tools:
   name: Tools, plant, or technical equipment
+  nob: Verktøy, anlegg eller teknisk utstyr (Den økonomiske aktøren kan bruke verktøy, anlegg eller teknisk utstyr)
 slc-abil-mgmt-env:
   name: Environmental management measures
+  nob: Miljøstyringstiltak (Den økonomiske aktøren kan anvende miljøstyringstiltak)
 slc-abil-mgmt-qual:
   name: Measures for ensuring quality
+  nob: Tiltak for å sikre kvalitet (Den økonomiske aktøren kan iverksette tiltak for å sikre kvalitet)
 slc-abil-mgmt-supply:
   name: Supply chain management
+  nob: Leverandørkjedeadministrasjon (Den økonomiske aktøren kan anvende leverandørkjedeadministrasjon og sporingssystemer)
 slc-abil-qual-inst:
   name: Certificates by quality control institutes
+  nob: Sertifikater fra kvalitetskontrollinstitutter (Den økonomiske aktøren kan fremlegge de nødvendige sertifikater utarbeidet av offisielle kvalitetskontrollinstitutter eller organer med anerkjent kompetanse som attesterer samsvar for produkter som er tydelig identifisert ved henvisninger til tekniske spesifikasjoner eller standarder)
 slc-abil-qual-smp-w-autent:
   name: Samples, descriptions, or photographs with certification of authenticity for supply contracts
+  nob: Prøver, beskrivelser eller fotografier med autentisitetssertifisering for leveringskontrakter (Den økonomiske aktøren kan levere de nødvendige prøver, beskrivelser eller fotografier av produktene som skal leveres og gi autentisitetssertifiseringer)
 slc-abil-qual-smp-wo-autent:
   name: Samples, descriptions, or photographs without certification of authenticity
+  nob: Prøver, beskrivelser eller fotografier uten autentisitetssertifisering (Den økonomiske aktøren kan levere de nødvendige prøver, beskrivelser eller fotografier av produktene som skal leveres, som ikke trenger å være ledsaget av autentisitetssertifiseringer)
 slc-abil-ref-services:
   name: References on specified services
+  nob: Referanser på angitte tjenester (Referanser for de angitte tjenestene, i løpet av den angitte perioden, utført av den økonomiske aktøren. Kjøpere kan kreve opptil tre års erfaring og tillate erfaring som dateres fra mer enn tre år)
 slc-abil-ref-supply:
   name: References on specified deliveries
+  nob: Referanser på angitte leveranser (Referanser for de angitte leveransene, i løpet av den angitte perioden, utført av den økonomiske aktøren. Kjøpere kan kreve opptil tre års erfaring og tillate erfaring som dateres fra mer enn tre år for leveringskontrakter)
 slc-abil-ref-work:
   name: References on specified works
+  nob: Referanser på angitte arbeider (Referanser for de angitte arbeidene, i løpet av den angitte perioden, utført av den økonomiske aktøren. Kjøpere kan kreve opptil fem års erfaring og tillate erfaring som dateres fra mer enn fem år for bygge- og anleggskontrakter)
 slc-abil-staff-qual:
   name: Relevant educational and professional qualifications
+  nob: Relevante utdannings- og yrkeskvalifikasjoner (Den økonomiske aktøren har de relevante utdannings- og yrkeskvalifikasjonene)
 slc-abil-staff-tech-ctrl:
   name: Technicians or technical bodies for quality control
+  nob: Teknikere eller tekniske organer for kvalitetskontroll (Den økonomiske aktøren har teknikere eller tekniske organer, spesielt de som er ansvarlige for kvalitetskontroll)
 slc-abil-staff-tech-work:
   name: Technicians or technical bodies to carry out the work
+  nob: Teknikere eller tekniske organer for å utføre arbeidet (Den økonomiske aktøren har teknikere eller tekniske organer for å utføre arbeidet, i tilfelle bygge- og anleggskontrakter)
 slc-abil-staff-yrly-avg-mp:
   name: Average yearly manpower
+  nob: Gjennomsnittlig årlig arbeidskraft (Den økonomiske aktørens gjennomsnittlige årlige arbeidskraft de siste tre årene)
 slc-abil-staff-yrly-no-mgmt:
   name: Number of managerial staff
+  nob: Antall ledende ansatte (Antall ledende ansatte hos den økonomiske aktøren de siste tre årene)
 slc-abil-subc:
   name: Subcontracting proportion
+  nob: Underentreprenørandel (Den økonomiske aktøren har til hensikt eventuelt å sette bort en andel av kontrakten til underleverandører)
 slc-sche-env-cert-indep:
   name: Certificates by independent bodies about environmental management systems or standards
+  nob: Sertifikater fra uavhengige organer om miljøstyringssystemer eller standarder (Den økonomiske aktøren kan fremlegge sertifikater utarbeidet av uavhengige organer som attesterer at den økonomiske aktøren overholder de nødvendige miljøstyringssystemene eller standardene)
 slc-sche-qu-cert-indep:
   name: Certificates by independent bodies about quality assurance standards
+  nob: Sertifikater fra uavhengige organer om kvalitetsstandarder (Den økonomiske aktøren kan fremlegge sertifikater utarbeidet av uavhengige organer som attesterer at den økonomiske aktøren overholder de nødvendige kvalitetsstandardene, inkludert tilgjengelighet for funksjonshemmede personer)
 slc-sec-inf:
   name: Security of information
+  nob: Sikkerhet for informasjon (Den økonomiske aktøren forplikter seg til å ivareta konfidensialiteten til all klassifisert informasjon som er i entreprenørens besittelse eller som kommer til deres kunnskap i løpet av kontraktens varighet og etter opphør eller avslutning av kontrakten, i samsvar med relevante lover, forskrifter og administrative bestemmelser)
 slc-sec-proc:
   name: Security to process, store and transmit classified information
+  nob: Sikkerhet for å behandle, lagre og overføre klassifisert informasjon (Den økonomiske aktøren kan, i tilfelle kontrakter som involverer, medfører og/eller inneholder klassifisert informasjon, fremlegge bevis på evnen til å behandle, lagre og overføre slik informasjon på det beskyttelsesnivået som kreves av oppdragsgiveren)
 slc-sec-supply:
   name: Security of supply
+  nob: Sikkerhet for forsyninger (Den økonomiske aktøren kan fremlegge sertifisering som viser evnen til å oppfylle forpliktelser vedrørende eksport)
 slc-stand-ins:
   name: Professional risk indemnity insurance
+  nob: Profesjonell ansvarsforsikring (En profesjonell ansvarsforsikring er påkrevd for gjennomføringen av denne kontrakten)
 slc-stand-other:
   name: Other economic or financial requirements
+  nob: Andre økonomiske eller finansielle krav (Andre økonomiske eller finansielle krav til den økonomiske aktøren)
 slc-stand-ratio:
   name: Financial ratio
+  nob: Finansiell ratio (De faktiske verdiene for de nødvendige finansielle ratioene til den økonomiske aktøren)
 slc-stand-to-avg:
   name: Average yearly turnover
+  nob: Gjennomsnittlig årlig omsetning (Den økonomiske aktørens gjennomsnittlige årlige omsetning for det nødvendige antall regnskapsår)
 slc-stand-to-gen:
   name: General yearly turnover
+  nob: Generell årlig omsetning (Den økonomiske aktørens generelle årlige omsetning for det nødvendige antall regnskapsår)
 slc-stand-to-spec:
   name: Specific yearly turnover
+  nob: Spesifikk årlig omsetning (En spesifikk årlig omsetning innenfor forretningsområdet som omfattes av den aktuelle anskaffelsen, kreves av den økonomiske aktøren for det nødvendige antall regnskapsår)
 slc-stand-to-spec-avg:
   name: Specific average yearly turnover
+  nob: Spesifikk gjennomsnittlig årlig omsetning (En spesifikk gjennomsnittlig årlig omsetning innenfor forretningsområdet som omfattes av den aktuelle anskaffelsen, kreves av den økonomiske aktøren for det nødvendige antall regnskapsår)
 slc-suit-auth-mbrshp:
   name: Authorisation or membership of a particular organisation needed for service contracts
+  nob: Autorisasjon eller medlemskap i en bestemt organisasjon som kreves for tjenestekontrakter (Den økonomiske aktøren har det nødvendige medlemskapet eller autorisasjonen i en bestemt organisasjon, for å kunne utføre tjenesten i landet der den er etablert)
 slc-suit-reg-prof:
   name: Enrolment in a relevant professional register
+  nob: Registrering i et relevant profesjonelt register (Den økonomiske aktøren er registrert i de relevante profesjonelle registre som føres i medlemsstaten der den er etablert, som beskrevet i relevant lovgivning)
 slc-suit-reg-trade:
   name: Enrolment in a trade register
+  nob: Registrering i et foretaksregister (Den økonomiske aktøren er registrert i foretaksregistre som føres i medlemsstaten der den er etablert, som beskrevet i relevant lovgivning)
