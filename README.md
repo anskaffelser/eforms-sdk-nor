@@ -20,7 +20,7 @@ Each endpoint provides two APIs:
 Once you have created a subscription for the Notices API please contact [ingunn.ostrem@dfo.no](mailto:ingunn.ostrem@dfo.no) to get the subscription activated.
 
 For now we are not returning any validation results. Please make sure that you are using valid and well-formed eForms messages before testing the integration. To test for validity and well-formness during development please use:
-* our online [validator tool] (https://anskaffelser.dev/service/validator/)
+
   For development and production environments we strongly recommend:
 * the validation function in the Notices API
 * or a local validator service, i.e. [based on our code](https://github.com/anskaffelser/vefa-validator).  
