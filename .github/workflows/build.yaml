@@ -106,6 +106,28 @@ jobs:
           name: eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}-asice
           retention-days: 3
 
+      - name: Delete existing release assets and tag
+        if: startsWith(github.ref, 'refs/tags/')
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="${GITHUB_REF#refs/tags/}"
+          echo "Checking release $TAG for assets to delete..."
+
+          ASSETS=$(gh release view "$TAG" --json assets --jq '.assets[].name' || true)
+
+          if [ -n "$ASSETS" ]; then
+            echo "Deleting assets from release $TAG:"
+            for asset in $ASSETS; do
+              echo "  • $asset"
+              gh release delete-asset "$TAG" "$asset" -y || true
+            done
+          else
+            echo "No assets found on release $TAG"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Upload publishing.tar.gz
         uses: k15g/action-github-asset-upload@v1
         if: startsWith(github.ref, 'refs/tags/')
@@ -131,4 +153,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           file: target/dev.anskaffelser.eforms.sdk-${{ matrix.EFORMS_MINOR }}-nor-${{ env.PROJECT_VERSION }}.asice
           name: dev.anskaffelser.eforms.sdk-${{ matrix.EFORMS_MINOR }}-nor-${{ env.PROJECT_VERSION }}.asice
-          label: Validaton for eForms SDK NOR ${{ env.PROJECT_VERSION }} for ${{ matrix.EFORMS_MINOR }}
+          label: Validation for eForms SDK NOR ${{ env.PROJECT_VERSION }} for ${{ matrix.EFORMS_MINOR }}
