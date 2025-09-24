@@ -1,0 +1,175 @@
+noticeTypes: [E2]
+
+fields:
+  OPT-002-notice:
+    pattern:
+      value: ^eforms-sdk-\d\.\d#extended#urn:fdc:anskaffelser.no:2023:eforms:national$
+
+rules:
+  # /*/cbc:CustomizationID
+  OPT-002-notice:
+    - id: EFORMS-NOR-R001
+      test: matches(normalize-space(),'^eforms-sdk-\d\.(\d{1,2})#extended#urn:fdc:anskaffelser.no:2023:eforms:national$')
+      message: Customization identifier must match the Norwegian accepted identifier
+
+  # /*/cbc:NoticeLanguageCode
+  BT-702(a)-notice:
+    - id: EFORMS-NOR-R002
+      test: normalize-space() = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE', 'NOR', 'NOB', 'NNO')
+      message: Main language must be Norwegian or one of the official languages.
+
+  # /*/cac:AdditionalNoticeLanguage/cbc:ID
+  BT-702(b)-notice:
+    - id: EFORMS-NOR-R003
+      test: normalize-space() = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE', 'NOR', 'NOB', 'NNO')
+      message: Additional language must be Norwegian or one of the official languages.
+
+  # /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode
+  OPP-070-notice:
+    - id: EFORMS-NOR-R010
+      test: normalize-space() = ('N4', 'N16', 'N29')
+      message: Notice type must be N4, N16 or N29.
+
+  # /*
+  ND-Root:
+    - id: EFORMS-NOR-R004
+      test: normalize-space(cbc:NoticeLanguageCode) = ('NOR', 'NOB', 'NNO') or (some $l in cac:AdditionalNoticeLanguage/cbc:ID satisfies normalize-space($l) = ('NOR', 'NOB', 'NNO')) # then true() else false())
+      message: At least one of the official lingustic versions must be in Norwegian.
+
+    - id: EFORMS-NOR-R007
+      test: not(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages)
+      message: Non-official languages are not used for national notices.
+
+  # /*/cbc:IssueDate
+  BT-05(a)-notice:
+    # Copied from stage 6b
+    - id: EFORMS-NOR-R801
+      test: ((current-date() - xs:date(text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(text())) ge xs:dayTimeDuration('-P1D'))
+      message: Notice Dispatch Date must be between 0 and 24 hours before the current date.
+
+  BT-131(d)-Lot:
+    - id: EFORMS-NOR-R200
+      test: normalize-space() = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndDate[1]/normalize-space()
+      message: All lots must have same deadline
+    
+  BT-131(t)-Lot:
+    - id: EFORMS-NOR-R201
+      test: normalize-space() = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndTime[1]/normalize-space()
+      message: All lots must have same deadline
+
+included:
+  mandatory:
+
+  optional:
+
+removed:
+  # Notice types
+  - BR-OPP-00070-0052
+
+  # Exclusion grounds
+  - ND-ExclusionGrounds
+  - ND-ProcedureTerms
+  - BG-701
+  - BT-67(a)-Procedure
+  - BT-67(b)-Procedure
+  - GR-Procedure-ExclusionGrounds
+
+  # EU Funds
+  - BG-61
+  - BT-1374
+  - BT-60-Lot
+  - BG-614
+  - BT-7220-Lot
+  - BT-5010-Lot
+  - BT-6140-Lot
+  - GR-Lot-EUFunds
+  - GR-Lot-EUFunds-Indicator
+
+  # Other Requirements
+  - BG-705
+  - BT-1379
+  # - BT-71-Lot
+  # - BT-71-Part
+  # - BT-79-Lot
+  - BT-578-Lot
+  - BT-78-Lot
+  - BT-732-Lot
+  - BT-801-Lot
+  - BT-802-Lot
+  - GR-Part-TendererQualification
+  - GR-ReservedParticipation
+  - GR-Lot-Requirements2SecurityClearance1
+  - GR-Lot-SecurityClearance2
+  - GR-Nda
+
+  # CVD
+  - GR-Lot-TenderingTerms-CVD-type
+  - GR-Lot-TenderingTerms-CVD
+
+  # Group Framework Maximum Value
+  - BG-556
+  - BT-556-NoticeResult
+  - BT-156-NoticeResult
+
+  # Group Framework Re-estimated Value
+  - BG-5561
+  - BT-5561-NoticeResult # Not found in fields
+  - BT-1561-NoticeResult
+
+  # Contract EU Funds
+  - BG-611
+  - BT-722-Contract
+  - BT-5011-Contract
+  - BT-6110-Contract
+  - GR-SettledContract-2
+
+  # Strategic Procurement
+  - BG-713
+  - BT-13721 # Not found
+  - BT-06-Lot
+  - BT-777-Lot
+  - BT-805-Lot
+  - BT-774-Lot
+  - BT-775-Lot
+  - BT-776-Lot
+  - BT-754-Lot
+  - BT-755-Lot
+  - BT-717-Lot
+  - BG-714
+  - BT-735-Lot
+  - BT-735-LotResult
+  - BG-7141
+  - BT-723-LotResult
+  - BT-715 # Not found
+  - BT-725 # Not found
+  - BT-716 # Not found
+  - BG-612
+  - BT-13722 # Not found
+  - BT-712(a)-LotResult
+  - BT-712(b)-LotResult
+  - BG-613 # Not found
+  - BT-635-LotResult
+  - BT-636-LotResult
+  - GR-Lot-Environmental-Impact
+  - GR-Lot-Social-Objective
+  - GR-Lot-Innovation-Procurement
+  - GR-Lot-ProcurementType-Strategic
+  - GR-Lot-ProcurementType-Accessibility
+  - GR-Lot-ProcurementType
+  - OPT-155-LotResult
+  - BR-BT-00137-0200 # 1.6
+
+  # Additional Information
+  - BT-13715
+  - BT-726-Lot
+  - BT-726-LotsGroup
+  # - BT-726-Part
+  - BT-115-Lot
+  # - BT-115-Part
+  # - BT-634-Lot
+  - BT-634-Procedure
+  - BT-756-Procedure
+  - GR-Part-GpaAgreement
+  - GR-Lot-GpaAgreement
+  - GR-Lot-Procedure
+  - GR-Procedure-PinTerminated
