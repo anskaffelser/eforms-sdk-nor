@@ -72,7 +72,7 @@ included:
                 /*/cbc:ID[@schemeName='notice-id']
               )
             ),
-            '^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$'
+            "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
           )
         message: Notice Identifier must be a valid UUID4.
 
@@ -86,11 +86,25 @@ included:
             normalize-space(
               /*/cbc:VersionID
             ),
-            '^[0-9]{2}$'
+            "^[0-9]{2}$"
           )
         message: >
           Notice Version must be a left-zero-padded
           two digit integer.
+
+    BT-03-notice:
+      - id: form-type
+        note: >
+          See logical group 'notice-form-type' for related elements.
+        logical-group: 'notice-form-type'
+        test: >
+          matches(
+            /*/cbc:NoticeType/@listName
+            ),
+            {{ bt-03-notice-form-type-codes }}
+          )
+        message: >
+          Form type must be chosen as a valid code from the codelist.
 
   optional:
 
@@ -103,7 +117,6 @@ included:
       members:
         - BT-701-notice
         - BT-757-notice
-      
 
 removed:
   # Notice types

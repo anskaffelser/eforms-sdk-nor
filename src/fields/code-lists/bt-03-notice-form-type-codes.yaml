@@ -10,7 +10,7 @@
 
 version: 1.0.0
 
-bt-03-form-type-codes:
+bt-03-notice-form-type-codes:
   - code: bri
     label: Business registration information
     definition: >
