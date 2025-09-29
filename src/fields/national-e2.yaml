@@ -62,6 +62,8 @@ included:
     # Notice related (BG-1 Notice)
     BT-701-notice:
       - id: notice-identifier
+        note: >
+          See logical-group 'notice-versioning' for related elements.
         test: >
           matches(
             lower-case(
@@ -75,6 +77,8 @@ included:
 
     BT-757-notice:
       - id: notice-version
+        note: >
+          See logical-group 'notice-versioning' for related elements.
         test: >
           matches(
             normalize-space(
@@ -87,6 +91,17 @@ included:
           two digit integer.
 
   optional:
+  
+  logical-group:
+    - id: notice-versioning
+      type: composite-identifier
+      description: >
+        These BTs together define a unique, composite, notice identifier
+        with versioning.
+      members:
+        - BT-701-notice
+        - BT-757-notice
+      
 
 removed:
   # Notice types
