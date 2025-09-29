@@ -59,6 +59,18 @@ rules:
 
 included:
   mandatory:
+    # Notice related (BG-1 Notice)
+    BT-701-notice:
+      - id: notice-identifier
+        test: >
+          matches(
+            lower-case(
+              normalize-space(
+                /*/cbc:ID[@schemeName='notice-id']
+              )
+           ), '^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$'
+          )
+        message: Notice Identifier must be a valid UUID4.
 
   optional:
 
