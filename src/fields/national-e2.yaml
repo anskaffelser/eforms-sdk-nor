@@ -64,6 +64,7 @@ included:
       - id: notice-identifier
         note: >
           See logical-group 'notice-versioning' for related elements.
+        logical-group: notice-versioning
         test: >
           matches(
             lower-case(
@@ -79,6 +80,7 @@ included:
       - id: notice-version
         note: >
           See logical-group 'notice-versioning' for related elements.
+        logical-group: notice-versioning
         test: >
           matches(
             normalize-space(
@@ -91,7 +93,7 @@ included:
           two digit integer.
 
   optional:
-  
+
   logical-group:
     - id: notice-versioning
       type: composite-identifier
