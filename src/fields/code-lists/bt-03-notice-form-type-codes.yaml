@@ -1,0 +1,82 @@
+# SPDX-License-Identifier: CC-BY-4.0
+# Source: EU Vocabularies - FORM-TYPE concept schema
+# URI: https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/form-type
+# Retrieved: 2025-09-29
+# Notes:
+# - Only active codes are used for validation
+# - Deprecated codes are retained for reference and historical context.
+
+---
+
+version: 1.0.0
+
+bt-03-form-type-codes:
+  - code: bri
+    label: Business registration information
+    definition: >
+      Information of the creation, transfer or deletion of a registration for
+      the formation or liquidation of a business or an economic group.
+    status: active
+    since: 2021-09-29
+
+  - code: change
+    label: Change
+    definition: >
+      Replacement of a previous notice with different information.
+    status: deprecated
+    since: 2019-09-18
+    deprecated: 2023-06-13
+
+  - code: competition
+    label: Competition
+    definition: >
+      The contracting authority or contracting entity may limit the number of
+      candidates or tenderers to an appropriate level, on condition that this is
+      done in a transparent manner and on the basis of objective criteria. The
+      number of candidates or tenderers invited shall be sufficient to ensure
+      genuine competition.
+    status: active
+    since: 2019-09-18
+
+  - code: completion
+    label: Completion
+    definition: >
+      Announcement type that officially marks the end of contract.
+    status: active
+    since: 2024-09-25
+
+  - code: consultation
+    label: Consultation
+    definition: >
+      Announcement type that precedes a procurement process. It is not a call
+      for competition.
+    status: active
+    since: 2024-09-25
+
+  - code: cont-modif
+    label: Contract modification
+    definition: >
+      Any change done in the contract.
+    status: active
+    since: 2019-09-18
+
+  - code: dir-awa-pre
+    label: Direct award preannouncement
+    definition: >
+      Prior notification of a direct award.
+    status: active
+    since: 2019-09-18
+
+  - code: planning
+    label: Planning
+    definition: >
+      Procurement preparation and set-up.
+    status: active
+    since: 2019-09-18
+
+  - code: result
+    label: Result
+    definition: >
+      Outcome of the call for tender.
+    status: active
+    since: 2019-09-18
