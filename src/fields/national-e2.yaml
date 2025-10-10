@@ -106,6 +106,22 @@ included:
         message: >
           Form type must be chosen as a valid code from the codelist.
 
+    BT-02-notice:
+      - id: notice-type
+        note: >
+          See logical group 'notice-form-type' for related elements.
+          Note that the '@listName' attribute of the XML element is
+          mapped in BT-03-notice.
+        logical-group: 'notice-form-type'
+        test: >
+          matches(
+            /*/cbc:NoticeType
+            ),
+            {{ bt-02-notice-notice-type-codes }}
+          )
+        message: >
+          Notice type must be chosen as a valid code from the codelist.
+
   optional:
 
   logical-group:
@@ -117,6 +133,15 @@ included:
       members:
         - BT-701-notice
         - BT-757-notice
+    - id: notice-form-type
+      type: composite-identifier
+      description: >
+        These BTs together define the form and notice type, in accordance
+        with the procurement legislation.
+      members:
+        - BT-02-notice
+        - BT-03-notice
+
 
 removed:
   # Notice types

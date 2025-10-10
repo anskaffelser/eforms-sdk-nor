@@ -1,0 +1,216 @@
+# SPDX-License-Identifier: CC-BY-4.0
+# Source: EU Vocabularies - FORM-TYPE concept schema
+# URI: https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/form-type
+# Retrieved: 2025-10-10
+# Notes:
+# - Only active codes are used for validation
+# - Deprecated codes are retained for reference and historical context.
+
+---
+
+version: 1.0.0
+
+bt-02-notice-notice-type-codes:
+  - code: brin-ecs
+    label: European Company / European Cooperative Society notice
+    definition: >
+      Business registration notice for European Company / European Cooperative
+      Society.
+    status: active
+    since: 2021-09-29
+
+  - code: brin-eeig
+    label: European Economic Interest Grouping Notice
+    definition: >
+      Business registration notice for European Economic Interest Grouping.
+    status: active
+    since: 2021-09-29
+
+  - code: can-desg
+    label: Design contest result notice
+    definition: >
+      Announcement of the results of a call for competition concerning the
+      acquisition, mainly in the fields of a town or country planning,
+      architecture and engineering or data processing, of a plan or design
+      selected by a jury.
+    status: active
+    since: 2019-09-18
+
+  - code: can-modif
+    label: Contract modification notice
+    definition: >
+      Announcement of modifications to a contract or its term. Contracts and
+      framework agreements may be modified without a new procurement procedure
+      in accordance with the relevant Directive.
+    status: active
+    since: 2019-09-18
+
+  - code: can-social
+    label: Contract or concession award notice - light regime
+    definition: >
+      Announcement of the results of a call for competition concerning
+      contracts or concessions for social and other specific services.
+    status: active
+    since: 2019-09-18
+
+  - code: can-standard
+    label: Contract or concession award notice - standard regime
+    definition: >
+      Announcement of the results of a call for competition concerning
+      contracts or concessions.
+    status: active
+    since: 2019-09-18
+
+  - code: can-tran
+    label: Contract award notice for public passenger transport services
+    definition: >
+      Announcement that a public service contract for public passenger transport
+      services has been directly awarded.
+    status: active
+    since: 2021-09-29
+
+  - code: cn-desg
+    label: Design contest notice
+    definition: >
+      Announcement of a call for competition concerning the acquisition, mainly
+      in the fields of town and country planning, architecture and engineering
+      or data processing, of a plan or design selected by a jury.
+    status: active
+    since: 2019-09-18
+
+  - code: cn-social
+    label: Contract notice - light regime
+    definition: >
+      Announcement of a call for competition concerning contracts for social and
+      other specific services.
+    status: active
+    since: 2019-09-18
+
+  - code: cn-standard
+    label: Contract or concession notice - standard regime
+    definition: >
+      Announcement of a call for competition concerning contracts or
+      concessions. Contract notices shall be used as a means of calling for
+      competition in respect of all procedures, without prejudice to the
+      relevant articles of the Directive.
+    status: active
+    since: 2019-09-18
+
+  - code: compl
+    label: Contract completion notice
+    definition: >
+      Announcement of the completion of a contract.
+    status: active
+    since: 2023-06-14
+
+  - code: corr
+    label: Corrigendum
+    definition: >
+      Information about changes to the notice.
+    status: deprecated
+    since: 2019-09-18
+    deprecated: 2023-06-13
+
+  - code: pin-buyer
+    label: >
+      Notice of the publication of a prior information notice or a periodic
+      information notice on a buyer profile
+    definition: >
+      Announcement of intentions of planned procurements.
+    status: active
+    since: 2019-09-18
+
+  - code: pin-cfc-social
+    label: >
+      Prior information notice or a periodic indicative notice used as a call
+      for competition – light regime
+    definition: >
+      Announcement of intentions of planned procurements used as a call for
+      competition concerning contracts for social and other specific services.
+    status: active
+    since: 2019-09-18
+
+  - code: pin-cfc-standard
+    label: >
+      Prior information notice or a periodic indicative notice used as a call
+      for competition – standard regime
+    definition: >
+      Announcement of intentions of planned procurements used as a call for
+      competition. For restricted procedures and competitive procedures with
+      negotiation, sub-central contracting authorities may use a prior
+      information notice as a call for competition pursuant to the relevant
+      article of the Directive.
+    status: active
+    since: 2019-09-18
+
+  - code: pin-only
+    label: >
+      Prior information notice or a periodic indicative notice used only for
+      information
+    definition: >
+      Announcement of intentions of planned procurements for information
+      purposes.
+    status: active
+    since: 2019-09-18
+
+  - code: pin-rtl
+    label: >
+      Prior information notice or a periodic indicative notice used to shorten
+      time limits for receipt of tenders
+    definition: >
+      Announcement of intentions of planned procurements in view of shortening
+      time limits for reception of tenders. Where contracting authorities have
+      published a prior information notice which was not itself used as a means
+      of calling for competition, the minimum time limit for the receipt of
+      tenders may be shortened.
+    status: active
+    since: 2019-09-18
+
+  - code: pin-tran
+    label: Prior information notice for public passenger transport services
+    definition: >
+      Announcement of the intention to award a public service contract for
+      public passenger transport services.
+    status: active
+    since: 2021-09-29
+
+  - code: pmc
+    label: Pre-market consultation notice
+    definition: >
+      Announcement of a pre-market consultation. A pre-market consultation is
+      not a call for competition and no procurement documents are available at
+      the time of consultation. A consultation may or may not be followed by a
+      future competition.
+    status: active
+    since: 2023-06-14
+
+  - code: qu-sy
+    label: Notice on the existence of a qualification system
+    definition: >
+      Announcement of a system of qualification of economic operators on the
+      basis of exclusion and selection criteria. The announcement can be used as
+      a call for competition. When a call for competition is made by means of a
+      notice on the existence of a qualification system, specific contracts for
+      the works, supplies or services covered by the qualification system shall
+      be awarded by restricted procedures or negotiated procedures, in which all
+      tenderers and participants are selected among the candidates already
+      qualified in accordance with such a system.
+    status: active
+    since: 2019-09-18
+
+  - code: subco
+    label: Subcontracting notice
+    definition: >
+      Announcement of a call for competition by successful tenderers which are
+      not contracting authorities/entities concerning contracts for social and
+      other specific services.
+    status: active
+    since: 2019-09-18
+
+  - code: veat
+    label: Voluntary ex-ante transparency notice
+    description: >
+      Announcement of the intention to award of a contract without prior
+      publication of a contract notice.
+    status: active
+    since: 2019-09-18
