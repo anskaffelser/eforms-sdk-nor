@@ -1,5 +1,9 @@
 noticeTypes: [E2]
 
+include:
+  - logical-groups/notice-versioning.yaml
+  - logical-groups/notice-form-type.yaml
+
 fields:
   OPT-002-notice:
     pattern:
@@ -124,23 +128,6 @@ included:
 
   optional:
 
-  logical-group:
-    - id: notice-versioning
-      type: composite-identifier
-      description: >
-        These BTs together define a unique, composite, notice identifier
-        with versioning.
-      members:
-        - BT-701-notice
-        - BT-757-notice
-    - id: notice-form-type
-      type: composite-identifier
-      description: >
-        These BTs together define the form and notice type, in accordance
-        with the procurement legislation.
-      members:
-        - BT-02-notice
-        - BT-03-notice
 
 
 removed:

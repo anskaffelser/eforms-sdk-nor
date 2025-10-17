@@ -1,0 +1,11 @@
+---
+logical-group:
+  id: notice-versioning
+  type: composite-identifier
+  description: >
+    These BTs together define a unique, composite, notice identifier
+    with versioning.
+  members:
+    - BT-701-notice
+    - BT-757-notice
+
