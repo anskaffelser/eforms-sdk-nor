@@ -5,10 +5,11 @@
 # Notes:
 # - Only active codes are used for validation
 # - Deprecated codes are retained for reference and historical context.
+# - `applies-to` shows the context in which each notice type code applies.
 
 ---
 
-version: 1.0.0
+version: 1.1.0
 
 bt-02-notice-notice-type-codes:
   - code: brin-ecs
@@ -18,6 +19,9 @@ bt-02-notice-notice-type-codes:
       Society.
     status: active
     since: 2021-09-29
+    applies-to:
+      document-type:
+        - PriorInformationNotice
 
   - code: brin-eeig
     label: European Economic Interest Grouping Notice
@@ -25,6 +29,9 @@ bt-02-notice-notice-type-codes:
       Business registration notice for European Economic Interest Grouping.
     status: active
     since: 2021-09-29
+    applies-to:
+      document-type:
+        - PriorInformationNotice
 
   - code: can-desg
     label: Design contest result notice
@@ -35,6 +42,9 @@ bt-02-notice-notice-type-codes:
       selected by a jury.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - ContractAwardNotice
 
   - code: can-modif
     label: Contract modification notice
@@ -44,6 +54,9 @@ bt-02-notice-notice-type-codes:
       in accordance with the relevant Directive.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - ContractAwardNotice
 
   - code: can-social
     label: Contract or concession award notice - light regime
@@ -52,6 +65,9 @@ bt-02-notice-notice-type-codes:
       contracts or concessions for social and other specific services.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - ContractAwardNotice
 
   - code: can-standard
     label: Contract or concession award notice - standard regime
@@ -60,6 +76,9 @@ bt-02-notice-notice-type-codes:
       contracts or concessions.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - ContractAwardNotice
 
   - code: can-tran
     label: Contract award notice for public passenger transport services
@@ -68,6 +87,9 @@ bt-02-notice-notice-type-codes:
       services has been directly awarded.
     status: active
     since: 2021-09-29
+    applies-to:
+      document-type:
+        - ContractAwardNotice
 
   - code: cn-desg
     label: Design contest notice
@@ -77,6 +99,9 @@ bt-02-notice-notice-type-codes:
       or data processing, of a plan or design selected by a jury.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - ContractNotice
 
   - code: cn-social
     label: Contract notice - light regime
@@ -85,6 +110,9 @@ bt-02-notice-notice-type-codes:
       other specific services.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - ContractNotice
 
   - code: cn-standard
     label: Contract or concession notice - standard regime
@@ -95,6 +123,9 @@ bt-02-notice-notice-type-codes:
       relevant articles of the Directive.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - ContractNotice
 
   - code: compl
     label: Contract completion notice
@@ -102,6 +133,9 @@ bt-02-notice-notice-type-codes:
       Announcement of the completion of a contract.
     status: active
     since: 2023-06-14
+    applies-to:
+      document-type:
+        - ContractAwardNotice
 
   - code: corr
     label: Corrigendum
@@ -110,6 +144,11 @@ bt-02-notice-notice-type-codes:
     status: deprecated
     since: 2019-09-18
     deprecated: 2023-06-13
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
 
   - code: pin-buyer
     label: >
@@ -119,6 +158,9 @@ bt-02-notice-notice-type-codes:
       Announcement of intentions of planned procurements.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - PriorInformationNotice
 
   - code: pin-cfc-social
     label: >
@@ -129,6 +171,10 @@ bt-02-notice-notice-type-codes:
       competition concerning contracts for social and other specific services.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
 
   - code: pin-cfc-standard
     label: >
@@ -142,6 +188,10 @@ bt-02-notice-notice-type-codes:
       article of the Directive.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
 
   - code: pin-only
     label: >
@@ -152,6 +202,9 @@ bt-02-notice-notice-type-codes:
       purposes.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - PriorInformationNotice
 
   - code: pin-rtl
     label: >
@@ -165,6 +218,9 @@ bt-02-notice-notice-type-codes:
       tenders may be shortened.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - PriorInformationNotice
 
   - code: pin-tran
     label: Prior information notice for public passenger transport services
@@ -173,6 +229,9 @@ bt-02-notice-notice-type-codes:
       public passenger transport services.
     status: active
     since: 2021-09-29
+    applies-to:
+      document-type:
+        - PriorInformationNotice
 
   - code: pmc
     label: Pre-market consultation notice
@@ -183,6 +242,9 @@ bt-02-notice-notice-type-codes:
       future competition.
     status: active
     since: 2023-06-14
+    applies-to:
+      document-type:
+        - PriorInformationNotice
 
   - code: qu-sy
     label: Notice on the existence of a qualification system
@@ -197,6 +259,9 @@ bt-02-notice-notice-type-codes:
       qualified in accordance with such a system.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - ContractNotice
 
   - code: subco
     label: Subcontracting notice
@@ -206,6 +271,9 @@ bt-02-notice-notice-type-codes:
       other specific services.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - ContractNotice
 
   - code: veat
     label: Voluntary ex-ante transparency notice
@@ -214,3 +282,6 @@ bt-02-notice-notice-type-codes:
       publication of a contract notice.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - ContractAwardNotice

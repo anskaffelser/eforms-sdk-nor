@@ -5,10 +5,11 @@
 # Notes:
 # - Only active codes are used for validation
 # - Deprecated codes are retained for reference and historical context.
+# - `applies-to` shows the context in which each form type code applies.
 
 ---
 
-version: 1.0.0
+version: 1.1.0
 
 bt-03-notice-form-type-codes:
   - code: bri
@@ -18,6 +19,9 @@ bt-03-notice-form-type-codes:
       the formation or liquidation of a business or an economic group.
     status: active
     since: 2021-09-29
+    applies-to:
+      document-type:
+        - PriorInformationNotice
 
   - code: change
     label: Change
@@ -26,6 +30,11 @@ bt-03-notice-form-type-codes:
     status: deprecated
     since: 2019-09-18
     deprecated: 2023-06-13
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
 
   - code: competition
     label: Competition
@@ -37,6 +46,10 @@ bt-03-notice-form-type-codes:
       genuine competition.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
 
   - code: completion
     label: Completion
@@ -44,6 +57,9 @@ bt-03-notice-form-type-codes:
       Announcement type that officially marks the end of contract.
     status: active
     since: 2024-09-25
+    applies-to:
+      document-type:
+        - ContractAwardNotice
 
   - code: consultation
     label: Consultation
@@ -52,6 +68,9 @@ bt-03-notice-form-type-codes:
       for competition.
     status: active
     since: 2024-09-25
+    applies-to:
+      document-type:
+        - PriorInformationNotice
 
   - code: cont-modif
     label: Contract modification
@@ -59,6 +78,9 @@ bt-03-notice-form-type-codes:
       Any change done in the contract.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - ContractAwardNotice
 
   - code: dir-awa-pre
     label: Direct award preannouncement
@@ -66,6 +88,9 @@ bt-03-notice-form-type-codes:
       Prior notification of a direct award.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - ContractAwardNotice
 
   - code: planning
     label: Planning
@@ -73,6 +98,9 @@ bt-03-notice-form-type-codes:
       Procurement preparation and set-up.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - PriorInformationNotice
 
   - code: result
     label: Result
@@ -80,3 +108,6 @@ bt-03-notice-form-type-codes:
       Outcome of the call for tender.
     status: active
     since: 2019-09-18
+    applies-to:
+      document-type:
+        - ContractAwardNotice
