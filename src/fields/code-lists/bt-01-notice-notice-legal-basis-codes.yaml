@@ -11,7 +11,7 @@
 
 version: 1.0.0
 
-bt-01-notice-legal-basis-codes:
+bt-01-notice-notice-legal-basis-codes:
   - code: "1995_499-XIII"
     label: Ratified Parliament Decision (1995) No 499-XIII
     status: active

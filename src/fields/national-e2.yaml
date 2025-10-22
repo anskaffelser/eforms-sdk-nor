@@ -150,7 +150,7 @@ included:
                     normalize-space(
                       /*/cbc:RegulatoryDomain
                     ),
-                    {{ bt-01-notice-notice-legal-basis-type-codes }}
+                    {{ bt-01-notice-notice-legal-basis-codes :except: 'other'}}
                   )
                 message: >
                   BT-01-notice must contain a valid, non-`other` value from the
@@ -198,9 +198,9 @@ included:
                   let $f := normalize-space(
                       /*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']/cbc:DocumentDescription[cbc:languageID='NOR']
                     )
-                  return some $pair in {{ bt-01-e-procedure-legal-basis-no-id-codes }}
+                  return some $pair in << bt-01-e-procedure-legal-basis-no-id-codes >>
                          satisfies ($pair/id = $e and
-                                    some $fpair in {{ bt-01-e-procedure-legal-basis-no-id-description-codes }}
+                                    some $fpair in << bt-01-f-procedure-legal-basis-no-id-description-codes >>
                                     satisfies $fpair/id = $pair/id and $f = $fpair/code)
                 message: >
                   BT-01(e) and BT-01(f) must refer to the same legal basis ID.
