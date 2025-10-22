@@ -4,6 +4,7 @@ procedure-scope:
   - national-below-eea-threshold
 
 include:
+  - logical-groups/procedure-legal-basis.yaml
   - logical-groups/notice-versioning.yaml
   - logical-groups/notice-form-type.yaml
   
@@ -131,21 +132,78 @@ included:
 
     # Obligatoriske grupper
     groups:
-      - id: notice-legal-basis-choice
-        type: select-one
+      - id: procedure-legal-basis-choice
+        mode: select-one
+        logical-group: procedure-legal-basis
         note: >
           Either a CELEX reference (BT-01-notice)
           or a national legal basis pair (BT-01(e)-procedure and
           BT-01(f)-procedure) must be provided. In the latter case,
           BT-01-notice shall contain "other".
-        logical-group: notice-legal-basis
         members:
-          - BT-01-notice
-          - [BT-01(e)-procedure, BT-01(f)-procedure]
-        message: >
-          One of the notice legal basis options must be supplied:
-          CELEX (BT-01-notice), or a valid national legal basis pair.
-        
+          - id: eu-legal-basis
+            members:
+              - BT-01-notice
+            conditions:
+              - test: >
+                  matches(
+                    normalize-space(
+                      /*/cbc:RegulatoryDomain
+                    ),
+                    {{ bt-01-notice-notice-legal-basis-type-codes }}
+                  )
+                message: >
+                  BT-01-notice must contain a valid, non-`other` value from the
+                  codelist.
+
+          - id: national-legal-basis
+            members:
+              - BT-01-notice
+              - BT-01(e)-procedure
+              - BT-01(f)-procedure
+            conditions:
+              - test: >
+                  matches(
+                    normalize-space(
+                      /*/cbc:RegulatoryDomain
+                    ),
+                    'other'
+                  )
+                message: >
+                  BT-01-notice must be 'other' when national legal basis is
+                  used.
+              - test: >
+                  matches(
+                    normalize-space(
+                      /*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']/cbc:ID
+                    ),
+                    {{ bt-01-e-procedure-legal-basis-no-id-codes }}
+                  )
+                message: >
+                  BT-01(e) must match a valid national legal basis code.
+              - test: >
+                  matches(
+                    normalize-space(
+                      /*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']/cbc:DocumentDescription[cbc:languageID='NOR']
+                    ),
+                    {{ bt-01-f-procedure-legal-basis-no-id-description-codes }}
+                  )
+                message: >
+                  BT-01(f) must match a valid national legal basis description
+                  code.
+              - test: >
+                  let $e := normalize-space(
+                      /*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']/cbc:ID
+                    )
+                  let $f := normalize-space(
+                      /*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']/cbc:DocumentDescription[cbc:languageID='NOR']
+                    )
+                  return some $pair in {{ bt-01-e-procedure-legal-basis-no-id-codes }}
+                         satisfies ($pair/id = $e and
+                                    some $fpair in {{ bt-01-e-procedure-legal-basis-no-id-description-codes }}
+                                    satisfies $fpair/id = $pair/id and $f = $fpair/code)
+                message: >
+                  BT-01(e) and BT-01(f) must refer to the same legal basis ID.
 
   optional:
 
