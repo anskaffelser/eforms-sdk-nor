@@ -1,0 +1,83 @@
+# Source: Norwegian national tailoring for eForms
+# Purpose: Defines the tailoring legal bases (BT-01(e)) applicable to
+#          procurements beneath EEA thresholds in Norway
+# Notes:
+#   - Use only when BT-01-notice = "other"
+#   - Each entry shares its `id` with BT-01(f)-procedure
+#   - Exactly one of these codes must be selected
+#   - Ensures consistency across national procurement procedure legal basis
+#     references
+
+---
+
+version: 1.0.0
+
+bt-01-e-procedure-legal-basis-no-id-codes:
+  - id: foa-del-2
+    code: "Anskaffelsesforskriften (del I og II)"
+    definition: >
+      Konkurransen har en samlet verdi under EØS-terskelverdiene
+      fastsatt i Anskaffelsesforskriftens § 5-3, og er derfor underlagt
+      bestemmelsene i Anskaffelsesforskriftens del I og II.
+    uri: >
+      https://lovdata.no/dokument/SF/forskrift/2016-08-12-974
+    status: active
+    applies-to:
+      procedure-scope:
+        - national-below-eea-threshold
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - id: konsesjonskontraktforskriften-del-1
+    code: "Konsesjonskontraktforskriften (del I)"
+    definition: >
+      Konkurransen har en samlet verdi under EØS-terskelverdiene
+      fastsatt i Konsesjonskontraktforskriftens § 5-1, og er derfor
+      underlagt bestemmelsene i Konsesjonskontraktforskriften del I.
+    uri: >
+      https://lovdata.no/dokument/SF/forskrift/2016-08-12-976
+    status: active
+    applies-to:
+      procedure-scope:
+        - national-below-eea-threshold
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - id: forsyningsforskriften-del-1
+    code: "Forsyningsforskriften (del I)"
+    definition: >
+      Konkurransen har en samlet verdi under EØS-terskelverdiene
+      fastsatt i Forsyningsforskriften § 5-2, og er derfor
+      underlagt bestemmelsene i Forsyningsforskriften del I.
+    uri: >
+      https://lovdata.no/dokument/SF/forskrift/2016-08-12-975
+    status: active
+    applies-to:
+      procedure-scope:
+        - national-below-eea-threshold
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - id: fosa-del-1
+    code: "Forskrift om forsvars- og sikkerhetsanskaffelser – FOSA (del I)"
+    definition: >
+      Konkurransen har en samlet verdi under EØS-terskelverdiene
+      fastsatt i Forskrift om forsvars- og sikkerhetsanskaffelser § 2-2, og
+      er derfor underlagt bestemmelsene i Forskrift om forsvars- og
+      sikkerhetsanskaffelser del I.
+    uri: >
+      https://lovdata.no/dokument/SF/forskrift/2013-10-04-1185
+    status: active
+    applies-to:
+      procedure-scope:
+        - national-below-eea-threshold
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice

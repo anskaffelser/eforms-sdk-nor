@@ -1,0 +1,78 @@
+# Source: Norwegian national tailoring for eForms
+# Purpose: Defines the tailoring legal basis descriptions (BT-01(f))
+#          applicable to procurements beneath EEA thresholds in Norway
+# Notes:
+#   - Use only when BT-01-notice = "other"
+#   - Each entry shares its `id` with BT-01(e)-procedure
+#   - Exactly one of these codes must be selected
+#   - Ensures consistency across national procurement procedure legal basis
+#     references
+
+---
+
+version: 1.0.0
+
+bt-01-f-procedure-legal-basis-no-id-description-codes:
+  - id: foa-del-2
+    code: >
+      Anskaffelsen følger Anskaffelsesforskriftens del I og II,
+      som gjelder for offentlige anskaffelser under EØS-terskelverdiene
+      som bestemt i forskriften.
+    uri: >
+      https://lovdata.no/dokument/SF/forskrift/2016-08-12-974
+    status: active
+    applies-to:
+      procedure-scope:
+        - national-below-eea-threshold
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - id: konsesjonskontraktforskriften-del-1
+    code: >
+      Anskaffelsen følger Konsesjonskontraktforskriftens del I,
+      for konsesjonskontrakter under EØS-terskelverdiene som bestemt
+      i forskriften.
+    uri: >
+      https://lovdata.no/dokument/SF/forskrift/2016-08-12-976
+    status: active
+    applies-to:
+      procedure-scope:
+        - national-below-eea-threshold
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - id: forsyningsforskriften-del-1
+    code: >
+      Anskaffelsen følger Forsyningsforskriftens del I,
+      for anskaffelser innen forsyningssektoren under EØS-terskelverdiene
+      som bestemt i forskriften.
+    uri: >
+      https://lovdata.no/dokument/SF/forskrift/2016-08-12-975
+    status: active
+    applies-to:
+      procedure-scope:
+        - national-below-eea-threshold
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - id: fosa-del-1
+    code: >
+      Anskaffelsen følger Forskrift om forsvars- og sikkerhetsanskaffelser
+      – FOSA del I, for forsvars- og sikkerhetsanskaffelser under
+      EØS-terskelverdiene som bestemt i forskriften.
+    uri: >
+      https://lovdata.no/dokument/SF/forskrift/2013-10-04-1185
+    status: active
+    applies-to:
+      procedure-scope:
+        - national-below-eea-threshold
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
