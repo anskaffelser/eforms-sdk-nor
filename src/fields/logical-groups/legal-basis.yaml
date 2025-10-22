@@ -1,0 +1,23 @@
+---
+logical-group:
+  id: legal-basis
+  type: composite-identifier
+  description: >
+    These BTs scope the legislation governing the procurement.
+    Either an EU legal reference (BT-01-notice) or a national
+    legal basis pair (BT-01(e) and BT-01(f)) must be provided,
+    but not both.
+  members:
+    - BT-01-notice
+    - BT-01(e)-procedure
+    - BT-01(f)-procedure
+  exclusivity:
+    mode: select-one
+    combinations:
+      - [bt-01-notice]
+      - [bt-01(e)-procedure, bt-01(f)-procedure]
+  notes:
+    - BT-01-notice as a valid code apart from 'other' suffices
+    - BT-01-notice = 'other' means BT-01(e)-procedure and
+      BT-01(f)-procedure must be populated with valid preselect codes
+      from our codelist.
