@@ -1,11 +1,10 @@
 ---
 logical-group:
- id: notice-form-type
- type: composite-identifier
- description: >
-   These BTs together define the form and notice type, in accordance
-   with the procurement legislation.
- members:
-   - BT-02-notice
-   - BT-03-notice
-
+  id: notice-form-type
+  type: composite-identifier
+  description: >
+    These BTs together define the form and notice type, in accordance
+    with the procurement legislation.
+  members:
+    - BT-02-notice
+    - BT-03-notice
