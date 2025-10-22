@@ -1,9 +1,12 @@
 noticeTypes: [E2]
 
+procedure-scope:
+  - national-below-eea-threshold
+
 include:
   - logical-groups/notice-versioning.yaml
   - logical-groups/notice-form-type.yaml
-
+  
 fields:
   OPT-002-notice:
     pattern:
@@ -125,6 +128,24 @@ included:
           )
         message: >
           Notice type must be chosen as a valid code from the codelist.
+
+    # Obligatoriske grupper
+    groups:
+      - id: notice-legal-basis-choice
+        type: select-one
+        note: >
+          Either a CELEX reference (BT-01-notice)
+          or a national legal basis pair (BT-01(e)-procedure and
+          BT-01(f)-procedure) must be provided. In the latter case,
+          BT-01-notice shall contain "other".
+        logical-group: notice-legal-basis
+        members:
+          - BT-01-notice
+          - [BT-01(e)-procedure, BT-01(f)-procedure]
+        message: >
+          One of the notice legal basis options must be supplied:
+          CELEX (BT-01-notice), or a valid national legal basis pair.
+        
 
   optional:
 
