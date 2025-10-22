@@ -1,0 +1,494 @@
+# SPDX-License-Identifier: CC-BY-4.0
+# Source: EU Vocabularies - LEGAL-BASIS concept schema
+# URI: https://op.europa.eu/en/web/eu-vocabularies/concept-scheme/-/resource?uri=http://publications.europa.eu/resource/authority/legal-basis
+# Retrieved: 2025-10-22
+# Notes:
+# - Only active codes are used for validation
+# - Deprecated codes are retained for reference and historical context.
+# - `applies-to` shows the context in which each notice type code applies.
+
+---
+
+version: 1.0.0
+
+bt-01-notice-legal-basis-codes:
+  - code: "1995_499-XIII"
+    label: Ratified Parliament Decision (1995) No 499-XIII
+    status: active
+    since: 2021-06-16
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "2011CEB_PROC_EXT"
+    label: Guidelines for Procurement of Supplies, Works and Services
+    status: active
+    since: 2021-06-16
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "2014CEB_PROC_INT"
+    label: >
+      Guidelines on the internal procurement of services, supplies and
+      works by the CEB
+    status: active
+    since: 2021-06-16
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "2020CEB_GRANT"
+    label: CEB’s competitive procedures to award grants
+    status: active
+    since: 2021-06-16
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "31985R2137"
+    label: Regulation (EEC) No 2137/85
+    status: active
+    since: 1985-08-03
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "31992L0013"
+    label: Directive 92/13/EEC
+    status: active
+    since: 1992-03-06
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "31994D0001"
+    label: Decision 94/1/EC, ECSC
+    status: active
+    since: 1994-01-01
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "31994D0800"
+    label: Decision 94/800/EC
+    status: active
+    since: 1994-12-22
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32001R2157"
+    label: Regulation (EC) No 2157/2001
+    status: active
+    since: 2004-10-08
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32002D0309"
+    label: Decision 2002/309/EC, Euratom
+    status: active
+    since: 2002-04-04
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32002R2342"
+    label: Regulation (EC, Euratom) No 2342/2002
+    status: deprecated
+    since: 2003-01-01
+    deprecated: 2012-12-31
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32003R1435"
+    label: Regulation (EC) No 1435/2003
+    status: active
+    since: 2003-08-21
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32004L0017"
+    label: Directive 2004/17/EC
+    status: deprecated
+    since: 2004-04-30
+    deprecated: 2016-04-18
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32004L0018"
+    label: Directive 2004/18/EC
+    status: deprecated
+    since: 2004-04-30
+    deprecated: 2016-04-18
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32005D0015"
+    label: Decision 2005/15/EC
+    status: active
+    since: 2005-01-07
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32004D0005_01"
+    label: Decision 2007/497/EC (ECB/2007/5)
+    status: deprecated
+    since: 2007-08-01
+    deprecated: 2016-04-14
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32007L0066"
+    label: Directive 2007/66/EC
+    status: active
+    since: 2008-01-09
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32007R0718"
+    label: Regulation (EC) No 718/2007
+    status: active
+    since: 2007-01-01
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32007R1370"
+    label: Regulation (EC) No 1370/2007
+    status: active
+    since: 2009-12-03
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32007E0124"
+    label: Council Joint Action 2008/124/CFSP
+    status: active
+    since: 2008-02-04
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32008R1008"
+    label: Regulation (EC) No 1008/2008
+    status: active
+    since: 2008-11-01
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32009L0081"
+    label: Directive 2009/81/EC
+    status: active
+    since: 2009-08-21
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32012R0966"
+    label: Regulation (EU, Euratom) No 966/2012
+    status: deprecated
+    since: 2012-10-27
+    deprecated: 2019-01-07
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32012R1268"
+    label: Delegated Regulation (EU) No 1268/2012
+    status: deprecated
+    since: 2013-01-01
+    deprecated: 2019-01-07
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32013L0016"
+    label: Directive 2013/16/EU
+    status: active
+    since: 2013-07-01
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32014D0115"
+    label: Decision 2024/115/EU
+    status: active
+    since: 2013-12-02
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32014D0486"
+    label: Decision 2014/486/CFSP
+    status: active
+    since: 2014-07-22
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32014D0691"
+    label: Decision 2014/691/EU
+    status: active
+    since: 2014-09-29
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32014L0023"
+    label: Directive 2014/23/EU
+    status: active
+    since: 2014-04-17
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32014L0024"
+    label: Directive 2014/24/EU
+    status: active
+    since: 2014-04-17
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32014L0025"
+    label: Directive 2014/25/EU
+    status: active
+    since: 2014-04-17
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32014R0230"
+    label: Regulation (EU) No 230/2014
+    status: active
+    since: 2014-01-01
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32014R0231"
+    label: Regulation (EU) No 231/2014
+    status: active
+    since: 2014-01-01
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32014R0232"
+    label: Regulation (EU) No 232/2014
+    status: active
+    since: 2014-01-01
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32014R0233"
+    label: Regulation (EU) No 233/2014
+    status: active
+    since: 2014-01-01
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32014R0236"
+    label: Regulation (EU) No 236/2014
+    status: active
+    since: 2014-01-01
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32014R0237"
+    label: Regulation (Euratom) No 237/2014
+    status: active
+    since: 2014-01-01
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32015R0323"
+    label: Regulation (EU) 2015/323
+    status: active
+    since: 2015-03-06
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32016D0002"
+    label: Decision (EU) 2016/245 (ECB/2016/2)
+    status: active
+    since: 2016-04-15
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32017D2263"
+    label: Decision (CFSP) 2017/2263
+    status: active
+    since: 2017-12-15
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32018R1046"
+    label: Regulation (EC, Euratom) 2018/1046
+    status: deprecated
+    since: 2018-12-12
+    deprecated: 2024-09-29
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32019D0312"
+    label: Decision (CFSP) 2019/312
+    status: active
+    since: 2019-03-01
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "32024R2509"
+    label: Regulation (EU, Euratom) 2024/2509
+    status: active
+    since: 2024-09-30
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "C2019_3277"
+    label: Decision C(2019) 3277
+    status: active
+    since: 2021-06-16
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "C2019_5515"
+    label: Decision C(2019) 5515
+    status: active
+    since: 2021-06-16
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "CFSP2017_34"
+    label: CFSP/2017/34/EUMM Georgia
+    status: active
+    since: 2021-06-16
+    applies-to:
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
+
+  - code: "other"
+    label: other
+    status: active
+    since: 1985-08-03
+    applies-to:
+      procedure-scope:
+        - national-below-eea-threshold
+      document-type:
+        - PriorInformationNotice
+        - ContractNotice
+        - ContractAwardNotice
