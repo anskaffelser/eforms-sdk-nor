@@ -1,6 +1,6 @@
 ---
 logical-group:
-  id: legal-basis
+  id: procedure-legal-basis
   type: composite-identifier
   description: >
     These BTs scope the legislation governing the procurement.
