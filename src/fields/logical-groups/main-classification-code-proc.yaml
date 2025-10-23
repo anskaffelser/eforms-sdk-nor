@@ -1,0 +1,11 @@
+---
+logical-group:
+  id: main-classification-code-proc
+  type: composite-identifier
+  description: >
+    Defines the main classification code for the goods or services
+    of the notice. A code (BT-262-procedure) and a code schema
+    (BT-26(m)-procedure) provides complete classification.
+  members:
+    - BT-26(m)-procedure
+    - BT-262-procedure

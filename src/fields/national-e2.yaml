@@ -9,6 +9,7 @@ include:
   - logical-groups/notice-dispatch-datetime.yaml
   - logical-groups/notice-form-type.yaml
   - logical-groups/notice-official-language.yaml
+  - logical-groups/main-classification-code-proc.yaml
   
 fields:
   OPT-002-notice:
@@ -181,7 +182,44 @@ included:
         message: >
           The main language of national notices beneath EEA threhsolds must be
           Norwegian.
-        
+
+    BT-26(m)-procedure:
+      - id: main-classification-type-proc
+        note: >
+          See logical group 'main-classification-code-proc' for related
+          elements.
+        logical-group: main-classification-code-proc
+        test: >
+          matches(
+            normalize-space(
+              /*/cac:ProcurementProject
+                [not(ancestor::cac:ProcurementProjectLot)]
+                /cac:MainCommodityClassification
+                /cbc:ItemClassificationCode/@listName
+            ),
+            "^cpv$"
+          )
+        message: >
+          The classification type shall be CPV.
+
+    BT-262-procedure:
+      - id: main-classification-proc
+        note: >
+          See logical group 'main-classification-code-proc' for related
+          elements.
+        logical-group: main-classification-code-proc
+        test: >
+          matches(
+            normalize-space(
+              /*/cac:ProcurementProject
+                [not(ancestor::cac:ProcurementProjectLot)]
+                /cac:MainCommodityClassification
+                /cbc:ItemClassificationCode
+            ),
+            "^[0-9]{8}$"
+          )
+        message: >
+          CPV codes are eight-dight, left-padded integers.
 
     # Obligatoriske grupper
     groups:
@@ -257,6 +295,8 @@ included:
                                     satisfies $fpair/id = $pair/id and $f = $fpair/code)
                 message: >
                   BT-01(e) and BT-01(f) must refer to the same legal basis ID.
+
+  contextual:
 
   optional:
 
