@@ -183,6 +183,10 @@ included:
           The main language of national notices beneath EEA threhsolds must be
           Norwegian.
 
+    # ----------------------------------------------
+    # Classification related (BG-261 Classification)
+    # ----------------------------------------------
+
     BT-26(m)-procedure:
       - id: main-classification-type-proc
         note: >
