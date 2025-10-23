@@ -1,0 +1,11 @@
+---
+logical-group:
+  id: notice-dispatch-datetime
+  type: composite-identifier
+  description: >
+    These BTs together may be used in conjunction, to form an ISO 8601
+    compliant datetime representation of the date and time at which
+    a notice was sent for publication, from the contracting authority.
+  members:
+    - BT-05(a)-notice
+    - BT-05(b)-notice

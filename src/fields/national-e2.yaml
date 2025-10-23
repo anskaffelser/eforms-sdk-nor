@@ -1,4 +1,4 @@
-noticeTypes: [E2]
+noticeTypes: E2
 
 procedure-scope:
   - national-below-eea-threshold
@@ -6,6 +6,7 @@ procedure-scope:
 include:
   - logical-groups/procedure-legal-basis.yaml
   - logical-groups/notice-versioning.yaml
+  - logical-groups/notice-dispatch-datetime.yaml
   - logical-groups/notice-form-type.yaml
   
 fields:
@@ -129,6 +130,38 @@ included:
           )
         message: >
           Notice type must be chosen as a valid code from the codelist.
+
+    BT-05(a)-notice:
+      - id: dispatch-date
+        note: >
+          See logical group 'notice-dispatch-datetime' for related elements.
+        logical-group: 'notice-dispatch-datetime'
+        test: >
+          matches(
+            normalize-space(
+              /*/cbc:IssueDate
+            ),
+            "^[0-9]{4}-[0-1][0-9]-[0-3][0-9]\+[0-1][0-9]:[0-5][0-9]$"
+          )
+        message: >
+          Issue date must be provided as a split ISO 8601 datetime
+          representation (non-standard date with offset).
+
+    BT-05(b)-notice:
+      - id: dispatch-time
+        note: >
+          See logical group 'notice-dispatch-datetime' for related elements.
+        logical-group: 'notice-dispatch-datetime'
+        test: >
+          matches(
+            normalize-space(
+              /*/cbc:IssueTime
+            ),
+            "^[0-2][0-9]:[0-5][0-9]:[0-5][0-9]\+[0-1][0-9]:[0-5][0-9]$"
+          )
+        message: >
+          Issue time must be provided as a split ISO 8601 datetime
+          representation (non-standard time with offset).
 
     # Obligatoriske grupper
     groups:
