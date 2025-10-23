@@ -1,0 +1,12 @@
+---
+logical-group:
+  id: notice-official-language
+  type: attribute-set
+  description: >
+    Defines the language set of the notice: One mandatory main language
+    (BT-702(a)-notice), and zero or more additional languages
+    (BT-702(b)-notice). Each language must be an EU official language or
+    Norwegian.
+  members:
+    - BT-702(a)-notice
+    - BT-702(b)-notice

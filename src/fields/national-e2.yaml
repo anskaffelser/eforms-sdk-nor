@@ -8,6 +8,7 @@ include:
   - logical-groups/notice-versioning.yaml
   - logical-groups/notice-dispatch-datetime.yaml
   - logical-groups/notice-form-type.yaml
+  - logical-groups/notice-official-language.yaml
   
 fields:
   OPT-002-notice:
@@ -68,7 +69,9 @@ rules:
 
 included:
   mandatory:
+    # ----------------------------
     # Notice related (BG-1 Notice)
+    # ----------------------------
     BT-701-notice:
       - id: notice-identifier
         note: >
@@ -163,6 +166,23 @@ included:
           Issue time must be provided as a split ISO 8601 datetime
           representation (non-standard time with offset).
 
+    BT-702(a)-notice:
+      - id: notice-official-language-main
+        note: >
+          See logical group 'notice-official-language' for related elements.
+        logical-group: notice-official-language
+        test: >
+          matches(
+            normalize-space(
+              /*/cbc:NoticeLanguageCode
+            ),
+            "^(NOR|NNO|NOB)$"
+          )
+        message: >
+          The main language of national notices beneath EEA threhsolds must be
+          Norwegian.
+        
+
     # Obligatoriske grupper
     groups:
       - id: procedure-legal-basis-choice
@@ -239,6 +259,25 @@ included:
                   BT-01(e) and BT-01(f) must refer to the same legal basis ID.
 
   optional:
+
+    BT-702(b)-notice:
+      - id: notice-official-language-additional
+        note: >
+          See logical group 'notice-official-language' for related elements.
+        logical-group: notice-official-language
+        test: >
+          every $lang in /*/cac:AdditionalNoticeLanguage
+          satisfies (
+            normalize-space($lang/cbc:ID) = (
+              'BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA',
+              'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD',
+              'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE',
+              'NOR', 'NOB', 'NNO'
+            )
+          )
+        message: >
+          Additional notice languages must be EU official or Norwegian
+          (NOR/NOB/NNO).
 
 
 
