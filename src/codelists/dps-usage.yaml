@@ -16,9 +16,13 @@ dps-nlist:
   nob_verify: false
 none:
   name: No dynamic purchase system
-  nob: Ingen
+  nob: Ingen/Nei
   history:
+  - name: No dynamic purchase system
+  - name: Ingen
+    history: []
+    nob_verify: true
   - name: None
     history: []
     nob_verify: false
-  nob_verify: true
+  nob_verify: false

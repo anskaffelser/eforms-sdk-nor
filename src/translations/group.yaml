@@ -128,8 +128,12 @@ group|name|GR-Lot-AdditionalInformation:
   nob_verify: false
 group|name|GR-Lot-AuctionTerms:
   name: Terms of the auction
-  nob: Vilkår for auksjonen
+  nob: Akusjonsvilkår
   history:
+  - name: Terms of the auction
+    nob: Vilkår for auksjonen
+    history: [ ]
+    nob_verify: false
   - name: Terms of the auction
     history: []
     nob_verify: false
@@ -416,7 +420,7 @@ group|name|GR-Lot-Requirements2SecurityClearance1:
   nob_verify: false
 group|name|GR-Lot-Review:
   name: Review
-  nob: Anmeldelse
+  nob: Klageinformasjon
   history:
   - name: Review
     history: []
@@ -672,7 +676,7 @@ group|name|GR-LotsGroup-FrameworkAgreement:
   nob_verify: false
 group|name|GR-LotsGroup-LotDistribution:
   name: Lots included in the group of lots
-  nob: Objekter inkludert i gruppen av partier
+  nob: Inkluderte delkontrakter
   history:
   - name: Lots included in the group of lots
     history: []
@@ -2633,7 +2637,7 @@ group|name|ND-GroupComposition:
   nob_verify: false
 group|name|ND-LotDistribution:
   name: Lot distribution
-  nob: Lot fordeling
+  nob: Fordeling av delkontrakter
   history:
   - name: Lot distribution
     history: []
@@ -3181,8 +3185,19 @@ group|name|GR-Lot-EUFunds-Indicator:
   name: Use of EU financing
 group|name|GR-Lot-ExecutionRequirements:
   name: Requirements for contract execution
+  nob: Krav til kontraktsutførelse
+  history:
+  - name: Requirements for contract execution
+    history: []
+    nob_verify: false
+  nob_verify: false
 group|name|ND-AcceleratedProcedure:
   name: Accelerated procedure
+  nob: Hasteprosedyre
+  history:
+    - name: Accelerated procedure
+      history: []
+      nob_verify: false
 group|name|ND-AllowedSubcontracting:
   name: Condition on subcontractinng
 group|name|ND-DirectAward:
@@ -3197,6 +3212,12 @@ group|name|ND-GazetteReference:
   name: Reference to the publication
 group|name|ND-LotDPSContractingSystem:
   name: Dynamic Purchasing System
+  nob: Dynamisk innkjøpsordning
+  history:
+    - name: Dynamic Purchasing System
+      history: []
+      nob_verify: false
+  nob_verify: false
 group|name|ND-LotDocAllNonOfficialLanguages:
   name: Procurement documents in unofficial languages
 group|name|ND-LotDocAllOfficialLanguages:
@@ -3207,16 +3228,34 @@ group|name|ND-LotDocOfficialLanguage:
   name: Procurement documents in official language
 group|name|ND-LotECatalog:
   name: eCatalogue
+  nob: eKatalog
+  history: []
+  nob_verify: false
 group|name|ND-LotEInvoicing:
   name: eInvoicing
+  nob: eFaktura
+  history:
+  - name: eInvoicing
+    history: []
+    nob_verify: false
 group|name|ND-LotESignature:
   name: eSignature
 group|name|ND-LotFAContractingSystem:
   name: Framework agreement
+  nob: Rammeavtale
+  history:
+  - name: Framework agreement
+    history: []
+    nob_verify: false
 group|name|ND-LotGreenCriteria:
   name: Details of the Green Procurement Criteria
 group|name|ND-LotReservedExecution:
   name: Reserved contract execution
+  nob: Reservert kontraktsutførelse
+  history:
+  - name: Reserved contract execution
+    history: []
+    nob_verify: false
 group|name|ND-NoticeApproximateValueUnpublish:
   name: Notice approximate value (published later)
 group|name|ND-PartDPSContractingSystem:
@@ -3281,6 +3320,12 @@ group|name|ND-AppealingParty:
   name: Party that initiated the review request
 group|name|ND-AuctionTerms:
   name: Terms of the auction
+  nob: Auksjonsvilkår
+  history:
+    - name: Terms of the auction
+      history: []
+      nob_verify: false
+  nob_verify: false
 group|name|ND-EEDAssetLabel:
   name: Energy efficiency label of the asset
 group|name|ND-EEDAssetQuantity:
@@ -3327,5 +3372,10 @@ group|name|ND-ReviewStatus:
   name: Status of submitted review requests
 group|name|ND-SelectionCriteriaSource:
   name: Source for Selection Criteria
+  nob: Tildelingskriterier
+  history:
+  - name: Source for Selection Criteria
+    history: []
+    nob_verify: false
 group|name|ND-TenderAggregatedAmounts:
   name: Aggregated amounts for executed contracts

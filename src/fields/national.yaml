@@ -164,8 +164,8 @@ removed:
   - BT-726-Lot
   - BT-726-LotsGroup
   # - BT-726-Part
-  - BT-115-Lot
-  # - BT-115-Part
+  #- BT-115-Lot
+ #  - BT-115-Part
   # - BT-634-Lot
   - BT-634-Procedure
   - BT-756-Procedure

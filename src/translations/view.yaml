@@ -648,13 +648,25 @@ view|name|summary:
   nob_verify: false
 view|name|E1:
   name: View E1
+  nob: Visning E1
+  nob_verify: false
 view|name|E2:
   name: View E2
+  nob: Visning E2
+  nob_verify: false
 view|name|E3:
   name: View E3
+  nob: Visning E3
+  nob_verify: false
 view|name|E4:
   name: View E4
+  nob: Visning E4
+  nob_verify: false
 view|name|E5:
   name: View E5
+  nob: Visning E5
+  nob_verify: false
 view|name|E6:
   name: View E6
+  nob: Visning E6
+  nob_verify: false
