@@ -22549,12 +22549,18 @@ field|description|BT-815-LotResult:
   name: The quantity provided or estimated. For products please report the number of products. For buildings, please report the useful floor area in m2. For works or services no value is needed
 field|description|BT-821-Lot:
   name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
-  nob: Hvor utvelgelseskriteriene er definert, for eksempel i anskaffelsesdokumentene eller i ESPD.
-  history: []
+  nob: Hvor utvelgelseskriteriene er definert, for eksempel i anskaffelsesdokumentene eller i ESPD
+  history:
+    - name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
+      history: []
+      nob_verify: false
 field|description|BT-821-Lot-List:
   name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
-  nob: Hvor utvelgelseskriteriene er definert, for eksempel i anskaffelsesdokumentene eller i ESPD.
-  history: []
+  nob: Hvor utvelgelseskriteriene er definert, for eksempel i anskaffelsesdokumentene eller i ESPD
+  history:
+   - name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
+     history: []
+     nob_verify: false
 field|description|OPT-080-LotResult:
   name: The specified metric is about yearly energy consumption
 field|description|OPT-080-LotResult-List:
