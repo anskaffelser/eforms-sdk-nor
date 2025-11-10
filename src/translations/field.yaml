@@ -4340,7 +4340,7 @@ field|name|BT-25-Lot:
   nob_verify: false
 field|name|BT-26(a)-Lot:
   name: Classification type
-  nob: Type klassifisering (CPV-kode)
+  nob: Type klassifisering
   history:
   - name: Classificator type
     nob: Type klassifisering
@@ -4354,7 +4354,7 @@ field|name|BT-26(a)-Lot:
   nob_verify: true
 field|name|BT-26(a)-Part:
   name: Classification type
-  nob: Type klassifisering (CPV-kode)
+  nob: Type klassifisering
   history:
   - name: Classificator type
     nob: Type klassifisering
@@ -4368,7 +4368,7 @@ field|name|BT-26(a)-Part:
   nob_verify: true
 field|name|BT-26(a)-Procedure:
   name: Classification type
-  nob: Type klassifisering (CPV-kode)
+  nob: Type klassifisering
   history:
   - name: Classificator type
     nob: Type klassifisering
@@ -4382,7 +4382,7 @@ field|name|BT-26(a)-Procedure:
   nob_verify: true
 field|name|BT-26(m)-Lot:
   name: Classification type
-  nob: Type klassifisering (CPV-kode)
+  nob: Type klassifisering
   history:
   - name: Classificator type
     nob: Type klassifisering
@@ -4396,7 +4396,7 @@ field|name|BT-26(m)-Lot:
   nob_verify: true
 field|name|BT-26(m)-Part:
   name: Classification type
-  nob: Type klassifisering (CPV-kode)
+  nob: Type klassifisering
   history:
   - name: Classificator type
     nob: Type klassifisering
@@ -4410,7 +4410,7 @@ field|name|BT-26(m)-Part:
   nob_verify: true
 field|name|BT-26(m)-Procedure:
   name: Classification type
-  nob: Type klassifisering (CPV-kode)
+  nob: Type klassifisering
   history:
   - name: Classificator type
     nob: Type klassifisering
@@ -4424,7 +4424,7 @@ field|name|BT-26(m)-Procedure:
   nob_verify: true
 field|name|BT-262-Lot:
   name: Main classification
-  nob: Hovedklassifisering (CPV-kode)
+  nob: Hoved klassifisering
   history:
   - name: Main classification
     nob: Hoved klassifisering
@@ -4438,7 +4438,7 @@ field|name|BT-262-Lot:
   nob_verify: false
 field|name|BT-262-Part:
   name: Main classification
-  nob: Hovedklassifisering (CPV-kode)
+  nob: Hoved klassifisering
   history:
   - name: Main classification
     nob: Hoved klassifisering
@@ -4452,7 +4452,7 @@ field|name|BT-262-Part:
   nob_verify: false
 field|name|BT-262-Procedure:
   name: Main classification
-  nob: Hovedklassifisering (CPV-kode)
+  nob: Hoved klassifisering
   history:
   - name: Main classification
     nob: Hoved klassifisering
@@ -4466,7 +4466,7 @@ field|name|BT-262-Procedure:
   nob_verify: false
 field|name|BT-263-Lot:
   name: Additional classification
-  nob: Ytterligere klassifisering (CPV-kode)
+  nob: Ytterligere klassifisering
   history:
   - name: Additional classification
     nob: Ytterligere klassifisering
@@ -4480,7 +4480,7 @@ field|name|BT-263-Lot:
   nob_verify: false
 field|name|BT-263-Part:
   name: Additional classification
-  nob: Ytterligere klassifisering (CPV-kode)
+  nob: Ytterligere klassifisering
   history:
   - name: Additional classification
     nob: Ytterligere klassifisering
@@ -4494,7 +4494,7 @@ field|name|BT-263-Part:
   nob_verify: false
 field|name|BT-263-Procedure:
   name: Additional classification
-  nob: Ytterligere klassifisering (CPV-kode)
+  nob: Ytterligere klassifisering
   history:
   - name: Additional classification
     nob: Ytterligere klassifisering
@@ -11447,7 +11447,7 @@ field|description|BT-1561-NoticeResult:
   - name: The value likely to be spent, within a framework agreement, for a group of lots. This information can be provided when the value likely to be spent for a group of lots is lower than the sum of values likely to be spent for individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The re-estimated value is the value likely to be spent, as re-estimated on the basis of the winner’s tender or winners’ tenders.
     nob: Verdien vil sannsynligvis bli brukt, innenfor en rammeavtale, for en gruppe tomter. Denne informasjonen kan gis når verdien som sannsynligvis vil bli brukt for en gruppe objekter, er lavere enn summen av verdier som sannsynligvis vil bli brukt for individuelle objekter (f.eks. når det samme budsjettet deles for flere partier). Verdien omfatter alle kontrakter som skal tildeles innenfor en rammeavtale over hele varigheten, inkludert opsjoner og fornyelser. Den nye estimerte verdien er verdien som sannsynligvis vil bli brukt, som estimert på nytt på grunnlag av vinnerens tilbud eller vinnernes tilbud.
     nno: ''
-    history: []GPA
+    history: []
     nob_verify: false
   nob_verify: false
 field|description|BT-157-LotsGroup:
@@ -21768,7 +21768,6 @@ field|name|BT-740-Procedure-Buyer-List:
   name: The buyer is a contracting entity
 field|name|BT-743-Lot-List:
   name: Electronic invoicing
-  nob: Elektronisk faktura (e-faktura)
 field|name|BT-744-Lot-List:
   name: Advanced or qualified electronic signature or seal (as defined in Regulation (EU) No 910/2014) is required
 field|name|BT-745-Lot-Language:
@@ -21882,9 +21881,12 @@ field|name|BT-98-Lot-Unit:
     - name: Deadline until which the tender must remain valid
       history: []
       nob_verify: false
+  nob_verify: false
 field|name|BT-99-Lot-Language:
   name: Information about review deadlines
   nob: Informasjon om gjennomgangsfrister
+  history: []
+  nob_verify: false
 field|name|OPP-010-notice-Scheme:
   name: Notice publication number
 field|name|OPP-011-notice-Scheme:
@@ -22554,6 +22556,7 @@ field|description|BT-821-Lot:
     - name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
       history: []
       nob_verify: false
+  nob_verify: false
 field|description|BT-821-Lot-List:
   name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
   nob: Hvor utvelgelseskriteriene er definert, for eksempel i anskaffelsesdokumentene eller i ESPD
@@ -22561,6 +22564,7 @@ field|description|BT-821-Lot-List:
    - name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
      history: []
      nob_verify: false
+  nob_verify: false
 field|description|OPT-080-LotResult:
   name: The specified metric is about yearly energy consumption
 field|description|OPT-080-LotResult-List:
@@ -22657,10 +22661,12 @@ field|name|BT-821-Lot:
   name: Source of selection criteria
   nob: Kilde for utvelgeseskriteriene
   history: []
+  nob_verify: false
 field|name|BT-821-Lot-List:
   name: Source of selection criteria
   nob: Kilde for utvelgeseskriteriene
   history: []
+  nob_verify: false
 field|name|OPT-080-LotResult:
   name: EED consumption metric
 field|name|OPT-080-LotResult-List:
