@@ -14,7 +14,7 @@ rules:
   - id: NOR-R-NationalLegalBasis-pair
     kind: literalPairAllowed
     primary: "BT-01(e)-Procedure"
-    secondary: "BT-01(e)-Procedure"
+    secondary: "BT-01(f)-Procedure"
     literalPairsRef: "no:legal-basis-procedure-national-literals"
 
 
