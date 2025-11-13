@@ -17,4 +17,19 @@ rules:
     secondary: "BT-01(f)-Procedure"
     literalPairsRef: "no:legal-basis-procedure-national-literals"
 
+  - id: NOR-R-BT27-Procedure-Currency-NOK
+    kind: fixedValue
+    field: "BT-27-Procedure-Currency"
+    value: "NOK"
 
+  - id: NOR-R-BT27-Part-Currency-NOK
+    kind: fixedValue
+    field: "BT-27-Part-Currency"
+
+  - id: NOR-R-BT27-Procedure-SumOfParts
+    kind: sumEquals
+    parentField: "BT-27-Procedure"
+    childField: "BT-27-Part"
+    groupBy: "Procedure"
+    currencyFieldParent: "BT-27-Procedure-Currency"
+    currencyFieldChild: "BT-27-Part-Currency"

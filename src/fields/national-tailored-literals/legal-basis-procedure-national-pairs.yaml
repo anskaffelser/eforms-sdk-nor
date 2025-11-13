@@ -4,22 +4,26 @@ description: >-
   Tillatte fritekst-par for BT-01(e) og BT-01(f) i nasjonale
   kunngjøringsskjema for anskaffelser under EØS-terskelverdier.
 pairs:
-  - e_text: "Anskaffelsesforskriften - FOA (del I og II)"
+  - id: NO-LB-NATIONAL-FOA
+    e_text: "Anskaffelsesforskriften - FOA (del I og II)"
     f_text: >-
       Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt
       i Anskaffelsesforskriftens § 5-3, og er derfor underlagt
       bestemmelsene i Anskaffelsesforskriftens del I og II.
-  - e_text: "Konsesjonskontraktforskriften (del I)"
+  - id: NO-LB-NATIONAL-KOF
+    e_text: "Konsesjonskontraktforskriften (del I)"
     f_text: >-
       Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt i
       Konsesjonskontraktforskriften § 5-1, og er derfor underlagt
       bestemmelsene i Konsesjonskontraktforskriftens del I.
-  - e_text: "Forsyningsforskriften (del I)"
+  - id: NO-LB-NATIONAL-FOF
+    e_text: "Forsyningsforskriften (del I)"
     f_text: >-
       Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt i
       Forsyningsforskriften § 5-2, og er derfor underlagt bestemmelsene i
       Forsyningsforskriftens del I.
-  - e_text: "Forskrift om forsvars- og sikkerhetsanskaffelser - FOSA (del I)"
+  - id: NO-LB-NATIONAL-FOSA
+    e_text: "Forskrift om forsvars- og sikkerhetsanskaffelser - FOSA (del I)"
     f_text: >-
       Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt
       i Forskrift om forsvars- og sikkerhetsanskaffelser § 2-2, og er derfor
