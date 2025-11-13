@@ -1,0 +1,20 @@
+---
+id: no:legal-basis-procedure-national-literals
+description: >-
+  Tillatte fritekst-par for BT-01(e) og BT-01(f) i nasjonale
+  kunngjøringsskjema for anskaffelser under EØS-terskelverdier.
+pairs:
+  - e_text: "Anskaffelsesforskriften - FOA (del I og II)"
+    f_text: >-
+      Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt
+      i Anskaffelsesforskriftens § 5-3, og er derfor underlagt
+      bestemmelsene i Anskaffelsesforskriftens del I og II.
+  - e_text: "Konsesjonskontraktforskriften (del I)"
+    f_text: >-
+      Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt i
+      Konsesjonskontraktforskriften § 5-1, og er derfor underlagt
+      bestemmelsene i Konsesjonskontraktforskriftens del I.
+normalization:
+  trime: true
+  collapseSpaces: true
+  unicodeNFC: true

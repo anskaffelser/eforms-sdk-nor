@@ -1,13 +1,20 @@
 ---
 meta:
-    id: NOR-national-E2-overlay
-    noticeType: E2
-    version: 0.1.0
+  id: NOR-national-E2-overlay
+  noticeType: E2
+  version: 0.1.0
 
-namespaces:
-    doffin: "https://data.doffin.no/vocab/no-eforms#"
-    epo: "http://data.europa.eu/a4g/ontology#"
-    xsd: "http://www.w3.org/2001/XMLSchema#"
+rules:
+  - id: NOR-R-NationalLegalBasis-required
+    kind: requireBoth
+    fields:
+      - "BT-01(e)-Procedure"
+      - "BT-01(f)-Procedure"
 
-fields:
-    - id: NO-legal-basis-procedure
+  - id: NOR-R-NationalLegalBasis-pair
+    kind: literalPairAllowed
+    primary: "BT-01(e)-Procedure"
+    secondary: "BT-01(e)-Procedure"
+    literalPairsRef: "no:legal-basis-procedure-national-literals"
+
+
