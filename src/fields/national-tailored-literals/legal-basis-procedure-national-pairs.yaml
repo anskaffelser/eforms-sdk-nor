@@ -14,6 +14,17 @@ pairs:
       Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt i
       Konsesjonskontraktforskriften § 5-1, og er derfor underlagt
       bestemmelsene i Konsesjonskontraktforskriftens del I.
+  - e_text: "Forsyningsforskriften (del I)"
+    f_text: >-
+      Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt i
+      Forsyningsforskriften § 5-2, og er derfor underlagt bestemmelsene i
+      Forsyningsforskriftens del I.
+  - e_text: "Forskrift om forsvars- og sikkerhetsanskaffelser - FOSA (del I)"
+    f_text: >-
+      Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt
+      i Forskrift om forsvars- og sikkerhetsanskaffelser § 2-2, og er derfor
+      underlagt bestemmelsene i Forskrift om forsvars- og
+      sikkerhetsanskaffelser del I.
 normalization:
   trime: true
   collapseSpaces: true
