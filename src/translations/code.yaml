@@ -41844,7 +41844,7 @@ code|name|cpv.63121110:
   nob_verify: false
 code|name|cpv.63122000:
   name: Warehousing services
-  nob: "#N/A"
+  nob: Lagringstjenester
   history:
   - name: Warehousing services
     nob: Lagringstjenester
@@ -43047,7 +43047,7 @@ code|name|cpv.66720000:
   nob_verify: false
 code|name|cpv.70000000:
   name: Real estate services
-  nob: "#N/A"
+  nob: Virksomhet i forbindelse med fast eiendom
   history:
   - name: Real estate services
     nob: Virksomhet i forbindelse med fast eiendom

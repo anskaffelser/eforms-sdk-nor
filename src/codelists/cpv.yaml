@@ -39380,7 +39380,7 @@
   nob_verify: false
 '63122000':
   name: Warehousing services
-  nob: "#N/A"
+  nob: Lagringstjenester
   history:
   - name: Warehousing services
     nob: Lagringstjenester
@@ -40583,7 +40583,7 @@
   nob_verify: false
 '70000000':
   name: Real estate services
-  nob: "#N/A"
+  nob: Virksomhet i forbindelse med fast eiendom
   history:
   - name: Real estate services
     nob: Virksomhet i forbindelse med fast eiendom
