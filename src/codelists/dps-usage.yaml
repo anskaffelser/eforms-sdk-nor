@@ -16,7 +16,7 @@ dps-nlist:
   nob_verify: false
 none:
   name: No dynamic purchase system
-  nob: Ingen/Nei
+  nob: Ingen dynamisk innkjøpsordning
   history:
   - name: No dynamic purchase system
   - name: Ingen

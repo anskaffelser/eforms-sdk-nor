@@ -3790,7 +3790,9 @@ business-term|description|BT-815:
   name: The quantity provided or estimated. For products please report the number of products. For buildings, please report the useful floor area in m2. For works or services no value is needed
 business-term|description|BT-821:
   name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
-  nob: Kilde for tildelingskriterier, for eksempel anskaffelsesdokumentene eller i ESPD
+  nob: Der kvalifikasjonskravene er definert, for eksempel i anskaffelsesdokumentene eller i ESPD
+  history: []
+  nob_verify: false
 business-term|description|OPT-080:
   name: The specified metric is about yearly energy consumption
 business-term|description|OPT-081:

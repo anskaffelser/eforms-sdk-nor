@@ -210,7 +210,7 @@ field|name|BT-105-Procedure:
   nob_verify: false
 field|name|BT-106-Procedure:
   name: The procedure is accelerated
-  nob: Prosedyren er akselerert
+  nob: Prosedyren er en hasteprosedyre
   history:
   - name: The procedure is accelerated
     nob: Prosedyren er akselerert
@@ -21105,7 +21105,7 @@ field|name|BT-105-Procedure-List:
   name: Type of procedure
 field|name|BT-106-Procedure-List:
   name: The procedure is accelerated
-  nob: Prosedyren er akselerert
+  nob: Prosedyren er en hasteprosedyre
 field|name|BT-109-Lot-Language:
   name: Justification for the duration of the framework agreement
 field|name|BT-11-Procedure-Buyer-List:
@@ -22551,7 +22551,7 @@ field|description|BT-815-LotResult:
   name: The quantity provided or estimated. For products please report the number of products. For buildings, please report the useful floor area in m2. For works or services no value is needed
 field|description|BT-821-Lot:
   name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
-  nob: Der tildelingskriteriene er definert, for eksempel i anskaffelsesdokumentene eller i ESPD
+  nob: Der kvalifikasjonskravene er definert, for eksempel i anskaffelsesdokumentene eller i ESPD
   history:
     - name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
       history: []
@@ -22559,7 +22559,7 @@ field|description|BT-821-Lot:
   nob_verify: false
 field|description|BT-821-Lot-List:
   name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
-  nob: Der tildelingskriteriene er definert, for eksempel i anskaffelsesdokumentene eller i ESPD
+  nob: Der kvalifikasjonskravene er definert, for eksempel i anskaffelsesdokumentene eller i ESPD
   history:
    - name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
      history: []
@@ -22659,12 +22659,12 @@ field|name|BT-815-LotResult:
   name: Energy efficiency quantity
 field|name|BT-821-Lot:
   name: Source of selection criteria
-  nob: Tildelingskriterienes kilde
+  nob: Kvalifikasjonskravenes kilde
   history: []
   nob_verify: false
 field|name|BT-821-Lot-List:
   name: Source of selection criteria
-  nob: Tildelingskriterienes kilde
+  nob: Kvalifikasjonskravenes kilde
   history: []
   nob_verify: false
 field|name|OPT-080-LotResult:

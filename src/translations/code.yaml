@@ -58738,7 +58738,7 @@ code|name|non-publication-identifier.not-val:
   nob_verify: true
 code|name|non-publication-identifier.pro-acc:
   name: The procedure is accelerated (BT-106)
-  nob: Prosedyren er akselerert (BT-106)
+  nob: Prosedyren er en hasteprosedyre (BT-106)
   history:
   - name: The procedure is accelerated (BT-106)
     history: []
