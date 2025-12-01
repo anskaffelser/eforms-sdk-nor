@@ -1,0 +1,2 @@
+* Statlig innkjøper?
+BT-11-procedure-buyer, sjekk juridisk type
