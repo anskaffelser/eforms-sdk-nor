@@ -1,0 +1,39 @@
+
+annex:
+  name: Special Services CPV List (Norwegian Regulation)
+  source: FOA Annex 2
+  services:
+    - cpv_code: "75200000"
+      description:
+        - name: "Provision of services to the community"
+          nob: "Samfunnstjenester"
+    - cpv_code: "79611000"
+      description:
+        - name: "Job searching services"
+          nob: "Jobbsøkingstjenester"
+    - cpv_code: "79622000"
+      description:
+        - name: "Supply services of domestic help personnel"
+          nob: "Formidling av hushjelpspersonal"
+    - cpv_code: "79624000"
+      description:
+        - name: "Supply services of nursing personnel"
+          nob: "Formidling av hushjelpspersonal"
+    - cpv_code: "79625000"
+      description:
+        - name: "Supply services of medical personnel"
+         nob: "Formidling av medisinsk personal"
+    - cpv_code: "98133000"
+      description:
+        - name: "Services furnished by social membership organisations"
+          nob: "Tjenester levert av sosiale medlemskapsorganisasjoner"
+    - cpv_code: "98200000"
+      description:
+        - name: "Equal opportunities consultancy services"
+          nob: "Konsulenttjenester for likestilling"
+    - cpv_start: ""
+      cpv_end: ""
+      description:
+        - nob: 
+          name:
+
