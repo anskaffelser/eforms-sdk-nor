@@ -1,0 +1,22 @@
+annex:
+    name: "Helse- og sosialtjenester som er omfattet av § 30-2"
+    source: "FOA Vedlegg 4"
+    type: "services"
+    services:
+    -   cpv_start: "85000000"
+        cpv_end: "85323000"
+        description:
+            name: "Health and social work services"
+            nob: "Helse- og sosial tjenesteyting"
+    -   cpv_code: "75121000"
+        description:
+            name: "Administrative educational services"
+            nob: "Administrative utdanningstjenester"
+    -   cpv_code: "75122000"
+        description:
+            name: "Administrative healthcare services"
+            nob: "Administrative helsetjenester"
+    -   cpv_code: "75123000"
+        description:
+            name: "Administrative housing services"
+            nob: "Administrative boligtjenester"

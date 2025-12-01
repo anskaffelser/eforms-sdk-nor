@@ -1,0 +1,109 @@
+annex:
+    name: "Bygge- og anleggsaktiviteter"
+    source: "FOA Vedlegg 1"
+    type: "works"
+    services:
+    -   cpv_code: "45000000"
+        description:
+            name: "Construction work"
+            nob: "Bygge- og anleggsvirksomhet"
+    -   cpv_code: "45100000"
+        description:
+            name: "Site preparation work"
+            nob: "Forberedende anleggsarbeid"
+    -   cpv_code: "45110000"
+        description:
+            name: "Building demolition and wrecking work and earthmoving work"
+            nob: "Nedrivning av bygninger og jordarbeid"
+    -   cpv_code: "45120000"
+        description:
+            name: "Test drilling and boring work"
+            nob: "Prøvedrilling og -boring"
+    -   cpv_code: "45200000"
+        description:
+            name: "Works for complete or part construction and civil engineering work"
+            nob: "Deler av eller komplette byggekonstruksjoner samt anleggsarbeider"
+    -   cpv_code: "45210000"
+        exclusions:
+        - "45213316"
+        description:
+            name: "Building construction work"
+            nob: "Byggearbeid"
+    -   cpv_code: "45261000"
+        description:
+            name: "Erection and related works of roof frames and coverings"
+            nob: "Montasje av takkonstruksjoner og taktekking samt følgearbeid"
+    -   cpv_code: "45212212"
+        exclusions:
+        - "45231000"
+        - "45232000"
+        - "45234115"
+        description:
+            name: "Construction work for swimming pool"
+            nob: "Byggearbeid i forbindelse med svømmebassenger"
+    -   cpv_code: "45240000"
+        description:
+            name: "Construction work for water projects"
+            nob: "Anleggsarbeid i forbindelse med vannprosjekter"
+    -   cpv_code: "45250000"
+        description:
+            name: "Construction works for plants, mining and manufacturing and for\
+                \ buildings relating to the oil and gas industry"
+            nob: "Anleggsarbeid i forbindelse med kraftverk, gruve-, fremstillingsvirksomheter\
+                \ samt bygninger relatert til olje- og gassindustrien"
+    -   cpv_code: "45300000"
+        description:
+            name: "Building installation work"
+            nob: "Byggningsinnstallasjonsarbeid"
+    -   cpv_code: "45213316"
+        exclusions:
+        - "45316000"
+        description:
+            name: "Installation works of walkways"
+            nob: "Installasjonsarbeid av gangvei"
+    -   cpv_code: "45320000"
+        description:
+            name: "Insulation work"
+            nob: "Isoleringsarbeid"
+    -   cpv_code: "45330000"
+        description:
+            name: "Plumbing and sanitary works"
+            nob: "Blikkenslager og rørleggerarbeid"
+    -   cpv_code: "45234115"
+        description:
+            name: "Railway signalling works"
+            nob: "Arbeid i forbindelse med signalutstyr til jernbaner"
+    -   cpv_code: "45400000"
+        description:
+            name: "Building completion work"
+            nob: "Ferdigstillende bygningsarbeid"
+    -   cpv_code: "45410000"
+        description:
+            name: "Plastering work"
+            nob: "Pussearbeid"
+    -   cpv_code: "45420000"
+        description:
+            name: "Joinery and carpentry installation work"
+            nob: "Snekkermonteringsarbeid"
+    -   cpv_code: "45430000"
+        description:
+            name: "Floor and wall covering work"
+            nob: "Utførelse av gulvlegging og veggbekledning"
+    -   cpv_code: "45440000"
+        description:
+            name: "Painting and glazing work"
+            nob: "Maler- og glassarbeide"
+    -   cpv_code: "45212212"
+        description:
+            name: "Construction work for swimming pool"
+            nob: "Byggearbeid i forbindelse med svømmebassenger"
+    -   cpv_code: "45500000"
+        description:
+            name: "Hire of construction and civil engineering machinery and equipment\
+                \ with operator"
+            nob: "Utleie av entreprenørmateriell og -utstyr med operatør"
+    -   cpv_code: "45500000"
+        description:
+            name: "Hire of construction and civil engineering machinery and equipment\
+                \ with operator"
+            nob: "Utleie av entreprenørmateriell og -utstyr med operatør"

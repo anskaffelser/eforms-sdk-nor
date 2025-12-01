@@ -1,0 +1,57 @@
+annex:
+    name: "Helse- og sosialtjenester"
+    source: "FOA Vedlegg 3"
+    type: "services"
+    services:
+    -   cpv_start: "85000000"
+        cpv_end: "85323000"
+        description:
+            name: "Health and social work services"
+            nob: "Helse- og sosial tjenesteyting"
+    -   cpv_code: "85321000"
+        description:
+            name: "Administrative social services"
+            nob: "Administrativ tjenester i forbindelse med sosialtjenester"
+    -   cpv_code: "85322000"
+        description:
+            name: "Community action programme"
+            nob: "Kommunale handlingsprogrammer"
+    -   cpv_code: "98133100"
+        description:
+            name: "Civic betterment and community facility support services"
+            nob: "Forbedring av samfunnet og støttetjenester til befolkningen"
+    -   cpv_start: "98513000"
+        cpv_end: "98514000"
+        description:
+            name: "Manpower services for households"
+            nob: "Arbeidskrafttjenester innen private husholdninger"
+    -   cpv_code: "75121000"
+        description:
+            name: "Administrative educational services"
+            nob: "Administrative utdanningstjenester"
+    -   cpv_code: "75122000"
+        description:
+            name: "Administrative healthcare services"
+            nob: "Administrative helsetjenester"
+    -   cpv_code: "75123000"
+        description:
+            name: "Administrative housing services"
+            nob: "Administrative boligtjenester"
+    -   cpv_code: "75231200"
+        description:
+            name: "Services related to the detention or rehabilitation of criminals"
+            nob: "Tjenester i tilknytning til forvaring eller rehabilitering av kriminelle"
+    -   cpv_start: "75231210"
+        cpv_end: "75231230"
+        description:
+            name: "Imprisonment services"
+            nob: "Tjenester i forbindelse med fengsling"
+    -   cpv_code: "75231240"
+        description:
+            name: "Probation services"
+            nob: "Tilsynsvergetjenester"
+    -   cpv_start: "80000000"
+        cpv_end: "80660000"
+        description:
+            name: "Education and training services"
+            nob: "Tjenester i forbindelse med trening og utdannelse"
