@@ -34,6 +34,30 @@ rules:
           4) Forskrift om forsvars- og sikkerhetsanskaffelser
 
   # ========================================================================== #
+  # Oppdragsgivertypen angir terskelverdier for EØS-kunngjøringer.
+  # At BT-11-Procedure-Buyer påkreves i nasjonale kunngjøringer, utløser
+  # underliggende skjemavalideringsregel om at BT-10-Procedure-Buyer
+  # også må angis.
+  # ========================================================================== #
+  - id: NOR-R-BT11-Procedure-Buyer
+    kind: require
+    field: "BT-11-Procedure-Buyer"
+    description: 
+      nob: >-
+        Typen oppdragsgiver angir hvem forskriften gjelder, og påvirker
+        EØS-terskelverdiene for kunngjøring.
+        
+  - id: NOR-R-BT10-Procedure-Buyer
+    kind: require
+    field: "BT-10-Procedure-Buyer"
+    description: 
+      nob: >-
+        Oppdragsgivers hovedaktivitet er obligatorisk. Dette følger av
+        underliggende skjemavalideringsregler fra EU-kommisjonen,
+        der BT-10 påkreves når BT-11 er angitt. I sum sikrer dette korrekt
+        identifisering av oppdragsgivertypen, iht. FOA § 1-2.
+
+  # ========================================================================== #
   # Validerer at valutaen er NOK for at verdien skal tolkes korrekt i
   # nasjonalt skjema.
   # ========================================================================== #
@@ -72,30 +96,165 @@ rules:
         delkontraktene, jf. FOA § 5-4 (8) og § 5-2
         
   # ========================================================================== #
-  # Oppdragsgivertypen angir terskelverdier for EØS-kunngjøringer.
-  # At BT-11-Procedure-Buyer påkreves i nasjonale kunngjøringer, utløser
-  # underliggende skjemavalideringsregel om at BT-10-Procedure-Buyer
-  # også må angis.
+  # 1. EØS-terskel: Særlige tjenester, helse- og sosialtjenester
+  #                 FOA Vedlegg 2 og 3
   # ========================================================================== #
-  - id: NOR-R-BT11-Procedure-Buyer
-    kind: require
-    field: "BT-11-Procedure-Buyer"
+  - id: NOR-R-BT27-Procedure-MaxGeneralSpecialServices
+    kind: maximumValue
+    field: "BT-27-Procedure"
+    value: 7_800_000
+    condition: 
+      - field: "BT-262-Procedure"
+        kind: fixedValue
+        value: "cpv"
+        description:
+          nob: >-
+            Forskrift om offentlige anskaffelser identifiserer særlige tjenester,
+            og helse- og sosialtjenester, ved CPV-koder angitt i vedleggene 2 og
+            3.
+      - kind: anyOf
+        conditions: 
+          - field: "BT-26(m)-Procedure"
+            kind: codeAllowed
+            codeListRef: "no:foa-appendix-2"
+            description:
+              nob: >-
+                Hoved-CPV-koden er i kodelista for særlige tjenester 
+                (Forskrift om offentlige anskaffelser, Vedlegg 2)
+          - field: "BT-26(m)-Procedure"
+            kind: codeAllowed
+            codeListRef: "no:foa-appendix-3"
+            description:
+              nob: >-
+                Hoved-CPV-koden er i kodelista for helse- og sosialtjenester 
+                (Forskrift om offentlige anskaffelser, Vedlegg 3)
+      - kind: not
+        conditions: 
+          - field: "BT-10-Procedure-Buyer"
+            kind: codeAllowed
+            codeListRef: "no:main-activity-utilities"
+            description:
+              nob: >-
+                Forsyningsforskriftens virkeområde knyttes til utøvelsen
+                av forsyningsaktiviteter, som beskrevet i Forsyningsforskriftens
+                § 1-2.
     description: 
       nob: >-
-        Typen oppdragsgiver angir hvem forskriften gjelder, og påvirker
-        EØS-terskelverdiene for kunngjøring.
+        Ved anskaffelse av særlige tjenester, og helse- og sosialtjenester,
+        jf. FOA § 5-3, må anskaffelsens samlede verdi være mindre enn den
+        gjeldende EØS-terskelverdien på 7.8 MNOK.
         
-  - id: NOR-R-BT10-Procedure-Buyer
-    kind: require
-    field: "BT-10-Procedure-Buyer"
+  # ========================================================================== #
+  # 2. EØS-terskel: Bygge- og anleggskontrakter, FOA Vedlegg 1
+  # ========================================================================== #
+  - id: NOR-R-BT27-Procedure-MaxAllWorks
+    kind: maximumValue
+    field: "BT-27-Procedure"
+    value: 57_800_000
+    condition: 
+      - field: "BT-262-Procedure"
+        kind: fixedValue
+        value: "cpv"
+        description:
+          nob: >-
+            Forskrift om offentlige anskaffelser identifiserer bygge- og
+            anleggskontrakter ved CPV-koder angitt i vedlegg 1.
+      - field: "BT-26(m)-Procedure"
+        kind: codeAllowed
+        codeListRef: "no:foa-appendix-1"
+        description:
+          nob: >-
+            Hoved-CPV-koden er i kodelista for bygge- og anleggskontrakter 
+            (Forskrift om offentlige anskaffelser, Vedlegg 1)
     description: 
       nob: >-
-        Oppdragsgivers hovedaktivitet er obligatorisk. Dette følger av
-        underliggende skjemavalideringsregler fra EU-kommisjonen,
-        der BT-10 påkreves når BT-11 er angitt. I sum sikrer dette korrekt
-        identifisering av oppdragsgivertypen, iht. FOA § 1-2.
-    
+        Ved anskaffelse av bygge- og anleggsarbeider, 
+        jf. FOA § 5-3, må anskaffelsens samlede verdi være mindre enn den
+        gjeldende EØS-terskelverdien på 57.8 MNOK.
 
-        
-        
+  # ========================================================================== #
+  # 3. EØS-terskel: Forsyningsforskriften
+  # ========================================================================== #
+  - id: NOR-R-BT27-Procedure-MaxUtilitiesGeneralGoodsServices
+    kind: maximumValue
+    field: "BT-27-Procedure"
+    value: 4_600_000
+    condition: 
+      - field: "BT-10-Procedure-Buyer"
+        kind: codeAllowed
+        codeListRef: "no:main-activity-utilities"
+        description:
+          nob: >-
+            Forsyningsforskriftens virkeområde knyttes til utøvelsen
+            av forsyningsaktiviteter, som beskrevet i Forsyningsforskriftens
+            § 1-2.
       
+      - kind: not
+        conditions:
+          - field: "BT-262-Procedure"
+            kind: fixedValue
+            value: "cpv"
+            description:
+              nob: >-
+                Forskrift om offentlige anskaffelser identifiserer bygge- og
+                anleggskontrakter, særlige tjenester, og helse- og sosialtjenester
+                ved CPV-koder angitt i vedlegg 1, 2 og 3.
+          - kind: anyOf
+            conditions:
+            - field: "BT-26(m)-Procedure"
+              kind: codeAllowed
+              codeListRef: "no:foa-appendix-1"
+              description:
+                nob: >-
+                  Hoved-CPV-koden er i kodelista for bygge- og anleggskontrakter 
+                  (Forskrift om offentlige anskaffelser, Vedlegg 1)
+            - field: "BT-26(m)-Procedure"
+              kind: codeAllowed
+              codeListRef: "no:foa-appendix-2"
+              description:
+                nob: >-
+                  Hoved-CPV-koden er i kodelista for særlige tjenester 
+                  (Forskrift om offentlige anskaffelser, Vedlegg 2)
+            - field: "BT-26(m)-Procedure"
+              kind: codeAllowed
+              codeListRef: "no:foa-appendix-3"
+              description:
+                nob: >-
+                  Hoved-CPV-koden er i kodelista for helse- og sosialtjenester 
+                  (Forskrift om offentlige anskaffelser, Vedlegg 3)
+          
+    description: 
+      nob: >-
+        Ved anskaffelser knyttet til utførelsen av forsyningsaktiviteter,
+        jf. Forsyningsforskriften § 1-2, må anskaffelsens samlede verdi
+        være mindre enn den gjeldende EØS-terskelverdien på 
+        4.6 MNOK.
+        
+  - id: NOR-R-BT-27-Procedure-MaxUtilitiesSpecialServices
+    kind: maximumValue
+    field: "BT-27-Procedure"
+    value: 10_400_000
+    condition: 
+      - field: "BT-262-Procedure"
+        kind: fixedValue
+        value: "cpv"
+      - kind: anyOf
+        conditions: 
+          - field: "BT-26(m)-Procedure"
+            kind: codeAllowed
+            codeListRef: "no:foa-appendix-2"
+            description:
+              nob: >-
+                Hoved-CPV-koden er i kodelista for særlige tjenester 
+                (Forskrift om offentlige anskaffelser, Vedlegg 2)
+          - field: "BT-26(m)-Procedure"
+            kind: codeAllowed
+            codeListRef: "no:foa-appendix-3"
+            description:
+              nob: >-
+                Hoved-CPV-koden er i kodelista for helse- og sosialtjenester 
+                (Forskrift om offentlige anskaffelser, Vedlegg 3)
+    description: 
+      nob: >-
+        Ved anskaffelser knyttet til særlige tjenester eller helse- og
+        sosialtjenester, jf. Forsyningsforskriftens § 5-2, 
