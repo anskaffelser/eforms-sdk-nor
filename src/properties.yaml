@@ -2,4 +2,4 @@ sdk_minor: '1.13'
 sdk_patch: '0'
 
 versions:
-  - 1.13.0
+  - 1.13.0-patch2

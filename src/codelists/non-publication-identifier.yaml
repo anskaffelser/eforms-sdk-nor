@@ -192,7 +192,7 @@ not-val:
   nob_verify: true
 pro-acc:
   name: Procedure Accelerated (BT-106)
-  nob: Prosedyren er akselerert (BT-106)
+  nob: Prosedyren er en hasteprosedyre (BT-106)
   history:
   - name: The procedure is accelerated (BT-106)
     history: []

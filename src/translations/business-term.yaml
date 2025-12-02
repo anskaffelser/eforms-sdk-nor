@@ -807,7 +807,7 @@ business-term|name|BT-77:
   nob_verify: true
 business-term|name|BT-743:
   name: Electronic invoicing
-  nob: Elektronisk fakturering
+  nob: eFaktura
   history: []
   nob_verify: true
 business-term|name|BT-93:
@@ -3790,6 +3790,9 @@ business-term|description|BT-815:
   name: The quantity provided or estimated. For products please report the number of products. For buildings, please report the useful floor area in m2. For works or services no value is needed
 business-term|description|BT-821:
   name: Where the selection criteria are defined, for example, the procurement documents or in ESPD
+  nob: Der kvalifikasjonskravene er definert, for eksempel i anskaffelsesdokumentene eller i ESPD
+  history: []
+  nob_verify: false
 business-term|description|OPT-080:
   name: The specified metric is about yearly energy consumption
 business-term|description|OPT-081:
@@ -3834,6 +3837,9 @@ business-term|name|BT-815:
   name: Energy efficiency quantity
 business-term|name|BT-821:
   name: Source of selection criteria
+  nob: Tildelingskriterienes kilde
+  history: []
+  nob_verify: false
 business-term|name|OPT-080:
   name: EED consumption metric
 business-term|name|OPT-081:
