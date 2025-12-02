@@ -15148,7 +15148,7 @@ field|description|BT-26(m)-Procedure:
   nob_verify: false
 field|description|BT-262-Lot:
   name: The code from the classification that best characterises the purchase.
-  nob: CPV-Koden fra klassifiseringen som best kjennetegner kjøpet.
+  nob: Klassifiseringskoden (CPV-koden) som best kjennetegner kjøpet.
   history:
   - name: The code from the classification that best characterises the purchase.
     nob: Koden fra klassifiseringen som best kjennetegner kjøpet.
@@ -21884,7 +21884,7 @@ field|name|BT-98-Lot-Unit:
   nob_verify: false
 field|name|BT-99-Lot-Language:
   name: Information about review deadlines
-  nob: Informasjon om gjennomgangsfrister
+  nob: Beskrivelse av klagefrister
   history: []
   nob_verify: false
 field|name|OPP-010-notice-Scheme:

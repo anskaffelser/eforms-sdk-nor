@@ -184,7 +184,7 @@ expression|name|12:
   nob_verify: false
 expression|name|120:
   name: "'Postal address' (BT-5101(a)-Procedure) is not filled in"
-  nob: Postadresse' (BT-5101(a)-prosedyre) er ikke fylt ut
+  nob: Postadresse' (BT-5101(a)-Procedure) er ikke fylt ut
   history:
   - name: "'Postal address' (BT-5101(a)-Procedure) is not filled in"
     history: []
@@ -208,7 +208,7 @@ expression|name|122:
   nob_verify: false
 expression|name|123:
   name: "'Postal address' (BT-5101(b)-Procedure) is not filled in"
-  nob: Postadresse' (BT-5101(b)-prosedyre) er ikke fylt ut
+  nob: Postadresse' (BT-5101(b)-Procedure) er ikke fylt ut
   history:
   - name: "'Postal address' (BT-5101(b)-Procedure) is not filled in"
     history: []
@@ -536,7 +536,7 @@ expression|name|162:
   nob_verify: false
 expression|name|163:
   name: "'Main classification' (BT-262-Procedure) is not filled in"
-  nob: Hovedklassifisering» (BT-262-prosedyre) er ikke utfylt
+  nob: Hovedklassifisering» (BT-262-Procedure) er ikke utfylt
   history:
   - name: "'Main classification' (BT-262-Procedure) is not filled in"
     history: []
@@ -560,7 +560,7 @@ expression|name|165:
   nob_verify: false
 expression|name|166:
   name: "'Additional classification' (BT-263-Procedure) is not filled in"
-  nob: Tilleggsklassifisering» (BT-263-prosedyre) er ikke utfylt
+  nob: Tilleggsklassifisering» (BT-263-Procedure) er ikke utfylt
   history:
   - name: "'Additional classification' (BT-263-Procedure) is not filled in"
     history: []
@@ -624,7 +624,7 @@ expression|name|172:
   nob_verify: false
 expression|name|173:
   name: "'Main nature of the contract' (BT-23-Procedure) is not filled in"
-  nob: Kontraktens art» (BT-23-Prosedyre) er ikke utfylt
+  nob: Kontraktens art» (BT-23-Procedure) er ikke utfylt
   history:
   - name: "'Nature of the contract' (BT-23-Procedure) is not filled in"
     history: []
@@ -992,7 +992,7 @@ expression|name|213:
   nob_verify: false
 expression|name|214:
   name: "'Applicable cross-border law' (BT-09(b)-Procedure) is not filled in"
-  nob: Gjeldende grenseoverskridende lov» (BT-09(b)-prosedyre) er ikke utfylt
+  nob: Gjeldende grenseoverskridende lov» (BT-09(b)-Procedure) er ikke utfylt
   history:
   - name: "'Applicable cross-border law' (BT-09(b)-Procedure) is not filled in"
     history: []
@@ -1000,7 +1000,7 @@ expression|name|214:
   nob_verify: false
 expression|name|215:
   name: "'Type of procedure' (BT-105-Procedure) is not filled in"
-  nob: Type prosedyre» (BT-105-prosedyre) er ikke utfylt
+  nob: Type prosedyre» (BT-105-Procedure) er ikke utfylt
   history:
   - name: "'Type of procedure' (BT-105-Procedure) is not filled in"
     history: []
@@ -1008,7 +1008,7 @@ expression|name|215:
   nob_verify: false
 expression|name|216:
   name: "'The procedure is accelerated' (BT-106-Procedure) is not filled in"
-  nob: Prosedyren er en hasteprosedyre' (BT-106-prosedyre) er ikke fylt ut
+  nob: «Prosedyren er en hasteprosedyre» (BT-106-procedure) er ikke angitt
   history:
   - name: "'The procedure is accelerated' (BT-106-Procedure) is not filled in"
     history: []
@@ -1024,7 +1024,7 @@ expression|name|217:
   nob_verify: true
 expression|name|218:
   name: "'Identifier of the previous procedure that justifies direct award' (BT-1252-Procedure) is not filled in"
-  nob: Identifikator for tidligere prosedyre som begrunner direkte tildeling» (BT-1252-prosedyre) er ikke fylt ut
+  nob: Identifikator for tidligere prosedyre som begrunner direkte tildeling» (BT-1252-Procedure) er ikke fylt ut
   history:
   - name: "'Identifier of the previous procedure that justifies direct award' (BT-1252-Procedure) is not filled in"
     history: []
@@ -1032,7 +1032,7 @@ expression|name|218:
   nob_verify: false
 expression|name|219:
   name: "'Other justification' (BT-135-Procedure) is not filled in"
-  nob: Annen begrunnelse» (BT-135-Prosedyre) er ikke utfylt
+  nob: Annen begrunnelse» (BT-135-Procedure) er ikke utfylt
   history:
   - name: "'Other justification' (BT-135-Procedure) is not filled in"
     history: []
@@ -1048,7 +1048,7 @@ expression|name|22:
   nob_verify: false
 expression|name|220:
   name: "'Justification for the accelerated procedure' (BT-1351-Procedure) is not filled in"
-  nob: Begrunnelse for hurtigprosedyren» (BT-1351-Prosedyre) er ikke utfylt
+  nob: Begrunnelse for hurtigprosedyren» (BT-1351-Procedure) er ikke utfylt
   history:
   - name: "'Justification for the accelerated procedure' (BT-1351-Procedure) is not filled in"
     history: []
@@ -1056,7 +1056,7 @@ expression|name|220:
   nob_verify: false
 expression|name|221:
   name: "'Justification for direct award' (BT-136-Procedure) is not filled in"
-  nob: Begrunnelse for direkte tildeling» (BT-136-Prosedyre) er ikke utfylt
+  nob: Begrunnelse for direkte tildeling» (BT-136-Procedure) er ikke utfylt
   history:
   - name: "'Justification for direct award' (BT-136-Procedure) is not filled in"
     history: []
@@ -1432,7 +1432,7 @@ expression|name|263:
   nob_verify: false
 expression|name|264:
   name: "'Main features of the procedure' (BT-88-Procedure) is not filled in"
-  nob: Hovedtrekkene i prosedyren» (BT-88-prosedyren) er ikke fylt ut
+  nob: Hovedtrekkene i prosedyren» (BT-88-Proceduren) er ikke fylt ut
   history:
   - name: "'Main features of the procedure' (BT-88-Procedure) is not filled in"
     history: []
@@ -1440,7 +1440,7 @@ expression|name|264:
   nob_verify: false
 expression|name|265:
   name: "'Field to publish later' (BT-195(BT-09)-Procedure) is not filled in"
-  nob: Feltet som skal publiseres senere» (BT-195(BT-09)-prosedyre) fylles ikke ut
+  nob: Feltet som skal publiseres senere» (BT-195(BT-09)-Procedure) fylles ikke ut
   history:
   - name: "'Field to publish later' (BT-195(BT-09)-Procedure) is not filled in"
     history: []
@@ -1448,7 +1448,7 @@ expression|name|265:
   nob_verify: false
 expression|name|266:
   name: "'Field to publish later' (BT-195(BT-105)-Procedure) is not filled in"
-  nob: Feltet som skal publiseres senere» (BT-195(BT-105)-Prosedyre) er ikke fylt ut
+  nob: Feltet som skal publiseres senere» (BT-195(BT-105)-Procedure) er ikke fylt ut
   history:
   - name: "'Field to publish later' (BT-195(BT-105)-Procedure) is not filled in"
     history: []
@@ -1456,7 +1456,7 @@ expression|name|266:
   nob_verify: false
 expression|name|267:
   name: "'Field to publish later' (BT-195(BT-106)-Procedure) is not filled in"
-  nob: Felt som skal publiseres senere» (BT-195(BT-106)-prosedyre) er ikke fylt ut
+  nob: Felt som skal publiseres senere» (BT-195(BT-106)-Procedure) er ikke fylt ut
   history:
   - name: "'Field to publish later' (BT-195(BT-106)-Procedure) is not filled in"
     history: []
@@ -1472,7 +1472,7 @@ expression|name|268:
   nob_verify: false
 expression|name|269:
   name: "'Field to publish later' (BT-195(BT-1252)-Procedure) is not filled in"
-  nob: Felt som skal publiseres senere» (BT-195(BT-1252)-prosedyre) fylles ikke ut
+  nob: Felt som skal publiseres senere» (BT-195(BT-1252)-Procedure) fylles ikke ut
   history:
   - name: "'Field to publish later' (BT-195(BT-1252)-Procedure) is not filled in"
     history: []
@@ -1488,7 +1488,7 @@ expression|name|27:
   nob_verify: false
 expression|name|270:
   name: "'Field to publish later' (BT-195(BT-135)-Procedure) is not filled in"
-  nob: Feltet som skal publiseres senere» (BT-195(BT-135)-prosedyre) fylles ikke ut
+  nob: Feltet som skal publiseres senere» (BT-195(BT-135)-Procedure) fylles ikke ut
   history:
   - name: "'Field to publish later' (BT-195(BT-135)-Procedure) is not filled in"
     history: []
@@ -1496,7 +1496,7 @@ expression|name|270:
   nob_verify: false
 expression|name|271:
   name: "'Field to publish later' (BT-195(BT-1351)-Procedure) is not filled in"
-  nob: Felt som skal publiseres senere» (BT-195(BT-1351)-prosedyre) er ikke fylt ut
+  nob: Felt som skal publiseres senere» (BT-195(BT-1351)-Procedure) er ikke fylt ut
   history:
   - name: "'Field to publish later' (BT-195(BT-1351)-Procedure) is not filled in"
     history: []
@@ -1504,7 +1504,7 @@ expression|name|271:
   nob_verify: false
 expression|name|272:
   name: "'Field to publish later' (BT-195(BT-136)-Procedure) is not filled in"
-  nob: Feltet som skal publiseres senere» (BT-195(BT-136)-prosedyre) er ikke fylt ut
+  nob: Feltet som skal publiseres senere» (BT-195(BT-136)-Procedure) er ikke fylt ut
   history:
   - name: "'Field to publish later' (BT-195(BT-136)-Procedure) is not filled in"
     history: []
@@ -1888,7 +1888,7 @@ expression|name|314:
   nob_verify: false
 expression|name|315:
   name: "'Field to publish later' (BT-195(BT-88)-Procedure) is not filled in"
-  nob: Felt som skal publiseres senere» (BT-195(BT-88)-prosedyre) fylles ikke ut
+  nob: Felt som skal publiseres senere» (BT-195(BT-88)-Procedure) fylles ikke ut
   history:
   - name: "'Field to publish later' (BT-195(BT-88)-Procedure) is not filled in"
     history: []
@@ -1992,7 +1992,7 @@ expression|name|326:
   nob_verify: false
 expression|name|327:
   name: "'Justification for direct award' (BT-136-Procedure) is one of the following: 'New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive'; 'No suitable tenders, requests to participate, or applications were received in response to a previous notice'; 'Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive'; 'Service contract to be awarded to the winner or one of winners under the rules of a design contest'"
-  nob: 'Begrunnelse for direkte tildeling» (BT-136-prosedyre) er ett av følgende: «Nye arbeider eller tjenester, som utgjør en gjentakelse av eksisterende verk eller tjenester og bestilles i samsvar med de strenge vilkårene i direktivet''; «Ingen egnede anbud, forespørsler om å delta eller søknader ble mottatt som svar på en tidligere kunngjøring», jf. «Delvis utskifting eller utvidelse av eksisterende varer eller installasjoner av den opprinnelige leverandøren som er bestilt på de strenge vilkårene som er angitt i direktivet», "Servicekontrakt som skal tildeles vinneren eller en av vinnerne i henhold til reglene for en designkonkurranse"'
+  nob: 'Begrunnelse for direkte tildeling» (BT-136-Procedure) er ett av følgende: «Nye arbeider eller tjenester, som utgjør en gjentakelse av eksisterende verk eller tjenester og bestilles i samsvar med de strenge vilkårene i direktivet''; «Ingen egnede anbud, forespørsler om å delta eller søknader ble mottatt som svar på en tidligere kunngjøring», jf. «Delvis utskifting eller utvidelse av eksisterende varer eller installasjoner av den opprinnelige leverandøren som er bestilt på de strenge vilkårene som er angitt i direktivet», "Servicekontrakt som skal tildeles vinneren eller en av vinnerne i henhold til reglene for en designkonkurranse"'
   history:
   - name: "'Justification for direct award' (BT-136-Procedure) is one of the following: 'New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive'; 'No suitable tenders, requests to participate, or applications were received in response to a previous notice'; 'Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive'; 'Service contract to be awarded to the winner or one of winners under the rules of a design contest'"
     history: []
@@ -2032,7 +2032,7 @@ expression|name|330:
   nob_verify: false
 expression|name|331:
   name: "'Legal type of the buyer' (BT-11-Procedure-Buyer) is not one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'Group of public authorities'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a contracting authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Regional authority'"
-  nob: 'Kjøperens juridiske type» (BT-11-Prosedyre-Kjøper) er ikke en av følgende: «Offentligrettslig organ»; «offentligrettslig organ, kontrollert av en statlig myndighet», jf. «Offentligrettslig organ, kontrollert av en lokal myndighet», jf. «offentligrettslig organ, kontrollert av en regional myndighet», jf. «statlig myndighet», jf. ''Forsvarsentreprenør''; «EU-institusjonen, -organet eller -byrået», «Gruppe av offentlige myndigheter», jf. ''Internasjonal organisasjon''; ''Lokal myndighet''; «organisasjon som tildeler en kontrakt subsidiert av en oppdragsgiver», «organisasjon som tildeler en kontrakt subsidiert av en statlig myndighet», «Organisasjon som tildeler en kontrakt subsidiert av en kommune», jf. «organisasjon som tildeler en kontrakt subsidiert av en regional myndighet», «Regional myndighet»'
+  nob: 'Kjøperens juridiske type» (BT-11-Procedure-Kjøper) er ikke en av følgende: «Offentligrettslig organ»; «offentligrettslig organ, kontrollert av en statlig myndighet», jf. «Offentligrettslig organ, kontrollert av en lokal myndighet», jf. «offentligrettslig organ, kontrollert av en regional myndighet», jf. «statlig myndighet», jf. ''Forsvarsentreprenør''; «EU-institusjonen, -organet eller -byrået», «Gruppe av offentlige myndigheter», jf. ''Internasjonal organisasjon''; ''Lokal myndighet''; «organisasjon som tildeler en kontrakt subsidiert av en oppdragsgiver», «organisasjon som tildeler en kontrakt subsidiert av en statlig myndighet», «Organisasjon som tildeler en kontrakt subsidiert av en kommune», jf. «organisasjon som tildeler en kontrakt subsidiert av en regional myndighet», «Regional myndighet»'
   history:
   - name: "'Legal type of the buyer' (BT-11-Procedure-Buyer) is not one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'Group of public authorities'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a contracting authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Regional authority'"
     history: []
@@ -2552,7 +2552,7 @@ expression|name|394:
   nob_verify: false
 expression|name|395:
   name: "'Applicable cross-border law' (BT-09(a)-Procedure) is not filled in"
-  nob: Gjeldende grenseoverskridende lov» (BT-09(a)-prosedyre) er ikke utfylt
+  nob: Gjeldende grenseoverskridende lov» (BT-09(a)-Procedure) er ikke utfylt
   history:
   - name: "'Applicable cross-border law' (BT-09(a)-Procedure) is not filled in"
     history: []
@@ -2560,7 +2560,7 @@ expression|name|395:
   nob_verify: false
 expression|name|4:
   name: "'The procedure is accelerated' (BT-106-Procedure) is not 'yes'"
-  nob: Prosedyren er en hasteprosedyre» (BT-106-prosedyre) er ikke «ja»
+  nob: «Prosedyren er en hasteprosedyre» (BT-106-procedure) er ikke «ja»
   history:
   - name: "'The procedure is accelerated' (BT-106-Procedure) is not 'yes'"
     history: []
@@ -2680,7 +2680,7 @@ expression|name|50:
   nob_verify: true
 expression|name|500:
   name: "'Legal basis' (BT-01(e)-Procedure) is not filled in"
-  nob: Rettslig grunnlag» (BT-01(e)-prosedyre) er ikke fylt ut
+  nob: Rettslig grunnlag» (BT-01(e)-Procedure) er ikke fylt ut
   history:
   - name: "'Legal basis' (BT-01(e)-Procedure) is not filled in"
     history: []
@@ -2968,7 +2968,7 @@ expression|name|59:
   nob_verify: false
 expression|name|6:
   name: "'Country subdivision (NUTS)' (BT-5071-Procedure) is filled in"
-  nob: Landunderenhet» (BT-5071-Prosedyre) fylles ut
+  nob: Landunderenhet» (BT-5071-Procedure) fylles ut
   history:
   - name: "'Country subentity' (BT-5071-Procedure) is filled in"
     history: []
@@ -2984,7 +2984,7 @@ expression|name|60:
   nob_verify: false
 expression|name|61:
   name: "'Justification for direct award' (BT-136-Procedure) is not one of the following: 'Only irregular or unacceptable tenders were received in response to a previous notice. All and only those tenderers of the previous procedure which have satisfied the selection criteria, have not fulfilled the exclusion grounds and have satisfied formal requirements, were included in the negotiations'; 'Need for additional works or services by the original contractor'; 'New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive'; 'No suitable tenders, requests to participate, or applications were received in response to a previous notice'; 'Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive'; 'Service contract to be awarded to the winner or one of winners under the rules of a design contest'"
-  nob: 'Begrunnelse for direkte tildeling» (BT-136-prosedyre) er ikke en av følgende: «Kun irregulære eller uakseptable anbud ble mottatt som følge av et tidligere varsel. Alle og bare de tilbydere av den tidligere framgangsmåten som har oppfylt utvelgingskriteriene, ikke har oppfylt utelukkelsesgrunnene og har oppfylt formelle krav, ble inkludert i forhandlingene. «behov for ytterligere bygge- og anleggsarbeider eller tjenester fra den opprinnelige entreprenøren», «nye bygge- og anleggsarbeider eller tjenester som utgjør en gjentakelse av eksisterende bygge- og anleggsarbeider eller tjenester og som er bestilt på de strenge vilkår som er fastsatt i direktivet», «Ingen egnede anbud, forespørsler om å delta eller søknader ble mottatt som svar på en tidligere kunngjøring», jf. «Delvis utskifting eller utvidelse av eksisterende varer eller installasjoner av den opprinnelige leverandøren som er bestilt på de strenge vilkårene som er angitt i direktivet», "Servicekontrakt som skal tildeles vinneren eller en av vinnerne i henhold til reglene for en designkonkurranse"'
+  nob: 'Begrunnelse for direkte tildeling» (BT-136-Procedure) er ikke en av følgende: «Kun irregulære eller uakseptable anbud ble mottatt som følge av et tidligere varsel. Alle og bare de tilbydere av den tidligere framgangsmåten som har oppfylt utvelgingskriteriene, ikke har oppfylt utelukkelsesgrunnene og har oppfylt formelle krav, ble inkludert i forhandlingene. «behov for ytterligere bygge- og anleggsarbeider eller tjenester fra den opprinnelige entreprenøren», «nye bygge- og anleggsarbeider eller tjenester som utgjør en gjentakelse av eksisterende bygge- og anleggsarbeider eller tjenester og som er bestilt på de strenge vilkår som er fastsatt i direktivet», «Ingen egnede anbud, forespørsler om å delta eller søknader ble mottatt som svar på en tidligere kunngjøring», jf. «Delvis utskifting eller utvidelse av eksisterende varer eller installasjoner av den opprinnelige leverandøren som er bestilt på de strenge vilkårene som er angitt i direktivet», "Servicekontrakt som skal tildeles vinneren eller en av vinnerne i henhold til reglene for en designkonkurranse"'
   history:
   - name: "'Justification for direct award' (BT-136-Procedure) is not one of the following: 'Only irregular or unacceptable tenders were received in response to a previous notice. All and only those tenderers of the previous procedure which have satisfied the selection criteria, have not fulfilled the exclusion grounds and have satisfied formal requirements, were included in the negotiations'; 'Need for additional works or services by the original contractor'; 'New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive'; 'No suitable tenders, requests to participate, or applications were received in response to a previous notice'; 'Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive'; 'Service contract to be awarded to the winner or one of winners under the rules of a design contest'"
     history: []
@@ -3232,7 +3232,7 @@ expression|name|94:
   nob_verify: false
 expression|name|95:
   name: "'Other restrictions on the place of performance' (BT-727-Procedure) is 'Anywhere' or 'Anywhere in the European Economic Area'"
-  nob: Andre restriksjoner på ytelsesstedet' (BT-727-prosedyre) er 'Hvor som helst' eller 'Hvor som helst i Det europeiske økonomiske samarbeidsområdet'
+  nob: Andre restriksjoner på ytelsesstedet' (BT-727-Procedure) er 'Hvor som helst' eller 'Hvor som helst i Det europeiske økonomiske samarbeidsområdet'
   history:
   - name: "'Other restrictions on the place of performance' (BT-727-Procedure) is 'Anywhere' or 'Anywhere in the European Economic Area'"
     history: []
