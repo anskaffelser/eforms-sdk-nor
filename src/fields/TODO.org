@@ -1,2 +1,5 @@
 * Statlig innkjøper?
 BT-11-procedure-buyer, sjekk juridisk type
+
+* Terskelverdier
+Sjekk juridisk type, og varer/tjenester/bae, jf vedlegg 1-4

@@ -5,28 +5,60 @@ meta:
   version: 0.1.0
 
 rules:
+  # ========================================================================== #
+  # Nasjonalt rettsgrunnlag
+  # Gjeldende lovhjemmel for anskaffelsen indikerer innslagspunkter for økende
+  # regelmessig kompleksitetsnivå ut fra terskelverdier gitt i forskrift
+  # ========================================================================== #
   - id: NOR-R-NationalLegalBasis-required
     kind: requireBoth
     fields:
       - "BT-01(e)-Procedure"
       - "BT-01(f)-Procedure"
+    description:
+      nob: >-
+        Rettslig grunnlag må angis for nasjonale anskaffelser, jf. FOA Kapittel
+        1 og 2.
 
   - id: NOR-R-NationalLegalBasis-pair
     kind: literalPairAllowed
     primary: "BT-01(e)-Procedure"
     secondary: "BT-01(f)-Procedure"
     literalPairsRef: "no:legal-basis-procedure-national-literals"
+    description: 
+      nob: >-
+        For nasjonale anskaffelser er gyldige lovhjemler en av følgende:
+          1) Forskrift om offentlige anskaffelser
+          2) Konsesjonskontraktforskriften
+          3) Forsyningsforskriften
+          4) Forskrift om forsvars- og sikkerhetsanskaffelser
 
+  # ========================================================================== #
+  # Validerer at valutaen er NOK for at verdien skal tolkes korrekt i
+  # nasjonalt skjema.
+  # ========================================================================== #
   - id: NOR-R-BT27-Procedure-Currency-NOK
     kind: fixedValue
     field: "BT-27-Procedure-Currency"
     value: "NOK"
+    description: 
+      nob: >-
+        Estimert verdi må oppgis i norsk valuta (NOK) i nasjonal kunngjøring, jf.
+        FOA §5-3 og §5-4
 
   - id: NOR-R-BT27-Part-Currency-NOK
     kind: fixedValue
     field: "BT-27-Part-Currency"
     value: "NOK"
+    description: 
+      nob: >-
+        Estimert verdi må oppgis i norsk valuta (NOK) i nasjonal kunngjøring, jf.
+        FOA § 5-3 og § 5-4
 
+  # ========================================================================== #
+  # Teknisk validering av at summen av verdiene av delkontraktene skal være
+  # lik anskaffelsens verdi (konsistens)
+  # ========================================================================== #
   - id: NOR-R-BT27-Procedure-SumOfParts
     kind: sumEquals
     parentField: "BT-27-Procedure"
@@ -34,3 +66,36 @@ rules:
     groupBy: "Procedure"
     currencyFieldParent: "BT-27-Procedure-Currency"
     currencyFieldChild: "BT-27-Part-Currency"
+    description: 
+      nob: >-
+        Anskaffelsens estimerte verdi må samsvare med summen av verdien for
+        delkontraktene, jf. FOA § 5-4 (8) og § 5-2
+        
+  # ========================================================================== #
+  # Oppdragsgivertypen angir terskelverdier for EØS-kunngjøringer.
+  # At BT-11-Procedure-Buyer påkreves i nasjonale kunngjøringer, utløser
+  # underliggende skjemavalideringsregel om at BT-10-Procedure-Buyer
+  # også må angis.
+  # ========================================================================== #
+  - id: NOR-R-BT11-Procedure-Buyer
+    kind: require
+    field: "BT-11-Procedure-Buyer"
+    description: 
+      nob: >-
+        Typen oppdragsgiver angir hvem forskriften gjelder, og påvirker
+        EØS-terskelverdiene for kunngjøring.
+        
+  - id: NOR-R-BT10-Procedure-Buyer
+    kind: require
+    field: "BT-10-Procedure-Buyer"
+    description: 
+      nob: >-
+        Oppdragsgivers hovedaktivitet er obligatorisk. Dette følger av
+        underliggende skjemavalideringsregler fra EU-kommisjonen,
+        der BT-10 påkreves når BT-11 er angitt. I sum sikrer dette korrekt
+        identifisering av oppdragsgivertypen, iht. FOA § 1-2.
+    
+
+        
+        
+      
