@@ -140,9 +140,9 @@ rules:
                 § 1-2.
     description: 
       nob: >-
-        Ved anskaffelse av særlige tjenester, og helse- og sosialtjenester,
-        jf. FOA § 5-3, må anskaffelsens samlede verdi være mindre enn den
-        gjeldende EØS-terskelverdien på 7.8 MNOK.
+        Ved nasjonale anskaffelser av særlige tjenester, og helse- og 
+        sosialtjenester, jf. FOA § 5-3, må anskaffelsens samlede verdi være
+        mindre enn den gjeldende EØS-terskelverdien på 7.8 MNOK.
         
   # ========================================================================== #
   # 2. EØS-terskel: Bygge- og anleggskontrakter, FOA Vedlegg 1
@@ -168,7 +168,7 @@ rules:
             (Forskrift om offentlige anskaffelser, Vedlegg 1)
     description: 
       nob: >-
-        Ved anskaffelse av bygge- og anleggsarbeider, 
+        Ved nasjonale anskaffelser av bygge- og anleggsarbeider, 
         jf. FOA § 5-3, må anskaffelsens samlede verdi være mindre enn den
         gjeldende EØS-terskelverdien på 57.8 MNOK.
 
@@ -225,10 +225,10 @@ rules:
           
     description: 
       nob: >-
-        Ved anskaffelser knyttet til utførelsen av forsyningsaktiviteter,
-        jf. Forsyningsforskriften § 1-2, må anskaffelsens samlede verdi
-        være mindre enn den gjeldende EØS-terskelverdien på 
-        4.6 MNOK.
+        Ved nasjonael anskaffelser knyttet til utførelsen av
+        forsyningsaktiviteter, jf. Forsyningsforskriften § 1-2, må
+        anskaffelsens totale verdi være mindre enn den gjeldende 
+        EØS-terskelverdien på 4.6 MNOK.
         
   - id: NOR-R-BT-27-Procedure-MaxUtilitiesSpecialServices
     kind: maximumValue
@@ -256,5 +256,128 @@ rules:
                 (Forskrift om offentlige anskaffelser, Vedlegg 3)
     description: 
       nob: >-
-        Ved anskaffelser knyttet til særlige tjenester eller helse- og
-        sosialtjenester, jf. Forsyningsforskriftens § 5-2, 
+        Ved nasjonale anskaffelser knyttet til særlige tjenester eller helse-
+        og sosialtjenester, jf. Forsyningsforskriftens § 5-2, må anskaffelsens
+        samlede verdi være mindre enn den gjeldende EØS-terskelverdien på
+        10.6 MNOK.
+        
+  # ========================================================================= #
+  # 4. EØS-terskel: Generelle varer/tjenester, ikke-statsstyrte offentlige
+  #                 myndigheter. Gjelder ikke særlige tjenester, helse- og
+  #                 sosialtjenester, eller bygge- og anleggsanskaffelser
+  # ========================================================================= #
+  - id: NOR-R-BT-27-Procedure-RALA-MaxGoodsServices
+    kind: maximumValue
+    field: "BT-27-Procedure"
+    value: 2_300_000
+    condition:
+      - field: "BT-11-Procedure-Buyer"
+        kind: doesNotContain
+        value: "cga"
+
+      - kind: not
+        conditions: 
+          - field: "BT-10-Procedure-Buyer"
+            kind: codeAllowed
+            codeListRef: "no:main-activity-utilities"
+            description:
+              nob: >-
+                Forsyningsforskriftens virkeområde knyttes til utøvelsen
+                av forsyningsaktiviteter, som beskrevet i Forsyningsforskriftens
+                § 1-2.
+
+      - kind: not
+        conditions:
+          - field: "BT-262-Procedure"
+            kind: fixedValue
+            value: "cpv"
+          - kind: anyOf
+            conditions: 
+              - field: "BT-26(m)-Procedure"
+                kind: codeAllowed
+                codeListRef: "no:foa-appendix-1"
+                description:
+                  nob: >-
+                    Hoved-CPV-koden er i kodelista for bygge- og anleggskontrakter 
+                    (Forskrift om offentlige anskaffelser, Vedlegg 1)
+              - field: "BT-26(m)-Procedure"
+                kind: codeAllowed
+                codeListRef: "no:foa-appendix-2"
+                description:
+                  nob: >-
+                    Hoved-CPV-koden er i kodelista for særlige tjenester 
+                    (Forskrift om offentlige anskaffelser, Vedlegg 2)
+              - field: "BT-26(m)-Procedure"
+                kind: codeAllowed
+                codeListRef: "no:foa-appendix-3"
+                description:
+                  nob: >-
+                    Hoved-CPV-koden er i kodelista for helse- og sosialtjenester 
+                    (Forskrift om offentlige anskaffelser, Vedlegg 3)
+    description: 
+      nob: >-
+        Ved nasjonale anskaffelser av generelle varer eller tjenester for
+        alminnelige offentlige myndigheter, må anskaffelsens samlede verdi være
+        mindre enn EØS-terskelverdien på 2.3 MNOK. 
+
+  # ========================================================================= #
+  # 5. EØS-terskel: Generelle varer/tjenester, statlige eller statsstyrte 
+  #                 offentlige myndigheter. Gjelder ikke særlige tjenester, 
+  #                 helse- og sosialtjenester, eller bygge- og 
+  #                 anleggsanskaffelser
+  # ========================================================================= #
+  - id: NOR-R-BT-27-Procedure-CGA-MaxGoodsServices
+    kind: maximumValue
+    field: "BT-27-Procedure"
+    value: 1_490_000
+    condition:
+      - field: "BT-11-Procedure-Buyer"
+        kind: contains
+        value: "cga"
+      
+      - kind: not
+        conditions: 
+          - field: "BT-10-Procedure-Buyer"
+            kind: codeAllowed
+            codeListRef: "no:main-activity-utilities"
+            description:
+              nob: >-
+                Forsyningsforskriftens virkeområde knyttes til utøvelsen
+                av forsyningsaktiviteter, som beskrevet i Forsyningsforskriftens
+                § 1-2.
+
+      - kind: not
+        conditions:
+          - field: "BT-262-Procedure"
+            kind: fixedValue
+            value: "cpv"
+          - kind: anyOf
+            conditions: 
+              - field: "BT-26(m)-Procedure"
+                kind: codeAllowed
+                codeListRef: "no:foa-appendix-1"
+                description:
+                  nob: >-
+                    Hoved-CPV-koden er i kodelista for bygge- og anleggskontrakter 
+                    (Forskrift om offentlige anskaffelser, Vedlegg 1)
+              - field: "BT-26(m)-Procedure"
+                kind: codeAllowed
+                codeListRef: "no:foa-appendix-2"
+                description:
+                  nob: >-
+                    Hoved-CPV-koden er i kodelista for særlige tjenester 
+                    (Forskrift om offentlige anskaffelser, Vedlegg 2)
+              - field: "BT-26(m)-Procedure"
+                kind: codeAllowed
+                codeListRef: "no:foa-appendix-3"
+                description:
+                  nob: >-
+                    Hoved-CPV-koden er i kodelista for helse- og sosialtjenester 
+                    (Forskrift om offentlige anskaffelser, Vedlegg 3)
+    description: 
+      nob: >-
+        Ved nasjonale anskaffelser av generelle varer eller tjenester for
+        statlige offentlige myndigheter, må anskaffelsens samlede verdi være
+        mindre enn EØS-terskelverdien på 1.49 MNOK. 
+
+
