@@ -42,7 +42,7 @@ This SDK completes the official SDK with two extensions needed for the Norwegian
 ### Norwegian eForms extension for compliance with Norwegian Procurement Regulations
 
 For contracting authorities to indicate compliance with [Section 7-9 of Norway's Procurement Regulations](https://lovdata.no/forskrift/2016-08-12-974/§7-9), we have extended the codelist for specifying _award criterion types_. 
-The extension is described in a structured format here: [codelist-no/award-criterion-type.no.yaml](https://github.com/anskaffelser/eforms-sdk-nor/blob/-/src/codelists-no/award-criterion-type.no.yaml). 
+The extension is described in a structured format here: [codelist-no/award-criterion-type.no.yaml](src/codelists-no/award-criterion-type.no.yaml). 
 
 ## How to identify Norwegian eForms?
 
