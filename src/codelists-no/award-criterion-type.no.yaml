@@ -51,18 +51,19 @@ sdk:
   notes: 
     nob: >-
       Denne fila beskriver norske utvidelser av EU-kodeverket for type
-      tildelingskriterium, og hvordan de mappes til verdier gyldige i TEDs 
+      tildelingskriterium, og hvordan de kobles til verdier gyldige i TEDs 
       ontologi.
     nob_verify: false
     nno: >-
-      Denne fila beskriv norske utvidingar av EU-kodeverket for type
-      tildelingskriterium, og korleis dei mappes til verdiar gyldige i TEDs
+      Denne fila skildrer norske utvidingar av EU-kodeverket for type
+      tildelingskriterium, og korleis dei kobles til verdiar gyldige i TEDs
       ontologi.
     nno_verify: false
     eng: >-
       This file describes Norwegian extensions of the EU codelist for award 
       criterion types, and how they are mapped to valid values from the TED
       ontology. 
+    eng_verify: false
 
     
 export_policies:
@@ -88,12 +89,12 @@ export_policies:
     description:
       nob: >-
         Når DFØ, Norges eSender, oversender kunngjøringer til TED, 
-        brukes aldri norske utvidelseskoder direkte. I stedet mapper DFØ
+        brukes aldri norske utvidelseskoder direkte. I stedet kobler DFØ
         disse alltid til kodeverdien `ted_mapping.code`.  
       nob_verify: false
       nno: >-
         Når DFØ, Noregs eSender, sender kunngjeringer over til TED,
-        blir aldri norske utvidingskoder anvendt direkte. I staden mapper
+        blir aldri norske utvidingskoder anvendt direkte. I staden kobler
         DFØ desse alltid til kodeverdien `ted_mapping.code`.
       nno_verify: false
       eng: >-
@@ -113,11 +114,11 @@ codes:
       code: "quality"
       note: 
         nob: >-
-          Ved innsending til TED mapper DFØ denne verdien til `quality`, 
+          Ved innsending til TED kobler DFØ denne verdien til `quality`, 
           jf. `export_policies.ted`.
         nob_verify: false
         nno: >-
-          Ved innsending til TED erstattar DFØ denne verdien med `quality`,
+          Ved innsending til TED kobler DFØ denne verdien med `quality`,
           jf. `export_policies.ted`.
         nno_verify: false
         eng: >-
@@ -162,11 +163,11 @@ codes:
       code: "quality"
       note: 
         nob: >-
-          Ved innsending til TED mapper DFØ denne verdien til `quality`, 
+          Ved innsending til TED kobler DFØ denne verdien til `quality`, 
           jf. `export_policies.ted`.
         nob_verify: false
         nno: >-
-          Ved innsending til TED erstattar DFØ denne verdien med `quality`,
+          Ved innsending til TED kobler DFØ denne verdien med `quality`,
           jf. `export_policies.ted`.
         nno_verify: false
         eng: >-
@@ -221,11 +222,11 @@ codes:
       code: "quality"
       note: 
         nob: >-
-          Ved innsending til TED mapper DFØ denne verdien til `quality`, 
+          Ved innsending til TED kobler DFØ denne verdien til `quality`, 
           jf. `export_policies.ted`.
         nob_verify: false
         nno: >-
-          Ved innsending til TED erstattar DFØ denne verdien med `quality`,
+          Ved innsending til TED kobler DFØ denne verdien med `quality`,
           jf. `export_policies.ted`.
         nno_verify: false
         eng: >-
