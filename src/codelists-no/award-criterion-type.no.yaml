@@ -76,7 +76,7 @@ export_policies:
       nob_verify: false
       nno: >-
         På Doffin, Noregs nasjonale plattform for offentlege innkjøp, blir
-        kodane i denne fila anvendt slik dei er. Det vil seie at 
+        kodane i denne fila brukt slik dei er. Det vil seie at 
         `code`-verdien blir nytta direkte i dataflyten.
       nno_verify: false
       eng: >-
@@ -94,7 +94,7 @@ export_policies:
       nob_verify: false
       nno: >-
         Når DFØ, Noregs eSender, sender kunngjeringer over til TED,
-        blir aldri norske utvidingskoder anvendt direkte. I staden kobler
+        blir aldri norske utvidingskoder brukt direkte. I staden kobler
         DFØ desse alltid til kodeverdien `ted_mapping.code`.
       nno_verify: false
       eng: >-
