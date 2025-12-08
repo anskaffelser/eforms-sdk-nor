@@ -117,12 +117,12 @@ rules:
     value: "NOK"
     description: 
       nob: >-
-        Estimert verdi må oppgis i norsk valuta (NOK) i nasjonal kunngjøring, 
-        jf. FOA § 5-3 og § 5-4.
+        Anskaffelsens estimerte verdi må oppgis i norsk valuta (NOK) i
+        nasjonal kunngjøring, jf. FOA § 5-3 og § 5-4.
       nob_verify: false
       nno: >-
-        Estimert verdi må oppgivast i norsk valuta (NOK) i nasjonal
-        kunngjering, jf. FOA § 5-3 og § 5-4.
+        Den estimerte verdien for anskaffinga må oppgivast i norsk valuta (NOK)
+        i nasjonal kunngjering, jf. FOA § 5-3 og § 5-4.
       nno_verify: false
       eng: >-
         The procurement's estimated value must be provided in Norwegian
@@ -135,12 +135,23 @@ rules:
     value: "NOK"
     description: 
       nob: >-
-        Estimert verdi må oppgis i norsk valuta (NOK) i nasjonal kunngjøring, jf.
-        FOA § 5-3 og § 5-4
+        Estimert verdi for alle delkontrakter må oppgis i norsk valuta (NOK) i
+        nasjonal kunngjøring, jf. FOA § 5-3 og § 5-4.
+      nob_verify: false
+      nno: >-
+        Estimert verdi for alle delkontraktar må oppgivast i norsk valuta (NOK)
+        i nasjonal kunngjering, jf. FOA § 5-3 og § 5-4.
+      nno_verify: false
+      eng: >-
+        The estimated value for all lots must be provided in Norwegian currency
+        (NOK) for national procurement notices, in accordance with Sections 5-3
+        and 5-4 of the Norwegian Public Procurement Legislations.
+        
 
   # ========================================================================== #
-  # Teknisk validering av at summen av verdiene av delkontraktene skal være
-  # lik anskaffelsens verdi (konsistens)
+  # Technical validation, of the sums of the (estimated) values of the lots 
+  # (parts) equals the (estimated) value of the procurement procedure as a 
+  # whole (consistency).
   # ========================================================================== #
   - id: NOR-R-BT27-Procedure-SumOfParts
     kind: sumEquals
@@ -153,6 +164,17 @@ rules:
       nob: >-
         Anskaffelsens estimerte verdi må samsvare med summen av verdien for
         delkontraktene, jf. FOA § 5-4 (8) og § 5-2
+      nob_verify: false
+      nno: >-
+        Den estimerte verdien av anskaffinga må samsvara med summen av verdien
+        for delkontraktane, jf. FOA § 5-4 (8) og § 5-2.
+      nno_verify: false
+      eng: >-
+        The estimated value of the procurement procedure must equal the sum 
+        of the estimated value of its lots, in accordance with Sections
+        5-4 (8) and 5-2 of the Norwegian Public Procurement Legislations.
+      eng_verify: false
+        
         
   # ========================================================================== #
   # 1. EØS-terskel: Særlige tjenester, helse- og sosialtjenester
