@@ -14,7 +14,7 @@ index 26dfd74..e75f146 100644
 +            <SimpleValue>Kvalitet – klima- og miljøkriterium</SimpleValue>
 +         </Value>
 +         <Value ColumnRef="eng_label">
-+            <SimpleValue>Kvalitet – klima- og miljøkriterium</SimpleValue>
++            <SimpleValue>Quality – climate- and environmental criteria</SimpleValue>
 +         </Value>
 +         <Value ColumnRef="nno_label">
 +            <SimpleValue>Kvalitet – klima- og miljøkriterium</SimpleValue>
@@ -31,10 +31,10 @@ index 26dfd74..e75f146 100644
 +            <SimpleValue>Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)</SimpleValue>
 +         </Value>
 +         <Value ColumnRef="eng_label">
-+            <SimpleValue>Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)</SimpleValue>
++            <SimpleValue>Quality – climate- and environmental requirements in the specifications (justified below)</SimpleValue>
 +         </Value>
 +         <Value ColumnRef="nno_label">
-+            <SimpleValue>Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)</SimpleValue>
++            <SimpleValue>Kvalitet – klima- og miljøkrav i kravspesifikasjonen (blir grunngitt under)</SimpleValue>
 +         </Value>
 +         <Value ColumnRef="nob_label">
 +            <SimpleValue>Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)</SimpleValue>
@@ -48,10 +48,10 @@ index 26dfd74..e75f146 100644
 +            <SimpleValue>Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)</SimpleValue>
 +         </Value>
 +         <Value ColumnRef="eng_label">
-+            <SimpleValue>Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)</SimpleValue>
++            <SimpleValue>Quality – negligible climate footprint and environmental impact (justified below)</SimpleValue>
 +         </Value>
 +         <Value ColumnRef="nno_label">
-+            <SimpleValue>Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)</SimpleValue>
++            <SimpleValue>Kvalitet – uvesentleg klimaavtrykk og miljøbelastning (blir grunngitt under)</SimpleValue>
 +         </Value>
 +         <Value ColumnRef="nob_label">
 +            <SimpleValue>Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)</SimpleValue>
