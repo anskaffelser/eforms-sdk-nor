@@ -6,9 +6,10 @@ meta:
 
 rules:
   # ========================================================================== #
-  # Nasjonalt rettsgrunnlag
-  # Gjeldende lovhjemmel for anskaffelsen indikerer innslagspunkter for økende
-  # regelmessig kompleksitetsnivå ut fra terskelverdier gitt i forskrift
+  # National legal basis
+  # The procurement's legal basis indicates trigger points for increasing 
+  # levels of legal complexity, as given by threshold values provided 
+  # in the legal act under which the procurement procedure takes place.
   # ========================================================================== #
   - id: NOR-R-NationalLegalBasis-required
     kind: requireBoth
@@ -19,6 +20,16 @@ rules:
       nob: >-
         Rettslig grunnlag må angis for nasjonale anskaffelser, jf. FOA Kapittel
         1 og 2.
+      nob_verify: false
+      nno: >-
+        Rettsleg grunnlag må angivast for nasjonale anskaffingar, jf. FOA
+        Kapittel 1 og 2.
+      nno_verify: false
+      eng: >-
+        Legal basis must be provided for national procurements, cf. 
+        Chapters 1 and 2 of the Norwegian Public Procurement Legislation.
+      eng_verify: false
+        
 
   - id: NOR-R-NationalLegalBasis-pair
     kind: literalPairAllowed
@@ -32,6 +43,21 @@ rules:
           2) Konsesjonskontraktforskriften
           3) Forsyningsforskriften
           4) Forskrift om forsvars- og sikkerhetsanskaffelser
+      nob_verify: false
+      nno: >-
+        For nasjonale anskaffingar er gyldige lovheimlar ein av følgjande:
+          1) Forskrift om offentlege anskaffingar
+          2) Konsesjonskontraktsforskrifta
+          3) Forsyningsforskrifta
+          4) Forskrift om forsvars- og tryggingsanskaffingar
+      nno_verify: false
+      eng: >-
+        For national procurements, valid legal bases are one of the following:
+          1) Public Procurement Regulations
+          2) Concession Contract Regulations
+          3) Utilities Regulations
+          4) Defence and Security Procurement Regulations
+      eng_verify: false
 
   # ========================================================================== #
   # Oppdragsgivertypen angir terskelverdier for EØS-kunngjøringer.
