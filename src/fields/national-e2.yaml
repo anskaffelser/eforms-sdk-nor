@@ -60,10 +60,11 @@ rules:
       eng_verify: false
 
   # ========================================================================== #
-  # Oppdragsgivertypen angir terskelverdier for EØS-kunngjøringer.
-  # At BT-11-Procedure-Buyer påkreves i nasjonale kunngjøringer, utløser
-  # underliggende skjemavalideringsregel om at BT-10-Procedure-Buyer
-  # også må angis.
+  # The buyer legal type plays a part in determining threshold values, above
+  # which notices must be published on TED.
+  # Requiring BT-11-Procedure-Buyer in national notices, triggers an underlying
+  # form validation rule, ensuring that BT-10-Procedure-Buyer also becomes 
+  # strictly required. 
   # ========================================================================== #
   - id: NOR-R-BT11-Procedure-Buyer
     kind: require
@@ -72,6 +73,16 @@ rules:
       nob: >-
         Typen oppdragsgiver angir hvem forskriften gjelder, og påvirker
         EØS-terskelverdiene for kunngjøring.
+      nob_verify: false
+      nno: >-
+        Typen oppdragsgivar angir kven forskrifta gjeld, og påverkar
+        EØS-terskelverdiane for kunngjering.
+      nno_verify: false
+      eng: >-
+        The buyer legal type determines plays a part in determining the
+        threshold values for which a notice must be published on TED.
+      eng_verify: false
+        
         
   - id: NOR-R-BT10-Procedure-Buyer
     kind: require
@@ -79,13 +90,26 @@ rules:
     description: 
       nob: >-
         Oppdragsgivers hovedaktivitet er obligatorisk. Dette følger av
-        underliggende skjemavalideringsregler fra EU-kommisjonen,
-        der BT-10 påkreves når BT-11 er angitt. I sum sikrer dette korrekt
-        identifisering av oppdragsgivertypen, iht. FOA § 1-2.
-
+        underliggende skjemavalideringsregler fra EU-kommisjonen, der BT-10 
+        påkreves når BT-11 er angitt. I sum sikrer dette korrekt identifisering
+        av oppdragsgivertypen, iht. FOA § 1-2.
+      nob_verify: false
+      nno: >-
+        Oppdragsgivars hovudaktivitet er obligatorisk. Dette følgjer av 
+        underliggjande skjemavalideringsreglar frå EU-kommisjonen, der BT-10
+        blir påkravd når BT-11 er angitt. I sum sikrar dette korrekt
+        identifisering av oppdragsgivartypen, i samsvar med FOA § 1-2.
+      nno_verify: false
+      eng: >-
+        The buyer main activity is mandatory. This follows from underlying 
+        form validation rules from the European Commision, where BT-10 becomes
+        mandatory when BT-11 is provided. Together, this ensures correct
+        identification of the buyer type, in accorrdance with Section 1-2 of 
+        the Norwegian Public Procurement Regulations.
+        
   # ========================================================================== #
-  # Validerer at valutaen er NOK for at verdien skal tolkes korrekt i
-  # nasjonalt skjema.
+  # Validation that the currency is NOK, in order for the procurement's 
+  # (estimated) value to be interpreted correctly in national forms.
   # ========================================================================== #
   - id: NOR-R-BT27-Procedure-Currency-NOK
     kind: fixedValue
@@ -93,8 +117,17 @@ rules:
     value: "NOK"
     description: 
       nob: >-
-        Estimert verdi må oppgis i norsk valuta (NOK) i nasjonal kunngjøring, jf.
-        FOA §5-3 og §5-4
+        Estimert verdi må oppgis i norsk valuta (NOK) i nasjonal kunngjøring, 
+        jf. FOA § 5-3 og § 5-4.
+      nob_verify: false
+      nno: >-
+        Estimert verdi må oppgivast i norsk valuta (NOK) i nasjonal
+        kunngjering, jf. FOA § 5-3 og § 5-4.
+      nno_verify: false
+      eng: >-
+        The procurement's estimated value must be provided in Norwegian
+        currency (NOK) for national procurement notices, in accordance with
+        Sections 5-3 and 5-4 of the Norwegian Public Procurement Legislations.
 
   - id: NOR-R-BT27-Part-Currency-NOK
     kind: fixedValue
