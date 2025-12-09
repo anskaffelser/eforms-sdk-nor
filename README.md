@@ -61,4 +61,3 @@ Example:
 <cbc:CustomizationID>eforms-sdk-1.8#extended#urn:fdc:anskaffelser.no:2023:eforms:national</cbc:CustomizationID> 
 ```
 
-b
