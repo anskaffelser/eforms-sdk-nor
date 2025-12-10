@@ -20,9 +20,13 @@
 #
 # In particular, this document defines and describes additional rules 
 # and validation routines, in order to ensure that national public 
-# procurement procedures, i.e., procurement procedures whose monetary
-# values do not exceed EU//EA threshold levels as defined in the 
-# Norwegian Public Procurement Regulations. 
+# procurement procedures which are expressed as eForms of the Norwegian
+# `E2` kind, follows the provisions stated in the Norwegian Public
+# Procurement Regulations.
+#
+# With `national public proccurement procedures`, we mean public procurement 
+# procedures whose monetary values do not exceed EU/EA threshold levels as
+# defined in the Norwegian Public Procurement Regulations, 
 # 
 # The rules and routines mentioned above are intended to be superimposed
 # as an extension of the schema definition of the eForms type `E2`.
