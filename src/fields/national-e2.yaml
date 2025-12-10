@@ -1,8 +1,61 @@
+# SPDX-License-Identifier: CC-BY-4.0 
+# License: Creative Commons Attribution 4.0 International
+# https://creativecommons.org/licenses/by/4.0
+#
+# NationalE2 - Norwegian eForms extension 
+#      
+# Copyright © 2025 DFØ – The Norwegian Agency for Public and Financial 
+#                        Management
+# 
+# You are free to: 
+# - share – copy and redistribute the material in any medium or format
+# - adapt – remix, transform, and build upon the material for any purpose
+#
+# Under the following terms: 
+# - attribution – you must give appropriate credit to DFØ.
+#
+# This document specifies the Norwegian tailoring of eForms type `E2`,
+# valid for prior information notices or periodic indicative notices,
+# used only for information. 
+#
+# In particular, this document defines and describes additional rules 
+# and validation routines, in order to ensure that national public 
+# procurement procedures, i.e., procurement procedures whose monetary
+# values do not exceed EU//EA threshold levels as defined in the 
+# Norwegian Public Procurement Regulations. 
+# 
+# The rules and routines mentioned above are intended to be superimposed
+# as an extension of the schema definition of the eForms type `E2`.
+#
+# EU Originals are licensed by the Publications Office
+# of the European Union.
 ---
 meta:
   id: NOR-national-E2-overlay
-  noticeType: E2
-  version: 0.1.0
+  noticeType: NOR-E2
+  title: 
+    nob: >-
+      E2 – norsk tilpasning av kunngjøringsskjema for veiledende nasjonale 
+      kunngjøringer, under EU/EØS-terskelverdier.
+    nob_verify: false
+    nno: >-
+      E2 – norsk tilpassing av kunngjeringsskjema for rettleiande nasjonale
+      kunngjeringar, under EU/EØS-terskelverdiar.
+    nno_verify: false
+    eng: >-
+      E2 – Norwegian tailoring of notice forms for national prior information
+      notices, below EU/EEA thresholds.
+    eng_verify: false
+  version: "0.1.0"
+  status: "draft"
+  maintainer: "anskaffelser.no"
+  agency: "DFØ"
+  license:
+    id: "CC-BY-4.0"
+    spdx: "CC-BY-4.0"
+    name: "Creative Commons Attribution 4.0 International"
+    url: "https://creativecommons.org/licenses/by/4.0"
+    attribution_required: true
 
 rules:
   # ========================================================================== #
