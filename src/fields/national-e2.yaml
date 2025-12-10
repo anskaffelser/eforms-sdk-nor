@@ -295,6 +295,7 @@ rules:
               eng: >-
                 The main CPV code is in the code list for social and health
                 services (Norwegian Public Procurement Regulations, Annex 3)
+              eng_verify: false
       - kind: not
         conditions: 
           - field: "BT-10-Procedure-Buyer"
@@ -380,7 +381,7 @@ rules:
             (Forskrift om offentlege anskaffingar, Vedlegg 2).
           nno_verify: false
           eng: >-
-            The main CPV is in the code list for works contracts (Norwegian
+            The main CPV code is in the code list for works contracts (Norwegian
             Public Procurement Regulations, Annex 1). 
     description: 
       nob: >-
@@ -401,7 +402,8 @@ rules:
       eng_verify: false
 
   # ========================================================================== #
-  # 3. EØS-terskel: Forsyningsforskriften
+  # 3rd EU/EEA Threshold: Utilities 
+  #                       The Norwegian Utilities Regulations
   # ========================================================================== #
   - id: NOR-R-BT27-Procedure-MaxUtilitiesGeneralGoodsServices
     kind: maximumValue
@@ -413,9 +415,19 @@ rules:
         codeListRef: "nor:main-activity-utilities"
         description:
           nob: >-
-            Forsyningsforskriftens virkeområde knyttes til utøvelsen
-            av forsyningsaktiviteter, som beskrevet i Forsyningsforskriftens
-            § 1-2.
+            Forsyningsforskriftens virkeområde knyttes til utøvelsen av 
+            forsyningsaktiviteter, som beskrevet i Forsyningsforskriftens § 
+            1-2.
+          nob_verify: false
+          nno: >-
+            Verkeområdet til forsyningsforskrifta blir knytt til utøvinga av
+            forsyningsaktivitetar, som beskrive i Forsyningsforskriftas § 1-2.
+          nno_verify: false
+          eng: >-
+            The scope of the Utilities Regulations is linked to the performance
+            of utilities related activities, as described in Section 1-2 of the
+            Utilities Regulations.
+          eng_verify: false
       
       - kind: not
         conditions:
@@ -427,6 +439,16 @@ rules:
                 Forskrift om offentlige anskaffelser identifiserer bygge- og
                 anleggskontrakter, særlige tjenester, og helse- og sosialtjenester
                 ved CPV-koder angitt i vedlegg 1, 2 og 3.
+              nob_verify: false
+              nno: >-
+                Forskrift om offentlege anskaffingar identifiserer byggje- og
+                og anleggsarbeidar, særlige tenester, og helse- og
+                sosialtenester, ved CPV-kodar angitt i vedlegga 1, 2 og 3.
+              nno_verify: false
+              eng: >-
+                The Norwegian Public Procurement Regulations identifies works,
+                social, health and other specific services, by means of CPV
+                codes provided in Annexes 1, 2 and 3. 
           - kind: anyOf
             conditions:
             - field: "BT-26(m)-Procedure"
@@ -434,29 +456,71 @@ rules:
               codeListRef: "nor:foa-annex-1"
               description:
                 nob: >-
-                  Hoved-CPV-koden er i kodelista for bygge- og anleggskontrakter 
-                  (Forskrift om offentlige anskaffelser, Vedlegg 1)
+                  Hoved-CPV-koden er i kodelista for bygge- og 
+                  anleggskontrakter (Forskrift om offentlige anskaffelser, 
+                  Vedlegg 1).
+                nob_verify: false
+                nno: >-
+                  Hovud-CPV-koden er i kodelista for byggje- og
+                  anleggskontraktar (Forskrift om offentlege anskaffingar,
+                  Vedlegg 1).
+                nno_verify: false
+                eng: >-
+                  The main CPV code is in the code list for works contracts
+                  (Norwegian Public Procurement Regulations, Annex 1).
             - field: "BT-26(m)-Procedure"
               kind: codeAllowed
               codeListRef: "nor:foa-annex-2"
               description:
                 nob: >-
                   Hoved-CPV-koden er i kodelista for særlige tjenester 
-                  (Forskrift om offentlige anskaffelser, Vedlegg 2)
+                  (Forskrift om offentlige anskaffelser, Vedlegg 2).
+                nob_verify: false
+                nno: >-
+                  Hovud-CPV-koden er i kodelista for særlege tenester
+                  (Forskrift om offentlege anskaffingar, Vedlegg 2).
+                nno_verify: false
+                eng: >-
+                  The main CPV code is in the code list for specific
+                  services (Norwegian Public Procurement Regulations,
+                  Annex 2).
+                eng_verify: false
             - field: "BT-26(m)-Procedure"
               kind: codeAllowed
               codeListRef: "nor:foa-annex-3"
               description:
                 nob: >-
                   Hoved-CPV-koden er i kodelista for helse- og sosialtjenester 
-                  (Forskrift om offentlige anskaffelser, Vedlegg 3)
+                  (Forskrift om offentlige anskaffelser, Vedlegg 3).
+                nob_verify: false
+                nno: >-
+                  Hovud-CPV-koden er i kodelista for helse- og sosialtenester
+                  (Forskrift om offentlege anskaffingar, Vedlegg 3).
+                nno_verify: false
+                eng: >-
+                  The main CPV code is in the code list for social and health
+                  services (Norwegian Public Procurement Regulations, Annex 3).
+                eng_verify: false
           
     description: 
       nob: >-
-        Ved nasjonael anskaffelser knyttet til utførelsen av
+        Ved nasjonale anskaffelser knyttet til utførelsen av
         forsyningsaktiviteter, jf. Forsyningsforskriften § 1-2, må
         anskaffelsens totale verdi være mindre enn den gjeldende 
         EØS-terskelverdien på 4.6 MNOK.
+      nob_verify: false
+      nno: >-
+        Ved nasjonale anskaffingar knyttet til utførelsen av
+        forsyningsaktiviteter, jf. Forsyningsforskriftas § 1-2, må den samla
+        verdien av anskaffinga vera mindre enn den gjeldande EØS-terskelverdien
+        på 4.6 MNOK.
+      nno_verify: false
+      eng: >-
+        For national procurements related to the performance of supply
+        activities, in accordance with Section 5-3 of the Supplies Regulations,
+        the total value of the procured services must not exceed the current
+        EU/EEA threshold of 4.6 MNOK.
+      eng_verify: false
         
   - id: NOR-R-BT-27-Procedure-MaxUtilitiesSpecialServices
     kind: maximumValue
@@ -475,6 +539,16 @@ rules:
               nob: >-
                 Hoved-CPV-koden er i kodelista for særlige tjenester 
                 (Forskrift om offentlige anskaffelser, Vedlegg 2)
+              nob_verify: false
+              nno: >-
+                Hovud-CPV-koden er i kodelista for særlege tenester
+                (Forskrift om offentlege anskaffingar, Vedlegg 2)
+              nno_verify: false
+              eng: >-
+                The main CPV code is in the code list for specific
+                services (Norwegian Public Procurement Regulations, 
+                Annex 2)
+              eng_verify: false
           - field: "BT-26(m)-Procedure"
             kind: codeAllowed
             codeListRef: "nor:foa-annex-3"
@@ -482,12 +556,34 @@ rules:
               nob: >-
                 Hoved-CPV-koden er i kodelista for helse- og sosialtjenester 
                 (Forskrift om offentlige anskaffelser, Vedlegg 3)
+              nob_verify: false
+              nno: >-
+                Hovud-CPV-koden er i kodelista for helse- og sosialtenester
+                (Forskrift om offentlege anskaffingar, Vedlegg 3)
+              nno_verify: false
+              eng: >-
+                The main CPV code is in the code list for social and health
+                services (Norwegian Public Procurement Regulations, Annex 3)
+              eng_verify: false
     description: 
       nob: >-
-        Ved nasjonale anskaffelser knyttet til særlige tjenester eller helse-
-        og sosialtjenester, jf. Forsyningsforskriftens § 5-2, må anskaffelsens
-        samlede verdi være mindre enn den gjeldende EØS-terskelverdien på
-        10.6 MNOK.
+        Ved nasjonale anskaffelser av særlige tjenester, og helse- og
+        sosialtjenester, jf. Forsyningsforskriftens § 5-2, må 
+        anskaffelsens samlede verdi være mindre enn den gjeldende 
+        EØS-terskelverdien på 10.6 MNOK.
+      nob_verify: false
+      nno: >-
+        Ved nasjonale anskaffingar av særlege tenester, og helse- og
+        sosialtenester, jf. Forsyningsforskriftas § 5-2, må den samla verdien
+        av anskaffinga vera mindre enn den gjeldande EØS-terskelverdien på 10.6
+        MNOK.
+      nno_verify: false
+      eng: >-
+        For national procurements of social, health and other specific
+        services, in accordance with Section 5-3 of the Norwegian Utilities
+        Regulations, the total value of the procured services must not exceed
+        the current EU/EEA threshold of 10.6 MNOK.
+      eng_verify: false
         
   # ========================================================================= #
   # 4. EØS-terskel: Generelle varer/tjenester, ikke-statsstyrte offentlige
