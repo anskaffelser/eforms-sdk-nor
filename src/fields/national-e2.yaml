@@ -331,8 +331,8 @@ rules:
       eng: >-
         For national procurements of social, health and other specific 
         services, in accordance with Section 5-3 of the Norwegian Public
-        Procurement Regulations, the total value of the procured services
-        must not exceed the current EU/EEA threshold of 7.8 MNOK.
+        Procurement Regulations, the total value of the procurement must not
+        exceed the current EU/EEA threshold of 7.8 MNOK.
       eng_verify: false
         
   # ========================================================================== #
@@ -520,8 +520,8 @@ rules:
       eng: >-
         For national procurements related to the performance of supply
         activities, in accordance with Section 5-3 of the Supplies Regulations,
-        the total value of the procured services must not exceed the current
-        EU/EEA threshold of 4.6 MNOK.
+        the total value of the procurement must not exceed the current EU/EEA
+        threshold of 4.6 MNOK.
       eng_verify: false
         
   - id: NOR-R-BT-27-Procedure-MaxUtilitiesSpecialServices
@@ -695,15 +695,15 @@ rules:
       eng: >-
         For national procurements of general goods and services for
         contracting authorities not financed or managed by a central
-        government authority, the total value of the procured services
-        must not exceed the current EU/EEA threshold of 2.3 MNOK.
+        government authority, the total value of the procurement must not
+        exceed the current EU/EEA threshold of 2.3 MNOK.
       eng_verify: false
 
   # ========================================================================= #
-  # 5. EØS-terskel: Generelle varer/tjenester, statlige eller statsstyrte 
-  #                 offentlige myndigheter. Gjelder ikke særlige tjenester, 
-  #                 helse- og sosialtjenester, eller bygge- og 
-  #                 anleggsanskaffelser
+  # 5th EU/EEA Threshold: General goods and services, for public authorities
+  #                       *governed* by a central government authority.
+  #                       Not valid for specific services, social and health
+  #                       services, or works contracts. 
   # ========================================================================= #
   - id: NOR-R-BT-27-Procedure-CGA-MaxGoodsServices
     kind: maximumValue
@@ -724,6 +724,17 @@ rules:
                 Forsyningsforskriftens virkeområde knyttes til utøvelsen
                 av forsyningsaktiviteter, som beskrevet i Forsyningsforskriftens
                 § 1-2.
+              nob_verify: false
+              nno: >-
+                Verkeområdet til forsyningsforskrifta blir knytt til utøvinga
+                av forsyningsaktivitetar, som beskrive i Forsyningsforskriftas
+                § 1-2.
+              nno_verify: false
+              eng: >-
+                The scope of the Utilities Regulations is linked to the
+                performance of utilities related activities, as described in
+                Section 1-2 of the Utilities Regulations.
+              eng_verify: false
 
       - kind: not
         conditions:
@@ -738,14 +749,33 @@ rules:
                 description:
                   nob: >-
                     Hoved-CPV-koden er i kodelista for bygge- og anleggskontrakter 
-                    (Forskrift om offentlige anskaffelser, Vedlegg 1)
+                    (Forskrift om offentlige anskaffelser, Vedlegg 1).
+                  nob_verify: false
+                  nno: >-
+                    Hovud-CPV-koden er i kodelista for byggje- og anleggskontraktar
+                    (Forskrift om offentlege anskaffingar, Vedlegg 2).
+                  nno_verify: false
+                  eng: >-
+                    The main CPV code is in the code list for works contracts (Norwegian
+                    Public Procurement Regulations, Annex 1). 
+                  eng_verify: false
               - field: "BT-26(m)-Procedure"
                 kind: codeAllowed
                 codeListRef: "nor:foa-annex-2"
                 description:
                   nob: >-
                     Hoved-CPV-koden er i kodelista for særlige tjenester 
-                    (Forskrift om offentlige anskaffelser, Vedlegg 2)
+                    (Forskrift om offentlige anskaffelser, Vedlegg 2).
+                  nob_verify: false
+                  nno: >-
+                    Hovud-CPV-koden er i kodelista for særlege tenester
+                    (Forskrift om offentlege anskaffingar, Vedlegg 2).
+                  nno_verify: false
+                  eng: >-
+                    The main CPV code is in the code list for specific
+                    services (Norwegian Public Procurement Regulations,
+                    Annex 2).
+                  eng_verify: false
               - field: "BT-26(m)-Procedure"
                 kind: codeAllowed
                 codeListRef: "nor:foa-annex-3"
@@ -753,10 +783,29 @@ rules:
                   nob: >-
                     Hoved-CPV-koden er i kodelista for helse- og sosialtjenester 
                     (Forskrift om offentlige anskaffelser, Vedlegg 3)
+                  nob_verify: false
+                  nno: >-
+                    Hovud-CPV-koden er i kodelista for helse- og sosialtenester
+                    (Forskrift om offentlege anskaffingar, Vedlegg 3)
+                  nno_verify: false
+                  eng: >-
+                    The main CPV code is in the code list for social and health
+                    services (Norwegian Public Procurement Regulations, Annex 3)
+                  eng_verify: false
     description: 
       nob: >-
         Ved nasjonale anskaffelser av generelle varer eller tjenester for
         statlige offentlige myndigheter, må anskaffelsens samlede verdi være
         mindre enn EØS-terskelverdien på 1.49 MNOK. 
-
-
+      nob_verify: false
+      nno: >-
+        Ved nasjonale anskaffingar av generelle varer eller tenester for
+        statlege offentlege myndigheitar, må den samla verdien av anskaffinga
+        vere mindre enn den gjeldande EØS-terskelverdien på 1.49 MNOK.
+      nno_verify: false
+      eng: >-
+        For national procurements of general goods and services for contracting
+        authorities financed or managed by a central government authority, the
+        total value of the procurement must not exceed the current EU/EEA
+        threshold of 1.49 MNOK.
+      eng_verify: false
