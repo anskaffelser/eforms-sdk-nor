@@ -328,14 +328,23 @@ rules:
         mindre enn den gjeldande EØS-terskelverdien på 7.8 MNOK.
       nno_verify: false
       eng: >-
-        For national pprocurements of social, health and other specific 
+        For national procurements of social, health and other specific 
         services, in accordance with Section 5-3 of the Norwegian Public
         Procurement Regulations, the total value of the procured services
         must not exceed the current EU/EEA threshold of 7.8 MNOK.
       eng_verify: false
         
   # ========================================================================== #
-  # 2. EØS-terskel: Bygge- og anleggskontrakter, FOA Vedlegg 1
+  # 2nd EU/EEA Threshold: Works contracts, i.e., procurements of building and
+  #                       construction contracts
+  #                       Norwegian Public Procurement Regulations Annex 1
+  # 
+  # Note that works contracts for procurements governed by the Utilities
+  # Regulations, and the Concessions Regulations, have coincident EU/EEA 
+  # thresholds as those governed by the (more general) Norwegian Public
+  # Procurement Regulations.
+  #
+  # Accordingly, there is no apparent need to differentiate.
   # ========================================================================== #
   - id: NOR-R-BT27-Procedure-MaxAllWorks
     kind: maximumValue
@@ -349,18 +358,47 @@ rules:
           nob: >-
             Forskrift om offentlige anskaffelser identifiserer bygge- og
             anleggskontrakter ved CPV-koder angitt i vedlegg 1.
+          nob_verify: false
+          nno: >-
+            Forskrift om offentlege anskaffingar identifiserer byggje- og
+            anleggskontraktar ved CPV-kodar angitt i vedlegg 1.
+          nno_verify: false
+          eng: >-
+            The Norwegian Public Procurement Regulations identifies
+            works contracts, by means of CPV codes provided in Annex 1.
+          eng_verify: false
       - field: "BT-26(m)-Procedure"
         kind: codeAllowed
         codeListRef: "nor:foa-annex-1"
         description:
           nob: >-
             Hoved-CPV-koden er i kodelista for bygge- og anleggskontrakter 
-            (Forskrift om offentlige anskaffelser, Vedlegg 1)
+            (Forskrift om offentlige anskaffelser, Vedlegg 1).
+          nob_verify: false
+          nno: >-
+            Hovud-CPV-koden er i kodelista for byggje- og anleggskontraktar
+            (Forskrift om offentlege anskaffingar, Vedlegg 2).
+          nno_verify: false
+          eng: >-
+            The main CPV is in the code list for works contracts (Norwegian
+            Public Procurement Regulations, Annex 1). 
     description: 
       nob: >-
-        Ved nasjonale anskaffelser av bygge- og anleggsarbeider, 
-        jf. FOA § 5-3, må anskaffelsens samlede verdi være mindre enn den
-        gjeldende EØS-terskelverdien på 57.8 MNOK.
+        Ved nasjonale anskaffelser av bygge- og anleggskontrakter, jf. FOA § 
+        5-3, må anskaffelsens samlede verdi være mindre enn den gjeldende 
+        EØS-terskelverdien på 57.8 MNOK.
+      nob_verify: false
+      nno: >-
+        Ved nasjonale anskaffingar av byggje- og anleggskontraktar, jf. FOA § 
+        5-3, må den samla verdien av anskaffinga vera mindre enn den gjeldande
+        EØS-terskelverdien på 57.8 MNOK.
+      nno_verify: false
+      eng: >-
+        For national procurements of work contracts, in accordance with Section
+        5-3 of the Norwegian Public Procurement Regulations, the total value of
+        the procured works must not exceed the current EU/EEA threshold of 57.8
+        MNOK.
+      eng_verify: false
 
   # ========================================================================== #
   # 3. EØS-terskel: Forsyningsforskriften
