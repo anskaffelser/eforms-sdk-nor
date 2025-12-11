@@ -1,6 +1,6 @@
 ---
 annex:
-  id: "no:main-activity-utilities"
+  id: "nor:main-activity-utilities"
   name: "Aktiviteter som kjennetegner oppdragsgivere i Forsyningssektoren"
   source: "Forsyningsforskriften § 1-1"
   type: "buyer-utilities"

@@ -1,4 +1,5 @@
 annex:
+    id: "nor:foa-annex-1"
     name: "Bygge- og anleggsaktiviteter"
     source: "FOA Vedlegg 1"
     type: "works"

@@ -1,4 +1,5 @@
 annex:
+    id: "nor:foa-annex-3"
     name: "Helse- og sosialtjenester"
     source: "FOA Vedlegg 3"
     type: "services"
