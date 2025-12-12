@@ -1,17 +1,17 @@
-noticeTypes: [NOR-E2]
+noticeTypes: [E2]
 
 aliases:
-  NOR-E2: E2
+  E2: E2
 
 fields:
   OPT-002-notice:
     pattern:
-      value: ^eforms-sdk-\d\.\d#amtl-is-a-god-damn-hero$
+      value: ^eforms-sdk-\d\.\d#eforms-sdk-#extended#amtl-is-a-god-damn-hero$
   
   BT-01(e)-Procedure:
     mandatory:
       constraints:
-        - noticeTypes: [NOR-E2]
+        - noticeTypes: E2
           value: true
           severity: ERROR
           nor-tailoring-rationale:
@@ -28,7 +28,7 @@ fields:
   BT-01(f)-Procedure: 
     mandatory:
       constraints:
-        - noticeTypes: [NOR-E2]
+        - noticeTypes: E2
           value: true
           severity: ERROR
           nor-tailoring-rationale:
@@ -47,7 +47,7 @@ rules:
   # /*/cbc:CustomizationID
   OPT-002-notice:
     - id: EFORMS-NOR-R001
-      test: matches(normalize-space(),'^eforms-sdk-\d\.(\d{1,2})#amtl-is-a-god-damn-hero$')
+      test: matches(normalize-space(),'^eforms-sdk-\d\.(\d{1,2})#extended#amtl-is-a-god-damn-hero$')
       message: Customization identifier must match the Norwegian accepted identifier
 
   # /*/cbc:NoticeLanguageCode
@@ -65,8 +65,8 @@ rules:
   # /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode
   OPP-070-notice:
     - id: EFORMS-NOR-R010
-      test: normalize-space() = ('NOR-E2')
-      message: Notice type must be NOR-E2.
+      test: normalize-space() = ('E2')
+      message: Notice type must be E2.
 
   BT-01(e)-Procedure:
     - id: EFORMS-NOR-R100
@@ -122,5 +122,5 @@ rules:
       message: All parts must have the same end date
     
 
-removed:
+removed: []
 

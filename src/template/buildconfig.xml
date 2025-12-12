@@ -62,6 +62,17 @@
         <inherit>eforms-${EFORMS_MINOR}-sch-national-eforms-static</inherit>
         <inherit>eforms-${EFORMS_MINOR}-sch-national-norway</inherit>
     </configuration>
+	
+    <configuration>
+      <identifier>eforms-${EFORMS_MINOR}-national-e2-pin</identifier>
+    
+      <declaration type="xml.ubl">PriorInformationNotice::eforms-sdk-${EFORMS_MINOR}#extended#amtl-is-a-god-damn-hero</declaration>
+    
+      <inherit>eforms-${EFORMS_MINOR}-xsd-pin</inherit>
+      <inherit>eforms-${EFORMS_MINOR}-sch-national-e2-eforms-static</inherit>
+	  <inherit>eforms-${EFORMS_MINOR}-sch-national-e2-norway</inherit>
+    </configuration>
+
 
     <!-- XSD -->
 
@@ -113,5 +124,22 @@
         <identifier>eforms-${EFORMS_MINOR}-sch-national-norway</identifier>
         <file type="sch.xslt" path="sch/national-norway.xslt" />
     </configuration>
+
+	<configuration>
+        <identifier>eforms-${EFORMS_MINOR}-sch-national-e2-eforms-static</identifier>
+        <file type="sch.xslt" path="sch/national-e2-eforms-static.xslt"/>
+    </configuration>
+
+
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-sch-national-e2-norway</identifier>
+        <file type="sch.xslt" path="sch/national-e2-norway.xslt" />
+    </configuration>
+<!--<configuration>
+    <identifier>eforms-${EFORMS_MINOR}-sch-national-e2-eforms-dynamic</identifier>
+    <file type="sch.xslt" path="sch/national-e2-eforms-dynamic.xslt"/>
+</configuration>
+-->
+
 
 </buildConfigurations>
