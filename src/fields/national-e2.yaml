@@ -47,7 +47,7 @@ rules:
   # /*/cbc:CustomizationID
   OPT-002-notice:
     - id: EFORMS-NOR-R001
-      test: matches(normalize-space(),'^eforms-sdk-\d\.(\d{1,2})#extended#urn:fdc:anskaffelser.no:2023:eforms:national$')
+      test: matches(normalize-space(),'^eforms-sdk-\d\.(\d{1,2})#amtl-is-a-god-damn-hero$')
       message: Customization identifier must match the Norwegian accepted identifier
 
   # /*/cbc:NoticeLanguageCode
@@ -67,6 +67,32 @@ rules:
     - id: EFORMS-NOR-R010
       test: normalize-space() = ('NOR-E2')
       message: Notice type must be NOR-E2.
+
+  BT-01(e)-Procedure:
+    - id: EFORMS-NOR-R100
+      test: >
+        not(
+          /*/cac:TenderingTerms
+            /cac:ProcurementLegislationDocumentReference
+              [normalize-space(cbc:ID) = 'LocalLegalBasis']
+        )
+        or
+        normalize-space(
+          /*/cac:TenderingTerms
+            /cac:ProcurementLegislationDocumentReference
+              [normalize-space(cbc:ID) = 'LocalLegalBasis']
+            /cbc:ID
+        )
+        =
+        (
+          'Anskaffelsesforskriften Del 1',
+          'Anskaffelsesforskriften Del 1 og 2',
+          'Forsyningsforskriften Del 1',
+          'Konsesjonskontraktforskriften Del 1',
+          'Forskrift om forsvars- og sikkerhetsanskaffelser Del 1'
+        )
+      message: >
+        Local legal basis must be one of the recognised Norwegian procurement regulations
 
   # /*
   ND-Root:
@@ -93,7 +119,7 @@ rules:
   BT-537-Part:
     - id: EFORMS-NOR-E2-R002
       test: normalize-space() = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:EndDate[1]/normalize-space()
-      message: All parts must have the same start date
+      message: All parts must have the same end date
     
 
 removed:

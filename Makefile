@@ -1,7 +1,11 @@
 EFORMS_MINOR ?= $$(./bin/property -p sdk_minor)
 EFORMS_PATCH ?= $$(./bin/property -p sdk_patch)
 EFORMS_VERSION = $(EFORMS_MINOR).$(EFORMS_PATCH)
-ISSUE_DATETIME = $$(date -v -12H +%Y-%m-%dT%H:%M:%S)
+ISSUE_DATETIME = $$( \
+    date -d '-12 hours' +%Y-%m-%dT%H:%M:%S 2>/dev/null \
+    || date -v -12H +%Y-%m-%dT%H:%M:%S \
+)
+
 ISSUEDATE = $$(echo $(ISSUE_DATETIME) | cut -d'T' -f1)+01:00
 ISSUETIME = $$(echo $(ISSUE_DATETIME) | cut -d'T' -f2)+01:00
 
