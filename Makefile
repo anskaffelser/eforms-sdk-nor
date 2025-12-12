@@ -91,7 +91,8 @@ target/eforms-sdk-nor/efx-grammar: target/eforms-sdk
 
 target/eforms-sdk-nor/fields: \
 	target/eforms-sdk-nor/fields/eu.json \
-	target/eforms-sdk-nor/fields/national.json
+	target/eforms-sdk-nor/fields/national.json \
+	target/eforms-sdk-nor/fields/national-e2.json \
 
 target/eforms-sdk-nor/fields/eu.json: target/eforms-sdk bin/process-fields src/fields/eu.yaml
 	@echo "* Create fields subset (eu)"
@@ -109,11 +110,20 @@ target/eforms-sdk-nor/fields/national.json: target/eforms-sdk bin/process-fields
 		-c src/fields/national.yaml \
 		-o target/eforms-sdk-nor/fields/national.json
 
-target/eforms-sdk-nor/notice-types: target/eforms-sdk bin/process-notice-types src/fields/national.yaml src/fields/eu.yaml
+target/eforms-sdk-nor/fields/national-e2.json: target/eforms-sdk bin/process-fields src/fields/national-e2.yaml
+	@echo "* Create fields subset (national E2)"
+	@mkdir -p target/eforms-sdk-nor/fields
+	@ruby bin/process-fields \
+		-i target/eforms-sdk/fields/fields.json \
+		-c src/fields/national-e2.yaml \
+		-o target/eforms-sdk-nor/fields/national-e2.json
+
+target/eforms-sdk-nor/notice-types: target/eforms-sdk bin/process-notice-types src/fields/national.yaml src/fields/national-e2.yaml src/fields/eu.yaml
 	@echo "* Create notice types"
 	@mkdir -p target/eforms-sdk-nor
 	@./bin/process-notice-types -c src/fields/eu.yaml
 	@./bin/process-notice-types -c src/fields/national.yaml
+	@./bin/process-notice-types -c src/fields/national-e2.yaml
 
 target/eforms-sdk-nor/schemas: target/eforms-sdk
 	@echo "* Copy schemas (XSD)"
@@ -198,6 +208,7 @@ target/eforms-sdk-nor/translations/business-term_nb.xml: target/eforms-sdk src/p
 target/eforms-sdk-nor/view-templates: target/eforms-sdk
 	@./bin/process-view-templates -c src/fields/eu.yaml
 	@./bin/process-view-templates -c src/fields/national.yaml
+	@./bin/process-view-templates -c src/fields/national-e2.yaml
 	@cp target/eforms-sdk/view-templates/summary.efx target/eforms-sdk-nor/view-templates/summary.efx
 
 target/eforms-sdk-nor/xslt: \
@@ -254,9 +265,10 @@ target/sch/national/main.sch: target/sch/national/fields.sch src/template/main.s
 	@mkdir -p target/sch/national
 	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="national" envsubst > target/sch/national/main.sch
 
-target/sch/national/fields.sch: target/eforms-sdk-nor/fields/national.json bin/fields-sch
+target/sch/national/fields.sch: target/eforms-sdk-nor/fields/national.json target/eforms-sdk-nor/fields/national-e2.json bin/fields-sch
 	@mkdir -p target/sch/national
 	@./bin/fields-sch -i target/eforms-sdk-nor/fields/national.json -o target/sch/national/fields.sch
+	@./bin/fields-sch -i target/eforms-sdk-nor/fields/national-e2.json -o target/sch/national/fields-e2.sch
 
 target/schxslt:
 	@mkdir -p target
@@ -347,7 +359,7 @@ target/sch/national-eforms-static.xslt: target/iso-schematron src/xslt/prepare-v
 		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
 		-s:- \
 		-o:target/sch/national-eforms-static.xslt
-	
+
 target/sch/eu-norway.xslt: target/iso-schematron src/xslt/prepare-validator.xslt target/eforms-sdk-nor/schematrons/eu-norway.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \

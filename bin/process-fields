@@ -92,7 +92,8 @@ fields.each do |i, field|
   end
 end
 
-removed = config.fetch('removed', [])
+removed = Array(config['removed'])
+#config.fetch('removed', [])
 
 source['xmlStructure'] = source['xmlStructure'].map do |obj|
   if removed.include? obj['id']

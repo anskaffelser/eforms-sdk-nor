@@ -1008,7 +1008,7 @@ expression|name|215:
   nob_verify: false
 expression|name|216:
   name: "'The procedure is accelerated' (BT-106-Procedure) is not filled in"
-  nob: «Prosedyren er en hasteprosedyre» (BT-106-procedure) er ikke angitt
+  nob: "«Prosedyren er en hasteprosedyre» (BT-106-procedure) er ikke angitt"
   history:
   - name: "'The procedure is accelerated' (BT-106-Procedure) is not filled in"
     history: []
@@ -2560,7 +2560,7 @@ expression|name|395:
   nob_verify: false
 expression|name|4:
   name: "'The procedure is accelerated' (BT-106-Procedure) is not 'yes'"
-  nob: «Prosedyren er en hasteprosedyre» (BT-106-procedure) er ikke «ja»
+  nob: "«Prosedyren er en hasteprosedyre» (BT-106-procedure) er ikke «ja»"
   history:
   - name: "'The procedure is accelerated' (BT-106-Procedure) is not 'yes'"
     history: []

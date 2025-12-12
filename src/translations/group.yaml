@@ -132,7 +132,7 @@ group|name|GR-Lot-AuctionTerms:
   history:
   - name: Terms of the auction
     nob: Vilkår for auksjonen
-    history: [ ]
+    history: []
     nob_verify: false
   - name: Terms of the auction
     history: []
@@ -989,7 +989,7 @@ group|name|GR-Procedure-CrossBorderLaw:
   nob_verify: false
 group|name|GR-Procedure-Description:
   name: Description
-  nob: 'Beskrivelse'
+  nob: Beskrivelse
   history:
   - name: Description
     history: []
@@ -3195,9 +3195,9 @@ group|name|ND-AcceleratedProcedure:
   name: Accelerated procedure
   nob: Hasteprosedyre
   history:
-    - name: Accelerated procedure
-      history: []
-      nob_verify: false
+  - name: Accelerated procedure
+    history: []
+    nob_verify: false
 group|name|ND-AllowedSubcontracting:
   name: Condition on subcontractinng
 group|name|ND-DirectAward:
@@ -3214,9 +3214,9 @@ group|name|ND-LotDPSContractingSystem:
   name: Dynamic Purchasing System
   nob: Dynamisk innkjøpsordning
   history:
-    - name: Dynamic Purchasing System
-      history: []
-      nob_verify: false
+  - name: Dynamic Purchasing System
+    history: []
+    nob_verify: false
   nob_verify: false
 group|name|ND-LotDocAllNonOfficialLanguages:
   name: Procurement documents in unofficial languages
@@ -3322,9 +3322,9 @@ group|name|ND-AuctionTerms:
   name: Terms of the auction
   nob: Auksjonsvilkår
   history:
-    - name: Terms of the auction
-      history: []
-      nob_verify: false
+  - name: Terms of the auction
+    history: []
+    nob_verify: false
   nob_verify: false
 group|name|ND-EEDAssetLabel:
   name: Energy efficiency label of the asset

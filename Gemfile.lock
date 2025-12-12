@@ -2,11 +2,11 @@ GEM
   remote: https://rubygems.org/
   specs:
     deep_merge (1.2.2)
-    mini_portile2 (2.8.7)
-    nokogiri (1.16.5)
+    mini_portile2 (2.8.9)
+    nokogiri (1.18.10)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    racc (1.8.0)
+    racc (1.8.1)
     slop (4.10.1)
     yaml (0.2.1)
 
@@ -16,7 +16,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2.4)
   deep_merge
-  nokogiri (~> 1.13)
+  nokogiri (~> 1.18.9)
   slop (~> 4.9)
   yaml (~> 0.2.0)
 
