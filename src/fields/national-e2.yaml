@@ -10,6 +10,7 @@ fields:
   
   BT-01(e)-Procedure:
     mandatory:
+      value: true
       constraints:
         - noticeTypes: E2
           value: true
@@ -46,44 +47,45 @@ fields:
 rules:
   # /*/cbc:CustomizationID
   OPT-002-notice:
-    - id: EFORMS-NOR-R001
+    - id: EFORMS-NOR-NATIONAL-PI-R001
       test: matches(normalize-space(),'^eforms-sdk-\d\.(\d{1,2})#extended#amtl-is-a-god-damn-hero$')
       message: Customization identifier must match the Norwegian accepted identifier
 
   # /*/cbc:NoticeLanguageCode
   BT-702(a)-notice:
-    - id: EFORMS-NOR-R002
+    - id: EFORMS-NOR-NATIONAL-NL-R001
       test: normalize-space() = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE', 'NOR', 'NOB', 'NNO')
       message: Main language must be Norwegian or one of the official languages.
 
   # /*/cac:AdditionalNoticeLanguage/cbc:ID
   BT-702(b)-notice:
-    - id: EFORMS-NOR-R003
+    - id: EFORMS-NOR-NATIONAL-AL-R001
       test: normalize-space() = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE', 'NOR', 'NOB', 'NNO')
       message: Additional language must be Norwegian or one of the official languages.
 
   # /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode
   OPP-070-notice:
-    - id: EFORMS-NOR-R010
-      test: normalize-space() = ('E2')
-      message: Notice type must be E2.
-
+    - id: EFORMS-NOR-NATIONAL-NT-R001
+      test: normalize-space() = ('E2', 'E3', 'E4')
+      message: Notice type must be E2, E3, or E4.
+      
   BT-01(e)-Procedure:
-    - id: EFORMS-NOR-R100
-      test: >
-        not(
+    - id: EFORMS-NOR-NATIONAL-LB-R001A
+      context: "/*"
+      test: >-
+        count(
           /*/cac:TenderingTerms
             /cac:ProcurementLegislationDocumentReference
-              [normalize-space(cbc:ID) = 'LocalLegalBasis']
-        )
-        or
-        normalize-space(
-          /*/cac:TenderingTerms
-            /cac:ProcurementLegislationDocumentReference
-              [normalize-space(cbc:ID) = 'LocalLegalBasis']
             /cbc:ID
-        )
-        =
+        ) = 1
+      message: "The legal basis for the planned procurement must be provided."
+    - id: EFORMS-NOR-NATIONAL-LB-R001B
+      context: >-
+        /*/cac:TenderingTerms
+          /cac:ProcurementLegislationDocumentReference
+          /cbc:ID
+      test: >-
+        normalize-space(.) =
         (
           'Anskaffelsesforskriften Del 1',
           'Anskaffelsesforskriften Del 1 og 2',
@@ -91,8 +93,99 @@ rules:
           'Konsesjonskontraktforskriften Del 1',
           'Forskrift om forsvars- og sikkerhetsanskaffelser Del 1'
         )
-      message: >
+      message: >-
         Local legal basis must be one of the recognised Norwegian procurement regulations
+
+  BT-01(f)-Procedure:
+    - id: EFORMS-NOR-NATIONAL-LB-R002A
+      context: "/*"
+      test: >-
+        count(
+          /*/cac:TenderingTerms
+            /cac:ProcurementLegislationDocumentReference
+            /cbc:DocumentDescription
+        ) = 1
+      message: "A descriptive text for the legal basis of the planned procurement must be provided."
+    - id: EFORMS-NOR-NATIONAL-LB-R002B
+      context: >-
+          /*/cac:TenderingTerms
+            /cac:ProcurementLegislationDocumentReference
+            /cbc:DocumentDescription
+      test: >-
+        not(
+          normalize-space(
+            ../cbc:ID
+          ) = 'Anskaffelsesforskriften Del 1'
+        )
+        or
+        normalize-space(.) = 'Anskaffelsen har en samlet verdi mindre enn de nasjonale terskelverdiene fastsatt i Anskaffelsesforskriftens § 5-3, og er derfor underlagt bestemmelsene i Anskaffelsesforskriftens Del 1'
+      message: >-
+        When BT-01(e)-Procedure equals 'Anskaffelsesforskriften - Del 1',
+        BT-01(f)-Procedure must contain its accompanying legend.
+    - id: EFORMS-NOR-NATIONAL-LB-R002C
+      context: >-
+          /*/cac:TenderingTerms
+            /cac:ProcurementLegislationDocumentReference
+            /cbc:DocumentDescription
+      test: >-
+        not(
+          normalize-space(
+            ../cbc:ID
+          ) = 'Anskaffelsesforskriften Del 1 og 2'
+        )
+        or
+        normalize-space(.) = 'Anskaffelsen har en samlet verdi over de nasjonale terskelverdiene, og en samlet verdi mindre enn EØS-terskelverdiene fastsatt i Anskaffelsesforskriftens § 5-3, og er derfor underlagt bestemmelsene i Anskaffelsesforskriftens Del 1 og 2.'
+      message: >-
+        When BT-01(e)-Procedure equals 'Anskaffelsesforskriften - Del 1 og 2',
+        BT-01(f)-Procedure must contain its accompanying legend.
+    - id: EFORMS-NOR-NATIONAL-LB-R002D
+      context: >-
+          /*/cac:TenderingTerms
+            /cac:ProcurementLegislationDocumentReference
+            /cbc:DocumentDescription
+      test: >-
+        not(
+          normalize-space(
+            ../cbc:ID
+          ) = 'Konsesjonskontraktforskriften Del 1'
+        )
+        or
+        normalize-space(.) = 'Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt i Konsesjonskontraktforskriftens § 5-1, og er derfor underlagt bestemmelsene i Konsesjonskontraktforskriftens Del 1.'
+      message: >-
+        When BT-01(e)-Procedure equals 'Konsesjonskontraktforskriften Del 1',
+        BT-01(f)-Procedure must contain its accompanying legend.
+    - id: EFORMS-NOR-NATIONAL-LB-R002E
+      context: >-
+          /*/cac:TenderingTerms
+            /cac:ProcurementLegislationDocumentReference
+            /cbc:DocumentDescription
+      test: >-
+        not(
+          normalize-space(
+            ../cbc:ID
+          ) = 'Forsyningsforskriften Del 1'
+        )
+        or
+        normalize-space(.) = 'Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt i Forsyningsforskriftens § 5-2, og er derfor underlagt bestemmelsene i Forsyningsforskriftens Del 1.'
+      message: >-
+        When BT-01(e)-Procedure equals 'Forsyningsforskriften Del 1',
+        BT-01(f)-Procedure must contain its accompanying legend.
+    - id: EFORMS-NOR-NATIONAL-LB-R002F
+      context: >-
+          /*/cac:TenderingTerms
+            /cac:ProcurementLegislationDocumentReference
+            /cbc:DocumentDescription
+      test: >-
+        not(
+          normalize-space(
+            ../cbc:ID
+          ) = 'Forskrift om forsvars- og sikkerhetsanskaffelser Del 1'
+        )
+        or
+        normalize-space(.) = 'Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt i Forskrift om forsvars- og sikkerhetsanskaffelser § 2-2, og er derfor underlagt bestemmelsene i Forskrift om forsvars- og sikkerhetsanskaffelser Del 1.'
+      message: >-
+        When BT-01(e)-Procedure equals 'Forskrift om forsvars- og sikkerhetsanskaffelser Del 1',
+        BT-01(f)-Procedure must contain its accompanying legend.
 
   # /*
   ND-Root:
