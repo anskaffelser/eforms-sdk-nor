@@ -1,0 +1,38 @@
+---
+id: legal_basis_national
+
+entries: 
+  - code: NOR-FOA_P1
+    regulation: FOA
+    part: 1
+    threshold_scope: national
+    threshold_relation: below
+    section: "5-3"
+
+  - code: NOR-FOA_P12
+    regulation: FOA
+    part: [1, 2]
+    threshold_scope: national_to_eu
+    threshold_relation: below
+    section: "5-3"
+
+  - code: NOR-FOR_P1
+    regulation: FOR
+    part: 1
+    threshold_scope: eu
+    threshold_relation: below
+    section: "5-2"
+    
+  - code: NOR-KON_P1
+    regulation: KON
+    part: 1
+    threshold_scope: eu
+    threshold_relation: below
+    section: "5-2"
+
+  - code: NOR-FOSA_P1
+    regulation: FOSA
+    part: 1
+    threshold_scope: eu
+    threshold_relation: below
+    section: "5-2"

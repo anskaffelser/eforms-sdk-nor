@@ -1,0 +1,22 @@
+---
+id: legal-basis-national
+applies_to: [E2, E3, E4]
+
+rules:
+  - key: bt-01-e-procedure_presence
+    target: BT-01(e)-Procedure
+    type: presence
+
+  - key: bt-01-e-procedure_allowed-values
+    target: BT-01(e)-Procedure
+    type: enum
+    values_ref: legal_basis_national
+
+  - key: bt-01-f-procedure_presence
+    target: BT-01(f)-Procedure
+    type: presence
+
+  - key: bt-01-f-procedure_pairing
+    target: BT-01(f)-Procedure
+    type: paired_literal
+    pairs_ref: legal_basis_national

@@ -1,0 +1,40 @@
+---
+BT-01(e)-Procedure:
+  xpath: >-
+    /*/cac:TenderingTerms
+      /cac:ProcurementLegislationDocumentReference
+      /cbc:ID
+  mandatory:
+    severity: ERROR
+    kind: cardinality
+    constraints:
+      - noticeTypes: [E2, E3, E4]
+        _rationale:
+          nob: >-
+             Lovhjemmelen for den planlagte anskaffelsen må angis.
+          nno: >-
+            Lovheimelen til den planlagte anskaffinga må angivast.
+          eng: >-
+            The legal basis for the planned procurement must be provided.
+
+BT-01(f)-Procedure:
+  xpath: >-
+    /*/cac:TenderingTerms
+      /cac:ProcurementLegislationDocumentReference
+      /cbc:DocumentDescription
+  mandatory:
+    severity: ERROR
+    kind: presence
+    constraints: 
+      - noticeTypes: [E2, E3, E4]
+        _rationale:
+          nob: >-
+            Beskrivelse av lovhjemmelen for den planlagte anskaffelsen 
+            må angis.
+          nno: >-
+            Beskriving av lovheimelen til den planlagte anskaffinga må
+            angivast.
+          eng: >-
+            A description of the legal basis for the planned procurement
+            must be provided.
+
