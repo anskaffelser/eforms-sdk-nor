@@ -36,3 +36,10 @@ entries:
     threshold_scope: eu
     threshold_relation: below
     section: "5-2"
+    
+  - code: NOR-EXEMPT
+    regulation: EXEMPT
+    part: ""
+    threshold_scope: national
+    threshold_relation: below
+    section: ""

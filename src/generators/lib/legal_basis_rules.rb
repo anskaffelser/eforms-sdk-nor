@@ -89,7 +89,7 @@ out = +""
 
 out << <<~YAML
 BT-01(e)-Procedure:
-  - id: #{rule_id(domain: 'LB', kind: :whitelist, index: 0)}
+  - id: #{rule_id(domain: 'LB', kind: :whitelist, index: 0, scope: :name)}
     context: >-
       /*/cac:TenderingTerms
         /cac:ProcurementLegislationDocumentReference
@@ -130,7 +130,7 @@ legal_basis.each_with_index do |lb, i|
     )
   
   out << <<~YAML
-  - id: #{rule_id(domain: 'LB', kind: :pairwise, index: i)}
+  - id: #{rule_id(domain: 'LB', kind: :pairwise, index: i, scope: :description)}
     context: >-
       /*/cac:TenderingTerms
         /cac:ProcurementLegislationDocumentReference
@@ -143,9 +143,9 @@ legal_basis.each_with_index do |lb, i|
       )
       or
       normalize-space(.) =
-        normalize-space(
+        normalize-space('
 #{folded_f_text}
-        )
+        ')
     message: >-
 #{folded_message}
   YAML

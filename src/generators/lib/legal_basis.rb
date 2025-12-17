@@ -45,20 +45,33 @@ legal_basis_text_template  = load_yaml('src/ruleset_sources/national/texts/natio
 
 blocks = legal_basis_ssot['entries'].map do |entry|
   reg = regulations_codelist.fetch(entry['regulation'])
+  
+  explanation = nil
+  e_text_content = nil
 
-  explanation = render(
-    legal_basis_text_template['legal_basis_explanation']['nob'],
-    {
-      'threshold_phrase' => threshold_phrase(entry),
-      'regulation_name'  => reg['name']['nob'],
-      'section'          => entry['section'],
-      'part'             => part_text(entry['part'])
-    }
-  ).strip
-
+  if entry['regulation'] == 'EXEMPT'
+    # SPECIAL CASE: EXEMPT FROM THE REGULATIONS
+    explanation = "Oppdragsgiver er ikke underlagt lov eller forskrift om offentlige anskaffelser."
+    e_text_content = reg['name']['nob'] 
+    
+  else
+    # REGULAR CASE 
+    explanation = render(
+      legal_basis_text_template['legal_basis_explanation']['nob'],
+      {
+        'threshold_phrase' => threshold_phrase(entry),
+        'regulation_name'  => reg['name']['nob'],
+        'section'          => entry['section'],
+        'part'             => part_text(entry['part'])
+      }
+    ).strip
+    
+    e_text_content = "#{reg['name']['nob']} Del #{part_text(entry['part'])}"
+  end
+  
   <<~YAML.chomp
   - code: #{entry['code']}
-  #{YamlText.folded('  e_text', "#{reg['name']['nob']} Del #{part_text(entry['part'])}", indent: 4)}
+  #{YamlText.folded('  e_text', e_text_content, indent: 4)}
   #{YamlText.folded('  f_text', explanation, indent: 4)}
   YAML
 end

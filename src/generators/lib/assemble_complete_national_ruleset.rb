@@ -4,6 +4,7 @@
 require 'yaml'
 require 'pathname'
 
+
 # ------------------------------------------------------------
 # Paths
 # ------------------------------------------------------------
@@ -15,6 +16,16 @@ FRAGMENTS_DIR = BASE.join('src/generated/national')
 
 OUT_PATH =
   BASE.join('src/fields/national.rules.yaml')
+
+HEADER_PATH = POLICY_DIR.join("LICENSE_HEADER.txt")
+
+# ------------------------------------------------------------
+# Load and enrich header
+# ------------------------------------------------------------
+
+raw_header = File.read(HEADER_PATH)
+
+header = raw_header.gsub('<OUTPUT_FILENAME>', OUT_PATH.basename.to_s)
 
 # ------------------------------------------------------------
 # Load policy (human-facing, high-level)
@@ -30,11 +41,24 @@ profiles =
   YAML.load_file(POLICY_DIR.join('profiles.yaml'))
 
 # ------------------------------------------------------------
-# Strip human-only metadata from fields
+# Strip human-only metadata from fields, 
+# and clean XPaths in fields definitions
 # ------------------------------------------------------------
 
 fields.each_value do |field_def|
   next unless field_def.is_a?(Hash)
+  
+  if xpath = field_def['xpath']
+    # 1. Fjern alle linjeskift og komprimer whitespace.
+    clean_xpath = xpath
+                  .gsub(/[\r\n]+/, ' ') # Erstatter linjeskift med mellomrom
+                  .gsub(/\s*\/\s*/, '/') # Fikser ' / ' til '/'
+                  .gsub(/\s*\*\s*/, '*') # Fikser ' * ' til '*'                 
+                  .gsub(/\s+/, ' ') # Komprimerer gjenværende whitespace
+                  .strip
+                  
+    field_def['xpath'] = clean_xpath
+  end
 
   mandatory = field_def['mandatory']
   next unless mandatory.is_a?(Hash)
@@ -47,6 +71,7 @@ fields.each_value do |field_def|
     end
   end
 end
+
 
 # ------------------------------------------------------------
 # Resolve noticeTypes with sanity checks
@@ -105,6 +130,28 @@ profiles.each do |_profile_name, profile|
 end
 
 # ------------------------------------------------------------
+# Helpers for content cleanup
+# ------------------------------------------------------------
+
+def clean_string_content(content, aggressive_xpath_cleanup: false)
+  return content unless content.is_a?(String)
+
+  clean_content = content
+                  .gsub(/[\r\n]+/, ' ') # 1. Erstatter linjeskift med enkelt mellomrom
+                  .gsub(/\s+/, ' ')    # 2. Komprimerer gjenværende whitespace til ett mellomrom
+                  .gsub(/('\s+)/, "'").gsub(/(\s+')/, "'") # 3. Fjern mellomrom rett etter åpningsfnutter og rett før lukkefnutter. 
+
+  if aggressive_xpath_cleanup
+    # 4. Aggressiv fjerning av ALLE mellomrom rundt XPath-separatorer
+    clean_content = clean_content
+                    .gsub(/\s*\/\s*/, '/') # Fikser ' / ' til '/'
+                    .gsub(/\s*\*\s*/, '*') # Fikser ' * ' til '*'
+  end
+  
+  clean_content.strip
+end
+
+# ------------------------------------------------------------
 # Load rule fragments (machine-facing)
 # ------------------------------------------------------------
 
@@ -114,6 +161,24 @@ Dir[FRAGMENTS_DIR.join('*.rules.fragment.yaml')].sort.each do |path|
   fragment = YAML.load_file(path)
 
   fragment.each do |bt, entries|
+    
+    entries.each do |rule|
+      
+      # 1. Rens context og test aggressivt (XPath)
+      ['context', 'test'].each do |key|
+        if rule[key]
+          # Bruk aggressiv cleanup for å fjerne whitespace rundt / og *
+          rule[key] = clean_string_content(rule[key], aggressive_xpath_cleanup: true)
+        end
+      end
+      
+      # 2. Rens message (Prosa)
+      if rule['message']
+        # Bruk standard cleanup for å fjerne \n, men behold normal whitespace
+        rule['message'] = clean_string_content(rule['message'], aggressive_xpath_cleanup: false)
+      end
+    end
+    
     rules[bt] ||= []
     rules[bt].concat(entries)
   end
@@ -135,7 +200,11 @@ out = {
 # Write output
 # ------------------------------------------------------------
 
-File.write(OUT_PATH, out.to_yaml)
+yaml_content = out.to_yaml(line_width: 1_000_000)
+
+final_output = header + yaml_content
+
+File.write(OUT_PATH, final_output)
 
 puts "Assembled national ruleset:"
 puts "  #{OUT_PATH}"

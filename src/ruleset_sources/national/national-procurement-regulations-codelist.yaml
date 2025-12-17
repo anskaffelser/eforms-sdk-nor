@@ -15,3 +15,7 @@ KON:
 FOSA:
   name:
     nob: Forskrift om forsvars- og sikkerhetsanskaffelser
+    
+EXEMPT:
+  name: 
+    nob: Oppdragsgiver er ikke underlagt Anskaffelsesloven

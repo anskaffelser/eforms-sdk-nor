@@ -12,6 +12,17 @@ FRAGMENTS_DIR =
 OUT_PATH =
   BASE.join('src/generated/national/national.rules.yaml')
 
+
+# ------------------------------------------------------------
+# Load notice types
+# ------------------------------------------------------------
+
+notice_types_def =
+  YAML.load_file(POLICY_DIR.join('notice-types.yaml'))
+
+# Hent nøklene (E2, E3, E4 osv.) og konverter til strenger
+notice_types = notice_types_def.keys.map(&:to_s).sort
+
 # ------------------------------------------------------------
 # Load fragments
 # ------------------------------------------------------------
@@ -32,12 +43,12 @@ end
 # ------------------------------------------------------------
 
 out = {
-  'noticeTypes' => ['E2', 'E3', 'E4'],
+  'noticeTypes' => notice_types,
   'rules' => rules,
   'removed' => []
 }
 
-File.write(OUT_PATH, out.to_yaml)
+File.write(OUT_PATH, out.to_yaml(line_width: 70))
 
 puts "Assembled ruleset:"
 puts "  #{OUT_PATH}"

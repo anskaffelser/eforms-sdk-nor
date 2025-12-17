@@ -1,16 +1,19 @@
 E2:
+  alias: E2
   description: 
     eng: Prior Information Notice - Norwegian National Procurement
     nob: Veiledende kunngjøring - norsk nasjonal anskaffelse
     nno: Veileiande kunngjering - norsk nasjonal anskaffing
 
 E3:
+  alias: E3
   description:
     eng: Contract Notice - Norwegian National Procurement
     nob: Kunngjøring av konkurranse - norsk nasjonal anskaffelse
     nno: Kunngjering av konkurranse - norsk nasjonal anskaffing
 
 E4: 
+  alias: E4
   description:
     eng: Contract Award Notice - Norwegian National Procurement
     nob: Resultatkunngjøring - norsk nasjonal anskaffelse
