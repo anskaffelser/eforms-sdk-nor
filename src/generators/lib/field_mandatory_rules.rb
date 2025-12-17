@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 require 'yaml'
+require 'pathname'
 
 require_relative 'rule_index'
 require_relative 'yaml_text_folder'
@@ -10,19 +11,25 @@ require_relative 'yaml_text_folder'
 # Paths
 # ------------------------------------------------------------
 
-BASE = File.expand_path('../../..', __dir__)
+BASE = Pathname.new(__dir__).join('../../..').expand_path
 
-FIELDS_PATH =
-  File.join(
-    BASE,
-    'src/policy/national/fields.yaml'
-  )
+POLICY_DIR = BASE.join('src/policy/national')
 
-OUT_PATH =
-  File.join(
-    BASE,
-    'src/generated/national/field-mandatory.rules.fragment.yaml'
-  )
+FIELDS_PATH = POLICY_DIR.join('fields.yaml')
+
+OUT_PATH = BASE.join('src/generated/national/field-mandatory.rules.fragment.yaml')
+
+HEADER_PATH = POLICY_DIR.join("LICENSE_HEADER.fragment.txt")
+
+
+
+# ------------------------------------------------------------
+# Load and enrich header
+# ------------------------------------------------------------
+
+raw_header = File.read(HEADER_PATH)
+
+header = raw_header.gsub('<FRAGMENT_FILENAME>', OUT_PATH.basename.to_s)
 
 # ------------------------------------------------------------
 # Load input
@@ -155,7 +162,9 @@ end
 # Write output
 # ------------------------------------------------------------
 
-File.write(OUT_PATH, out)
+final_output = header + "---\n" + out
+
+File.write(OUT_PATH, final_output)
 
 puts "Wrote mandatory field rules fragment to:"
 puts "  #{OUT_PATH}"

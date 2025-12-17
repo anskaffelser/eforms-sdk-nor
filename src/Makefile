@@ -14,7 +14,7 @@ clean:
 intermediate-folder:
 	@mkdir -p $(INTERMEDIATE_GENERATED_PATH)
 
-rules: intermediate-folder document-rules language-rules legal_basis_rules notice_type_rules
+rules: intermediate-folder document-rules language-rules legal_basis_rules notice_type_rules mandatory_fields
 	ruby generators/lib/assemble_complete_national_ruleset.rb
 
 document-rules: policy/national/document_rules.yaml
@@ -35,3 +35,6 @@ notice_type_rules: policy/national/notice_types.yaml
 
 profile_rules: policy/national/profiles.yaml
 	ruby generators/lib/profile_rules.rb
+
+mandatory_fields: policy/national/fields.yaml
+	ruby generators/lib/field_mandatory_rules.rb

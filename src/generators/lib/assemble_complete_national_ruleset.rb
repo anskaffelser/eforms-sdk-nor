@@ -17,7 +17,7 @@ FRAGMENTS_DIR = BASE.join('src/generated/national')
 OUT_PATH =
   BASE.join('src/fields/national.rules.yaml')
 
-HEADER_PATH = POLICY_DIR.join("LICENSE_HEADER.txt")
+HEADER_PATH = POLICY_DIR.join("LICENSE_HEADER.monolith.txt")
 
 # ------------------------------------------------------------
 # Load and enrich header
@@ -105,7 +105,7 @@ end
 notice_types = used_notice_types
 
 # ------------------------------------------------------------
-# Aliases (deterministic, trivial for now)
+# Aliases are derived from 
 # ------------------------------------------------------------
 
 aliases =

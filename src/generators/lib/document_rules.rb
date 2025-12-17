@@ -2,27 +2,32 @@
 # frozen_string_literal: true
 
 require 'yaml'
+require 'pathname'
 
 require_relative 'rule_index'
 require_relative 'yaml_text_folder'
 
-BASE = File.expand_path('../../..', __dir__)
+BASE = Pathname.new(__dir__).join('../../..').expand_path
 
-POLICY_PATH =
-  File.join(
-    BASE,
-    'src/policy/national/document_rules.yaml'
-  )
+POLICY_DIR = BASE.join('src/policy/national')
 
-OUT_PATH =
-  File.join(
-    BASE,
-    'src/generated/national/document.rules.fragment.yaml'
-  )
+DOCUMENT_RULES = POLICY_DIR.join('document_rules.yaml')
 
-policy = YAML.load_file(POLICY_PATH)
+OUT_PATH = BASE.join('src/generated/national/document.rules.fragment.yaml')
+
+HEADER_PATH = POLICY_DIR.join("LICENSE_HEADER.fragment.txt")
+
+policy_document_rules= YAML.load_file(DOCUMENT_RULES)
 
 RuleIndex.validate!
+
+# ------------------------------------------------------------
+# Load and enrich header
+# ------------------------------------------------------------
+
+raw_header = File.read(HEADER_PATH)
+
+header = raw_header.gsub('<FRAGMENT_FILENAME>', OUT_PATH.basename.to_s)
 
 # ------------------------------------------------------------
 # Helpers
@@ -57,7 +62,7 @@ out << <<~YAML
 ND-Root:
 YAML
 
-policy.fetch('ND-Root').each_with_index do |(_name, spec), i|
+policy_document_rules.fetch('ND-Root').each_with_index do |(_name, spec), i|
   test = spec.fetch('test').strip
   message =
     spec
@@ -79,7 +84,10 @@ policy.fetch('ND-Root').each_with_index do |(_name, spec), i|
   YAML
 end
 
-File.write(OUT_PATH, out)
+
+final_output = header + "---\n" + out
+
+File.write(OUT_PATH, final_output)
 
 puts "Wrote document rules fragment to:"
 puts "  #{OUT_PATH}"
