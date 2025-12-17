@@ -132,20 +132,65 @@ end
 # ------------------------------------------------------------
 # Helpers for content cleanup
 # ------------------------------------------------------------
-
 def clean_string_content(content, aggressive_xpath_cleanup: false)
   return content unless content.is_a?(String)
 
   clean_content = content
-                  .gsub(/[\r\n]+/, ' ') # 1. Erstatter linjeskift med enkelt mellomrom
-                  .gsub(/\s+/, ' ')    # 2. Komprimerer gjenværende whitespace til ett mellomrom
-                  .gsub(/('\s+)/, "'").gsub(/(\s+')/, "'") # 3. Fjern mellomrom rett etter åpningsfnutter og rett før lukkefnutter. 
-
+                  # 1. Erstatter linjeskift med enkelt mellomrom.
+                  .gsub(/[\r\n]+/, ' ') 
+                  # 2. Komprimerer gjenværende whitespace til ett mellomrom.
+                  .gsub(/\s+/, ' ')    
+                  
+  # NB: Denne grunnleggende rensingen er den eneste som kjøres for 'message' (prosa).
+  
   if aggressive_xpath_cleanup
-    # 4. Aggressiv fjerning av ALLE mellomrom rundt XPath-separatorer
+    # 3. Aggressiv opprydning KUN for XPath ('context' og 'test')
+    
     clean_content = clean_content
-                    .gsub(/\s*\/\s*/, '/') # Fikser ' / ' til '/'
-                    .gsub(/\s*\*\s*/, '*') # Fikser ' * ' til '*'
+                    # A. Renser rundt XPath-lokatorer
+                    .gsub(/\s*\/\s*/, '/') 
+                    .gsub(/\s*\*\s*/, '*') 
+                    # B. Renser rundt funksjonsparenteser og komma
+                    .gsub(/\s*\(\s*/, '(') # Fjerner mellomrom FØR og ETTER '('
+                    .gsub(/\s*\)\s*/, ')') # Fjerner mellomrom FØR og ETTER ')'
+                    # Renser komma (fungerer kun hvis den ikke er i strengliteral, men vi fjerner den her for å være på den sikre siden. 
+                    # Hvis du trenger func(a,b) uten mellomrom rundt komma, må du legge den inn her, og vite at den kan fjerne mellomrom i strengliteraler)
+                    # VI BEHOLDER DEN RENSEDE FUNKSJONEN UTEN KOMMA-RENSING I B.
+                    # C. Fjerner de problematiske mellomrommene INNE i strengliteralene (DENNE ER NÅ FJERNET, SOM FIKSER PROSA-FEIL)
+                    # D. Renser og reparerer symbol-operatorer (SLUTT-VERSJON: Med Lookaround)
+                    # 1. Renser de sammensatte operatørene (MÅ komme først)
+                    .gsub(/\s*<=\s*/, ' <= ') 
+                    .gsub(/\s*>=\s*/, ' >= ') 
+                    .gsub(/\s*!=\s*/, ' != ') 
+                    # 2. Renser enkle operatorer (med negativ lookahead/lookbehind):
+                    # Renser >: må ikke ha = etter seg (negativ lookahead: (?!=))
+                    .gsub(/\s*>\s*(?!=)/, ' > ')
+                    # Renser <: må ikke ha = etter seg (negativ lookahead: (?!=))
+                    .gsub(/\s*<\s*(?!=)/, ' < ')
+                    # Renser =: må ikke ha <, > eller ! foran seg (negativ lookbehind: (?<![<>!]))
+                    .gsub(/(?<![<>!])\s*=\s*/, ' = ')
+                    # E. Reparerer alfa-numeriske logiske operatorer (som ble klint sammen av steg B)
+                    # Reparer OR (case-insensitive)
+                    .gsub(/\)or\(/i, ') or (')
+                    .gsub(/\)or/i, ') or')    
+                    .gsub(/or\(/i, ' or (')   
+                    # Reparer AND (case-insensitive)
+                    .gsub(/\)and\(/i, ') and (')
+                    .gsub(/\)and/i, ') and')    
+                    .gsub(/and\(/i, ' and (')
+                    # Reparer SOME...SATISFIES (case-insensitive)
+                    .gsub(/some\$/i, ' some $') 
+                    .gsub(/\ssatisfies\s*/i, ' satisfies ') 
+                    # F. Renser whitespace rett på innsiden av strengliteralene (Fikser ' tekst ')
+                    # Denne må kjøres til slutt for å unngå å forstyrre lookaround-logikken.
+                    .gsub(/('\s+)/, "'") # Fikser ' tekst ' -> 'tekst '
+                    .gsub(/(\s+')/, "'") # Fikser 'tekst ' -> 'tekst'
+                    # G. Lesbarhetsjusteringer (Kosmetiske endringer for menneskelig lesing)
+                    # 1. Setter inn mellomrom mellom '=' og 'strengen' som følger.
+                    # Endrer = ' til = '
+                    .gsub(/='/, "= '")
+                    # 2. Setter inn mellomrom etter komma i XPath-lister ('A','B') til ('A', 'B')
+                    .gsub(/','/, "', '")
   end
   
   clean_content.strip
