@@ -1,0 +1,48 @@
+---
+_rule:
+  domain: LT
+  scope: global
+  kind: mandatory
+  severity: ERROR
+
+logic: mandatory_requirements
+
+params:
+  condition:
+    target: notice_type
+    source_folder: constraints/
+    source_file: notice_type_constraints.yaml
+  fields:
+    - target: buyer_legal_type
+      description: 
+        nob: >-
+          Typen oppdragsgiver angir for hvem forskriften(e) gjelder,
+          og påvirker EØS-terskelverdiene for konkurranseutlysninger.
+        nob_verify: false
+        nno: >-
+          Typen oppdragsgivar angir kven forskrifta(ne) gjeld,
+          og påverkar EØS-terskelverdiane for konkurranseutlysningar.
+        nno_verify: false
+        eng: >-
+          The buyer legal type plays a part in determining the EU/EEA
+          threshold values for competition notices.
+        eng_verify: false
+      _downstream_dependencies:
+        - target: activity_authority
+          description: 
+            nob: >-
+              Når oppdragsgivers juridiske type (BT-11) angis, krever 
+              SDK-valideringen at også oppdragsgivers hovedaktivitet
+              (BT-10) angis.
+            nob_verify: false
+            nno: >-
+              Når oppdragsgivars juridiske type (BT-11) angivast, krev
+              SDK-valideringa at også oppdragsgivars hovudaktivitet
+              (BT-10) blir angitt.
+            nno_verify: false
+            eng: >-
+              When the buyer legal type (BT-11) is provided, the SDK
+              validation also requires that the contracting authority
+              activity (BT-10) is provided.
+            eng_verify: false
+

@@ -48,7 +48,6 @@ metadata:
 # ====================================================================
 # NORWEGIAN EFORMS NOTICE ALLOWED NOTICE TYPE RULES
 # ====================================================================
----
 _rule:
   domain: NT
   scope: global
@@ -57,7 +56,7 @@ _rule:
 logic: any_of
 
 params:
-  target:
+  targets:
     - notice_type
   description: 
     nob: >-

@@ -64,11 +64,13 @@ params:
   targets:
     - main_notice_language
     - additional_notice_language
-
-description: 
-  nob: >-
-    Minst ett offisielt kunngjøringsspråk må være norsk.
-  nno: >-
-    Minst eit offisielt kunngjeringsspråk må vera norsk.
-  eng: >-
-    At least one official notice language must be Norwegian.
+  description: 
+    nob: >-
+      Minst ett offisielt kunngjøringsspråk må være norsk.
+    nob_verify: false
+    nno: >-
+      Minst eit offisielt kunngjeringsspråk må vera norsk.
+    nno_verify: false
+    eng: >-
+      At least one official notice language must be Norwegian.
+    eng_verify: false

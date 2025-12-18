@@ -1,0 +1,45 @@
+---
+_rule:
+  domain: LB
+  kind: mandatory
+  severity: ERROR
+
+logic: mandatory_requirements
+
+params:
+  condition:
+    target: notice_type
+    source_folder: constraints/
+    source_file: notice_type_constraints.yaml
+  fields:
+    - target: legal_basis_noid
+      _rule: 
+        kind: cardinality
+        scope: name
+      description: 
+        nob: >-
+          Lovhjemmelen for den planlagte anskaffelsen må angis.
+        nob_verify: false
+        nno: >-
+          Lovheimelen til den planlagte anskaffinga må angivast.
+        nno_verify: false
+        eng: >-
+          The legal basis for the planned procurement must be provided.
+        eng_verify: false
+    - target: legal_basis_noid_description
+      _rule:
+        kind: presence
+        scope: description
+      description: 
+        nob: >-
+          Beskrivelse av lovhjemmelen for den planlagte anskaffelsen 
+          må angis.
+        nob_verify: false
+        nno: >-
+          Beskriving av lovheimelen til den planlagte anskaffinga må
+          angivast.
+        nno_verify: false
+        eng: >-
+          A description of the legal basis for the planned procurement
+          must be provided.
+        eng_verify: false

@@ -9,3 +9,19 @@ additional_notice_language:
 notice_type: 
   xpath: "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"
   field_id: "OPP-070-notice"
+
+legal_basis_noid:
+  xpath: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:ID"
+  field_id: "BT-01(e)-Procedure"
+  
+legal_basis_noid_description:
+  xpath: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription"
+  field_id: "BT-01(f)-Procedure"
+
+buyer_legal_type:
+  xpath: "/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type]"
+  field_id: "BT-11-Procedure-Buyer"
+
+activity_authority:
+  xpath: "/*/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']"
+  field_id: "BT-10-Procedure-Buyer"

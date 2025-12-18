@@ -71,6 +71,7 @@ LB:
     whitelist: 1
     pairwise: 2
     cardinality: 3
+    mandatory: 4
   description:
     _description: 
       nob: >-
@@ -79,10 +80,11 @@ LB:
         Tekstleg beskriving av heimelen.
       eng: >-
         Text description of the legal basis.
-    whitelist: 4
-    pairwise: 5
-    cardinality: 6
-    presence: 7
+    whitelist: 5
+    pairwise: 6
+    cardinality: 7
+    presence: 8
+    mandatory: 9
   
 NT:
   _name: "Notice type"
@@ -176,4 +178,5 @@ LT:
         Globale reglar for innkjøpartype.
       eng: >-
         Global rules for the type of buyer.
-    whitelist: 1
+    mandatory: 1
+    whitelist: 2

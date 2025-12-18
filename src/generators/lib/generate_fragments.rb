@@ -22,126 +22,160 @@
 require 'yaml'
 require 'pathname'
 require 'optparse'
-
 require_relative 'rule_id_registry'
-require_relative 'yaml_text_folder'
 require_relative 'national_rules_helpers'
 
-# 1. Konfigurasjon
+# --- 1. CONFIG & SETUP ---
 BASE = Pathname.new(__dir__).join('../../..').expand_path
 POLICY_DIR = BASE.join('src/policy/national')
 HEADER_PATH = POLICY_DIR.join("templates/LICENSE_HEADER.fragment.txt")
-REGISTRY_PATH = POLICY_DIR.join("rule_id_registry.yaml")
 MAPPING_PATH = POLICY_DIR.join("eforms_fields_mapping.yaml")
 
+# --- 1.5 INITIALIZE REGISTRY ---
+REGISTRY_PATH = POLICY_DIR.join("rule_id_registry.yaml")
 begin
   RuleIdRegistry.load(REGISTRY_PATH)
-  FIELD_MAPPING = YAML.load_file(MAPPING_PATH)
 rescue => e
-  abort "❌ Fatal: Kunne ikke laste konfigurasjon: #{e.message}"
+  abort "❌ Kunne ikke laste RuleIdRegistry: #{e.message}"
 end
 
+# --- 2. DATA LOADERS ---
+def load_field_mapping
+  YAML.load_file(MAPPING_PATH)
+rescue => e
+  abort "❌ Kunne ikke laste mapping: #{e.message}"
+end
+
+def load_input_data(path)
+  # Vi bruker load_stream for å håndtere filer med metadata-hode (---)
+  docs = YAML.load_stream(File.read(path))
+  # Finn dokumentet som inneholder selve logikken (hopp over metadata)
+  docs.find { |d| d && (d.key?('logic') || d.key?('params') || d.key?('base')) }
+end
+
+# --- 3. HANDLER ENGINE (Strategy Pattern) ---
+# --- 3. HANDLER ENGINE (Strategy Pattern) ---
+module FragmentHandlers
+  # 1. Genererer mellomformatet (.fields.fragment.yaml)
+  def self.mandatory_requirements(params, meta, mapping)
+    cond = params['condition']
+    source_path = POLICY_DIR.join(cond['source_folder'] || '', cond['source_file'])
+    source_data = YAML.load_stream(File.read(source_path)).find { |d| d['logic'] == 'any_of' }
+    codes = Array(source_data.dig('params', 'codes')).map { |c| c['type'] || c }
+
+    result = {}
+    params['fields'].each do |f|
+      t_info = mapping[f['target']] || raise("Ukjent target: #{f['target']}")
+      f_meta = meta.merge(f['_rule'] || {})
+      
+      result[t_info['field_id']] = {
+        'xpath' => t_info['xpath'],
+        'mandatory' => {
+          'severity' => f_meta['severity'] || 'ERROR',
+          'kind' => f_meta['kind'] || 'presence',
+          'constraints' => [{ 'noticeTypes' => codes.dup }] # .dup hindrer aliaser
+        }
+      }
+    end
+    result
+  end
+
+  # 2. Genererer kodelistevalidering og språkkonsistens (.rules.fragment.yaml)
+  def self.any_of(params, meta, mapping)
+    targets = Array(params['targets'] || params['target'])
+    codes = Array(params['codes'] || params['code']).map { |c| c['type'] || c }
+    id = NationalRulesHelpers.rule_id(domain: meta['domain'], scope: meta['scope'], kind: meta['kind'].to_sym, index: 0)
+    msg = NationalRulesHelpers.clean_prosa(params.dig('description', 'eng') || meta['description'])
+
+    result = {}
+    
+    # Spesialhåndtering for språk-konsistens
+    if meta['kind'] == 'consistency' || targets.size > 1
+      formatted_codes = codes.map { |c| "'#{c}'" }.join(', ')
+      main_lang_xpath = mapping['main_notice_language']['xpath'] 
+      additional_lang_xpath = mapping['additional_notice_language']['xpath']
+
+      xpath_test = <<~XPATH
+        normalize-space(#{main_lang_xpath}) = (#{formatted_codes})
+        or
+        (some $l in #{additional_lang_xpath} satisfies normalize-space($l) = (#{formatted_codes}))
+      XPATH
+
+      result['ND-Root'] = [{
+        'id' => id,
+        'test' => xpath_test.gsub(/\s+/, ' ').strip,
+        'message' => msg
+      }]
+    else
+      # Standard for enkeltfelt
+      targets.each do |t_key|
+        t_info = mapping[t_key] || raise("Ukjent target: #{t_key}")
+        test = "normalize-space() = (#{codes.map { |c| "'#{c}'" }.join(', ')})"
+        result[t_info['field_id']] = [{
+          'id' => id,
+          'test' => NationalRulesHelpers.clean_xpath(test),
+          'message' => msg
+        }]
+      end
+    end
+    result
+  end
+
+  # 3. Genererer splittede whitelists (f.eks. org-nr, valuta)
+  def self.split_whitelist(params, meta, mapping)
+    raw_rules = NationalRulesHelpers.build_split_whitelist(
+      params, 
+      BASE, 
+      meta['domain'], 
+      mapping
+    )
+
+    result = {}
+    raw_rules.each do |r|
+      result[r['field_id']] ||= []
+      result[r['field_id']] << {
+        'id'      => r['id'],
+        'test'    => NationalRulesHelpers.clean_xpath(r['test']),
+        'message' => NationalRulesHelpers.clean_prosa(r['message'])
+      }
+    end
+    result
+  end
+end
+
+# --- 4. MAIN EXECUTION ---
 options = {}
-OptionParser.new do |opts|
+OptionParser.new { |opts|
   opts.on("-i", "--input FILE") { |v| options[:input] = v }
   opts.on("-o", "--output FILE") { |v| options[:output] = v }
-end.parse!
+}.parse!
 
-INPUT_PATH  = options[:input].start_with?('/') ? Pathname.new(options[:input]) : POLICY_DIR.join(options[:input])
-OUTPUT_PATH = BASE.join('src/generated/national', options[:output])
-raw_data = YAML.load_file(INPUT_PATH)
+FIELD_MAPPING = load_field_mapping
+raw_data = load_input_data(POLICY_DIR.join(options[:input]))
+abort "❌ Fant ingen logikk i #{options[:input]}" unless raw_data
 
-# --- AUTO-DETEKSJON AV TYPE ---
-type = case
-       when raw_data['logic'] then :field_logic
-       when raw_data.key?('base') && raw_data.key?('_settings') then :codelist_rule
-       when raw_data.values.any? { |v| v.is_a?(Hash) && v.key?('mandatory') } then :mandatory
-       else :field_list
-       end
+# Detekter hvilken logikk-handler som skal brukes
+logic_type = raw_data['logic']
+meta = raw_data['_rule'] || {}
+params = raw_data['params'] || {}
 
-# --- HJELPEFUNKSJON FOR KODELISTE-UTTREKK ---
-# Håndterer både ["E2", "E3"] og [{type: "E2"}, {type: "E3"}]
-def extract_codes(codes)
-  Array(codes).map { |c| c.is_a?(Hash) ? c['type'] : c }
+# Kjør handleren
+if FragmentHandlers.respond_to?(logic_type)
+  result_hash = FragmentHandlers.send(logic_type, params, meta, FIELD_MAPPING)
+else
+  abort "❌ Ukjent logikk-type: #{logic_type}"
 end
 
-# --- HANDLERS ---
-body = case type
-       when :field_logic
-         meta = raw_data['_rule'] || raise("Mangler _rule i #{options[:input]}")
-         params = raw_data['params']
-         # Støtter både 'target' (streng/array) og 'targets' (array)
-         target_list = Array(params['targets'] || params['target'])
-         codes = extract_codes(params['codes'])
-         
-         case raw_data['logic']
-         when 'any_of'
-           id = NationalRulesHelpers.rule_id(domain: meta['domain'], scope: meta['scope'], kind: meta['kind'].to_sym, index: 0)
-           msg = NationalRulesHelpers.clean_prosa(params.dig('description', 'eng') || raw_data.dig('description', 'nob'))
-
-           if target_list.size == 1
-             t_key = target_list.first
-             t_info = FIELD_MAPPING[t_key] || raise("Ukjent target: #{t_key}")
-             test = "normalize-space() = (#{codes.map{|c| "'#{c}'"}.join(', ')})"
-             
-             "#{t_info['field_id']}:\n  - id: #{id}\n    test: >-\n      #{NationalRulesHelpers.clean_xpath(test)}\n    message: >-\n      #{msg}\n"
-           else
-             # Bruker eksisterende build_consistency_xpath for cross-field logikk
-             xpath_test = NationalRulesHelpers.build_consistency_xpath('any_of', params.merge('codes' => codes, 'targets' => target_list), FIELD_MAPPING)
-             "ND-Root:\n  - id: #{id}\n    test: >-\n      #{NationalRulesHelpers.clean_xpath(xpath_test)}\n    message: >-\n      #{msg}"
-           end
-
-         when 'split_whitelist'
-           rules = NationalRulesHelpers.build_split_whitelist(params, BASE, meta['domain'], FIELD_MAPPING)
-           rules.map do |r|
-             "#{r['field_id']}:\n  - id: #{r['id']}\n    test: >-\n      #{NationalRulesHelpers.clean_xpath(r['test'])}\n    message: >-\n      #{NationalRulesHelpers.clean_prosa(r['message'])}"
-           end.join("\n")
-         end
-
-       when :codelist_rule
-         rule_obj = NationalRulesHelpers.generate_codelist_rule(INPUT_PATH)
-         field_name = INPUT_PATH.basename.to_s.split('.').first
-         "#{field_name}:\n  - id: #{rule_obj['id']}\n    test: >-\n      #{NationalRulesHelpers.clean_xpath(rule_obj['test'])}\n    message: >-\n      #{rule_obj['message']}"
-
-       when :mandatory
-         fields = NationalRulesHelpers.deep_prune_unwanted_metadata!(raw_data)
-         out = +""
-         fields.each do |field_name, field_def|
-           next unless (m = field_def['mandatory'])
-           rule_meta = field_def['_rule'] || raise("Field #{field_name} missing _rule")
-           Array(m['constraints']).each_with_index do |constraint, i|
-             id = NationalRulesHelpers.rule_id(domain: rule_meta['domain'], scope: rule_meta['scope'], kind: m['kind'].to_sym, index: i)
-             count_expr = m['kind'] == 'cardinality' ? "count(#{field_def['xpath']}) = 1" : "count(#{field_def['xpath']}) >= 1"
-             out << "#{field_name}:\n  - id: #{id}\n    context: \"/*\"\n    test: >-\n      #{NationalRulesHelpers.clean_xpath(count_expr)}\n    message: >-\n      #{constraint.dig('_rationale', 'eng')}\n"
-           end
-         end
-         out
-
-       when :field_list
-         data = NationalRulesHelpers.deep_prune_unwanted_metadata!(raw_data)
-         out = +""
-         data.each do |field_name, field_def|
-           rules = field_def['_rules'] || [field_def].flatten
-           rules.each_with_index do |r, i|
-             next unless r['test']
-             rm = r['_rule'] || {}
-             id = NationalRulesHelpers.rule_id(domain: rm['domain'] || 'DT', scope: rm['scope'] || 'global', kind: (rm['kind'] || 'whitelist').to_sym, index: i)
-             out << "#{field_name}:\n  - id: #{id}\n    context: \"#{r['context'] || '/*'}\"\n    test: >-\n      #{NationalRulesHelpers.clean_xpath(r['test'])}\n    message: >-\n      #{NationalRulesHelpers.clean_prosa(r.dig('_rationale', 'eng') || r['message'])}\n"
-           end
-         end
-         out
-
-       when :notice_types
-         types = raw_data.keys.sort
-         id = NationalRulesHelpers.rule_id(domain: 'NT', scope: 'global', kind: :whitelist, index: 0)
-         "OPP-070-notice:\n  - id: #{id}\n    test: >-\n      #{NationalRulesHelpers.xpath_whitelist(types)}\n    message: >-\n      Notice type must be #{types[0..-2].join(', ')} or #{types.last}."
-       end
-
-# 5. Lagring
-if body && !body.empty?
-  header = NationalRulesHelpers.load_header(HEADER_PATH, OUTPUT_PATH.basename.to_s)
-  File.write(OUTPUT_PATH, header + "---\n" + body)
-  puts "✅ Generated: #{options[:input]} -> #{options[:output]}"
+# --- 5. OUTPUT ---
+if result_hash && !result_hash.empty?
+  output_path = BASE.join('src/generated/national', options[:output])
+  output_path.dirname.mkpath
+  
+  header = NationalRulesHelpers.load_header(HEADER_PATH, output_path.basename.to_s)
+  
+  # Bruk to_yaml for å sikre korrekt escaping og struktur
+  File.write(output_path, header + result_hash.to_yaml(line_width: -1))
+  puts "✅ Generated: #{options[:output]}"
 else
-  abort "❌ Ingen data generert for #{options[:input]}"
+  abort "❌ Ingen data produsert."
 end
