@@ -26,7 +26,7 @@ mandatory-fields:
 	@ruby $(GENERATORS_PATH)/generate_fragments.rb -t mandatory -i fields.yaml -o field-mandatory.rules.fragment.yaml
 
 notice-type-rules:
-	@ruby $(GENERATORS_PATH)/generate_fragments.rb -t notice_types -i notice_types.yaml -o notice-type.rules.fragment.yaml
+	@ruby $(GENERATORS_PATH)/generate_fragments.rb -i constraints/notice_type_constraints.yaml -o notice-type.rules.fragment.yaml
 
 allowed-languages:
 	@ruby $(GENERATORS_PATH)/generate_fragments.rb -i constraints/allowed_languages_constraints.yaml -o allowed_languages.rules.fragment.yaml

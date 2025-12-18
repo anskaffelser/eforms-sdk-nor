@@ -27,14 +27,13 @@ require_relative 'rule_id_registry'
 require_relative 'yaml_text_folder'
 require_relative 'national_rules_helpers'
 
-# 1. Konfigurasjon av stier
+# 1. Konfigurasjon
 BASE = Pathname.new(__dir__).join('../../..').expand_path
 POLICY_DIR = BASE.join('src/policy/national')
 HEADER_PATH = POLICY_DIR.join("templates/LICENSE_HEADER.fragment.txt")
 REGISTRY_PATH = POLICY_DIR.join("rule_id_registry.yaml")
 MAPPING_PATH = POLICY_DIR.join("eforms_fields_mapping.yaml")
 
-# Sørg for at register og mapping er lastet
 begin
   RuleIdRegistry.load(REGISTRY_PATH)
   FIELD_MAPPING = YAML.load_file(MAPPING_PATH)
@@ -42,57 +41,61 @@ rescue => e
   abort "❌ Fatal: Kunne ikke laste konfigurasjon: #{e.message}"
 end
 
-# 2. Parse argumenter (Kun input og output nå)
 options = {}
 OptionParser.new do |opts|
-  opts.banner = "Usage: generate_fragments.rb [options]"
-  opts.on("-i", "--input FILE", "Input file name (relative to POLICY_DIR)") { |v| options[:input] = v }
-  opts.on("-o", "--output FILE", "Output file name (relative to generated dir)") { |v| options[:output] = v }
+  opts.on("-i", "--input FILE") { |v| options[:input] = v }
+  opts.on("-o", "--output FILE") { |v| options[:output] = v }
 end.parse!
-
-raise "Missing arguments: -i and -o are required" unless options[:input] && options[:output]
 
 INPUT_PATH  = options[:input].start_with?('/') ? Pathname.new(options[:input]) : POLICY_DIR.join(options[:input])
 OUTPUT_PATH = BASE.join('src/generated/national', options[:output])
-
-# 3. Laste data og detektere type
 raw_data = YAML.load_file(INPUT_PATH)
 
-# --- TYPE DETEKSJON ---
-# Vi sjekker strukturen for å finne ut hvilken handler som skal brukes
+# --- AUTO-DETEKSJON AV TYPE ---
 type = case
-       when raw_data['logic']
-         :field_logic    # Ny stil: split_whitelist, any_of etc.
-       when raw_data.key?('base') && raw_data.key?('_settings')
-         :codelist_rule  # Codelist generator
-       when raw_data.values.any? { |v| v.is_a?(Hash) && v.key?('mandatory') }
-         :mandatory      # Tradisjonell mandatory-sjekk
-       when raw_data.values.any? { |v| v.is_a?(Hash) && (v.key?('_rules') || v.key?('test')) }
-         :field_list     # Tradisjonell feltliste (gammel stil)
-       when raw_data.keys.all? { |k| k =~ /^[A-Z0-9-]{3,6}$/ } 
-         :notice_types   # Enkel kodeliste (f.eks. notice types)
-       else
-         abort "❌ Kunne ikke detektere regel-type for #{options[:input]}. Sjekk YAML-struktur."
+       when raw_data['logic'] then :field_logic
+       when raw_data.key?('base') && raw_data.key?('_settings') then :codelist_rule
+       when raw_data.values.any? { |v| v.is_a?(Hash) && v.key?('mandatory') } then :mandatory
+       else :field_list
        end
 
-# 4. Handlers
+# --- HJELPEFUNKSJON FOR KODELISTE-UTTREKK ---
+# Håndterer både ["E2", "E3"] og [{type: "E2"}, {type: "E3"}]
+def extract_codes(codes)
+  Array(codes).map { |c| c.is_a?(Hash) ? c['type'] : c }
+end
+
+# --- HANDLERS ---
 body = case type
        when :field_logic
-         meta = raw_data['_rule'] || raise("Missing _rule metadata in #{options[:input]}")
+         meta = raw_data['_rule'] || raise("Mangler _rule i #{options[:input]}")
+         params = raw_data['params']
+         # Støtter både 'target' (streng/array) og 'targets' (array)
+         target_list = Array(params['targets'] || params['target'])
+         codes = extract_codes(params['codes'])
          
-         if raw_data['logic'] == 'any_of'
-           xpath_test = NationalRulesHelpers.build_consistency_xpath(raw_data['logic'], raw_data['params'], FIELD_MAPPING)
+         case raw_data['logic']
+         when 'any_of'
            id = NationalRulesHelpers.rule_id(domain: meta['domain'], scope: meta['scope'], kind: meta['kind'].to_sym, index: 0)
-           
-           "ND-Root:\n  - id: #{id}\n    test: >-\n      #{NationalRulesHelpers.clean_xpath(xpath_test)}\n    message: >-\n      #{NationalRulesHelpers.clean_prosa(raw_data.dig('description', 'eng'))}\n"
-           
-         elsif raw_data['logic'] == 'split_whitelist'
-           rules = NationalRulesHelpers.build_split_whitelist(raw_data['params'], BASE, meta['domain'], FIELD_MAPPING)
-           out = +""
-           rules.each do |r|
-             out << "#{r['field_id']}:\n  - id: #{r['id']}\n    test: >-\n      #{NationalRulesHelpers.clean_xpath(r['test'])}\n    message: >-\n      #{NationalRulesHelpers.clean_prosa(r['message'])}\n"
+           msg = NationalRulesHelpers.clean_prosa(params.dig('description', 'eng') || raw_data.dig('description', 'nob'))
+
+           if target_list.size == 1
+             t_key = target_list.first
+             t_info = FIELD_MAPPING[t_key] || raise("Ukjent target: #{t_key}")
+             test = "normalize-space() = (#{codes.map{|c| "'#{c}'"}.join(', ')})"
+             
+             "#{t_info['field_id']}:\n  - id: #{id}\n    test: >-\n      #{NationalRulesHelpers.clean_xpath(test)}\n    message: >-\n      #{msg}\n"
+           else
+             # Bruker eksisterende build_consistency_xpath for cross-field logikk
+             xpath_test = NationalRulesHelpers.build_consistency_xpath('any_of', params.merge('codes' => codes, 'targets' => target_list), FIELD_MAPPING)
+             "ND-Root:\n  - id: #{id}\n    test: >-\n      #{NationalRulesHelpers.clean_xpath(xpath_test)}\n    message: >-\n      #{msg}"
            end
-           out
+
+         when 'split_whitelist'
+           rules = NationalRulesHelpers.build_split_whitelist(params, BASE, meta['domain'], FIELD_MAPPING)
+           rules.map do |r|
+             "#{r['field_id']}:\n  - id: #{r['id']}\n    test: >-\n      #{NationalRulesHelpers.clean_xpath(r['test'])}\n    message: >-\n      #{NationalRulesHelpers.clean_prosa(r['message'])}"
+           end.join("\n")
          end
 
        when :codelist_rule

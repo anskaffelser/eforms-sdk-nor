@@ -1,7 +1,11 @@
 main_notice_language:
   xpath: "cbc:NoticeLanguageCode"
-  field_id: "BT-702(a)-Notice"
+  field_id: "BT-702(a)-notice"
 
 additional_notice_language:
   xpath: "cac:AdditionalNoticeLanguage/cbc:ID"
-  field_id: "BT-702(b)-Notice"
+  field_id: "BT-702(b)-notice"
+  
+notice_type: 
+  xpath: "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"
+  field_id: "OPP-070-notice"
