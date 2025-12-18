@@ -34,5 +34,11 @@ DT:
 DR:
   global:
     consistency: 1
+    
+LT:
+  global:
+    whitelist: 1
+    pairwise: 2
+    cardinality: 3
 
   
