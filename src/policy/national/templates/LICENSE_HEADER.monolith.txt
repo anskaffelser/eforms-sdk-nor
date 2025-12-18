@@ -1,0 +1,31 @@
+# SPDX-License-Identifier: CC-BY-4.0
+# License: Creative Commons Attribution 4.0 International
+# https://creativecommons.org/licenses/by/4.0
+#
+# Copyright © 2025 DFØ – The Norwegian Agency for Public and Financial 
+#                        Management
+#
+# You are free to: 
+# - share – copy and redistribute the material in any medium or format
+# - adapt – remix, transform, and build upon the material for any 
+#           purpose
+#
+# Under the following terms: 
+# - attribution – you must give appropriate credit to DFØ.
+#
+# --------------------------------------------------------------------
+# MACHINE-GENERATED FILE - DO NOT EDIT MANUALLY
+# --------------------------------------------------------------------
+#
+# This file (<OUTPUT_FILENAME>)
+# is automatically derived and transpliled *from YAML fragments.* 
+#
+# **Definition:**
+#     This document contains national additional rules and definitions 
+#     for Norwegian tailored notices (eForms) for procurements 
+#     beneath EU/EEA threshold values.
+#
+# To modify the content, edit the source files located in:
+# - src/policy/national/
+# - src/ruleset_sources/national/
+# --------------------------------------------------------------------

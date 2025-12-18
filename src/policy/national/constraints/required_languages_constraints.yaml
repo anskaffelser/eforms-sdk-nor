@@ -1,0 +1,74 @@
+# SPDX-License-Identifier: CC-BY-4.0 
+# License: Creative Commons Attribution 4.0 International
+# https://creativecommons.org/licenses/by/4.0
+#
+# Copyright © 2025 DFØ – The Norwegian Agency for Public and Financial 
+#                        Management
+# 
+# You are free to: 
+# - share – copy and redistribute the material in any medium or format
+# - adapt – remix, transform, and build upon the material for any purpose
+#
+# Under the following terms: 
+# - attribution – you must give appropriate credit to DFØ.
+#
+# =====================================================================
+# NORWEGIAN NATIONAL EFORMS REQUIRED NOTICE LANGUAGES CONSTRAINTS
+# =====================================================================
+# This file defines high-level abstractions of national tailoring 
+# rules for required notice languages.
+# =====================================================================
+---
+metadata:
+  id: NOR-national-eforms-required-languages-constraints
+  version: "0.1.0"
+  status: "draft"
+  maintainer: "anskaffelser.no"
+  agency: "DFØ"
+  license:
+    id: "CC-BY-4.0"
+    spdx: "CC-BY-4.0"
+    name: "Creative Commons Attribution 4.0 International"
+    url: "https://creativecommons.org/licenses/by/4.0"
+    attribution_required: true
+  title:
+    nob: >-
+      Nasjonale tilpasningsregler for påkrevde kunngjøringsspråk for
+      norske nasjonale kunngjøringer.
+    nob_verify: false
+    nno: >-
+      Nasjonale tilpassingsreglar for påkrevde kunngjeringsspråk for
+      norske nasjonale kunngjeringar.
+    nno_verify: false
+    eng: >-
+      National tailoring rules for required notice languages for
+      Norwegian national public procurement notices.
+    eng_verify: false
+
+# ====================================================================
+# NORWEGIAN EFORMS NOTICE LANGUAGE RULES
+# ====================================================================
+
+_rule:
+  domain: LG
+  scope: global
+  kind: consistency
+
+logic: any_of
+  
+params:
+  codes:
+    - NOR
+    - NOB
+    - NNO
+  targets:
+    - main_notice_language
+    - additional_notice_language
+
+description: 
+  nob: >-
+    Minst ett offisielt kunngjøringsspråk må være norsk.
+  nno: >-
+    Minst eit offisielt kunngjeringsspråk må vera norsk.
+  eng: >-
+    At least one official notice language must be Norwegian.

@@ -1,0 +1,7 @@
+main_notice_language:
+  xpath: "cbc:NoticeLanguageCode"
+  field_id: "BT-702(a)-Notice"
+
+additional_notice_language:
+  xpath: "cac:AdditionalNoticeLanguage/cbc:ID"
+  field_id: "BT-702(b)-Notice"

@@ -1,0 +1,179 @@
+# SPDX-License-Identifier: CC-BY-4.0 
+# License: Creative Commons Attribution 4.0 International
+# https://creativecommons.org/licenses/by/4.0
+#
+# Copyright © 2025 DFØ – The Norwegian Agency for Public and Financial 
+#                        Management
+# 
+# You are free to: 
+# - share – copy and redistribute the material in any medium or format
+# - adapt – remix, transform, and build upon the material for any purpose
+#
+# Under the following terms: 
+# - attribution – you must give appropriate credit to DFØ.
+#
+# =====================================================================
+# NORWEGIAN NATIONAL EFORMS RULE ID REGISTRY
+# =====================================================================
+# This file defines the group numbers used to generate unique IDs for 
+# national business rules: 
+#   EFORMS-NOR-NATIONAL-{DOMAIN}-R{GROUP}{INDEX}
+#
+# IMPORTANT: 
+# Do NOT change existing group numbers. Doing so will break the 
+# stability  of the rule IDs in the published SDK.
+# =====================================================================
+---
+metadata:
+  id: NOR-national-rule-id-registry
+  version: "0.1.0"
+  status: "draft"
+  maintainer: "anskaffelser.no"
+  agency: "DFØ"
+  license:
+    id: "CC-BY-4.0"
+    spdx: "CC-BY-4.0"
+    name: "Creative Commons Attribution 4.0 International"
+    url: "https://creativecommons.org/licenses/by/4.0"
+    attribution_required: true
+  title:
+    nob: >-
+      Register for å koble domener og skop til unike gruppenumre.
+    nob_verify: false
+    nno: >-
+      Register for å kopla domene og skop til unike gruppenummer.
+    nno_verify: false
+    eng: >-
+      Registry for mapping domains and scopes to unique group numbers.
+    eng_verify: false
+      
+# ====================================================================
+# RULE DOMAIN REGISTRY
+# ====================================================================
+
+LB:
+  _name: "Legal Basis"
+  _description: 
+    nob: >-
+      Validering av hjemler (f.eks. FOA)
+    nno: >-
+      Validering av heimlar (t.d. FOA)
+    eng: >-
+      Validating legal basis (e.g. FOA)
+  name:
+    _description:
+      nob: >-
+        Navnet på selve hjemmelen.
+      nno: >-
+        Namnet på sjølve heimelen.
+      eng: >-
+        The name of the legal basis.
+    whitelist: 1
+    pairwise: 2
+    cardinality: 3
+  description:
+    _description: 
+      nob: >-
+        Tekstlig beskrivelse av hjemmelen.
+      nno: >-
+        Tekstleg beskriving av heimelen.
+      eng: >-
+        Text description of the legal basis.
+    whitelist: 4
+    pairwise: 5
+    cardinality: 6
+    presence: 7
+  
+NT:
+  _name: "Notice type"
+  _description: 
+    nob: >-
+      Typen kunngjøring.
+    nno: >-
+      Typen kunngjering.
+    eng: >-
+      THe type of notice. 
+  global:
+    whitelist: 1
+
+LG:
+  _name: "Notice Language"
+  _description:
+    nob: >- 
+      Kunngjøringsspråk.
+    nno: >-
+      Kunngjeringsspråk.
+    eng: >-
+      Notice language.
+  global:
+    _description:
+      nob: >-
+        Kombinasjoner av kunngjøringsspråk.
+      nno: >-
+        Kombinasjonar av kunngjeringsspråk.
+      eng: >-
+        Combinations of notice languages
+    consistency: 1
+  main: 
+    _description: 
+      nob: >-
+        Kunngjøringens hovedspråk.
+      nno: >-
+        Kunngjeringas hovudspråk.
+      eng: >-
+        Main notice language.
+    whitelist: 2
+    presence: 3
+    consistency: 4
+  additional:
+    _description: 
+      nob: >-
+        Kunngjøringens tilleggsspråk.
+      nno: >-
+        Kunngjeringa sitt/sine tilleggspråk.
+      eng: >-
+        Additional notice language(s).
+    whitelist: 5
+    presence: 6
+    consistency: 7
+
+DR:
+  _name: "Document Rules"
+  _description: 
+    nob: >-
+      Overordnede regler for kunngjøringen.
+    nno: >-
+      Overordnede reglar for kunngjeringa.
+    eng: >-
+      Overarching rules for the notice. 
+  global:
+    _description: 
+      nob: >-
+        Regler som gjelder kunngjøringen som helhet.
+      nno: >-
+        Reglar som gjeld kunngjeringa som heilheit.
+      eng: >-
+        Rules governing the entirety of the notice.
+    consistency: 1
+    
+LT:
+  _name: "Buyer Legal Type"
+  description: 
+    nob: >-
+      Innkjøpertype, f.eks. statsstyrt virksomhet, virksomhet
+      underlagt offentlig lov, offentlig foretak.
+    nno: >-
+      Innkjøpartype, t.d. statsstyrt verksemd, verksemd 
+      underlagt offentleg lov, offentleg føretak.
+    eng: >-
+      The type of buyer, e.g. central government authority,
+      body governed by public law, public undertaking.
+  global:
+    _description: 
+      nob: >-
+        Globale regler for innkjøpertype.
+      nno: >-
+        Globale reglar for innkjøpartype.
+      eng: >-
+        Global rules for the type of buyer.
+    whitelist: 1

@@ -1,0 +1,48 @@
+---
+_rule:
+  domain: LG
+  kind: whitelist
+
+logic: split_whitelist
+
+params: 
+  base_list: eu-official-language
+  include: 
+    - NOR
+    - NOB
+    - NNO
+  entries: 
+    - target: main_notice_language
+      scope: main
+      description: 
+        nob: >-
+          Kunngjøringens hovedspråk må være norsk eller et offisielt
+          EU-språk.
+        nob_verify: false
+        nno: >-
+          Kunngjeringas hovudspråk må vere norsk eller eit offisielt
+          EU-språk.
+        nno_verify: false
+        eng: >-
+          Main language must be Norwegian or one of the official EU
+          languages.
+        eng_verify: false
+    - target: additional_notice_language
+      scope: additional 
+      description: 
+        nob: >-
+          Kunngjøringens tilleggsspråk må være norsk eller et 
+          offisielt EU-språk.
+        nob_verify: false
+        nno: >-
+          Kunngjeringas tilleggsspråk må vere norsk eller eit 
+          offisielt EU-språk.
+        nno_verify: false
+        eng: >-
+          Additional language must be Norwegian or one of the official
+          EU languages.
+        eng_verify: false
+    
+        
+      
+

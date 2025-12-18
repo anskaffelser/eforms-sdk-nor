@@ -1,10 +1,9 @@
 GENERATORS_PATH ?= generators/lib
 POLICY_PATH ?= policy/national
-RULESET_SOURCES_PATH ?= ruleset_sources/national
-
 INTERMEDIATE_GENERATED_PATH ?= generated/national
 FINAL_OUTPUT_PATH ?= fields/national.rules.yaml
 
+# Standard mål
 default: clean rules
 
 clean: 
@@ -14,27 +13,23 @@ clean:
 intermediate-folder:
 	@mkdir -p $(INTERMEDIATE_GENERATED_PATH)
 
-rules: intermediate-folder document-rules language-rules legal_basis_rules notice_type_rules mandatory_fields
-	ruby generators/lib/assemble_complete_national_ruleset.rb
+# Hovedmål som kjører alle stegene i Trinn 1, så Trinn 2 (assemble)
+rules: intermediate-folder required-languages allowed-languages notice-type-rules mandatory-fields buyer-legal-type-rules
+	@ruby $(GENERATORS_PATH)/assemble_complete_national_ruleset.rb
 
-document-rules: policy/national/document_rules.yaml
-	ruby generators/lib/document_rules.rb
+# --- TRINN 1: Generering av fragmenter ---
 
-language-rules: codelists/eu-official-language.yaml policy/national/languages.yaml
-	ruby generators/lib/language_rules.rb
+required-languages:
+	@ruby $(GENERATORS_PATH)/generate_fragments.rb -i constraints/required_languages_constraints.yaml -o required_languages.rules.fragment.yaml
 
-legal_basis_intermediate: ruleset_sources/national/national-procedure-legal-basis-ssot.yaml ruleset_sources/national/national-procurement-regulations-codelist.yaml ruleset_sources/national/texts/national-procedure-legal-basis-text-template.yaml
-	ruby generators/lib/legal_basis.rb
+mandatory-fields:
+	@ruby $(GENERATORS_PATH)/generate_fragments.rb -t mandatory -i fields.yaml -o field-mandatory.rules.fragment.yaml
 
+notice-type-rules:
+	@ruby $(GENERATORS_PATH)/generate_fragments.rb -t notice_types -i notice_types.yaml -o notice-type.rules.fragment.yaml
 
-legal_basis_rules: legal_basis_intermediate
-	ruby generators/lib/legal_basis_rules.rb
+allowed-languages:
+	@ruby $(GENERATORS_PATH)/generate_fragments.rb -i constraints/allowed_languages_constraints.yaml -o allowed_languages.rules.fragment.yaml
 
-notice_type_rules: policy/national/notice_types.yaml
-	ruby generators/lib/notice_type_rules.rb
-
-profile_rules: policy/national/profiles.yaml
-	ruby generators/lib/profile_rules.rb
-
-mandatory_fields: policy/national/fields.yaml
-	ruby generators/lib/field_mandatory_rules.rb
+buyer-legal-type-rules:
+	@ruby $(GENERATORS_PATH)/generate_fragments.rb -t codelist_rule -i buyer_legal_type.yaml -o buyer-legal-types.rules.fragment.yaml

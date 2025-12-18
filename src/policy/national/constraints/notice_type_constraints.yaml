@@ -1,0 +1,58 @@
+---
+_rule:
+  domain: NT
+  scope: global
+  kind: whitelist
+
+logic: any_of
+
+params:
+  target:
+    - notice_type
+  description: 
+    nob: >-
+      Kunngjøringstype må være en av de norske nasjonale typene.
+    nob_verify: false
+    nno: >-
+      Kunngjeringstypen må vere ein av dei norske nasjonale typane.
+    nno_verify: false
+    eng: >-
+      The notice type must be one of the Norwegian national types.
+    eng_verify: false
+  code:
+    - type: E2
+      alias: E2
+      _description: 
+        nob: >- 
+          Veiledende kunngjøring - norsk nasjonal anskaffelse.
+        nob_verify: false
+        nno: >-
+          Veileiande kunngjering - norsk nasjonal anskaffing.
+        nno_verify: false
+        eng: >-
+          Prior Information Notice - Norwegian National Procurement
+        eng_verify: false
+    - type: E3
+      alias: E3
+      _description:
+        nob: >-
+          Kunngjøring av konkurranse - norsk nasjonal anskaffelse
+        nob_verify: false
+        nno: >-
+          Kunngjering av konkurranse - norsk nasjonal anskaffing
+        nno_verify: false
+        eng: >-
+          Contract Notice - Norwegian National Procurement
+        eng_verify: false
+    - type: E4
+      alias: E4
+      _description:
+        nob: >-
+          Resultatkunngjøring - norsk nasjonal anskaffelse
+        nob_verify: false
+        nno: >-
+          Resultatkunngjering - norsk nasjonal anskaffing
+        nno_verify: false
+        eng: >-
+          Contract Award Notice - Norwegian National Procurement
+        eng_verify: false
