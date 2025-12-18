@@ -1,9 +1,0 @@
----
-
-legal_basis_explanation:
-  nob: >-
-    Anskaffelsen har en samlet verdi {{threshold_phrase}}
-    fastsatt i {{regulation_name}}s § {{section}}. Anskaffelsens
-    særpreg gjør at ingen av forskriftens unntaksbestemmelser
-    gjelder, og anskaffelsen er derfor underlagt bestemmelsene
-    i {{regulation_name}}s Del {{part}}.

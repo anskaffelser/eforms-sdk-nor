@@ -1,7 +1,0 @@
----
-base: eu-official-language
-
-include:
-  - NOR
-  - NOB
-  - NNO
