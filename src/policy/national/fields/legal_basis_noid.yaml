@@ -9,8 +9,8 @@ logic: mandatory_requirements
 params:
   condition:
     target: notice_type
-    source_folder: constraints/
-    source_file: notice_type_constraints.yaml
+    source_folder: rules/
+    source_file: notice_type.yaml
   fields:
     - target: legal_basis_noid
       _rule: 

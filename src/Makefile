@@ -1,41 +1,57 @@
 GENERATORS_PATH ?= generators/lib
 POLICY_PATH ?= policy/national
-INTERMEDIATE_GENERATED_PATH ?= generated/national
-FINAL_OUTPUT_PATH ?= fields/national.rules.yaml
+EU_CODELIST_PATH ?= codelists
+INTERMEDIATE_PATH ?= generated/national
+OUTPUT_PATH ?= fields/national.rules.yaml
+MAPPING_FILE  = $(POLICY_PATH)/eforms_fields_mapping.yaml
+REGISTRY_FILE = $(POLICY_PATH)/rule_id_registry.yaml
+FRAGMENT_LICENSE_FILE  = $(POLICY_PATH)/templates/LICENSE_HEADER.fragment.txt
 
-# Standard mål
-default: clean national-e.json
 
-clean: 
-	@rm -rf generated
-	@rm -rf $(FINAL_OUTPUT_PATH)
+FIELD_SOURCES = $(wildcard $(POLICY_PATH)/fields/*.yaml)
+RULE_SOURCES = $(wildcard $(POLICY_PATH)/rules/*.yaml)
 
-intermediate-folder:
-	@mkdir -p $(INTERMEDIATE_GENERATED_PATH)
+FIELD_FRAGMENTS = $(patsubst $(POLICY_PATH)/fields/%.yaml, \
+					$(INTERMEDIATE_PATH)/%.fields.fragment.yaml, \
+					$(FIELD_SOURCES))
 
-national-e.json: intermediate-folder fields rules
+RULE_FRAGMENTS = $(patsubst $(POLICY_PATH)/rules/%.yaml, \
+					$(INTERMEDIATE_PATH)/%.rules.fragment.yaml, \
+					$(RULE_SOURCES))
+
+.PHONY: all clean
+
+all: 
+	$(MAKE) clean
+	$(MAKE) $(OUTPUT_PATH)
+
+$(OUTPUT_PATH): $(FIELD_FRAGMENTS) $(RULE_FRAGMENTS)
+	@echo "Assembling final policy: $@"
 	@ruby $(GENERATORS_PATH)/assemble_national_e_json.rb
 
-# --- TRINN 1: Generering av fragmenter ---
-fields: fields/legal-basis-no-id fields/buyer-legal-type
+$(INTERMEDIATE_PATH)/%.fields.fragment.yaml: $(POLICY_PATH)/fields/%.yaml
+	@mkdir -p $(INTERMEDIATE_PATH)
+	@echo "Fragmenting field: $*"
+	@ruby $(GENERATORS_PATH)/generate_fragments.rb \
+		--input $< \
+		--output $@ \
+		--mapping $(MAPPING_FILE) \
+		--registry $(REGISTRY_FILE) \
+		--license $(FRAGMENT_LICENSE_FILE) \
+		--base $(POLICY_PATH) --eu-codelists $(EU_CODELIST_PATH)
 
-fields/legal-basis-no-id:
-	@ruby $(GENERATORS_PATH)/generate_fragments.rb -i requirements/legal_basis_noid.yaml -o legal-basis-noid.fields.fragment.yaml
+$(INTERMEDIATE_PATH)/%.rules.fragment.yaml: $(POLICY_PATH)/rules/%.yaml
+	@mkdir -p $(INTERMEDIATE_PATH)
+	@echo "Fragmenting rule: $*"
+	@ruby $(GENERATORS_PATH)/generate_fragments.rb \
+		--input $< \
+		--output $@ \
+		--mapping $(MAPPING_FILE) \
+		--registry $(REGISTRY_FILE) \
+		--license $(FRAGMENT_LICENSE_FILE) \
+		--base $(POLICY_PATH) \
+		--eu-codelists $(EU_CODELIST_PATH)
 
-fields/buyer-legal-type:
-	@ruby $(GENERATORS_PATH)/generate_fragments.rb -i requirements/buyer_legal_type.yaml -o buyer-legal-type.fields.fragment.yaml
-
-rules: rules/required-languages rules/notice-type rules/allowed-languages rules/buyer-legal-type
-
-rules/required-languages:
-	@ruby $(GENERATORS_PATH)/generate_fragments.rb -i constraints/required_languages_constraints.yaml -o required_languages.rules.fragment.yaml
-
-
-rules/notice-type:
-	@ruby $(GENERATORS_PATH)/generate_fragments.rb -i constraints/notice_type_constraints.yaml -o notice-type.rules.fragment.yaml
-
-rules/allowed-languages:
-	@ruby $(GENERATORS_PATH)/generate_fragments.rb -i constraints/allowed_languages_constraints.yaml -o allowed_languages.rules.fragment.yaml
-
-rules/buyer-legal-type:
-	@ruby $(GENERATORS_PATH)/generate_fragments.rb -t codelist_rule -i buyer_legal_type.yaml -o buyer-legal-types.rules.fragment.yaml
+clean: 
+	@rm -rf $(INTERMEDIATE_PATH)
+	@rm -rf $(OUTPUT_PATH)

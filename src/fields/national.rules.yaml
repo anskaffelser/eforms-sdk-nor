@@ -30,15 +30,19 @@
 # - src/ruleset_sources/national/
 # --------------------------------------------------------------------
 ---
-noticeTypes:
-- E2
-- E3
-- E4
-aliases:
-  E2: E2
-  E3: E3
-  E4: E4
+noticeTypes: []
+aliases: {}
 fields:
+  BT-11-Procedure-Buyer:
+    xpath: "/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type]"
+    mandatory:
+      severity: ERROR
+      kind: mandatory
+      constraints:
+      - noticeTypes:
+        - E2
+        - E3
+        - E4
   BT-01(e)-Procedure:
     xpath: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:ID"
     mandatory:
@@ -50,7 +54,7 @@ fields:
         - E3
         - E4
   BT-01(f)-Procedure:
-    xpath: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription[@cbc:languageID='NOR']"
+    xpath: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription"
     mandatory:
       severity: ERROR
       kind: presence
@@ -59,80 +63,29 @@ fields:
         - E2
         - E3
         - E4
-  BT-10-Procedure-Buyer:
-    xpath: "/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listname='buyer-legal-type']"
-    mandatory:
-      severity: ERROR
-      kind: cardinality
-      constraints:
-      - noticeTypes:
-        - E2
-        - E3
-        - E4
-  OPT-002-notice:
-    pattern:
-      value: "^eforms-sdk-\\d\\.\\d#extended#amtl-is-a-god-damn-hero$"
 rules:
-  ND-Root:
-  - id: EFORMS-NOR-NATIONAL-DR-R001A
-    test: normalize-space(cbc:NoticeLanguageCode) = ('NOR', 'NOB', 'NNO') or (some $l in cac:AdditionalNoticeLanguage/cbc:ID satisfies normalize-space($l) = ('NOR', 'NOB', 'NNO'))
-    message: At least one official language must be Norwegian.
-  - id: EFORMS-NOR-NATIONAL-DR-R001B
-    test: not(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages)
-    message: Non-official languages must not be used.
-  BT-01(e)-Procedure:
-  - id: EFORMS-NOR-NATIONAL-LB-R003A
-    context: "/*"
-    test: count(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:ID) = 1
-    message: The legal basis for the planned procurement must be provided.
-  - id: EFORMS-NOR-NATIONAL-LB-R001A
-    context: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:ID"
-    test: normalize-space(.) = ('Oppdragsgiver er ikke underlagt Anskaffelsesloven', 'Anskaffelsesforskriften Del 1', 'Anskaffelsesforskriften Del 1 og 2', 'Forsyningsforskriften Del 1', 'Forskrift om forsvars- og sikkerhetsanskaffelser Del 1', 'Konsesjonskontraktforskriften Del 1')
-    message: Local legal basis must be one of the recognised Norwegian procurement regulations
-  BT-01(f)-Procedure:
-  - id: EFORMS-NOR-NATIONAL-LB-R007A
-    context: "/*"
-    test: count(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription[@cbc:languageID = 'NOR']) >= 1
-    message: A description of the legal basis for the planned procurement must be provided.
-  - id: EFORMS-NOR-NATIONAL-LB-R005A
-    context: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription"
-    test: not(normalize-space(../cbc:ID) = 'Oppdragsgiver er ikke underlagt Anskaffelsesloven') or normalize-space(.) = normalize-space('Oppdragsgiver er ikke underlagt lov eller forskrift om offentlige anskaffelser.')
-    message: When BT-01(e)-Procedure equals 'Oppdragsgiver er ikke underlagt Anskaffelsesloven', BT-01(f)-Procedure must contain its accompanying legend.
-  - id: EFORMS-NOR-NATIONAL-LB-R005B
-    context: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription"
-    test: not(normalize-space(../cbc:ID) = 'Anskaffelsesforskriften Del 1') or normalize-space(.) = normalize-space('Anskaffelsen har en samlet verdi mindre enn de nasjonale terskelverdiene fastsatt i Anskaffelsesforskriftens § 5-3. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Anskaffelsesforskriftens Del 1.')
-    message: When BT-01(e)-Procedure equals 'Anskaffelsesforskriften Del 1', BT-01(f)-Procedure must contain its accompanying legend.
-  - id: EFORMS-NOR-NATIONAL-LB-R005C
-    context: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription"
-    test: not(normalize-space(../cbc:ID) = 'Anskaffelsesforskriften Del 1 og 2') or normalize-space(.) = normalize-space('Anskaffelsen har en samlet verdi over de nasjonale terskelverdiene, og mindre enn EØS-terskelverdiene fastsatt i Anskaffelsesforskriftens § 5-3. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Anskaffelsesforskriftens Del 1 og 2.')
-    message: When BT-01(e)-Procedure equals 'Anskaffelsesforskriften Del 1 og 2', BT-01(f)-Procedure must contain its accompanying legend.
-  - id: EFORMS-NOR-NATIONAL-LB-R005D
-    context: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription"
-    test: not(normalize-space(../cbc:ID) = 'Forsyningsforskriften Del 1') or normalize-space(.) = normalize-space('Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt i Forsyningsforskriftens § 5-2. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Forsyningsforskriftens Del 1.')
-    message: When BT-01(e)-Procedure equals 'Forsyningsforskriften Del 1', BT-01(f)-Procedure must contain its accompanying legend.
-  - id: EFORMS-NOR-NATIONAL-LB-R005E
-    context: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription"
-    test: not(normalize-space(../cbc:ID) = 'Forskrift om forsvars- og sikkerhetsanskaffelser Del 1') or normalize-space(.) = normalize-space('Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt i Forskrift om forsvars- og sikkerhetsanskaffelsers § 5-2. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Forskrift om forsvars- og sikkerhetsanskaffelsers Del 1.')
-    message: When BT-01(e)-Procedure equals 'Forskrift om forsvars- og sikkerhetsanskaffelser Del 1', BT-01(f)-Procedure must contain its accompanying legend.
-  - id: EFORMS-NOR-NATIONAL-LB-R005F
-    context: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription"
-    test: not(normalize-space(../cbc:ID) = 'Konsesjonskontraktforskriften Del 1') or normalize-space(.) = normalize-space('Anskaffelsen har en samlet verdi under EØS-terskelverdiene fastsatt i Konsesjonskontraktforskriftens § 5-2. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Konsesjonskontraktforskriftens Del 1.')
-    message: When BT-01(e)-Procedure equals 'Konsesjonskontraktforskriften Del 1', BT-01(f)-Procedure must contain its accompanying legend.
-  BT-10-Procedure-Buyer:
-  - id: EFORMS-NOR-NATIONAL-LT-R003A
-    context: "/*"
-    test: count(/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listname = 'buyer-legal-type']) = 1
-    message: The buyer legal type plays a part in determining the EU/EEA threshold values for notice publication.
   BT-702(a)-notice:
-  - id: EFORMS-NOR-NATIONAL-NL-R001A
+  - id: EFORMS-NOR-NATIONAL-LG-R002A
     test: normalize-space() = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'NNO', 'NOB', 'NOR', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')
-    message: Main language must be Norwegian or one of the official languages.
+    message: Main language must be Norwegian or one of the official EU languages.
   BT-702(b)-notice:
-  - id: EFORMS-NOR-NATIONAL-NL-R004B
+  - id: EFORMS-NOR-NATIONAL-LG-R005B
     test: normalize-space() = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'NNO', 'NOB', 'NOR', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')
-    message: Additional language must be Norwegian or one of the official languages.
+    message: Additional language must be Norwegian or one of the official EU languages.
+  BT-11-Procedure-Buyer:
+  - id: EFORMS-NOR-NATIONAL-LT-R002A
+    test: normalize-space() = ('body-pl-cga', 'body-pl-la', 'body-pl-ra', 'cga', 'def-cont', 'eu-ins-bod-ag', 'eu-int-org', 'grp-p-aut', 'int-org', 'la', 'org-sub-cga', 'org-sub-la', 'org-sub-ra', 'pub-undert-cga', 'pub-undert-la', 'pub-undert-ra', 'ra', 'rl-aut', 'spec-rights-entity')
+    message: Specific legal types are allowed. Overarching categories are too generic. The detailed types are significant for specifying threshold values.
+  OPT-002-notice:
+  - id: EFORMS-NOR-NATIONAL-CI-R001A
+    test: matches(normalize-space(), '^eforms-sdk-\d\.\d#extended#amtl-is-a-god-damn-hero$')
+    message: The customization id must match Norway's particular version numbering pattern.
   OPP-070-notice:
   - id: EFORMS-NOR-NATIONAL-NT-R001A
     test: normalize-space() = ('E2', 'E3', 'E4')
-    message: Notice type must be E2, E3, or E4.
+    message: The notice type must be one of the Norwegian national types.
+  ND-Root:
+  - id: EFORMS-NOR-NATIONAL-LG-R001A
+    test: normalize-space(cbc:NoticeLanguageCode) = ('NOR', 'NOB', 'NNO') or (some $l in cac:AdditionalNoticeLanguage/cbc:ID satisfies normalize-space($l) = ('NOR', 'NOB', 'NNO'))
+    message: At least one official notice language must be Norwegian.
 removed: []

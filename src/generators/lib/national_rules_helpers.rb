@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 require 'yaml'
+require 'pathname'
 
 module NationalRulesHelpers
   # --- METADATA-HÅNDTERING ---
@@ -96,7 +97,6 @@ module NationalRulesHelpers
   # --- XPATH-GENERATORER (LOGIKK) ---
 
   # Genererer XPath for konsistens-regler (kind: consistency)
-  # Bruker nå mapping-argument i stedet for hardkodet TARGET_MAP
   def self.build_consistency_xpath(logic, params, mapping)
     case logic.to_s
     when 'any_of'
@@ -106,7 +106,6 @@ module NationalRulesHelpers
         m = mapping[t] || mapping[t.to_s] || raise("Ukjent target i mapping: #{t}")
         xpath_base = m['xpath']
         
-        # Bruker 'some'-logikk hvis target indikerer en liste (additional_*)
         if t.to_s.start_with?('additional_')
           "(some $l in #{xpath_base} satisfies normalize-space($l) = (#{codes}))"
         else
@@ -121,26 +120,73 @@ module NationalRulesHelpers
   end
 
   # Genererer flere regler basert på en felles kodeliste (kind: whitelist)
-  def self.build_split_whitelist(params, base_path, domain, mapping)
-    # 1. Last kodeliste fra EU-mappa
-    eu_list_path = base_path.join("src/codelists/#{params['base_list']}.yaml")
-    eu_codes = YAML.load_file(eu_list_path).keys
+  # eu_codelist_path kommer nå fra Make via generate_fragments.rb
+  def self.build_split_whitelist(params, base_path, eu_codelist_path, domain, mapping)
+    # Finn fila i EU-mappa
+    eu_list_path = Pathname.new(eu_codelist_path).join("#{params['base_list']}.yaml")
     
-    # 2. Slå sammen med nasjonale tillegg
+    unless eu_list_path.exist?
+      raise "❌ Fant ikke EU-kodeliste: #{eu_list_path}"
+    end
+
+    # Laster koder (håndterer både Hash og Array fra YAML)
+    data = YAML.load_file(eu_list_path)
+    eu_codes = data.is_a?(Hash) ? data.keys : Array(data)
+    
+    # Slå sammen med nasjonale tillegg
     all_allowed = (eu_codes + Array(params['include'])).uniq.sort
     test_expr = "normalize-space() = (#{all_allowed.map { |c| "'#{c}'" }.join(', ')})"
 
-    # 3. Generer én regel per entry i policy-fila
+    # Generer én regel per entry
     params['entries'].map.with_index do |entry, i|
       target_meta = mapping[entry['target']] || raise("Ukjent target i mapping: #{entry['target']}")
       
       {
         'field_id' => target_meta['field_id'],
-        'id'       => rule_id(domain: domain, scope: entry['scope'], kind: :whitelist, index: i),
-        'test'     => test_expr,
-        'message'  => entry.dig('description', 'eng')
+        'id'        => rule_id(domain: domain, scope: entry['scope'], kind: :whitelist, index: i),
+        'test'      => test_expr,
+        'message'   => entry.dig('description', 'eng')
       }
     end
+  end
+                                                                                     
+  def self.extract_message(params, meta, fallback: "Validation failed (no description provided)")
+    # 1. Prøv spesifikk oversettelse i params
+    msg = params.dig('_description', 'eng')
+    
+    # 2. Prøv generell beskrivelse i meta
+    msg ||= meta['description']
+    
+    # 3. Bruk fallback hvis begge er nil/tomme
+    msg = fallback if msg.nil? || msg.strip.empty?
+    
+    # Vask prosateksten før den returneres
+    clean_prosa(msg)
+  end
+  
+  # Hjelper for å hente koder, enten fra params eller fra en ekstern kodeliste
+  def self.resolve_codes(params, eu_codelist_path)
+    if params['base_list']
+      path = Pathname.new(eu_codelist_path).join("#{params['base_list']}.yaml")
+      raise "❌ Fant ikke kodeliste: #{path}" unless path.exist?
+      
+      data = YAML.load_file(path)
+      all_codes = data.is_a?(Hash) ? data.keys : Array(data)
+
+      if params['base_modification'] == 'leaves-only'
+        # Sorterer etter lengde (lengst først) er ikke nødvendig, men vi sjekker prefix.
+        # En kode er en "forelder" hvis det finnes en annen kode som starter med (kode + "-")
+        codes = all_codes.reject do |code|
+          all_codes.any? { |other| other.start_with?("#{code}-") }
+        end
+      else
+        codes = all_codes
+      end
+      
+      return (codes + Array(params['codes']) + Array(params['include'])).uniq.sort
+    end
+
+    Array(params['codes'] || params['code'])
   end
 
   # Eldre hvitliste-generator for flate lister

@@ -1,0 +1,28 @@
+---
+_rule: 
+  domain: LT
+  scope: global
+  kind: whitelist
+
+logic: any_of
+
+params: 
+  base_list: buyer-legal-type
+  base_modification: leaves-only
+  target: buyer_legal_type
+  _description: 
+    nob: >-
+      Spesifikke juridiske typer er tillatt. Overordnede kategorier
+      er for generelle. Detaljnivået spiller rolle for spesifisering
+      av terskelverdier.
+    nob_verify: false
+    nno: >-
+      Spesifikke juridiske typar er tillatne. Overordna kategoriar er
+      for generelle. Detaljnivået speler rolle for spesifisering av
+      terskelverdiar.
+    nno_verify: false
+    eng: >-
+      Specific legal types are allowed. Overarching categories are
+      too generic. The detailed types are significant for specifying
+      threshold values.
+    eng_verify: false

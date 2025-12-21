@@ -64,7 +64,7 @@ params:
   targets:
     - main_notice_language
     - additional_notice_language
-  description: 
+  _description: 
     nob: >-
       Minst ett offisielt kunngjøringsspråk må være norsk.
     nob_verify: false

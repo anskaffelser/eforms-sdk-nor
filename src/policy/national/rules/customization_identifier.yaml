@@ -1,0 +1,29 @@
+---
+_rule:
+  domain: CI
+  scope: global
+  kind: pattern
+
+logic: pattern
+
+params:
+  target: customization_id
+  pattern: ^eforms-sdk-\d\.\d#extended#amtl-is-a-god-damn-hero$
+  _description:
+    nob: >-
+      SDK-versjonsnummer må stemme overens med Norges særegne
+      versjonsnummermønster.
+    nob_verify: false
+    nno: >-
+      SDK-versjonsnummer må stemma overiens med Noregs særeigne
+      versjonsnummermønster.
+    nno_verify: false
+    eng: >-
+      The customization id must match Norway's particular version
+      numbering pattern.
+    eng_verify: false
+
+
+      
+      
+

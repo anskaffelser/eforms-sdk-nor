@@ -160,7 +160,7 @@ DR:
     
 LT:
   _name: "Buyer Legal Type"
-  description: 
+  _description: 
     nob: >-
       Innkjøpertype, f.eks. statsstyrt virksomhet, virksomhet
       underlagt offentlig lov, offentlig foretak.
@@ -180,3 +180,29 @@ LT:
         Global rules for the type of buyer.
     mandatory: 1
     whitelist: 2
+    
+CI: 
+  _name: "Customization ID"
+  _description: 
+    nob: >-
+      Nummerering av SDK-versjoner.
+    nob_verify: false
+    nno: >-
+      Nummerering av SDK-versjonar.
+    nno_verify: false
+    eng: >-
+      SDK versioning.
+    eng_verify: false
+  global:
+    _description: 
+      nob: >-
+        Globale regler for versjonsnummerering.
+      nob_verify: false
+      nno: >-
+        Globale reglar for versjonsnummerering.
+      nno_verify: false
+      eng: >-
+        Global rules for SDK versioning.
+      eng_Verify: false
+    pattern: 1
+  

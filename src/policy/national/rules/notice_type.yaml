@@ -58,7 +58,7 @@ logic: any_of
 params:
   targets:
     - notice_type
-  description: 
+  _description: 
     nob: >-
       Kunngjøringstype må være en av de norske nasjonale typene.
     nob_verify: false

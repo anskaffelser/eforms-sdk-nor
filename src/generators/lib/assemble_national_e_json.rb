@@ -70,7 +70,7 @@ end
 yaml_content = out.to_yaml(line_width: -1)
 
 OUT_PATH.dirname.mkpath unless OUT_PATH.dirname.exist?
-File.write(OUT_PATH, header + "---\n" + yaml_content)
+File.write(OUT_PATH, header + yaml_content)
 
 puts "------------------------------------------------------------"
 puts "✅ SUCCESS: #{OUT_PATH.basename} assembled."

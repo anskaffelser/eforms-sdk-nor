@@ -25,3 +25,7 @@ buyer_legal_type:
 activity_authority:
   xpath: "/*/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']"
   field_id: "BT-10-Procedure-Buyer"
+
+customization_id:
+  xpath: "/*/cbc:CustomizationID"
+  field_id: "OPT-002-notice"

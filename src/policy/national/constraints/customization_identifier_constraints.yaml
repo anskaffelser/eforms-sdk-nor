@@ -1,6 +1,0 @@
-national:
-  customization_id:
-    field: OPT-002-notice
-    pattern: ^eforms-sdk-\d\.\d#extended#amtl-is-a-god-damn-hero$
-
-  noticeTypes: [E2, E3, E4]

@@ -1,0 +1,103 @@
+---
+BT-01(e)-Procedure:
+  xpath: >-
+    /*/cac:TenderingTerms
+      /cac:ProcurementLegislationDocumentReference
+      /cbc:ID
+  _rule: 
+    domain: "LB"
+    scope: "name"
+  mandatory:
+    severity: ERROR
+    kind: cardinality
+    constraints:
+      - noticeTypes: [E2, E3, E4]
+        _rationale:
+          nob: >-
+             Lovhjemmelen for den planlagte anskaffelsen må angis.
+          nno: >-
+            Lovheimelen til den planlagte anskaffinga må angivast.
+          eng: >-
+            The legal basis for the planned procurement must be provided.
+
+BT-01(f)-Procedure:
+  xpath: >-
+    /*/cac:TenderingTerms
+      /cac:ProcurementLegislationDocumentReference
+      /cbc:DocumentDescription[@cbc:languageID='NOR']
+  _rule: 
+    domain: "LB"
+    scope: "description"
+  mandatory:
+    severity: ERROR
+    kind: presence
+    constraints: 
+      - noticeTypes: [E2, E3, E4]
+        _rationale:
+          nob: >-
+            Beskrivelse av lovhjemmelen for den planlagte anskaffelsen 
+            må angis.
+          nno: >-
+            Beskriving av lovheimelen til den planlagte anskaffinga må
+            angivast.
+          eng: >-
+            A description of the legal basis for the planned procurement
+            must be provided.
+            
+BT-10-Procedure-Buyer:
+  xpath: >-
+    /*/cac:ContractingParty
+      /cac:ContractingPartyType
+      /cbc:PartyTypeCode[@listname='buyer-legal-type']
+  _rule: 
+    domain: "LT"
+    scope: "global"
+  mandatory:
+    severity: ERROR
+    kind: cardinality
+    constraints:
+      - noticeTypes: [E2, E3, E4]
+        _rationale: 
+          nob: >-
+            Typen oppdragsgiver angir for hvem forskriften(e) gjelder, 
+            og påvirker EØS-terskelverdiene for kunngjøring.
+          nob_verify: false
+          nno: >-
+            Typen oppdragsgivar angir kven forskrifta(ne) gjeld,
+            og påverkaer EØS-terskelverdiane for kunngjering.
+          nno_verify: false
+          eng: >-
+            The buyer legal type plays a part in determining the
+            EU/EEA threshold values for notice publication.
+          eng_verify: false
+        _derivedRequirements:
+          - id: BT-11-Procedure-Buyer
+            xpath: >-
+              /*/cac:ContractingParty
+                /cac:ContractingActivity
+                /cbc:ActivityTypeCode[@listname='activity-authority']
+            _rule:
+              name: "LT"
+              scope: "global"
+            mandatory:
+              severity: ERROR
+              kind: cardinality
+              _rationale: 
+                nob: >-
+                  Når BT-10-Procedure-Buyer angis, følger det fra 
+                  SDK-valideringsregler at BT-11-Procedure-Buyer
+                  også må angis.
+                nob_verify: false
+                nno: >-
+                  Når BT-10-Procedure-Buyer angjes, følgjer det frå
+                  SDK-valideringsreglar at BT-11-Procedure-Buyer
+                  også må angivast.
+                nno_verify: false
+                eng: >-
+                  When BT-10-Procedure-Buyer is provided, it follows
+                  from SDK validation rules that BT-11-Procedure-Buyer
+                  also must be provided.
+                eng_verify: false
+                
+            
+
