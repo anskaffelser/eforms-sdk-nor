@@ -8,8 +8,11 @@ REGISTRY_FILE = $(POLICY_PATH)/rule_id_registry.yaml
 FRAGMENT_LICENSE_FILE  = $(POLICY_PATH)/templates/LICENSE_HEADER.fragment.txt
 MONOLITH_LICENSE_FILE  = $(POLICY_PATH)/templates/LICENSE_HEADER.monolith.txt
 
-FIELD_SOURCES = $(wildcard $(POLICY_PATH)/fields/*.yaml)
-RULE_SOURCES = $(wildcard $(POLICY_PATH)/rules/*.yaml)
+FIELDS_PATH = $(POLICY_PATH)/fields
+RULES_PATH = $(POLICY_PATH)/rules
+
+FIELD_SOURCES = $(wildcard $(FIELDS_PATH)/*.yaml)
+RULE_SOURCES = $(wildcard $(RULES_PATH)/*.yaml)
 
 FIELD_FRAGMENTS = $(patsubst $(POLICY_PATH)/fields/%.yaml, \
 					$(INTERMEDIATE_PATH)/%.fields.fragment.yaml, \
@@ -30,9 +33,10 @@ $(OUTPUT_PATH): $(FIELD_FRAGMENTS) $(RULE_FRAGMENTS)
 	@ruby $(GENERATORS_PATH)/assemble_national_e_json.rb \
 		--input $(INTERMEDIATE_PATH) \
 		--output $(OUTPUT_PATH) \
-		--template $(MONOLITH_LICENSE_FILE)
+		--template $(MONOLITH_LICENSE_FILE) \
+		--notice_type $(RULES_PATH)/notice_type.yaml
 
-$(INTERMEDIATE_PATH)/%.fields.fragment.yaml: $(POLICY_PATH)/fields/%.yaml
+$(INTERMEDIATE_PATH)/%.fields.fragment.yaml: $(FIELDS_PATH)/%.yaml
 	@mkdir -p $(INTERMEDIATE_PATH)
 	@echo "Fragmenting field: $*"
 	@ruby $(GENERATORS_PATH)/generate_fragments.rb \
@@ -43,7 +47,7 @@ $(INTERMEDIATE_PATH)/%.fields.fragment.yaml: $(POLICY_PATH)/fields/%.yaml
 		--license $(FRAGMENT_LICENSE_FILE) \
 		--base $(POLICY_PATH) --eu-codelists $(EU_CODELIST_PATH)
 
-$(INTERMEDIATE_PATH)/%.rules.fragment.yaml: $(POLICY_PATH)/rules/%.yaml
+$(INTERMEDIATE_PATH)/%.rules.fragment.yaml: $(RULES_PATH)/%.yaml
 	@mkdir -p $(INTERMEDIATE_PATH)
 	@echo "Fragmenting rule: $*"
 	@ruby $(GENERATORS_PATH)/generate_fragments.rb \

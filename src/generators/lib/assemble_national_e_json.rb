@@ -13,9 +13,10 @@ OptionParser.new do |opts|
   opts.on("--input DIR", "Directory containing fragments") { |v| options[:input] = Pathname.new(v) }
   opts.on("--output FILE", "Path to the final output file") { |v| options[:output] = Pathname.new(v) }
   opts.on("--template FILE", "Path to the license header template") { |v| options[:template] = Pathname.new(v) }
+  opts.on("--notice-type FILE", "The global notice types definition") { |v| options[:notice_type] = v}
 end.parse!
 
-# Fallback til defaults hvis de ikke er definert (valgfritt)
+# Fallback til defaults hvis de ikke er definert 
 FRAGMENTS_DIR = options[:input]    || raise("Missing --input")
 OUT_PATH      = options[:output]   || raise("Missing --output")
 HEADER_PATH   = options[:template] || raise("Missing --template")
@@ -29,6 +30,25 @@ out = {
   'removed'     => []
 }
 
+# --- 2a. SET GLOBAL METADATA ---
+if options[:notice_type] && File.exist?(options[:notice_type])
+  nt_config = YAML.load_file(options[:notice_type])
+  
+  # Hent ut kodene
+  codes = nt_config.dig('params', 'codes') || []
+  
+  # 1. Oppdater noticeTypes (selve kodene)
+  out['noticeTypes'] = codes.map { |c| c['type'] }.sort
+  
+  # 2. Oppdater aliases (mapping fra type til alias)
+  # Vi bygger en hash: { "E2" => "E2", "E3" => "E3" ... } basert på YAML
+  out['aliases'] = codes.each_with_object({}) do |c, hash|
+    hash[c['type']] = c['alias']
+  end
+end
+  
+
+
 # --- 3. MERGING STRATEGIES ---
 # Her definerer vi "kontrakten" for de ulike filtypene.
 # Dette gjør det ekstremt lett å legge til nye typer fragmenter senere.
@@ -39,10 +59,6 @@ MERGE_LOGIC = {
   '.rules.fragment.yaml' => ->(data) { 
     data.each { |target, entries| (out['rules'][target] ||= []).concat(Array(entries)) } 
   },
-  '.noticetypes.fragment.yaml' => ->(data) { 
-    out['noticeTypes'] = (out['noticeTypes'] + Array(data)).uniq.sort
-    out['aliases']     = out['noticeTypes'].to_h { |nt| [nt, nt] }
-  }
 }
 
 # --- 4. HEADER LOADING ---
