@@ -92,9 +92,6 @@ rules:
   - id: EFORMS-NOR-NATIONAL-DT-R001D
     test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
     message: Monetary values must be numbers with a maximum of two decimals.
-  - id: EFORMS-NOR-NATIONAL-DT-R001D
-    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
-    message: Monetary values must be numbers with a maximum of two decimals.
   BT-27-Part:
   - id: EFORMS-NOR-NATIONAL-CR-R002B
     test: normalize-space(@currencyID) = ('NOK')
@@ -102,16 +99,10 @@ rules:
   - id: EFORMS-NOR-NATIONAL-DT-R001C
     test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
     message: Monetary values must be numbers with a maximum of two decimals.
-  - id: EFORMS-NOR-NATIONAL-DT-R001C
-    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
-    message: Monetary values must be numbers with a maximum of two decimals.
   BT-27-Procedure:
   - id: EFORMS-NOR-NATIONAL-CR-R001B
     test: normalize-space(@currencyID) = ('NOK')
     message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
-  - id: EFORMS-NOR-NATIONAL-DT-R001B
-    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
-    message: Monetary values must be numbers with a maximum of two decimals.
   - id: EFORMS-NOR-NATIONAL-DT-R001B
     test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
     message: Monetary values must be numbers with a maximum of two decimals.
@@ -128,16 +119,10 @@ rules:
   - id: EFORMS-NOR-NATIONAL-DT-R001E
     test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
     message: Monetary values must be numbers with a maximum of two decimals.
-  - id: EFORMS-NOR-NATIONAL-DT-R001E
-    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
-    message: Monetary values must be numbers with a maximum of two decimals.
   BT-271-Procedure:
   - id: EFORMS-NOR-NATIONAL-CR-R001C
     test: normalize-space(@currencyID) = ('NOK')
     message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
-  - id: EFORMS-NOR-NATIONAL-DT-R001F
-    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
-    message: Monetary values must be numbers with a maximum of two decimals.
   - id: EFORMS-NOR-NATIONAL-DT-R001F
     test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
     message: Monetary values must be numbers with a maximum of two decimals.
