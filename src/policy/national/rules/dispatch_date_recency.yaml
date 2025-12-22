@@ -1,0 +1,25 @@
+---
+_rule: 
+  domain: DV
+  scope: notice
+  kind: recency
+
+logic: date_proximity
+
+params:
+  key: dispatch_date
+  min_days: -1
+  max_days: 2
+  _description:
+    nob: >-
+      Utsendelsesdato må være mellom 24 timer før, og 48 timer etter,
+      nåtid.
+    nob_verify: false
+    nno: >-
+      Utsendingsdato må vere mellom 24 timar før, og 48 timar etter,
+      nåtid.
+    nno_verify: false
+    eng: >-
+      Notice Dispatch Date must be between -1 and +2 days from the
+      current date.
+    eng_verify: false

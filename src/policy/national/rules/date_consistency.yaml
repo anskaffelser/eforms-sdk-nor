@@ -1,0 +1,61 @@
+---
+_rule: 
+  domain: DV
+  kind: consistency
+
+logic: cross_field_equality
+
+params:
+  entries:
+    - key: duration_start_date_part
+      scope: part
+      index: 1
+      _description:
+        nob: >-
+          Alle delkontrakter må ha samme startdato.
+        nob_verify: false
+        nno: >-
+          Alle delkontraktar må ha same startdato.
+        nno_verify: false
+        eng: >-
+          All parts must have the same start date.
+        eng_verify: false
+    - key: duration_end_date_part
+      scope: part
+      index: 2
+      _description:
+        nob: >-
+          Alle delkontrakter må ha samme sluttdato.
+        nob_verify: false
+        nno: >-
+          Alle delkontraktar må ha same sluttdato.
+        nno_verify: false
+        eng: >-
+          All parts must have the same end date.
+        eng_verify: false
+    - key: duration_start_date_lot
+      scope: lot
+      index: 1
+      _description:
+        nob: >-
+          Alle delkontrakter må ha samme startdato.
+        nob_verify: false
+        nno: >-
+          Alle delkontraktar må ha same startdato.
+        nno_verify: false
+        eng: >-
+          All lots must have the same start date.
+        eng_verify: false
+    - key: duration_end_date_lot
+      scope: lot
+      index: 2
+      _description:
+        nob: >-
+          Alle delkontrakter må ha samme sluttdato.
+        nob_verify: false
+        nno: >-
+          Alle delkontraktar må ha same sluttdato.
+        nno_verify: false
+        eng: >-
+          All lots must have the same end date.
+        eng_verify: false

@@ -49,3 +49,27 @@ framework_maximum_value_lot:
 framework_maximum_value_procedure: 
   xpath: "/*/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount"
   field_id: "BT-271-Procedure"
+
+duration_start_date_part:
+  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:StartDate"
+  field_id: "BT-536-Part"
+  
+duration_end_date_part:
+  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:EndDate"
+  field_id: "BT-537-Part"
+
+duration_start_date_lot:
+  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:StartDate"
+  field_id: "BT-536-Lot"
+
+duration_end_date_lot:
+  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:EndDate"
+  field_id: "BT-537-Lot"
+  
+dispatch_date: 
+  xpath: "/*/cbc:IssueDate"
+  field_id: "BT-05(a)-notice"
+  
+non_official_languages:
+  xpath: "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages"
+  field_id: "ND-Tailored-NonOfficialLanguages-notice"

@@ -138,6 +138,20 @@ LG:
     whitelist: 5
     presence: 6
     consistency: 7
+  non_official: 
+    _description:
+      nob: >-
+        Kunngjøringens uoffisielle tilleggspråk.
+      nob_verify: false
+      nno: >-
+        Kunngjeringa sitt/sine uoffisielle tilleggsspråk.
+      nno_verify: false
+      eng: >-
+        Additional unofficial notice language(s).
+      eng_verify: false
+    whitelist: 8
+    blacklist: 9
+    
 
 DR:
   _name: "Document Rules"
@@ -275,16 +289,37 @@ VA:
   _name: "Value validation"
   _description:
     nob: >-
-      Tjohei
+      Verifisering av verdier innad i en kunngjøring.
     nob_verify: false
     nno: >-
-      Tjoheim
+      Verifisering av verdiar innad i ei kunngjering.
     nno_verify: false
     eng: >-
-      Wahey
+      Validation of values within a procurement notice.
     eng_verify: false
   procedure:
     comparison: 1
+
+DV:
+  _name: "Date Validation"
+  _description:
+    nob: >-
+      Validering av datoer innad i en kunngjøring.
+    nob_verify: false
+    nno: >-
+      Validering av datoar innad i ei kunngjering.
+    nno_verify: false
+    eng: >-
+      Date validation withn a procurement notice.
+    eng_verify:
+  notice: 
+    recency: 1
+  procedure:
+    consistency: 2
+  part:
+    consistency: 3
+  lot:
+    consistency: 4
     
 
     

@@ -32,16 +32,6 @@
 noticeTypes: []
 aliases: {}
 fields:
-  BT-11-Procedure-Buyer:
-    xpath: "/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']"
-    mandatory:
-      severity: ERROR
-      kind: mandatory
-      constraints:
-      - noticeTypes:
-        - E2
-        - E3
-        - E4
   BT-01(e)-Procedure:
     xpath: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:ID"
     mandatory:
@@ -62,7 +52,47 @@ fields:
         - E2
         - E3
         - E4
+  BT-11-Procedure-Buyer:
+    xpath: "/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']"
+    mandatory:
+      severity: ERROR
+      kind: mandatory
+      constraints:
+      - noticeTypes:
+        - E2
+        - E3
+        - E4
 rules:
+  BT-01(e)-Procedure:
+  - id: EFORMS-NOR-NATIONAL-LB-R001A
+    test: normalize-space() = ('NOR FOR-2016-08-12-974, Del 1', 'NOR FOR-2016-08-12-974, Del 1 og 2', 'NOR FOR-2016-08-12-975, Del 1', 'NOR FOR-2016-05-12-976, Del 1', 'NOR FOR-2013-10-04-1185, Del 1', 'NOR Unntatt fra lov om offentlige anskaffelser')
+    message: Technical code for legal basis.
+  BT-01(f)-Procedure:
+  - id: EFORMS-NOR-NATIONAL-LB-R005B
+    test: "(normalize-space(../cbc:ID) = 'NOR FOR-2016-08-12-974, Del 1' and ((@languageID = 'NOR' and normalize-space() = 'Anskaffelsen har en samlet verdi under den nasjonale terskelverdien fastsatt i Anskaffelsesforskriften § 5-3. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Anskaffelsesforskriftens Del 1.') or (@languageID = 'ENG' and normalize-space() = 'The procurement has an estimated value below the national threshold value stated in Regulations on Public Procurement Section 5-3. The characteristics of the procurement means that none of the exemptions in Regulations on Public Procurement applies, and the procurement is thus subject to the provisions of Regulations on Public Procurement Part 1.'))) or (normalize-space(../cbc:ID) = 'NOR FOR-2016-08-12-974, Del 1 og 2' and ((@languageID = 'NOR' and normalize-space() = 'Anskaffelsen har en samlet verdi over den nasjonale terskelverdien, men under EU/EØS-terskelverdien fastsatt i Anskaffelsesforskriften § 5-3. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Anskaffelsesforskriftens Del 1 og 2.') or (@languageID = 'ENG' and normalize-space() = 'The procurement has an estimated value above the national threshold, but below the EU/EEA threshold value stated in Regulations on Public Procurement Section 5-3. The characteristics of the procurement means that none of the exemptions in Regulations on Public Procurement applies, and the procurement is thus subject to the provisions of Regulations on Public Procurement Part 1 and 2.'))) or (normalize-space(../cbc:ID) = 'NOR FOR-2016-08-12-975, Del 1' and ((@languageID = 'NOR' and normalize-space() = 'Anskaffelsen har en samlet verdi under EU/EØS-terskelverdien fastsatt i Forsyningsforskriften § 5-2. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Forsyningsforskriftens Del 1.') or (@languageID = 'ENG' and normalize-space() = 'The procurement has an estimated value below the EU/EEA threshold value stated in Utilities Procurement Regulations Section 5-2. The characteristics of the procurement means that none of the exemptions in Utilities Procurement Regulations applies, and the procurement is thus subject to the provisions of Utilities Procurement Regulations Part 1.'))) or (normalize-space(../cbc:ID) = 'NOR FOR-2016-05-12-976, Del 1' and ((@languageID = 'NOR' and normalize-space() = 'Anskaffelsen har en samlet verdi under EU/EØS-terskelverdien fastsatt i Konsesjonskontraktforskriften § 5-2. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Konsesjonskontraktforskriftens Del 1.') or (@languageID = 'ENG' and normalize-space() = 'The procurement has an estimated value below the EU/EEA threshold value stated in Concession Contract Regulations Section 5-2. The characteristics of the procurement means that none of the exemptions in Concession Contract Regulations applies, and the procurement is thus subject to the provisions of Concession Contract Regulations Part 1.'))) or (normalize-space(../cbc:ID) = 'NOR FOR-2013-10-04-1185, Del 1' and ((@languageID = 'NOR' and normalize-space() = 'Anskaffelsen har en samlet verdi under EU/EØS-terskelverdien fastsatt i Forskrift om forsvars- og sikkerhetsanskaffelser § 5-2. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Forskrift om forsvars- og sikkerhetsanskaffelsers Del 1.') or (@languageID = 'ENG' and normalize-space() = 'The procurement has an estimated value below the EU/EEA threshold value stated in Defence and Security Procurement Regulations Section 5-2. The characteristics of the procurement means that none of the exemptions in Defence and Security Procurement Regulations applies, and the procurement is thus subject to the provisions of Defence and Security Procurement Regulations Part 1.'))) or (normalize-space(../cbc:ID) = 'NOR Unntatt fra lov om offentlige anskaffelser' and ((@languageID = 'NOR' and normalize-space() = 'Oppdragsgiver er ikke underlagt Anskaffelsesloven.') or (@languageID = 'ENG' and normalize-space() = 'The Contracting Authority is not subject to the Norwegian Public Procurement Act.')))"
+    message: The legal basis description must match its related legal basis code.
+  BT-05(a)-notice:
+  - id: EFORMS-NOR-NATIONAL-DV-R001B
+    test: "((current-date() - xs:date(.)) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(.)) ge xs:dayTimeDuration('-P1D'))"
+    message: Notice Dispatch Date must be between -1 and +2 days from the current date.
+  BT-11-Procedure-Buyer:
+  - id: EFORMS-NOR-NATIONAL-LT-R002B
+    test: normalize-space(.) = ('body-pl-cga', 'body-pl-la', 'body-pl-ra', 'cga', 'def-cont', 'eu-ins-bod-ag', 'eu-int-org', 'grp-p-aut', 'int-org', 'la', 'org-sub-cga', 'org-sub-la', 'org-sub-ra', 'pub-undert-cga', 'pub-undert-la', 'pub-undert-ra', 'ra', 'rl-aut', 'spec-rights-entity')
+    message: Specific legal types are allowed. Overarching categories are too generic. The detailed types are significant for specifying threshold values.
+  BT-27-Lot:
+  - id: EFORMS-NOR-NATIONAL-CR-R003B
+    test: normalize-space(@currencyID) = ('NOK')
+    message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
+  - id: EFORMS-NOR-NATIONAL-DT-R001D
+    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
+    message: Monetary values must be numbers with a maximum of two decimals.
+  BT-27-Part:
+  - id: EFORMS-NOR-NATIONAL-CR-R002B
+    test: normalize-space(@currencyID) = ('NOK')
+    message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
+  - id: EFORMS-NOR-NATIONAL-DT-R001C
+    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
+    message: Monetary values must be numbers with a maximum of two decimals.
   BT-27-Procedure:
   - id: EFORMS-NOR-NATIONAL-CR-R001B
     test: normalize-space(@currencyID) = ('NOK')
@@ -76,20 +106,6 @@ rules:
   - id: EFORMS-NOR-NATIONAL-VA-R001C
     test: "(not(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName = 'Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount)) or abs(number(/*/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount) - sum(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName = 'Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount)) < 0.01"
     message: The estimated value of the procurement procedure must equal the sum of the estimated value of its lots, in accordance with Sections 5-4 (8) and 5-2 of the Norwegian Public Procurement Legislations.
-  BT-27-Part:
-  - id: EFORMS-NOR-NATIONAL-CR-R002B
-    test: normalize-space(@currencyID) = ('NOK')
-    message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
-  - id: EFORMS-NOR-NATIONAL-DT-R001C
-    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
-    message: Monetary values must be numbers with a maximum of two decimals.
-  BT-27-Lot:
-  - id: EFORMS-NOR-NATIONAL-CR-R003B
-    test: normalize-space(@currencyID) = ('NOK')
-    message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
-  - id: EFORMS-NOR-NATIONAL-DT-R001D
-    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
-    message: Monetary values must be numbers with a maximum of two decimals.
   BT-271-Lot:
   - id: EFORMS-NOR-NATIONAL-CR-R003C
     test: normalize-space(@currencyID) = ('NOK')
@@ -107,6 +123,22 @@ rules:
   - id: EFORMS-NOR-NATIONAL-VA-R001D
     test: "(not(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName = 'Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount)) or abs(number(/*/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount) - sum(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName = 'Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount)) < 0.01"
     message: The maximum values of the framework agreement must equal the sum of the maximum values of the framework agreements of its lots, in accordance with Sections 5-4 (8) and 5-2 of the Norwegian Public Procurement Legislations.
+  BT-536-Lot:
+  - id: EFORMS-NOR-NATIONAL-DV-R004C
+    test: normalize-space() = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:StartDate[1]/normalize-space()
+    message: All lots must have the same start date.
+  BT-536-Part:
+  - id: EFORMS-NOR-NATIONAL-DV-R003A
+    test: normalize-space() = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:StartDate[1]/normalize-space()
+    message: All parts must have the same start date.
+  BT-537-Lot:
+  - id: EFORMS-NOR-NATIONAL-DV-R004D
+    test: normalize-space() = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:EndDate[1]/normalize-space()
+    message: All lots must have the same end date.
+  BT-537-Part:
+  - id: EFORMS-NOR-NATIONAL-DV-R003B
+    test: normalize-space() = /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:EndDate[1]/normalize-space()
+    message: All parts must have the same end date.
   BT-702(a)-notice:
   - id: EFORMS-NOR-NATIONAL-LG-R002A
     test: normalize-space() = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'NNO', 'NOB', 'NOR', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')
@@ -115,28 +147,19 @@ rules:
   - id: EFORMS-NOR-NATIONAL-LG-R005B
     test: normalize-space() = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'NNO', 'NOB', 'NOR', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')
     message: Additional language must be Norwegian or one of the official EU languages.
-  BT-11-Procedure-Buyer:
-  - id: EFORMS-NOR-NATIONAL-LT-R002B
-    test: normalize-space(.) = ('body-pl-cga', 'body-pl-la', 'body-pl-ra', 'cga', 'def-cont', 'eu-ins-bod-ag', 'eu-int-org', 'grp-p-aut', 'int-org', 'la', 'org-sub-cga', 'org-sub-la', 'org-sub-ra', 'pub-undert-cga', 'pub-undert-la', 'pub-undert-ra', 'ra', 'rl-aut', 'spec-rights-entity')
-    message: Specific legal types are allowed. Overarching categories are too generic. The detailed types are significant for specifying threshold values.
-  OPT-002-notice:
-  - id: EFORMS-NOR-NATIONAL-CI-R001A
-    test: matches(normalize-space(.), '^eforms-sdk-\d\.\d#extended#amtl-is-a-god-damn-hero$')
-    message: The customization id must match Norway's particular version numbering pattern.
-  BT-01(e)-Procedure:
-  - id: EFORMS-NOR-NATIONAL-LB-R001A
-    test: normalize-space() = ('NOR FOR-2016-08-12-974, Del 1', 'NOR FOR-2016-08-12-974, Del 1 og 2', 'NOR FOR-2016-08-12-975, Del 1', 'NOR FOR-2016-05-12-976, Del 1', 'NOR FOR-2013-10-04-1185, Del 1', 'NOR Unntatt fra lov om offentlige anskaffelser')
-    message: Technical code for legal basis.
-  BT-01(f)-Procedure:
-  - id: EFORMS-NOR-NATIONAL-LB-R005B
-    test: "(normalize-space(../cbc:ID) = 'NOR FOR-2016-08-12-974, Del 1' and ((@languageID = 'NOR' and normalize-space() = 'Anskaffelsen har en samlet verdi under den nasjonale terskelverdien fastsatt i Anskaffelsesforskriften § 5-3. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Anskaffelsesforskriftens Del 1.') or (@languageID = 'ENG' and normalize-space() = 'The procurement has an estimated value below the national threshold value stated in Regulations on Public Procurement Section 5-3. The characteristics of the procurement means that none of the exemptions in Regulations on Public Procurement applies, and the procurement is thus subject to the provisions of Regulations on Public Procurement Part 1.'))) or (normalize-space(../cbc:ID) = 'NOR FOR-2016-08-12-974, Del 1 og 2' and ((@languageID = 'NOR' and normalize-space() = 'Anskaffelsen har en samlet verdi over den nasjonale terskelverdien, men under EU/EØS-terskelverdien fastsatt i Anskaffelsesforskriften § 5-3. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Anskaffelsesforskriftens Del 1 og 2.') or (@languageID = 'ENG' and normalize-space() = 'The procurement has an estimated value above the national threshold, but below the EU/EEA threshold value stated in Regulations on Public Procurement Section 5-3. The characteristics of the procurement means that none of the exemptions in Regulations on Public Procurement applies, and the procurement is thus subject to the provisions of Regulations on Public Procurement Part 1 and 2.'))) or (normalize-space(../cbc:ID) = 'NOR FOR-2016-08-12-975, Del 1' and ((@languageID = 'NOR' and normalize-space() = 'Anskaffelsen har en samlet verdi under EU/EØS-terskelverdien fastsatt i Forsyningsforskriften § 5-2. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Forsyningsforskriftens Del 1.') or (@languageID = 'ENG' and normalize-space() = 'The procurement has an estimated value below the EU/EEA threshold value stated in Utilities Procurement Regulations Section 5-2. The characteristics of the procurement means that none of the exemptions in Utilities Procurement Regulations applies, and the procurement is thus subject to the provisions of Utilities Procurement Regulations Part 1.'))) or (normalize-space(../cbc:ID) = 'NOR FOR-2016-05-12-976, Del 1' and ((@languageID = 'NOR' and normalize-space() = 'Anskaffelsen har en samlet verdi under EU/EØS-terskelverdien fastsatt i Konsesjonskontraktforskriften § 5-2. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Konsesjonskontraktforskriftens Del 1.') or (@languageID = 'ENG' and normalize-space() = 'The procurement has an estimated value below the EU/EEA threshold value stated in Concession Contract Regulations Section 5-2. The characteristics of the procurement means that none of the exemptions in Concession Contract Regulations applies, and the procurement is thus subject to the provisions of Concession Contract Regulations Part 1.'))) or (normalize-space(../cbc:ID) = 'NOR FOR-2013-10-04-1185, Del 1' and ((@languageID = 'NOR' and normalize-space() = 'Anskaffelsen har en samlet verdi under EU/EØS-terskelverdien fastsatt i Forskrift om forsvars- og sikkerhetsanskaffelser § 5-2. Anskaffelsens særpreg gjør at ingen av forskriftens unntaksbestemmelser gjelder, og anskaffelsen er derfor underlagt bestemmelsene i Forskrift om forsvars- og sikkerhetsanskaffelsers Del 1.') or (@languageID = 'ENG' and normalize-space() = 'The procurement has an estimated value below the EU/EEA threshold value stated in Defence and Security Procurement Regulations Section 5-2. The characteristics of the procurement means that none of the exemptions in Defence and Security Procurement Regulations applies, and the procurement is thus subject to the provisions of Defence and Security Procurement Regulations Part 1.'))) or (normalize-space(../cbc:ID) = 'NOR Unntatt fra lov om offentlige anskaffelser' and ((@languageID = 'NOR' and normalize-space() = 'Oppdragsgiver er ikke underlagt Anskaffelsesloven.') or (@languageID = 'ENG' and normalize-space() = 'The Contracting Authority is not subject to the Norwegian Public Procurement Act.')))"
-    message: The legal basis description must match its related legal basis code.
-  OPP-070-notice:
-  - id: EFORMS-NOR-NATIONAL-NT-R001B
-    test: normalize-space(.) = ('E2', 'E3', 'E4')
-    message: The notice type must be one of the Norwegian national types.
   ND-Root:
   - id: EFORMS-NOR-NATIONAL-LG-R001B
     test: normalize-space(cbc:NoticeLanguageCode) = ('NOR', 'NOB', 'NNO') or (some $l in cac:AdditionalNoticeLanguage/cbc:ID satisfies normalize-space($l) = ('NOR', 'NOB', 'NNO'))
     message: At least one official notice language must be Norwegian.
+  - id: EFORMS-NOR-NATIONAL-LG-R009B
+    test: not(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages)
+    message: Non-official languages are not used for national notices.
+  OPP-070-notice:
+  - id: EFORMS-NOR-NATIONAL-NT-R001B
+    test: normalize-space(.) = ('E2', 'E3', 'E4')
+    message: The notice type must be one of the Norwegian national types.
+  OPT-002-notice:
+  - id: EFORMS-NOR-NATIONAL-CI-R001A
+    test: matches(normalize-space(.), '^eforms-sdk-\d\.\d#extended#amtl-is-a-god-damn-hero$')
+    message: The customization id must match Norway's particular version numbering pattern.
 removed: []

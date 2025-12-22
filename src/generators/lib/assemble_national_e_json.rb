@@ -3,13 +3,22 @@
 
 require 'yaml'
 require 'pathname'
+require 'optparse'
 
-# --- 1. CONFIG & PATHS ---
-BASE          = Pathname.new(__dir__).join('../../..').expand_path
-POLICY_DIR    = BASE.join('src/policy/national')
-FRAGMENTS_DIR = BASE.join('src/generated/national')
-OUT_PATH      = BASE.join('src/fields/national.rules.yaml')
-HEADER_PATH   = POLICY_DIR.join("templates/LICENSE_HEADER.monolith.txt")
+# --- 1. ARGUMENT PARSING ---
+options = {}
+OptionParser.new do |opts|
+  opts.banner = "Usage: assemble_national_e_json.rb [options]"
+
+  opts.on("--input DIR", "Directory containing fragments") { |v| options[:input] = Pathname.new(v) }
+  opts.on("--output FILE", "Path to the final output file") { |v| options[:output] = Pathname.new(v) }
+  opts.on("--template FILE", "Path to the license header template") { |v| options[:template] = Pathname.new(v) }
+end.parse!
+
+# Fallback til defaults hvis de ikke er definert (valgfritt)
+FRAGMENTS_DIR = options[:input]    || raise("Missing --input")
+OUT_PATH      = options[:output]   || raise("Missing --output")
+HEADER_PATH   = options[:template] || raise("Missing --template")
 
 # --- 2. DATA STRUCTURE ---
 out = {
@@ -66,7 +75,20 @@ fragment_files.each do |path|
   end
 end
 
-# --- 6. WRITE OUTPUT ---
+# --- 6. CLEANING & SORTING ---
+# Sorter fields alfabetisk etter nøkkel
+out['fields'] = out['fields'].sort.to_h
+
+# Sorter rules alfabetisk etter nøkkel (felt-ID)
+out['rules'] = out['rules'].sort.to_h
+
+# Sorter også reglene innad i hvert felt hvis du vil ha det helt perfekt
+out['rules'].each do |field_id, rule_list|
+  # Her sorterer vi etter ID-en på selve regelen (EFORMS-NOR-...)
+  out['rules'][field_id] = rule_list.sort_by { |r| r['id'] }
+end
+
+# --- 7. WRITE OUTPUT ---
 yaml_content = out.to_yaml(line_width: -1)
 
 OUT_PATH.dirname.mkpath unless OUT_PATH.dirname.exist?

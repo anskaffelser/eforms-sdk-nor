@@ -332,6 +332,111 @@ module FragmentHandlers
   
     result
   end
+  
+  # 7. Likhet på tvers av felter
+  def self.cross_field_equality(params, meta, mapping, *)
+    entries = Array(params['entries'] || [])
+    result = {}
+  
+    entries.each_with_index do |entry, idx|
+      # Henter info basert på nøkkelen i denne spesifikke entryen
+      key = entry['key']
+      info = mapping[key] || raise("Ukjent key i cross_field_equality: #{key}")
+      full_path = info['xpath']
+      
+      # Henter meldingen som ligger lokalt i denne entryen
+      msg = NationalRulesHelpers.extract_message(entry, meta)
+  
+      # XPath-testen forblir den samme robuste sjekken mot første forekomst
+      test = "normalize-space() = #{full_path}[1]/normalize-space()"
+  
+      # Grupperer regelen under riktig field_id (BT-536, BT-537, etc)
+      id = NationalRulesHelpers.rule_id(
+        domain: meta['domain'],
+        scope: entry['scope'] || meta['scope'],
+        kind: meta['kind'],
+        index: idx
+      )
+      result[info['field_id']] ||= []
+      result[info['field_id']] << {
+        'id' => id,
+        'test' => test,
+        'message' => msg
+      }
+    end
+  
+    result
+  end
+
+  # 8. Dato-nærhet (BT-05(a)-Notice# 8. Dato-nærhet (BT-05 Dispatch Date)
+  def self.date_proximity(params, meta, mapping, *)
+    # Vi antar params['key'] peker på BT-05(a)-notice i din mapping
+    info = mapping[params['key']] || raise("Ukjent key i date_proximity: #{params['key']}")
+    
+    # Henter grenser fra YAML, f.eks. -1 (i går) og 2 (i overmorgen)
+    min = params['min_days'] || -1
+    max = params['max_days'] || 2
+    
+    msg = NationalRulesHelpers.extract_message(params, meta)
+    
+    # Helper for å formatere duration: -1 blir -P1D, 2 blir P2D
+    to_duration = ->(days) {
+      prefix = days < 0 ? "-P" : "P"
+      "#{prefix}#{days.abs}D"
+    }
+
+    min_dur = to_duration.call(min)
+    max_dur = to_duration.call(max)
+
+    # XPath-logikk:
+    # current-date() returnerer dagens dato. 
+    # Vi trekker fra datoen i feltet og sjekker om varigheten (duration) 
+    # er innenfor de tillatte grensene.
+    test = "((current-date() - xs:date(.)) le xs:dayTimeDuration('#{max_dur}')) and " \
+           "((current-date() - xs:date(.)) ge xs:dayTimeDuration('#{min_dur}'))"
+
+    id = NationalRulesHelpers.rule_id(
+      domain: meta['domain'],
+      kind:   meta['kind'],
+      scope:  params['scope'] || meta['scope'],
+      index:  params['index'] || 1
+    )
+
+    {
+      info['field_id'] => [{
+        'id' => id,
+        'test' => NationalRulesHelpers.clean_xpath(test),
+        'message' => msg
+      }]
+    }
+  end
+  
+  # 9. Forbudte elementer (f.eks. uoffisielle språk)
+  def self.forbidden_element(params, meta, mapping, *)
+    info = mapping[params['key']] || raise("Ukjent key: #{params['key']}")
+    xpath = info['xpath']
+    msg = NationalRulesHelpers.extract_message(params, meta)
+
+    # XPath-testen: Det skal IKKE finnes noen forekomster av denne stien
+    test = "not(#{xpath})"
+
+    id = NationalRulesHelpers.rule_id(
+      domain: meta['domain'],
+      kind:   meta['kind'],
+      scope:  params['scope'] || meta['scope'],
+      index:  params['index'] || 1
+    )
+
+    # Vi returnerer dette under 'ND-Root' fordi det er en strukturell sjekk
+    {
+      "ND-Root" => [{
+        'id' => id,
+        'test' => NationalRulesHelpers.clean_xpath(test),
+        'message' => msg
+      }]
+    }
+  end
+
 end
 
 # --- 4. EXECUTION ---

@@ -1,0 +1,22 @@
+---
+_rule:
+  domain: LG
+  scope: non_official
+  kind: blacklist
+
+logic: forbidden_element
+
+params:
+  key: non_official_languages
+  index: 1
+  _description:
+    nob: >-
+      Uoffisielle språk er ikke tillatt for nasjonale kunngjøringer.
+    nob_verify: false
+    nno: >-
+      Uoffisielle språk er ikkje tillatne for nasjonale kunngjeringer.
+    nno_verify: false
+    eng: >-
+      Non-official languages are not used for national notices.
+    eng_verify: false
+  
