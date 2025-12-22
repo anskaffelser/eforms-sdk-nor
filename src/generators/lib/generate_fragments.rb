@@ -200,10 +200,11 @@ module FragmentHandlers
     # 1. BT-01(e) - Enkel kodeliste-sjekk
     code_config = data['params']['entries'].find { |e| e['tailored_codelist_key'] == 'code' }
     code_field = mapping[code_config['target']]['field_id']
+    code_list = entries.map { |e| "'#{e['code']}'" }.join(', ')
     
     result[code_field] = [{
       'id' => NationalRulesHelpers.rule_id(domain: meta['domain'], scope: code_config['scope'], kind: meta['kind'], index: 0),
-      'test' => "normalize-space() = (#{entries.map { |e| "'#{e['code']}'" }.join(', ')})",
+      'test' => "normalize-space() = (#{code_list})",
       'message' => code_config['description']['eng']
     }]
   

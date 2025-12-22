@@ -19,7 +19,7 @@ legal_basis_noid_description:
   field_id: "BT-01(f)-Procedure"
 
 buyer_legal_type:
-  xpath: "/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type]"
+  xpath: "/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']"
   field_id: "BT-11-Procedure-Buyer"
 
 activity_authority:

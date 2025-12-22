@@ -25,6 +25,4 @@
 #
 # To modify the content, edit the source YAML files located in:
 # - src/policy/national/
-# - src/ruleset_sources/national/
-#
 # --------------------------------------------------------------------
