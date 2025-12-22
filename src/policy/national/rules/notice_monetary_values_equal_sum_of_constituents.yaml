@@ -1,0 +1,55 @@
+---
+_rule:
+  domain: VA
+  kind: comparison
+  scope: procedure
+
+logic: cross_field_sum
+
+params:
+  tolerance: 0.01
+  relations: 
+    - parent_key: estimated_value_procedure
+      child_keys: 
+        - key: estimated_value_part
+          index: 1
+        - key: estimated_value_lot
+          index: 2
+      _description:
+        nob: >-
+          Anskaffelsens estimerte verdi må samsvare med summen av 
+          verdien for delkontraktene, jf. FOA § 5-4 (8) og § 5-2.
+        nob_verify: false
+        nno: >-
+          Den estimerte verdien av anskaffinga må samsvara med summen 
+          av verdien for delkontraktane, jf. FOA § 5-4 (8) og § 5-2.
+        nno_verify: false
+        eng: >-
+          The estimated value of the procurement procedure must equal
+          the sum of the estimated value of its lots, in accordance 
+          with Sections 5-4 (8) and 5-2 of the Norwegian Public
+          Procurement Legislations.
+        eng_verify: false
+    - parent_key: framework_maximum_value_procedure
+      child_keys: 
+        - key: framework_maximum_value_lot
+          index: 3
+      _description:
+        nob: >-
+          Rammeavtalens verditak må samsvare med summen av verditakene
+          for delkontraktene, jf. FOA § 5-4 (8) og § 5-2.
+        nob_verify: false
+        nno: >-
+          Verditaka til rammeavtalen må samsvara med summen av 
+          verditaka for delkontraktane, jf. FOA § 5-4 (8) og § 5-2.
+        nno_verify: false
+        eng: >-
+          The maximum values of the framework agreement must equal
+          the sum of the maximum values of the framework agreements
+          of its lots, in accordance with Sections 5-4 (8) and 5-2 
+          of the Norwegian Public Procurement Legislations.
+        eng_verify: false
+    
+  
+    
+  

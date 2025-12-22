@@ -190,24 +190,55 @@ module FragmentHandlers
 
   # 4. Pattern Validation (.rules.fragment.yaml)
   def self.pattern(params, meta, mapping, _base_dir, _eu_dir)
-    target = params['target'] || raise("Mangler target for pattern-regel")
-    t_info = mapping[target] || raise("Ukjent target: #{target}")
-    
+    # Støtt både 'target' (gammel) og 'targets' (ny liste)
+    targets = Array(params['targets'] || params['target'] || raise("Mangler target(s) for pattern-regel"))
     pattern = params['pattern']
-    id = NationalRulesHelpers.rule_id(domain: meta['domain'], scope: meta['scope'], kind: :pattern, index: 0)
+    msg     = NationalRulesHelpers.extract_message(params, meta)
     
-    # 🌟 Bruker den nye felles metoden for meldinger
-    msg = NationalRulesHelpers.extract_message(params, meta)
+    allow_blank = params['allow_blank']
+    
+    result = {}
 
-    test = "matches(normalize-space(), '#{pattern}')"
+    targets.each do |target_entry|
+      # 1. Pakk ut nøkkel og indeks
+      is_hash = target_entry.is_a?(Hash)
+      t_key   = is_hash ? target_entry['key']   : target_entry
+      t_index = is_hash ? (target_entry['index'] || 0) : 0
+      
+      t_info  = mapping[t_key] || raise("Ukjent target: #{t_key}")
 
-    {
-      t_info['field_id'] => [{
+      # 2. Finn scope (Target -> Meta -> Mapping -> Fallback)
+      t_scope = if is_hash && target_entry['scope']
+                  target_entry['scope']
+                else
+                  meta['scope'] || t_info['scope'] || t_info['level'] || 'global'
+                end
+
+      # 3. Generer ID med riktig indeks og scope
+      id = NationalRulesHelpers.rule_id(
+        domain: meta['domain'], 
+        scope: t_scope, 
+        kind: :pattern, 
+        index: t_index
+      )
+
+      # 4. Bygg testen
+      # Start med selve kjerne-testen
+      test_parts = ["matches(normalize-space(.), '#{pattern}')"]
+
+      # Legg til "blank-shaming" beskyttelse forrest i køen hvis det er tillatt
+      test_parts.unshift("not(normalize-space(.))") if allow_blank
+      
+      test = test_parts.join(" or ")
+
+      # 5. Legg til i resultatet (fletting skjer i assemble-skriptet)
+      result[t_info['field_id']] = [{
         'id' => id,
-        'test' => test,
+        'test' => NationalRulesHelpers.clean_xpath(test),
         'message' => msg
       }]
-    }
+    end
+    result
   end
   
   # 5. National Tailored Codelist Pair (.rules.fragment.yaml)
@@ -252,6 +283,52 @@ module FragmentHandlers
       'test' => NationalRulesHelpers.clean_xpath(raw_test),
       'message' => msg
     }]
+  
+    result
+  end
+
+  # 6. Sum av verdier på tvers av felter
+  def self.cross_field_sum(params, meta, mapping, _base_dir, _eu_dir)
+    relations = Array(params['relations'] || [])
+    tolerance = params['tolerance'] || 0.01
+    result    = {}
+  
+    relations.each do |rel|
+      p_key  = rel['parent_key']
+      p_info = mapping[p_key] || raise("Ukjent parent_key: #{p_key}")
+      parent_xpath = p_info['xpath']
+      
+      # Henter spesifikk melding for denne relasjonen
+      msg = NationalRulesHelpers.extract_message(rel, meta)
+      
+      parent_rules = []
+  
+      Array(rel['child_keys']).each do |child_entry|
+        c_key = child_entry['key']
+        c_idx = child_entry['index'] || 1
+        c_info = mapping[c_key] || raise("Ukjent child_key: #{c_key}")
+        child_xpath = c_info['xpath']
+  
+        id = NationalRulesHelpers.rule_id(
+          domain: meta['domain'],
+          scope: meta['scope'],
+          kind: :comparison,
+          index: c_idx
+        )
+  
+        # XPath-logikk: (Hvis barnet ikke finnes) ELLER (Differansen er OK)
+        test = "(not(#{child_xpath})) or abs(number(#{parent_xpath}) - sum(#{child_xpath})) < #{tolerance}"
+  
+        parent_rules << {
+          'id' => id,
+          'test' => NationalRulesHelpers.clean_xpath(test),
+          'message' => msg
+        }
+      end
+  
+      result[p_info['field_id']] ||= []
+      result[p_info['field_id']].concat(parent_rules)
+    end
   
     result
   end

@@ -256,3 +256,35 @@ CR:
       eng_verify: false
     whitelist: 3
   
+DT:
+  _name: "Data Types and Data Formats"
+  _description: 
+    nob: >-
+      Validering av datatyper og/eller tekstformater (regex).
+    nob_verify: false
+    nno: >-
+      Validering av datatyper og/eller tekstformater (regex).
+    nno_verify: false
+    eng: >-
+      Validation of data types and/or string patterns (regex). 
+    eng_verify: false
+  decimal:
+    pattern: 1
+  
+VA:
+  _name: "Value validation"
+  _description:
+    nob: >-
+      Tjohei
+    nob_verify: false
+    nno: >-
+      Tjoheim
+    nno_verify: false
+    eng: >-
+      Wahey
+    eng_verify: false
+  procedure:
+    comparison: 1
+    
+
+    
