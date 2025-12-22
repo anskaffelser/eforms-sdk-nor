@@ -205,10 +205,16 @@ params:
           eng_verify: false
           
       description: 
-        nob: Teknisk kode for rettslig grunnlag.
+        nob: >-
+          Lovhjemmelens beskrivelse må stemme overens med dens
+          beslektede lovhjemmel-kodeverdi.
         nob_verify: false
-        nno: Teknisk kode for rettsleg grunnlag.
+        nno: >-
+          Beskrivinga til lovheimelen må stemma overeins med dens
+          nærståande lovheimel-kodeverdi.
         nno_verify: false
-        eng: Technical code for legal basis.
+        eng: >-
+          The legal basis description must match its related legal
+          basis code.
         eng_verify: false
         
