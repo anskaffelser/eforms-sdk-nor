@@ -19,14 +19,6 @@
 # limitations under the License.
 # =====================================================================
 
-#!/usr/bin/env ruby
-# frozen_string_literal: true
-
-# =====================================================================
-# Copyright © 2025 DFØ – The Norwegian Agency for Public and Financial
-# Management
-# =====================================================================
-
 require 'yaml'
 require 'pathname'
 require 'optparse'
@@ -198,15 +190,65 @@ module FragmentHandlers
       }]
     }
   end
+  
+  # 5. National Tailored Codelist Pair (.rules.fragment.yaml)
+  def self.national_tailored_codelist_pair(data, meta, mapping, _base_dir, _eu_dir)
+    result = {}
+    definitions = data['definitions'] || {}
+    entries = definitions['entries'] || []
+    
+    # 1. BT-01(e) - Enkel kodeliste-sjekk
+    code_config = data['params']['entries'].find { |e| e['tailored_codelist_key'] == 'code' }
+    code_field = mapping[code_config['target']]['field_id']
+    
+    result[code_field] = [{
+      'id' => NationalRulesHelpers.rule_id(domain: meta['domain'], scope: code_config['scope'], kind: meta['kind'], index: 0),
+      'test' => "normalize-space() = (#{entries.map { |e| "'#{e['code']}'" }.join(', ')})",
+      'message' => code_config['description']['eng']
+    }]
+  
+    # 2. BT-01(f) - Betinget par-sjekk (Hvis kode X, så tekst Y)
+    desc_config = data['params']['entries'].find { |e| e['scope'] == 'description' }
+    desc_field = mapping[desc_config['target']]['field_id']
+  
+    # Vi bygger én stor sjekk som validerer teksten basert på koden i nabofeltet
+    conditional_checks = entries.map do |e|
+      txt_nob = NationalRulesHelpers.generate_legal_label(e, definitions, desc_config['templates'], 'nob')
+      txt_eng = NationalRulesHelpers.generate_legal_label(e, definitions, desc_config['templates'], 'eng')
+  
+      # Logikk: Hvis ../cbc:ID er 'KODE', så må dette feltet være riktig tekst på riktig språk
+      "(normalize-space(../cbc:ID) = '#{e['code']}' and (
+          (@languageID = 'NOR' and normalize-space() = '#{txt_nob}') or 
+          (@languageID = 'ENG' and normalize-space() = '#{txt_eng}')
+      ))"
+    end
+
+    raw_test = conditional_checks.join(' or ')
+
+    msg = desc_config['description']['eng']
+  
+    result[desc_field] = [{
+      'id' => NationalRulesHelpers.rule_id(domain: meta['domain'], scope: desc_config['scope'], kind: meta['kind'], index: 1),
+      'test' => NationalRulesHelpers.clean_xpath(raw_test),
+      'message' => msg
+    }]
+  
+    result
+  end
 end
 
 # --- 4. EXECUTION ---
 logic_type = raw_data['logic']
 meta = raw_data['_rule'] || {}
-params = raw_data['params'] || {}
+
+if logic_type == 'national_tailored_codelist_pair'
+  payload = raw_data
+else
+  payload = raw_data['params'] || {}
+end
 
 if FragmentHandlers.respond_to?(logic_type)
-  result_hash = FragmentHandlers.send(logic_type, params, meta, FIELD_MAPPING, options[:base], options[:eu_codelists])
+  result_hash = FragmentHandlers.send(logic_type, payload, meta, FIELD_MAPPING, options[:base], options[:eu_codelists])
 else
   abort "❌ Ukjent logikk-type: #{logic_type}"
 end

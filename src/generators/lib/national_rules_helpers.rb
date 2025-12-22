@@ -43,35 +43,29 @@ module NationalRulesHelpers
   # AGGRESSIV XPATH-VASK (Normaliserer mellomrom rundt operatorer)
   def self.clean_xpath(content)
     return content unless content.is_a?(String)
-
+  
+    # 1. Kollaps alle linjeskift og doble mellomrom
     res = content.gsub(/[\r\n]+/, ' ').gsub(/\s+/, ' ')
-    res = res.gsub(/\s*\/\s*/, '/')
-             .gsub(/\s*\*\s*/, '*')
-             .gsub(/\s*\(\s*/, '(')
-             .gsub(/\s*\)\s*/, ')')
-
-    res = res.gsub(/\s*<=\s*/, ' <= ')
-             .gsub(/\s*>=\s*/, ' >= ')
-             .gsub(/\s*!=\s*/, ' != ')
-             .gsub(/\s*>\s*(?!=)/, ' > ')
-             .gsub(/\s*<\s*(?!=)/, ' < ')
-             .gsub(/(?<![<>!])\s*=\s*/, ' = ')
-
-    res = res.gsub(/\)or\(/i, ') or (')
-             .gsub(/\)or/i, ') or')
-             .gsub(/or\(/i, ' or (')
-             .gsub(/\)and\(/i, ') and (')
-             .gsub(/\)and/i, ') and')
-             .gsub(/and\(/i, ' and (')
-             .gsub(/some\$/i, ' some $')
-             .gsub(/\ssatisfies\s*/i, ' satisfies ')
-
-    res = res.gsub(/('\s+)/, "'")
-             .gsub(/(\s+')/, "'")
-             .gsub(/='/, "= '")
-             .gsub(/','/, "', '")
-
-    res.strip
+  
+    # 2. Vask rundt matematiske operatorer
+    res = res.gsub(/\s*([=><!]=?)\s*/, ' \1 ')
+  
+    # 3. Sørg for mellomrom rundt 'and' og 'or' KUN som hele ord
+    # \b betyr "her starter/slutter et ord"
+    # Vi legger på \s? for å håndtere hvis det allerede er et mellomrom eller en parentes
+    res = res.gsub(/\b(and|or)\b/i, ' \1 ')
+  
+    # 4. Rydd opp i parenteser (fjern luft på innsiden, men behold luft på utsiden hvis det er en operator)
+    res = res.gsub(/\(\s+/, '(').gsub(/\s+\)/, ')')
+    
+    # 5. Siden steg 3 og 4 kan ha laget doble mellomrom (f.eks. "  and  "), kjører vi en siste vask
+    res = res.gsub(/\s+/, ' ').strip
+  
+    # 6. Spesialfiks for vanlige eForms-tilfeller som ble "vasket bort"
+    res = res.gsub(/\)and\(/, ') and (')
+    res = res.gsub(/\)or\(/, ') or (')
+  
+    res
   end
 
   # --- ID-GENERERING ---
@@ -187,6 +181,40 @@ module NationalRulesHelpers
     end
 
     Array(params['codes'] || params['code'])
+  end
+  
+  def self.generate_legal_label(entry, definitions, templates, lang)
+    # 1. Sjekk EXEMPT (Lovdata-fritak)
+    return templates.dig('EXEMPT', lang) if entry['regulation'] == 'EXEMPT'
+  
+    phrases = definitions['phrases'] || {}
+    
+    # 2. Finn riktig terskel-frase
+    scope = entry['threshold_scope']
+    t_phrase = if phrases.dig('threshold_scopes', 'special_cases', scope)
+                 phrases.dig('threshold_scopes', 'special_cases', scope, lang)
+               else
+                 rel = phrases.dig('threshold_relations', entry['threshold_relation'], lang)
+                 scp = phrases.dig('threshold_scopes', scope, lang)
+                 "#{rel} #{scp}"
+               end
+  
+    # 3. Hent forskriftsnavn
+    reg_name = definitions.dig('regulations', entry['regulation'], lang)
+  
+    # 4. Formater Del (Part) - håndterer [1, 2] eller 1
+    conjunction = (lang == 'eng' ? 'and' : 'og')
+    parts = Array(entry['part']).join(" #{conjunction} ")
+  
+    # 5. Fyll ut malen
+    res = templates.dig('default', lang).dup
+    res.gsub!('{{threshold_phrase}}', t_phrase.to_s)
+    res.gsub!('{{regulation_name}}', reg_name.to_s)
+    res.gsub!('{{section}}', entry['section'].to_s)
+    res.gsub!('{{part}}', parts)
+    
+    # Vask teksten for doble mellomrom og linjeskift fra YAML
+    res.gsub(/\s+/, ' ').strip
   end
 
   # Eldre hvitliste-generator for flate lister
