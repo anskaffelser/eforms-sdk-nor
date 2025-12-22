@@ -1,0 +1,49 @@
+---
+_rule:
+  domain: CR
+  kind: whitelist
+
+logic: any_of
+
+params: 
+  attribute: currencyID
+  targets:
+    - key: estimated_value_procedure
+      scope: procedure
+      index: 1
+    - key: estimated_value_part
+      scope: part
+      index: 1
+    - key: estimated_value_lot
+      scope: lot
+      index: 1
+    - key: framework_maximum_value_lot
+      scope: lot
+      index: 2
+    - key: framework_maximum_value_procedure
+      scope: procedure
+      index: 2
+  _description:
+    nob: >-
+      Spesifisering av tillatte valutakoder.
+    nob_verify: false
+    nno: >-
+      Spesifisering av tillatne valutakoder.
+    nno_verify: false
+    eng: >-
+      Specification of allowed currency codes.
+    eng_verify: false
+  code: 
+    - type: NOK
+      alias: null
+      _description: 
+        nob: >-
+          Norske kroner.
+        nob_verify: false
+        nno: >-
+          Norske kroner.
+        nno_verify: false
+        eng: >-
+          Norwegian Krones
+        eng_verify: false
+    

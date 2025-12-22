@@ -99,28 +99,28 @@ module FragmentHandlers
   # 2. Any Of / Codelist Validation (.rules.fragment.yaml)
   def self.any_of(params, meta, mapping, _base_dir, eu_dir)
     targets = Array(params['targets'] || params['target'])
-    
-    # 1. Hent rådata fra kodelistene
     raw_codes = NationalRulesHelpers.resolve_codes(params, eu_dir)
-    
-    # 2. Vask bort Hasher slik at vi kun står igjen med selve kodene (string) 🧼
     clean_codes = raw_codes.map { |c| c.is_a?(Hash) ? c['type'] : c }
-    
-    # 3. Formater kodene med apostrofer for XPath (f.eks. "'E2', 'E3'") 🛠️
     formatted_codes = clean_codes.map { |c| "'#{c}'" }.join(', ')
-    
-    # Resten av forberedelsene
-    id = NationalRulesHelpers.rule_id(domain: meta['domain'], scope: meta['scope'], kind: meta['kind']&.to_sym || :technical, index: 0)
     msg = NationalRulesHelpers.extract_message(params, meta)
 
     result = {}
 
-    # Logikk for konsistens (flere felt samtidig)
-    if meta['kind'] == 'consistency' || targets.size > 1
+    # --- LOGIKK FOR SPRÅK (LG) ---
+    if meta['domain'] == 'LG' && (meta['kind'] == 'consistency' || targets.size > 1)
+      # Henter index fra params hvis den finnes, ellers default 1
+      t_index = params['index'] || 1
+
+      id = NationalRulesHelpers.rule_id(
+        domain: meta['domain'], 
+        scope: meta['scope'] || 'global', 
+        kind: meta['kind']&.to_sym || :consistency, 
+        index: t_index
+      )
+
       main_lang_xpath = mapping['main_notice_language']&.fetch('xpath') 
       additional_lang_xpath = mapping['additional_notice_language']&.fetch('xpath')
 
-      # Her bruker vi den ferdig vaskede formatted_codes
       xpath_test = <<~XPATH
         normalize-space(#{main_lang_xpath}) = (#{formatted_codes})
         or
@@ -133,14 +133,33 @@ module FragmentHandlers
         'message' => msg
       }]
       
-    # Logikk for enkeltfelt-validering
+    # --- LOGIKK FOR ANDRE FELT (CR, LB, osv.) ---
     else
-      targets.each do |t_key|
-        t_info = mapping[t_key] || raise("Ukjent target: #{t_key}")
+      targets.each do |target_entry|
+        is_hash = target_entry.is_a?(Hash)
+        t_key   = is_hash ? target_entry['key']   : target_entry
+        # Samme logikk for index her
+        t_index = is_hash ? (target_entry['index'] || 1) : 1
         
-        # Også her bruker vi den ferdig vaskede formatted_codes
-        test = "normalize-space() = (#{formatted_codes})"
+        t_info = mapping[t_key] || raise("Ukjent target i mapping: #{t_key}")
         
+        t_scope = if is_hash && target_entry['scope']
+                    target_entry['scope']
+                  else
+                    t_info['scope'] || t_info['level'] || meta['scope'] || 'global'
+                  end
+
+        id = NationalRulesHelpers.rule_id(
+          domain: meta['domain'], 
+          scope: t_scope, 
+          kind: meta['kind']&.to_sym || :whitelist, 
+          index: t_index
+        )
+
+        attr_name = params['attribute']
+        test_subject = attr_name ? "@#{attr_name}" : "."
+        test = "normalize-space(#{test_subject}) = (#{formatted_codes})"
+
         result[t_info['field_id']] = [{
           'id' => id,
           'test' => NationalRulesHelpers.clean_xpath(test),

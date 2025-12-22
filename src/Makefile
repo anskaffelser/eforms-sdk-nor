@@ -6,7 +6,7 @@ OUTPUT_PATH ?= fields/national.rules.yaml
 MAPPING_FILE  = $(POLICY_PATH)/eforms_fields_mapping.yaml
 REGISTRY_FILE = $(POLICY_PATH)/rule_id_registry.yaml
 FRAGMENT_LICENSE_FILE  = $(POLICY_PATH)/templates/LICENSE_HEADER.fragment.txt
-
+MONOLITH_LICENSE_FILE  = $(POLICY_PATH)/templates/LICENSE_HEADER.monolith.txt
 
 FIELD_SOURCES = $(wildcard $(POLICY_PATH)/fields/*.yaml)
 RULE_SOURCES = $(wildcard $(POLICY_PATH)/rules/*.yaml)
@@ -27,7 +27,10 @@ all:
 
 $(OUTPUT_PATH): $(FIELD_FRAGMENTS) $(RULE_FRAGMENTS)
 	@echo "Assembling final policy: $@"
-	@ruby $(GENERATORS_PATH)/assemble_national_e_json.rb
+	@ruby $(GENERATORS_PATH)/assemble_national_e_json.rb \
+		--input $(INTERMEDIATE_PATH) \
+		--output $(OUTPUT_PATH) \
+		--template $(MONOLITH_LICENSE_FILE)
 
 $(INTERMEDIATE_PATH)/%.fields.fragment.yaml: $(POLICY_PATH)/fields/%.yaml
 	@mkdir -p $(INTERMEDIATE_PATH)

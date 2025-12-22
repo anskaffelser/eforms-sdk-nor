@@ -203,6 +203,56 @@ CI:
       nno_verify: false
       eng: >-
         Global rules for SDK versioning.
-      eng_Verify: false
+      eng_verify: false
     pattern: 1
+    
+CR: 
+  _name: "Currency"
+  _description: 
+    nob: >-
+      Tillatte valutaer.
+    nob_verify: false
+    nno: >-
+      Tillatne valutaer.
+    nno_verify: false
+    eng: >-
+      Permitted currencies.
+    eng_verify: false
+  procedure:
+    _description: 
+      nob: >-
+        Tillatte regler for valuta for prosedyreverdi.
+      nob_verify: false
+      nno: >-
+        Tillatne valutaer for valuta for prosedyreverdi.
+      nno_verify: false
+      eng: >-
+        Permitted currencies for procedure value.
+      eng_verify: false
+    whitelist: 1
+  part:
+    _description: 
+      nob: >-
+        Tillatte regler for valuta for veiledende delkontraktsverdi.
+      nob_verify: false
+      nno: >-
+        Tillatne valutaer for valuta for verdi på veileiande 
+        delkontrakt.
+      nno_verify: false
+      eng: >-
+        Permitted currencies for part values.
+      eng_verify: false
+    whitelist: 2
+  lot:
+    _description: 
+      nob: >-
+        Tillatte regler for valuta for delkontraktsverdi.
+      nob_verify: false
+      nno: >-
+        Tillatne valutaer for valuta for verdi på delkontrakt.
+      nno_verify: false
+      eng: >-
+        Permitted currencies for lot values.
+      eng_verify: false
+    whitelist: 3
   

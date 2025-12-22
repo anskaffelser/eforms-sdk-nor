@@ -62,8 +62,10 @@ params:
     - NOB
     - NNO
   targets:
-    - main_notice_language
-    - additional_notice_language
+    - key: main_notice_language
+      id: 1
+    - key: additional_notice_language
+      id: 2
   _description: 
     nob: >-
       Minst ett offisielt kunngjøringsspråk må være norsk.
