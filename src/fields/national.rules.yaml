@@ -66,23 +66,47 @@ rules:
   BT-27-Procedure:
   - id: EFORMS-NOR-NATIONAL-CR-R001B
     test: normalize-space(@currencyID) = ('NOK')
-    message: Specification of allowed currency codes.
+    message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
+  - id: EFORMS-NOR-NATIONAL-DT-R001B
+    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
+    message: Monetary values must be numbers with a maximum of two decimals.
+  - id: EFORMS-NOR-NATIONAL-VA-R001B
+    test: "(not(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName = 'Part']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount)) or abs(number(/*/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount) - sum(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName = 'Part']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount)) < 0.01"
+    message: The estimated value of the procurement procedure must equal the sum of the estimated value of its lots, in accordance with Sections 5-4 (8) and 5-2 of the Norwegian Public Procurement Legislations.
+  - id: EFORMS-NOR-NATIONAL-VA-R001C
+    test: "(not(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName = 'Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount)) or abs(number(/*/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount) - sum(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName = 'Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount)) < 0.01"
+    message: The estimated value of the procurement procedure must equal the sum of the estimated value of its lots, in accordance with Sections 5-4 (8) and 5-2 of the Norwegian Public Procurement Legislations.
   BT-27-Part:
   - id: EFORMS-NOR-NATIONAL-CR-R002B
     test: normalize-space(@currencyID) = ('NOK')
-    message: Specification of allowed currency codes.
+    message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
+  - id: EFORMS-NOR-NATIONAL-DT-R001C
+    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
+    message: Monetary values must be numbers with a maximum of two decimals.
   BT-27-Lot:
   - id: EFORMS-NOR-NATIONAL-CR-R003B
     test: normalize-space(@currencyID) = ('NOK')
-    message: Specification of allowed currency codes.
+    message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
+  - id: EFORMS-NOR-NATIONAL-DT-R001D
+    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
+    message: Monetary values must be numbers with a maximum of two decimals.
   BT-271-Lot:
   - id: EFORMS-NOR-NATIONAL-CR-R003C
     test: normalize-space(@currencyID) = ('NOK')
-    message: Specification of allowed currency codes.
+    message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
+  - id: EFORMS-NOR-NATIONAL-DT-R001E
+    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
+    message: Monetary values must be numbers with a maximum of two decimals.
   BT-271-Procedure:
   - id: EFORMS-NOR-NATIONAL-CR-R001C
     test: normalize-space(@currencyID) = ('NOK')
-    message: Specification of allowed currency codes.
+    message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
+  - id: EFORMS-NOR-NATIONAL-DT-R001F
+    test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
+    message: Monetary values must be numbers with a maximum of two decimals.
+  - id: EFORMS-NOR-NATIONAL-VA-R001D
+    test: "(not(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName = 'Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount)) or abs(number(/*/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount) - sum(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName = 'Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount)) < 0.01"
+    message: The maximum values of the framework agreement must equal the sum of the maximum values of the framework agreements of its lots, in accordance with Sections 5-4 (8) and 5-2 of the Norwegian Public Procurement Legislations.
   BT-702(a)-notice:
   - id: EFORMS-NOR-NATIONAL-LG-R002A
     test: normalize-space() = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'NNO', 'NOB', 'NOR', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')
@@ -97,7 +121,7 @@ rules:
     message: Specific legal types are allowed. Overarching categories are too generic. The detailed types are significant for specifying threshold values.
   OPT-002-notice:
   - id: EFORMS-NOR-NATIONAL-CI-R001A
-    test: matches(normalize-space(), '^eforms-sdk-\d\.\d#extended#amtl-is-a-god-damn-hero$')
+    test: matches(normalize-space(.), '^eforms-sdk-\d\.\d#extended#amtl-is-a-god-damn-hero$')
     message: The customization id must match Norway's particular version numbering pattern.
   BT-01(e)-Procedure:
   - id: EFORMS-NOR-NATIONAL-LB-R001A
