@@ -22,5 +22,54 @@ jobs:
         //section[@id='kapittel-9']//table//td
       cpv-reserved-health-social: >-
         //section[@id='kapittel-10']//table//td
+  - id: lovdata_kon_cpv_parser
+    source_ref: lovdata_public
+    source_params:
+      filename: "gjeldende-sentrale-forskrifter.tar.bz2"
+      xml_path: "sf/sf-20160812-0976.xml"
+      document_name: "Forskrift om konsesjonskontrakter (FOR-2016-08-12-976)"
+    output_file: "data/kon_cpv_registry.yaml"
+    state_file: "data/.lovdata_kon_state"
+    mappings:
+      cpv-works: >-
+        //section[@id='kapittel-5']//table//td
+      cpv-special-services: >-
+        //section[@id='kapittel-6']//table//td
+      cpv-health-social: >-
+        //section[@id='kapittel-7']//table//td
+  - id: lovdata_for_cpv_parser
+    source_ref: lovdata_public
+    source_params:
+      filename: "gjeldende-sentrale-forskrifter.tar.bz2"
+      xml_path: "sf/sf-20160812-0975.xml"
+      document_name: >-
+        Forskrift om innkjøpsregler i forsyningssektorene (FOR-2016-08-12-976)
+    output_file: "data/for_cpv_registry.yaml"
+    state_file: "data/.lovdata_for_state"
+    mappings:
+      cpv-works: >-
+        //section[@id='kapittel-7']//table//td
+      cpv-special-services: >-
+        //section[@id='kapittel-8']//table//td
+      cpv-health-social: >-
+        //section[@id='kapittel-9']//table//td
+      cpv-reserved-health-social: >-
+        //section[@id='kapittel-10']//table//td
+  - id: lovdata_fosa_cpv_parser
+    source_ref: lovdata_public
+    source_params:
+      filename: "gjeldende-sentrale-forskrifter.tar.bz2"
+      xml_path: "sf/sf-20131004-1185.xml"
+      document_name: >-
+        Forskrift om forsvars- og sikkerhetsanskaffelser (FOR-2013-10-04-1185)
+    output_file: "data/fosa_cpv_registry.yaml"
+    state_file: "data/.lovdata_fosa_state"
+    mappings:
+      cpv-works: >-
+        //section[@id='kapittel-4']//table//td
+      cpv-prioritized-services: >-
+        //section[@id='kapittel-8']//table//td
+      cpv-unprioritized-services: >-
+        //section[@id='kapittel-9']//table//td
         
       

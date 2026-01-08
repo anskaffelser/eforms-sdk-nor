@@ -27,6 +27,8 @@ LOVDATA_JOB_CONFIG ?= config/lovdata_jobs.yaml
 LOVDATA_HEADER_TEMPLATE ?= config/lovdata_header_template.txt
 
 EXTERNAL_API_DATA_PATH ?= data
+LOVDATA_FORSKRIFTER ?= foa kon for fosa
+LOVDATA_CPV_TARGETS ?= $(addprefix sync-, $(LOVDATA_FORSKRIFTER))
 
 .PHONY: all clean sync-cpv
 
@@ -34,10 +36,12 @@ all:
 	$(MAKE) clean
 	$(MAKE) $(OUTPUT_PATH)
 
-SYNC-LOVDATA-CPV:
+SYNC-LOVDATA-CPV: $(LOVDATA_CPV_TARGETS)
+
+sync-%:
 	uv run $(LOVDATA_SYNC_SCRIPT) \
 		--config-file $(LOVDATA_JOB_CONFIG) \
-		--job-id lovdata_foa_cpv_parser \
+		--job-id lovdata_$*_cpv_parser \
 		--header-template $(LOVDATA_HEADER_TEMPLATE)
 
 $(OUTPUT_PATH): $(FIELD_FRAGMENTS) $(RULE_FRAGMENTS)
