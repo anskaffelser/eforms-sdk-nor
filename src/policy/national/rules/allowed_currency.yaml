@@ -8,7 +8,7 @@ logic: any_of
 params: 
   attribute: currencyID
   targets:
-    - key: estimated_value_procedure
+    - key: estimated_value_proc
       scope: procedure
       index: 1
     - key: estimated_value_part
@@ -20,7 +20,7 @@ params:
     - key: framework_maximum_value_lot
       scope: lot
       index: 2
-    - key: framework_maximum_value_procedure
+    - key: framework_maximum_value_proc
       scope: procedure
       index: 2
   _description:

@@ -9,7 +9,7 @@ logic: cross_field_sum
 params:
   tolerance: 0.01
   relations: 
-    - parent_key: estimated_value_procedure
+    - parent_key: estimated_value_proc
       child_keys: 
         - key: estimated_value_part
           index: 1
@@ -30,7 +30,7 @@ params:
           with Sections 5-4 (8) and 5-2 of the Norwegian Public
           Procurement Legislations.
         eng_verify: false
-    - parent_key: framework_maximum_value_procedure
+    - parent_key: framework_maximum_value_proc
       child_keys: 
         - key: framework_maximum_value_lot
           index: 3

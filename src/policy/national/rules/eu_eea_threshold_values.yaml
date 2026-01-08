@@ -1,0 +1,217 @@
+---
+_rule:
+  domain: TH
+  severity: ERROR
+
+logic: threshold_engine
+  
+currency: NOK
+
+params:
+  _dependencies:
+    fields: 
+      value: "estimated_value_proc"
+      legal_basis: "legal_basis_noid"
+      legal_basis_description_nor: "legal_basis_noid_description_nor"
+      buyer_legal_type: "buyer_legal_type"
+      contract_nature_main_proc: "contract_nature_main_proc"
+      main_cpv_proc: "main_classification_proc"
+    external_data:
+      - file: "rules/legal_basis_procedure.yaml"
+        id: "lb_registry"
+
+  rules:
+    # --- FOA: Bygge- og anleggsarbeider (works) ---
+    - id_path: [FOA, eu_threshold_exceeded, works]
+      context: 
+        lb_scope: eu
+        lt_filter: "any"
+        nature: "works"
+      cpv_import:
+        file: "foa_cpv_registry.yaml"
+        key: "cpv-works"
+      test: "value < 57_800_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelser av bygge- og anleggsarbeider overstiger
+          EU/EØS-terskelverdiene i Anskaffelsesforskriften. Anskaffelsen
+          må derfor følge fullstendige prosedyreregler for utlysning
+          på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av byggje- og anleggsarbeidar overstig
+          EU/EØS-terskelverdiane i Anskaffingsforskrifta. Anskaffinga
+          må derfor følgje fullstendige prosedyrereglar for utlysing
+          på EU-nivå.
+        nno_verify: false
+        eng: >-
+          The value of the procured works exceeds the EU/EEA threshold
+          values specified in the Norwegian Public Procurement Regulations.
+          The procurement therefore must follow complete procedure rules
+          for publication at an EU level.
+        eng_validate: false
+        
+    # --- FOA: Helse- og sosialtjenester ---
+    - id_path: [FOA, eu_threshold_exceeded, health_social_services]
+      context: 
+        lb_scope: eu
+        lt_filter: "any"
+        nature: "services"
+      cpv_import:
+        file: "foa_cpv_registry.yaml"
+        key: "cpv-health-social"
+      test: "value < 7_800_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelser av helse- og sosialtjenester overstiger
+          EU/EØS-terskelverdiene i Anskaffelsesforskriften. Anskaffelsen
+          må derfor følge fullstendige prosedyreregler for utlysning
+          på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av helse- og sosialtenester overstig
+          EU/EØS-terskelverdiane i Anskaffingsforskrifta. Anskaffinga
+          må derfor følgje fullstendige prosedyrereglar for utlysing
+          på EU-nivå.
+        nno_verify: false
+        eng: >-
+          The value of the procured health and social services exceeds the
+          EU/EEA threshold values specified in the Norwegian Public Procurement
+          Regulations. The procurement therefore must follow complete procedure
+          rules for publication at an EU level.
+        eng_validate: false
+
+    # --- FOA: Særlige tjenester ---
+    - id_path: [FOA, eu_threshold_exceeded, special_services]
+      context: 
+        lb_scope: eu
+        lt_filter: "any"
+        nature: "services"
+      cpv_import:
+        file: "foa_cpv_registry.yaml"
+        key: "cpv-special-services"
+      test: "value < 7_800_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelser av særlige tjenester overstiger
+          EU/EØS-terskelverdiene i Anskaffelsesforskriften. Anskaffelsen
+          må derfor følge fullstendige prosedyreregler for utlysning
+          på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av særlege tenester overstig
+          EU/EØS-terskelverdiane i Anskaffingsforskrifta. Anskaffinga
+          må derfor følgje fullstendige prosedyrereglar for utlysing
+          på EU-nivå.
+        nno_verify: false
+        eng: >-
+          The value of the procured special services exceeds the
+          EU/EEA threshold values specified in the Norwegian Public Procurement
+          Regulations. The procurement therefore must follow complete procedure
+          rules for publication at an EU level.
+        eng_validate: false
+    
+    
+    # FOA Del II - Statlig (CGA) tak
+    - id_path: [FOA, national_to_eu_out_of_range, too_high_cga]
+      context:
+        lb_scope: national_to_eu
+        lt_filter: "contains:cga"
+      test: "value < 1490000"
+      _description: 
+        nob: >-
+          Verdien av anskaffelsen overstiger verdigrensene i
+          Anskaffelsesforskriften Del 2. Anskaffelsen må derfor
+          følge fullstendige prosedyreregler for utlysning
+          på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga overstig verdigrensane i
+          Anskaffingsforskrifta Del 2. Anskaffinga må derfor
+          følgje fullstendige prosedyrereglar for utlysning på
+          EU-nivå.
+        eng: >-
+          The value of the procurement exceeds the value limits
+          of the Norwegian Public Procurement Regulations, Part 2.
+          The procurement therefore must follow complete procedure
+          rules for publication at an EU level.
+        eng_validate: false
+    
+    # FOA Del II - Ikke-statlig (Non-CGA) tak
+    - id_path: [FOA, national_to_eu_out_of_range, too_high_non_cga]
+      context:
+        lb_scope: national_to_eu
+        lt_filter: "not_contains:cga"
+      test: "value < 2300000"
+      _description:
+        nob: >-
+          Verdien av anskaffelsen overstiger verdigrensene i
+          Anskaffelsesforskriften Del 2. Anskaffelsen må derfor
+          følge fullstendige prosedyreregler for utlysning
+          på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga overstig verdigrensane i
+          Anskaffingsforskrifta Del 2. Anskaffinga må derfor
+          følgje fullstendig prosedyrereglar for utlysning på
+          EU-nivå.
+        eng: >-
+          The value of the procurement exceeds the value limits
+          of the Norwegian Public Procurement Regulations, Part 2.
+          The procurement therefore must follow complete procedure
+          rules for publication at an EU level.
+        eng_validate: false
+        
+#    - id_path: [FOR, eu_out_of_range, too_high]
+#      context:
+#        lb_scope: eu
+#        lt_filter: "any"
+#      test: "value < 4600000"
+#      _description: 
+#        nob: >-
+#          Verdien av anskaffelsen overstiger 
+  
+#thresholds:
+#  FOA:
+#    national: *NAT_BASE
+#    national_to_eu: *FOA_NAT_TO_EU
+#    eu: 
+#      goods_general_services:
+#        cga: 1_490_000
+#        non_cga: 2_300_000
+#      special_services: *FOA_NAT_TO_EU
+#      health_social_services: 7_800_000
+#      works: *WORKS_EU
+#
+#  FOR:
+#    national: *NAT_BASE
+#    eu:
+#      goods_general_services:
+#        cga: &FOR_GOODS_GENERAL_SERVICES 4_600_000
+#        non_cga: *FOR_GOODS_GENERAL_SERVICES
+#      special_services: &FOR_SPECIAL_HEALTH_SOCIAL_SERVICES 10_400_000
+#      health_social_services: *FOR_SPECIAL_HEALTH_SOCIAL_SERVICES
+#      works: *WORKS_EU
+#  
+#  KON:
+#    national: 100_000
+#    eu:
+#      goods_general_services:
+#        cga: *WORKS_EU 
+#        non_cga: *WORKS_EU
+#      special_services: *WORKS_EU
+#      health_social_services: *WORKS_EU
+#      works: *WORKS_EU
+#
+#  FOSA:
+#    national: *NAT_BASE
+#    eu:
+#      goods_general_services:
+#        cga: &FOSA_GOODS_GENERAL_SERVICES 10
+#        non_cga: *FOSA_GOODS_GENERAL_SERVICES
+#      special_services: &FOSA_SPECIAL_HEALTH_SOCIAL_SERVICES 20
+#      health_social_services: *FOSA_SPECIAL_HEALTH_SOCIAL_SERVICES
+#      works: *WORKS_EU
+#
+#  
+#        

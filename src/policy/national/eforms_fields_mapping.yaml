@@ -11,11 +11,15 @@ notice_type:
   field_id: "OPP-070-notice"
 
 legal_basis_noid:
-  xpath: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:ID"
+  xpath: "/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:ID"
   field_id: "BT-01(e)-Procedure"
   
-legal_basis_noid_description:
-  xpath: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription"
+legal_basis_noid_description_nor:
+  xpath: "/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription[@languageID='NOR']"
+  field_id: "BT-01(f)-Procedure"
+
+legal_basis_noid_description_eng:
+  xpath: "/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription[@languageID='ENG']"
   field_id: "BT-01(f)-Procedure"
 
 buyer_legal_type:
@@ -27,11 +31,11 @@ activity_authority:
   field_id: "BT-10-Procedure-Buyer"
 
 customization_id:
-  xpath: "/*/cbc:CustomizationID"
+  xpath: "/cbc:CustomizationID"
   field_id: "OPT-002-notice"
 
-estimated_value_procedure:
-  xpath: "/*/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount"
+estimated_value_proc:
+  xpath: "/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount"
   field_id: "BT-27-Procedure"
 
 estimated_value_part:
@@ -46,8 +50,8 @@ framework_maximum_value_lot:
   xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount"
   field_id: "BT-271-Lot"
   
-framework_maximum_value_procedure: 
-  xpath: "/*/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount"
+framework_maximum_value_proc: 
+  xpath: "/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount"
   field_id: "BT-271-Procedure"
 
 duration_start_date_part:
@@ -67,9 +71,17 @@ duration_end_date_lot:
   field_id: "BT-537-Lot"
   
 dispatch_date: 
-  xpath: "/*/cbc:IssueDate"
+  xpath: "/cbc:IssueDate"
   field_id: "BT-05(a)-notice"
   
 non_official_languages:
   xpath: "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages"
   field_id: "ND-Tailored-NonOfficialLanguages-notice"
+
+contract_nature_main_proc:
+  xpath: "/cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']"
+  field_id: "BT-23-Procedure"
+  
+main_classification_proc:
+  xpath: "/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[@listName='cpv']"
+  field_id: "BT-26(m)-Procedure"

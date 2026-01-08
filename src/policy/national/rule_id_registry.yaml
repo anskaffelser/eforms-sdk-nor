@@ -311,7 +311,7 @@ DV:
     nno_verify: false
     eng: >-
       Date validation withn a procurement notice.
-    eng_verify:
+    eng_verify: false
   notice: 
     recency: 1
   procedure:
@@ -321,5 +321,63 @@ DV:
   lot:
     consistency: 4
     
+TH:
+  _name: "Thresholds"
+  _description:
+    nob: >-
+      Validering av anskaffelsens verdi mot nasjonale og EU/EØS-terskelverdier
+    nob_verify: false
+    nno: >-
+      Validering av verdien til anskaffinga mot nasjonale og
+      EU/EØS-terskelverdiar
+    nno_verify: false
+    eng: >-
+      Validation of procurement value against national and EU/EEA threshold
+      values
+    eng_verify: false
+    
+  FOA:
+    _description: "Terskelverdier for Anskaffelsesforskriften (FOA)"
+    national_limit_exceeded:
+      goods_services: 1
+      special_services: 2
+      health_social_services: 3
+      works: 4
+    national_to_eu_out_of_range:
+      too_low: 5
+      too_high_cga: 6
+      too_high_non_cga: 7
+    eu_threshold_exceeded:
+      goods_services_cga: 8
+      goods_servides_non_cga: 9
+      special_services: 10
+      health_social_services: 11
+      works: 12
 
+  FOR:
+    _description: "Terskelverdier for Forsyningsforskriften (FOR)"
+    eu_threshold_exceeded:
+      goods_services: 13
+      special_services: 14
+      health_social_services: 15
+      works: 16
+    
+  KON: 
+    _description: "Terskelverdier for Konsesjonskontraktforskriften (KON)"
+    eu_threshold_exceeded:
+      goods_services: 17
+      special_services: 17
+      health_social_services: 18
+      works: 19
+    
+  FOSA:
+    _description: >-
+      Terskelverdier for Forskrift om forsvars- og sikkerhetsanskaffelser (FOSA)
+    eu_threshold_exceeded:
+      goods_services: 20
+      special_services: 21
+      health_social_services: 22
+      works: 23
+        
+  
     

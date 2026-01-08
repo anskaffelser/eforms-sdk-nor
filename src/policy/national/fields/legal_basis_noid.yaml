@@ -26,20 +26,20 @@ params:
         eng: >-
           The legal basis for the planned procurement must be provided.
         eng_verify: false
-    - target: legal_basis_noid_description
+    - target: legal_basis_noid_description_nor
       _rule:
         kind: presence
         scope: description
       description: 
         nob: >-
-          Beskrivelse av lovhjemmelen for den planlagte anskaffelsen 
-          må angis.
+          Norskspråklig beskrivelse av lovhjemmelen for den planlagte
+          anskaffelsen må angis.
         nob_verify: false
         nno: >-
-          Beskriving av lovheimelen til den planlagte anskaffinga må
-          angivast.
+          Norskspråklig beskriving av lovheimelen til den planlagte
+          anskaffinga må angivast.
         nno_verify: false
         eng: >-
-          A description of the legal basis for the planned procurement
-          must be provided.
+          A Norwegian description of the legal basis for the planned
+          procurement must be provided.
         eng_verify: false

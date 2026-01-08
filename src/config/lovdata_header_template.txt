@@ -1,0 +1,12 @@
+# =============================================================================
+# AUTOMATISK GENERERT FIL - IKKE REDIGER MANUELT
+# =============================================================================
+# Kilde: Lovdata (api.lovdata.no) 
+# Dokument: {document_name}
+# Generert: {timestamp}
+#
+# LISENSINFORMASJON:
+# Innholdet er basert på åpne offentlige data. Ved gjenbruk skal kilde oppgis 
+# i henhold til Norsk lisens for offentlige data (NLOD) og/eller 
+# Creative Commons Navngivelse 4.0 Internasjonal (CC BY 4.0).
+# =============================================================================

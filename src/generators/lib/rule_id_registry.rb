@@ -79,12 +79,31 @@ module RuleIdRegistry
       true
     end
 
+
+    def dig_id(domain, *path)
+      ensure_loaded!
+
+      # Henter domenet (f.eks. 'TH')
+      domain_map = @data.fetch(domain.to_s) { 
+        raise KeyError, "Registry: Ukjent domene '#{domain}' for dig_id" 
+      }
+
+      # Graver nedover i path (f.eks. ['FOA', 'too_high_cga'])
+      res = domain_map.dig(*path.map(&:to_s))
+      
+      if res.nil?
+        raise "❌ ID ikke funnet i registeret: #{domain} -> #{path.join('/')}" 
+      end
+
+      res
+    end
     private
 
     def ensure_loaded!
       raise "RuleIdRegistry not loaded! Call RuleIdRegistry.load(path) first." if @data.nil?
     end
   end
+  
 end
 
 # Helt nederst i fila, etter "module RuleIdRegistry ... end"

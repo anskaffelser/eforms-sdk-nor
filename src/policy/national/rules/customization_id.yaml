@@ -9,7 +9,7 @@ logic: pattern
 params:
   allow_blank: false
   target: customization_id
-  pattern: ^eforms-sdk-\d\.\d#extended#amtl-is-a-god-damn-hero$
+  pattern: ^eforms-sdk-\d\.\d{1,2}#extended#amtl-is-a-god-damn-hero$
   _description:
     nob: >-
       SDK-versjonsnummer må stemme overens med Norges særegne

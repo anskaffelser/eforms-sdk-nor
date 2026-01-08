@@ -10,7 +10,7 @@ params:
   allow_blank: true
   pattern: '^-?\d+(\.\d{1,2})?$'
   targets:
-    - key: estimated_value_procedure
+    - key: estimated_value_proc
       index: 1
     - key: estimated_value_part
       index: 2
@@ -18,7 +18,7 @@ params:
       index: 3
     - key: framework_maximum_value_lot
       index: 4
-    - key: framework_maximum_value_procedure
+    - key: framework_maximum_value_proc
       index: 5
   _description:
     nob: >-

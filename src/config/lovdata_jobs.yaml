@@ -1,0 +1,26 @@
+---
+sources:
+  lovdata_public:
+    api_list_url: "https://api.lovdata.no/v1/publicData/list"
+    api_get_url: "https://api.lovdata.no/v1/publicData/get"
+
+jobs:
+  - id: lovdata_foa_cpv_parser
+    source_ref: lovdata_public
+    source_params:
+      filename: "gjeldende-sentrale-forskrifter.tar.bz2"
+      xml_path: "sf/sf-20160812-0974.xml"
+      document_name: "Forskrift om offentlige anskaffelser (FOR-2016-08-12-974)"
+    output_file: "data/foa_cpv_registry.yaml"
+    state_file: "data/.lovdata_foa_state"
+    mappings:
+      cpv-works: >-
+        //section[@id='kapittel-7']//table//td
+      cpv-special-services: >-
+        //section[@id='kapittel-8']//table//td
+      cpv-health-social: >-
+        //section[@id='kapittel-9']//table//td
+      cpv-reserved-health-social: >-
+        //section[@id='kapittel-10']//table//td
+        
+      

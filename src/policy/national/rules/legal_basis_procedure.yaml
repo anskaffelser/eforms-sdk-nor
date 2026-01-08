@@ -50,7 +50,7 @@ definitions:
         NOR FOR-2016-08-12-974, Del 1
       regulation: FOA
       part: 1
-      threshold_scope: national
+      threshold_scope: eu
       threshold_relation: below
       section: "5-3"
   
@@ -169,7 +169,7 @@ params:
         eng: Technical code for legal basis.
         eng_verify: false
 
-    - target: legal_basis_noid_description
+    - target: legal_basis_noid_description_nor
       scope: description
       type: enum
       templates: 

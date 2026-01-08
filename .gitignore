@@ -3,3 +3,6 @@
 /target
 /src/tests/*/local
 .DS_Store
+uv.lock
+/src/generated/
+/src/data/

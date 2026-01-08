@@ -37,9 +37,10 @@ OptionParser.new do |opts|
   opts.on("-l", "--license FILE", "Path to LICENSE_HEADER template") { |v| options[:license] = v }
   opts.on("-b", "--base DIR", "Base directory for national policy") { |v| options[:base] = v }
   opts.on("-e", "--eu-codelists DIR", "Path to EU standard codelists") { |v| options[:eu_codelists] = v }
+  opts.on("-x", "--external-data DIR", "Path to external API data (CPV, etc)") { |v| options[:external_data]= v }
 end.parse!
 
-[:input, :output, :mapping, :registry, :license, :base, :eu_codelists].each do |opt|
+[:input, :output, :mapping, :registry, :license, :base, :eu_codelists, :external_data].each do |opt|
   abort "❌ Mangler påkrevd argument: --#{opt}" unless options[opt]
 end
 
@@ -64,7 +65,7 @@ abort "❌ Fant ingen logikk i #{options[:input]}" unless raw_data
 # --- 3. HANDLER ENGINE ---
 module FragmentHandlers
   # 1. Mandatory Requirements (.fields.fragment.yaml)
-  def self.mandatory_requirements(params, meta, mapping, base_dir, _eu_dir)
+  def self.mandatory_requirements(params, meta, mapping, base_dir, eu_dir, *)
     cond = params['condition']
     source_path = if cond['source']
                     Pathname.new(base_dir).join(cond['source'])
@@ -97,7 +98,7 @@ module FragmentHandlers
   end
 
   # 2. Any Of / Codelist Validation (.rules.fragment.yaml)
-  def self.any_of(params, meta, mapping, _base_dir, eu_dir)
+  def self.any_of(params, meta, mapping, _base_dir, eu_dir, *)
     targets = Array(params['targets'] || params['target'])
     raw_codes = NationalRulesHelpers.resolve_codes(params, eu_dir)
     clean_codes = raw_codes.map { |c| c.is_a?(Hash) ? c['type'] : c }
@@ -171,7 +172,7 @@ module FragmentHandlers
   end
 
   # 3. Split Whitelist (.rules.fragment.yaml)
-  def self.split_whitelist(params, meta, mapping, base_dir, eu_dir)
+  def self.split_whitelist(params, meta, mapping, base_dir, eu_dir, *)
     # Merk: split_whitelist bruker ofte sine egne meldinger per entry, 
     # men vi kan bruke extract_message som fallback i hjelperen hvis ønskelig.
     raw_rules = NationalRulesHelpers.build_split_whitelist(params, Pathname.new(base_dir), Pathname.new(eu_dir), meta['domain'], mapping)
@@ -189,7 +190,7 @@ module FragmentHandlers
   end
 
   # 4. Pattern Validation (.rules.fragment.yaml)
-  def self.pattern(params, meta, mapping, _base_dir, _eu_dir)
+  def self.pattern(params, meta, mapping, _base_dir, eu_dir, *)
     # Støtt både 'target' (gammel) og 'targets' (ny liste)
     targets = Array(params['targets'] || params['target'] || raise("Mangler target(s) for pattern-regel"))
     pattern = params['pattern']
@@ -242,7 +243,7 @@ module FragmentHandlers
   end
   
   # 5. National Tailored Codelist Pair (.rules.fragment.yaml)
-  def self.national_tailored_codelist_pair(data, meta, mapping, _base_dir, _eu_dir)
+  def self.national_tailored_codelist_pair(data, meta, mapping, _base_dir, eu_dir, *)
     result = {}
     definitions = data['definitions'] || {}
     entries = definitions['entries'] || []
@@ -288,7 +289,7 @@ module FragmentHandlers
   end
 
   # 6. Sum av verdier på tvers av felter
-  def self.cross_field_sum(params, meta, mapping, _base_dir, _eu_dir)
+  def self.cross_field_sum(params, meta, mapping, _base_dir, eu_dir, *)
     relations = Array(params['relations'] || [])
     tolerance = params['tolerance'] || 0.01
     result    = {}
@@ -436,6 +437,138 @@ module FragmentHandlers
       }]
     }
   end
+  
+  # 10. Terskelverdi-motor
+  def self.threshold_engine(params, meta, mapping, base_dir, eu_dir, external_data_dir)
+    result = {}
+    deps = params['_dependencies']
+    abort "❌ Mangler '_dependencies' i YAML" if deps.nil?
+    @cpv_cache ||= {} # Cache for å unngå disk-I/O i loopen
+    
+    # Finn stier
+    v_path  = mapping.dig(deps['fields']['value'], 'xpath')
+    b_path  = mapping.dig(deps['fields']['legal_basis'], 'xpath')
+    bd_path = mapping.dig(deps['fields']['legal_basis_description_nor'], 'xpath')
+    t_path  = mapping.dig(deps['fields']['buyer_legal_type'], 'xpath')
+    cn_path = mapping.dig(deps['fields']['contract_nature_main_proc'], 'xpath')
+    cp_path = mapping.dig(deps['fields']['main_cpv_proc'], 'xpath')
+    
+    target_field_id = mapping.dig(deps['fields']['value'], 'field_id')
+
+    # Last register
+    lb_file = deps['external_data'].find { |d| d['id'] == 'lb_registry' }['file']
+    lb_data = YAML.load_file(File.join(base_dir, lb_file))
+    lb_entries     = lb_data['definitions']['entries']
+    lb_definitions = lb_data['definitions']
+    lb_templates   = lb_data['params']['entries'].find { |e| e['scope'] == 'description' }['templates']
+
+    params['rules'].each do |rule|
+      current_domain = rule['id_path'].first
+      
+      matching_entry = lb_entries.find do |e| 
+        e['threshold_scope'] == rule['context']['lb_scope'] && 
+        e['regulation'] == current_domain
+      end
+      raise "Fant ikke LB for #{current_domain} / #{rule['context']['lb_scope']}" unless matching_entry
+      
+      expected_text = NationalRulesHelpers.generate_legal_label(matching_entry, lb_definitions, lb_templates, 'nob')
+
+      conditions = []
+      
+      # LB-klausul
+      lb_check = "normalize-space(#{b_path}) = '#{matching_entry['code'].strip}'"
+      if bd_path && expected_text
+        lb_check += " and normalize-space(#{bd_path}) = '#{expected_text.gsub("'", "&apos;")}'"
+      end
+      conditions << "(#{lb_check})"
+
+      # Buyer type filter
+      lt_filter = rule['context']['lt_filter']
+      if lt_filter && lt_filter != "any"
+        case lt_filter
+        when /^contains:(.+)/ then conditions << "contains(normalize-space(#{t_path}), '#{$1}')"
+        when /^not_contains:(.+)/ then conditions << "not(contains(normalize-space(#{t_path}), '#{$1}'))"
+        end
+      end
+
+      # --- NY CPV OG NATURE LOGIKK ---
+      type_or_cpv = []
+      
+      if rule['context']['nature'] && cn_path
+        type_or_cpv << "normalize-space(#{cn_path}) = '#{rule['context']['nature']}'"
+      end
+
+      if rule['cpv_import'] && cp_path
+        imp = rule['cpv_import']
+        cpv_file_path = File.join(external_data_dir, imp['file'])
+        
+        unless File.exist?(cpv_file_path)
+          abort "❌ CPV-fil ikke funnet: #{cpv_file_path}. Sjekk EXTERNAL_API_DATA_PATH i Makefile."
+        end
+
+        @cpv_cache[cpv_file_path] ||= YAML.load_file(cpv_file_path)
+        cpv_data = @cpv_cache[cpv_file_path][imp['key']]
+        
+        if cpv_data
+          # Logikk som stoler 100% på lengden fra Python-preprosesseringen
+          build_clause = ->(code, is_not = false) {
+            code_str = code.to_s
+            
+            # Hvis koden er 8 tegn, krever vi eksakt match.
+            # Hvis den er kortere, er det et presisjonsprefiks (starts-with).
+            xpath_func = if code_str.length == 8
+                           "normalize-space(#{cp_path}) = '#{code_str}'"
+                         else
+                           "starts-with(normalize-space(#{cp_path}), '#{code_str}')"
+                         end
+            
+            is_not ? "not(#{xpath_func})" : xpath_func
+          }
+
+          # Inkluderings-klausuler (OR)
+          inc_list = cpv_data['include'].map { |c| build_clause.call(c) }
+          
+          # Ekskluderings-klausuler (AND NOT)
+          # Vi må sikre at vi ikke prøver å mappe over en nil-verdi
+          exc_list = (cpv_data['exclude'] || []).map { |c| build_clause.call(c, true) }
+
+          if inc_list.any?
+            combined_cpv = if exc_list.any?
+                             "((#{inc_list.join(' or ')}) and #{exc_list.join(' and ')})"
+                           else
+                             "(#{inc_list.join(' or ')})"
+                           end
+            type_or_cpv << combined_cpv
+          end
+        end
+      end
+
+      # Kombiner Nature og CPV med 'or' (hvis begge finnes, er det nok at én matcher)
+      if type_or_cpv.any?
+        conditions << "(#{type_or_cpv.join(' or ')})"
+      end
+      # --- SLUTT PÅ NY LOGIKK ---
+
+      # 3. Vask tallverdier og bygg test
+      clean_test_expr = rule['test'].gsub(/(\d)_(\d)/, '\1\2')
+      xpath_test = clean_test_expr.gsub('value', "number(#{v_path})")
+
+      # 4. Final XPath
+      full_xpath = "if (#{conditions.join(' and ')}) then (#{xpath_test}) else true()"
+
+      reg_num = RuleIdRegistry.dig_id("TH", *rule['id_path'])
+      rule_id = "EFORMS-NOR-NATIONAL-TH-R#{reg_num.to_s.rjust(3, '0')}"
+
+      result[target_field_id] ||= []
+      result[target_field_id] << {
+        'id' => rule_id,
+        'test' => NationalRulesHelpers.clean_xpath(full_xpath),
+        'message' => NationalRulesHelpers.extract_message(rule, meta)
+      }
+    end
+    result
+  end
+
 
 end
 
@@ -450,7 +583,7 @@ else
 end
 
 if FragmentHandlers.respond_to?(logic_type)
-  result_hash = FragmentHandlers.send(logic_type, payload, meta, FIELD_MAPPING, options[:base], options[:eu_codelists])
+  result_hash = FragmentHandlers.send(logic_type, payload, meta, FIELD_MAPPING, options[:base], options[:eu_codelists], options[:external_data])
 else
   abort "❌ Ukjent logikk-type: #{logic_type}"
 end

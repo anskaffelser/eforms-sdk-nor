@@ -22,11 +22,23 @@ RULE_FRAGMENTS = $(patsubst $(POLICY_PATH)/rules/%.yaml, \
 					$(INTERMEDIATE_PATH)/%.rules.fragment.yaml, \
 					$(RULE_SOURCES))
 
-.PHONY: all clean
+LOVDATA_SYNC_SCRIPT ?= scripts/sync_lovdata.py
+LOVDATA_JOB_CONFIG ?= config/lovdata_jobs.yaml
+LOVDATA_HEADER_TEMPLATE ?= config/lovdata_header_template.txt
+
+EXTERNAL_API_DATA_PATH ?= data
+
+.PHONY: all clean sync-cpv
 
 all: 
 	$(MAKE) clean
 	$(MAKE) $(OUTPUT_PATH)
+
+SYNC-LOVDATA-CPV:
+	uv run $(LOVDATA_SYNC_SCRIPT) \
+		--config-file $(LOVDATA_JOB_CONFIG) \
+		--job-id lovdata_foa_cpv_parser \
+		--header-template $(LOVDATA_HEADER_TEMPLATE)
 
 $(OUTPUT_PATH): $(FIELD_FRAGMENTS) $(RULE_FRAGMENTS)
 	@echo "Assembling final policy: $@"
@@ -45,9 +57,11 @@ $(INTERMEDIATE_PATH)/%.fields.fragment.yaml: $(FIELDS_PATH)/%.yaml
 		--mapping $(MAPPING_FILE) \
 		--registry $(REGISTRY_FILE) \
 		--license $(FRAGMENT_LICENSE_FILE) \
-		--base $(POLICY_PATH) --eu-codelists $(EU_CODELIST_PATH)
+		--base $(POLICY_PATH) \
+		--eu-codelists $(EU_CODELIST_PATH) \
+		--external-data $(EXTERNAL_API_DATA_PATH)
 
-$(INTERMEDIATE_PATH)/%.rules.fragment.yaml: $(RULES_PATH)/%.yaml
+$(INTERMEDIATE_PATH)/%.rules.fragment.yaml: $(RULES_PATH)/%.yaml $(EXTERNAL_API_DATA_PATH)/foa_cpv_registry.yaml
 	@mkdir -p $(INTERMEDIATE_PATH)
 	@echo "Fragmenting rule: $*"
 	@ruby $(GENERATORS_PATH)/generate_fragments.rb \
@@ -57,7 +71,8 @@ $(INTERMEDIATE_PATH)/%.rules.fragment.yaml: $(RULES_PATH)/%.yaml
 		--registry $(REGISTRY_FILE) \
 		--license $(FRAGMENT_LICENSE_FILE) \
 		--base $(POLICY_PATH) \
-		--eu-codelists $(EU_CODELIST_PATH)
+		--eu-codelists $(EU_CODELIST_PATH) \
+		--external-data $(EXTERNAL_API_DATA_PATH)
 
 clean: 
 	@rm -rf $(INTERMEDIATE_PATH)
