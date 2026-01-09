@@ -107,6 +107,7 @@ export_policies:
           
 codes:
   - code: "quality-nor-env-criteria"
+    validation_type: "cumulative"
     domain: "norwegian-national-extension"
     parent_eu_code: "quality"
     
@@ -156,6 +157,7 @@ codes:
     sdk_value: "QUALITY_NOR_ENV_CRITERIA"
 
   - code: "quality-nor-env-spec"
+    validation_type: "cumulative"
     domain: "norwegian-national-extension"
     parent_eu_code: "quality"
     
@@ -215,6 +217,7 @@ codes:
     sdk_value: "QUALITY_NOR_ENV_SPEC"
     
   - code: "quality-nor-env-none"
+    validation_type: "exclusive"
     domain: "norwegian-national-extension"
     parent_eu_code: "quality"
     

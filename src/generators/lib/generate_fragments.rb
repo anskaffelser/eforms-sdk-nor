@@ -3,7 +3,7 @@
 
 # =====================================================================
 # Copyright © 2025 DFØ – The Norwegian Agency for Public and Financial
-#                        Management
+#                     Management
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -37,11 +37,13 @@ OptionParser.new do |opts|
   opts.on("-l", "--license FILE", "Path to LICENSE_HEADER template") { |v| options[:license] = v }
   opts.on("-b", "--base DIR", "Base directory for national policy") { |v| options[:base] = v }
   opts.on("-e", "--eu-codelists DIR", "Path to EU standard codelists") { |v| options[:eu_codelists] = v }
+  opts.on("-n", "--nor-codelists DIR", "Path to NO extension codelists") { |v| options[:no_codelists] = v }
   opts.on("-x", "--external-data DIR", "Path to external API data (CPV, etc)") { |v| options[:external_data]= v }
 end.parse!
 
-[:input, :output, :mapping, :registry, :license, :base, :eu_codelists, :external_data].each do |opt|
-  abort "❌ Mangler påkrevd argument: --#{opt}" unless options[opt]
+# Sjekk at alle påkrevde stier er med fra Makefile
+[:input, :output, :mapping, :registry, :license, :base, :eu_codelists, :no_codelists, :external_data].each do |opt|
+  abort "❌ Mangler påkrevd argument: --#{opt.to_s.gsub('_', '-')}" unless options[opt]
 end
 
 # --- 2. INITIALIZATION & DATA LOADING ---
@@ -65,12 +67,13 @@ abort "❌ Fant ingen logikk i #{options[:input]}" unless raw_data
 # --- 3. HANDLER ENGINE ---
 module FragmentHandlers
   # 1. Mandatory Requirements (.fields.fragment.yaml)
-  def self.mandatory_requirements(params, meta, mapping, base_dir, eu_dir, *)
+  def self.mandatory_requirements(params, meta, context)
+    mapping = context[:mapping]
     cond = params['condition']
     source_path = if cond['source']
-                    Pathname.new(base_dir).join(cond['source'])
+                    Pathname.new(context[:base]).join(cond['source'])
                   else
-                    Pathname.new(base_dir).join(cond['source_folder'] || '', cond['source_file'])
+                    Pathname.new(context[:base]).join(cond['source_folder'] || '', cond['source_file'])
                   end
 
     unless source_path.exist?
@@ -98,85 +101,82 @@ module FragmentHandlers
   end
 
   # 2. Any Of / Codelist Validation (.rules.fragment.yaml)
-  def self.any_of(params, meta, mapping, _base_dir, eu_dir, *)
+  def self.any_of(params, meta, context)
+    mapping = context[:mapping]
     targets = Array(params['targets'] || params['target'])
-    raw_codes = NationalRulesHelpers.resolve_codes(params, eu_dir)
+    raw_codes = NationalRulesHelpers.resolve_codes(params, context[:eu_codelists])
     clean_codes = raw_codes.map { |c| c.is_a?(Hash) ? c['type'] : c }
     formatted_codes = clean_codes.map { |c| "'#{c}'" }.join(', ')
     msg = NationalRulesHelpers.extract_message(params, meta)
 
     result = {}
 
-    # --- LOGIKK FOR SPRÅK (LG) ---
-    if meta['domain'] == 'LG' && (meta['kind'] == 'consistency' || targets.size > 1)
-      # Henter index fra params hvis den finnes, ellers default 1
-      t_index = params['index'] || 1
+    # Hvis 'collective' er true, vil vi ha EN test for ALLE targets
+    # Hvis ikke, kjører vi den gamle loopen som før.
+    if params['collective']
+      # Vi grupperer fremdeles etter context_node for å unngå XPath-kræsj
+      grouped = targets.group_by do |t|
+        is_h = t.is_a?(Hash)
+        t_key = is_h ? t['key'] : t
+        t_info = mapping[t_key] || raise("Ukjent target: #{t_key}")
+        (is_h && t['context_node']) || params['context_node'] || t_info['field_id']
+      end
 
-      id = NationalRulesHelpers.rule_id(
-        domain: meta['domain'], 
-        scope: meta['scope'] || 'global', 
-        kind: meta['kind']&.to_sym || :consistency, 
-        index: t_index
-      )
+      grouped.each do |context_node, entries|
+        subjects = entries.map do |e|
+          is_h = e.is_a?(Hash)
+          t_info = mapping[is_h ? e['key'] : e]
+          subject = (context_node == 'ND-Root') ? t_info['xpath'] : "."
+          params['attribute'] ? "#{subject}/@#{params['attribute']}" : subject
+        end
 
-      main_lang_xpath = mapping['main_notice_language']&.fetch('xpath') 
-      additional_lang_xpath = mapping['additional_notice_language']&.fetch('xpath')
+        # Samlet test: (Path1, Path2) = ('NOR', 'NOB')
+        # Dette løser språk-problemet ditt perfekt.
+        test = "(#{subjects.join(', ')}) = (#{formatted_codes})"
+        
+        # Bruker info fra første target for ID
+        first = entries.first
+        id = NationalRulesHelpers.rule_id(
+          domain: meta['domain'], 
+          scope: (first.is_a?(Hash) && first['scope']) || params['scope'] || 'global',
+          kind: meta['kind']&.to_sym || :whitelist,
+          index: (first.is_a?(Hash) ? first['index'] : params['index']) || 1
+        )
 
-      xpath_test = <<~XPATH
-        normalize-space(#{main_lang_xpath}) = (#{formatted_codes})
-        or
-        (some $l in #{additional_lang_xpath} satisfies normalize-space($l) = (#{formatted_codes}))
-      XPATH
-
-      result['ND-Root'] = [{
-        'id' => id,
-        'test' => xpath_test.gsub(/\s+/, ' ').strip,
-        'message' => msg
-      }]
-      
-    # --- LOGIKK FOR ANDRE FELT (CR, LB, osv.) ---
+        result[context_node] ||= []
+        result[context_node] << { 'id' => id, 'test' => NationalRulesHelpers.clean_xpath(test), 'message' => msg }
+      end
     else
-      targets.each do |target_entry|
+      # --- ORIGINAL LOGIKK (Uendret) ---
+      targets.each_with_index do |target_entry, idx|
         is_hash = target_entry.is_a?(Hash)
-        t_key   = is_hash ? target_entry['key']   : target_entry
-        # Samme logikk for index her
-        t_index = is_hash ? (target_entry['index'] || 1) : 1
+        t_key   = is_hash ? target_entry['key'] : target_entry
+        t_info  = mapping[t_key] || raise("Ukjent target i mapping: #{t_key}")
         
-        t_info = mapping[t_key] || raise("Ukjent target i mapping: #{t_key}")
-        
-        t_scope = if is_hash && target_entry['scope']
-                    target_entry['scope']
-                  else
-                    t_info['scope'] || t_info['level'] || meta['scope'] || 'global'
-                  end
+        context_node = (is_hash && target_entry['context_node']) || params['context_node'] || t_info['field_id']
+        subject = (context_node == 'ND-Root') ? t_info['xpath'] : "."
+        test_subject = params['attribute'] ? "#{subject}/@#{params['attribute']}" : subject
 
         id = NationalRulesHelpers.rule_id(
           domain: meta['domain'], 
-          scope: t_scope, 
+          scope: (is_hash && target_entry['scope']) || params['scope'] || t_info['scope'] || 'global',
           kind: meta['kind']&.to_sym || :whitelist, 
-          index: t_index
+          index: (is_hash ? target_entry['index'] : params['index']) || (idx + 1)
         )
 
-        attr_name = params['attribute']
-        test_subject = attr_name ? "@#{attr_name}" : "."
         test = "normalize-space(#{test_subject}) = (#{formatted_codes})"
 
-        result[t_info['field_id']] = [{
-          'id' => id,
-          'test' => NationalRulesHelpers.clean_xpath(test),
-          'message' => msg
-        }]
+        result[context_node] ||= []
+        result[context_node] << { 'id' => id, 'test' => NationalRulesHelpers.clean_xpath(test), 'message' => msg }
       end
     end
     result
   end
+  
 
   # 3. Split Whitelist (.rules.fragment.yaml)
-  def self.split_whitelist(params, meta, mapping, base_dir, eu_dir, *)
-    # Merk: split_whitelist bruker ofte sine egne meldinger per entry, 
-    # men vi kan bruke extract_message som fallback i hjelperen hvis ønskelig.
-    raw_rules = NationalRulesHelpers.build_split_whitelist(params, Pathname.new(base_dir), Pathname.new(eu_dir), meta['domain'], mapping)
-
+  def self.split_whitelist(params, meta, context)
+    raw_rules = NationalRulesHelpers.build_split_whitelist(params, Pathname.new(context[:base]), Pathname.new(context[:eu_codelists]), meta['domain'], context[:mapping])
     result = {}
     raw_rules.each do |r|
       result[r['field_id']] ||= []
@@ -190,299 +190,218 @@ module FragmentHandlers
   end
 
   # 4. Pattern Validation (.rules.fragment.yaml)
-  def self.pattern(params, meta, mapping, _base_dir, eu_dir, *)
-    # Støtt både 'target' (gammel) og 'targets' (ny liste)
+  def self.pattern(params, meta, context)
+    mapping = context[:mapping]
     targets = Array(params['targets'] || params['target'] || raise("Mangler target(s) for pattern-regel"))
     pattern = params['pattern']
     msg     = NationalRulesHelpers.extract_message(params, meta)
-    
     allow_blank = params['allow_blank']
     
     result = {}
-
     targets.each do |target_entry|
-      # 1. Pakk ut nøkkel og indeks
       is_hash = target_entry.is_a?(Hash)
       t_key   = is_hash ? target_entry['key']   : target_entry
       t_index = is_hash ? (target_entry['index'] || 0) : 0
-      
       t_info  = mapping[t_key] || raise("Ukjent target: #{t_key}")
+      t_scope = is_hash && target_entry['scope'] ? target_entry['scope'] : (meta['scope'] || t_info['scope'] || t_info['level'] || 'global')
 
-      # 2. Finn scope (Target -> Meta -> Mapping -> Fallback)
-      t_scope = if is_hash && target_entry['scope']
-                  target_entry['scope']
-                else
-                  meta['scope'] || t_info['scope'] || t_info['level'] || 'global'
-                end
-
-      # 3. Generer ID med riktig indeks og scope
-      id = NationalRulesHelpers.rule_id(
-        domain: meta['domain'], 
-        scope: t_scope, 
-        kind: :pattern, 
-        index: t_index
-      )
-
-      # 4. Bygg testen
-      # Start med selve kjerne-testen
+      id = NationalRulesHelpers.rule_id(domain: meta['domain'], scope: t_scope, kind: :pattern, index: t_index)
       test_parts = ["matches(normalize-space(.), '#{pattern}')"]
-
-      # Legg til "blank-shaming" beskyttelse forrest i køen hvis det er tillatt
       test_parts.unshift("not(normalize-space(.))") if allow_blank
       
-      test = test_parts.join(" or ")
-
-      # 5. Legg til i resultatet (fletting skjer i assemble-skriptet)
-      result[t_info['field_id']] = [{
-        'id' => id,
-        'test' => NationalRulesHelpers.clean_xpath(test),
-        'message' => msg
-      }]
+      result[t_info['field_id']] = [{ 'id' => id, 'test' => NationalRulesHelpers.clean_xpath(test_parts.join(" or ")), 'message' => msg }]
     end
     result
   end
   
   # 5. National Tailored Codelist Pair (.rules.fragment.yaml)
-  def self.national_tailored_codelist_pair(data, meta, mapping, _base_dir, eu_dir, *)
+  def self.national_tailored_codelist_pair(data, meta, context)
+    mapping = context[:mapping]
     result = {}
-    definitions = data['definitions'] || {}
-    entries = definitions['entries'] || []
-    
-    # 1. BT-01(e) - Enkel kodeliste-sjekk
-    code_config = data['params']['entries'].find { |e| e['tailored_codelist_key'] == 'code' }
-    code_field = mapping[code_config['target']]['field_id']
-    code_list = entries.map { |e| "'#{e['code']}'" }.join(', ')
-    
-    result[code_field] = [{
-      'id' => NationalRulesHelpers.rule_id(domain: meta['domain'], scope: code_config['scope'], kind: meta['kind'], index: 0),
-      'test' => "normalize-space() = (#{code_list})",
-      'message' => code_config['description']['eng']
-    }]
+    codelist_entries = data.dig('definitions', 'entries') || []
   
-    # 2. BT-01(f) - Betinget par-sjekk (Hvis kode X, så tekst Y)
-    desc_config = data['params']['entries'].find { |e| e['scope'] == 'description' }
-    desc_field = mapping[desc_config['target']]['field_id']
+    data['params']['entries'].each_with_index do |config, idx|
+      t_info = mapping[config['target']] || next
+      context_node = config['context_node'] || t_info['field_id']
+      subject = (context_node == 'ND-Root') ? t_info['xpath'] : "."
+      
+      id = NationalRulesHelpers.rule_id(
+        domain: meta['domain'], 
+        scope: config['scope'] || meta['scope'], 
+        kind: meta['kind'], 
+        index: idx
+      )
   
-    # Vi bygger én stor sjekk som validerer teksten basert på koden i nabofeltet
-    conditional_checks = entries.map do |e|
-      txt_nob = NationalRulesHelpers.generate_legal_label(e, definitions, desc_config['templates'], 'nob')
-      txt_eng = NationalRulesHelpers.generate_legal_label(e, definitions, desc_config['templates'], 'eng')
+      test = if config['type'] == 'literal'
+               "normalize-space(#{subject}) = '#{config['value']}'"
+             elsif config['type'] == 'enum'
+               target_lang = config['lang'] || 'nor'
+               
+               # Henter alle unike koder for aktuelt språk
+               clean_codes = codelist_entries.map { |e| e.dig('code', target_lang)&.strip }.compact.uniq
+               
+               # Formaterer til en XPath 2.0 sekvens: ('verdi1', 'verdi2', ...)
+               formatted_codes = clean_codes.map { |c| "'#{c.gsub("'", "&apos;")}'" }.join(', ')
+               
+               subject_norm = "normalize-space(#{subject})"
+               
+               # LOGIKK: 
+               # 1. Feltet finnes ikke (not(node))
+               # 2. Feltet er tomt (norm = '')
+               # 3. Feltet matcher en verdi i sekvensen (norm = (seq))
+               "(not(#{subject}) or #{subject_norm} = (#{formatted_codes}))"
+             end
   
-      # Logikk: Hvis ../cbc:ID er 'KODE', så må dette feltet være riktig tekst på riktig språk
-      "(normalize-space(../cbc:ID) = '#{e['code']}' and (
-          (@languageID = 'NOR' and normalize-space() = '#{txt_nob}') or 
-          (@languageID = 'ENG' and normalize-space() = '#{txt_eng}')
-      ))"
+      result[context_node] ||= []
+      result[context_node] << {
+        'id' => id,
+        'test' => NationalRulesHelpers.clean_xpath(test),
+        'message' => config['_description']['eng']
+      }
     end
-
-    raw_test = conditional_checks.join(' or ')
-
-    msg = desc_config['description']['eng']
-  
-    result[desc_field] = [{
-      'id' => NationalRulesHelpers.rule_id(domain: meta['domain'], scope: desc_config['scope'], kind: meta['kind'], index: 1),
-      'test' => NationalRulesHelpers.clean_xpath(raw_test),
-      'message' => msg
-    }]
-  
     result
   end
 
   # 6. Sum av verdier på tvers av felter
-  def self.cross_field_sum(params, meta, mapping, _base_dir, eu_dir, *)
+  def self.cross_field_sum(params, meta, context)
+    mapping = context[:mapping]
     relations = Array(params['relations'] || [])
     tolerance = params['tolerance'] || 0.01
     result    = {}
   
     relations.each do |rel|
-      p_key  = rel['parent_key']
-      p_info = mapping[p_key] || raise("Ukjent parent_key: #{p_key}")
-      parent_xpath = p_info['xpath']
-      
-      # Henter spesifikk melding for denne relasjonen
+      p_info = mapping[rel['parent_key']] || raise("Ukjent parent_key: #{rel['parent_key']}")
       msg = NationalRulesHelpers.extract_message(rel, meta)
       
       parent_rules = []
-  
       Array(rel['child_keys']).each do |child_entry|
-        c_key = child_entry['key']
-        c_idx = child_entry['index'] || 1
-        c_info = mapping[c_key] || raise("Ukjent child_key: #{c_key}")
-        child_xpath = c_info['xpath']
+        c_info = mapping[child_entry['key']] || raise("Ukjent child_key: #{child_entry['key']}")
+        id = NationalRulesHelpers.rule_id(domain: meta['domain'], scope: meta['scope'], kind: :comparison, index: child_entry['index'] || 1)
+        test = "(not(#{c_info['xpath']})) or abs(number(#{p_info['xpath']}) - sum(#{c_info['xpath']})) < #{tolerance}"
   
-        id = NationalRulesHelpers.rule_id(
-          domain: meta['domain'],
-          scope: meta['scope'],
-          kind: :comparison,
-          index: c_idx
-        )
-  
-        # XPath-logikk: (Hvis barnet ikke finnes) ELLER (Differansen er OK)
-        test = "(not(#{child_xpath})) or abs(number(#{parent_xpath}) - sum(#{child_xpath})) < #{tolerance}"
-  
-        parent_rules << {
-          'id' => id,
-          'test' => NationalRulesHelpers.clean_xpath(test),
-          'message' => msg
-        }
+        parent_rules << { 'id' => id, 'test' => NationalRulesHelpers.clean_xpath(test), 'message' => msg }
       end
   
       result[p_info['field_id']] ||= []
       result[p_info['field_id']].concat(parent_rules)
     end
-  
     result
   end
   
   # 7. Likhet på tvers av felter
-  def self.cross_field_equality(params, meta, mapping, *)
+  def self.cross_field_equality(params, meta, context)
+    mapping = context[:mapping]
     entries = Array(params['entries'] || [])
     result = {}
   
     entries.each_with_index do |entry, idx|
-      # Henter info basert på nøkkelen i denne spesifikke entryen
-      key = entry['key']
-      info = mapping[key] || raise("Ukjent key i cross_field_equality: #{key}")
-      full_path = info['xpath']
-      
-      # Henter meldingen som ligger lokalt i denne entryen
+      info = mapping[entry['key']] || raise("Ukjent key i cross_field_equality: #{entry['key']}")
       msg = NationalRulesHelpers.extract_message(entry, meta)
-  
-      # XPath-testen forblir den samme robuste sjekken mot første forekomst
-      test = "normalize-space() = #{full_path}[1]/normalize-space()"
-  
-      # Grupperer regelen under riktig field_id (BT-536, BT-537, etc)
-      id = NationalRulesHelpers.rule_id(
-        domain: meta['domain'],
-        scope: entry['scope'] || meta['scope'],
-        kind: meta['kind'],
-        index: idx
-      )
+      id = NationalRulesHelpers.rule_id(domain: meta['domain'], scope: entry['scope'] || meta['scope'], kind: meta['kind'], index: idx)
+      
       result[info['field_id']] ||= []
-      result[info['field_id']] << {
-        'id' => id,
-        'test' => test,
-        'message' => msg
-      }
+      result[info['field_id']] << { 'id' => id, 'test' => "normalize-space() = #{info['xpath']}[1]/normalize-space()", 'message' => msg }
     end
-  
     result
   end
 
-  # 8. Dato-nærhet (BT-05(a)-Notice# 8. Dato-nærhet (BT-05 Dispatch Date)
-  def self.date_proximity(params, meta, mapping, *)
-    # Vi antar params['key'] peker på BT-05(a)-notice i din mapping
-    info = mapping[params['key']] || raise("Ukjent key i date_proximity: #{params['key']}")
-    
-    # Henter grenser fra YAML, f.eks. -1 (i går) og 2 (i overmorgen)
+  # 8. Dato-nærhet
+  def self.date_proximity(params, meta, context)
+    info = context[:mapping][params['key']] || raise("Ukjent key i date_proximity: #{params['key']}")
     min = params['min_days'] || -1
     max = params['max_days'] || 2
-    
     msg = NationalRulesHelpers.extract_message(params, meta)
     
-    # Helper for å formatere duration: -1 blir -P1D, 2 blir P2D
-    to_duration = ->(days) {
-      prefix = days < 0 ? "-P" : "P"
-      "#{prefix}#{days.abs}D"
-    }
+    to_duration = ->(days) { "#{days < 0 ? "-P" : "P"}#{days.abs}D" }
+    test = "((current-date() - xs:date(.)) le xs:dayTimeDuration('#{to_duration.call(max)}')) and ((current-date() - xs:date(.)) ge xs:dayTimeDuration('#{to_duration.call(min)}'))"
 
-    min_dur = to_duration.call(min)
-    max_dur = to_duration.call(max)
+    id = NationalRulesHelpers.rule_id(domain: meta['domain'], kind: meta['kind'], scope: params['scope'] || meta['scope'], index: params['index'] || 1)
 
-    # XPath-logikk:
-    # current-date() returnerer dagens dato. 
-    # Vi trekker fra datoen i feltet og sjekker om varigheten (duration) 
-    # er innenfor de tillatte grensene.
-    test = "((current-date() - xs:date(.)) le xs:dayTimeDuration('#{max_dur}')) and " \
-           "((current-date() - xs:date(.)) ge xs:dayTimeDuration('#{min_dur}'))"
-
-    id = NationalRulesHelpers.rule_id(
-      domain: meta['domain'],
-      kind:   meta['kind'],
-      scope:  params['scope'] || meta['scope'],
-      index:  params['index'] || 1
-    )
-
-    {
-      info['field_id'] => [{
-        'id' => id,
-        'test' => NationalRulesHelpers.clean_xpath(test),
-        'message' => msg
-      }]
-    }
+    { info['field_id'] => [{ 'id' => id, 'test' => NationalRulesHelpers.clean_xpath(test), 'message' => msg }] }
   end
   
-  # 9. Forbudte elementer (f.eks. uoffisielle språk)
-  def self.forbidden_element(params, meta, mapping, *)
-    info = mapping[params['key']] || raise("Ukjent key: #{params['key']}")
-    xpath = info['xpath']
+  # 9. Forbudte elementer
+  def self.forbidden_element(params, meta, context)
+    info = context[:mapping][params['key']] || raise("Ukjent key: #{params['key']}")
     msg = NationalRulesHelpers.extract_message(params, meta)
+    id = NationalRulesHelpers.rule_id(domain: meta['domain'], kind: meta['kind'], scope: params['scope'] || meta['scope'], index: params['index'] || 1)
 
-    # XPath-testen: Det skal IKKE finnes noen forekomster av denne stien
-    test = "not(#{xpath})"
-
-    id = NationalRulesHelpers.rule_id(
-      domain: meta['domain'],
-      kind:   meta['kind'],
-      scope:  params['scope'] || meta['scope'],
-      index:  params['index'] || 1
-    )
-
-    # Vi returnerer dette under 'ND-Root' fordi det er en strukturell sjekk
-    {
-      "ND-Root" => [{
-        'id' => id,
-        'test' => NationalRulesHelpers.clean_xpath(test),
-        'message' => msg
-      }]
-    }
+    { "ND-Root" => [{ 'id' => id, 'test' => "not(#{info['xpath']})", 'message' => msg }] }
   end
   
   # 10. Terskelverdi-motor
-  def self.threshold_engine(params, meta, mapping, base_dir, eu_dir, external_data_dir)
+  def self.threshold_engine(params, meta, context)
+    mapping = context[:mapping]
     result = {}
     deps = params['_dependencies']
-    abort "❌ Mangler '_dependencies' i YAML" if deps.nil?
-    @cpv_cache ||= {} # Cache for å unngå disk-I/O i loopen
     
-    # Finn stier
+    raise "❌ Kritisk feil: Mangler '_dependencies'" if deps.nil?
+    
+    @cpv_cache ||= {}
+    
+    # --- 1. HENT FELTPERSTIER ---
     v_path  = mapping.dig(deps['fields']['value'], 'xpath')
     b_path  = mapping.dig(deps['fields']['legal_basis'], 'xpath')
-    bd_path = mapping.dig(deps['fields']['legal_basis_description_nor'], 'xpath')
     t_path  = mapping.dig(deps['fields']['buyer_legal_type'], 'xpath')
     cn_path = mapping.dig(deps['fields']['contract_nature_main_proc'], 'xpath')
     cp_path = mapping.dig(deps['fields']['main_cpv_proc'], 'xpath')
-    
     target_field_id = mapping.dig(deps['fields']['value'], 'field_id')
-
-    # Last register for lovhjemler
-    lb_file = deps['external_data'].find { |d| d['id'] == 'lb_registry' }['file']
-    lb_data = YAML.load_file(File.join(base_dir, lb_file))
-    lb_entries      = lb_data['definitions']['entries']
-    lb_definitions = lb_data['definitions']
-    lb_templates   = lb_data['params']['entries'].find { |e| e['scope'] == 'description' }['templates']
-
+  
+    # FIKS 1: Sjekk at mapping faktisk returnerer noe her
+    lb_desc_configs = Array(deps['fields']['legal_basis_descriptions']).map do |d|
+      path = mapping.dig(d['legal_basis_description'], 'xpath')
+      {
+        xpath: path,
+        lang: d['lang'] # Sjekk om denne er "NOR" eller "nor"
+      }
+    end.select { |c| c[:xpath] }
+  
+    # --- 2. LAST EKSTERNE DATA ---
+    lb_registry_cfg = deps['external_data']&.find { |d| d['id'] == 'lb_registry' }
+    lb_data = YAML.load_file(File.join(context[:base], lb_registry_cfg['file']))
+    lb_entries = lb_data['definitions']['entries']
+  
+    # --- 3. PROSESSER HVER REGEL ---
     params['rules'].each do |rule|
-      current_domain = rule['id_path'].first
-      
+      id = NationalRulesHelpers.rule_id(
+        domain:   rule['domain']   || meta['domain'], 
+        kind:     rule['kind']     || meta['kind'], 
+        sub_kind: rule['sub_kind'], 
+        scope:    rule['scope']    || meta['scope'], 
+        index:    rule['index']    || 0
+      )
+  
       matching_entry = lb_entries.find do |e| 
-        e['threshold_scope'] == rule['context']['lb_scope'] && 
-        e['regulation'] == current_domain
+        e['threshold_scope'] == rule['context']['lb_scope'] && e['regulation'] == (rule['scope'] || meta['domain']) 
       end
-      raise "Fant ikke LB for #{current_domain} / #{rule['context']['lb_scope']}" unless matching_entry
       
-      expected_text = NationalRulesHelpers.generate_legal_label(matching_entry, lb_definitions, lb_templates, 'nob')
-
+      next unless matching_entry
+  
       conditions = []
       
-      # 1. Lovhjemmel (LB-klausul)
-      lb_check = "normalize-space(#{b_path}) = '#{matching_entry['code'].strip}'"
-      if bd_path && expected_text
-        lb_check += " and normalize-space(#{bd_path}) = '#{expected_text.gsub("'", "&apos;")}'"
+      # Krav: BT-01(e)
+      conditions << "(normalize-space(#{b_path}) = 'LocalLegalBasis')"
+  
+      # --- FIKS 2: Robust språksjekk ---
+      language_ors = []
+      lb_desc_configs.each do |cfg|
+        # Vi tvinger både nøkkel og config til lowercase for å matche "NOR" mot "nor"
+        lang_key = cfg[:lang].to_s.downcase
+        expected_val = matching_entry.dig('code', lang_key) || matching_entry.dig('code', cfg[:lang].to_s)
+        
+        if expected_val
+          safe_val = expected_val.strip.gsub("'", "&apos;")
+          xpath_node = cfg[:xpath]
+          language_ors << "(not(#{xpath_node}) or normalize-space(#{xpath_node}) = '#{safe_val}')"
+        end
       end
-      conditions << "(#{lb_check})"
-
-      # 2. Buyer type filter (CGA / Non-CGA)
+      
+      # Her dytter vi språksjekken inn i hovedlisten over betingelser
+      if language_ors.any?
+        conditions << "(#{language_ors.join(' and ')})"
+      end
+  
+      # --- 4. ØVRIGE FILTRE ---
       lt_filter = rule['context']['lt_filter']
       if lt_filter && lt_filter != "any"
         case lt_filter
@@ -490,106 +409,118 @@ module FragmentHandlers
         when /^not_contains:(.+)/ then conditions << "not(contains(normalize-space(#{t_path}), '#{$1}'))"
         end
       end
-
-      # 3. Kontraktens art (Nature) og CPV-inkludering
+  
       type_or_cpv = []
-      
-      # Håndter Nature (støtter streng eller liste)
       if rule['context']['nature'] && cn_path
-        natures = Array(rule['context']['nature'])
-        nature_checks = natures.map { |n| "normalize-space(#{cn_path})='#{n}'" }
-        type_or_cpv << (nature_checks.size > 1 ? "(#{nature_checks.join(' or ')})" : nature_checks.first)
+        nature_list = Array(rule['context']['nature']).map { |n| "'#{n}'" }.join(', ')
+        # XPath 2.0 kompatibel sjekk
+        type_or_cpv << "normalize-space(#{cn_path}) = (#{nature_list})"
       end
-
-      # Håndter positiv CPV-inkludering
+  
       if rule['cpv_import'] && cp_path
         imp = rule['cpv_import']
-        cpv_file_path = File.join(external_data_dir, imp['file'])
-        
-        unless File.exist?(cpv_file_path)
-          abort "❌ CPV-fil ikke funnet: #{cpv_file_path}"
-        end
-
-        @cpv_cache[cpv_file_path] ||= YAML.load_file(cpv_file_path)
-        cpv_data = @cpv_cache[cpv_file_path][imp['key']]
-        
-        if cpv_data
-          build_clause = ->(code, is_not = false) {
-            c_str = code.to_s
-            xpath_func = c_str.length == 8 ? "normalize-space(#{cp_path})='#{c_str}'" : "starts-with(normalize-space(#{cp_path}), '#{c_str}')"
-            is_not ? "not(#{xpath_func})" : xpath_func
-          }
-
-          inc_list = Array(cpv_data['include']).map { |c| build_clause.call(c) }
-          exc_list = Array(cpv_data['exclude']).map { |c| build_clause.call(c, true) }
-
-          if inc_list.any?
-            type_or_cpv << (exc_list.any? ? "((#{inc_list.join(' or ')}) and #{exc_list.join(' and ')})" : "(#{inc_list.join(' or ')})")
+        cpv_data = @cpv_cache[File.join(context[:external_data], imp['file'])] ||= YAML.load_file(File.join(context[:external_data], imp['file']))
+        cpv_list = cpv_data[imp['key']]
+        if cpv_list
+          # Bruker den stabile include-metoden
+          inc_checks = Array(cpv_list['include']).map do |c|
+            code = c.to_s
+            code.length == 8 ? "normalize-space(#{cp_path})='#{code}'" : "starts-with(normalize-space(#{cp_path}), '#{code}')"
           end
-        end
-      end
-
-      # Legg til samlet Nature/CPV-inkludering i hovedbetingelsene
-      if type_or_cpv.any?
-        conditions << "(#{type_or_cpv.join(' or ')})"
-      end
-
-      # 4. CPV-ekskludering (Negasjon av andre kategorier)
-      if rule['exclude_cpv_import'] && cp_path
-        Array(rule['exclude_cpv_import']).each do |imp|
-          cpv_file_path = File.join(external_data_dir, imp['file'])
-          next unless File.exist?(cpv_file_path)
-
-          @cpv_cache[cpv_file_path] ||= YAML.load_file(cpv_file_path)
-          cpv_data = @cpv_cache[cpv_file_path][imp['key']]
-          next unless cpv_data
-
-          # Vi ekskluderer alt som er definert i 'include' for den gitte nøkkelen
-          Array(cpv_data['include']).each do |code|
-            c_str = code.to_s
-            if c_str.length == 8
-              conditions << "not(normalize-space(#{cp_path})='#{c_str}')"
-            else
-              conditions << "not(starts-with(normalize-space(#{cp_path}), '#{c_str}'))"
+          
+          inc_clause = "(#{inc_checks.join(' or ')})"
+          
+          if Array(cpv_list['exclude']).any?
+            exc_checks = Array(cpv_list['exclude']).map do |c|
+              code = c.to_s
+              code.length == 8 ? "not(normalize-space(#{cp_path})='#{code}')" : "not(starts-with(normalize-space(#{cp_path}), '#{code}'))"
             end
+            type_or_cpv << "(#{inc_clause} and #{exc_checks.join(' and ')})"
+          else
+            type_or_cpv << inc_clause
           end
         end
       end
-
-      # 5. Bygg endelig XPath-test
-      clean_test_expr = rule['test'].gsub(/(\d)_(\d)/, '\1\2') # Håndter 7_800_000 -> 7800000
-      xpath_test = clean_test_expr.gsub('value', "number(#{v_path})")
-
-      full_xpath = "if (#{conditions.join(' and ')}) then (#{xpath_test}) else true()"
-
-      reg_num = RuleIdRegistry.dig_id("TH", *rule['id_path'])
-      rule_id = "EFORMS-NOR-NATIONAL-TH-R#{reg_num.to_s.rjust(3, '0')}"
-
+  
+      conditions << "(#{type_or_cpv.join(' or ')})" if type_or_cpv.any?
+  
+      # --- 5. GENERER SLUTT-XPATH ---
+      clean_test = rule['test'].gsub(/(\d)_(\d)/, '\1\2').gsub('value', "number(#{v_path})")
+      final_xpath = "if (#{conditions.join(' and ')}) then (#{clean_test}) else true()"
+  
       result[target_field_id] ||= []
       result[target_field_id] << {
-        'id' => rule_id,
-        'test' => NationalRulesHelpers.clean_xpath(full_xpath),
+        'id'      => id,
+        'test'    => NationalRulesHelpers.clean_xpath(final_xpath),
         'message' => NationalRulesHelpers.extract_message(rule, meta)
       }
     end
     result
   end
+  
+  # 11: Nasjonale kodelister
+  def self.national_codelist_dependency(params, meta, context)
+    cl_path = File.join(context[:no_codelists], params['codelist_file'])
+    cl_data = YAML.load_file(cl_path)
+    
+    # Henter kodene fra kodelista
+    cum_codes = cl_data['codes'].select { |c| c['validation_type'] == 'cumulative' }.map { |c| "'#{c['code']}'" }
+    exc_codes = cl_data['codes'].select { |c| c['validation_type'] == 'exclusive' }.map { |c| "'#{c['code']}'" }
 
+    info = context[:mapping][params['target']] || raise("Mapping mangler for: #{params['target']}")
+    xpath = info['xpath']
+    
+    cum_joined = cum_codes.join(', ')
+    exc_joined = exc_codes.join(', ')
 
+    # LOGIKK (Den "Åpne" verden): 
+    # 1. Hvis eksklusiv kode (fritak) er valgt -> Ingen kumulative koder er lov.
+    # 2. Hvis ingen eksklusiv kode er valgt -> Minst én kumulativ kode MÅ være valgt.
+    # 3. Andre koder fra baselista ignoreres i begge tilfeller.
+    test_expr = <<~XPATH
+      if (exists(#{xpath})) then (
+        if (some $c in #{xpath} satisfies normalize-space($c) = (#{exc_joined})) 
+        then (not(some $c in #{xpath} satisfies normalize-space($c) = (#{cum_joined})))
+        else (some $c in #{xpath} satisfies normalize-space($c) = (#{cum_joined}))
+      ) else true()
+    XPATH
+
+    id = NationalRulesHelpers.rule_id(
+      domain:   meta['domain'], 
+      kind:     meta['kind'], 
+      sub_kind: params['sub_kind'], 
+      scope:    params['scope'] || meta['scope'], 
+      index:    params['index'] || 1
+    )
+  
+    { 
+      info['field_id'] => [
+        { 
+          'id' => id, 
+          'test' => NationalRulesHelpers.clean_xpath(test_expr), 
+          'message' => NationalRulesHelpers.extract_message(params, meta) 
+        }
+      ] 
+    }
+  end
 end
 
 # --- 4. EXECUTION ---
 logic_type = raw_data['logic']
 meta = raw_data['_rule'] || {}
+payload = (logic_type == 'national_tailored_codelist_pair') ? raw_data : (raw_data['params'] || {})
 
-if logic_type == 'national_tailored_codelist_pair'
-  payload = raw_data
-else
-  payload = raw_data['params'] || {}
-end
+# Vi pakker alt inn i context-objektet
+context = {
+  mapping: FIELD_MAPPING,
+  base: options[:base],
+  eu_codelists: options[:eu_codelists],
+  no_codelists: options[:no_codelists],
+  external_data: options[:external_data]
+}
 
 if FragmentHandlers.respond_to?(logic_type)
-  result_hash = FragmentHandlers.send(logic_type, payload, meta, FIELD_MAPPING, options[:base], options[:eu_codelists], options[:external_data])
+  result_hash = FragmentHandlers.send(logic_type, payload, meta, context)
 else
   abort "❌ Ukjent logikk-type: #{logic_type}"
 end

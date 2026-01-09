@@ -57,10 +57,12 @@ _rule:
 logic: any_of
   
 params:
+  collective: true
   codes:
     - NOR
     - NOB
     - NNO
+  context_node: ND-Root
   targets:
     - key: main_notice_language
       id: 1

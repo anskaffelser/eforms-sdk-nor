@@ -1,6 +1,7 @@
 GENERATORS_PATH ?= generators/lib
 POLICY_PATH ?= policy/national
 EU_CODELIST_PATH ?= codelists
+NOR_CODELIST_PATH ?= codelists-no
 INTERMEDIATE_PATH ?= generated/national
 OUTPUT_PATH ?= fields/national.rules.yaml
 MAPPING_FILE  = $(POLICY_PATH)/eforms_fields_mapping.yaml
@@ -63,6 +64,7 @@ $(INTERMEDIATE_PATH)/%.fields.fragment.yaml: $(FIELDS_PATH)/%.yaml
 		--license $(FRAGMENT_LICENSE_FILE) \
 		--base $(POLICY_PATH) \
 		--eu-codelists $(EU_CODELIST_PATH) \
+		--nor-codelists $(NOR_CODELIST_PATH) \
 		--external-data $(EXTERNAL_API_DATA_PATH)
 
 $(INTERMEDIATE_PATH)/%.rules.fragment.yaml: $(RULES_PATH)/%.yaml $(EXTERNAL_API_DATA_PATH)/foa_cpv_registry.yaml
@@ -76,6 +78,7 @@ $(INTERMEDIATE_PATH)/%.rules.fragment.yaml: $(RULES_PATH)/%.yaml $(EXTERNAL_API_
 		--license $(FRAGMENT_LICENSE_FILE) \
 		--base $(POLICY_PATH) \
 		--eu-codelists $(EU_CODELIST_PATH) \
+		--nor-codelists $(NOR_CODELIST_PATH) \
 		--external-data $(EXTERNAL_API_DATA_PATH)
 
 clean: 

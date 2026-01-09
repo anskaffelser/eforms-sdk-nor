@@ -7,19 +7,19 @@ additional_notice_language:
   field_id: "BT-702(b)-notice"
   
 notice_type: 
-  xpath: "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"
+  xpath: "/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"
   field_id: "OPP-070-notice"
 
 legal_basis_noid:
-  xpath: "/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:ID"
+  xpath: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:ID"
   field_id: "BT-01(e)-Procedure"
   
 legal_basis_noid_description_nor:
-  xpath: "/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription[@languageID='NOR']"
+  xpath: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID)='LocalLegalBasis']/cbc:DocumentDescription[@languageID='NOR']"
   field_id: "BT-01(f)-Procedure"
 
 legal_basis_noid_description_eng:
-  xpath: "/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:DocumentDescription[@languageID='ENG']"
+  xpath: "/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID)='LocalLegalBasis']/cbc:DocumentDescription[@languageID='ENG']"
   field_id: "BT-01(f)-Procedure"
 
 buyer_legal_type:
@@ -43,11 +43,11 @@ estimated_value_part:
   field_id: "BT-27-Part"
 
 estimated_value_lot:
-  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount"
+  xpath: "/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount"
   field_id: "BT-27-Lot"
   
 framework_maximum_value_lot: 
-  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount"
+  xpath: "/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount"
   field_id: "BT-271-Lot"
   
 framework_maximum_value_proc: 
@@ -55,19 +55,19 @@ framework_maximum_value_proc:
   field_id: "BT-271-Procedure"
 
 duration_start_date_part:
-  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:StartDate"
+  xpath: "/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:StartDate"
   field_id: "BT-536-Part"
   
 duration_end_date_part:
-  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:EndDate"
+  xpath: "/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:EndDate"
   field_id: "BT-537-Part"
 
 duration_start_date_lot:
-  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:StartDate"
+  xpath: "/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:StartDate"
   field_id: "BT-536-Lot"
 
 duration_end_date_lot:
-  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:EndDate"
+  xpath: "/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:EndDate"
   field_id: "BT-537-Lot"
   
 dispatch_date: 
@@ -75,7 +75,7 @@ dispatch_date:
   field_id: "BT-05(a)-notice"
   
 non_official_languages:
-  xpath: "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages"
+  xpath: "/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages"
   field_id: "ND-Tailored-NonOfficialLanguages-notice"
 
 contract_nature_main_proc:
@@ -85,3 +85,7 @@ contract_nature_main_proc:
 main_classification_proc:
   xpath: "/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode[@listName='cpv']"
   field_id: "BT-26(m)-Procedure"
+
+award_criterion_type_lot:
+  xpath: "/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']"
+  field_id: "BT-539-Lot"

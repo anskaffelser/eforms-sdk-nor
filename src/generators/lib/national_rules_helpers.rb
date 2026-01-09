@@ -79,11 +79,19 @@ module NationalRulesHelpers
     s
   end
 
-  def self.rule_id(domain:, scope:, kind:, index:)
+  def self.rule_id(domain:, scope:, kind:, sub_kind: nil, index:)
+    # Vi henter gruppe-nummeret fra registeret. 
+    # Vi sender med sub_kind slik at registeret kan differensiere f.eks. 'works' fra 'supplies'
+    group_id = RuleIdRegistry.group(
+      domain: domain, 
+      scope: scope, 
+      kind: kind, 
+      sub_kind: sub_kind
+    )
     format(
       "EFORMS-NOR-NATIONAL-%s-R%03d%s",
       domain,
-      RuleIdRegistry.group(domain: domain, scope: scope, kind: kind),
+      group_id,
       alpha_index(index)
     )
   end
@@ -183,40 +191,6 @@ module NationalRulesHelpers
     Array(params['codes'] || params['code'])
   end
   
-  def self.generate_legal_label(entry, definitions, templates, lang)
-    # 1. Sjekk EXEMPT (Lovdata-fritak)
-    return templates.dig('EXEMPT', lang) if entry['regulation'] == 'EXEMPT'
-  
-    phrases = definitions['phrases'] || {}
-    
-    # 2. Finn riktig terskel-frase
-    scope = entry['threshold_scope']
-    t_phrase = if phrases.dig('threshold_scopes', 'special_cases', scope)
-                 phrases.dig('threshold_scopes', 'special_cases', scope, lang)
-               else
-                 rel = phrases.dig('threshold_relations', entry['threshold_relation'], lang)
-                 scp = phrases.dig('threshold_scopes', scope, lang)
-                 "#{rel} #{scp}"
-               end
-  
-    # 3. Hent forskriftsnavn
-    reg_name = definitions.dig('regulations', entry['regulation'], lang)
-  
-    # 4. Formater Del (Part) - håndterer [1, 2] eller 1
-    conjunction = (lang == 'eng' ? 'and' : 'og')
-    parts = Array(entry['part']).join(" #{conjunction} ")
-  
-    # 5. Fyll ut malen
-    res = templates.dig('default', lang).dup
-    res.gsub!('{{threshold_phrase}}', t_phrase.to_s)
-    res.gsub!('{{regulation_name}}', reg_name.to_s)
-    res.gsub!('{{section}}', entry['section'].to_s)
-    res.gsub!('{{part}}', parts)
-    
-    # Vask teksten for doble mellomrom og linjeskift fra YAML
-    res.gsub(/\s+/, ' ').strip
-  end
-
   # Eldre hvitliste-generator for flate lister
   def self.xpath_whitelist(values, indent: 8)
     padding = " " * indent

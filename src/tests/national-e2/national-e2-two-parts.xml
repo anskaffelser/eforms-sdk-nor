@@ -66,13 +66,29 @@
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
-		<cbc:ID schemeName="Part">PAR-0000</cbc:ID>
+		<cbc:ID schemeName="Part">PAR-0001</cbc:ID>
 		<cac:ProcurementProject>
-			<cbc:Name languageID="NOR">Tittel for delkontrakt</cbc:Name>
-			<cbc:Description languageID="NOR">Beskrivelse av delkontrakt</cbc:Description>
+			<cbc:Name languageID="NOR">Tittel for delkontrakt 1</cbc:Name>
+			<cbc:Description languageID="NOR">Beskrivelse av delkontrakt 1</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
+			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:Region>anyw-eea</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
+	<cac:ProcurementProjectLot>
+		<cbc:ID schemeName="Part">PAR-0002</cbc:ID>
+		<cac:ProcurementProject>
+			<cbc:Name languageID="NOR">Tittel for delkontrakt 2</cbc:Name>
+			<cbc:Description languageID="NOR">Beskrivelse av delkontrakt 2</cbc:Description>
+			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cac:MainCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">73000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>

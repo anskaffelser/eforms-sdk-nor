@@ -36,12 +36,24 @@ module RuleIdRegistry
     end
 
     # 2. Oppslag krever nå at data er lastet
-    def group(domain:, kind:, scope: 'global')
+    def group(domain:, kind:, scope: 'global', sub_kind: nil)
       ensure_loaded!
 
       domain_map = @data.fetch(domain.to_s) { raise KeyError, "Registry: Ukjent domene '#{domain}'" }
       scope_map  = domain_map.fetch(scope.to_s) { raise KeyError, "Registry: Ukjent scope '#{scope}'" }
-      val        = scope_map.fetch(kind.to_s) { raise KeyError, "Registry: Ukjent type '#{kind}'" }
+      # Finn basis-verdien for 'kind' (f.eks. 'threshold_exceeded')
+      val = scope_map.fetch(kind.to_s) { raise KeyError, "Registry: Ukjent type '#{kind}' for #{domain}.#{scope}" }
+
+      # GRAVING: Hvis vi har en Hash og en sub_kind, gå ett nivå dypere
+      if val.is_a?(Hash)
+        if sub_kind.nil?
+          raise ArgumentError, "Registry: #{domain}.#{scope}.#{kind} krever en 'sub_kind', men fikk nil."
+        end
+        
+        val = val.fetch(sub_kind.to_s) { 
+          raise KeyError, "Registry: Ukjent sub_kind '#{sub_kind}' under #{domain}.#{scope}.#{kind}" 
+        }
+      end
 
       unless val.is_a?(Integer)
         raise TypeError, "Registry: #{domain}.#{scope}.#{kind} må være Integer, fant #{val.class}"

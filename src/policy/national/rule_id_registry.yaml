@@ -320,6 +320,26 @@ DV:
     consistency: 3
   lot:
     consistency: 4
+
+EC:
+  _name: "Environmental Impact Award Criteria"
+  _description:
+    nob: >-
+      Tilstedeværelse av opplysninger om etterlevelse av klima- og
+      miljøbestemmelsene i Anskaffelsesforskriften og dets like.
+    nob_verify: false
+    nno: >-
+      Nærver av opplysningar om etterleving av klima- og
+      miljøreglane i Anskaffingsforskrifta og dets like.
+    nno_verify: false
+    eng: >-
+      Presence of information on compliance with the climate
+      and environmental provisions in the Norwegian Public Procurement
+      Regulations and its siblings.
+    eng_verify: false
+  lot:
+    consistency: 1
+      
     
 TH:
   _name: "Thresholds"
@@ -335,7 +355,6 @@ TH:
       Validation of procurement value against national and EU/EEA threshold
       values
     eng_verify: false
-    
   FOA:
     _description: "Terskelverdier for Anskaffelsesforskriften (FOA)"
     national_limit_exceeded:

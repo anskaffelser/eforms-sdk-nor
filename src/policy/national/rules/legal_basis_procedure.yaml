@@ -2,7 +2,7 @@
 _rule:
   domain: LB
   kind: whitelist
-  
+
 logic: national_tailored_codelist_pair
 
 definitions: 
@@ -44,183 +44,107 @@ definitions:
         The Contracting Authority is not subject to the Norwegian
         Public Procurement Act.
       eng_verify: false
-      
+
   entries:
-    - code: >-
-        NOR FOR-2016-08-12-974, Del 1
+    - code: 
+        nor: "NOR FOR-2016-08-12-974, Del 1"
+        eng: "NOR FOR-2016-08-12-974, Part 1"
       regulation: FOA
       part: 1
       threshold_scope: eu
-      threshold_relation: below
-      section: "5-3"
-  
-    - code: >-
-        NOR FOR-2016-08-12-974, Del 1 og 2
+    - code:
+        nor: "NOR FOR-2016-08-12-974, Del 1 og 2"
+        eng: "NOR FOR-2016-08-12-974, Parts 1 and 2"
       regulation: FOA
       part: [1, 2]
       threshold_scope: national_to_eu
-      threshold_relation: null
-      section: "5-3"
-  
-    - code: >-
-        NOR FOR-2016-08-12-975, Del 1
+    - code: 
+        nor: "NOR FOR-2016-08-12-975, Del 1"
+        eng: "NOR FOR-2016-08-12-975, Part 1"
       regulation: FOR
       part: 1
       threshold_scope: eu
-      threshold_relation: below
-      section: "5-2"
-      
-    - code: >-
-        NOR FOR-2016-05-12-976, Del 1
+    - code: 
+        nor: "NOR FOR-2016-05-12-976, Del 1"
+        eng: "NOR FOR-2016-05-12-976, Part 1"
       regulation: KON
       part: 1
       threshold_scope: eu
-      threshold_relation: below
-      section: "5-2"
-  
-    - code: >-
-        NOR FOR-2013-10-04-1185, Del 1
+    - code: 
+        nor: "NOR FOR-2013-10-04-1185, Del 1"
+        eng: "NOR FOR-2013-10-04-1185, Part 1"
       regulation: FOSA
       part: 1
       threshold_scope: eu
-      threshold_relation: below
-      section: "5-2"
-      
-    - code: >-
-        NOR Unntatt fra lov om offentlige anskaffelser
+    - code: 
+        nor: "NOR Unntatt fra lov om offentlige anskaffelser"
+        eng: "NOR Exempt from the Public Procurement Act"
       regulation: EXEMPT
       part: null 
-      threshold_scope: null
-      section: null
 
-  phrases:
-    threshold_scopes:
-      national:
-        nob: "den nasjonale terskelverdien"
-        nob_verify: false
-        nno: "den nasjonale terskelverdien"
-        nno_verify: false 
-        eng: "the national threshold value"
-        eng_verify: false
-      eu: 
-        nob: "EU/EØS-terskelverdien"
-        nob_verify: false
-        nno: "EU/EØS-terskelverdien"
-        nno_verify: false
-        eng: "the EU/EEA threshold value"
-        eng_verify: false
-      special_cases:
-        national_to_eu: 
-          nob: >-
-            over den nasjonale terskelverdien, men under
-            EU/EØS-terskelverdien
-          nob_verify: false
-          nno: >-
-            over den nasjonale terskelverdien, men under
-            EU/EØS-terskelverdien
-          nno_verify: false
-          eng: >-
-            above the national threshold, but below the EU/EEA
-            threshold value
-          eng_verify: false
-    threshold_relations:
-      below:
-        nob: "under"
-        nob_verify: false
-        nno: "under"
-        nno_verify: false
-        eng: "below"
-        eng_verify: false
-      above: 
-        nob: "over"
-        nob_verify: false
-        nno: "over"
-        nno_verify: false
-        eng: "above"
-        eng_verify: false
-    
 params: 
   _description: 
     nob: >-
-      Sikrer korrekt kobling mellom tekniske koder (BT-01(e)-Procedure) 
-      og menneskelig lesbar lovhjemmelsbeskrivelse (BT-01(f)-Procedure
-      for norske nasjonale kunngjøringer.
+      Validerer BT-01(e) som 'LocalLegalBasis' og BT-01(f) som
+      en tillatt nasjonal kode.
     nob_verify: false
     nno: >-
-      Sikrar korrekt kopling mellom tekniske kodar (BT-01(e)-Procedure)
-      og menneskeleg lesbar lovheimelbeskriving (BT-01(f)-Procedure) 
-      for norske nasjonale kunngjeringar.
+      Validerar BT-01(e) som 'LocalLegalBasis' og BT-01(f) som
+      ein tillatt nasjonal kode.
     nno_verify: false
     eng: >-
-      Ensures correct coupling between technical codes 
-      (BT-01(e)-Procedure) and human-readable legal basis description
-      (BT-01(f)-Procedure) for Norwegian national procurement notices.
+      Validates BT-01(e) as 'LocalLegalBasis', and BT-01(f) as
+      a permitted national code.
     eng_verify: false
   entries:
     - target: legal_basis_noid
+      context_node: ND-Root
       scope: name
-      type: enum
+      type: literal
+      value: LocalLegalBasis
       tailored_codelist_key: code
-      description: 
-        nob: Teknisk kode for rettslig grunnlag.
+      _description: 
+        nob: BT-01(e)-Procedure skal være 'LocalLegalBasis'.
         nob_verify: false
-        nno: Teknisk kode for rettsleg grunnlag.
+        nno: BT-01(e)-Procedure skal vere 'LocalLegalBasis'.
         nno_verify: false
-        eng: Technical code for legal basis.
+        eng: BT-01(e)-Procedure shall be 'LocalLegalBasis'.
         eng_verify: false
 
     - target: legal_basis_noid_description_nor
+      context_node: ND-Root
       scope: description
       type: enum
-      templates: 
-        default: 
-          nob: >-
-            Anskaffelsen har en samlet verdi {{threshold_phrase}}
-            fastsatt i {{regulation_name}} § {{section}}. 
-            Anskaffelsens særpreg gjør at ingen av forskriftens 
-            unntaksbestemmelser gjelder, og anskaffelsen er derfor 
-            underlagt bestemmelsene i {{regulation_name}}s Del 
-            {{part}}.
-          nob_verify: false
-          nno: >-
-            Anskaffinga har ein samla verdi {{threshold_phrase}}
-            fastsett i {{regulation_name}} § {{section}}. 
-            Særpreget til anskaffinga gjer at ingen av unntaksreglane
-            i forskrifta gjeld, og anskaffinga er derfor underlagd
-            føresegnene i {{regulation_name}}s Del {{part}}.          
-          nno_verify: false
-          eng: >-
-            The procurement has an estimated value
-            {{threshold_phrase}} stated in {{regulation_name}}
-            Section {{section}}. The characteristics of the
-            procurement means that none of the exemptions in
-            {{regulation_name}} applies, and the procurement is thus
-            subject to the provisions of {{regulation_name}}
-            Part {{part}}.
-          eng_verify: false
-        EXEMPT:
-          nob: >-
-            Oppdragsgiver er ikke underlagt Anskaffelsesloven.
-          nob_verify: false
-          nno: >-
-            Oppdragsgjevar er ikkje underlagt Anskaffingslova.
-          nno_verify: false
-          eng: >-
-            The Contracting Authority is not subject to the Norwegian
-            Public Procurement Act.
-          eng_verify: false
-          
-      description: 
+      tailored_codelist_key: code
+      lang: nor
+      _description: 
         nob: >-
-          Lovhjemmelens beskrivelse må stemme overens med dens
-          beslektede lovhjemmel-kodeverdi.
+          Den nasjonale norske lovhjemmelskoden må være blant de tillatte
+          verdiene.
         nob_verify: false
         nno: >-
-          Beskrivinga til lovheimelen må stemma overeins med dens
-          nærståande lovheimel-kodeverdi.
+          Den nasjonale norske lovheimelskoden må være blant dei tillatne
+          verdiane.
         nno_verify: false
         eng: >-
-          The legal basis description must match its related legal
-          basis code.
+          The Norwegian legal basis code must be among the allowed values.
         eng_verify: false
-        
+
+    - target: legal_basis_noid_description_eng
+      context_node: ND-Root
+      scope: description
+      type: enum
+      tailored_codelist_key: code
+      lang: eng
+      _description: 
+        nob: >-
+          Den nasjonale engelske lovhjemmelskoden må være blant de tillatte
+          verdiene.
+        nob_verify: false
+        nno: >-
+          Den nasjonale engelske lovheimelskoden må være blant dei tillatne
+          verdiane.
+        nno_verify: false
+        eng: >-
+          The English legal basis code must be among the allowed values.
+        eng_verify: false

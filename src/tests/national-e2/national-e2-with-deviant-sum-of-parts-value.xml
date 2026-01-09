@@ -56,6 +56,9 @@
 		<cbc:Name languageID="NOR">Tittel for anskaffelsesprosedyren</cbc:Name>
 		<cbc:Description languageID="NOR">Beskrivelse av anskaffelsesprosedyren</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cac:RequestedTenderTotal>
+		  <cbc:EstimatedOverallContractAmount currencyID="NOK">200000</cbc:EstimatedOverallContractAmount>
+		</cac:RequestedTenderTotal>
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
@@ -71,6 +74,9 @@
 			<cbc:Name languageID="NOR">Tittel for delkontrakt</cbc:Name>
 			<cbc:Description languageID="NOR">Beskrivelse av delkontrakt</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cac:RequestedTenderTotal>
+			  <cbc:EstimatedOverallContractAmount currencyID="NOK">100000</cbc:EstimatedOverallContractAmount>
+			</cac:RequestedTenderTotal>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>

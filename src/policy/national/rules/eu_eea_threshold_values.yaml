@@ -12,7 +12,11 @@ params:
     fields: 
       value: "estimated_value_proc"
       legal_basis: "legal_basis_noid"
-      legal_basis_description_nor: "legal_basis_noid_description_nor"
+      legal_basis_descriptions:
+        - legal_basis_description: "legal_basis_noid_description_nor"
+          lang: "nor"
+        - legal_basis_description: "legal_basis_noid_description_eng"
+          lang: "eng"
       buyer_legal_type: "buyer_legal_type"
       contract_nature_main_proc: "contract_nature_main_proc"
       main_cpv_proc: "main_classification_proc"
@@ -22,7 +26,9 @@ params:
 
   rules:
     # --- FOA: Bygge- og anleggsarbeider (works) ---
-    - id_path: [FOA, eu_threshold_exceeded, works]
+    - scope: FOA
+      kind: eu_threshold_exceeded
+      sub_kind: works
       context: 
         lb_scope: eu
         lt_filter: "any"
@@ -52,7 +58,9 @@ params:
         eng_validate: false
         
     # --- FOA: Helse- og sosialtjenester ---
-    - id_path: [FOA, eu_threshold_exceeded, health_social_services]
+    - scope: FOA
+      kind: eu_threshold_exceeded
+      sub_kind: health_social_services
       context: 
         lb_scope: eu
         lt_filter: "any"
@@ -82,7 +90,9 @@ params:
         eng_validate: false
 
     # --- FOA: Særlige tjenester (EU)---
-    - id_path: [FOA, national_to_eu_out_of_range, special_services]
+    - scope: FOA
+      kind: national_to_eu_out_of_range
+      sub_kind: special_services
       context: 
         lb_scope: national_to_eu 
         lt_filter: "any"
@@ -112,7 +122,9 @@ params:
         eng_validate: false
 
     # --- FOA Del II - Særlige tjenester tak ---
-    - id_path: [FOA, eu_threshold_exceeded, special_services]
+    - scope: FOA
+      kind: eu_threshold_exceeded
+      sub_kind: special_services
       context:
         lb_scope: eu
         lt_filter: "any"
@@ -143,7 +155,9 @@ params:
         eng_validate: false
       
     # FOA Del II - Statlig (CGA) tak
-    - id_path: [FOA, national_to_eu_out_of_range, goods_services_too_high_cga]
+    - scope: FOA
+      kind: national_to_eu_out_of_range
+      sub_kind: goods_services_too_high_cga
       context:
         lb_scope: national_to_eu
         lt_filter: "contains:cga"
@@ -176,7 +190,9 @@ params:
         eng_validate: false
     
     # FOA Del II - Ikke-statlig (Non-CGA) tak
-    - id_path: [FOA, national_to_eu_out_of_range, goods_services_too_high_non_cga]
+    - scope: FOA
+      kind: national_to_eu_out_of_range
+      sub_kind: goods_services_too_high_non_cga
       context:
         lb_scope: national_to_eu
         lt_filter: "not_contains:cga"
@@ -210,7 +226,9 @@ params:
         
         
     # FOA Del 1 - ikke særlige tjenester - Verditak
-    - id_path: [FOA, national_limit_exceeded, goods_services]
+    - scope: FOA
+      kind: national_limit_exceeded
+      sub_kind: goods_services
       context:
         lb_scope: eu
         lt_filter: "any"
@@ -245,7 +263,9 @@ params:
         eng_validate: false
         
     # --- KON: Bygge- og anleggsarbeider (works) ---
-    - id_path: [KON, eu_threshold_exceeded, works]
+    - scope: KON
+      kind: eu_threshold_exceeded
+      sub_kind: works
       context:
         lb_scope: eu
         lt_filter: "any"
@@ -275,7 +295,9 @@ params:
         eng_validate: false
         
     # --- KON: Særlige tjenester ---
-    - id_path: [KON, eu_threshold_exceeded, special_services]
+    - scope: KON
+      kind: eu_threshold_exceeded
+      sub_kind: special_services
       context:
         lb_scope: eu
         lt_filter: "any"
@@ -305,7 +327,9 @@ params:
         eng_validate: false
       
     # --- KON: Helse- og sosialtjenester ---
-    - id_path: [KON, eu_threshold_exceeded, health_social_services]
+    - scope: KON
+      kind: eu_threshold_exceeded
+      sub_kind: health_social_services
       context:
         lb_scope: eu
         lt_filter: "any"
@@ -334,8 +358,10 @@ params:
           procedure rules for publication at an EU level.
         eng_validate: false
         
-      # --- KON: Generelle varer og tjenester ---
-    - id_path: [KON, eu_threshold_exceeded, goods_services]
+    # --- KON: Generelle varer og tjenester ---
+    - scope: KON
+      kind: eu_threshold_exceeded
+      sub_kind: goods_services
       context:
         lb_scope: eu
         lt_filter: "any"
@@ -370,7 +396,9 @@ params:
 
 
     # --- FOR: Bygge- og anleggsarbeider (works) ---
-    - id_path: [FOR, eu_threshold_exceeded, works]
+    - scope: FOR
+      kind: eu_threshold_exceeded
+      sub_kind: works
       context:
         lb_scope: eu
         lt_filter: "any"
@@ -400,7 +428,9 @@ params:
         eng_validate: false
         
     # --- FOR: Særlige tjenester ---
-    - id_path: [FOR, eu_threshold_exceeded, special_services]
+    - scope: FOR
+      kind: eu_threshold_exceeded
+      sub_kind: special_services
       context:
         lb_scope: eu
         lt_filter: "any"
@@ -430,7 +460,9 @@ params:
         eng_validate: false
       
     # --- FOR: Helse- og sosialtjenester ---
-    - id_path: [FOR, eu_threshold_exceeded, health_social_services]
+    - scope: FOR
+      kind: eu_threshold_exceeded
+      sub_kind: health_social_services
       context:
         lb_scope: eu
         lt_filter: "any"
@@ -460,7 +492,9 @@ params:
         eng_validate: false
         
       # --- FOR: Generelle varer og tjenester ---
-    - id_path: [FOR, eu_threshold_exceeded, goods_services]
+    - scope: FOR
+      kind: eu_threshold_exceeded
+      sub_kind: goods_services
       context:
         lb_scope: eu
         lt_filter: "any"
