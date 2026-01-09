@@ -341,18 +341,17 @@ TH:
     national_limit_exceeded:
       goods_services: 1
       special_services: 2
-      health_social_services: 3
-      works: 4
     national_to_eu_out_of_range:
-      too_low: 5
-      too_high_cga: 6
-      too_high_non_cga: 7
+      goods_services_too_low: 3
+      goods_services_too_high_cga: 4
+      goods_services_too_high_non_cga: 5
+      special_services: 6
     eu_threshold_exceeded:
-      goods_services_cga: 8
-      goods_servides_non_cga: 9
-      special_services: 10
-      health_social_services: 11
-      works: 12
+      goods_services_cga: 7
+      goods_servides_non_cga: 8
+      special_services: 9
+      health_social_services: 10
+      works: 11
 
   FOR:
     _description: "Terskelverdier for Forsyningsforskriften (FOR)"

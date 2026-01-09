@@ -81,10 +81,10 @@ params:
           rules for publication at an EU level.
         eng_validate: false
 
-    # --- FOA: Særlige tjenester ---
-    - id_path: [FOA, eu_threshold_exceeded, special_services]
+    # --- FOA: Særlige tjenester (EU)---
+    - id_path: [FOA, national_to_eu_out_of_range, special_services]
       context: 
-        lb_scope: eu
+        lb_scope: national_to_eu 
         lt_filter: "any"
         nature: "services"
       cpv_import:
@@ -110,13 +110,51 @@ params:
           Regulations. The procurement therefore must follow complete procedure
           rules for publication at an EU level.
         eng_validate: false
-    
-    
+
+    # --- FOA Del II - Særlige tjenester tak ---
+    - id_path: [FOA, eu_threshold_exceeded, special_services]
+      context:
+        lb_scope: eu
+        lt_filter: "any"
+        nature: "services"
+      cpv_import:
+        file: "foa_cpv_registry.yaml"
+        key: "cpv-special-services"
+      test: "value < 1_300_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelsen av særlige tjenester overstiger
+          terskelverdien for Anskaffelsesforskriftens Del 1. Anskaffelsen
+          må derfor som minimum følge prosedyreregler for utlysning etter
+          Anskaffelsesforskriftens Del 1 og 2. 
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av særlege tenester overstig terskelverdien
+          for Anskaffingsforskriftas Del 1. Anskaffinga må derfor som minimum
+          følgje prosedyrereglar for utlysing etter Anskaffingsforskriftas
+          Del 1 og 2.
+        nno_verify: false
+        eng: >-
+          The value of the procured special services exceeds the threshold
+          value specified in Part 1 of the Norwegian Public Procurement
+          Regulations. The procurement therefore must, at least, follow
+          the procedure rules stated in Parts 1 and 2 of the Norwegian Public
+          Procurement Regulations.
+        eng_validate: false
+      
     # FOA Del II - Statlig (CGA) tak
-    - id_path: [FOA, national_to_eu_out_of_range, too_high_cga]
+    - id_path: [FOA, national_to_eu_out_of_range, goods_services_too_high_cga]
       context:
         lb_scope: national_to_eu
         lt_filter: "contains:cga"
+        nature: ["services", "supplies"]
+      exclude_cpv_import:
+        - file: "foa_cpv_registry.yaml"
+          key: "cpv-special-services"
+        - file: "foa_cpv_registry.yaml"
+          key: "cpv-health-social-services"
+        - file: "foa_cpv_registry.yaml"
+          key: "cpv-works"
       test: "value < 1490000"
       _description: 
         nob: >-
@@ -138,11 +176,19 @@ params:
         eng_validate: false
     
     # FOA Del II - Ikke-statlig (Non-CGA) tak
-    - id_path: [FOA, national_to_eu_out_of_range, too_high_non_cga]
+    - id_path: [FOA, national_to_eu_out_of_range, goods_services_too_high_non_cga]
       context:
         lb_scope: national_to_eu
         lt_filter: "not_contains:cga"
-      test: "value < 2300000"
+        nature: ["services", "supplies"]
+      exclude_cpv_import:
+        - file: "foa_cpv_registry.yaml"
+          key: "cpv-special-services"
+        - file: "foa_cpv_registry.yaml"
+          key: "cpv-health-social-services"
+        - file: "foa_cpv_registry.yaml"
+          key: "cpv-works"
+      test: "value < 2_300_000"
       _description:
         nob: >-
           Verdien av anskaffelsen overstiger verdigrensene i
@@ -162,56 +208,287 @@ params:
           rules for publication at an EU level.
         eng_validate: false
         
-#    - id_path: [FOR, eu_out_of_range, too_high]
-#      context:
-#        lb_scope: eu
-#        lt_filter: "any"
-#      test: "value < 4600000"
-#      _description: 
-#        nob: >-
-#          Verdien av anskaffelsen overstiger 
-  
-#thresholds:
-#  FOA:
-#    national: *NAT_BASE
-#    national_to_eu: *FOA_NAT_TO_EU
-#    eu: 
-#      goods_general_services:
-#        cga: 1_490_000
-#        non_cga: 2_300_000
-#      special_services: *FOA_NAT_TO_EU
-#      health_social_services: 7_800_000
-#      works: *WORKS_EU
-#
-#  FOR:
-#    national: *NAT_BASE
-#    eu:
-#      goods_general_services:
-#        cga: &FOR_GOODS_GENERAL_SERVICES 4_600_000
-#        non_cga: *FOR_GOODS_GENERAL_SERVICES
-#      special_services: &FOR_SPECIAL_HEALTH_SOCIAL_SERVICES 10_400_000
-#      health_social_services: *FOR_SPECIAL_HEALTH_SOCIAL_SERVICES
-#      works: *WORKS_EU
-#  
-#  KON:
-#    national: 100_000
-#    eu:
-#      goods_general_services:
-#        cga: *WORKS_EU 
-#        non_cga: *WORKS_EU
-#      special_services: *WORKS_EU
-#      health_social_services: *WORKS_EU
-#      works: *WORKS_EU
-#
-#  FOSA:
-#    national: *NAT_BASE
-#    eu:
-#      goods_general_services:
-#        cga: &FOSA_GOODS_GENERAL_SERVICES 10
-#        non_cga: *FOSA_GOODS_GENERAL_SERVICES
-#      special_services: &FOSA_SPECIAL_HEALTH_SOCIAL_SERVICES 20
-#      health_social_services: *FOSA_SPECIAL_HEALTH_SOCIAL_SERVICES
-#      works: *WORKS_EU
-#
-#  
-#        
+        
+    # FOA Del 1 - ikke særlige tjenester - Verditak
+    - id_path: [FOA, national_limit_exceeded, goods_services]
+      context:
+        lb_scope: eu
+        lt_filter: "any"
+        nature: "services"
+      exclude_cpv_import:
+        - file: "foa_cpv_registry.yaml"
+          key: "cpv-health-social-services"
+        - file: "foa_cpv_registry.yaml"
+          key: "cpv-special-services"
+        - file: "foa_cpv_registry.yaml"
+          key: "cpv-works"
+      test: "value < 1_300_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelsen av varer eller tjenester overstiger
+          verdigrensene i Anskaffelsesforskriften Del 1. Anskaffelsen
+          må derfor som minimum følge prosedyreregler for utlysning etter
+          Anskaffelsesforskriftens Del 1 og 2. 
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av varer eller tenester overstig terskelverdien
+          for Anskaffingsforskriftas Del 1. Anskaffinga må derfor som minimum
+          følgje prosedyrereglar for utlysing etter Anskaffingsforskriftas
+          Del 1 og 2.
+        nno_verify: false
+        eng: >-
+          The value of the procured goods or services exceeds the threshold
+          value specified in Part 1 of the Norwegian Public Procurement
+          Regulations. The procurement therefore must, at least, follow
+          the procedure rules stated in Parts 1 and 2 of the Norwegian Public
+          Procurement Regulations.
+        eng_validate: false
+        
+    # --- KON: Bygge- og anleggsarbeider (works) ---
+    - id_path: [KON, eu_threshold_exceeded, works]
+      context:
+        lb_scope: eu
+        lt_filter: "any"
+        nature: "works"
+      cpv_import:
+        file: "kon_cpv_registry.yaml"
+        key: "cpv-works"
+      test: "value < 57_800_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelser av bygge- og anleggsarbeider overstiger
+          EU/EØS-terskelverdiene i Konsesjonskontraktforskriften. Anskaffelsen
+          må derfor følge fullstendige prosedyreregler for utlysning
+          på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av byggje- og anleggsarbeidar overstig
+          EU/EØS-terskelverdiane i Konsesjonskontraktforskrifta. Anskaffinga
+          må derfor følgje fullstendige prosedyrereglar for utlysing
+          på EU-nivå.
+        nno_verify: false
+        eng: >-
+          The value of the procured works exceeds the EU/EEA threshold
+          values specified in the Norwegian Concession Contract Regulations.
+          The procurement therefore must follow complete procedure rules
+          for publication at an EU level.
+        eng_validate: false
+        
+    # --- KON: Særlige tjenester ---
+    - id_path: [KON, eu_threshold_exceeded, special_services]
+      context:
+        lb_scope: eu
+        lt_filter: "any"
+        nature: "services"
+      cpv_import:
+        file: "kon_cpv_registry.yaml"
+        key: "cpv-special-services"
+      test: "value < 57_800_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelsen av særlige tjenester overstiger
+          EU/EØS-terskelverdiene i Konsesjonskontraktforskriften. Anskaffelsen
+          må derfor følge fullstendige prosedyreregler for utlysning
+          på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av særlege tenester overstig
+          EU/EØS-terskelverdiane i Konsesjonskontraktforskrifta. Anskaffinga
+          må derfor følgje fullstendige prosedyrereglar for utlysing
+          på EU-nivå.
+        nno_verify: false
+        eng: >-
+          The value of the procured special services exceeds the EU/EEA threshold
+          values specified in the Norwegian Concession Contract Regulations.
+          The procurement therefore must follow complete procedure rules
+          for publication at an EU level.
+        eng_validate: false
+      
+    # --- KON: Helse- og sosialtjenester ---
+    - id_path: [KON, eu_threshold_exceeded, health_social_services]
+      context:
+        lb_scope: eu
+        lt_filter: "any"
+        nature: "services"
+      cpv_import:
+        file: "kon_cpv_registry.yaml"
+        key: "cpv-health-social"
+      test: "value < 57_800_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelsen av helse- og sosialtjenester overstiger
+          EU/EØS-terskelverdiene i Konsesjonskontraktforskriften. Anskaffelsen
+          må derfor følge fullstendige prosedyreregler for utlysning
+          på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av helse- og sosialtenester overstig
+          EU/EØS-terskelverdiane i Konsesjonskontraktforskrifta. Anskaffinga
+          må derfor følgje fullstendige prosedyrereglar for utlysing
+          på EU-nivå.
+        nno_verify: false
+        eng: >-
+          The value of the procured social and health services exceeds the
+          EU/EEA threshold values specified in the Norwegian Concession
+          Contract Regulations. The procurement therefore must follow complete
+          procedure rules for publication at an EU level.
+        eng_validate: false
+        
+      # --- KON: Generelle varer og tjenester ---
+    - id_path: [KON, eu_threshold_exceeded, goods_services]
+      context:
+        lb_scope: eu
+        lt_filter: "any"
+        nature: ["services", "supplies"]
+      exclude_cpv_import:
+        - file: "kon_cpv_registry.yaml"
+          key: "cpv-health-social-services"
+        - file: "kon_cpv_registry.yaml"
+          key: "cpv-special-services"
+        - file: "kon_cpv_registry.yaml"
+          key: "cpv-works"
+      test: "value < 57_800_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelsen av varer og tjenester overstiger
+          EU/EØS-terskelverdiene i Konsesjonskontraktforskriften. Anskaffelsen
+          må derfor følge fullstendige prosedyreregler for utlysning
+          på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av varer og tenester overstig
+          EU/EØS-terskelverdiane i Konsesjonskontraktforskrifta. Anskaffinga
+          må derfor følgje fullstendige prosedyrereglar for utlysing
+          på EU-nivå.
+        nno_verify: false
+        eng: >-
+          The value of the procured goods and services exceeds the
+          EU/EEA threshold values specified in the Norwegian Concession
+          Contract Regulations. The procurement therefore must follow complete
+          procedure rules for publication at an EU level.
+        eng_validate: false
+
+
+    # --- FOR: Bygge- og anleggsarbeider (works) ---
+    - id_path: [FOR, eu_threshold_exceeded, works]
+      context:
+        lb_scope: eu
+        lt_filter: "any"
+        nature: "works"
+      cpv_import:
+        file: "for_cpv_registry.yaml"
+        key: "cpv-works"
+      test: "value < 57_800_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelser av bygge- og anleggsarbeider overstiger
+          EU/EØS-terskelverdiene i Forsyningsforskriften. Anskaffelsen
+          må derfor følge fullstendige prosedyreregler for utlysning
+          på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av byggje- og anleggsarbeidar overstig
+          EU/EØS-terskelverdiane i Forsyningsforskrifta. Anskaffinga
+          må derfor følgje fullstendige prosedyrereglar for utlysing
+          på EU-nivå.
+        nno_verify: false
+        eng: >-
+          The value of the procured works exceeds the EU/EEA threshold
+          values specified in the Norwegian Supplies Regulations.
+          The procurement therefore must follow complete procedure rules
+          for publication at an EU level.
+        eng_validate: false
+        
+    # --- FOR: Særlige tjenester ---
+    - id_path: [FOR, eu_threshold_exceeded, special_services]
+      context:
+        lb_scope: eu
+        lt_filter: "any"
+        nature: "services"
+      cpv_import:
+        file: "for_cpv_registry.yaml"
+        key: "cpv-special-services"
+      test: "value < 10_400_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelsen av særlige tjenester overstiger
+          EU/EØS-terskelverdiene i Forsyningsforskriften. Anskaffelsen
+          må derfor følge fullstendige prosedyreregler for utlysning
+          på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av særlege tenester overstig
+          EU/EØS-terskelverdiane i Forsyningsforskrifta. Anskaffinga
+          må derfor følgje fullstendige prosedyrereglar for utlysing
+          på EU-nivå.
+        nno_verify: false
+        eng: >-
+          The value of the procured special services exceeds the EU/EEA threshold
+          values specified in the Norwegian Supplies Contract Regulations.
+          The procurement therefore must follow complete procedure rules
+          for publication at an EU level.
+        eng_validate: false
+      
+    # --- FOR: Helse- og sosialtjenester ---
+    - id_path: [FOR, eu_threshold_exceeded, health_social_services]
+      context:
+        lb_scope: eu
+        lt_filter: "any"
+        nature: "services"
+      cpv_import:
+        file: "for_cpv_registry.yaml"
+        key: "cpv-health-social"
+      test: "value < 10_400_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelsen av helse- og sosialtjenester overstiger
+          EU/EØS-terskelverdiene i Forsyningsforskriften. Anskaffelsen
+          må derfor følge fullstendige prosedyreregler for utlysning
+          på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av helse- og sosialtenester overstig
+          EU/EØS-terskelverdiane i Forsyningsforskrifta. Anskaffinga
+          må derfor følgje fullstendige prosedyrereglar for utlysing
+          på EU-nivå.
+        nno_verify: false
+        eng: >-
+          The value of the procured social and health services exceeds the
+          EU/EEA threshold values specified in the Norwegian Supplies
+          Contract Regulations. The procurement therefore must follow complete
+          procedure rules for publication at an EU level.
+        eng_validate: false
+        
+      # --- FOR: Generelle varer og tjenester ---
+    - id_path: [FOR, eu_threshold_exceeded, goods_services]
+      context:
+        lb_scope: eu
+        lt_filter: "any"
+        nature: ["services", "supplies"]
+      exclude_cpv_import:
+        - file: "for_cpv_registry.yaml"
+          key: "cpv-health-social-services"
+        - file: "for_cpv_registry.yaml"
+          key: "cpv-special-services"
+        - file: "for_cpv_registry.yaml"
+          key: "cpv-works"
+      test: "value < 4_600_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelsen av varer og tjenester overstiger
+          EU/EØS-terskelverdiene i Forsyningsforskriften. Anskaffelsen
+          må derfor følge fullstendige prosedyreregler for utlysning
+          på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av varer og tenester overstig
+          EU/EØS-terskelverdiane i Forsyningsforskrifta. Anskaffinga
+          må derfor følgje fullstendige prosedyrereglar for utlysing
+          på EU-nivå.
+        nno_verify: false
+        eng: >-
+          The value of the procured goods and services exceeds the
+          EU/EEA threshold values specified in the Norwegian Supplies
+          Contract Regulations. The procurement therefore must follow complete
+          procedure rules for publication at an EU level.
+        eng_validate: false

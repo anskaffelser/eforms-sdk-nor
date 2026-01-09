@@ -455,10 +455,10 @@ module FragmentHandlers
     
     target_field_id = mapping.dig(deps['fields']['value'], 'field_id')
 
-    # Last register
+    # Last register for lovhjemler
     lb_file = deps['external_data'].find { |d| d['id'] == 'lb_registry' }['file']
     lb_data = YAML.load_file(File.join(base_dir, lb_file))
-    lb_entries     = lb_data['definitions']['entries']
+    lb_entries      = lb_data['definitions']['entries']
     lb_definitions = lb_data['definitions']
     lb_templates   = lb_data['params']['entries'].find { |e| e['scope'] == 'description' }['templates']
 
@@ -475,14 +475,14 @@ module FragmentHandlers
 
       conditions = []
       
-      # LB-klausul
+      # 1. Lovhjemmel (LB-klausul)
       lb_check = "normalize-space(#{b_path}) = '#{matching_entry['code'].strip}'"
       if bd_path && expected_text
         lb_check += " and normalize-space(#{bd_path}) = '#{expected_text.gsub("'", "&apos;")}'"
       end
       conditions << "(#{lb_check})"
 
-      # Buyer type filter
+      # 2. Buyer type filter (CGA / Non-CGA)
       lt_filter = rule['context']['lt_filter']
       if lt_filter && lt_filter != "any"
         case lt_filter
@@ -491,69 +491,75 @@ module FragmentHandlers
         end
       end
 
-      # --- NY CPV OG NATURE LOGIKK ---
+      # 3. Kontraktens art (Nature) og CPV-inkludering
       type_or_cpv = []
       
+      # Håndter Nature (støtter streng eller liste)
       if rule['context']['nature'] && cn_path
-        type_or_cpv << "normalize-space(#{cn_path}) = '#{rule['context']['nature']}'"
+        natures = Array(rule['context']['nature'])
+        nature_checks = natures.map { |n| "normalize-space(#{cn_path})='#{n}'" }
+        type_or_cpv << (nature_checks.size > 1 ? "(#{nature_checks.join(' or ')})" : nature_checks.first)
       end
 
+      # Håndter positiv CPV-inkludering
       if rule['cpv_import'] && cp_path
         imp = rule['cpv_import']
         cpv_file_path = File.join(external_data_dir, imp['file'])
         
         unless File.exist?(cpv_file_path)
-          abort "❌ CPV-fil ikke funnet: #{cpv_file_path}. Sjekk EXTERNAL_API_DATA_PATH i Makefile."
+          abort "❌ CPV-fil ikke funnet: #{cpv_file_path}"
         end
 
         @cpv_cache[cpv_file_path] ||= YAML.load_file(cpv_file_path)
         cpv_data = @cpv_cache[cpv_file_path][imp['key']]
         
         if cpv_data
-          # Logikk som stoler 100% på lengden fra Python-preprosesseringen
           build_clause = ->(code, is_not = false) {
-            code_str = code.to_s
-            
-            # Hvis koden er 8 tegn, krever vi eksakt match.
-            # Hvis den er kortere, er det et presisjonsprefiks (starts-with).
-            xpath_func = if code_str.length == 8
-                           "normalize-space(#{cp_path}) = '#{code_str}'"
-                         else
-                           "starts-with(normalize-space(#{cp_path}), '#{code_str}')"
-                         end
-            
+            c_str = code.to_s
+            xpath_func = c_str.length == 8 ? "normalize-space(#{cp_path})='#{c_str}'" : "starts-with(normalize-space(#{cp_path}), '#{c_str}')"
             is_not ? "not(#{xpath_func})" : xpath_func
           }
 
-          # Inkluderings-klausuler (OR)
-          inc_list = cpv_data['include'].map { |c| build_clause.call(c) }
-          
-          # Ekskluderings-klausuler (AND NOT)
-          # Vi må sikre at vi ikke prøver å mappe over en nil-verdi
-          exc_list = (cpv_data['exclude'] || []).map { |c| build_clause.call(c, true) }
+          inc_list = Array(cpv_data['include']).map { |c| build_clause.call(c) }
+          exc_list = Array(cpv_data['exclude']).map { |c| build_clause.call(c, true) }
 
           if inc_list.any?
-            combined_cpv = if exc_list.any?
-                             "((#{inc_list.join(' or ')}) and #{exc_list.join(' and ')})"
-                           else
-                             "(#{inc_list.join(' or ')})"
-                           end
-            type_or_cpv << combined_cpv
+            type_or_cpv << (exc_list.any? ? "((#{inc_list.join(' or ')}) and #{exc_list.join(' and ')})" : "(#{inc_list.join(' or ')})")
           end
         end
       end
 
-      # Kombiner Nature og CPV med 'or' (hvis begge finnes, er det nok at én matcher)
+      # Legg til samlet Nature/CPV-inkludering i hovedbetingelsene
       if type_or_cpv.any?
         conditions << "(#{type_or_cpv.join(' or ')})"
       end
-      # --- SLUTT PÅ NY LOGIKK ---
 
-      # 3. Vask tallverdier og bygg test
-      clean_test_expr = rule['test'].gsub(/(\d)_(\d)/, '\1\2')
+      # 4. CPV-ekskludering (Negasjon av andre kategorier)
+      if rule['exclude_cpv_import'] && cp_path
+        Array(rule['exclude_cpv_import']).each do |imp|
+          cpv_file_path = File.join(external_data_dir, imp['file'])
+          next unless File.exist?(cpv_file_path)
+
+          @cpv_cache[cpv_file_path] ||= YAML.load_file(cpv_file_path)
+          cpv_data = @cpv_cache[cpv_file_path][imp['key']]
+          next unless cpv_data
+
+          # Vi ekskluderer alt som er definert i 'include' for den gitte nøkkelen
+          Array(cpv_data['include']).each do |code|
+            c_str = code.to_s
+            if c_str.length == 8
+              conditions << "not(normalize-space(#{cp_path})='#{c_str}')"
+            else
+              conditions << "not(starts-with(normalize-space(#{cp_path}), '#{c_str}'))"
+            end
+          end
+        end
+      end
+
+      # 5. Bygg endelig XPath-test
+      clean_test_expr = rule['test'].gsub(/(\d)_(\d)/, '\1\2') # Håndter 7_800_000 -> 7800000
       xpath_test = clean_test_expr.gsub('value', "number(#{v_path})")
 
-      # 4. Final XPath
       full_xpath = "if (#{conditions.join(' and ')}) then (#{xpath_test}) else true()"
 
       reg_num = RuleIdRegistry.dig_id("TH", *rule['id_path'])
