@@ -18,15 +18,15 @@ params:
       _description:
         nob: >-
           Anskaffelsens estimerte verdi må samsvare med summen av 
-          verdien for delkontraktene, jf. FOA § 5-4 (8) og § 5-2.
+          verdien for konkurransene, jf. FOA § 5-4 (8) og § 5-2.
         nob_verify: false
         nno: >-
           Den estimerte verdien av anskaffinga må samsvara med summen 
-          av verdien for delkontraktane, jf. FOA § 5-4 (8) og § 5-2.
+          av verdien for konkurransene, jf. FOA § 5-4 (8) og § 5-2.
         nno_verify: false
         eng: >-
           The estimated value of the procurement procedure must equal
-          the sum of the estimated value of its lots, in accordance 
+          the sum of the estimated value of its lots or parts, in accordance 
           with Sections 5-4 (8) and 5-2 of the Norwegian Public
           Procurement Legislations.
         eng_verify: false

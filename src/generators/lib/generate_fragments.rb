@@ -503,6 +503,62 @@ module FragmentHandlers
       ] 
     }
   end
+  
+  # 12. Logikk på tvers av felter
+  def self.cross_field_logic(params, meta, context)
+    mapping = context[:mapping]
+    result = {}
+    context_node = params['context_node'] || "ND-Root"
+    result[context_node] ||= []
+
+    patterns = {
+      'mutual_existence' => [
+        { key: 'parent_missing', test: "not({{child}}) or exists({{parent}})" },
+        { key: 'child_missing',  test: "not({{parent}}) or (count({{container}}) = count({{child}}))" }
+      ]
+    }
+
+    global_offset = -1
+
+    Array(params['relations']).each do |rel|
+      pattern_templates = patterns[rel['type']] || raise("Ukjent logikk-type: #{rel['type']}")
+      
+      paths = {
+        'parent'    => mapping.dig(rel['parent_key'], 'xpath'),
+        'child'     => mapping.dig(rel['child_key'], 'xpath'),
+        'container' => mapping.dig(rel['container_key'], 'xpath')
+      }
+
+      pattern_templates.each do |template|
+        test_expr = template[:test].dup
+        paths.each { |id, xpath| test_expr.gsub!("{{#{id}}}", xpath) if xpath }
+
+        current_stable_index = (rel['index'].to_i) + global_offset
+        
+        # Henter ut meldings-objektet (nob, nno, eng)
+        msg_obj = rel[template[:key]]
+        
+        # Her henter vi eng-strengen direkte siden det er den du vil ha ut
+        message = msg_obj['eng'] || "Missing English message"
+
+        result[context_node] << {
+          'id'      => NationalRulesHelpers.rule_id(
+            domain: meta['domain'],
+            scope:  rel['scope'] || meta['scope'] || 'global',
+            kind:   meta['kind']&.to_sym || :consistency,
+            index:  current_stable_index
+          ),
+          'test'    => NationalRulesHelpers.clean_xpath(test_expr),
+          'message' => message
+        }
+        global_offset += 1
+      end
+      
+      # Justerer offset så neste relasjon fortsetter bokstavrekken
+      global_offset -= 1 
+    end
+    result
+  end
 end
 
 # --- 4. EXECUTION ---

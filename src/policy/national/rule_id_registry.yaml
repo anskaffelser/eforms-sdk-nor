@@ -299,6 +299,7 @@ VA:
     eng_verify: false
   procedure:
     comparison: 1
+    consistency: 2
 
 DV:
   _name: "Date Validation"

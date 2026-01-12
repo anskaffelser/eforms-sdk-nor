@@ -1,0 +1,73 @@
+---
+_rule:
+  domain: VA
+  kind: consistency
+
+logic: cross_field_logic
+
+params:
+  context_node: ND-Root
+  relations:
+    - type: mutual_existence
+      scope: procedure
+      index: 1
+      parent_key: estimated_value_proc
+      child_key: estimated_value_lot
+      container_key: identifier_lot
+      parent_missing: 
+        nob: >-
+          Anskaffelsens estimerte verdi må angis når dens iboende konkurranser
+          har estimert verdi.
+        nob_verify: false
+        nno: >-
+          Anskaffingas estimerte verdi må angivast når hans iboande konkurransar
+          har estimert verdi.
+        nno_verify: false
+        eng: >-
+          The estimated value of the procurement must be provided when one or
+          more of its lots has an estimated value.
+      child_missing:
+        nob: >-
+          Samtlige konkurranser må ha angitt estimert verdi når anskaffelsens
+          estimerte verdi er angitt.
+        nob_verify: false
+        nno: >-
+          Alle konkurransar må ha angitt estimert verdi når anskaffingas
+          estimerte verdi er angitt. 
+        nno_verify: false
+        eng: >-
+          All lots must have an estimated value when the estimated value of
+          the procurement is provided.
+        eng_verify: false
+    - type: mutual_existence
+      scope: procedure
+      index: 2
+      parent_key: estimated_value_proc
+      child_key: estimated_value_part
+      container_key: identifier_part
+      parent_missing: 
+        nob: >-
+          Den veiledende anskaffelsens estimerte verdi må angis når dens
+          iboende veiledende konkurranser har estimert verdi.
+        nob_verify: false
+        nno: >-
+          Den veileiande anskaffinga sin estimerte verdi må angivast når hans
+          iboande veileiande konkurransar har estimert verdi.
+        nno_verify: false
+        eng: >-
+          The estimated value of the planned procurement must be provided when
+          one or more of its parts has an estimated value.
+      child_missing:
+        nob: >-
+          Samtlige veiledende konkurranser må ha angitt estimert verdi når
+          den veiledende anskaffelsens estimerte verdi er angitt.
+        nob_verify: false
+        nno: >-
+          Alle veileiande konkurransar må ha angitt estimert verdi når den
+          veileiande anskaffingas estimerte verdi er angitt. 
+        nno_verify: false
+        eng: >-
+          All parts must have an estimated value when the estimated value of
+          the planned procurement is provided.
+        eng_verify: false
+      
