@@ -62,18 +62,33 @@
         <inherit>eforms-${EFORMS_MINOR}-sch-national-eforms-static</inherit>
         <inherit>eforms-${EFORMS_MINOR}-sch-national-norway</inherit>
     </configuration>
-	
+
+    <!-- National notices of the 'E' kind -->
     <configuration>
-      <identifier>eforms-${EFORMS_MINOR}-national-e2-pin</identifier>
-    
-      <declaration type="xml.ubl">PriorInformationNotice::eforms-sdk-${EFORMS_MINOR}#extended#amtl-is-a-god-damn-hero</declaration>
-    
-      <inherit>eforms-${EFORMS_MINOR}-xsd-pin</inherit>
-      <inherit>eforms-${EFORMS_MINOR}-sch-national-e2-eforms-static</inherit>
-	  <inherit>eforms-${EFORMS_MINOR}-sch-national-e2-norway</inherit>
+        <identifier>eforms-${EFORMS_MINOR}-national-e-pin</identifier>
+        <title>eForms ${EFORMS_MINOR} NOR (national 'E')</title>
+      	<declaration type="xml.ubl">PriorInformationNotice::eforms-sdk-${EFORMS_MINOR}#extended#amtl-is-a-god-damn-hero</declaration>
+        <inherit>eforms-${EFORMS_MINOR}-xsd-pin</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-national-e-eforms-static</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-national-e-norway</inherit>
     </configuration>
-
-
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-national-e-cn</identifier>
+        <title>eForms ${EFORMS_MINOR} NOR (national 'E')</title>
+      	<declaration type="xml.ubl">ContractNotice::eforms-sdk-${EFORMS_MINOR}#extended#amtl-is-a-god-damn-hero</declaration>
+        <inherit>eforms-${EFORMS_MINOR}-xsd-cn</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-national-e-eforms-static</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-national-e-norway</inherit>
+    </configuration>
+    <configuration>
+        <identifier>eforms-${EFORMS_MINOR}-national-e-can</identifier>
+        <title>eForms ${EFORMS_MINOR} NOR (national 'E')</title>
+      	<declaration type="xml.ubl">ContractAwardNotice::eforms-sdk-${EFORMS_MINOR}#extended#amtl-is-a-god-damn-hero</declaration>
+        <inherit>eforms-${EFORMS_MINOR}-xsd-can</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-national-e-eforms-static</inherit>
+        <inherit>eforms-${EFORMS_MINOR}-sch-national-e-norway</inherit>
+    </configuration>
+	
     <!-- XSD -->
 
     <include path="eforms-sdk/schemas/common"/>
