@@ -98,7 +98,7 @@ target/eforms-sdk-nor/efx-grammar: target/eforms-sdk
 target/eforms-sdk-nor/fields: \
 	target/eforms-sdk-nor/fields/eu.json \
 	target/eforms-sdk-nor/fields/national.json \
-	target/eforms-sdk-nor/fields/national-e2.json \
+	target/eforms-sdk-nor/fields/national-e.json \
 
 target/eforms-sdk-nor/fields/eu.json: target/eforms-sdk bin/process-fields src/fields/eu.yaml
 	@echo "* Create fields subset (eu)"
@@ -116,20 +116,20 @@ target/eforms-sdk-nor/fields/national.json: target/eforms-sdk bin/process-fields
 		-c src/fields/national.yaml \
 		-o target/eforms-sdk-nor/fields/national.json
 
-target/eforms-sdk-nor/fields/national-e2.json: target/eforms-sdk bin/process-fields src/fields/national-e2.yaml
+target/eforms-sdk-nor/fields/national-e.json: target/eforms-sdk bin/process-fields src/fields/national-e.yaml
 	@echo "* Create fields subset (national E2)"
 	@mkdir -p target/eforms-sdk-nor/fields
 	@ruby bin/process-fields \
 		-i target/eforms-sdk/fields/fields.json \
-		-c src/fields/national-e2.yaml \
-		-o target/eforms-sdk-nor/fields/national-e2.json
+		-c src/fields/national-e.yaml \
+		-o target/eforms-sdk-nor/fields/national-e.json
 
-target/eforms-sdk-nor/notice-types: target/eforms-sdk bin/process-notice-types src/fields/national.yaml src/fields/national-e2.yaml src/fields/eu.yaml
+target/eforms-sdk-nor/notice-types: target/eforms-sdk bin/process-notice-types src/fields/national.yaml src/fields/national-e.yaml src/fields/eu.yaml
 	@echo "* Create notice types"
 	@mkdir -p target/eforms-sdk-nor
 	@./bin/process-notice-types -c src/fields/eu.yaml
 	@./bin/process-notice-types -c src/fields/national.yaml
-	@./bin/process-notice-types -c src/fields/national-e2.yaml
+	@./bin/process-notice-types -c src/fields/national-e.yaml
 
 target/eforms-sdk-nor/schemas: target/eforms-sdk
 	@echo "* Copy schemas (XSD)"
@@ -141,11 +141,11 @@ target/eforms-sdk-nor/schematrons: \
 	target/eforms-sdk-nor/schematrons/eu-eforms-static.sch \
 	target/eforms-sdk-nor/schematrons/national-eforms-dynamic.sch \
 	target/eforms-sdk-nor/schematrons/national-eforms-static.sch \
-	target/eforms-sdk-nor/schematrons/national-e2-eforms-dynamic.sch \
-	target/eforms-sdk-nor/schematrons/national-e2-eforms-static.sch \
+	target/eforms-sdk-nor/schematrons/national-e-eforms-dynamic.sch \
+	target/eforms-sdk-nor/schematrons/national-e-eforms-static.sch \
 	target/eforms-sdk-nor/schematrons/eu-norway.sch \
 	target/eforms-sdk-nor/schematrons/national-norway.sch \
-	target/eforms-sdk-nor/schematrons/national-e2-norway.sch
+	target/eforms-sdk-nor/schematrons/national-e-norway.sch
 
 target/sch-eforms/eforms-dynamic.sch: target/eforms-sdk target/saxon src/xslt/sch-switch-message.xslt
 	@echo "* Preparing Schematron: eforms-dynamic.sch"
@@ -187,23 +187,23 @@ target/eforms-sdk-nor/schematrons/national-eforms-static.sch: target/sch-eforms/
 		-o:target/eforms-sdk-nor/schematrons/national-eforms-static.sch \
 		removed=$$(ruby -e "require 'bundler/setup'; require 'yaml'; puts YAML.load_file('src/fields/national.yaml').fetch('removed', []).join(',')")
 
-target/eforms-sdk-nor/schematrons/national-e2-eforms-dynamic.sch: target/sch-eforms/eforms-dynamic.sch src/xslt/sch-cleanup-national-e2.xslt src/fields/national-e2.yaml
-	@echo "* Preparing Schematron: national-e2-eforms-dynamic.sch"
+target/eforms-sdk-nor/schematrons/national-e-eforms-dynamic.sch: target/sch-eforms/eforms-dynamic.sch src/xslt/sch-cleanup-national-e.xslt src/fields/national-e.yaml
+	@echo "* Preparing Schematron: national-e-eforms-dynamic.sch"
 	@mkdir -p target/eforms-sdk-nor/schematrons
 	@java -jar target/saxon/saxon.jar \
 		-s:target/sch-eforms/eforms-dynamic.sch \
-		-xsl:src/xslt/sch-cleanup-national-e2.xslt \
-		-o:target/eforms-sdk-nor/schematrons/national-e2-eforms-dynamic.sch \
-		removed=$$(ruby -e "require 'bundler/setup'; require 'yaml'; puts YAML.load_file('src/fields/national-e2.yaml').fetch('removed', []).join(',')")
+		-xsl:src/xslt/sch-cleanup-national-e.xslt \
+		-o:target/eforms-sdk-nor/schematrons/national-e-eforms-dynamic.sch \
+		removed=$$(ruby -e "require 'bundler/setup'; require 'yaml'; puts YAML.load_file('src/fields/national-e.yaml').fetch('removed', []).join(',')")
 
-target/eforms-sdk-nor/schematrons/national-e2-eforms-static.sch: target/sch-eforms/eforms-static.sch src/xslt/sch-cleanup-national-e2.xslt src/fields/national-e2.yaml
-	@echo "* Preparing Schematron: national-e2-eforms-static.sch"
+target/eforms-sdk-nor/schematrons/national-e-eforms-static.sch: target/sch-eforms/eforms-static.sch src/xslt/sch-cleanup-national-e.xslt src/fields/national-e.yaml
+	@echo "* Preparing Schematron: national-e-eforms-static.sch"
 	@mkdir -p target/eforms-sdk-nor/schematrons
 	@java -jar target/saxon/saxon.jar \
 		-s:target/sch-eforms/eforms-static.sch \
-		-xsl:src/xslt/sch-cleanup-national-e2.xslt \
-		-o:target/eforms-sdk-nor/schematrons/national-e2-eforms-static.sch \
-		removed=$$(ruby -e "require 'bundler/setup'; require 'yaml'; puts YAML.load_file('src/fields/national-e2.yaml').fetch('removed', []).join(',')")
+		-xsl:src/xslt/sch-cleanup-national-e.xslt \
+		-o:target/eforms-sdk-nor/schematrons/national-e-eforms-static.sch \
+		removed=$$(ruby -e "require 'bundler/setup'; require 'yaml'; puts YAML.load_file('src/fields/national-e.yaml').fetch('removed', []).join(',')")
 
 target/eforms-sdk-nor/schematrons/eu-norway.sch: target/saxon target/sch/eu/main.sch
 	@echo "* Preparing Schematron: eu-norway.sch"
@@ -219,12 +219,12 @@ target/eforms-sdk-nor/schematrons/national-norway.sch: target/saxon target/sch/n
 		-xsl:src/xslt/sch-include.xslt \
 		-o:target/eforms-sdk-nor/schematrons/national-norway.sch
 
-target/eforms-sdk-nor/schematrons/national-e2-norway.sch: target/saxon target/sch/national-e2/main.sch
-	@echo "* Preparing Schematron: national-e2-norway.sch"
+target/eforms-sdk-nor/schematrons/national-e-norway.sch: target/saxon target/sch/national-e/main.sch
+	@echo "* Preparing Schematron: national-e-norway.sch"
 	@java -jar target/saxon/saxon.jar \
-		-s:target/sch/national-e2/main.sch \
+		-s:target/sch/national-e/main.sch \
 		-xsl:src/xslt/sch-include.xslt \
-		-o:target/eforms-sdk-nor/schematrons/national-e2-norway.sch
+		-o:target/eforms-sdk-nor/schematrons/national-e-norway.sch
 
 target/eforms-sdk-nor/translations: \
 	target/eforms-sdk-nor/translations/business-term_en.xml \
@@ -242,7 +242,7 @@ target/eforms-sdk-nor/translations/business-term_nb.xml: target/eforms-sdk src/p
 target/eforms-sdk-nor/view-templates: target/eforms-sdk
 	@./bin/process-view-templates -c src/fields/eu.yaml
 	@./bin/process-view-templates -c src/fields/national.yaml
-	@./bin/process-view-templates -c src/fields/national-e2.yaml
+	@./bin/process-view-templates -c src/fields/national-e.yaml
 	@cp target/eforms-sdk/view-templates/summary.efx target/eforms-sdk-nor/view-templates/summary.efx
 
 target/eforms-sdk-nor/xslt: \
@@ -285,7 +285,7 @@ target/saxon:
 	@rm target/saxon.zip
 
 
-target/sch: target/sch/eu/main.sch target/sch/national/main.sch target/sch/national-e2/main.sch
+target/sch: target/sch/eu/main.sch target/sch/national/main.sch target/sch/national-e/main.sch
 
 target/sch/eu/main.sch: target/sch/eu/fields.sch src/template/main.sch
 	@mkdir -p target/sch/eu
@@ -299,17 +299,17 @@ target/sch/national/main.sch: target/sch/national/fields.sch src/template/main.s
 	@mkdir -p target/sch/national
 	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="national" envsubst > target/sch/national/main.sch
 
-target/sch/national/fields.sch: target/eforms-sdk-nor/fields/national.json target/eforms-sdk-nor/fields/national-e2.json bin/fields-sch
+target/sch/national/fields.sch: target/eforms-sdk-nor/fields/national.json target/eforms-sdk-nor/fields/national-e.json bin/fields-sch
 	@mkdir -p target/sch/national
 	@./bin/fields-sch -i target/eforms-sdk-nor/fields/national.json -o target/sch/national/fields.sch
 
-target/sch/national-e2/main.sch: target/sch/national-e2/fields.sch src/template/main.sch
-	@mkdir -p target/sch/national-e2
-	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="national-e2" envsubst > target/sch/national-e2/main.sch
+target/sch/national-e/main.sch: target/sch/national-e/fields.sch src/template/main.sch
+	@mkdir -p target/sch/national-e
+	@cat src/template/main.sch | VERSION="$(VERSION)" EFORMS_VERSION="$(EFORMS_VERSION)" KIND="national-e" envsubst > target/sch/national-e/main.sch
 
-target/sch/national-e2/fields.sch: target/eforms-sdk-nor/fields/national-e2.json target/eforms-sdk-nor/fields/national-e2.json bin/fields-sch
-	@mkdir -p target/sch/national-e2
-	@./bin/fields-sch -i target/eforms-sdk-nor/fields/national-e2.json -o target/sch/national-e2/fields.sch
+target/sch/national-e/fields.sch: target/eforms-sdk-nor/fields/national-e.json target/eforms-sdk-nor/fields/national-e.json bin/fields-sch
+	@mkdir -p target/sch/national-e
+	@./bin/fields-sch -i target/eforms-sdk-nor/fields/national-e.json -o target/sch/national-e/fields.sch
 
 target/schxslt:
 	@mkdir -p target
@@ -330,9 +330,9 @@ target/buildconfig.xml: \
 	target/sch/eu-eforms-static-pin.xslt \
 	target/sch/eu-norway.xslt \
 	target/sch/national-eforms-static.xslt \
-	target/sch/national-e2-eforms-static.xslt \
+	target/sch/national-e-eforms-static.xslt \
 	target/sch/national-norway.xslt \
-	target/sch/national-e2-norway.xslt \
+	target/sch/national-e-norway.xslt \
 	src/template/buildconfig.xml
 	@mkdir -p target
 	@cat src/template/buildconfig.xml | EFORMS_MINOR="$(EFORMS_MINOR)" envsubst > target/buildconfig.xml
@@ -403,18 +403,18 @@ target/sch/national-eforms-static.xslt: target/iso-schematron src/xslt/prepare-v
 		-s:- \
 		-o:target/sch/national-eforms-static.xslt
 
-target/sch/national-e2-eforms-static.xslt: \
+target/sch/national-e-eforms-static.xslt: \
 	target/iso-schematron \
 	src/xslt/prepare-validator.xslt \
-	target/eforms-sdk-nor/schematrons/national-e2-eforms-static.sch
+	target/eforms-sdk-nor/schematrons/national-e-eforms-static.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \
 		-xsl:src/xslt/prepare-validator.xslt \
-		-s:target/eforms-sdk-nor/schematrons/national-e2-eforms-static.sch \
+		-s:target/eforms-sdk-nor/schematrons/national-e-eforms-static.sch \
 	| java -jar target/saxon/saxon.jar \
 		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
 		-s:- \
-		-o:target/sch/national-e2-eforms-static.xslt
+		-o:target/sch/national-e-eforms-static.xslt
 
 target/sch/eu-norway.xslt: target/iso-schematron src/xslt/prepare-validator.xslt target/eforms-sdk-nor/schematrons/eu-norway.sch
 	@mkdir -p target/sch
@@ -436,15 +436,15 @@ target/sch/national-norway.xslt: target/iso-schematron src/xslt/prepare-validato
 		-s:- \
 		-o:target/sch/national-norway.xslt
 
-target/sch/national-e2-norway.xslt: target/iso-schematron src/xslt/prepare-validator.xslt target/eforms-sdk-nor/schematrons/national-e2-norway.sch
+target/sch/national-e-norway.xslt: target/iso-schematron src/xslt/prepare-validator.xslt target/eforms-sdk-nor/schematrons/national-e-norway.sch
 	@mkdir -p target/sch
 	@java -jar target/saxon/saxon.jar \
 		-xsl:src/xslt/prepare-validator.xslt \
-		-s:target/eforms-sdk-nor/schematrons/national-e2-norway.sch \
+		-s:target/eforms-sdk-nor/schematrons/national-e-norway.sch \
 	| java -jar target/saxon/saxon.jar \
 		-xsl:target/iso-schematron/iso_svrl_for_xslt2.xsl \
 		-s:- \
-		-o:target/sch/national-e2-norway.xslt
+		-o:target/sch/national-e-norway.xslt
 
 target/dev.anskaffelser.eforms.sdk-nor.asice: target/buildconfig.xml # $$(find src/tests -type f)
 	@echo "* Build and test for validator"
@@ -468,7 +468,7 @@ target/dev.anskaffelser.eforms.sdk-nor.asice: target/buildconfig.xml # $$(find s
 validator: target/dev.anskaffelser.eforms.sdk-nor.asice
 
 
-build-e2-validator:
+build-e-validator:
 	$(MAKE) validator \
-	  TESTS=src/tests/national-e2 \
-	  VERSION=$(VERSION)-e2
+	  TESTS=src/tests/national-e \
+	  VERSION=$(VERSION)-e

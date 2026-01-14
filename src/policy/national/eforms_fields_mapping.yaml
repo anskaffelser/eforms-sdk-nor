@@ -1,5 +1,4 @@
-main_notice_lan
-guage:
+main_notice_language:
   xpath: "cbc:NoticeLanguageCode"
   field_id: "BT-702(a)-notice"
 

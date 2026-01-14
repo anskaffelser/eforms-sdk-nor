@@ -141,18 +141,18 @@
     </configuration>
 
 	<configuration>
-        <identifier>eforms-${EFORMS_MINOR}-sch-national-e2-eforms-static</identifier>
-        <file type="sch.xslt" path="sch/national-e2-eforms-static.xslt"/>
+        <identifier>eforms-${EFORMS_MINOR}-sch-national-e-eforms-static</identifier>
+        <file type="sch.xslt" path="sch/national-e-eforms-static.xslt"/>
     </configuration>
 
 
     <configuration>
-        <identifier>eforms-${EFORMS_MINOR}-sch-national-e2-norway</identifier>
-        <file type="sch.xslt" path="sch/national-e2-norway.xslt" />
+        <identifier>eforms-${EFORMS_MINOR}-sch-national-e-norway</identifier>
+        <file type="sch.xslt" path="sch/national-e-norway.xslt" />
     </configuration>
 <!--<configuration>
-    <identifier>eforms-${EFORMS_MINOR}-sch-national-e2-eforms-dynamic</identifier>
-    <file type="sch.xslt" path="sch/national-e2-eforms-dynamic.xslt"/>
+    <identifier>eforms-${EFORMS_MINOR}-sch-national-e-eforms-dynamic</identifier>
+    <file type="sch.xslt" path="sch/national-e-eforms-dynamic.xslt"/>
 </configuration>
 -->
 
