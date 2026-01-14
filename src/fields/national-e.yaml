@@ -75,25 +75,25 @@ rules:
     message: Notice Dispatch Date must be between -1 and +2 days from the current date.
   BT-11-Procedure-Buyer:
   - id: EFORMS-NOR-NATIONAL-LT-R002B
-    test: normalize-space(.) = ('body-pl-cga', 'body-pl-la', 'body-pl-ra', 'cga', 'def-cont', 'eu-ins-bod-ag', 'eu-int-org', 'grp-p-aut', 'int-org', 'la', 'org-sub-cga', 'org-sub-la', 'org-sub-ra', 'pub-undert-cga', 'pub-undert-la', 'pub-undert-ra', 'ra', 'rl-aut', 'spec-rights-entity')
+    test: if (not(normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) = 'NOR Unntatt fra lov om offentlige anskaffelser' or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) = 'NOR Exempt from the Public Procurement Act')) then ((string-length(normalize-space(.)) > 0) and (normalize-space(.) = ('body-pl-cga', 'body-pl-la', 'body-pl-ra', 'cga', 'def-cont', 'eu-ins-bod-ag', 'eu-int-org', 'grp-p-aut', 'int-org', 'la', 'org-sub-cga', 'org-sub-la', 'org-sub-ra', 'pub-undert-cga', 'pub-undert-la', 'pub-undert-ra', 'ra', 'rl-aut', 'spec-rights-entity'))) else true()
     message: Specific legal types are allowed. Overarching categories are too generic. The detailed types are significant for specifying threshold values.
   BT-27-Lot:
   - id: EFORMS-NOR-NATIONAL-CR-R003B
-    test: normalize-space(./@currencyID) = ('NOK')
+    test: if (not(normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) = 'NOR Unntatt fra lov om offentlige anskaffelser' or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) = 'NOR Exempt from the Public Procurement Act')) then (normalize-space(./@currencyID) = ('NOK')) else true()
     message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
   - id: EFORMS-NOR-NATIONAL-DT-R001D
     test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
     message: Monetary values must be numbers with a maximum of two decimals.
   BT-27-Part:
   - id: EFORMS-NOR-NATIONAL-CR-R002B
-    test: normalize-space(./@currencyID) = ('NOK')
+    test: if (not(normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) = 'NOR Unntatt fra lov om offentlige anskaffelser' or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) = 'NOR Exempt from the Public Procurement Act')) then (normalize-space(./@currencyID) = ('NOK')) else true()
     message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
   - id: EFORMS-NOR-NATIONAL-DT-R001C
     test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
     message: Monetary values must be numbers with a maximum of two decimals.
   BT-27-Procedure:
   - id: EFORMS-NOR-NATIONAL-CR-R001B
-    test: normalize-space(./@currencyID) = ('NOK')
+    test: if (not(normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) = 'NOR Unntatt fra lov om offentlige anskaffelser' or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) = 'NOR Exempt from the Public Procurement Act')) then (normalize-space(./@currencyID) = ('NOK')) else true()
     message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
   - id: EFORMS-NOR-NATIONAL-DT-R001B
     test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
@@ -151,14 +151,14 @@ rules:
     message: The estimated value of the procurement procedure must equal the sum of the estimated value of its lots or parts, in accordance with Sections 5-4 (8) and 5-2 of the Norwegian Public Procurement Legislations.
   BT-271-Lot:
   - id: EFORMS-NOR-NATIONAL-CR-R003C
-    test: normalize-space(./@currencyID) = ('NOK')
+    test: if (not(normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) = 'NOR Unntatt fra lov om offentlige anskaffelser' or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) = 'NOR Exempt from the Public Procurement Act')) then (normalize-space(./@currencyID) = ('NOK')) else true()
     message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
   - id: EFORMS-NOR-NATIONAL-DT-R001E
     test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
     message: Monetary values must be numbers with a maximum of two decimals.
   BT-271-Procedure:
   - id: EFORMS-NOR-NATIONAL-CR-R001C
-    test: normalize-space(./@currencyID) = ('NOK')
+    test: if (not(normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) = 'NOR Unntatt fra lov om offentlige anskaffelser' or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) = 'NOR Exempt from the Public Procurement Act')) then (normalize-space(./@currencyID) = ('NOK')) else true()
     message: Norwegian Krone is the only permitted currency for Norwegian national procurement notices.
   - id: EFORMS-NOR-NATIONAL-DT-R001F
     test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
@@ -199,10 +199,10 @@ rules:
     test: normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:ID) = 'LocalLegalBasis'
     message: BT-01(e)-Procedure shall be 'LocalLegalBasis'.
   - id: EFORMS-NOR-NATIONAL-LB-R005B
-    test: "(not(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) = ('NOR FOR-2016-08-12-974, Del 1', 'NOR FOR-2016-08-12-974, Del 1 og 2', 'NOR FOR-2016-08-12-975, Del 1', 'NOR FOR-2016-05-12-976, Del 1', 'NOR FOR-2013-10-04-1185, Del 1', 'NOR Unntatt fra lov om offentlige anskaffelser'))"
+    test: "(not(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) = ('NOR FOR-2016-08-12-974, Del 1', 'NOR FOR-2016-08-12-974, Del 1 og 2', 'NOR FOR-2016-08-12-975, Del 1', 'NOR FOR-2016-05-12-976, Del 1', 'NOR Unntatt fra lov om offentlige anskaffelser'))"
     message: The Norwegian legal basis code must be among the allowed values.
   - id: EFORMS-NOR-NATIONAL-LB-R005C
-    test: "(not(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) = ('NOR FOR-2016-08-12-974, Part 1', 'NOR FOR-2016-08-12-974, Parts 1 and 2', 'NOR FOR-2016-08-12-975, Part 1', 'NOR FOR-2016-05-12-976, Part 1', 'NOR FOR-2013-10-04-1185, Part 1', 'NOR Exempt from the Public Procurement Act'))"
+    test: "(not(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) = ('NOR FOR-2016-08-12-974, Part 1', 'NOR FOR-2016-08-12-974, Parts 1 and 2', 'NOR FOR-2016-08-12-975, Part 1', 'NOR FOR-2016-05-12-976, Part 1', 'NOR Exempt from the Public Procurement Act'))"
     message: The English legal basis code must be among the allowed values.
   - id: EFORMS-NOR-NATIONAL-LG-R001B
     test: "(cbc:NoticeLanguageCode, cac:AdditionalNoticeLanguage/cbc:ID) = ('NOR', 'NOB', 'NNO')"
@@ -210,6 +210,9 @@ rules:
   - id: EFORMS-NOR-NATIONAL-LG-R009B
     test: not(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages)
     message: Non-official languages are not used for national notices.
+  - id: EFORMS-NOR-NATIONAL-LT-R001B
+    test: if (not(normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) = 'NOR Unntatt fra lov om offentlige anskaffelser' or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) = 'NOR Exempt from the Public Procurement Act')) then (string-length(normalize-space(/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName = 'buyer-legal-type'])) > 0) else true()
+    message: The buyer legal type is required as it plays a part in determining the EU/EEA threshold values for competition notices, per the Norwegian Public Procurement Regulations.
   - id: EFORMS-NOR-NATIONAL-VA-R002A
     test: not(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName = 'Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount) or exists(/*/cac:ProcurementProject[not(parent::cac:ProcurementProjectLot)]/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount)
     message: The estimated value of the procurement must be provided when one or more of its lots has an estimated value.

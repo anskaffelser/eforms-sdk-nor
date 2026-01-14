@@ -28,13 +28,6 @@ definitions:
       nno_verify: false
       eng: Concession Contract Regulations
       eng_verify: false
-    FOSA:
-      nob: Forskrift om forsvars- og sikkerhetsanskaffelser
-      nob_verify: false
-      nno: Forskrift om forsvars- og sikkerheitsanskaffingar
-      nno_verify: false
-      eng: Defence and Security Procurement Regulations
-      eng_verify: false
     EXEMPT: 
       nob: Oppdragsgiver er ikke underlagt Anskaffelsesloven
       nob_verify: false
@@ -68,12 +61,6 @@ definitions:
         nor: "NOR FOR-2016-05-12-976, Del 1"
         eng: "NOR FOR-2016-05-12-976, Part 1"
       regulation: KON
-      part: 1
-      threshold_scope: eu
-    - code: 
-        nor: "NOR FOR-2013-10-04-1185, Del 1"
-        eng: "NOR FOR-2013-10-04-1185, Part 1"
-      regulation: FOSA
       part: 1
       threshold_scope: eu
     - code: 

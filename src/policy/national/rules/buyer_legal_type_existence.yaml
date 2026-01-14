@@ -1,0 +1,42 @@
+---
+_rule:
+  domain: LT
+  kind: mandatory 
+
+logic: any_of
+
+params:
+  override_if:
+    legal_basis_noid: EXEMPT
+  _dependencies:
+    fields:
+      legal_basis_noid: "legal_basis_noid"
+      legal_basis_descriptions:
+        - legal_basis_description: "legal_basis_noid_description_nor"
+          lang: "nor"
+        - legal_basis_description: "legal_basis_noid_description_eng"
+          lang: "eng"
+    external_data:
+      - file: "rules/legal_basis_procedure.yaml"
+        id: "lb_registry"
+
+  context_node: ND-Root
+  mandatory: true
+  targets:
+    - key: buyer_legal_type
+  _description:
+    nob: >-
+      Typen oppdragsgiver er påkrevd fordi den angir for hvem forskriften(e)
+      gjelder, og påvirker EØS-terskelverdiene for konkurranseutlysninger,
+      som beskrevet i Norges offentlige anskaffelsesregelverk.
+    nob_verify: false
+    nno: >-
+      Typen oppdragsgivar er påkrevd sidan han angir kven forskrifta(ne) gjeld,
+      og påverkar EØS-terskelverdiane for konkurranseutlysningar, slik som
+      beskreve i Noregs offentlege anskaffingsregelverk.
+    nno_verify: false
+    eng: >-
+      The buyer legal type is required as it plays a part in determining the
+      EU/EEA threshold values for competition notices, per the Norwegian
+      Public Procurement Regulations.
+    eng_verify: false

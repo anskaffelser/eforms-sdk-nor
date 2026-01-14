@@ -108,6 +108,8 @@ module FragmentHandlers
     clean_codes = raw_codes.map { |c| c.is_a?(Hash) ? c['type'] : c }
     formatted_codes = clean_codes.map { |c| "'#{c}'" }.join(', ')
     msg = NationalRulesHelpers.extract_message(params, meta)
+    
+    is_mandatory = params['mandatory'] == true
 
     result = {}
 
@@ -131,8 +133,18 @@ module FragmentHandlers
         end
 
         # Samlet test: (Path1, Path2) = ('NOR', 'NOB')
-        # Dette løser språk-problemet ditt perfekt.
         test = "(#{subjects.join(', ')}) = (#{formatted_codes})"
+        
+        value_check = clean_codes.any? ? "(#{subjects.join(', ')}) = (#{formatted_codes})" : nil
+
+        if is_mandatory
+          existence_check = subjects.map { |s| "string-length(normalize-space(#{s})) > 0"}.join(' or ')
+          test = value_check ? "((#{existence_check}) and #{value_check})" : "(#{existence_check})"
+        else
+          test = value_check || "true()"
+        end
+        
+        test = apply_legal_basis_noid_exemption(test, params, mapping, context)
         
         # Bruker info fra første target for ID
         first = entries.first
@@ -165,6 +177,17 @@ module FragmentHandlers
         )
 
         test = "normalize-space(#{test_subject}) = (#{formatted_codes})"
+
+        value_check = clean_codes.any? ? "normalize-space(#{test_subject}) = (#{formatted_codes})" : nil
+
+        if is_mandatory
+          existence_check = "string-length(normalize-space(#{test_subject})) > 0"
+          test = value_check ? "(#{existence_check}) and (#{test})" : existence_check
+        else
+          test = value_check || "true()"
+        end
+        
+        test = apply_legal_basis_noid_exemption(test, params, mapping, context)
 
         result[context_node] ||= []
         result[context_node] << { 'id' => id, 'test' => NationalRulesHelpers.clean_xpath(test), 'message' => msg }
@@ -558,6 +581,37 @@ module FragmentHandlers
       global_offset -= 1 
     end
     result
+  end
+
+  def self.apply_legal_basis_noid_exemption(core_xpath, params, mapping, context)
+    # Sjekk om denne regelen i det hele tatt skal kunne overstyres av lovhjemmel
+    trigger_value = params.dig('override_if', 'legal_basis_noid')
+    return core_xpath if trigger_value.nil?
+  
+    deps = params['_dependencies']
+    return core_xpath unless deps
+  
+    # 1. Hent unntaksdefinisjonen fra lb_registry (f.eks. EXEMPT)
+    lb_registry_cfg = deps['external_data']&.find { |d| d['id'] == 'lb_registry' }
+    lb_data = YAML.load_file(File.join(context[:base], lb_registry_cfg['file']))
+    exempt_entry = lb_data['definitions']['entries'].find { |e| e['regulation'] == trigger_value }
+    
+    return core_xpath unless exempt_entry
+  
+    # 2. Bygg "Vaktposten" basert på de norske og engelske beskrivelsesfeltene
+    # Vi bruker mappingen for å finne de faktiske XPath-stiene til BT-01(f)
+    exemption_checks = Array(deps['fields']['legal_basis_descriptions']).map do |d|
+      path = mapping.dig(d['legal_basis_description'], 'xpath')
+      lang = d['lang'].to_s.downcase
+      text = exempt_entry.dig('code', lang)
+      
+      "normalize-space(#{path}) = '#{text.strip.gsub("'", "&apos;")}'" if path && text
+    end.compact
+  
+    # 3. Smokk det sammen: if (not(unntatt)) then (original test) else true()
+    is_not_exempt = "not(#{exemption_checks.join(' or ')})"
+    
+    "if (#{is_not_exempt}) then (#{core_xpath}) else true()"
   end
 end
 
