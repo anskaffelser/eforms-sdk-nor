@@ -117,7 +117,7 @@ target/eforms-sdk-nor/fields/national.json: target/eforms-sdk bin/process-fields
 		-o target/eforms-sdk-nor/fields/national.json
 
 target/eforms-sdk-nor/fields/national-e.json: target/eforms-sdk bin/process-fields src/fields/national-e.yaml
-	@echo "* Create fields subset (national E2)"
+	@echo "* Create fields subset (national 'E')"
 	@mkdir -p target/eforms-sdk-nor/fields
 	@ruby bin/process-fields \
 		-i target/eforms-sdk/fields/fields.json \

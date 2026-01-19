@@ -32,8 +32,10 @@ params:
         eng_verify: false
     - parent_key: framework_maximum_value_proc
       child_keys: 
-        - key: framework_maximum_value_lot
+        - key: framework_maximum_value_part
           index: 3
+        - key: framework_maximum_value_lot
+          index: 4
       _description:
         nob: >-
           Rammeavtalens verditak må samsvare med summen av verditakene

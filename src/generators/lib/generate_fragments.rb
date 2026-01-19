@@ -483,48 +483,106 @@ module FragmentHandlers
   
   # 11: Nasjonale kodelister
   def self.national_codelist_dependency(params, meta, context)
+    mapping = context[:mapping]
+    result = {}
+    deps = params['_dependencies']
+    
+    raise "❌ Kritisk feil: Mangler '_dependencies'" if deps.nil?
+    
+    # --- 1. HENT FELTPERSTIER ---
+    target_key = params['target']
+    target_info = mapping[target_key] || raise("Mapping mangler for target: #{target_key}")
+    target_xpath = target_info['xpath']
+    
+    b_path = mapping.dig(deps['fields']['legal_basis_noid'], 'xpath')
+    lb_desc_configs = Array(deps['fields']['legal_basis_descriptions']).map do |d|
+      { xpath: mapping.dig(d['legal_basis_description'], 'xpath'), lang: d['lang'] }
+    end.select { |c| c[:xpath] }
+
+    # --- 2. HÅNDTER RELATIVITET ---
+    is_relative = params['check_scope'] == 'relative'
+    subject = is_relative ? "." : target_xpath
+    element_name = target_xpath.split('/').last
+
+    # --- 3. LAST EKSTERNE DATA ---
+    lb_registry_cfg = deps['external_data']&.find { |d| d['id'] == 'lb_registry' }
+    lb_data = YAML.load_file(File.join(context[:base], lb_registry_cfg['file']))
+    lb_entries = lb_data['definitions']['entries']
+
+    # --- 4. LAST KODELISTE-DATA (OPPDATERT) ---
     cl_path = File.join(context[:no_codelists], params['codelist_file'])
     cl_data = YAML.load_file(cl_path)
-    
-    # Henter kodene fra kodelista
-    cum_codes = cl_data['codes'].select { |c| c['validation_type'] == 'cumulative' }.map { |c| "'#{c['code']}'" }
-    exc_codes = cl_data['codes'].select { |c| c['validation_type'] == 'exclusive' }.map { |c| "'#{c['code']}'" }
+    cum_codes = cl_data['codes'].select { |c| c['validation_type'] == 'cumulative' }.map { |c| "'#{c['code']}'" }.join(', ')
+    exc_codes = cl_data['codes'].select { |c| c['validation_type'] == 'exclusive' }.map { |c| "'#{c['code']}'" }.join(', ')
 
-    info = context[:mapping][params['target']] || raise("Mapping mangler for: #{params['target']}")
-    xpath = info['xpath']
-    
-    cum_joined = cum_codes.join(', ')
-    exc_joined = exc_codes.join(', ')
-
-    # LOGIKK (Den "Åpne" verden): 
-    # 1. Hvis eksklusiv kode (fritak) er valgt -> Ingen kumulative koder er lov.
-    # 2. Hvis ingen eksklusiv kode er valgt -> Minst én kumulativ kode MÅ være valgt.
-    # 3. Andre koder fra baselista ignoreres i begge tilfeller.
-    test_expr = <<~XPATH
-      if (exists(#{xpath})) then (
-        if (some $c in #{xpath} satisfies normalize-space($c) = (#{exc_joined})) 
-        then (not(some $c in #{xpath} satisfies normalize-space($c) = (#{cum_joined})))
-        else (some $c in #{xpath} satisfies normalize-space($c) = (#{cum_joined}))
-      ) else true()
+    # Denne logikken sjekker gjensidig utelukkelse (Brukes nå kun i 'count' og 'exclusivity')
+    strict_logic = <<~XPATH.strip
+      if (some $c in #{subject} satisfies normalize-space($c) = (#{exc_codes})) 
+      then (not(some $c in #{subject} satisfies normalize-space($c) = (#{cum_codes})))
+      else (some $c in #{subject} satisfies normalize-space($c) = (#{cum_codes}))
     XPATH
 
-    id = NationalRulesHelpers.rule_id(
-      domain:   meta['domain'], 
-      kind:     meta['kind'], 
-      sub_kind: params['sub_kind'], 
-      scope:    params['scope'] || meta['scope'], 
-      index:    params['index'] || 1
-    )
-  
-    { 
-      info['field_id'] => [
-        { 
-          'id' => id, 
-          'test' => NationalRulesHelpers.clean_xpath(test_expr), 
-          'message' => NationalRulesHelpers.extract_message(params, meta) 
-        }
-      ] 
-    }
+    # --- 5. PROSESSER REGLER ---
+    params['rules'].each_with_index do |rule, idx|
+      conditions = []
+      
+      if rule['regulation'] != 'ANY'
+        matching_entry = lb_entries.find { |e| e['threshold_scope'] == rule['context']['lb_scope'] && e['regulation'] == rule['regulation'] }
+        if matching_entry
+          conditions << "(normalize-space(#{b_path}) = 'LocalLegalBasis')"
+          language_ors = lb_desc_configs.map do |cfg|
+            expected_val = matching_entry.dig('code', cfg[:lang].to_s.downcase)
+            "(not(#{cfg[:xpath]}) or normalize-space(#{cfg[:xpath]}) = '#{expected_val.gsub("'", "&apos;")}')" if expected_val
+          end.compact
+          conditions << "(#{language_ors.join(' and ')})" if language_ors.any?
+        end
+      else
+        conditions << "exists(#{b_path})"
+      end
+      
+      # --- 6. GENERER TEST ---
+      raw_test = rule['test']
+      
+      full_parts = target_xpath.split('/').reject(&:empty?)
+      p_elem = params['parent_elem']
+      p_idx = full_parts.index { |p| p.start_with?(p_elem) }
+      
+      if p_idx && is_relative
+        steps = (full_parts.size - 1) - p_idx
+        prefix = ([".."] * steps).join("/")
+        sub = full_parts[p_idx + 1..-1].map { |p| p.gsub(/\[@listName=.*?\]/, '') }.join('/')
+        sibling_path = "#{prefix}/#{sub}[@listName = '#{params['list_name']}']"
+      else
+        sibling_path = is_relative ? "../#{element_name}[@listName = '#{params['list_name']}']" : target_xpath
+      end
+
+      clean_test = case raw_test
+                   when "always"
+                     "((some $c in #{sibling_path} satisfies normalize-space($c) = (#{exc_codes}, #{cum_codes})))"
+                     
+                   when "exclusivity"
+                     "(not((some $c in #{sibling_path} satisfies normalize-space($c) = (#{exc_codes})) and (some $c in #{sibling_path} satisfies normalize-space($c) = (#{cum_codes}))))"
+                     
+                   when /count/
+                     presence_logic = "((some $c in #{sibling_path} satisfies normalize-space($c) = (#{exc_codes}, #{cum_codes})))"
+                     actual_condition = raw_test.gsub("count", "count(#{sibling_path})")
+                     "if (#{actual_condition}) then (#{presence_logic}) else true()"
+                   else
+                     "true()"
+                   end
+
+      # Sett sammen og lagre
+      final_xpath = conditions.any? ? "if (#{conditions.join(' and ')}) then (#{clean_test}) else true()" : clean_test
+      final_xpath = apply_legal_basis_noid_exemption(final_xpath, params, mapping, context)
+
+      result[target_info['field_id']] ||= []
+      result[target_info['field_id']] << {
+        'id'      => NationalRulesHelpers.rule_id(domain: meta['domain'], kind: meta['kind'], scope: meta['scope'] || 'nat', index: rule['index'] || (idx + 1)),
+        'test'    => NationalRulesHelpers.clean_xpath("if (exists(#{subject})) then (#{final_xpath}) else true()"),
+        'message' => NationalRulesHelpers.extract_message(rule, meta)
+      }
+    end
+    result
   end
   
   # 12. Logikk på tvers av felter

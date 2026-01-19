@@ -29,13 +29,13 @@
 								<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 							</efac:TenderLot>
 							<efac:TenderReference>
-								<cbc:ID>PROJ DEF/2022-01</cbc:ID>
+								<cbc:ID>PRO SOS/2026-01</cbc:ID>
 							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<efac:ContractReference>
-								<cbc:ID>SCN DEF:2020-12</cbc:ID>
+								<cbc:ID>KON 2026-0104:ABCD</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
@@ -58,11 +58,11 @@
 									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
-									<cbc:Name languageID="NOR">Rouen Habitat</cbc:Name>
+									<cbc:Name languageID="NOR">Daffy Dolfinsen</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cac:Country>
-										<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 							</efac:Company>
@@ -73,11 +73,11 @@
 									<cbc:ID schemeName="organization">ORG-0004</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
-									<cbc:Name languageID="NOR">Société Espaces Verts</cbc:Name>
+									<cbc:Name languageID="NOR">Grønn klipp og rens ASA</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cac:Country>
-										<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 							</efac:Company>
@@ -91,7 +91,7 @@
 	<cbc:CustomizationID>eforms-sdk-1.13#extended#amtl-is-a-god-damn-hero</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">d1106611-6941-48f4-9029-8b11062939af</cbc:ID>
 	<cbc:ContractFolderID>8698a8e5-9815-4889-ae6a-632170aeb5e6</cbc:ContractFolderID>
-	<cbc:IssueDate>2026-01-14+01:00</cbc:IssueDate>
+	<cbc:IssueDate>2026-01-19+01:00</cbc:IssueDate>
 	<cbc:IssueTime>00:00:00+01:00</cbc:IssueTime>
 	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>other</cbc:RegulatoryDomain>
@@ -114,15 +114,15 @@
 		</cac:ProcurementLegislationDocumentReference>
 	</cac:TenderingTerms>
 	<cac:ProcurementProject>
-		<cbc:Name languageID="NOR">Service d'entretien de remise en état et de nettoyage des espaces verts</cbc:Name>
-		<cbc:Description languageID="NOR">Service d'entretien de remise en état et de nettoyage des espaces verts.</cbc:Description>
+		<cbc:Name languageID="NOR">Vedlikehold, restaurering og rengjøringstjenester for grøntområder</cbc:Name>
+		<cbc:Description languageID="NOR">Vedlikehold, restaurering og rengjøringstjenester for grøntområder.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">77310000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
 		<cac:RealizedLocation>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">NO081</cbc:CountrySubentityCode>
+				<cbc:CountrySubentityCode listName="nuts-lvl3">NO081</cbc:CountrySubentityCode>
 				<cac:Country>
 					<cbc:IdentificationCode listName="country">NOR</cbc:IdentificationCode>
 				</cac:Country>
@@ -132,8 +132,8 @@
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 		<cac:ProcurementProject>
-			<cbc:Name languageID="NOR">Agence centre</cbc:Name>
-			<cbc:Description languageID="NOR">Service d'entretien de remise en état et de nettoyage des espaces verts.</cbc:Description>
+			<cbc:Name languageID="NOR">Vedlikehold av sentralt parkområde</cbc:Name>
+			<cbc:Description languageID="NOR">Vedlikehold, restaurering og rengjøringstjenester for sentralt parkområde.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">77310000</cbc:ItemClassificationCode>

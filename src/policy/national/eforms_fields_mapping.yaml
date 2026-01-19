@@ -49,6 +49,10 @@ estimated_value_lot:
 framework_maximum_value_lot: 
   xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount"
   field_id: "BT-271-Lot"
+
+framework_maximum_value_part: 
+  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount"
+  field_id: "BT-271-Part"
   
 framework_maximum_value_proc: 
   xpath: "/*/cac:ProcurementProject[not(parent::cac:ProcurementProjectLot)]/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount"
