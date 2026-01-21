@@ -1,4 +1,4 @@
-iff --git a/codelists/award-criterion-type.gc b/codelists/award-criterion-type.gc
+diff --git a/codelists/award-criterion-type.gc b/codelists/award-criterion-type.gc
 index 26dfd74..e75f146 100644
 --- a/codelists/award-criterion-type.gc
 +++ b/codelists/award-criterion-type.gc
@@ -139,6 +139,46 @@ index aa6bd0a..1b63b2a 100644
  		<assert id="BT-539-Lot_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-Lot) must not have leading or trailing whitespace</assert>
  	</rule>
 @@ -18199,7 +18199,7 @@
+ 		<assert id="BR-BT-00157-0066" role="ERROR" test="normalize-space(.) = ('AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HTG', 'HUF', 'IDR', 'ILS', 'INR', 'IQD', 'IRR', 'ISK', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KPW', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SOS', 'SRD', 'SSP', 'STN', 'SVC', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'USN', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW')">Maximum value of the framework agreement within the group of lots' (BT-157-LotsGroup-Currency) must contain a value from codelist (currency)</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
+-		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
+ 		<assert id="BT-539-LotsGroup-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-LotsGroup-List)</assert>
+ 		<assert id="BT-539-LotsGroup_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-LotsGroup) must not have leading or trailing whitespace</assert>
+ 	</rule>
+--- a/schematrons/national-e-eforms-static.sch
++++ b/schematrons/national-e-eforms-static.sch
+@@ -13528,7 +13528,7 @@
+ 		<assert id="BR-BT-00099-0052" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">Information about review deadlines' (BT-99-Lot-Language) must contain a value from codelist (eu-official-language)</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
+-		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
+ 		<assert id="BT-539-Lot-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-Lot-List)</assert>
+ 		<assert id="BT-539-Lot_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-Lot) must not have leading or trailing whitespace</assert>
+ 	</rule>
+@@ -14173,7 +14173,7 @@
+ 		<assert id="BR-BT-00157-0066" role="ERROR" test="normalize-space(.) = ('AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HTG', 'HUF', 'IDR', 'ILS', 'INR', 'IQD', 'IRR', 'ISK', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KPW', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SOS', 'SRD', 'SSP', 'STN', 'SVC', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'USN', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW')">Maximum value of the framework agreement within the group of lots' (BT-157-LotsGroup-Currency) must contain a value from codelist (currency)</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
+-		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
+ 		<assert id="BT-539-LotsGroup-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-LotsGroup-List)</assert>
+ 		<assert id="BT-539-LotsGroup_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-LotsGroup) must not have leading or trailing whitespace</assert>
+ 	</rule>
+--- a/schematrons/national-e-eforms-dynamic.sch
++++ b/schematrons/national-e-eforms-dynamic.sch
+@@ -13635,7 +13635,7 @@
+ 		<assert id="BR-BT-00099-0052" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">Information about review deadlines' (BT-99-Lot-Language) must contain a value from codelist (eu-official-language)</assert>
+ 	</rule>
+ 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
+-		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
+ 		<assert id="BT-539-Lot-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-Lot-List)</assert>
+ 		<assert id="BT-539-Lot_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-Lot) must not have leading or trailing whitespace</assert>
+ 	</rule>
+@@ -14280,7 +14280,7 @@
  		<assert id="BR-BT-00157-0066" role="ERROR" test="normalize-space(.) = ('AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HTG', 'HUF', 'IDR', 'ILS', 'INR', 'IQD', 'IRR', 'ISK', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KPW', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SOS', 'SRD', 'SSP', 'STN', 'SVC', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'USN', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW')">Maximum value of the framework agreement within the group of lots' (BT-157-LotsGroup-Currency) must contain a value from codelist (currency)</assert>
  	</rule>
  	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">

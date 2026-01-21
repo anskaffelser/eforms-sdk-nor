@@ -25,12 +25,12 @@ params:
         id: "lb_registry"
 
   rules:
-    # --- FOA: Bygge- og anleggsarbeider (works) ---
+    # --- FOA Del II: Bygge- og anleggsarbeider (works) tak ---
     - scope: FOA
-      kind: eu_threshold_exceeded
+      kind: national_to_eu_out_of_range
       sub_kind: works
       context: 
-        lb_scope: eu
+        lb_scope: national_to_eu
         lt_filter: "any"
         nature: "works"
       cpv_import:
@@ -40,21 +40,53 @@ params:
       _description:
         nob: >-
           Verdien av anskaffelser av bygge- og anleggsarbeider overstiger
-          EU/EØS-terskelverdiene i Anskaffelsesforskriften. Anskaffelsen
-          må derfor følge fullstendige prosedyreregler for utlysning
-          på EU-nivå.
+          EU/EØS-terskelverdiene i Anskaffelsesforskriftens Del 1 og 2.
+          Anskaffelsen må derfor følge fullstendige prosedyreregler for
+          utlysning på EU-nivå.
         nob_verify: false
         nno: >-
           Verdien av anskaffinga av byggje- og anleggsarbeidar overstig
-          EU/EØS-terskelverdiane i Anskaffingsforskrifta. Anskaffinga
-          må derfor følgje fullstendige prosedyrereglar for utlysing
-          på EU-nivå.
+          EU/EØS-terskelverdiane i Anskaffingsforskriftas Del 1 og 2.
+          Anskaffinga må derfor følgje fullstendige prosedyrereglar for
+          utlysing på EU-nivå.
         nno_verify: false
         eng: >-
           The value of the procured works exceeds the EU/EEA threshold
-          values specified in the Norwegian Public Procurement Regulations.
-          The procurement therefore must follow complete procedure rules
-          for publication at an EU level.
+          values specified in Parts 1 and 2 of the Norwegian Public Procurement
+          Regulations. The procurement therefore must follow complete procedure
+          rules for publication at an EU level.
+        eng_validate: false
+
+    # --- FOA Del II: Særlige tjenester tak ---
+    - scope: FOA
+      kind: national_to_eu_out_of_range
+      sub_kind: special_services
+      context:
+        lb_scope: national_to_eu
+        lt_filter: "any"
+        nature: "services"
+      cpv_import:
+        file: "foa_cpv_registry.yaml"
+        key: "cpv-special-services"
+      test: "value < 7_800_000"
+      _description:
+        nob: >-
+          Verdien av anskaffelser av særlige tjenester overstiger
+          EU/EØS-terskelverdiene i Anskaffelsesforskriftens Del 1 og 2.
+          Anskaffelsen må derfor følge fullstendige prosedyreregler for
+          utlysning på EU-nivå.
+        nob_verify: false
+        nno: >-
+          Verdien av anskaffinga av særlege tenester overstig
+          EU/EØS-terskelverdiane i Anskaffingsforskriftas Del 1 og 2.
+          Anskaffinga må derfor følgje fullstendige prosedyrereglar for
+          utlysing på EU-nivå.
+        nno_verify: false
+        eng: >-
+          The value of the procured special services exceeds the
+          EU/EEA threshold values specified in Parts 1 and 2 of the Norwegian
+          Public Procurement Regulations. The procurement therefore must follow
+          complete procedure rules for publication at an EU level.
         eng_validate: false
         
     # --- FOA: Helse- og sosialtjenester ---
@@ -89,70 +121,38 @@ params:
           rules for publication at an EU level.
         eng_validate: false
 
-    # --- FOA: Særlige tjenester (EU)---
-    - scope: FOA
-      kind: national_to_eu_out_of_range
-      sub_kind: special_services
-      context: 
-        lb_scope: national_to_eu 
-        lt_filter: "any"
-        nature: "services"
-      cpv_import:
-        file: "foa_cpv_registry.yaml"
-        key: "cpv-special-services"
-      test: "value < 7_800_000"
-      _description:
-        nob: >-
-          Verdien av anskaffelser av særlige tjenester overstiger
-          EU/EØS-terskelverdiene i Anskaffelsesforskriften. Anskaffelsen
-          må derfor følge fullstendige prosedyreregler for utlysning
-          på EU-nivå.
-        nob_verify: false
-        nno: >-
-          Verdien av anskaffinga av særlege tenester overstig
-          EU/EØS-terskelverdiane i Anskaffingsforskrifta. Anskaffinga
-          må derfor følgje fullstendige prosedyrereglar for utlysing
-          på EU-nivå.
-        nno_verify: false
-        eng: >-
-          The value of the procured special services exceeds the
-          EU/EEA threshold values specified in the Norwegian Public Procurement
-          Regulations. The procurement therefore must follow complete procedure
-          rules for publication at an EU level.
-        eng_validate: false
+#    # --- FOA: Særlige tjenester (EU)---
+#    - scope: FOA
+#      kind: national_to_eu_out_of_range
+#      sub_kind: special_services
+#      context: 
+#        lb_scope: national_to_eu 
+#        lt_filter: "any"
+#        nature: "services"
+#      cpv_import:
+#        file: "foa_cpv_registry.yaml"
+#        key: "cpv-special-services"
+#      test: "value < 7_800_000"
+#      _description:
+#        nob: >-
+#          Verdien av anskaffelser av særlige tjenester overstiger
+#          EU/EØS-terskelverdiene i Anskaffelsesforskriften. Anskaffelsen
+#          må derfor følge fullstendige prosedyreregler for utlysning
+#          på EU-nivå.
+#        nob_verify: false
+#        nno: >-
+#          Verdien av anskaffinga av særlege tenester overstig
+#          EU/EØS-terskelverdiane i Anskaffingsforskrifta. Anskaffinga
+#          må derfor følgje fullstendige prosedyrereglar for utlysing
+#          på EU-nivå.
+#        nno_verify: false
+#        eng: >-
+#          The value of the procured special services exceeds the
+#          EU/EEA threshold values specified in the Norwegian Public Procurement
+#          Regulations. The procurement therefore must follow complete procedure
+#          rules for publication at an EU level.
+#        eng_validate: false
 
-    # --- FOA Del II - Særlige tjenester tak ---
-    - scope: FOA
-      kind: eu_threshold_exceeded
-      sub_kind: special_services
-      context:
-        lb_scope: eu
-        lt_filter: "any"
-        nature: "services"
-      cpv_import:
-        file: "foa_cpv_registry.yaml"
-        key: "cpv-special-services"
-      test: "value < 1_300_000"
-      _description:
-        nob: >-
-          Verdien av anskaffelsen av særlige tjenester overstiger
-          terskelverdien for Anskaffelsesforskriftens Del 1. Anskaffelsen
-          må derfor som minimum følge prosedyreregler for utlysning etter
-          Anskaffelsesforskriftens Del 1 og 2. 
-        nob_verify: false
-        nno: >-
-          Verdien av anskaffinga av særlege tenester overstig terskelverdien
-          for Anskaffingsforskriftas Del 1. Anskaffinga må derfor som minimum
-          følgje prosedyrereglar for utlysing etter Anskaffingsforskriftas
-          Del 1 og 2.
-        nno_verify: false
-        eng: >-
-          The value of the procured special services exceeds the threshold
-          value specified in Part 1 of the Norwegian Public Procurement
-          Regulations. The procurement therefore must, at least, follow
-          the procedure rules stated in Parts 1 and 2 of the Norwegian Public
-          Procurement Regulations.
-        eng_validate: false
       
     # FOA Del II - Statlig (CGA) tak
     - scope: FOA
@@ -225,7 +225,7 @@ params:
         eng_validate: false
         
         
-    # FOA Del 1 - ikke særlige tjenester - Verditak
+    # FOA Del 1 - ikke helse- og sosial tjenester - Verditak
     - scope: FOA
       kind: national_limit_exceeded
       sub_kind: goods_services
@@ -236,10 +236,6 @@ params:
       exclude_cpv_import:
         - file: "foa_cpv_registry.yaml"
           key: "cpv-health-social-services"
-        - file: "foa_cpv_registry.yaml"
-          key: "cpv-special-services"
-        - file: "foa_cpv_registry.yaml"
-          key: "cpv-works"
       test: "value < 1_300_000"
       _description:
         nob: >-
