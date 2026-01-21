@@ -89,7 +89,51 @@ params:
           complete procedure rules for publication at an EU level.
         eng_validate: false
         
-    # --- FOA: Helse- og sosialtjenester ---
+    # --- Blokkér FOA del II for Helse- og sosialtjenester (unntatt) ---
+    - scope: FOA
+      kind: national_to_eu_out_of_range
+      sub_kind: health_social_services_exempt
+      context:
+        lb_scope: national_to_eu
+        lt_filter: "any"
+        nature: "services"
+      cpv_import:
+        file: "foa_cpv_registry.yaml"
+        key: "cpv-health-social"
+      test: "true" # Trigger alltid hvis kontekst og CPV matcher
+      _description:
+        nob: >-
+          Anskaffelser av helse- og sosialtjenester er unntatt
+          fra Anskaffelsesforskriftens Del II. Disse tjenestene
+          følger Anskaffelsesforskriftens Del I for nasjonale
+          anskaffelser, og har egne bestemmelser i forskriftens
+          Del IV for anskaffelser over EU/EØS-terskelverdiene.
+          Anskaffelsesforskriftens Del I og II er derfor
+          ikke tillatt som lovhjemmel for slike anskaffelser.
+        nob_verify: false
+        nno: >-
+          Anskaffingar av helse- og sosialtenester er unntatt
+          frå Anskaffingsforskriftas Del II. Desse tenestane
+          følgjer Anskaffingsforskriftas Del I for nasjonale
+          anskaffingar, og har eigne bestemmelsar i
+          forskriftas Del IV for anskaffingar over
+          EU/EØS-terskelverdiane. Anskaffingsforskriftas
+          Del I og II er derfor ikkje ein tillatt lovheimel
+          for denne typen anskaffingar.
+        nno_verify: false
+        eng: >-
+          Procurements of social and health services are exempt
+          from Part II of the Norwegian Public Procurement
+          Regulations. These services follow Part I of the
+          Norwegian Public Procurement Regulations for national
+          procurements, and, in the event that the procurement
+          exceeds the EU/EEA thresholds, they are governed
+          by Part IV. Thus, the Norwegian Public Procurement
+          Regulations Part I and II is not a permitted legal
+          basis for this type of procurement.
+        eng_verify: false
+
+    # --- FOA: Helse- og sosialtjenester (Kun aktuelt med del I) ---
     - scope: FOA
       kind: eu_threshold_exceeded
       sub_kind: health_social_services
@@ -120,39 +164,6 @@ params:
           Regulations. The procurement therefore must follow complete procedure
           rules for publication at an EU level.
         eng_validate: false
-
-#    # --- FOA: Særlige tjenester (EU)---
-#    - scope: FOA
-#      kind: national_to_eu_out_of_range
-#      sub_kind: special_services
-#      context: 
-#        lb_scope: national_to_eu 
-#        lt_filter: "any"
-#        nature: "services"
-#      cpv_import:
-#        file: "foa_cpv_registry.yaml"
-#        key: "cpv-special-services"
-#      test: "value < 7_800_000"
-#      _description:
-#        nob: >-
-#          Verdien av anskaffelser av særlige tjenester overstiger
-#          EU/EØS-terskelverdiene i Anskaffelsesforskriften. Anskaffelsen
-#          må derfor følge fullstendige prosedyreregler for utlysning
-#          på EU-nivå.
-#        nob_verify: false
-#        nno: >-
-#          Verdien av anskaffinga av særlege tenester overstig
-#          EU/EØS-terskelverdiane i Anskaffingsforskrifta. Anskaffinga
-#          må derfor følgje fullstendige prosedyrereglar for utlysing
-#          på EU-nivå.
-#        nno_verify: false
-#        eng: >-
-#          The value of the procured special services exceeds the
-#          EU/EEA threshold values specified in the Norwegian Public Procurement
-#          Regulations. The procurement therefore must follow complete procedure
-#          rules for publication at an EU level.
-#        eng_validate: false
-
       
     # FOA Del II - Statlig (CGA) tak
     - scope: FOA
@@ -173,18 +184,22 @@ params:
       _description: 
         nob: >-
           Verdien av anskaffelsen overstiger verdigrensene i
-          Anskaffelsesforskriften Del 2. Anskaffelsen må derfor
+          Anskaffelsesforskriften Del 2, for statlige eller
+          statsstyrte oppdragsgivere. Anskaffelsen må derfor
           følge fullstendige prosedyreregler for utlysning
           på EU-nivå.
         nob_verify: false
         nno: >-
           Verdien av anskaffinga overstig verdigrensane i
-          Anskaffingsforskrifta Del 2. Anskaffinga må derfor
+          Anskaffingsforskrifta Del 2, for statlege eller
+          statsstyrte oppdragsgjevare. Anskaffinga må derfor
           følgje fullstendige prosedyrereglar for utlysning på
           EU-nivå.
         eng: >-
           The value of the procurement exceeds the value limits
-          of the Norwegian Public Procurement Regulations, Part 2.
+          of the Norwegian Public Procurement Regulations, Part 2,
+          for contracting authorities governed by a central
+          governmental agency.
           The procurement therefore must follow complete procedure
           rules for publication at an EU level.
         eng_validate: false
@@ -208,18 +223,22 @@ params:
       _description:
         nob: >-
           Verdien av anskaffelsen overstiger verdigrensene i
-          Anskaffelsesforskriften Del 2. Anskaffelsen må derfor
+          Anskaffelsesforskriften Del 2, for kommunale eller
+          fylkeskommunale oppdragsgivere. Anskaffelsen må derfor
           følge fullstendige prosedyreregler for utlysning
           på EU-nivå.
         nob_verify: false
         nno: >-
           Verdien av anskaffinga overstig verdigrensane i
-          Anskaffingsforskrifta Del 2. Anskaffinga må derfor
+          Anskaffingsforskrifta Del 2, for kommunale eller
+          fylkeskommunale oppdragsgjevare. Anskaffinga må derfor
           følgje fullstendig prosedyrereglar for utlysning på
           EU-nivå.
         eng: >-
           The value of the procurement exceeds the value limits
-          of the Norwegian Public Procurement Regulations, Part 2.
+          of the Norwegian Public Procurement Regulations, Part 2,
+          for contracting authorities which are or which are governed
+          by counties or municipal bodies.
           The procurement therefore must follow complete procedure
           rules for publication at an EU level.
         eng_validate: false

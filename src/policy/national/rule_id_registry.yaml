@@ -367,12 +367,13 @@ TH:
       goods_services_too_high_non_cga: 5
       special_services: 6
       works: 7
+      health_social_services_exempt: 8
     eu_threshold_exceeded:
-      goods_services_cga: 8
-      goods_servides_non_cga: 9
-      special_services: 10
-      health_social_services: 11
-      works: 12
+      goods_services_cga: 9
+      goods_servides_non_cga: 10
+      special_services: 11
+      health_social_services: 12
+      works: 13
 
   FOR:
     _description: "Terskelverdier for Forsyningsforskriften (FOR)"

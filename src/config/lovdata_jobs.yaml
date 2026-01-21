@@ -18,9 +18,9 @@ jobs:
         //section[@id='kapittel-7']//table//td
       cpv-special-services: >-
         //section[@id='kapittel-8']//table//td
-      cpv-health-social: >-
+      cpv-health-social-services: >-
         //section[@id='kapittel-9']//table//td
-      cpv-reserved-health-social: >-
+      cpv-reserved-health-social-services: >-
         //section[@id='kapittel-10']//table//td
   - id: lovdata_kon_cpv_parser
     source_ref: lovdata_public
@@ -35,7 +35,7 @@ jobs:
         //section[@id='kapittel-5']//table//td
       cpv-special-services: >-
         //section[@id='kapittel-6']//table//td
-      cpv-health-social: >-
+      cpv-health-social-services: >-
         //section[@id='kapittel-7']//table//td
   - id: lovdata_for_cpv_parser
     source_ref: lovdata_public
@@ -51,9 +51,9 @@ jobs:
         //section[@id='kapittel-7']//table//td
       cpv-special-services: >-
         //section[@id='kapittel-8']//table//td
-      cpv-health-social: >-
+      cpv-health-social-services: >-
         //section[@id='kapittel-9']//table//td
-      cpv-reserved-health-social: >-
+      cpv-reserved-health-social-services: >-
         //section[@id='kapittel-10']//table//td
   - id: lovdata_fosa_cpv_parser
     source_ref: lovdata_public

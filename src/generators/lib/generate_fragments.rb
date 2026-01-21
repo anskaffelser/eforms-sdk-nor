@@ -432,40 +432,57 @@ module FragmentHandlers
         when /^not_contains:(.+)/ then conditions << "not(contains(normalize-space(#{t_path}), '#{$1}'))"
         end
       end
-  
-      type_or_cpv = []
+
+      # Nature-sjekk (Works/Services/Supplies)
       if rule['context']['nature'] && cn_path
         nature_list = Array(rule['context']['nature']).map { |n| "'#{n}'" }.join(', ')
-        # XPath 2.0 kompatibel sjekk
-        type_or_cpv << "normalize-space(#{cn_path}) = (#{nature_list})"
+        conditions << "normalize-space(#{cn_path}) = (#{nature_list})"
       end
-  
+
+      # --- CPV LOGIKK (Hvitliste og Svarteliste) ---
+      
+      # CASE A: cpv_import (Hvitliste - Regelen gjelder BARE for disse)
       if rule['cpv_import'] && cp_path
-        imp = rule['cpv_import']
-        cpv_data = @cpv_cache[File.join(context[:external_data], imp['file'])] ||= YAML.load_file(File.join(context[:external_data], imp['file']))
-        cpv_list = cpv_data[imp['key']]
-        if cpv_list
-          # Bruker den stabile include-metoden
-          inc_checks = Array(cpv_list['include']).map do |c|
-            code = c.to_s
-            code.length == 8 ? "normalize-space(#{cp_path})='#{code}'" : "starts-with(normalize-space(#{cp_path}), '#{code}')"
-          end
+        imports = rule['cpv_import'].is_a?(Array) ? rule['cpv_import'] : [rule['cpv_import']]
+        all_inc_checks = []
+
+        imports.each do |imp|
+          cpv_file = File.join(context[:external_data], imp['file'])
+          cpv_data = @cpv_cache[cpv_file] ||= YAML.load_file(cpv_file)
+          cpv_list = cpv_data[imp['key']]
           
-          inc_clause = "(#{inc_checks.join(' or ')})"
-          
-          if Array(cpv_list['exclude']).any?
-            exc_checks = Array(cpv_list['exclude']).map do |c|
+          if cpv_list && cpv_list['include']
+            Array(cpv_list['include']).each do |c|
               code = c.to_s
-              code.length == 8 ? "not(normalize-space(#{cp_path})='#{code}')" : "not(starts-with(normalize-space(#{cp_path}), '#{code}'))"
+              all_inc_checks << (code.length == 8 ? "normalize-space(#{cp_path})='#{code}'" : "starts-with(normalize-space(#{cp_path}), '#{code}')")
             end
-            type_or_cpv << "(#{inc_clause} and #{exc_checks.join(' and ')})"
-          else
-            type_or_cpv << inc_clause
           end
         end
+
+        conditions << "(#{all_inc_checks.uniq.join(' or ')})" if all_inc_checks.any?
       end
-  
-      conditions << "(#{type_or_cpv.join(' or ')})" if type_or_cpv.any?
+
+      # CASE B: exclude_cpv_import (Svarteliste - Regelen gjelder IKKE hvis CPV er i disse)
+      if rule['exclude_cpv_import'] && cp_path
+        excl_imports = rule['exclude_cpv_import'].is_a?(Array) ? rule['exclude_cpv_import'] : [rule['exclude_cpv_import']]
+        all_excl_checks = []
+
+        excl_imports.each do |imp|
+          cpv_file = File.join(context[:external_data], imp['file'])
+          cpv_data = @cpv_cache[cpv_file] ||= YAML.load_file(cpv_file)
+          cpv_list = cpv_data[imp['key']]
+          
+          if cpv_list && cpv_list['include']
+            Array(cpv_list['include']).each do |c|
+              code = c.to_s
+              all_excl_checks << (code.length == 8 ? "not(normalize-space(#{cp_path})='#{code}')" : "not(starts-with(normalize-space(#{cp_path}), '#{code}'))")
+            end
+          end
+        end
+
+        # Vi bruker AND her fordi vi må være utenfor ALLER listene
+        conditions << "(#{all_excl_checks.uniq.join(' and ')})" if all_excl_checks.any?
+      end
   
       # --- 5. GENERER SLUTT-XPATH ---
       clean_test = rule['test'].gsub(/(\d)_(\d)/, '\1\2').gsub('value', "number(#{v_path})")
