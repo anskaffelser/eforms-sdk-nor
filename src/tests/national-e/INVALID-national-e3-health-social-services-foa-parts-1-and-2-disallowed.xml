@@ -41,6 +41,9 @@
 	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>NOR</cbc:NoticeLanguageCode>
 	<cac:ContractingParty>
+		<cac:ContractingPartyType>
+		  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-cga</cbc:PartyTypeCode>
+		</cac:ContractingPartyType>
 		<cac:Party>
 			<cac:PartyIdentification>
 				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
@@ -50,7 +53,7 @@
 	<cac:TenderingTerms>
 		<cac:ProcurementLegislationDocumentReference>
 			<cbc:ID>LocalLegalBasis</cbc:ID>
-		<cbc:DocumentDescription languageID="NOR">NOR FOR-2016-08-12-974, Del 1</cbc:DocumentDescription>
+		<cbc:DocumentDescription languageID="NOR">NOR FOR-2016-08-12-974, Del 1 og 2</cbc:DocumentDescription>
 		</cac:ProcurementLegislationDocumentReference>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
@@ -65,8 +68,11 @@
 		<cbc:Name languageID="NOR">Anskaffelse av IKT-tjenester</cbc:Name>
 		<cbc:Description languageID="NOR">Anskaffelse av IKT-tjenester tilknyttet drift av printertjenester</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+		<cac:RequestedTenderTotal>
+		  <cbc:EstimatedOverallContractAmount currencyID="NOK">7799999</cbc:EstimatedOverallContractAmount>
+		</cac:RequestedTenderTotal>
 		<cac:MainCommodityClassification>
-			<cbc:ItemClassificationCode listName="cpv">72230000</cbc:ItemClassificationCode>
+			<cbc:ItemClassificationCode listName="cpv">98133100</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
 		<cac:RealizedLocation>
 			<cac:Address>
@@ -93,8 +99,11 @@
 			<cbc:Name languageID="NOR">Anskaffelse av IKT-tjenester</cbc:Name>
 			<cbc:Description languageID="NOR">Anskaffelse av IKT-tjenester tilknyttet drift av printertjenester</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+			<cac:RequestedTenderTotal>
+			  <cbc:EstimatedOverallContractAmount currencyID="NOK">7799999</cbc:EstimatedOverallContractAmount>
+			</cac:RequestedTenderTotal>
 			<cac:MainCommodityClassification>
-				<cbc:ItemClassificationCode listName="cpv">72230000</cbc:ItemClassificationCode>
+				<cbc:ItemClassificationCode listName="cpv">98133100</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>

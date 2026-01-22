@@ -99,7 +99,7 @@ params:
         nature: "services"
       cpv_import:
         file: "foa_cpv_registry.yaml"
-        key: "cpv-health-social"
+        key: "cpv-health-social-services"
       test: "true" # Trigger alltid hvis kontekst og CPV matcher
       _description:
         nob: >-
@@ -143,7 +143,7 @@ params:
         nature: "services"
       cpv_import:
         file: "foa_cpv_registry.yaml"
-        key: "cpv-health-social"
+        key: "cpv-health-social-services"
       test: "value < 7_800_000"
       _description:
         nob: >-
@@ -351,7 +351,7 @@ params:
         nature: "services"
       cpv_import:
         file: "kon_cpv_registry.yaml"
-        key: "cpv-health-social"
+        key: "cpv-health-social-services"
       test: "value < 57_800_000"
       _description:
         nob: >-
@@ -484,7 +484,7 @@ params:
         nature: "services"
       cpv_import:
         file: "for_cpv_registry.yaml"
-        key: "cpv-health-social"
+        key: "cpv-health-social-services"
       test: "value < 10_400_000"
       _description:
         nob: >-
