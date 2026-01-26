@@ -352,105 +352,90 @@ module FragmentHandlers
     { "ND-Root" => [{ 'id' => id, 'test' => "not(#{info['xpath']})", 'message' => msg }] }
   end
   
-  # 10. Terskelverdi-motor
+  # 10. Terskelverdimotor
   def self.threshold_engine(params, meta, context)
     mapping = context[:mapping]
     result = {}
     deps = params['_dependencies']
     
-    raise "❌ Kritisk feil: Mangler '_dependencies'" if deps.nil?
+    raise "❌ Kritisk feil: Mangler '_dependencies' i YAML" if deps.nil?
     
     @cpv_cache ||= {}
     
-    # --- 1. HENT FELTPERSTIER ---
-    v_path  = mapping.dig(deps['fields']['value'], 'xpath')
-    b_path  = mapping.dig(deps['fields']['legal_basis'], 'xpath')
-    t_path  = mapping.dig(deps['fields']['buyer_legal_type'], 'xpath')
-    cn_path = mapping.dig(deps['fields']['contract_nature_main_proc'], 'xpath')
-    cp_path = mapping.dig(deps['fields']['main_cpv_proc'], 'xpath')
-    target_field_id = mapping.dig(deps['fields']['value'], 'field_id')
+    # --- 1. HENT DET SOM ER FELLES FOR ALLE REGLER ---
+    # Vi henter ut de statiske stiene som brukes til filtrering (hjemmel, kjøpertype, etc.)
+    b_path  = mapping.dig(deps.dig('fields', 'legal_basis'), 'xpath')
+    t_path  = mapping.dig(deps.dig('fields', 'buyer_legal_type'), 'xpath')
+    cn_path = mapping.dig(deps.dig('fields', 'contract_nature_main_proc'), 'xpath')
+    cp_path = mapping.dig(deps.dig('fields', 'main_cpv_proc'), 'xpath')
   
-    # FIKS 1: Sjekk at mapping faktisk returnerer noe her
-    lb_desc_configs = Array(deps['fields']['legal_basis_descriptions']).map do |d|
+    value_field_ids = Array(deps.dig('fields', 'value'))
+  
+    # Hent konfigurasjon for tekstbeskrivelser av lovhjemmel (språksjekk)
+    lb_desc_configs = Array(deps.dig('fields', 'legal_basis_descriptions')).map do |d|
       path = mapping.dig(d['legal_basis_description'], 'xpath')
-      {
-        xpath: path,
-        lang: d['lang'] # Sjekk om denne er "NOR" eller "nor"
-      }
+      { xpath: path, lang: d['lang'] }
     end.select { |c| c[:xpath] }
   
-    # --- 2. LAST EKSTERNE DATA ---
+    # --- 2. LAST EKSTERNE DATA (LOVHJEMMEL-REGISTER) ---
     lb_registry_cfg = deps['external_data']&.find { |d| d['id'] == 'lb_registry' }
     lb_data = YAML.load_file(File.join(context[:base], lb_registry_cfg['file']))
     lb_entries = lb_data['definitions']['entries']
   
-    # --- 3. PROSESSER HVER REGEL ---
+    # --- 3. PROSESSER HVER REGEL FRA YAML ---
     params['rules'].each do |rule|
-      id = NationalRulesHelpers.rule_id(
-        domain:   rule['domain']   || meta['domain'], 
-        kind:     rule['kind']     || meta['kind'], 
-        sub_kind: rule['sub_kind'], 
-        scope:    rule['scope']    || meta['scope'], 
-        index:    rule['index']    || 0
-      )
-  
+      
+      # Finn riktig oppføring i lovhjemmel-registeret (f.eks. FOA Del II)
       matching_entry = lb_entries.find do |e| 
-        e['threshold_scope'] == rule['context']['lb_scope'] && e['regulation'] == (rule['scope'] || meta['domain']) 
+        e['threshold_scope'] == rule['context']['lb_scope'] && 
+        e['regulation'] == (rule['scope'] || meta['domain']) 
       end
       
       next unless matching_entry
   
-      conditions = []
+      # --- 4. BYGG FELLES BETINGELSER (CONTEXT) SOM GJELDER FOR DENNE REGELEN ---
+      # Samler alle krav (utenom selve beløpet) i 'base_conditions'
+      base_conditions = []
       
-      # Krav: BT-01(e)
-      conditions << "(normalize-space(#{b_path}) = 'LocalLegalBasis')"
+      # Krav A: Lovhjemmel må være 'LocalLegalBasis'
+      base_conditions << "(normalize-space(#{b_path}) = 'LocalLegalBasis')"
   
-      # --- FIKS 2: Robust språksjekk ---
+      # Krav B: Robust språksjekk (Sjekker at teksten i hjemmelfeltet matcher registeret)
       language_ors = []
       lb_desc_configs.each do |cfg|
-        # Vi tvinger både nøkkel og config til lowercase for å matche "NOR" mot "nor"
         lang_key = cfg[:lang].to_s.downcase
         expected_val = matching_entry.dig('code', lang_key) || matching_entry.dig('code', cfg[:lang].to_s)
         
         if expected_val
           safe_val = expected_val.strip.gsub("'", "&apos;")
-          xpath_node = cfg[:xpath]
-          language_ors << "(not(#{xpath_node}) or normalize-space(#{xpath_node}) = '#{safe_val}')"
+          language_ors << "(not(#{cfg[:xpath]}) or normalize-space(#{cfg[:xpath]}) = '#{safe_val}')"
         end
       end
-      
-      # Her dytter vi språksjekken inn i hovedlisten over betingelser
-      if language_ors.any?
-        conditions << "(#{language_ors.join(' and ')})"
-      end
+      base_conditions << "(#{language_ors.join(' and ')})" if language_ors.any?
   
-      # --- 4. ØVRIGE FILTRE ---
-      lt_filter = rule['context']['lt_filter']
+      # Krav C: Kjøpertype (Statlig/Ikke-statlig filter)
+      lt_filter = rule.dig('context', 'lt_filter')
       if lt_filter && lt_filter != "any"
         case lt_filter
-        when /^contains:(.+)/ then conditions << "contains(normalize-space(#{t_path}), '#{$1}')"
-        when /^not_contains:(.+)/ then conditions << "not(contains(normalize-space(#{t_path}), '#{$1}'))"
+        when /^contains:(.+)/ then base_conditions << "contains(normalize-space(#{t_path}), '#{$1}')"
+        when /^not_contains:(.+)/ then base_conditions << "not(contains(normalize-space(#{t_path}), '#{$1}'))"
         end
       end
-
-      # Nature-sjekk (Works/Services/Supplies)
-      if rule['context']['nature'] && cn_path
+  
+      # Krav D: Kontraktens art (Works/Services/Supplies)
+      if rule.dig('context', 'nature') && cn_path
         nature_list = Array(rule['context']['nature']).map { |n| "'#{n}'" }.join(', ')
-        conditions << "normalize-space(#{cn_path}) = (#{nature_list})"
+        base_conditions << "normalize-space(#{cn_path}) = (#{nature_list})"
       end
-
-      # --- CPV LOGIKK (Hvitliste og Svarteliste) ---
-      
-      # CASE A: cpv_import (Hvitliste - Regelen gjelder BARE for disse)
+  
+      # Krav E: CPV-kode Hvitliste (cpv_import)
       if rule['cpv_import'] && cp_path
-        imports = rule['cpv_import'].is_a?(Array) ? rule['cpv_import'] : [rule['cpv_import']]
+        imports = Array(rule['cpv_import'])
         all_inc_checks = []
-
         imports.each do |imp|
           cpv_file = File.join(context[:external_data], imp['file'])
           cpv_data = @cpv_cache[cpv_file] ||= YAML.load_file(cpv_file)
           cpv_list = cpv_data[imp['key']]
-          
           if cpv_list && cpv_list['include']
             Array(cpv_list['include']).each do |c|
               code = c.to_s
@@ -458,20 +443,17 @@ module FragmentHandlers
             end
           end
         end
-
-        conditions << "(#{all_inc_checks.uniq.join(' or ')})" if all_inc_checks.any?
+        base_conditions << "(#{all_inc_checks.uniq.join(' or ')})" if all_inc_checks.any?
       end
-
-      # CASE B: exclude_cpv_import (Svarteliste - Regelen gjelder IKKE hvis CPV er i disse)
+  
+      # Krav F: CPV-kode Svarteliste (exclude_cpv_import)
       if rule['exclude_cpv_import'] && cp_path
-        excl_imports = rule['exclude_cpv_import'].is_a?(Array) ? rule['exclude_cpv_import'] : [rule['exclude_cpv_import']]
+        excl_imports = Array(rule['exclude_cpv_import'])
         all_excl_checks = []
-
         excl_imports.each do |imp|
           cpv_file = File.join(context[:external_data], imp['file'])
           cpv_data = @cpv_cache[cpv_file] ||= YAML.load_file(cpv_file)
           cpv_list = cpv_data[imp['key']]
-          
           if cpv_list && cpv_list['include']
             Array(cpv_list['include']).each do |c|
               code = c.to_s
@@ -479,22 +461,46 @@ module FragmentHandlers
             end
           end
         end
-
-        # Vi bruker AND her fordi vi må være utenfor ALLER listene
-        conditions << "(#{all_excl_checks.uniq.join(' and ')})" if all_excl_checks.any?
+        base_conditions << "(#{all_excl_checks.uniq.join(' and ')})" if all_excl_checks.any?
       end
   
-      # --- 5. GENERER SLUTT-XPATH ---
-      clean_test = rule['test'].gsub(/(\d)_(\d)/, '\1\2').gsub('value', "number(#{v_path})")
-      final_xpath = "if (#{conditions.join(' and ')}) then (#{clean_test}) else true()"
+      # --- 5. GENERER REGLER FOR HVERT VERDIFELT ---
+      # Her looper vi gjennom alle feltene definert i 'fields -> value'
+      value_field_ids.each_with_index do |v_field_id, v_field_idx|
+        field_map = mapping[v_field_id]
+        next if field_map.nil?
+        
+        current_v_path = field_map['xpath']
+        target_id      = field_map['field_id']
+
+        calculated_idx = (rule['index'] || 0) + v_field_idx
   
-      result[target_field_id] ||= []
-      result[target_field_id] << {
-        'id'      => id,
-        'test'    => NationalRulesHelpers.clean_xpath(final_xpath),
-        'message' => NationalRulesHelpers.extract_message(rule, meta)
-      }
+        # Generer unik regel-ID for dette spesifikke feltet
+        rule_instance_id = NationalRulesHelpers.rule_id(
+          domain:   rule['domain']   || meta['domain'], 
+          kind:     rule['kind']     || meta['kind'], 
+          sub_kind: rule['sub_kind'], 
+          scope:    rule['scope']    || meta['scope'], 
+          index:    calculated_idx
+        )
+  
+        # Bygg selve testen (f.eks. number(...) < 57800000)
+        # Vi fjerner underscores fra tall (57_800_000 -> 57800000)
+        clean_test_logic = rule['test'].gsub(/(\d)_(\d)/, '\1\2').gsub('value', "number(#{current_v_path})")
+  
+        # Sett sammen til en komplett XPATH IF-THEN-ELSE
+        final_xpath = "if (#{base_conditions.join(' and ')}) then (#{clean_test_logic}) else true()"
+  
+        # Lagre resultatet under riktig felt-ID
+        result[target_id] ||= []
+        result[target_id] << {
+          'id'      => rule_instance_id,
+          'test'    => NationalRulesHelpers.clean_xpath(final_xpath),
+          'message' => NationalRulesHelpers.extract_message(rule, meta)
+        }
+      end
     end
+  
     result
   end
   
@@ -584,6 +590,50 @@ module FragmentHandlers
                      presence_logic = "((some $c in #{sibling_path} satisfies normalize-space($c) = (#{exc_codes}, #{cum_codes})))"
                      actual_condition = raw_test.gsub("count", "count(#{sibling_path})")
                      "if (#{actual_condition}) then (#{presence_logic}) else true()"
+                   when Hash
+                     if raw_test['type'] == 'environmental_logic'
+                       child_node = "cac:SubordinateAwardingCriterion"
+
+                       xpath_strategies = raw_test['strategies'].map do |strat|
+                         coll = strat['collection']
+                         
+                         # 1. Generisk vask av filter (brukes av begge caser)
+                         preds = coll['filter'].map do |f|
+                           rel_path = mapping.dig(f['field'], 'xpath').split("#{child_node}/").last
+                           "#{rel_path} = '#{f['value']}'"
+                         end.join(' and ')
+
+                         if strat['type'] == 'sum_comparison'
+                           # --- CASE 1: SUMMERING ---
+                           sum_rel = mapping.dig(coll['sum_field'], 'xpath').split("#{child_node}/").last
+                           "sum(#{prefix}/#{child_node}[#{preds}]/#{sum_rel}) #{strat['operator']} #{strat['target_sum']}"
+
+                         elsif strat['type'] == 'rank_check'
+                           # --- CASE 2: RANKING ---
+                           sort_rel = mapping.dig(coll['sort_field'], 'xpath').split("#{child_node}/").last
+                           
+                           # Vi sjekker om det finnes et kriterium som matcher filteret...
+                           # ...der antall søsken som har et STRENGT LAVERE tall (høyere viktighet) er < 3.
+                           "exists(#{prefix}/#{child_node}[#{preds}][count(../#{child_node}[number(#{sort_rel}) < number(current()/#{sort_rel})]) < #{strat['max_rank']}])"
+                         elsif strat['type'] == 'specification_check'
+                           # --- CASE 3: OBLIGATORISK KRAV (0% + BESKRIVELSE) ---
+                           desc_rel = mapping.dig(coll['description_field'], 'xpath').split("#{child_node}/").last
+                           
+                           # Vi sjekker om det finnes et kriterium som matcher filteret (0%, spec)
+                           # OG som har en beskrivelse som ikke er bare whitespace.
+                           "exists(#{prefix}/#{child_node}[#{preds}][normalize-space(#{desc_rel}) != ''])"
+                         end
+                       end
+
+                       # Sy sammen med OR
+                       combined_strategies = "(#{xpath_strategies.compact.join(" #{raw_test['operator']} ")})"
+                       # 4. Håndter 'condition' (f.eks. count > 1)
+                       if raw_test['condition'] == 'count > 1'
+                         "if (count(#{prefix}/#{child_node}) > 1) then #{combined_strategies} else true()"
+                       else
+                         combined_strategies
+                       end
+                   end
                    else
                      "true()"
                    end

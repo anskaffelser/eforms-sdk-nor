@@ -93,7 +93,19 @@ main_classification_proc:
 award_criterion_type_lot:
   xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']"
   field_id: "BT-539-Lot"
+  
+award_criterion_description_lot:
+  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:Description"
+  field_id: "BT-540-Lot"
 
+award_criterion_number_lot:
+  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efbc:ParameterNumeric"
+  field_id: "BT-541-Lot-WeightNumber"
+  
+award_criterion_number_weight_lot:
+  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efbc:ParameterCode"
+  field_id: "BT-5421-Lot"
+  
 identifier_lot:
   xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID"
   field_id: "BT-22-Lot"

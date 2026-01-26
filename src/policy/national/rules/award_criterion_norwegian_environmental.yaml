@@ -53,26 +53,6 @@ params:
     - regulation: ANY
       context:
         lb_scope: ANY
-      test: "exclusivity"
-      _description:
-        nob: >-
-          Både oppfyllelse av klima- og miljøkriterium og/eller at klima
-          og miljø hensyntas i kravspesifikasjon kan ikke oppgis samtidig
-          som unntak fra forskriften. Velg én av delene.
-        nob_verify: false
-        nno: >-
-          Både oppfylling av klima- og miljækriteriu, eller at klima og
-          miljø hensyntas i kravspesifikasjonen, kan ikke oppgjes samtidig
-          som unntak frå forskrifta. Velg ein av delane.
-        nno_verify: false
-        eng: >-
-          You cannot be exempt from the climate- and environmental
-          considerations of the Norwegian Public Procurement Regulations
-          while also following said regulations. Choose either.
-        eng_verify: false
-    - regulation: ANY
-      context:
-        lb_scope: ANY
       test: "count > 1"
       _description: 
         nob: >-
@@ -91,5 +71,72 @@ params:
           climate- and environmental considerations in the Norwegian public
           procurement regulations.
         eng_verify: false
-  
-  
+    - regulation: ANY
+      context:
+        lb_scope: ANY
+      test:
+        type: "environmental_logic"
+        condition: "count > 1"
+        operator: "OR"
+        strategies:
+          # Case 1: Klima- og miljøkriterier vektet minst 30 %
+          - id: "weight_sum"
+            type: "sum_comparison"
+            target_sum: 30
+            operator: ">="
+            collection:
+              node: "cac:AwardingCriterion"
+              filter:
+                - field: "award_criterion_type_lot"
+                  value: "quality-nor-env-criteria"
+                - field: "award_criterion_number_weight_lot"
+                  value: "per-exa"
+              sum_field: "award_criterion_number_lot"
+          # Case 2: Finnes det et klimakriterium blant de 3 høyest rangerte?
+          - id: "top_3_importance"
+            type: "rank_check"
+            max_rank: 3
+            collection:
+              node: "cac:AwardingCriterion"
+              filter:
+                - field: "award_criterion_type_lot"
+                  value: "quality-nor-env-criteria"
+                - field: "award_criterion_number_weight_lot"
+                  value: "ord-imp"
+              sort_field: "award_criterion_number_lot"
+          # Case 3: Er klima- og miljø hensyntatt som en teknisk kravspesifikasjon?
+          - id: "env_specification"
+            type: "specification_check"
+            collection:
+              node: "cac:AwardingCriterion"
+              filter:
+                - field: "award_criterion_type_lot"
+                  value: "quality-nor-env-spec"
+                - field: "award_criterion_number_weight_lot"
+                  value: "per-exa"
+                - field: "award_criterion_number_lot"
+                  value: "0"
+              description_field: "award_criterion_description_lot"
+          # Case 4: Begrunnet unntak (ubetydelig klimaavtrykk)
+          - id: "env_exemption"
+            type: "specification_check"
+            collection:
+              node: "cac:AwardingCriterion"
+              filter:
+                - field: "award_criterion_type_lot"
+                  value: "quality-nor-env-none"
+                - field: "award_criterion_number_weight_lot"
+                  value: "per-exa"
+                - field: "award_criterion_number_lot"
+                  value: "0"
+              description_field: "award_criterion_description_lot"
+      _description:
+        nob: >-
+          Klima- og miljøbestemmelsene i Anskaffelsesforskriften sier at
+          klima- og miljøhensyn skal vektes med minimum tretti prosent,
+          eller at klima- og miljøhensyn skal være blant de tre høyest
+          prioriterte tildelingskriteriene der tildelingskriterier angis
+          i prioritert rekkefølge. Alternativt kan dette erstattes med
+          klima- miljøkrav i kravspesifikasjonen. Unntaksbestemmelser finnes
+          for anskaffelser med uvesentlig klima- og miljøpåvirkning.
+            

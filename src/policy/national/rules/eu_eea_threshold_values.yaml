@@ -10,7 +10,9 @@ currency: NOK
 params:
   _dependencies:
     fields: 
-      value: "estimated_value_proc"
+      value: 
+        - "estimated_value_proc"
+        - "framework_maximum_value_proc"
       legal_basis: "legal_basis_noid"
       legal_basis_descriptions:
         - legal_basis_description: "legal_basis_noid_description_nor"
@@ -34,8 +36,8 @@ params:
         lt_filter: "any"
         nature: "works"
       cpv_import:
-        file: "foa_cpv_registry.yaml"
-        key: "cpv-works"
+        - file: "foa_cpv_registry.yaml"
+          key: "cpv-works"
       test: "value < 57_800_000"
       _description:
         nob: >-
@@ -66,8 +68,8 @@ params:
         lt_filter: "any"
         nature: "services"
       cpv_import:
-        file: "foa_cpv_registry.yaml"
-        key: "cpv-special-services"
+        - file: "foa_cpv_registry.yaml"
+          key: "cpv-special-services"
       test: "value < 7_800_000"
       _description:
         nob: >-
@@ -98,8 +100,8 @@ params:
         lt_filter: "any"
         nature: "services"
       cpv_import:
-        file: "foa_cpv_registry.yaml"
-        key: "cpv-health-social-services"
+        - file: "foa_cpv_registry.yaml"
+          key: "cpv-health-social-services"
       test: "true" # Trigger alltid hvis kontekst og CPV matcher
       _description:
         nob: >-
@@ -142,8 +144,8 @@ params:
         lt_filter: "any"
         nature: "services"
       cpv_import:
-        file: "foa_cpv_registry.yaml"
-        key: "cpv-health-social-services"
+        - file: "foa_cpv_registry.yaml"
+          key: "cpv-health-social-services"
       test: "value < 7_800_000"
       _description:
         nob: >-
@@ -286,8 +288,8 @@ params:
         lt_filter: "any"
         nature: "works"
       cpv_import:
-        file: "kon_cpv_registry.yaml"
-        key: "cpv-works"
+        - file: "kon_cpv_registry.yaml"
+          key: "cpv-works"
       test: "value < 57_800_000"
       _description:
         nob: >-
@@ -318,8 +320,8 @@ params:
         lt_filter: "any"
         nature: "services"
       cpv_import:
-        file: "kon_cpv_registry.yaml"
-        key: "cpv-special-services"
+        - file: "kon_cpv_registry.yaml"
+          key: "cpv-special-services"
       test: "value < 57_800_000"
       _description:
         nob: >-
@@ -350,8 +352,8 @@ params:
         lt_filter: "any"
         nature: "services"
       cpv_import:
-        file: "kon_cpv_registry.yaml"
-        key: "cpv-health-social-services"
+        - file: "kon_cpv_registry.yaml"
+          key: "cpv-health-social-services"
       test: "value < 57_800_000"
       _description:
         nob: >-
@@ -419,8 +421,8 @@ params:
         lt_filter: "any"
         nature: "works"
       cpv_import:
-        file: "for_cpv_registry.yaml"
-        key: "cpv-works"
+        - file: "for_cpv_registry.yaml"
+          key: "cpv-works"
       test: "value < 57_800_000"
       _description:
         nob: >-
@@ -451,8 +453,8 @@ params:
         lt_filter: "any"
         nature: "services"
       cpv_import:
-        file: "for_cpv_registry.yaml"
-        key: "cpv-special-services"
+        - file: "for_cpv_registry.yaml"
+          key: "cpv-special-services"
       test: "value < 10_400_000"
       _description:
         nob: >-
@@ -483,8 +485,8 @@ params:
         lt_filter: "any"
         nature: "services"
       cpv_import:
-        file: "for_cpv_registry.yaml"
-        key: "cpv-health-social-services"
+        - file: "for_cpv_registry.yaml"
+          key: "cpv-health-social-services"
       test: "value < 10_400_000"
       _description:
         nob: >-
