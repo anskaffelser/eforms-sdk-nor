@@ -235,7 +235,7 @@ It does not encode procedure identity or version semantics.
 
 ### 4.1 Notice identity (`notice-identifier`)
 
-### 4.2 Versioning model (`norice-version`)
+### 4.2 Versioning model (`notice-version`)
 
 ### 4.3 What constitutes a new notice
 
