@@ -98,7 +98,7 @@ this document.
 | `doffin-identifier` | Notice | Stable | National notice ID (Norway). |
 | `publication-number` | Notice | Stable | EU publication ID (TED). |
 | `notice-identifier` | Notice | Stable | Notice identity across versions. |
-| `notice-version` | Notice version | Changes | Version of a notice. |
+| `notice-version` | Notice | Changes | Version of a notice. |
 | `procedure-identifier` | Procedure | Stable | Procedure identity across notices. |
 
 ### 2.1 Notice-level identifiers
@@ -173,6 +173,63 @@ A reference to a planning notice **MUST NOT** rely on a
 
 The reference **MUST** target a specific, versioned notice and
 **MUST NOT** target a procedure-level identifier.
+
+## 3. Doffin identifier
+
+The `doffin-identifier` is a national identifier assigned upon publication in
+the Doffin system.
+
+It is a human-readable publication identifier and is not part of the eForms
+data model.
+
+### 3.1 Scope and semantics
+
+The `doffin-identifier` identifies a specific published notice in Doffin.
+
+It **MUST NOT** be interpreted as a procedure-level identifier and
+**MUST NOT** be used as a substitute for `notice-identifier`.
+
+The `doffin-identifier` has no semantic meaning beyond identifying a specific
+publication event.
+
+The `doffin-identifier` is not part of the eForms notice content exchanged
+with TED.
+
+It is a Doffin-specific publication identifier, and is only resolvable within
+the Doffin ecosystem. 
+
+**Implementation notice**: In some integrations, the Doffin identifier may be
+used in file naming conventions (e.g. `<doffin-identifier>.xml`). This does not
+imply that the identifier is part of the eForms notice payload.
+
+### 3.2 Relationship to eForms identifiers
+
+Each `doffin-identifier` corresponds to exactly one combination of
+(`notice-identifier`, `notice-version`).
+
+Systems that require a stable, version-aware reference to a notice
+**SHOULD** rely on (`notice-identifier`, `notice-version`) rather than
+`doffin-identifier`.
+
+If a notice is republished as a new version, a new `doffin-identifier`
+is assigned.
+
+Consequently, the `doffin-identifier` **MUST NOT** be used to group
+multiple versions of the same notice.
+
+### 3.3 Format
+
+The current format of the `doffin-identifier` is:
+
+`YYYY-NNNNNN`
+
+where:
+
+- `YYYY` represents the publication year
+- `NNNNNN` is a sequential number assigned upon publication
+
+The format is intended for human readability and indexing purposes.
+It does not encode procedure identity or version semantics.
 
 ## License
 
