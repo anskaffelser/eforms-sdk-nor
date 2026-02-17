@@ -16,7 +16,7 @@ contributors:
   - organization_unit: "The Department of Management and Digitalization"
     people:
       - "Løken, Arne Magnus Tveita"
-	  
+
 dependencies:
   - name: "OP-TED/eForms-SDK"
     type: "git"
