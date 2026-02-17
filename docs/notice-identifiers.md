@@ -105,7 +105,7 @@ Within the notice-level category, this document further distinguishes between:
 
 These dimensions are orthogonal: notice-level identifiers may be either eForms
 semantic identifiers or publication reference identifiers, whereas
-procedure-level identifiers are always semantic identifiers.
+procedure-level identifi/TEDers are always semantic identifiers.
 
 Systems that store, export or process notice data **MUST** distinguish between
 these categories and **MUST NOT** use notice-level identifiers as substitutes
@@ -266,7 +266,7 @@ The format of the `doffin-identifier` is:
 
 where:
 
-- `YYYY` represents the publication year
+- `YYYY` represents the publication year, and
 - `NNNNNN` is a sequential number assigned upon publication
 
 The format is intended for human readability and indexing purposes.
@@ -312,7 +312,10 @@ and `notice-version`). Systems therefore **SHOULD NOT** rely on
 Linking **MUST** be based on eForms semantic identifiers.
 
 NOTE: The `publication-number` is typically presented in the form
-`XXXXXXXX-YYYY`. The format is defined by TED.
+`XXXXXXXX-YYYY`, where
+- `XXXXXXXX` is a sequential number assigned upon publication, and
+- `YYYY` represents the publication year.
+The format is defined by TED.
 
 Systems **MUST NOT** use `publication-number` as a substitute for
 `notice-identifier`, `notice-version`, `procedure-identifier`, or any
