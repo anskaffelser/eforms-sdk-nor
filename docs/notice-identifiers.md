@@ -313,8 +313,10 @@ Linking **MUST** be based on eForms semantic identifiers.
 
 NOTE: The `publication-number` is typically presented in the form
 `XXXXXXXX-YYYY`, where
+
 - `XXXXXXXX` is a sequential number assigned upon publication, and
 - `YYYY` represents the publication year.
+
 The format is defined by TED.
 
 Systems **MUST NOT** use `publication-number` as a substitute for
