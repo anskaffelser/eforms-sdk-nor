@@ -137,6 +137,27 @@ params:
           eller at klima- og miljøhensyn skal være blant de tre høyest
           prioriterte tildelingskriteriene der tildelingskriterier angis
           i prioritert rekkefølge. Alternativt kan dette erstattes med
-          klima- miljøkrav i kravspesifikasjonen. Unntaksbestemmelser finnes
+          klima- og miljøkrav i kravspesifikasjonen. Unntaksbestemmelser finnes
           for anskaffelser med uvesentlig klima- og miljøpåvirkning.
-            
+        nob_verify: false
+        nno: >-
+          Klima- og miljøomsyna i Anskaffingsforskrifta seier at klima-
+          og miljøomsyn skal vektes med minimum tretti prosent, eller at
+          klima- og miljøomsyn skal vere blant dei tre høyest prioriterte
+          tildelingskriteriane der tildelingskriteriar angjes i prioritert
+          rekkefølgje. Alternativt kan dette erstattast med klima- og
+          miljøkrav i kravspesifikasjonen. Bestemmingar om unntak finnes
+          for anskaffingar med uvesentleg klima- og miljøpåvirkning.
+        nno_verify: false
+        eng: >-
+          The climate and environmental considerations in the Norwegian
+          Public Procurement Regulations state that climate and environmental
+          considerations shall be weighted with at least thirty percent, or
+          that climate- and environmental considerations shall be among the
+          three highest prioritized award criteria where award criteria
+          are stated in order of importance. Alternatively, this may
+          be replaced with climate- and environmental considerations
+          in the technical specifications. Exemptions exist for
+          procurements with insignificant climate- and environmental
+          impacts.
+        eng_verify: false

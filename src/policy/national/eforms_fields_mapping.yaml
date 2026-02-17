@@ -1,13 +1,13 @@
 main_notice_language:
-  xpath: "cbc:NoticeLanguageCode"
+  xpath: "/*/cbc:NoticeLanguageCode"
   field_id: "BT-702(a)-notice"
 
 additional_notice_language:
-  xpath: "cac:AdditionalNoticeLanguage/cbc:ID"
+  xpath: "/*/cac:AdditionalNoticeLanguage/cbc:ID"
   field_id: "BT-702(b)-notice"
   
 notice_type: 
-  xpath: "/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"
+  xpath: "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"
   field_id: "OPP-070-notice"
 
 legal_basis_noid:
@@ -31,11 +31,11 @@ activity_authority:
   field_id: "BT-10-Procedure-Buyer"
 
 customization_id:
-  xpath: "/cbc:CustomizationID"
+  xpath: "/*/cbc:CustomizationID"
   field_id: "OPT-002-notice"
 
 estimated_value_proc:
-  xpath: "/*/cac:ProcurementProject[not(parent::cac:ProcurementProjectLot)]/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount"
+  xpath: "/cac:ProcurementProject[not(parent::cac:ProcurementProjectLot)]/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount"
   field_id: "BT-27-Procedure"
 
 estimated_value_part:
@@ -106,10 +106,30 @@ award_criterion_number_weight_lot:
   xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efbc:ParameterCode"
   field_id: "BT-5421-Lot"
   
+internal_identifier_lot:
+  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:ID"
+  field_id: "BT-22-Lot"
+
 identifier_lot:
   xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID"
-  field_id: "BT-22-Lot"
+  field_id: "BT-137-Lot"
 
 identifier_part:
   xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cbc:ID"
   field_id: "BT-22-Part"
+
+strategic_procurement_lot:
+  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='strategic-procurement']/cbc:ProcurementTypeCode"
+  field_id: "BT-06-Lot"
+  
+environmental_impact_lot:
+  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='environmental-impact']/cbc:ProcurementTypeCode"
+  field_id: "BT-774-Lot"
+  
+social_objective_lot:
+  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='social-objective']/cbc:ProcurementTypeCode"
+  field_id: "BT-775-Lot"
+
+innovative_acquisition_lot:
+  xpath: "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='innovative-acquisition']/cbc:ProcurementTypeCode"
+  field_id: "BT-776-Lot"

@@ -1,0 +1,144 @@
+---
+_rule:
+  domain: SP
+  scope: lot
+  severity: ERROR
+
+logic: cross_field_logic
+
+params:
+  context_node: "BT-137-Lot"
+  parent_key: "cac:ProcurementProjectLot/cac:ProcurementProject"
+  relations:
+    - type: exclusive_code
+      target_key: "strategic_procurement_lot"
+      exclusive_value: "none"
+      kind: exclusivity
+      _description:
+        nob: >-
+          'Ingen' hensyn som følger Europas strategiske prioriteringer
+          utelukker de andre kodeverdiene fra lista.
+        nob_verify: false
+        nno: >-
+          'Ingen' hensyn som følger Europas strategiske prioriteringar
+          utelukker dei andre kodeverdiane frå lista. 
+        nno_verify: false
+        eng: >-
+          'none' is an excluding code from the codelist for procurements
+          which align with Europan strategic priorities.
+        eng_verify: false
+    - type: unique_codes
+      context_node: "BT-06-Lot"
+      target_key: "strategic_procurement_lot"
+      kind: uniqueness
+      _description:
+        nob: >-
+          Hver kategori for type strategisk anskaffelse kan bare velges
+          én gang per konkurranse.
+        nob_verify: false
+        nno: >-
+          Hver kategori for type strategisk anskaffing kan bare velgjast
+          ein gong per konkurranse.
+        nno_verify: false
+        eng: >-
+          Each kind of strategic procurement can only be selected up
+          to once per lot.
+        eng_verify: false
+    - type: cross_field_list_requirement
+      kind: consistency
+      index: 1
+      trigger_key: "environmental_impact_lot"
+      target:
+        key: "strategic_procurement_lot"
+        required_value: "env-imp"
+      _description: 
+        nob: >-
+          Detaljerte koder om klima og miljø som strategisk hensyn
+          ved offentlige anskaffelser skal fremtre sammen med deres
+          mer overordnede slektninger.
+        nob_verify: false
+        nno: >-
+          Detaljerte koder om reduksjon av klima- og miljøpåvirkning som 
+          strategisk omsyn ved offentlege anskaffingar skal framtre saman med
+          deira meir overordna slektningar.
+        nno_verify: false
+        eng: >-
+          Detailed codes on reduction of environmental impacts as a strategic
+          procurement consideration must be accompanied by their
+          more abstract relatives.
+        eng_verify: false
+    - type: cross_field_list_requirement
+      kind: consistency
+      index: 2
+      trigger_key: "social_objective_lot"
+      target:
+        key: "strategic_procurement_lot"
+        required_value: "soc-obj"
+      _description: 
+        nob: >-
+          Detaljerte koder om oppnåelse av sosiale målsetninger som strategisk
+          hensyn ved offentlige anskaffelser skal fremtre sammen med deres
+          mer overordnede slektninger.
+        nob_verify: false
+        nno: >-
+          Detaljerte koder om oppnåing av sosiale målsetningar som strategisk
+          omsyn ved offentlege anskaffingar skal framtre saman med deira
+          meir overordna slektningar.
+        nno_verify: false
+        eng: >-
+          Detailed codes on fulfilment of social objectives as a strategic
+          procurement consideration must be accompanied by their
+          more abstract relatives.
+        eng_verify: false
+    - type: cross_field_list_requirement
+      kind: consistency
+      index: 3
+      trigger_key: "innovative_acquisition_lot"
+      target:
+        key: "strategic_procurement_lot"
+        required_value: "inn-proc"
+      _description: 
+        nob: >-
+          Detaljerte koder om innovasjon som strategisk hensyn
+          ved offentlige anskaffelser skal fremtre sammen med deres
+          mer overordnede slektninger.
+        nob_verify: false
+        nno: >-
+          Detaljerte koder om innovasjon som strategisk omsyn ved
+          offentlege anskaffingar skal framtre saman med deira
+          meir overordna slektningar.
+        nno_verify: false
+        eng: >-
+          Detailed codes on innovative acquisitions as a strategic
+          procurement consideration must be accompanied by their
+          more abstract relatives.
+    - type: cross_field_raw_trigger
+      kind: regulation_climate_considerations
+      trigger_from_external:
+        file: "award_criterion_norwegian_environmental.yaml"
+        rule_type: "environmental_logic"
+        exclude_strategies: ["env_exemption"]
+      target:
+        key: "strategic_procurement_lot"
+        required_value: "env-imp"
+      _description:
+        nob: >-
+          Dersom anskaffelsen etterlever klima- og miljøbestemmelsene
+          i norske lover og forskrifter, er de per definisjon i tråd
+          med Europas strategiske prioritering om reduksjon av
+          klima- og miljøpåvirkning ved offentlige anskaffelser.
+        nob_verify: false
+        nno: >-
+          Dersom anskaffinga etterlev omsyna om klima og miljø i Noregs
+          lover og forskriftar, er dei per definisjon i tråd med Europas
+          strategiske prioritering om reduksjon av klima- og miljøpåvirkning
+          ved offentlege anskaffingar.
+        nno_verify: false
+        eng: >-
+          If the procurement is compliant with the climate- and
+          environmental considerations of Norwegian Public Procurement
+          Regulations, the procurement is per definition aligned with
+          the European strategic priority of reducing climate- and
+          environmental impacts of public procurements.
+        eng_verify: false
+    

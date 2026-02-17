@@ -253,30 +253,30 @@ params:
       context:
         lb_scope: eu
         lt_filter: "any"
-        nature: "services"
+        nature: ["services", "supplies", "works"]
       exclude_cpv_import:
         - file: "foa_cpv_registry.yaml"
           key: "cpv-health-social-services"
       test: "value < 1_300_000"
       _description:
         nob: >-
-          Verdien av anskaffelsen av varer eller tjenester overstiger
-          verdigrensene i Anskaffelsesforskriften Del 1. Anskaffelsen
-          må derfor som minimum følge prosedyreregler for utlysning etter
-          Anskaffelsesforskriftens Del 1 og 2. 
+          Verdien av anskaffelsen av bygge- og anleggsarbeider, varer eller
+          tjenester overstiger verdigrensene i Anskaffelsesforskriften Del 1.
+          Anskaffelsen må derfor som minimum følge prosedyreregler for
+          utlysning etter Anskaffelsesforskriftens Del 1 og 2. 
         nob_verify: false
         nno: >-
-          Verdien av anskaffinga av varer eller tenester overstig terskelverdien
-          for Anskaffingsforskriftas Del 1. Anskaffinga må derfor som minimum
-          følgje prosedyrereglar for utlysing etter Anskaffingsforskriftas
-          Del 1 og 2.
+          Verdien av anskaffinga av byggje- og anleggsarbeidar, varer eller
+          tenester overstig terskelverdien for Anskaffingsforskriftas Del 1.
+          Anskaffinga må derfor som minimum følgje prosedyrereglar for utlysing
+          etter Anskaffingsforskriftas Del 1 og 2.
         nno_verify: false
         eng: >-
-          The value of the procured goods or services exceeds the threshold
-          value specified in Part 1 of the Norwegian Public Procurement
-          Regulations. The procurement therefore must, at least, follow
-          the procedure rules stated in Parts 1 and 2 of the Norwegian Public
-          Procurement Regulations.
+          The value of the procured works, goods or services exceeds the
+          threshold value specified in Part 1 of the Norwegian Public
+          Procurement Regulations. The procurement therefore must, at least,
+          follow the procedure rules stated in Parts 1 and 2 of the Norwegian
+          Public Procurement Regulations.
         eng_validate: false
         
     # --- KON: Bygge- og anleggsarbeider (works) ---

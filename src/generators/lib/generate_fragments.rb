@@ -626,7 +626,7 @@ module FragmentHandlers
                        end
 
                        # Sy sammen med OR
-                       combined_strategies = "(#{xpath_strategies.compact.join(" #{raw_test['operator']} ")})"
+                       combined_strategies = "(#{xpath_strategies.compact.join(" #{raw_test['operator'].downcase} ")})"
                        # 4. Håndter 'condition' (f.eks. count > 1)
                        if raw_test['condition'] == 'count > 1'
                          "if (count(#{prefix}/#{child_node}) > 1) then #{combined_strategies} else true()"
@@ -656,53 +656,143 @@ module FragmentHandlers
   def self.cross_field_logic(params, meta, context)
     mapping = context[:mapping]
     result = {}
-    context_node = params['context_node'] || "ND-Root"
-    result[context_node] ||= []
-
+    
+    raw_context_node = params['context_node'] || "ND-Root"
+    parent_key = params['parent_key'] || ""
+    anchor_tag = parent_key.split('/').first
+    
+    # Beholder din dynamiske definisjon
+    dynamic_anchor = anchor_tag.to_s.empty? ? "" : "(ancestor-or-self::#{anchor_tag})[last()]"
+  
+    result[raw_context_node] ||= []
+  
     patterns = {
-      'mutual_existence' => [
-        { key: 'parent_missing', test: "not({{child}}) or exists({{parent}})" },
-        { key: 'child_missing',  test: "not({{parent}}) or (count({{container}}) = count({{child}}))" }
-      ]
+      'exclusive_code' => [{ key: '_description', test: "if ({{target_ref}}[normalize-space(.) = '{{exclusive_value}}']) then (count({{target}}) = 1) else true()" }],
+      'unique_codes' => [{ key: '_description', test: "count({{target}}) = count(distinct-values({{target}}))" }],
+      'cross_field_list_requirement' => [{ key: "_description", test: "if (exists({{trigger}})) then (exists({{target}}[normalize-space(.) = '{{required_value}}'])) else true()" }],
+      'cross_field_raw_trigger' => [{ key: '_description', test: "if ({{trigger}}) then (exists({{target}}[normalize-space(.) = '{{required_value}}'])) else true()" }]
     }
-
-    global_offset = -1
-
-    Array(params['relations']).each do |rel|
-      pattern_templates = patterns[rel['type']] || raise("Ukjent logikk-type: #{rel['type']}")
+  
+    get_relative_path = ->(field_id) {
+      entry = mapping[field_id] || mapping.values.find { |v| v['field_id'] == field_id }
+      full_xpath = entry ? entry['xpath'] : ".//#{field_id}"
       
-      paths = {
-        'parent'    => mapping.dig(rel['parent_key'], 'xpath'),
-        'child'     => mapping.dig(rel['child_key'], 'xpath'),
-        'container' => mapping.dig(rel['container_key'], 'xpath')
-      }
-
+      if !anchor_tag.to_s.empty?
+        if full_xpath.include?(anchor_tag)
+          # Hvis ankeret finnes, gjør som før
+          relative_part = full_xpath.split(anchor_tag).last
+          sep = relative_part.start_with?('[') ? "" : "/"
+          "#{dynamic_anchor}#{sep}#{relative_part}".gsub(/\/+/, '/')
+        else
+          # DYNAMISK FIX: Hvis ankeret mangler i stien, bruk descendant axis (//) 
+          # for å koble ankeret til feltet. Dette fyller gapet uten hardkoding.
+          clean_field_path = full_xpath.sub(/^[\.\/]*/, '')
+          "#{dynamic_anchor}//#{clean_field_path}"
+        end
+      else
+        full_xpath.sub(/^\/\*/, '')
+      end
+    }
+  
+    global_offset = -1
+  
+    Array(params['relations']).each do |rel|
+      paths = {}
+  
+      # --- 1. MILJØ-TRIGGER (R004) ---
+      if rel['trigger_from_external']
+        ext_cfg = rel['trigger_from_external']
+        ext_path = File.join(context[:base], "rules", ext_cfg['file'])
+        
+        if File.exist?(ext_path)
+          ext_data = YAML.load_file(ext_path)
+          external_env_logic = ext_data.dig('params', 'rules')&.find { |r| r['test'].is_a?(Hash) && r.dig('test', 'type') == ext_cfg['rule_type'] }
+  
+          if external_env_logic
+            active_strats = external_env_logic.dig('test', 'strategies').reject { |s| Array(ext_cfg['exclude_strategies']).include?(s['id']) }
+            
+            xpath_parts = active_strats.map do |strat|
+              find_mapped = ->(id) { mapping[id] || mapping.values.find { |v| v['field_id'] == id } }
+              coll_node_tag = strat.dig('collection', 'node')
+              
+              # coll_path starter nå med (ancestor::...)[last()]
+              coll_path = get_relative_path.call(coll_node_tag)
+  
+              preds = strat.dig('collection', 'filter').map do |f|
+                f_entry = find_mapped.call(f['field'])
+                if f_entry
+                  rel_f_path = f_entry['xpath'].split(coll_node_tag).last.sub(/^\//, '')
+                  "#{rel_f_path} = '#{f['value']}'"
+                else
+                  "#{f['field']} = '#{f['value']}'"
+                end
+              end.join(' and ')
+  
+              val_id = strat['sum_field'] || strat.dig('collection', 'sum_field') || strat['sort_field']
+              val_entry = find_mapped.call(val_id)
+              
+              # FIKS: Aldri start val_final_path med et punktum!
+              val_final_path = if val_entry
+                rel_v = val_entry['xpath'].split(coll_node_tag).last
+                # Tvinger en ren slash-start så vi får ]/cac:Subordinate...
+                rel_v.start_with?('/') ? rel_v : "/#{rel_v}"
+              else
+                "/efbc:ParameterNumeric"
+              end
+  
+              if strat['type'] == "sum_comparison"
+                # Vi caster hver enkelt node til number() inne i sum-funksjonen
+                "sum(#{coll_path}[#{preds}]#{val_final_path}/number(.)) #{strat['operator']} #{strat['target_sum']}"
+              else
+                "exists(#{coll_path}[#{preds}])"
+              end
+            end
+            paths['trigger'] = "(#{xpath_parts.join(' or ')})"
+          end
+        end
+      end
+  
+      # --- 2. PATH EKSTRAKSJON ---
+      ['trigger', 'target', 'parent', 'child', 'container'].each do |key|
+        field_ref = (key == 'target') ? (rel.dig('target', 'key') || rel['target_key']) : rel["#{key}_key"]
+        next unless field_ref
+        next if key == 'trigger' && paths['trigger']
+  
+        xpath = (field_ref == raw_context_node) ? "." : get_relative_path.call(field_ref)
+        paths[key] = xpath
+        paths["#{key}_ref"] = xpath
+      end
+  
+      # --- 3. GENERERING ---
+      pattern_templates = patterns[rel['type']] || next
       pattern_templates.each do |template|
         test_expr = template[:test].dup
-        paths.each { |id, xpath| test_expr.gsub!("{{#{id}}}", xpath) if xpath }
-
-        current_stable_index = (rel['index'].to_i) + global_offset
+        test_expr.gsub!("{{exclusive_value}}", rel['exclusive_value'].to_s)
+        test_expr.gsub!("{{required_value}}", (rel.dig('target', 'required_value') || rel['required_value']).to_s)
         
-        # Henter ut meldings-objektet (nob, nno, eng)
-        msg_obj = rel[template[:key]]
+        paths.each { |id, xpath| test_expr.gsub!("{{#{id}}}", xpath.to_s) }
+  
+        # SISTE RENS FOR SAXON: 
+        # Fjerner ulovlige punktum etter predikater: ] .// -> ]/
+        # Sikrer at (ancestor...)[last()][filter] blir (ancestor...)[last()]/[filter]
+        final_test = NationalRulesHelpers.clean_xpath(test_expr)
+        # 1. Fjern ulovlige punktum midt i stier
+        final_test.gsub!('].//', ']/')
         
-        # Her henter vi eng-strengen direkte siden det er den du vil ha ut
-        message = msg_obj['eng'] || "Missing English message"
-
-        result[context_node] << {
-          'id'      => NationalRulesHelpers.rule_id(
-            domain: meta['domain'],
-            scope:  rel['scope'] || meta['scope'] || 'global',
-            kind:   meta['kind']&.to_sym || :consistency,
-            index:  current_stable_index
-          ),
-          'test'    => NationalRulesHelpers.clean_xpath(test_expr),
-          'message' => message
+        # 2. Fjern feilaktige slasher foran filtre (Denne rydder opp etter alle feil)
+        final_test.gsub!(')/[', ')[')
+        final_test.gsub!('last()]/[', 'last()][')
+        
+        # 3. Fixer helpers sin iver etter å splitte akser
+        final_test.gsub!(/ancestor\s*-\s*or\s*-\s*self/, 'ancestor-or-self')
+  
+        result[raw_context_node] << {
+          'id'      => NationalRulesHelpers.rule_id(domain: meta['domain'], scope: rel['scope'] || 'lot', kind: (rel['kind'] || meta['kind'])&.to_sym, index: (rel['index'].to_i + global_offset)),
+          'test'    => final_test,
+          'message' => (rel[template[:key]] || rel['_description'])&.dig('eng') || "Missing message"
         }
         global_offset += 1
       end
-      
-      # Justerer offset så neste relasjon fortsetter bokstavrekken
       global_offset -= 1 
     end
     result

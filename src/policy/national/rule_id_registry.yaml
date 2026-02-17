@@ -400,5 +400,25 @@ TH:
       health_social_services: 22
       works: 23
         
-  
-    
+SP:
+  _name: "Strategic Procurements"
+  _description:
+    nob: >-
+      Tilstedeværelse av informasjon om hvordan, hvis aktuelt, anskaffelsen
+      har mål eller delmål som sammenfaller med Europas strategiske
+      prioriteringer.
+    nob_verify: false
+    nno: >-
+      Tilstedeverelse av informasjon om korleis, i fall det er aktuelt,
+      anskaffinga har mål eller delmål som samsvarar med Europas
+      strategiske prioriteringar.
+    nno_verify: false
+    eng: >-
+      Presence of information of how, if applicable, the procurement has
+      (partial) goals which align with Europe's strategic priorities.
+    eng_verify: false
+  lot:
+    exclusivity: 1
+    uniqueness: 2
+    consistency: 3
+    regulation_climate_considerations: 4
