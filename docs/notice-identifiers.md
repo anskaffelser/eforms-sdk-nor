@@ -32,6 +32,41 @@ references:
     url: "https://docs.ted.europa.eu/eforms/latest/index.html"
 ---
 
+# Notice identifiers
+
+## 1. Purpose and scope
+
+This document explains how identifiers are used for procurement notices in the Norwegian implementation of eForms, with particular focus on:
+
+- how Doffin identifiers relate to eForms notice identifiers
+- how TED identifiers relate to eForms notice identifiers
+- how notice versioning works in eForms (UUID4 + version)
+- how related notices can be linked together across procurement phases,
+  corrigenda, and cancellations
+- how procedure-level identifiers 
+  (e.g. `ContractFolderID`/`procedure-identifier`) should be interpreted and
+  used
+  
+The intended audience includes both functional and technical stakeholders, such
+as:
+- contracting authorities and procurement specialists
+- system integrators
+- support tool vendors and downstream data consumers
+
+### In scope
+
+- conceptual explanation of the identifier model
+- recommended practices for grouping and linking notices
+- examples illustrating common scenarios
+
+### Out of scope
+
+Detailed XML field mappings, schema (XSD) structure, and BT-code references
+are intentionally kept out of this document to preserve readability.
+
+Technical details are provided in separate documents (see references at the
+end of this file).
+
 ## License
 © 2026 The Norwegian Agency for Finance and Public Management (DFØ).
 
