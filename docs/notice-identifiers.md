@@ -73,22 +73,33 @@ end of this file).
 
 ### Normative language
 
-The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, and **MAY**
-in this document are to be interpreted as described in RFC 2119.
+The key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**,
+**SHOULD**, **SHOULD NOT**, **RECOMMENDED**, **MAY**, and **OPTIONAL** in this
+document are to be interpreted as described in RFC 2119 and RFC 8174.
+
+These words are normative only when they appear in all capitals.
+
+In addition, the term **NOTE** is used to indicate non-normative information.
+
+### Terminology
+
+- **Notice**: a published eForms notice.
+- **Procedure**: the underlying procurement process identified by
+  `procedure-identifier`.
 
 ## 2. Overview: identifier landscape
 
-This section describes and defines the identifier model used in the Norwegian
-implementation of eForms. 
+This section defines the identifier model used in the Norwegian implementation
+of eForms. 
 
 Identifiers are classified into two categories:
 
 - notice-level identifiers
 - procedure-level identifiers
 
-Implementations **MUST** distinguish between these categories and **MUST NOT**
-use notice-level identifiers as substitutes for procedure-level identifiers,
-unless explicitly stated.
+Systems that store, export or process notice data **MUST** distinguish between
+these categories and **MUST NOT** use notice-level identifiers as substitutes
+for procedure-level identifiers.
 
 The table below provides a high-level overview of the identifiers covered by
 this document.
@@ -118,26 +129,24 @@ The primary notice-level identifiers are:
 The combination of (`notice-identifier`, `notice-version`) **MUST** be used when
 referencing a specific published state of an eForms notice.
 
-Systems that reference a notice version **MUST** include both `notice-identifier`
-and `notice-version`.
+When referencing a specific notice version, systems **MUST** include both
+`notice-identifier` and `notice-version`.
 
 The `notice-identifier` **MUST** remain stable across notice updates, while
 `notice-version` **MUST** change when a notice is republished in a new version,
 including corrigenda.
 
-Some documentation refers to a `business-identifier`, which is a string
+In some contexts, the term `business-identifier` is used to denote a string
 representation derived from `notice-identifier` and `notice-version`.
 
-Implementations **MUST NOT** treat the `business-identifier` as a separate
-semantic identifier. It is a representation of the same underlying
-(`notice-identifier`, `notice-version`) pair.
+Systems **MUST NOT** treat the `business-identifier` as a distinct identifier.
 
 ## 2.2 Procedure-level identifier
 
 The `procedure-identifier` identifies the underlying procurement procedure.
 
-A procurement procedure is established when a competition notice
-(e.g. `ContractNotice`) is published. 
+A procurement procedure **MUST** be considered established when a competition
+notice (e.g. `ContractNotice`) is published. 
 
 The `procedure-identifier` **MUST** remain stable across:
 
@@ -146,18 +155,15 @@ The `procedure-identifier` **MUST** remain stable across:
 - procurement phases
 - related notices belonging to the same procurement process
 
-Systems that group notices belonging to the same procurement procedure
-**MUST** use `procedure-identifier` as the primary grouping key.
+Systems **MUST** use `procedure-identifier` as the primary grouping key
+when grouping notices belonging to the same procurement procedure.
 
-Systems **MUST NOT** derive procedure identity from
-(`notice-identifier`, `notice-version`).
-
-An implementation that groups notices solely by `notice-identifier` is
-non-compliant with this specification.
+Systems **MUST NOT** use `notice-identifier` (with or without `notice-version`)
+as a procedure-level grouping key.
 
 ## 2.3 Referencing planning notices
 
-A planning notice (`PriorInformationNotice`) does *not* establish a procurement
+A planning notice (`PriorInformationNotice`) does not establish a procurement
 procedure and therefore **MUST NOT** contain a `procedure-identifier`.
 
 Links between planning notices and subsequent notices
@@ -179,8 +185,14 @@ The reference **MUST** target a specific, versioned notice and
 The `doffin-identifier` is a national identifier assigned upon publication in
 the Doffin system.
 
-It is a human-readable publication identifier and is not part of the eForms
-data model.
+It is a human-readable national publication identifier and is not part of the
+eForms notice payload exchanged with TED.
+
+NOTE: Although the `doffin-identifier` is not part of the eForms payload
+exchanged with TED, TED publications can include hyperlinks to the
+corresponding Doffin publication. In such cases, the `doffin-identifier`
+can appear as part of the URL. This does not imply that it forms part of
+the eForms notice data model.
 
 ### 3.1 Scope and semantics
 
@@ -190,15 +202,12 @@ It **MUST NOT** be interpreted as a procedure-level identifier and
 **MUST NOT** be used as a substitute for `notice-identifier`.
 
 The `doffin-identifier` has no semantic meaning beyond identifying a specific
-publication event.
-
-The `doffin-identifier` is not part of the eForms notice content exchanged
-with TED.
+publication instance.
 
 It is a Doffin-specific publication identifier, and is only resolvable within
 the Doffin ecosystem. 
 
-**Implementation notice**: In some integrations, the Doffin identifier may be
+**Implementation note**: In some integrations, the Doffin identifier may be
 used in file naming conventions (e.g. `<doffin-identifier>.xml`). This does not
 imply that the identifier is part of the eForms notice payload.
 
@@ -219,7 +228,7 @@ multiple versions of the same notice.
 
 ### 3.3 Format
 
-The current format of the `doffin-identifier` is:
+The format of the `doffin-identifier` is:
 
 `YYYY-NNNNNN`
 
