@@ -231,6 +231,56 @@ where:
 The format is intended for human readability and indexing purposes.
 It does not encode procedure identity or version semantics.
 
+## 4. eForms notice identifier and versioning
+
+### 4.1 Notice identity (`notice-identifier`)
+
+### 4.2 Versioning model (`norice-version`)
+
+### 4.3 What constitutes a new notice
+
+### 4.4 What constitutes a new version of a notice
+
+### 4.5 Lifecycle of a notice (publication, update, corrigendum, cancellation)
+
+### 4.6 Representation and derived identifiers (e.g. `business-identifier`)
+
+## 5. Linking related notices
+
+### 5.1 Linking notices within the same procedure
+
+### 5.2 Linking competition and result notices
+
+### 5.3 Linking corrigenda
+
+### 5.4 Linking planning notices retrospectively
+
+### 5.5 Version-aware referencing requirements
+
+## 6. Procedure identity across the procurement lifecycle
+
+### 6.1 Establishment of a procedure
+
+### 6.2 Stability of `procedure-identifier`
+
+### 6.3 Multi-phase procurement processes
+
+### 6.4 Cancellation and re-publication scenarios
+
+### 6.5 Edge cases and non-compliant patterns
+
+## 7. Interoperability considerations
+
+### 7.1 National vs. EU identifiers
+
+### 7.2 Mapping between Doffin and TED contexts
+
+### 7.3 Data export and API considerations
+
+### 7.4 Common implementation pitfalls
+
+## 8. Summary of normative requirements
+
 ## License
 
 © 2026 The Norwegian Agency for Finance and Public Management (DFØ).
