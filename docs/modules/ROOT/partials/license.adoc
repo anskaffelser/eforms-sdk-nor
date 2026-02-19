@@ -1,0 +1,13 @@
+// SPDX-License-Identifier: CC-BY-4.0
+// SPDX-FileCopyrightText: 2026-present The Norwegian Agency for Finance and Public Management (DFØ)
+[appendix]
+[#license]
+== License
+
+[NOTE]
+====
+© {copyright-year} {org-name}.
+
+This documentation is licensed under
+{license-url}[{license-name}] (SPDX: {license-spdx}).
+====

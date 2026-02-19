@@ -1,0 +1,23 @@
+// SPDX-License-Identifier: CC-BY-4.0
+// SPDX-FileCopyrightText: 2026-present The Norwegian Agency for Finance and Public Management (DFØ) 
+[appendix]
+[#attribution]
+== Attribution / sources
+
+.Build-time dependency
+* {ted-sdk-repo}[{ted-sdk-name}]
+  ({ted-sdk-license-url}[{ted-sdk-license-name}], SPDX: {ted-sdk-license-spdx}). +
+  {ted-sdk-usage}.
+
+.Upstream references
+* {ted-docs-url}[{ted-docs-name}]
+* {eforms-docs-url}[{eforms-docs-name}]
+
+[NOTE]
+====
+This document may reference upstream specifications and documentation for
+context and interoperability guidance.
+Upstream materials remain under their respective licenses.
+
+Material derived from {ted-office-name} ({ted-office-short}).
+====

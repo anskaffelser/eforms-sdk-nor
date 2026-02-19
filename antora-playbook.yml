@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2026-present The Norwegian Agency for Finance and Public Management (DFØ)
+---
+site:
+  title: Norwegian eForms Documentation
+  start_page: eforms-sdk-nor-docs::notice-identifiers.adoc
+content:
+  sources:
+    - url: .
+      branches: HEAD
+      start_path: docs
+asciidoc:
+  attributes:
+    site-headline: "Norwegian eForms SDK" 
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true

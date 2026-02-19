@@ -1,0 +1,47 @@
+// Organization and source
+:org-name: The Norwegian Agency for Finance and Public Management (DFØ)
+:org-url: https://www.dfo.no
+:org-unit: The Department of Management and Digitalization
+:source-repo-name: anskaffelser/eforms-sdk-nor
+:source-repo-url: https://github.com/anskaffelser/eforms-sdk-nor
+:copyright-year: {docyear} 
+// This project's license
+:license-spdx: CC-BY-4.0
+:license-name: Creative Commons Attribution 4.0 International
+:license-url: https://creativecommons.org/licenses/by/4.0/
+// Project name
+:docset-name: Norwegian eForms SDK Documentation
+// TOC
+:toc: left
+:toc-title: Table of Contents
+:toclevels: 3
+// Section numbering
+:sectnums:
+:sectnumlevels: 4
+// Styling, UX
+:icons: font
+:source-highlighter: rouge
+:experimental:
+:hide-uri-scheme:
+// Normative language
+:rfc2119-url: https://www.rfc-editor.org/rfc/rfc2119
+:rfc8174-url: https://www.rfc-editor.org/rfc/rfc8174
+// References
+:ted-docs-name: TED Developer Docs
+:ted-docs-url: https://docs.ted.europa.eu/home/index.html
+:eforms-docs-name: eForms documentation
+:eforms-docs-url: https://docs.ted.europa.eu/eforms/latest/index.html
+// SDK dependencies
+:ted-sdk-name: OP-TED/eForms-SDK
+:ted-office-name: Publications Office of the European Union
+:ted-office-short: TED
+:ted-sdk-repo: https://github.com/OP-TED/eForms-SDK
+:ted-sdk-usage: Build-time input (schemas/codelists)
+:ted-sdk-license-name: EU Public Licence v1.2
+:ted-sdk-license-spdx: EUPL-1.2
+:ted-sdk-license-url: https://eupl.eu/1.2/en
+// Contributors
+:contrib-amtl: Løken, Arne Magnus Tveita ({org-name}: {org-unit})
+:contrib-mabe: Bech, Malin Mæland ({org-name}: {org-unit}) 
+// Common xref targets
+:doc-notice-identifiers: xref:notice-identifiers.adoc[Notice identifiers]

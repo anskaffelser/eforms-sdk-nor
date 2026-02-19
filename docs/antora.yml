@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: 2026-present The Norwegian Agency for Finance and Public Management (DFØ)
+---
+name: eforms-sdk-nor-docs
+title: "Documentation for the Norwegian eForms SDK"
+version: "0.1"
+start_page: ROOT:notice-identifiers.adoc
+nav:
+  - modules/ROOT/nav.adoc
