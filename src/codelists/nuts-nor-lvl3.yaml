@@ -10,12 +10,12 @@ NO071:
   name: Nordland
   history: []
   nob_verify: false
-NO074:
-  name: Troms og Finnmark
+NO072:
+  name: Troms/Romsa/Tromssa
   history: []
   nob_verify: false
-NO08:
-  name: Oslo og Viken
+NO073:
+  name: Finnmark/Finnmárku/Finmarkku
   history: []
   nob_verify: false
 NO081:
@@ -34,12 +34,16 @@ NO085:
   name: Buskerud
   history: []
   nob_verify: false
-NO091:
-  name: Vestfold og Telemark
-  history: []
-  nob_verify: false
 NO092:
   name: Agder
+  history: []
+  nob_verify: false
+NO093:
+  name: Vestfold
+  history: []
+  nob_verify: false
+NO094:
+  name: Telemark
   history: []
   nob_verify: false
 NO0A1:
