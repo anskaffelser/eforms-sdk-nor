@@ -1,5 +1,7 @@
-sdk_minor: '1.13'
-sdk_patch: '2'
+# OP-TED eForms SDK properties
+sdk_minor: '1.14'
+sdk_patch: '1'
 
+# eForm SDK NOR properties
 versions:
-  - 1.13.2
+  - 1.14.1
