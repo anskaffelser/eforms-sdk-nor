@@ -1,6 +1,6 @@
 33:
   name: Contract award notice – general directive, light regime
-  nob: Melding om kontraktstildeling – generelt direktiv, lysregime
+  nob: Melding om kontraktstildeling – generelt direktiv, forenklet regime
   history:
   - name: Contract award notice – general directive, light regime
     history: []
@@ -8,7 +8,7 @@
   nob_verify: false
 34:
   name: Contract award notice – sectoral directive, light regime
-  nob: Kunngjøring av kontraktstildeling – sektordirektiv, lysregime
+  nob: Kunngjøring av kontraktstildeling – sektordirektiv, forenklet regime
   history:
   - name: Contract award notice – sectoral directive, light regime
     history: []
@@ -16,7 +16,7 @@
   nob_verify: false
 35:
   name: Concession award notice – concessions directive, light regime
-  nob: Varsel om konsesjonstildeling – konsesjonsdirektiv, lysregime
+  nob: Varsel om konsesjonstildeling – konsesjonsdirektiv, forenklet regime
   history:
   - name: Concession award notice – concessions directive, light regime
     history: []
