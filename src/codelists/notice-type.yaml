@@ -43,6 +43,14 @@ can-social:
   nob: Melding om kontrakt eller konsesjonstildeling – forenklet regime
   history:
   - name: Contract or concession award notice – light regime
+    nob: Melding om kontrakt eller konsesjonstildeling – lysregime
+    history: []
+    nob_verify: false
+  - name: Contract or concession award notice – light regime
+    nob: Melding om kontrakt eller konsesjonstildeling – lysregime
+    history: []
+    nob_verify: false
+  - name: Contract or concession award notice – light regime
     history: []
     nob_verify: false
   nob_verify: false
@@ -79,6 +87,10 @@ cn-social:
   nob: Kontraktsoppsigelse – forenklet regime
   history:
   - name: Contract notice – light regime
+    nob: Kontraktsoppsigelse – enkelt regime
+    history: []
+    nob_verify: false
+  - name: Contract notice – light regime
     history: []
     nob_verify: false
   nob_verify: false
@@ -114,6 +126,10 @@ pin-cfc-social:
   name: Prior information notice or a periodic indicative notice used as a call for competition – light regime
   nob: Forhåndsvarsel eller en periodisk veiledende melding som brukes som en oppfordring til konkurranse – forenklet regime
   history:
+  - name: Prior information notice or a periodic indicative notice used as a call for competition – light regime
+    nob: Forhåndsvarsel eller en periodisk veiledende melding som brukes som en oppfordring til konkurranse – lysregime
+    history: []
+    nob_verify: false
   - name: Prior information notice or a periodic indicative notice used as a call for competition – light regime
     history: []
     nob_verify: false
