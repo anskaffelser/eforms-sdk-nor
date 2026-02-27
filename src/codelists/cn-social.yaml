@@ -1,15 +1,23 @@
 20:
   name: Contract notice – general directive, light regime
-  nob: Kunngjøring av kontrakt – generelt direktiv, enkelt regime
+  nob: Kunngjøring av kontrakt – generelt direktiv, forenklet regime
   history:
+  - name: Contract notice – general directive, light regime
+    nob: Kunngjøring av kontrakt – generelt direktiv, enkelt regime
+    history: []
+    nob_verify: false
   - name: Contract notice – general directive, light regime
     history: []
     nob_verify: false
   nob_verify: false
 21:
   name: Contract notice – sectoral directive, light regime
-  nob: Kunngjøring av kontrakt – sektordirektiv, enkelt regime
+  nob: Kunngjøring av kontrakt – sektordirektiv, forenklet regime
   history:
+  - name: Contract notice – sectoral directive, light regime
+    nob: Kunngjøring av kontrakt – sektordirektiv, enkelt regime
+    history: []
+    nob_verify: false
   - name: Contract notice – sectoral directive, light regime
     history: []
     nob_verify: false

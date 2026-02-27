@@ -8,8 +8,12 @@ cn-desg:
   nob_verify: false
 cn-social:
   name: Contract notice – light regime
-  nob: Kontraktsoppsigelse – enkelt regime
+  nob: Kontraktsoppsigelse – forenklet regime
   history:
+  - name: Contract notice – light regime
+    nob: Kontraktsoppsigelse – enkelt regime
+    history: []
+    nob_verify: false
   - name: Contract notice – light regime
     history: []
     nob_verify: false
@@ -24,8 +28,12 @@ cn-standard:
   nob_verify: false
 pin-cfc-social:
   name: Prior information notice or a periodic indicative notice used as a call for competition – light regime
-  nob: Forhåndsvarsel eller en periodisk veiledende melding som brukes som en oppfordring til konkurranse – enkelt regime
+  nob: Forhåndsvarsel eller en periodisk veiledende melding som brukes som en oppfordring til konkurranse – forenklet regime
   history:
+  - name: Prior information notice or a periodic indicative notice used as a call for competition – light regime
+    nob: Forhåndsvarsel eller en periodisk veiledende melding som brukes som en oppfordring til konkurranse – enkelt regime
+    history: []
+    nob_verify: false
   - name: Prior information notice or a periodic indicative notice used as a call for competition – light regime
     history: []
     nob_verify: false
