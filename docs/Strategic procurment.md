@@ -8,3 +8,4 @@ In the following you can read about the framwork and how the rules are implement
 ## Environmental impact and green procurement
 In Norway we have a seperate law to ensure green procurement. FOA § 7-9´s 
 We enforce a link between FOA Section 7-9 and BT-06 'env-imp', in that the former implies that the latter is also present. This is based on the fact that Norway's FOA Section 7-9 is stricter than the EU definitions for procurements which intend to reduce environmental impacts, thus, the custom FOA Section 7-9 codes indicating compliance with FOA will remain the trigger for environmental highlighting for the time being.
+test
