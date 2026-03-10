@@ -1,4 +1,4 @@
-#Strategic procurement
+# Strategic procurement 
 Strategic procurement is a term that refers to the EU and governments' desire to use public procurement for change and improvement. In the eForms framework there are rules and fields to give the content a structure. In that context we want to highlight notices that **intend** to achieve strategic objectives. 
 
 We want to provide graphical labels on, and, in time, filtering opportunities on Doffin, for public procurement notices where triggering green, innovation and/or fulfilling social objectives is a (partial) objective for the procurement.​
@@ -14,4 +14,3 @@ In Norway we do not have a seperate law to ensure green procurement, and therefo
 
 ## Social objectives
 Likewise the framwork for innovative procurement, the framwork for Social objectives is a good starting point for measuring social objectives. If BT-775 (codelist) is fullfilled, it leads to fulfillmet of the *strategic procurement* code BT-06. Label with *social obj* icon occurs when BT-776 or BT-06. is present in the CN og CAN notice.
-
