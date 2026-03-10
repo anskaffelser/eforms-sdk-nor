@@ -5,23 +5,28 @@ This repository contains the resources used to create a modified edition of the 
 Please see the [releases page](https://github.com/anskaffelser/eforms-sdk-nor/releases) to download modified distributions of the [official eForms SDK](https://github.com/OP-TED/eForms-SDK) for use in the Norwegian market. For all documentation of how to use and interpret eForms please refer to the [official eForms documentation](https://docs.ted.europa.eu/home/index.html).
 
 ## The Doffin API
+The Doffin API has different features and also terms of use. 
+We offer **two types** of API. 
+*The Notices API* is intended for those who will submit quality-assured notices to TED and Doffin.no. This is typically service providers of competition tools. To access this API we need a process in place to ensure you are ready to go to market. 
+*The Publicum API* is intended to those who will access notices at Doffin.no in a machine readable format, such as search and download. This API has a wider scope of users. Both private and public enterprises. Some also create third-party solutions. 
 
 The Doffin API is available at the following endpoints:
-* For testing: [https://dof-notices-test-api.developer.azure-api.net/](https://dof-notices-test-api.developer.azure-api.net/)
-* For production: [https://dof-notices-prod-api.developer.azure-api.net/](https://dof-notices-prod-api.developer.azure-api.net/)
+* [Public API](https://dof-notices-prod-api.developer.azure-api.net/api-details#api=651eeff38be0c56022ac741d&operation=65015cc43a2729c87e6be1a8) used to search for and download published notices.
 
-These are hosted as two independent systems, so you need to register for each environment that you want to access. For example, to start using using the test/dev API's you first have to [sign up](https://dof-notices-dev-api.developer.azure-api.net/signup) as a user, log in and [create one or more subscriptions](https://dof-notices-dev-api.developer.azure-api.net/profile).
+* [Notices API test](https://dof-notices-test-api.developer.azure-api.net/) for testing
+* [Notices API prod](https://dof-notices-prod-api.developer.azure-api.net/api-details#api=eform-api&operation=645cce8e4ffd2d6d5768181e).
+
+These are hosted as two independent systems, so you need to register for each environment that you want to access. For example, to start using using the test/prod API's you first have to [sign up](https://dof-notices-test-api.developer.azure-api.net/signup) as a user, log in and [create one or more subscriptions](https://dof-notices-test-api.developer.azure-api.net/signin).
+
 
 Each endpoint provides two APIs:
 * [Notices API](https://dof-notices-test-api.developer.azure-api.net/api-details#api=eform-api&operation=645cce8e4ffd2d6d5768181e) used to submit, stop, validate and translate notices. This API mimics the [TED API](https://docs.ted.europa.eu/api/index.html) as closely as possible.
-* [Public API](https://dof-notices-test-api.developer.azure-api.net/) used to search for and download published notices.
-
 At [https://test.doffin.no/](http://test.doffin.no/) you can find the submitted published notices in a a userfriendly interface.
 
 ### Important regarding the Notices API
 Once you have created a subscription for the Notices API please contact [ingunn.ostrem@dfo.no](mailto:ingunn.ostrem@dfo.no) to get the subscription activated.
 
-For now we are not returning any validation results. Please make sure that you are using valid and well-formed eForms messages before testing the integration. To test for validity and well-formness during development please use:
+For now we are **not returning** any validation results. Please make sure that you are using valid and well-formed eForms messages before testing the integration. To test for validity and well-formness during development please use:
 
   For development and production environments we strongly recommend:
 * the validation function in the Notices API
