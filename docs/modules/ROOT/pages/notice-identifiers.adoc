@@ -12,6 +12,7 @@ endif::[]
 :revnumber: 0.1
 :revdate: 2026-02-17
 :author: {contrib-amtl}
+:req-counter: 0
 
 == Purpose and scope
 
@@ -77,7 +78,7 @@ Identifiers are classified into two categories:
 Within the notice-level category, this document further distinguishes between:
 
 * eForms semantic identifiers (forming part of the eForms data model), and
-* publication reference identifiers 
+* publication reference identifiers
   (assigned by publication systems such as Doffin or TED).
 
 These dimensions are orthogonal: notice-level identifiers may be either eForms
@@ -87,6 +88,9 @@ procedure-level identifiers are always semantic identifiers.
 [role=requirement]
 [[req-distinguish-notice-vs-procedure-identifiers]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
+
 Systems that store, export or process notice data *MUST* distinguish between
 notice-level identifiers and procedure-level identifiers.
 ====
@@ -94,6 +98,8 @@ notice-level identifiers and procedure-level identifiers.
 [role=requirement]
 [[req-no-substitute-notice-for-procedure-identifiers]] 
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 Systems *MUST NOT* use notice-level identifiers as substitutes for
 procedure-level identifiers.
 ====
@@ -151,12 +157,16 @@ eForms notice identity.
 [role=requirement]
 [[req-notice-identifier-refers-to-published-notice]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 A notice-level identifier *MUST* refer to a specific published notice.
 ====
 
 [role=requirement]
 [[req-notice-identifiers-not-procedure-identifiers]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 A notice-level identifier *MUST NOT* be used to identify an underlying
 procurement procedure.
 ====
@@ -169,6 +179,8 @@ This document distinguishes between:
 [role=requirement]
 [[req-treat-notice-identity-and-publication-reference-separately]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 Systems *MUST* treat notice identity identifiers and publication reference
 identifiers as separate concepts.
 ====
@@ -177,13 +189,6 @@ The primary eForms notice identifiers are:
 
 * `notice-identifier`
 * `notice-version`
-
-[role=requirement]
-[[req-reference-specific-notice-state-use-notice-id-and-version]]
-====
-The combination of (`notice-identifier`, `notice-version`) *MUST* be used when
-referencing a specific published state of an eForms notice.
-====
 
 In addition, two publication reference identifiers may exist for a notice:
 
@@ -196,13 +201,17 @@ systems.
 [role=requirement]
 [[req-no-substitute-publication-ids-for-eforms-notice-id]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 Systems *MUST NOT* treat `doffin-identifier` or `publication-number` as
 substitutes for (`notice-identifier`, `notice-version`).
 ====
 
 [role=requirement]
-[[req-when-referencing-spefific-notice-versions-include-both]]
+[[req-when-referencing-specific-notice-versions-include-both]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 When referencing a specific notice version, systems *MUST* include both
 `notice-identifier` and `notice-version`.
 ====
@@ -210,12 +219,16 @@ When referencing a specific notice version, systems *MUST* include both
 [role=requirement]
 [[req-notice-identifier-stability-on-republication]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 The `notice-identifier` *MUST* remain stable across notice updates.
 ====
 
 [role=requirement]
 [[req-notice-version-changes-on-republication]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 The `notice-version` *MUST* change when a notice is republished in a new
 version, including corrigenda.
 ====
@@ -226,6 +239,8 @@ representation derived from `notice-identifier` and `notice-version`.
 [role=requirement]
 [[req-business-identifier-not-distinct]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 Systems *MUST NOT* treat `business-identifier` as a distinct identifier.
 ====
 
@@ -236,6 +251,8 @@ The `procedure-identifier` identifies the underlying procurement procedure.
 [role=requirement]
 [[req-procedure-established-on-competition-notice]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 A procurement procedure *MUST* be considered established when a competition
 notice (e.g. `ContractNotice`) is published. 
 ====
@@ -243,22 +260,18 @@ notice (e.g. `ContractNotice`) is published.
 [role=requirement]
 [[req-procedure-identifier-stability-across-lifecycle]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 The `procedure-identifier` *MUST* remain stable across multiple notice
 versions, corrigenda, procurement phases, and related notices belonging
 to the same procurement process.
 ====
 
 [role=requirement]
-[[req-procedure-ended-on-award-notice]]
-====
-A procurement procedure *MUST NOT* be considered formally concluded until at
-least one related result notice (`ContractAwardNotice`)  has been published for
-the same `procedure-identifier`.
-====
-
-[role=requirement]
 [[req-use-procedure-identifier-as-primary-grouping-key]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 Systems *MUST* use `procedure-identifier` as the primary grouping key
 when grouping notices belonging to the same procurement procedure.
 ====
@@ -266,6 +279,8 @@ when grouping notices belonging to the same procurement procedure.
 [role=requirement]
 [[req-do-not-use-notice-id-for-procedure-grouping]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 Systems *MUST NOT* use `notice-identifier` (with or without `notice-version`)
 as a procedure-level grouping key.
 ====
@@ -278,6 +293,8 @@ procedure.
 [role=requirement]
 [[req-planning-notice-must-not-contain-procedure-identifier]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 A planning notice (`PriorInformationNotice`) *MUST NOT* contain a
 `procedure-identifier`.
 ====
@@ -290,6 +307,8 @@ published notice directly.
 [role=requirement]
 [[req-planning-to-later-link-by-notice-reference]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 Links between planning notices and subsequent notices *MUST* be expressed
 by referencing the earlier published notice directly. Such references
 *MUST* use the combination (`notice-identifier`, `notice-version`) of
@@ -299,6 +318,8 @@ the earlier notice.
 [role=requirement]
 [[req-planning-reference-must-not-rely-on-procedure-id]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 A reference to a planning notice *MUST NOT* rely on a
 `procedure-identifier`.
 ====
@@ -306,12 +327,16 @@ A reference to a planning notice *MUST NOT* rely on a
 [role=requirement]
 [[req-planning-reference-targets-specific-versioned-notice]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 A reference to a planning notice *MUST* target a specific, versioned notice.
 ====
 
 [role=requirement]
 [[req-planning-reference-must-not-target-procedure-id]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 A reference to a planning notice *MUST NOT* target a procedure-level
 identifier.
 ====
@@ -340,6 +365,8 @@ The `doffin-identifier` identifies a specific published notice in Doffin.
 [role=requirement]
 [[req-doffin-id-not-procedure-identifier]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 The `doffin-identifier` *MUST NOT* be interpreted as a procedure-level
 identifier.
 ====
@@ -347,6 +374,8 @@ identifier.
 [role=requirement]
 [[req-doffin-id-not-substitute-for-notice-identifier]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 The `doffin-identifier` *MUST NOT* be used as a substitute for
 `notice-identifier`.
 ====
@@ -372,6 +401,8 @@ Each `doffin-identifier` corresponds to exactly one combination of
 [role=requirement]
 [[req-prefer-eforms-versioned-reference-over-doffin-id]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 Systems that require a stable, version-aware reference to a notice
 *SHOULD* rely on (`notice-identifier`, `notice-version`) rather than
 `doffin-identifier`.
@@ -383,6 +414,8 @@ is assigned.
 [role=requirement]
 [[req-doffin-id-must-not-be-used-to-group-notice-version]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 The `doffin-identifier` *MUST NOT* be used to group multiple versions of the
 same notice.
 ====
@@ -420,6 +453,8 @@ the contracting authority chooses to publish at EU level voluntarily.
 [role=requirement]
 [[req-do-not-require-publication-number-when-not-published-in-ted]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 Systems *MUST NOT* require a `publication-number` for notices that are not
 published in TED. 
 ====
@@ -427,6 +462,8 @@ published in TED.
 [role=requirement]
 [[req-should-not-require-users-to-manage-publication-number]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 Systems *SHOULD NOT* require contracting authorities or end users to manage
 or use the `publication-number` as part of the procurement process.
 ====
@@ -438,6 +475,8 @@ procedure-level identifier (`procedure-identifier`).
 [role=requirement]
 [[req-publication-number-may-be-included-as-optional-reference]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 The `publication-number` *MAY* be included as an additional reference in
 later notices when a direct link back to a TED publication is useful.
 ====
@@ -458,6 +497,8 @@ and `notice-version`). Systems therefore *SHOULD NOT* rely on
 [role=requirement]
 [[req-linking-must-be-based-on-eforms-identifiers]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 Linking between notices *MUST* be based on eForms semantic identifiers.
 ====
 
@@ -475,6 +516,8 @@ The format is defined by TED.
 [role=requirement]
 [[req-publication-number-not-a-substitute-for-other-identifiers]]
 ====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
 Systems *MUST NOT* use `publication-number` as a substitute for
 `notice-identifier`, `notice-version`, `procedure-identifier`, or any
 combinations thereof.
@@ -482,49 +525,321 @@ combinations thereof.
 
 == eForms notice identifier and versioning
 
+This section describes how notice identity and versioning work in eForms, and
+how individual notices relate to other notices, and to procurement procedures.
+
+The eForms identifier model distinguishes between three related concepts:
+
+* the identity of an individual notice (`notice-identifier`)
+* the version of that notice (`notice-version`)
+* the identity of the procurement procedure (`procedure-identifier`)
+
+A procurement procedure may be associated with multiple notices over time,
+and each notice may itself have multiple published versions.
+
 === Notice identity (`notice-identifier`)
+
+The `notice-identifier` uniquely identifies a specific notice.
+
+A notice represents a distinct publication act, such as a planning notice,
+a competition notice, or a result notice. Each such notice has its own
+persistent identity represented by the `notice-identifier`.
+
+The notice identity remains stable across revisions of the same notice.
+When a notice is corrected or republished, the notice identity remains
+unchanged and only the notice version is incremented.
+
+[role=requirement]
+[[req-version-preserves-notice-identifier]]
+====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
+A new version of a notice *MUST* preserve the same `notice-identifier`.
+====
+
+[role=requirement]
+[[req-notice-version-monotonic]]
+====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
+For a given `notice-identifier`, each new publication of the notice
+*MUST* increase the `notice-version`.
+====
+
+Multiple notices may exist within the same procurement process. Each of
+these notices has its own `notice-identifier`, even when they relate
+to the same underlying procurement procedure.
+
+For instance, the following notices may exist within a single procurement
+context:
+
+* one or more planning notices (`PriorInformationNotice`)
+* a competition notice (`ContractNotice`)
+* one or more result notices (`ContractAwardNotice`)
+
+Each of these notices has its own independent notice identity.
 
 === Versioning model (`notice-version`)
 
+The `notice-version` identifies a specific published state of a notice.
+
+When a notice is first published, it is assigned an initial version.
+If the notice is later corrected, updated, or republished, the same
+`notice-identifier` is retained and a new `notice-version` is assigned.
+
+[[fig-notice-versioning]]
+.Example notice versioning
+[source,text]
+....
+ContractNotice
+notice-identifier = CN-1
+
+  version 1  -> first publication
+  version 2  -> corrigendum / update
+  version 3  -> later correction
+
+Same notice-identifier, different notice-version values.
+....
+
+[role=requirement]
+[[req-new-version-on-republication]]
+====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
+A new `notice-version` *MUST* be assigned whenever a notice is corrected,
+updated, or republished.
+====
+
+Each published state of a notice is therefore uniquely identified by the
+combination (`notice-identifier`, `notice-version`).
+
 === What constitutes a new notice
+
+A new notice identity is established when a publication represents a
+distinct notice rather than a revision of an existing one.
+
+Each distinct notice is assigned its own `notice-identifier`.
+
+Different notice types represent different publication acts and therefore
+establish separate notice identities. For example:
+
+* each distinct planning notice (`PriorInformationNotice`) establishes its
+  own `notice-identifier`
+* a competition notice (`ContractNotice`) establishes its own
+  `notice-identifier`
+* each result notice (`ContractAwardNotice`) establishes its own
+  `notice-identifier`
+
+Planning notices may be published independently and may later be referenced
+by one or more competition notices.
+
+A competition notice establishes the `procedure-identifier` for the
+procurement procedure. 
+
+[role=requirement]
+[[req-single-competition-notice-per-procedure]]
+====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
+A procurement procedure *MUST* be established by exactly one
+`ContractNotice`.
+====
+
+Result notices relating to that procurement procedure share the same
+`procedure-identifier`, but each result notice has its own independent
+`notice-identifier` and version history.
+
+[role=requirement]
+[[req-result-notice-must-have-procedure-identifier]]
+====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
+A result notice (`ContractAwardNotice`) *MUST* contain the
+`procedure-identifier` of the procurement procedure to which it relates.
+====
+
+[role=requirement]
+[[req-result-notices-share-procedure-identifier]]
+====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
+Result notices (`ContractAwardNotice`) relating to the same procurement
+procedure *MUST* use the same `procedure-identifier`.
+====
 
 === What constitutes a new version of a notice
 
-=== Lifecycle of a notice (publication, update, corrigendum, cancellation)
+A new notice version is created when an existing notice is republished
+with modifications.
 
-=== Representation and derived identifiers (e.g. `business-identifier`)
+Such modifications may include corrections, clarifications, or other
+updates to the published notice content. These updates do not establish
+a new notice identity. Instead, they result in a new `notice-version`
+associated with the same `notice-identifier`.
+
+As a consequence, multiple versions may exist for the same notice.
+All versions of a notice share the same `notice-identifier`.
+
+== Relationship between notices and procedures
+
+Not all notices are associated with a procurement procedure.
+
+Planning notices (`PriorInformationNotice`) may be published independently
+and do not establish a procurement procedure. Multiple procurement procedures
+may later reference the same planning notice.
+
+[role=requirement]
+[[req-pin-must-not-establish-procedure]]
+====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
+A planning notice (`PriorInformationNotice`) *MUST NOT* establish a
+`procedure-identifier`.
+====
+
+A procurement procedure is established when a competition notice
+(`ContractNotice`) is published. At that point a `procedure-identifier`
+is assigned to the procurement process.
+
+[role=requirement]
+[[req-cn-establishes-procedure]]
+====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
+A competition notice (`ContractNotice`) *MUST* establish a
+`procedure-identifier` for the procurement procedure.
+====
+
+All later notices that relate to that procurement procedure share the same
+`procedure-identifier`.
+
+In particular, a procurement procedure may be associated with:
+
+* one competition notice (`ContractNotice`)
+* one or more result notices (`ContractAwardNotice`)
+
+Each of these notices has its own notice identity (`notice-identifier`) and
+its own version history (`notice-version`), while the shared 
+`procedure-identifier` links them to the same procurement procedure.
+
+The following figure is illustrative and shows a typical relationship
+between planning, competition, and result notices.
+
+[[fig-notice-procedure-relationships]]
+.Example relationships between planning, competition and result notices
+....
+PriorInformationNotice
+notice-identifier = PIN-1
+notice-version    = 1
+(no procedure-identifier)
+
+        |
+        | referenced retrospectively
+        |
+        v
+
+ContractNotice
+notice-identifier    = CN-1
+notice-version       = 1
+procedure-identifier = PROC-1
+
+        |
+        | same procedure-identifier
+        |
+        +------------------------------+
+        |                              |
+        v                              v
+
+ContractAwardNotice              ContractAwardNotice
+notice-identifier    = CAN-1     notice-identifier    = CAN-2
+notice-version       = 1         notice-version       = 1
+procedure-identifier = PROC-1    procedure-identifier = PROC-1
+....
+
+=== Lifecycle of a procurement procedure
+
+[role=requirement]
+[[req-procedure-not-concluded-before-result-notice]] 
+====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
+A procurement procedure *MUST NOT* be considered formally concluded
+until at least one related result notice (`ContractAwardNotice`) has been
+published for the same `procedure-identifier`.
+====
 
 == Linking related notices
 
-=== Linking notices within the same procedure
+Notices may reference other notices in order to express relationships
+between planning activities, competition notices, and result notices.
+
+Such references allow systems to reconstruct the history and structure
+of procurement procedures across multiple publications.
+
+=== Version-aware referencing
+
+References between notices are version-aware.
+
+[role=requirement]
+[[req-reference-notice-by-id-and-version]]
+====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
+Systems that reference a specific published notice version *MUST* use the
+combination (`notice-identifier`, `notice-version`).
+====
+
+The pair (`notice-identifier`, `notice-version`) uniquely identifies a
+specific published state of a notice.
+
+In some contexts, this pair is referred to as a *business identifier*.
 
 === Linking competition and result notices
 
-=== Linking corrigenda
+Competition notices (`ContractNotice`) establish procurement procedures
+through the assignment of a `procedure-identifier`.
+
+Result notices (`ContractAwardNotice`) that relate to the same procurement
+procedure reference that procedure using the same `procedure-identifier`.
+
+A procurement procedure may therefore contain multiple result notices,
+each with its own `notice-identifier` and `notice-version`, but all
+sharing the same `procedure-identifier`.
 
 === Linking planning notices retrospectively
 
-=== Version-aware referencing requirements
+Planning notices (`PriorInformationNotice`) may be published independently
+before any procurement procedure has been established.
 
-== Procedure identity across the procurement lifecycle
+Later notices, such as competition notices or result notices, may refer
+back to earlier planning notices.
 
-=== Establishment of a procedure
+[role=requirement]
+[[req-planning-notice-referenced-by-versioned-id]]
+====
+[.requirement-title]
+.Requirement R-{counter:req-counter}
+References to a planning notice *MUST* identify the notice using the
+combination (`notice-identifier`, `notice-version`).
+====
 
-=== Stability of `procedure-identifier`
+Multiple procurement procedures *MAY* reference the same planning notice.
 
-=== Multi-phase procurement processes
+References to planning notices therefore express informational or
+contextual relationships rather than procedure identity.
 
-=== Cancellation and re-publication scenarios
+[NOTE]
+====
+In some implementations, references may target a specific part of a notice
+(for example a LOT or PART element in the eForms data model).
 
-=== Edge cases and non-compliant patterns
+Such references operate at a finer granularity than notice-level
+identifiers and are outside the scope of this document.
+====
 
 == Interoperability considerations
 
 === National vs. EU identifiers
-
-=== Mapping between Doffin and TED contexts
-
-=== Data export and API considerations
 
 === Common implementation pitfalls
 

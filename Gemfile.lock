@@ -1,12 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    asciidoctor (2.0.26)
     deep_merge (1.2.2)
-    mini_portile2 (2.8.7)
-    nokogiri (1.16.5)
+    mini_portile2 (2.8.9)
+    nokogiri (1.18.10)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    racc (1.8.0)
+    racc (1.8.1)
+    rouge (4.7.0)
     slop (4.10.1)
     yaml (0.2.1)
 
@@ -14,9 +16,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  asciidoctor (~> 2.0)
   bundler (~> 2.4)
   deep_merge
-  nokogiri (~> 1.13)
+  nokogiri (~> 1.18.9)
+  rouge (~> 4.7)
   slop (~> 4.9)
   yaml (~> 0.2.0)
 

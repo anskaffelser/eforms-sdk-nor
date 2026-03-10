@@ -8,3 +8,5 @@ gem "deep_merge"
 
 # Docs
 gem "asciidoctor", "~> 2.0"
+
+gem "rouge", "~> 4.7"
