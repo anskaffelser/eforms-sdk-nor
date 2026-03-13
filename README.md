@@ -26,12 +26,11 @@ These are hosted as two independent systems, so you need to register for each en
 ### Important regarding the Notices API
 Once you have created a subscription for the Notices API please contact [ingunn.ostrem@dfo.no](mailto:ingunn.ostrem@dfo.no) to get the subscription activated.
 
-For now we are **not returning** any validation results. Please make sure that you are using valid and well-formed eForms messages before testing the integration. To test for validity and well-formness during development please use:
+Doffin provides a validation endpoint that can be used during development to check whether an eForms message is valid and well-formed. With debug=true, the endpoint returns detailed validation results, including XSD validation, eForms schematron rules, Norwegian tailoring rules, errors, and warnings.
 
-  For development and production environments we strongly recommend:
+For development and production environments we strongly recommend:
 * the validation function in the Notices API
 * or a local validator service, i.e. [based on our code](https://github.com/anskaffelser/vefa-validator).  
-
 Please note that eForms messages using these extensions will fail validation in TED unless you pre-process with using the xslt-filter provided in this repository. 
 
 The endpoint supports the eForms-versions included in the newest release of this repository. 
