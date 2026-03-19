@@ -1,14 +1,388 @@
 ---
 title: "Notice identifiers"
-author: "The Norwegian Agency for Finance and Public Management"
+organization: "The Norwegian Agency for Finance and Public Management (DFØ)"
 organization_url: "https://www.dfo.no"
 date: "2026-02-17"
-license: "CC BY 4.0"
-license_url: "https://creativecommons.org/licenses/by/4.0/"
-attribution: "© 2026 The Norwegian Agency for Finance and Public Management. Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)."
+version: "0.1"
+license:
+  spdx: "CC-BY-4.0"
+  name: "Creative Commons Attribution 4.0 International"
+  url: "https://creativecommons.org/licenses/by/4.0/"
+copyright:
+  year: 2026
+  holder: "The Norwegian Agency for Finance and Public Management (DFØ)"
+
 source: "https://github.com/anskaffelser/eforms-sdk-nor"
-notes: "References material derived from Publications Office of the EU (TED). Original material licensed under the EU Public License (EUPL)."
-contributors: 
-  - The Department of Management and Digitalization 
-  - "Løken, Arne Magnus Tveita"
+
+contributors:
+  - organization_unit: "The Department of Management and Digitalization"
+    people:
+      - "Løken, Arne Magnus Tveita"
+
+dependencies:
+  - name: "OP-TED/eForms-SDK"
+    type: "git"
+    url: "https://github.com/OP-TED/eForms-SDK"
+    usage: "Build-time input (schemas/codelists); pulled in during build"
+    license:
+      spdx: "EUPL-1.2"
+      name: "EU Public Licence v1.2"
+      url: "https://eupl.eu/1.2/en"
+
+references:
+  - name: "TED Developer Docs"
+    url: "https://docs.ted.europa.eu/home/index.html"
+  - name: "eForms documentation"
+    url: "https://docs.ted.europa.eu/eforms/latest/index.html"
 ---
+
+# Notice identifiers
+
+## 1. Purpose and scope
+
+This document explains how identifiers are used for procurement notices in the
+Norwegian implementation of eForms, with particular focus on:
+
+- how Doffin identifiers relate to eForms notice identifiers
+- how TED identifiers relate to eForms notice identifiers
+- how notice versioning works in eForms (UUID4 + version)
+- how related notices can be linked together across procurement phases,
+  corrigenda, and cancellations
+- how procedure-level identifiers (e.g. `procedure-identifier`) should be
+  interpreted and used
+  
+The intended audience includes both functional and technical stakeholders, such
+as:
+- contracting authorities and procurement specialists
+- system integrators
+- support tool vendors and downstream data consumers
+
+### In scope
+
+- conceptual explanation of the identifier model
+- recommended practices for grouping and linking notices
+- examples illustrating common scenarios
+
+### Out of scope
+
+Detailed XML field mappings, schema (XSD) structure, and BT-code references
+are intentionally kept out of this document to preserve readability.
+
+Technical details are provided in separate documents (see references at the
+end of this file).
+
+### Normative language
+
+The key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**,
+**SHOULD**, **SHOULD NOT**, **RECOMMENDED**, **MAY**, and **OPTIONAL** in this
+document are to be interpreted as described in RFC 2119 and RFC 8174.
+
+These words are normative only when they appear in all capitals.
+
+In addition, the term **NOTE** is used to indicate non-normative information.
+
+### Terminology
+
+- **Notice**: a published eForms notice.
+- **Procedure**: the underlying procurement process identified by
+  `procedure-identifier`.
+
+## 2. Overview: identifier landscape
+
+This section defines the identifier model used in the Norwegian implementation
+of eForms. 
+
+Identifiers are classified into two categories:
+
+- notice-level identifiers, and
+- procedure-level identifiers.
+
+Within the notice-level category, this document further distinguishes between:
+
+- eForms semantic identifiers (forming part of the eForms data model), and
+- publication reference identifiers 
+  (assigned by publication systems such as Doffin or TED).
+
+These dimensions are orthogonal: notice-level identifiers may be either eForms
+semantic identifiers or publication reference identifiers, whereas
+procedure-level identifi/TEDers are always semantic identifiers.
+
+Systems that store, export or process notice data **MUST** distinguish between
+these categories and **MUST NOT** use notice-level identifiers as substitutes
+for procedure-level identifiers.
+
+The table below provides a high-level overview of the identifiers covered by
+this document.
+
+| Identifier             | Category                         | Applies to         | Stability | Primary purpose                          |
+|------------------------|----------------------------------|--------------------|-----------|------------------------------------------|
+| `doffin-identifier`    | Publication reference identifier | Published notice   | Stable    | Doffin lookup and indexing               |
+| `publication-number`   | Publication reference identifier | Published notice   | Stable    | TED lookup and indexing                  |
+| `notice-identifier`    | eForms semantic identifier       | Notice identity    | Stable    | Stable notice identity across versions   |
+| `notice-version`       | eForms semantic identifier       | Notice identity    | Changes   | Version within notice identity           |
+| `procedure-identifier` | eForms semantic identifier       | Procedure identity | Stable    | Stable procedure identity across notices |
+
+
+NOTE: (`notice-identifier`, `notice-version`) and `procedure-identifier`
+are eForms semantic identifiers. `doffin-identifier` and `publication-number`
+are publication reference identifiers. 
+
+### 2.1 Notice-level identifiers
+
+Notice-level identifiers relate to a specific published notice or to its
+eForms notice identity.
+
+A notice-level identifier **MUST** refer to a specific published notice and
+**MUST NOT** be used to identify an underlying procurement procedure.
+
+This document distinguishes between:
+
+- (eForms) notice identity identifiers, and
+- publication reference identifiers (Doffin and TED). 
+
+Systems **MUST** treat these as separate concepts.
+
+The primary eForms notice identifiers are:
+
+- `notice-identifier`
+- `notice-version`
+
+The combination of (`notice-identifier`, `notice-version`) **MUST** be used when
+referencing a specific published state of an eForms notice.
+
+In addition, two publication reference identifiers may exist for a notice:
+
+- `doffin-identifier` (Doffin)
+- `publication-number` (TED)
+
+These identifiers support indexing and lookup in their respective publication
+systems.
+
+Systems **MUST NOT** treat `doffin-identifier` or `publication-number` as
+substitutes for (`notice-identifier`, `notice-version`).
+
+When referencing a specific notice version, systems **MUST** include both
+`notice-identifier` and `notice-version`.
+
+The `notice-identifier` **MUST** remain stable across notice updates, while
+`notice-version` **MUST** change when a notice is republished in a new version,
+including corrigenda.
+
+In some contexts, the term `business-identifier` is used to denote a string
+representation derived from `notice-identifier` and `notice-version`.
+
+Systems **MUST NOT** treat the `business-identifier` as a distinct identifier.
+
+## 2.2 Procedure-level identifier
+
+The `procedure-identifier` identifies the underlying procurement procedure.
+
+A procurement procedure **MUST** be considered established when a competition
+notice (e.g. `ContractNotice`) is published. 
+
+The `procedure-identifier` **MUST** remain stable across:
+
+- multiple notice versions
+- corrigenda
+- procurement phases
+- related notices belonging to the same procurement process
+
+Systems **MUST** use `procedure-identifier` as the primary grouping key
+when grouping notices belonging to the same procurement procedure.
+
+Systems **MUST NOT** use `notice-identifier` (with or without `notice-version`)
+as a procedure-level grouping key.
+
+## 2.3 Referencing planning notices
+
+A planning notice (`PriorInformationNotice`) does not establish a procurement
+procedure and therefore **MUST NOT** contain a `procedure-identifier`.
+
+Links between planning notices and subsequent notices
+(e.g. `ContractNotice`, `ContractAwardNotice`, or another
+`PriorInformationNotice`) **MUST** be expressed by referencing the earlier
+published notice directly.
+
+Such references **MUST** use the combination
+(`notice-identifier`, `notice-version`) of the earlier notice.
+
+A reference to a planning notice **MUST NOT** rely on a
+`procedure-identifier`, since no procedure is established at that stage.
+
+The reference **MUST** target a specific, versioned notice and
+**MUST NOT** target a procedure-level identifier.
+
+## 3. Doffin publication reference identifier (`doffin-identifier`)
+
+The `doffin-identifier` is a national publication reference identifier assigned
+upon publication in the Doffin system.
+
+The `doffin-identifier` is a human-readable national publication identifier and
+is not part of the eForms notice payload exchanged with TED.
+
+NOTE: Although the `doffin-identifier` is not part of the eForms payload
+exchanged with TED, TED publications can include hyperlinks to the
+corresponding Doffin publication. In such cases, the `doffin-identifier`
+can appear as part of the URL. This does not imply that it forms part of
+the eForms notice data model.
+
+### 3.1 Scope and semantics
+
+The `doffin-identifier` identifies a specific published notice in Doffin.
+
+It **MUST NOT** be interpreted as a procedure-level identifier and
+**MUST NOT** be used as a substitute for `notice-identifier`.
+
+The `doffin-identifier` has no semantic meaning beyond identifying a specific
+publication instance.
+
+It is a Doffin-specific publication identifier, and is only resolvable within
+the Doffin ecosystem. 
+
+**Implementation note**: In some integrations, the Doffin identifier may be
+used in file naming conventions (e.g. `<doffin-identifier>.xml`). This does not
+imply that the identifier is part of the eForms notice payload.
+
+### 3.2 Relationship to eForms identifiers
+
+Each `doffin-identifier` corresponds to exactly one combination of
+(`notice-identifier`, `notice-version`).
+
+Systems that require a stable, version-aware reference to a notice
+**SHOULD** rely on (`notice-identifier`, `notice-version`) rather than
+`doffin-identifier`.
+
+If a notice is republished as a new version, a new `doffin-identifier`
+is assigned.
+
+Consequently, the `doffin-identifier` **MUST NOT** be used to group
+multiple versions of the same notice.
+
+### 3.3 Format
+
+The format of the `doffin-identifier` is:
+
+`YYYY-NNNNNN`
+
+where:
+
+- `YYYY` represents the publication year, and
+- `NNNNNN` is a sequential number assigned upon publication
+
+The format is intended for human readability and indexing purposes.
+It does not encode procedure identity or version semantics.
+
+## 4. TED (EU) publication reference identifier (`publication-number`)
+
+The `publication-number` is the publication reference identifier assigned by
+TED to a notice upon EU/EEA publication.
+
+It serves a similar purpose to the `doffin-identifier`, in that it provides
+a human-readable reference for locating a specific notice in the TED system.
+
+The `publication-number` is only applicable to notices that are published
+in TED.
+
+Not all Norwegian notices are published at EU/EEA level. A notice will only
+receive a `publication-number` when it is published in TED, either because
+the procurement is subject to EU/EEA publication requirements, or because
+the contracting authority chooses to publish at EU level voluntarily. 
+
+Systems **MUST NOT** require a `publication-number` for notices that are not
+published in TED. 
+
+Systems **SHOULD NOT** require contracting authorities or end users to manage
+or use the `publication-number` as part of the procurement process. The primary
+identifiers for linking notices and tracking notice versions are the eForms
+identifiers (`notice-identifier`, `notice-version`) and the procedure-level
+identifier (`procedure-identifier`).
+
+The `publication-number` **MAY** be included as an additional reference in
+later notices when a direct link back to a TED publication is useful. Such
+references are optional and are primarily intended to support navigation and
+external lookup, not notice identity or procedure grouping.
+
+In practice, the `publication-number` is assigned by TED during the publication
+process and becomes available after EU/EEA publication. 
+
+NOTE: TED typically provides linkage between related publications based on
+eForms identifiers (including `procedure-identifier`, `notice-identifier`,
+and `notice-version`). Systems therefore **SHOULD NOT** rely on
+`publication-number` for linking notices across versions or procurement phases.
+Linking **MUST** be based on eForms semantic identifiers.
+
+NOTE: The `publication-number` is typically presented in the form
+`XXXXXXXX-YYYY`, where
+
+- `XXXXXXXX` is a sequential number assigned upon publication, and
+- `YYYY` represents the publication year.
+
+The format is defined by TED.
+
+Systems **MUST NOT** use `publication-number` as a substitute for
+`notice-identifier`, `notice-version`, `procedure-identifier`, or any
+combinations thereof.
+
+## 5. eForms notice identifier and versioning
+
+### 5.1 Notice identity (`notice-identifier`)
+
+### 5.2 Versioning model (`notice-version`)
+
+### 5.3 What constitutes a new notice
+
+### 5.4 What constitutes a new version of a notice
+
+### 5.5 Lifecycle of a notice (publication, update, corrigendum, cancellation)
+
+### 5.6 Representation and derived identifiers (e.g. `business-identifier`)
+
+## 6. Linking related notices
+
+### 6.1 Linking notices within the same procedure
+
+### 6.2 Linking competition and result notices
+
+### 6.3 Linking corrigenda
+
+### 6.4 Linking planning notices retrospectively
+
+### 6.5 Version-aware referencing requirements
+
+## 7. Procedure identity across the procurement lifecycle
+
+### 7.1 Establishment of a procedure
+
+### 7.2 Stability of `procedure-identifier`
+
+### 7.3 Multi-phase procurement processes
+
+### 7.4 Cancellation and re-publication scenarios
+
+### 7.5 Edge cases and non-compliant patterns
+
+## 8. Interoperability considerations
+
+### 8.1 National vs. EU identifiers
+
+### 8.2 Mapping between Doffin and TED contexts
+
+### 8.3 Data export and API considerations
+
+### 8.4 Common implementation pitfalls
+
+## 9. Summary of normative requirements
+
+## License
+
+© 2026 The Norwegian Agency for Finance and Public Management (DFØ).
+SPDX: CC-BY-4.0
+https://creativecommons.org/licenses/by/4.0/
+
+## Attribution / sources
+
+Build-time dependency:
+[OP-TED/eForms-SDK](https://github.com/OP-TED/eForms-SDK) (SPDX: EUPL-1.2)
+
+References material derived from Publications Office of the European Union (TED).
+
