@@ -35,7 +35,7 @@ customization_id:
   field_id: "OPT-002-notice"
 
 estimated_value_proc:
-  xpath: "/cac:ProcurementProject[not(parent::cac:ProcurementProjectLot)]/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount"
+  xpath: "/*/cac:ProcurementProject[not(parent::cac:ProcurementProjectLot)]/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount"
   field_id: "BT-27-Procedure"
 
 estimated_value_part:
