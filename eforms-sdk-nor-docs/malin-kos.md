@@ -76,39 +76,39 @@ below.
 ### Acronymes and abbreviations
 
   -----------------------------------------------------------------------
-  BG         Business Group
+  **BG**         Business Group
   ---------- ------------------------------------------------------------
-  BT         Business Term
+  **BT**         Business Term
 
-  CA         Contracting Authority
+  **CA**         Contracting Authority
 
-  CAN        Contract Award Notice
+  **CAN**        Contract Award Notice
 
-  CE         Contracting Entity
+  **CE**         Contracting Entity
 
-  CFC        Call For Competition
+  **CFC**        Call For Competition
 
-  CM         Contract Modification
+  **CM**         Contract Modification
 
-  CN         Contract Notice
+  **CN**         Contract Notice
 
-  ePO        eProcurement Ontology
+  **ePO**        eProcurement Ontology
 
-  Nob        Norwegian Bokmål
+  **Nob**        Norwegian Bokmål
 
-  FA         Framework Agreement
+  **FA**         Framework Agreement
 
-  OJEU       Official Journal of the European Union
+  **OJEU**       Official Journal of the European Union
 
-  OP         Publications Office of the European Union
+  **OP**         Publications Office of the European Union
 
-  OPP        OP Production Term
+  **OPP**        OP Production Term
 
-  OPT        OP Technical Term
+  **OPT**        OP Technical Term
 
-  PIN        Prior Information Notice
+  **PIN**        Prior Information Notice
 
-  PMC        Pre-Market Consultation
+  **PMC**        Pre-Market Consultation
   -----------------------------------------------------------------------
 
 ### Structural Types
