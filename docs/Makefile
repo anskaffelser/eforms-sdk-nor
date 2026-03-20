@@ -2,23 +2,37 @@
 # SPDX-FileCopyrightText: 2026-present The Norwegian Agency for Finance and Public Management (DFØ)
 
 ASCIIDOCTOR ?= bundle exec asciidoctor
+PANDOC      ?= pandoc
 
 PAGES_DIR := modules/ROOT/pages
 OUT_DIR   := ../build/docs
 ENTRY     := notice-identifiers.adoc
 
-.PHONY: html clean open
+.PHONY: html md clean open
 
 html:
 	@mkdir -p $(OUT_DIR)
 	@$(ASCIIDOCTOR) \
+	-D $(OUT_DIR) \
+	$(PAGES_DIR)/$(ENTRY)
+	@echo "Built HTML: $(OUT_DIR)/$(ENTRY:.adoc=.html)"
+
+md:
+	@mkdir -p $(OUT_DIR)
+	@$(ASCIIDOCTOR) \
+	  -b docbook \
 	  -D $(OUT_DIR) \
 	  $(PAGES_DIR)/$(ENTRY)
-	@echo "Built: $(OUT_DIR)/$(ENTRY:.adoc=.html)"
+	@$(PANDOC) \
+	  -f docbook \
+	  -t gfm \
+	  -o $(OUT_DIR)/$(ENTRY:.adoc=.md) \
+	  $(OUT_DIR)/$(ENTRY:.adoc=.xml)
+	@rm $(OUT_DIR)/$(ENTRY:.adoc=.xml)
+	@echo "Built Markdown: $(OUT_DIR)/$(ENTRY:.adoc=.md)"
 
 clean:
 	@rm -rf $(OUT_DIR)
 
 open: html
 	@xdg-open $(OUT_DIR)/$(ENTRY:.adoc=.html) >/dev/null 2>&1 || true
-
