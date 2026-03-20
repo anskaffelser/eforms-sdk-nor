@@ -18,7 +18,8 @@ We are continuously expanding and improving the documentation for the Norwegian 
 
 Technical details and implementation guides can be found in the [`/docs`](./docs/) directory, including:
 
-* **[National Notices (E2, E3, E4)](./docs/norwegian-eforms-for-beneath-eea-threshold-procurements.pdf):** Detailed specifications for Norwegian forms for procurements below the EU/EEA thresholds
+* **[National Notices (E2, E3, E4)](./docs/norwegian-eforms-for-beneath-eea-threshold-procurements.pdf):** A graphical representation of the specifications for Norwegian forms for procurements below the EU/EEA thresholds
+* **[Procurements beneath EU/EEA threshold](./docs/procurements-beneath-threshold.md):** A prosaic description of the specifications and rules for the Norwegian forms for procurements below the EU/EEA threshoolds
 * **[Doffin API](./docs/doffin-api.md):** Integration guide for the Doffin API.
 * **[Notice Identifiers](./docs/notice-identifiers.md):** Overview of how notices are identified within the eForms format.
 * **Strategic Guides:** Information regarding [environmental considerations](./docs/environmental-considerations.md) and [strategic procurement](./docs/strategic-procurement.md).
