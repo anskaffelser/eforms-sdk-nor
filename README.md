@@ -41,17 +41,21 @@ This SDK completes the official SDK with two extensions needed for the Norwegian
 
 * Norwegian is not an official EU language and is hence not part of the official TED SDK distribution. This SDK adds Norwegian translations where needed as well as validation rules to ensure that any eForms-document complies with both national and EU regulation regarding content. 
 
-* Adds Notification forms to be used below threshold. The new Doffin is “native” eForms. It has been signalled that eForms will be extended to support this later, so for now we have added simplified versions of a subset of the forms available with the aim of making the use as easy as possible, but still withing the SDK format.  
+* Adds Notification forms to be used below threshold. The new Doffin is “native” eForms. It has been signalled that eForms will be extended to support this later, so for now we have added simplified versions of a subset of the forms available with the aim of making the use as easy as possible, but still within the SDK format. 
 
-## Environmental considerations
+## Documentation and Guidance
 
-### Norwegian eForms extension for compliance with Norwegian Procurement Regulations
+We are continuously expanding and improving the documentation for the Norwegian eForms implementation. This is a **work in progress**.
 
-For contracting authorities to indicate compliance with [Section 7-9 of Norway's Procurement Regulations](https://lovdata.no/forskrift/2016-08-12-974/§7-9), we have extended the codelist for specifying _award criterion types_. 
+Technical details and implementation guides can be found in the [`/docs`](./docs/) directory, including:
 
-The extension is described in a structured format here: [codelist-no/award-criterion-type.no.yaml](src/codelists-no/award-criterion-type.no.yaml). 
+* **[National Notices (E2, E3, E4)](./docs/norwegian-eforms-for-beneath-eea-threshold-procurements.pdf):** A graphical representation of the specifications for Norwegian forms for procurements below the EU/EEA thresholds
+* **[Procurements beneath EU/EEA threshold](./docs/procurements-beneath-threshold.md):** A prosaic description of the specifications and rules for the Norwegian forms for procurements below the EU/EEA threshoolds
+* **[Doffin API](./docs/doffin-api.md):** Integration guide for the Doffin API.
+* **[Notice Identifiers](./docs/notice-identifiers.md):** Overview of how notices are identified within the eForms format.
+* **Strategic Guides:** Information regarding [environmental considerations](./docs/environmental-considerations.md) and [strategic procurement](./docs/strategic-procurement.md).
 
-The extensions are patched into our validator, as described here: [patch/eforms-sdk-nor/1.13/0001-environment-codes.patch](src/patch/eforms-sdk-nor/1.13/0001-environment-codes.patch).
+Check the `/docs` folder regularly for updates as we refine the SDK's documentation structure.
 
 ## How to identify Norwegian eForms?
 
@@ -59,7 +63,7 @@ To indicate that you are submitting Norwegian eForms to us please extend the con
 
 * "#extended#urn:fdc:anskaffelser.no:2023:eforms:eu" indicating eForms to be submitted to TED (above threshold or voluntary notification)
 
-* "#extended#urn:fdc:anskaffelser.no:2023:eforms:national" indicating Norwegian notifications (below threshold)
+* "#extended#urn:fdc:anskaffelser.no:2023:eforms:national" indicating Norwegian notices (below threshold)
 
 Example:
 
