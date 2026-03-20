@@ -19,16 +19,17 @@ html:
 
 md:
 	@mkdir -p $(OUT_DIR)
-	@$(ASCIIDOCTOR) \
-	  -b docbook \
+	@$(ASCIIDOCTOR) -b docbook \
 	  -D $(OUT_DIR) \
 	  $(PAGES_DIR)/$(ENTRY)
-	@$(PANDOC) \
-	  -f docbook \
-	  -t gfm \
+	@$(PANDOC) -f docbook -t gfm \
 	  -o $(OUT_DIR)/$(ENTRY:.adoc=.md) \
 	  $(OUT_DIR)/$(ENTRY:.adoc=.xml)
 	@rm $(OUT_DIR)/$(ENTRY:.adoc=.xml)
+	@awk -f scripts/number-headings.awk $(OUT_DIR)/$(ENTRY:.adoc=.md) \
+	  > /tmp/_numbered.md \
+	  && mv /tmp/_numbered.md $(OUT_DIR)/$(ENTRY:.adoc=.md)
+	@sed -i '/^<!-- -->$$/d' $(OUT_DIR)/$(ENTRY:.adoc=.md)
 	@echo "Built Markdown: $(OUT_DIR)/$(ENTRY:.adoc=.md)"
 
 clean:
