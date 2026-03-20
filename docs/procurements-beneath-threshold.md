@@ -22,8 +22,6 @@ In particular, the document describes national adaptations related to:
 
 - **Mandatory rules** introduced at national level
 
-- ~~**Validation rules** specific to the Norwegian implementation~~
-
 - Other implementation constraints affecting the usage of the notice subtypes
 
 The purpose of these adaptations is to support national requirements related to Norwegian procurement procedures, while promoting best practices and ensuring the quality and consistency of the data contained in procurement notices.
@@ -85,8 +83,7 @@ The field types and how it MAY be presented to the user:
 | **Type**      | **Description**                                                                                                                                                                                                                   |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **TEXT**      | A textbox, as a standard single-line text input (e.g. Name), or a text area with multi-line text input (e.g. Description).                                                                                                        |
-| **CODE**      | A combobox/dropdown list where the user selects one value from a predefined list.<br>
-Radio buttons where all options are visible, but only one may be selected.<br>A checkbox control, that allows multiple selections (e.g. CPV codes). |
+| **CODE**      | A combobox/dropdown list where the user selects one value from a predefined list. Radio buttons where all options are visible, but only one may be selected. A checkbox control, that allows multiple selections (e.g. CPV codes). |
 | **INDICATOR** | A toggle switch, radio button, checkbox control that represent Yes/No.                                                                                                                                                            |
 | **ID**        | A standard single-line text input or noneditable.                                                                                                                                                                                 |
 | **DATE**      | A date-input control (e.g. calendar or wheel-style date picker).                                                                                                                                                                  |
@@ -98,7 +95,7 @@ Radio buttons where all options are visible, but only one may be selected.<br>A 
 | **Symbol** | **Term**       | **Meaning**                                                                                                                                                                    |
 |------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 🔒         | **Hidden**     | The field or element exists in the data structure but **SHOULD NOT** be displayed in the user interface. It is intended for technical fields that are populated automatically. |
-| 👁️         | **Read-only**  | The field or element **MUST/MAY?** be displayed in the user interface but **MUST NOT** be editable by the user. It is typically used for data retrieved from external systems. |
+| 👁️         | **Read-only**  | The field or element **MAY** be displayed in the user interface but **MUST NOT** be editable by the user. It is typically used for data retrieved from external systems. |
 | 🔄         | **Repeatable** | The field or element **MAY** occur multiple times. The implementation **MUST** support multiple instances where the field is defined as repeatable.                            |
 
 # 2. Form Types, Notice Types and Subtypes
@@ -176,9 +173,9 @@ Unless explicitly stated otherwise, the Norwegian tailoring rules described for 
 | 📝 BT-1251-Lot | Previous Planning Part Identifier       | `/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress` | TEXT (ID)        | Mandatory: Always mandatory in E3.                                                                                            |
 | 📝 BT-765-Lot  | Framework Agreement                     | `/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode` | CODE             | Mandatory: Always mandatory in E3.                                                                                            |
 | 📝 BT-17-Lot   | Submission Electronic                   | `/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']` | CODE (INDICATOR) | Mandatory: Always mandatory in E3.                                                                                            |
-| 📝 BT-19-Lot   | Submission Non-electronic Justification | `/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification/cbc:ProcessReasonCode[@listName='no-esubmission-justification']` | CODE             | Mandatory if no electronic submission may take place (BT-17-Lot == 'not-allowed').<br>**ELLER**<br>Mandatory: Always mandatory in E3. |
+| 📝 BT-19-Lot   | Submission Non-electronic Justification | `/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification/cbc:ProcessReasonCode[@listName='no-esubmission-justification']` | CODE             | Mandatory if no electronic submission may take place (BT-17-Lot == 'not-allowed'). |
 | 📝 BT-745-Lot  | Submission Non-electronic Description   | `/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification/cbc:Description` | TEXT             | Mandatory if no electronic submission may take place (BT-17-Lot == 'not-allowed').                                            |
-| 📝 BT-14-Lot   | Documents Restricted                    | `/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentType` | CODE             | Mandatory: Always mandatory in E3.<br>**????**                                                                                    |
+| 📝 BT-14-Lot   | Documents Restricted                    | `/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentType` | CODE             | Mandatory: Always mandatory in E3.<br>                                                                                    |
 
 ## E4 \| National Contract Award Notice 
 
