@@ -24,24 +24,36 @@
   nob_verify: false
 12:
   name: Prior information notice used as a call for competition – general directive, light regime
-  nob: Forhåndsmelding brukt som oppfordring til konkurranse – generelt direktiv, enkelt regime
+  nob: Forhåndsmelding brukt som oppfordring til konkurranse – generelt direktiv, forenklet regime
   history:
+  - name: Prior information notice used as a call for competition – general directive, light regime
+    nob: Forhåndsmelding brukt som oppfordring til konkurranse – generelt direktiv, lysregime
+    history: []
+    nob_verify: false
   - name: Prior information notice used as a call for competition – general directive, light regime
     history: []
     nob_verify: false
   nob_verify: false
 13:
   name: Periodic indicative notice used as a call for competition – sectoral directive, light regime
-  nob: Periodisk veiledende melding brukt som oppfordring til konkurranse – sektordirektiv, enkelt regime
+  nob: Periodisk veiledende melding brukt som oppfordring til konkurranse – sektordirektiv, forenklet regime
   history:
+  - name: Periodic indicative notice used as a call for competition – sectoral directive, light regime
+    nob: Periodisk veiledende melding brukt som oppfordring til konkurranse – sektordirektiv, enkelt regime
+    history: []
+    nob_verify: false
   - name: Periodic indicative notice used as a call for competition – sectoral directive, light regime
     history: []
     nob_verify: false
   nob_verify: false
 14:
   name: Prior information notice used as a call for competition – concessions directive, light regime
-  nob: Forhåndsvarsel brukt som oppfordring til konkurranse – konsesjonsdirektivet, enkelt regime
+  nob: Forhåndsvarsel brukt som oppfordring til konkurranse – konsesjonsdirektivet, forenklet regime
   history:
+  - name: Prior information notice used as a call for competition – concessions directive, light regime
+    nob: Forhåndsvarsel brukt som oppfordring til konkurranse – konsesjonsdirektivet, forenklet regime
+    history: []
+    nob_verify: false
   - name: Prior information notice used as a call for competition – concessions directive, light regime
     history: []
     nob_verify: false
@@ -96,16 +108,24 @@
   nob_verify: false
 20:
   name: Contract notice – general directive, light regime
-  nob: Kunngjøring av kontrakt – generelt direktiv, enkelt regime
+  nob: Kunngjøring av kontrakt – generelt direktiv, forenklet regime
   history:
+  - name: Contract notice – general directive, light regime
+    nob: Kunngjøring av kontrakt – generelt direktiv, enkelt regime
+    history:
+    nob_verify: false
   - name: Contract notice – general directive, light regime
     history: []
     nob_verify: false
   nob_verify: false
 21:
   name: Contract notice – sectoral directive, light regime
-  nob: Kunngjøring av kontrakt – sektordirektiv, enkelt regime
+  nob: Kunngjøring av kontrakt – sektordirektiv, forenklet regime
   history:
+  - name: Contract notice – sectoral directive, light regime
+    nob: Kunngjøring av kontrakt – sektordirektiv, enkelt regime
+    history: []
+    nob_verify: false
   - name: Contract notice – sectoral directive, light regime
     history: []
     nob_verify: false
@@ -208,7 +228,7 @@
   nob_verify: false
 33:
   name: Contract award notice – general directive, light regime
-  nob: Melding om kontraktstildeling – generelt direktiv, enkelt regime
+  nob: Melding om kontraktstildeling – generelt direktiv, forenklet regime
   history:
   - name: Contract award notice – general directive, light regime
     history: []
@@ -216,16 +236,24 @@
   nob_verify: false
 34:
   name: Contract award notice – sectoral directive, light regime
-  nob: Kunngjøring av kontraktstildeling – sektordirektiv, enkelt regime
+  nob: Kunngjøring av kontraktstildeling – sektordirektiv, forenklet regime
   history:
+  - name: Contract award notice – sectoral directive, light regime
+    nob: Kunngjøring av kontraktstildeling – sektordirektiv, forenklet regime
+    history: []
+    nob_verify: false
   - name: Contract award notice – sectoral directive, light regime
     history: []
     nob_verify: false
   nob_verify: false
 35:
   name: Concession award notice – concessions directive, light regime
-  nob: Varsel om konsesjonstildeling – konsesjonsdirektiv, enkelt regime
+  nob: Varsel om konsesjonstildeling – konsesjonsdirektiv, forenklet regime
   history:
+  - name: Concession award notice – concessions directive, light regime
+    nob: Varsel om konsesjonstildeling – konsesjonsdirektiv, forenklet regime
+    history: []
+    nob_verify: false
   - name: Concession award notice – concessions directive, light regime
     history: []
     nob_verify: false

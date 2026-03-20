@@ -8,7 +8,7 @@ can-desg:
   nob_verify: false
 can-social:
   name: Contract or concession award notice – light regime
-  nob: Melding om kontrakt eller konsesjonstildeling – lysregime
+  nob: Melding om kontrakt eller konsesjonstildeling – forenklet regime
   history:
   - name: Contract or concession award notice – light regime
     history: []
