@@ -31,7 +31,7 @@ To indicate that you are submitting Norwegian eForms to us please extend the con
 
 * "#extended#urn:fdc:anskaffelser.no:2023:eforms:eu" indicating eForms to be submitted to TED (above threshold or voluntary notification)
 
-* "#extended#urn:fdc:anskaffelser.no:2023:eforms:national" indicating Norwegian notifications (below threshold)
+* "#extended#urn:fdc:anskaffelser.no:2023:eforms:national" indicating Norwegian notices (below threshold)
 
 Example:
 
