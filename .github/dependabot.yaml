@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+---
+updates:
+  - directory: '/'
+    package-ecosystem: 'github-actions'
+    schedule:
+      interval: 'weekly'
+version: 2
