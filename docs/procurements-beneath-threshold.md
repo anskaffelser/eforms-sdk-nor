@@ -106,7 +106,7 @@ eForms are structured in three hierarchical layers: **Form Type**, **Notice Type
 
 **Notice Types** represent the legal publication category within a form type, such as PIN, CN and CAN. The notice type determines the legal purpose of the publication, and which information elements are required.
 
-**Notice Subtypes** provide further specialization of a Notice Type. Subtypes are used to adapt a notice to specific regulatory contexts. Most subtypes fall under the EU Procurement Directives. Some subtypes may be used under any law (E1 and E5), while others may be used under any other applicable legal framework (E2, E3, E4, and E6). The latter category is where national tailoring is implemented, including adjusted mandatory fields, national code lists, and validation rules.
+**Notice Subtypes** provide further specialization of a Notice Type. Subtypes are used to adapt a notice to specific regulatory contexts. Most subtypes fall under the EU Procurement Directives. Some subtypes may be used under any law (E1 and E5), while others may be used under any other applicable legal framework (E2, E3, E4, and E6). The latter category is where national tailoring is implemented, including adjusted mandatory fields and national code lists.
 
 For an overview of all subtypes, their official Norwegian names, and their corresponding regulations, sees the \[Doffin eForms overview\]. The notice subtypes with the prefix **“E”**, are not included.
 
