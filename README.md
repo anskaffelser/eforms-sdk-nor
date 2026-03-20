@@ -10,7 +10,20 @@ This SDK completes the official SDK with two extensions needed for the Norwegian
 
 * Norwegian is not an official EU language and is hence not part of the official TED SDK distribution. This SDK adds Norwegian translations where needed as well as validation rules to ensure that any eForms-document complies with both national and EU regulation regarding content. 
 
-* Adds Notification forms to be used below threshold. The new Doffin is “native” eForms. It has been signalled that eForms will be extended to support this later, so for now we have added simplified versions of a subset of the forms available with the aim of making the use as easy as possible, but still withing the SDK format.  
+* Adds Notification forms to be used below threshold. The new Doffin is “native” eForms. It has been signalled that eForms will be extended to support this later, so for now we have added simplified versions of a subset of the forms available with the aim of making the use as easy as possible, but still within the SDK format. 
+
+## Documentation and Guidance
+
+We are continuously expanding and improving the documentation for the Norwegian eForms implementation. This is a **work in progress**.
+
+Technical details and implementation guides can be found in the [`/docs`](./docs/) directory, including:
+
+* **[National Notices (E2, E3, E4)](./docs/norwegian-eforms-for-beneath-eea-threshold-procurements.pdf):** Detailed specifications for Norwegian forms for procurements below the EU/EEA thresholds
+* **[Doffin API](./docs/doffin-api.md):** Integration guide for the Doffin API.
+* **[Notice Identifiers](./docs/notice-identifiers.md):** Overview of how notices are identified within the eForms format.
+* **Strategic Guides:** Information regarding [environmental considerations](./docs/environmental-considerations.md) and [strategic procurement](./docs/strategic-procurement.md).
+
+Check the `/docs` folder regularly for updates as we refine the SDK's documentation structure.
 
 ## How to identify Norwegian eForms?
 
