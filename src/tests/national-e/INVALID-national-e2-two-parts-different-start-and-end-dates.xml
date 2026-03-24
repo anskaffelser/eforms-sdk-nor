@@ -29,7 +29,7 @@
 	</ext:UBLExtension>
   </ext:UBLExtensions>
   <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-  <cbc:CustomizationID>eforms-sdk-1.13#extended#urn:fdc:anskaffelser.no:2026:eforms:national-e</cbc:CustomizationID>
+  <cbc:CustomizationID>eforms-sdk-${EFORMS_MINOR}#extended#urn:fdc:anskaffelser.no:2026:eforms:national-e</cbc:CustomizationID>
   <cbc:ID schemeName="notice-id">bbf5e8cd-f62f-4f29-9254-43ec31c00f48</cbc:ID>
   <cbc:IssueDate>${ISSUEDATE}</cbc:IssueDate>
   <cbc:IssueTime>${ISSUETIME}</cbc:IssueTime>
