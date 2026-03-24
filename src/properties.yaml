@@ -1,6 +1,6 @@
 # OP-TED eForms SDK properties
 sdk_minor: '1.14'
-sdk_patch: '2'  # New patch adding support for below threshold procurement forms
+sdk_patch: '1'
 
 # eForm SDK NOR properties
 versions:
