@@ -34,6 +34,8 @@ To indicate that you are submitting Norwegian eForms to us please extend the con
 
 * "#extended#urn:fdc:anskaffelser.no:2023:eforms:national" indicating Norwegian notices (below threshold)
 
+* "#extended#urn:fdc:anskaffelser.no:2026:eforms:national-e" indicating the new Norwegian notices for below threshold procurements **(Currently in testing)**
+
 Example:
 
 ```xml
