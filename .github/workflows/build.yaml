@@ -26,7 +26,7 @@ jobs:
 
     steps:
       - name: 'Checkout'
-        uses: 'actions/checkout@v3'
+        uses: 'actions/checkout@v6'
 
       - name: 'Prepare version labels'
         uses: 'k15g/action-version-labels@v1'
@@ -67,7 +67,7 @@ jobs:
 
     steps:
       - name: 'Checkout'
-        uses: 'actions/checkout@v3'
+        uses: 'actions/checkout@v6'
 
       - name: 'Setup Ruby'
         uses: 'ruby/setup-ruby@v1'
@@ -96,21 +96,21 @@ jobs:
         run: 'make package'
 
       - name: 'Upload bundle.tar.gz (artifact)'
-        uses: 'actions/upload-artifact@v4'
+        uses: 'actions/upload-artifact@v7'
         with:
           path: 'target/*.tar.gz'
           name: 'eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}-tar.gz'
           retention-days: 3
 
       - name: 'Upload bundle.zip (artifact)'
-        uses: 'actions/upload-artifact@v4'
+        uses: 'actions/upload-artifact@v7'
         with:
           path: 'target/*.zip'
           name: 'eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}-zip'
           retention-days: 3
 
       - name: 'Upload bundle.asice (artifact)'
-        uses: 'actions/upload-artifact@v4'
+        uses: 'actions/upload-artifact@v7'
         with:
           path: 'target/*.asice'
           name: 'eforms-sdk-nor-resources-${{ matrix.EFORMS_MINOR }}-${{ env.PROJECT_VERSION }}-asice'
