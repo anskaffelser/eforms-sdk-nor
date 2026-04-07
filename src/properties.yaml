@@ -4,4 +4,4 @@ sdk_patch: '2'  # New patch adding support for below threshold procurement forms
 
 # eForm SDK NOR properties
 versions:
-  - 1.14.1
+  - 1.14.2
