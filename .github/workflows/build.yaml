@@ -118,7 +118,7 @@ jobs:
 
       - name: 'Upload publishing.tar.gz'
         uses: 'k15g/action-github-asset-upload@v1'
-        if: 'startsWith(github.ref, "refs/tags/")'
+        if: startsWith(github.ref, 'refs/tags/')
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
           file: 'target/eforms-sdk-nor-${{ env.PROJECT_VERSION }}.tar.gz'
@@ -127,7 +127,7 @@ jobs:
 
       - name: 'Upload publishing.zip'
         uses: 'k15g/action-github-asset-upload@v1'
-        if: 'startsWith(github.ref, "refs/tags/")'
+        if: startsWith(github.ref, 'refs/tags/')
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
           file: 'target/eforms-sdk-nor-${{ env.PROJECT_VERSION }}.zip'
@@ -136,7 +136,7 @@ jobs:
 
       - name: 'Upload validation'
         uses: 'k15g/action-github-asset-upload@v1'
-        if: 'startsWith(github.ref, "refs/tags/")'
+        if: startsWith(github.ref, 'refs/tags/')
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
           file: 'target/dev.anskaffelser.eforms.sdk-${{ matrix.EFORMS_MINOR }}-nor-${{ env.PROJECT_VERSION }}.asice'
