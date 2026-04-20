@@ -1,78 +1,120 @@
 comp-dial:
-  name: Competitive dialogue
-  nob: Konkurransepreget dialog
+  name: 'Competitive dialogue'
+  nob: 'Konkurransepreget dialog'
   history:
-  - name: Competitive dialogue
+  - name: 'Competitive dialogue'
     history: []
     nob_verify: false
   nob_verify: false
 comp-tend:
-  name: 'Competitive tendering (article 5(3) of Regulation 1370/2007) '
-  nob: Anbudskonkurranse
+  name: 'Competetive tendering (article 5(3) of Regulation 1370/2007)'
+  nob: 'Anbudsprosedyre (forordning 1370/2007, artikkel 5(3))'
   history:
-  - name: Competitive tendering
+  - name: 'Competitive tendering (article 5(3) of Regulation 1370/2007) '
+    nob: 'Anbudskonkurranse'
     history: []
     nob_verify: false
-  - name: Competitive tendering
+  - name: 'Competitive tendering'
+    history: []
+    nob_verify: false
+  - name: 'Competitive tendering'
     nob: "?? Anskaffelse"
     history: []
     nob_verify: false
   nob_verify: true
 innovation:
-  name: Innovation partnership
-  nob: Innovasjonspartnerskap
+  name: 'Innovation partnership'
+  nob: 'Innovasjonspartnerskap'
   history:
-  - name: Innovation partnership
+  - name: 'Innovation partnership'
     history: []
     nob_verify: false
   nob_verify: false
 neg-w-call:
-  name: Negotiated with prior publication of a call for competition / competitive with negotiation
-  nob: Konkurranse med forhandling med  forhåndskunngjøring/ konkurranse med forhandling
+  name: >-
+    Negotiated with prior publication of a call for competition /
+    competitive with negotiation
+  nob: 'Konkurranse med forhandling etter forutgående kunngjøring'
   history:
-  - name: Negotiated with prior publication of a call for competition / competitive with negotiation
+  - name: >-
+      Negotiated with prior publication of a call for competition /
+      competitive with negotiation
+    nob: >-
+      Konkurranse med forhandling med  forhåndskunngjøring/
+      konkurranse med forhandling
+    history: []
+    nob_verify: false
+  - name: >-
+      Negotiated with prior publication of a call for competition
+      / competitive with negotiation
     history: []
     nob_verify: false
   nob_verify: false
 neg-wo-call:
-  name: Negotiated without prior call for competition
-  nob: Konkurranse med forhandling uten forutgående kunngjøring
+  name: 'Negotiated without prior call for competition'
+  nob: 'Konkurranse med forhandling uten forutgående kunngjøring'
   history:
-  - name: Negotiated without prior call for competition
+  - name: 'Negotiated without prior call for competition'
     history: []
     nob_verify: false
   nob_verify: false
 open:
-  name: Open
-  nob: Åpen
+  name: 'Open'
+  nob: 'Åpen anbudskonkurranse'
   history:
-  - name: Open
+  - name: 'Open'
+    nob: 'Åpen'
+    history: []
+    nob_verify: false
+  - name: 'Open'
     history: []
     nob_verify: false
   nob_verify: false
 oth-mult:
-  name: Other multiple stage procedure
-  nob: andre flertrinnsprosedyrer
+  name: 'Other multiple stage procedure'
+  nob: 'Annen flertrinnsprosedyre'
   history:
-  - name: Other multiple stage procedure
+  - name: 'Other multiple stage procedure'
+    nob: 'andre flertrinnsprosedyrer'
+    history: []
+    nob_verify: false
+  - name: 'Other multiple stage procedure'
     history: []
     nob_verify: false
   nob_verify: false
 oth-single:
-  name: Other single stage procedure
-  nob: andre ett-trinnsprosedyrer
+  name: 'Other single stage procedure'
+  nob: 'Annen ett-trinnsprosedyre'
   history:
-  - name: Other single stage procedure
+  - name: 'Other single stage procedure'
+    nob: 'andre ett-trinnsprosedyrer'
+    history: []
+    nob_verify: false
+  - name: 'Other single stage procedure'
     history: []
     nob_verify: false
   nob_verify: false
 restricted:
-  name: Restricted
-  nob: Begrenset
+  name: 'Restricted'
+  nob: 'Begrenset anbudskonkurranse'
   history:
-  - name: Restricted
+  - name: 'Restricted'
+    nob: 'Begrenset'
+    history: []
+    nob_verify: false
+  - name: 'Restricted'
     history: []
     nob_verify: false
   nob_verify: false
 exp-int-rail:
-  name: Request for expression of interest – only for rail (article 5(3b) of Regulation 1370/2007)
+  name: >-
+    Request for expression of interest – only for rail (article 5(3b)
+    of Regulation 1370/2007)
+  nob: >-
+    Forespørsel om interesse – kun for persontransport med jernbane
+    (forordning 1370/2007, artikkel 5(3b))
+  history:
+  - name: >-
+      Request for expression of interest – only for rail (article 5(3b)
+      of Regulation 1370/2007)
+  nob_verify: false
