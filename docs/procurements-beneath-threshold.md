@@ -150,7 +150,6 @@ Used to announce planned procurements below the EU/EEA thresholds for informatio
 | 📝BT-01(c)-Procedure     | Procedure Legal Basis             | `/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()=('CrossBorderLaw','LocalLegalBasis'))]/cbc:ID` | ID            | Mandatory: Always Mandatory in E2.<br>🏷️[@schemeName=’ELI’]<br>BT-01(c) shall be used to reference the applicable Norwegian procurement regulations using ELI (European Legislation Identifier).                                                                                    |
 | 📝BT-01(d)-Procedure     | Procedure Legal Basis             | `/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()=('CrossBorderLaw','LocalLegalBasis'))]/cbc:DocumentDescription` | TEXT          | Mandatory: Always Mandatory in E2.<br>Codelist: Free text in BT-01(d) is not allowed in E2. Instead, a national controlled codelist is used to identify the applicable legal basis. The value must be selected from the <u>predefined list</u>.                                        |
 | 📝 BT-11-Procedure-Buyer | Buyer Legal Type                  | `/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']` | CODE          | Mandatory: Always mandatory in E2.<br>Codelist: The codelist 🏷️@listName='buyer-legal-type' is restricted. Generic categories (e.g. body-pl, org-sub, pub-undert) are not permitted. Only specific organisational types (e.g. body-pl-cga, body-pl-la, body-pl-ra) may be used. |
-| 📝 BT-10-Procedure-Buyer | Activity Authority                | `/*/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']` | CODE          | Mandatory: Always mandatory in E2.                                                                                                                                                                                                                                          |
 
 ## E3 \| National Contract Notice 
 
@@ -166,7 +165,7 @@ Used to initiate a procurement procedure below the EU/EEA thresholds by formally
 
 ### **Norwegian Tailoring**
 
-Unless explicitly stated otherwise, the Norwegian tailoring rules described for **E2** apply equally to **E3** for the following fields: BT-01(c)-Procedure, BT-01(d)-Procedure, BT-11-Procedure-Buyer, BT-10-Procedure-Buyer. Only deviations specific to **E3** are documented in this section.
+Unless explicitly stated otherwise, the Norwegian tailoring rules described for **E2** apply equally to **E3** for the following fields: BT-01(c)-Procedure, BT-01(d)-Procedure, BT-11-Procedure-Buyer. Only deviations specific to **E3** are documented in this section.
 
 | **Field-ID**  | **Title**                               | **XPath**                                                                                                                                                                                                | **Data type**    | **Norwegian Tailoring**                                                                                                       |
 | ------------- | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -191,7 +190,7 @@ Used to announce the result of a completed procurement procedure below the EU/EE
 
 ### **Norwegian Tailoring**
 
-The Norwegian tailoring rules described for **E2** apply equally to **E4** for the following fields: BT-01(c)-Procedure, BT-01(d)-Procedure, BT-11-Procedure-Buyer, BT-10-Procedure-Buyer. As well does the rules described for the following fields in **E3**: BT-1251-Lot, and BT-765-Lot. Only deviations specific to **E3** are documented in this section.
+The Norwegian tailoring rules described for **E2** apply equally to **E4** for the following fields: BT-01(c)-Procedure, BT-01(d)-Procedure, BT-11-Procedure-Buyer. As well does the rules described for the following fields in **E3**: BT-1251-Lot, and BT-765-Lot. Only deviations specific to **E3** are documented in this section.
 
 | **Field-ID** | **Title** | **XPath** | **Data type** | **Norwegian Tailoring** |
 |--------------|-----------|-----------|---------------|-------------------------|
