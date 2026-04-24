@@ -1,3 +1,42 @@
+---
+title: "Procurements beneath EU/EEA threshold"
+organization: "The Norwegian Agency for Finance and Public Management (DFØ)"
+organization_url: "https://www.dfo.no"
+date: "2026-03-27"
+updated: "2026-04-23"
+version: "0.1"
+license:
+  spdx: "CC-BY-4.0"
+  name: "Creative Commons Attribution 4.0 International"
+  url: "https://creativecommons.org/licenses/by/4.0/"
+copyright:
+  year: 2026
+  holder: "The Norwegian Agency for Finance and Public Management (DFØ)"
+
+source: "https://github.com/anskaffelser/eforms-sdk-nor"
+
+contributors:
+  - organization_unit: "The Department of Management and Digitalization"
+    people:
+      - "Bech, Malin Mæland & Løken, Arne Magnus Tveita"
+
+dependencies:
+  - name: "OP-TED/eForms-SDK"
+    type: "git"
+    url: "https://github.com/OP-TED/eForms-SDK"
+    usage: "Build-time input (schemas/codelists); pulled in during build"
+    license:
+      spdx: "EUPL-1.2"
+      name: "EU Public Licence v1.2"
+      url: "https://eupl.eu/1.2/en"
+
+references:
+  - name: "TED Developer Docs"
+    url: "https://docs.ted.europa.eu/home/index.html"
+  - name: "eForms documentation"
+    url: "https://docs.ted.europa.eu/eforms/latest/index.html"
+---
+
 # 1. Purpose and scope
 
 This document/page describes the **Norwegian national tailoring** applied to selected eForms notice subtypes used for procurements below the EU/EEA thresholds.
