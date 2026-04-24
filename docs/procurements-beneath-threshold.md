@@ -18,7 +18,8 @@ source: "https://github.com/anskaffelser/eforms-sdk-nor"
 contributors:
   - organization_unit: "The Department of Management and Digitalization"
     people:
-      - "Bech, Malin Mæland & Løken, Arne Magnus Tveita"
+      - "Bech, Malin Mæland"
+      - "Løken, Arne Magnus Tveita"
 
 dependencies:
   - name: "OP-TED/eForms-SDK"
