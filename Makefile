@@ -16,7 +16,7 @@ SAXON_MINOR ?= 2
 
 TESTS ?= src/tests
 
-VALIDATOR_IMAGE ?= anskaffelser/validator:edge
+VALIDATOR_IMAGE ?= ghcr.io/anskaffelser/validator:edge
 
 default: clean-light build
 
