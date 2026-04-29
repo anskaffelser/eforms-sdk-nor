@@ -16,6 +16,8 @@ SAXON_MINOR ?= 2
 
 TESTS ?= src/tests
 
+VALIDATOR_IMAGE ?= ghcr.io/anskaffelser/validator:edge
+
 default: clean-light build
 
 clean-light:
@@ -460,7 +462,7 @@ target/dev.anskaffelser.eforms.sdk-nor.asice: target/buildconfig.xml # $$(find s
 	@docker run --rm -i \
 		-v $$(pwd)/target:/src \
 		-u $$(id -u):$$(id -g) \
-		anskaffelser/validator:edge build \
+		$(VALIDATOR_IMAGE) build \
 		 -x -t -n dev.anskaffelser.eforms.sdk-$(EFORMS_MINOR)-nor -b $(VERSION) -target validator-target /src || true
 	@mv target/validator-target/dev.anskaffelser.eforms.sdk-$(EFORMS_MINOR)-nor-$(VERSION).asice target/
 	@rm -rf target/validator-target
