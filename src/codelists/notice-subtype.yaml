@@ -434,37 +434,49 @@
     nob_verify: true
   nob_verify: false
 38:
-  name: Contract modification notice – general directive
-  nob: Melding om endring av kontrakt – generelt direktiv
+  name: 'Contract modification notice – general directive'
+  nob: 'Kunngjøring av endring i en inngått kontrakt – Anskaffelsesforskriften'
   history:
-  - name: Contract modification notice – general directive
+  - name: 'Contract modification notice – general directive'
+    nob: 'Melding om endring av kontrakt – generelt direktiv'
+    history: []
+    nob_verify: false
+  - name: 'Contract modification notice – general directive'
     nob: 38
     history: []
     nob_verify: true
   nob_verify: false
 39:
-  name: Contract modification notice – sectoral directive
-  nob: Kunngjøring om endring av kontrakt – sektordirektiv
+  name: 'Contract modification notice – sectoral directive'
+  nob: 'Kunngjøring av endring i en inngått kontrakt – Forsyningsforskriften'
   history:
-  - name: Contract modification notice – sectoral directive
+  - name: 'Contract modification notice – sectoral directive'
+    nob: 'Kunngjøring om endring av kontrakt – sektordirektiv'
+    history: []
+    nob_verify: false
+  - name: 'Contract modification notice – sectoral directive'
     nob: 39
     history: []
     nob_verify: true
   nob_verify: false
 4:
-  name: Prior information notice used only for information – general directive
-  nob: Forhåndsvarsel brukes kun til informasjon – generelt direktiv
+  name: 'Prior information notice used only for information – general directive'
+  nob: 'Forhåndsvarsel brukes kun til informasjon – generelt direktiv'
   history:
-  - name: Prior information notice used only for information – general directive
+  - name: 'Prior information notice used only for information – general directive'
     nob: 4
     history: []
     nob_verify: true
   nob_verify: false
 40:
-  name: Contract modification notice – concessions directive
-  nob: Kunngjøring om endring av kontrakt – konsesjonsdirektivet
+  name: 'Contract modification notice – concessions directive'
+  nob: 'Kunngjøring av endring i en inngått kontrakt – Konsesjonskontraktsforskriften'
   history:
-  - name: Contract modification notice – concessions directive
+  - name: 'Contract modification notice – concessions directive'
+    nob: 'Kunngjøring om endring av kontrakt – konsesjonsdirektivet'
+    history: []
+    nob_verify: false
+  - name: 'Contract modification notice – concessions directive'
     nob: 40
     history: []
     nob_verify: true
