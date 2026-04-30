@@ -512,28 +512,40 @@
     nob_verify: true
   nob_verify: false
 7:
-  name: Prior information notice used to shorten time limits for receipt of tenders – general directive
-  nob: Forhåndsmelding om forkortede frister for mottak av anbud – generelt direktiv
+  name: 'Prior information notice used to shorten time limits for receipt of tenders – general directive'
+  nob: 'Veiledende kunngjøring for å forkorte tilbudsfristen – anskaffelsesforskriften'
   history:
-  - name: Prior information notice used to shorten time limits for receipt of tenders – general directive
+  - name: 'Prior information notice used to shorten time limits for receipt of tenders – general directive'
+    nob: 'Forhåndsmelding om forkortede frister for mottak av anbud – generelt direktiv'
+    history: []
+    nob_verify: false
+  - name: 'Prior information notice used to shorten time limits for receipt of tenders – general directive'
     nob: 7
     history: []
     nob_verify: true
   nob_verify: false
 8:
-  name: Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive
-  nob: Periodisk veiledende melding for å forkorte fristene for mottak av anbud – sektordirektiv
+  name: 'Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive'
+  nob: 'Veiledende kunngjøring for å forkorte tilbudsfristen –  Forsyningsforskriften'
   history:
-  - name: Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive
+  - name: 'Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive'
+    nob: 'Periodisk veiledende melding for å forkorte fristene for mottak av anbud – sektordirektiv'
+    history: []
+    nob_verify: false
+  - name: 'Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive'
     nob: 8
     history: []
     nob_verify: true
   nob_verify: false
 9:
-  name: Prior information notice used to shorten time limits for receipt of tenders – defence directive
-  nob: Forhåndsmelding om forkortede frister for mottak av anbud – forsvarsdirektiv
+  name: 'Prior information notice used to shorten time limits for receipt of tenders – defence directive'
+  nob: 'Veiledende kunngjøring for å forkorte tilbudsfristen – Forsvar- og sikkerhetsforskriften'
   history:
-  - name: Prior information notice used to shorten time limits for receipt of tenders – defence directive
+  - name: 'Prior information notice used to shorten time limits for receipt of tenders – defence directive'
+    nob: 'Forhåndsmelding om forkortede frister for mottak av anbud – forsvarsdirektiv'
+    history: []
+    nob_verify: false
+  - name: 'Prior information notice used to shorten time limits for receipt of tenders – defence directive'
     nob: 9
     history: []
     nob_verify: true
