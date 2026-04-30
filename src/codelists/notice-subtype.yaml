@@ -318,28 +318,40 @@
     nob_verify: true
   nob_verify: false
 30:
-  name: Contract award notice – sectoral directive, standard regime
-  nob: Kunngjøring av kontraktstildeling – sektordirektiv, standardregime
+  name: 'Contract award notice – sectoral directive, standard regime'
+  nob: 'Kunngjøring av kontraktsinngåelse – Forsyningsforskriften'
   history:
-  - name: Contract award notice – sectoral directive, standard regime
+  - name: 'Contract award notice – sectoral directive, standard regime'
+    nob: 'Kunngjøring av kontraktstildeling – sektordirektiv, standardregime'
+    history: []
+    nob_verify: false
+  - name: 'Contract award notice – sectoral directive, standard regime'
     nob: 30
     history: []
     nob_verify: true
   nob_verify: false
 31:
-  name: Contract award notice – defence directive, standard regime
-  nob: Melding om kontraktstildeling – forsvarsdirektiv, standardregime
+  name: 'Contract award notice – defence directive, standard regime'
+  nob: 'Kunngjøring av kontraktsinngåelse – Forsvar- og sikkerhetsforskriften'
   history:
-  - name: Contract award notice – defence directive, standard regime
+  - name: 'Contract award notice – defence directive, standard regime'
+    nob: 'Melding om kontraktstildeling – forsvarsdirektiv, standardregime'
+    history: []
+    nob_verify: false
+  - name: 'Contract award notice – defence directive, standard regime'
     nob: 31
     history: []
     nob_verify: true
   nob_verify: false
 32:
-  name: Concession award notice – concession directive, standard regime
-  nob: Varsel om konsesjonstildeling – konsesjonsdirektiv, standardregime
+  name: 'Concession award notice – concession directive, standard regime'
+  nob: 'Kunngjøring av kontraktsinngåelse – Konsesjonskontraktsforskriften'
   history:
-  - name: Concession award notice – concession directive, standard regime
+  - name: 'Concession award notice – concession directive, standard regime'
+    nob: 'Varsel om konsesjonstildeling – konsesjonsdirektiv, standardregime'
+    history: []
+    nob_verify: false
+  - name: 'Concession award notice – concession directive, standard regime'
     nob: 32
     history: []
     nob_verify: true
