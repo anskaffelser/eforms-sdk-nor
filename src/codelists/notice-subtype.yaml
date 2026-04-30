@@ -240,19 +240,27 @@
     nob_verify: true
   nob_verify: false
 25:
-  name: Voluntary ex-ante transparency notice – general directive
-  nob: Frivillig ex ante åpenhetserklæring – generelt direktiv
+  name: 'Voluntary ex-ante transparency notice – general directive'
+  nob: 'Intensjonskunngjøring – Anskaffelsesforskriften'
   history:
-  - name: Voluntary ex-ante transparency notice – general directive
+  - name: 'Voluntary ex-ante transparency notice – general directive'
+    nob: 'Frivillig ex ante åpenhetserklæring – generelt direktiv'
+    history: []
+    nob_verify: false
+  - name: 'Voluntary ex-ante transparency notice – general directive'
     nob: 25
     history: []
     nob_verify: true
   nob_verify: false
 26:
-  name: Voluntary ex-ante transparency notice – sectoral directive
-  nob: Frivillig ex ante åpenhetsmelding – sektordirektiv
+  name: 'Voluntary ex-ante transparency notice – sectoral directive'
+  nob: 'Intensjonskunngjøring – Forsyningsforskriften'
   history:
-  - name: Voluntary ex-ante transparency notice – sectoral directive
+  - name: 'Voluntary ex-ante transparency notice – sectoral directive'
+    nob: 'Frivillig ex ante åpenhetsmelding – sektordirektiv'
+    history: []
+    nob_verify: false
+  - name: 'Voluntary ex-ante transparency notice – sectoral directive'
     nob: 26
     history: []
     nob_verify: true
