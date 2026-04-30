@@ -154,23 +154,31 @@
     nob_verify: true
   nob_verify: false
 2:
-  name: Notice of the publication of a periodic indicative notice on a buyer profile – sectoral directive
-  nob: Melding om offentliggjøring av en periodisk veiledende melding på en kjøperprofil – sektordirektiv
+  name: 'Notice of the publication of a periodic indicative notice on a buyer profile – sectoral directive'
+  nob: 'Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil – Forsyningsforskriften'
   history:
-  - name: Notice of the publication of a periodic indicative notice on a buyer profile – sectoral directive
+  - name: 'Notice of the publication of a periodic indicative notice on a buyer profile – sectoral directive'
+    nob: 'Melding om offentliggjøring av en periodisk veiledende melding på en kjøperprofil – sektordirektiv'
+    history: []
+    nob_verify: false
+  - name: 'Notice of the publication of a periodic indicative notice on a buyer profile – sectoral directive'
     nob: 2
     history: []
     nob_verify: true
   nob_verify: false
 20:
-  name: Contract notice – general directive, light regime
-  nob: Kunngjøring av kontrakt – generelt direktiv, forenklet regime
+  name: 'Contract notice – general directive, light regime'
+  nob: 'Kunngjøring av konkurranse (Helse- og sosialtjenester og særlige tjenester) – Anskaffelsesforskriften'
   history:
-  - name: Contract notice – general directive, light regime
-    nob: Kunngjøring av kontrakt – generelt direktiv, lysregime
+  - name: 'Contract notice – general directive, light regime'
+    nob: 'Kunngjøring av kontrakt – generelt direktiv, forenklet regime'
     history: []
     nob_verify: false
-  - name: Contract notice – general directive, light regime
+  - name: 'Contract notice – general directive, light regime'
+    nob: 'Kunngjøring av kontrakt – generelt direktiv, lysregime'
+    history: []
+    nob_verify: false
+  - name: 'Contract notice – general directive, light regime'
     nob: 20
     history: []
     nob_verify: true
