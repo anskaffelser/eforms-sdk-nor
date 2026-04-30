@@ -624,6 +624,10 @@ E5:
     history: []
     nob_verify: true
   nob_verify: true
+E6:
+  name: 'E6'
+  nob: 'Kunngjøring av endring i en inngått kontrakt'
+  nob_verify: true
 T01:
   name: 'T01'
   nob: 'Veiledende kunngjøring – offentlig persontransport'
