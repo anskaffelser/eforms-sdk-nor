@@ -12,9 +12,13 @@
     nob_verify: true
   nob_verify: false
 10:
-  name: Prior information notice used as a call for competition – general directive, standard regime
-  nob: Forhåndsmelding brukt som oppfordring til konkurranse – generelt direktiv, standardregime
+  name: 'Prior information notice used as a call for competition – general directive, standard regime'
+  nob: 'Forhåndskunngjøring – Anskaffelsesforskriften'
   history:
+  - name: 'Prior information notice used as a call for competition – general directive, standard regime'
+    nob: 'Forhåndsmelding brukt som oppfordring til konkurranse – generelt direktiv, standardregime'
+    history: []
+    nob_verify: false
   - name: Prior information notice used as a call for competition – general directive, standard regime
     nob: 10
     history: []
