@@ -55,9 +55,13 @@
     nob_verify: true
   nob_verify: false
 13:
-  name: Periodic indicative notice used as a call for competition – sectoral directive, light regime
-  nob: Periodisk veiledende melding brukt som oppfordring til konkurranse – sektordirektiv, forenklet regime
+  name: 'Periodic indicative notice used as a call for competition – sectoral directive, light regime'
+  nob: 'Forhåndskunngjøring (Helse- og sosialtjenester og særlige tjenester) – Forsyningsforskriften'
   history:
+  - name: 'Periodic indicative notice used as a call for competition – sectoral directive, light regime-
+    nob: 'Periodisk veiledende melding brukt som oppfordring til konkurranse – sektordirektiv, forenklet regime'
+    history: []
+    nob_verify: false
   - name: Periodic indicative notice used as a call for competition – sectoral directive, light regime
     nob: Periodisk veiledende melding brukt som oppfordring til konkurranse – sektordirektiv, lysregime
     history: []
