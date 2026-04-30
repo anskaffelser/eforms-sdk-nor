@@ -101,12 +101,12 @@ jobs:
       - name: 'Build folder'
         run: 'make build'
 
-      - name: Log in to GHCR
-        uses: docker/login-action@v3
+      - name: 'Log in to GHCR'
+        uses: 'docker/login-action@v4'
         with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: 'ghcr.io'
+          username: '${{ github.actor }}'
+          password: '${{ secrets.GITHUB_TOKEN }}'
 
       - name: 'Build validator'
         run: 'make validator'
