@@ -89,10 +89,14 @@
     nob_verify: true
   nob_verify: false
 15:
-  name: Notice on the existence of a qualification system – sectoral directive
-  nob: Melding om eksistens av kvalifikasjonssystem – sektordirektiv
+  name: 'Notice on the existence of a qualification system – sectoral directive'
+  nob: 'Kunngjøring av en kvalifikasjonsordning'
   history:
-  - name: Notice on the existence of a qualification system – sectoral directive
+  - name: 'Notice on the existence of a qualification system – sectoral directive'
+    nob: 'Melding om eksistens av kvalifikasjonssystem – sektordirektiv'
+    history: []
+    nob_verify: false
+  - name: 'Notice on the existence of a qualification system – sectoral directive'
     nob: 15
     history: []
     nob_verify: true
