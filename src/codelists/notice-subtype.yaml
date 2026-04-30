@@ -128,19 +128,27 @@
     nob_verify: true
   nob_verify: false
 18:
-  name: Contract notice – defence directive, standard regime
-  nob: Kunngjøring av kontrakt – forsvarsdirektiv, standardregime
+  name: 'Contract notice – defence directive, standard regime'
+  nob: 'Kunngjøring av konkurranse – Forsvar- og sikkerhetsforskriften'
   history:
-  - name: Contract notice – defence directive, standard regime
+  - name: 'Contract notice – defence directive, standard regime'
+    nob: 'Kunngjøring av kontrakt – forsvarsdirektiv, standardregime
+    history: []
+    nob_verify: false
+  - name: 'Contract notice – defence directive, standard regime'
     nob: 18
     history: []
     nob_verify: true
   nob_verify: false
 19:
-  name: Concession notice – concessions directive, standard regime
-  nob: Konsesjonsmelding – konsesjonsdirektivet, standardregime
+  name: 'Concession notice – concessions directive, standard regime'
+  nob: 'Kunngjøring av konkurranse – Konsesjonskontraktsforskriften'
   history:
-  - name: Concession notice – concessions directive, standard regime
+  - name: 'Concession notice – concessions directive, standard regime'
+    nob: 'Konsesjonsmelding – konsesjonsdirektivet, standardregime'
+    history: []
+    nob_verify: false
+  - name: 'Concession notice – concessions directive, standard regime'
     nob: 19
     history: []
     nob_verify: true
