@@ -266,19 +266,27 @@
     nob_verify: true
   nob_verify: false
 27:
-  name: Voluntary ex-ante transparency notice – defence directive
-  nob: Frivillig ex ante åpenhetsvarsel – forsvarsdirektiv
+  name: 'Voluntary ex-ante transparency notice – defence directive'
+  nob: 'Intensjonskunngjøring – Forsvar- og sikkerhetsforskriften'
   history:
-  - name: Voluntary ex-ante transparency notice – defence directive
+  - name: 'Voluntary ex-ante transparency notice – defence directive'
+    nob: 'Frivillig ex ante åpenhetsvarsel – forsvarsdirektiv'
+    history: []
+    nob_verify: false
+  - name: 'Voluntary ex-ante transparency notice – defence directive'
     nob: 27
     history: []
     nob_verify: true
   nob_verify: false
 28:
-  name: Voluntary ex-ante transparency notice – concession directive
-  nob: Frivillig ex ante åpenhetsmelding – konsesjonsdirektiv
+  name: 'Voluntary ex-ante transparency notice – concession directive'
+  nob: 'Intensjonskunngjøring – Konsesjonskontraktsforskriften'
   history:
-  - name: Voluntary ex-ante transparency notice – concession directive
+  - name: 'Voluntary ex-ante transparency notice – concession directive'
+    nob: 'Frivillig ex ante åpenhetsmelding – konsesjonsdirektiv'
+    history: []
+    nob_verify: false
+  - name: 'Voluntary ex-ante transparency notice – concession directive'
     nob: 28
     history: []
     nob_verify: true
