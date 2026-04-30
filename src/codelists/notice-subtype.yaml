@@ -626,8 +626,12 @@ E5:
   nob_verify: true
 T01:
   name: 'T01'
-  nob: 'Forhåndsmelding om kontrakt om offentlig tjeneste'
+  nob: 'Veiledende kunngjøring – offentlig persontransport'
   history:
+  - name: 'T01'
+    nob: 'Forhåndsmelding om kontrakt om offentlig tjeneste'
+    history: []
+    nob_verify: true
   - name: 'Prior information notice for public service contract'
     nob: 'T01'
     history: []
@@ -635,8 +639,12 @@ T01:
   nob_verify: true
 T02:
   name: 'T02'
-  nob: 'Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste'
+  nob: 'Kunngjøring av kontraktsinngåelse – offentlig persontransport'
   history:
+  - name: 'T02'
+    nob: 'Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste'
+    history: []
+    nob_verify: true
   - name: 'Information notice for award of public service contract'
     nob: 'T02'
     history: []
