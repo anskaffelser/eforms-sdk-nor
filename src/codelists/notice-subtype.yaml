@@ -1,8 +1,12 @@
 1:
-  name: Notice of the publication of a prior information notice on a buyer profile – general directive
-  nob: Melding om offentliggjøring av forhåndsmelding på en kjøperprofil – generelt direktiv
+  name: 'Notice of the publication of a prior information notice on a buyer profile – general directive'
+  nob: 'Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil – Anskaffelsesforskriften'
   history:
-  - name: Notice of the publication of a prior information notice on a buyer profile – general directive
+  - name: 'Notice of the publication of a prior information notice on a buyer profile – general directive'
+    nob: 'Melding om offentliggjøring av forhåndsmelding på en kjøperprofil – generelt direktiv'
+    history: []
+    nob_verify: false
+  - name: 'Notice of the publication of a prior information notice on a buyer profile – general directive'
     nob: 1
     history: []
     nob_verify: true
