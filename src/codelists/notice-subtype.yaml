@@ -38,9 +38,13 @@
     nob_verify: true
   nob_verify: false
 12:
-  name: Prior information notice used as a call for competition – general directive, light regime
-  nob: Forhåndsmelding brukt som oppfordring til konkurranse – generelt direktiv, forenklet regime
+  name: 'Prior information notice used as a call for competition – general directive, light regime'
+  nob: 'Forhåndskunngjøring (Helse- og sosialtjenester og særlige tjenester) – Anskaffelsesforskriften'
   history:
+  - name: 'Prior information notice used as a call for competition – general directive, light regime'
+    nob: 'Forhåndsmelding brukt som oppfordring til konkurranse – generelt direktiv, forenklet regime'
+    history: []
+    nob_verify: false
   - name: Prior information notice used as a call for competition – general directive, light regime
     nob: Forhåndsmelding brukt som oppfordring til konkurranse – generelt direktiv, lysregime
     history: []
