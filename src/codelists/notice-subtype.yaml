@@ -587,26 +587,38 @@ E2:
   nob_verify: false
 E3:
   name: 'E3'
-  nob: 'Generelt under terskelvarsel om kontrakt (CN)'
+  nob: 'Kunngjøring av konkurranse under EØS-terskelverdi'
   history:
+  - name: 'E3'
+    nob: 'Generelt under terskelvarsel om kontrakt (CN)'
+    history: []
+    nob_verify: true
   - name: 'Below threshold contract notice (CN) general'
     nob: 'E3'
     history: []
     nob_verify: true
-  nob_verify: true
+  nob_verify: false
 E4:
   name: 'E4'
-  nob: 'Varsel om kontraktstildeling under terskelen (CAN) generelt'
+  nob: 'Kunngjøring av kontraktsinngåelse under EØS-terskelverdi'
   history:
+  - name: 'E4'
+    nob: 'Varsel om kontraktstildeling under terskelen (CAN) generelt'
+    history: []
+    nob_verify: true
   - name: 'Below threshold contract award notice (CAN) general'
     nob: 'E4'
     history: []
     nob_verify: true
-  nob_verify: true
+  nob_verify: false
 E5:
   name: 'E5'
-  nob: 'Varsel om fullføring av kontrakt'
+  nob: 'Kunngjøring om fullføring av kontrakt'
   history:
+  - name: 'E5'
+    nob: 'Varsel om fullføring av kontrakt'
+    history: []
+    nob_verify: true
   - name: 'Contract completion notice'
     nob: 'E5'
     history: []
