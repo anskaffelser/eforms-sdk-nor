@@ -25,9 +25,13 @@
     nob_verify: true
   nob_verify: false
 11:
-  name: Periodic indicative notice used as a call for competition – sectoral directive, standard regime
-  nob: Periodisk veiledende melding brukt som oppfordring til konkurranse – sektordirektiv, standardregime
+  name: 'Periodic indicative notice used as a call for competition – sectoral directive, standard regime'
+  nob: 'Forhåndskunngjøring – Forsyningsforskriften'
   history:
+  - name: 'Periodic indicative notice used as a call for competition – sectoral directive, standard regime'
+    nob: 'Periodisk veiledende melding brukt som oppfordring til konkurranse – sektordirektiv, standardregime'
+    history: []
+    nob_verify: false
   - name: Periodic indicative notice used as a call for competition – sectoral directive, standard regime
     nob: 11
     history: []
