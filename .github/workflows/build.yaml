@@ -101,12 +101,12 @@ jobs:
       - name: 'Build folder'
         run: 'make build'
 
-      - name: Log in to GHCR
-        uses: docker/login-action@v3
+      - name: 'Log in to GHCR'
+        uses: 'docker/login-action@v4'
         with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: 'ghcr.io'
+          username: '${{ github.actor }}'
+          password: '${{ secrets.GITHUB_TOKEN }}'
 
       - name: 'Build validator'
         run: 'make validator'
@@ -160,4 +160,4 @@ jobs:
           token: '${{ secrets.GITHUB_TOKEN }}'
           file: 'target/dev.anskaffelser.eforms.sdk-${{ matrix.EFORMS_MINOR }}-nor-${{ env.PROJECT_VERSION }}.asice'
           name: 'dev.anskaffelser.eforms.sdk-${{ matrix.EFORMS_MINOR }}-nor-${{ env.PROJECT_VERSION }}.asice'
-          label: 'Validaton for eForms SDK NOR ${{ env.PROJECT_VERSION }} for ${{ matrix.EFORMS_MINOR }}'
+          label: 'Validation for eForms SDK NOR ${{ env.PROJECT_VERSION }} for ${{ matrix.EFORMS_MINOR }}'
