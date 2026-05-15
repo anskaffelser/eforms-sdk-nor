@@ -698,6 +698,7 @@ national_platform_features:
     valid_from_sdk: '1.14'
     valid_to_date: ~
     valid_to_sdk: ~
+    version: '2.0.0'
 
 sdk:
   enum_name: 'award-criterion-type'
@@ -777,3 +778,4 @@ validation_rules:
   valid_from_sdk: '1.13'
   valid_to_date: ~
   valid_to_sdk: ~
+  version: '2.0.0'
