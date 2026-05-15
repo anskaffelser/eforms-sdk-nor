@@ -18,7 +18,7 @@ contributors:
   - organization_unit: 'The Department of Management and Digitalization'
     people:
       - 'Løken, Arne Magnus Tveita'
-	  - 'Østrem, Ingunn Balgaard'
+      - 'Østrem, Ingunn Balgaard'
 
 dependencies:
   - name: 'OP-TED/eForms-SDK'
