@@ -129,7 +129,71 @@ codes:
     valid_to_date: '2026-06-30'
     valid_from_sdk: '1.7'
     valid_to_sdk: '1.14'
-    
+
+  - code: 'quality-nor-env-exempt-critical-interest'
+    description:
+      eng: >-
+        Norwegian extension of the award criterion type `quality`.
+        Utilized to indicate that the exception for health, safety, or
+        preparedness interests is applied, in accordance with Section
+        7-9 (3) of the Norwegian Procurement Regulations (2026 update).
+      eng_verify: true
+      nob: >-
+        Norsk spesifikk underkategori av tildelingskriterium type kvalitet.
+        Brukes for å indikere at unntaket for helse-, sikkerhets- eller
+        beredskapsinteresser kommer til anvendelse, iht.
+        Anskaffelsesforskriftens § 7-9 (3) (revidert i 2026).
+      nob_verify: true
+      nno: >-
+        Norsk spesifikk underkategori av tildelingskriterium type kvalitet.
+        Blir brukt for å indikera at unntaket for helse-, tryggleiks- eller
+        beredskapsinteresser blir brukt, i samsvar med
+        Anskaffelsesforskriftens § 7-9 (3) (revisjon frå 2026).
+      nno_verify: true
+    domain: 'norwegian-national-extension'
+    future: []
+    history: []
+    label:
+      eng: >-
+        Quality – exemption from climate and environmental requirements under
+        Norwegian procurement regulations: essential interests of health, safety
+        or emergency preparedness (justification required)
+      eng_verify: true
+      nob: >-
+        Kvalitet – unntak fra klima- og miljøkrav i norsk anskaffelsesregelverk:
+          Vesentlige interesser innen helse, sikkerhet eller beredskap (skal
+          begrunnes)
+      nob_verify: true
+      nno: >-
+        Kvalitet – unntak frå klima- og miljøkrav i norsk anskaffingsregelverk:
+          Vesentlege interesser innan helse, tryggleik eller beredskap (skal
+          grunngjes)
+      nno_verify: true
+    parent_eu_code: 'quality'
+    sdk_value: 'QUALITY_NOR_ENV_EXEMPT_CRITICAL_INTEREST'
+    status: 'future'
+    ted_mapping:
+      code: 'quality'
+      mode: 'map-to-parent'
+      note:
+        eng: >-
+          If a notice is submitted to TED, DFØ replaces this value with
+          `quality`, in accordance with `export_policies.ted`.
+        eng_verify: false
+        nob: >-
+          Ved innsending til TED kobler DFØ denne verdien til `quality`,
+          jf. `export_policies.ted`.
+        nob_verify: false
+        nno: >-
+          Ved innsending til TED kobler DFØ denne verdien med `quality`,
+          jf. `export_policies.ted`.
+        nno_verify: false
+    valid_from_date: '2026-07-01'
+    valid_from_sdk: '1.13'
+    valid_to_date: ~
+    valid_to_sdk: ~
+    version: '2.0.0'
+
   - code: 'quality-nor-env-exempt-insignificant'
     description:
       eng: >-
@@ -189,10 +253,76 @@ codes:
           Ved innsending til TED kobler DFØ denne verdien med `quality`,
           jf. `export_policies.ted`.
         nno_verify: false
-    valid_from_date: "2026-07-01"
-    valid_from_sdk: "1.13"
+    valid_from_date: '2026-07-01'
+    valid_from_sdk: '1.13'
     valid_to_date: ~
     valid_to_sdk: ~
+    version: '2.0.0'
+
+  - code: 'quality-nor-env-exempt-national-minimum'
+    description:
+      eng: >-
+        Norwegian extension of the award criterion type `quality`.
+        Utilized to indicate that the exception for mandatory standardised
+        minimum requirements is applied, in accordance with Section
+        7-9 (4) of the Norwegian Procurement Regulations (2026 update).
+      eng_verify: true
+      nob: >-
+        Norsk spesifikk underkategori av tildelingskriterium type kvalitet.
+        Brukes for å indikere at unntaket for lovpålagte standardiserte
+        minimumskrav kommer til anvendelse, iht.
+        Anskaffelsesforskriftens § 7-9 (4) (revidert i 2026).
+      nob_verify: true
+      nno: >-
+        Norsk spesifikk underkategori av tildelingskriterium type kvalitet.
+        Blir brukt for å indikera at unntaket for lovpålagde standardiserte
+        minimumskrav blir brukt, i samsvar med
+        Anskaffingsforskriftas § 7-9 (4) (revisjon frå 2026).
+      nno_verify: true
+    domain: 'norwegian-national-extension'
+    future: []
+    history: []
+    label:
+      eng: >-
+        Quality – exemption from climate and environmental requirements under
+        Norwegian procurement regulations: mandatory standardised minimum
+        requirements for climate footprint or environmental impact
+        (justification required)
+      eng_verify: true
+      nob: >-
+        Kvalitet – unntak fra klima- og miljøkrav i norsk anskaffelsesregelverk:
+        Lovpålagte standardiserte minimumskrav til klimaavtrykk eller
+        miljøbelastning (skal begrunnes)
+      nob_verify: true
+      nno: >-
+        Kvalitet – unntak frå klima- og miljøkrav i norsk anskaffelsesregelverk:
+        Lovpålagde standardiserte minimumskrav til klimaavtrykk eller
+        miljøbelastning (skal grunngjes)'
+      nno_verify: true
+    parent_eu_code: 'quality'
+    sdk_value: 'QUALITY_NOR_ENV_EXEMPT_NATIONAL_MINIMUM'
+    status: 'future'
+    ted_mapping:
+      code: 'quality'
+      mode: 'map-to-parent'
+      note:
+        eng: >-
+          If a notice is submitted to TED, DFØ replaces this value with
+          `quality`, in accordance with `export_policies.ted`.
+        eng_verify: false
+        nob: >-
+          Ved innsending til TED kobler DFØ denne verdien til `quality`,
+          jf. `export_policies.ted`.
+        nob_verify: false
+        nno: >-
+          Ved innsending til TED kobler DFØ denne verdien med `quality`,
+          jf. `export_policies.ted`.
+        nno_verify: false
+    valid_from_date: '2026-07-01'
+    valid_from_sdk: '1.14'
+    valid_to_date: ~
+    valid_to_sdk: ~
+    version: '2.0.0'
 
   - code: 'quality-nor-env-spec'
     description:
@@ -279,6 +409,7 @@ codes:
         valid_to_date: ~
         valid_from_sdk: '1.13'
         valid_to_sdk: ~
+        version: '2.0.0'
     history: []
     label:
       eng: >-
@@ -315,6 +446,8 @@ codes:
     valid_to_date: '2026-06-30'
     valid_from_sdk: '1.7'
     valid_to_sdk: '1.14'
+    version: '1.0.0'
+    
   - code: 'quality-nor-env-none'
     description:
       eng: >-
@@ -376,6 +509,7 @@ codes:
     valid_to_date: '2026-06-30'
     valid_from_sdk: '1.7'
     valid_to_sdk: '1.14'
+    version: '1.0.0'
 
 export_policies:
   national_platform:
