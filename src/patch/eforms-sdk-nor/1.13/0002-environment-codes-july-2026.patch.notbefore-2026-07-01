@@ -17,7 +17,7 @@ index 26dfd74..e75f146 100644
 +            <SimpleValue>Quality – climate- and environmental considerations as award criterion</SimpleValue>
 +         </Value>
 +         <Value ColumnRef="nno_label">
-+            <SimpleValue>Kvalitet – klima- og miljøhensyn som tildelingskriterium</SimpleValue>
++            <SimpleValue>Kvalitet – klima- og miljøomsyn som tildelingskriterium</SimpleValue>
 +         </Value>
 +         <Value ColumnRef="nob_label">
 +            <SimpleValue>Kvalitet – klima- og miljøhensyn som tildelingskriterium</SimpleValue>
