@@ -73,7 +73,7 @@ codes:
           eng_verify: false
           nob: 'Kvalitet – klima- og miljøhensyn som tildelingskriterium'
           nob_verify: false
-          nno: 'Kvalitet – klima- og miljøhensyn som tildelingskriterium'
+          nno: 'Kvalitet – klima- og miljøomsyn som tildelingskriterium'
           nno_verify: false
         parent_eu_code: 'quality'
         sdk_value: 'QUALITY_NOR_ENV_CRITERIA'
