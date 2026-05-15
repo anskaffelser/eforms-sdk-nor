@@ -1,17 +1,17 @@
-# SPDX-License-Identifier: CC-BY-4.0 
+# SPDX-License-Identifier: CC-BY-4.0
 # License: Creative Commons Attribution 4.0 International
 # https://creativecommons.org/licenses/by/4.0
 #
-# AwardCriterionType - Norwegian eForms extension 
+# AwardCriterionType - Norwegian eForms extension
 #                      (National Extension Code List)
-# Copyright © 2025 DFØ – The Norwegian Agency for Public and Financial 
+# Copyright © 2025 DFØ – The Norwegian Agency for Public and Financial
 #                        Management
-# 
-# You are free to: 
+#
+# You are free to:
 # - share – copy and redistribute the material in any medium or format
 # - adapt – remix, transform, and build upon the material for any purpose
 #
-# Under the following terms: 
+# Under the following terms:
 # - attribution – you must give appropriate credit to DFØ.
 #
 # This document defines Norwegian extensions of the EU codelist
@@ -20,7 +20,7 @@
 ---
 meta:
   id: award-criterion-type-no
-  title: 
+  title:
     nob: >-
       AwardCriterionType – norsk utvidelse
     nob_verify: false
@@ -40,7 +40,57 @@ meta:
     name: "Creative Commons Attribution 4.0 International"
     url: "https://creativecommons.org/licenses/by/4.0"
     attribution_required: true
-  
+  changelog:
+    - version: "2.0.0"
+      date: "2026-05-15"
+      description:
+        eng: >-
+          Detailing breaking changes, in an update to reflect
+          new Norwegian procurement regulations effective 2026-07-01.
+          Retires `quality-nor-env-none` (previously tied to the repealed
+          § 7-9 (5) of the Norwegian Public Procurement Regulations).
+          Adds three new exemption codes under the new Sections 7-9 (3)-(4).
+          Revises labels for `quality-nor-env-criteria` and
+          `quality-nor-env-spec` to align with updated regulatory language.
+          `quality-nor-env-spec` now covers both replacement and combination
+          cases per the new Section 7-9 (2).
+        nob: >-
+          Brytende endringer i en oppdatering som gjenspeiler nytt
+          norsk anskaffelsesregelverk gjeldende fra 2026-07-01.
+          Kodeverdien `quality-nor-env-none` utgår (tidligere knyttet til
+          opphevet § 7-9 (5) i Anskaffelsesforskriften). Legger til tre
+          nye unntakskoder under nye § 7-9 (3)-(4). Etiketter for
+          `quality-nor-env-criteria` og `quality-nor-env-spec` revideres
+          i tråd med oppdatert regelverksspråk. `quality-nor-env-spec`
+          dekker heretter både erstatnings- og kombinasjonstilfeller etter
+          § 7-9 (2).
+        nno: >-
+          Brytande endringar i ei oppdatering som speglar nytt norsk
+          anskaffingsregelverk gjeldande frå 2026-07-01. Kodeverdien
+          `quality-nor-env-none` går ut (tidlegare knytt til
+          oppheva § 7-9 (5) i Anskaffingsforskrifta). Legger til tre
+          nye unntakskodar under nye § 7-9 (3)-(4). Etikettar for
+          `quality-nor-env-criteria` og `quality-nor-env-spec` blir
+          reviderte i tråd med oppdatert regelverksspråk.
+          `quality-nor-env-spec` dekkjer frå no av både erstatnings-
+          og kombinasjonstilfelle etter § 7-9 (2).
+    - version: "1.0.0"
+      date: "2025-12-08"
+      description:
+        eng: >-
+          Initial version. Introduced `quality-nor-env-criteria`,
+          `quality-nor-env-spec`, and `quality-nor-env-none` in
+          accordance with Sections 7-9 (2)-(5) of the Norwegian
+          Public Procurement Regulations.
+        nob: >-
+          Første versjon. Innfærte `quality-nor-env-criteria`,
+          `quality-nor-env-spec`, og `quality-nor-env-none` i henhold
+          til Anskaffelsesforskriftens § 7-9 (2)-(5).
+        nno: >-
+          Første versjon. Innførte `quality-nor-env-criteria`,
+          `quality-nor-env-spec`, og `quality-nor-env-none` i samsvar
+          med Anskaffingsforskriftas § 7-9 (2)-(5).
+
 base_codelist:
   eu_short_name: "AwardCriterionType"
   eu_uri: "http://publications.europa.eu/resource/dataset/award-criterion-type"
@@ -49,10 +99,10 @@ base_codelist:
 sdk:
   enum_name: "award-criterion-type"
   namespace: "nor:eforms"
-  notes: 
+  notes:
     nob: >-
       Denne fila beskriver norske utvidelser av EU-kodeverket for type
-      tildelingskriterium, og hvordan de kobles til verdier gyldige i TEDs 
+      tildelingskriterium, og hvordan de kobles til verdier gyldige i TEDs
       ontologi.
     nob_verify: false
     nno: >-
@@ -61,15 +111,14 @@ sdk:
       ontologi.
     nno_verify: false
     eng: >-
-      This file describes Norwegian extensions of the EU codelist for award 
+      This file describes Norwegian extensions of the EU codelist for award
       criterion types, and how they are mapped to valid values from the TED
-      ontology. 
+      ontology.
     eng_verify: false
 
-    
 export_policies:
   national_platform:
-    description: 
+    description:
       nob: >-
         På Doffin, Norges nasjonale plattform for offentlige innkjøp,
         brukes kodene i denne fila som de er. Det vil si at `code`-verdien
@@ -77,7 +126,7 @@ export_policies:
       nob_verify: false
       nno: >-
         På Doffin, Noregs nasjonale plattform for offentlege innkjøp, blir
-        kodane i denne fila brukt slik dei er. Det vil seie at 
+        kodane i denne fila brukt slik dei er. Det vil seie at
         `code`-verdien blir nytta direkte i dataflyten.
       nno_verify: false
       eng: >-
@@ -89,9 +138,9 @@ export_policies:
   ted:
     description:
       nob: >-
-        Når DFØ, Norges eSender, oversender kunngjøringer til TED, 
+        Når DFØ, Norges eSender, oversender kunngjøringer til TED,
         brukes aldri norske utvidelseskoder direkte. I stedet kobler DFØ
-        disse alltid til kodeverdien `ted_mapping.code`.  
+        disse alltid til kodeverdien `ted_mapping.code`.
       nob_verify: false
       nno: >-
         Når DFØ, Noregs eSender, sender kunngjeringer over til TED,
@@ -101,10 +150,10 @@ export_policies:
       eng: >-
         When DFØ, Norway's national eSender, submits notices to TED,
         the Norwegian extension codes are never used directly. DFØ
-        ensures that these are mapped to the code value 
+        ensures that these are mapped to the code value
         `ted_mapping.code`.
       eng_verify: false
-          
+
 codes:
   - code: "quality-nor-env-criteria"
     domain: "norwegian-national-extension"
