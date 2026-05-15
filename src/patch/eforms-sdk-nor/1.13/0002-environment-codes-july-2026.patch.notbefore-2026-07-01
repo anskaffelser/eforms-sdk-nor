@@ -2,7 +2,7 @@ diff --git a/codelists/award-criterion-type.gc b/codelists/award-criterion-type.
 index 26dfd74..e75f146 100644
 --- a/codelists/award-criterion-type.gc
 +++ b/codelists/award-criterion-type.gc
-@@ -390,5 +390,56 @@
+@@ -390,5 +390,60 @@
              <SimpleValue>Kvalitet</SimpleValue>
           </Value>
        </Row>
