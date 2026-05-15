@@ -58,6 +58,6 @@ will supercede and replace our current validator patch, is described
 here: [patch/eforms-sdk-nor/1.14/0002-environment-codes-july-2026.patch.notbefore-2026-07-01](../src/patch/eforms-sdk-nor/1.14/0002-environment-codes-july-2026.patch.notbefore-2026-07-01).
 
 #### Note: Finalization of labels for future values
-Please note that the labels (human-readable strings) for the upcoming codelist values are subject to final administrative approval. Consequently, the *_verify attributes for these elements are currently set to false.
+Please note that the labels (human-readable strings) for the upcoming codelist values are subject to final administrative approval. Consequently, the `*_verify` attributes for these elements are currently set to `true`.
 
 This indicates that the labels should not be subjected to literal string validation by consuming systems at this stage. When the labels are finalized, we will update the codelist's minor version and toggle the verification flags as necessary.
