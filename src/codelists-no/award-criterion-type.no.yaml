@@ -84,15 +84,15 @@ codes:
           note:
             eng: >-
               If a notice is submitted to TED, DFØ replaces this value with
-                `quality`, in accordance with `export_policies.ted`.
+              `quality`, in accordance with `export_policies.ted`.
             eng_verify: false
             nob: >-
-                Ved innsending til TED kobler DFØ denne verdien til `quality`,
-                jf. `export_policies.ted`.
+              Ved innsending til TED kobler DFØ denne verdien til `quality`,
+              jf. `export_policies.ted`.
             nob_verify: false
             nno: >-
-                Ved innsending til TED kobler DFØ denne verdien med `quality`,
-                jf. `export_policies.ted`.
+              Ved innsending til TED kobler DFØ denne verdien med `quality`,
+              jf. `export_policies.ted`.
             nno_verify: false
         valid_from_date: "2026-07-01"
         valid_to_date: ~
