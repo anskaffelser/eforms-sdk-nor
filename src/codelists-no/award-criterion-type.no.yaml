@@ -447,7 +447,7 @@ codes:
     valid_from_sdk: '1.7'
     valid_to_sdk: '1.14'
     version: '1.0.0'
-    
+
   - code: 'quality-nor-env-none'
     description:
       eng: >-
@@ -510,6 +510,28 @@ codes:
     valid_from_sdk: '1.7'
     valid_to_sdk: '1.14'
     version: '1.0.0'
+
+constraints:
+  - codes:
+      - 'quality-nor-env-exempt-insignificant'
+      - 'quality-nor-env-exempt-critical-interest'
+      - 'quality-nor-env-exempt-national-minimum'
+    description:
+      eng: >-
+        Exemption codes are mutually exclusive (2026 update).
+      eng_verify: false
+      nob: >-
+        Unntakskodene er gjensidig utelukkende (2026-revisjon).
+      nob_verify: false
+      nno: >-
+        Unntakskodane utelukkar kvarandre (revisjon frå 2026).
+      nno_verify: false
+    status: 'future'
+    valid_from_date: '2026-07-01'
+    valid_from_sdk: '1.13'
+    valid_to_date: ~
+    valid_to_sdk: ~
+    type: 'mutual-exclusion'
 
 export_policies:
   national_platform:
@@ -621,6 +643,62 @@ meta:
     nno_verify: false
   version: '2.0.0'
 
+national_platform_features:
+  green_procurement_indicator:
+    description:
+      eng: >-
+        Indicator on the Doffin platform triggered by the presence
+        of a valid, non-exemption-related compliance with the climate-
+        and environmental provisions of the Norwegian Public Procurement
+        Regulations.
+      eng_verify: false
+      nob: >-
+        Indikator på Doffin-plattformen utløst av tilstedeværelsen
+        av gyldig, ikke-unntaksrelatert samsvar med klima- og
+        miljøbestemmelsene i norsk regelverk for offentlige anskaffelser.
+      nob_verify: false
+      nno: >-
+        Indikator på Doffin-plattforma utløyst av nærveret av gyldig,
+        ikkje-unntaksrelatert samsvar med klima- og miljøreglane i
+        norsk regelverk for offentlege anskaffingar.
+      nno_verify: false
+    future: []
+    history: []
+    pseudocode:
+      implications:
+        - code_value: 'env-imp'
+          description:
+            eng: >-
+              If the procurement lot satisfies the green indicator
+              criteria on Doffin, the procurement meets the conditions
+              to be considered a strategic procurement with regards
+              to reduction of environmental impacts.
+            eng_verify: false
+            nob: >-
+              Hvis anbuds- eller tilbudskonkurransen tilfredsstiller
+              kriteriene for fremheving som grønn anskaffelse på Doffin,
+              imøtekommer også konkurransen betingelsene som kreves for
+              å anses som en strategisk anskaffelse med hensyn til å
+              redusere klima- og miljøpåvirkning.
+            nob_verify: false
+            nno: >-
+              Dersom anbods- eller tilbodskonkurransen tilfredsstiller
+              kriteria for framheving som grøn anskaffing på Doffin,
+              kjem konkurransen også i møte vilkåra som trengst for å
+              bli rekna som ei strategisk anskaffing med omsyn til å
+              redusere klima- og miljøpåverknad.
+          target:
+            bt_code: 'BT-06-Lot'
+            bt_term: 'strategic-procurement-lot'
+      formula: >-
+        is_green_by_weight OR is_green_by_priority OR is_green_by_spec
+      reference: 'validation_rules.pseudocode.compliance_rule'
+    status: 'active'
+    valid_from_date: '2026-07-01'
+    valid_from_sdk: '1.14'
+    valid_to_date: ~
+    valid_to_sdk: ~
+
 sdk:
   enum_name: 'award-criterion-type'
   namespace: 'nor:eforms'
@@ -640,3 +718,62 @@ sdk:
       tildelingskriterium, og korleis dei kobles til verdiar gyldige i TEDs
       ontologi.
     nno_verify: false
+
+validation_rules:
+  applies_to:
+    eu: true
+    national:
+      mandatory_notices: true
+      voluntary_notices: false
+  description:
+    eng: >-
+      A public procurement notice is considered to be valid and in
+      compliance with the climate- and environmental provisions of the
+      Norwegian Public Procurement Regulations if at least one of
+      the following conditions is met.
+    eng_verify: false
+    nob: >-
+      En offentlig anskaffelseskunngjøring anses som gyldig og i samsvar
+      med klima- og miljøbestemmelsene i norsk regelverk for offentlige
+      anskaffelser dersom minst ett av følgende vilkår er oppfylt.
+    nob_verify: false
+    nno: >-
+      Ei offentleg anskaffingskunngjering blir rekna som gyldig og i
+      samsvar med klima- og miljøreglane i norsk regelverk for offentlege
+      anskaffingar dersom minst eitt av følgjande vilkår er oppfylt.
+  future: []
+  history: []
+  pseudocode:
+    compliance_rule:
+      description:
+        eng: >-
+          Main rule for valid and legal public procurement with mandatory
+          publication of a procurement notice.
+        eng_verify: false
+        nob: >-
+          Hovedregel for gyldig og lovlig kunngjøringspliktig anskaffelse.
+        nob_verify: false
+        nno: >-
+          Hovudregel for gyldig og lovleg kunngjeringspliktig anskaffing.
+        nno_verify: false
+      formula: >-
+        is_green_by_weight OR is_green_by_priority OR is_green_by_spec
+        OR is_exempt
+    definitions:
+      - id: 'is_green_by_weight'
+        formula: >-
+          SUM(weighting) WHERE code == 'quality-nor-env-criteria' GEQ 30 %
+      - id: 'is_green_by_priority'
+        formula: >-
+          ANY(priority) WHERE code == 'quality-nor-env-criteria' IN [1, 2, 3]
+      - id: 'is_green_by_spec'
+        formula: >-
+          EXISTS(code == 'quality-nor-env-spec')
+      - id: 'is_exempt'
+        formula: >-
+          EXISTS(code STARTING WITH 'quality-nor-env-exempt-')
+  status: 'future'
+  valid_from_date: '2026-07-01'
+  valid_from_sdk: '1.13'
+  valid_to_date: ~
+  valid_to_sdk: ~
