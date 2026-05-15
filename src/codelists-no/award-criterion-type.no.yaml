@@ -131,40 +131,15 @@ codes:
     valid_to_sdk: '1.14'
 
   - code: 'quality-nor-env-spec'
-    domain: 'norwegian-national-extension'
-    parent_eu_code: 'quality'
-
-    ted_mapping:
-      mode: 'map-to-parent'
-      code: 'quality'
-      note:
-        nob: >-
-          Ved innsending til TED kobler DFØ denne verdien til `quality`,
-          jf. `export_policies.ted`.
-        nob_verify: false
-        nno: >-
-          Ved innsending til TED kobler DFØ denne verdien med `quality`,
-          jf. `export_policies.ted`.
-        nno_verify: false
-        eng: >-
-          If a notice is submitted to TED, DFØ replaces this value with
-          `quality`, in accordance with `export_policies.ted`.
-        eng_verify: false
-
-    label:
-      nob: >-
-        Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)
-      nob_verify: false
-      nno: >-
-        Kvalitet – klima- og miljøkrav i kravspesifikasjonen (blir grunngitt
-        under)
-      nno_verify: false
-      eng: >-
-        Quality – climate- and environmental requirements in the specifications
-        (justified below)
-      eng_verify: false
-
     description:
+      eng: >-
+        Norwegian extension of the award criterion type `quality`.
+        Utilized to indicate that climate and environmental considerations
+        in the award criteria have been replaced with climate and
+        environmental criteria in the requirement specification, in
+        accordance with Section 7-9 (4) of the Norwegian Procurement
+        Regulations.
+      eng_verify: false
       nob: >-
         Norsk spesifikk underkategori av tildelingskriterium type kvalitet.
         Brukes for å indikere at klima- og miljøhensyn i
@@ -178,17 +153,104 @@ codes:
         kravspesifikasjonen, i samsvar med Anskaffelsesforskriftens § 7-9
         (4).
       nno_verify: false
+    domain: 'norwegian-national-extension'
+    future:
+      - code: 'quality-nor-env-spec'
+        description:
+          eng: >-
+            Norwegian extension of the award criterion type `quality`.
+            Utilized to indicate that climate and environmental requirements
+            form part of the specifications (either as a replacement for or
+            in combination with award criteria), in accordance with Section
+            7-9 (2) of the Norwegian Procurement Regulations (2026 update).
+          eng_verify: false
+          nob: >-
+            Norsk spesifikk underkategori av tildelingskriterium type kvalitet.
+            Brukes for å indikere at klima- og miljøkrav inngår i
+            kravspesifikasjonen (enten som erstatning for eller i kombinasjon
+            med tildelingskriterier), iht. Anskaffelsesforskriftens § 7-9 (2)
+            (revisjon fra 2026).
+          nob_verify: false
+          nno: >-
+            Norsk spesifikk underkategori av tildelingskriterium type kvalitet.
+            Blir brukt for å indikera at klima- og miljøkrav inngår i
+            kravspesifikasjonen (anten som erstatning for eller i kombinasjon
+            med tildelingskriterium), i samsvar med Anskaffingsforskriftas
+            § 7-9 (2) (revisjon frå 2026).
+          nno_verify: false
+        domain: 'norwegian-national-extension'
+        future: []
+        history: []
+        label:
+          eng: >-
+            Quality – climate- and environmental requirements form part of the
+            specifications
+          eng_verify: false
+          nob: >-
+            Kvalitet – klima- og miljøkrav inngår som del av kravspesifikasjonen
+          nob_verify: false
+          nno: >-
+            Kvalitet – klima- og miljøkrav inngår som del av kravspesifikasjonen
+          nno_verify: false
+        parent_eu_code: 'quality'
+        sdk_value: 'QUALITY_NOR_ENV_SPEC'
+        status: 'future'
+        ted_mapping:
+          mode: 'map-to-parent'
+          code: 'quality'
+          note:
+            eng: >-
+              If a notice is submitted to TED, DFØ replaces this value with
+              `quality`, in accordance with `export_policies.ted`.
+            eng_verify: false
+            nob: >-
+              Ved innsending til TED kobler DFØ denne verdien til `quality`,
+              jf. `export_policies.ted`.
+            nob_verify: false
+            nno: >-
+              Ved innsending til TED kobler DFØ denne verdien med `quality`,
+              jf. `export_policies.ted`.
+            nno_verify: false
+        valid_from_date: '2026-07-01'
+        valid_to_date: ~
+        valid_from_sdk: '1.13'
+        valid_to_sdk: ~
+    history: []
+    label:
       eng: >-
-        Norwegian extension of the award criterion type `quality`.
-        Utilized to indicate that climate and environmental considerations
-        in the award criteria have been replaced with climate and
-        environmental criteria in the requirement specification, in
-        accordance with Section 7-9 (4) of the Norwegian Procurement
-        Regulations.
+        Quality – climate- and environmental requirements in the specifications
+        (justified below)
       eng_verify: false
-
+      nob: >-
+        Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)
+      nob_verify: false
+      nno: >-
+        Kvalitet – klima- og miljøkrav i kravspesifikasjonen (blir grunngitt
+        under)
+      nno_verify: false
+    parent_eu_code: 'quality'
     sdk_value: 'QUALITY_NOR_ENV_SPEC'
-
+    status: 'active'
+    ted_mapping:
+      mode: 'map-to-parent'
+      code: 'quality'
+      note:
+        eng: >-
+          If a notice is submitted to TED, DFØ replaces this value with
+          `quality`, in accordance with `export_policies.ted`.
+        eng_verify: false
+        nob: >-
+          Ved innsending til TED kobler DFØ denne verdien til `quality`,
+          jf. `export_policies.ted`.
+        nob_verify: false
+        nno: >-
+          Ved innsending til TED kobler DFØ denne verdien med `quality`,
+          jf. `export_policies.ted`.
+        nno_verify: false
+    valid_from_date: '2024-01-16'
+    valid_to_date: '2026-06-30'
+    valid_from_sdk: '1.7'
+    valid_to_sdk: '1.14'
   - code: 'quality-nor-env-none'
     domain: 'norwegian-national-extension'
     parent_eu_code: 'quality'
