@@ -45,7 +45,7 @@ For contracting authorities to indicate compliance with [Section 7-9 of Norway's
 
 The extension is described in a structured format here: [codelist-no/award-criterion-type.no.yaml](../src/codelists-no/award-criterion-type.no.yaml). 
 
-The extensions are patched into our validator, as described here: [patch/eforms-sdk-nor/1.13/0001-environment-codes.patch](../src/patch/eforms-sdk-nor/1.13/0001-environment-codes.patch).
+The extensions are patched into our validator, as described here: [patch/eforms-sdk-nor/1.14/0001-environment-codes.patch](../src/patch/eforms-sdk-nor/1.14/0001-environment-codes.patch).
 
 ### Note: Upcoming changes to the Norwegian Public Procurement Regulations
 
