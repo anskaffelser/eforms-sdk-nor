@@ -19,12 +19,12 @@
 # of the European Union.
 ---
 base_codelist:
-  eu_gc_filename: "award-criterion-type.gc"
-  eu_short_name: "AwardCriterionType"
-  eu_uri: "http://publications.europa.eu/resource/dataset/award-criterion-type"
+  eu_gc_filename: 'award-criterion-type.gc'
+  eu_short_name: 'AwardCriterionType'
+  eu_uri: 'http://publications.europa.eu/resource/dataset/award-criterion-type'
 
 codes:
-  - code: "quality-nor-env-criteria"
+  - code: 'quality-nor-env-criteria'
     description:
       eng: >-
         Norwegian extension of the award criterion type `quality`.
@@ -42,9 +42,9 @@ codes:
         Blir brukt for å indikera vekting av klima- og miljøomsyn, i
         samsvar med Anskaffelsesforskriftens § 7-9 (2)–(3).
       nno_verify: false
-    domain: "norwegian-national-extension"
+    domain: 'norwegian-national-extension'
     future:
-      - code: "quality-nor-env-criteria"
+      - code: 'quality-nor-env-criteria'
         description:
           eng: >-
             Norwegian extension of the award criterion type `quality`.
@@ -63,7 +63,7 @@ codes:
             samsvar med Anskaffelsesforskriftens § 7-9 (2) (revisjon frå
             2026).
           nno_verify: false
-        domain: "norwegian-national-extension"
+        domain: 'norwegian-national-extension'
         future: []
         history: []
         label:
@@ -71,16 +71,16 @@ codes:
             Quality – climate- and environmental considerations as award
             criterion
           eng_verify: false
-          nob: "Kvalitet – klima- og miljøhensyn som tildelingskriterium"
+          nob: 'Kvalitet – klima- og miljøhensyn som tildelingskriterium'
           nob_verify: false
-          nno: "Kvalitet – klima- og miljøhensyn som tildelingskriterium"
+          nno: 'Kvalitet – klima- og miljøhensyn som tildelingskriterium'
           nno_verify: false
-        parent_eu_code: "quality"
-        sdk_value: "QUALITY_NOR_ENV_CRITERIA"
-        status: "future"
+        parent_eu_code: 'quality'
+        sdk_value: 'QUALITY_NOR_ENV_CRITERIA'
+        status: 'future'
         ted_mapping:
-          code: "quality"
-          mode: "map-to-parent"
+          code: 'quality'
+          mode: 'map-to-parent'
           note:
             eng: >-
               If a notice is submitted to TED, DFØ replaces this value with
@@ -94,24 +94,24 @@ codes:
               Ved innsending til TED kobler DFØ denne verdien med `quality`,
               jf. `export_policies.ted`.
             nno_verify: false
-        valid_from_date: "2026-07-01"
+        valid_from_date: '2026-07-01'
         valid_to_date: ~
-        valid_from_sdk: "1.14"
+        valid_from_sdk: '1.14'
         valid_to_sdk: ~
     history: []
     label:
-      eng: "Quality – climate- and environmental criteria"
+      eng: 'Quality – climate- and environmental criteria'
       eng_verify: false
-      nob: "Kvalitet – klima- og miljøkriterium"
+      nob: 'Kvalitet – klima- og miljøkriterium'
       nob_verify: false
-      nno: "Kvalitet – klima- og miljøkriterium"
+      nno: 'Kvalitet – klima- og miljøkriterium'
       nno_verify: false
-    parent_eu_code: "quality"
-    sdk_value: "QUALITY_NOR_ENV_CRITERIA"
-    status: "active"
+    parent_eu_code: 'quality'
+    sdk_value: 'QUALITY_NOR_ENV_CRITERIA'
+    status: 'active'
     ted_mapping:
-      code: "quality"
-      mode: "map-to-parent"
+      code: 'quality'
+      mode: 'map-to-parent'
       note:
         eng: >-
           If a notice is submitted to TED, DFØ replaces this value with
@@ -125,18 +125,18 @@ codes:
           Ved innsending til TED kobler DFØ denne verdien med `quality`,
           jf. `export_policies.ted`.
         nno_verify: false
-    valid_from_date: "2024-01-16"
-    valid_to_date: "2026-06-30"
-    valid_from_sdk: "1.7"
-    valid_to_sdk: "1.14"
+    valid_from_date: '2024-01-16'
+    valid_to_date: '2026-06-30'
+    valid_from_sdk: '1.7'
+    valid_to_sdk: '1.14'
 
-  - code: "quality-nor-env-spec"
-    domain: "norwegian-national-extension"
-    parent_eu_code: "quality"
+  - code: 'quality-nor-env-spec'
+    domain: 'norwegian-national-extension'
+    parent_eu_code: 'quality'
 
     ted_mapping:
-      mode: "map-to-parent"
-      code: "quality"
+      mode: 'map-to-parent'
+      code: 'quality'
       note:
         nob: >-
           Ved innsending til TED kobler DFØ denne verdien til `quality`,
@@ -187,15 +187,15 @@ codes:
         Regulations.
       eng_verify: false
 
-    sdk_value: "QUALITY_NOR_ENV_SPEC"
+    sdk_value: 'QUALITY_NOR_ENV_SPEC'
 
-  - code: "quality-nor-env-none"
-    domain: "norwegian-national-extension"
-    parent_eu_code: "quality"
+  - code: 'quality-nor-env-none'
+    domain: 'norwegian-national-extension'
+    parent_eu_code: 'quality'
 
     ted_mapping:
-      mode: "map-to-parent"
-      code: "quality"
+      mode: 'map-to-parent'
+      code: 'quality'
       note:
         nob: >-
           Ved innsending til TED kobler DFØ denne verdien til `quality`,
@@ -246,7 +246,7 @@ codes:
         Regulations.
       eng_verify: false
 
-    sdk_value: "QUALITY_NOR_ENV_NONE"
+    sdk_value: 'QUALITY_NOR_ENV_NONE'
 
 export_policies:
   national_platform:
@@ -285,9 +285,9 @@ export_policies:
         DFØ desse alltid til kodeverdien `ted_mapping.code`.
       nno_verify: false
 meta:
-  agency: "DFØ"
+  agency: 'DFØ'
   changelog:
-    - date: "2026-05-15"
+    - date: '2026-05-15'
       description:
         eng: >-
           Detailing breaking changes, in an update to reflect
@@ -319,8 +319,8 @@ meta:
           reviderte i tråd med oppdatert regelverksspråk.
           `quality-nor-env-spec` dekkjer frå no av både erstatnings-
           og kombinasjonstilfelle etter § 7-9 (2).
-      version: "2.0.0"
-    - date: "2025-12-08"
+      version: '2.0.0'
+    - date: '2025-12-08'
       description:
         eng: >-
           Initial version. Introduced `quality-nor-env-criteria`,
@@ -335,16 +335,16 @@ meta:
           Første versjon. Innførte `quality-nor-env-criteria`,
           `quality-nor-env-spec`, og `quality-nor-env-none` i samsvar
           med Anskaffingsforskriftas § 7-9 (2)-(5).
-      version: "1.0.0"
+      version: '1.0.0'
   id: 'award-criterion-type-no'
   license:
     attribution_required: true
-    id: "CC-BY-4.0"
-    name: "Creative Commons Attribution 4.0 International"
-    spdx: "CC-BY-4.0"
-    url: "https://creativecommons.org/licenses/by/4.0"
-  maintainer: "anskaffelser.no"
-  status: "active"
+    id: 'CC-BY-4.0'
+    name: 'Creative Commons Attribution 4.0 International'
+    spdx: 'CC-BY-4.0'
+    url: 'https://creativecommons.org/licenses/by/4.0'
+  maintainer: 'anskaffelser.no'
+  status: 'active'
   title:
     eng: >-
       AwardCriterionType – Norwegian extension
@@ -355,11 +355,11 @@ meta:
     nno: >-
       AwardCriterionType – norsk utviding
     nno_verify: false
-  version: "2.0.0"
+  version: '2.0.0'
 
 sdk:
-  enum_name: "award-criterion-type"
-  namespace: "nor:eforms"
+  enum_name: 'award-criterion-type'
+  namespace: 'nor:eforms'
   notes:
     eng: >-
       This file describes Norwegian extensions of the EU codelist for award
