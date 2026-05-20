@@ -663,14 +663,15 @@ T02:
   name: 'T02'
   nob: 'Kunngjøring av kontraktsinngåelse – offentlig persontransport'
   history:
-  - name: 'T02'
-    nob: 'Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste'
-    history: []
-    nob_verify: true
-  - name: 'Information notice for award of public service contract'
-    nob: 'T02'
-    history: []
-    nob_verify: true
+    - name: 'T02'
+      nob: >-
+        Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
+      history: []
+      nob_verify: true
+    - name: 'Information notice for award of public service contract'
+      nob: 'T02'
+      history: []
+      nob_verify: true
   nob_verify: true
 X01:
   name: 'X01'
