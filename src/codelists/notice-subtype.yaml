@@ -73,7 +73,7 @@
   nob_verify: false
 14:
   name: 'Prior information notice used as a call for competition – concessions directive, light regime'
-  nob: 'Forhåndskunngjøring (Helse- og sosialtjenester og særlige tjenester) – Konsesjonskontraktsforskriften'
+  nob: 'Forhåndskunngjøring (Helse- og sosialtjenester og særlige tjenester) – Konsesjonskontraktforskriften'
   history:
   - name: 'Prior information notice used as a call for competition – concessions directive, light regime'
     nob: 'Forhåndsvarsel brukt som oppfordring til konkurranse – konsesjonsdirektivet, forenklet regime'
@@ -142,7 +142,7 @@
   nob_verify: false
 19:
   name: 'Concession notice – concessions directive, standard regime'
-  nob: 'Kunngjøring av konkurranse – Konsesjonskontraktsforskriften'
+  nob: 'Kunngjøring av konkurranse – Konsesjonskontraktforskriften'
   history:
   - name: 'Concession notice – concessions directive, standard regime'
     nob: 'Konsesjonsmelding – konsesjonsdirektivet, standardregime'
@@ -280,7 +280,7 @@
   nob_verify: false
 28:
   name: 'Voluntary ex-ante transparency notice – concession directive'
-  nob: 'Intensjonskunngjøring – Konsesjonskontraktsforskriften'
+  nob: 'Intensjonskunngjøring – Konsesjonskontraktforskriften'
   history:
   - name: 'Voluntary ex-ante transparency notice – concession directive'
     nob: 'Frivillig ex ante åpenhetsmelding – konsesjonsdirektiv'
@@ -345,7 +345,7 @@
   nob_verify: false
 32:
   name: 'Concession award notice – concession directive, standard regime'
-  nob: 'Kunngjøring av kontraktsinngåelse – Konsesjonskontraktsforskriften'
+  nob: 'Kunngjøring av kontraktsinngåelse – Konsesjonskontraktforskriften'
   history:
     - name: 'Concession award notice – concession directive, standard regime'
       nob: 'Varsel om konsesjonstildeling – konsesjonsdirektiv, standardregime'
@@ -401,7 +401,7 @@
   name: 'Concession award notice – concessions directive, light regime'
   nob: >-
     Kunngjøring av kontraktsinngåelse (Helse- og sosialtjenester og særlige
-    tjenester) – Konsesjonskontraktsforskriften
+    tjenester) – Konsesjonskontraktforskriften
   history:
     - name: 'Concession award notice – concessions directive, light regime'
       nob: >-
@@ -492,7 +492,7 @@
   name: 'Contract modification notice – concessions directive'
   nob: >-
     Kunngjøring av endring i en inngått kontrakt –
-    Konsesjonskontraktsforskriften
+    Konsesjonskontraktforskriften
   history:
     - name: 'Contract modification notice – concessions directive'
       nob: 'Kunngjøring om endring av kontrakt – konsesjonsdirektivet'

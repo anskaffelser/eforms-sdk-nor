@@ -39,7 +39,7 @@
   nob_verify: false
 32:
   name: 'Concession award notice – concession directive, standard regime'
-  nob: 'Kunngjøring av kontraktsinngåelse – Konsesjonskontraktsforskriften'
+  nob: 'Kunngjøring av kontraktsinngåelse – Konsesjonskontraktforskriften'
   history:
     - name: 'Concession award notice – concession directive, standard regime'
       nob: 'Varsel om konsesjonstildeling – konsesjonsdirektiv, standardregime'
