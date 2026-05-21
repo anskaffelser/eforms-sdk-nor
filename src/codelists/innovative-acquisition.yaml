@@ -21,10 +21,13 @@ rd-act:
     nob_verify: false
   nob_verify: false
 proc-innov:
-  name: The procured works, supplies, or services entail process innovation
-  nob: De anskaffede arbeidene, leveransene eller tjenestene innebærer prosessinnovasjon
+  name: 'The procured works, supplies, or services entail process innovation'
+  nob: 'Prosessinnovasjon'
   history:
-  - name: The procured works, supplies, or services entail process innovation
+  - nob: 'The procured works, supplies, or services entail process innovation'
+    history: []
+    nob_verify: false
+  - name: 'The procured works, supplies, or services entail process innovation'
     history: []
     nob_verify: false
   nob_verify: false
