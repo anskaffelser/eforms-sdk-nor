@@ -32,10 +32,13 @@ proc-innov:
     nob_verify: false
   nob_verify: false
 prod-innov:
-  name: The procured works, supplies, or services entail product innovation
-  nob: De anskaffede verkene, forsyningene eller tjenestene innebærer produktinnovasjon
+  name: 'The procured works, supplies, or services entail product innovation'
+  nob: 'Produktinnovasjon'
   history:
-  - name: The procured works, supplies, or services entail product innovation
+  - nob: 'De anskaffede verkene, forsyningene eller tjenestene innebærer produktinnovasjon'
+    history: []
+    nob_verify: false
+  - name: 'The procured works, supplies, or services entail product innovation'
     history: []
     nob_verify: false
   nob_verify: false
