@@ -9,18 +9,6 @@ mar-nov:
     history: []
     nob_verify: false
   nob_verify: false
-org-nov:
-  name: The procured works, supplies or services are novel for the organisation.
-  nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for virksomheten
-  history:
-  - name: The procured works, supplies or services are novel for the organisation.
-    history: []
-    nob_verify: false
-  - name: The procured works, supplies or services are novel for the organisation.
-    nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for organisasjonen
-    history: []
-    nob_verify: false
-  nob_verify: false
 other:
   name: Other
   nob: Annet
