@@ -1,12 +1,14 @@
-
 mar-nov:
-  name: The procured works, supplies or services are novel or significantly improved compared to other works, supplies, or services already on the market.
-  nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for hele markedet
+  name: 'The procured works, supplies or services are novel or significantly improved compared to other works, supplies, or services already on the market.'
+  nob: 'Anskaffelsen utfordrer markedet til å tilby eller utvikle nyskapende løsninger.'
   history:
-  - name: The procured works, supplies or services are novel or significantly improved compared to other works, supplies, or services already on the market.
+  - nob: 'Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for hele markedet.'
+    history: []
+    nob_verify: true
+  - name: 'The procured works, supplies or services are novel or significantly improved compared to other works, supplies, or services already on the market.'
     history: []
     nob_verify: false
-  nob_verify: true
+  nob_verify: false
 org-nov:
   name: The procured works, supplies or services are novel for the organisation.
   nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for virksomheten
