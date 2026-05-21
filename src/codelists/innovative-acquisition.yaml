@@ -9,14 +9,7 @@ mar-nov:
     history: []
     nob_verify: false
   nob_verify: false
-other:
-  name: Other
-  nob: Annet
-  history:
-  - name: Other
-    history: []
-    nob_verify: false
-  nob_verify: false
+
 rd-act:
   name: The procured works, supplies or services involve research and development activities.
   nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene relateres til forsknings- og utviklingsaktiviteter
