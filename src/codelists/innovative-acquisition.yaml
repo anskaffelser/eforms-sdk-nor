@@ -11,10 +11,13 @@ mar-nov:
   nob_verify: false
 
 rd-act:
-  name: The procured works, supplies or services involve research and development activities.
-  nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene relateres til forsknings- og utviklingsaktiviteter
+  name: 'The procured works, supplies or services involve research and development activities.'
+  nob: 'Anskaffelsen inneholder forsknings- og utviklingsaktiviteter.'
   history:
-  - name: The procured works, supplies or services involve research and development activities.
+  - nob: 'Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene relateres til forsknings- og utviklingsaktiviteter.'
+    history: []
+    nob_verify: false
+  - name: 'The procured works, supplies or services involve research and development activities.'
     history: []
     nob_verify: false
   nob_verify: false
