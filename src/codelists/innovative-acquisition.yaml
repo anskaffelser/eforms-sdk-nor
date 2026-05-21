@@ -1,11 +1,4 @@
-buy-eff:
-  name: The procured works, supplies or services are likely to make the work of the buyer more effective.
-  nob: Anskaffet  bygg og anleggsarbeid, vareleveranser eller tjenesteytelser vil sannsynligvis gjøre kjøperens arbeid mer effektivt
-  history:
-  - name: The procured works, supplies or services are likely to make the work of the buyer more effective.
-    history: []
-    nob_verify: false
-  nob_verify: false
+
 fp-requ:
   name: The technical specifications are primarily based on functional and performance requirements, not on describing the technical solution.
   nob: Kravspesifikasjoner er primært basert på funksjonelle og ytelseskrav og ikke en bekrivelse av en teknisk løsning
