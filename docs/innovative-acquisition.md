@@ -2,7 +2,7 @@
 
 This page provides guidance on how to use the different code values in the `innovative-acquisition` codelist for BT-776 Procurement of Innovation.
 
-### q Process innovation (new ways of producing or delivering the service)
+### Process innovation (new ways of producing or delivering the service)
 
 The procurement has requested that the proposed solutions involve process innovation.
 
@@ -16,7 +16,7 @@ Process innovation concerns how the service is produced and delivered:
 
 ---
 
-### q Product innovation (new or significantly improved services that change the value for the user)
+### Product innovation (new or significantly improved services that change the value for the user)
 
 The procurement has requested that the proposed solutions involve product innovation.
 
@@ -30,12 +30,12 @@ Product innovation concerns what the user receives: the end result that meets th
 
 ---
 
-### q Challenges the market to offer or develop innovative solutions
+### Challenges the market to offer or develop innovative solutions
 
 The procurement requires suppliers to offer or develop something that is not an off-the-shelf solution in today’s market. This applies when the need cannot be met by existing solutions, and the contracting authority invites the market to present entirely new methods or technologies.
 
 ---
 
-### q Includes research and development activities
+### Includes research and development activities
 
 The procurement includes activities to generate new knowledge or develop new ways of applying existing knowledge. This applies when a solution must be developed, tested or adapted to a specific use case where it is currently uncertain what will work best.
