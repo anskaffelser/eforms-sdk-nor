@@ -1,12 +1,4 @@
 
-fp-requ:
-  name: The technical specifications are primarily based on functional and performance requirements, not on describing the technical solution.
-  nob: Kravspesifikasjoner er primært basert på funksjonelle og ytelseskrav og ikke en bekrivelse av en teknisk løsning
-  history:
-  - name: The technical specifications are primarily based on functional and performance requirements, not on describing the technical solution.
-    history: []
-    nob_verify: false
-  nob_verify: false
 mar-nov:
   name: The procured works, supplies or services are novel or significantly improved compared to other works, supplies, or services already on the market.
   nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for hele markedet
