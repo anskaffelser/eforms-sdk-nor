@@ -31,7 +31,7 @@ Check the `/docs` folder regularly for updates as we refine the SDK's documentat
 
 ```zsh
 export CR_PAT='<your-github-token>'
-print -r -- "$CR_PAT" | docker login ghcr.io -u <github-username> --password-stdin
+echo "$CR_PAT" | docker login ghcr.io -u <github-username> --password-stdin
 docker pull ghcr.io/anskaffelser/validator:edge
 ```
 
