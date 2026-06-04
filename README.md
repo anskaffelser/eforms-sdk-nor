@@ -26,6 +26,15 @@ Technical details and implementation guides can be found in the [`/docs`](./docs
 
 Check the `/docs` folder regularly for updates as we refine the SDK's documentation structure.
 
+## Local build with validator
+`make validator` pulls `ghcr.io/anskaffelser/validator:edge`. If `docker pull` returns `unauthorized`, sign in to `ghcr.io` with a GitHub token that has `read:packages` (and `repo` if needed), then try again:
+
+```zsh
+export CR_PAT='<your-github-token>'
+echo "$CR_PAT" | docker login ghcr.io -u <github-username> --password-stdin
+docker pull ghcr.io/anskaffelser/validator:edge
+```
+
 ## How to identify Norwegian eForms?
 
 To indicate that you are submitting Norwegian eForms to us please extend the content in your CustomizationID-element where you indicate which version of eForms you are submitting with one of the following two constants:
