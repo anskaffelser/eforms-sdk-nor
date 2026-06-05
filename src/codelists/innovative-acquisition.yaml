@@ -1,28 +1,62 @@
+%YAML 1.2
+---
+# --- RETIRED FROM OP TED CODELIST, KEPT AS HISTORICAL REFERENCE ---
+# TODO: add 'status' flag to schema validation
+buy-eff:
+  name: >-
+    The procured works, supplies or services are likely to make the work of the
+    buyer more effective.
+  nob: >-
+    Anskaffet bygg og anleggsarbeid, vareleveranser eller tjenesteytelser vil
+    sannsynligvis gjøre kjøperens arbeid mer effektivt
+
 mar-nov:
-  name: 'The procured works, supplies or services are novel or significantly improved compared to other works, supplies, or services already on the market.'
-  nob: 'Utfordrer markedet til å tilby eller utvikle nyskapende løsninger.'
+  name: >-
+    The procured works, supplies or services are novel or significantly improved
+    compared to other works, supplies, or services already on the market.
+  nob: >-
+    Anskaffelsen utfordrer markedet til å tilby eller utvikle nyskapende
+    løsninger.
   history:
-  - nob: 'Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for hele markedet.'
+  - nob: >-
+      Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er
+      innovative for hele markedet.
     history: []
     nob_verify: true
-  - name: 'The procured works, supplies or services are novel or significantly improved compared to other works, supplies, or services already on the market.'
+  - name: >-
+      The procured works, supplies or services are novel or significantly
+      improved compared to other works, supplies, or services already on the
+      market.
     history: []
     nob_verify: false
   nob_verify: false
+
+# --- RETIRED FROM OP TED CODELIST, KEPT AS HISTORICAL REFERENCE ---
+# TODO: add 'status' flag to schema validation
+other:
+  name: 'Other'
+  nob: 'Annet'
+
 rd-act:
-  name: 'The procured works, supplies or services involve research and development activities.'
-  nob: 'Inneholder forsknings- og utviklingsaktiviteter.'
+  name: >-
+    The procured works, supplies or services involve research and development
+    activities.
+  nob: 'Anskaffelsen omfatter forsknings- og utviklingsaktiviteter.'
   history:
-  - nob: 'Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene relateres til forsknings- og utviklingsaktiviteter.'
+  - nob: >-
+      Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene
+      relateres til forsknings- og utviklingsaktiviteter.
     history: []
     nob_verify: false
-  - name: 'The procured works, supplies or services involve research and development activities.'
+  - name: >-
+      The procured works, supplies or services involve research and development
+      activities.
     history: []
     nob_verify: false
   nob_verify: false
 proc-innov:
   name: 'The procured works, supplies, or services entail process innovation'
-  nob: 'Prosessinnovasjon'
+  nob: 'Anskaffelsen innebærer prosessinnovasjon.'
   history:
   - nob: 'The procured works, supplies, or services entail process innovation'
     history: []
@@ -33,9 +67,11 @@ proc-innov:
   nob_verify: false
 prod-innov:
   name: 'The procured works, supplies, or services entail product innovation'
-  nob: 'Produktinnovasjon'
+  nob: 'Anskaffelsen innebærer produktinnovasjon.'
   history:
-  - nob: 'De anskaffede verkene, forsyningene eller tjenestene innebærer produktinnovasjon'
+  - nob: >-
+      De anskaffede verkene, forsyningene eller tjenestene innebærer
+      produktinnovasjon.
     history: []
     nob_verify: false
   - name: 'The procured works, supplies, or services entail product innovation'
