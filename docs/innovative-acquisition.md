@@ -152,4 +152,8 @@ historical reference.
 
 #### `buy-eff`: The procurement is likely to make the work of the buyer more effective
 
+#### `fp-requ`: The specifications are primarily functional and performative rather than technical descriptions
+
 #### `other`: Other
+
+### `org-nov`: The procurement concerns works, supplies or services that are novel to the organisation
