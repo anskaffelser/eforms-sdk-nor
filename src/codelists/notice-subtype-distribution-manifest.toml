@@ -93,3 +93,6 @@ keys = [15]
 file = "subco.yaml"
 keys = [22]
 
+[subsets.veat]
+file = "veat.yaml"
+keys = [25, 26, 27, 28]
