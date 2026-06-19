@@ -10,7 +10,6 @@ buy-eff:
     Anskaffet bygg og anleggsarbeid, vareleveranser eller tjenesteytelser vil
     sannsynligvis gjøre kjøperens arbeid mer effektivt
 
-
 # --- RETIRED FROM OP TED CODELIST, KEPT AS HISTORICAL REFERENCE ---
 # TODO: add 'status' flag to schema validation
 fp-requ:
@@ -78,6 +77,32 @@ org-nov:
       nob_verify: false
   nob_verify: false
 
+proc-innov:
+  name: 'The procured works, supplies, or services entail process innovation'
+  nob: 'Anskaffelsen innebærer prosessinnovasjon.'
+  history:
+    - nob: 'The procured works, supplies, or services entail process innovation'
+      history: []
+      nob_verify: false
+    - name: >-
+        The procured works, supplies, or services entail process innovation
+      history: []
+      nob_verify: false
+  nob_verify: false
+prod-innov:
+  name: 'The procured works, supplies, or services entail product innovation'
+  nob: 'Anskaffelsen innebærer produktinnovasjon.'
+  history:
+    - nob: >-
+        De anskaffede verkene, forsyningene eller tjenestene innebærer
+        produktinnovasjon.
+      history: []
+      nob_verify: false
+    - name: >-
+        The procured works, supplies, or services entail product innovation
+      history: []
+      nob_verify: false
+  nob_verify: false
 rd-act:
   name: >-
     The procured works, supplies or services involve research and development
@@ -92,34 +117,6 @@ rd-act:
     - name: >-
         The procured works, supplies or services involve research and
         development activities.
-      history: []
-      nob_verify: false
-  nob_verify: false
-
-proc-innov:
-  name: 'The procured works, supplies, or services entail process innovation.'
-  nob: 'Anskaffelsen innebærer prosessinnovasjon.'
-  history:
-    - nob: 'The procured works, supplies, or services entail process innovation'
-      history: []
-      nob_verify: false
-    - name: >-
-        The procured works, supplies, or services entail process innovation
-      history: []
-      nob_verify: false
-  nob_verify: false
-
-prod-innov:
-  name: 'The procured works, supplies, or services entail product innovation.'
-  nob: 'Anskaffelsen innebærer produktinnovasjon.'
-  history:
-    - nob: >-
-        De anskaffede verkene, forsyningene eller tjenestene innebærer
-        produktinnovasjon.
-      history: []
-      nob_verify: false
-    - name: >-
-        The procured works, supplies, or services entail product innovation
       history: []
       nob_verify: false
   nob_verify: false
