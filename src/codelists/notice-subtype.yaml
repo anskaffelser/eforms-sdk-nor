@@ -291,16 +291,18 @@
   nob_verify: false
 22:
   name: 'Subcontract notice – defence directive'
-  nob: 'Kunngjøring av underleverandørkontrakt'
+  nob: >-
+    Kunngjøring av underleverandørkontrakt – Forskrift om forsvars- og
+    sikkerhetsanskaffelser
   history:
-  - name: 'Subcontract notice – defence directive'
-    nob: 'Varsel om underkontrakt – forsvarsdirektiv'
-    history: []
-    nob_verify: false
-  - name: 'Subcontract notice – defence directive'
-    nob: 22
-    history: []
-    nob_verify: true
+    - name: 'Subcontract notice – defence directive'
+      nob: 'Varsel om underkontrakt – forsvarsdirektiv'
+      history: []
+      nob_verify: false
+    - name: 'Subcontract notice – defence directive'
+      nob: '22'
+      history: []
+      nob_verify: true
   nob_verify: false
 23:
   name: 'Design contest notice – general directive, design'
