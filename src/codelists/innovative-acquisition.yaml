@@ -12,10 +12,10 @@ buy-eff:
   source: 'op-ted'
   note: >-
     Retired from OP TED codelist. Kept as historical reference.
-  valid_from_date: "2019-06-27"
-  valid_from_sdk: "0.2.11"
-  valid_to_date: "2023-04-11"
-  valid_to_sdk: "1.6"
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
+  valid_to_date: '2023-04-11'
+  valid_to_sdk: '1.6'
 
 fp-requ:
   name: >-
@@ -35,10 +35,10 @@ fp-requ:
   source: 'op-ted'
   note: >-
     Retired from OP TED codelist. Kept as historical reference.
-  valid_from_date: "2019-06-27"
-  valid_from_sdk: "0.2.11"
-  valid_to_date: "2023-04-11"
-  valid_to_sdk: "1.6"
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
+  valid_to_date: '2023-04-11'
+  valid_to_sdk: '1.6'
 
 mar-nov:
   name: >-
@@ -61,8 +61,8 @@ mar-nov:
   status: 'active'
   source: 'op-ted'
   note: ~
-  valid_from_date: "2019-06-27"
-  valid_from_sdk: "0.2.11"
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
   valid_to_date: ~
   valid_to_sdk: ~
 
@@ -74,10 +74,10 @@ other:
   source: 'op-ted'
   note: >-
     Retired from OP TED codelist. Kept as historical reference.
-  valid_from_date: "2019-06-27"
-  valid_from_sdk: "0.2.11"
-  valid_to_date: "2023-04-11"
-  valid_to_sdk: "1.6"
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
+  valid_to_date: '2023-04-11'
+  valid_to_sdk: '1.6'
 
 org-nov:
   name: >-
@@ -102,10 +102,10 @@ org-nov:
   source: 'op-ted'
   note: >-
     Retired from OP TED codelist. Kept as historical reference.
-  valid_from_date: "2019-06-27"
-  valid_from_sdk: "0.2.11"
-  valid_to_date: "2023-04-11"
-  valid_to_sdk: "1.6"
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
+  valid_to_date: '2023-04-11'
+  valid_to_sdk: '1.6'
 
 proc-innov:
   name: 'The procured works, supplies, or services entail process innovation'
@@ -122,8 +122,8 @@ proc-innov:
   status: 'active'
   source: 'op-ted'
   note: ~
-  valid_from_date: "2019-06-27"
-  valid_from_sdk: "0.2.11"
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
   valid_to_date: ~
   valid_to_sdk: ~
 
@@ -142,8 +142,8 @@ prod-innov:
   status: 'active'
   source: 'op-ted'
   note: ~
-  valid_from_date: "2019-06-27"
-  valid_from_sdk: "0.2.11"
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
   valid_to_date: ~
   valid_to_sdk: ~
 
@@ -165,7 +165,7 @@ rd-act:
   status: 'active'
   source: 'op-ted'
   note: ~
-  valid_from_date: "2019-06-27"
-  valid_from_sdk: "0.2.11"
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
   valid_to_date: ~
   valid_to_sdk: ~
