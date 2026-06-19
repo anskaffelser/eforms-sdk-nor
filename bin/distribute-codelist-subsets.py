@@ -204,8 +204,8 @@ def build_generated_file_header(
 
     lines.extend(
         [
-            f"This file is generated from {source_file}.",
-            f"Do not edit manually. Update {manifest_file} instead.",
+            f"This file is generated from '{source_file}'.",
+            f"Do not edit manually. Update '{manifest_file}' instead.",
         ]
     )
 
