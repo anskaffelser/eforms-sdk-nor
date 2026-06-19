@@ -21,9 +21,9 @@ keys = ["X01"]
 file = "can-desg.yaml"
 keys = [36, 37]
 
-[subsets.can-tran]
-file = "can-tran.yaml"
-keys = ["T02"]
+[subsets.can-modif]
+file = "can-modif.yaml"
+keys = [38, 39, 40]
 
 [subsets.can-standard]
 file = "can-standard.yaml"
@@ -33,21 +33,21 @@ keys = [29, 30, 31, 32, "E4"]
 file = "can-social.yaml"
 keys = [33, 34, 35]
 
-[subsets.can-modif]
-file = "can-modif.yaml"
-keys = [38, 39, 40]
+[subsets.can-tran]
+file = "can-tran.yaml"
+keys = ["T02"]
 
-[subsets.cn-standard]
-file = "cn-standard.yaml"
-keys = [16, 17, 18, 19, "E3"]
+[subsets.cn-desg]
+file = "cn-desg.yaml"
+keys = [23, 24]
 
 [subsets.cn-social]
 file = "cn-social.yaml"
 keys = [20, 21]
 
-[subsets.cn-desg]
-file = "cn-desg.yaml"
-keys = [23, 24]
+[subsets.cn-standard]
+file = "cn-standard.yaml"
+keys = [16, 17, 18, 19, "E3"]
 
 [subsets.corr]
 file = "corr.yaml"
@@ -61,21 +61,21 @@ keys = [1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
 		"X01", "X02"
 		]
 
-[subsets.pin-only]
-file = "pin-only.yaml"
-keys = [4, 5, 6, "E2"]
-
 [subsets.pin-buyer]
 file = "pin-buyer.yaml"
 keys = [1, 2, 3]
+
+[subsets.pin-cfc-social]
+file = "pin-cfc-social.yaml"
+keys = [12, 13, 14]
 
 [subsets.pin-cfc-standard]
 file = "pin-cfc-standard.yaml"
 keys = [10, 11, "CEI"]
 
-[subsets.pin-cfc-social]
-file = "pin-cfc-social.yaml"
-keys = [12, 13, 14]
+[subsets.pin-only]
+file = "pin-only.yaml"
+keys = [4, 5, 6, "E2"]
 
 [subsets.pin-rtl]
 file = "pin-rtl.yaml"
