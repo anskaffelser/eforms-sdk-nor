@@ -428,7 +428,7 @@
       history: []
       nob_verify: false
     - name: 'Contract award notice – sectoral directive, standard regime'
-      nob: 30
+      nob: '30'
       history: []
       nob_verify: true
   nob_verify: false
