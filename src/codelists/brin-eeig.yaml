@@ -1,8 +1,11 @@
+%YAML 1.2
+---
 X01:
-  name: European Economic Interest Grouping
-  nob: Europeisk økonomisk interessegruppering
+  name: 'European Economic Interest Grouping'
+  nob: 'Europeisk økonomisk interessegruppering'
   history:
-  - name: European Economic Interest Grouping
-    history: []
-    nob_verify: false
-  nob_verify: false
+    - name: 'European Economic Interest Grouping'
+      nob: 'X01'
+      history: []
+      nob_verify: true
+  nob_verify: true

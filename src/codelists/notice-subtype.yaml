@@ -826,7 +826,7 @@ T02:
       nob_verify: true
   nob_verify: true
 X01:
-  name: 'X01'
+  name: 'European Economic Interest Grouping'
   nob: 'Europeisk økonomisk interessegruppering'
   history:
     - name: 'European Economic Interest Grouping'
@@ -835,7 +835,7 @@ X01:
       nob_verify: true
   nob_verify: true
 X02:
-  name: 'X02'
+  name: 'European Company / European Cooperative Society'
   nob: 'Det europeiske selskap / European Cooperative Society'
   history:
     - name: 'European Company / European Cooperative Society'
