@@ -18,17 +18,17 @@ mar-nov:
     Anskaffelsen utfordrer markedet til å tilby eller utvikle nyskapende
     løsninger.
   history:
-  - nob: >-
-      Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er
-      innovative for hele markedet.
-    history: []
-    nob_verify: true
-  - name: >-
-      The procured works, supplies or services are novel or significantly
-      improved compared to other works, supplies, or services already on the
-      market.
-    history: []
-    nob_verify: false
+    - nob: >-
+        Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er
+        innovative for hele markedet.
+      history: []
+      nob_verify: true
+    - name: >-
+        The procured works, supplies or services are novel or significantly
+        improved compared to other works, supplies, or services already on the
+        market.
+      history: []
+      nob_verify: false
   nob_verify: false
 
 # --- RETIRED FROM OP TED CODELIST, KEPT AS HISTORICAL REFERENCE ---
@@ -37,44 +37,46 @@ other:
   name: 'Other'
   nob: 'Annet'
 
+proc-innov:
+  name: 'The procured works, supplies, or services entail process innovation'
+  nob: 'Anskaffelsen innebærer prosessinnovasjon.'
+  history:
+    - nob: 'The procured works, supplies, or services entail process innovation'
+      history: []
+      nob_verify: false
+    - name: >-
+        The procured works, supplies, or services entail process innovation
+      history: []
+      nob_verify: false
+  nob_verify: false
+prod-innov:
+  name: 'The procured works, supplies, or services entail product innovation'
+  nob: 'Anskaffelsen innebærer produktinnovasjon.'
+  history:
+    - nob: >-
+        De anskaffede verkene, forsyningene eller tjenestene innebærer
+        produktinnovasjon.
+      history: []
+      nob_verify: false
+    - name: >-
+        The procured works, supplies, or services entail product innovation
+      history: []
+      nob_verify: false
+  nob_verify: false
 rd-act:
   name: >-
     The procured works, supplies or services involve research and development
     activities.
   nob: 'Anskaffelsen omfatter forsknings- og utviklingsaktiviteter.'
   history:
-  - nob: >-
-      Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene
-      relateres til forsknings- og utviklingsaktiviteter.
-    history: []
-    nob_verify: false
-  - name: >-
-      The procured works, supplies or services involve research and development
-      activities.
-    history: []
-    nob_verify: false
-  nob_verify: false
-proc-innov:
-  name: 'The procured works, supplies, or services entail process innovation'
-  nob: 'Anskaffelsen innebærer prosessinnovasjon.'
-  history:
-  - nob: 'The procured works, supplies, or services entail process innovation'
-    history: []
-    nob_verify: false
-  - name: 'The procured works, supplies, or services entail process innovation'
-    history: []
-    nob_verify: false
-  nob_verify: false
-prod-innov:
-  name: 'The procured works, supplies, or services entail product innovation'
-  nob: 'Anskaffelsen innebærer produktinnovasjon.'
-  history:
-  - nob: >-
-      De anskaffede verkene, forsyningene eller tjenestene innebærer
-      produktinnovasjon.
-    history: []
-    nob_verify: false
-  - name: 'The procured works, supplies, or services entail product innovation'
-    history: []
-    nob_verify: false
+    - nob: >-
+        Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene
+        relateres til forsknings- og utviklingsaktiviteter.
+      history: []
+      nob_verify: false
+    - name: >-
+        The procured works, supplies or services involve research and
+        development activities.
+      history: []
+      nob_verify: false
   nob_verify: false
