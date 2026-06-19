@@ -1,32 +1,41 @@
 %YAML 1.2
 ---
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# This file is generated from 'notice-subtype.yaml'.
+# Do not edit manually. Update 'notice-subtype-distribution-manifest.toml' instead.
 38:
   name: 'Contract modification notice – general directive'
   nob: >-
     Kunngjøring av endring i en inngått kontrakt – Anskaffelsesforskriften
   history:
-    - name: 'Contract modification notice – general directive'
-      nob: 'Melding om endring av kontrakt – generelt direktiv'
-      history: []
-      nob_verify: false
-    - name: 'Contract modification notice – general directive'
-      nob: '38'
-      history: []
-      nob_verify: true
+  - name: 'Contract modification notice – general directive'
+    nob: 'Melding om endring av kontrakt – generelt direktiv'
+    history: []
+    nob_verify: false
+  - name: 'Contract modification notice – general directive'
+    nob: '38'
+    history: []
+    nob_verify: true
   nob_verify: false
 39:
   name: 'Contract modification notice – sectoral directive'
   nob: >-
     Kunngjøring av endring i en inngått kontrakt – Forsyningsforskriften
   history:
-    - name: 'Contract modification notice – sectoral directive'
-      nob: 'Kunngjøring om endring av kontrakt – sektordirektiv'
-      history: []
-      nob_verify: false
-    - name: 'Contract modification notice – sectoral directive'
-      nob: '39'
-      history: []
-      nob_verify: true
+  - name: 'Contract modification notice – sectoral directive'
+    nob: 'Kunngjøring om endring av kontrakt – sektordirektiv'
+    history: []
+    nob_verify: false
+  - name: 'Contract modification notice – sectoral directive'
+    nob: '39'
+    history: []
+    nob_verify: true
   nob_verify: false
 40:
   name: 'Contract modification notice – concessions directive'
@@ -34,12 +43,12 @@
     Kunngjøring av endring i en inngått kontrakt –
     Konsesjonskontraktforskriften
   history:
-    - name: 'Contract modification notice – concessions directive'
-      nob: 'Kunngjøring om endring av kontrakt – konsesjonsdirektivet'
-      history: []
-      nob_verify: false
-    - name: 'Contract modification notice – concessions directive'
-      nob: '40'
-      history: []
-      nob_verify: true
+  - name: 'Contract modification notice – concessions directive'
+    nob: 'Kunngjøring om endring av kontrakt – konsesjonsdirektivet'
+    history: []
+    nob_verify: false
+  - name: 'Contract modification notice – concessions directive'
+    nob: '40'
+    history: []
+    nob_verify: true
   nob_verify: false

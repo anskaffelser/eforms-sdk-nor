@@ -1,23 +1,32 @@
 %YAML 1.2
 ---
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# This file is generated from 'notice-subtype.yaml'.
+# Do not edit manually. Update 'notice-subtype-distribution-manifest.toml' instead.
 20:
   name: 'Contract notice – general directive, light regime'
   nob: >-
     Kunngjøring av konkurranse (Helse- og sosialtjenester og særlige tjenester)
     – Anskaffelsesforskriften
   history:
-    - name: 'Contract notice – general directive, light regime'
-      nob: 'Kunngjøring av kontrakt – generelt direktiv, forenklet regime'
-      history: []
-      nob_verify: false
-    - name: 'Contract notice – general directive, light regime'
-      nob: 'Kunngjøring av kontrakt – generelt direktiv, lysregime'
-      history: []
-      nob_verify: false
-    - name: 'Contract notice – general directive, light regime'
-      nob: '20'
-      history: []
-      nob_verify: true
+  - name: 'Contract notice – general directive, light regime'
+    nob: 'Kunngjøring av kontrakt – generelt direktiv, forenklet regime'
+    history: []
+    nob_verify: false
+  - name: 'Contract notice – general directive, light regime'
+    nob: 'Kunngjøring av kontrakt – generelt direktiv, lysregime'
+    history: []
+    nob_verify: false
+  - name: 'Contract notice – general directive, light regime'
+    nob: '20'
+    history: []
+    nob_verify: true
   nob_verify: false
 21:
   name: 'Contract notice – sectoral directive, light regime'
@@ -25,16 +34,16 @@
     Kunngjøring av konkurranse (Helse- og sosialtjenester og særlige tjenester)
     – Forsyningsforskriften
   history:
-    - name: 'Contract notice – sectoral directive, light regime'
-      nob: 'Kunngjøring av kontrakt – sektordirektiv, forenklet regime'
-      history: []
-      nob_verify: false
-    - name: 'Contract notice – sectoral directive, light regime'
-      nob: 'Kunngjøring av kontrakt – sektordirektiv, lysregime'
-      history: []
-      nob_verify: false
-    - name: 'Contract notice – sectoral directive, light regime'
-      nob: '21'
-      history: []
-      nob_verify: true
+  - name: 'Contract notice – sectoral directive, light regime'
+    nob: 'Kunngjøring av kontrakt – sektordirektiv, forenklet regime'
+    history: []
+    nob_verify: false
+  - name: 'Contract notice – sectoral directive, light regime'
+    nob: 'Kunngjøring av kontrakt – sektordirektiv, lysregime'
+    history: []
+    nob_verify: false
+  - name: 'Contract notice – sectoral directive, light regime'
+    nob: '21'
+    history: []
+    nob_verify: true
   nob_verify: false

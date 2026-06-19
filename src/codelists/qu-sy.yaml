@@ -1,18 +1,27 @@
 %YAML 1.2
 ---
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# This file is generated from 'notice-subtype.yaml'.
+# Do not edit manually. Update 'notice-subtype-distribution-manifest.toml' instead.
 15:
   name: 'Notice on the existence of a qualification system – sectoral directive'
   nob: 'Kunngjøring av en kvalifikasjonsordning – Forsyningsforskriften'
   history:
-    - name: >-
-        Notice on the existence of a qualification system – sectoral directive
-      nob: 'Melding om eksistens av kvalifikasjonssystem – sektordirektiv'
-      history: []
-      nob_verify: false
-    - name: >-
-        Notice on the existence of a qualification system – sectoral
-        directive
-      nob: '15'
-      history: []
-      nob_verify: true
+  - name: >-
+      Notice on the existence of a qualification system – sectoral directive
+    nob: 'Melding om eksistens av kvalifikasjonssystem – sektordirektiv'
+    history: []
+    nob_verify: false
+  - name: >-
+      Notice on the existence of a qualification system – sectoral
+      directive
+    nob: '15'
+    history: []
+    nob_verify: true
   nob_verify: false

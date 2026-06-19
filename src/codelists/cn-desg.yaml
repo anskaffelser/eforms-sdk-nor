@@ -1,28 +1,37 @@
 %YAML 1.2
 ---
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# This file is generated from 'notice-subtype.yaml'.
+# Do not edit manually. Update 'notice-subtype-distribution-manifest.toml' instead.
 23:
   name: 'Design contest notice – general directive, design'
   nob: 'Kunngjøring av plan- og designkonkurranse – Anskaffelsesforskriften'
   history:
-    - name: 'Design contest notice – general directive, design'
-      nob: 'Varsel om designkonkurranse – generelt direktiv, design'
-      history: []
-      nob_verify: false
-    - name: 'Design contest notice – general directive, design'
-      nob: '23'
-      history: []
-      nob_verify: true
+  - name: 'Design contest notice – general directive, design'
+    nob: 'Varsel om designkonkurranse – generelt direktiv, design'
+    history: []
+    nob_verify: false
+  - name: 'Design contest notice – general directive, design'
+    nob: '23'
+    history: []
+    nob_verify: true
   nob_verify: false
 24:
   name: 'Design contest notice – sectoral directive, design'
   nob: 'Kunngjøring av plan- og designkonkurranse – Forsyningsforskriften'
   history:
-    - name: 'Design contest notice – sectoral directive, design'
-      nob: 'Melding om designkonkurranse – sektordirektiv, design'
-      history: []
-      nob_verify: false
-    - name: 'Design contest notice – sectoral directive, design'
-      nob: '24'
-      history: []
-      nob_verify: true
+  - name: 'Design contest notice – sectoral directive, design'
+    nob: 'Melding om designkonkurranse – sektordirektiv, design'
+    history: []
+    nob_verify: false
+  - name: 'Design contest notice – sectoral directive, design'
+    nob: '24'
+    history: []
+    nob_verify: true
   nob_verify: false

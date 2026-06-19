@@ -1,19 +1,28 @@
 %YAML 1.2
 ---
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# This file is generated from 'notice-subtype.yaml'.
+# Do not edit manually. Update 'notice-subtype-distribution-manifest.toml' instead.
 36:
   name: 'Design contest result notice – general directive, design'
   nob: >-
     Resultatkunngjøring for plan- og designkonkurranse –
     Anskaffelsesforskriften
   history:
-    - name: 'Design contest result notice – general directive, design'
-      nob: 'Resultatvarsel for designkonkurranse – generelt direktiv, design'
-      history: []
-      nob_verify: false
-    - name: 'Design contest result notice – general directive, design'
-      nob: '36'
-      history: []
-      nob_verify: true
+  - name: 'Design contest result notice – general directive, design'
+    nob: 'Resultatvarsel for designkonkurranse – generelt direktiv, design'
+    history: []
+    nob_verify: false
+  - name: 'Design contest result notice – general directive, design'
+    nob: '36'
+    history: []
+    nob_verify: true
   nob_verify: false
 37:
   name: 'Design contest result notice – sectoral directive, design'
@@ -21,12 +30,12 @@
     Resultatkunngjøring for plan- og designkonkurranse –
     Forsyningsforskriften
   history:
-    - name: 'Design contest result notice – sectoral directive, design'
-      nob: 'Resultatmelding for designkonkurranse – sektordirektiv, design'
-      history: []
-      nob_verify: false
-    - name: 'Design contest result notice – sectoral directive, design'
-      nob: '37'
-      history: []
-      nob_verify: true
+  - name: 'Design contest result notice – sectoral directive, design'
+    nob: 'Resultatmelding for designkonkurranse – sektordirektiv, design'
+    history: []
+    nob_verify: false
+  - name: 'Design contest result notice – sectoral directive, design'
+    nob: '37'
+    history: []
+    nob_verify: true
   nob_verify: false

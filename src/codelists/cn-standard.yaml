@@ -1,30 +1,39 @@
 %YAML 1.2
 ---
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# This file is generated from 'notice-subtype.yaml'.
+# Do not edit manually. Update 'notice-subtype-distribution-manifest.toml' instead.
 16:
   name: 'Contract notice – general directive, standard regime'
   nob: 'Kunngjøring av konkurranse – Anskaffelsesforskriften'
   history:
-    - name: 'Contract notice – general directive, standard regime'
-      nob: 'Kunngjøring av kontrakt – generelt direktiv, standardregime'
-      history: []
-      nob_verify: false
-    - name: 'Contract notice – general directive, standard regime'
-      nob: '16'
-      history: []
-      nob_verify: true
+  - name: 'Contract notice – general directive, standard regime'
+    nob: 'Kunngjøring av kontrakt – generelt direktiv, standardregime'
+    history: []
+    nob_verify: false
+  - name: 'Contract notice – general directive, standard regime'
+    nob: '16'
+    history: []
+    nob_verify: true
   nob_verify: false
 17:
   name: 'Contract notice – sectoral directive, standard regime'
   nob: 'Kunngjøring av konkurranse – Forsyningsforskriften'
   history:
-    - name: 'Contract notice – sectoral directive, standard regime'
-      nob: 'Kunngjøring av kontrakt – sektordirektiv, standardregime'
-      history: []
-      nob_verify: false
-    - name: 'Contract notice – sectoral directive, standard regime'
-      nob: '17'
-      history: []
-      nob_verify: true
+  - name: 'Contract notice – sectoral directive, standard regime'
+    nob: 'Kunngjøring av kontrakt – sektordirektiv, standardregime'
+    history: []
+    nob_verify: false
+  - name: 'Contract notice – sectoral directive, standard regime'
+    nob: '17'
+    history: []
+    nob_verify: true
   nob_verify: false
 18:
   name: 'Contract notice – defence directive, standard regime'
@@ -32,38 +41,38 @@
     Kunngjøring av konkurranse – Forskrift om forsvars- og
     sikkerhetsanskaffelser
   history:
-    - name: 'Contract notice – defence directive, standard regime'
-      nob: 'Kunngjøring av kontrakt – forsvarsdirektiv, standardregime'
-      history: []
-      nob_verify: false
-    - name: 'Contract notice – defence directive, standard regime'
-      nob: '18'
-      history: []
-      nob_verify: true
+  - name: 'Contract notice – defence directive, standard regime'
+    nob: 'Kunngjøring av kontrakt – forsvarsdirektiv, standardregime'
+    history: []
+    nob_verify: false
+  - name: 'Contract notice – defence directive, standard regime'
+    nob: '18'
+    history: []
+    nob_verify: true
   nob_verify: false
 19:
   name: 'Concession notice – concessions directive, standard regime'
   nob: 'Kunngjøring av konsesjon – Konsesjonskontraktforskriften'
   history:
-    - name: 'Concession notice – concessions directive, standard regime'
-      nob: 'Konsesjonsmelding – konsesjonsdirektivet, standardregime'
-      history: []
-      nob_verify: false
-    - name: 'Concession notice – concessions directive, standard regime'
-      nob: '19'
-      history: []
-      nob_verify: true
+  - name: 'Concession notice – concessions directive, standard regime'
+    nob: 'Konsesjonsmelding – konsesjonsdirektivet, standardregime'
+    history: []
+    nob_verify: false
+  - name: 'Concession notice – concessions directive, standard regime'
+    nob: '19'
+    history: []
+    nob_verify: true
   nob_verify: false
 E3:
   name: 'E3'
   nob: 'Kunngjøring av konkurranse under EØS-terskelverdi'
   history:
-    - name: 'E3'
-      nob: 'Generelt under terskelvarsel om kontrakt (CN)'
-      history: []
-      nob_verify: true
-    - name: 'Below threshold contract notice (CN) general'
-      nob: 'E3'
-      history: []
-      nob_verify: true
+  - name: 'E3'
+    nob: 'Generelt under terskelvarsel om kontrakt (CN)'
+    history: []
+    nob_verify: true
+  - name: 'Below threshold contract notice (CN) general'
+    nob: 'E3'
+    history: []
+    nob_verify: true
   nob_verify: false

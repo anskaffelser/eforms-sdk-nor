@@ -1,16 +1,25 @@
 %YAML 1.2
 ---
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# This file is generated from 'notice-subtype.yaml'.
+# Do not edit manually. Update 'notice-subtype-distribution-manifest.toml' instead.
 T02:
   name: 'T02'
   nob: 'Kunngjøring av kontraktsinngåelse – offentlig persontransport'
   history:
-    - name: 'T02'
-      nob: >-
-        Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
-      history: []
-      nob_verify: true
-    - name: 'Information notice for award of public service contract'
-      nob: 'T02'
-      history: []
-      nob_verify: true
+  - name: 'T02'
+    nob: >-
+      Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
+    history: []
+    nob_verify: true
+  - name: 'Information notice for award of public service contract'
+    nob: 'T02'
+    history: []
+    nob_verify: true
   nob_verify: true

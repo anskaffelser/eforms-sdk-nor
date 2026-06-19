@@ -1,17 +1,26 @@
 %YAML 1.2
 ---
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# This file is generated from 'notice-subtype.yaml'.
+# Do not edit manually. Update 'notice-subtype-distribution-manifest.toml' instead.
 22:
   name: 'Subcontract notice – defence directive'
   nob: >-
     Kunngjøring av underleverandørkontrakt – Forskrift om forsvars- og
     sikkerhetsanskaffelser
   history:
-    - name: 'Subcontract notice – defence directive'
-      nob: 'Varsel om underkontrakt – forsvarsdirektiv'
-      history: []
-      nob_verify: false
-    - name: 'Subcontract notice – defence directive'
-      nob: '22'
-      history: []
-      nob_verify: true
+  - name: 'Subcontract notice – defence directive'
+    nob: 'Varsel om underkontrakt – forsvarsdirektiv'
+    history: []
+    nob_verify: false
+  - name: 'Subcontract notice – defence directive'
+    nob: '22'
+    history: []
+    nob_verify: true
   nob_verify: false
