@@ -505,7 +505,7 @@
   name: 'Concession award notice – concessions directive, light regime'
   nob: >-
     Kunngjøring av kontraktsinngåelse (Helse- og sosialtjenester og særlige
-    tjenester) – Konsesjonskontraktforskriften
+    tjenester) – Konsesjonskontraktforskriften
   history:
     - name: 'Concession award notice – concessions directive, light regime'
       nob: >-
@@ -517,7 +517,7 @@
       history: []
       nob_verify: false
     - name: 'Concession award notice – concessions directive, light regime'
-      nob: 35
+      nob: '35'
       history: []
       nob_verify: true
   nob_verify: false
