@@ -1,17 +1,27 @@
 %YAML 1.2
 ---
 1:
-  name: 'Notice of the publication of a prior information notice on a buyer profile – general directive'
-  nob: 'Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil – Anskaffelsesforskriften'
+  name: >-
+    Notice of the publication of a prior information notice on a buyer profile
+    – general directive
+  nob: >-
+    Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil – 
+    Anskaffelsesforskriften
   history:
-  - name: 'Notice of the publication of a prior information notice on a buyer profile – general directive'
-    nob: 'Melding om offentliggjøring av forhåndsmelding på en kjøperprofil – generelt direktiv'
-    history: []
-    nob_verify: false
-  - name: 'Notice of the publication of a prior information notice on a buyer profile – general directive'
-    nob: 1
-    history: []
-    nob_verify: true
+    - name: >-
+        Notice of the publication of a prior information notice on a buyer
+        profile – general directive
+      nob: >-
+        Melding om offentliggjøring av forhåndsmelding på en kjøperprofil –
+        generelt direktiv
+      history: []
+      nob_verify: false
+    - name: >-
+        Notice of the publication of a prior information notice on a buyer
+        profile – general directive
+      nob: 1
+      history: []
+      nob_verify: true
   nob_verify: false
 10:
   name: 'Prior information notice used as a call for competition – general directive, standard regime'
