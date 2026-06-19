@@ -695,17 +695,27 @@
       nob_verify: true
   nob_verify: false
 9:
-  name: 'Prior information notice used to shorten time limits for receipt of tenders – defence directive'
-  nob: 'Veiledende kunngjøring for å forkorte tilbudsfristen – Forskrift om forsvars- og sikkerhetsanskaffelser'
+  name: >-
+    Prior information notice used to shorten time limits for receipt of tenders
+    – defence directive
+  nob: >-
+    Veiledende kunngjøring for å forkorte tilbudsfristen – Forskrift om
+    forsvars- og sikkerhetsanskaffelser
   history:
-  - name: 'Prior information notice used to shorten time limits for receipt of tenders – defence directive'
-    nob: 'Forhåndsmelding om forkortede frister for mottak av anbud – forsvarsdirektiv'
-    history: []
-    nob_verify: false
-  - name: 'Prior information notice used to shorten time limits for receipt of tenders – defence directive'
-    nob: 9
-    history: []
-    nob_verify: true
+    - name: >-
+        Prior information notice used to shorten time limits for receipt of
+        tenders – defence directive
+      nob: >-
+        Forhåndsmelding om forkortede frister for mottak av anbud –
+        forsvarsdirektiv
+      history: []
+      nob_verify: false
+    - name: >-
+        Prior information notice used to shorten time limits for receipt of
+        tenders – defence directive'
+      nob: '9'
+      history: []
+      nob_verify: true
   nob_verify: false
 CEI:
   name: 'CEI'
@@ -770,7 +780,7 @@ E4:
   nob_verify: false
 E5:
   name: 'E5'
-  nob: 'Kunngjøring om fullføring av kontrakt'
+  nob: 'Kunngjøring om fullføring av kontrakt under EØS-terskelverdi'
   history:
   - name: 'E5'
     nob: 'Varsel om fullføring av kontrakt'
@@ -783,8 +793,9 @@ E5:
   nob_verify: true
 E6:
   name: 'E6'
-  nob: 'Kunngjøring av endring i en inngått kontrakt'
+  nob: 'Kunngjøring av endring i en inngått kontrakt under EØS-terskelverdi'
   nob_verify: true
+  history: []
 T01:
   name: 'T01'
   nob: 'Veiledende kunngjøring – offentlig persontransport'
