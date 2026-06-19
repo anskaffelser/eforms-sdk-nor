@@ -217,7 +217,7 @@
   nob_verify: false
 19:
   name: 'Concession notice – concessions directive, standard regime'
-  nob: 'Kunngjøring av konkurranse – Konsesjonskontraktforskriften'
+  nob: 'Kunngjøring av konsesjon – Konsesjonskontraktforskriften'
   history:
     - name: 'Concession notice – concessions directive, standard regime'
       nob: 'Konsesjonsmelding – konsesjonsdirektivet, standardregime'
