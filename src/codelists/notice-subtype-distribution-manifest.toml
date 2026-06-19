@@ -96,3 +96,7 @@ keys = [22]
 [subsets.veat]
 file = "veat.yaml"
 keys = [25, 26, 27, 28]
+
+[validation]
+require_complete_subset = true
+complete_subset = "corr"
