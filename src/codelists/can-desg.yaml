@@ -1,3 +1,5 @@
+%YAML 1.2
+---
 36:
   name: 'Design contest result notice – general directive, design'
   nob: >-
@@ -9,7 +11,7 @@
       history: []
       nob_verify: false
     - name: 'Design contest result notice – general directive, design'
-      nob: 36
+      nob: '36'
       history: []
       nob_verify: true
   nob_verify: false
@@ -24,7 +26,7 @@
       history: []
       nob_verify: false
     - name: 'Design contest result notice – sectoral directive, design'
-      nob: 37
+      nob: '37'
       history: []
       nob_verify: true
   nob_verify: false
