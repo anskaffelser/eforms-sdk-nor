@@ -97,21 +97,35 @@
       nob_verify: true
   nob_verify: false
 13:
-  name: 'Periodic indicative notice used as a call for competition – sectoral directive, light regime'
-  nob: 'Forhåndskunngjøring (Helse- og sosialtjenester og særlige tjenester) – Forsyningsforskriften'
+  name: >-
+    Periodic indicative notice used as a call for competition – sectoral
+    directive, light regime
+  nob: >-
+    Forhåndskunngjøring (Helse- og sosialtjenester og særlige tjenester) –
+    Forsyningsforskriften
   history:
-  - name: 'Periodic indicative notice used as a call for competition – sectoral directive, light regime-
-    nob: 'Periodisk veiledende melding brukt som oppfordring til konkurranse – sektordirektiv, forenklet regime'
-    history: []
-    nob_verify: false
-  - name: 'Periodic indicative notice used as a call for competition – sectoral directive, light regime'
-    nob: 'Periodisk veiledende melding brukt som oppfordring til konkurranse – sektordirektiv, lysregime'
-    history: []
-    nob_verify: false
-  - name: 'Periodic indicative notice used as a call for competition – sectoral directive, light regime'
-    nob: 13
-    history: []
-    nob_verify: true
+    - name: >-
+        Periodic indicative notice used as a call for competition – sectoral
+        directive, light regime
+      nob: >-
+        Periodisk veiledende melding brukt som oppfordring til konkurranse –
+        sektordirektiv, forenklet regime
+      history: []
+      nob_verify: false
+    - name: >-
+        Periodic indicative notice used as a call for competition – sectoral
+        directive, light regime
+      nob: >-
+        Periodisk veiledende melding brukt som oppfordring til konkurranse –
+        sektordirektiv, lysregime
+      history: []
+      nob_verify: false
+    - name: >-
+        Periodic indicative notice used as a call for competition – sectoral
+        directive, light regime
+      nob: '13'
+      history: []
+      nob_verify: true
   nob_verify: false
 14:
   name: 'Prior information notice used as a call for competition – concessions directive, light regime'
