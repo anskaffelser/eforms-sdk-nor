@@ -497,7 +497,7 @@
       history: []
       nob_verify: false
     - name: 'Contract award notice – sectoral directive, light regime'
-      nob: 34
+      nob: '34'
       history: []
       nob_verify: true
   nob_verify: false
