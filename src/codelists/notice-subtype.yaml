@@ -561,7 +561,7 @@
       history: []
       nob_verify: false
     - name: 'Contract modification notice – general directive'
-      nob: 38
+      nob: '38'
       history: []
       nob_verify: true
   nob_verify: false
