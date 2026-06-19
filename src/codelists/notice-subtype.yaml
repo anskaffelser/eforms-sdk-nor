@@ -800,16 +800,16 @@ E6:
   history: []
 T01:
   name: 'T01'
-  nob: 'Veiledende kunngjøring – offentlig persontransport'
+  nob: 'Veiledende kunngjøring – offentlig persontransport'
   history:
-  - name: 'T01'
-    nob: 'Forhåndsmelding om kontrakt om offentlig tjeneste'
-    history: []
-    nob_verify: true
-  - name: 'Prior information notice for public service contract'
-    nob: 'T01'
-    history: []
-    nob_verify: true
+    - name: 'T01'
+      nob: 'Forhåndsmelding om kontrakt om offentlig tjeneste'
+      history: []
+      nob_verify: true
+    - name: 'Prior information notice for public service contract'
+      nob: 'T01'
+      history: []
+      nob_verify: true
   nob_verify: true
 T02:
   name: 'T02'
