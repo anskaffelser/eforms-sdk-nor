@@ -1,0 +1,95 @@
+# Manifest for generating notice subtype subset codelist YAML files.
+#
+# Paths are resolved relative to this TOML file, not necessarily
+# relative to the directory where the script is run.
+#
+# Source codelist: notice-subtype.yaml
+
+[paths]
+master_file = "notice-subtype.yaml"
+output_dir = "."
+
+[subsets.brin-ecs]
+file = "brin-ecs.yaml"
+keys = ["X02"]
+
+[subsets.brin-eeig]
+file = "brin-eeig.yaml"
+keys = ["X01"]
+
+[subsets.can-desg]
+file = "can-desg.yaml"
+keys = [36, 37]
+
+[subsets.can-tran]
+file = "can-tran.yaml"
+keys = ["T02"]
+
+[subsets.can-standard]
+file = "can-standard.yaml"
+keys = [29, 30, 31, 32, "E4"]
+
+[subsets.can-social]
+file = "can-social.yaml"
+keys = [33, 34, 35]
+
+[subsets.can-modif]
+file = "can-modif.yaml"
+keys = [38, 39, 40]
+
+[subsets.cn-standard]
+file = "cn-standard.yaml"
+keys = [16, 17, 18, 19, "E3"]
+
+[subsets.cn-social]
+file = "cn-social.yaml"
+keys = [20, 21]
+
+[subsets.cn-desg]
+file = "cn-desg.yaml"
+keys = [23, 24]
+
+[subsets.corr]
+file = "corr.yaml"
+keys = [1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+        2, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+		3, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+		4, 40, 5, 6, 7, 8, 9, 
+		"CEI",
+		"E1", "E2", "E3", "E4", "E5", "E6",
+		"T01", "T02", 
+		"X01", "X02"
+		]
+
+[subsets.pin-only]
+file = "pin-only.yaml"
+keys = [4, 5, 6, "E2"]
+
+[subsets.pin-buyer]
+file = "pin-buyer.yaml"
+keys = [1, 2, 3]
+
+[subsets.pin-cfc-standard]
+file = "pin-cfc-standard.yaml"
+keys = [10, 11, "CEI"]
+
+[subsets.pin-cfc-social]
+file = "pin-cfc-social.yaml"
+keys = [12, 13, 14]
+
+[subsets.pin-rtl]
+file = "pin-rtl.yaml"
+keys = [7, 8, 9]
+
+[subsets.pin-tran]
+file = "pin-tran.yaml"
+keys = ["T01"]
+
+[subsets.qu-sy]
+file = "qu-sy.yaml"
+keys = [15]
+
+[subsets.subco]
+file = "subco.yaml"
+keys = [22]
+
