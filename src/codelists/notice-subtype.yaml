@@ -191,14 +191,14 @@
   name: 'Contract notice – sectoral directive, standard regime'
   nob: 'Kunngjøring av konkurranse – Forsyningsforskriften'
   history:
-  - name: 'Contract notice – sectoral directive, standard regime'
-    nob: 'Kunngjøring av kontrakt – sektordirektiv, standardregime'
-    history: []
-    nob_verify: false
-  - name: 'Contract notice – sectoral directive, standard regime'
-    nob: 17
-    history: []
-    nob_verify: true
+    - name: 'Contract notice – sectoral directive, standard regime'
+      nob: 'Kunngjøring av kontrakt – sektordirektiv, standardregime'
+      history: []
+      nob_verify: false
+    - name: 'Contract notice – sectoral directive, standard regime'
+      nob: '17'
+      history: []
+      nob_verify: true
   nob_verify: false
 18:
   name: 'Contract notice – defence directive, standard regime'
