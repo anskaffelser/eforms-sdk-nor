@@ -532,7 +532,7 @@
       history: []
       nob_verify: false
     - name: 'Design contest result notice – general directive, design'
-      nob: 36
+      nob: '36'
       history: []
       nob_verify: true
   nob_verify: false
