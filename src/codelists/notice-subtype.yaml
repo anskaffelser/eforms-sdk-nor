@@ -581,16 +581,19 @@
   nob_verify: false
 4:
   name: 'Prior information notice used only for information – general directive'
-  nob: 'Veiledende kunngjøring brukt kun til informasjon – Anskaffelsesforskriften'
+  nob: >-
+    Veiledende kunngjøring brukt kun til informasjon – Anskaffelsesforskriften
   history:
-  - name: 'Prior information notice used only for information – general directive'
-    nob: 'Forhåndsvarsel brukes kun til informasjon – generelt direktiv'
-    history: []
-    nob_verify: false
-  - name: 'Prior information notice used only for information – general directive'
-    nob: 4
-    history: []
-    nob_verify: true
+    - name: >-
+        Prior information notice used only for information – general directive
+      nob: 'Forhåndsvarsel brukes kun til informasjon – generelt direktiv'
+      history: []
+      nob_verify: false
+    - name: >-
+        Prior information notice used only for information – general directive
+      nob: '4'
+      history: []
+      nob_verify: true
   nob_verify: false
 40:
   name: 'Contract modification notice – concessions directive'
