@@ -728,16 +728,18 @@ CEI:
   nob_verify: true
 E1:
   name: 'E1'
-  nob: 'Kunngjøring av forberedende undersøkelser og dialog med markedet'
+  nob: >-
+    Kunngjøring av forberedende undersøkelser og dialog med markedet under
+    EØS-terskelverdi
   history:
-  - name: 'E1'
-    nob: 'Foreløpig varsel om markedskonsultasjon'
-    history: []
-    nob_verify: true
-  - name: 'Preliminary market consultation notice'
-    nob: 'E1'
-    history: []
-    nob_verify: true
+    - name: 'E1'
+      nob: 'Foreløpig varsel om markedskonsultasjon'
+      history: []
+      nob_verify: true
+    - name: 'Preliminary market consultation notice'
+      nob: 'E1'
+      history: []
+      nob_verify: true
   nob_verify: false
 E2:
   name: 'E2'
