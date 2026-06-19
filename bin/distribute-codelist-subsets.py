@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import sys
 import tomllib
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -72,6 +73,16 @@ def require_mapping(value: Any, name: str) -> dict[str, Any]:
 def require_string(value: Any, name: str) -> str:
     if not isinstance(value, str) or not value.strip():
         raise SystemExit(f"ERROR: Expected '{name}' to be a non-empty string.")
+    return value
+
+
+def optional_string(value: Any, name: str) -> str | None:
+    if value is None:
+        return None
+
+    if not isinstance(value, str) or not value.strip():
+        raise SystemExit(f"ERROR: Expected '{name}' to be a non-empty string if set.")
+
     return value
 
 
@@ -140,6 +151,67 @@ def validate_complete_subset(
             f"Extra keys: {extra_keys}"
         )
 
+
+def build_generated_file_header(
+    *,
+    license_config: dict[str, Any],
+    source_file: str,
+    manifest_file: str,
+) -> str:
+    current_year = date.today().year
+
+    spdx = optional_string(
+        license_config.get("spdx"),
+        "license.spdx",
+    )
+
+    name = optional_string(
+        license_config.get("name"),
+        "license.name",
+    )
+
+    url = optional_string(
+        license_config.get("url"),
+        "license.url",
+    )
+
+    attribution = optional_string(
+        license_config.get("attribution"),
+        "license.attribution",
+    )
+
+    lines: list[str] = []
+
+    if attribution:
+        lines.append(f"SPDX-FileCopyrightText: {current_year} {attribution}")
+
+    if spdx:
+        lines.append(f"SPDX-License-Identifier: {spdx}")
+
+    if lines and (name or url or attribution):
+        lines.append("#")
+
+    if name:
+        lines.append(f"License: {name}")
+
+    if url:
+        lines.append(f"License-URL: {url}")
+
+    if attribution:
+        lines.append(f"Attribution: {attribution}")
+
+    lines.append("#")
+
+    lines.extend(
+        [
+            f"This file is generated from {source_file}.",
+            f"Do not edit manually. Update {manifest_file} instead.",
+        ]
+    )
+
+    return "\n".join(lines)
+
+    
 def main() -> int:
     args = parse_args()
 
@@ -154,6 +226,8 @@ def main() -> int:
     output_dir = require_string(paths.get("output_dir", "."), "paths.output_dir")
 
     subsets = require_mapping(manifest.get("subsets"), "subsets")
+    license_config = require_mapping(manifest.get("license", {}), "license")
+    validation = require_mapping(manifest.get("validation", {}), "validation")
     validation = require_mapping(manifest.get("validation", {}), "validation")
 
     master_path = manifest_dir / master_file
@@ -219,8 +293,11 @@ def main() -> int:
         )
 
         updated.yaml_set_start_comment(
-            f"This file is generated from {master_file}.\n"
-            f"Do not edit manually. Update {manifest_path.name} instead."
+            build_generated_file_header(
+                license_config=license_config,
+                source_file=master_file,
+                manifest_file=manifest_path.name,
+            )
         )
 
         write_yaml(output_path, updated, yaml)
