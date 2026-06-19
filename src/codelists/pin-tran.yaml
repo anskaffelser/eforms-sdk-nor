@@ -1,4 +1,15 @@
+%YAML 1.2
+---
 T01:
-  name: Prior information notice for public service contract
-  history: []
-  nob_verify: false
+  name: 'T01'
+  nob: 'Veiledende kunngjøring – offentlig persontransport'
+  history:
+    - name: 'T01'
+      nob: 'Forhåndsmelding om kontrakt om offentlig tjeneste'
+      history: []
+      nob_verify: true
+    - name: 'Prior information notice for public service contract'
+      nob: 'T01'
+      history: []
+      nob_verify: true
+  nob_verify: true
