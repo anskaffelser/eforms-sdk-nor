@@ -33,12 +33,12 @@
         "nob_verify": {
           "title": "Norwegian bokmål translation requires verification",
           "type": "boolean",
-          "default": false
+          "default": true
         },
         "nno_verify": {
           "title": "Norwegian nynorsk translation requires verification",
           "type": "boolean",
-          "default": false
+          "default": true
         },
         "status": {
           "title": "Lifecycle status of this codelist value",
