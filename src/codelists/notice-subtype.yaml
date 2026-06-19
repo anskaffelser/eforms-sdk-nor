@@ -606,7 +606,7 @@
       history: []
       nob_verify: false
     - name: 'Contract modification notice – concessions directive'
-      nob: 40
+      nob: '40'
       history: []
       nob_verify: true
   nob_verify: false
