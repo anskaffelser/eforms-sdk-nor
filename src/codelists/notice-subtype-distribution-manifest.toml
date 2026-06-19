@@ -25,13 +25,13 @@ keys = [36, 37]
 file = "can-modif.yaml"
 keys = [38, 39, 40]
 
-[subsets.can-standard]
-file = "can-standard.yaml"
-keys = [29, 30, 31, 32, "E4"]
-
 [subsets.can-social]
 file = "can-social.yaml"
 keys = [33, 34, 35]
+
+[subsets.can-standard]
+file = "can-standard.yaml"
+keys = [29, 30, 31, 32, "E4"]
 
 [subsets.can-tran]
 file = "can-tran.yaml"
