@@ -28,7 +28,6 @@ fp-requ:
     - name: >-
         The technical specifications are primarily based on functional and
         performance requirements, not on describing the technical solution.
-      history: []
       nob_verify: false
   nob_verify: false
   status: 'retired'
@@ -55,7 +54,6 @@ mar-nov:
       nob: >-
         Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er
         innovative for hele markedet.
-      history: []
       nob_verify: true
   nob_verify: false
   status: 'active'
@@ -95,7 +93,6 @@ org-nov:
       nob: >-
         Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er
         innovative for organisasjonen
-      history: []
       nob_verify: false
   nob_verify: false
   status: 'retired'
@@ -116,7 +113,6 @@ proc-innov:
       nob: >-
         De anskaffede arbeidene, leveransene eller tjenestene innebærer
         prosessinnovasjon
-      history: []
       nob_verify: false
   nob_verify: false
   status: 'active'
@@ -136,7 +132,6 @@ prod-innov:
       nob: >-
         De anskaffede verkene, forsyningene eller tjenestene innebærer
         produktinnovasjon.
-      history: []
       nob_verify: false
   nob_verify: false
   status: 'active'
@@ -159,7 +154,6 @@ rd-act:
       nob: >-
         Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene
         relateres til forsknings- og utviklingsaktiviteter.
-      history: []
       nob_verify: false
   nob_verify: false
   status: 'active'
