@@ -547,7 +547,7 @@
       history: []
       nob_verify: false
     - name: 'Design contest result notice – sectoral directive, design'
-      nob: 37
+      nob: '37'
       history: []
       nob_verify: true
   nob_verify: false
