@@ -575,7 +575,7 @@
       history: []
       nob_verify: false
     - name: 'Contract modification notice – sectoral directive'
-      nob: 39
+      nob: '39'
       history: []
       nob_verify: true
   nob_verify: false
