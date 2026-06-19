@@ -434,14 +434,16 @@
   nob_verify: false
 31:
   name: 'Contract award notice – defence directive, standard regime'
-  nob: 'Kunngjøring av kontraktsinngåelse – Forskrift om forsvars- og sikkerhetsanskaffelser'
+  nob: >-
+    Kunngjøring av kontraktsinngåelse – Forskrift om forsvars- og
+    sikkerhetsanskaffelser
   history:
     - name: 'Contract award notice – defence directive, standard regime'
       nob: 'Melding om kontraktstildeling – forsvarsdirektiv, standardregime'
       history: []
       nob_verify: false
     - name: 'Contract award notice – defence directive, standard regime'
-      nob: 31
+      nob: '31'
       history: []
       nob_verify: true
   nob_verify: false
