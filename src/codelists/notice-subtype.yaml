@@ -476,7 +476,7 @@
       history: []
       nob_verify: false
     - name: 'Contract award notice – general directive, light regime'
-      nob: 33
+      nob: '33'
       history: []
       nob_verify: true
   nob_verify: false
