@@ -745,14 +745,14 @@ E2:
   name: 'E2'
   nob: 'Veiledende kunngjøring under EØS-terskelverdi'
   history:
-  - name: 'E2'
-    nob: 'Bare varsel om forhåndsinformasjon under terskelen (PIN)'
-    history: []
-    nob_verify: true
-  - name: 'Below threshold prior information notice (PIN) only'
-    nob: 'E2'
-    history: []
-    nob_verify: true
+    - name: 'E2'
+      nob: 'Bare varsel om forhåndsinformasjon under terskelen (PIN)'
+      history: []
+      nob_verify: true
+    - name: 'Below threshold prior information notice (PIN) only'
+      nob: 'E2'
+      history: []
+      nob_verify: true
   nob_verify: false
 E3:
   name: 'E3'
