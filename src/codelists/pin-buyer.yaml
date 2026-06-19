@@ -1,12 +1,71 @@
+%YAML 1.2
+---
 1:
-  name: Notice of the publication of a prior information notice on a buyer profile – general directive
-  history: []
+  name: >-
+    Notice of the publication of a prior information notice on a buyer profile
+    – general directive
+  nob: >-
+    Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil –
+    Anskaffelsesforskriften
+  history:
+    - name: >-
+        Notice of the publication of a prior information notice on a buyer
+        profile – general directive
+      nob: >-
+        Melding om offentliggjøring av forhåndsmelding på en kjøperprofil –
+        generelt direktiv
+      history: []
+      nob_verify: false
+    - name: >-
+        Notice of the publication of a prior information notice on a buyer
+        profile – general directive
+      nob: '1'
+      history: []
+      nob_verify: true
   nob_verify: false
 2:
-  name: Notice of the publication of a periodic indicative notice on a buyer profile – sectoral directive
-  history: []
+  name: >-
+    Notice of the publication of a periodic indicative notice on a buyer
+    profile – sectoral directive
+  nob: >-
+    Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil –
+    Forsyningsforskriften
+  history:
+    - name: >-
+        Notice of the publication of a periodic indicative notice on a buyer
+        profile – sectoral directive
+      nob: >-
+        Melding om offentliggjøring av en periodisk veiledende melding på en
+        kjøperprofil – sektordirektiv
+      history: []
+      nob_verify: false
+    - name: >-
+        Notice of the publication of a periodic indicative notice on a buyer
+        profile – sectoral directive
+      nob: '2'
+      history: []
+      nob_verify: true
   nob_verify: false
 3:
-  name: Notice of the publication of a prior information notice on a buyer profile – defence directive
-  history: []
+  name: >-
+    Notice of the publication of a prior information notice on a buyer profile
+    – defence directive
+  nob: >-
+    Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil –
+    Forskrift om forsvars- og sikkerhetsanskaffelser
+  history:
+    - name: >-
+        Notice of the publication of a prior information notice on a buyer
+        profile – defence directive
+      nob: >-
+        Melding om offentliggjøring av forhåndsmelding på en kjøperprofil –
+        forsvarsdirektiv
+      history: []
+      nob_verify: false
+    - name: >-
+        Notice of the publication of a prior information notice on a buyer
+        profile – defence directive
+      nob: '3'
+      history: []
+      nob_verify: true
   nob_verify: false
