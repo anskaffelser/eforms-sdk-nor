@@ -5,7 +5,7 @@
     Notice of the publication of a prior information notice on a buyer profile
     – general directive
   nob: >-
-    Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil – 
+    Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil –
     Anskaffelsesforskriften
   history:
     - name: >-
@@ -139,7 +139,7 @@
         Prior information notice used as a call for competition – concessions
         directive, light regime
       nob: >-
-        Forhåndsvarsel brukt som oppfordring til konkurranse – 
+        Forhåndsvarsel brukt som oppfordring til konkurranse –
         konsesjonsdirektivet, forenklet regime
       history: []
       nob_verify: false
@@ -404,20 +404,20 @@
     Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil –
     Forskrift om forsvars- og sikkerhetsanskaffelser
   history:
-  - name: >-
-      Notice of the publication of a prior information notice on a buyer profile
-      – defence directive
-    nob: >-
-      Melding om offentliggjøring av forhåndsmelding på en kjøperprofil –
-      forsvarsdirektiv
-    history: []
-    nob_verify: false
-  - name: >-
-      Notice of the publication of a prior information notice on a buyer\
-      profile – defence directive
-    nob: '3'
-    history: []
-    nob_verify: true
+    - name: >-
+        Notice of the publication of a prior information notice on a buyer
+        profile – defence directive
+      nob: >-
+        Melding om offentliggjøring av forhåndsmelding på en kjøperprofil –
+        forsvarsdirektiv
+      history: []
+      nob_verify: false
+    - name: >-
+        Notice of the publication of a prior information notice on a buyer
+        profile – defence directive
+      nob: '3'
+      history: []
+      nob_verify: true
   nob_verify: false
 30:
   name: 'Contract award notice – sectoral directive, standard regime'
@@ -838,8 +838,8 @@ X02:
   name: 'X02'
   nob: 'Det europeiske selskap / European Cooperative Society'
   history:
-  - name: 'European Company / European Cooperative Society'
-    nob: 'X02'
-    history: []
-    nob_verify: true
+    - name: 'European Company / European Cooperative Society'
+      nob: 'X02'
+      history: []
+      nob_verify: true
   nob_verify: true
