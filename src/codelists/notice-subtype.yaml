@@ -721,10 +721,10 @@ CEI:
   name: 'CEI'
   nob: 'Oppfordring til å uttrykke interesse'
   history:
-  - name: 'Call for expressions of interest'
-    nob: 'CEI'
-    history: []
-    nob_verify: true
+    - name: 'Call for expressions of interest'
+      nob: 'CEI'
+      history: []
+      nob_verify: true
   nob_verify: true
 E1:
   name: 'E1'
