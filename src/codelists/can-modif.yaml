@@ -1,3 +1,5 @@
+%YAML 1.2
+---
 38:
   name: 'Contract modification notice – general directive'
   nob: >-
@@ -8,7 +10,7 @@
       history: []
       nob_verify: false
     - name: 'Contract modification notice – general directive'
-      nob: 38
+      nob: '38'
       history: []
       nob_verify: true
   nob_verify: false
@@ -22,7 +24,7 @@
       history: []
       nob_verify: false
     - name: 'Contract modification notice – sectoral directive'
-      nob: 39
+      nob: '39'
       history: []
       nob_verify: true
   nob_verify: false
@@ -37,7 +39,7 @@
       history: []
       nob_verify: false
     - name: 'Contract modification notice – concessions directive'
-      nob: 40
+      nob: '40'
       history: []
       nob_verify: true
   nob_verify: false
