@@ -128,21 +128,35 @@
       nob_verify: true
   nob_verify: false
 14:
-  name: 'Prior information notice used as a call for competition – concessions directive, light regime'
-  nob: 'Forhåndskunngjøring (Helse- og sosialtjenester og særlige tjenester) – Konsesjonskontraktforskriften'
+  name: >-
+    Prior information notice used as a call for competition – concessions
+    directive, light regime
+  nob: >-
+    Forhåndskunngjøring (Helse- og sosialtjenester og særlige tjenester) –
+    Konsesjonskontraktforskriften
   history:
-  - name: 'Prior information notice used as a call for competition – concessions directive, light regime'
-    nob: 'Forhåndsvarsel brukt som oppfordring til konkurranse – konsesjonsdirektivet, forenklet regime'
-    history: []
-    nob_verify: false
-  - name: 'Prior information notice used as a call for competition – concessions directive, light regime'
-    nob: 'Forhåndsvarsel brukt som oppfordring til konkurranse – konsesjonsdirektivet, lysregimet'
-    history: []
-    nob_verify: false
-  - name: 'Prior information notice used as a call for competition – concessions directive, light regime'
-    nob: 14
-    history: []
-    nob_verify: true
+    - name: >-
+        Prior information notice used as a call for competition – concessions
+        directive, light regime
+      nob: >-
+        Forhåndsvarsel brukt som oppfordring til konkurranse – 
+        konsesjonsdirektivet, forenklet regime
+      history: []
+      nob_verify: false
+    - name: >-
+        Prior information notice used as a call for competition – concessions
+        directive, light regime
+      nob: >-
+        Forhåndsvarsel brukt som oppfordring til konkurranse –
+        konsesjonsdirektivet, lysregimet
+      history: []
+      nob_verify: false
+    - name: >-
+        Prior information notice used as a call for competition – concessions
+        directive, light regime
+      nob: '14'
+      history: []
+      nob_verify: true
   nob_verify: false
 15:
   name: 'Notice on the existence of a qualification system – sectoral directive'
