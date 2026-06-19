@@ -10,6 +10,23 @@ buy-eff:
     Anskaffet bygg og anleggsarbeid, vareleveranser eller tjenesteytelser vil
     sannsynligvis gjøre kjøperens arbeid mer effektivt
 
+# --- RETIRED FROM OP TED CODELIST, KEPT AS HISTORICAL REFERENCE ---
+# TODO: add 'status' flag to schema validation
+fp-requ:
+  name: >-
+    The technical specifications are primarily based on functional and
+    performance requirements, not on describing the technical solution.
+  nob: >-
+    Kravspesifikasjoner er primært basert på funksjonelle og ytelseskrav og ikke
+    en bekrivelse av en teknisk løsning
+  history:
+    - name: >-
+        The technical specifications are primarily based on functional and
+        performance requirements, not on describing the technical solution.
+      history: []
+      nob_verify: false
+  nob_verify: false
+
 mar-nov:
   name: >-
     The procured works, supplies or services are novel or significantly improved
@@ -36,6 +53,29 @@ mar-nov:
 other:
   name: 'Other'
   nob: 'Annet'
+
+
+# --- RETIRED FROM OP TED CODELIST, KEPT AS HISTORICAL REFERENCE ---
+# TODO: add 'status' flag to schema validation
+org-nov:
+  name: >-
+    The procured works, supplies or services are novel for the organisation.
+  nob: >-
+    Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er
+    innovative for virksomheten.
+  history:
+    - name: >-
+        The procured works, supplies or services are novel for the organisation.
+      history: []
+      nob_verify: false
+    - name: >-
+        The procured works, supplies or services are novel for the organisation.
+      nob: >-
+        Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er
+        innovative for organisasjonen
+      history: []
+      nob_verify: false
+  nob_verify: false
 
 proc-innov:
   name: 'The procured works, supplies, or services entail process innovation'
