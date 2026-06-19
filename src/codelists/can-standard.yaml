@@ -1,3 +1,5 @@
+%YAML 1.2
+---
 29:
   name: 'Contract award notice – general directive, standard regime'
   nob: 'Kunngjøring av kontraktsinngåelse – Anskaffelsesforskriften'
@@ -7,7 +9,7 @@
       history: []
       nob_verify: false
     - name: 'Contract award notice – general directive, standard regime'
-      nob: 29
+      nob: '29'
       history: []
       nob_verify: true
   nob_verify: false
@@ -20,20 +22,22 @@
       history: []
       nob_verify: false
     - name: 'Contract award notice – sectoral directive, standard regime'
-      nob: 30
+      nob: '30'
       history: []
       nob_verify: true
   nob_verify: false
 31:
   name: 'Contract award notice – defence directive, standard regime'
-  nob: 'Kunngjøring av kontraktsinngåelse – Forskrift om forsvars- og sikkerhetsanskaffelser'
+  nob: >-
+    Kunngjøring av kontraktsinngåelse – Forskrift om forsvars- og
+    sikkerhetsanskaffelser
   history:
     - name: 'Contract award notice – defence directive, standard regime'
       nob: 'Melding om kontraktstildeling – forsvarsdirektiv, standardregime'
       history: []
       nob_verify: false
     - name: 'Contract award notice – defence directive, standard regime'
-      nob: 31
+      nob: '31'
       history: []
       nob_verify: true
   nob_verify: false
@@ -46,7 +50,7 @@
       history: []
       nob_verify: false
     - name: 'Concession award notice – concession directive, standard regime'
-      nob: 32
+      nob: '32'
       history: []
       nob_verify: true
   nob_verify: false
