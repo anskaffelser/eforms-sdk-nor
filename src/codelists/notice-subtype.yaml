@@ -456,7 +456,7 @@
       history: []
       nob_verify: false
     - name: 'Concession award notice – concession directive, standard regime'
-      nob: 32
+      nob: '32'
       history: []
       nob_verify: true
   nob_verify: false
