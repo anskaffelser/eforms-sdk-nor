@@ -482,8 +482,16 @@ notice|name|37:
     nob_verify: true
   nob_verify: false
 notice|name|38:
-  name: Contract modification notice – general directive
-  nob: Kunngjøring av kontraktsendring - generelt direktiv
+  name: 'Contract modification notice – general directive'
+  nob: >-
+    Kunngjøring av endring i en inngått kontrakt – Anskaffelsesforskriften
+  history:
+  - name: 'Contract modification notice – general directive'
+    nob: 'Melding om endring av kontrakt – generelt direktiv'
+    nob_verify: false
+  - name: 'Contract modification notice – general directive'
+    nob: '38'
+    nob_verify: true
   nob_verify: false
 notice|name|39:
   name: Contract modification notice – sectoral directive
