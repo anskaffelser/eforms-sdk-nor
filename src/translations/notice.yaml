@@ -175,9 +175,17 @@ notice|name|15:
     nob_verify: true
   nob_verify: false
 notice|name|16:
-  name: Contract notice – general directive, standard regime
-  nob: Kunngjøring av konkurranse — generelt direktiv, standard regime
-  history: []
+  name: 'Contract notice – general directive, standard regime'
+  nob: 'Kunngjøring av konkurranse – Anskaffelsesforskriften'
+  history:
+  - name: 'Contract notice – general directive, standard regime'
+    nob: 'Kunngjøring av kontrakt – generelt direktiv, standardregime'
+    history: []
+    nob_verify: false
+  - name: 'Contract notice – general directive, standard regime'
+    nob: '16'
+    history: []
+    nob_verify: true
   nob_verify: false
 notice|name|17:
   name: Contract notice – sectoral directive, standard regime
