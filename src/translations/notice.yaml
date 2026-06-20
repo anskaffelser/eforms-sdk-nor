@@ -630,48 +630,23 @@ notice|name|9:
     nob_verify: true
   nob_verify: false
 notice|name|CEI:
-  name: 'CEI'
+  name: 'Call for expressions of interest'
   nob: 'Oppfordring til å uttrykke interesse'
   history:
   - name: 'Call for expressions of interest'
     nob: 'CEI'
     nob_verify: true
   nob_verify: true
-notice|name|T01:
-  name: Prior information notice for public service contract
-  nob: Forhåndsmelding om kontrakt om offentlig tjeneste
-  history:
-  - name: Prior information notice for public service contract
-    nob_verify: false
-  nob_verify: false
-notice|name|T02:
-  name: Information notice for award of public service contract
-  nob: Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
-  history:
-  - name: Information notice for award of public service contract
-    nob_verify: false
-  nob_verify: false
-notice|name|X01:
-  name: European Economic Interest Grouping
-  nob: Europeisk økonomisk interessegruppering
-  history:
-  - name: European Economic Interest Grouping
-    nob_verify: false
-  nob_verify: false
-notice|name|X02:
-  name: European Company / European Cooperative Society
-  nob: Det europeiske selskap / European Cooperative Society
-  history:
-  - name: European Company / European Cooperative Society
-    nob_verify: false
-  nob_verify: false
 notice|name|E1:
-  name: Voluntary pre-market consultation notice
-  nob: Foreløpig varsel om markedskonsultasjon
+  name: 'Preliminary market consultation notice'
+  nob: >-
+    Kunngjøring av forberedende undersøkelser og dialog med markedet under
+    EØS-terskelverdi
   history:
-  - name: Preliminary market consultation notice
-    nob_verify: false
-  nob_verify: true
+  - name: 'Preliminary market consultation notice'
+    nob: 'Foreløpig varsel om markedskonsultasjon'
+    nob_verify: true
+  nob_verify: false
 notice|name|E2:
   name: Voluntary prior information notice
   nob: Bare varsel om forhåndsinformasjon under terskelen (PIN)
@@ -700,6 +675,36 @@ notice|name|E5:
   - name: Contract completion notice
     nob_verify: false
   nob_verify: true
+notice|name|E6:
+  name: Voluntary contract modification notice
+notice|name|T01:
+  name: Prior information notice for public service contract
+  nob: Forhåndsmelding om kontrakt om offentlig tjeneste
+  history:
+  - name: Prior information notice for public service contract
+    nob_verify: false
+  nob_verify: false
+notice|name|T02:
+  name: Information notice for award of public service contract
+  nob: Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
+  history:
+  - name: Information notice for award of public service contract
+    nob_verify: false
+  nob_verify: false
+notice|name|X01:
+  name: European Economic Interest Grouping
+  nob: Europeisk økonomisk interessegruppering
+  history:
+  - name: European Economic Interest Grouping
+    nob_verify: false
+  nob_verify: false
+notice|name|X02:
+  name: European Company / European Cooperative Society
+  nob: Det europeiske selskap / European Cooperative Society
+  history:
+  - name: European Company / European Cooperative Society
+    nob_verify: false
+  nob_verify: false
 notice|name|N4:
   name: Norwegian prior information notice used only for information
   nob: Nasjonal forhåndskunngjøring
@@ -715,5 +720,3 @@ notice|name|N29:
   nob: Nasjonal kunngjøring av kontraktsinngåelse
   history: []
   nob_verify: false
-notice|name|E6:
-  name: Voluntary contract modification notice
