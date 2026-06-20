@@ -735,4 +735,5 @@ N29:
   - name: 'Norwegian Contract award notice'
     nob: 'Nasjonal kunngjøring av kontraktsinngåelse'
     nob_verify: false
-  nob_verify: false    
+  nob_verify: false 
+
