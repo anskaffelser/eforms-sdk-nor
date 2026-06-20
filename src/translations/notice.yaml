@@ -456,12 +456,30 @@ notice|name|35:
     nob_verify: true
   nob_verify: false
 notice|name|36:
-  name: Design contest result notice – general directive, design
-  nob: Kunngjøring av resultat av plan- og designkonkurranse - generelt direktiv, design
+  name: 'Design contest result notice – general directive, design'
+  nob: >-
+    Resultatkunngjøring for plan- og designkonkurranse –
+    Anskaffelsesforskriften
+  history:
+  - name: 'Design contest result notice – general directive, design'
+    nob: 'Resultatvarsel for designkonkurranse – generelt direktiv, design'
+    nob_verify: false
+  - name: 'Design contest result notice – general directive, design'
+    nob: '36'
+    nob_verify: true
   nob_verify: false
 notice|name|37:
-  name: Design contest result notice – sectoral directive, design
-  nob: Kunngjøring av resultat av plan- og designkonkurranse - sektordirektivet, design
+  name: 'Design contest result notice – sectoral directive, design'
+  nob: >-
+    Resultatkunngjøring for plan- og designkonkurranse –
+    Forsyningsforskriften
+  history:
+  - name: 'Design contest result notice – sectoral directive, design'
+    nob: 'Resultatmelding for designkonkurranse – sektordirektiv, design'
+    nob_verify: false
+  - name: 'Design contest result notice – sectoral directive, design'
+    nob: '37'
+    nob_verify: true
   nob_verify: false
 notice|name|38:
   name: Contract modification notice – general directive
