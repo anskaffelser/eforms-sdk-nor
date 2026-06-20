@@ -421,8 +421,22 @@ notice|name|33:
     nob_verify: true
   nob_verify: false
 notice|name|34:
-  name: Contract award notice – sectoral directive, light regime
-  nob: Kunngjøring av kontraktsinngåelse - sektordirektivet, enkelt regime
+  name: 'Contract award notice – sectoral directive, light regime'
+  nob: >-
+    Kunngjøring av kontraktsinngåelse (Helse- og sosialtjenester og særlige
+    tjenester) – Forsyningsforskriften
+  history:
+  - name: 'Contract award notice – sectoral directive, light regime'
+    nob: >-
+      Kunngjøring av kontraktstildeling – sektordirektiv, forenklet
+      regime
+    nob_verify: false
+  - name: 'Contract award notice – sectoral directive, light regime'
+    nob: 'Kunngjøring av kontraktstildeling – sektordirektiv, lysregime'
+    nob_verify: false
+  - name: 'Contract award notice – sectoral directive, light regime'
+    nob: '34'
+    nob_verify: true
   nob_verify: false
 notice|name|35:
   name: Concession award notice – concessions directive, light regime
