@@ -552,8 +552,19 @@ notice|name|5:
     nob_verify: true
   nob_verify: false
 notice|name|6:
-  name: Prior information notice used only for information – defence directive
-  nob: Forhåndskunngjøring til informasjon - forsvarsdirektivet
+  name: 'Prior information notice used only for information – defence directive'
+  nob: >-
+    Veiledende kunngjøring brukt kun til informasjon – Forskrift om forsvars-
+    og sikkerhetsanskaffelser
+  history:
+  - name: >-
+      Prior information notice used only for information – defence directive
+    nob: 'Forhåndsmelding som kun brukes til informasjon – forsvarsdirektiv'
+    nob_verify: false
+  - name: >-
+      Prior information notice used only for information – defence directive
+    nob: '6'
+    nob_verify: true
   nob_verify: false
 notice|name|7:
   name: Prior information notice used to shorten time limits for receipt of tenders – general directive
