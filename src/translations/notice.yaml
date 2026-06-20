@@ -686,18 +686,21 @@ notice|name|E6:
   - name: 'Voluntary contract modification notice'
   nob_verify: false
 notice|name|T01:
-  name: Prior information notice for public service contract
-  nob: Forhåndsmelding om kontrakt om offentlig tjeneste
+  name: 'Prior information notice for public service contract'
+  nob: 'Veiledende kunngjøring – offentlig persontransport'
   history:
-  - name: Prior information notice for public service contract
-    nob_verify: false
+  - name: 'Prior information notice for public service contract'
+    nob: 'Forhåndsmelding om kontrakt om offentlig tjeneste'
+    nob_verify: true
   nob_verify: false
 notice|name|T02:
-  name: Information notice for award of public service contract
-  nob: Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
+  name: 'Information notice for award of public service contract'
+  nob: 'Kunngjøring av kontraktsinngåelse – offentlig persontransport'
   history:
-  - name: Information notice for award of public service contract
-    nob_verify: false
+  - name: 'Information notice for award of public service contract'
+    nob: >-
+      Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
+    nob_verify: true
   nob_verify: false
 notice|name|X01:
   name: European Economic Interest Grouping
