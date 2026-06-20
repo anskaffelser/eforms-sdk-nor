@@ -380,8 +380,17 @@ notice|name|30:
     nob_verify: true
   nob_verify: false
 notice|name|31:
-  name: Contract award notice – defence directive, standard regime
-  nob: Kunngjøring av kontraktsinngåelse - forsvarsdirektivet, standard regime
+  name: 'Contract award notice – defence directive, standard regime'
+  nob: >-
+    Kunngjøring av kontraktsinngåelse – Forskrift om forsvars- og
+    sikkerhetsanskaffelser
+  history:
+  - name: 'Contract award notice – defence directive, standard regime'
+    nob: 'Melding om kontraktstildeling – forsvarsdirektiv, standardregime'
+    nob_verify: false
+  - name: 'Contract award notice – defence directive, standard regime'
+    nob: '31'
+    nob_verify: true
   nob_verify: false
 notice|name|32:
   name: Concession award notice – concession directive, standard regime
