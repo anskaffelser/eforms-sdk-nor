@@ -609,8 +609,25 @@ notice|name|8:
     nob_verify: true
   nob_verify: false
 notice|name|9:
-  name: Prior information notice used to shorten time limits for receipt of tenders – defence directive
-  nob: Forhåndskunngjøring til å forkorte tilbudsfrist - forsvarsdirektivet
+  name: >-
+    Prior information notice used to shorten time limits for receipt of tenders
+    – defence directive
+  nob: >-
+    Veiledende kunngjøring for å forkorte tilbudsfristen – Forskrift om
+    forsvars- og sikkerhetsanskaffelser
+  history:
+  - name: >-
+      Prior information notice used to shorten time limits for receipt of
+      tenders – defence directive
+    nob: >-
+      Forhåndsmelding om forkortede frister for mottak av anbud –
+      forsvarsdirektiv
+    nob_verify: false
+  - name: >-
+      Prior information notice used to shorten time limits for receipt of
+      tenders – defence directive
+    nob: '9'
+    nob_verify: true
   nob_verify: false
 notice|name|CEI:
   name: Call for expressions of interest
