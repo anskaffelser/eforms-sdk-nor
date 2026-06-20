@@ -588,8 +588,25 @@ notice|name|7:
     nob_verify: true
   nob_verify: false
 notice|name|8:
-  name: Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive
-  nob: Periodisk veiledende kunngjøring til å forkorte tilbudsfrit - sektordrektivet
+  name: >-
+    Periodic indicative notice used to shorten time limits for receipt of
+    tenders – sectoral directive
+  nob: >-
+    Veiledende kunngjøring for å forkorte tilbudsfristen –
+    Forsyningsforskriften
+  history:
+  - name: >-
+      Periodic indicative notice used to shorten time limits for receipt of
+      tenders – sectoral directive
+    nob: >-
+      Periodisk veiledende melding for å forkorte fristene for mottak av
+      anbud – sektordirektiv
+    nob_verify: false
+  - name: >-
+      Periodic indicative notice used to shorten time limits for receipt of
+      tenders – sectoral directive
+    nob: '8'
+    nob_verify: true
   nob_verify: false
 notice|name|9:
   name: Prior information notice used to shorten time limits for receipt of tenders – defence directive
