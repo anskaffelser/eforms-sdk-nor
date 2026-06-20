@@ -393,8 +393,15 @@ notice|name|31:
     nob_verify: true
   nob_verify: false
 notice|name|32:
-  name: Concession award notice – concession directive, standard regime
-  nob: Kunngjøring av konsesjonskontraktsinngåelse - konsesjonsdirektivet, standard regime
+  name: 'Concession award notice – concession directive, standard regime'
+  nob: 'Kunngjøring av kontraktsinngåelse – Konsesjonskontraktforskriften'
+  history:
+  - name: 'Concession award notice – concession directive, standard regime'
+    nob: 'Varsel om konsesjonstildeling – konsesjonsdirektiv, standardregime'
+    nob_verify: false
+  - name: 'Concession award notice – concession directive, standard regime'
+    nob: '32'
+    nob_verify: true
   nob_verify: false
 notice|name|33:
   name: Contract award notice – general directive, light regime
