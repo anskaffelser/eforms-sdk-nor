@@ -303,8 +303,15 @@ notice|name|25:
     nob_verify: true
   nob_verify: false
 notice|name|26:
-  name: Voluntary ex-ante transparency notice – sectoral directive
-  nob: Intensjonskunngjøring - sektordirektivet
+  name: 'Voluntary ex-ante transparency notice – sectoral directive'
+  nob: 'Intensjonskunngjøring – Forsyningsforskriften'
+  history:
+  - name: 'Voluntary ex-ante transparency notice – sectoral directive'
+    nob: 'Frivillig ex ante åpenhetsmelding – sektordirektiv'
+    nob_verify: false
+  - name: 'Voluntary ex-ante transparency notice – sectoral directive'
+    nob: '26'
+    nob_verify: true
   nob_verify: false
 notice|name|27:
   name: Voluntary ex-ante transparency notice – defence directive
