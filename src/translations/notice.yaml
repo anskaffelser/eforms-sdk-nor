@@ -439,8 +439,21 @@ notice|name|34:
     nob_verify: true
   nob_verify: false
 notice|name|35:
-  name: Concession award notice – concessions directive, light regime
-  nob: Kunngjøring av konsesjonskontraktsinngåelse - konsesjonsdirektivet, enkelt regime
+  name: 'Concession award notice – concessions directive, light regime'
+  nob: >-
+    Kunngjøring av kontraktsinngåelse (Helse- og sosialtjenester og særlige
+    tjenester) – Konsesjonskontraktforskriften
+  history:
+  - name: 'Concession award notice – concessions directive, light regime'
+    nob: >-
+      Varsel om konsesjonstildeling – konsesjonsdirektiv, forenklet regime
+    nob_verify: false
+  - name: 'Concession award notice – concessions directive, light regime'
+    nob: 'Varsel om konsesjonstildeling – konsesjonsdirektiv, lysregime'
+    nob_verify: false
+  - name: 'Concession award notice – concessions directive, light regime'
+    nob: '35'
+    nob_verify: true
   nob_verify: false
 notice|name|36:
   name: Design contest result notice – general directive, design
