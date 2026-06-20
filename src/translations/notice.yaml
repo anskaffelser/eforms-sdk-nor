@@ -314,8 +314,16 @@ notice|name|26:
     nob_verify: true
   nob_verify: false
 notice|name|27:
-  name: Voluntary ex-ante transparency notice – defence directive
-  nob: Intensjonskunngjøring - forsvarsdirektivet
+  name: 'Voluntary ex-ante transparency notice – defence directive'
+  nob: >-
+    Intensjonskunngjøring – Forskrift om forsvars- og sikkerhetsanskaffelser
+  history:
+  - name: 'Voluntary ex-ante transparency notice – defence directive'
+    nob: 'Frivillig ex ante åpenhetsvarsel – forsvarsdirektiv'
+    nob_verify: false
+  - name: 'Voluntary ex-ante transparency notice – defence directive'
+    nob: '27'
+    nob_verify: true
   nob_verify: false
 notice|name|28:
   name: Voluntary ex-ante transparency notice – concession directive
