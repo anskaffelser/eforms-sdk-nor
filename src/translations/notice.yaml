@@ -494,8 +494,16 @@ notice|name|38:
     nob_verify: true
   nob_verify: false
 notice|name|39:
-  name: Contract modification notice – sectoral directive
-  nob: Kunngjøring av kontraktsendring - sektordirektivet
+  name: 'Contract modification notice – sectoral directive'
+  nob: >-
+    Kunngjøring av endring i en inngått kontrakt – Forsyningsforskriften
+  history:
+  - name: 'Contract modification notice – sectoral directive'
+    nob: 'Kunngjøring om endring av kontrakt – sektordirektiv'
+    nob_verify: false
+  - name: 'Contract modification notice – sectoral directive'
+    nob: '39'
+    nob_verify: true
   nob_verify: false
 notice|name|4:
   name: Prior information notice used only for information – general directive
