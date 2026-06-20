@@ -5,8 +5,12 @@ Generate subset codelist YAML files from a master YAML file.
 The script reads a TOML manifest that defines:
 - paths.master_file
 - paths.output_dir
+- paths.key_prefix        (optional, e.g. "notice|name|")
 - subsets.<name>.file
 - subsets.<name>.keys
+
+Keys in the TOML are always bare codes matching the master file.
+The key_prefix, if set, is applied only to the output file keys.
 
 Usage:
     uv run bin/distribute-codelist-subsets.py path/to/distribution-manifest.toml
@@ -152,6 +156,27 @@ def validate_complete_subset(
         )
 
 
+def find_repo_root(start: Path) -> Path | None:
+    """Walk up from start looking for a .git directory."""
+    for parent in [start, *start.parents]:
+        if (parent / ".git").exists():
+            return parent
+    return None
+
+
+def repo_relative(path: Path, repo_root: Path | None) -> str:
+    """
+    Return path relative to repo_root using forward slashes.
+    Falls back to the bare filename if repo_root is None or path is outside the repo.
+    """
+    if repo_root is None:
+        return path.name
+    try:
+        return path.relative_to(repo_root).as_posix()
+    except ValueError:
+        return path.name
+
+
 def build_generated_file_header(
     *,
     license_config: dict[str, Any],
@@ -205,18 +230,32 @@ def build_generated_file_header(
     lines.extend(
         [
             f"This file is generated from '{source_file}'.",
-            f"Do not edit manually. Update '{manifest_file}' instead.",
+             "Do not edit manually.",
+            f"Update '{manifest_file}' instead.",
         ]
     )
 
     return "\n".join(lines)
 
-    
+
+def make_output_key(original_key: Any, key_prefix: str) -> Any:
+    """
+    Return the output key for a CommentedMap entry.
+    Without a prefix, the original key object is preserved so ruamel.yaml
+    serializes it with its original type (e.g. integer 15, not string '15').
+    With a prefix, the result is always a string (e.g. 'notice|name|15').
+    """
+    if not key_prefix:
+        return original_key
+    return f"{key_prefix}{original_key}"
+
+
 def main() -> int:
     args = parse_args()
 
     manifest_path = args.manifest.resolve()
     manifest_dir = manifest_path.parent
+    repo_root = find_repo_root(manifest_path)
 
     manifest = load_toml(manifest_path)
 
@@ -225,13 +264,19 @@ def main() -> int:
     master_file = require_string(paths.get("master_file"), "paths.master_file")
     output_dir = require_string(paths.get("output_dir", "."), "paths.output_dir")
 
+    # Optional prefix applied to all output keys. Bare codes in the TOML always
+    # match the master file; the prefix is a pure output transformation.
+    key_prefix: str = optional_string(paths.get("key_prefix"), "paths.key_prefix") or ""
+
     subsets = require_mapping(manifest.get("subsets"), "subsets")
     license_config = require_mapping(manifest.get("license", {}), "license")
     validation = require_mapping(manifest.get("validation", {}), "validation")
-    validation = require_mapping(manifest.get("validation", {}), "validation")
 
-    master_path = manifest_dir / master_file
+    master_path = (manifest_dir / master_file).resolve()
     output_base = manifest_dir / output_dir
+
+    master_file_display = repo_relative(master_path, repo_root)
+    manifest_file_display = repo_relative(manifest_path, repo_root)
 
     yaml = YAML()
     yaml.version = (1, 2)
@@ -244,7 +289,6 @@ def main() -> int:
     if not isinstance(master, dict):
         raise SystemExit(f"ERROR: Expected master YAML to be a mapping: {master_path}")
 
-    
     master_key_by_string = {str(key): key for key in master.keys()}
 
     validate_complete_subset(
@@ -270,12 +314,12 @@ def main() -> int:
 
         requested_keys = [str(key) for key in raw_keys]
         output_path = output_base / filename
-        
+
         unknown_keys = [
             key for key in requested_keys
             if key not in master_key_by_string
         ]
-        
+
         if unknown_keys:
             had_errors = True
             print(
@@ -283,10 +327,10 @@ def main() -> int:
                 file=sys.stderr,
             )
             continue
-        
+
         updated = CommentedMap(
             (
-                master_key_by_string[key],
+                make_output_key(master_key_by_string[key], key_prefix),
                 master[master_key_by_string[key]],
             )
             for key in requested_keys
@@ -295,8 +339,8 @@ def main() -> int:
         updated.yaml_set_start_comment(
             build_generated_file_header(
                 license_config=license_config,
-                source_file=master_file,
-                manifest_file=manifest_path.name,
+                source_file=master_file_display,
+                manifest_file=manifest_file_display,
             )
         )
 

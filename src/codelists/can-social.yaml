@@ -7,8 +7,9 @@
 # License-URL: https://creativecommons.org/licenses/by/4.0/
 # Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
 #
-# This file is generated from 'notice-subtype.yaml'.
-# Do not edit manually. Update 'notice-subtype-distribution-manifest.toml' instead.
+# This file is generated from 'src/codelists/notice-subtype.yaml'.
+# Do not edit manually.
+# Update 'src/codelists/notice-subtype-distribution-manifest.toml' instead.
 33:
   name: 'Contract award notice – general directive, light regime'
   nob: >-

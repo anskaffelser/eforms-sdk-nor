@@ -1,0 +1,46 @@
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# Manifest for generating notice translation YAML files.
+#
+# Paths are resolved relative to this TOML file, not necessarily
+# relative to the directory where the script is run.
+#
+# Source codelist: notice-subtype.yaml
+
+[license]
+spdx = "CC-BY-4.0"
+name = "Creative Commons Attribution 4.0 International"
+url = "https://creativecommons.org/licenses/by/4.0/"
+attribution = "The Norwegian Agency for Finance and Public Management (DFØ)"
+
+[paths]
+master_file = "../codelists/notice-subtype.yaml"
+output_dir = "."
+key_prefix = "notice|name|"
+
+[subsets.all]
+file = "notice.yaml"
+keys = [1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+        2, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+		3, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+		4, 40,
+		5,
+		6,
+		7,
+		8,
+		9,
+		"CEI",
+		"E1", "E2", "E3", "E4", "E5", "E6",
+		"T01", "T02", 
+		"X01", "X02",
+        "N4", "N16", "N29"
+		]
+
+[validation]
+require_complete_subset = true
+complete_subset = "all"
