@@ -216,9 +216,16 @@ notice|name|18:
     nob_verify: true
   nob_verify: false
 notice|name|19:
-  name: Concession notice – concessions directive, standard regime
-  nob: Konsesjonskunngjøring — konsesjonsdirektiv, standardregime
-  history: []
+  name: 'Concession notice – concessions directive, standard regime'
+  nob: 'Kunngjøring av konsesjon – Konsesjonskontraktforskriften'
+  history:
+  - name: 'Concession notice – concessions directive, standard regime'
+    nob: 'Konsesjonsmelding – konsesjonsdirektivet, standardregime'
+    nob_verify: false
+  - name: 'Concession notice – concessions directive, standard regime'
+    nob: '19'
+    history: []
+    nob_verify: true
   nob_verify: false
 notice|name|2:
   name: Notice of the publication of a periodic indicative notice on a buyer profile – sectoral directive
