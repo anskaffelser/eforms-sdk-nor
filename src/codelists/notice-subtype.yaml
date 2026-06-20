@@ -643,11 +643,8 @@ E1:
     Kunngjøring av forberedende undersøkelser og dialog med markedet under
     EØS-terskelverdi
   history:
-  - name: 'E1'
-    nob: 'Foreløpig varsel om markedskonsultasjon'
-    nob_verify: true
   - name: 'Preliminary market consultation notice'
-    nob: 'E1'
+    nob: 'Foreløpig varsel om markedskonsultasjon'
     nob_verify: true
   nob_verify: false
 E2:
