@@ -15,9 +15,11 @@
   history:
   - name: 'Voluntary ex-ante transparency notice – general directive'
     nob: 'Frivillig ex ante åpenhetserklæring – generelt direktiv'
+    history: []
     nob_verify: false
   - name: 'Voluntary ex-ante transparency notice – general directive'
     nob: '25'
+    history: []
     nob_verify: true
   nob_verify: false
 26:
@@ -26,9 +28,11 @@
   history:
   - name: 'Voluntary ex-ante transparency notice – sectoral directive'
     nob: 'Frivillig ex ante åpenhetsmelding – sektordirektiv'
+    history: []
     nob_verify: false
   - name: 'Voluntary ex-ante transparency notice – sectoral directive'
     nob: '26'
+    history: []
     nob_verify: true
   nob_verify: false
 27:
@@ -38,9 +42,11 @@
   history:
   - name: 'Voluntary ex-ante transparency notice – defence directive'
     nob: 'Frivillig ex ante åpenhetsvarsel – forsvarsdirektiv'
+    history: []
     nob_verify: false
   - name: 'Voluntary ex-ante transparency notice – defence directive'
     nob: '27'
+    history: []
     nob_verify: true
   nob_verify: false
 28:
@@ -49,8 +55,10 @@
   history:
   - name: 'Voluntary ex-ante transparency notice – concession directive'
     nob: 'Frivillig ex ante åpenhetsmelding – konsesjonsdirektiv'
+    history: []
     nob_verify: false
   - name: 'Voluntary ex-ante transparency notice – concession directive'
     nob: '28'
+    history: []
     nob_verify: true
   nob_verify: false

@@ -9,12 +9,19 @@
 #
 # This file is generated from 'notice-subtype.yaml'.
 # Do not edit manually. Update 'notice-subtype-distribution-manifest.toml' instead.
-T02:
-  name: 'Information notice for award of public service contract'
-  nob: 'Kunngjøring av kontraktsinngåelse – offentlig persontransport'
+15:
+  name: 'Notice on the existence of a qualification system – sectoral directive'
+  nob: 'Kunngjøring av en kvalifikasjonsordning – Forsyningsforskriften'
   history:
-  - name: 'Information notice for award of public service contract'
-    nob: >-
-      Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
+  - name: >-
+      Notice on the existence of a qualification system – sectoral directive
+    nob: 'Melding om eksistens av kvalifikasjonssystem – sektordirektiv'
+    history: []
+    nob_verify: false
+  - name: >-
+      Notice on the existence of a qualification system – sectoral
+      directive
+    nob: '15'
+    history: []
     nob_verify: true
   nob_verify: false

@@ -23,6 +23,7 @@
     nob: >-
       Forhåndsmelding brukt som oppfordring til konkurranse – generelt
       direktiv, forenklet regime
+    history: []
     nob_verify: false
   - name: >-
       Prior information notice used as a call for competition – general
@@ -30,11 +31,13 @@
     nob: >-
       Forhåndsmelding brukt som oppfordring til konkurranse – generelt
       direktiv, lysregime
+    history: []
     nob_verify: false
   - name: >-
       Prior information notice used as a call for competition – general
       directive, light regime
     nob: '12'
+    history: []
     nob_verify: true
   nob_verify: false
 13:
@@ -51,6 +54,7 @@
     nob: >-
       Periodisk veiledende melding brukt som oppfordring til konkurranse –
       sektordirektiv, forenklet regime
+    history: []
     nob_verify: false
   - name: >-
       Periodic indicative notice used as a call for competition – sectoral
@@ -58,11 +62,13 @@
     nob: >-
       Periodisk veiledende melding brukt som oppfordring til konkurranse –
       sektordirektiv, lysregime
+    history: []
     nob_verify: false
   - name: >-
       Periodic indicative notice used as a call for competition – sectoral
       directive, light regime
     nob: '13'
+    history: []
     nob_verify: true
   nob_verify: false
 14:
@@ -79,6 +85,7 @@
     nob: >-
       Forhåndsvarsel brukt som oppfordring til konkurranse –
       konsesjonsdirektivet, forenklet regime
+    history: []
     nob_verify: false
   - name: >-
       Prior information notice used as a call for competition – concessions
@@ -86,10 +93,12 @@
     nob: >-
       Forhåndsvarsel brukt som oppfordring til konkurranse –
       konsesjonsdirektivet, lysregimet
+    history: []
     nob_verify: false
   - name: >-
       Prior information notice used as a call for competition – concessions
       directive, light regime
     nob: '14'
+    history: []
     nob_verify: true
   nob_verify: false

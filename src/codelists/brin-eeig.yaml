@@ -15,6 +15,5 @@ X01:
   history:
   - name: 'European Economic Interest Grouping'
     nob: 'X01'
-    history: []
     nob_verify: true
   nob_verify: true

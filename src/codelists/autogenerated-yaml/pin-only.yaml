@@ -17,10 +17,12 @@
   - name: >-
       Prior information notice used only for information – general directive
     nob: 'Forhåndsvarsel brukes kun til informasjon – generelt direktiv'
+    history: []
     nob_verify: false
   - name: >-
       Prior information notice used only for information – general directive
     nob: '4'
+    history: []
     nob_verify: true
   nob_verify: false
 5:
@@ -35,11 +37,13 @@
     nob: >-
       Periodisk veiledende melding som bare brukes til informasjon –
       sektordirektiv
+    history: []
     nob_verify: false
   - name: >-
       Periodic indicative notice used only for information – sectoral
       directive
     nob: '5'
+    history: []
     nob_verify: true
   nob_verify: false
 6:
@@ -51,17 +55,24 @@
   - name: >-
       Prior information notice used only for information – defence directive
     nob: 'Forhåndsmelding som kun brukes til informasjon – forsvarsdirektiv'
+    history: []
     nob_verify: false
   - name: >-
       Prior information notice used only for information – defence directive
     nob: '6'
+    history: []
     nob_verify: true
   nob_verify: false
 E2:
-  name: 'Voluntary prior information notice'
+  name: 'E2'
   nob: 'Veiledende kunngjøring under EØS-terskelverdi'
   history:
-  - name: 'Below threshold prior information notice (PIN) only'
+  - name: 'E2'
     nob: 'Bare varsel om forhåndsinformasjon under terskelen (PIN)'
+    history: []
+    nob_verify: true
+  - name: 'Below threshold prior information notice (PIN) only'
+    nob: 'E2'
+    history: []
     nob_verify: true
   nob_verify: false

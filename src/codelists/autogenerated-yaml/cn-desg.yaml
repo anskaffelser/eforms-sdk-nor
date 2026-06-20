@@ -15,9 +15,11 @@
   history:
   - name: 'Design contest notice – general directive, design'
     nob: 'Varsel om designkonkurranse – generelt direktiv, design'
+    history: []
     nob_verify: false
   - name: 'Design contest notice – general directive, design'
     nob: '23'
+    history: []
     nob_verify: true
   nob_verify: false
 24:
@@ -26,8 +28,10 @@
   history:
   - name: 'Design contest notice – sectoral directive, design'
     nob: 'Melding om designkonkurranse – sektordirektiv, design'
+    history: []
     nob_verify: false
   - name: 'Design contest notice – sectoral directive, design'
     nob: '24'
+    history: []
     nob_verify: true
   nob_verify: false

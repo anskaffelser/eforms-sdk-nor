@@ -15,9 +15,11 @@
   history:
   - name: 'Contract notice – general directive, standard regime'
     nob: 'Kunngjøring av kontrakt – generelt direktiv, standardregime'
+    history: []
     nob_verify: false
   - name: 'Contract notice – general directive, standard regime'
     nob: '16'
+    history: []
     nob_verify: true
   nob_verify: false
 17:
@@ -26,9 +28,11 @@
   history:
   - name: 'Contract notice – sectoral directive, standard regime'
     nob: 'Kunngjøring av kontrakt – sektordirektiv, standardregime'
+    history: []
     nob_verify: false
   - name: 'Contract notice – sectoral directive, standard regime'
     nob: '17'
+    history: []
     nob_verify: true
   nob_verify: false
 18:
@@ -39,9 +43,11 @@
   history:
   - name: 'Contract notice – defence directive, standard regime'
     nob: 'Kunngjøring av kontrakt – forsvarsdirektiv, standardregime'
+    history: []
     nob_verify: false
   - name: 'Contract notice – defence directive, standard regime'
     nob: '18'
+    history: []
     nob_verify: true
   nob_verify: false
 19:
@@ -50,16 +56,23 @@
   history:
   - name: 'Concession notice – concessions directive, standard regime'
     nob: 'Konsesjonsmelding – konsesjonsdirektivet, standardregime'
+    history: []
     nob_verify: false
   - name: 'Concession notice – concessions directive, standard regime'
     nob: '19'
+    history: []
     nob_verify: true
   nob_verify: false
 E3:
-  name: 'Voluntary contract notice'
+  name: 'E3'
   nob: 'Kunngjøring av konkurranse under EØS-terskelverdi'
   history:
-  - name: 'Below threshold contract notice (CN) general'
+  - name: 'E3'
     nob: 'Generelt under terskelvarsel om kontrakt (CN)'
+    history: []
+    nob_verify: true
+  - name: 'Below threshold contract notice (CN) general'
+    nob: 'E3'
+    history: []
     nob_verify: true
   nob_verify: false

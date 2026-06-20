@@ -23,11 +23,13 @@
     nob: >-
       Melding om offentliggjøring av forhåndsmelding på en kjøperprofil –
       generelt direktiv
+    history: []
     nob_verify: false
   - name: >-
       Notice of the publication of a prior information notice on a buyer
       profile – general directive
     nob: '1'
+    history: []
     nob_verify: true
   nob_verify: false
 2:
@@ -44,11 +46,13 @@
     nob: >-
       Melding om offentliggjøring av en periodisk veiledende melding på en
       kjøperprofil – sektordirektiv
+    history: []
     nob_verify: false
   - name: >-
       Notice of the publication of a periodic indicative notice on a buyer
       profile – sectoral directive
     nob: '2'
+    history: []
     nob_verify: true
   nob_verify: false
 3:
@@ -65,10 +69,12 @@
     nob: >-
       Melding om offentliggjøring av forhåndsmelding på en kjøperprofil –
       forsvarsdirektiv
+    history: []
     nob_verify: false
   - name: >-
       Notice of the publication of a prior information notice on a buyer
       profile – defence directive
     nob: '3'
+    history: []
     nob_verify: true
   nob_verify: false

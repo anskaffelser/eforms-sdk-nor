@@ -16,9 +16,11 @@
   history:
   - name: 'Contract modification notice – general directive'
     nob: 'Melding om endring av kontrakt – generelt direktiv'
+    history: []
     nob_verify: false
   - name: 'Contract modification notice – general directive'
     nob: '38'
+    history: []
     nob_verify: true
   nob_verify: false
 39:
@@ -28,9 +30,11 @@
   history:
   - name: 'Contract modification notice – sectoral directive'
     nob: 'Kunngjøring om endring av kontrakt – sektordirektiv'
+    history: []
     nob_verify: false
   - name: 'Contract modification notice – sectoral directive'
     nob: '39'
+    history: []
     nob_verify: true
   nob_verify: false
 40:
@@ -41,8 +45,10 @@
   history:
   - name: 'Contract modification notice – concessions directive'
     nob: 'Kunngjøring om endring av kontrakt – konsesjonsdirektivet'
+    history: []
     nob_verify: false
   - name: 'Contract modification notice – concessions directive'
     nob: '40'
+    history: []
     nob_verify: true
   nob_verify: false

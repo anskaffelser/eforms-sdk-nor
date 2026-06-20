@@ -17,10 +17,8 @@
   history:
   - name: 'Subcontract notice – defence directive'
     nob: 'Varsel om underkontrakt – forsvarsdirektiv'
-    history: []
     nob_verify: false
   - name: 'Subcontract notice – defence directive'
     nob: '22'
-    history: []
     nob_verify: true
   nob_verify: false

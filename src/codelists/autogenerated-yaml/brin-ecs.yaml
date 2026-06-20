@@ -9,12 +9,12 @@
 #
 # This file is generated from 'notice-subtype.yaml'.
 # Do not edit manually. Update 'notice-subtype-distribution-manifest.toml' instead.
-T02:
-  name: 'Information notice for award of public service contract'
-  nob: 'Kunngjøring av kontraktsinngåelse – offentlig persontransport'
+X02:
+  name: 'European Company / European Cooperative Society'
+  nob: 'Det europeiske selskap / European Cooperative Society'
   history:
-  - name: 'Information notice for award of public service contract'
-    nob: >-
-      Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
+  - name: 'European Company / European Cooperative Society'
+    nob: 'X02'
+    history: []
     nob_verify: true
-  nob_verify: false
+  nob_verify: true

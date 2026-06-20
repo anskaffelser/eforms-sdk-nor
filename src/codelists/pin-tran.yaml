@@ -10,15 +10,10 @@
 # This file is generated from 'notice-subtype.yaml'.
 # Do not edit manually. Update 'notice-subtype-distribution-manifest.toml' instead.
 T01:
-  name: 'T01'
+  name: 'Prior information notice for public service contract'
   nob: 'Veiledende kunngjøring – offentlig persontransport'
   history:
-  - name: 'T01'
-    nob: 'Forhåndsmelding om kontrakt om offentlig tjeneste'
-    history: []
-    nob_verify: true
   - name: 'Prior information notice for public service contract'
-    nob: 'T01'
-    history: []
+    nob: 'Forhåndsmelding om kontrakt om offentlig tjeneste'
     nob_verify: true
-  nob_verify: true
+  nob_verify: false

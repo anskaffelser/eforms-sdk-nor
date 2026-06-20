@@ -9,12 +9,18 @@
 #
 # This file is generated from 'notice-subtype.yaml'.
 # Do not edit manually. Update 'notice-subtype-distribution-manifest.toml' instead.
-T02:
-  name: 'Information notice for award of public service contract'
-  nob: 'Kunngjøring av kontraktsinngåelse – offentlig persontransport'
+22:
+  name: 'Subcontract notice – defence directive'
+  nob: >-
+    Kunngjøring av underleverandørkontrakt – Forskrift om forsvars- og
+    sikkerhetsanskaffelser
   history:
-  - name: 'Information notice for award of public service contract'
-    nob: >-
-      Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
+  - name: 'Subcontract notice – defence directive'
+    nob: 'Varsel om underkontrakt – forsvarsdirektiv'
+    history: []
+    nob_verify: false
+  - name: 'Subcontract notice – defence directive'
+    nob: '22'
+    history: []
     nob_verify: true
   nob_verify: false

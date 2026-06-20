@@ -15,6 +15,5 @@ X02:
   history:
   - name: 'European Company / European Cooperative Society'
     nob: 'X02'
-    history: []
     nob_verify: true
   nob_verify: true

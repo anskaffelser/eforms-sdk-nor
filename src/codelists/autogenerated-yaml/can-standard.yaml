@@ -15,9 +15,11 @@
   history:
   - name: 'Contract award notice – general directive, standard regime'
     nob: 'Melding om kontraktstildeling – generelt direktiv, standardregime'
+    history: []
     nob_verify: false
   - name: 'Contract award notice – general directive, standard regime'
     nob: '29'
+    history: []
     nob_verify: true
   nob_verify: false
 30:
@@ -26,9 +28,11 @@
   history:
   - name: 'Contract award notice – sectoral directive, standard regime'
     nob: 'Kunngjøring av kontraktstildeling – sektordirektiv, standardregime'
+    history: []
     nob_verify: false
   - name: 'Contract award notice – sectoral directive, standard regime'
     nob: '30'
+    history: []
     nob_verify: true
   nob_verify: false
 31:
@@ -39,9 +43,11 @@
   history:
   - name: 'Contract award notice – defence directive, standard regime'
     nob: 'Melding om kontraktstildeling – forsvarsdirektiv, standardregime'
+    history: []
     nob_verify: false
   - name: 'Contract award notice – defence directive, standard regime'
     nob: '31'
+    history: []
     nob_verify: true
   nob_verify: false
 32:
@@ -50,16 +56,23 @@
   history:
   - name: 'Concession award notice – concession directive, standard regime'
     nob: 'Varsel om konsesjonstildeling – konsesjonsdirektiv, standardregime'
+    history: []
     nob_verify: false
   - name: 'Concession award notice – concession directive, standard regime'
     nob: '32'
+    history: []
     nob_verify: true
   nob_verify: false
 E4:
-  name: 'Voluntary award notice'
+  name: 'E4'
   nob: 'Kunngjøring av kontraktsinngåelse under EØS-terskelverdi'
   history:
-  - name: 'Below threshold contract award notice (CAN) general'
+  - name: 'E4'
     nob: 'Varsel om kontraktstildeling under terskelen (CAN) generelt'
+    history: []
+    nob_verify: true
+  - name: 'Below threshold contract award notice (CAN) general'
+    nob: 'E4'
+    history: []
     nob_verify: true
   nob_verify: false

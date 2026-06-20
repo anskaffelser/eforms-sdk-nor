@@ -16,12 +16,10 @@
   - name: >-
       Notice on the existence of a qualification system – sectoral directive
     nob: 'Melding om eksistens av kvalifikasjonssystem – sektordirektiv'
-    history: []
     nob_verify: false
   - name: >-
       Notice on the existence of a qualification system – sectoral
       directive
     nob: '15'
-    history: []
     nob_verify: true
   nob_verify: false
