@@ -630,12 +630,13 @@ notice|name|9:
     nob_verify: true
   nob_verify: false
 notice|name|CEI:
-  name: Call for expressions of interest
-  nob: Oppfordring til å uttrykke interesse
+  name: 'CEI'
+  nob: 'Oppfordring til å uttrykke interesse'
   history:
-  - name: Call for expressions of interest
-    nob_verify: false
-  nob_verify: false
+  - name: 'Call for expressions of interest'
+    nob: 'CEI'
+    nob_verify: true
+  nob_verify: true
 notice|name|T01:
   name: Prior information notice for public service contract
   nob: Forhåndsmelding om kontrakt om offentlig tjeneste
