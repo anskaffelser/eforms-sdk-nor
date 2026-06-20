@@ -204,8 +204,25 @@ notice|name|19:
     nob_verify: true
   nob_verify: false
 notice|name|2:
-  name: Notice of the publication of a periodic indicative notice on a buyer profile – sectoral directive
-  nob: Kunngjøring av publisering av periodisk veiledende kunngjøring på kjøperprofil - sektordirektivet
+  name: >-
+    Notice of the publication of a periodic indicative notice on a buyer
+    profile – sectoral directive
+  nob: >-
+    Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil –
+    Forsyningsforskriften
+  history:
+  - name: >-
+      Notice of the publication of a periodic indicative notice on a buyer
+      profile – sectoral directive
+    nob: >-
+      Melding om offentliggjøring av en periodisk veiledende melding på en
+      kjøperprofil – sektordirektiv
+    nob_verify: false
+  - name: >-
+      Notice of the publication of a periodic indicative notice on a buyer
+      profile – sectoral directive
+    nob: '2'
+    nob_verify: true
   nob_verify: false
 notice|name|20:
   name: Contract notice – general directive, light regime
@@ -392,14 +409,17 @@ notice|name|E5:
 notice|name|N4:
   name: Norwegian prior information notice used only for information
   nob: Nasjonal forhåndskunngjøring
+  history: []
   nob_verify: false
 notice|name|N16:
   name: Norwegian contract notice
   nob: Nasjonal kunngjøring av konkurranse
+  history: []
   nob_verify: false
 notice|name|N29:
   name: Norwegian Contract award notice
   nob: Nasjonal kunngjøring av kontraktsinngåelse
+  history: []
   nob_verify: false
 notice|name|E6:
   name: Voluntary contract modification notice
