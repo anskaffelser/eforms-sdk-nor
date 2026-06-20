@@ -638,7 +638,7 @@ notice|name|CEI:
     nob_verify: true
   nob_verify: true
 notice|name|E1:
-  name: 'Preliminary market consultation notice'
+  name: 'Voluntary pre-market consultation notice'
   nob: >-
     Kunngjøring av forberedende undersøkelser og dialog med markedet under
     EØS-terskelverdi
@@ -648,35 +648,43 @@ notice|name|E1:
     nob_verify: true
   nob_verify: false
 notice|name|E2:
-  name: Voluntary prior information notice
-  nob: Bare varsel om forhåndsinformasjon under terskelen (PIN)
+  name: 'Voluntary prior information notice'
+  nob: 'Veiledende kunngjøring under EØS-terskelverdi'
   history:
-  - name: Below threshold prior information notice (PIN) only
-    nob_verify: false
-  nob_verify: true
+  - name: 'Below threshold prior information notice (PIN) only'
+    nob: 'Bare varsel om forhåndsinformasjon under terskelen (PIN)'
+    nob_verify: true
+  nob_verify: false
 notice|name|E3:
-  name: Voluntary contract notice
-  nob: Generelt under terskelvarsel om kontrakt (CN)
+  name: 'Voluntary contract notice'
+  nob: 'Kunngjøring av konkurranse under EØS-terskelverdi'
   history:
-  - name: Below threshold contract notice (CN) general
-    nob_verify: false
-  nob_verify: true
+  - name: 'Below threshold contract notice (CN) general'
+    nob: 'Generelt under terskelvarsel om kontrakt (CN)'
+    nob_verify: true
+  nob_verify: false
 notice|name|E4:
-  name: Voluntary award notice
-  nob: Varsel om kontraktstildeling under terskelen (CAN) generelt
+  name: 'Voluntary award notice'
+  nob: 'Kunngjøring av kontraktsinngåelse under EØS-terskelverdi'
   history:
-  - name: Below threshold contract award notice (CAN) general
-    nob_verify: false
-  nob_verify: true
+  - name: 'Below threshold contract award notice (CAN) general'
+    nob: 'Varsel om kontraktstildeling under terskelen (CAN) generelt'
+    nob_verify: true
+  nob_verify: false
 notice|name|E5:
-  name: Voluntary completion notice
-  nob: Varsel om fullføring av kontrakt
+  name: 'Voluntary completion notice'
+  nob: 'Kunngjøring om fullføring av kontrakt under EØS-terskelverdi'
   history:
-  - name: Contract completion notice
-    nob_verify: false
-  nob_verify: true
+  - name: 'Contract completion notice'
+    nob: 'Varsel om fullføring av kontrakt'
+    nob_verify: true
+  nob_verify: false
 notice|name|E6:
-  name: Voluntary contract modification notice
+  name: 'Voluntary contract modification notice'
+  nob: 'Kunngjøring av endring i en inngått kontrakt under EØS-terskelverdi'
+  history:
+  - name: 'Voluntary contract modification notice'
+  nob_verify: false
 notice|name|T01:
   name: Prior information notice for public service contract
   nob: Forhåndsmelding om kontrakt om offentlig tjeneste
