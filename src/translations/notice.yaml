@@ -225,8 +225,20 @@ notice|name|2:
     nob_verify: true
   nob_verify: false
 notice|name|20:
-  name: Contract notice – general directive, light regime
-  nob: Kunngjøring av konkurranse — generelt direktiv, enkelt regime
+  name: 'Contract notice – general directive, light regime'
+  nob: >-
+    Kunngjøring av konkurranse (Helse- og sosialtjenester og særlige tjenester)
+    – Anskaffelsesforskriften
+  history:
+  - name: 'Contract notice – general directive, light regime'
+    nob: 'Kunngjøring av kontrakt – generelt direktiv, forenklet regime'
+    nob_verify: false
+  - name: 'Contract notice – general directive, light regime'
+    nob: 'Kunngjøring av kontrakt – generelt direktiv, lysregime'
+    nob_verify: false
+  - name: 'Contract notice – general directive, light regime'
+    nob: '20'
+    nob_verify: true
   nob_verify: false
 notice|name|21:
   name: Contract notice – sectoral directive, light regime
