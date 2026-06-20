@@ -241,8 +241,20 @@ notice|name|20:
     nob_verify: true
   nob_verify: false
 notice|name|21:
-  name: Contract notice – sectoral directive, light regime
-  nob: Kunngjøring av konkurranse — sektordirektivet, enkelt regime
+  name: 'Contract notice – sectoral directive, light regime'
+  nob: >-
+    Kunngjøring av konkurranse (Helse- og sosialtjenester og særlige tjenester)
+    – Forsyningsforskriften
+  history:
+  - name: 'Contract notice – sectoral directive, light regime'
+    nob: 'Kunngjøring av kontrakt – sektordirektiv, forenklet regime'
+    nob_verify: false
+  - name: 'Contract notice – sectoral directive, light regime'
+    nob: 'Kunngjøring av kontrakt – sektordirektiv, lysregime'
+    nob_verify: false
+  - name: 'Contract notice – sectoral directive, light regime'
+    nob: '21'
+    nob_verify: true
   nob_verify: false
 notice|name|22:
   name: Subcontract notice – defence directive
