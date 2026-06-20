@@ -326,8 +326,15 @@ notice|name|27:
     nob_verify: true
   nob_verify: false
 notice|name|28:
-  name: Voluntary ex-ante transparency notice – concession directive
-  nob: Intensjonskunngjøring - konsesjonsdirektivet
+  name: 'Voluntary ex-ante transparency notice – concession directive'
+  nob: 'Intensjonskunngjøring – Konsesjonskontraktforskriften'
+  history:
+  - name: 'Voluntary ex-ante transparency notice – concession directive'
+    nob: 'Frivillig ex ante åpenhetsmelding – konsesjonsdirektiv'
+    nob_verify: false
+  - name: 'Voluntary ex-ante transparency notice – concession directive'
+    nob: '28'
+    nob_verify: true
   nob_verify: false
 notice|name|29:
   name: Contract award notice – general directive, standard regime
