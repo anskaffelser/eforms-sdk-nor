@@ -533,8 +533,23 @@ notice|name|40:
     nob_verify: true
   nob_verify: false
 notice|name|5:
-  name: Periodic indicative notice used only for information – sectoral directive
-  nob: Forhåndskunngjøring til informasjon - sektordirektivet
+  name: >-
+    Periodic indicative notice used only for information – sectoral directive
+  nob: >-
+    Veiledende kunngjøring brukt kun til informasjon – Forsyningsforskriften
+  history:
+  - name: >-
+      Periodic indicative notice used only for information – sectoral
+      directive
+    nob: >-
+      Periodisk veiledende melding som bare brukes til informasjon –
+      sektordirektiv
+    nob_verify: false
+  - name: >-
+      Periodic indicative notice used only for information – sectoral
+      directive
+    nob: '5'
+    nob_verify: true
   nob_verify: false
 notice|name|6:
   name: Prior information notice used only for information – defence directive
