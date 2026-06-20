@@ -348,8 +348,25 @@ notice|name|29:
     nob_verify: true
   nob_verify: false
 notice|name|3:
-  name: Notice of the publication of a prior information notice on a buyer profile – defence directive
-  nob: Kunngjøring av publisering av periodisk veiledende kunngjøring på kjøperprofil - forsvarsdirektivet
+  name: >-
+    Notice of the publication of a prior information notice on a buyer profile
+    – defence directive
+  nob: >-
+    Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil –
+    Forskrift om forsvars- og sikkerhetsanskaffelser
+  history:
+  - name: >-
+      Notice of the publication of a prior information notice on a buyer
+      profile – defence directive
+    nob: >-
+      Melding om offentliggjøring av forhåndsmelding på en kjøperprofil –
+      forsvarsdirektiv
+    nob_verify: false
+  - name: >-
+      Notice of the publication of a prior information notice on a buyer
+      profile – defence directive
+    nob: '3'
+    nob_verify: true
   nob_verify: false
 notice|name|30:
   name: Contract award notice – sectoral directive, standard regime
