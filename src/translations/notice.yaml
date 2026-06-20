@@ -404,8 +404,21 @@ notice|name|32:
     nob_verify: true
   nob_verify: false
 notice|name|33:
-  name: Contract award notice – general directive, light regime
-  nob: Kunngjøring av kontraktsinngåelse - generelt direktiv, enkelt regime
+  name: 'Contract award notice – general directive, light regime'
+  nob: >-
+    Kunngjøring av kontraktsinngåelse (Helse- og sosialtjenester og særlige
+    tjenester) – Anskaffelsesforskriften
+  history:
+  - name: 'Contract award notice – general directive, light regime'
+    nob: >-
+      Melding om kontraktstildeling – generelt direktiv, forenklet regime
+    nob_verify: false
+  - name: 'Contract award notice – general directive, light regime'
+    nob: 'Melding om kontraktstildeling – generelt direktiv, lysregime'
+    nob_verify: false
+  - name: 'Contract award notice – general directive, light regime'
+    nob: '33'
+    nob_verify: true
   nob_verify: false
 notice|name|34:
   name: Contract award notice – sectoral directive, light regime
