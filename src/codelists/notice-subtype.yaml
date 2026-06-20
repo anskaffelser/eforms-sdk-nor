@@ -692,7 +692,7 @@ T01:
   - name: 'Prior information notice for public service contract'
     nob: 'Forhåndsmelding om kontrakt om offentlig tjeneste'
     nob_verify: true
-  nob_verify: true
+  nob_verify: false
 T02:
   name: 'Information notice for award of public service contract'
   nob: 'Kunngjøring av kontraktsinngåelse – offentlig persontransport'
@@ -701,7 +701,7 @@ T02:
     nob: >-
       Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
     nob_verify: true
-  nob_verify: true
+  nob_verify: false
 X01:
   name: 'European Economic Interest Grouping'
   nob: 'Europeisk økonomisk interessegruppering'
