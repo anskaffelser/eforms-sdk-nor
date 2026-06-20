@@ -337,8 +337,15 @@ notice|name|28:
     nob_verify: true
   nob_verify: false
 notice|name|29:
-  name: Contract award notice – general directive, standard regime
-  nob: Kunngjøring av kontraktsinngåelse - generelt direktiv, standard regime
+  name: 'Contract award notice – general directive, standard regime'
+  nob: 'Kunngjøring av kontraktsinngåelse – Anskaffelsesforskriften'
+  history:
+  - name: 'Contract award notice – general directive, standard regime'
+    nob: 'Melding om kontraktstildeling – generelt direktiv, standardregime'
+    nob_verify: false
+  - name: 'Contract award notice – general directive, standard regime'
+    nob: '29'
+    nob_verify: true
   nob_verify: false
 notice|name|3:
   name: Notice of the publication of a prior information notice on a buyer profile – defence directive
