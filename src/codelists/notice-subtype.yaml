@@ -630,7 +630,7 @@
     nob_verify: true
   nob_verify: false
 CEI:
-  name: 'CEI'
+  name: 'Call for expressions of interest'
   nob: 'Oppfordring til å uttrykke interesse'
   history:
   - name: 'Call for expressions of interest'
@@ -638,7 +638,7 @@ CEI:
     nob_verify: true
   nob_verify: true
 E1:
-  name: 'E1'
+  name: 'Preliminary market consultation notice'
   nob: >-
     Kunngjøring av forberedende undersøkelser og dialog med markedet under
     EØS-terskelverdi
@@ -648,7 +648,7 @@ E1:
     nob_verify: true
   nob_verify: false
 E2:
-  name: 'E2'
+  name: 'Below threshold prior information notice (PIN) only'
   nob: 'Veiledende kunngjøring under EØS-terskelverdi'
   history:
   - name: 'Below threshold prior information notice (PIN) only'
@@ -656,42 +656,35 @@ E2:
     nob_verify: true
   nob_verify: false
 E3:
-  name: 'E3'
+  name: 'Below threshold contract notice (CN) general'
   nob: 'Kunngjøring av konkurranse under EØS-terskelverdi'
   history:
-  - name: 'E3'
-    nob: 'Generelt under terskelvarsel om kontrakt (CN)'
-    nob_verify: true
   - name: 'Below threshold contract notice (CN) general'
-    nob: 'E3'
+    nob: 'Generelt under terskelvarsel om kontrakt (CN)'
     nob_verify: true
   nob_verify: false
 E4:
-  name: 'E4'
+  ame: 'Below threshold contract award notice (CAN) general'
   nob: 'Kunngjøring av kontraktsinngåelse under EØS-terskelverdi'
   history:
-  - name: 'E4'
-    nob: 'Varsel om kontraktstildeling under terskelen (CAN) generelt'
-    nob_verify: true
   - name: 'Below threshold contract award notice (CAN) general'
-    nob: 'E4'
+    nob: 'Varsel om kontraktstildeling under terskelen (CAN) generelt'
     nob_verify: true
   nob_verify: false
 E5:
-  name: 'E5'
+  name: 'Contract completion notice'
   nob: 'Kunngjøring om fullføring av kontrakt under EØS-terskelverdi'
   history:
-  - name: 'E5'
+  - name: 'Contract completion notice'
     nob: 'Varsel om fullføring av kontrakt'
     nob_verify: true
-  - name: 'Contract completion notice'
-    nob: 'E5'
-    nob_verify: true
-  nob_verify: true
+  nob_verify: false
 E6:
-  name: 'E6'
+  name: 'Voluntary contract modification notice'
   nob: 'Kunngjøring av endring i en inngått kontrakt under EØS-terskelverdi'
-  nob_verify: true
+  history:
+  - name: 'Voluntary contract modification notice'
+  nob_verify: false
 T01:
   name: 'T01'
   nob: 'Veiledende kunngjøring – offentlig persontransport'
