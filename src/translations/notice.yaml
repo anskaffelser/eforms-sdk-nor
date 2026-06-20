@@ -520,8 +520,17 @@ notice|name|4:
     nob_verify: true
   nob_verify: false
 notice|name|40:
-  name: Contract modification notice – concessions directive
-  nob: Kunngjøring av kontraktsendring - forsvarsdirektivet
+  name: 'Contract modification notice – concessions directive'
+  nob: >-
+    Kunngjøring av endring i en inngått kontrakt –
+    Konsesjonskontraktforskriften
+  history:
+  - name: 'Contract modification notice – concessions directive'
+    nob: 'Kunngjøring om endring av kontrakt – konsesjonsdirektivet'
+    nob_verify: false
+  - name: 'Contract modification notice – concessions directive'
+    nob: '40'
+    nob_verify: true
   nob_verify: false
 notice|name|5:
   name: Periodic indicative notice used only for information – sectoral directive
