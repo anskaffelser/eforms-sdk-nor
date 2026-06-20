@@ -270,8 +270,15 @@ notice|name|22:
     nob_verify: true
   nob_verify: false
 notice|name|23:
-  name: Design contest notice – general directive, design
-  nob: Kunngjøring av plan- og designkonkurranse – generelt direktiv, design
+  name: 'Design contest notice – general directive, design'
+  nob: 'Kunngjøring av plan- og designkonkurranse – Anskaffelsesforskriften'
+  history:
+  - name: 'Design contest notice – general directive, design'
+    nob: 'Varsel om designkonkurranse – generelt direktiv, design'
+    nob_verify: false
+  - name: 'Design contest notice – general directive, design'
+    nob: '23'
+    nob_verify: true
   nob_verify: false
 notice|name|24:
   name: Design contest notice – sectoral directive, design
