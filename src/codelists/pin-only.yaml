@@ -1,20 +1,28 @@
 %YAML 1.2
 ---
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# This file is generated from 'src/codelists/notice-subtype.yaml'.
+# Do not edit manually.
+# Update 'src/codelists/notice-subtype-distribution-manifest.toml' instead.
 4:
   name: 'Prior information notice used only for information – general directive'
   nob: >-
     Veiledende kunngjøring brukt kun til informasjon – Anskaffelsesforskriften
   history:
-    - name: >-
-        Prior information notice used only for information – general directive
-      nob: 'Forhåndsvarsel brukes kun til informasjon – generelt direktiv'
-      history: []
-      nob_verify: false
-    - name: >-
-        Prior information notice used only for information – general directive
-      nob: '4'
-      history: []
-      nob_verify: true
+  - name: >-
+      Prior information notice used only for information – general directive
+    nob: 'Forhåndsvarsel brukes kun til informasjon – generelt direktiv'
+    nob_verify: false
+  - name: >-
+      Prior information notice used only for information – general directive
+    nob: '4'
+    nob_verify: true
   nob_verify: false
 5:
   name: >-
@@ -22,20 +30,18 @@
   nob: >-
     Veiledende kunngjøring brukt kun til informasjon – Forsyningsforskriften
   history:
-    - name: >-
-        Periodic indicative notice used only for information – sectoral
-        directive
-      nob: >-
-        Periodisk veiledende melding som bare brukes til informasjon –
-        sektordirektiv
-      history: []
-      nob_verify: false
-    - name: >-
-        Periodic indicative notice used only for information – sectoral
-        directive
-      nob: '5'
-      history: []
-      nob_verify: true
+  - name: >-
+      Periodic indicative notice used only for information – sectoral
+      directive
+    nob: >-
+      Periodisk veiledende melding som bare brukes til informasjon –
+      sektordirektiv
+    nob_verify: false
+  - name: >-
+      Periodic indicative notice used only for information – sectoral
+      directive
+    nob: '5'
+    nob_verify: true
   nob_verify: false
 6:
   name: 'Prior information notice used only for information – defence directive'
@@ -43,27 +49,20 @@
     Veiledende kunngjøring brukt kun til informasjon – Forskrift om forsvars-
     og sikkerhetsanskaffelser
   history:
-    - name: >-
-        Prior information notice used only for information – defence directive
-      nob: 'Forhåndsmelding som kun brukes til informasjon – forsvarsdirektiv'
-      history: []
-      nob_verify: false
-    - name: >-
-        Prior information notice used only for information – defence directive
-      nob: '6'
-      history: []
-      nob_verify: true
+  - name: >-
+      Prior information notice used only for information – defence directive
+    nob: 'Forhåndsmelding som kun brukes til informasjon – forsvarsdirektiv'
+    nob_verify: false
+  - name: >-
+      Prior information notice used only for information – defence directive
+    nob: '6'
+    nob_verify: true
   nob_verify: false
 E2:
-  name: 'E2'
+  name: 'Voluntary prior information notice'
   nob: 'Veiledende kunngjøring under EØS-terskelverdi'
   history:
-    - name: 'E2'
-      nob: 'Bare varsel om forhåndsinformasjon under terskelen (PIN)'
-      history: []
-      nob_verify: true
-    - name: 'Below threshold prior information notice (PIN) only'
-      nob: 'E2'
-      history: []
-      nob_verify: true
+  - name: 'Below threshold prior information notice (PIN) only'
+    nob: 'Bare varsel om forhåndsinformasjon under terskelen (PIN)'
+    nob_verify: true
   nob_verify: false
