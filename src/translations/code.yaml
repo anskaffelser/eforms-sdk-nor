@@ -80,8 +80,30 @@ code|name|award-criterion-type.quality-nor-env-criteria:
     among the top 3 highest priorities in the case of ranking
     award criteria in order of priority. See Section 5b (2) of
     the Norwegian Law on Public Procurements (July 1st 2026 revision).
-  valid_from_date:
+  valid_from_date: "2024-01-01"
   valid_from_sdk: '1.7'
+  valid_to_date: ~
+  valid_to_sdk: ~
+code|name|award-criterion-type.quality-nor-env-exempt-critical-interest:
+  name: >-
+    Quality – exemption from climate and environmental requirements under
+    Norwegian procurement regulations: essential interests of health, safety
+    or emergency preparedness (justification required)
+  nob: >-
+    Kvalitet – unntak fra klima- og miljøkrav i norsk anskaffelsesregelverk:
+    Vesentlige interesser innen helse, sikkerhet eller beredskap (skal
+    begrunnes)
+  history: []
+  nob_verify: false
+  source: 'nor'
+  status: 'provisional'
+  note: >-
+    Indicates that climate- and environmental concerns must be set aside of
+    a public procurement, as these would harm critical interests related to
+    health, safety or emergency preparedness. See Section 5b (3) of the
+    Norwegian Law on Public Procurements (July 1st 2026 revision).
+  valid_from_date: '2026-07-01'
+  valid_from_sdk: '1.13'
   valid_to_date: ~
   valid_to_sdk: ~
 code|name|award-criterion-type.quality-nor-env-spec:
@@ -102,7 +124,7 @@ code|name|award-criterion-type.quality-nor-env-spec:
     Indicates that climate- and environmental considerations form
     part of the specifications. See Section 5b (2) of the Norwegian
     Law on Public Procurements (July 1st 2026 revision).
-  valid_from_date:
+  valid_from_date: "2024-01-01"
   valid_from_sdk: '1.7'
   valid_to_date: ~
   valid_to_sdk: ~
@@ -133,7 +155,7 @@ code|name|award-criterion-type.quality-nor-env-none:
     In the July 1st 2026 regulatory revisions, the exemption clauses
     were extended and granulated further, necessitating the retirement
     of this code value.
-  valid_from_date:
+  valid_from_date: "2024-01-01"
   valid_from_sdk: '1.7'
   valid_to_date: ~
   valid_to_sdk: ~
