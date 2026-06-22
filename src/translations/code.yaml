@@ -107,8 +107,38 @@ code|name|award-criterion-type.quality-nor-env-spec:
   valid_to_date: ~
   valid_to_sdk: ~
 code|name|award-criterion-type.quality-nor-env-none:
-  name: Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)
-  nob: Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)
+  name: >-
+    Quality – exemption from climate and environmental requirements under
+    Norwegian procurement regulations: negligible climate footprint and
+    environmental impact (justification required)
+  nob: >-
+    Kvalitet – unntak fra klima- og miljøkrav i norsk anskaffelsesregelverk:
+    Anskaffelsen har uvesentlig klimaavtrykk og miljøbelastning (skal begrunnes)
+  history:
+  - name: >-
+      Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)
+    nob: >-
+      Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)
+  nob_verify: false
+  source: 'nor'
+  status: 'deprecated'
+  note: >-
+    Indicates that the climate- and environmental impacts of
+    the procured works, goods or services are negligible, invoking the
+    exemption clause in the Norwegian Public Procurement Regulations.
+    This is congruent to Section 5b (3) of the Norwegian Law on
+    Public Procurements (July 1st 2026 revision). Note that this
+    code value originally corresponded to Section 7-9 (5) of the
+    Norwegian Public Procurement Regulations, retired on July 1st 2026.
+    In the July 1st 2026 regulatory revisions, the exemption clauses
+    were extended and granulated further, necessitating the retirement
+    of this code value.
+  valid_from_date:
+  valid_from_sdk: '1.7'
+  valid_to_date: ~
+  valid_to_sdk: ~
+  replaced_by: >-
+    code|name|award-criterion-type.quality-nor-env-exempt-insignificant
 code|name|buyer-categories.buyer-categories:
   name: Buyer categories
   nob: Kategori av kjøpere
