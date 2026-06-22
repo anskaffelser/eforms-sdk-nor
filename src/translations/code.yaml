@@ -65,8 +65,13 @@ code|name|award-criterion-type.quality:
     nob_verify: false
   nob_verify: false
 code|name|award-criterion-type.quality-nor-env-criteria:
-  name: Kvalitet – klima- og miljøkriterium
-  nob: Kvalitet – klima- og miljøkriterium
+  name: >-
+    Quality – climate- and environmental considerations as award criterion
+  nob: 'Kvalitet – klima- og miljøhensyn som tildelingskriterium'
+  history:
+  - name: Kvalitet – klima- og miljøkriterium
+    nob: Kvalitet – klima- og miljøkriterium
+  nob_verify: false
 code|name|award-criterion-type.quality-nor-env-spec:
   name: Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)
   nob: Kvalitet – klima- og miljøkrav i kravspesifikasjonen (begrunnes under)
