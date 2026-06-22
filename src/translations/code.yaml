@@ -83,7 +83,7 @@ code|name|award-criterion-type.quality-nor-env-criteria:
   valid_from_date:
   valid_from_sdk: '1.7'
   valid_to_date: ~
-  valid_to_sdk: ~ 
+  valid_to_sdk: ~
 code|name|award-criterion-type.quality-nor-env-spec:
   name: >-
     Quality – climate- and environmental requirements form part of the
@@ -101,11 +101,11 @@ code|name|award-criterion-type.quality-nor-env-spec:
   note: >-
     Indicates that climate- and environmental considerations form
     part of the specifications. See Section 5b (2) of the Norwegian
-    Law on Public Procurements (July 1st 2026 revision). 
+    Law on Public Procurements (July 1st 2026 revision).
   valid_from_date:
   valid_from_sdk: '1.7'
   valid_to_date: ~
-  valid_to_sdk: ~ 
+  valid_to_sdk: ~
 code|name|award-criterion-type.quality-nor-env-none:
   name: Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)
   nob: Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)
