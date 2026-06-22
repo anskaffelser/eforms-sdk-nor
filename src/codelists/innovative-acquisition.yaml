@@ -16,7 +16,6 @@ buy-eff:
   valid_from_sdk: '0.2.11'
   valid_to_date: '2023-04-11'
   valid_to_sdk: '1.6'
-
 fp-requ:
   name: >-
     The technical specifications are primarily based on functional and
@@ -38,7 +37,6 @@ fp-requ:
   valid_from_sdk: '0.2.11'
   valid_to_date: '2023-04-11'
   valid_to_sdk: '1.6'
-
 mar-nov:
   name: >-
     The procured works, supplies or services are novel or significantly improved
@@ -63,20 +61,6 @@ mar-nov:
   valid_from_sdk: '0.2.11'
   valid_to_date: ~
   valid_to_sdk: ~
-
-other:
-  name: 'Other'
-  nob: 'Annet'
-  nob_verify: false
-  status: 'retired'
-  source: 'op-ted'
-  note: >-
-    Retired from OP TED codelist. Kept as historical reference.
-  valid_from_date: '2019-06-27'
-  valid_from_sdk: '0.2.11'
-  valid_to_date: '2023-04-11'
-  valid_to_sdk: '1.6'
-
 org-nov:
   name: >-
     The procured works, supplies or services are novel for the organisation.
@@ -99,7 +83,18 @@ org-nov:
   valid_from_sdk: '0.2.11'
   valid_to_date: '2023-04-11'
   valid_to_sdk: '1.6'
-
+other:
+  name: 'Other'
+  nob: 'Annet'
+  nob_verify: false
+  status: 'retired'
+  source: 'op-ted'
+  note: >-
+    Retired from OP TED codelist. Kept as historical reference.
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
+  valid_to_date: '2023-04-11'
+  valid_to_sdk: '1.6'
 proc-innov:
   name: 'The procured works, supplies, or services entail process innovation'
   nob: 'Anskaffelsen innebærer prosessinnovasjon.'
@@ -118,7 +113,6 @@ proc-innov:
   valid_from_sdk: '0.2.11'
   valid_to_date: ~
   valid_to_sdk: ~
-
 prod-innov:
   name: 'The procured works, supplies, or services entail product innovation'
   nob: 'Anskaffelsen innebærer produktinnovasjon.'
@@ -137,7 +131,6 @@ prod-innov:
   valid_from_sdk: '0.2.11'
   valid_to_date: ~
   valid_to_sdk: ~
-
 rd-act:
   name: >-
     The procured works, supplies or services involve research and development
