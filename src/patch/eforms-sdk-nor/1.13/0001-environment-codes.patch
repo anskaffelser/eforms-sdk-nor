@@ -2,7 +2,7 @@ diff --git a/codelists/award-criterion-type.gc b/codelists/award-criterion-type.
 index 26dfd74..e75f146 100644
 --- a/codelists/award-criterion-type.gc
 +++ b/codelists/award-criterion-type.gc
-@@ -390,5 +390,106 @@
+@@ -390,5 +390,107 @@
              <SimpleValue>Kvalitet</SimpleValue>
           </Value>
        </Row>
@@ -57,6 +57,7 @@ index 26dfd74..e75f146 100644
 +            <SimpleValue>Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)</SimpleValue>
 +         </Value>
 +      </Row>
++      <Row>
 +         <Value ColumnRef="code">
 +            <SimpleValue>quality-nor-env-exempt-insignificant</SimpleValue>
 +         </Value>
