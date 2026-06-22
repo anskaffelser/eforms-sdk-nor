@@ -113,7 +113,7 @@ quality-nor-env-exempt-insignificant:
   valid_from_date: '2026-07-01'
   valid_from_sdk: '1.13'
   replaces: 
-    - 'code|name|award-criterion-type.quality-nor-env-none'
+    - 'quality-nor-env-none'
   valid_to_date: ~
   valid_to_sdk: ~
 quality-nor-env-none:
