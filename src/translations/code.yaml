@@ -106,6 +106,29 @@ code|name|award-criterion-type.quality-nor-env-exempt-critical-interest:
   valid_from_sdk: '1.13'
   valid_to_date: ~
   valid_to_sdk: ~
+code|name|award-criterion-type.quality-nor-env-exempt-national-minimum:
+  name: >-
+    Quality – exemption from climate and environmental requirements under
+    Norwegian procurement regulations: mandatory standardised minimum
+    requirements for climate footprint or environmental impact (justification
+    required)
+  nob: >-
+    Kvalitet – unntak fra klima- og miljøkrav i norsk anskaffelsesregelverk:
+    Lovpålagte standardiserte minimumskrav til klimaavtrykk eller
+    miljøbelastning (skal begrunnes)
+  history: []
+  nob_verify: false
+  source: 'nor'
+  status: 'provisional'
+  note: >-
+    Indicates that the contracting authority is mandated by law to enforce
+    standardized minimum requirements for climate or environmental impact.
+    See Section 5c of the Norwegian Law on Public Procurements (July 1st
+    2026 revision).
+  valid_from_date: '2026-07-01'
+  valid_from_sdk: '1.13'
+  valid_to_date: ~
+  valid_to_sdk: ~
 code|name|award-criterion-type.quality-nor-env-spec:
   name: >-
     Quality – climate- and environmental requirements form part of the
