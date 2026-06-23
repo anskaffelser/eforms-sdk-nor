@@ -297,7 +297,7 @@ codes:
       nno: >-
         Kvalitet – unntak frå klima- og miljøkrav i norsk anskaffelsesregelverk:
         Lovpålagde standardiserte minimumskrav til klimaavtrykk eller
-        miljøbelastning (skal grunngjes)'
+        miljøbelastning (skal grunngjes)
       nno_verify: true
     parent_eu_code: 'quality'
     sdk_value: 'QUALITY_NOR_ENV_EXEMPT_NATIONAL_MINIMUM'

@@ -36,7 +36,7 @@ quality-nor-env-criteria:
   status: 'active'
   note: >-
     Indicates the weighting of award criteria related to climate- and
-    envinronmental considerations, alternatively ranking such criteria
+    environmental considerations, alternatively ranking such criteria
     among the top 3 highest priorities in the case of ranking
     award criteria in order of priority. See Section 5b (2) of
     the Norwegian Law on Public Procurements (July 1st 2026 revision).
@@ -121,7 +121,7 @@ quality-nor-env-none:
     Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)
   nob: >-
     Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)
-  history:
+  history: []
   nob_verify: false
   source: 'nor'
   status: 'deprecated'

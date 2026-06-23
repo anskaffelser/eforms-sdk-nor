@@ -85,7 +85,7 @@ index 26dfd74..e75f146 100644
 +            <SimpleValue>Quality – exemption from climate and environmental requirements under Norwegian procurement regulations: essential interests of health, safety or emergency preparedness (justification required)</SimpleValue>
 +         </Value>
 +         <Value ColumnRef="nno_label">
-+            <SimpleValue>Kvalitet – unntak frå klima- og miljøkrav i norsk anskaffingssregelverk: Vesentlege interesser innan helse, tryggleik eller beredskap (skal grunngjes)</SimpleValue>
++            <SimpleValue>Kvalitet – unntak frå klima- og miljøkrav i norsk anskaffingsregelverk: Vesentlege interesser innan helse, tryggleik eller beredskap (skal grunngjes)</SimpleValue>
 +         </Value>
 +         <Value ColumnRef="nob_label">
 +            <SimpleValue>Kvalitet – unntak fra klima- og miljøkrav i norsk anskaffelsesregelverk: Vesentlige interesser innen helse, sikkerhet eller beredskap (skal begrunnes)</SimpleValue>
