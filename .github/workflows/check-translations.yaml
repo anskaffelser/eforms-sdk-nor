@@ -1,0 +1,47 @@
+%YAML 1.2
+---
+
+name: 'Translation comparison report'
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'src/translations/**'
+      - 'src/properties.yaml'
+      - 'bin/compare-translations'
+  schedule:
+    # Weekly on Monday at 06:00 UTC — catches upstream SDK drift
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  report:
+    name: 'Generate translation diff'
+    runs-on: 'ubuntu-latest'
+    permissions:
+      contents: 'write'
+
+    steps:
+      - uses: 'actions/checkout@v6'
+
+      - name: 'Install uv'
+        uses: 'astral-sh/setup-uv@v5'
+
+      - name: 'Generate report'
+        env:
+          GITHUB_ACTIONS_RUN_URL: '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+        run: 'make check-translations-report'
+
+      - name: 'Commit report'
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git 'add translations-report/translation-diff.yaml'
+          if git diff --cached --quiet; then
+            echo 'No changes to report.'
+          else
+            git commit -m 'chore: update translation diff report [skip ci]'
+            git push
+          fi

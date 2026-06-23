@@ -46,6 +46,14 @@ update-code: .bundle/vendor
 status: .bundle/vendor
 	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/translation-status src/codelists src/translations
 
+check-translations: src/properties.yaml
+	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/compare-translations
+
+check-translations-report: src/properties.yaml
+	@mkdir -p translations-report
+	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/compare-translations \
+		> translations-report/translation-diff.yaml
+
 package: package-tgz package-zip
 
 package-tgz:
