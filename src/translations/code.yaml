@@ -53897,57 +53897,157 @@ code|name|indicator.true:
     nob_verify: false
   nob_verify: false
 code|name|innovative-acquisition.buy-eff:
-  name: The procured works, supplies or services are likely to make the work of the buyer more effective.
-  nob: Anskaffet  bygg og anleggsarbeid, vareleveranser eller tjenesteytelser vil sannsynligvis gjøre kjøperens arbeid mer effektivt
-  history:
-  - name: The procured works, supplies or services are likely to make the work of the buyer more effective.
-    history: []
-    nob_verify: false
+  name: >-
+    The procured works, supplies or services are likely to make the work of the
+    buyer more effective.
+  nob: >-
+    Anskaffet bygg og anleggsarbeid, vareleveranser eller tjenesteytelser vil
+    sannsynligvis gjøre kjøperens arbeid mer effektivt
   nob_verify: false
+  status: 'retired'
+  source: 'op-ted'
+  note: >-
+    Retired from OP TED codelist. Kept as historical reference.
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
+  valid_to_date: '2023-04-11'
+  valid_to_sdk: '1.6'
 code|name|innovative-acquisition.fp-requ:
-  name: The technical specifications are primarily based on functional and performance requirements, not on describing the technical solution.
-  nob: Kravspesifikasjoner er primært basert på funksjonelle og ytelseskrav og ikke en bekrivelse av en teknisk løsning
+  name: >-
+    The technical specifications are primarily based on functional and
+    performance requirements, not on describing the technical solution.
+  nob: >-
+    Kravspesifikasjoner er primært basert på funksjonelle og ytelseskrav og ikke
+    en bekrivelse av en teknisk løsning
   history:
-  - name: The technical specifications are primarily based on functional and performance requirements, not on describing the technical solution.
-    history: []
-    nob_verify: false
+    - name: >-
+        The technical specifications are primarily based on functional and
+        performance requirements, not on describing the technical solution.
+      nob_verify: false
   nob_verify: false
+  status: 'retired'
+  source: 'op-ted'
+  note: >-
+    Retired from OP TED codelist. Kept as historical reference.
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
+  valid_to_date: '2023-04-11'
+  valid_to_sdk: '1.6'
 code|name|innovative-acquisition.mar-nov:
-  name: The procured works, supplies or services are novel or significantly improved compared to other works, supplies, or services already on the market.
-  nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for hele markedet
+  name: >-
+    The procured works, supplies or services are novel or significantly improved
+    compared to other works, supplies, or services already on the market.
+  nob: >-
+    Anskaffelsen utfordrer markedet til å tilby eller utvikle nyskapende
+    løsninger.
   history:
-  - name: The procured works, supplies or services are novel or significantly improved compared to other works, supplies, or services already on the market.
-    history: []
-    nob_verify: false
-  nob_verify: true
+    - name: >-
+        The procured works, supplies or services are novel or significantly
+        improved compared to other works, supplies, or services already on the
+        market.
+      nob: >-
+        Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er
+        innovative for hele markedet.
+      nob_verify: true
+  nob_verify: false
+  status: 'active'
+  source: 'op-ted'
+  note: ~
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
+  valid_to_date: ~
+  valid_to_sdk: ~
 code|name|innovative-acquisition.org-nov:
-  name: The procured works, supplies or services are novel for the organisation.
-  nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for virksomheten
+  name: >-
+    The procured works, supplies or services are novel for the organisation.
+  nob: >-
+    Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er
+    innovative for virksomheten.
   history:
-  - name: The procured works, supplies or services are novel for the organisation.
-    history: []
-    nob_verify: false
-  - name: The procured works, supplies or services are novel for the organisation.
-    nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er innovative for organisasjonen
-    history: []
-    nob_verify: false
+    - name: >-
+        The procured works, supplies or services are novel for the organisation.
+      nob: >-
+        Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene er
+        innovative for organisasjonen
+      nob_verify: false
   nob_verify: false
+  status: 'retired'
+  source: 'op-ted'
+  note: >-
+    Retired from OP TED codelist. Kept as historical reference.
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
+  valid_to_date: '2023-04-11'
+  valid_to_sdk: '1.6'
 code|name|innovative-acquisition.other:
-  name: Other
-  nob: Annet
-  history:
-  - name: Other
-    history: []
-    nob_verify: false
+  name: 'Other'
+  nob: 'Annet'
   nob_verify: false
+  status: 'retired'
+  source: 'op-ted'
+  note: >-
+    Retired from OP TED codelist. Kept as historical reference.
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
+  valid_to_date: '2023-04-11'
+  valid_to_sdk: '1.6'
+code|name|innovative-acquisition.proc-innov:
+  name: 'The procured works, supplies, or services entail process innovation'
+  nob: 'Anskaffelsen innebærer prosessinnovasjon.'
+  history:
+    - name: >-
+        The procured works, supplies, or services entail process innovation
+      nob: >-
+        De anskaffede arbeidene, leveransene eller tjenestene innebærer
+        prosessinnovasjon
+      nob_verify: false
+  nob_verify: false
+  status: 'active'
+  source: 'op-ted'
+  note: ~
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
+  valid_to_date: ~
+  valid_to_sdk: ~
+code|name|innovative-acquisition.prod-innov:
+  name: 'The procured works, supplies, or services entail product innovation'
+  nob: 'Anskaffelsen innebærer produktinnovasjon.'
+  history:
+    - name: >-
+        The procured works, supplies, or services entail product innovation
+      nob: >-
+        De anskaffede verkene, forsyningene eller tjenestene innebærer
+        produktinnovasjon.
+      nob_verify: false
+  nob_verify: false
+  status: 'active'
+  source: 'op-ted'
+  note: ~
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
+  valid_to_date: ~
+  valid_to_sdk: ~
 code|name|innovative-acquisition.rd-act:
-  name: The procured works, supplies or services involve research and development activities.
-  nob: Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene relateres til forsknings- og utviklingsaktiviteter
+  name: >-
+    The procured works, supplies or services involve research and development
+    activities.
+  nob: 'Anskaffelsen omfatter forsknings- og utviklingsaktiviteter.'
   history:
-  - name: The procured works, supplies or services involve research and development activities.
-    history: []
-    nob_verify: false
+    - name: >-
+        The procured works, supplies or services involve research and
+        development activities.
+      nob: >-
+        Kjøpte bygge- og anleggsarbeidene, vareleveransene eller tjenestene
+        relateres til forsknings- og utviklingsaktiviteter.
+      nob_verify: false
   nob_verify: false
+  status: 'active'
+  source: 'op-ted'
+  note: ~
+  valid_from_date: '2019-06-27'
+  valid_from_sdk: '0.2.11'
+  valid_to_date: ~
+  valid_to_sdk: ~
 code|name|irregularity-type.ab-low:
   name: Unjustified rejection of abnormally low tenders
   nob: Grunnløs avvisning av unormalt lave tilbud
@@ -69543,22 +69643,6 @@ code|name|non-publication-identifier.not-ree-val:
   nob: Reestimert verdi av rammeavtalene innenfor en gruppe partier (BT-1561)
   history:
   - name: Re-estimated value of the framework agreements within a group of lots (BT-1561)
-    history: []
-    nob_verify: false
-  nob_verify: false
-code|name|innovative-acquisition.proc-innov:
-  name: The procured works, supplies, or services entail process innovation
-  nob: De anskaffede arbeidene, leveransene eller tjenestene innebærer prosessinnovasjon
-  history:
-  - name: The procured works, supplies, or services entail process innovation
-    history: []
-    nob_verify: false
-  nob_verify: false
-code|name|innovative-acquisition.prod-innov:
-  name: The procured works, supplies, or services entail product innovation
-  nob: De anskaffede verkene, forsyningene eller tjenestene innebærer produktinnovasjon
-  history:
-  - name: The procured works, supplies, or services entail product innovation
     history: []
     nob_verify: false
   nob_verify: false
