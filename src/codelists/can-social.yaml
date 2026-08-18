@@ -1,24 +1,31 @@
 %YAML 1.2
 ---
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# This file is generated from 'src/codelists/notice-subtype.yaml'.
+# Do not edit manually.
+# Update 'src/codelists/notice-subtype-distribution-manifest.toml' instead.
 33:
   name: 'Contract award notice – general directive, light regime'
   nob: >-
     Kunngjøring av kontraktsinngåelse (Helse- og sosialtjenester og særlige
     tjenester) – Anskaffelsesforskriften
   history:
-    - name: 'Contract award notice – general directive, light regime'
-      nob: >-
-        Melding om kontraktstildeling – generelt direktiv, forenklet regime
-      history: []
-      nob_verify: false
-    - name: 'Contract award notice – general directive, light regime'
-      nob: 'Melding om kontraktstildeling – generelt direktiv, lysregime'
-      history: []
-      nob_verify: false
-    - name: 'Contract award notice – general directive, light regime'
-      nob: '33'
-      history: []
-      nob_verify: true
+  - name: 'Contract award notice – general directive, light regime'
+    nob: >-
+      Melding om kontraktstildeling – generelt direktiv, forenklet regime
+    nob_verify: false
+  - name: 'Contract award notice – general directive, light regime'
+    nob: 'Melding om kontraktstildeling – generelt direktiv, lysregime'
+    nob_verify: false
+  - name: 'Contract award notice – general directive, light regime'
+    nob: '33'
+    nob_verify: true
   nob_verify: false
 34:
   name: 'Contract award notice – sectoral directive, light regime'
@@ -26,20 +33,18 @@
     Kunngjøring av kontraktsinngåelse (Helse- og sosialtjenester og særlige
     tjenester) – Forsyningsforskriften
   history:
-    - name: 'Contract award notice – sectoral directive, light regime'
-      nob: >-
-        Kunngjøring av kontraktstildeling – sektordirektiv, forenklet
-        regime
-      history: []
-      nob_verify: false
-    - name: 'Contract award notice – sectoral directive, light regime'
-      nob: 'Kunngjøring av kontraktstildeling – sektordirektiv, lysregime'
-      history: []
-      nob_verify: false
-    - name: 'Contract award notice – sectoral directive, light regime'
-      nob: '34'
-      history: []
-      nob_verify: true
+  - name: 'Contract award notice – sectoral directive, light regime'
+    nob: >-
+      Kunngjøring av kontraktstildeling – sektordirektiv, forenklet
+      regime
+    nob_verify: false
+  - name: 'Contract award notice – sectoral directive, light regime'
+    nob: 'Kunngjøring av kontraktstildeling – sektordirektiv, lysregime'
+    history: []
+    nob_verify: false
+  - name: 'Contract award notice – sectoral directive, light regime'
+    nob: '34'
+    nob_verify: true
   nob_verify: false
 35:
   name: 'Concession award notice – concessions directive, light regime'
@@ -47,17 +52,14 @@
     Kunngjøring av kontraktsinngåelse (Helse- og sosialtjenester og særlige
     tjenester) – Konsesjonskontraktforskriften
   history:
-    - name: 'Concession award notice – concessions directive, light regime'
-      nob: >-
-        Varsel om konsesjonstildeling – konsesjonsdirektiv, forenklet regime
-      history: []
-      nob_verify: false
-    - name: 'Concession award notice – concessions directive, light regime'
-      nob: 'Varsel om konsesjonstildeling – konsesjonsdirektiv, lysregime'
-      history: []
-      nob_verify: false
-    - name: 'Concession award notice – concessions directive, light regime'
-      nob: '35'
-      history: []
-      nob_verify: true
+  - name: 'Concession award notice – concessions directive, light regime'
+    nob: >-
+      Varsel om konsesjonstildeling – konsesjonsdirektiv, forenklet regime
+    nob_verify: false
+  - name: 'Concession award notice – concessions directive, light regime'
+    nob: 'Varsel om konsesjonstildeling – konsesjonsdirektiv, lysregime'
+    nob_verify: false
+  - name: 'Concession award notice – concessions directive, light regime'
+    nob: '35'
+    nob_verify: true
   nob_verify: false

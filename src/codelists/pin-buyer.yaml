@@ -1,5 +1,15 @@
 %YAML 1.2
 ---
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# This file is generated from 'src/codelists/notice-subtype.yaml'.
+# Do not edit manually.
+# Update 'src/codelists/notice-subtype-distribution-manifest.toml' instead.
 1:
   name: >-
     Notice of the publication of a prior information notice on a buyer profile
@@ -8,20 +18,18 @@
     Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil –
     Anskaffelsesforskriften
   history:
-    - name: >-
-        Notice of the publication of a prior information notice on a buyer
-        profile – general directive
-      nob: >-
-        Melding om offentliggjøring av forhåndsmelding på en kjøperprofil –
-        generelt direktiv
-      history: []
-      nob_verify: false
-    - name: >-
-        Notice of the publication of a prior information notice on a buyer
-        profile – general directive
-      nob: '1'
-      history: []
-      nob_verify: true
+  - name: >-
+      Notice of the publication of a prior information notice on a buyer
+      profile – general directive
+    nob: >-
+      Melding om offentliggjøring av forhåndsmelding på en kjøperprofil –
+      generelt direktiv
+    nob_verify: false
+  - name: >-
+      Notice of the publication of a prior information notice on a buyer
+      profile – general directive
+    nob: '1'
+    nob_verify: true
   nob_verify: false
 2:
   name: >-
@@ -31,20 +39,18 @@
     Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil –
     Forsyningsforskriften
   history:
-    - name: >-
-        Notice of the publication of a periodic indicative notice on a buyer
-        profile – sectoral directive
-      nob: >-
-        Melding om offentliggjøring av en periodisk veiledende melding på en
-        kjøperprofil – sektordirektiv
-      history: []
-      nob_verify: false
-    - name: >-
-        Notice of the publication of a periodic indicative notice on a buyer
-        profile – sectoral directive
-      nob: '2'
-      history: []
-      nob_verify: true
+  - name: >-
+      Notice of the publication of a periodic indicative notice on a buyer
+      profile – sectoral directive
+    nob: >-
+      Melding om offentliggjøring av en periodisk veiledende melding på en
+      kjøperprofil – sektordirektiv
+    nob_verify: false
+  - name: >-
+      Notice of the publication of a periodic indicative notice on a buyer
+      profile – sectoral directive
+    nob: '2'
+    nob_verify: true
   nob_verify: false
 3:
   name: >-
@@ -54,18 +60,16 @@
     Kunngjøring om publisering av veiledende kunngjøring på en kjøperprofil –
     Forskrift om forsvars- og sikkerhetsanskaffelser
   history:
-    - name: >-
-        Notice of the publication of a prior information notice on a buyer
-        profile – defence directive
-      nob: >-
-        Melding om offentliggjøring av forhåndsmelding på en kjøperprofil –
-        forsvarsdirektiv
-      history: []
-      nob_verify: false
-    - name: >-
-        Notice of the publication of a prior information notice on a buyer
-        profile – defence directive
-      nob: '3'
-      history: []
-      nob_verify: true
+  - name: >-
+      Notice of the publication of a prior information notice on a buyer
+      profile – defence directive
+    nob: >-
+      Melding om offentliggjøring av forhåndsmelding på en kjøperprofil –
+      forsvarsdirektiv
+    nob_verify: false
+  - name: >-
+      Notice of the publication of a prior information notice on a buyer
+      profile – defence directive
+    nob: '3'
+    nob_verify: true
   nob_verify: false

@@ -1,11 +1,20 @@
 %YAML 1.2
 ---
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# This file is generated from 'src/codelists/notice-subtype.yaml'.
+# Do not edit manually.
+# Update 'src/codelists/notice-subtype-distribution-manifest.toml' instead.
 X02:
   name: 'European Company / European Cooperative Society'
   nob: 'Det europeiske selskap / European Cooperative Society'
   history:
-    - name: 'European Company / European Cooperative Society'
-      nob: 'X02'
-      history: []
-      nob_verify: true
+  - name: 'European Company / European Cooperative Society'
+    nob: 'X02'
+    nob_verify: true
   nob_verify: true
