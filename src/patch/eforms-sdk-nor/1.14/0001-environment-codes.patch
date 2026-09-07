@@ -2,7 +2,7 @@ diff --git a/codelists/award-criterion-type.gc b/codelists/award-criterion-type.
 index 26dfd74..e75f146 100644
 --- a/codelists/award-criterion-type.gc
 +++ b/codelists/award-criterion-type.gc
-@@ -390,5 +390,56 @@
+@@ -390,5 +390,107 @@
              <SimpleValue>Kvalitet</SimpleValue>
           </Value>
        </Row>
@@ -57,6 +57,57 @@ index 26dfd74..e75f146 100644
 +            <SimpleValue>Kvalitet – uvesentlig klimaavtrykk og miljøbelastning (begrunnes under)</SimpleValue>
 +         </Value>
 +      </Row>
++      <Row>
++         <Value ColumnRef="code">
++            <SimpleValue>quality-nor-env-exempt-insignificant</SimpleValue>
++         </Value>
++         <Value ColumnRef="Name">
++            <SimpleValue>Kvalitet – unntak fra klima- og miljøkrav i norsk anskaffelsesregelverk: Anskaffelsen har uvesentlig klimaavtrykk og miljøbelastning (skal begrunnes)</SimpleValue>
++         </Value>
++         <Value ColumnRef="eng_label">
++            <SimpleValue>Quality – exemption from climate and environmental requirements under Norwegian procurement regulations: negligible climate footprint and environmental impact (justification required)</SimpleValue>
++         </Value>
++         <Value ColumnRef="nno_label">
++            <SimpleValue>Kvalitet – unntak frå klima- og miljøkrav i norsk anskaffingsregelverk: Anskaffinga har uvesentleg klimaavtrykk og miljøbelastning (skal grunngjes)</SimpleValue>
++         </Value>
++         <Value ColumnRef="nob_label">
++            <SimpleValue>Kvalitet – unntak fra klima- og miljøkrav i norsk anskaffelsesregelverk: Anskaffelsen har uvesentlig klimaavtrykk og miljøbelastning (skal begrunnes)</SimpleValue>
++         </Value>
++      </Row>
++      <Row>
++         <Value ColumnRef="code">
++            <SimpleValue>quality-nor-env-exempt-critical-interest</SimpleValue>
++         </Value>
++         <Value ColumnRef="Name">
++            <SimpleValue>Kvalitet – unntak fra klima- og miljøkrav i norsk anskaffelsesregelverk: Vesentlige interesser innen helse, sikkerhet eller beredskap (skal begrunnes)</SimpleValue>
++         </Value>
++         <Value ColumnRef="eng_label">
++            <SimpleValue>Quality – exemption from climate and environmental requirements under Norwegian procurement regulations: essential interests of health, safety or emergency preparedness (justification required)</SimpleValue>
++         </Value>
++         <Value ColumnRef="nno_label">
++            <SimpleValue>Kvalitet – unntak frå klima- og miljøkrav i norsk anskaffingsregelverk: Vesentlege interesser innan helse, tryggleik eller beredskap (skal grunngjes)</SimpleValue>
++         </Value>
++         <Value ColumnRef="nob_label">
++            <SimpleValue>Kvalitet – unntak fra klima- og miljøkrav i norsk anskaffelsesregelverk: Vesentlige interesser innen helse, sikkerhet eller beredskap (skal begrunnes)</SimpleValue>
++         </Value>
++      </Row>
++      <Row>
++         <Value ColumnRef="code">
++            <SimpleValue>quality-nor-env-exempt-national-minimum</SimpleValue>
++         </Value>
++         <Value ColumnRef="Name">
++            <SimpleValue>Kvalitet – unntak fra klima- og miljøkrav i norsk anskaffelsesregelverk: Lovpålagte standardiserte minimumskrav til klimaavtrykk eller miljøbelastning (skal begrunnes)</SimpleValue>
++         </Value>
++         <Value ColumnRef="eng_label">
++            <SimpleValue>Quality – exemption from climate and environmental requirements under Norwegian procurement regulations: mandatory standardised minimum requirements for climate footprint or environmental impact (justification required)</SimpleValue>
++         </Value>
++         <Value ColumnRef="nno_label">
++            <SimpleValue>Kvalitet – unntak frå klima- og miljøkrav i norsk anskaffelsesregelverk: Lovpålagde standardiserte minimumskrav til klimaavtrykk eller miljøbelastning (skal grunngjes)</SimpleValue>
++         </Value>
++         <Value ColumnRef="nob_label">
++            <SimpleValue>Kvalitet – unntak fra klima- og miljøkrav i norsk anskaffelsesregelverk: Lovpålagte standardiserte minimumskrav til klimaavtrykk eller miljøbelastning (skal begrunnes)</SimpleValue>
++         </Value>
++      </Row>
     </SimpleCodeList>
  </gc:CodeList>
 diff --git a/schematrons/eu-eforms-dynamic.sch b/schematrons/eu-eforms-dynamic.sch
@@ -68,7 +119,7 @@ index 7a996b3..d8eeb87 100644
  	</rule>
  	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
 -		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
-+		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none', 'quality-nor-env-exempt-insignificant', 'quality-nor-env-exempt-critical-interest', 'quality-nor-env-exempt-national-minimum')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
  		<assert id="BT-539-Lot-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-Lot-List)</assert>
  		<assert id="BT-539-Lot_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-Lot) must not have leading or trailing whitespace</assert>
  	</rule>
@@ -77,7 +128,7 @@ index 7a996b3..d8eeb87 100644
  	</rule>
  	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
 -		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
-+		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none', 'quality-nor-env-exempt-insignificant', 'quality-nor-env-exempt-critical-interest', 'quality-nor-env-exempt-national-minimum')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
  		<assert id="BT-539-LotsGroup-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-LotsGroup-List)</assert>
  		<assert id="BT-539-LotsGroup_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-LotsGroup) must not have leading or trailing whitespace</assert>
  	</rule>
@@ -90,7 +141,7 @@ index cc0aaec..fa77c00 100644
  	</rule>
  	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
 -		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
-+		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none', 'quality-nor-env-exempt-insignificant', 'quality-nor-env-exempt-critical-interest', 'quality-nor-env-exempt-national-minimum')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
  		<assert id="BT-539-Lot-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-Lot-List)</assert>
  		<assert id="BT-539-Lot_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-Lot) must not have leading or trailing whitespace</assert>
  	</rule>
@@ -99,7 +150,7 @@ index cc0aaec..fa77c00 100644
  	</rule>
  	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
 -		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
-+		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none', 'quality-nor-env-exempt-insignificant', 'quality-nor-env-exempt-critical-interest', 'quality-nor-env-exempt-national-minimum')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
  		<assert id="BT-539-LotsGroup-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-LotsGroup-List)</assert>
  		<assert id="BT-539-LotsGroup_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-LotsGroup) must not have leading or trailing whitespace</assert>
  	</rule>
@@ -112,7 +163,7 @@ index 5585ef4..750cbed 100644
  	</rule>
  	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
 -		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
-+		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none', 'quality-nor-env-exempt-insignificant', 'quality-nor-env-exempt-critical-interest', 'quality-nor-env-exempt-national-minimum')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
  		<assert id="BT-539-Lot-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-Lot-List)</assert>
  		<assert id="BT-539-Lot_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-Lot) must not have leading or trailing whitespace</assert>
  	</rule>
@@ -121,7 +172,7 @@ index 5585ef4..750cbed 100644
  	</rule>
  	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
 -		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
-+		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none', 'quality-nor-env-exempt-insignificant', 'quality-nor-env-exempt-critical-interest', 'quality-nor-env-exempt-national-minimum')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
  		<assert id="BT-539-LotsGroup-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-LotsGroup-List)</assert>
  		<assert id="BT-539-LotsGroup_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-LotsGroup) must not have leading or trailing whitespace</assert>
  	</rule>
@@ -134,7 +185,7 @@ index aa6bd0a..1b63b2a 100644
  	</rule>
  	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
 -		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
-+		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none', 'quality-nor-env-exempt-insignificant', 'quality-nor-env-exempt-critical-interest', 'quality-nor-env-exempt-national-minimum')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
  		<assert id="BT-539-Lot-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-Lot-List)</assert>
  		<assert id="BT-539-Lot_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-Lot) must not have leading or trailing whitespace</assert>
  	</rule>
@@ -143,7 +194,7 @@ index aa6bd0a..1b63b2a 100644
  	</rule>
  	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
 -		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
-+		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none', 'quality-nor-env-exempt-insignificant', 'quality-nor-env-exempt-critical-interest', 'quality-nor-env-exempt-national-minimum')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
  		<assert id="BT-539-LotsGroup-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-LotsGroup-List)</assert>
  		<assert id="BT-539-LotsGroup_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-LotsGroup) must not have leading or trailing whitespace</assert>
  	</rule>
@@ -156,7 +207,7 @@ index 5585ef4..750cbed 100644
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
 -		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
-+		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-exempt-insignificant', 'quality-nor-env-exempt-critical-interest', 'quality-nor-env-exempt-national-minimum')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
 		<assert id="BT-539-Lot-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-Lot-List)</assert>
 		<assert id="BT-539-Lot_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-Lot) must not have leading or trailing whitespace</assert>
 	</rule>
@@ -165,7 +216,7 @@ index 5585ef4..750cbed 100644
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
 -		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
-+		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-exempt-insignificant', 'quality-nor-env-exempt-critical-interest', 'quality-nor-env-exempt-national-minimum')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
 		<assert id="BT-539-LotsGroup-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-LotsGroup-List)</assert>
 		<assert id="BT-539-LotsGroup_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-LotsGroup) must not have leading or trailing whitespace</assert>
 	</rule>
@@ -178,7 +229,7 @@ index aa6bd0a..1b63b2a 100644
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
 -		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
-+		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0104" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-exempt-insignificant', 'quality-nor-env-exempt-critical-interest', 'quality-nor-env-exempt-national-minimum')">Type' (BT-539-Lot) must contain a value from codelist (award-criterion-type)</assert>
 		<assert id="BT-539-Lot-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-Lot-List)</assert>
 		<assert id="BT-539-Lot_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-Lot) must not have leading or trailing whitespace</assert>
 	</rule>
@@ -187,7 +238,7 @@ index aa6bd0a..1b63b2a 100644
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']">
 -		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
-+		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-none')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
++		<assert id="BR-BT-00539-0103" role="ERROR" test="normalize-space(.) = ('cost', 'price', 'quality', 'quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-exempt-insignificant', 'quality-nor-env-exempt-critical-interest', 'quality-nor-env-exempt-national-minimum')">Type' (BT-539-LotsGroup) must contain a value from codelist (award-criterion-type)</assert>
 		<assert id="BT-539-LotsGroup-List_MA" role="ERROR" test="count(@listName) &gt; 0">Attribute 'listName' must be present for 'Type' (BT-539-LotsGroup-List)</assert>
 		<assert id="BT-539-LotsGroup_WS" role="ERROR" test="normalize-space(.) eq .">'Type' (BT-539-LotsGroup) must not have leading or trailing whitespace</assert>
 	</rule>
