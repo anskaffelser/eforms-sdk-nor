@@ -433,7 +433,6 @@ notice|name|34:
     nob_verify: false
   - name: 'Contract award notice – sectoral directive, light regime'
     nob: 'Kunngjøring av kontraktstildeling – sektordirektiv, lysregime'
-    history: []
     nob_verify: false
   - name: 'Contract award notice – sectoral directive, light regime'
     nob: '34'
@@ -690,25 +689,19 @@ notice|name|T01:
   name: 'Prior information notice for public service contract'
   nob: 'Veiledende kunngjøring – offentlig persontransport'
   history:
-  - name: 'T01'
+  - name: 'Prior information notice for public service contract'
     nob: 'Forhåndsmelding om kontrakt om offentlig tjeneste'
     nob_verify: true
-  - name: 'Prior information notice for public service contract'
-    nob: 'T01'
-    nob_verify: true
-  nob_verify: true
+  nob_verify: false
 notice|name|T02:
   name: 'Information notice for award of public service contract'
   nob: 'Kunngjøring av kontraktsinngåelse – offentlig persontransport'
   history:
-  - name: 'T02'
+  - name: 'Information notice for award of public service contract'
     nob: >-
       Informasjonsmelding for tildeling av kontrakt for offentlig tjeneste
     nob_verify: true
-  - name: 'Information notice for award of public service contract'
-    nob: 'T02'
-    nob_verify: true
-  nob_verify: true
+  nob_verify: false
 notice|name|X01:
   name: 'European Economic Interest Grouping'
   nob: 'Europeisk økonomisk interessegruppering'
