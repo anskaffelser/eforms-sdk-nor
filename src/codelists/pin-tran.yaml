@@ -1,15 +1,23 @@
 %YAML 1.2
 ---
+# SPDX-FileCopyrightText: 2026 The Norwegian Agency for Finance and Public Management (DFØ)
+# SPDX-License-Identifier: CC-BY-4.0
+#
+# License: Creative Commons Attribution 4.0 International
+# License-URL: https://creativecommons.org/licenses/by/4.0/
+# Attribution: The Norwegian Agency for Finance and Public Management (DFØ)
+#
+# This file is generated from 'src/codelists/notice-subtype.yaml'.
+# Do not edit manually.
+# Update 'src/codelists/notice-subtype-distribution-manifest.toml' instead.
 T01:
   name: 'Prior information notice for public service contract'
   nob: 'Veiledende kunngjøring – offentlig persontransport'
   history:
-    - name: 'T01'
-      nob: 'Forhåndsmelding om kontrakt om offentlig tjeneste'
-      history: []
-      nob_verify: true
-    - name: 'Prior information notice for public service contract'
-      nob: 'T01'
-      history: []
-      nob_verify: true
+  - name: 'T01'
+    nob: 'Forhåndsmelding om kontrakt om offentlig tjeneste'
+    nob_verify: true
+  - name: 'Prior information notice for public service contract'
+    nob: 'T01'
+    nob_verify: true
   nob_verify: true
