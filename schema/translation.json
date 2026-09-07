@@ -1,53 +1,310 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema",
-    "$ref": "#definitions/document",
-    "definitions": {
-        "document": {
-            "type": "object",
-            "patternProperties": {
-                "^.+$": {
-                    "$ref": "#definitions/item"
-                }
-            }
-        },
-        "item": {
-            "title": "Translatable item",
-            "type": "object",
-            "additionalProperties": false,
-            "required": [
-                "name"
-            ],
-            "properties": {
-                "name": {
-                    "title": "Translation source",
-                    "type": "string"
-                },
-                "history": {
-                    "title": "Historic information",
-                    "type": "array",
-                    "items": {
-                        "$ref": "#definitions/item"
-                    }
-                },
-                "nob": {
-                    "title": "Translation to Norwegian bokmål",
-                    "type": "string"
-                },
-                "nno": {
-                    "title": "Translation to Norwegian nynorsk",
-                    "type": "string"
-                },
-                "nob_verify": {
-                    "title": "Indication of verification needed",
-                    "type": "boolean",
-                    "default": false
-                },
-                "nno_verify": {
-                    "title": "Indication of verification needed",
-                    "type": "boolean",
-                    "default": false
-                }
-            }
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$ref": "#/definitions/document",
+  "definitions": {
+    "document": {
+      "type": "object",
+      "patternProperties": {
+        "^.+$": {
+          "$ref": "#/definitions/item"
         }
+      }
+    },
+    "item": {
+      "title": "Translatable item",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "title": "Translation source (canonical English label)",
+          "type": "string"
+        },
+        "nob": {
+          "title": "Translation to Norwegian bokmål",
+          "type": "string"
+        },
+        "nno": {
+          "title": "Translation to Norwegian nynorsk",
+          "type": "string"
+        },
+        "nob_verify": {
+          "title": "Norwegian bokmål translation requires verification",
+          "type": "boolean",
+          "default": true
+        },
+        "nno_verify": {
+          "title": "Norwegian nynorsk translation requires verification",
+          "type": "boolean",
+          "default": true
+        },
+        "status": {
+          "title": "Lifecycle status of this codelist value",
+          "type": "string",
+          "enum": [
+            "active",
+            "provisional",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "source": {
+          "title": "Origin of this codelist value",
+          "type": "string",
+          "enum": [
+            "op-ted",
+            "nor"
+          ]
+        },
+        "valid_from_date": {
+          "title": "Calendar date from which this entry is valid (inclusive)",
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "valid_to_date": {
+          "title": "Calendar date from which this entry is no longer valid (inclusive)",
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "valid_from_sdk": {
+          "title": "SDK version from which this entry is valid (inclusive)",
+          "type": ["string", "null"]
+        },
+        "valid_to_sdk": {
+          "title": "SDK version from which this entry is no longer valid (inclusive)",
+          "type": ["string", "null"]
+        },
+        "replaces": {
+          "title": "Key(s) of codelist value(s) this entry supersedes",
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1
+            }
+          ]
+        },
+        "replaced_by": {
+          "title": "Key of the codelist value that supersedes this entry",
+          "type": "string"
+        },
+        "note": {
+          "title": "Maintainer annotation, visible to tooling unlike YAML comments",
+          "type": ["string", "null"]
+        },
+        "history": {
+          "title": "Flat list of past snapshots of this entry",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/snapshot"
+          }
+        },
+        "future": {
+          "title": "Flat list of planned future snapshots of this entry; each must have at least one validity anchor",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/future_snapshot"
+          }
+        }
+      }
+    },
+    "snapshot": {
+      "title": "A point-in-time snapshot of a translatable item (history or future); cannot itself contain history or future",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "title": "Translation source (canonical English label)",
+          "type": "string"
+        },
+        "nob": {
+          "title": "Translation to Norwegian bokmål",
+          "type": "string"
+        },
+        "nno": {
+          "title": "Translation to Norwegian nynorsk",
+          "type": "string"
+        },
+        "nob_verify": {
+          "title": "Norwegian bokmål translation requires verification",
+          "type": "boolean",
+          "default": true
+        },
+        "nno_verify": {
+          "title": "Norwegian nynorsk translation requires verification",
+          "type": "boolean",
+          "default": true
+        },
+        "status": {
+          "title": "Lifecycle status of this codelist value at the time of this snapshot",
+          "type": "string",
+          "enum": [
+            "active",
+            "provisional",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "source": {
+          "title": "Origin of this codelist value",
+          "type": "string",
+          "enum": [
+            "op-ted",
+            "nor"
+          ]
+        },
+        "valid_from_date": {
+          "title": "Calendar date from which this snapshot was valid (inclusive)",
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "valid_to_date": {
+          "title": "Calendar date from which this snapshot was no longer valid (inclusive)",
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "valid_from_sdk": {
+          "title": "SDK version from which this snapshot was valid (inclusive)",
+          "type": ["string", "null"]
+        },
+        "valid_to_sdk": {
+          "title": "SDK version from which this snapshot was no longer valid (inclusive)",
+          "type": ["string", "null"]
+        },
+        "replaces": {
+          "title": "Key(s) of codelist value(s) this entry superseded at this point in time",
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1
+            }
+          ]
+        },
+        "replaced_by": {
+          "title": "Key of the codelist value that superseded this entry at this point in time",
+          "type": "string"
+        },
+        "note": {
+          "title": "Maintainer annotation for this snapshot",
+          "type": ["string", "null"]
+        },
+		"history": {
+			"title": "Deprecated: Field tolerated for backwards compatibility, must be empty array",
+			"type": "array",
+			"maxItems": 0
+		}
+      }
+    },
+    "future_snapshot": {
+      "title": "A planned future snapshot of a translatable item; requires at least one validity anchor (valid_from_date and/or valid_from_sdk)",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "anyOf": [
+        { "required": ["valid_from_date"] },
+        { "required": ["valid_from_sdk"] }
+      ],
+      "properties": {
+        "name": {
+          "title": "Translation source (canonical English label)",
+          "type": "string"
+        },
+        "nob": {
+          "title": "Translation to Norwegian bokmål",
+          "type": "string"
+        },
+        "nno": {
+          "title": "Translation to Norwegian nynorsk",
+          "type": "string"
+        },
+        "nob_verify": {
+          "title": "Norwegian bokmål translation requires verification",
+          "type": "boolean",
+          "default": true
+        },
+        "nno_verify": {
+          "title": "Norwegian nynorsk translation requires verification",
+          "type": "boolean",
+          "default": true
+        },
+        "status": {
+          "title": "Lifecycle status of this codelist value at the time of this future snapshot",
+          "type": "string",
+          "enum": [
+            "active",
+            "provisional",
+            "deprecated",
+            "retired"
+          ]
+        },
+        "source": {
+          "title": "Origin of this codelist value",
+          "type": "string",
+          "enum": [
+            "op-ted",
+            "nor"
+          ]
+        },
+        "valid_from_date": {
+          "title": "Calendar date from which this future snapshot becomes valid (inclusive)",
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "valid_to_date": {
+          "title": "Calendar date from which this future snapshot is no longer valid (inclusive)",
+          "type": ["string", "null"],
+          "format": "date"
+        },
+        "valid_from_sdk": {
+          "title": "SDK version from which this future snapshot becomes valid (inclusive)",
+          "type": ["string", "null"]
+        },
+        "valid_to_sdk": {
+          "title": "SDK version from which this future snapshot is no longer valid (inclusive)",
+          "type": ["string", "null"]
+        },
+        "replaces": {
+          "title": "Key(s) of codelist value(s) this entry will supersede",
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1
+            }
+          ]
+        },
+        "replaced_by": {
+          "title": "Key of the codelist value that will supersede this entry",
+          "type": "string"
+        },
+        "note": {
+          "title": "Maintainer annotation for this future snapshot",
+          "type": ["string", "null"]
+        }
+      }
     }
+  }
 }
