@@ -1,5 +1,5 @@
-EFORMS_MINOR ?= $$(./bin/property -p sdk_minor)
-EFORMS_PATCH ?= $$(./bin/property -p sdk_patch)
+EFORMS_MINOR ?= $(shell ./bin/property -p sdk_minor)
+EFORMS_PATCH ?= $(shell ./bin/property -p sdk_patch)
 EFORMS_VERSION = $(EFORMS_MINOR).$(EFORMS_PATCH)
 ISSUE_DATETIME = $$( \
     date -d '-12 hours' +%Y-%m-%dT%H:%M:%S 2>/dev/null \
@@ -18,7 +18,26 @@ TESTS ?= src/tests
 
 VALIDATOR_IMAGE ?= ghcr.io/anskaffelser/validator:edge
 
+.PHONY: ci-local clean-ci-local
+
+ci-local:
+	$(MAKE) clean-ci-local
+	$(MAKE) .bundle/vendor
+	$(MAKE) target/eforms-sdk
+	$(MAKE) target/saxon
+	$(MAKE) status
+	$(MAKE) build
+	$(MAKE) validator
+
+clean-ci-local:
+	@rm -rf target
+
+
 default: clean-light build
+debug:
+	@echo "EFORMS_MINOR=$(EFORMS_MINOR)"
+	@echo "EFORMS_PATCH=$(EFORMS_PATCH)"
+	@echo "EFORMS_VERSION=$(EFORMS_VERSION)"
 
 clean-light:
 	@rm -rf target/eforms-sdk-nor target/sch target/*.asice target/buildconfig.xml target/eforms-sdk/schemas/all.xsd target/tests
@@ -66,7 +85,9 @@ target/eforms-sdk/README.md:
 	@unzip -qo target/eforms-sdk.zip -d target
 	@mv target/eForms-SDK-$(EFORMS_VERSION) target/eforms-sdk
 	@rm -rf target/eforms-sdk.zip
-	@test ! -d src/patch/eforms-sdk/$(EFORMS_MINOR) || patch --directory=target/eforms-sdk -p1 < $$(ls src/patch/eforms-sdk/$(EFORMS_MINOR)/*.patch)
+	@sh ./bin/apply-patches \
+		target/eforms-sdk \
+		src/patch/eforms-sdk/$(EFORMS_MINOR)
 
 .bundle/vendor:
 	@echo "* Install dependencies"
@@ -87,7 +108,9 @@ target/eforms-sdk-nor: \
 	target/eforms-sdk-nor/README.md \
 	target/eforms-sdk-nor/LICENSE-eForms-SDK \
 	target/eforms-sdk-nor/LICENSE-eForms-SDK-NOR
-	@test ! -d src/patch/eforms-sdk-nor/$(EFORMS_MINOR) || patch --directory=target/eforms-sdk-nor -p1 < $$(ls src/patch/eforms-sdk-nor/$(EFORMS_MINOR)/*.patch)
+	@sh ./bin/apply-patches \
+		target/eforms-sdk-nor \
+		src/patch/eforms-sdk-nor/$(EFORMS_MINOR)
 
 target/eforms-sdk-nor/codelists: target/eforms-sdk bin/create-codelists src/properties.yaml
 	@EFORMS_VERSION=$(EFORMS_VERSION) ./bin/create-codelists
