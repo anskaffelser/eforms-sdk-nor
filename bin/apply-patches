@@ -1,0 +1,37 @@
+#!/bin/sh
+set -eu
+
+target_dir=$1
+patch_dir=$2
+
+if [ ! -d "$target_dir" ]; then
+    echo "Patch target does not exist: $target_dir" >&2
+    exit 1
+fi
+
+if [ ! -d "$patch_dir" ]; then
+    echo "No patch directory: $patch_dir"
+    exit 0
+fi
+
+LC_ALL=C
+export LC_ALL
+
+found=false
+
+for patch_file in "$patch_dir"/*.patch; do
+    [ -f "$patch_file" ] || continue
+    found=true
+
+    echo "* Applying $patch_file"
+    patch \
+        --batch \
+        --forward \
+        --verbose \
+        --directory="$target_dir" \
+        -p1 < "$patch_file"
+done
+
+if [ "$found" = false ]; then
+    echo "No patches found in $patch_dir"
+fi
