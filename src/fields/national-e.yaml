@@ -111,22 +111,6 @@ rules:
   - id: EFORMS-NOR-NATIONAL-DT-R001F
     test: not(normalize-space(.)) or matches(normalize-space(.), '^-?\d+(\.\d{1,2})?$')
     message: Monetary values must be numbers with a maximum of two decimals.
-  BT-536-Lot:
-  - id: EFORMS-NOR-NATIONAL-DV-R004C
-    test: normalize-space(.) = normalize-space((/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:StartDate)[1])
-    message: All lots must have the same start date.
-  BT-536-Part:
-  - id: EFORMS-NOR-NATIONAL-DV-R003A
-    test: normalize-space(.) = normalize-space((/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:StartDate)[1])
-    message: All parts must have the same start date.
-  BT-537-Lot:
-  - id: EFORMS-NOR-NATIONAL-DV-R004D
-    test: normalize-space(.) = normalize-space((/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:EndDate)[1])
-    message: All lots must have the same end date.
-  BT-537-Part:
-  - id: EFORMS-NOR-NATIONAL-DV-R003B
-    test: normalize-space(.) = normalize-space((/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:EndDate)[1])
-    message: All parts must have the same end date.
   BT-539-Lot:
   - id: EFORMS-NOR-NATIONAL-EC-R001B
     test: if (exists(.)) then (if (not(normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) = 'NOR — Unntatt fra lov om offentlige anskaffelser' or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) = 'NOR — Exempt from the Public Procurement Act')) then (if ((normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference/cbc:ID) = 'LocalLegalBasis') and ((not(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'NOR']) = 'NOR — Anskaffelsesforskriften Del 1 og 2') and (not(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) or normalize-space(/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[normalize-space(cbc:ID) = 'LocalLegalBasis']/cbc:DocumentDescription[@languageID = 'ENG']) = 'NOR — Public Procurement Regulations Parts 1 and 2'))) then (((some $c in ../../cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName = 'award-criterion-type'] satisfies normalize-space($c) = ('quality-nor-env-criteria', 'quality-nor-env-spec', 'quality-nor-env-exempt-insignificant', 'quality-nor-env-exempt-critical-interest', 'quality-nor-env-exempt-national-minimum')))) else true()) else true()) else true()
