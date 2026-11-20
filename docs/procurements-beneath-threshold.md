@@ -238,7 +238,7 @@ The Norwegian tailoring rules described for **E2** apply equally to **E4** for t
 
 ### Environmental and Climate Validation
 
-Additional Norwegian validation rules apply to environmental and climate requirements in E3 notices.
+Additional Norwegian validation rules apply to environmental and climate requirements at Lot level in national eForms notices (E3 and E4, where applicable).
 
 | Rule | Description |
 |---|---|
@@ -250,6 +250,6 @@ Additional Norwegian validation rules apply to environmental and climate require
 
 Some rules also apply under FOA Part I or outside E3, depending on their conditions.
 
-**Testing:** 24 E3 XML test cases have been created: 11 expected valid and 13 expected invalid. All 13 negative tests triggered the expected Norwegian rules. Full validation of the positive tests is still pending.
+**Testing:** 24 E3 XML test cases have been created: 11 expected valid and 13 expected invalid. All positive tests passed, and all negative tests triggered the expected Norwegian validation rules in the reported local test execution.
 
 See [Environmental Considerations](./environmental-considerations.md) for more information.
