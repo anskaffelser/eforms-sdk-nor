@@ -234,3 +234,22 @@ The Norwegian tailoring rules described for **E2** apply equally to **E4** for t
 | **Field-ID** | **Title** | **XPath** | **Data type** | **Norwegian Tailoring** |
 |--------------|-----------|-----------|---------------|-------------------------|
 | 📝 BT-       |           | `/*/` |               |                         |
+
+
+### Environmental and Climate Validation
+
+Additional Norwegian validation rules apply to environmental and climate requirements at Lot level in national eForms notices (E3 and E4, where applicable).
+
+| Rule | Description |
+|---|---|
+| `EC-R001B` | FOA Part II requires a Norwegian environmental code (BT-539) or an evaluation method (BT-543). |
+| `EC-R001C` | Environmental specification and exemption codes require a description (BT-540) and weight 0 (BT-541). |
+| `EC-R001D` | Under FOA Part II, environmental criteria must have at least 30% combined weighting or rank 1–3, unless an exception applies. |
+| `SP-R003A` | Detailed environmental impact codes require their general parent code. |
+| `SP-R004` | `env-imp` is required when environmental specifications are used, weighting reaches 30%, or environmental criteria rank 1–3. |
+
+Some rules also apply under FOA Part I or outside E3, depending on their conditions.
+
+**Testing:** 24 E3 XML test cases have been created: 11 expected valid and 13 expected invalid. All positive tests passed, and all negative tests triggered the expected Norwegian validation rules in the reported local test execution.
+
+See [Environmental Considerations](./environmental-considerations.md) for more information.

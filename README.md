@@ -23,6 +23,7 @@ Technical details and implementation guides can be found in the [`/docs`](./docs
 * **[Doffin API](./docs/doffin-api.md):** Integration guide for the Doffin API.
 * **[Notice Identifiers](./docs/notice-identifiers.md):** Overview of how notices are identified within the eForms format.
 * **Strategic Guides:** Information regarding [environmental considerations](./docs/environmental-considerations.md) and [strategic procurement](./docs/strategic-procurement.md).
+* **[Norwegian E-form Validation Rules](./docs/procurements-beneath-threshold.md#environmental-and-climate-validation):** Environmental and climate rules for national E-forms.
 
 Check the `/docs` folder regularly for updates as we refine the SDK's documentation structure.
 
